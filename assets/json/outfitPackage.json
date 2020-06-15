@@ -1,0 +1,47 @@
+[
+  {
+    "Id": "out1",
+    "Icon": "items/out1.png",
+    "Color": "19e753",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 9,
+      "Friction": 3,
+      "Buoyancy": 7
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "out2",
+    "Icon": "items/out2.png",
+    "Color": "a20fff",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 9,
+      "Friction": 3,
+      "Buoyancy": 7
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "out3",
+    "Icon": "items/out3.png",
+    "Color": "f9b303",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 9,
+      "Friction": 3,
+      "Buoyancy": 7
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  }
+]

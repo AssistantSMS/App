@@ -1,0 +1,302 @@
+[
+  {
+    "Id": "build1",
+    "Icon": "items/build1.png",
+    "Color": "ee9e28",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 4,
+      "Friction": 3,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 500.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "build2",
+    "Icon": "items/build2.png",
+    "Color": "ee9e28",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 4,
+      "Friction": 3,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 500.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "build3",
+    "Icon": "items/build3.png",
+    "Color": "ee9e28",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 4,
+      "Friction": 4,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 500.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "build4",
+    "Icon": "items/build4.png",
+    "Color": "ee9e28",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 4,
+      "Friction": 4,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 500.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "build5",
+    "Icon": "items/build5.png",
+    "Color": "ee9e28",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 6,
+      "Durability": 5,
+      "Friction": 5,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 500.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "build6",
+    "Icon": "items/build6.png",
+    "Color": "ebb100",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 2,
+      "Friction": 4,
+      "Buoyancy": 5
+    },
+    "Flammable": true,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "build7",
+    "Icon": "items/build7.png",
+    "Color": "3e9ffe",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 6,
+      "Durability": 6,
+      "Friction": 6,
+      "Buoyancy": 6
+    },
+    "Flammable": true,
+    "Density": 500.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "build8",
+    "Icon": "items/build8.png",
+    "Color": "ebb100",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 2,
+      "Friction": 4,
+      "Buoyancy": 6
+    },
+    "Flammable": true,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "build9",
+    "Icon": "items/build9.png",
+    "Color": "9a3535",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 1,
+      "Friction": 4,
+      "Buoyancy": 6
+    },
+    "Flammable": true,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "build10",
+    "Icon": "items/build10.png",
+    "Color": "3e9ffe",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 6,
+      "Friction": 4,
+      "Buoyancy": 3
+    },
+    "Flammable": false,
+    "Density": 1250.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "build11",
+    "Icon": "items/build11.png",
+    "Color": "408fc7",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 3,
+      "Friction": 3,
+      "Buoyancy": 6
+    },
+    "Flammable": false,
+    "Density": 500.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "build12",
+    "Icon": "items/build12.png",
+    "Color": "b43320",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 2,
+      "Friction": 5,
+      "Buoyancy": 3
+    },
+    "Flammable": true,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "build13",
+    "Icon": "items/build13.png",
+    "Color": "408fc7",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 1,
+      "Friction": 4,
+      "Buoyancy": 6
+    },
+    "Flammable": true,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "build14",
+    "Icon": "items/build14.png",
+    "Color": "8c9c3f",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 3,
+      "Friction": 3,
+      "Buoyancy": 4
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "build15",
+    "Icon": "items/build15.png",
+    "Color": "79859c",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 6,
+      "Friction": 4,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 500.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "build16",
+    "Icon": "items/build16.png",
+    "Color": "8c9c3f",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 5,
+      "Friction": 4,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 500.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "build17",
+    "Icon": "items/build17.png",
+    "Color": "8c9c3f",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 5,
+      "Friction": 4,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 500.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "build18",
+    "Icon": "items/build18.png",
+    "Color": "8c9c3f",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 4,
+      "Friction": 4,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 500.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "build19",
+    "Icon": "items/build19.png",
+    "Color": "8c9c3f",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 3,
+      "Friction": 4,
+      "Buoyancy": 2
+    },
+    "Flammable": true,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "build20",
+    "Icon": "items/build20.png",
+    "Color": "8c9c3f",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 4,
+      "Friction": 4,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 500.0,
+    "QualityLevel": 0
+  }
+]

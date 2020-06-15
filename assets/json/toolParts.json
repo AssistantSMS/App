@@ -1,0 +1,47 @@
+[
+  {
+    "Id": "tool1",
+    "Icon": "items/tool1.png",
+    "Color": "0b9ade",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 0,
+      "Buoyancy": 0
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "tool2",
+    "Icon": "items/tool2.png",
+    "Color": "0b9ade",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 0,
+      "Buoyancy": 0
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "tool3",
+    "Icon": "items/tool3.png",
+    "Color": "0b9ade",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 0,
+      "Buoyancy": 0
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  }
+]

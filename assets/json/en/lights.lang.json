@@ -1,0 +1,26 @@
+[
+  {
+    "Id": "light1",
+    "Title": "Warehouse Wall Light"
+  },
+  {
+    "Id": "light2",
+    "Title": "Packing Lamp"
+  },
+  {
+    "Id": "light3",
+    "Title": "Warehouse Fluorescent Light"
+  },
+  {
+    "Id": "light4",
+    "Title": "Warehouse Square Light"
+  },
+  {
+    "Id": "light5",
+    "Title": "Warehouse Spotlight"
+  },
+  {
+    "Id": "light6",
+    "Title": "Warehouse Spot Small"
+  }
+]

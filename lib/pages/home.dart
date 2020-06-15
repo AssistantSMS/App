@@ -35,6 +35,35 @@ class Home extends StatelessWidget {
   Widget getBody(BuildContext context) {
     const smallImage = 50.0;
     const largeImage = 96.0;
+
+    var all = [
+      LocaleKey.blocksJson,
+      LocaleKey.buildingJson,
+      LocaleKey.constructionJson,
+      LocaleKey.consumableJson,
+      LocaleKey.containersJson,
+      LocaleKey.craftbotJson,
+      LocaleKey.decorJson,
+      LocaleKey.gittingJson,
+      LocaleKey.harvestJson,
+      LocaleKey.industrialJson,
+      LocaleKey.interactiveJson,
+      LocaleKey.interactiveUpgradableJson,
+      LocaleKey.interactiveContainerJson,
+      LocaleKey.lightJson,
+      LocaleKey.manMadeJson,
+      LocaleKey.outfitJson,
+      LocaleKey.packingCrateJson,
+      LocaleKey.plantJson,
+      LocaleKey.powerJson,
+      LocaleKey.resourcesJson,
+      LocaleKey.robotJson,
+      LocaleKey.survivalJson,
+      LocaleKey.toolJson,
+      LocaleKey.vehicleJson,
+      LocaleKey.warehouseJson,
+    ];
+
     return responsiveStaggeredGrid(
       [
         StaggeredGridItem(
@@ -74,9 +103,7 @@ class Home extends StatelessWidget {
             height: largeImage,
             onTap: () async => await navigateAwayFromHomeAsync(
               context,
-              navigateTo: (context) => GameItemListPage(
-                [LocaleKey.blocksJson, LocaleKey.resourcesJson],
-              ),
+              navigateTo: (context) => GameItemListPage(all),
             ),
           ),
           gridItemType: StaggeredGridItemType.medSquare,

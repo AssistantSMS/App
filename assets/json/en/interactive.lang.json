@@ -1,0 +1,58 @@
+[
+  {
+    "Id": "intera1",
+    "Title": "Fridge"
+  },
+  {
+    "Id": "intera2",
+    "Title": "Locker"
+  },
+  {
+    "Id": "intera3",
+    "Title": "File Cabinet"
+  },
+  {
+    "Id": "intera4",
+    "Title": "Chest"
+  },
+  {
+    "Id": "intera5",
+    "Title": "Large Chest"
+  },
+  {
+    "Id": "intera6",
+    "Title": "Protector: Anti-Destruction"
+  },
+  {
+    "Id": "intera7",
+    "Title": "Encryptor: Anti-Connection"
+  },
+  {
+    "Id": "intera8",
+    "Title": "Oily Toilet Seat"
+  },
+  {
+    "Id": "intera9",
+    "Title": "Resource Collector"
+  },
+  {
+    "Id": "intera10",
+    "Title": "Refinebot"
+  },
+  {
+    "Id": "intera11",
+    "Title": "Dressbot"
+  },
+  {
+    "Id": "intera12",
+    "Title": "Water Cannon"
+  },
+  {
+    "Id": "intera13",
+    "Title": "Mountable Spud Gun"
+  },
+  {
+    "Id": "intera14",
+    "Title": "Respawn Bed"
+  }
+]

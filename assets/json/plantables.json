@@ -1,0 +1,272 @@
+[
+  {
+    "Id": "plant1",
+    "Icon": "items/plant1.png",
+    "Color": "83a633",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 2,
+      "Friction": 4,
+      "Buoyancy": 3
+    },
+    "Flammable": true,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "plant2",
+    "Icon": "items/plant2.png",
+    "Color": "5d41d9",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 2,
+      "Friction": 4,
+      "Buoyancy": 3
+    },
+    "Flammable": true,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "plant3",
+    "Icon": "items/plant3.png",
+    "Color": "fd5d38",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 2,
+      "Friction": 4,
+      "Buoyancy": 3
+    },
+    "Flammable": true,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "plant4",
+    "Icon": "items/plant4.png",
+    "Color": "23b777",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 2,
+      "Friction": 4,
+      "Buoyancy": 3
+    },
+    "Flammable": true,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "plant5",
+    "Icon": "items/plant5.png",
+    "Color": "3f7abc",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 2,
+      "Friction": 4,
+      "Buoyancy": 3
+    },
+    "Flammable": true,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "plant6",
+    "Icon": "items/plant6.png",
+    "Color": "a42039",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 2,
+      "Friction": 4,
+      "Buoyancy": 3
+    },
+    "Flammable": true,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "plant7",
+    "Icon": "items/plant7.png",
+    "Color": "e39c04",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 2,
+      "Friction": 4,
+      "Buoyancy": 3
+    },
+    "Flammable": true,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "plant8",
+    "Icon": "items/plant8.png",
+    "Color": "7c862c",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 2,
+      "Friction": 4,
+      "Buoyancy": 3
+    },
+    "Flammable": true,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "plant9",
+    "Icon": "items/plant9.png",
+    "Color": "52662e",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 2,
+      "Friction": 4,
+      "Buoyancy": 3
+    },
+    "Flammable": true,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "plant10",
+    "Icon": "items/plant10.png",
+    "Color": "e9c410",
+    "PhysicsMaterial": "Fruit",
+    "Ratings": {
+      "Density": 1,
+      "Durability": 1,
+      "Friction": 4,
+      "Buoyancy": 4
+    },
+    "Flammable": true,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "plant11",
+    "Icon": "items/plant11.png",
+    "Color": "e9c410",
+    "PhysicsMaterial": "Fruit",
+    "Ratings": {
+      "Density": 1,
+      "Durability": 1,
+      "Friction": 4,
+      "Buoyancy": 4
+    },
+    "Flammable": true,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "plant12",
+    "Icon": "items/plant12.png",
+    "Color": "e9c410",
+    "PhysicsMaterial": "Fruit",
+    "Ratings": {
+      "Density": 1,
+      "Durability": 1,
+      "Friction": 4,
+      "Buoyancy": 4
+    },
+    "Flammable": true,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "plant13",
+    "Icon": "items/plant13.png",
+    "Color": "e3ae20",
+    "PhysicsMaterial": "Fruit",
+    "Ratings": {
+      "Density": 1,
+      "Durability": 1,
+      "Friction": 4,
+      "Buoyancy": 4
+    },
+    "Flammable": true,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "plant14",
+    "Icon": "items/plant14.png",
+    "Color": "a64102",
+    "PhysicsMaterial": "Fruit",
+    "Ratings": {
+      "Density": 1,
+      "Durability": 1,
+      "Friction": 4,
+      "Buoyancy": 4
+    },
+    "Flammable": true,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "plant15",
+    "Icon": "items/plant15.png",
+    "Color": "a6274d",
+    "PhysicsMaterial": "Fruit",
+    "Ratings": {
+      "Density": 1,
+      "Durability": 1,
+      "Friction": 4,
+      "Buoyancy": 4
+    },
+    "Flammable": true,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "plant16",
+    "Icon": "items/plant16.png",
+    "Color": "a6274d",
+    "PhysicsMaterial": "Fruit",
+    "Ratings": {
+      "Density": 1,
+      "Durability": 1,
+      "Friction": 4,
+      "Buoyancy": 4
+    },
+    "Flammable": true,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "plant17",
+    "Icon": "items/plant17.png",
+    "Color": "a6274d",
+    "PhysicsMaterial": "Fruit",
+    "Ratings": {
+      "Density": 1,
+      "Durability": 1,
+      "Friction": 4,
+      "Buoyancy": 4
+    },
+    "Flammable": true,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "plant18",
+    "Icon": "items/plant18.png",
+    "Color": "505c30",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 1,
+      "Friction": 4,
+      "Buoyancy": 3
+    },
+    "Flammable": true,
+    "Density": 0.0,
+    "QualityLevel": 0
+  }
+]

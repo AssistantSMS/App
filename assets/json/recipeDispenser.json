@@ -1,0 +1,84 @@
+[
+  {
+    "Id": "recipeDisp1",
+    "Icon": "items/recipeDisp1.png",
+    "Ingredients": [
+      {
+        "Id": "blk4",
+        "Quantity": 90
+      },
+      {
+        "Id": "reso6",
+        "Quantity": 10
+      },
+      {
+        "Id": "consu6",
+        "Quantity": 10
+      }
+    ]
+  },
+  {
+    "Id": "recipeDisp2",
+    "Icon": "items/recipeDisp2.png",
+    "Ingredients": [
+      {
+        "Id": "recipeCraft8",
+        "Quantity": 60
+      },
+      {
+        "Id": "reso6",
+        "Quantity": 5
+      },
+      {
+        "Id": "consu6",
+        "Quantity": 5
+      }
+    ]
+  },
+  {
+    "Id": "recipeDisp3",
+    "Icon": "items/recipeDisp3.png",
+    "Ingredients": [
+      {
+        "Id": "recipeCraft8",
+        "Quantity": 30
+      }
+    ]
+  },
+  {
+    "Id": "recipeDisp4",
+    "Icon": "items/recipeDisp4.png",
+    "Ingredients": [
+      {
+        "Id": "recipeCraft9",
+        "Quantity": 50
+      },
+      {
+        "Id": "reso6",
+        "Quantity": 10
+      },
+      {
+        "Id": "consu6",
+        "Quantity": 10
+      }
+    ]
+  },
+  {
+    "Id": "recipeDisp5",
+    "Icon": "items/recipeDisp5.png",
+    "Ingredients": [
+      {
+        "Id": "recipeCraft10",
+        "Quantity": 50
+      },
+      {
+        "Id": "reso6",
+        "Quantity": 10
+      },
+      {
+        "Id": "consu6",
+        "Quantity": 10
+      }
+    ]
+  }
+]

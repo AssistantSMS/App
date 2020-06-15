@@ -1,0 +1,128 @@
+[
+  {
+    "Id": "recipeWorkbench1",
+    "Icon": "items/recipeWorkbench1.png",
+    "Ingredients": [
+      {
+        "Id": "blk4",
+        "Quantity": 30
+      },
+      {
+        "Id": "blk1",
+        "Quantity": 20
+      },
+      {
+        "Id": "reso6",
+        "Quantity": 3
+      }
+    ]
+  },
+  {
+    "Id": "recipeWorkbench2",
+    "Icon": "items/recipeWorkbench2.png",
+    "Ingredients": [
+      {
+        "Id": "blk4",
+        "Quantity": 10
+      },
+      {
+        "Id": "blk1",
+        "Quantity": 100
+      },
+      {
+        "Id": "reso6",
+        "Quantity": 2
+      }
+    ]
+  },
+  {
+    "Id": "recipeWorkbench3",
+    "Icon": "items/recipeWorkbench3.png",
+    "Ingredients": [
+      {
+        "Id": "blk1",
+        "Quantity": 50
+      },
+      {
+        "Id": "reso6",
+        "Quantity": 1
+      }
+    ]
+  },
+  {
+    "Id": "recipeWorkbench4",
+    "Icon": "items/recipeWorkbench4.png",
+    "Ingredients": [
+      {
+        "Id": "blk1",
+        "Quantity": 20
+      },
+      {
+        "Id": "blk4",
+        "Quantity": 5
+      }
+    ]
+  },
+  {
+    "Id": "recipeCraft31",
+    "Icon": "items/recipeCraft31.png",
+    "Ingredients": [
+      {
+        "Id": "blk4",
+        "Quantity": 5
+      }
+    ]
+  },
+  {
+    "Id": "recipeCraft4",
+    "Icon": "items/recipeCraft4.png",
+    "Ingredients": [
+      {
+        "Id": "blk1",
+        "Quantity": 5
+      }
+    ]
+  },
+  {
+    "Id": "recipeCraft32",
+    "Icon": "items/recipeCraft32.png",
+    "Ingredients": [
+      {
+        "Id": "blk4",
+        "Quantity": 1
+      },
+      {
+        "Id": "reso6",
+        "Quantity": 1
+      }
+    ]
+  },
+  {
+    "Id": "recipeCraft33",
+    "Icon": "items/recipeCraft33.png",
+    "Ingredients": [
+      {
+        "Id": "blk4",
+        "Quantity": 1
+      },
+      {
+        "Id": "reso6",
+        "Quantity": 1
+      }
+    ]
+  },
+  {
+    "Id": "recipeCraft1",
+    "Icon": "items/recipeCraft1.png",
+    "Ingredients": [
+      {
+        "Id": "blk4",
+        "Quantity": 10
+      },
+      {
+        "Id": "reso6",
+        "Quantity": 2
+      }
+    ]
+  }
+]

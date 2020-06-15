@@ -1,0 +1,32 @@
+[
+  {
+    "Id": "powertool1",
+    "Icon": "items/powertool1.png",
+    "Color": "df7f01",
+    "PhysicsMaterial": "Mechanical",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 7,
+      "Friction": 2,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "powertool2",
+    "Icon": "items/powertool2.png",
+    "Color": "df7f01",
+    "PhysicsMaterial": "Mechanical",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 7,
+      "Friction": 2,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 1250.0,
+    "QualityLevel": 0
+  }
+]

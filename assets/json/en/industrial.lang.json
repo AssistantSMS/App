@@ -1,0 +1,82 @@
+[
+  {
+    "Id": "indus1",
+    "Title": "Generator Coil Segment"
+  },
+  {
+    "Id": "indus2",
+    "Title": "Generator Coil Corner"
+  },
+  {
+    "Id": "indus3",
+    "Title": "Ventilation Frame"
+  },
+  {
+    "Id": "indus4",
+    "Title": "Steel Support Bracket"
+  },
+  {
+    "Id": "indus5",
+    "Title": "Encryptor Base"
+  },
+  {
+    "Id": "indus6",
+    "Title": "Encryptor Base Plate"
+  },
+  {
+    "Id": "indus7",
+    "Title": "Encryptor Frame Top"
+  },
+  {
+    "Id": "indus8",
+    "Title": "Small Steel Bracket"
+  },
+  {
+    "Id": "indus9",
+    "Title": "Encryptor Frame Beam"
+  },
+  {
+    "Id": "indus10",
+    "Title": "Encryptor Holder"
+  },
+  {
+    "Id": "indus11",
+    "Title": "Base Extension"
+  },
+  {
+    "Id": "indus12",
+    "Title": "Generator B"
+  },
+  {
+    "Id": "indus13",
+    "Title": "Generator C"
+  },
+  {
+    "Id": "indus14",
+    "Title": "Generator D"
+  },
+  {
+    "Id": "indus15",
+    "Title": "Generator A"
+  },
+  {
+    "Id": "indus16",
+    "Title": "Power Generator Side"
+  },
+  {
+    "Id": "indus17",
+    "Title": "Generator Tank"
+  },
+  {
+    "Id": "indus18",
+    "Title": "Generator E"
+  },
+  {
+    "Id": "indus19",
+    "Title": "Trigger Frame"
+  },
+  {
+    "Id": "indus20",
+    "Title": "Generator Pipe Holder"
+  }
+]

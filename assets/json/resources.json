@@ -1,7 +1,7 @@
 [
   {
-    "Id": "res1",
-    "Icon": "items/res1.png",
+    "Id": "reso1",
+    "Icon": "items/reso1.png",
     "Color": "808080",
     "PhysicsMaterial": "Wood",
     "Ratings": {
@@ -15,8 +15,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "res2",
-    "Icon": "items/res2.png",
+    "Id": "reso2",
+    "Icon": "items/reso2.png",
     "Color": "df7f01",
     "PhysicsMaterial": "Plastic",
     "Ratings": {
@@ -30,8 +30,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "res3",
-    "Icon": "items/res3.png",
+    "Id": "reso3",
+    "Icon": "items/reso3.png",
     "Color": "aaa8ef",
     "PhysicsMaterial": "Stone",
     "Ratings": {
@@ -45,8 +45,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "res4",
-    "Icon": "items/res4.png",
+    "Id": "reso4",
+    "Icon": "items/reso4.png",
     "Color": "3e9ffe",
     "PhysicsMaterial": "Plastic",
     "Ratings": {
@@ -60,8 +60,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "res5",
-    "Icon": "items/res5.png",
+    "Id": "reso5",
+    "Icon": "items/reso5.png",
     "Color": "1c8687",
     "PhysicsMaterial": "Fruit",
     "Ratings": {
@@ -75,8 +75,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "res6",
-    "Icon": "items/res6.png",
+    "Id": "reso6",
+    "Icon": "items/reso6.png",
     "Color": "4bffb5",
     "PhysicsMaterial": "Metal",
     "Ratings": {
@@ -90,8 +90,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "res7",
-    "Icon": "items/res7.png",
+    "Id": "reso7",
+    "Icon": "items/reso7.png",
     "Color": "4bffb5",
     "PhysicsMaterial": "Plastic",
     "Ratings": {
@@ -105,8 +105,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "res8",
-    "Icon": "items/res8.png",
+    "Id": "reso8",
+    "Icon": "items/reso8.png",
     "Color": "4bffb5",
     "PhysicsMaterial": "Plastic",
     "Ratings": {
@@ -120,8 +120,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "res9",
-    "Icon": "items/res9.png",
+    "Id": "reso9",
+    "Icon": "items/reso9.png",
     "Color": "4bffb5",
     "PhysicsMaterial": "Plastic",
     "Ratings": {
@@ -135,8 +135,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "res10",
-    "Icon": "items/res10.png",
+    "Id": "reso10",
+    "Icon": "items/reso10.png",
     "Color": "3da851",
     "PhysicsMaterial": "Plastic",
     "Ratings": {
@@ -150,8 +150,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "res11",
-    "Icon": "items/res11.png",
+    "Id": "reso11",
+    "Icon": "items/reso11.png",
     "Color": "495975",
     "PhysicsMaterial": "Metal",
     "Ratings": {

@@ -1,0 +1,44 @@
+[
+  {
+    "Id": "recipeDress1",
+    "Icon": "items/recipeDress1.png",
+    "Ingredients": [
+      {
+        "Id": "reso4",
+        "Quantity": 5
+      },
+      {
+        "Id": "recipeDress1",
+        "Quantity": 1
+      }
+    ]
+  },
+  {
+    "Id": "recipeDress2",
+    "Icon": "items/recipeDress2.png",
+    "Ingredients": [
+      {
+        "Id": "reso4",
+        "Quantity": 10
+      },
+      {
+        "Id": "recipeDress2",
+        "Quantity": 1
+      }
+    ]
+  },
+  {
+    "Id": "recipeDress3",
+    "Icon": "items/recipeDress3.png",
+    "Ingredients": [
+      {
+        "Id": "reso4",
+        "Quantity": 20
+      },
+      {
+        "Id": "recipeDress3",
+        "Quantity": 1
+      }
+    ]
+  }
+]

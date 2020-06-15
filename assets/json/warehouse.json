@@ -1,0 +1,676 @@
+[
+  {
+    "Id": "ware1",
+    "Icon": "items/ware1.png",
+    "Color": "c36512",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 6,
+      "Durability": 5,
+      "Friction": 4,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 450.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "ware2",
+    "Icon": "items/ware2.png",
+    "Color": "c36512",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 6,
+      "Durability": 5,
+      "Friction": 4,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 450.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "ware3",
+    "Icon": "items/ware3.png",
+    "Color": "c36512",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 6,
+      "Durability": 5,
+      "Friction": 4,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 450.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "ware4",
+    "Icon": "items/ware4.png",
+    "Color": "c36512",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 6,
+      "Durability": 5,
+      "Friction": 4,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 450.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "ware5",
+    "Icon": "items/ware5.png",
+    "Color": "c36512",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 6,
+      "Durability": 5,
+      "Friction": 4,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 450.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "ware6",
+    "Icon": "items/ware6.png",
+    "Color": "c36512",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 6,
+      "Durability": 5,
+      "Friction": 4,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 450.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "ware7",
+    "Icon": "items/ware7.png",
+    "Color": "c36512",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 6,
+      "Durability": 5,
+      "Friction": 4,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 450.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "ware8",
+    "Icon": "items/ware8.png",
+    "Color": "c36512",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 6,
+      "Durability": 5,
+      "Friction": 4,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 450.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "ware9",
+    "Icon": "items/ware9.png",
+    "Color": "c36512",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 6,
+      "Durability": 5,
+      "Friction": 4,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 450.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "ware10",
+    "Icon": "items/ware10.png",
+    "Color": "c36512",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 6,
+      "Durability": 5,
+      "Friction": 4,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 450.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "ware11",
+    "Icon": "items/ware11.png",
+    "Color": "c36512",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 6,
+      "Durability": 5,
+      "Friction": 4,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 450.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "ware12",
+    "Icon": "items/ware12.png",
+    "Color": "c36512",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 6,
+      "Durability": 6,
+      "Friction": 7,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "ware13",
+    "Icon": "items/ware13.png",
+    "Color": "c36512",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 6,
+      "Durability": 6,
+      "Friction": 7,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "ware14",
+    "Icon": "items/ware14.png",
+    "Color": "c36512",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 6,
+      "Durability": 6,
+      "Friction": 7,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "ware15",
+    "Icon": "items/ware15.png",
+    "Color": "c36512",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 6,
+      "Durability": 6,
+      "Friction": 7,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "ware16",
+    "Icon": "items/ware16.png",
+    "Color": "999999",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 3,
+      "Friction": 2,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 100.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "ware17",
+    "Icon": "items/ware17.png",
+    "Color": "902513",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 0,
+      "Buoyancy": 0
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "ware18",
+    "Icon": "items/ware18.png",
+    "Color": "5f5f5f",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 6,
+      "Friction": 6,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 200.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "ware19",
+    "Icon": "items/ware19.png",
+    "Color": "5f5f5f",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 4,
+      "Friction": 5,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 200.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "ware20",
+    "Icon": "items/ware20.png",
+    "Color": "5f5f5f",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 4,
+      "Friction": 5,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 200.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "ware21",
+    "Icon": "items/ware21.png",
+    "Color": "5f5f5f",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 4,
+      "Friction": 5,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 200.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "ware22",
+    "Icon": "items/ware22.png",
+    "Color": "77777c",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 4,
+      "Friction": 5,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 150.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "ware23",
+    "Icon": "items/ware23.png",
+    "Color": "77777c",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 4,
+      "Friction": 5,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 100.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "ware24",
+    "Icon": "items/ware24.png",
+    "Color": "902513",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 5,
+      "Friction": 7,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 200.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "ware25",
+    "Icon": "items/ware25.png",
+    "Color": "79859c",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 6,
+      "Durability": 5,
+      "Friction": 5,
+      "Buoyancy": 2
+    },
+    "Flammable": false,
+    "Density": 300.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "ware26",
+    "Icon": "items/ware26.png",
+    "Color": "79859c",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 5,
+      "Friction": 5,
+      "Buoyancy": 2
+    },
+    "Flammable": false,
+    "Density": 150.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "ware27",
+    "Icon": "items/ware27.png",
+    "Color": "c36512",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 2,
+      "Friction": 4,
+      "Buoyancy": 5
+    },
+    "Flammable": false,
+    "Density": 50.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "ware28",
+    "Icon": "items/ware28.png",
+    "Color": "c36512",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 6,
+      "Friction": 5,
+      "Buoyancy": 4
+    },
+    "Flammable": false,
+    "Density": 450.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "ware29",
+    "Icon": "items/ware29.png",
+    "Color": "c36512",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 4,
+      "Friction": 6,
+      "Buoyancy": 3
+    },
+    "Flammable": false,
+    "Density": 450.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "ware30",
+    "Icon": "items/ware30.png",
+    "Color": "c36512",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 3,
+      "Friction": 4,
+      "Buoyancy": 4
+    },
+    "Flammable": false,
+    "Density": 450.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "ware31",
+    "Icon": "items/ware31.png",
+    "Color": "6de5ff",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 2,
+      "Friction": 5,
+      "Buoyancy": 7
+    },
+    "Flammable": true,
+    "Density": 450.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "ware32",
+    "Icon": "items/ware32.png",
+    "Color": "8a0000",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 6,
+      "Durability": 4,
+      "Friction": 6,
+      "Buoyancy": 4
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "ware33",
+    "Icon": "items/ware33.png",
+    "Color": "8a0000",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 0,
+      "Buoyancy": 0
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "ware34",
+    "Icon": "items/ware34.png",
+    "Color": "c36512",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 4,
+      "Friction": 4,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "ware35",
+    "Icon": "items/ware35.png",
+    "Color": "c36512",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 5,
+      "Friction": 5,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 500.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "ware36",
+    "Icon": "items/ware36.png",
+    "Color": "c36512",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 5,
+      "Friction": 5,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "ware37",
+    "Icon": "items/ware37.png",
+    "Color": "c36512",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 7,
+      "Friction": 4,
+      "Buoyancy": 3
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "ware38",
+    "Icon": "items/ware38.png",
+    "Color": "c36512",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 5,
+      "Friction": 5,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "ware39",
+    "Icon": "items/ware39.png",
+    "Color": "c36512",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 7,
+      "Durability": 6,
+      "Friction": 5,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "ware40",
+    "Icon": "items/ware40.png",
+    "Color": "4a4a4a",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 6,
+      "Friction": 3,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 500.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "ware41",
+    "Icon": "items/ware41.png",
+    "Color": "c36512",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 6,
+      "Friction": 3,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "ware42",
+    "Icon": "items/ware42.png",
+    "Color": "c36512",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 7,
+      "Friction": 6,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "ware43",
+    "Icon": "items/ware43.png",
+    "Color": "4c6fe3",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 0,
+      "Buoyancy": 0
+    },
+    "Flammable": false,
+    "Density": 500.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "ware44",
+    "Icon": "items/ware44.png",
+    "Color": "c36512",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 0,
+      "Buoyancy": 0
+    },
+    "Flammable": false,
+    "Density": 500.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "ware45",
+    "Icon": "items/ware45.png",
+    "Color": "9f1515",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 6,
+      "Friction": 6,
+      "Buoyancy": 2
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "Id": "recipeCook1",
+    "Icon": "items/recipeCook1.png",
+    "Ingredients": [
+      {
+        "Id": "reso7",
+        "Quantity": 1
+      },
+      {
+        "Id": "consu13",
+        "Quantity": 2
+      },
+      {
+        "Id": "plant18",
+        "Quantity": 2
+      },
+      {
+        "Id": "plant16",
+        "Quantity": 1
+      }
+    ]
+  },
+  {
+    "Id": "recipeCook2",
+    "Icon": "items/recipeCook2.png",
+    "Ingredients": [
+      {
+        "Id": "plant14",
+        "Quantity": 2
+      },
+      {
+        "Id": "plant15",
+        "Quantity": 1
+      },
+      {
+        "Id": "plant18",
+        "Quantity": 1
+      },
+      {
+        "Id": "plant16",
+        "Quantity": 1
+      }
+    ]
+  },
+  {
+    "Id": "recipeCook3",
+    "Icon": "items/recipeCook3.png",
+    "Ingredients": [
+      {
+        "Id": "reso7",
+        "Quantity": 1
+      },
+      {
+        "Id": "consu13",
+        "Quantity": 2
+      },
+      {
+        "Id": "plant15",
+        "Quantity": 1
+      },
+      {
+        "Id": "plant16",
+        "Quantity": 1
+      }
+    ]
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "Id": "recipeRef1",
+    "Icon": "items/recipeRef1.png",
+    "Ingredients": [
+      {
+        "Id": "blk1",
+        "Quantity": 10
+      }
+    ]
+  },
+  {
+    "Id": "recipeRef2",
+    "Icon": "items/recipeRef2.png",
+    "Ingredients": [
+      {
+        "Id": "recipeCraft5",
+        "Quantity": 10
+      }
+    ]
+  },
+  {
+    "Id": "recipeRef3",
+    "Icon": "items/recipeRef3.png",
+    "Ingredients": [
+      {
+        "Id": "blk4",
+        "Quantity": 10
+      }
+    ]
+  },
+  {
+    "Id": "recipeRef4",
+    "Icon": "items/recipeRef4.png",
+    "Ingredients": [
+      {
+        "Id": "recipeCraft8",
+        "Quantity": 10
+      }
+    ]
+  },
+  {
+    "Id": "recipeRef5",
+    "Icon": "items/recipeRef5.png",
+    "Ingredients": [
+      {
+        "Id": "blk7",
+        "Quantity": 10
+      }
+    ]
+  }
+]

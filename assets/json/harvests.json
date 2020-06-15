@@ -1,0 +1,77 @@
+[
+  {
+    "Id": "harv1",
+    "Icon": "items/harv1.png",
+    "Color": "ee9e28",
+    "PhysicsMaterial": "Rock",
+    "Ratings": {
+      "Density": 6,
+      "Durability": 3,
+      "Friction": 5,
+      "Buoyancy": 2
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "harv2",
+    "Icon": "items/harv2.png",
+    "Color": "7b7f10ff",
+    "PhysicsMaterial": "Wood",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 2,
+      "Friction": 5,
+      "Buoyancy": 5
+    },
+    "Flammable": true,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "harv3",
+    "Icon": "items/harv3.png",
+    "Color": "7b7f10ff",
+    "PhysicsMaterial": "Wood",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 2,
+      "Friction": 5,
+      "Buoyancy": 5
+    },
+    "Flammable": true,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "harv4",
+    "Icon": "items/harv4.png",
+    "Color": "dfdfdf",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 6,
+      "Durability": 3,
+      "Friction": 5,
+      "Buoyancy": 2
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "harv5",
+    "Icon": "items/harv5.png",
+    "Color": "ee9e28",
+    "PhysicsMaterial": "Rock",
+    "Ratings": {
+      "Density": 6,
+      "Durability": 3,
+      "Friction": 5,
+      "Buoyancy": 2
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  }
+]

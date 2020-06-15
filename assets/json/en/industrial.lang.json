@@ -78,5 +78,185 @@
   {
     "Id": "indus20",
     "Title": "Generator Pipe Holder"
+  },
+  {
+    "Id": "indus21",
+    "Title": "Short I-Beam"
+  },
+  {
+    "Id": "indus22",
+    "Title": "Long I-Beam"
+  },
+  {
+    "Id": "indus23",
+    "Title": "I-Beam Corner"
+  },
+  {
+    "Id": "indus24",
+    "Title": "I-Beam Holder"
+  },
+  {
+    "Id": "indus25",
+    "Title": "I-Beam End"
+  },
+  {
+    "Id": "indus26",
+    "Title": "Shelf"
+  },
+  {
+    "Id": "indus27",
+    "Title": "Staircase Landing"
+  },
+  {
+    "Id": "indus28",
+    "Title": "Staircase Long Railing"
+  },
+  {
+    "Id": "indus29",
+    "Title": "Staircase Short Railing"
+  },
+  {
+    "Id": "indus30",
+    "Title": "Staircase Baluster"
+  },
+  {
+    "Id": "indus31",
+    "Title": "Staircase Railing Join"
+  },
+  {
+    "Id": "indus32",
+    "Title": "Staircase Step"
+  },
+  {
+    "Id": "indus33",
+    "Title": "Staircase Banister"
+  },
+  {
+    "Id": "indus34",
+    "Title": "Staircase Wedge"
+  },
+  {
+    "Id": "indus35",
+    "Title": "Staircase Ramp"
+  },
+  {
+    "Id": "indus36",
+    "Title": "Ventilation Grid"
+  },
+  {
+    "Id": "indus37",
+    "Title": "Net Fence"
+  },
+  {
+    "Id": "indus38",
+    "Title": "Metal Support"
+  },
+  {
+    "Id": "indus39",
+    "Title": "Large Support Structure"
+  },
+  {
+    "Id": "indus40",
+    "Title": "Support Structure"
+  },
+  {
+    "Id": "indus41",
+    "Title": "Small Support Structure"
+  },
+  {
+    "Id": "indus42",
+    "Title": "U-Beam"
+  },
+  {
+    "Id": "indus43",
+    "Title": "Metal Column"
+  },
+  {
+    "Id": "indus44",
+    "Title": "Support Pillar"
+  },
+  {
+    "Id": "indus45",
+    "Title": "Support Pillar Stand"
+  },
+  {
+    "Id": "indus46",
+    "Title": "Shelf Pillar"
+  },
+  {
+    "Id": "indus47",
+    "Title": "Shelf Support"
+  },
+  {
+    "Id": "indus48",
+    "Title": "Tall Shelf Support"
+  },
+  {
+    "Id": "indus49",
+    "Title": "Small Tank"
+  },
+  {
+    "Id": "indus50",
+    "Title": "Medium Tank"
+  },
+  {
+    "Id": "indus51",
+    "Title": "Large Tank"
+  },
+  {
+    "Id": "indus52",
+    "Title": "Metal Window"
+  },
+  {
+    "Id": "indus53",
+    "Title": "Steel Pallet"
+  },
+  {
+    "Id": "indus54",
+    "Title": "Table Support"
+  },
+  {
+    "Id": "indus55",
+    "Title": "Tower Pole"
+  },
+  {
+    "Id": "indus56",
+    "Title": "Tower Pole Top"
+  },
+  {
+    "Id": "indus57",
+    "Title": "Satellite Dish"
+  },
+  {
+    "Id": "indus58",
+    "Title": "Satellite Reflector Dish"
+  },
+  {
+    "Id": "indus59",
+    "Title": "Antenna"
+  },
+  {
+    "Id": "indus60",
+    "Title": "Reflector Antenna"
+  },
+  {
+    "Id": "indus61",
+    "Title": "Small Rectangular Window"
+  },
+  {
+    "Id": "indus62",
+    "Title": "Square Window"
+  },
+  {
+    "Id": "indus63",
+    "Title": "Large Rectangular Window"
+  },
+  {
+    "Id": "indus64",
+    "Title": "Large Windshield"
+  },
+  {
+    "Id": "indus65",
+    "Title": "Small Windshield"
   }
 ]

@@ -14,6 +14,7 @@ import '../../helpers/genericHelper.dart';
 import '../../helpers/snapshotHelper.dart';
 import '../../localization/localeKey.dart';
 import '../../localization/translations.dart';
+import 'gameItemComponents.dart';
 
 class GameItemDetailPage extends StatelessWidget {
   final String itemId;
@@ -49,17 +50,22 @@ class GameItemDetailPage extends StatelessWidget {
     Widget errorWidget = asyncSnapshotHandler(context, snapshot);
     if (errorWidget != null) return errorWidget;
 
-    var recipeItem = snapshot?.data?.value?.gameItem;
+    var gameItem = snapshot?.data?.value?.gameItem;
 
     List<Widget> widgets = List<Widget>();
 
     widgets.add(genericItemImage(
       context,
-      '${AppImage.base}${recipeItem.icon}',
-      name: recipeItem.title,
+      '${AppImage.base}${gameItem.icon}',
+      name: gameItem.title,
     ));
     widgets.add(emptySpace1x());
-    widgets.add(genericItemName(recipeItem.title));
+    widgets.add(genericItemName(gameItem.title));
+
+    widgets.add(emptySpace3x());
+
+    ResultWithValue<Widget> tableResult = getTableRows(context, gameItem);
+    if (tableResult.isSuccess) widgets.add(tableResult.value);
 
     widgets.add(emptySpace3x());
 

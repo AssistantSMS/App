@@ -2,7 +2,11 @@
   {
     "Id": "recipeRef1",
     "Icon": "items/recipeRef1.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "harv2",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "blk1",
         "Quantity": 10
@@ -12,7 +16,11 @@
   {
     "Id": "recipeRef2",
     "Icon": "items/recipeRef2.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "harv3",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "recipeCraft5",
         "Quantity": 10
@@ -22,7 +30,11 @@
   {
     "Id": "recipeRef3",
     "Icon": "items/recipeRef3.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "harv4",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "blk4",
         "Quantity": 10
@@ -32,7 +44,11 @@
   {
     "Id": "recipeRef4",
     "Icon": "items/recipeRef4.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "harv5",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "recipeCraft8",
         "Quantity": 10
@@ -42,7 +58,11 @@
   {
     "Id": "recipeRef5",
     "Icon": "items/recipeRef5.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "harv1",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "blk7",
         "Quantity": 10

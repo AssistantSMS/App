@@ -2,7 +2,11 @@
   {
     "Id": "recipeDress1",
     "Icon": "items/recipeDress1.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "out1",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "reso4",
         "Quantity": 5
@@ -16,7 +20,11 @@
   {
     "Id": "recipeDress2",
     "Icon": "items/recipeDress2.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "out2",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "reso4",
         "Quantity": 10
@@ -30,7 +38,11 @@
   {
     "Id": "recipeDress3",
     "Icon": "items/recipeDress3.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "out3",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "reso4",
         "Quantity": 20

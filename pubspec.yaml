@@ -31,6 +31,7 @@ dependencies:
   convex_bottom_bar: ^2.2.1
   flutter_staggered_grid_view: ^0.3.0
   country_icons: ^1.1.1
+  step_progress_indicator: ^0.2.3+6
   # Base
   get_it: 4.0.2
   http: 0.12.0+2
@@ -300,8 +301,30 @@ flutter:
     - assets/img/items/cont1.png
     - assets/img/items/cont10.png
     - assets/img/items/cont10.png
+    - assets/img/items/cont11.png
+    - assets/img/items/cont11.png
+    - assets/img/items/cont12.png
+    - assets/img/items/cont12.png
+    - assets/img/items/cont13.png
+    - assets/img/items/cont13.png
+    - assets/img/items/cont14.png
+    - assets/img/items/cont14.png
+    - assets/img/items/cont15.png
+    - assets/img/items/cont15.png
+    - assets/img/items/cont16.png
+    - assets/img/items/cont16.png
+    - assets/img/items/cont17.png
+    - assets/img/items/cont17.png
+    - assets/img/items/cont18.png
+    - assets/img/items/cont18.png
+    - assets/img/items/cont19.png
+    - assets/img/items/cont19.png
     - assets/img/items/cont2.png
     - assets/img/items/cont2.png
+    - assets/img/items/cont20.png
+    - assets/img/items/cont20.png
+    - assets/img/items/cont21.png
+    - assets/img/items/cont21.png
     - assets/img/items/cont3.png
     - assets/img/items/cont3.png
     - assets/img/items/cont4.png
@@ -358,10 +381,52 @@ flutter:
     - assets/img/items/deco24.png
     - assets/img/items/deco25.png
     - assets/img/items/deco25.png
+    - assets/img/items/deco26.png
+    - assets/img/items/deco26.png
+    - assets/img/items/deco27.png
+    - assets/img/items/deco27.png
+    - assets/img/items/deco28.png
+    - assets/img/items/deco28.png
+    - assets/img/items/deco29.png
+    - assets/img/items/deco29.png
     - assets/img/items/deco3.png
     - assets/img/items/deco3.png
+    - assets/img/items/deco30.png
+    - assets/img/items/deco30.png
+    - assets/img/items/deco31.png
+    - assets/img/items/deco31.png
+    - assets/img/items/deco32.png
+    - assets/img/items/deco32.png
+    - assets/img/items/deco33.png
+    - assets/img/items/deco33.png
+    - assets/img/items/deco34.png
+    - assets/img/items/deco34.png
+    - assets/img/items/deco35.png
+    - assets/img/items/deco35.png
+    - assets/img/items/deco36.png
+    - assets/img/items/deco36.png
+    - assets/img/items/deco37.png
+    - assets/img/items/deco37.png
+    - assets/img/items/deco38.png
+    - assets/img/items/deco38.png
+    - assets/img/items/deco39.png
+    - assets/img/items/deco39.png
     - assets/img/items/deco4.png
     - assets/img/items/deco4.png
+    - assets/img/items/deco40.png
+    - assets/img/items/deco40.png
+    - assets/img/items/deco41.png
+    - assets/img/items/deco41.png
+    - assets/img/items/deco42.png
+    - assets/img/items/deco42.png
+    - assets/img/items/deco43.png
+    - assets/img/items/deco43.png
+    - assets/img/items/deco44.png
+    - assets/img/items/deco44.png
+    - assets/img/items/deco45.png
+    - assets/img/items/deco45.png
+    - assets/img/items/deco46.png
+    - assets/img/items/deco46.png
     - assets/img/items/deco5.png
     - assets/img/items/deco5.png
     - assets/img/items/deco6.png
@@ -410,14 +475,84 @@ flutter:
     - assets/img/items/fitt25.png
     - assets/img/items/fitt26.png
     - assets/img/items/fitt26.png
+    - assets/img/items/fitt27.png
+    - assets/img/items/fitt27.png
+    - assets/img/items/fitt28.png
+    - assets/img/items/fitt28.png
+    - assets/img/items/fitt29.png
+    - assets/img/items/fitt29.png
     - assets/img/items/fitt3.png
     - assets/img/items/fitt3.png
+    - assets/img/items/fitt30.png
+    - assets/img/items/fitt30.png
+    - assets/img/items/fitt31.png
+    - assets/img/items/fitt31.png
+    - assets/img/items/fitt32.png
+    - assets/img/items/fitt32.png
+    - assets/img/items/fitt33.png
+    - assets/img/items/fitt33.png
+    - assets/img/items/fitt34.png
+    - assets/img/items/fitt34.png
+    - assets/img/items/fitt35.png
+    - assets/img/items/fitt35.png
+    - assets/img/items/fitt36.png
+    - assets/img/items/fitt36.png
+    - assets/img/items/fitt37.png
+    - assets/img/items/fitt37.png
+    - assets/img/items/fitt38.png
+    - assets/img/items/fitt38.png
+    - assets/img/items/fitt39.png
+    - assets/img/items/fitt39.png
     - assets/img/items/fitt4.png
     - assets/img/items/fitt4.png
+    - assets/img/items/fitt40.png
+    - assets/img/items/fitt40.png
+    - assets/img/items/fitt41.png
+    - assets/img/items/fitt41.png
+    - assets/img/items/fitt42.png
+    - assets/img/items/fitt42.png
+    - assets/img/items/fitt43.png
+    - assets/img/items/fitt43.png
+    - assets/img/items/fitt44.png
+    - assets/img/items/fitt44.png
+    - assets/img/items/fitt45.png
+    - assets/img/items/fitt45.png
+    - assets/img/items/fitt46.png
+    - assets/img/items/fitt46.png
+    - assets/img/items/fitt47.png
+    - assets/img/items/fitt47.png
+    - assets/img/items/fitt48.png
+    - assets/img/items/fitt48.png
+    - assets/img/items/fitt49.png
+    - assets/img/items/fitt49.png
     - assets/img/items/fitt5.png
     - assets/img/items/fitt5.png
+    - assets/img/items/fitt50.png
+    - assets/img/items/fitt50.png
+    - assets/img/items/fitt51.png
+    - assets/img/items/fitt51.png
+    - assets/img/items/fitt52.png
+    - assets/img/items/fitt52.png
+    - assets/img/items/fitt53.png
+    - assets/img/items/fitt53.png
+    - assets/img/items/fitt54.png
+    - assets/img/items/fitt54.png
+    - assets/img/items/fitt55.png
+    - assets/img/items/fitt55.png
+    - assets/img/items/fitt56.png
+    - assets/img/items/fitt56.png
+    - assets/img/items/fitt57.png
+    - assets/img/items/fitt57.png
+    - assets/img/items/fitt58.png
+    - assets/img/items/fitt58.png
+    - assets/img/items/fitt59.png
+    - assets/img/items/fitt59.png
     - assets/img/items/fitt6.png
     - assets/img/items/fitt6.png
+    - assets/img/items/fitt60.png
+    - assets/img/items/fitt60.png
+    - assets/img/items/fitt61.png
+    - assets/img/items/fitt61.png
     - assets/img/items/fitt7.png
     - assets/img/items/fitt7.png
     - assets/img/items/fitt8.png
@@ -455,14 +590,104 @@ flutter:
     - assets/img/items/indus2.png
     - assets/img/items/indus20.png
     - assets/img/items/indus20.png
+    - assets/img/items/indus21.png
+    - assets/img/items/indus21.png
+    - assets/img/items/indus22.png
+    - assets/img/items/indus22.png
+    - assets/img/items/indus23.png
+    - assets/img/items/indus23.png
+    - assets/img/items/indus24.png
+    - assets/img/items/indus24.png
+    - assets/img/items/indus25.png
+    - assets/img/items/indus25.png
+    - assets/img/items/indus26.png
+    - assets/img/items/indus26.png
+    - assets/img/items/indus27.png
+    - assets/img/items/indus27.png
+    - assets/img/items/indus28.png
+    - assets/img/items/indus28.png
+    - assets/img/items/indus29.png
+    - assets/img/items/indus29.png
     - assets/img/items/indus3.png
     - assets/img/items/indus3.png
+    - assets/img/items/indus30.png
+    - assets/img/items/indus30.png
+    - assets/img/items/indus31.png
+    - assets/img/items/indus31.png
+    - assets/img/items/indus32.png
+    - assets/img/items/indus32.png
+    - assets/img/items/indus33.png
+    - assets/img/items/indus33.png
+    - assets/img/items/indus34.png
+    - assets/img/items/indus34.png
+    - assets/img/items/indus35.png
+    - assets/img/items/indus35.png
+    - assets/img/items/indus36.png
+    - assets/img/items/indus36.png
+    - assets/img/items/indus37.png
+    - assets/img/items/indus37.png
+    - assets/img/items/indus38.png
+    - assets/img/items/indus38.png
+    - assets/img/items/indus39.png
+    - assets/img/items/indus39.png
     - assets/img/items/indus4.png
     - assets/img/items/indus4.png
+    - assets/img/items/indus40.png
+    - assets/img/items/indus40.png
+    - assets/img/items/indus41.png
+    - assets/img/items/indus41.png
+    - assets/img/items/indus42.png
+    - assets/img/items/indus42.png
+    - assets/img/items/indus43.png
+    - assets/img/items/indus43.png
+    - assets/img/items/indus44.png
+    - assets/img/items/indus44.png
+    - assets/img/items/indus45.png
+    - assets/img/items/indus45.png
+    - assets/img/items/indus46.png
+    - assets/img/items/indus46.png
+    - assets/img/items/indus47.png
+    - assets/img/items/indus47.png
+    - assets/img/items/indus48.png
+    - assets/img/items/indus48.png
+    - assets/img/items/indus49.png
+    - assets/img/items/indus49.png
     - assets/img/items/indus5.png
     - assets/img/items/indus5.png
+    - assets/img/items/indus50.png
+    - assets/img/items/indus50.png
+    - assets/img/items/indus51.png
+    - assets/img/items/indus51.png
+    - assets/img/items/indus52.png
+    - assets/img/items/indus52.png
+    - assets/img/items/indus53.png
+    - assets/img/items/indus53.png
+    - assets/img/items/indus54.png
+    - assets/img/items/indus54.png
+    - assets/img/items/indus55.png
+    - assets/img/items/indus55.png
+    - assets/img/items/indus56.png
+    - assets/img/items/indus56.png
+    - assets/img/items/indus57.png
+    - assets/img/items/indus57.png
+    - assets/img/items/indus58.png
+    - assets/img/items/indus58.png
+    - assets/img/items/indus59.png
+    - assets/img/items/indus59.png
     - assets/img/items/indus6.png
     - assets/img/items/indus6.png
+    - assets/img/items/indus60.png
+    - assets/img/items/indus60.png
+    - assets/img/items/indus61.png
+    - assets/img/items/indus61.png
+    - assets/img/items/indus62.png
+    - assets/img/items/indus62.png
+    - assets/img/items/indus63.png
+    - assets/img/items/indus63.png
+    - assets/img/items/indus64.png
+    - assets/img/items/indus64.png
+    - assets/img/items/indus65.png
+    - assets/img/items/indus65.png
     - assets/img/items/indus7.png
     - assets/img/items/indus7.png
     - assets/img/items/indus8.png
@@ -470,18 +695,76 @@ flutter:
     - assets/img/items/indus9.png
     - assets/img/items/indus9.png
     - assets/img/items/intera1.png
+    - assets/img/items/intera1.png
+    - assets/img/items/intera10.png
     - assets/img/items/intera10.png
     - assets/img/items/intera11.png
+    - assets/img/items/intera11.png
+    - assets/img/items/intera12.png
     - assets/img/items/intera12.png
     - assets/img/items/intera13.png
+    - assets/img/items/intera13.png
     - assets/img/items/intera14.png
+    - assets/img/items/intera14.png
+    - assets/img/items/intera15.png
+    - assets/img/items/intera15.png
+    - assets/img/items/intera16.png
+    - assets/img/items/intera16.png
+    - assets/img/items/intera17.png
+    - assets/img/items/intera17.png
+    - assets/img/items/intera18.png
+    - assets/img/items/intera18.png
+    - assets/img/items/intera19.png
+    - assets/img/items/intera19.png
     - assets/img/items/intera2.png
+    - assets/img/items/intera2.png
+    - assets/img/items/intera20.png
+    - assets/img/items/intera20.png
+    - assets/img/items/intera21.png
+    - assets/img/items/intera21.png
+    - assets/img/items/intera22.png
+    - assets/img/items/intera22.png
+    - assets/img/items/intera23.png
+    - assets/img/items/intera23.png
+    - assets/img/items/intera24.png
+    - assets/img/items/intera24.png
+    - assets/img/items/intera25.png
+    - assets/img/items/intera25.png
+    - assets/img/items/intera26.png
+    - assets/img/items/intera26.png
+    - assets/img/items/intera27.png
+    - assets/img/items/intera27.png
+    - assets/img/items/intera28.png
+    - assets/img/items/intera28.png
+    - assets/img/items/intera29.png
+    - assets/img/items/intera29.png
     - assets/img/items/intera3.png
+    - assets/img/items/intera3.png
+    - assets/img/items/intera30.png
+    - assets/img/items/intera31.png
+    - assets/img/items/intera32.png
+    - assets/img/items/intera33.png
+    - assets/img/items/intera34.png
+    - assets/img/items/intera35.png
+    - assets/img/items/intera36.png
+    - assets/img/items/intera37.png
+    - assets/img/items/intera38.png
+    - assets/img/items/intera39.png
     - assets/img/items/intera4.png
+    - assets/img/items/intera4.png
+    - assets/img/items/intera40.png
+    - assets/img/items/intera41.png
+    - assets/img/items/intera42.png
+    - assets/img/items/intera43.png
+    - assets/img/items/intera5.png
     - assets/img/items/intera5.png
     - assets/img/items/intera6.png
+    - assets/img/items/intera6.png
+    - assets/img/items/intera7.png
     - assets/img/items/intera7.png
     - assets/img/items/intera8.png
+    - assets/img/items/intera8.png
+    - assets/img/items/intera9.png
     - assets/img/items/intera9.png
     - assets/img/items/interc1.png
     - assets/img/items/interc2.png
@@ -562,6 +845,10 @@ flutter:
     - assets/img/items/light5.png
     - assets/img/items/light6.png
     - assets/img/items/light6.png
+    - assets/img/items/light7.png
+    - assets/img/items/light7.png
+    - assets/img/items/light8.png
+    - assets/img/items/light8.png
     - assets/img/items/man1.png
     - assets/img/items/man1.png
     - assets/img/items/man2.png
@@ -913,6 +1200,10 @@ flutter:
     - assets/img/items/veh4.png
     - assets/img/items/veh5.png
     - assets/img/items/veh5.png
+    - assets/img/items/veh6.png
+    - assets/img/items/veh6.png
+    - assets/img/items/veh7.png
+    - assets/img/items/veh7.png
     - assets/img/items/ware1.png
     - assets/img/items/ware1.png
     - assets/img/items/ware10.png
@@ -1003,7 +1294,6 @@ flutter:
     - assets/img/items/ware8.png
     - assets/img/items/ware9.png
     - assets/img/items/ware9.png
-
 
   fonts:
     - family: Roboto

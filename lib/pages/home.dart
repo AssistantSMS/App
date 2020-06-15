@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:scrapmechanic_kurtlourens_com/components/drawer.dart';
 import 'package:scrapmechanic_kurtlourens_com/constants/AppImage.dart';
+import 'package:scrapmechanic_kurtlourens_com/helpers/listPageHelper.dart';
 import 'package:scrapmechanic_kurtlourens_com/helpers/navigationHelper.dart';
 import 'package:scrapmechanic_kurtlourens_com/localization/localeKey.dart';
 import 'package:scrapmechanic_kurtlourens_com/pages/recipe/recipeListPage.dart';
@@ -33,36 +34,8 @@ class Home extends StatelessWidget {
   }
 
   Widget getBody(BuildContext context) {
-    const smallImage = 50.0;
+    const smallImage = 40.0;
     const largeImage = 96.0;
-
-    var all = [
-      LocaleKey.blocksJson,
-      LocaleKey.buildingJson,
-      LocaleKey.constructionJson,
-      LocaleKey.consumableJson,
-      LocaleKey.containersJson,
-      LocaleKey.craftbotJson,
-      LocaleKey.decorJson,
-      LocaleKey.gittingJson,
-      LocaleKey.harvestJson,
-      LocaleKey.industrialJson,
-      LocaleKey.interactiveJson,
-      LocaleKey.interactiveUpgradableJson,
-      LocaleKey.interactiveContainerJson,
-      LocaleKey.lightJson,
-      LocaleKey.manMadeJson,
-      LocaleKey.outfitJson,
-      LocaleKey.packingCrateJson,
-      LocaleKey.plantJson,
-      LocaleKey.powerJson,
-      LocaleKey.resourcesJson,
-      LocaleKey.robotJson,
-      LocaleKey.survivalJson,
-      LocaleKey.toolJson,
-      LocaleKey.vehicleJson,
-      LocaleKey.warehouseJson,
-    ];
 
     return responsiveStaggeredGrid(
       [
@@ -72,10 +45,14 @@ class Home extends StatelessWidget {
             context,
             AppImage.craftBot,
             Colors.lightBlue,
+            text: LocaleKey.craftBot,
             height: largeImage,
             onTap: () async => await navigateAwayFromHomeAsync(
               context,
-              navigateTo: (context) => RecipeListPage([LocaleKey.craftBotJson]),
+              navigateTo: (context) => RecipeListPage(
+                getCraftBotPageName(),
+                getCraftBotPageLocales(),
+              ),
             ),
           ),
           gridItemType: StaggeredGridItemType.medSquare,
@@ -86,10 +63,14 @@ class Home extends StatelessWidget {
             context,
             AppImage.cookBot,
             Colors.purple,
+            text: LocaleKey.cookingBot,
             height: smallImage,
             onTap: () async => await navigateAwayFromHomeAsync(
               context,
-              navigateTo: (context) => RecipeListPage([LocaleKey.cookBotJson]),
+              navigateTo: (context) => RecipeListPage(
+                getCookBotPageName(),
+                getCookBotPageLocales(),
+              ),
             ),
           ),
           gridItemType: StaggeredGridItemType.smallRectLandscape,
@@ -100,10 +81,14 @@ class Home extends StatelessWidget {
             context,
             AppImage.block,
             Colors.blueGrey,
+            text: LocaleKey.blocksAndItems,
             height: largeImage,
             onTap: () async => await navigateAwayFromHomeAsync(
               context,
-              navigateTo: (context) => GameItemListPage(all),
+              navigateTo: (context) => GameItemListPage(
+                getBlocksAndItemsPageName(),
+                getBlocksAndItemsPageLocales(),
+              ),
             ),
           ),
           gridItemType: StaggeredGridItemType.medSquare,
@@ -113,11 +98,15 @@ class Home extends StatelessWidget {
               responsiveStaggeredGridImageTilePresenter(
             context,
             AppImage.refiner,
-            Colors.lightGreen,
+            Colors.green,
+            text: LocaleKey.refiner,
             height: largeImage,
             onTap: () async => await navigateAwayFromHomeAsync(
               context,
-              navigateTo: (context) => RecipeListPage([LocaleKey.refineryJson]),
+              navigateTo: (context) => RecipeListPage(
+                getRefinerPageName(),
+                getRefinerPageLocales(),
+              ),
             ),
           ),
           gridItemType: StaggeredGridItemType.medSquare,
@@ -128,10 +117,14 @@ class Home extends StatelessWidget {
             context,
             AppImage.dressBot,
             Colors.amber,
+            text: LocaleKey.dressBot,
             height: smallImage,
             onTap: () async => await navigateAwayFromHomeAsync(
               context,
-              navigateTo: (context) => RecipeListPage([LocaleKey.dressBotJson]),
+              navigateTo: (context) => RecipeListPage(
+                getDressBotPageName(),
+                getDressBotPageLocales(),
+              ),
             ),
           ),
           gridItemType: StaggeredGridItemType.smallRectLandscape,

@@ -4,6 +4,8 @@
 
 import 'dart:convert';
 
+import 'package:scrapmechanic_kurtlourens_com/helpers/jsonHelper.dart';
+
 import '../rating/rating.dart';
 
 class GameItemBase {
@@ -33,14 +35,14 @@ class GameItemBase {
   String toRawJson() => json.encode(toJson());
 
   factory GameItemBase.fromJson(Map<String, dynamic> json) => GameItemBase(
-        id: json["Id"],
-        icon: json["Icon"],
-        color: json["Color"],
-        physicsMaterial: json["PhysicsMaterial"],
+        id: readStringSafe(json, "Id"),
+        icon: readStringSafe(json, "Icon"),
+        color: readStringSafe(json, "Color"),
+        physicsMaterial: readStringSafe(json, "PhysicsMaterial"),
         rating: Rating.fromJson(json["Ratings"]),
-        flammable: json["Flammable"],
-        density: json["Density"],
-        qualityLevel: json["QualityLevel"],
+        flammable: readBoolSafe(json, "Flammable"),
+        density: readDoubleSafe(json, "Density"),
+        qualityLevel: readIntSafe(json, "QualityLevel"),
       );
 
   Map<String, dynamic> toJson() => {

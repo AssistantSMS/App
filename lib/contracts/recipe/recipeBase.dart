@@ -4,6 +4,8 @@
 
 import 'dart:convert';
 
+import 'package:scrapmechanic_kurtlourens_com/helpers/jsonHelper.dart';
+
 import '../recipeIngredient/recipeIngredient.dart';
 
 List<RecipeBase> recipeBaseFromJson(String str) =>
@@ -24,8 +26,8 @@ class RecipeBase {
   List<RecipeIngredient> ingredients;
 
   factory RecipeBase.fromJson(Map<String, dynamic> json) => RecipeBase(
-        id: json["Id"],
-        icon: json["Icon"],
+        id: readStringSafe(json, "Id"),
+        icon: readStringSafe(json, "Icon"),
         ingredients: List<RecipeIngredient>.from(
             json["Ingredients"].map((x) => RecipeIngredient.fromJson(x))),
       );

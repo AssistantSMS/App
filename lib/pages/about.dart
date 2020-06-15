@@ -5,6 +5,7 @@ import '../components/adaptive/appScaffold.dart';
 import '../components/adaptive/button.dart';
 import '../components/adaptive/listWithScrollbar.dart';
 import '../constants/AnalyticsEvent.dart';
+import '../constants/AppPadding.dart';
 import '../constants/ExternalUrls.dart';
 import '../helpers/analytics.dart';
 import '../helpers/external.dart';
@@ -63,6 +64,7 @@ class About extends StatelessWidget {
     widgets.add(emptySpace3x());
 
     return listWithScrollbar(
+        padding: AppPadding.listSidePadding,
         itemCount: widgets.length,
         itemBuilder: (context, index) => widgets[index]);
   }

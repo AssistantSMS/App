@@ -25,13 +25,13 @@ class IdPrefix {
   static const String vehicle = "veh";
   static const String warehouse = "ware";
 
-  static const String cookBot = "cook";
-  static const String craftBot = "craft";
-  static const String dispenser = "disp";
-  static const String dressBot = "dress";
-  //static const String hideOut = "hideout.json";
-  //static const String itemNames = "item_names.json";
-  static const String refinery = "ref";
-  //static const String undecided = "undecided.json";
-  static const String workbench = "workbench";
+  static const String cookBot = "recipeCook";
+  static const String craftBot = "recipeCraft";
+  static const String dispenser = "recipeDisp";
+  static const String dressBot = "recipeDress";
+  // static const String hideOut = "recipeHideout.json";
+  // static const String itemNames = "recipeItem_names.json";
+  static const String refinery = "recipeRef";
+  // static const String undecided = "recipeUndecided.json";
+  static const String workbench = "recipeWorkbench";
 }

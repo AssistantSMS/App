@@ -1,5 +1,7 @@
 import 'dart:convert';
 
+import '../../helpers/jsonHelper.dart';
+
 class Rating {
   Rating({
     this.density,
@@ -17,11 +19,11 @@ class Rating {
 
   String toRawJson() => json.encode(toJson());
 
-  factory Rating.fromJson(Map<String, dynamic> json) => Rating(
-        density: json["Density"],
-        durability: json["Durability"],
-        friction: json["Friction"],
-        buoyancy: json["Buoyancy"],
+  factory Rating.fromJson(Map<dynamic, dynamic> json) => Rating(
+        density: readIntSafe(json, "Density"),
+        durability: readIntSafe(json, "Durability"),
+        friction: readIntSafe(json, "Friction"),
+        buoyancy: readIntSafe(json, "Buoyancy"),
       );
 
   Map<String, dynamic> toJson() => {

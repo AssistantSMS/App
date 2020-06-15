@@ -2,7 +2,11 @@
   {
     "Id": "recipeDisp1",
     "Icon": "items/recipeDisp1.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "craftb2",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "blk4",
         "Quantity": 90
@@ -20,7 +24,11 @@
   {
     "Id": "recipeDisp2",
     "Icon": "items/recipeDisp2.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "intera10",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "recipeCraft8",
         "Quantity": 60
@@ -38,7 +46,11 @@
   {
     "Id": "recipeDisp3",
     "Icon": "items/recipeDisp3.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "intera9",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "recipeCraft8",
         "Quantity": 30
@@ -48,7 +60,11 @@
   {
     "Id": "recipeDisp4",
     "Icon": "items/recipeDisp4.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "craftb1",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "recipeCraft9",
         "Quantity": 50
@@ -66,7 +82,11 @@
   {
     "Id": "recipeDisp5",
     "Icon": "items/recipeDisp5.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "intera11",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "recipeCraft10",
         "Quantity": 50

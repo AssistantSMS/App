@@ -2,7 +2,7 @@
   {
     "Id": "recipeCraft1",
     "Icon": "items/recipeCraft1.png",
-    "Ingredients": [
+    "Inputs": [
       {
         "Id": "blk4",
         "Quantity": 10
@@ -16,7 +16,7 @@
   {
     "Id": "recipeCraft2",
     "Icon": "items/recipeCraft2.png",
-    "Ingredients": [
+    "Inputs": [
       {
         "Id": "recipeCraft8",
         "Quantity": 10
@@ -34,7 +34,7 @@
   {
     "Id": "recipeCraft3",
     "Icon": "items/recipeCraft3.png",
-    "Ingredients": [
+    "Inputs": [
       {
         "Id": "recipeCraft9",
         "Quantity": 20
@@ -52,7 +52,7 @@
   {
     "Id": "recipeCraft4",
     "Icon": "items/recipeCraft4.png",
-    "Ingredients": [
+    "Inputs": [
       {
         "Id": "blk1",
         "Quantity": 5
@@ -62,7 +62,7 @@
   {
     "Id": "recipeCraft5",
     "Icon": "items/recipeCraft5.png",
-    "Ingredients": [
+    "Inputs": [
       {
         "Id": "blk1",
         "Quantity": 20
@@ -72,7 +72,11 @@
   {
     "Id": "recipeCraft6",
     "Icon": "items/recipeCraft6.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "blk2",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "recipeCraft5",
         "Quantity": 15
@@ -86,7 +90,11 @@
   {
     "Id": "recipeCraft7",
     "Icon": "items/recipeCraft7.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "blk3",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "recipeCraft6",
         "Quantity": 15
@@ -100,7 +108,7 @@
   {
     "Id": "recipeCraft8",
     "Icon": "items/recipeCraft8.png",
-    "Ingredients": [
+    "Inputs": [
       {
         "Id": "blk4",
         "Quantity": 15
@@ -110,7 +118,11 @@
   {
     "Id": "recipeCraft9",
     "Icon": "items/recipeCraft9.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "blk5",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "recipeCraft8",
         "Quantity": 15
@@ -128,7 +140,11 @@
   {
     "Id": "recipeCraft10",
     "Icon": "items/recipeCraft10.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "blk6",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "recipeCraft9",
         "Quantity": 20
@@ -146,7 +162,7 @@
   {
     "Id": "recipeCraft11",
     "Icon": "items/recipeCraft11.png",
-    "Ingredients": [
+    "Inputs": [
       {
         "Id": "blk7",
         "Quantity": 10
@@ -164,7 +180,11 @@
   {
     "Id": "recipeCraft12",
     "Icon": "items/recipeCraft12.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "blk8",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "recipeCraft11",
         "Quantity": 15
@@ -178,7 +198,11 @@
   {
     "Id": "recipeCraft13",
     "Icon": "items/recipeCraft13.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "blk9",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "recipeCraft12",
         "Quantity": 15
@@ -192,7 +216,11 @@
   {
     "Id": "recipeCraft14",
     "Icon": "items/recipeCraft14.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "blk30",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "blk7",
         "Quantity": 5
@@ -202,7 +230,7 @@
   {
     "Id": "recipeCraft15",
     "Icon": "items/recipeCraft15.png",
-    "Ingredients": [
+    "Inputs": [
       {
         "Id": "recipeCraft14",
         "Quantity": 10
@@ -216,7 +244,7 @@
   {
     "Id": "recipeCraft16",
     "Icon": "items/recipeCraft16.png",
-    "Ingredients": [
+    "Inputs": [
       {
         "Id": "recipeCraft14",
         "Quantity": 10
@@ -230,7 +258,11 @@
   {
     "Id": "recipeCraft17",
     "Icon": "items/recipeCraft17.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "blk31",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "recipeCraft15",
         "Quantity": 10
@@ -248,7 +280,11 @@
   {
     "Id": "recipeCraft18",
     "Icon": "items/recipeCraft18.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "blk26",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "recipeCraft8",
         "Quantity": 10
@@ -258,7 +294,7 @@
   {
     "Id": "recipeCraft19",
     "Icon": "items/recipeCraft19.png",
-    "Ingredients": [
+    "Inputs": [
       {
         "Id": "recipeCraft8",
         "Quantity": 10
@@ -272,7 +308,11 @@
   {
     "Id": "recipeCraft20",
     "Icon": "items/recipeCraft20.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "blk13",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "recipeCraft8",
         "Quantity": 5
@@ -282,7 +322,11 @@
   {
     "Id": "recipeCraft21",
     "Icon": "items/recipeCraft21.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "blk20",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "recipeCraft8",
         "Quantity": 2
@@ -292,7 +336,11 @@
   {
     "Id": "recipeCraft22",
     "Icon": "items/recipeCraft22.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "blk22",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "recipeCraft8",
         "Quantity": 5
@@ -302,7 +350,11 @@
   {
     "Id": "recipeCraft23",
     "Icon": "items/recipeCraft23.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "blk21",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "recipeCraft9",
         "Quantity": 5
@@ -312,7 +364,7 @@
   {
     "Id": "recipeCraft24",
     "Icon": "items/recipeCraft24.png",
-    "Ingredients": [
+    "Inputs": [
       {
         "Id": "recipeCraft9",
         "Quantity": 10
@@ -326,7 +378,7 @@
   {
     "Id": "recipeCraft25",
     "Icon": "items/recipeCraft25.png",
-    "Ingredients": [
+    "Inputs": [
       {
         "Id": "blk7",
         "Quantity": 10
@@ -336,7 +388,7 @@
   {
     "Id": "recipeCraft26",
     "Icon": "items/recipeCraft26.png",
-    "Ingredients": [
+    "Inputs": [
       {
         "Id": "blk7",
         "Quantity": 10
@@ -350,7 +402,11 @@
   {
     "Id": "recipeCraft27",
     "Icon": "items/recipeCraft27.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "blk25",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "blk7",
         "Quantity": 10
@@ -364,7 +420,7 @@
   {
     "Id": "recipeCraft28",
     "Icon": "items/recipeCraft28.png",
-    "Ingredients": [
+    "Inputs": [
       {
         "Id": "recipeCraft5",
         "Quantity": 10
@@ -378,7 +434,11 @@
   {
     "Id": "recipeCraft29",
     "Icon": "items/recipeCraft29.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "blk18",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "reso4",
         "Quantity": 5
@@ -392,7 +452,11 @@
   {
     "Id": "recipeCraft30",
     "Icon": "items/recipeCraft30.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "blk14",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "reso11",
         "Quantity": 5
@@ -402,7 +466,11 @@
   {
     "Id": "recipeCraft31",
     "Icon": "items/recipeCraft31.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "intera15",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "blk4",
         "Quantity": 5
@@ -412,7 +480,11 @@
   {
     "Id": "recipeCraft32",
     "Icon": "items/recipeCraft32.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "intera27",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "blk4",
         "Quantity": 1
@@ -426,7 +498,11 @@
   {
     "Id": "recipeCraft33",
     "Icon": "items/recipeCraft33.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "intera28",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "blk4",
         "Quantity": 1
@@ -440,7 +516,11 @@
   {
     "Id": "recipeCraft34",
     "Icon": "items/recipeCraft34.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "interu51",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "recipeCraft8",
         "Quantity": 1
@@ -462,7 +542,11 @@
   {
     "Id": "recipeCraft35",
     "Icon": "items/recipeCraft35.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "interu1",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "recipeCraft9",
         "Quantity": 5
@@ -476,7 +560,11 @@
   {
     "Id": "recipeCraft36",
     "Icon": "items/recipeCraft36.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "interu6",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "recipeCraft9",
         "Quantity": 10
@@ -490,7 +578,11 @@
   {
     "Id": "recipeCraft37",
     "Icon": "items/recipeCraft37.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "interu56",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "recipeCraft9",
         "Quantity": 10
@@ -512,7 +604,11 @@
   {
     "Id": "recipeCraft38",
     "Icon": "items/recipeCraft38.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "interu31",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "recipeCraft8",
         "Quantity": 20
@@ -534,7 +630,11 @@
   {
     "Id": "recipeCraft39",
     "Icon": "items/recipeCraft39.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "interu36",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "recipeCraft9",
         "Quantity": 20
@@ -556,7 +656,11 @@
   {
     "Id": "recipeCraft40",
     "Icon": "items/recipeCraft40.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "interu11",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "reso4",
         "Quantity": 10
@@ -578,7 +682,11 @@
   {
     "Id": "recipeCraft41",
     "Icon": "items/recipeCraft41.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "interu21",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "reso4",
         "Quantity": 10
@@ -596,7 +704,11 @@
   {
     "Id": "recipeCraft42",
     "Icon": "items/recipeCraft42.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "interu16",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "reso4",
         "Quantity": 5
@@ -618,7 +730,11 @@
   {
     "Id": "recipeCraft43",
     "Icon": "items/recipeCraft43.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "interu26",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "reso4",
         "Quantity": 5
@@ -636,7 +752,11 @@
   {
     "Id": "recipeCraft44",
     "Icon": "items/recipeCraft44.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "intera22",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "recipeCraft8",
         "Quantity": 5
@@ -650,7 +770,11 @@
   {
     "Id": "recipeCraft45",
     "Icon": "items/recipeCraft45.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "interu41",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "recipeCraft10",
         "Quantity": 40
@@ -664,7 +788,11 @@
   {
     "Id": "recipeCraft46",
     "Icon": "items/recipeCraft46.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "interu46",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "recipeCraft8",
         "Quantity": 5
@@ -686,7 +814,11 @@
   {
     "Id": "recipeCraft47",
     "Icon": "items/recipeCraft47.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "intera32",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "recipeCraft8",
         "Quantity": 1
@@ -704,7 +836,11 @@
   {
     "Id": "recipeCraft48",
     "Icon": "items/recipeCraft48.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "intera33",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "recipeCraft8",
         "Quantity": 2
@@ -722,7 +858,11 @@
   {
     "Id": "recipeCraft49",
     "Icon": "items/recipeCraft49.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "intera30",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "recipeCraft8",
         "Quantity": 5
@@ -744,7 +884,11 @@
   {
     "Id": "recipeCraft50",
     "Icon": "items/recipeCraft50.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "intera31",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "recipeCraft8",
         "Quantity": 1
@@ -762,7 +906,11 @@
   {
     "Id": "recipeCraft51",
     "Icon": "items/recipeCraft51.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "light7",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "recipeCraft8",
         "Quantity": 1
@@ -784,7 +932,11 @@
   {
     "Id": "recipeCraft52",
     "Icon": "items/recipeCraft52.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "intera14",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "recipeCraft5",
         "Quantity": 50
@@ -802,7 +954,11 @@
   {
     "Id": "recipeCraft53",
     "Icon": "items/recipeCraft53.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "intera1",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "recipeCraft8",
         "Quantity": 10
@@ -824,7 +980,11 @@
   {
     "Id": "recipeCraft54",
     "Icon": "items/recipeCraft54.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "intera4",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "recipeCraft8",
         "Quantity": 40
@@ -838,7 +998,11 @@
   {
     "Id": "recipeCraft55",
     "Icon": "items/recipeCraft55.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "intera5",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "recipeCraft8",
         "Quantity": 60
@@ -860,7 +1024,7 @@
   {
     "Id": "recipeCraft56",
     "Icon": "items/recipeCraft56.png",
-    "Ingredients": [
+    "Inputs": [
       {
         "Id": "recipeCraft9",
         "Quantity": 10
@@ -882,7 +1046,7 @@
   {
     "Id": "recipeCraft57",
     "Icon": "items/recipeCraft57.png",
-    "Ingredients": [
+    "Inputs": [
       {
         "Id": "recipeCraft9",
         "Quantity": 5
@@ -900,7 +1064,7 @@
   {
     "Id": "recipeCraft58",
     "Icon": "items/recipeCraft58.png",
-    "Ingredients": [
+    "Inputs": [
       {
         "Id": "recipeCraft9",
         "Quantity": 5
@@ -918,7 +1082,11 @@
   {
     "Id": "recipeCraft59",
     "Icon": "items/recipeCraft59.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "interc1",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "recipeCraft8",
         "Quantity": 20
@@ -940,7 +1108,11 @@
   {
     "Id": "recipeCraft60",
     "Icon": "items/recipeCraft60.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "interc4",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "recipeCraft9",
         "Quantity": 20
@@ -962,7 +1134,11 @@
   {
     "Id": "recipeCraft61",
     "Icon": "items/recipeCraft61.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "interc2",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "recipeCraft8",
         "Quantity": 10
@@ -984,7 +1160,11 @@
   {
     "Id": "recipeCraft62",
     "Icon": "items/recipeCraft62.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "intera12",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "recipeCraft9",
         "Quantity": 10
@@ -1002,7 +1182,11 @@
   {
     "Id": "recipeCraft63",
     "Icon": "items/recipeCraft63.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "powertool1",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "recipeCraft9",
         "Quantity": 10
@@ -1016,7 +1200,11 @@
   {
     "Id": "recipeCraft64",
     "Icon": "items/recipeCraft64.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "powertool2",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "recipeCraft9",
         "Quantity": 20
@@ -1030,7 +1218,11 @@
   {
     "Id": "recipeCraft65",
     "Icon": "items/recipeCraft65.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "tool1",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "blk4",
         "Quantity": 5
@@ -1040,7 +1232,11 @@
   {
     "Id": "recipeCraft66",
     "Icon": "items/recipeCraft66.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "consu14",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "blk1",
         "Quantity": 10
@@ -1058,7 +1254,11 @@
   {
     "Id": "recipeCraft67",
     "Icon": "items/recipeCraft67.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "consu1",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "reso11",
         "Quantity": 5
@@ -1068,7 +1268,11 @@
   {
     "Id": "recipeCraft68",
     "Icon": "items/recipeCraft68.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "reso10",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "reso3",
         "Quantity": 3
@@ -1078,7 +1282,11 @@
   {
     "Id": "recipeCraft69",
     "Icon": "items/recipeCraft69.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "consu3",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "tool2",
         "Quantity": 1
@@ -1088,7 +1296,11 @@
   {
     "Id": "recipeCraft70",
     "Icon": "items/recipeCraft70.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "consu5",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "tool3",
         "Quantity": 1
@@ -1098,7 +1310,11 @@
   {
     "Id": "recipeCraft71",
     "Icon": "items/recipeCraft71.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "consu7",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "reso9",
         "Quantity": 10
@@ -1108,7 +1324,11 @@
   {
     "Id": "recipeCraft72",
     "Icon": "items/recipeCraft72.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "consu8",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "recipeCraft70",
         "Quantity": 4
@@ -1122,7 +1342,11 @@
   {
     "Id": "recipeCraft73",
     "Icon": "items/recipeCraft73.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "intera42",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "recipeCraft67",
         "Quantity": 10
@@ -1140,7 +1364,11 @@
   {
     "Id": "recipeCraft74",
     "Icon": "items/recipeCraft74.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "intera43",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "recipeCraft67",
         "Quantity": 20
@@ -1158,7 +1386,11 @@
   {
     "Id": "recipeCraft75",
     "Icon": "items/recipeCraft75.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "veh6",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "recipeCraft5",
         "Quantity": 15
@@ -1176,7 +1408,11 @@
   {
     "Id": "recipeCraft76",
     "Icon": "items/recipeCraft76.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "veh7",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "recipeCraft5",
         "Quantity": 40
@@ -1194,7 +1430,11 @@
   {
     "Id": "recipeCraft77",
     "Icon": "items/recipeCraft77.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "fitt53",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "recipeCraft8",
         "Quantity": 1
@@ -1204,7 +1444,11 @@
   {
     "Id": "recipeCraft78",
     "Icon": "items/recipeCraft78.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "fitt54",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "recipeCraft8",
         "Quantity": 1
@@ -1214,7 +1458,11 @@
   {
     "Id": "recipeCraft79",
     "Icon": "items/recipeCraft79.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "fitt55",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "recipeCraft8",
         "Quantity": 1
@@ -1224,7 +1472,11 @@
   {
     "Id": "recipeCraft80",
     "Icon": "items/recipeCraft80.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "fitt56",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "recipeCraft8",
         "Quantity": 1
@@ -1234,7 +1486,11 @@
   {
     "Id": "recipeCraft81",
     "Icon": "items/recipeCraft81.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "fitt57",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "recipeCraft8",
         "Quantity": 1
@@ -1244,7 +1500,11 @@
   {
     "Id": "recipeCraft82",
     "Icon": "items/recipeCraft82.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "fitt58",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "recipeCraft8",
         "Quantity": 1
@@ -1254,7 +1514,11 @@
   {
     "Id": "recipeCraft83",
     "Icon": "items/recipeCraft83.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "fitt59",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "recipeCraft8",
         "Quantity": 1
@@ -1264,7 +1528,11 @@
   {
     "Id": "recipeCraft84",
     "Icon": "items/recipeCraft84.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "fitt60",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "recipeCraft8",
         "Quantity": 1
@@ -1274,7 +1542,11 @@
   {
     "Id": "recipeCraft85",
     "Icon": "items/recipeCraft85.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "fitt61",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "recipeCraft8",
         "Quantity": 1
@@ -1284,7 +1556,11 @@
   {
     "Id": "recipeCraft86",
     "Icon": "items/recipeCraft86.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "fitt34",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "recipeCraft8",
         "Quantity": 1
@@ -1294,7 +1570,11 @@
   {
     "Id": "recipeCraft87",
     "Icon": "items/recipeCraft87.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "fitt35",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "recipeCraft8",
         "Quantity": 3
@@ -1304,7 +1584,11 @@
   {
     "Id": "recipeCraft88",
     "Icon": "items/recipeCraft88.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "fitt36",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "recipeCraft8",
         "Quantity": 1
@@ -1314,7 +1598,11 @@
   {
     "Id": "recipeCraft89",
     "Icon": "items/recipeCraft89.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "fitt37",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "recipeCraft8",
         "Quantity": 1
@@ -1324,7 +1612,11 @@
   {
     "Id": "recipeCraft90",
     "Icon": "items/recipeCraft90.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "fitt38",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "recipeCraft8",
         "Quantity": 1
@@ -1334,7 +1626,11 @@
   {
     "Id": "recipeCraft91",
     "Icon": "items/recipeCraft91.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "indus21",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "recipeCraft8",
         "Quantity": 1
@@ -1344,7 +1640,11 @@
   {
     "Id": "recipeCraft92",
     "Icon": "items/recipeCraft92.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "indus22",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "recipeCraft8",
         "Quantity": 3
@@ -1354,7 +1654,11 @@
   {
     "Id": "recipeCraft93",
     "Icon": "items/recipeCraft93.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "indus23",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "recipeCraft8",
         "Quantity": 1
@@ -1364,7 +1668,11 @@
   {
     "Id": "recipeCraft94",
     "Icon": "items/recipeCraft94.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "indus25",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "recipeCraft8",
         "Quantity": 1
@@ -1374,7 +1682,11 @@
   {
     "Id": "recipeCraft95",
     "Icon": "items/recipeCraft95.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "indus24",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "recipeCraft8",
         "Quantity": 1
@@ -1384,7 +1696,11 @@
   {
     "Id": "recipeCraft96",
     "Icon": "items/recipeCraft96.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "deco26",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "blk1",
         "Quantity": 1
@@ -1394,7 +1710,11 @@
   {
     "Id": "recipeCraft97",
     "Icon": "items/recipeCraft97.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "deco27",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "recipeCraft8",
         "Quantity": 5
@@ -1404,7 +1724,11 @@
   {
     "Id": "recipeCraft98",
     "Icon": "items/recipeCraft98.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "fitt33",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "recipeCraft8",
         "Quantity": 10
@@ -1418,7 +1742,11 @@
   {
     "Id": "recipeCraft99",
     "Icon": "items/recipeCraft99.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "deco28",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "recipeCraft8",
         "Quantity": 1
@@ -1428,7 +1756,11 @@
   {
     "Id": "recipeCraft100",
     "Icon": "items/recipeCraft100.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "deco29",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "reso7",
         "Quantity": 1
@@ -1450,7 +1782,11 @@
   {
     "Id": "recipeCraft101",
     "Icon": "items/recipeCraft101.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "deco30",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "recipeCraft5",
         "Quantity": 2
@@ -1468,7 +1804,11 @@
   {
     "Id": "recipeCraft102",
     "Icon": "items/recipeCraft102.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "deco31",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "recipeCraft5",
         "Quantity": 1
@@ -1490,7 +1830,7 @@
   {
     "Id": "recipeCraft103",
     "Icon": "items/recipeCraft103.png",
-    "Ingredients": [
+    "Inputs": [
       {
         "Id": "reso9",
         "Quantity": 1
@@ -1504,7 +1844,7 @@
   {
     "Id": "recipeCraft104",
     "Icon": "items/recipeCraft104.png",
-    "Ingredients": [
+    "Inputs": [
       {
         "Id": "reso9",
         "Quantity": 1
@@ -1518,7 +1858,7 @@
   {
     "Id": "recipeCraft105",
     "Icon": "items/recipeCraft105.png",
-    "Ingredients": [
+    "Inputs": [
       {
         "Id": "reso9",
         "Quantity": 1
@@ -1536,7 +1876,7 @@
   {
     "Id": "recipeCraft106",
     "Icon": "items/recipeCraft106.png",
-    "Ingredients": [
+    "Inputs": [
       {
         "Id": "reso9",
         "Quantity": 1
@@ -1550,7 +1890,7 @@
   {
     "Id": "recipeCraft107",
     "Icon": "items/recipeCraft107.png",
-    "Ingredients": [
+    "Inputs": [
       {
         "Id": "reso9",
         "Quantity": 1
@@ -1564,7 +1904,7 @@
   {
     "Id": "recipeCraft108",
     "Icon": "items/recipeCraft108.png",
-    "Ingredients": [
+    "Inputs": [
       {
         "Id": "reso9",
         "Quantity": 1
@@ -1578,7 +1918,7 @@
   {
     "Id": "recipeCraft109",
     "Icon": "items/recipeCraft109.png",
-    "Ingredients": [
+    "Inputs": [
       {
         "Id": "reso9",
         "Quantity": 1
@@ -1592,7 +1932,7 @@
   {
     "Id": "recipeCraft110",
     "Icon": "items/recipeCraft110.png",
-    "Ingredients": [
+    "Inputs": [
       {
         "Id": "reso9",
         "Quantity": 1
@@ -1606,7 +1946,11 @@
   {
     "Id": "recipeCraft111",
     "Icon": "items/recipeCraft111.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "indus61",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "recipeCraft15",
         "Quantity": 5
@@ -1620,7 +1964,11 @@
   {
     "Id": "recipeCraft112",
     "Icon": "items/recipeCraft112.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "indus62",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "recipeCraft15",
         "Quantity": 10
@@ -1634,7 +1982,11 @@
   {
     "Id": "recipeCraft113",
     "Icon": "items/recipeCraft113.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "indus63",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "recipeCraft15",
         "Quantity": 15
@@ -1648,7 +2000,11 @@
   {
     "Id": "recipeCraft114",
     "Icon": "items/recipeCraft114.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "indus64",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "recipeCraft15",
         "Quantity": 20
@@ -1662,7 +2018,11 @@
   {
     "Id": "recipeCraft115",
     "Icon": "items/recipeCraft115.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "indus65",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "recipeCraft15",
         "Quantity": 10
@@ -1676,7 +2036,11 @@
   {
     "Id": "recipeCraft116",
     "Icon": "items/recipeCraft116.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "deco44",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "recipeCraft8",
         "Quantity": 10

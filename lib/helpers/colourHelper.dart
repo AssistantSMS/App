@@ -39,3 +39,9 @@ Color getH1Colour(BuildContext context) {
 
 Color getTextColour(BuildContext context) =>
     getIsDark(context) ? Colors.white : Colors.black;
+
+bool useWhiteForeground(Color backgroundColor) =>
+    1.05 / (backgroundColor.computeLuminance() + 0.05) > 2.5;
+
+Color getForegroundTextColour(Color backgroundColor) =>
+    useWhiteForeground(backgroundColor) ? Colors.white : Colors.black;

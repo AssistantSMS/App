@@ -8,12 +8,14 @@ import '../../constants/AnalyticsEvent.dart';
 import '../../contracts/gameItem/gameItem.dart';
 import '../../helpers/analytics.dart';
 import '../../helpers/futureHelper.dart';
+import '../../helpers/searchHelper.dart';
 import '../../localization/localeKey.dart';
 import '../../localization/translations.dart';
 
 class GameItemListPage extends StatelessWidget {
+  final LocaleKey name;
   final List<LocaleKey> gameItemLocales;
-  GameItemListPage(this.gameItemLocales) {
+  GameItemListPage(this.name, this.gameItemLocales) {
     trackEvent(AnalyticsEvent.itemListPage);
   }
 
@@ -24,12 +26,12 @@ class GameItemListPage extends StatelessWidget {
       context,
       appBar: appBarForSubPageHelper(
         context,
-        title: Text('testing'),
+        title: Text(Translations.get(context, name)),
       ),
       body: SearchableList<GameItem>(
         () => getAllGameItemFromLocaleKeys(context, gameItemLocales),
         gameItemTilePresenter,
-        (GameItem gameItem, String search) => false,
+        searchGameItem,
         key: Key(Translations.of(context).currentLanguage),
         hintText: hintText,
       ),

@@ -22,5 +22,13 @@
   {
     "Id": "light6",
     "Title": "Warehouse Spot Small"
+  },
+  {
+    "Id": "light7",
+    "Title": "Headlight"
+  },
+  {
+    "Id": "light8",
+    "Title": "Warehouse Spotlight"
   }
 ]

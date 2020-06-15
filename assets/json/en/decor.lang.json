@@ -98,5 +98,89 @@
   {
     "Id": "deco25",
     "Title": "Hay Bale"
+  },
+  {
+    "Id": "deco26",
+    "Title": "Toilet Paper"
+  },
+  {
+    "Id": "deco27",
+    "Title": "Sink"
+  },
+  {
+    "Id": "deco28",
+    "Title": "Mug"
+  },
+  {
+    "Id": "deco29",
+    "Title": "Mannequin Boot"
+  },
+  {
+    "Id": "deco30",
+    "Title": "Mannequin Hand"
+  },
+  {
+    "Id": "deco31",
+    "Title": "Baby Duck Statuette"
+  },
+  {
+    "Id": "deco32",
+    "Title": "Screw"
+  },
+  {
+    "Id": "deco33",
+    "Title": "Nut"
+  },
+  {
+    "Id": "deco34",
+    "Title": "Skull Sign"
+  },
+  {
+    "Id": "deco35",
+    "Title": "Construction Zone Sign"
+  },
+  {
+    "Id": "deco36",
+    "Title": "Caution Sign"
+  },
+  {
+    "Id": "deco37",
+    "Title": "Danger Sign"
+  },
+  {
+    "Id": "deco38",
+    "Title": "Stop Sign"
+  },
+  {
+    "Id": "deco39",
+    "Title": "Beware Farmbots Sign"
+  },
+  {
+    "Id": "deco40",
+    "Title": "Welcome Sign"
+  },
+  {
+    "Id": "deco41",
+    "Title": "Do Not Enter Sign"
+  },
+  {
+    "Id": "deco42",
+    "Title": "Falling Objects Sign"
+  },
+  {
+    "Id": "deco43",
+    "Title": "Arrow Sign"
+  },
+  {
+    "Id": "deco44",
+    "Title": "Traffic Cone"
+  },
+  {
+    "Id": "deco45",
+    "Title": "Mattress"
+  },
+  {
+    "Id": "deco46",
+    "Title": "Pillow"
   }
 ]

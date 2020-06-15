@@ -2,7 +2,11 @@
   {
     "Id": "recipeCook1",
     "Icon": "items/recipeCook1.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "consu10",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "reso7",
         "Quantity": 1
@@ -24,7 +28,11 @@
   {
     "Id": "recipeCook2",
     "Icon": "items/recipeCook2.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "consu11",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "plant14",
         "Quantity": 2
@@ -46,7 +54,11 @@
   {
     "Id": "recipeCook3",
     "Icon": "items/recipeCook3.png",
-    "Ingredients": [
+    "Output": {
+      "Id": "consu12",
+      "Quantity": 1
+    },
+    "Inputs": [
       {
         "Id": "reso7",
         "Quantity": 1

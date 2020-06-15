@@ -88,5 +88,35 @@
     "Flammable": false,
     "Density": 450.0,
     "QualityLevel": 0
+  },
+  {
+    "Id": "light7",
+    "Icon": "items/light7.png",
+    "Color": "df7f01",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 3,
+      "Friction": 4,
+      "Buoyancy": 4
+    },
+    "Flammable": true,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "light8",
+    "Icon": "items/light8.png",
+    "Color": "c36512",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 2,
+      "Friction": 4,
+      "Buoyancy": 4
+    },
+    "Flammable": true,
+    "Density": 250.0,
+    "QualityLevel": 0
   }
 ]

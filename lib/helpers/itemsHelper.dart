@@ -10,12 +10,12 @@ import '../services/interface/IRecipeJsonService.dart';
 ResultWithValue<IRecipeJsonService> getRecipeRepoFromId(context, String id) {
   LocaleKey key = LocaleKey.title;
 
-  if (id.contains(IdPrefix.cookBot)) key = LocaleKey.cookBotJson;
-  if (id.contains(IdPrefix.craftBot)) key = LocaleKey.craftBotJson;
-  if (id.contains(IdPrefix.dispenser)) key = LocaleKey.dispenserJson;
-  if (id.contains(IdPrefix.dressBot)) key = LocaleKey.dressBotJson;
-  if (id.contains(IdPrefix.refinery)) key = LocaleKey.refineryJson;
-  if (id.contains(IdPrefix.workbench)) key = LocaleKey.workbenchJson;
+  if (id.contains(IdPrefix.cookBot)) key = LocaleKey.cookBotRecipeJson;
+  if (id.contains(IdPrefix.craftBot)) key = LocaleKey.craftBotRecipeJson;
+  if (id.contains(IdPrefix.dispenser)) key = LocaleKey.dispenserRecipeJson;
+  if (id.contains(IdPrefix.dressBot)) key = LocaleKey.dressBotRecipeJson;
+  if (id.contains(IdPrefix.refinery)) key = LocaleKey.refineryRecipeJson;
+  if (id.contains(IdPrefix.workbench)) key = LocaleKey.workbenchRecipeJson;
 
   if (key != LocaleKey.title) {
     return ResultWithValue<IRecipeJsonService>(true, getRecipeRepo(key), '');

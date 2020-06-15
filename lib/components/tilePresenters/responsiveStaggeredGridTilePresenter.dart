@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:scrapmechanic_kurtlourens_com/helpers/colourHelper.dart';
 import 'package:scrapmechanic_kurtlourens_com/helpers/genericHelper.dart';
+import 'package:scrapmechanic_kurtlourens_com/localization/localeKey.dart';
+import 'package:scrapmechanic_kurtlourens_com/localization/translations.dart';
 
 Widget responsiveStaggeredGridTilePresenter(
         IconData icon, Color backgroundColor,
@@ -27,7 +30,7 @@ Widget responsiveStaggeredGridTilePresenter(
 
 Widget responsiveStaggeredGridImageTilePresenter(
     BuildContext context, String imgPath, Color backgroundColor,
-    {Color iconColor, String text, double height, Function() onTap}) {
+    {Color iconColor, LocaleKey text, double height, Function() onTap}) {
   var safeOnTap = () {
     if (onTap != null) onTap();
   };
@@ -40,7 +43,15 @@ Widget responsiveStaggeredGridImageTilePresenter(
         children: [
           genericItemImage(context, imgPath, height: height, onTap: safeOnTap),
           (text != null)
-              ? Padding(child: Text('test'), padding: EdgeInsets.only(top: 4))
+              ? Padding(
+                  child: Text(
+                    Translations.get(context, text),
+                    style: TextStyle(
+                      color: getForegroundTextColour(backgroundColor),
+                    ),
+                  ),
+                  padding: EdgeInsets.only(top: 4),
+                )
               : Container(width: 0, height: 0),
         ],
       ),

@@ -72,7 +72,7 @@ Future<ResultWithValue<List<Recipe>>> getAllRecipeFromLocaleKeys(
   await Future.wait(tasks);
 
   logger.i('Number of Recipe items: ${results.length}');
-  // results.sort((a, b) => a.title.compareTo(b.title));
+  results.sort((a, b) => a.title.compareTo(b.title));
 
   return ResultWithValue(results.length > 0, results, '');
 }
@@ -120,7 +120,7 @@ Future<ResultWithValue<List<GameItem>>> getAllGameItemFromLocaleKeys(
   await Future.wait(tasks);
 
   logger.i('Number of GameItem items: ${results.length}');
-  // results.sort((a, b) => a.title.compareTo(b.title));
+  results.sort((a, b) => a.title.compareTo(b.title));
 
   return ResultWithValue(results.length > 0, results, '');
 }

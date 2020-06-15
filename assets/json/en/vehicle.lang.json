@@ -18,5 +18,13 @@
   {
     "Id": "veh5",
     "Title": "Rounded Frame Corner"
+  },
+  {
+    "Id": "veh6",
+    "Title": "Wheel"
+  },
+  {
+    "Id": "veh7",
+    "Title": "Big Wheel"
   }
 ]

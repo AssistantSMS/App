@@ -73,5 +73,35 @@
     "Flammable": false,
     "Density": 150.0,
     "QualityLevel": 0
+  },
+  {
+    "Id": "veh6",
+    "Icon": "items/veh6.png",
+    "Color": "df7f01",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 7,
+      "Durability": 5,
+      "Friction": 5,
+      "Buoyancy": 6
+    },
+    "Flammable": true,
+    "Density": 1250.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "veh7",
+    "Icon": "items/veh7.png",
+    "Color": "df7f01",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 5,
+      "Friction": 5,
+      "Buoyancy": 6
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   }
 ]

@@ -8,12 +8,14 @@ import '../../constants/AnalyticsEvent.dart';
 import '../../contracts/recipe/recipe.dart';
 import '../../helpers/analytics.dart';
 import '../../helpers/futureHelper.dart';
+import '../../helpers/searchHelper.dart';
 import '../../localization/localeKey.dart';
 import '../../localization/translations.dart';
 
 class RecipeListPage extends StatelessWidget {
+  final LocaleKey name;
   final List<LocaleKey> recipeLocales;
-  RecipeListPage(this.recipeLocales) {
+  RecipeListPage(this.name, this.recipeLocales) {
     trackEvent(AnalyticsEvent.recipeListPage);
   }
 
@@ -24,12 +26,12 @@ class RecipeListPage extends StatelessWidget {
       context,
       appBar: appBarForSubPageHelper(
         context,
-        title: Text('testing'),
+        title: Text(Translations.get(context, name)),
       ),
       body: SearchableList<Recipe>(
         () => getAllRecipeFromLocaleKeys(context, recipeLocales),
         recipeTilePresenter,
-        (Recipe recipe, String search) => false,
+        searchRecipe,
         key: Key(Translations.of(context).currentLanguage),
         hintText: hintText,
       ),

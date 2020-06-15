@@ -3,20 +3,20 @@ import '../localization/localeKey.dart';
 
 String getBaseFileName(LocaleKey detailsJson) {
   switch (detailsJson) {
-    case LocaleKey.cookBotJson:
+    case LocaleKey.cookBotRecipeJson:
       return BaseJson.cookBot;
-    case LocaleKey.craftBotJson:
+    case LocaleKey.craftBotRecipeJson:
       return BaseJson.craftBot;
-    case LocaleKey.dispenserJson:
+    case LocaleKey.dispenserRecipeJson:
       return BaseJson.dispenser;
-    case LocaleKey.dressBotJson:
+    case LocaleKey.dressBotRecipeJson:
       return BaseJson.dressBot;
-    // case LocaleKey.hideOutJson: return BaseJson.hid;
-    // case LocaleKey.itemNamesJson: return BaseJson.blocks;
-    case LocaleKey.refineryJson:
+    // case LocaleKey.hideOutRecipeJson: return BaseJson.hid;
+    // case LocaleKey.itemNamesRecipeJson: return BaseJson.blocks;
+    case LocaleKey.refineryRecipeJson:
       return BaseJson.refinery;
-    // case LocaleKey.undecidedJson: return BaseJson.un;
-    case LocaleKey.workbenchJson:
+    // case LocaleKey.undecidedRecipeJson: return BaseJson.un;
+    case LocaleKey.workbenchRecipeJson:
       return BaseJson.workbench;
 
     // Game Items below

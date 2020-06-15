@@ -1,0 +1,1690 @@
+[
+  {
+    "Id": "craft1",
+    "Icon": "items/craft1.png",
+    "Ingredients": [
+      {
+        "Id": "blk4",
+        "Quantity": 10
+      },
+      {
+        "Id": "",
+        "Quantity": 2
+      }
+    ]
+  },
+  {
+    "Id": "craft2",
+    "Icon": "items/craft2.png",
+    "Ingredients": [
+      {
+        "Id": "craft8",
+        "Quantity": 10
+      },
+      {
+        "Id": "craft15",
+        "Quantity": 5
+      },
+      {
+        "Id": "",
+        "Quantity": 3
+      }
+    ]
+  },
+  {
+    "Id": "craft3",
+    "Icon": "items/craft3.png",
+    "Ingredients": [
+      {
+        "Id": "craft9",
+        "Quantity": 20
+      },
+      {
+        "Id": "",
+        "Quantity": 5
+      },
+      {
+        "Id": "",
+        "Quantity": 5
+      }
+    ]
+  },
+  {
+    "Id": "craft4",
+    "Icon": "items/craft4.png",
+    "Ingredients": [
+      {
+        "Id": "blk1",
+        "Quantity": 5
+      }
+    ]
+  },
+  {
+    "Id": "craft5",
+    "Icon": "items/craft5.png",
+    "Ingredients": [
+      {
+        "Id": "blk1",
+        "Quantity": 20
+      }
+    ]
+  },
+  {
+    "Id": "craft6",
+    "Icon": "items/craft6.png",
+    "Ingredients": [
+      {
+        "Id": "craft5",
+        "Quantity": 15
+      },
+      {
+        "Id": "craft9",
+        "Quantity": 1
+      }
+    ]
+  },
+  {
+    "Id": "craft7",
+    "Icon": "items/craft7.png",
+    "Ingredients": [
+      {
+        "Id": "craft6",
+        "Quantity": 15
+      },
+      {
+        "Id": "craft10",
+        "Quantity": 1
+      }
+    ]
+  },
+  {
+    "Id": "craft8",
+    "Icon": "items/craft8.png",
+    "Ingredients": [
+      {
+        "Id": "blk4",
+        "Quantity": 15
+      }
+    ]
+  },
+  {
+    "Id": "craft9",
+    "Icon": "items/craft9.png",
+    "Ingredients": [
+      {
+        "Id": "craft8",
+        "Quantity": 15
+      },
+      {
+        "Id": "",
+        "Quantity": 1
+      },
+      {
+        "Id": "craft69",
+        "Quantity": 2
+      }
+    ]
+  },
+  {
+    "Id": "craft10",
+    "Icon": "items/craft10.png",
+    "Ingredients": [
+      {
+        "Id": "craft9",
+        "Quantity": 20
+      },
+      {
+        "Id": "",
+        "Quantity": 2
+      },
+      {
+        "Id": "craft69",
+        "Quantity": 4
+      }
+    ]
+  },
+  {
+    "Id": "craft11",
+    "Icon": "items/craft11.png",
+    "Ingredients": [
+      {
+        "Id": "blk7",
+        "Quantity": 10
+      },
+      {
+        "Id": "craft69",
+        "Quantity": 4
+      },
+      {
+        "Id": "craft70",
+        "Quantity": 2
+      }
+    ]
+  },
+  {
+    "Id": "craft12",
+    "Icon": "items/craft12.png",
+    "Ingredients": [
+      {
+        "Id": "craft11",
+        "Quantity": 15
+      },
+      {
+        "Id": "craft9",
+        "Quantity": 2
+      }
+    ]
+  },
+  {
+    "Id": "craft13",
+    "Icon": "items/craft13.png",
+    "Ingredients": [
+      {
+        "Id": "craft12",
+        "Quantity": 15
+      },
+      {
+        "Id": "craft10",
+        "Quantity": 2
+      }
+    ]
+  },
+  {
+    "Id": "craft14",
+    "Icon": "items/craft14.png",
+    "Ingredients": [
+      {
+        "Id": "blk7",
+        "Quantity": 5
+      }
+    ]
+  },
+  {
+    "Id": "craft15",
+    "Icon": "items/craft15.png",
+    "Ingredients": [
+      {
+        "Id": "craft14",
+        "Quantity": 10
+      },
+      {
+        "Id": "",
+        "Quantity": 1
+      }
+    ]
+  },
+  {
+    "Id": "craft16",
+    "Icon": "items/craft16.png",
+    "Ingredients": [
+      {
+        "Id": "craft14",
+        "Quantity": 10
+      },
+      {
+        "Id": "",
+        "Quantity": 1
+      }
+    ]
+  },
+  {
+    "Id": "craft17",
+    "Icon": "items/craft17.png",
+    "Ingredients": [
+      {
+        "Id": "craft15",
+        "Quantity": 10
+      },
+      {
+        "Id": "craft21",
+        "Quantity": 2
+      },
+      {
+        "Id": "",
+        "Quantity": 1
+      }
+    ]
+  },
+  {
+    "Id": "craft18",
+    "Icon": "items/craft18.png",
+    "Ingredients": [
+      {
+        "Id": "craft8",
+        "Quantity": 10
+      }
+    ]
+  },
+  {
+    "Id": "craft19",
+    "Icon": "items/craft19.png",
+    "Ingredients": [
+      {
+        "Id": "craft8",
+        "Quantity": 10
+      },
+      {
+        "Id": "",
+        "Quantity": 1
+      }
+    ]
+  },
+  {
+    "Id": "craft20",
+    "Icon": "items/craft20.png",
+    "Ingredients": [
+      {
+        "Id": "craft8",
+        "Quantity": 5
+      }
+    ]
+  },
+  {
+    "Id": "craft21",
+    "Icon": "items/craft21.png",
+    "Ingredients": [
+      {
+        "Id": "craft8",
+        "Quantity": 2
+      }
+    ]
+  },
+  {
+    "Id": "craft22",
+    "Icon": "items/craft22.png",
+    "Ingredients": [
+      {
+        "Id": "craft8",
+        "Quantity": 5
+      }
+    ]
+  },
+  {
+    "Id": "craft23",
+    "Icon": "items/craft23.png",
+    "Ingredients": [
+      {
+        "Id": "craft9",
+        "Quantity": 5
+      }
+    ]
+  },
+  {
+    "Id": "craft24",
+    "Icon": "items/craft24.png",
+    "Ingredients": [
+      {
+        "Id": "craft9",
+        "Quantity": 10
+      },
+      {
+        "Id": "craft71",
+        "Quantity": 1
+      }
+    ]
+  },
+  {
+    "Id": "craft25",
+    "Icon": "items/craft25.png",
+    "Ingredients": [
+      {
+        "Id": "blk7",
+        "Quantity": 10
+      }
+    ]
+  },
+  {
+    "Id": "craft26",
+    "Icon": "items/craft26.png",
+    "Ingredients": [
+      {
+        "Id": "blk7",
+        "Quantity": 10
+      },
+      {
+        "Id": "craft71",
+        "Quantity": 1
+      }
+    ]
+  },
+  {
+    "Id": "craft27",
+    "Icon": "items/craft27.png",
+    "Ingredients": [
+      {
+        "Id": "blk7",
+        "Quantity": 10
+      },
+      {
+        "Id": "",
+        "Quantity": 1
+      }
+    ]
+  },
+  {
+    "Id": "craft28",
+    "Icon": "items/craft28.png",
+    "Ingredients": [
+      {
+        "Id": "craft5",
+        "Quantity": 10
+      },
+      {
+        "Id": "craft71",
+        "Quantity": 1
+      }
+    ]
+  },
+  {
+    "Id": "craft29",
+    "Icon": "items/craft29.png",
+    "Ingredients": [
+      {
+        "Id": "",
+        "Quantity": 5
+      },
+      {
+        "Id": "craft71",
+        "Quantity": 1
+      }
+    ]
+  },
+  {
+    "Id": "craft30",
+    "Icon": "items/craft30.png",
+    "Ingredients": [
+      {
+        "Id": "",
+        "Quantity": 5
+      }
+    ]
+  },
+  {
+    "Id": "craft31",
+    "Icon": "items/craft31.png",
+    "Ingredients": [
+      {
+        "Id": "blk4",
+        "Quantity": 5
+      }
+    ]
+  },
+  {
+    "Id": "craft32",
+    "Icon": "items/craft32.png",
+    "Ingredients": [
+      {
+        "Id": "blk4",
+        "Quantity": 1
+      },
+      {
+        "Id": "",
+        "Quantity": 2
+      }
+    ]
+  },
+  {
+    "Id": "craft33",
+    "Icon": "items/craft33.png",
+    "Ingredients": [
+      {
+        "Id": "blk4",
+        "Quantity": 1
+      },
+      {
+        "Id": "",
+        "Quantity": 2
+      }
+    ]
+  },
+  {
+    "Id": "craft34",
+    "Icon": "items/craft34.png",
+    "Ingredients": [
+      {
+        "Id": "craft8",
+        "Quantity": 1
+      },
+      {
+        "Id": "craft15",
+        "Quantity": 1
+      },
+      {
+        "Id": "",
+        "Quantity": 2
+      },
+      {
+        "Id": "craft68",
+        "Quantity": 2
+      }
+    ]
+  },
+  {
+    "Id": "craft35",
+    "Icon": "items/craft35.png",
+    "Ingredients": [
+      {
+        "Id": "craft9",
+        "Quantity": 5
+      },
+      {
+        "Id": "",
+        "Quantity": 2
+      }
+    ]
+  },
+  {
+    "Id": "craft36",
+    "Icon": "items/craft36.png",
+    "Ingredients": [
+      {
+        "Id": "craft9",
+        "Quantity": 10
+      },
+      {
+        "Id": "",
+        "Quantity": 2
+      }
+    ]
+  },
+  {
+    "Id": "craft37",
+    "Icon": "items/craft37.png",
+    "Ingredients": [
+      {
+        "Id": "craft9",
+        "Quantity": 10
+      },
+      {
+        "Id": "",
+        "Quantity": 2
+      },
+      {
+        "Id": "",
+        "Quantity": 2
+      },
+      {
+        "Id": "",
+        "Quantity": 1
+      }
+    ]
+  },
+  {
+    "Id": "craft38",
+    "Icon": "items/craft38.png",
+    "Ingredients": [
+      {
+        "Id": "craft8",
+        "Quantity": 20
+      },
+      {
+        "Id": "",
+        "Quantity": 5
+      },
+      {
+        "Id": "",
+        "Quantity": 5
+      },
+      {
+        "Id": "",
+        "Quantity": 3
+      }
+    ]
+  },
+  {
+    "Id": "craft39",
+    "Icon": "items/craft39.png",
+    "Ingredients": [
+      {
+        "Id": "craft9",
+        "Quantity": 20
+      },
+      {
+        "Id": "",
+        "Quantity": 5
+      },
+      {
+        "Id": "",
+        "Quantity": 10
+      },
+      {
+        "Id": "",
+        "Quantity": 5
+      }
+    ]
+  },
+  {
+    "Id": "craft40",
+    "Icon": "items/craft40.png",
+    "Ingredients": [
+      {
+        "Id": "",
+        "Quantity": 10
+      },
+      {
+        "Id": "craft8",
+        "Quantity": 5
+      },
+      {
+        "Id": "",
+        "Quantity": 3
+      },
+      {
+        "Id": "",
+        "Quantity": 1
+      }
+    ]
+  },
+  {
+    "Id": "craft41",
+    "Icon": "items/craft41.png",
+    "Ingredients": [
+      {
+        "Id": "",
+        "Quantity": 10
+      },
+      {
+        "Id": "craft8",
+        "Quantity": 5
+      },
+      {
+        "Id": "",
+        "Quantity": 2
+      }
+    ]
+  },
+  {
+    "Id": "craft42",
+    "Icon": "items/craft42.png",
+    "Ingredients": [
+      {
+        "Id": "",
+        "Quantity": 5
+      },
+      {
+        "Id": "craft8",
+        "Quantity": 5
+      },
+      {
+        "Id": "",
+        "Quantity": 3
+      },
+      {
+        "Id": "",
+        "Quantity": 1
+      }
+    ]
+  },
+  {
+    "Id": "craft43",
+    "Icon": "items/craft43.png",
+    "Ingredients": [
+      {
+        "Id": "",
+        "Quantity": 5
+      },
+      {
+        "Id": "craft8",
+        "Quantity": 5
+      },
+      {
+        "Id": "",
+        "Quantity": 2
+      }
+    ]
+  },
+  {
+    "Id": "craft44",
+    "Icon": "items/craft44.png",
+    "Ingredients": [
+      {
+        "Id": "craft8",
+        "Quantity": 5
+      },
+      {
+        "Id": "craft5",
+        "Quantity": 5
+      }
+    ]
+  },
+  {
+    "Id": "craft45",
+    "Icon": "items/craft45.png",
+    "Ingredients": [
+      {
+        "Id": "craft10",
+        "Quantity": 40
+      },
+      {
+        "Id": "",
+        "Quantity": 10
+      }
+    ]
+  },
+  {
+    "Id": "craft46",
+    "Icon": "items/craft46.png",
+    "Ingredients": [
+      {
+        "Id": "craft8",
+        "Quantity": 5
+      },
+      {
+        "Id": "",
+        "Quantity": 5
+      },
+      {
+        "Id": "",
+        "Quantity": 1
+      },
+      {
+        "Id": "craft68",
+        "Quantity": 3
+      }
+    ]
+  },
+  {
+    "Id": "craft47",
+    "Icon": "items/craft47.png",
+    "Ingredients": [
+      {
+        "Id": "craft8",
+        "Quantity": 1
+      },
+      {
+        "Id": "",
+        "Quantity": 1
+      },
+      {
+        "Id": "craft68",
+        "Quantity": 1
+      }
+    ]
+  },
+  {
+    "Id": "craft48",
+    "Icon": "items/craft48.png",
+    "Ingredients": [
+      {
+        "Id": "craft8",
+        "Quantity": 2
+      },
+      {
+        "Id": "",
+        "Quantity": 2
+      },
+      {
+        "Id": "craft68",
+        "Quantity": 1
+      }
+    ]
+  },
+  {
+    "Id": "craft49",
+    "Icon": "items/craft49.png",
+    "Ingredients": [
+      {
+        "Id": "craft8",
+        "Quantity": 5
+      },
+      {
+        "Id": "",
+        "Quantity": 2
+      },
+      {
+        "Id": "",
+        "Quantity": 4
+      },
+      {
+        "Id": "craft68",
+        "Quantity": 1
+      }
+    ]
+  },
+  {
+    "Id": "craft50",
+    "Icon": "items/craft50.png",
+    "Ingredients": [
+      {
+        "Id": "craft8",
+        "Quantity": 1
+      },
+      {
+        "Id": "",
+        "Quantity": 1
+      },
+      {
+        "Id": "craft68",
+        "Quantity": 1
+      }
+    ]
+  },
+  {
+    "Id": "craft51",
+    "Icon": "items/craft51.png",
+    "Ingredients": [
+      {
+        "Id": "craft8",
+        "Quantity": 1
+      },
+      {
+        "Id": "craft15",
+        "Quantity": 1
+      },
+      {
+        "Id": "",
+        "Quantity": 2
+      },
+      {
+        "Id": "craft68",
+        "Quantity": 1
+      }
+    ]
+  },
+  {
+    "Id": "craft52",
+    "Icon": "items/craft52.png",
+    "Ingredients": [
+      {
+        "Id": "craft5",
+        "Quantity": 50
+      },
+      {
+        "Id": "",
+        "Quantity": 20
+      },
+      {
+        "Id": "craft71",
+        "Quantity": 5
+      }
+    ]
+  },
+  {
+    "Id": "craft53",
+    "Icon": "items/craft53.png",
+    "Ingredients": [
+      {
+        "Id": "craft8",
+        "Quantity": 10
+      },
+      {
+        "Id": "craft70",
+        "Quantity": 2
+      },
+      {
+        "Id": "",
+        "Quantity": 1
+      },
+      {
+        "Id": "craft68",
+        "Quantity": 2
+      }
+    ]
+  },
+  {
+    "Id": "craft54",
+    "Icon": "items/craft54.png",
+    "Ingredients": [
+      {
+        "Id": "craft8",
+        "Quantity": 40
+      },
+      {
+        "Id": "craft68",
+        "Quantity": 2
+      }
+    ]
+  },
+  {
+    "Id": "craft55",
+    "Icon": "items/craft55.png",
+    "Ingredients": [
+      {
+        "Id": "craft8",
+        "Quantity": 60
+      },
+      {
+        "Id": "",
+        "Quantity": 5
+      },
+      {
+        "Id": "",
+        "Quantity": 3
+      },
+      {
+        "Id": "craft68",
+        "Quantity": 5
+      }
+    ]
+  },
+  {
+    "Id": "craft56",
+    "Icon": "items/craft56.png",
+    "Ingredients": [
+      {
+        "Id": "craft9",
+        "Quantity": 10
+      },
+      {
+        "Id": "",
+        "Quantity": 5
+      },
+      {
+        "Id": "",
+        "Quantity": 5
+      },
+      {
+        "Id": "",
+        "Quantity": 3
+      }
+    ]
+  },
+  {
+    "Id": "craft57",
+    "Icon": "items/craft57.png",
+    "Ingredients": [
+      {
+        "Id": "craft9",
+        "Quantity": 5
+      },
+      {
+        "Id": "craft15",
+        "Quantity": 10
+      },
+      {
+        "Id": "",
+        "Quantity": 2
+      }
+    ]
+  },
+  {
+    "Id": "craft58",
+    "Icon": "items/craft58.png",
+    "Ingredients": [
+      {
+        "Id": "craft9",
+        "Quantity": 5
+      },
+      {
+        "Id": "craft15",
+        "Quantity": 10
+      },
+      {
+        "Id": "",
+        "Quantity": 2
+      }
+    ]
+  },
+  {
+    "Id": "craft59",
+    "Icon": "items/craft59.png",
+    "Ingredients": [
+      {
+        "Id": "craft8",
+        "Quantity": 20
+      },
+      {
+        "Id": "",
+        "Quantity": 5
+      },
+      {
+        "Id": "craft71",
+        "Quantity": 15
+      },
+      {
+        "Id": "craft68",
+        "Quantity": 2
+      }
+    ]
+  },
+  {
+    "Id": "craft60",
+    "Icon": "items/craft60.png",
+    "Ingredients": [
+      {
+        "Id": "craft9",
+        "Quantity": 20
+      },
+      {
+        "Id": "",
+        "Quantity": 10
+      },
+      {
+        "Id": "craft71",
+        "Quantity": 15
+      },
+      {
+        "Id": "craft68",
+        "Quantity": 2
+      }
+    ]
+  },
+  {
+    "Id": "craft61",
+    "Icon": "items/craft61.png",
+    "Ingredients": [
+      {
+        "Id": "craft8",
+        "Quantity": 10
+      },
+      {
+        "Id": "",
+        "Quantity": 10
+      },
+      {
+        "Id": "",
+        "Quantity": 5
+      },
+      {
+        "Id": "craft68",
+        "Quantity": 2
+      }
+    ]
+  },
+  {
+    "Id": "craft62",
+    "Icon": "items/craft62.png",
+    "Ingredients": [
+      {
+        "Id": "craft9",
+        "Quantity": 10
+      },
+      {
+        "Id": "",
+        "Quantity": 10
+      },
+      {
+        "Id": "",
+        "Quantity": 2
+      }
+    ]
+  },
+  {
+    "Id": "craft63",
+    "Icon": "items/craft63.png",
+    "Ingredients": [
+      {
+        "Id": "craft9",
+        "Quantity": 10
+      },
+      {
+        "Id": "craft8",
+        "Quantity": 20
+      }
+    ]
+  },
+  {
+    "Id": "craft64",
+    "Icon": "items/craft64.png",
+    "Ingredients": [
+      {
+        "Id": "craft9",
+        "Quantity": 20
+      },
+      {
+        "Id": "craft8",
+        "Quantity": 30
+      }
+    ]
+  },
+  {
+    "Id": "craft65",
+    "Icon": "items/craft65.png",
+    "Ingredients": [
+      {
+        "Id": "blk4",
+        "Quantity": 5
+      }
+    ]
+  },
+  {
+    "Id": "craft66",
+    "Icon": "items/craft66.png",
+    "Ingredients": [
+      {
+        "Id": "blk1",
+        "Quantity": 10
+      },
+      {
+        "Id": "craft14",
+        "Quantity": 10
+      },
+      {
+        "Id": "",
+        "Quantity": 2
+      }
+    ]
+  },
+  {
+    "Id": "craft67",
+    "Icon": "items/craft67.png",
+    "Ingredients": [
+      {
+        "Id": "",
+        "Quantity": 5
+      }
+    ]
+  },
+  {
+    "Id": "craft68",
+    "Icon": "items/craft68.png",
+    "Ingredients": [
+      {
+        "Id": "",
+        "Quantity": 3
+      }
+    ]
+  },
+  {
+    "Id": "craft69",
+    "Icon": "items/craft69.png",
+    "Ingredients": [
+      {
+        "Id": "",
+        "Quantity": 1
+      }
+    ]
+  },
+  {
+    "Id": "craft70",
+    "Icon": "items/craft70.png",
+    "Ingredients": [
+      {
+        "Id": "",
+        "Quantity": 1
+      }
+    ]
+  },
+  {
+    "Id": "craft71",
+    "Icon": "items/craft71.png",
+    "Ingredients": [
+      {
+        "Id": "",
+        "Quantity": 10
+      }
+    ]
+  },
+  {
+    "Id": "craft72",
+    "Icon": "items/craft72.png",
+    "Ingredients": [
+      {
+        "Id": "craft70",
+        "Quantity": 4
+      },
+      {
+        "Id": "",
+        "Quantity": 4
+      }
+    ]
+  },
+  {
+    "Id": "craft73",
+    "Icon": "items/craft73.png",
+    "Ingredients": [
+      {
+        "Id": "craft67",
+        "Quantity": 10
+      },
+      {
+        "Id": "",
+        "Quantity": 6
+      },
+      {
+        "Id": "craft71",
+        "Quantity": 5
+      }
+    ]
+  },
+  {
+    "Id": "craft74",
+    "Icon": "items/craft74.png",
+    "Ingredients": [
+      {
+        "Id": "craft67",
+        "Quantity": 20
+      },
+      {
+        "Id": "",
+        "Quantity": 8
+      },
+      {
+        "Id": "craft71",
+        "Quantity": 10
+      }
+    ]
+  },
+  {
+    "Id": "craft75",
+    "Icon": "items/craft75.png",
+    "Ingredients": [
+      {
+        "Id": "craft5",
+        "Quantity": 15
+      },
+      {
+        "Id": "craft8",
+        "Quantity": 5
+      },
+      {
+        "Id": "",
+        "Quantity": 6
+      }
+    ]
+  },
+  {
+    "Id": "craft76",
+    "Icon": "items/craft76.png",
+    "Ingredients": [
+      {
+        "Id": "craft5",
+        "Quantity": 40
+      },
+      {
+        "Id": "craft8",
+        "Quantity": 10
+      },
+      {
+        "Id": "",
+        "Quantity": 8
+      }
+    ]
+  },
+  {
+    "Id": "craft77",
+    "Icon": "items/craft77.png",
+    "Ingredients": [
+      {
+        "Id": "craft8",
+        "Quantity": 1
+      }
+    ]
+  },
+  {
+    "Id": "craft78",
+    "Icon": "items/craft78.png",
+    "Ingredients": [
+      {
+        "Id": "craft8",
+        "Quantity": 1
+      }
+    ]
+  },
+  {
+    "Id": "craft79",
+    "Icon": "items/craft79.png",
+    "Ingredients": [
+      {
+        "Id": "craft8",
+        "Quantity": 1
+      }
+    ]
+  },
+  {
+    "Id": "craft80",
+    "Icon": "items/craft80.png",
+    "Ingredients": [
+      {
+        "Id": "craft8",
+        "Quantity": 1
+      }
+    ]
+  },
+  {
+    "Id": "craft81",
+    "Icon": "items/craft81.png",
+    "Ingredients": [
+      {
+        "Id": "craft8",
+        "Quantity": 1
+      }
+    ]
+  },
+  {
+    "Id": "craft82",
+    "Icon": "items/craft82.png",
+    "Ingredients": [
+      {
+        "Id": "craft8",
+        "Quantity": 1
+      }
+    ]
+  },
+  {
+    "Id": "craft83",
+    "Icon": "items/craft83.png",
+    "Ingredients": [
+      {
+        "Id": "craft8",
+        "Quantity": 1
+      }
+    ]
+  },
+  {
+    "Id": "craft84",
+    "Icon": "items/craft84.png",
+    "Ingredients": [
+      {
+        "Id": "craft8",
+        "Quantity": 1
+      }
+    ]
+  },
+  {
+    "Id": "craft85",
+    "Icon": "items/craft85.png",
+    "Ingredients": [
+      {
+        "Id": "craft8",
+        "Quantity": 1
+      }
+    ]
+  },
+  {
+    "Id": "craft86",
+    "Icon": "items/craft86.png",
+    "Ingredients": [
+      {
+        "Id": "craft8",
+        "Quantity": 1
+      }
+    ]
+  },
+  {
+    "Id": "craft87",
+    "Icon": "items/craft87.png",
+    "Ingredients": [
+      {
+        "Id": "craft8",
+        "Quantity": 3
+      }
+    ]
+  },
+  {
+    "Id": "craft88",
+    "Icon": "items/craft88.png",
+    "Ingredients": [
+      {
+        "Id": "craft8",
+        "Quantity": 1
+      }
+    ]
+  },
+  {
+    "Id": "craft89",
+    "Icon": "items/craft89.png",
+    "Ingredients": [
+      {
+        "Id": "craft8",
+        "Quantity": 1
+      }
+    ]
+  },
+  {
+    "Id": "craft90",
+    "Icon": "items/craft90.png",
+    "Ingredients": [
+      {
+        "Id": "craft8",
+        "Quantity": 1
+      }
+    ]
+  },
+  {
+    "Id": "craft91",
+    "Icon": "items/craft91.png",
+    "Ingredients": [
+      {
+        "Id": "craft8",
+        "Quantity": 1
+      }
+    ]
+  },
+  {
+    "Id": "craft92",
+    "Icon": "items/craft92.png",
+    "Ingredients": [
+      {
+        "Id": "craft8",
+        "Quantity": 3
+      }
+    ]
+  },
+  {
+    "Id": "craft93",
+    "Icon": "items/craft93.png",
+    "Ingredients": [
+      {
+        "Id": "craft8",
+        "Quantity": 1
+      }
+    ]
+  },
+  {
+    "Id": "craft94",
+    "Icon": "items/craft94.png",
+    "Ingredients": [
+      {
+        "Id": "craft8",
+        "Quantity": 1
+      }
+    ]
+  },
+  {
+    "Id": "craft95",
+    "Icon": "items/craft95.png",
+    "Ingredients": [
+      {
+        "Id": "craft8",
+        "Quantity": 1
+      }
+    ]
+  },
+  {
+    "Id": "craft96",
+    "Icon": "items/craft96.png",
+    "Ingredients": [
+      {
+        "Id": "blk1",
+        "Quantity": 1
+      }
+    ]
+  },
+  {
+    "Id": "craft97",
+    "Icon": "items/craft97.png",
+    "Ingredients": [
+      {
+        "Id": "craft8",
+        "Quantity": 5
+      }
+    ]
+  },
+  {
+    "Id": "craft98",
+    "Icon": "items/craft98.png",
+    "Ingredients": [
+      {
+        "Id": "craft8",
+        "Quantity": 10
+      },
+      {
+        "Id": "",
+        "Quantity": 3
+      }
+    ]
+  },
+  {
+    "Id": "craft99",
+    "Icon": "items/craft99.png",
+    "Ingredients": [
+      {
+        "Id": "craft8",
+        "Quantity": 1
+      }
+    ]
+  },
+  {
+    "Id": "craft100",
+    "Icon": "items/craft100.png",
+    "Ingredients": [
+      {
+        "Id": "",
+        "Quantity": 1
+      },
+      {
+        "Id": "craft5",
+        "Quantity": 2
+      },
+      {
+        "Id": "craft71",
+        "Quantity": 1
+      },
+      {
+        "Id": "",
+        "Quantity": 1
+      }
+    ]
+  },
+  {
+    "Id": "craft101",
+    "Icon": "items/craft101.png",
+    "Ingredients": [
+      {
+        "Id": "craft5",
+        "Quantity": 2
+      },
+      {
+        "Id": "craft71",
+        "Quantity": 1
+      },
+      {
+        "Id": "",
+        "Quantity": 3
+      }
+    ]
+  },
+  {
+    "Id": "craft102",
+    "Icon": "items/craft102.png",
+    "Ingredients": [
+      {
+        "Id": "craft5",
+        "Quantity": 1
+      },
+      {
+        "Id": "craft71",
+        "Quantity": 1
+      },
+      {
+        "Id": "",
+        "Quantity": 3
+      },
+      {
+        "Id": "craft68",
+        "Quantity": 1
+      }
+    ]
+  },
+  {
+    "Id": "craft103",
+    "Icon": "items/craft103.png",
+    "Ingredients": [
+      {
+        "Id": "",
+        "Quantity": 1
+      },
+      {
+        "Id": "blk7",
+        "Quantity": 5
+      }
+    ]
+  },
+  {
+    "Id": "craft104",
+    "Icon": "items/craft104.png",
+    "Ingredients": [
+      {
+        "Id": "",
+        "Quantity": 1
+      },
+      {
+        "Id": "blk7",
+        "Quantity": 5
+      }
+    ]
+  },
+  {
+    "Id": "craft105",
+    "Icon": "items/craft105.png",
+    "Ingredients": [
+      {
+        "Id": "",
+        "Quantity": 1
+      },
+      {
+        "Id": "blk7",
+        "Quantity": 5
+      },
+      {
+        "Id": "craft5",
+        "Quantity": 2
+      }
+    ]
+  },
+  {
+    "Id": "craft106",
+    "Icon": "items/craft106.png",
+    "Ingredients": [
+      {
+        "Id": "",
+        "Quantity": 1
+      },
+      {
+        "Id": "blk7",
+        "Quantity": 10
+      }
+    ]
+  },
+  {
+    "Id": "craft107",
+    "Icon": "items/craft107.png",
+    "Ingredients": [
+      {
+        "Id": "",
+        "Quantity": 1
+      },
+      {
+        "Id": "blk7",
+        "Quantity": 5
+      }
+    ]
+  },
+  {
+    "Id": "craft108",
+    "Icon": "items/craft108.png",
+    "Ingredients": [
+      {
+        "Id": "",
+        "Quantity": 1
+      },
+      {
+        "Id": "craft8",
+        "Quantity": 1
+      }
+    ]
+  },
+  {
+    "Id": "craft109",
+    "Icon": "items/craft109.png",
+    "Ingredients": [
+      {
+        "Id": "",
+        "Quantity": 1
+      },
+      {
+        "Id": "craft8",
+        "Quantity": 1
+      }
+    ]
+  },
+  {
+    "Id": "craft110",
+    "Icon": "items/craft110.png",
+    "Ingredients": [
+      {
+        "Id": "",
+        "Quantity": 1
+      },
+      {
+        "Id": "craft8",
+        "Quantity": 1
+      }
+    ]
+  },
+  {
+    "Id": "craft111",
+    "Icon": "items/craft111.png",
+    "Ingredients": [
+      {
+        "Id": "craft15",
+        "Quantity": 5
+      },
+      {
+        "Id": "craft8",
+        "Quantity": 5
+      }
+    ]
+  },
+  {
+    "Id": "craft112",
+    "Icon": "items/craft112.png",
+    "Ingredients": [
+      {
+        "Id": "craft15",
+        "Quantity": 10
+      },
+      {
+        "Id": "craft8",
+        "Quantity": 10
+      }
+    ]
+  },
+  {
+    "Id": "craft113",
+    "Icon": "items/craft113.png",
+    "Ingredients": [
+      {
+        "Id": "craft15",
+        "Quantity": 15
+      },
+      {
+        "Id": "craft8",
+        "Quantity": 10
+      }
+    ]
+  },
+  {
+    "Id": "craft114",
+    "Icon": "items/craft114.png",
+    "Ingredients": [
+      {
+        "Id": "craft15",
+        "Quantity": 20
+      },
+      {
+        "Id": "craft8",
+        "Quantity": 10
+      }
+    ]
+  },
+  {
+    "Id": "craft115",
+    "Icon": "items/craft115.png",
+    "Ingredients": [
+      {
+        "Id": "craft15",
+        "Quantity": 10
+      },
+      {
+        "Id": "craft8",
+        "Quantity": 5
+      }
+    ]
+  },
+  {
+    "Id": "craft116",
+    "Icon": "items/craft116.png",
+    "Ingredients": [
+      {
+        "Id": "craft8",
+        "Quantity": 10
+      },
+      {
+        "Id": "craft71",
+        "Quantity": 1
+      }
+    ]
+  }
+]

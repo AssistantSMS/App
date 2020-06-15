@@ -1,0 +1,467 @@
+[
+  {
+    "Id": "blk1",
+    "Icon": "items/blk1.png",
+    "Color": "cd9d71",
+    "PhysicsMaterial": "Wood",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 2,
+      "Friction": 4,
+      "Buoyancy": 4
+    },
+    "Flammable": true,
+    "Density": 250.0,
+    "QualityLevel": 2
+  },
+  {
+    "Id": "blk2",
+    "Icon": "items/blk2.png",
+    "Color": "dc9153",
+    "PhysicsMaterial": "Wood",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 5,
+      "Friction": 5,
+      "Buoyancy": 8
+    },
+    "Flammable": true,
+    "Density": 250.0,
+    "QualityLevel": 3
+  },
+  {
+    "Id": "blk3",
+    "Icon": "items/blk3.png",
+    "Color": "f2ad74",
+    "PhysicsMaterial": "Wood",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 6,
+      "Friction": 5,
+      "Buoyancy": 9
+    },
+    "Flammable": true,
+    "Density": 250.0,
+    "QualityLevel": 3
+  },
+  {
+    "Id": "blk4",
+    "Icon": "items/blk4.png",
+    "Color": "df6226",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 3,
+      "Friction": 4,
+      "Buoyancy": 2
+    },
+    "Flammable": true,
+    "Density": 1250.0,
+    "QualityLevel": 2
+  },
+  {
+    "Id": "blk5",
+    "Icon": "items/blk5.png",
+    "Color": "869499",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 7,
+      "Friction": 4,
+      "Buoyancy": 5
+    },
+    "Flammable": false,
+    "Density": 1250.0,
+    "QualityLevel": 5
+  },
+  {
+    "Id": "blk6",
+    "Icon": "items/blk6.png",
+    "Color": "88a5ac",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 8,
+      "Friction": 4,
+      "Buoyancy": 6
+    },
+    "Flammable": false,
+    "Density": 1250.0,
+    "QualityLevel": 5
+  },
+  {
+    "Id": "blk7",
+    "Icon": "items/blk7.png",
+    "Color": "848484",
+    "PhysicsMaterial": "Rock",
+    "Ratings": {
+      "Density": 6,
+      "Durability": 3,
+      "Friction": 6,
+      "Buoyancy": 5
+    },
+    "Flammable": false,
+    "Density": 500.0,
+    "QualityLevel": 2
+  },
+  {
+    "Id": "blk8",
+    "Icon": "items/blk8.png",
+    "Color": "8d8f89",
+    "PhysicsMaterial": "Rock",
+    "Ratings": {
+      "Density": 8,
+      "Durability": 6,
+      "Friction": 6,
+      "Buoyancy": 5
+    },
+    "Flammable": false,
+    "Density": 500.0,
+    "QualityLevel": 4
+  },
+  {
+    "Id": "blk9",
+    "Icon": "items/blk9.png",
+    "Color": "c9d7dc",
+    "PhysicsMaterial": "Rock",
+    "Ratings": {
+      "Density": 9,
+      "Durability": 7,
+      "Friction": 6,
+      "Buoyancy": 5
+    },
+    "Flammable": false,
+    "Density": 500.0,
+    "QualityLevel": 4
+  },
+  {
+    "Id": "blk10",
+    "Icon": "items/blk10.png",
+    "Color": "8d8f89",
+    "PhysicsMaterial": "Rock",
+    "Ratings": {
+      "Density": 6,
+      "Durability": 3,
+      "Friction": 6,
+      "Buoyancy": 4
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "blk11",
+    "Icon": "items/blk11.png",
+    "Color": "af967b",
+    "PhysicsMaterial": "Rock",
+    "Ratings": {
+      "Density": 6,
+      "Durability": 4,
+      "Friction": 7,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 1250.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "blk12",
+    "Icon": "items/blk12.png",
+    "Color": "738192",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 2,
+      "Friction": 5,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 1250.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "blk13",
+    "Icon": "items/blk13.png",
+    "Color": "858795",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 4,
+      "Friction": 4,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 1250.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "blk14",
+    "Icon": "items/blk14.png",
+    "Color": "9acfd2",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 1,
+      "Durability": 1,
+      "Friction": 4,
+      "Buoyancy": 8
+    },
+    "Flammable": true,
+    "Density": 1250.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "blk15",
+    "Icon": "items/blk15.png",
+    "Color": "0b9ade",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 2,
+      "Friction": 4,
+      "Buoyancy": 7
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "blk16",
+    "Icon": "items/blk16.png",
+    "Color": "fff063",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 2,
+      "Friction": 5,
+      "Buoyancy": 6
+    },
+    "Flammable": true,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "blk17",
+    "Icon": "items/blk17.png",
+    "Color": "979797",
+    "PhysicsMaterial": "Rock",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 3,
+      "Friction": 5,
+      "Buoyancy": 3
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "blk18",
+    "Icon": "items/blk18.png",
+    "Color": "368085",
+    "PhysicsMaterial": "Grass",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 2,
+      "Friction": 4,
+      "Buoyancy": 4
+    },
+    "Flammable": true,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "blk19",
+    "Icon": "items/blk19.png",
+    "Color": "eeeeee",
+    "PhysicsMaterial": "Grass",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 4,
+      "Friction": 6,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "blk20",
+    "Icon": "items/blk20.png",
+    "Color": "435359",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 3,
+      "Friction": 3,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 1250.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "blk21",
+    "Icon": "items/blk21.png",
+    "Color": "888888",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 5,
+      "Friction": 4,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 1250.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "blk22",
+    "Icon": "items/blk22.png",
+    "Color": "888888",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 4,
+      "Friction": 4,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 1250.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "blk23",
+    "Icon": "items/blk23.png",
+    "Color": "888888",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 4,
+      "Friction": 4,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 1250.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "blk24",
+    "Icon": "items/blk24.png",
+    "Color": "c36512",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 3,
+      "Friction": 2,
+      "Buoyancy": 2
+    },
+    "Flammable": false,
+    "Density": 1250.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "blk25",
+    "Icon": "items/blk25.png",
+    "Color": "607b79",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 7,
+      "Durability": 3,
+      "Friction": 4,
+      "Buoyancy": 3
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "blk26",
+    "Icon": "items/blk26.png",
+    "Color": "43494d",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 5,
+      "Friction": 6,
+      "Buoyancy": 2
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "blk27",
+    "Icon": "items/blk27.png",
+    "Color": "727272",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 6,
+      "Durability": 4,
+      "Friction": 4,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "blk28",
+    "Icon": "items/blk28.png",
+    "Color": "66837c",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 3,
+      "Friction": 5,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "blk29",
+    "Icon": "items/blk29.png",
+    "Color": "dadada",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 4,
+      "Friction": 5,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "blk30",
+    "Icon": "items/blk30.png",
+    "Color": "c69146",
+    "PhysicsMaterial": "Sand",
+    "Ratings": {
+      "Density": 6,
+      "Durability": 1,
+      "Friction": 4,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 1
+  },
+  {
+    "Id": "blk31",
+    "Icon": "items/blk31.png",
+    "Color": "3abfb1",
+    "PhysicsMaterial": "Glass",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 4,
+      "Friction": 3,
+      "Buoyancy": 5
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 1
+  }
+]

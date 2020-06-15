@@ -1,0 +1,27 @@
+import 'package:flutter/material.dart';
+
+import '../../contracts/misc/actionItem.dart';
+import '../../helpers/navigationHelper.dart';
+import '../adaptive/appBarForSubPage.dart';
+import '../adaptive/appScaffold.dart';
+
+Widget genericPageScaffold<T>(context, String title, snapshot,
+    {Widget Function(BuildContext context, AsyncSnapshot<T> snapshot) body,
+    bool showShortcutLinks = false,
+    floatingActionButton}) {
+  List<ActionItem> actions = List<ActionItem>();
+  actions.add(ActionItem(
+    icon: Icons.home,
+    onPressed: () async => await navigateHomeAsync(context),
+  ));
+  return appScaffold(
+    context,
+    appBar: appBarForSubPageHelper(
+      context,
+      title: Text(title),
+      actions: actions,
+    ),
+    body: body(context, snapshot),
+    floatingActionButton: floatingActionButton,
+  );
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "Id": "cook1",
+    "Title": "Pizza Burger",
+    "Description": "A mechanics favorite food. Fills up the hunger meter to the max"
+  },
+  {
+    "Id": "cook2",
+    "Title": "Veggie Burger",
+    "Description": "A vegetarian alternative. Fills up the hunger meter to the max"
+  },
+  {
+    "Id": "cook3",
+    "Title": "Revival Baguette",
+    "Description": "Feed your fallen friends to get them back on their feet and back in action"
+  }
+]

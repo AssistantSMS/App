@@ -1,0 +1,52 @@
+[
+  {
+    "Id": "ref1",
+    "Icon": "items/ref1.png",
+    "Ingredients": [
+      {
+        "Id": "blk1",
+        "Quantity": 10
+      }
+    ]
+  },
+  {
+    "Id": "ref2",
+    "Icon": "items/ref2.png",
+    "Ingredients": [
+      {
+        "Id": "craft5",
+        "Quantity": 10
+      }
+    ]
+  },
+  {
+    "Id": "ref3",
+    "Icon": "items/ref3.png",
+    "Ingredients": [
+      {
+        "Id": "blk4",
+        "Quantity": 10
+      }
+    ]
+  },
+  {
+    "Id": "ref4",
+    "Icon": "items/ref4.png",
+    "Ingredients": [
+      {
+        "Id": "craft8",
+        "Quantity": 10
+      }
+    ]
+  },
+  {
+    "Id": "ref5",
+    "Icon": "items/ref5.png",
+    "Ingredients": [
+      {
+        "Id": "blk7",
+        "Quantity": 10
+      }
+    ]
+  }
+]

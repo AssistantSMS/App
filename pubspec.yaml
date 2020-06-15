@@ -1,20 +1,6 @@
 name: scrapmechanic_kurtlourens_com
-description: A new Flutter project.
-
-# The following line prevents the package from being accidentally published to
-# pub.dev using `pub publish`. This is preferred for private packages.
-publish_to: 'none' # Remove this line if you wish to publish to pub.dev
-
-# The following defines the version and build number for your application.
-# A version number is three numbers separated by dots, like 1.2.43
-# followed by an optional build number separated by a +.
-# Both the version and the builder number may be overridden in flutter
-# build by specifying --build-name and --build-number, respectively.
-# In Android, build-name is used as versionName while build-number used as versionCode.
-# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
-# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
-# Read more about iOS versioning at
-# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+description: A companion app for Scrap Mechanic.
+publish_to: 'none'
 version: 1.0.0+1
 
 environment:
@@ -23,54 +9,265 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
-
-  # The following adds the Cupertino Icons font to your application.
-  # Use with the CupertinoIcons class for iOS style icons.
+  flutter_localizations:
+    sdk: flutter
   cupertino_icons: ^0.1.3
 
+  # Firebase
+  firebase_core: 0.4.4+3
+  firebase_analytics: 5.0.11
+  # Redux
+  flutter_redux: 0.6.0
+  redux: 4.0.0
+  # Hive
+  hive: ^1.4.1+1
+  hive_flutter: ^0.3.0+2
+  path: ^1.7.0
+  path_provider: ^1.6.10
+  # UI
+  badges: ^1.1.1
+  theme_mode_handler: ^2.0.0
+  rflutter_alert: ^1.0.3
+  convex_bottom_bar: ^2.2.1
+  flutter_staggered_grid_view: ^0.3.0
+  country_icons: ^1.1.1
+  # Base
+  get_it: 4.0.2
+  http: 0.12.0+2
+  uuid: 2.0.1
+  universal_platform: ^0.1.3
+  breakpoint: ^1.0.1+2
+  # Misc
+  url_launcher: 5.4.10
+  package_info: 0.4.0+18
+  enum_to_string: 1.0.9
+  share: ^0.6.4+2
+  logger: ^0.9.1
+
+dependency_overrides:
+  path: ^1.6.4
+
 dev_dependencies:
+  hive_generator: ^0.7.0+2
+  build_runner: ^1.10.0
   flutter_test:
     sdk: flutter
 
-# For information on the generic Dart part of this file, see the
-# following page: https://dart.dev/tools/pub/pubspec
-
-# The following section is specific to Flutter.
 flutter:
-
-  # The following line ensures that the Material Icons font is
-  # included with your application, so that you can use the icons in
-  # the material Icons class.
   uses-material-design: true
+  
+  assets:
+    # Languages
+    - assets/lang/language.af.json # Afrikaans
+    - assets/lang/language.de.json # German
+    - assets/lang/language.en.json # English
 
-  # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
+    # Base Json Items
+    - assets/json/blocks.json
+    - assets/json/cookbot.json
+    - assets/json/craftbot.json
+    - assets/json/dispenser.json
+    - assets/json/dressbot.json
+    - assets/json/refinery.json
+    - assets/json/workbench.json
 
-  # An image asset can refer to one or more resolution-specific "variants", see
-  # https://flutter.dev/assets-and-images/#resolution-aware.
+    # Language Json Items - English
+    - assets/json/en/blocks.lang.json
+    - assets/json/en/cookbot.lang.json
+    - assets/json/en/craftbot.lang.json
+    - assets/json/en/dispenser.lang.json
+    - assets/json/en/dressbot.lang.json
+    - assets/json/en/refinery.lang.json
+    - assets/json/en/workbench.lang.json
 
-  # For details regarding adding assets from package dependencies, see
-  # https://flutter.dev/assets-and-images/#from-packages
+    # Images
+    - assets/img/drawerHeader.png
 
-  # To add custom fonts to your application, add a fonts section here,
-  # in this "flutter" section. Each entry in this list should have a
-  # "family" key with the font family name, and a "fonts" key with a
-  # list giving the asset and other descriptors for the font. For
-  # example:
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
-  #       - asset: fonts/Schyler-Italic.ttf
-  #         style: italic
-  #   - family: Trajan Pro
-  #     fonts:
-  #       - asset: fonts/TrajanPro.ttf
-  #       - asset: fonts/TrajanPro_Bold.ttf
-  #         weight: 700
-  #
-  # For details regarding fonts from package dependencies,
-  # see https://flutter.dev/custom-fonts/#from-packages
+    - assets/img/block.png
+    - assets/img/cookbot.png
+    - assets/img/craftbot.png
+    - assets/img/dressbot.png
+    - assets/img/refiner.png
+    - assets/img/unknown.png
+
+    - assets/img/items/blk1.png
+    - assets/img/items/blk10.png
+    - assets/img/items/blk11.png
+    - assets/img/items/blk12.png
+    - assets/img/items/blk13.png
+    - assets/img/items/blk14.png
+    - assets/img/items/blk15.png
+    - assets/img/items/blk16.png
+    - assets/img/items/blk17.png
+    - assets/img/items/blk18.png
+    - assets/img/items/blk19.png
+    - assets/img/items/blk2.png
+    - assets/img/items/blk20.png
+    - assets/img/items/blk21.png
+    - assets/img/items/blk22.png
+    - assets/img/items/blk23.png
+    - assets/img/items/blk24.png
+    - assets/img/items/blk25.png
+    - assets/img/items/blk26.png
+    - assets/img/items/blk27.png
+    - assets/img/items/blk28.png
+    - assets/img/items/blk29.png
+    - assets/img/items/blk3.png
+    - assets/img/items/blk30.png
+    - assets/img/items/blk31.png
+    - assets/img/items/blk4.png
+    - assets/img/items/blk5.png
+    - assets/img/items/blk6.png
+    - assets/img/items/blk7.png
+    - assets/img/items/blk8.png
+    - assets/img/items/blk9.png
+    - assets/img/items/cook1.png
+    - assets/img/items/cook2.png
+    - assets/img/items/cook3.png
+    - assets/img/items/craft1.png
+    - assets/img/items/craft10.png
+    - assets/img/items/craft100.png
+    - assets/img/items/craft101.png
+    - assets/img/items/craft102.png
+    - assets/img/items/craft103.png
+    - assets/img/items/craft104.png
+    - assets/img/items/craft105.png
+    - assets/img/items/craft106.png
+    - assets/img/items/craft107.png
+    - assets/img/items/craft108.png
+    - assets/img/items/craft109.png
+    - assets/img/items/craft11.png
+    - assets/img/items/craft110.png
+    - assets/img/items/craft111.png
+    - assets/img/items/craft112.png
+    - assets/img/items/craft113.png
+    - assets/img/items/craft114.png
+    - assets/img/items/craft115.png
+    - assets/img/items/craft116.png
+    - assets/img/items/craft12.png
+    - assets/img/items/craft13.png
+    - assets/img/items/craft14.png
+    - assets/img/items/craft15.png
+    - assets/img/items/craft16.png
+    - assets/img/items/craft17.png
+    - assets/img/items/craft18.png
+    - assets/img/items/craft19.png
+    - assets/img/items/craft2.png
+    - assets/img/items/craft20.png
+    - assets/img/items/craft21.png
+    - assets/img/items/craft22.png
+    - assets/img/items/craft23.png
+    - assets/img/items/craft24.png
+    - assets/img/items/craft25.png
+    - assets/img/items/craft26.png
+    - assets/img/items/craft27.png
+    - assets/img/items/craft28.png
+    - assets/img/items/craft29.png
+    - assets/img/items/craft3.png
+    - assets/img/items/craft30.png
+    - assets/img/items/craft31.png
+    - assets/img/items/craft32.png
+    - assets/img/items/craft33.png
+    - assets/img/items/craft34.png
+    - assets/img/items/craft35.png
+    - assets/img/items/craft36.png
+    - assets/img/items/craft37.png
+    - assets/img/items/craft38.png
+    - assets/img/items/craft39.png
+    - assets/img/items/craft4.png
+    - assets/img/items/craft40.png
+    - assets/img/items/craft41.png
+    - assets/img/items/craft42.png
+    - assets/img/items/craft43.png
+    - assets/img/items/craft44.png
+    - assets/img/items/craft45.png
+    - assets/img/items/craft46.png
+    - assets/img/items/craft47.png
+    - assets/img/items/craft48.png
+    - assets/img/items/craft49.png
+    - assets/img/items/craft5.png
+    - assets/img/items/craft50.png
+    - assets/img/items/craft51.png
+    - assets/img/items/craft52.png
+    - assets/img/items/craft53.png
+    - assets/img/items/craft54.png
+    - assets/img/items/craft55.png
+    - assets/img/items/craft56.png
+    - assets/img/items/craft57.png
+    - assets/img/items/craft58.png
+    - assets/img/items/craft59.png
+    - assets/img/items/craft6.png
+    - assets/img/items/craft60.png
+    - assets/img/items/craft61.png
+    - assets/img/items/craft62.png
+    - assets/img/items/craft63.png
+    - assets/img/items/craft64.png
+    - assets/img/items/craft65.png
+    - assets/img/items/craft66.png
+    - assets/img/items/craft67.png
+    - assets/img/items/craft68.png
+    - assets/img/items/craft69.png
+    - assets/img/items/craft7.png
+    - assets/img/items/craft70.png
+    - assets/img/items/craft71.png
+    - assets/img/items/craft72.png
+    - assets/img/items/craft73.png
+    - assets/img/items/craft74.png
+    - assets/img/items/craft75.png
+    - assets/img/items/craft76.png
+    - assets/img/items/craft77.png
+    - assets/img/items/craft78.png
+    - assets/img/items/craft79.png
+    - assets/img/items/craft8.png
+    - assets/img/items/craft80.png
+    - assets/img/items/craft81.png
+    - assets/img/items/craft82.png
+    - assets/img/items/craft83.png
+    - assets/img/items/craft84.png
+    - assets/img/items/craft85.png
+    - assets/img/items/craft86.png
+    - assets/img/items/craft87.png
+    - assets/img/items/craft88.png
+    - assets/img/items/craft89.png
+    - assets/img/items/craft9.png
+    - assets/img/items/craft90.png
+    - assets/img/items/craft91.png
+    - assets/img/items/craft92.png
+    - assets/img/items/craft93.png
+    - assets/img/items/craft94.png
+    - assets/img/items/craft95.png
+    - assets/img/items/craft96.png
+    - assets/img/items/craft97.png
+    - assets/img/items/craft98.png
+    - assets/img/items/craft99.png
+    - assets/img/items/disp1.png
+    - assets/img/items/disp2.png
+    - assets/img/items/disp3.png
+    - assets/img/items/disp4.png
+    - assets/img/items/disp5.png
+    - assets/img/items/dress1.png
+    - assets/img/items/dress2.png
+    - assets/img/items/dress3.png
+    - assets/img/items/ref1.png
+    - assets/img/items/ref2.png
+    - assets/img/items/ref3.png
+    - assets/img/items/ref4.png
+    - assets/img/items/ref5.png
+    - assets/img/items/workbench1.png
+    - assets/img/items/workbench2.png
+    - assets/img/items/workbench3.png
+    - assets/img/items/workbench4.png
+    - assets/img/items/workbench5.png
+    - assets/img/items/workbench6.png
+    - assets/img/items/workbench7.png
+    - assets/img/items/workbench8.png
+    - assets/img/items/workbench9.png
+
+
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto/Roboto-Regular.ttf
+        - asset: assets/fonts/Roboto/Roboto-Medium.ttf
+        - asset: assets/fonts/Roboto/Roboto-Bold.ttf
+        - asset: assets/fonts/Roboto/Roboto-Light.ttf

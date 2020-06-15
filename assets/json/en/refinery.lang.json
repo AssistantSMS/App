@@ -1,0 +1,22 @@
+[
+  {
+    "Id": "ref1",
+    "Title": "Scrap Wood"
+  },
+  {
+    "Id": "ref2",
+    "Title": "Wood"
+  },
+  {
+    "Id": "ref3",
+    "Title": "Scrap Metal"
+  },
+  {
+    "Id": "ref4",
+    "Title": "Metal"
+  },
+  {
+    "Id": "ref5",
+    "Title": "Scrap Stone"
+  }
+]

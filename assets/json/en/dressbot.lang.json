@@ -1,0 +1,17 @@
+[
+  {
+    "Id": "dress1",
+    "Title": "Garment Box (Common)",
+    "Description": "Use it in a Dressbot to make new clothes"
+  },
+  {
+    "Id": "dress2",
+    "Title": "Garment Box (Rare)",
+    "Description": "Use it in a Dressbot to make new clothes"
+  },
+  {
+    "Id": "dress3",
+    "Title": "Garment Box (Epic)",
+    "Description": "Use it in a Dressbot to make new clothes"
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "Id": "dress1",
+    "Icon": "items/dress1.png",
+    "Ingredients": [
+      {
+        "Id": "",
+        "Quantity": 5
+      },
+      {
+        "Id": "dress1",
+        "Quantity": 1
+      }
+    ]
+  },
+  {
+    "Id": "dress2",
+    "Icon": "items/dress2.png",
+    "Ingredients": [
+      {
+        "Id": "",
+        "Quantity": 10
+      },
+      {
+        "Id": "dress2",
+        "Quantity": 1
+      }
+    ]
+  },
+  {
+    "Id": "dress3",
+    "Icon": "items/dress3.png",
+    "Ingredients": [
+      {
+        "Id": "",
+        "Quantity": 20
+      },
+      {
+        "Id": "dress3",
+        "Quantity": 1
+      }
+    ]
+  }
+]

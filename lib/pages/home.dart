@@ -32,6 +32,8 @@ class Home extends StatelessWidget {
   }
 
   Widget getBody(BuildContext context) {
+    const smallImage = 50.0;
+    const largeImage = 96.0;
     return responsiveStaggeredGrid(
       [
         StaggeredGridItem(
@@ -40,6 +42,7 @@ class Home extends StatelessWidget {
             context,
             AppImage.craftBot,
             Colors.lightBlue,
+            height: largeImage,
             onTap: () async => await navigateAwayFromHomeAsync(
               context,
               navigateTo: (context) => RecipeListPage([LocaleKey.craftBotJson]),
@@ -51,9 +54,13 @@ class Home extends StatelessWidget {
           childBuilder: (BuildContext childContext) =>
               responsiveStaggeredGridImageTilePresenter(
             context,
-            AppImage.block,
-            Colors.blueGrey,
-            height: 50,
+            AppImage.cookBot,
+            Colors.purple,
+            height: smallImage,
+            onTap: () async => await navigateAwayFromHomeAsync(
+              context,
+              navigateTo: (context) => RecipeListPage([LocaleKey.cookBotJson]),
+            ),
           ),
           gridItemType: StaggeredGridItemType.smallRectLandscape,
         ),
@@ -61,8 +68,19 @@ class Home extends StatelessWidget {
           childBuilder: (BuildContext childContext) =>
               responsiveStaggeredGridImageTilePresenter(
             context,
+            AppImage.block,
+            Colors.blueGrey,
+            height: largeImage,
+          ),
+          gridItemType: StaggeredGridItemType.medSquare,
+        ),
+        StaggeredGridItem(
+          childBuilder: (BuildContext childContext) =>
+              responsiveStaggeredGridImageTilePresenter(
+            context,
             AppImage.refiner,
             Colors.lightGreen,
+            height: largeImage,
             onTap: () async => await navigateAwayFromHomeAsync(
               context,
               navigateTo: (context) => RecipeListPage([LocaleKey.refineryJson]),
@@ -74,22 +92,9 @@ class Home extends StatelessWidget {
           childBuilder: (BuildContext childContext) =>
               responsiveStaggeredGridImageTilePresenter(
             context,
-            AppImage.cookBot,
-            Colors.purple,
-            onTap: () async => await navigateAwayFromHomeAsync(
-              context,
-              navigateTo: (context) => RecipeListPage([LocaleKey.cookBotJson]),
-            ),
-          ),
-          gridItemType: StaggeredGridItemType.medSquare,
-        ),
-        StaggeredGridItem(
-          childBuilder: (BuildContext childContext) =>
-              responsiveStaggeredGridImageTilePresenter(
-            context,
             AppImage.dressBot,
             Colors.amber,
-            height: 50,
+            height: smallImage,
             onTap: () async => await navigateAwayFromHomeAsync(
               context,
               navigateTo: (context) => RecipeListPage([LocaleKey.dressBotJson]),

@@ -8,7 +8,7 @@
         "Quantity": 10
       },
       {
-        "Id": "",
+        "Id": "res6",
         "Quantity": 2
       }
     ]
@@ -40,7 +40,7 @@
         "Quantity": 20
       },
       {
-        "Id": "",
+        "Id": "res6",
         "Quantity": 5
       },
       {
@@ -116,7 +116,7 @@
         "Quantity": 15
       },
       {
-        "Id": "",
+        "Id": "res1",
         "Quantity": 1
       },
       {
@@ -134,7 +134,7 @@
         "Quantity": 20
       },
       {
-        "Id": "",
+        "Id": "res1",
         "Quantity": 2
       },
       {
@@ -208,7 +208,7 @@
         "Quantity": 10
       },
       {
-        "Id": "",
+        "Id": "res1",
         "Quantity": 1
       }
     ]
@@ -222,7 +222,7 @@
         "Quantity": 10
       },
       {
-        "Id": "",
+        "Id": "res1",
         "Quantity": 1
       }
     ]
@@ -240,7 +240,7 @@
         "Quantity": 2
       },
       {
-        "Id": "",
+        "Id": "res1",
         "Quantity": 1
       }
     ]
@@ -264,7 +264,7 @@
         "Quantity": 10
       },
       {
-        "Id": "",
+        "Id": "res6",
         "Quantity": 1
       }
     ]
@@ -356,7 +356,7 @@
         "Quantity": 10
       },
       {
-        "Id": "",
+        "Id": "res2",
         "Quantity": 1
       }
     ]
@@ -380,7 +380,7 @@
     "Icon": "items/craft29.png",
     "Ingredients": [
       {
-        "Id": "",
+        "Id": "res4",
         "Quantity": 5
       },
       {
@@ -394,7 +394,7 @@
     "Icon": "items/craft30.png",
     "Ingredients": [
       {
-        "Id": "",
+        "Id": "res11",
         "Quantity": 5
       }
     ]
@@ -418,7 +418,7 @@
         "Quantity": 1
       },
       {
-        "Id": "",
+        "Id": "res6",
         "Quantity": 2
       }
     ]
@@ -432,7 +432,7 @@
         "Quantity": 1
       },
       {
-        "Id": "",
+        "Id": "res6",
         "Quantity": 2
       }
     ]
@@ -450,7 +450,7 @@
         "Quantity": 1
       },
       {
-        "Id": "",
+        "Id": "res6",
         "Quantity": 2
       },
       {
@@ -468,7 +468,7 @@
         "Quantity": 5
       },
       {
-        "Id": "",
+        "Id": "res11",
         "Quantity": 2
       }
     ]
@@ -482,7 +482,7 @@
         "Quantity": 10
       },
       {
-        "Id": "",
+        "Id": "res11",
         "Quantity": 2
       }
     ]
@@ -496,11 +496,11 @@
         "Quantity": 10
       },
       {
-        "Id": "",
+        "Id": "res11",
         "Quantity": 2
       },
       {
-        "Id": "",
+        "Id": "res6",
         "Quantity": 2
       },
       {
@@ -518,11 +518,11 @@
         "Quantity": 20
       },
       {
-        "Id": "",
+        "Id": "res11",
         "Quantity": 5
       },
       {
-        "Id": "",
+        "Id": "res6",
         "Quantity": 5
       },
       {
@@ -544,7 +544,7 @@
         "Quantity": 5
       },
       {
-        "Id": "",
+        "Id": "res6",
         "Quantity": 10
       },
       {
@@ -558,7 +558,7 @@
     "Icon": "items/craft40.png",
     "Ingredients": [
       {
-        "Id": "",
+        "Id": "res4",
         "Quantity": 10
       },
       {
@@ -566,7 +566,7 @@
         "Quantity": 5
       },
       {
-        "Id": "",
+        "Id": "res6",
         "Quantity": 3
       },
       {
@@ -580,7 +580,7 @@
     "Icon": "items/craft41.png",
     "Ingredients": [
       {
-        "Id": "",
+        "Id": "res4",
         "Quantity": 10
       },
       {
@@ -588,7 +588,7 @@
         "Quantity": 5
       },
       {
-        "Id": "",
+        "Id": "res6",
         "Quantity": 2
       }
     ]
@@ -598,7 +598,7 @@
     "Icon": "items/craft42.png",
     "Ingredients": [
       {
-        "Id": "",
+        "Id": "res4",
         "Quantity": 5
       },
       {
@@ -606,7 +606,7 @@
         "Quantity": 5
       },
       {
-        "Id": "",
+        "Id": "res6",
         "Quantity": 3
       },
       {
@@ -620,7 +620,7 @@
     "Icon": "items/craft43.png",
     "Ingredients": [
       {
-        "Id": "",
+        "Id": "res4",
         "Quantity": 5
       },
       {
@@ -628,7 +628,7 @@
         "Quantity": 5
       },
       {
-        "Id": "",
+        "Id": "res6",
         "Quantity": 2
       }
     ]
@@ -670,7 +670,7 @@
         "Quantity": 5
       },
       {
-        "Id": "",
+        "Id": "res6",
         "Quantity": 5
       },
       {
@@ -692,7 +692,7 @@
         "Quantity": 1
       },
       {
-        "Id": "",
+        "Id": "res6",
         "Quantity": 1
       },
       {
@@ -710,7 +710,7 @@
         "Quantity": 2
       },
       {
-        "Id": "",
+        "Id": "res6",
         "Quantity": 2
       },
       {
@@ -732,7 +732,7 @@
         "Quantity": 2
       },
       {
-        "Id": "",
+        "Id": "res6",
         "Quantity": 4
       },
       {
@@ -750,7 +750,7 @@
         "Quantity": 1
       },
       {
-        "Id": "",
+        "Id": "res6",
         "Quantity": 1
       },
       {
@@ -772,7 +772,7 @@
         "Quantity": 1
       },
       {
-        "Id": "",
+        "Id": "res6",
         "Quantity": 2
       },
       {
@@ -790,7 +790,7 @@
         "Quantity": 50
       },
       {
-        "Id": "",
+        "Id": "res4",
         "Quantity": 20
       },
       {
@@ -812,7 +812,7 @@
         "Quantity": 2
       },
       {
-        "Id": "",
+        "Id": "res6",
         "Quantity": 1
       },
       {
@@ -844,7 +844,7 @@
         "Quantity": 60
       },
       {
-        "Id": "",
+        "Id": "res6",
         "Quantity": 5
       },
       {
@@ -866,11 +866,11 @@
         "Quantity": 10
       },
       {
-        "Id": "",
+        "Id": "res2",
         "Quantity": 5
       },
       {
-        "Id": "",
+        "Id": "res6",
         "Quantity": 5
       },
       {
@@ -892,7 +892,7 @@
         "Quantity": 10
       },
       {
-        "Id": "",
+        "Id": "res6",
         "Quantity": 2
       }
     ]
@@ -910,7 +910,7 @@
         "Quantity": 10
       },
       {
-        "Id": "",
+        "Id": "res6",
         "Quantity": 2
       }
     ]
@@ -924,7 +924,7 @@
         "Quantity": 20
       },
       {
-        "Id": "",
+        "Id": "res6",
         "Quantity": 5
       },
       {
@@ -946,7 +946,7 @@
         "Quantity": 20
       },
       {
-        "Id": "",
+        "Id": "res6",
         "Quantity": 10
       },
       {
@@ -968,11 +968,11 @@
         "Quantity": 10
       },
       {
-        "Id": "",
+        "Id": "res2",
         "Quantity": 10
       },
       {
-        "Id": "",
+        "Id": "res6",
         "Quantity": 5
       },
       {
@@ -990,7 +990,7 @@
         "Quantity": 10
       },
       {
-        "Id": "",
+        "Id": "res2",
         "Quantity": 10
       },
       {
@@ -1060,7 +1060,7 @@
     "Icon": "items/craft67.png",
     "Ingredients": [
       {
-        "Id": "",
+        "Id": "res11",
         "Quantity": 5
       }
     ]
@@ -1070,7 +1070,7 @@
     "Icon": "items/craft68.png",
     "Ingredients": [
       {
-        "Id": "",
+        "Id": "res3",
         "Quantity": 3
       }
     ]
@@ -1100,7 +1100,7 @@
     "Icon": "items/craft71.png",
     "Ingredients": [
       {
-        "Id": "",
+        "Id": "res9",
         "Quantity": 10
       }
     ]
@@ -1114,7 +1114,7 @@
         "Quantity": 4
       },
       {
-        "Id": "",
+        "Id": "res8",
         "Quantity": 4
       }
     ]
@@ -1128,7 +1128,7 @@
         "Quantity": 10
       },
       {
-        "Id": "",
+        "Id": "res8",
         "Quantity": 6
       },
       {
@@ -1146,7 +1146,7 @@
         "Quantity": 20
       },
       {
-        "Id": "",
+        "Id": "res8",
         "Quantity": 8
       },
       {
@@ -1168,7 +1168,7 @@
         "Quantity": 5
       },
       {
-        "Id": "",
+        "Id": "res2",
         "Quantity": 6
       }
     ]
@@ -1186,7 +1186,7 @@
         "Quantity": 10
       },
       {
-        "Id": "",
+        "Id": "res2",
         "Quantity": 8
       }
     ]
@@ -1410,7 +1410,7 @@
         "Quantity": 10
       },
       {
-        "Id": "",
+        "Id": "res6",
         "Quantity": 3
       }
     ]
@@ -1430,7 +1430,7 @@
     "Icon": "items/craft100.png",
     "Ingredients": [
       {
-        "Id": "",
+        "Id": "res7",
         "Quantity": 1
       },
       {
@@ -1442,7 +1442,7 @@
         "Quantity": 1
       },
       {
-        "Id": "",
+        "Id": "res2",
         "Quantity": 1
       }
     ]
@@ -1460,7 +1460,7 @@
         "Quantity": 1
       },
       {
-        "Id": "",
+        "Id": "res2",
         "Quantity": 3
       }
     ]
@@ -1478,7 +1478,7 @@
         "Quantity": 1
       },
       {
-        "Id": "",
+        "Id": "res2",
         "Quantity": 3
       },
       {
@@ -1492,7 +1492,7 @@
     "Icon": "items/craft103.png",
     "Ingredients": [
       {
-        "Id": "",
+        "Id": "res9",
         "Quantity": 1
       },
       {
@@ -1506,7 +1506,7 @@
     "Icon": "items/craft104.png",
     "Ingredients": [
       {
-        "Id": "",
+        "Id": "res9",
         "Quantity": 1
       },
       {
@@ -1520,7 +1520,7 @@
     "Icon": "items/craft105.png",
     "Ingredients": [
       {
-        "Id": "",
+        "Id": "res9",
         "Quantity": 1
       },
       {
@@ -1538,7 +1538,7 @@
     "Icon": "items/craft106.png",
     "Ingredients": [
       {
-        "Id": "",
+        "Id": "res9",
         "Quantity": 1
       },
       {
@@ -1552,7 +1552,7 @@
     "Icon": "items/craft107.png",
     "Ingredients": [
       {
-        "Id": "",
+        "Id": "res9",
         "Quantity": 1
       },
       {
@@ -1566,7 +1566,7 @@
     "Icon": "items/craft108.png",
     "Ingredients": [
       {
-        "Id": "",
+        "Id": "res9",
         "Quantity": 1
       },
       {
@@ -1580,7 +1580,7 @@
     "Icon": "items/craft109.png",
     "Ingredients": [
       {
-        "Id": "",
+        "Id": "res9",
         "Quantity": 1
       },
       {
@@ -1594,7 +1594,7 @@
     "Icon": "items/craft110.png",
     "Ingredients": [
       {
-        "Id": "",
+        "Id": "res9",
         "Quantity": 1
       },
       {

@@ -4,7 +4,7 @@
     "Icon": "items/cook1.png",
     "Ingredients": [
       {
-        "Id": "",
+        "Id": "res7",
         "Quantity": 1
       },
       {
@@ -48,7 +48,7 @@
     "Icon": "items/cook3.png",
     "Ingredients": [
       {
-        "Id": "",
+        "Id": "res7",
         "Quantity": 1
       },
       {

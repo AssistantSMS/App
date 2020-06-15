@@ -1,126 +1,126 @@
 [
   {
     "Id": "blk1",
-    "Title": "blk_scrapwood"
+    "Title": "Scrap Wood Block"
   },
   {
     "Id": "blk2",
-    "Title": "blk_wood2"
+    "Title": "Wood Block 2"
   },
   {
     "Id": "blk3",
-    "Title": "blk_wood3"
+    "Title": "Wood Block 3"
   },
   {
     "Id": "blk4",
-    "Title": "blk_scrapmetal"
+    "Title": "Scrap Metal Block"
   },
   {
     "Id": "blk5",
-    "Title": "blk_metal2"
+    "Title": "Metal Block 2"
   },
   {
     "Id": "blk6",
-    "Title": "blk_metal3"
+    "Title": "Metal Block 3"
   },
   {
     "Id": "blk7",
-    "Title": "blk_scrapstone"
+    "Title": "Scrap Stone Block"
   },
   {
     "Id": "blk8",
-    "Title": "blk_concrete2"
+    "Title": "Concrete Block 2"
   },
   {
     "Id": "blk9",
-    "Title": "blk_concrete3"
+    "Title": "Concrete Block 3"
   },
   {
     "Id": "blk10",
-    "Title": "blk_crackedconcrete"
+    "Title": "Cracked Concrete Block"
   },
   {
     "Id": "blk11",
-    "Title": "blk_concretetiles"
+    "Title": "Concrete Slab Block"
   },
   {
     "Id": "blk12",
-    "Title": "blk_metalbricks"
+    "Title": "Rusted Metal Block"
   },
   {
     "Id": "blk13",
-    "Title": "blk_beam"
+    "Title": "Extruded Metal Block"
   },
   {
     "Id": "blk14",
-    "Title": "blk_bubblewrap"
+    "Title": "Bubble Plastic Block"
   },
   {
     "Id": "blk15",
-    "Title": "blk_plastic"
+    "Title": "Plastic Block"
   },
   {
     "Id": "blk16",
-    "Title": "blk_insulation"
+    "Title": "Insulation Block"
   },
   {
     "Id": "blk17",
-    "Title": "blk_drywall"
+    "Title": "Plaster Block"
   },
   {
     "Id": "blk18",
-    "Title": "blk_carpet"
+    "Title": "Carpet Block"
   },
   {
     "Id": "blk19",
-    "Title": "blk_plasticwall"
+    "Title": "Painted Wall Block"
   },
   {
     "Id": "blk20",
-    "Title": "blk_metalnet"
+    "Title": "Net Block"
   },
   {
     "Id": "blk21",
-    "Title": "blk_crossnet"
+    "Title": "Solid Net Block"
   },
   {
     "Id": "blk22",
-    "Title": "blk_tryponet"
+    "Title": "Punched Steel Block"
   },
   {
     "Id": "blk23",
-    "Title": "blk_stripednet"
+    "Title": "Striped Net Block"
   },
   {
     "Id": "blk24",
-    "Title": "blk_squarenet"
+    "Title": "Square Mesh Block"
   },
   {
     "Id": "blk25",
-    "Title": "blk_restroom"
+    "Title": "Restroom Block"
   },
   {
     "Id": "blk26",
-    "Title": "blk_treadplate"
+    "Title": "Diamond Plate Block"
   },
   {
     "Id": "blk27",
-    "Title": "blk_warehousefloor"
+    "Title": "Aluminum Block"
   },
   {
     "Id": "blk28",
-    "Title": "blk_wornmetal"
+    "Title": "Worn Metal Block"
   },
   {
     "Id": "blk29",
-    "Title": "blk_spaceshipfloor"
+    "Title": "Spaceship Floor Block"
   },
   {
     "Id": "blk30",
-    "Title": "blk_sand"
+    "Title": "Sand Block"
   },
   {
     "Id": "blk31",
-    "Title": "blk_armoredglass"
+    "Title": "Armored Glass Block"
   }
 ]

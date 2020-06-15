@@ -91,82 +91,154 @@ flutter:
     - assets/img/unknown.png
 
     - assets/img/items/blk1.png
+    - assets/img/items/blk1.png
+    - assets/img/items/blk10.png
     - assets/img/items/blk10.png
     - assets/img/items/blk11.png
+    - assets/img/items/blk11.png
+    - assets/img/items/blk12.png
     - assets/img/items/blk12.png
     - assets/img/items/blk13.png
+    - assets/img/items/blk13.png
+    - assets/img/items/blk14.png
     - assets/img/items/blk14.png
     - assets/img/items/blk15.png
+    - assets/img/items/blk15.png
+    - assets/img/items/blk16.png
     - assets/img/items/blk16.png
     - assets/img/items/blk17.png
+    - assets/img/items/blk17.png
+    - assets/img/items/blk18.png
     - assets/img/items/blk18.png
     - assets/img/items/blk19.png
+    - assets/img/items/blk19.png
+    - assets/img/items/blk2.png
     - assets/img/items/blk2.png
     - assets/img/items/blk20.png
+    - assets/img/items/blk20.png
+    - assets/img/items/blk21.png
     - assets/img/items/blk21.png
     - assets/img/items/blk22.png
+    - assets/img/items/blk22.png
+    - assets/img/items/blk23.png
     - assets/img/items/blk23.png
     - assets/img/items/blk24.png
+    - assets/img/items/blk24.png
+    - assets/img/items/blk25.png
     - assets/img/items/blk25.png
     - assets/img/items/blk26.png
+    - assets/img/items/blk26.png
+    - assets/img/items/blk27.png
     - assets/img/items/blk27.png
     - assets/img/items/blk28.png
+    - assets/img/items/blk28.png
+    - assets/img/items/blk29.png
     - assets/img/items/blk29.png
     - assets/img/items/blk3.png
+    - assets/img/items/blk3.png
+    - assets/img/items/blk30.png
     - assets/img/items/blk30.png
     - assets/img/items/blk31.png
+    - assets/img/items/blk31.png
+    - assets/img/items/blk4.png
     - assets/img/items/blk4.png
     - assets/img/items/blk5.png
+    - assets/img/items/blk5.png
+    - assets/img/items/blk6.png
     - assets/img/items/blk6.png
     - assets/img/items/blk7.png
+    - assets/img/items/blk7.png
     - assets/img/items/blk8.png
+    - assets/img/items/blk8.png
+    - assets/img/items/blk9.png
     - assets/img/items/blk9.png
     - assets/img/items/cook1.png
     - assets/img/items/cook2.png
     - assets/img/items/cook3.png
     - assets/img/items/craft1.png
     - assets/img/items/craft10.png
+    - assets/img/items/craft10.png
+    - assets/img/items/craft100.png
     - assets/img/items/craft100.png
     - assets/img/items/craft101.png
+    - assets/img/items/craft101.png
+    - assets/img/items/craft102.png
     - assets/img/items/craft102.png
     - assets/img/items/craft103.png
+    - assets/img/items/craft103.png
+    - assets/img/items/craft104.png
     - assets/img/items/craft104.png
     - assets/img/items/craft105.png
+    - assets/img/items/craft105.png
+    - assets/img/items/craft106.png
     - assets/img/items/craft106.png
     - assets/img/items/craft107.png
+    - assets/img/items/craft107.png
+    - assets/img/items/craft108.png
     - assets/img/items/craft108.png
     - assets/img/items/craft109.png
+    - assets/img/items/craft109.png
+    - assets/img/items/craft11.png
     - assets/img/items/craft11.png
     - assets/img/items/craft110.png
+    - assets/img/items/craft110.png
+    - assets/img/items/craft111.png
     - assets/img/items/craft111.png
     - assets/img/items/craft112.png
+    - assets/img/items/craft112.png
+    - assets/img/items/craft113.png
     - assets/img/items/craft113.png
     - assets/img/items/craft114.png
+    - assets/img/items/craft114.png
+    - assets/img/items/craft115.png
     - assets/img/items/craft115.png
     - assets/img/items/craft116.png
+    - assets/img/items/craft116.png
+    - assets/img/items/craft12.png
     - assets/img/items/craft12.png
     - assets/img/items/craft13.png
+    - assets/img/items/craft13.png
+    - assets/img/items/craft14.png
     - assets/img/items/craft14.png
     - assets/img/items/craft15.png
+    - assets/img/items/craft15.png
+    - assets/img/items/craft16.png
     - assets/img/items/craft16.png
     - assets/img/items/craft17.png
+    - assets/img/items/craft17.png
     - assets/img/items/craft18.png
+    - assets/img/items/craft18.png
+    - assets/img/items/craft19.png
     - assets/img/items/craft19.png
     - assets/img/items/craft2.png
     - assets/img/items/craft20.png
+    - assets/img/items/craft20.png
+    - assets/img/items/craft21.png
     - assets/img/items/craft21.png
     - assets/img/items/craft22.png
+    - assets/img/items/craft22.png
+    - assets/img/items/craft23.png
     - assets/img/items/craft23.png
     - assets/img/items/craft24.png
+    - assets/img/items/craft24.png
+    - assets/img/items/craft25.png
     - assets/img/items/craft25.png
     - assets/img/items/craft26.png
+    - assets/img/items/craft26.png
+    - assets/img/items/craft27.png
     - assets/img/items/craft27.png
     - assets/img/items/craft28.png
+    - assets/img/items/craft28.png
+    - assets/img/items/craft29.png
     - assets/img/items/craft29.png
     - assets/img/items/craft3.png
     - assets/img/items/craft30.png
+    - assets/img/items/craft30.png
+    - assets/img/items/craft31.png
     - assets/img/items/craft31.png
     - assets/img/items/craft32.png
+    - assets/img/items/craft32.png
+    - assets/img/items/craft33.png
     - assets/img/items/craft33.png
     - assets/img/items/craft34.png
     - assets/img/items/craft35.png
@@ -175,18 +247,26 @@ flutter:
     - assets/img/items/craft38.png
     - assets/img/items/craft39.png
     - assets/img/items/craft4.png
+    - assets/img/items/craft4.png
     - assets/img/items/craft40.png
     - assets/img/items/craft41.png
     - assets/img/items/craft42.png
     - assets/img/items/craft43.png
     - assets/img/items/craft44.png
+    - assets/img/items/craft44.png
     - assets/img/items/craft45.png
     - assets/img/items/craft46.png
     - assets/img/items/craft47.png
+    - assets/img/items/craft47.png
+    - assets/img/items/craft48.png
     - assets/img/items/craft48.png
     - assets/img/items/craft49.png
+    - assets/img/items/craft49.png
+    - assets/img/items/craft5.png
     - assets/img/items/craft5.png
     - assets/img/items/craft50.png
+    - assets/img/items/craft50.png
+    - assets/img/items/craft51.png
     - assets/img/items/craft51.png
     - assets/img/items/craft52.png
     - assets/img/items/craft53.png
@@ -197,10 +277,13 @@ flutter:
     - assets/img/items/craft58.png
     - assets/img/items/craft59.png
     - assets/img/items/craft6.png
+    - assets/img/items/craft6.png
     - assets/img/items/craft60.png
     - assets/img/items/craft61.png
     - assets/img/items/craft62.png
     - assets/img/items/craft63.png
+    - assets/img/items/craft63.png
+    - assets/img/items/craft64.png
     - assets/img/items/craft64.png
     - assets/img/items/craft65.png
     - assets/img/items/craft66.png
@@ -208,37 +291,67 @@ flutter:
     - assets/img/items/craft68.png
     - assets/img/items/craft69.png
     - assets/img/items/craft7.png
+    - assets/img/items/craft7.png
     - assets/img/items/craft70.png
     - assets/img/items/craft71.png
     - assets/img/items/craft72.png
     - assets/img/items/craft73.png
+    - assets/img/items/craft73.png
+    - assets/img/items/craft74.png
     - assets/img/items/craft74.png
     - assets/img/items/craft75.png
+    - assets/img/items/craft75.png
+    - assets/img/items/craft76.png
     - assets/img/items/craft76.png
     - assets/img/items/craft77.png
+    - assets/img/items/craft77.png
+    - assets/img/items/craft78.png
     - assets/img/items/craft78.png
     - assets/img/items/craft79.png
+    - assets/img/items/craft79.png
+    - assets/img/items/craft8.png
     - assets/img/items/craft8.png
     - assets/img/items/craft80.png
+    - assets/img/items/craft80.png
+    - assets/img/items/craft81.png
     - assets/img/items/craft81.png
     - assets/img/items/craft82.png
+    - assets/img/items/craft82.png
+    - assets/img/items/craft83.png
     - assets/img/items/craft83.png
     - assets/img/items/craft84.png
+    - assets/img/items/craft84.png
+    - assets/img/items/craft85.png
     - assets/img/items/craft85.png
     - assets/img/items/craft86.png
+    - assets/img/items/craft86.png
+    - assets/img/items/craft87.png
     - assets/img/items/craft87.png
     - assets/img/items/craft88.png
+    - assets/img/items/craft88.png
+    - assets/img/items/craft89.png
     - assets/img/items/craft89.png
     - assets/img/items/craft9.png
+    - assets/img/items/craft9.png
+    - assets/img/items/craft90.png
     - assets/img/items/craft90.png
     - assets/img/items/craft91.png
+    - assets/img/items/craft91.png
+    - assets/img/items/craft92.png
     - assets/img/items/craft92.png
     - assets/img/items/craft93.png
+    - assets/img/items/craft93.png
+    - assets/img/items/craft94.png
     - assets/img/items/craft94.png
     - assets/img/items/craft95.png
+    - assets/img/items/craft95.png
+    - assets/img/items/craft96.png
     - assets/img/items/craft96.png
     - assets/img/items/craft97.png
+    - assets/img/items/craft97.png
     - assets/img/items/craft98.png
+    - assets/img/items/craft98.png
+    - assets/img/items/craft99.png
     - assets/img/items/craft99.png
     - assets/img/items/disp1.png
     - assets/img/items/disp2.png
@@ -253,13 +366,28 @@ flutter:
     - assets/img/items/ref3.png
     - assets/img/items/ref4.png
     - assets/img/items/ref5.png
+    - assets/img/items/res1.png
+    - assets/img/items/res10.png
+    - assets/img/items/res11.png
+    - assets/img/items/res2.png
+    - assets/img/items/res3.png
+    - assets/img/items/res4.png
+    - assets/img/items/res5.png
+    - assets/img/items/res6.png
+    - assets/img/items/res7.png
+    - assets/img/items/res8.png
+    - assets/img/items/res9.png
     - assets/img/items/workbench1.png
     - assets/img/items/workbench2.png
     - assets/img/items/workbench3.png
     - assets/img/items/workbench4.png
     - assets/img/items/workbench5.png
+    - assets/img/items/workbench5.png
+    - assets/img/items/workbench6.png
     - assets/img/items/workbench6.png
     - assets/img/items/workbench7.png
+    - assets/img/items/workbench7.png
+    - assets/img/items/workbench8.png
     - assets/img/items/workbench8.png
     - assets/img/items/workbench9.png
 

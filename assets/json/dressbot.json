@@ -4,7 +4,7 @@
     "Icon": "items/dress1.png",
     "Ingredients": [
       {
-        "Id": "",
+        "Id": "res4",
         "Quantity": 5
       },
       {
@@ -18,7 +18,7 @@
     "Icon": "items/dress2.png",
     "Ingredients": [
       {
-        "Id": "",
+        "Id": "res4",
         "Quantity": 10
       },
       {
@@ -32,7 +32,7 @@
     "Icon": "items/dress3.png",
     "Ingredients": [
       {
-        "Id": "",
+        "Id": "res4",
         "Quantity": 20
       },
       {

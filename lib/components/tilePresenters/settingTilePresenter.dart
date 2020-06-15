@@ -1,14 +1,11 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import '../../constants/SupportedLanguages.dart';
 import '../../helpers/colourHelper.dart';
 import '../../helpers/genericHelper.dart';
 import '../../helpers/languageHelper.dart';
-import '../../localization/localeKey.dart';
 import '../../localization/localization.dart';
 import '../../localization/localizationMap.dart';
-import '../../localization/translations.dart';
 import '../adaptive/checkbox.dart';
 import 'genericTilePresenter.dart';
 import 'languageTilePresenter.dart';

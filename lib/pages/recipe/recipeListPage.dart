@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:scrapmechanic_kurtlourens_com/integration/logging.dart';
 
 import '../../components/adaptive/appBarForSubPage.dart';
 import '../../components/adaptive/appScaffold.dart';

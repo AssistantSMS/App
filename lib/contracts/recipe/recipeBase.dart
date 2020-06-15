@@ -4,7 +4,7 @@
 
 import 'dart:convert';
 
-import 'package:scrapmechanic_kurtlourens_com/contracts/recipeIngredient/recipeIngredient.dart';
+import '../recipeIngredient/recipeIngredient.dart';
 
 List<RecipeBase> recipeBaseFromJson(String str) =>
     List<RecipeBase>.from(json.decode(str).map((x) => RecipeBase.fromJson(x)));

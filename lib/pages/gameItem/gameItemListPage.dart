@@ -3,18 +3,18 @@ import 'package:flutter/material.dart';
 import '../../components/adaptive/appBarForSubPage.dart';
 import '../../components/adaptive/appScaffold.dart';
 import '../../components/searchableList.dart';
-import '../../components/tilePresenters/recipeTilePresenter.dart';
+import '../../components/tilePresenters/gameItemTilePresenter.dart';
 import '../../constants/AnalyticsEvent.dart';
-import '../../contracts/recipe/recipe.dart';
+import '../../contracts/gameItem/gameItem.dart';
 import '../../helpers/analytics.dart';
 import '../../helpers/futureHelper.dart';
 import '../../localization/localeKey.dart';
 import '../../localization/translations.dart';
 
-class RecipeListPage extends StatelessWidget {
-  final List<LocaleKey> recipeLocales;
-  RecipeListPage(this.recipeLocales) {
-    trackEvent(AnalyticsEvent.recipeListPage);
+class GameItemListPage extends StatelessWidget {
+  final List<LocaleKey> gameItemLocales;
+  GameItemListPage(this.gameItemLocales) {
+    trackEvent(AnalyticsEvent.itemListPage);
   }
 
   @override
@@ -26,10 +26,10 @@ class RecipeListPage extends StatelessWidget {
         context,
         title: Text('testing'),
       ),
-      body: SearchableList<Recipe>(
-        () => getAllRecipeFromLocaleKeys(context, recipeLocales),
-        recipeTilePresenter,
-        (Recipe recipe, String search) => false,
+      body: SearchableList<GameItem>(
+        () => getAllGameItemFromLocaleKeys(context, gameItemLocales),
+        gameItemTilePresenter,
+        (GameItem gameItem, String search) => false,
         key: Key(Translations.of(context).currentLanguage),
         hintText: hintText,
       ),

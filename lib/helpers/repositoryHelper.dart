@@ -5,8 +5,6 @@ import '../services/json/recipeJsonService.dart';
 
 String getBaseFileName(LocaleKey detailsJson) {
   switch (detailsJson) {
-    case LocaleKey.blocksJson:
-      return BaseJson.blocks;
     case LocaleKey.cookBotJson:
       return BaseJson.cookBot;
     case LocaleKey.craftBotJson:
@@ -22,11 +20,13 @@ String getBaseFileName(LocaleKey detailsJson) {
     // case LocaleKey.undecidedJson: return BaseJson.un;
     case LocaleKey.workbenchJson:
       return BaseJson.workbench;
+
+    // Game Items below
+    case LocaleKey.blocksJson:
+      return BaseJson.blocks;
+    case LocaleKey.resourcesJson:
+      return BaseJson.resources;
     default:
       return '';
   }
 }
-
-IRecipeJsonService Function(LocaleKey detailsJson) initRepo =
-    (LocaleKey detailsJson) =>
-        RecipeJsonService(getBaseFileName(detailsJson), detailsJson);

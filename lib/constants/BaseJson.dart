@@ -1,5 +1,7 @@
 class BaseJson {
   static const String blocks = 'blocks';
+  static const String resources = 'resources';
+
   static const String cookBot = 'cookbot';
   static const String craftBot = 'craftbot';
   static const String dispenser = 'dispenser';

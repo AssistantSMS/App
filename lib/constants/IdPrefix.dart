@@ -1,5 +1,6 @@
 class IdPrefix {
   static const String block = "blk";
+  static const String resource = "res";
 
   static const String cookBot = "cook";
   static const String craftBot = "craft";

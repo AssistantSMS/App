@@ -64,6 +64,7 @@ flutter:
 
     # Base Json Items
     - assets/json/blocks.json
+    - assets/json/resources.json
     - assets/json/cookbot.json
     - assets/json/craftbot.json
     - assets/json/dispenser.json
@@ -73,6 +74,7 @@ flutter:
 
     # Language Json Items - English
     - assets/json/en/blocks.lang.json
+    - assets/json/en/resources.lang.json
     - assets/json/en/cookbot.lang.json
     - assets/json/en/craftbot.lang.json
     - assets/json/en/dispenser.lang.json

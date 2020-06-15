@@ -1,5 +1,6 @@
 enum LocaleKey {
   blocksJson,
+  resourcesJson,
   cookBotJson,
   craftBotJson,
   dispenserJson,

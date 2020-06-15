@@ -1,18 +1,19 @@
 import 'package:flutter/material.dart';
 
 import '../../constants/AppPadding.dart';
-import '../../contracts/recipe/recipe.dart';
+import '../../contracts/gameItem/gameItem.dart';
 import '../../helpers/navigationHelper.dart';
-import '../../pages/recipe/recipeDetailPage.dart';
+import '../../pages/gameItem/gameItemDetailPage.dart';
 import 'genericTilePresenter.dart';
 
-Widget recipeTilePresenter(BuildContext context, Recipe recipe, int index) {
+Widget gameItemTilePresenter(
+    BuildContext context, GameItem gameItem, int index) {
   var tile = genericListTile(
     context,
-    leadingImage: recipe.icon,
-    name: recipe.title,
+    leadingImage: gameItem.icon,
+    name: gameItem.title,
     onTap: () async => await navigateAwayFromHomeAsync(context,
-        navigateTo: (context) => RecipeDetailPage(recipe.id)),
+        navigateTo: (context) => GameItemDetailPage(gameItem.id)),
   );
 
   if (index != 0) return tile;

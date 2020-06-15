@@ -1,6 +1,7 @@
 {
   "title": "Assistant for Scrap Mechanic",
   "blocksJson": "en/blocks.lang",
+  "resourcesJson": "en/resources.lang",
   "cookBotJson": "en/cookbot.lang",
   "craftBotJson": "en/craftbot.lang",
   "dispenserJson": "en/dispenser.lang",

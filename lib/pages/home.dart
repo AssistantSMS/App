@@ -13,6 +13,7 @@ import '../constants/AnalyticsEvent.dart';
 import '../constants/StaggeredGridItemType.dart';
 import '../contracts/misc/staggeredGridItem.dart';
 import '../helpers/analytics.dart';
+import 'gameItem/gameItemListPage.dart';
 
 class Home extends StatelessWidget {
   final void Function(Locale locale) onLocaleChange;
@@ -71,6 +72,12 @@ class Home extends StatelessWidget {
             AppImage.block,
             Colors.blueGrey,
             height: largeImage,
+            onTap: () async => await navigateAwayFromHomeAsync(
+              context,
+              navigateTo: (context) => GameItemListPage(
+                [LocaleKey.blocksJson, LocaleKey.resourcesJson],
+              ),
+            ),
           ),
           gridItemType: StaggeredGridItemType.medSquare,
         ),

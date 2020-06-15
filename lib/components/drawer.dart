@@ -16,18 +16,18 @@ class AppDrawer extends StatelessWidget {
         widgets.add(DrawerHeader(
           decoration: BoxDecoration(
             gradient: LinearGradient(
-                begin: Alignment.topLeft,
-                end: Alignment.bottomRight,
-                colors: [
-                  getPrimaryColour(context),
-                  getSecondaryColour(context),
-                ]),
-            image: const DecorationImage(
-              image: const AssetImage(AppImage.drawer),
-              fit: BoxFit.contain,
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [
+                getPrimaryColour(context),
+                getSecondaryColour(context),
+              ],
             ),
           ),
-          child: null,
+          child: Padding(
+            child: Image(image: AssetImage(AppImage.drawer)),
+            padding: EdgeInsets.all(8),
+          ),
           margin: EdgeInsets.zero,
           padding: EdgeInsets.zero,
         ));

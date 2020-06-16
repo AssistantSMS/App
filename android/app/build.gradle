@@ -25,6 +25,14 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 
+def releaseKeystoreProperties = new Properties()
+//def releaseKeystorePropertiesFile = rootProject.file('releaseKey.properties')
+//def releaseKeystorePropertiesFile = rootProject.file('releaseCIKey.properties')
+def releaseKeystorePropertiesFile = rootProject.file('releaseAppCenterKey.properties')
+if (releaseKeystorePropertiesFile.exists()) {
+    releaseKeystoreProperties.load(new FileInputStream(releaseKeystorePropertiesFile))
+}
+
 android {
     compileSdkVersion 28
 
@@ -37,20 +45,38 @@ android {
     }
 
     defaultConfig {
-        // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId "com.example.scrapmechanic_kurtlourens_com"
-        minSdkVersion 16
+        applicationId "com.kurtlourens.scrap_mechanic"
+        minSdkVersion 21
         targetSdkVersion 28
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
     }
 
-    buildTypes {
+    signingConfigs {
         release {
-            // TODO: Add your own signing config for the release build.
-            // Signing with the debug keys for now, so `flutter run --release` works.
-            signingConfig signingConfigs.debug
+            if (System.getenv()["CI"]) { // CI=true is exported by Codemagic
+                keyAlias System.getenv()["FCI_KEY_ALIAS"]
+                keyPassword System.getenv()["FCI_KEY_PASSWORD"]
+                storeFile file(System.getenv()["FCI_BUILD_DIR"] + "/keystore.jks")
+                storePassword System.getenv()["FCI_KEYSTORE_PASSWORD"]
+            } else {
+                keyAlias releaseKeystoreProperties['keyAlias']
+                keyPassword releaseKeystoreProperties['keyPassword']
+                storeFile file(releaseKeystoreProperties['storeFile'])
+                storePassword releaseKeystoreProperties['storePassword']
+            }
         }
+    }
+
+    buildTypes {
+       release {
+           signingConfig signingConfigs.release
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile(
+                    'proguard-android-optimize.txt'),
+                    'proguard-rules.pro'
+       }
     }
 }
 

@@ -26,9 +26,7 @@ apply plugin: 'kotlin-android'
 apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 
 def releaseKeystoreProperties = new Properties()
-//def releaseKeystorePropertiesFile = rootProject.file('releaseKey.properties')
-//def releaseKeystorePropertiesFile = rootProject.file('releaseCIKey.properties')
-def releaseKeystorePropertiesFile = rootProject.file('releaseAppCenterKey.properties')
+def releaseKeystorePropertiesFile = rootProject.file('releaseKey.properties')
 if (releaseKeystorePropertiesFile.exists()) {
     releaseKeystoreProperties.load(new FileInputStream(releaseKeystorePropertiesFile))
 }

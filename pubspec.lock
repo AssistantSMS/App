@@ -100,12 +100,12 @@ packages:
     source: hosted
     version: "7.1.0"
   characters:
-    dependency: transitive
+    dependency: "direct overridden"
     description:
       name: characters
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.3.1"
+    version: "1.0.0"
   charcode:
     dependency: transitive
     description:

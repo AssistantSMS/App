@@ -35,7 +35,7 @@ class Home extends StatelessWidget {
 
   Widget getBody(BuildContext context) {
     const smallImage = 40.0;
-    const largeImage = 96.0;
+    const largeImage = 65.0;
 
     return responsiveStaggeredGrid(
       [

@@ -1,7 +1,10 @@
+import 'package:flutter/cupertino.dart';
 import 'package:package_info/package_info.dart';
 import 'package:scrapmechanic_kurtlourens_com/contracts/gameItem/gameItem.dart';
 import 'package:scrapmechanic_kurtlourens_com/contracts/gameItem/gameItemPageItem.dart';
 import 'package:scrapmechanic_kurtlourens_com/contracts/recipe/recipe.dart';
+import 'package:scrapmechanic_kurtlourens_com/contracts/recipeIngredient/recipeIngredient.dart';
+import 'package:scrapmechanic_kurtlourens_com/contracts/recipeIngredient/recipeIngredientDetail.dart';
 import 'package:scrapmechanic_kurtlourens_com/integration/dependencyInjection.dart';
 import 'package:scrapmechanic_kurtlourens_com/integration/logging.dart';
 import 'package:scrapmechanic_kurtlourens_com/localization/localeKey.dart';
@@ -123,4 +126,33 @@ Future<ResultWithValue<List<GameItem>>> getAllGameItemFromLocaleKeys(
   results.sort((a, b) => a.title.compareTo(b.title));
 
   return ResultWithValue(results.length > 0, results, '');
+}
+
+Future<ResultWithValue<RecipeIngredientDetails>>
+    getRecipeIngredientDetailsFuture(
+        BuildContext context, RecipeIngredient recipeIngredient) async {
+  var itemId = recipeIngredient.id;
+  ResultWithValue<IGameItemJsonService> genRepo =
+      getGameItemRepoFromId(context, itemId);
+  if (genRepo.hasFailed)
+    return ResultWithValue<RecipeIngredientDetails>(
+        false,
+        RecipeIngredientDetails(),
+        'genericItemFuture - unknown type of item $itemId');
+
+  ResultWithValue<GameItem> itemResult =
+      await genRepo.value.getById(context, itemId);
+  if (itemResult.isSuccess) {
+    return ResultWithValue<RecipeIngredientDetails>(
+        true,
+        RecipeIngredientDetails(
+          id: itemResult.value.id,
+          icon: itemResult.value.icon,
+          title: itemResult.value.title,
+          quantity: recipeIngredient.quantity,
+        ),
+        '');
+  }
+
+  return ResultWithValue(false, null, itemResult.errorMessage);
 }

@@ -9,7 +9,7 @@
     "Inputs": [
       {
         "Id": "blk1",
-        "Quantity": 10
+        "Quantity": 1
       }
     ]
   },
@@ -22,8 +22,8 @@
     },
     "Inputs": [
       {
-        "Id": "recipeCraft5",
-        "Quantity": 10
+        "Id": "blk33",
+        "Quantity": 1
       }
     ]
   },
@@ -37,7 +37,7 @@
     "Inputs": [
       {
         "Id": "blk4",
-        "Quantity": 10
+        "Quantity": 1
       }
     ]
   },
@@ -50,8 +50,8 @@
     },
     "Inputs": [
       {
-        "Id": "recipeCraft8",
-        "Quantity": 10
+        "Id": "blk34",
+        "Quantity": 1
       }
     ]
   },
@@ -65,7 +65,7 @@
     "Inputs": [
       {
         "Id": "blk7",
-        "Quantity": 10
+        "Quantity": 1
       }
     ]
   }

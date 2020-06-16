@@ -122,5 +122,49 @@
   {
     "Id": "blk31",
     "Title": "Armored Glass Block"
+  },
+  {
+    "Id": "blk32",
+    "Title": "Concrete Block 1"
+  },
+  {
+    "Id": "blk33",
+    "Title": "Wood Block 1"
+  },
+  {
+    "Id": "blk34",
+    "Title": "Metal Block 1"
+  },
+  {
+    "Id": "blk35",
+    "Title": "Barrier Block"
+  },
+  {
+    "Id": "blk36",
+    "Title": "Tile Block"
+  },
+  {
+    "Id": "blk37",
+    "Title": "Brick Block"
+  },
+  {
+    "Id": "blk38",
+    "Title": "Glass Block"
+  },
+  {
+    "Id": "blk39",
+    "Title": "Glass Tile Block"
+  },
+  {
+    "Id": "blk40",
+    "Title": "Path Light Block"
+  },
+  {
+    "Id": "blk41",
+    "Title": "Spaceship Block"
+  },
+  {
+    "Id": "blk42",
+    "Title": "Cardboard Block"
   }
 ]

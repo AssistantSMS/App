@@ -5,15 +5,15 @@
     "Inputs": [
       {
         "Id": "blk4",
-        "Quantity": 30
+        "Quantity": 1
       },
       {
         "Id": "blk1",
-        "Quantity": 20
+        "Quantity": 1
       },
       {
         "Id": "reso6",
-        "Quantity": 3
+        "Quantity": 1
       }
     ]
   },
@@ -23,15 +23,15 @@
     "Inputs": [
       {
         "Id": "blk4",
-        "Quantity": 10
+        "Quantity": 1
       },
       {
         "Id": "blk1",
-        "Quantity": 100
+        "Quantity": 1
       },
       {
         "Id": "reso6",
-        "Quantity": 2
+        "Quantity": 1
       }
     ]
   },
@@ -41,7 +41,7 @@
     "Inputs": [
       {
         "Id": "blk1",
-        "Quantity": 50
+        "Quantity": 1
       },
       {
         "Id": "reso6",
@@ -55,17 +55,17 @@
     "Inputs": [
       {
         "Id": "blk1",
-        "Quantity": 20
+        "Quantity": 1
       },
       {
         "Id": "blk4",
-        "Quantity": 5
+        "Quantity": 1
       }
     ]
   },
   {
-    "Id": "recipeCraft31",
-    "Icon": "items/recipeCraft31.png",
+    "Id": "recipeWorkbench5",
+    "Icon": "items/recipeWorkbench5.png",
     "Output": {
       "Id": "intera15",
       "Quantity": 1
@@ -73,23 +73,27 @@
     "Inputs": [
       {
         "Id": "blk4",
-        "Quantity": 5
+        "Quantity": 1
       }
     ]
   },
   {
-    "Id": "recipeCraft4",
-    "Icon": "items/recipeCraft4.png",
+    "Id": "recipeWorkbench6",
+    "Icon": "items/recipeWorkbench6.png",
+    "Output": {
+      "Id": "blk42",
+      "Quantity": 1
+    },
     "Inputs": [
       {
         "Id": "blk1",
-        "Quantity": 5
+        "Quantity": 1
       }
     ]
   },
   {
-    "Id": "recipeCraft32",
-    "Icon": "items/recipeCraft32.png",
+    "Id": "recipeWorkbench7",
+    "Icon": "items/recipeWorkbench7.png",
     "Output": {
       "Id": "intera27",
       "Quantity": 1
@@ -106,8 +110,8 @@
     ]
   },
   {
-    "Id": "recipeCraft33",
-    "Icon": "items/recipeCraft33.png",
+    "Id": "recipeWorkbench8",
+    "Icon": "items/recipeWorkbench8.png",
     "Output": {
       "Id": "intera28",
       "Quantity": 1
@@ -124,16 +128,16 @@
     ]
   },
   {
-    "Id": "recipeCraft1",
-    "Icon": "items/recipeCraft1.png",
+    "Id": "recipeWorkbench9",
+    "Icon": "items/recipeWorkbench9.png",
     "Inputs": [
       {
         "Id": "blk4",
-        "Quantity": 10
+        "Quantity": 1
       },
       {
         "Id": "reso6",
-        "Quantity": 2
+        "Quantity": 1
       }
     ]
   }

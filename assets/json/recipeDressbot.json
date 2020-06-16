@@ -9,10 +9,10 @@
     "Inputs": [
       {
         "Id": "reso4",
-        "Quantity": 5
+        "Quantity": 1
       },
       {
-        "Id": "recipeDress1",
+        "Id": "out1",
         "Quantity": 1
       }
     ]
@@ -27,10 +27,10 @@
     "Inputs": [
       {
         "Id": "reso4",
-        "Quantity": 10
+        "Quantity": 1
       },
       {
-        "Id": "recipeDress2",
+        "Id": "out2",
         "Quantity": 1
       }
     ]
@@ -45,10 +45,10 @@
     "Inputs": [
       {
         "Id": "reso4",
-        "Quantity": 20
+        "Quantity": 1
       },
       {
-        "Id": "recipeDress3",
+        "Id": "out3",
         "Quantity": 1
       }
     ]

@@ -9,15 +9,15 @@
     "Inputs": [
       {
         "Id": "blk4",
-        "Quantity": 90
+        "Quantity": 1
       },
       {
         "Id": "reso6",
-        "Quantity": 10
+        "Quantity": 1
       },
       {
         "Id": "consu6",
-        "Quantity": 10
+        "Quantity": 1
       }
     ]
   },
@@ -30,16 +30,16 @@
     },
     "Inputs": [
       {
-        "Id": "recipeCraft8",
-        "Quantity": 60
+        "Id": "blk34",
+        "Quantity": 1
       },
       {
         "Id": "reso6",
-        "Quantity": 5
+        "Quantity": 1
       },
       {
         "Id": "consu6",
-        "Quantity": 5
+        "Quantity": 1
       }
     ]
   },
@@ -52,8 +52,8 @@
     },
     "Inputs": [
       {
-        "Id": "recipeCraft8",
-        "Quantity": 30
+        "Id": "blk34",
+        "Quantity": 1
       }
     ]
   },
@@ -66,16 +66,16 @@
     },
     "Inputs": [
       {
-        "Id": "recipeCraft9",
-        "Quantity": 50
+        "Id": "blk5",
+        "Quantity": 1
       },
       {
         "Id": "reso6",
-        "Quantity": 10
+        "Quantity": 1
       },
       {
         "Id": "consu6",
-        "Quantity": 10
+        "Quantity": 1
       }
     ]
   },
@@ -88,16 +88,16 @@
     },
     "Inputs": [
       {
-        "Id": "recipeCraft10",
-        "Quantity": 50
+        "Id": "blk6",
+        "Quantity": 1
       },
       {
         "Id": "reso6",
-        "Quantity": 10
+        "Quantity": 1
       },
       {
         "Id": "consu6",
-        "Quantity": 10
+        "Quantity": 1
       }
     ]
   }

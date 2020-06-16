@@ -191,8 +191,30 @@ flutter:
     - assets/img/items/blk30.png
     - assets/img/items/blk31.png
     - assets/img/items/blk31.png
+    - assets/img/items/blk32.png
+    - assets/img/items/blk32.png
+    - assets/img/items/blk33.png
+    - assets/img/items/blk33.png
+    - assets/img/items/blk34.png
+    - assets/img/items/blk34.png
+    - assets/img/items/blk35.png
+    - assets/img/items/blk35.png
+    - assets/img/items/blk36.png
+    - assets/img/items/blk36.png
+    - assets/img/items/blk37.png
+    - assets/img/items/blk37.png
+    - assets/img/items/blk38.png
+    - assets/img/items/blk38.png
+    - assets/img/items/blk39.png
+    - assets/img/items/blk39.png
     - assets/img/items/blk4.png
     - assets/img/items/blk4.png
+    - assets/img/items/blk40.png
+    - assets/img/items/blk40.png
+    - assets/img/items/blk41.png
+    - assets/img/items/blk41.png
+    - assets/img/items/blk42.png
+    - assets/img/items/blk42.png
     - assets/img/items/blk5.png
     - assets/img/items/blk5.png
     - assets/img/items/blk6.png
@@ -695,16 +717,10 @@ flutter:
     - assets/img/items/indus9.png
     - assets/img/items/indus9.png
     - assets/img/items/intera1.png
-    - assets/img/items/intera1.png
-    - assets/img/items/intera10.png
     - assets/img/items/intera10.png
     - assets/img/items/intera11.png
-    - assets/img/items/intera11.png
-    - assets/img/items/intera12.png
     - assets/img/items/intera12.png
     - assets/img/items/intera13.png
-    - assets/img/items/intera13.png
-    - assets/img/items/intera14.png
     - assets/img/items/intera14.png
     - assets/img/items/intera15.png
     - assets/img/items/intera15.png
@@ -716,7 +732,6 @@ flutter:
     - assets/img/items/intera18.png
     - assets/img/items/intera19.png
     - assets/img/items/intera19.png
-    - assets/img/items/intera2.png
     - assets/img/items/intera2.png
     - assets/img/items/intera20.png
     - assets/img/items/intera20.png
@@ -738,33 +753,40 @@ flutter:
     - assets/img/items/intera28.png
     - assets/img/items/intera29.png
     - assets/img/items/intera29.png
-    - assets/img/items/intera3.png
     - assets/img/items/intera3.png
     - assets/img/items/intera30.png
+    - assets/img/items/intera30.png
+    - assets/img/items/intera31.png
     - assets/img/items/intera31.png
     - assets/img/items/intera32.png
+    - assets/img/items/intera32.png
+    - assets/img/items/intera33.png
     - assets/img/items/intera33.png
     - assets/img/items/intera34.png
+    - assets/img/items/intera34.png
+    - assets/img/items/intera35.png
     - assets/img/items/intera35.png
     - assets/img/items/intera36.png
+    - assets/img/items/intera36.png
+    - assets/img/items/intera37.png
     - assets/img/items/intera37.png
     - assets/img/items/intera38.png
+    - assets/img/items/intera38.png
+    - assets/img/items/intera39.png
     - assets/img/items/intera39.png
     - assets/img/items/intera4.png
-    - assets/img/items/intera4.png
+    - assets/img/items/intera40.png
     - assets/img/items/intera40.png
     - assets/img/items/intera41.png
+    - assets/img/items/intera41.png
+    - assets/img/items/intera42.png
     - assets/img/items/intera42.png
     - assets/img/items/intera43.png
-    - assets/img/items/intera5.png
+    - assets/img/items/intera43.png
     - assets/img/items/intera5.png
     - assets/img/items/intera6.png
-    - assets/img/items/intera6.png
-    - assets/img/items/intera7.png
     - assets/img/items/intera7.png
     - assets/img/items/intera8.png
-    - assets/img/items/intera8.png
-    - assets/img/items/intera9.png
     - assets/img/items/intera9.png
     - assets/img/items/interc1.png
     - assets/img/items/interc2.png

@@ -47,6 +47,7 @@ dependencies:
 
 dependency_overrides:
   path: ^1.6.4
+  dartx: ^0.3.0
 
 dev_dependencies:
   hive_generator: ^0.7.0+2

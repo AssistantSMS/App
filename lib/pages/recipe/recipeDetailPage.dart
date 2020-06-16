@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:scrapmechanic_kurtlourens_com/components/tilePresenters/recipeIngredientTilePresenter.dart';
-import 'package:scrapmechanic_kurtlourens_com/contracts/recipeIngredient/recipeIngredient.dart';
 
 import '../../components/adaptive/listWithScrollbar.dart';
 import '../../components/common/cachedFutureBuilder.dart';
 import '../../components/loading.dart';
 import '../../components/scaffoldTemplates/genericPageScaffold.dart';
+import '../../components/tilePresenters/recipeIngredientTilePresenter.dart';
 import '../../constants/AnalyticsEvent.dart';
 import '../../constants/AppImage.dart';
 import '../../contracts/recipe/recipePageItem.dart';

@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:scrapmechanic_kurtlourens_com/contracts/gameItem/gameItem.dart';
-import 'package:scrapmechanic_kurtlourens_com/pages/gameItem/gameItemDetailPage.dart';
 
 import '../../constants/AppPadding.dart';
 import '../../contracts/recipeIngredient/recipeIngredient.dart';
@@ -9,7 +7,7 @@ import '../../contracts/results/resultWithValue.dart';
 import '../../helpers/futureHelper.dart';
 import '../../helpers/navigationHelper.dart';
 import '../../helpers/snapshotHelper.dart';
-import '../../pages/recipe/recipeDetailPage.dart';
+import '../../pages/gameItem/gameItemDetailPage.dart';
 import 'genericTilePresenter.dart';
 
 Widget recipeIngredientTilePresenter(

@@ -52,8 +52,8 @@ dependency_overrides:
 dev_dependencies:
   hive_generator: ^0.7.0+2
   build_runner: ^1.10.0
-  flutter_test:
-    sdk: flutter
+  # flutter_test:
+  #   sdk: flutter
 
 flutter:
   uses-material-design: true

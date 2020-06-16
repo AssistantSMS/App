@@ -62,10 +62,13 @@ class GameItemDetailPage extends StatelessWidget {
     widgets.add(emptySpace1x());
     widgets.add(genericItemName(gameItem.title));
 
-    widgets.add(emptySpace3x());
+    widgets.add(emptySpace1x());
+    widgets.add(Divider());
 
     ResultWithValue<Widget> tableResult = getTableRows(context, gameItem);
     if (tableResult.isSuccess) widgets.add(tableResult.value);
+
+    widgets.add(Divider());
 
     widgets.add(emptySpace3x());
 

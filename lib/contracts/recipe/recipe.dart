@@ -8,20 +8,20 @@ class Recipe {
     this.icon,
     this.title,
     this.description,
-    this.ingredients,
+    this.inputs,
   });
 
   String id;
   String icon;
   String title;
   String description;
-  List<RecipeIngredient> ingredients;
+  List<RecipeIngredient> inputs;
 
   factory Recipe.fromBaseAndLang(RecipeBase baseItem, RecipeLang lang) =>
       Recipe(
         id: baseItem.id,
         icon: baseItem.icon,
-        ingredients: baseItem.ingredients,
+        inputs: baseItem.inputs,
         title: lang.title,
         description: lang.description,
       );

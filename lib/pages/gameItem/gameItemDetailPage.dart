@@ -4,17 +4,22 @@ import '../../components/adaptive/listWithScrollbar.dart';
 import '../../components/common/cachedFutureBuilder.dart';
 import '../../components/loading.dart';
 import '../../components/scaffoldTemplates/genericPageScaffold.dart';
+import '../../components/tilePresenters/recipeTilePresenter.dart';
 import '../../constants/AnalyticsEvent.dart';
 import '../../constants/AppImage.dart';
 import '../../constants/AppPadding.dart';
 import '../../contracts/gameItem/gameItemPageItem.dart';
+import '../../contracts/recipe/recipe.dart';
 import '../../contracts/results/resultWithValue.dart';
+import '../../contracts/usedInRecipe/usedInRecipe.dart';
 import '../../helpers/analytics.dart';
 import '../../helpers/futureHelper.dart';
 import '../../helpers/genericHelper.dart';
+import '../../helpers/navigationHelper.dart';
 import '../../helpers/snapshotHelper.dart';
 import '../../localization/localeKey.dart';
 import '../../localization/translations.dart';
+import '../recipe/recipeDetailPage.dart';
 import 'gameItemComponents.dart';
 
 class GameItemDetailPage extends StatelessWidget {
@@ -73,6 +78,29 @@ class GameItemDetailPage extends StatelessWidget {
     if (tableResult.isSuccess) widgets.add(tableResult.value);
 
     widgets.add(Divider());
+
+    List<UsedInRecipe> usedInRecipes =
+        snapshot?.data?.value?.usedInRecipes ?? [];
+
+    for (UsedInRecipe usedInRecipe in usedInRecipes) {
+      var template = Translations.get(context, LocaleKey.usedInXToCreate);
+      var name = Translations.get(context, usedInRecipe.name);
+      widgets.add(Text(
+        template.replaceAll('{0}', name),
+        textAlign: TextAlign.center,
+      ));
+      for (var recipeIndex = 0;
+          recipeIndex < usedInRecipe.recipes.length;
+          recipeIndex++) {
+        Recipe recipe = usedInRecipe.recipes[recipeIndex];
+        widgets.add(GestureDetector(
+          child: Card(child: recipeTilePresenter(context, recipe, recipeIndex)),
+          onTap: () async => await navigateAwayFromHomeAsync(context,
+              navigateTo: (context) => RecipeDetailPage(recipe.id)),
+        ));
+      }
+      widgets.add(Divider());
+    }
 
     widgets.add(emptySpace3x());
 

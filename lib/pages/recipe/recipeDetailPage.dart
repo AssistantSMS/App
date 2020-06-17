@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:scrapmechanic_kurtlourens_com/contracts/recipeIngredient/recipeIngredient.dart';
+import 'package:scrapmechanic_kurtlourens_com/contracts/recipeIngredient/recipeIngredientDetail.dart';
 
 import '../../components/adaptive/listWithScrollbar.dart';
 import '../../components/common/cachedFutureBuilder.dart';
@@ -40,7 +42,7 @@ class RecipeDetailPage extends StatelessWidget {
         if (isInDetailPane) return getBody(context, snapshot);
         return genericPageScaffold<ResultWithValue<RecipePageItem>>(
           context,
-          snapshot?.data?.value?.recipe?.title ?? loading,
+          (snapshot?.data?.value?.recipe?.title ?? loading) + ' recipe',
           snapshot,
           body: getBody,
           showShortcutLinks: true,
@@ -79,13 +81,19 @@ class RecipeDetailPage extends StatelessWidget {
 
     widgets.add(Divider());
 
+    widgets.add(Text(
+      Translations.get(context, LocaleKey.craftedUsing),
+      textAlign: TextAlign.center,
+    ));
     for (var recipeIngIndex = 0;
         recipeIngIndex < recipeItem.inputs.length;
         recipeIngIndex++) {
-      var recipeIng = recipeItem.inputs[recipeIngIndex];
-      widgets.add(
-        recipeIngredientTilePresenter(context, recipeIng, recipeIngIndex),
-      );
+      RecipeIngredientDetails recipeIng =
+          snapshot?.data?.value?.ingredientDetails[recipeIngIndex];
+      widgets.add(Card(
+        child: recipeIngredientDetailTilePresenter(
+            context, recipeIng, recipeIngIndex),
+      ));
     }
 
     widgets.add(emptySpace3x());

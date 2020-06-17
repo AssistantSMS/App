@@ -1,19 +1,18 @@
 import 'package:flutter/material.dart';
-import 'package:scrapmechanic_kurtlourens_com/components/responsiveSearchableList.dart';
-import 'package:scrapmechanic_kurtlourens_com/helpers/navigationHelper.dart';
-import 'package:scrapmechanic_kurtlourens_com/pages/recipe/recipeDetailPage.dart';
 
 import '../../components/adaptive/appBarForSubPage.dart';
 import '../../components/adaptive/appScaffold.dart';
-import '../../components/searchableList.dart';
+import '../../components/responsiveSearchableList.dart';
 import '../../components/tilePresenters/recipeTilePresenter.dart';
 import '../../constants/AnalyticsEvent.dart';
 import '../../contracts/recipe/recipe.dart';
 import '../../helpers/analytics.dart';
 import '../../helpers/futureHelper.dart';
+import '../../helpers/navigationHelper.dart';
 import '../../helpers/searchHelper.dart';
 import '../../localization/localeKey.dart';
 import '../../localization/translations.dart';
+import 'recipeDetailPage.dart';
 
 class RecipeListPage extends StatelessWidget {
   final LocaleKey name;

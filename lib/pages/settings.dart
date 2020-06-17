@@ -20,10 +20,10 @@ import '../localization/translations.dart';
 import '../state/modules/base/appState.dart';
 import '../state/modules/setting/settingViewModel.dart';
 
-class Settings extends StatelessWidget {
+class SettingsPage extends StatelessWidget {
   final void Function(Locale locale) onLocaleChange;
   final void Function(BuildContext context) changeBrightness;
-  Settings(this.changeBrightness, this.onLocaleChange) {
+  SettingsPage(this.changeBrightness, this.onLocaleChange) {
     trackEvent(AnalyticsEvent.settingsPage);
   }
 

@@ -7,7 +7,9 @@ import '../../components/scaffoldTemplates/genericPageScaffold.dart';
 import '../../components/tilePresenters/recipeIngredientTilePresenter.dart';
 import '../../constants/AnalyticsEvent.dart';
 import '../../constants/AppImage.dart';
+import '../../constants/AppPadding.dart';
 import '../../contracts/recipe/recipePageItem.dart';
+import '../../contracts/recipeIngredient/recipeIngredientDetail.dart';
 import '../../contracts/results/resultWithValue.dart';
 import '../../helpers/analytics.dart';
 import '../../helpers/futureHelper.dart';
@@ -18,25 +20,28 @@ import '../../localization/translations.dart';
 
 class RecipeDetailPage extends StatelessWidget {
   final String itemId;
+  final bool isInDetailPane;
 
-  RecipeDetailPage(this.itemId) {
+  RecipeDetailPage(this.itemId, {this.isInDetailPane = false}) {
     trackEvent('${AnalyticsEvent.recipeDetailPage}: ${this.itemId}');
   }
 
   @override
   Widget build(BuildContext context) {
     String loading = Translations.get(context, LocaleKey.loading);
+    var loadingWidget = fullPageLoading(context, loadingText: loading);
     return CachedFutureBuilder<ResultWithValue<RecipePageItem>>(
       future: recipePageItemFuture(context, this.itemId),
-      whileLoading: genericPageScaffold<ResultWithValue<RecipePageItem>>(
-          context, loading, null,
-          body: (_, __) => fullPageLoading(context, loadingText: loading),
-          showShortcutLinks: true),
+      whileLoading: isInDetailPane
+          ? loadingWidget
+          : genericPageScaffold(context, loading, null,
+              body: (_, __) => loadingWidget, showShortcutLinks: true),
       whenDoneLoading:
           (AsyncSnapshot<ResultWithValue<RecipePageItem>> snapshot) {
+        if (isInDetailPane) return getBody(context, snapshot);
         return genericPageScaffold<ResultWithValue<RecipePageItem>>(
           context,
-          snapshot?.data?.value?.recipe?.title ?? loading,
+          (snapshot?.data?.value?.recipe?.title ?? loading) + ' recipe',
           snapshot,
           body: getBody,
           showShortcutLinks: true,
@@ -75,18 +80,25 @@ class RecipeDetailPage extends StatelessWidget {
 
     widgets.add(Divider());
 
+    widgets.add(Text(
+      Translations.get(context, LocaleKey.craftedUsing),
+      textAlign: TextAlign.center,
+    ));
     for (var recipeIngIndex = 0;
         recipeIngIndex < recipeItem.inputs.length;
         recipeIngIndex++) {
-      var recipeIng = recipeItem.inputs[recipeIngIndex];
-      widgets.add(
-        recipeIngredientTilePresenter(context, recipeIng, recipeIngIndex),
-      );
+      RecipeIngredientDetails recipeIng =
+          snapshot?.data?.value?.ingredientDetails[recipeIngIndex];
+      widgets.add(Card(
+        child: recipeIngredientDetailTilePresenter(
+            context, recipeIng, recipeIngIndex),
+      ));
     }
 
     widgets.add(emptySpace3x());
 
     return listWithScrollbar(
+      padding: AppPadding.listSidePadding,
       itemCount: widgets.length,
       itemBuilder: (context, index) => widgets[index],
     );

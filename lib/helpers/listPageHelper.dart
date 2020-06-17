@@ -35,6 +35,12 @@ List<LocaleKey> getBlocksAndItemsPageLocales() => [
       LocaleKey.warehouseJson,
     ];
 
+LocaleKey getWorkbenchPageName() => LocaleKey.workbench;
+List<LocaleKey> getWorkbenchPageLocales() => [LocaleKey.workbenchRecipeJson];
+
+LocaleKey getDispensorPageName() => LocaleKey.dispenser;
+List<LocaleKey> getDispensorPageLocales() => [LocaleKey.dispenserRecipeJson];
+
 LocaleKey getRefinerPageName() => LocaleKey.refiner;
 List<LocaleKey> getRefinerPageLocales() => [LocaleKey.refineryRecipeJson];
 

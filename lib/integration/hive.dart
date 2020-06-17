@@ -5,9 +5,14 @@ import '../state/modules/base/appState.dart';
 import '../state/modules/setting/settingState.dart';
 import 'logging.dart';
 
-Future initHiveState() async {
-  logger.d('Hive Web initialize');
-  await Hive.initFlutter('hive');
+Future<void> initHiveState() async {
+  try {
+    logger.d('Hive Web initialize');
+    await Hive.initFlutter('hive');
+  } catch (exception) {
+    logger.d('Hive Non - Web initialize');
+    Hive.init('desktop');
+  }
   registerAdapters();
 }
 
@@ -16,6 +21,6 @@ registerAdapters() {
   Hive.registerAdapter(SettingStateAdapter());
 }
 
-Future closeHiveState() async {
+Future<void> closeHiveState() async {
   await Hive.close();
 }

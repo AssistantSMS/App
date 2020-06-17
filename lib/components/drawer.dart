@@ -32,7 +32,7 @@ class AppDrawer extends StatelessWidget {
           padding: EdgeInsets.zero,
         ));
 
-        if (!snapshot.hasError && snapshot.data != null && snapshot.hasData) {
+        if (!snapshot.hasError && snapshot.hasData && snapshot.data != null) {
           widgets.addAll(snapshot.data);
         }
 

@@ -22,10 +22,10 @@ class ResponsiveListDetailView<T> extends StatefulWidget {
   const ResponsiveListDetailView(
     this.listGetter,
     this.listItemDisplayer,
-    this.listItemMobileOnTap,
-    this.listItemDesktopOnTap,
     this.listItemSearch, {
     this.key,
+    this.listItemMobileOnTap,
+    this.listItemDesktopOnTap,
     this.hintText,
     this.loadingText,
     this.deleteAll,

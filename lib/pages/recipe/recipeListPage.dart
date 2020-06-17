@@ -24,7 +24,6 @@ class RecipeListPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    var hintText = Translations.get(context, LocaleKey.searchItems);
     return appScaffold(
       context,
       appBar: appBarForSubPageHelper(
@@ -34,16 +33,13 @@ class RecipeListPage extends StatelessWidget {
       body: ResponsiveListDetailView<Recipe>(
         () => getAllRecipeFromLocaleKeys(context, recipeLocales),
         recipeTilePresenter,
-        (BuildContext context, Recipe recipe) async =>
+        searchRecipe,
+        listItemMobileOnTap: (BuildContext context, Recipe recipe) async =>
             await navigateAwayFromHomeAsync(context,
                 navigateTo: (context) => RecipeDetailPage(recipe.id)),
-        (BuildContext context, Recipe recipe) => RecipeDetailPage(
-          recipe.id,
-          isInDetailPane: true,
-        ),
-        searchRecipe,
+        listItemDesktopOnTap: (BuildContext context, Recipe recipe) =>
+            RecipeDetailPage(recipe.id, isInDetailPane: true),
         key: Key(Translations.of(context).currentLanguage),
-        hintText: hintText,
       ),
     );
   }

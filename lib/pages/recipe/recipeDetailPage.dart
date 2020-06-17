@@ -35,9 +35,7 @@ class RecipeDetailPage extends StatelessWidget {
           showShortcutLinks: true),
       whenDoneLoading:
           (AsyncSnapshot<ResultWithValue<RecipePageItem>> snapshot) {
-        if (isInDetailPane) {
-          return getBody(context, snapshot);
-        }
+        if (isInDetailPane) return getBody(context, snapshot);
         return genericPageScaffold<ResultWithValue<RecipePageItem>>(
           context,
           snapshot?.data?.value?.recipe?.title ?? loading,

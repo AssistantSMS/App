@@ -47,8 +47,6 @@ class _MyAppState extends State<MyApp> {
       // initFirebaseAdMob();
       initFirebaseAnalytics();
       // initFirebaseMessaging();
-    } else {
-      // initReduxState();
     }
 
     if (_newLocaleDelegate == null) {

@@ -37,19 +37,37 @@ class RecipeJsonService extends BaseJsonService implements IRecipeJsonService {
 
   @override
   Future<ResultWithValue<Recipe>> getById(context, String id) async {
-    ResultWithValue<List<Recipe>> allGenericItemsResult =
-        await this.getAll(context);
-    if (allGenericItemsResult.hasFailed) {
-      return ResultWithValue(
-          false, Recipe(), allGenericItemsResult.errorMessage);
+    ResultWithValue<List<Recipe>> allRecipesResult = await this.getAll(context);
+    if (allRecipesResult.hasFailed) {
+      return ResultWithValue(false, Recipe(), allRecipesResult.errorMessage);
     }
     try {
-      Recipe selectedGeneric =
-          allGenericItemsResult.value.firstWhere((r) => r.id == id);
-      return ResultWithValue<Recipe>(true, selectedGeneric, '');
+      Recipe selectedRecipe =
+          allRecipesResult.value.firstWhere((r) => r.id == id);
+      return ResultWithValue<Recipe>(true, selectedRecipe, '');
     } catch (exception) {
       print("RecipeJsonRepo($baseJson) Exception: ${exception.toString()}");
       return ResultWithValue<Recipe>(false, Recipe(), exception.toString());
+    }
+  }
+
+  @override
+  Future<ResultWithValue<List<Recipe>>> getByInputsId(
+      context, String id) async {
+    ResultWithValue<List<Recipe>> allRecipesResult = await this.getAll(context);
+    if (allRecipesResult.hasFailed) {
+      return ResultWithValue(
+          false, List<Recipe>(), allRecipesResult.errorMessage);
+    }
+    try {
+      var recipeInputs = allRecipesResult.value
+          .where((r) => r.inputs.any((ri) => ri.id == id))
+          .toList();
+      return ResultWithValue<List<Recipe>>(true, recipeInputs, '');
+    } catch (exception) {
+      print("RecipeJsonRepo($baseJson) Exception: ${exception.toString()}");
+      return ResultWithValue<List<Recipe>>(
+          false, List<Recipe>(), exception.toString());
     }
   }
 }

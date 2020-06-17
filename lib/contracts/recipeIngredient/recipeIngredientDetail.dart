@@ -2,6 +2,8 @@
 //
 //     final recipeIngredient = recipeIngredientFromJson(jsonString);
 
+import 'package:scrapmechanic_kurtlourens_com/localization/localeKey.dart';
+
 class RecipeIngredientDetails {
   RecipeIngredientDetails({
     this.id,
@@ -9,6 +11,7 @@ class RecipeIngredientDetails {
     this.title,
     this.description,
     this.quantity,
+    this.craftingStationName,
   });
 
   String id;
@@ -16,4 +19,5 @@ class RecipeIngredientDetails {
   String title;
   String description;
   int quantity;
+  LocaleKey craftingStationName;
 }

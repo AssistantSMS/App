@@ -1,7 +1,7 @@
 #include "window_configuration.h"
 
-const wchar_t* kFlutterWindowTitle = L"scrapmechanic_kurtlourens_com";
+const wchar_t* kFlutterWindowTitle = L"Assistant fo Scrap Mechanic";
 const unsigned int kFlutterWindowOriginX = 10;
 const unsigned int kFlutterWindowOriginY = 10;
-const unsigned int kFlutterWindowWidth = 1280;
-const unsigned int kFlutterWindowHeight = 720;
+const unsigned int kFlutterWindowWidth = 600;
+const unsigned int kFlutterWindowHeight = 800;

@@ -1,6 +1,20 @@
 import '../constants/BaseJson.dart';
 import '../localization/localeKey.dart';
 
+List<LocaleKey> allRecipeJsons() {
+  return [
+    LocaleKey.cookBotRecipeJson,
+    LocaleKey.craftBotRecipeJson,
+    LocaleKey.dispenserRecipeJson,
+    LocaleKey.dressBotRecipeJson,
+    // LocaleKey.hideOutRecipeJson,
+    // LocaleKey.itemNamesRecipeJson,
+    LocaleKey.refineryRecipeJson,
+    // LocaleKey.undecidedRecipeJson,
+    LocaleKey.workbenchRecipeJson,
+  ];
+}
+
 String getBaseFileName(LocaleKey detailsJson) {
   switch (detailsJson) {
     case LocaleKey.cookBotRecipeJson:
@@ -72,5 +86,27 @@ String getBaseFileName(LocaleKey detailsJson) {
       return BaseJson.warehouse;
     default:
       return '';
+  }
+}
+
+LocaleKey getDisplayNameFromLangFileName(LocaleKey detailsJson) {
+  switch (detailsJson) {
+    case LocaleKey.cookBotRecipeJson:
+      return LocaleKey.cookingBot;
+    case LocaleKey.craftBotRecipeJson:
+      return LocaleKey.craftBot;
+    case LocaleKey.dispenserRecipeJson:
+      return LocaleKey.dispenser;
+    case LocaleKey.dressBotRecipeJson:
+      return LocaleKey.dressBot;
+    // case LocaleKey.hideOutRecipeJson: return LocaleKey.hid;
+    // case LocaleKey.itemNamesRecipeJson: return LocaleKey.blocks;
+    case LocaleKey.refineryRecipeJson:
+      return LocaleKey.refiner;
+    // case LocaleKey.undecidedRecipeJson: return LocaleKey.un;
+    case LocaleKey.workbenchRecipeJson:
+      return LocaleKey.workbench;
+    default:
+      return LocaleKey.unknown;
   }
 }

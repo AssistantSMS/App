@@ -1,23 +1,32 @@
-import 'package:scrapmechanic_kurtlourens_com/services/interface/IGameItemJsonService.dart';
-
 import '../constants/IdPrefix.dart';
 import '../contracts/results/resultWithValue.dart';
 import '../integration/dependencyInjection.dart';
 import '../integration/logging.dart';
 import '../localization/localeKey.dart';
+import '../services/interface/IGameItemJsonService.dart';
 import '../services/interface/IRecipeJsonService.dart';
 
+LocaleKey getLangJsonFromItemId(String itemId) {
+  if (itemId.contains(IdPrefix.recipeCookBot))
+    return LocaleKey.cookBotRecipeJson;
+  if (itemId.contains(IdPrefix.recipeCraftBot))
+    return LocaleKey.craftBotRecipeJson;
+  if (itemId.contains(IdPrefix.recipeDispenser))
+    return LocaleKey.dispenserRecipeJson;
+  if (itemId.contains(IdPrefix.recipeDressBot))
+    return LocaleKey.dressBotRecipeJson;
+  if (itemId.contains(IdPrefix.recipeRefinery))
+    return LocaleKey.refineryRecipeJson;
+  if (itemId.contains(IdPrefix.recipeWorkbench))
+    return LocaleKey.workbenchRecipeJson;
+
+  return LocaleKey.unknown;
+}
+
 ResultWithValue<IRecipeJsonService> getRecipeRepoFromId(context, String id) {
-  LocaleKey key = LocaleKey.title;
+  LocaleKey key = getLangJsonFromItemId(id);
 
-  if (id.contains(IdPrefix.cookBot)) key = LocaleKey.cookBotRecipeJson;
-  if (id.contains(IdPrefix.craftBot)) key = LocaleKey.craftBotRecipeJson;
-  if (id.contains(IdPrefix.dispenser)) key = LocaleKey.dispenserRecipeJson;
-  if (id.contains(IdPrefix.dressBot)) key = LocaleKey.dressBotRecipeJson;
-  if (id.contains(IdPrefix.refinery)) key = LocaleKey.refineryRecipeJson;
-  if (id.contains(IdPrefix.workbench)) key = LocaleKey.workbenchRecipeJson;
-
-  if (key != LocaleKey.title) {
+  if (key != LocaleKey.unknown) {
     return ResultWithValue<IRecipeJsonService>(true, getRecipeRepo(key), '');
   }
 

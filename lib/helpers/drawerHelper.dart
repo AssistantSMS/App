@@ -22,12 +22,12 @@ Future<List<Widget>> getDrawerItems(context,
     key: LocaleKey.about,
     navigateToNamed: Routes.about,
   ));
-  // widgets.add(_drawerItem(
-  //   context,
-  //   image: getListTileImage(context, 'drawer/whatIsNew.png'),
-  //   key: LocaleKey.whatIsNew,
-  //   navigateToNamed: Routes.whatIsNew,
-  // ));
+  widgets.add(_drawerItem(
+    context,
+    image: getListTileImage(context, 'donation/buyMeACoffee.png'),
+    key: LocaleKey.donation,
+    navigateToNamed: Routes.donation,
+  ));
 
   // widgets.add(_drawerItem(
   //   context,

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:scrapmechanic_kurtlourens_com/pages/donation.dart';
 
 import '../pages/home.dart';
 import '../pages/about.dart';
@@ -8,6 +9,7 @@ class Routes {
   static const String home = '/';
   static const String about = '/about';
   static const String settings = '/settings';
+  static const String donation = '/donation';
 }
 
 Map<String, Widget Function(BuildContext)> initNamedRoutes(
@@ -18,7 +20,9 @@ Map<String, Widget Function(BuildContext)> initNamedRoutes(
   routes.addAll({
     Routes.home: (context) => Home(changeBrightness, onLocaleChange),
     Routes.about: (context) => About(),
-    Routes.settings: (context) => Settings(changeBrightness, onLocaleChange),
+    Routes.settings: (context) =>
+        SettingsPage(changeBrightness, onLocaleChange),
+    Routes.donation: (context) => DonationPage(),
   });
   return routes;
 }

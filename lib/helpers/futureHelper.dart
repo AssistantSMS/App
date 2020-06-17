@@ -1,20 +1,23 @@
-import 'package:flutter/cupertino.dart';
+import 'package:dartx/dartx.dart';
+import 'package:flutter/material.dart';
 import 'package:package_info/package_info.dart';
-import 'package:scrapmechanic_kurtlourens_com/contracts/gameItem/gameItem.dart';
-import 'package:scrapmechanic_kurtlourens_com/contracts/gameItem/gameItemPageItem.dart';
-import 'package:scrapmechanic_kurtlourens_com/contracts/recipe/recipe.dart';
-import 'package:scrapmechanic_kurtlourens_com/contracts/recipeIngredient/recipeIngredient.dart';
-import 'package:scrapmechanic_kurtlourens_com/contracts/recipeIngredient/recipeIngredientDetail.dart';
-import 'package:scrapmechanic_kurtlourens_com/integration/dependencyInjection.dart';
-import 'package:scrapmechanic_kurtlourens_com/integration/logging.dart';
-import 'package:scrapmechanic_kurtlourens_com/localization/localeKey.dart';
-import 'package:scrapmechanic_kurtlourens_com/services/interface/IGameItemJsonService.dart';
-import 'package:scrapmechanic_kurtlourens_com/services/interface/IRecipeJsonService.dart';
 
+import '../contracts/gameItem/gameItem.dart';
+import '../contracts/gameItem/gameItemPageItem.dart';
+import '../contracts/recipe/recipe.dart';
 import '../contracts/recipe/recipePageItem.dart';
+import '../contracts/recipeIngredient/recipeIngredient.dart';
+import '../contracts/recipeIngredient/recipeIngredientDetail.dart';
 import '../contracts/results/resultWithValue.dart';
+import '../contracts/usedInRecipe/usedInRecipe.dart';
+import '../integration/dependencyInjection.dart';
+import '../integration/logging.dart';
+import '../localization/localeKey.dart';
+import '../services/interface/IGameItemJsonService.dart';
+import '../services/interface/IRecipeJsonService.dart';
 import 'deviceHelper.dart';
 import 'itemsHelper.dart';
+import 'repositoryHelper.dart';
 
 Future<ResultWithValue<PackageInfo>> currentAppVersion() async {
   bool hasPackageInfo = isAndroid || isiOS;
@@ -36,6 +39,7 @@ Future<ResultWithValue<RecipePageItem>> recipePageItemFuture(
   if (itemId == null)
     return ResultWithValue<RecipePageItem>(false, RecipePageItem(),
         'recipePageItemFuture - unknown type of item $itemId');
+
   ResultWithValue<IRecipeJsonService> genRepo =
       getRecipeRepoFromId(context, itemId);
   if (genRepo.hasFailed)
@@ -45,11 +49,17 @@ Future<ResultWithValue<RecipePageItem>> recipePageItemFuture(
   ResultWithValue<Recipe> itemResult =
       await genRepo.value.getById(context, itemId);
   if (itemResult.isSuccess) {
+    ResultWithValue<List<RecipeIngredientDetails>> ingredientDetailsResult =
+        await recipeIngredientDetailsFuture(context, itemResult.value.inputs);
+    List<RecipeIngredientDetails> ingredientDetails =
+        ingredientDetailsResult.isSuccess
+            ? ingredientDetailsResult.value
+            : List<RecipeIngredientDetails>();
     return ResultWithValue<RecipePageItem>(
         true,
         RecipePageItem(
           recipe: itemResult.value,
-          ingredientDetails: [],
+          ingredientDetails: ingredientDetails,
         ),
         '');
   }
@@ -75,16 +85,20 @@ Future<ResultWithValue<List<Recipe>>> getAllRecipeFromLocaleKeys(
   await Future.wait(tasks);
 
   logger.i('Number of Recipe items: ${results.length}');
-  results.sort((a, b) => a.title.compareTo(b.title));
+  var sorted = results.sortedBy((recipe) => recipe.title).toList();
 
-  return ResultWithValue(results.length > 0, results, '');
+  return ResultWithValue(results.length > 0, sorted, '');
 }
 
 Future<ResultWithValue<GameItemPageItem>> gameItemPageItemFuture(
     context, String itemId) async {
-  if (itemId == null)
+  if (itemId == null) {
     return ResultWithValue<GameItemPageItem>(false, GameItemPageItem(),
         'gameItemPageItemFuture - unknown type of item $itemId');
+  }
+
+  var usedInRecipesTask = usedInRecipesFuture(context, itemId);
+
   ResultWithValue<IGameItemJsonService> genRepo =
       getGameItemRepoFromId(context, itemId);
   if (genRepo.hasFailed)
@@ -94,10 +108,14 @@ Future<ResultWithValue<GameItemPageItem>> gameItemPageItemFuture(
   ResultWithValue<GameItem> itemResult =
       await genRepo.value.getById(context, itemId);
   if (itemResult.isSuccess) {
+    ResultWithValue<List<UsedInRecipe>> useInResult = await usedInRecipesTask;
+    List<UsedInRecipe> usedInRecipes =
+        useInResult.isSuccess ? useInResult.value : List<UsedInRecipe>();
     return ResultWithValue<GameItemPageItem>(
         true,
         GameItemPageItem(
           gameItem: itemResult.value,
+          usedInRecipes: usedInRecipes,
         ),
         '');
   }
@@ -123,9 +141,9 @@ Future<ResultWithValue<List<GameItem>>> getAllGameItemFromLocaleKeys(
   await Future.wait(tasks);
 
   logger.i('Number of GameItem items: ${results.length}');
-  results.sort((a, b) => a.title.compareTo(b.title));
+  var sorted = results.sortedBy((recipe) => recipe.title).toList();
 
-  return ResultWithValue(results.length > 0, results, '');
+  return ResultWithValue(results.length > 0, sorted, '');
 }
 
 Future<ResultWithValue<RecipeIngredientDetails>>
@@ -143,6 +161,7 @@ Future<ResultWithValue<RecipeIngredientDetails>>
   ResultWithValue<GameItem> itemResult =
       await genRepo.value.getById(context, itemId);
   if (itemResult.isSuccess) {
+    LocaleKey langFile = getLangJsonFromItemId(itemResult.value.id);
     return ResultWithValue<RecipeIngredientDetails>(
         true,
         RecipeIngredientDetails(
@@ -150,9 +169,62 @@ Future<ResultWithValue<RecipeIngredientDetails>>
           icon: itemResult.value.icon,
           title: itemResult.value.title,
           quantity: recipeIngredient.quantity,
+          craftingStationName: getDisplayNameFromLangFileName(langFile),
         ),
         '');
   }
 
   return ResultWithValue(false, null, itemResult.errorMessage);
+}
+
+Future<ResultWithValue<List<RecipeIngredientDetails>>>
+    recipeIngredientDetailsFuture(
+        context, List<RecipeIngredient> inputs) async {
+  List<RecipeIngredientDetails> results = List<RecipeIngredientDetails>();
+
+  List<Future<ResultWithValue<RecipeIngredientDetails>>> tasks =
+      List<Future<ResultWithValue<RecipeIngredientDetails>>>();
+  var onFinishTask = (ResultWithValue<RecipeIngredientDetails> ingResult) {
+    if (ingResult.hasFailed || ingResult.value == null) return;
+    results.add(ingResult.value);
+  };
+  for (RecipeIngredient input in inputs) {
+    tasks.add(
+      getRecipeIngredientDetailsFuture(context, input).then(onFinishTask),
+    );
+  }
+  await Future.wait(tasks);
+
+  // var sorted = results.sortedBy((recipe) => recipe.name).toList();
+
+  return ResultWithValue(results.length > 0, results, '');
+}
+
+Future<ResultWithValue<List<UsedInRecipe>>> usedInRecipesFuture(
+    context, String itemId) async {
+  List<UsedInRecipe> results = List<UsedInRecipe>();
+  var onFinishTask =
+      (LocaleKey langJsonPath, ResultWithValue<List<Recipe>> result) {
+    if (result.hasFailed || result.value == null || result.value.length == 0)
+      return;
+    results.add(
+      UsedInRecipe(getDisplayNameFromLangFileName(langJsonPath), result.value),
+    );
+  };
+  List<Future<ResultWithValue<List<Recipe>>>> tasks =
+      List<Future<ResultWithValue<List<Recipe>>>>();
+  for (LocaleKey repJson in allRecipeJsons()) {
+    IRecipeJsonService repo = getRecipeRepo(repJson);
+    if (repo == null) continue;
+    var getAllTask = repo.getByInputsId(context, itemId).then(
+          (ResultWithValue<List<Recipe>> result) =>
+              onFinishTask(repJson, result),
+        );
+    tasks.add(getAllTask);
+  }
+  await Future.wait(tasks);
+
+  // results.sortedBy((recipe) => recipe.name);
+
+  return ResultWithValue(results.length > 0, results, '');
 }

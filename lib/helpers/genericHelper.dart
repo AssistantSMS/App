@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
 import '../components/adaptive/button.dart';
-import '../components/common/currencyText.dart';
 import '../components/common/image.dart';
 import '../constants/AppImage.dart';
 import '../integration/logging.dart';

@@ -12,7 +12,6 @@ import '../contracts/misc/staggeredGridItem.dart';
 import '../helpers/analytics.dart';
 import '../helpers/listPageHelper.dart';
 import '../helpers/navigationHelper.dart';
-import '../localization/localeKey.dart';
 import 'gameItem/gameItemListPage.dart';
 import 'recipe/recipeListPage.dart';
 
@@ -45,7 +44,7 @@ class Home extends StatelessWidget {
             context,
             AppImage.craftBot,
             Colors.lightBlue,
-            text: LocaleKey.craftBot,
+            text: getCraftBotPageName(),
             height: largeImage,
             onTap: () async => await navigateAwayFromHomeAsync(
               context,
@@ -63,13 +62,13 @@ class Home extends StatelessWidget {
             context,
             AppImage.cookBot,
             Colors.purple,
-            text: LocaleKey.cookingBot,
+            text: getWorkbenchPageName(),
             height: smallImage,
             onTap: () async => await navigateAwayFromHomeAsync(
               context,
               navigateTo: (context) => RecipeListPage(
-                getCookBotPageName(),
-                getCookBotPageLocales(),
+                getWorkbenchPageName(),
+                getWorkbenchPageLocales(),
               ),
             ),
           ),
@@ -81,7 +80,7 @@ class Home extends StatelessWidget {
             context,
             AppImage.block,
             Colors.blueGrey,
-            text: LocaleKey.blocksAndItems,
+            text: getBlocksAndItemsPageName(),
             height: largeImage,
             onTap: () async => await navigateAwayFromHomeAsync(
               context,
@@ -98,9 +97,45 @@ class Home extends StatelessWidget {
               responsiveStaggeredGridImageTilePresenter(
             context,
             AppImage.refiner,
+            Colors.redAccent,
+            text: getDispensorPageName(),
+            height: smallImage,
+            onTap: () async => await navigateAwayFromHomeAsync(
+              context,
+              navigateTo: (context) => RecipeListPage(
+                getDispensorPageName(),
+                getDispensorPageLocales(),
+              ),
+            ),
+          ),
+          gridItemType: StaggeredGridItemType.smallRectLandscape,
+        ),
+        StaggeredGridItem(
+          childBuilder: (BuildContext childContext) =>
+              responsiveStaggeredGridImageTilePresenter(
+            context,
+            AppImage.cookBot,
             Colors.green,
-            text: LocaleKey.refiner,
-            height: largeImage,
+            text: getCookBotPageName(),
+            height: smallImage,
+            onTap: () async => await navigateAwayFromHomeAsync(
+              context,
+              navigateTo: (context) => RecipeListPage(
+                getCookBotPageName(),
+                getCookBotPageLocales(),
+              ),
+            ),
+          ),
+          gridItemType: StaggeredGridItemType.smallSquare,
+        ),
+        StaggeredGridItem(
+          childBuilder: (BuildContext childContext) =>
+              responsiveStaggeredGridImageTilePresenter(
+            context,
+            AppImage.refiner,
+            Colors.indigo,
+            text: getRefinerPageName(),
+            height: smallImage,
             onTap: () async => await navigateAwayFromHomeAsync(
               context,
               navigateTo: (context) => RecipeListPage(
@@ -109,7 +144,7 @@ class Home extends StatelessWidget {
               ),
             ),
           ),
-          gridItemType: StaggeredGridItemType.medSquare,
+          gridItemType: StaggeredGridItemType.smallSquare,
         ),
         StaggeredGridItem(
           childBuilder: (BuildContext childContext) =>
@@ -117,7 +152,7 @@ class Home extends StatelessWidget {
             context,
             AppImage.dressBot,
             Colors.amber,
-            text: LocaleKey.dressBot,
+            text: getDressBotPageName(),
             height: smallImage,
             onTap: () async => await navigateAwayFromHomeAsync(
               context,
@@ -127,7 +162,7 @@ class Home extends StatelessWidget {
               ),
             ),
           ),
-          gridItemType: StaggeredGridItemType.smallRectLandscape,
+          gridItemType: StaggeredGridItemType.smallSquare,
         ),
       ],
     );

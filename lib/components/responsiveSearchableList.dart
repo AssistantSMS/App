@@ -1,9 +1,11 @@
+import 'package:flutter/material.dart';
 import 'package:breakpoint/breakpoint.dart';
-import 'package:flutter/cupertino.dart';
-import 'package:scrapmechanic_kurtlourens_com/components/searchableList.dart';
-import 'package:scrapmechanic_kurtlourens_com/contracts/misc/responsiveFlexData.dart';
-import 'package:scrapmechanic_kurtlourens_com/contracts/results/resultWithValue.dart';
-import 'package:scrapmechanic_kurtlourens_com/helpers/columnHelper.dart';
+
+import '../contracts/misc/responsiveFlexData.dart';
+import '../contracts/results/resultWithValue.dart';
+import '../helpers/colourHelper.dart';
+import '../helpers/columnHelper.dart';
+import 'searchableList.dart';
 
 class ResponsiveListDetailView<T> extends StatefulWidget {
   final Future<ResultWithValue<List<T>>> Function() listGetter;
@@ -79,7 +81,14 @@ class _ResponsiveListDetailWidget<T>
             Flexible(
               key: detailViewKey,
               flex: flexData.flex2,
-              child: detailView,
+              child: Container(
+                  decoration: BoxDecoration(
+                    border: Border(
+                      left: BorderSide(
+                          color: getSecondaryColour(context), width: 4),
+                    ),
+                  ),
+                  child: detailView),
             ),
           ],
         );

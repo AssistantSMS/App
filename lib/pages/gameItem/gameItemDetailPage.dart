@@ -6,6 +6,7 @@ import '../../components/loading.dart';
 import '../../components/scaffoldTemplates/genericPageScaffold.dart';
 import '../../constants/AnalyticsEvent.dart';
 import '../../constants/AppImage.dart';
+import '../../constants/AppPadding.dart';
 import '../../contracts/gameItem/gameItemPageItem.dart';
 import '../../contracts/results/resultWithValue.dart';
 import '../../helpers/analytics.dart';
@@ -27,12 +28,13 @@ class GameItemDetailPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     String loading = Translations.get(context, LocaleKey.loading);
+    var loadingWidget = fullPageLoading(context, loadingText: loading);
     return CachedFutureBuilder<ResultWithValue<GameItemPageItem>>(
       future: gameItemPageItemFuture(context, this.itemId),
-      whileLoading: genericPageScaffold<ResultWithValue<GameItemPageItem>>(
-          context, loading, null,
-          body: (_, __) => fullPageLoading(context, loadingText: loading),
-          showShortcutLinks: true),
+      whileLoading: isInDetailPane
+          ? loadingWidget
+          : genericPageScaffold(context, loading, null,
+              body: (_, __) => loadingWidget, showShortcutLinks: true),
       whenDoneLoading:
           (AsyncSnapshot<ResultWithValue<GameItemPageItem>> snapshot) {
         if (isInDetailPane) return getBody(context, snapshot);
@@ -75,6 +77,7 @@ class GameItemDetailPage extends StatelessWidget {
     widgets.add(emptySpace3x());
 
     return listWithScrollbar(
+      padding: AppPadding.listSidePadding,
       itemCount: widgets.length,
       itemBuilder: (context, index) => widgets[index],
     );

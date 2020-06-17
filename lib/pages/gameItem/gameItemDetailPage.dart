@@ -18,8 +18,9 @@ import 'gameItemComponents.dart';
 
 class GameItemDetailPage extends StatelessWidget {
   final String itemId;
+  final bool isInDetailPane;
 
-  GameItemDetailPage(this.itemId) {
+  GameItemDetailPage(this.itemId, {this.isInDetailPane = false}) {
     trackEvent('${AnalyticsEvent.itemDetailPage}: ${this.itemId}');
   }
 
@@ -34,6 +35,7 @@ class GameItemDetailPage extends StatelessWidget {
           showShortcutLinks: true),
       whenDoneLoading:
           (AsyncSnapshot<ResultWithValue<GameItemPageItem>> snapshot) {
+        if (isInDetailPane) return getBody(context, snapshot);
         return genericPageScaffold<ResultWithValue<GameItemPageItem>>(
           context,
           snapshot?.data?.value?.gameItem?.title ?? loading,

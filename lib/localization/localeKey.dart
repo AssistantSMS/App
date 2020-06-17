@@ -83,4 +83,6 @@ enum LocaleKey {
   patreon,
   paypal,
   openCollective,
+  craftedUsing,
+  usedInXToCreate,
 }

@@ -78,6 +78,8 @@
   "patreon": "Patreon",
   "paypal": "PayPal",
   "openCollective": "Open Collective",
+  "craftedUsing": "Crafted Using",
+  "usedInXToCreate": "Used in {0} to create:",
   "translatedBy": [
     {
       "name": "",

@@ -18,8 +18,9 @@ import '../../localization/translations.dart';
 
 class RecipeDetailPage extends StatelessWidget {
   final String itemId;
+  final bool isInDetailPane;
 
-  RecipeDetailPage(this.itemId) {
+  RecipeDetailPage(this.itemId, {this.isInDetailPane = false}) {
     trackEvent('${AnalyticsEvent.recipeDetailPage}: ${this.itemId}');
   }
 
@@ -34,6 +35,9 @@ class RecipeDetailPage extends StatelessWidget {
           showShortcutLinks: true),
       whenDoneLoading:
           (AsyncSnapshot<ResultWithValue<RecipePageItem>> snapshot) {
+        if (isInDetailPane) {
+          return getBody(context, snapshot);
+        }
         return genericPageScaffold<ResultWithValue<RecipePageItem>>(
           context,
           snapshot?.data?.value?.recipe?.title ?? loading,

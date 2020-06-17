@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:scrapmechanic_kurtlourens_com/contracts/recipeIngredient/recipeIngredient.dart';
-import 'package:scrapmechanic_kurtlourens_com/contracts/recipeIngredient/recipeIngredientDetail.dart';
 
 import '../../components/adaptive/listWithScrollbar.dart';
 import '../../components/common/cachedFutureBuilder.dart';
@@ -11,6 +9,7 @@ import '../../constants/AnalyticsEvent.dart';
 import '../../constants/AppImage.dart';
 import '../../constants/AppPadding.dart';
 import '../../contracts/recipe/recipePageItem.dart';
+import '../../contracts/recipeIngredient/recipeIngredientDetail.dart';
 import '../../contracts/results/resultWithValue.dart';
 import '../../helpers/analytics.dart';
 import '../../helpers/futureHelper.dart';

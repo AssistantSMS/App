@@ -85,9 +85,9 @@ Future<ResultWithValue<List<Recipe>>> getAllRecipeFromLocaleKeys(
   await Future.wait(tasks);
 
   logger.i('Number of Recipe items: ${results.length}');
-  results.sortedBy((recipe) => recipe.title);
+  var sorted = results.sortedBy((recipe) => recipe.title).toList();
 
-  return ResultWithValue(results.length > 0, results, '');
+  return ResultWithValue(results.length > 0, sorted, '');
 }
 
 Future<ResultWithValue<GameItemPageItem>> gameItemPageItemFuture(
@@ -141,9 +141,9 @@ Future<ResultWithValue<List<GameItem>>> getAllGameItemFromLocaleKeys(
   await Future.wait(tasks);
 
   logger.i('Number of GameItem items: ${results.length}');
-  results.sortedBy((recipe) => recipe.title);
+  var sorted = results.sortedBy((recipe) => recipe.title).toList();
 
-  return ResultWithValue(results.length > 0, results, '');
+  return ResultWithValue(results.length > 0, sorted, '');
 }
 
 Future<ResultWithValue<RecipeIngredientDetails>>
@@ -195,7 +195,7 @@ Future<ResultWithValue<List<RecipeIngredientDetails>>>
   }
   await Future.wait(tasks);
 
-  // results.sortedBy((recipe) => recipe.name);
+  // var sorted = results.sortedBy((recipe) => recipe.name).toList();
 
   return ResultWithValue(results.length > 0, results, '');
 }

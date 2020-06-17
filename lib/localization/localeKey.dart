@@ -70,6 +70,8 @@ enum LocaleKey {
   refiner,
   blocksAndItems,
   dressBot,
+  workbench,
+  dispenser,
   density,
   durability,
   friction,

@@ -1,5 +1,4 @@
 import '../constants/BaseJson.dart';
-import '../constants/IdPrefix.dart';
 import '../localization/localeKey.dart';
 
 List<LocaleKey> allRecipeJsons() {
@@ -97,7 +96,7 @@ LocaleKey getDisplayNameFromLangFileName(LocaleKey detailsJson) {
     case LocaleKey.craftBotRecipeJson:
       return LocaleKey.craftBot;
     case LocaleKey.dispenserRecipeJson:
-      return LocaleKey.dispenserRecipeJson; //TODO
+      return LocaleKey.dispenser;
     case LocaleKey.dressBotRecipeJson:
       return LocaleKey.dressBot;
     // case LocaleKey.hideOutRecipeJson: return LocaleKey.hid;
@@ -106,7 +105,7 @@ LocaleKey getDisplayNameFromLangFileName(LocaleKey detailsJson) {
       return LocaleKey.refiner;
     // case LocaleKey.undecidedRecipeJson: return LocaleKey.un;
     case LocaleKey.workbenchRecipeJson:
-      return LocaleKey.workbenchRecipeJson; // TODO
+      return LocaleKey.workbench;
     default:
       return LocaleKey.unknown;
   }

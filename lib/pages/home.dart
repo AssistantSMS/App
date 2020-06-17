@@ -1,20 +1,20 @@
 import 'package:flutter/material.dart';
-import 'package:scrapmechanic_kurtlourens_com/components/drawer.dart';
-import 'package:scrapmechanic_kurtlourens_com/constants/AppImage.dart';
-import 'package:scrapmechanic_kurtlourens_com/helpers/listPageHelper.dart';
-import 'package:scrapmechanic_kurtlourens_com/helpers/navigationHelper.dart';
-import 'package:scrapmechanic_kurtlourens_com/localization/localeKey.dart';
-import 'package:scrapmechanic_kurtlourens_com/pages/recipe/recipeListPage.dart';
 
 import '../components/adaptive/appScaffold.dart';
 import '../components/adaptive/homePageAppBar.dart';
+import '../components/drawer.dart';
 import '../components/responsiveStaggeredGrid.dart';
 import '../components/tilePresenters/responsiveStaggeredGridTilePresenter.dart';
 import '../constants/AnalyticsEvent.dart';
+import '../constants/AppImage.dart';
 import '../constants/StaggeredGridItemType.dart';
 import '../contracts/misc/staggeredGridItem.dart';
 import '../helpers/analytics.dart';
+import '../helpers/listPageHelper.dart';
+import '../helpers/navigationHelper.dart';
+import '../localization/localeKey.dart';
 import 'gameItem/gameItemListPage.dart';
+import 'recipe/recipeListPage.dart';
 
 class Home extends StatelessWidget {
   final void Function(Locale locale) onLocaleChange;

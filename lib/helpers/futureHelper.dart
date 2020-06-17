@@ -1,18 +1,19 @@
-import 'package:flutter/cupertino.dart';
+import 'package:dartx/dartx.dart';
+import 'package:flutter/material.dart';
 import 'package:package_info/package_info.dart';
-import 'package:scrapmechanic_kurtlourens_com/contracts/gameItem/gameItem.dart';
-import 'package:scrapmechanic_kurtlourens_com/contracts/gameItem/gameItemPageItem.dart';
-import 'package:scrapmechanic_kurtlourens_com/contracts/recipe/recipe.dart';
-import 'package:scrapmechanic_kurtlourens_com/contracts/recipeIngredient/recipeIngredient.dart';
-import 'package:scrapmechanic_kurtlourens_com/contracts/recipeIngredient/recipeIngredientDetail.dart';
-import 'package:scrapmechanic_kurtlourens_com/integration/dependencyInjection.dart';
-import 'package:scrapmechanic_kurtlourens_com/integration/logging.dart';
-import 'package:scrapmechanic_kurtlourens_com/localization/localeKey.dart';
-import 'package:scrapmechanic_kurtlourens_com/services/interface/IGameItemJsonService.dart';
-import 'package:scrapmechanic_kurtlourens_com/services/interface/IRecipeJsonService.dart';
 
+import '../contracts/gameItem/gameItem.dart';
+import '../contracts/gameItem/gameItemPageItem.dart';
+import '../contracts/recipe/recipe.dart';
 import '../contracts/recipe/recipePageItem.dart';
+import '../contracts/recipeIngredient/recipeIngredient.dart';
+import '../contracts/recipeIngredient/recipeIngredientDetail.dart';
 import '../contracts/results/resultWithValue.dart';
+import '../integration/dependencyInjection.dart';
+import '../integration/logging.dart';
+import '../localization/localeKey.dart';
+import '../services/interface/IGameItemJsonService.dart';
+import '../services/interface/IRecipeJsonService.dart';
 import 'deviceHelper.dart';
 import 'itemsHelper.dart';
 
@@ -75,7 +76,7 @@ Future<ResultWithValue<List<Recipe>>> getAllRecipeFromLocaleKeys(
   await Future.wait(tasks);
 
   logger.i('Number of Recipe items: ${results.length}');
-  results.sort((a, b) => a.title.compareTo(b.title));
+  results.sortedBy((recipe) => recipe.title);
 
   return ResultWithValue(results.length > 0, results, '');
 }
@@ -123,7 +124,7 @@ Future<ResultWithValue<List<GameItem>>> getAllGameItemFromLocaleKeys(
   await Future.wait(tasks);
 
   logger.i('Number of GameItem items: ${results.length}');
-  results.sort((a, b) => a.title.compareTo(b.title));
+  results.sortedBy((recipe) => recipe.title);
 
   return ResultWithValue(results.length > 0, results, '');
 }

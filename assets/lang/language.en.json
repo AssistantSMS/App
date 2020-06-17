@@ -72,6 +72,12 @@
   "flammable": "Flammable",
   "yes": "Yes",
   "no": "No",
+  "donation": "Donation",
+  "donationDescrip": "For now all features of the app are available to you, there are no PayWalls. However I do want to give extra features to those who do donate or contribute, but I do not have any benefits at this moment. If you like this App please give me a review in the Play/App Store and donate if you can",
+  "buyMeACoffee": "Buy Me A Coffee",
+  "patreon": "Patreon",
+  "paypal": "PayPal",
+  "openCollective": "Open Collective",
   "translatedBy": [
     {
       "name": "",

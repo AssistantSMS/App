@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import '../components/adaptive/button.dart';
 import '../components/common/currencyText.dart';
 import '../components/common/image.dart';
+import '../constants/AppImage.dart';
 import '../integration/logging.dart';
 import '../localization/localeKey.dart';
 import '../localization/translations.dart';
@@ -101,31 +102,6 @@ Widget genericItemDescription(String description, {TextStyle textStyle}) =>
       margin: const EdgeInsets.all(4.0),
     );
 
-Widget genericItemCredits(String credits, {Color colour}) =>
-    genericItemWithListWidgets(
-      CurrencyText(
-        credits,
-        textAlign: TextAlign.center,
-        overflow: TextOverflow.ellipsis,
-        style: TextStyle(color: colour),
-      ),
-      localImage('assets/images/credits.png', height: 20),
-    );
-
-Widget genericItemNanites(String nanites, {Color colour}) => Container(
-    child: genericItemIntCurrency(nanites, 'assets/images/nanites.png',
-        colour: colour));
-Widget genericItemQuicksilver(String quicksilver, {Color colour}) => Container(
-    child: genericItemIntCurrency(
-        quicksilver, 'assets/images/rawMaterials/57.png',
-        colour: colour));
-Widget genericItemSalvagedData(String salvagedData, {Color colour}) =>
-    Container(
-        child: genericItemIntCurrency(
-      salvagedData,
-      'assets/images/curiosities/16.png',
-      colour: colour,
-    ));
 Widget genericItemIntCurrency(String currency, String imageUrl,
         {Color colour}) =>
     genericItemWithListWidgets(
@@ -231,7 +207,7 @@ Widget getListTileImage(context, String partialPath) => ConstrainedBox(
         maxWidth: 35,
         maxHeight: 35,
       ),
-      child: localImage('assets/images/$partialPath'),
+      child: localImage('${AppImage.base}$partialPath'),
     );
 Widget getCorrectlySizedImageFromIcon(context, IconData icon, {Color colour}) =>
     ConstrainedBox(

@@ -7,6 +7,7 @@ import '../../components/scaffoldTemplates/genericPageScaffold.dart';
 import '../../components/tilePresenters/recipeIngredientTilePresenter.dart';
 import '../../constants/AnalyticsEvent.dart';
 import '../../constants/AppImage.dart';
+import '../../constants/AppPadding.dart';
 import '../../contracts/recipe/recipePageItem.dart';
 import '../../contracts/results/resultWithValue.dart';
 import '../../helpers/analytics.dart';
@@ -27,12 +28,13 @@ class RecipeDetailPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     String loading = Translations.get(context, LocaleKey.loading);
+    var loadingWidget = fullPageLoading(context, loadingText: loading);
     return CachedFutureBuilder<ResultWithValue<RecipePageItem>>(
       future: recipePageItemFuture(context, this.itemId),
-      whileLoading: genericPageScaffold<ResultWithValue<RecipePageItem>>(
-          context, loading, null,
-          body: (_, __) => fullPageLoading(context, loadingText: loading),
-          showShortcutLinks: true),
+      whileLoading: isInDetailPane
+          ? loadingWidget
+          : genericPageScaffold(context, loading, null,
+              body: (_, __) => loadingWidget, showShortcutLinks: true),
       whenDoneLoading:
           (AsyncSnapshot<ResultWithValue<RecipePageItem>> snapshot) {
         if (isInDetailPane) return getBody(context, snapshot);
@@ -89,6 +91,7 @@ class RecipeDetailPage extends StatelessWidget {
     widgets.add(emptySpace3x());
 
     return listWithScrollbar(
+      padding: AppPadding.listSidePadding,
       itemCount: widgets.length,
       itemBuilder: (context, index) => widgets[index],
     );

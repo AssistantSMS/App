@@ -37,7 +37,7 @@ class AppShell extends StatelessWidget {
     return ThemeModeHandler(
       manager: ThemeManager(),
       builder: (ThemeMode themeMode) => MaterialApp(
-        title: 'Assistant for Hytale',
+        title: 'Assistant for Scrap Mechanic',
         themeMode: themeMode,
         darkTheme: getDynamicTheme(Brightness.dark),
         theme: getDynamicTheme(Brightness.light),

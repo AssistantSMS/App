@@ -40,22 +40,26 @@ ListTile genericListTileWithSubtitleAndImageCount(context,
     subtitle: subtitle,
     trailing: trailing,
     // dense: true,
-    onTap: () {
-      if (onTapAnalyticsEvent != null) {
-        trackEvent(onTapAnalyticsEvent);
-      }
-      if (onTap != null) {
-        onTap();
-      }
-    },
-    onLongPress: () {
-      if (onLongPressAnalyticsEvent != null) {
-        trackEvent(onLongPressAnalyticsEvent);
-      }
-      if (onLongPress != null) {
-        onLongPress();
-      }
-    },
+    onTap: onTap == null
+        ? null
+        : () {
+            if (onTapAnalyticsEvent != null) {
+              trackEvent(onTapAnalyticsEvent);
+            }
+            if (onTap != null) {
+              onTap();
+            }
+          },
+    onLongPress: onLongPress == null
+        ? null
+        : () {
+            if (onLongPressAnalyticsEvent != null) {
+              trackEvent(onLongPressAnalyticsEvent);
+            }
+            if (onLongPress != null) {
+              onLongPress();
+            }
+          },
   );
 }
 

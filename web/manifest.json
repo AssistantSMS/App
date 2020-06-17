@@ -1,11 +1,11 @@
 {
-    "name": "scrapmechanic_kurtlourens_com",
-    "short_name": "scrapmechanic_kurtlourens_com",
+    "name": "Assistant for Scrap Mechanic",
+    "short_name": "Scrap Mechanic Assistant",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "background_color": "#000000",
+    "theme_color": "#C24F02",
+    "description": "An assistant for the game Scrap Mechanic",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

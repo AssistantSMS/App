@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:scrapmechanic_kurtlourens_com/components/responsiveSearchableList.dart';
+import 'package:scrapmechanic_kurtlourens_com/helpers/navigationHelper.dart';
+import 'package:scrapmechanic_kurtlourens_com/pages/recipe/recipeDetailPage.dart';
 
 import '../../components/adaptive/appBarForSubPage.dart';
 import '../../components/adaptive/appScaffold.dart';
@@ -28,9 +31,16 @@ class RecipeListPage extends StatelessWidget {
         context,
         title: Text(Translations.get(context, name)),
       ),
-      body: SearchableList<Recipe>(
+      body: ResponsiveListDetailView<Recipe>(
         () => getAllRecipeFromLocaleKeys(context, recipeLocales),
         recipeTilePresenter,
+        (BuildContext context, Recipe recipe) async =>
+            await navigateAwayFromHomeAsync(context,
+                navigateTo: (context) => RecipeDetailPage(recipe.id)),
+        (BuildContext context, Recipe recipe) => RecipeDetailPage(
+          recipe.id,
+          isInDetailPane: true,
+        ),
         searchRecipe,
         key: Key(Translations.of(context).currentLanguage),
         hintText: hintText,

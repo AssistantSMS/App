@@ -77,4 +77,10 @@ enum LocaleKey {
   flammable,
   yes,
   no,
+  donation,
+  donationDescrip,
+  buyMeACoffee,
+  patreon,
+  paypal,
+  openCollective,
 }

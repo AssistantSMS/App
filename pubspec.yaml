@@ -38,6 +38,7 @@ dependencies:
   uuid: 2.0.1
   universal_platform: ^0.1.3
   breakpoint: ^1.0.1+2
+  dartx: ^0.4.1
   # Misc
   url_launcher: 5.4.10
   package_info: 0.4.0+18
@@ -61,7 +62,6 @@ flutter:
   
   assets:
     # Languages
-    - assets/lang/language.af.json # Afrikaans
     - assets/lang/language.de.json # German
     - assets/lang/language.en.json # English
 
@@ -142,6 +142,12 @@ flutter:
     - assets/img/dressbot.png
     - assets/img/refiner.png
     - assets/img/unknown.png
+
+    - assets/img/donation/bat.png
+    - assets/img/donation/buyMeACoffee.png
+    - assets/img/donation/openCollective.png
+    - assets/img/donation/patreon.png
+    - assets/img/donation/payPal.png
 
     - assets/img/items/blk1.png
     - assets/img/items/blk1.png

@@ -1,6 +1,6 @@
 {
     "name": "Assistant for Scrap Mechanic",
-    "short_name": "Scrap Mechanic Assistant",
+    "short_name": "Scrap Mechanic Survival Assistant",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#000000",

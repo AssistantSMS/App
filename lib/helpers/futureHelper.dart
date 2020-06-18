@@ -1,6 +1,7 @@
 import 'package:dartx/dartx.dart';
 import 'package:flutter/material.dart';
 import 'package:package_info/package_info.dart';
+import 'package:scrapmechanic_kurtlourens_com/contracts/craftingIngredient/craftedUsing.dart';
 
 import '../contracts/gameItem/gameItem.dart';
 import '../contracts/gameItem/gameItemPageItem.dart';
@@ -97,6 +98,7 @@ Future<ResultWithValue<GameItemPageItem>> gameItemPageItemFuture(
         'gameItemPageItemFuture - unknown type of item $itemId');
   }
 
+  var craftingRecipesTask = craftingRecipesFuture(context, itemId);
   var usedInRecipesTask = usedInRecipesFuture(context, itemId);
 
   ResultWithValue<IGameItemJsonService> genRepo =
@@ -111,11 +113,17 @@ Future<ResultWithValue<GameItemPageItem>> gameItemPageItemFuture(
     ResultWithValue<List<UsedInRecipe>> useInResult = await usedInRecipesTask;
     List<UsedInRecipe> usedInRecipes =
         useInResult.isSuccess ? useInResult.value : List<UsedInRecipe>();
+    ResultWithValue<List<CraftedUsing>> craftingRecipesResult =
+        await craftingRecipesTask;
+    List<CraftedUsing> craftingRecipes = craftingRecipesResult.isSuccess
+        ? craftingRecipesResult.value
+        : List<CraftedUsing>();
     return ResultWithValue<GameItemPageItem>(
         true,
         GameItemPageItem(
           gameItem: itemResult.value,
           usedInRecipes: usedInRecipes,
+          craftingRecipes: craftingRecipes,
         ),
         '');
   }
@@ -196,6 +204,42 @@ Future<ResultWithValue<List<RecipeIngredientDetails>>>
   await Future.wait(tasks);
 
   // var sorted = results.sortedBy((recipe) => recipe.name).toList();
+
+  return ResultWithValue(results.length > 0, results, '');
+}
+
+Future<ResultWithValue<List<CraftedUsing>>> craftingRecipesFuture(
+    context, String itemId) async {
+  List<CraftedUsing> results = List<CraftedUsing>();
+
+  for (LocaleKey repJson in allRecipeJsons()) {
+    IRecipeJsonService repo = getRecipeRepo(repJson);
+    if (repo == null) continue;
+    ResultWithValue<List<Recipe>> getOutput =
+        await repo.getByOutputId(context, itemId);
+    if (!getOutput.isSuccess) continue;
+    for (Recipe recipe in getOutput.value) {
+      List<Future<ResultWithValue<RecipeIngredientDetails>>> ingDetailsTask =
+          List<Future<ResultWithValue<RecipeIngredientDetails>>>();
+      for (var recipeIng in recipe.inputs) {
+        ingDetailsTask.add(
+          getRecipeIngredientDetailsFuture(context, recipeIng),
+        );
+      }
+      List<ResultWithValue<RecipeIngredientDetails>> ingDetailsResult =
+          await Future.wait(ingDetailsTask);
+
+      results.add(CraftedUsing(
+        getDisplayNameFromLangFileName(repJson),
+        ingDetailsResult
+            .where((id) => id.isSuccess)
+            .map((id) => id.value)
+            .toList(),
+      ));
+    }
+  }
+
+  // results.sortedBy((recipe) => recipe.name);
 
   return ResultWithValue(results.length > 0, results, '');
 }

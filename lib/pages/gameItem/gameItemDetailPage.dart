@@ -1,4 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:scrapmechanic_kurtlourens_com/components/tilePresenters/recipeIngredientTilePresenter.dart';
+import 'package:scrapmechanic_kurtlourens_com/contracts/craftingIngredient/craftedUsing.dart';
+import 'package:scrapmechanic_kurtlourens_com/contracts/recipeIngredient/recipeIngredientDetail.dart';
+import 'package:scrapmechanic_kurtlourens_com/helpers/colourHelper.dart';
+import 'package:scrapmechanic_kurtlourens_com/helpers/textSpanHelper.dart';
 
 import '../../components/adaptive/listWithScrollbar.dart';
 import '../../components/common/cachedFutureBuilder.dart';
@@ -79,16 +84,35 @@ class GameItemDetailPage extends StatelessWidget {
 
     widgets.add(Divider());
 
+    List<CraftedUsing> craftingRecipes =
+        snapshot?.data?.value?.craftingRecipes ?? [];
+
+    for (CraftedUsing craftingRecipe in craftingRecipes) {
+      var stationName = Translations.get(context, craftingRecipe.name);
+      widgets.add(getTextSpanFromTemplateAndArray(
+          context, LocaleKey.createXUsingY, [gameItem.title, stationName]));
+      for (var ingDetailsIndex = 0;
+          ingDetailsIndex < craftingRecipe.ingredientDetails.length;
+          ingDetailsIndex++) {
+        RecipeIngredientDetails ingDetails =
+            craftingRecipe.ingredientDetails[ingDetailsIndex];
+        widgets.add(Card(
+          child: recipeIngredientDetailTilePresenter(
+              context, ingDetails, ingDetailsIndex),
+        ));
+      }
+      widgets.add(Divider());
+    }
+
+    widgets.add(Divider());
+
     List<UsedInRecipe> usedInRecipes =
         snapshot?.data?.value?.usedInRecipes ?? [];
 
     for (UsedInRecipe usedInRecipe in usedInRecipes) {
-      var template = Translations.get(context, LocaleKey.usedInXToCreate);
       var name = Translations.get(context, usedInRecipe.name);
-      widgets.add(Text(
-        template.replaceAll('{0}', name),
-        textAlign: TextAlign.center,
-      ));
+      widgets.add(getTextSpanFromTemplateAndArray(
+          context, LocaleKey.usedInXToCreate, [name]));
       for (var recipeIndex = 0;
           recipeIndex < usedInRecipe.recipes.length;
           recipeIndex++) {

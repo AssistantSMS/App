@@ -89,4 +89,5 @@ enum LocaleKey {
   usedInXToCreate,
   createXUsingY,
   timeToCraft,
+  cart,
 }

@@ -1,4 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_redux/flutter_redux.dart';
+import 'package:scrapmechanic_kurtlourens_com/components/dialogs/quantityDialog.dart';
+import 'package:scrapmechanic_kurtlourens_com/helpers/colourHelper.dart';
+import 'package:scrapmechanic_kurtlourens_com/state/modules/base/appState.dart';
+import 'package:scrapmechanic_kurtlourens_com/state/modules/cart/cartViewModel.dart';
 
 import '../../components/adaptive/listWithScrollbar.dart';
 import '../../components/common/cachedFutureBuilder.dart';
@@ -46,20 +51,24 @@ class GameItemDetailPage extends StatelessWidget {
               body: (_, __) => loadingWidget, showShortcutLinks: true),
       whenDoneLoading:
           (AsyncSnapshot<ResultWithValue<GameItemPageItem>> snapshot) {
-        if (isInDetailPane) return getBody(context, snapshot);
+        var bodyWidget = StoreConnector<AppState, CartViewModel>(
+            converter: (store) => CartViewModel.fromStore(store),
+            builder: (_, viewModel) => getBody(context, viewModel, snapshot));
+        if (isInDetailPane) return bodyWidget;
         return genericPageScaffold<ResultWithValue<GameItemPageItem>>(
           context,
           snapshot?.data?.value?.gameItem?.title ?? loading,
           snapshot,
-          body: getBody,
+          body: (_, __) => bodyWidget,
           showShortcutLinks: true,
         );
       },
     );
   }
 
-  Widget getBody(BuildContext context,
+  Widget getBody(BuildContext context, CartViewModel viewModel,
       AsyncSnapshot<ResultWithValue<GameItemPageItem>> snapshot) {
+    TextEditingController controller = TextEditingController();
     Widget errorWidget = asyncSnapshotHandler(context, snapshot);
     if (errorWidget != null) return errorWidget;
 
@@ -127,10 +136,33 @@ class GameItemDetailPage extends StatelessWidget {
 
     widgets.add(emptySpace3x());
 
-    return listWithScrollbar(
-      padding: AppPadding.listSidePadding,
-      itemCount: widgets.length,
-      itemBuilder: (context, index) => widgets[index],
+    var fabColour = getSecondaryColour(context);
+    return Stack(
+      children: [
+        listWithScrollbar(
+          padding: AppPadding.listSidePadding,
+          itemCount: widgets.length,
+          itemBuilder: (context, index) => widgets[index],
+        ),
+        Positioned(
+          bottom: 16,
+          right: 16,
+          child: FloatingActionButton(
+            child: Icon(Icons.shopping_cart),
+            backgroundColor: fabColour,
+            foregroundColor: getForegroundTextColour(fabColour),
+            onPressed: () {
+              showQuantityDialog(context, controller,
+                  title: Translations.get(context, LocaleKey.quantity),
+                  onSuccess: (String quantityString) {
+                int quantity = int.tryParse(quantityString);
+                if (quantity == null) return;
+                viewModel.addToCart(gameItem.id, quantity);
+              });
+            },
+          ),
+        )
+      ],
     );
   }
 }

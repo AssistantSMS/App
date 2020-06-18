@@ -12,6 +12,7 @@ class AnalyticsEvent {
   static const String itemListPage = 'Item_List_Page_View';
   static const String itemDetailPage = 'Item_Detail_Page_View';
   static const String donationPage = 'Donation_Page_View';
+  static const String cartPage = 'Cart_Page_View';
   //json
   //external
   static const String externalLinkCVWebsite = 'CV_Website';

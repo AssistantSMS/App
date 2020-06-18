@@ -12,7 +12,7 @@ Widget getTextSpanFromTemplateAndArray(
 
   List<TextSpan> textSpans = List<TextSpan>();
   for (int templateVariableIndex = 0;
-      templateVariableIndex < (templateArray.length - 1);
+      templateVariableIndex < templateArray.length;
       templateVariableIndex++) {
     textSpans.add(TextSpan(text: templateArray[templateVariableIndex]));
     if (variables.length > templateVariableIndex) {

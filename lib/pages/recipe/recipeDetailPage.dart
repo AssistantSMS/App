@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:scrapmechanic_kurtlourens_com/helpers/textSpanHelper.dart';
 
 import '../../components/adaptive/listWithScrollbar.dart';
 import '../../components/common/cachedFutureBuilder.dart';
@@ -73,10 +74,22 @@ class RecipeDetailPage extends StatelessWidget {
       name: recipeItem.title,
     ));
     widgets.add(emptySpace1x());
+    var quantitySuffix = recipeItem?.output?.quantity?.toString() != null
+        ? ' x${recipeItem.output.quantity}'
+        : '';
+    widgets.add(genericItemName(recipeItem.title + quantitySuffix));
     widgets.add(genericItemName(recipeItem.title));
     if (recipeItem.description != null && recipeItem.description.length > 0) {
       widgets.add(genericItemDescription(recipeItem.description));
     }
+
+    widgets.add(Divider());
+
+    var timeToCraft = Translations.get(context, LocaleKey.timeToCraft) +
+        ' ' +
+        recipeItem.craftingTime.toString() +
+        's';
+    widgets.add(genericItemDescription(timeToCraft));
 
     widgets.add(Divider());
 

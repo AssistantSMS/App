@@ -30,6 +30,7 @@ Widget recipeIngredientDetailTilePresenter(
     context,
     leadingImage: recipeIngredient.icon,
     name: recipeIngredient.title,
+    quantity: recipeIngredient.quantity,
     onTap: () async => await navigateAwayFromHomeAsync(context,
         navigateTo: (context) => GameItemDetailPage(recipeIngredient.id)),
   );

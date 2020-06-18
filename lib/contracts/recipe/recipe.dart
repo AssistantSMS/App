@@ -8,6 +8,7 @@ class Recipe {
     this.icon,
     this.title,
     this.description,
+    this.craftingTime,
     this.output,
     this.inputs,
   });
@@ -15,6 +16,7 @@ class Recipe {
   String id;
   String icon;
   String title;
+  int craftingTime;
   String description;
   RecipeIngredient output;
   List<RecipeIngredient> inputs;
@@ -25,6 +27,7 @@ class Recipe {
         icon: baseItem.icon,
         output: baseItem.output,
         inputs: baseItem.inputs,
+        craftingTime: baseItem.craftingTime,
         title: lang.title,
         description: lang.description,
       );

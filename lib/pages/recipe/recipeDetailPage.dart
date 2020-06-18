@@ -81,8 +81,6 @@ class RecipeDetailPage extends StatelessWidget {
       widgets.add(genericItemDescription(recipeItem.description));
     }
 
-    widgets.add(Divider());
-
     var timeToCraft = Translations.get(context, LocaleKey.timeToCraft) +
         ' ' +
         recipeItem.craftingTime.toString() +
@@ -90,6 +88,7 @@ class RecipeDetailPage extends StatelessWidget {
     widgets.add(genericItemDescription(timeToCraft));
 
     widgets.add(Divider());
+    widgets.add(emptySpace1x());
 
     widgets.add(Text(
       Translations.get(context, LocaleKey.craftedUsing),
@@ -106,7 +105,7 @@ class RecipeDetailPage extends StatelessWidget {
       ));
     }
 
-    widgets.add(emptySpace3x());
+    widgets.add(emptySpace8x());
 
     return listWithScrollbar(
       padding: AppPadding.listSidePadding,

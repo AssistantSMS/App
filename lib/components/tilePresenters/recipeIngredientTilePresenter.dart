@@ -24,21 +24,13 @@ Widget recipeIngredientTilePresenter(
   );
 }
 
-Widget recipeIngredientDetailTilePresenter(
-    BuildContext context, RecipeIngredientDetails recipeIngredient, int index) {
-  var tile = genericListTile(
-    context,
-    leadingImage: recipeIngredient.icon,
-    name: recipeIngredient.title,
-    quantity: recipeIngredient.quantity,
-    onTap: () async => await navigateAwayFromHomeAsync(context,
-        navigateTo: (context) => GameItemDetailPage(recipeIngredient.id)),
-  );
-
-  if (index != 0) return tile;
-
-  return Padding(
-    padding: AppPadding.listTopPadding,
-    child: tile,
-  );
-}
+Widget recipeIngredientDetailTilePresenter(BuildContext context,
+        RecipeIngredientDetails recipeIngredient, int index) =>
+    genericListTile(
+      context,
+      leadingImage: recipeIngredient.icon,
+      name: recipeIngredient.title,
+      quantity: recipeIngredient.quantity,
+      onTap: () async => await navigateAwayFromHomeAsync(context,
+          navigateTo: (context) => GameItemDetailPage(recipeIngredient.id)),
+    );

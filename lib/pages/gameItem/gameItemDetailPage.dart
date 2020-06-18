@@ -90,13 +90,14 @@ class GameItemDetailPage extends StatelessWidget {
     ResultWithValue<Widget> tableResult = getTableRows(context, gameItem);
     if (tableResult.isSuccess) widgets.add(tableResult.value);
 
-    widgets.add(Divider());
-
     List<CraftedUsing> craftingRecipes =
         snapshot?.data?.value?.craftingRecipes ?? [];
 
     for (CraftedUsing craftingRecipe in craftingRecipes) {
       var stationName = Translations.get(context, craftingRecipe.name);
+      widgets.add(emptySpace1x());
+      widgets.add(Divider());
+      widgets.add(emptySpace1x());
       widgets.add(getTextSpanFromTemplateAndArray(
           context, LocaleKey.createXUsingY, [gameItem.title, stationName]));
       for (var ingDetailsIndex = 0;
@@ -109,15 +110,15 @@ class GameItemDetailPage extends StatelessWidget {
               context, ingDetails, ingDetailsIndex),
         ));
       }
-      widgets.add(Divider());
     }
-
-    widgets.add(Divider());
 
     List<UsedInRecipe> usedInRecipes =
         snapshot?.data?.value?.usedInRecipes ?? [];
 
     for (UsedInRecipe usedInRecipe in usedInRecipes) {
+      widgets.add(emptySpace1x());
+      widgets.add(Divider());
+      widgets.add(emptySpace1x());
       var name = Translations.get(context, usedInRecipe.name);
       widgets.add(getTextSpanFromTemplateAndArray(
           context, LocaleKey.usedInXToCreate, [name]));
@@ -131,10 +132,9 @@ class GameItemDetailPage extends StatelessWidget {
               navigateTo: (context) => RecipeDetailPage(recipe.id)),
         ));
       }
-      widgets.add(Divider());
     }
 
-    widgets.add(emptySpace3x());
+    widgets.add(emptySpace8x());
 
     var fabColour = getSecondaryColour(context);
     return Stack(

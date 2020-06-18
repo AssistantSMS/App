@@ -9,7 +9,7 @@
     "Inputs": [
       {
         "Id": "blk1",
-        "Quantity": 1
+        "Quantity": 10
       }
     ]
   },
@@ -23,7 +23,7 @@
     "Inputs": [
       {
         "Id": "blk33",
-        "Quantity": 1
+        "Quantity": 10
       }
     ]
   },
@@ -37,7 +37,7 @@
     "Inputs": [
       {
         "Id": "blk4",
-        "Quantity": 1
+        "Quantity": 10
       }
     ]
   },
@@ -51,7 +51,7 @@
     "Inputs": [
       {
         "Id": "blk34",
-        "Quantity": 1
+        "Quantity": 10
       }
     ]
   },
@@ -65,7 +65,7 @@
     "Inputs": [
       {
         "Id": "blk7",
-        "Quantity": 1
+        "Quantity": 10
       }
     ]
   }

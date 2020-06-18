@@ -9,15 +9,15 @@
     "Inputs": [
       {
         "Id": "blk4",
-        "Quantity": 1
+        "Quantity": 90
       },
       {
         "Id": "reso6",
-        "Quantity": 1
+        "Quantity": 10
       },
       {
         "Id": "consu6",
-        "Quantity": 1
+        "Quantity": 10
       }
     ]
   },
@@ -31,15 +31,15 @@
     "Inputs": [
       {
         "Id": "blk34",
-        "Quantity": 1
+        "Quantity": 60
       },
       {
         "Id": "reso6",
-        "Quantity": 1
+        "Quantity": 5
       },
       {
         "Id": "consu6",
-        "Quantity": 1
+        "Quantity": 5
       }
     ]
   },
@@ -53,7 +53,7 @@
     "Inputs": [
       {
         "Id": "blk34",
-        "Quantity": 1
+        "Quantity": 30
       }
     ]
   },
@@ -67,15 +67,15 @@
     "Inputs": [
       {
         "Id": "blk5",
-        "Quantity": 1
+        "Quantity": 50
       },
       {
         "Id": "reso6",
-        "Quantity": 1
+        "Quantity": 10
       },
       {
         "Id": "consu6",
-        "Quantity": 1
+        "Quantity": 10
       }
     ]
   },
@@ -89,15 +89,15 @@
     "Inputs": [
       {
         "Id": "blk6",
-        "Quantity": 1
+        "Quantity": 50
       },
       {
         "Id": "reso6",
-        "Quantity": 1
+        "Quantity": 10
       },
       {
         "Id": "consu6",
-        "Quantity": 1
+        "Quantity": 10
       }
     ]
   }

@@ -83,6 +83,7 @@
   "craftedUsing": "Crafted Using",
   "usedInXToCreate": "Used in {0} to create:",
   "createXUsingY": "Create {0} using the {1} with:",
+  "timeToCraft": "Time to craft:",
   "translatedBy": [
     {
       "name": "",

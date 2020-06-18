@@ -88,4 +88,5 @@ enum LocaleKey {
   craftedUsing,
   usedInXToCreate,
   createXUsingY,
+  timeToCraft,
 }

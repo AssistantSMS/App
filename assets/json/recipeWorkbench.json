@@ -2,6 +2,7 @@
   {
     "Id": "recipeWorkbench1",
     "Icon": "items/recipeWorkbench1.png",
+    "CraftingTime": 32,
     "Inputs": [
       {
         "Id": "blk4",
@@ -20,6 +21,7 @@
   {
     "Id": "recipeWorkbench2",
     "Icon": "items/recipeWorkbench2.png",
+    "CraftingTime": 32,
     "Inputs": [
       {
         "Id": "blk4",
@@ -38,6 +40,7 @@
   {
     "Id": "recipeWorkbench3",
     "Icon": "items/recipeWorkbench3.png",
+    "CraftingTime": 22,
     "Inputs": [
       {
         "Id": "blk1",
@@ -52,6 +55,7 @@
   {
     "Id": "recipeWorkbench4",
     "Icon": "items/recipeWorkbench4.png",
+    "CraftingTime": 12,
     "Inputs": [
       {
         "Id": "blk1",
@@ -66,6 +70,7 @@
   {
     "Id": "recipeWorkbench5",
     "Icon": "items/recipeWorkbench5.png",
+    "CraftingTime": 12,
     "Output": {
       "Id": "intera15",
       "Quantity": 1
@@ -80,6 +85,7 @@
   {
     "Id": "recipeWorkbench6",
     "Icon": "items/recipeWorkbench6.png",
+    "CraftingTime": 2,
     "Output": {
       "Id": "blk42",
       "Quantity": 1
@@ -94,6 +100,7 @@
   {
     "Id": "recipeWorkbench7",
     "Icon": "items/recipeWorkbench7.png",
+    "CraftingTime": 22,
     "Output": {
       "Id": "intera27",
       "Quantity": 1
@@ -112,6 +119,7 @@
   {
     "Id": "recipeWorkbench8",
     "Icon": "items/recipeWorkbench8.png",
+    "CraftingTime": 22,
     "Output": {
       "Id": "intera28",
       "Quantity": 1
@@ -130,6 +138,7 @@
   {
     "Id": "recipeWorkbench9",
     "Icon": "items/recipeWorkbench9.png",
+    "CraftingTime": 32,
     "Inputs": [
       {
         "Id": "blk4",

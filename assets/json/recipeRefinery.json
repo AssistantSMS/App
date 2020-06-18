@@ -5,7 +5,7 @@
     "CraftingTime": 0,
     "Output": {
       "Id": "harv2",
-      "Quantity": 1
+      "Quantity": 0
     },
     "Inputs": [
       {
@@ -20,7 +20,7 @@
     "CraftingTime": 0,
     "Output": {
       "Id": "harv3",
-      "Quantity": 1
+      "Quantity": 0
     },
     "Inputs": [
       {
@@ -35,7 +35,7 @@
     "CraftingTime": 0,
     "Output": {
       "Id": "harv4",
-      "Quantity": 1
+      "Quantity": 0
     },
     "Inputs": [
       {
@@ -50,7 +50,7 @@
     "CraftingTime": 0,
     "Output": {
       "Id": "harv5",
-      "Quantity": 1
+      "Quantity": 0
     },
     "Inputs": [
       {
@@ -65,7 +65,7 @@
     "CraftingTime": 0,
     "Output": {
       "Id": "harv1",
-      "Quantity": 1
+      "Quantity": 0
     },
     "Inputs": [
       {

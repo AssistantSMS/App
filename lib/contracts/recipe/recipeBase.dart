@@ -18,16 +18,19 @@ class RecipeBase {
   RecipeBase({
     this.id,
     this.icon,
+    this.output,
     this.inputs,
   });
 
   String id;
   String icon;
+  RecipeIngredient output;
   List<RecipeIngredient> inputs;
 
   factory RecipeBase.fromJson(Map<String, dynamic> json) => RecipeBase(
         id: readStringSafe(json, "Id"),
         icon: readStringSafe(json, "Icon"),
+        output: RecipeIngredient.fromJson(json["Output"]),
         inputs: List<RecipeIngredient>.from(
             json["Inputs"].map((x) => RecipeIngredient.fromJson(x))),
       );
@@ -35,6 +38,7 @@ class RecipeBase {
   Map<String, dynamic> toJson() => {
         "Id": id,
         "Icon": icon,
+        "Output": output.toJson(),
         "Inputs": List<dynamic>.from(inputs.map((x) => x.toJson())),
       };
 }

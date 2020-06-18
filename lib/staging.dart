@@ -6,7 +6,7 @@ import 'env/environmentSettings.dart';
 
 Future main() async {
   var env = EnvironmentSettings(
-    baseApi: "https://staging-api.nmsassistant.com",
+    baseApi: "https://staging-api.scrapassistant.com",
     donationsEnabled: false,
     isProduction: false,
   );

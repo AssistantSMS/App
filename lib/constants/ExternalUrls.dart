@@ -21,10 +21,10 @@ class ExternalUrls {
   static const String discord = 'https://discord.gg/q3aFBQM';
   static const String twitter = 'https://twitter.com/KhaozTopsy';
   static const String defaultProfilePic =
-      'https://nmsassistant.com/assets/img/vykeen.png';
+      'https://scrapassistant.com/assets/img/vykeen.png';
   // Legal
   static const String privacyPolicy =
-      'https://nmsassistant.com/privacy_policy.html';
+      'https://scrapassistant.com/privacy_policy.html';
   static const String termsAndConditions =
-      'https://nmsassistant.com/terms_and_conditions.html';
+      'https://scrapassistant.com/terms_and_conditions.html';
 }

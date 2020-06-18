@@ -15,11 +15,12 @@ steps:
     channel: 'dev'
     version: 'latest'
 
-- task: FlutterCommand@0
-  inputs:
-    arguments: 'build web --release'
-
 - task: CmdLine@2
   inputs:
-    script: 'dir'
+    script: '$(FlutterToolPath)/flutter build web --release'
 
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)/build'
+    ArtifactName: 'flutterWeb'
+    publishLocation: 'Container'

@@ -13,11 +13,11 @@
       },
       {
         "Id": "consu13",
-        "Quantity": 1
+        "Quantity": 2
       },
       {
         "Id": "plant18",
-        "Quantity": 1
+        "Quantity": 2
       },
       {
         "Id": "plant16",
@@ -35,7 +35,7 @@
     "Inputs": [
       {
         "Id": "plant14",
-        "Quantity": 1
+        "Quantity": 2
       },
       {
         "Id": "plant15",
@@ -65,7 +65,7 @@
       },
       {
         "Id": "consu13",
-        "Quantity": 1
+        "Quantity": 2
       },
       {
         "Id": "plant15",

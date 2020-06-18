@@ -1,5 +1,4 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.scrapmechanic_kurtlourens_com">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.kurtlourens.scrap_mechanic">
     <!-- Flutter needs it to communicate with the running application
          to allow setting breakpoints, to provide hot reload, etc.
     -->

@@ -1,4 +1,4 @@
-package com.example.scrapmechanic_kurtlourens_com
+package com.kurtlourens.scrap_mechanic
 
 import io.flutter.embedding.android.FlutterActivity
 

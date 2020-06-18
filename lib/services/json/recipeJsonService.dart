@@ -1,3 +1,5 @@
+import 'package:scrapmechanic_kurtlourens_com/integration/logging.dart';
+
 import '../../contracts/recipe/recipe.dart';
 import '../../contracts/recipe/recipeBase.dart';
 import '../../contracts/recipe/recipeLang.dart';
@@ -28,7 +30,7 @@ class RecipeJsonService extends BaseJsonService implements IRecipeJsonService {
       return ResultWithValue<List<Recipe>>(
           true, mapRecipeItems(context, baseItems, detailedItems), '');
     } catch (exception) {
-      print(
+      logger.e(
           "RecipeJsonRepo($baseJson, $detailJson) Exception: ${exception.toString()}");
       return ResultWithValue<List<Recipe>>(
           false, List<Recipe>(), exception.toString());
@@ -46,7 +48,7 @@ class RecipeJsonService extends BaseJsonService implements IRecipeJsonService {
           allRecipesResult.value.firstWhere((r) => r.id == id);
       return ResultWithValue<Recipe>(true, selectedRecipe, '');
     } catch (exception) {
-      print("RecipeJsonRepo($baseJson) Exception: ${exception.toString()}");
+      logger.e("RecipeJsonRepo($baseJson) Exception: ${exception.toString()}");
       return ResultWithValue<Recipe>(false, Recipe(), exception.toString());
     }
   }
@@ -65,7 +67,29 @@ class RecipeJsonService extends BaseJsonService implements IRecipeJsonService {
           .toList();
       return ResultWithValue<List<Recipe>>(true, recipeInputs, '');
     } catch (exception) {
-      print("RecipeJsonRepo($baseJson) Exception: ${exception.toString()}");
+      logger.e("RecipeJsonRepo($baseJson) Exception: ${exception.toString()}");
+      return ResultWithValue<List<Recipe>>(
+          false, List<Recipe>(), exception.toString());
+    }
+  }
+
+  @override
+  Future<ResultWithValue<List<Recipe>>> getByOutputId(
+      context, String id) async {
+    ResultWithValue<List<Recipe>> allRecipesResult = await this.getAll(context);
+    if (allRecipesResult.hasFailed) {
+      return ResultWithValue(
+          false, List<Recipe>(), allRecipesResult.errorMessage);
+    }
+    try {
+      var recipeInputs = allRecipesResult.value
+          .where((r) =>
+              r.output != null && r.output.id != null && r.output.id != '')
+          .where((r) => r.output.id == id)
+          .toList();
+      return ResultWithValue<List<Recipe>>(true, recipeInputs, '');
+    } catch (exception) {
+      logger.e("RecipeJsonRepo($baseJson) Exception: ${exception.toString()}");
       return ResultWithValue<List<Recipe>>(
           false, List<Recipe>(), exception.toString());
     }

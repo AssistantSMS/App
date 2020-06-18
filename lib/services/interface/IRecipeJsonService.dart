@@ -15,4 +15,9 @@ class IRecipeJsonService {
       context, String id) async {
     return ResultWithValue<List<Recipe>>(false, List<Recipe>(), '');
   }
+
+  Future<ResultWithValue<List<Recipe>>> getByOutputId(
+      context, String id) async {
+    return ResultWithValue<List<Recipe>>(false, List<Recipe>(), '');
+  }
 }

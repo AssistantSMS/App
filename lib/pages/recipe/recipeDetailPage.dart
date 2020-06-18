@@ -78,7 +78,6 @@ class RecipeDetailPage extends StatelessWidget {
         ? ' x${recipeItem.output.quantity}'
         : '';
     widgets.add(genericItemName(recipeItem.title + quantitySuffix));
-    widgets.add(genericItemName(recipeItem.title));
     if (recipeItem.description != null && recipeItem.description.length > 0) {
       widgets.add(genericItemDescription(recipeItem.description));
     }

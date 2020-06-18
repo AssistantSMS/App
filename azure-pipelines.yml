@@ -17,6 +17,10 @@ steps:
 
 - task: CmdLine@2
   inputs:
+    script: '$(FlutterToolPath)/flutter config --enable-web'
+
+- task: CmdLine@2
+  inputs:
     script: '$(FlutterToolPath)/flutter build web --release'
 
 - task: PublishBuildArtifacts@1

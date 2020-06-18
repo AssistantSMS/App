@@ -87,4 +87,5 @@ enum LocaleKey {
   openCollective,
   craftedUsing,
   usedInXToCreate,
+  createXUsingY,
 }

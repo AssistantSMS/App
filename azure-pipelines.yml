@@ -12,16 +12,14 @@ pool:
 steps:
 - task: FlutterInstall@0
   inputs:
-    channel: 'stable'
+    channel: 'dev'
     version: 'latest'
 
 - task: FlutterCommand@0
   inputs:
     arguments: 'build web --release'
 
-- task: PublishBuildArtifacts@1
+- task: CmdLine@2
   inputs:
-    PathtoPublish: '$(Build.ArtifactStagingDirectory)/build'
-    ArtifactName: 'flutterWeb'
-    publishLocation: 'Container'
+    script: 'dir'
 

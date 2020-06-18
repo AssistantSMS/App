@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-import '../../constants/AppPadding.dart';
 import '../../contracts/recipeIngredient/recipeIngredient.dart';
 import '../../contracts/recipeIngredient/recipeIngredientDetail.dart';
 import '../../contracts/results/resultWithValue.dart';

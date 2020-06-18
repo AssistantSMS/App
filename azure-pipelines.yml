@@ -12,10 +12,16 @@ pool:
 steps:
 - task: FlutterInstall@0
   inputs:
-    channel: 'stable'
+    channel: 'dev'
     version: 'latest'
 
-- script: |
-    echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
-  displayName: 'Run a multi-line script'
+- task: FlutterCommand@0
+  inputs:
+    arguments: 'build web --release'
+
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)/build'
+    ArtifactName: 'flutterWeb'
+    publishLocation: 'Container'
+

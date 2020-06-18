@@ -11,7 +11,6 @@ import 'helpers/analytics.dart';
 import 'helpers/colourHelper.dart';
 import 'integration/dependencyInjection.dart';
 import 'integration/firebaseAnalytics.dart';
-import 'integration/hive.dart';
 import 'integration/logging.dart';
 import 'integration/themeManager.dart';
 import 'localization/localization.dart';
@@ -39,10 +38,8 @@ class _MyAppState extends State<MyApp> {
   initState() {
     super.initState();
     initLogger();
-    initHiveState().then(
-      (_) async => await initReduxState(),
-    );
     initDependencyInjection(this._env);
+    initReduxState();
     if (kReleaseMode) {
       // initFirebaseAdMob();
       initFirebaseAnalytics();
@@ -104,11 +101,5 @@ class _MyAppState extends State<MyApp> {
         onLocaleChange: _onLocaleChange,
       ),
     );
-  }
-
-  @override
-  void dispose() async {
-    closeHiveState();
-    super.dispose();
   }
 }

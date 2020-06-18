@@ -1,7 +1,9 @@
-import 'package:scrapmechanic_kurtlourens_com/contracts/results/result.dart';
+import 'dart:convert';
+
 import 'package:redux/redux.dart';
 
 import '../../constants/AppConfig.dart';
+import '../../contracts/results/result.dart';
 import '../../integration/dependencyInjection.dart';
 import '../../integration/logging.dart';
 import '../modules/base/appState.dart';
@@ -13,11 +15,11 @@ class LocalStorageMiddleware extends MiddlewareClass<AppState> {
     next(action);
 
     if (action is PersistToStorage) {
-      logger.i('saving to Hive');
+      logger.i('saving to localStorage');
       getStorageService()
           .saveToStorage(
-        AppConfig.hiveBoxAppStateKey,
-        store.state,
+        AppConfig.appStateKey,
+        json.encode(store.state.toJson()),
       )
           .then((Result saveResult) {
         if (saveResult.isSuccess) return;

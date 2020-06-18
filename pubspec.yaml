@@ -19,11 +19,6 @@ dependencies:
   # Redux
   flutter_redux: 0.6.0
   redux: 4.0.0
-  # Hive
-  hive: ^1.4.1+1
-  hive_flutter: ^0.3.0+2
-  path: ^1.7.0
-  path_provider: ^1.6.10
   # UI
   badges: ^1.1.1
   theme_mode_handler: ^2.0.0
@@ -39,6 +34,8 @@ dependencies:
   universal_platform: ^0.1.3
   breakpoint: ^1.0.1+2
   dartx: ^0.4.1
+  shared_preferences: ^0.5.7+3
+  shared_preferences_web: ^0.1.2+7
   # Misc
   url_launcher: 5.4.10
   package_info: 0.4.0+18
@@ -46,14 +43,7 @@ dependencies:
   share: ^0.6.4+2
   logger: ^0.9.1
 
-dependency_overrides:
-  path: ^1.6.4
-  dartx: ^0.4.1
-  characters: 1.0.0
-
 dev_dependencies:
-  hive_generator: ^0.7.0+2
-  build_runner: ^1.10.0
   # flutter_test:
   #   sdk: flutter
 

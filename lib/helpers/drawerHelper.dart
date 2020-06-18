@@ -28,6 +28,12 @@ Future<List<Widget>> getDrawerItems(context,
     key: LocaleKey.donation,
     navigateToNamed: Routes.donation,
   ));
+  widgets.add(_drawerItem(
+    context,
+    image: getCorrectlySizedImageFromIcon(context, Icons.shopping_cart),
+    key: LocaleKey.cart,
+    navigateToNamed: Routes.cart,
+  ));
 
   // widgets.add(_drawerItem(
   //   context,

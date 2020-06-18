@@ -1,4 +1,6 @@
-import 'package:hive/hive.dart';
+import 'dart:convert';
+
+import 'package:shared_preferences/shared_preferences.dart';
 
 import './interface/ILocalStorageService.dart';
 import '../contracts/results/result.dart';
@@ -7,11 +9,10 @@ import '../integration/logging.dart';
 
 class LocalStorageService implements ILocalStorageService {
   @override
-  Future<Result> saveToStorage<T>(String key, T state) async {
+  Future<Result> saveToStorage(String key, String stateString) async {
     try {
-      Box<T> appBox = await Hive.openBox<T>(key);
-      appBox.put(key, state);
-      appBox.close();
+      SharedPreferences preferences = await SharedPreferences.getInstance();
+      await preferences.setString(key, stateString);
       return Result(true, '');
     } catch (exception) {
       logger.e(exception);
@@ -20,15 +21,18 @@ class LocalStorageService implements ILocalStorageService {
   }
 
   @override
-  Future<ResultWithValue<T>> loadFromStorage<T>(String key) async {
+  Future<ResultWithValue<T>> loadFromStorage<T>(
+      String key, T Function(dynamic) mapper) async {
     try {
-      Box<T> appBox = await Hive.openBox<T>(key);
-      T value = appBox.get(key);
-      if (value == null) throw Exception('value is empty');
-      appBox.close();
-      return ResultWithValue<T>(true, value, '');
+      SharedPreferences preferences = await SharedPreferences.getInstance();
+      var stateString = preferences.getString(key);
+      Map<String, dynamic> stateMap = Map<String, dynamic>();
+      if (stateString != null) {
+        stateMap = json.decode(stateString) as Map<String, dynamic>;
+      }
+      return ResultWithValue<T>(true, mapper(stateMap), '');
     } catch (exception) {
-      logger.e(exception);
+      logger.e(exception, 'loadFromStorage');
       return ResultWithValue<T>(false, null, exception.toString());
     }
   }

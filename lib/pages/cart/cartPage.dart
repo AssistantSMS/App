@@ -73,8 +73,6 @@ class CartPage extends StatelessWidget {
     if (errorWidget != null) return errorWidget;
 
     List<Widget> widgets = List<Widget>();
-    List<RecipeIngredientDetails> requiredItems =
-        List<RecipeIngredientDetails>();
 
     for (var ingDetailsIndex = 0;
         ingDetailsIndex < snapshot.data.length;
@@ -101,7 +99,7 @@ class CartPage extends StatelessWidget {
       // }));
     }
 
-    if (requiredItems.length > 0) {
+    if (widgets.length > 0) {
       widgets.add(Container(
         child: positiveButton(
           title: 'test',

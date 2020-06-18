@@ -25,6 +25,8 @@ steps:
 
 - task: PublishBuildArtifacts@1
   inputs:
-    PathtoPublish: '$(Build.ArtifactStagingDirectory)/build'
+    PathtoPublish: './build'
     ArtifactName: 'flutterWeb'
     publishLocation: 'Container'
+
+    

@@ -1,16 +1,9 @@
-import 'package:hive/hive.dart';
 import 'package:meta/meta.dart';
-
-import '../../../constants/HiveTypeConstant.dart';
-
-part 'cartItemState.g.dart';
+import 'package:scrapmechanic_kurtlourens_com/helpers/jsonHelper.dart';
 
 @immutable
-@HiveType(typeId: HiveTypeConstant.cartItemState)
 class CartItemState {
-  @HiveField(0)
   final String itemId;
-  @HiveField(1)
   final int quantity;
 
   CartItemState({
@@ -34,4 +27,13 @@ class CartItemState {
       quantity: quantity ?? this.quantity,
     );
   }
+
+  CartItemState.fromJson(Map<String, dynamic> json)
+      : itemId = readStringSafe(json, 'itemId'),
+        quantity = readIntSafe(json, 'quantity');
+
+  Map<String, dynamic> toJson() => {
+        'itemId': itemId,
+        'quantity': quantity,
+      };
 }

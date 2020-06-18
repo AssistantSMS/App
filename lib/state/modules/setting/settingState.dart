@@ -1,14 +1,8 @@
-import 'package:hive/hive.dart';
 import 'package:meta/meta.dart';
-
-import '../../../constants/HiveTypeConstant.dart';
-
-part 'settingState.g.dart';
+import 'package:scrapmechanic_kurtlourens_com/helpers/jsonHelper.dart';
 
 @immutable
-@HiveType(typeId: HiveTypeConstant.settingState)
 class SettingState {
-  @HiveField(0)
   final String selectedLanguage;
 
   SettingState({
@@ -28,4 +22,11 @@ class SettingState {
       selectedLanguage: selectedLanguage ?? this.selectedLanguage,
     );
   }
+
+  SettingState.fromJson(Map<String, dynamic> json)
+      : selectedLanguage = readStringSafe(json, 'cartState');
+
+  Map<String, dynamic> toJson() => {
+        'selectedLanguage': selectedLanguage,
+      };
 }

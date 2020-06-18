@@ -1,15 +1,9 @@
-import 'package:hive/hive.dart';
 import 'package:meta/meta.dart';
 
-import '../../../constants/HiveTypeConstant.dart';
 import 'cartItemState.dart';
 
-part 'cartState.g.dart';
-
 @immutable
-@HiveType(typeId: HiveTypeConstant.cartState)
 class CartState {
-  @HiveField(0)
   final List<CartItemState> items;
 
   CartState({
@@ -29,4 +23,12 @@ class CartState {
       items: items ?? this.items,
     );
   }
+
+  CartState.fromJson(Map<String, dynamic> json)
+      : items = List<CartItemState>.from(
+            json["items"].map((x) => CartItemState.fromJson(x)));
+
+  Map<String, dynamic> toJson() => {
+        'items': items,
+      };
 }

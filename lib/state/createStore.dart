@@ -1,4 +1,5 @@
 import 'package:redux/redux.dart';
+import 'package:scrapmechanic_kurtlourens_com/contracts/results/resultWithValue.dart';
 
 import './middleware/localStorageMiddleware.dart';
 import '../constants/AppConfig.dart';
@@ -15,8 +16,11 @@ Future<Store<AppState>> createStore() async {
   AppState stateObj = AppState.initial();
   if (isAndroid || isiOS || isWeb) {
     try {
-      var stateResult = await getStorageService()
-          .loadFromStorage<AppState>(AppConfig.hiveBoxAppStateKey);
+      ResultWithValue<AppState> stateResult =
+          await getStorageService().loadFromStorage<AppState>(
+        AppConfig.appStateKey,
+        (json) => AppState.fromJson(json),
+      );
       if (stateResult.isSuccess) stateObj = stateResult.value;
     } catch (exception) {
       logger.e(exception);

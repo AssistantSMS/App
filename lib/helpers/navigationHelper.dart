@@ -1,12 +1,16 @@
 import 'package:flutter/material.dart';
+import 'package:scrapmechanic_kurtlourens_com/constants/Routes.dart';
 
 Future<bool> navigateBackOrHomeAsync(context) async {
   if (Navigator.canPop(context)) {
     Navigator.pop(context);
     return Future.value(false);
   }
+  // else {
+  //   return navigateHomeAsync(context);
+  // }
 
-  // await Navigator.pushReplacementNamed(context, Routes.home);
+  await Navigator.pushReplacementNamed(context, Routes.home);
 
   return Future.value(true);
 }

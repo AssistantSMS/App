@@ -1,34 +1,31 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
-part of 'appState.dart';
+part of 'cartState.dart';
 
 // **************************************************************************
 // TypeAdapterGenerator
 // **************************************************************************
 
-class AppStateAdapter extends TypeAdapter<AppState> {
+class CartStateAdapter extends TypeAdapter<CartState> {
   @override
-  final typeId = 1;
+  final typeId = 3;
 
   @override
-  AppState read(BinaryReader reader) {
+  CartState read(BinaryReader reader) {
     var numOfFields = reader.readByte();
     var fields = <int, dynamic>{
       for (var i = 0; i < numOfFields; i++) reader.readByte(): reader.read(),
     };
-    return AppState(
-      settingState: fields[0] as SettingState,
-      cartState: fields[1] as CartState,
+    return CartState(
+      items: (fields[0] as List)?.cast<CartItemState>(),
     );
   }
 
   @override
-  void write(BinaryWriter writer, AppState obj) {
+  void write(BinaryWriter writer, CartState obj) {
     writer
-      ..writeByte(2)
-      ..writeByte(0)
-      ..write(obj.settingState)
       ..writeByte(1)
-      ..write(obj.cartState);
+      ..writeByte(0)
+      ..write(obj.items);
   }
 }

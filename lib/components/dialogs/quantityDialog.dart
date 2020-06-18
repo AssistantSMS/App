@@ -8,7 +8,7 @@ import '../../localization/localeKey.dart';
 import '../../localization/translations.dart';
 
 void showQuantityDialog(context, TextEditingController controller,
-    {String title, Function onSuccess}) {
+    {String title, Function(String) onSuccess}) {
   List<DialogButton> buttons = List<DialogButton>();
   buttons.add(DialogButton(
     child: Text(

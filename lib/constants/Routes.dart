@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:scrapmechanic_kurtlourens_com/pages/cart/cartPage.dart';
 import 'package:scrapmechanic_kurtlourens_com/pages/donation.dart';
 
 import '../pages/home.dart';
@@ -10,6 +11,7 @@ class Routes {
   static const String about = '/about';
   static const String settings = '/settings';
   static const String donation = '/donation';
+  static const String cart = '/cart';
 }
 
 Map<String, Widget Function(BuildContext)> initNamedRoutes(
@@ -23,6 +25,7 @@ Map<String, Widget Function(BuildContext)> initNamedRoutes(
     Routes.settings: (context) =>
         SettingsPage(changeBrightness, onLocaleChange),
     Routes.donation: (context) => DonationPage(),
+    Routes.cart: (context) => CartPage(),
   });
   return routes;
 }

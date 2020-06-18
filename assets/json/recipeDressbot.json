@@ -2,6 +2,7 @@
   {
     "Id": "recipeDress1",
     "Icon": "items/recipeDress1.png",
+    "CraftingTime": 32,
     "Output": {
       "Id": "out1",
       "Quantity": 1
@@ -20,6 +21,7 @@
   {
     "Id": "recipeDress2",
     "Icon": "items/recipeDress2.png",
+    "CraftingTime": 32,
     "Output": {
       "Id": "out2",
       "Quantity": 1
@@ -38,6 +40,7 @@
   {
     "Id": "recipeDress3",
     "Icon": "items/recipeDress3.png",
+    "CraftingTime": 32,
     "Output": {
       "Id": "out3",
       "Quantity": 1

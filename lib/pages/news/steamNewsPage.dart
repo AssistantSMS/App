@@ -24,12 +24,12 @@ class SteamNewsPage extends StatelessWidget {
       appBar: appBarForSubPageHelper(
         context,
         showHomeAction: true,
-        title: Text(Translations.get(context, LocaleKey.cookingBot)),
+        title: Text(Translations.get(context, LocaleKey.news)),
       ),
       body: SearchableList<SteamNewsItem>(
         () => getApiRepo().getSteamNews(),
         steamNewsItemTilePresenter,
-        (SteamNewsItem, String) => false,
+        (_, __) => false,
         minListForSearch: 20000,
         useGridView: true,
         gridViewColumnCalculator: steamNewsCustomColumnCount,

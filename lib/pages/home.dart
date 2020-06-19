@@ -163,22 +163,37 @@ class Home extends StatelessWidget {
               ),
             ),
           ),
-          gridItemType: StaggeredGridItemType.smallSquare,
+          gridItemType: StaggeredGridItemType.smallRectLandscape,
         ),
         StaggeredGridItem(
           childBuilder: (BuildContext childContext) =>
-              responsiveStaggeredGridImageTilePresenter(
+              responsiveStaggeredGridIconTilePresenter(
             context,
-            AppImage.dressBot,
+            Icons.shopping_basket,
+            Colors.cyanAccent,
+            text: getCartPageName(),
+            height: smallImage,
+            onTap: () async => await navigateAwayFromHomeAsync(
+              context,
+              navigateToNamed: Routes.cart,
+            ),
+          ),
+          gridItemType: StaggeredGridItemType.smallRectLandscape,
+        ),
+        StaggeredGridItem(
+          childBuilder: (BuildContext childContext) =>
+              responsiveStaggeredGridIconTilePresenter(
+            context,
+            Icons.new_releases,
             Colors.black,
-            text: getDressBotPageName(),
+            text: getSteamNewsPageName(),
             height: smallImage,
             onTap: () async => await navigateAwayFromHomeAsync(
               context,
               navigateToNamed: Routes.steamNews,
             ),
           ),
-          gridItemType: StaggeredGridItemType.medSquare,
+          gridItemType: StaggeredGridItemType.smallRectLandscape,
         ),
       ],
     );

@@ -208,17 +208,22 @@ Widget getListTileImage(context, String partialPath) => ConstrainedBox(
       ),
       child: localImage('${AppImage.base}$partialPath'),
     );
-Widget getCorrectlySizedImageFromIcon(context, IconData icon, {Color colour}) =>
+Widget getCorrectlySizedImageFromIcon(
+  context,
+  IconData icon, {
+  Color colour,
+  double maxSize = 35,
+}) =>
     ConstrainedBox(
       constraints: BoxConstraints(
-        maxWidth: 35,
-        maxHeight: 35,
+        maxWidth: maxSize,
+        maxHeight: maxSize,
       ),
       child: Center(
         child: Icon(
           icon,
           color: colour ?? getSecondaryColour(context),
-          size: 35,
+          size: maxSize,
         ),
       ),
     );

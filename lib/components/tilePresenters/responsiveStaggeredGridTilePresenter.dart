@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:scrapmechanic_kurtlourens_com/helpers/colourHelper.dart';
-import 'package:scrapmechanic_kurtlourens_com/helpers/genericHelper.dart';
-import 'package:scrapmechanic_kurtlourens_com/localization/localeKey.dart';
-import 'package:scrapmechanic_kurtlourens_com/localization/translations.dart';
+
+import '../../helpers/colourHelper.dart';
+import '../../helpers/genericHelper.dart';
+import '../../localization/localeKey.dart';
+import '../../localization/translations.dart';
 
 Widget responsiveStaggeredGridTilePresenter(
         IconData icon, Color backgroundColor,
@@ -34,27 +35,67 @@ Widget responsiveStaggeredGridImageTilePresenter(
   var safeOnTap = () {
     if (onTap != null) onTap();
   };
+  return responsiveStaggeredGridBaseTilePresenter(
+    context,
+    genericItemImage(context, imgPath, height: height, onTap: safeOnTap),
+    backgroundColor,
+    iconColor: iconColor,
+    text: text,
+    height: height,
+    onTap: safeOnTap,
+  );
+}
+
+Widget responsiveStaggeredGridIconTilePresenter(
+    BuildContext context, IconData icon, Color backgroundColor,
+    {Color iconColor, LocaleKey text, double height, Function() onTap}) {
+  var safeOnTap = () {
+    if (onTap != null) onTap();
+  };
+  return responsiveStaggeredGridBaseTilePresenter(
+    context,
+    GestureDetector(
+      child: getCorrectlySizedImageFromIcon(
+        context,
+        icon,
+        maxSize: height,
+        colour: getForegroundTextColour(backgroundColor),
+      ),
+      onTap: safeOnTap,
+    ),
+    backgroundColor,
+    iconColor: iconColor,
+    text: text,
+    height: height,
+    onTap: safeOnTap,
+  );
+}
+
+Widget responsiveStaggeredGridBaseTilePresenter(
+    BuildContext context, Widget image, Color backgroundColor,
+    {Color iconColor, LocaleKey text, double height, Function() onTap}) {
+  var safeOnTap = () {
+    if (onTap != null) onTap();
+  };
+
+  List<Widget> children = List<Widget>();
+  children.add(Center(child: image));
+  if (text != null) {
+    children.add(Positioned(
+      child: Text(
+        Translations.get(context, text),
+        textAlign: TextAlign.center,
+        style: TextStyle(
+          color: getForegroundTextColour(backgroundColor),
+        ),
+      ),
+      bottom: 8,
+      left: 4,
+      right: 4,
+    ));
+  }
   return Card(
     color: backgroundColor,
-    child: InkWell(
-      onTap: safeOnTap,
-      child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [
-          genericItemImage(context, imgPath, height: height, onTap: safeOnTap),
-          (text != null)
-              ? Padding(
-                  child: Text(
-                    Translations.get(context, text),
-                    style: TextStyle(
-                      color: getForegroundTextColour(backgroundColor),
-                    ),
-                  ),
-                  padding: EdgeInsets.only(top: 4),
-                )
-              : Container(width: 0, height: 0),
-        ],
-      ),
-    ),
+    child: InkWell(onTap: safeOnTap, child: Stack(children: children)),
   );
 }

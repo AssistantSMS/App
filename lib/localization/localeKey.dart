@@ -90,4 +90,5 @@ enum LocaleKey {
   createXUsingY,
   timeToCraft,
   cart,
+  news,
 }

@@ -46,3 +46,6 @@ List<LocaleKey> getRefinerPageLocales() => [LocaleKey.refineryRecipeJson];
 
 LocaleKey getDressBotPageName() => LocaleKey.dressBot;
 List<LocaleKey> getDressBotPageLocales() => [LocaleKey.dressBotRecipeJson];
+
+LocaleKey getCartPageName() => LocaleKey.cart;
+LocaleKey getSteamNewsPageName() => LocaleKey.news;

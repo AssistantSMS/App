@@ -18,7 +18,6 @@ class ResponsiveListDetailView<T> extends StatefulWidget {
   final Key key;
   final String hintText;
   final String loadingText;
-  final bool preloadListItems;
   final bool addFabPadding;
 
   const ResponsiveListDetailView(
@@ -31,7 +30,6 @@ class ResponsiveListDetailView<T> extends StatefulWidget {
     this.hintText,
     this.loadingText,
     this.deleteAll,
-    this.preloadListItems = false,
     this.minListForSearch = 10,
     this.addFabPadding = false,
   }) : super(key: key);
@@ -65,7 +63,6 @@ class _ResponsiveListDetailWidget<T>
           hintText: widget.hintText,
           loadingText: widget.loadingText,
           deleteAll: widget.deleteAll,
-          preloadListItems: widget.preloadListItems,
           minListForSearch: widget.minListForSearch,
           addFabPadding: widget.addFabPadding,
         );

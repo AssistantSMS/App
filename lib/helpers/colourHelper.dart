@@ -40,6 +40,9 @@ Color getH1Colour(BuildContext context) {
 Color getTextColour(BuildContext context) =>
     getIsDark(context) ? Colors.white : Colors.black;
 
+Color getCardTextColour(BuildContext context) =>
+    getIsDark(context) ? Colors.white54 : Colors.black54;
+
 bool useWhiteForeground(Color backgroundColor) =>
     1.05 / (backgroundColor.computeLuminance() + 0.05) > 2.5;
 

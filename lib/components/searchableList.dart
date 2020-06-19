@@ -1,5 +1,7 @@
+import 'package:breakpoint/breakpoint.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:scrapmechanic_kurtlourens_com/components/adaptive/gridWithScrollbar.dart';
 
 import '../contracts/results/resultWithValue.dart';
 import '../integration/logging.dart';
@@ -19,8 +21,9 @@ class SearchableList<T> extends StatefulWidget {
   final Key key;
   final String hintText;
   final String loadingText;
-  final bool preloadListItems;
   final bool addFabPadding;
+  final bool useGridView;
+  final int Function(Breakpoint) gridViewColumnCalculator;
 
   SearchableList(
     this.listGetter,
@@ -30,9 +33,10 @@ class SearchableList<T> extends StatefulWidget {
     this.hintText,
     this.loadingText,
     this.deleteAll,
-    this.preloadListItems = false,
     this.minListForSearch = 10,
     this.addFabPadding = false,
+    this.useGridView = false,
+    this.gridViewColumnCalculator,
   });
   @override
   SearchableListWidget<T> createState() => SearchableListWidget<T>(
@@ -43,7 +47,6 @@ class SearchableList<T> extends StatefulWidget {
         hintText,
         loadingText,
         deleteAll,
-        preloadListItems,
         minListForSearch,
         addFabPadding,
       );
@@ -62,7 +65,6 @@ class SearchableListWidget<T> extends State<SearchableList<T>> {
   bool hasLoaded = false;
   String hintText;
   String loadingText;
-  final bool preloadListItems;
   final bool addFabPadding;
 
   SearchableListWidget(
@@ -73,7 +75,6 @@ class SearchableListWidget<T> extends State<SearchableList<T>> {
     this.hintText,
     this.loadingText,
     this.deleteAll,
-    this.preloadListItems,
     this.minListForSearch,
     this.addFabPadding,
   ) {
@@ -156,31 +157,36 @@ class SearchableListWidget<T> extends State<SearchableList<T>> {
 
       int listLength = list.length + additionalWidgets.length;
 
-      List<Widget> preloadedList = List<Widget>();
-      if (preloadListItems) {
-        for (int preloadIndex = 0; preloadIndex < list.length; preloadIndex++) {
-          preloadedList.add(listItemDisplayer(
-            context,
-            list[preloadIndex],
-            preloadIndex,
-          ));
-        }
-      }
-
-      columnWidgets.add(
-        Expanded(
-          child: listWithScrollbar(
-            itemCount: listLength,
-            itemBuilder: (context, index) {
-              if (index >= list.length) {
-                return additionalWidgets[listLength - index - 1];
-              }
-              if (preloadListItems) return preloadedList[index];
-              return listItemDisplayer(context, list[index], index);
-            },
+      if (widget.useGridView) {
+        columnWidgets.add(
+          Expanded(
+            child: gridWithScrollbar(
+              itemCount: listLength,
+              itemBuilder: (context, index) {
+                if (index >= list.length) {
+                  return additionalWidgets[listLength - index - 1];
+                }
+                return listItemDisplayer(context, list[index], index);
+              },
+              gridViewColumnCalculator: widget.gridViewColumnCalculator,
+            ),
           ),
-        ),
-      );
+        );
+      } else {
+        columnWidgets.add(
+          Expanded(
+            child: listWithScrollbar(
+              itemCount: listLength,
+              itemBuilder: (context, index) {
+                if (index >= list.length) {
+                  return additionalWidgets[listLength - index - 1];
+                }
+                return listItemDisplayer(context, list[index], index);
+              },
+            ),
+          ),
+        );
+      }
     }
 
     return Column(key: key, children: columnWidgets);

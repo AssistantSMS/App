@@ -6,4 +6,5 @@ class AppImage {
   static const String craftBot = base + 'craftbot.png';
   static const String dressBot = base + 'dressbot.png';
   static const String refiner = base + 'refiner.png';
+  static const String steamNewsDefault = base + 'steamNewsDefault.jpg';
 }

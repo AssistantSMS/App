@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
 
+import '../../constants/AppImage.dart';
 import '../../contracts/generated/SteamNewsItem.dart';
+import '../../helpers/colourHelper.dart';
 import '../../helpers/dateHelper.dart';
+import '../../helpers/external.dart';
 import '../common/image.dart';
 
 Widget steamNewsItemTilePresenter(
@@ -12,16 +15,14 @@ Widget steamNewsItemTilePresenter(
         clipBehavior: Clip.antiAliasWithSaveLayer,
         child: Column(
           children: [
-            news.image == null
-                ? localImage('assets/images/defaultGuide.png',
-                    boxfit: BoxFit.fill)
-                : networkImage(news.image, boxfit: BoxFit.fill),
+            (news.image == null || news.image.length < 5)
+                ? localImage(AppImage.steamNewsDefault, boxfit: BoxFit.fitWidth)
+                : networkImage(news.image, boxfit: BoxFit.fitWidth),
             Padding(
               padding: const EdgeInsets.all(16),
               child: Stack(
                 children: [
                   Column(
-                    crossAxisAlignment: CrossAxisAlignment.stretch,
                     children: [
                       Padding(
                         padding: const EdgeInsets.only(bottom: 8.0),
@@ -47,7 +48,7 @@ Widget steamNewsItemTilePresenter(
                       Text(
                         news.shortDescription,
                         maxLines: 3,
-                        overflow: TextOverflow.ellipsis,
+                        style: TextStyle(color: getCardTextColour(context)),
                       ),
                     ],
                   ),
@@ -70,8 +71,7 @@ Widget steamNewsItemTilePresenter(
         elevation: 5,
         margin: EdgeInsets.all(10),
       ),
-      // onTap: () async => await navigateAsync(context,
-      //     navigateTo: (context) => GuidesDetailsPage(guideDetails)),
+      onTap: () => launchExternalURL(news.link),
     );
 
 // Widget compactSteamNewsItemTilePresenter(

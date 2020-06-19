@@ -170,7 +170,7 @@ class Home extends StatelessWidget {
               responsiveStaggeredGridIconTilePresenter(
             context,
             Icons.shopping_basket,
-            Colors.cyanAccent,
+            Colors.cyan,
             text: getCartPageName(),
             height: smallImage,
             onTap: () async => await navigateAwayFromHomeAsync(

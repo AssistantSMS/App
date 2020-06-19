@@ -20,6 +20,8 @@ class IdPrefix {
   static const String power = "powertool";
   static const String resources = "reso";
   static const String robot = "robo";
+  static const String scrap = "scrap";
+  static const String spaceship = "spaceship";
   static const String survival = "surv";
   static const String tool = "tool";
   static const String vehicle = "veh";

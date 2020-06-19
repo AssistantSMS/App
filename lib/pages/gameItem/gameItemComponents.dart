@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:scrapmechanic_kurtlourens_com/components/common/image.dart';
+import 'package:scrapmechanic_kurtlourens_com/constants/AppImage.dart';
+import 'package:scrapmechanic_kurtlourens_com/contracts/gameItem/box.dart';
 import 'package:step_progress_indicator/step_progress_indicator.dart';
 
 import '../../contracts/gameItem/gameItem.dart';
@@ -75,5 +78,38 @@ Widget rowValue(BuildContext context, int value) {
       selectedColor: getPrimaryColour(context),
       unselectedColor: Colors.black,
     ),
+  );
+}
+
+Widget cubeDimension(BuildContext context, Box box) {
+  var textStyleDim = TextStyle(
+    fontSize: 20,
+    color: getSecondaryColour(context),
+  );
+  return Stack(
+    children: [
+      Padding(
+        child: localImage(AppImage.dimensionsCube),
+        padding: EdgeInsets.all(16),
+      ),
+      Positioned(
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceAround,
+          children: [
+            Text(box.z.toString(), style: textStyleDim),
+            Text(box.x.toString(), style: textStyleDim),
+          ],
+        ),
+        left: 8,
+        right: 8,
+        bottom: 0,
+      ),
+      Positioned.fill(
+        child: Align(
+          alignment: Alignment.centerRight,
+          child: Text(box.y.toString(), style: textStyleDim),
+        ),
+      ),
+    ],
   );
 }

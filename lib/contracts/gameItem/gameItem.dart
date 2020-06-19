@@ -3,6 +3,7 @@
 //     final gameItem = gameItemFromJson(jsonString);
 
 import '../rating/rating.dart';
+import 'box.dart';
 import 'gameItemBase.dart';
 import 'gameItemLang.dart';
 
@@ -14,6 +15,7 @@ class GameItem {
     this.color,
     this.physicsMaterial,
     this.rating,
+    this.box,
     this.flammable,
     this.density,
     this.qualityLevel,
@@ -25,6 +27,7 @@ class GameItem {
   String color;
   String physicsMaterial;
   Rating rating;
+  Box box;
   bool flammable;
   double density;
   int qualityLevel;
@@ -37,6 +40,7 @@ class GameItem {
         color: baseItem.color,
         physicsMaterial: baseItem.physicsMaterial,
         rating: baseItem.rating,
+        box: baseItem.box,
         flammable: baseItem.flammable,
         density: baseItem.density,
         qualityLevel: baseItem.qualityLevel,

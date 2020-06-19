@@ -1,0 +1,922 @@
+[
+  {
+    "Id": "spaceship1",
+    "Icon": "items/spaceship1.png",
+    "Color": "df9a16",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 2,
+      "Friction": 6,
+      "Buoyancy": 4
+    },
+    "Box": {
+      "X": 3,
+      "Y": 1,
+      "Z": 8
+    },
+    "Flammable": false,
+    "Density": 200.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "spaceship2",
+    "Icon": "items/spaceship2.png",
+    "Color": "a1a1a1",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 3,
+      "Friction": 3,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 1250.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "spaceship3",
+    "Icon": "items/spaceship3.png",
+    "Color": "a1a1a1",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 4,
+      "Friction": 3,
+      "Buoyancy": 1
+    },
+    "Box": {
+      "X": 4,
+      "Y": 1,
+      "Z": 4
+    },
+    "Flammable": false,
+    "Density": 1250.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "spaceship4",
+    "Icon": "items/spaceship4.png",
+    "Color": "930000",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 3,
+      "Friction": 3,
+      "Buoyancy": 3
+    },
+    "Flammable": false,
+    "Density": 1250.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "spaceship5",
+    "Icon": "items/spaceship5.png",
+    "Color": "930000",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 4,
+      "Friction": 3,
+      "Buoyancy": 3
+    },
+    "Box": {
+      "X": 2,
+      "Y": 2,
+      "Z": 1
+    },
+    "Flammable": false,
+    "Density": 1250.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "spaceship6",
+    "Icon": "items/spaceship6.png",
+    "Color": "930000",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 2,
+      "Friction": 6,
+      "Buoyancy": 4
+    },
+    "Box": {
+      "X": 2,
+      "Y": 3,
+      "Z": 1
+    },
+    "Flammable": false,
+    "Density": 1250.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "spaceship7",
+    "Icon": "items/spaceship7.png",
+    "Color": "ffc27a",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 2,
+      "Friction": 6,
+      "Buoyancy": 4
+    },
+    "Flammable": false,
+    "Density": 1250.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "spaceship8",
+    "Icon": "items/spaceship8.png",
+    "Color": "ce9e0c",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 2,
+      "Friction": 6,
+      "Buoyancy": 4
+    },
+    "Box": {
+      "X": 3,
+      "Y": 7,
+      "Z": 1
+    },
+    "Flammable": false,
+    "Density": 1250.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "spaceship9",
+    "Icon": "items/spaceship9.png",
+    "Color": "ce9e0c",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 2,
+      "Friction": 6,
+      "Buoyancy": 4
+    },
+    "Box": {
+      "X": 4,
+      "Y": 7,
+      "Z": 1
+    },
+    "Flammable": false,
+    "Density": 1250.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "spaceship10",
+    "Icon": "items/spaceship10.png",
+    "Color": "930000",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 3,
+      "Friction": 3,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 1250.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "spaceship11",
+    "Icon": "items/spaceship11.png",
+    "Color": "df7f01",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 1,
+      "Durability": 2,
+      "Friction": 4,
+      "Buoyancy": 4
+    },
+    "Flammable": true,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "spaceship12",
+    "Icon": "items/spaceship12.png",
+    "Color": "3e9ffe",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 2,
+      "Friction": 4,
+      "Buoyancy": 2
+    },
+    "Box": {
+      "X": 4,
+      "Y": 1,
+      "Z": 7
+    },
+    "Flammable": true,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "spaceship13",
+    "Icon": "items/spaceship13.png",
+    "Color": "3e9ffe",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 3,
+      "Friction": 5,
+      "Buoyancy": 2
+    },
+    "Box": {
+      "X": 2,
+      "Y": 2,
+      "Z": 2
+    },
+    "Flammable": true,
+    "Density": 200.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "spaceship14",
+    "Icon": "items/spaceship14.png",
+    "Color": "8a0000",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 4,
+      "Friction": 5,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 1250.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "spaceship15",
+    "Icon": "items/spaceship15.png",
+    "Color": "3e9ffe",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 4,
+      "Friction": 3,
+      "Buoyancy": 1
+    },
+    "Box": {
+      "X": 4,
+      "Y": 12,
+      "Z": 1
+    },
+    "Flammable": false,
+    "Density": 200.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "spaceship16",
+    "Icon": "items/spaceship16.png",
+    "Color": "3e9ffe",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 0,
+      "Buoyancy": 0
+    },
+    "Box": {
+      "X": 4,
+      "Y": 12,
+      "Z": 1
+    },
+    "Flammable": false,
+    "Density": 200.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "spaceship17",
+    "Icon": "items/spaceship17.png",
+    "Color": "3e9ffe",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 0,
+      "Buoyancy": 0
+    },
+    "Box": {
+      "X": 4,
+      "Y": 12,
+      "Z": 1
+    },
+    "Flammable": false,
+    "Density": 200.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "spaceship18",
+    "Icon": "items/spaceship18.png",
+    "Color": "3e9ffe",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 0,
+      "Buoyancy": 0
+    },
+    "Box": {
+      "X": 4,
+      "Y": 12,
+      "Z": 1
+    },
+    "Flammable": false,
+    "Density": 200.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "spaceship19",
+    "Icon": "items/spaceship19.png",
+    "Color": "3e9ffe",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 0,
+      "Buoyancy": 0
+    },
+    "Box": {
+      "X": 4,
+      "Y": 12,
+      "Z": 1
+    },
+    "Flammable": false,
+    "Density": 200.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "spaceship20",
+    "Icon": "items/spaceship20.png",
+    "Color": "3e9ffe",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 0,
+      "Buoyancy": 0
+    },
+    "Box": {
+      "X": 4,
+      "Y": 13,
+      "Z": 2
+    },
+    "Flammable": false,
+    "Density": 200.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "spaceship21",
+    "Icon": "items/spaceship21.png",
+    "Color": "3e9ffe",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 0,
+      "Buoyancy": 0
+    },
+    "Box": {
+      "X": 4,
+      "Y": 13,
+      "Z": 2
+    },
+    "Flammable": false,
+    "Density": 200.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "spaceship22",
+    "Icon": "items/spaceship22.png",
+    "Color": "820a0a",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 0,
+      "Buoyancy": 0
+    },
+    "Box": {
+      "X": 4,
+      "Y": 14,
+      "Z": 4
+    },
+    "Flammable": false,
+    "Density": 200.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "spaceship23",
+    "Icon": "items/spaceship23.png",
+    "Color": "820a0a",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 0,
+      "Buoyancy": 0
+    },
+    "Box": {
+      "X": 4,
+      "Y": 14,
+      "Z": 4
+    },
+    "Flammable": false,
+    "Density": 200.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "spaceship24",
+    "Icon": "items/spaceship24.png",
+    "Color": "3e9ffe",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 0,
+      "Buoyancy": 0
+    },
+    "Box": {
+      "X": 1,
+      "Y": 12,
+      "Z": 1
+    },
+    "Flammable": false,
+    "Density": 200.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "spaceship25",
+    "Icon": "items/spaceship25.png",
+    "Color": "820a0a",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 0,
+      "Buoyancy": 0
+    },
+    "Box": {
+      "X": 3,
+      "Y": 12,
+      "Z": 1
+    },
+    "Flammable": false,
+    "Density": 200.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "spaceship26",
+    "Icon": "items/spaceship26.png",
+    "Color": "3e9ffe",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 0,
+      "Buoyancy": 0
+    },
+    "Box": {
+      "X": 2,
+      "Y": 12,
+      "Z": 2
+    },
+    "Flammable": false,
+    "Density": 200.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "spaceship27",
+    "Icon": "items/spaceship27.png",
+    "Color": "3e9ffe",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 0,
+      "Buoyancy": 0
+    },
+    "Box": {
+      "X": 2,
+      "Y": 12,
+      "Z": 2
+    },
+    "Flammable": false,
+    "Density": 200.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "spaceship28",
+    "Icon": "items/spaceship28.png",
+    "Color": "3e9ffe",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 0,
+      "Buoyancy": 0
+    },
+    "Box": {
+      "X": 1,
+      "Y": 12,
+      "Z": 1
+    },
+    "Flammable": false,
+    "Density": 200.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "spaceship29",
+    "Icon": "items/spaceship29.png",
+    "Color": "3e9ffe",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 0,
+      "Buoyancy": 0
+    },
+    "Box": {
+      "X": 1,
+      "Y": 12,
+      "Z": 1
+    },
+    "Flammable": false,
+    "Density": 200.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "spaceship30",
+    "Icon": "items/spaceship30.png",
+    "Color": "3e9ffe",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 4,
+      "Friction": 3,
+      "Buoyancy": 1
+    },
+    "Box": {
+      "X": 4,
+      "Y": 1,
+      "Z": 1
+    },
+    "Flammable": false,
+    "Density": 200.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "spaceship31",
+    "Icon": "items/spaceship31.png",
+    "Color": "3e9ffe",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 4,
+      "Friction": 3,
+      "Buoyancy": 1
+    },
+    "Box": {
+      "X": 4,
+      "Y": 3,
+      "Z": 1
+    },
+    "Flammable": false,
+    "Density": 200.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "spaceship32",
+    "Icon": "items/spaceship32.png",
+    "Color": "3e9ffe",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 4,
+      "Friction": 3,
+      "Buoyancy": 1
+    },
+    "Box": {
+      "X": 4,
+      "Y": 4,
+      "Z": 1
+    },
+    "Flammable": false,
+    "Density": 200.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "spaceship33",
+    "Icon": "items/spaceship33.png",
+    "Color": "3e9ffe",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 5,
+      "Friction": 6,
+      "Buoyancy": 1
+    },
+    "Box": {
+      "X": 1,
+      "Y": 2,
+      "Z": 5
+    },
+    "Flammable": false,
+    "Density": 200.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "spaceship34",
+    "Icon": "items/spaceship34.png",
+    "Color": "3e9ffe",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 5,
+      "Friction": 6,
+      "Buoyancy": 1
+    },
+    "Box": {
+      "X": 8,
+      "Y": 2,
+      "Z": 5
+    },
+    "Flammable": false,
+    "Density": 200.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "spaceship35",
+    "Icon": "items/spaceship35.png",
+    "Color": "3e9ffe",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 5,
+      "Friction": 6,
+      "Buoyancy": 1
+    },
+    "Box": {
+      "X": 2,
+      "Y": 3,
+      "Z": 5
+    },
+    "Flammable": false,
+    "Density": 200.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "spaceship36",
+    "Icon": "items/spaceship36.png",
+    "Color": "820a0a",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 3,
+      "Friction": 3,
+      "Buoyancy": 1
+    },
+    "Box": {
+      "X": 1,
+      "Y": 1,
+      "Z": 2
+    },
+    "Flammable": false,
+    "Density": 200.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "spaceship37",
+    "Icon": "items/spaceship37.png",
+    "Color": "820a0a",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 0,
+      "Buoyancy": 0
+    },
+    "Box": {
+      "X": 4,
+      "Y": 1,
+      "Z": 2
+    },
+    "Flammable": false,
+    "Density": 200.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "spaceship38",
+    "Icon": "items/spaceship38.png",
+    "Color": "820a0a",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 0,
+      "Buoyancy": 0
+    },
+    "Box": {
+      "X": 5,
+      "Y": 1,
+      "Z": 2
+    },
+    "Flammable": false,
+    "Density": 200.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "spaceship39",
+    "Icon": "items/spaceship39.png",
+    "Color": "820a0a",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 0,
+      "Buoyancy": 0
+    },
+    "Box": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "Flammable": false,
+    "Density": 200.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "spaceship40",
+    "Icon": "items/spaceship40.png",
+    "Color": "820a0a",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 0,
+      "Buoyancy": 0
+    },
+    "Box": {
+      "X": 2,
+      "Y": 1,
+      "Z": 2
+    },
+    "Flammable": false,
+    "Density": 200.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "spaceship41",
+    "Icon": "items/spaceship41.png",
+    "Color": "820a0a",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 0,
+      "Buoyancy": 0
+    },
+    "Box": {
+      "X": 3,
+      "Y": 1,
+      "Z": 3
+    },
+    "Flammable": false,
+    "Density": 200.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "spaceship42",
+    "Icon": "items/spaceship42.png",
+    "Color": "3e9ffe",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 4,
+      "Friction": 5,
+      "Buoyancy": 3
+    },
+    "Box": {
+      "X": 7,
+      "Y": 6,
+      "Z": 1
+    },
+    "Flammable": false,
+    "Density": 200.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "spaceship43",
+    "Icon": "items/spaceship43.png",
+    "Color": "3e9ffe",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 3,
+      "Friction": 3,
+      "Buoyancy": 2
+    },
+    "Box": {
+      "X": 6,
+      "Y": 1,
+      "Z": 6
+    },
+    "Flammable": false,
+    "Density": 200.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "spaceship44",
+    "Icon": "items/spaceship44.png",
+    "Color": "3e9ffe",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 3,
+      "Friction": 3,
+      "Buoyancy": 1
+    },
+    "Box": {
+      "X": 4,
+      "Y": 1,
+      "Z": 6
+    },
+    "Flammable": false,
+    "Density": 200.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "spaceship45",
+    "Icon": "items/spaceship45.png",
+    "Color": "820a0a",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 0,
+      "Buoyancy": 0
+    },
+    "Box": {
+      "X": 10,
+      "Y": 1,
+      "Z": 36
+    },
+    "Flammable": false,
+    "Density": 1000.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "spaceship46",
+    "Icon": "items/spaceship46.png",
+    "Color": "3e9ffe",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 0,
+      "Buoyancy": 0
+    },
+    "Box": {
+      "X": 7,
+      "Y": 10,
+      "Z": 1
+    },
+    "Flammable": false,
+    "Density": 200.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "spaceship47",
+    "Icon": "items/spaceship47.png",
+    "Color": "14d81e",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 3,
+      "Friction": 4,
+      "Buoyancy": 5
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "spaceship48",
+    "Icon": "items/spaceship48.png",
+    "Color": "820a0a",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 7,
+      "Durability": 5,
+      "Friction": 6,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 1250.0,
+    "QualityLevel": 0
+  }
+]

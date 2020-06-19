@@ -7,6 +7,7 @@ import 'dart:convert';
 import 'package:scrapmechanic_kurtlourens_com/helpers/jsonHelper.dart';
 
 import '../rating/rating.dart';
+import 'box.dart';
 
 class GameItemBase {
   GameItemBase({
@@ -15,6 +16,7 @@ class GameItemBase {
     this.color,
     this.physicsMaterial,
     this.rating,
+    this.box,
     this.flammable,
     this.density,
     this.qualityLevel,
@@ -25,6 +27,7 @@ class GameItemBase {
   String color;
   String physicsMaterial;
   Rating rating;
+  Box box;
   bool flammable;
   double density;
   int qualityLevel;
@@ -32,27 +35,15 @@ class GameItemBase {
   factory GameItemBase.fromRawJson(String str) =>
       GameItemBase.fromJson(json.decode(str));
 
-  String toRawJson() => json.encode(toJson());
-
   factory GameItemBase.fromJson(Map<String, dynamic> json) => GameItemBase(
         id: readStringSafe(json, "Id"),
         icon: readStringSafe(json, "Icon"),
         color: readStringSafe(json, "Color"),
         physicsMaterial: readStringSafe(json, "PhysicsMaterial"),
         rating: Rating.fromJson(json["Ratings"]),
+        box: json["Box"] == null ? null : Box.fromJson(json["Box"]),
         flammable: readBoolSafe(json, "Flammable"),
         density: readDoubleSafe(json, "Density"),
         qualityLevel: readIntSafe(json, "QualityLevel"),
       );
-
-  Map<String, dynamic> toJson() => {
-        "Id": id,
-        "Icon": icon,
-        "Color": color,
-        "PhysicsMaterial": physicsMaterial,
-        "Rating": rating.toJson(),
-        "Flammable": flammable,
-        "Density": density,
-        "QualityLevel": qualityLevel,
-      };
 }

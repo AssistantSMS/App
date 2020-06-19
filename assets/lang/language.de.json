@@ -21,6 +21,8 @@
 	"powerJson": "en/powerTools.lang",
 	"resourcesJson": "en/resources.lang",
 	"robotJson": "en/robotParts.lang",
+	"scrapJson": "en/scrap.lang",
+	"spaceshipJson": "en/spaceship.lang",
 	"survivalJson": "en/survivalObject.lang",
 	"toolJson": "en/toolParts.lang",
 	"vehicleJson": "en/vehicle.lang",

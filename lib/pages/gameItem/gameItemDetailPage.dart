@@ -90,10 +90,23 @@ class GameItemDetailPage extends StatelessWidget {
     widgets.add(genericItemName(gameItem.title));
 
     widgets.add(emptySpace1x());
-    widgets.add(Divider());
 
     ResultWithValue<Widget> tableResult = getTableRows(context, gameItem);
-    if (tableResult.isSuccess) widgets.add(tableResult.value);
+    if (tableResult.isSuccess) {
+      widgets.add(Divider());
+      widgets.add(tableResult.value);
+    }
+
+    if (gameItem.box != null) {
+      widgets.add(Divider());
+      widgets.add(Center(
+        child: SizedBox(
+          child: cubeDimension(context, gameItem.box),
+          height: 120,
+          width: 120,
+        ),
+      ));
+    }
 
     List<CraftedUsing> craftingRecipes =
         snapshot?.data?.value?.craftingRecipes ?? [];

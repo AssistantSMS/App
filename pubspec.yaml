@@ -85,6 +85,8 @@ flutter:
     - assets/json/powerTools.json
     - assets/json/resources.json
     - assets/json/robotParts.json
+    - assets/json/scrap.json
+    - assets/json/spaceship.json
     - assets/json/survivalObject.json
     - assets/json/toolParts.json
     - assets/json/vehicle.json
@@ -119,6 +121,8 @@ flutter:
     - assets/json/en/powerTools.lang.json
     - assets/json/en/resources.lang.json
     - assets/json/en/robotParts.lang.json
+    - assets/json/en/scrap.lang.json
+    - assets/json/en/spaceship.lang.json
     - assets/json/en/survivalObject.lang.json
     - assets/json/en/toolParts.lang.json
     - assets/json/en/vehicle.lang.json
@@ -147,6 +151,7 @@ flutter:
     - assets/img/donation/patreon.png
     - assets/img/donation/payPal.png
 
+    - assets/img/dimensions.png
     - assets/img/steamNewsDefault.jpg
 
     - assets/img/items/blk1.png
@@ -1183,6 +1188,60 @@ flutter:
     - assets/img/items/robo7.png
     - assets/img/items/robo8.png
     - assets/img/items/robo9.png
+    - assets/img/items/scrap1.png
+    - assets/img/items/scrap2.png
+    - assets/img/items/scrap3.png
+    - assets/img/items/scrap4.png
+    - assets/img/items/spaceship1.png
+    - assets/img/items/spaceship10.png
+    - assets/img/items/spaceship11.png
+    - assets/img/items/spaceship12.png
+    - assets/img/items/spaceship13.png
+    - assets/img/items/spaceship14.png
+    - assets/img/items/spaceship15.png
+    - assets/img/items/spaceship16.png
+    - assets/img/items/spaceship17.png
+    - assets/img/items/spaceship18.png
+    - assets/img/items/spaceship19.png
+    - assets/img/items/spaceship2.png
+    - assets/img/items/spaceship20.png
+    - assets/img/items/spaceship21.png
+    - assets/img/items/spaceship22.png
+    - assets/img/items/spaceship23.png
+    - assets/img/items/spaceship24.png
+    - assets/img/items/spaceship25.png
+    - assets/img/items/spaceship26.png
+    - assets/img/items/spaceship27.png
+    - assets/img/items/spaceship28.png
+    - assets/img/items/spaceship29.png
+    - assets/img/items/spaceship3.png
+    - assets/img/items/spaceship30.png
+    - assets/img/items/spaceship31.png
+    - assets/img/items/spaceship32.png
+    - assets/img/items/spaceship33.png
+    - assets/img/items/spaceship34.png
+    - assets/img/items/spaceship35.png
+    - assets/img/items/spaceship36.png
+    - assets/img/items/spaceship37.png
+    - assets/img/items/spaceship38.png
+    - assets/img/items/spaceship39.png
+    - assets/img/items/spaceship4.png
+    - assets/img/items/spaceship40.png
+    - assets/img/items/spaceship41.png
+    - assets/img/items/spaceship42.png
+    - assets/img/items/spaceship43.png
+    - assets/img/items/spaceship44.png
+    - assets/img/items/spaceship45.png
+    - assets/img/items/spaceship46.png
+    - assets/img/items/spaceship47.png
+    - assets/img/items/spaceship47.png
+    - assets/img/items/spaceship48.png
+    - assets/img/items/spaceship48.png
+    - assets/img/items/spaceship5.png
+    - assets/img/items/spaceship6.png
+    - assets/img/items/spaceship7.png
+    - assets/img/items/spaceship8.png
+    - assets/img/items/spaceship9.png
     - assets/img/items/surv1.png
     - assets/img/items/surv10.png
     - assets/img/items/surv11.png

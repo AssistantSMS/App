@@ -38,7 +38,8 @@ class Home extends StatelessWidget {
     const smallImage = 40.0;
     const largeImage = 65.0;
 
-var tileColour = getIsDark(context) ? Colors.blueGrey[600] : Colors.blueGrey[300];
+    var tileColour =
+        getIsDark(context) ? Colors.blueGrey[600] : Colors.blueGrey[300];
     return responsiveStaggeredGrid(
       [
         StaggeredGridItem(

@@ -20,6 +20,8 @@ class BaseJson {
   static const String power = 'powerTools';
   static const String resources = 'resources';
   static const String robot = 'robotParts';
+  static const String scrap = 'scrap';
+  static const String spaceship = 'spaceship';
   static const String survival = 'survivalObject';
   static const String tool = 'toolParts';
   static const String vehicle = 'vehicle';

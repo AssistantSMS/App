@@ -20,6 +20,8 @@ enum LocaleKey {
   powerJson,
   resourcesJson,
   robotJson,
+  scrapJson,
+  spaceshipJson,
   survivalJson,
   toolJson,
   vehicleJson,

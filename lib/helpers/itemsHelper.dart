@@ -62,6 +62,8 @@ ResultWithValue<IGameItemJsonService> getGameItemRepoFromId(
   if (id.contains(IdPrefix.power)) key = LocaleKey.powerJson;
   if (id.contains(IdPrefix.resources)) key = LocaleKey.resourcesJson;
   if (id.contains(IdPrefix.robot)) key = LocaleKey.robotJson;
+  if (id.contains(IdPrefix.scrap)) key = LocaleKey.scrapJson;
+  if (id.contains(IdPrefix.spaceship)) key = LocaleKey.spaceshipJson;
   if (id.contains(IdPrefix.survival)) key = LocaleKey.survivalJson;
   if (id.contains(IdPrefix.tool)) key = LocaleKey.toolJson;
   if (id.contains(IdPrefix.vehicle)) key = LocaleKey.vehicleJson;

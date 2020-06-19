@@ -76,6 +76,10 @@ String getBaseFileName(LocaleKey detailsJson) {
       return BaseJson.resources;
     case LocaleKey.robotJson:
       return BaseJson.robot;
+    case LocaleKey.scrapJson:
+      return BaseJson.scrap;
+    case LocaleKey.spaceshipJson:
+      return BaseJson.spaceship;
     case LocaleKey.survivalJson:
       return BaseJson.survival;
     case LocaleKey.toolJson:

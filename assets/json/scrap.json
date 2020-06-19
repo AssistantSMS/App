@@ -1,0 +1,72 @@
+[
+  {
+    "Id": "scrap1",
+    "Icon": "items/scrap1.png",
+    "Color": "df7f01",
+    "PhysicsMaterial": "wood",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 2,
+      "Friction": 5,
+      "Buoyancy": 2
+    },
+    "Flammable": true,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "scrap2",
+    "Icon": "items/scrap2.png",
+    "Color": "2f7847",
+    "PhysicsMaterial": "Wood",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 2,
+      "Friction": 5,
+      "Buoyancy": 2
+    },
+    "Box": {
+      "X": 4,
+      "Y": 4,
+      "Z": 4
+    },
+    "Flammable": true,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "scrap3",
+    "Icon": "items/scrap3.png",
+    "Color": "9f5223",
+    "PhysicsMaterial": "Wood",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 2,
+      "Friction": 6,
+      "Buoyancy": 4
+    },
+    "Flammable": true,
+    "Density": 1250.0,
+    "QualityLevel": 0
+  },
+  {
+    "Id": "scrap4",
+    "Icon": "items/scrap4.png",
+    "Color": "2f7847",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 3,
+      "Friction": 5,
+      "Buoyancy": 2
+    },
+    "Box": {
+      "X": 2,
+      "Y": 2,
+      "Z": 2
+    },
+    "Flammable": true,
+    "Density": 1250.0,
+    "QualityLevel": 0
+  }
+]

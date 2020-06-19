@@ -55,6 +55,11 @@
       "Friction": 5,
       "Buoyancy": 2
     },
+    "Box": {
+      "X": 1,
+      "Y": 8,
+      "Z": 1
+    },
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0

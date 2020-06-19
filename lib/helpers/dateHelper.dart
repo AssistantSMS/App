@@ -1,5 +1,3 @@
-import 'package:flutter/material.dart';
-
 import 'genericHelper.dart';
 
 String getDateTimeString(DateTime dayOfTheYear) {

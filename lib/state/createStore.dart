@@ -1,8 +1,7 @@
 import 'package:redux/redux.dart';
-import 'package:scrapmechanic_kurtlourens_com/contracts/results/resultWithValue.dart';
 
 import './middleware/localStorageMiddleware.dart';
-import '../constants/AppConfig.dart';
+import '../contracts/results/resultWithValue.dart';
 import '../helpers/deviceHelper.dart';
 import '../integration/dependencyInjection.dart';
 import '../integration/logging.dart';

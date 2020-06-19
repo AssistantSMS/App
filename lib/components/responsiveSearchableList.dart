@@ -42,7 +42,7 @@ class ResponsiveListDetailView<T> extends StatefulWidget {
 class _ResponsiveListDetailWidget<T>
     extends State<ResponsiveListDetailView<T>> {
   Key detailViewKey = Key('Initial');
-  Widget detailView = Center(child: Text('test'));
+  Widget detailView = Center(child: Text('Please select an item on the left'));
   _ResponsiveListDetailWidget();
 
   @override
@@ -51,9 +51,25 @@ class _ResponsiveListDetailWidget<T>
       builder: (BuildContext innerContext, Breakpoint breakpoint) {
         ResponsiveFlexData flexData =
             getCustomListWithDetailsFlexWidth(breakpoint);
+
+        Future<ResultWithValue<List<T>>> interceptedListGetter() async {
+          var actualResult = await widget.listGetter();
+          if (actualResult.isSuccess &&
+              actualResult.value.length > 0 &&
+              flexData.isMobile == false) {
+            this.setState(() {
+              detailViewKey =
+                  Key(DateTime.now().millisecondsSinceEpoch.toString());
+              detailView = widget.listItemDesktopOnTap(
+                  innerContext, actualResult.value[0]);
+            });
+          }
+          return actualResult;
+        }
+
         void Function(BuildContext, T) onTapFunc = getItemClickFunc(flexData);
         SearchableList<T> listView = SearchableList<T>(
-          widget.listGetter,
+          interceptedListGetter,
           (BuildContext innerC, T item, int index) => GestureDetector(
             child: widget.listItemDisplayer(innerC, item, index),
             onTap: () => onTapFunc(innerC, item),

@@ -1,4 +1,6 @@
 import 'package:get_it/get_it.dart';
+import 'package:scrapmechanic_kurtlourens_com/repository/LocalStorageRepository.dart';
+import 'package:scrapmechanic_kurtlourens_com/repository/interface/ILocalStorageRepository.dart';
 
 import '../env/environmentSettings.dart';
 import '../helpers/repositoryHelper.dart';
@@ -25,6 +27,12 @@ initDependencyInjection(EnvironmentSettings _env) {
         GameItemJsonService(getBaseFileName(key), key),
   );
 
+  //Repository
+  getIt.registerSingleton<ILocalStorageRepository>(
+    LocalStorageRepository(),
+  );
+
+  //Service
   getIt.registerSingleton<ILocalStorageService>(
     LocalStorageService(),
   );
@@ -38,4 +46,9 @@ IRecipeJsonService getRecipeRepo(LocaleKey key) =>
 IGameItemJsonService getGameItemRepo(LocaleKey key) =>
     getIt<IGameItemJsonService>(param1: key, param2: 'di');
 
+//Repository
+ILocalStorageRepository getStorageRepository() =>
+    getIt<ILocalStorageRepository>();
+
+//Service
 ILocalStorageService getStorageService() => getIt<ILocalStorageService>();

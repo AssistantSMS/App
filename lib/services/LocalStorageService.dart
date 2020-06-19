@@ -1,39 +1,65 @@
 import 'dart:convert';
 
-import 'package:shared_preferences/shared_preferences.dart';
+import 'package:scrapmechanic_kurtlourens_com/state/themeState.dart';
 
 import './interface/ILocalStorageService.dart';
+import '../constants/AppConfig.dart';
 import '../contracts/results/result.dart';
 import '../contracts/results/resultWithValue.dart';
-import '../integration/logging.dart';
+import '../integration/dependencyInjection.dart';
+import '../repository/interface/ILocalStorageRepository.dart';
+import '../state/modules/base/appState.dart';
 
 class LocalStorageService implements ILocalStorageService {
+  ILocalStorageRepository _storageRepo;
+
+  LocalStorageService() {
+    _storageRepo = getStorageRepository();
+  }
+
   @override
-  Future<Result> saveToStorage(String key, String stateString) async {
+  Future<Result> saveAppState(AppState state) {
+    return _storageRepo.saveToStorage(
+      AppConfig.appStateKey,
+      json.encode(state.toJson()),
+    );
+  }
+
+  @override
+  Future<ResultWithValue<AppState>> loadAppState() async {
+    ResultWithValue<Map<String, dynamic>> tempResult =
+        await _storageRepo.loadFromStorage(AppConfig.appStateKey);
+
+    if (!tempResult.isSuccess)
+      return ResultWithValue<AppState>(false, null, tempResult.errorMessage);
     try {
-      SharedPreferences preferences = await SharedPreferences.getInstance();
-      await preferences.setString(key, stateString);
-      return Result(true, '');
+      AppState result = AppState.fromJson(tempResult.value);
+      return ResultWithValue<AppState>(false, result, '');
     } catch (exception) {
-      logger.e(exception);
-      return Result(false, exception.toString());
+      return ResultWithValue<AppState>(false, null, exception.errorMessage);
     }
   }
 
   @override
-  Future<ResultWithValue<T>> loadFromStorage<T>(
-      String key, T Function(dynamic) mapper) async {
+  Future<Result> saveThemeState(ThemeState state) {
+    return _storageRepo.saveToStorage(
+      AppConfig.themeKey,
+      json.encode(state.toJson()),
+    );
+  }
+
+  @override
+  Future<ResultWithValue<ThemeState>> loadThemeState() async {
+    ResultWithValue<Map<String, dynamic>> tempResult =
+        await _storageRepo.loadFromStorage(AppConfig.themeKey);
+
+    if (!tempResult.isSuccess)
+      return ResultWithValue<ThemeState>(false, null, tempResult.errorMessage);
     try {
-      SharedPreferences preferences = await SharedPreferences.getInstance();
-      var stateString = preferences.getString(key);
-      Map<String, dynamic> stateMap = Map<String, dynamic>();
-      if (stateString != null) {
-        stateMap = json.decode(stateString) as Map<String, dynamic>;
-      }
-      return ResultWithValue<T>(true, mapper(stateMap), '');
+      ThemeState result = ThemeState.fromJson(tempResult.value);
+      return ResultWithValue<ThemeState>(false, result, '');
     } catch (exception) {
-      logger.e(exception, 'loadFromStorage');
-      return ResultWithValue<T>(false, null, exception.toString());
+      return ResultWithValue<ThemeState>(false, null, exception.errorMessage);
     }
   }
 }

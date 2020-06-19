@@ -16,12 +16,7 @@ class LocalStorageMiddleware extends MiddlewareClass<AppState> {
 
     if (action is PersistToStorage) {
       logger.i('saving to localStorage');
-      getStorageService()
-          .saveToStorage(
-        AppConfig.appStateKey,
-        json.encode(store.state.toJson()),
-      )
-          .then((Result saveResult) {
+      getStorageService().saveAppState(store.state).then((Result saveResult) {
         if (saveResult.isSuccess) return;
         logger.e(saveResult.errorMessage);
       });

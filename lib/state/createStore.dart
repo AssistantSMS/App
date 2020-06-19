@@ -17,10 +17,7 @@ Future<Store<AppState>> createStore() async {
   if (isAndroid || isiOS || isWeb) {
     try {
       ResultWithValue<AppState> stateResult =
-          await getStorageService().loadFromStorage<AppState>(
-        AppConfig.appStateKey,
-        (json) => AppState.fromJson(json),
-      );
+          await getStorageService().loadAppState();
       if (stateResult.isSuccess) stateObj = stateResult.value;
     } catch (exception) {
       logger.e(exception);

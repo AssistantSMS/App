@@ -1,21 +1,17 @@
-import 'dart:convert';
-
 import 'package:flutter/material.dart';
-import 'package:scrapmechanic_kurtlourens_com/helpers/jsonHelper.dart';
 import 'package:theme_mode_handler/theme_mode_handler.dart';
 import 'package:theme_mode_handler/theme_mode_manager_interface.dart';
 
-import '../constants/AppConfig.dart';
+import '../contracts/results/resultWithValue.dart';
+import '../state/themeState.dart';
 import '../theme/themes.dart';
 import 'dependencyInjection.dart';
 
 class ThemeManager implements IThemeModeManager {
   @override
   Future<String> loadThemeMode() async {
-    var themeResult = await getStorageService().loadFromStorage<ThemeState>(
-      AppConfig.themeKey,
-      (dynamic json) => ThemeState.fromJson(json),
-    );
+    ResultWithValue<ThemeState> themeResult =
+        await getStorageService().loadThemeState();
     var defaultThemeMode = 'ThemeMode.dark';
     if (themeResult.isSuccess)
       return themeResult?.value?.themeMode ?? defaultThemeMode;
@@ -24,25 +20,9 @@ class ThemeManager implements IThemeModeManager {
 
   @override
   Future<bool> saveThemeMode(String value) async {
-    var result = await getStorageService().saveToStorage(
-      AppConfig.themeKey,
-      json.encode(ThemeState(value)),
-    );
+    var result = await getStorageService().saveThemeState(ThemeState(value));
     return result.isSuccess;
   }
-}
-
-class ThemeState {
-  final String themeMode;
-
-  ThemeState(this.themeMode);
-
-  ThemeState.fromJson(Map<String, dynamic> json)
-      : themeMode = readStringSafe(json, 'themeMode');
-
-  Map<String, dynamic> toJson() => {
-        'themeMode': themeMode,
-      };
 }
 
 ThemeData getTheme(BuildContext context) =>

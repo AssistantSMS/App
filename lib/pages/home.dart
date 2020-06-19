@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:scrapmechanic_kurtlourens_com/constants/Routes.dart';
 
 import '../components/adaptive/appScaffold.dart';
 import '../components/adaptive/homePageAppBar.dart';
@@ -163,6 +164,21 @@ class Home extends StatelessWidget {
             ),
           ),
           gridItemType: StaggeredGridItemType.smallSquare,
+        ),
+        StaggeredGridItem(
+          childBuilder: (BuildContext childContext) =>
+              responsiveStaggeredGridImageTilePresenter(
+            context,
+            AppImage.dressBot,
+            Colors.black,
+            text: getDressBotPageName(),
+            height: smallImage,
+            onTap: () async => await navigateAwayFromHomeAsync(
+              context,
+              navigateToNamed: Routes.steamNews,
+            ),
+          ),
+          gridItemType: StaggeredGridItemType.medSquare,
         ),
       ],
     );

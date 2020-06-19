@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:scrapmechanic_kurtlourens_com/pages/cart/cartPage.dart';
-import 'package:scrapmechanic_kurtlourens_com/pages/donation.dart';
 
-import '../pages/home.dart';
 import '../pages/about.dart';
+import '../pages/cart/cartPage.dart';
+import '../pages/donation.dart';
+import '../pages/home.dart';
+import '../pages/news/steamNewsPage.dart';
 import '../pages/settings.dart';
 
 class Routes {
@@ -12,6 +13,7 @@ class Routes {
   static const String settings = '/settings';
   static const String donation = '/donation';
   static const String cart = '/cart';
+  static const String steamNews = '/steamNews';
 }
 
 Map<String, Widget Function(BuildContext)> initNamedRoutes(
@@ -26,6 +28,7 @@ Map<String, Widget Function(BuildContext)> initNamedRoutes(
         SettingsPage(changeBrightness, onLocaleChange),
     Routes.donation: (context) => DonationPage(),
     Routes.cart: (context) => CartPage(),
+    Routes.steamNews: (context) => SteamNewsPage(),
   });
   return routes;
 }

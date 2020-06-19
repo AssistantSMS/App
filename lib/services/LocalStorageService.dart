@@ -14,7 +14,7 @@ class LocalStorageService implements ILocalStorageService {
   ILocalStorageRepository _storageRepo;
 
   LocalStorageService() {
-    _storageRepo = getStorageRepository();
+    _storageRepo = getStorageRepo();
   }
 
   @override

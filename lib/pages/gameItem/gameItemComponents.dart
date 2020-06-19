@@ -1,16 +1,18 @@
 import 'package:flutter/material.dart';
-import 'package:scrapmechanic_kurtlourens_com/components/common/image.dart';
-import 'package:scrapmechanic_kurtlourens_com/constants/AppImage.dart';
-import 'package:scrapmechanic_kurtlourens_com/contracts/gameItem/box.dart';
 import 'package:step_progress_indicator/step_progress_indicator.dart';
 
+import '../../components/common/image.dart';
+import '../../components/customPaint/ratingOval.dart';
+import '../../constants/AppImage.dart';
+import '../../contracts/gameItem/box.dart';
 import '../../contracts/gameItem/gameItem.dart';
 import '../../contracts/results/resultWithValue.dart';
 import '../../helpers/colourHelper.dart';
 import '../../localization/localeKey.dart';
 import '../../localization/translations.dart';
 
-ResultWithValue<Widget> getTableRows(BuildContext context, GameItem gameItem) {
+ResultWithValue<Widget> getRatingTableRows(
+    BuildContext context, GameItem gameItem) {
   List<TableRow> rows = List<TableRow>();
   if (gameItem.rating == null)
     return ResultWithValue<Table>(false, null, 'rating is null');
@@ -57,7 +59,7 @@ ResultWithValue<Widget> getTableRows(BuildContext context, GameItem gameItem) {
       children: rows,
       // border: TableBorder.all(),
       defaultVerticalAlignment: TableCellVerticalAlignment.middle,
-      columnWidths: {0: FractionColumnWidth(.4), 1: FractionColumnWidth(.6)},
+      columnWidths: {0: FractionColumnWidth(.5), 1: FractionColumnWidth(.5)},
     ),
   );
   return ResultWithValue<Widget>(true, child, '');
@@ -77,6 +79,9 @@ Widget rowValue(BuildContext context, int value) {
       currentStep: value,
       selectedColor: getPrimaryColour(context),
       unselectedColor: Colors.black,
+      customStep: (index, color, size) {
+        return ratingOval(index < value, getPrimaryColour(context));
+      },
     ),
   );
 }

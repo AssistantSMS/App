@@ -91,7 +91,7 @@ class GameItemDetailPage extends StatelessWidget {
 
     widgets.add(emptySpace1x());
 
-    ResultWithValue<Widget> tableResult = getTableRows(context, gameItem);
+    ResultWithValue<Widget> tableResult = getRatingTableRows(context, gameItem);
     if (tableResult.isSuccess) {
       widgets.add(Divider());
       widgets.add(tableResult.value);

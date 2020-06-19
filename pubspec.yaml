@@ -44,8 +44,16 @@ dependencies:
   logger: ^0.9.1
 
 dev_dependencies:
+  flutter_launcher_icons: "^0.7.5"
   # flutter_test:
   #   sdk: flutter
+
+flutter_icons:
+  ios: true
+  android: true
+  image_path: "assets/icon/fullSizeIcon.png"
+  # adaptive_icon_background: "assets/images/christmas-background.png"
+  # adaptive_icon_foreground: "assets/images/icon-foreground-432x432.png"
 
 flutter:
   uses-material-design: true

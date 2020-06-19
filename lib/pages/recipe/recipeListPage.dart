@@ -36,8 +36,13 @@ class RecipeListPage extends StatelessWidget {
         listItemMobileOnTap: (BuildContext context, Recipe recipe) async =>
             await navigateAwayFromHomeAsync(context,
                 navigateTo: (context) => RecipeDetailPage(recipe.id)),
-        listItemDesktopOnTap: (BuildContext context, Recipe recipe) =>
-            RecipeDetailPage(recipe.id, isInDetailPane: true),
+        listItemDesktopOnTap: (BuildContext context, Recipe recipe,
+                void Function(Widget) updateDetailView) =>
+            RecipeDetailPage(
+          recipe.id,
+          isInDetailPane: true,
+          updateDetailView: updateDetailView,
+        ),
         key: Key(Translations.of(context).currentLanguage),
       ),
     );

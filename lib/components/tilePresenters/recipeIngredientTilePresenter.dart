@@ -25,11 +25,21 @@ Widget recipeIngredientTilePresenter(
 
 Widget recipeIngredientDetailTilePresenter(BuildContext context,
         RecipeIngredientDetails recipeIngredient, int index) =>
+    recipeIngredientDetailCustomOnTapTilePresenter(
+      context,
+      recipeIngredient,
+      index,
+      onTap: () async => await navigateAwayFromHomeAsync(context,
+          navigateTo: (context) => GameItemDetailPage(recipeIngredient.id)),
+    );
+
+Widget recipeIngredientDetailCustomOnTapTilePresenter(BuildContext context,
+        RecipeIngredientDetails recipeIngredient, int index,
+        {Function() onTap}) =>
     genericListTile(
       context,
       leadingImage: recipeIngredient.icon,
       name: recipeIngredient.title,
       quantity: recipeIngredient.quantity,
-      onTap: () async => await navigateAwayFromHomeAsync(context,
-          navigateTo: (context) => GameItemDetailPage(recipeIngredient.id)),
+      onTap: onTap,
     );

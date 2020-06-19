@@ -14,15 +14,22 @@ import '../../contracts/results/resultWithValue.dart';
 import '../../helpers/analytics.dart';
 import '../../helpers/futureHelper.dart';
 import '../../helpers/genericHelper.dart';
+import '../../helpers/navigationHelper.dart';
 import '../../helpers/snapshotHelper.dart';
 import '../../localization/localeKey.dart';
 import '../../localization/translations.dart';
+import '../gameItem/gameItemDetailPage.dart';
 
 class RecipeDetailPage extends StatelessWidget {
   final String itemId;
   final bool isInDetailPane;
+  final void Function(Widget newDetailView) updateDetailView;
 
-  RecipeDetailPage(this.itemId, {this.isInDetailPane = false}) {
+  RecipeDetailPage(
+    this.itemId, {
+    this.isInDetailPane = false,
+    this.updateDetailView,
+  }) {
     trackEvent('${AnalyticsEvent.recipeDetailPage}: ${this.itemId}');
   }
 
@@ -100,8 +107,29 @@ class RecipeDetailPage extends StatelessWidget {
       RecipeIngredientDetails recipeIng =
           snapshot?.data?.value?.ingredientDetails[recipeIngIndex];
       widgets.add(Card(
-        child: recipeIngredientDetailTilePresenter(
-            context, recipeIng, recipeIngIndex),
+        child: recipeIngredientDetailCustomOnTapTilePresenter(
+          context,
+          recipeIng,
+          recipeIngIndex,
+          onTap: () async {
+            if (isInDetailPane && updateDetailView != null) {
+              updateDetailView(GameItemDetailPage(
+                recipeIng.id,
+                isInDetailPane: isInDetailPane,
+                updateDetailView: updateDetailView,
+              ));
+            } else {
+              await navigateAwayFromHomeAsync(
+                context,
+                navigateTo: (context) => GameItemDetailPage(
+                  recipeIng.id,
+                  isInDetailPane: isInDetailPane,
+                  updateDetailView: updateDetailView,
+                ),
+              );
+            }
+          },
+        ),
       ));
     }
 

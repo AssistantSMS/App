@@ -1,12 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
-import 'package:scrapmechanic_kurtlourens_com/components/dialogs/quantityDialog.dart';
-import 'package:scrapmechanic_kurtlourens_com/helpers/colourHelper.dart';
-import 'package:scrapmechanic_kurtlourens_com/state/modules/base/appState.dart';
-import 'package:scrapmechanic_kurtlourens_com/state/modules/cart/cartViewModel.dart';
 
 import '../../components/adaptive/listWithScrollbar.dart';
 import '../../components/common/cachedFutureBuilder.dart';
+import '../../components/dialogs/quantityDialog.dart';
 import '../../components/loading.dart';
 import '../../components/scaffoldTemplates/genericPageScaffold.dart';
 import '../../components/tilePresenters/recipeIngredientTilePresenter.dart';
@@ -21,6 +18,7 @@ import '../../contracts/recipeIngredient/recipeIngredientDetail.dart';
 import '../../contracts/results/resultWithValue.dart';
 import '../../contracts/usedInRecipe/usedInRecipe.dart';
 import '../../helpers/analytics.dart';
+import '../../helpers/colourHelper.dart';
 import '../../helpers/futureHelper.dart';
 import '../../helpers/genericHelper.dart';
 import '../../helpers/navigationHelper.dart';
@@ -28,14 +26,21 @@ import '../../helpers/snapshotHelper.dart';
 import '../../helpers/textSpanHelper.dart';
 import '../../localization/localeKey.dart';
 import '../../localization/translations.dart';
+import '../../state/modules/base/appState.dart';
+import '../../state/modules/cart/cartViewModel.dart';
 import '../recipe/recipeDetailPage.dart';
 import 'gameItemComponents.dart';
 
 class GameItemDetailPage extends StatelessWidget {
   final String itemId;
   final bool isInDetailPane;
+  final void Function(Widget newDetailView) updateDetailView;
 
-  GameItemDetailPage(this.itemId, {this.isInDetailPane = false}) {
+  GameItemDetailPage(
+    this.itemId, {
+    this.isInDetailPane = false,
+    this.updateDetailView,
+  }) {
     trackEvent('${AnalyticsEvent.itemDetailPage}: ${this.itemId}');
   }
 
@@ -106,8 +111,29 @@ class GameItemDetailPage extends StatelessWidget {
         RecipeIngredientDetails ingDetails =
             craftingRecipe.ingredientDetails[ingDetailsIndex];
         widgets.add(Card(
-          child: recipeIngredientDetailTilePresenter(
-              context, ingDetails, ingDetailsIndex),
+          child: recipeIngredientDetailCustomOnTapTilePresenter(
+            context,
+            ingDetails,
+            ingDetailsIndex,
+            onTap: () async {
+              if (isInDetailPane && updateDetailView != null) {
+                updateDetailView(GameItemDetailPage(
+                  ingDetails.id,
+                  isInDetailPane: isInDetailPane,
+                  updateDetailView: updateDetailView,
+                ));
+              } else {
+                await navigateAwayFromHomeAsync(
+                  context,
+                  navigateTo: (context) => GameItemDetailPage(
+                    ingDetails.id,
+                    isInDetailPane: isInDetailPane,
+                    updateDetailView: updateDetailView,
+                  ),
+                );
+              }
+            },
+          ),
         ));
       }
     }
@@ -126,11 +152,30 @@ class GameItemDetailPage extends StatelessWidget {
           recipeIndex < usedInRecipe.recipes.length;
           recipeIndex++) {
         Recipe recipe = usedInRecipe.recipes[recipeIndex];
-        widgets.add(GestureDetector(
-          child: Card(child: recipeTilePresenter(context, recipe, recipeIndex)),
-          onTap: () async => await navigateAwayFromHomeAsync(context,
-              navigateTo: (context) => RecipeDetailPage(recipe.id)),
-        ));
+        widgets.add(
+          GestureDetector(
+            child:
+                Card(child: recipeTilePresenter(context, recipe, recipeIndex)),
+            onTap: () async {
+              if (isInDetailPane && updateDetailView != null) {
+                updateDetailView(RecipeDetailPage(
+                  recipe.id,
+                  isInDetailPane: isInDetailPane,
+                  updateDetailView: updateDetailView,
+                ));
+              } else {
+                await navigateAwayFromHomeAsync(
+                  context,
+                  navigateTo: (context) => RecipeDetailPage(
+                    recipe.id,
+                    isInDetailPane: isInDetailPane,
+                    updateDetailView: updateDetailView,
+                  ),
+                );
+              }
+            },
+          ),
+        );
       }
     }
 

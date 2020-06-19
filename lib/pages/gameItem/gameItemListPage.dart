@@ -36,8 +36,13 @@ class GameItemListPage extends StatelessWidget {
         listItemMobileOnTap: (BuildContext context, GameItem recipe) async =>
             await navigateAwayFromHomeAsync(context,
                 navigateTo: (context) => GameItemDetailPage(recipe.id)),
-        listItemDesktopOnTap: (BuildContext context, GameItem recipe) =>
-            GameItemDetailPage(recipe.id, isInDetailPane: true),
+        listItemDesktopOnTap: (BuildContext context, GameItem recipe,
+                void Function(Widget) updateDetailView) =>
+            GameItemDetailPage(
+          recipe.id,
+          isInDetailPane: true,
+          updateDetailView: updateDetailView,
+        ),
         key: Key(Translations.of(context).currentLanguage),
       ),
     );

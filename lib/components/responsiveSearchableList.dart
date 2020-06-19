@@ -11,7 +11,9 @@ class ResponsiveListDetailView<T> extends StatefulWidget {
   final Future<ResultWithValue<List<T>>> Function() listGetter;
   final Widget Function(BuildContext context, T, int index) listItemDisplayer;
   final void Function(BuildContext context, T) listItemMobileOnTap;
-  final Widget Function(BuildContext context, T) listItemDesktopOnTap;
+  final Widget Function(
+          BuildContext context, T, void Function(Widget) updateDetailView)
+      listItemDesktopOnTap;
   final bool Function(T, String) listItemSearch;
   final void Function() deleteAll;
   final int minListForSearch;
@@ -61,7 +63,10 @@ class _ResponsiveListDetailWidget<T>
               detailViewKey =
                   Key(DateTime.now().millisecondsSinceEpoch.toString());
               detailView = widget.listItemDesktopOnTap(
-                  innerContext, actualResult.value[0]);
+                innerContext,
+                actualResult.value[0],
+                updateDetailView,
+              );
             });
           }
           return actualResult;
@@ -110,12 +115,22 @@ class _ResponsiveListDetailWidget<T>
   }
 
   void Function(BuildContext, T) getItemClickFunc(ResponsiveFlexData flexData) {
-    var desktopClick = (BuildContext innerInnerC, T itemTapped) {
-      this.setState(() {
-        detailViewKey = Key(DateTime.now().millisecondsSinceEpoch.toString());
-        detailView = widget.listItemDesktopOnTap(innerInnerC, itemTapped);
-      });
-    };
-    return flexData.isMobile ? widget.listItemMobileOnTap : desktopClick;
+    return flexData.isMobile ? widget.listItemMobileOnTap : alterDetailView;
+  }
+
+  void alterDetailView(BuildContext currentContext, T itemToView) {
+    var newDetailWidget = widget.listItemDesktopOnTap(
+      currentContext,
+      itemToView,
+      updateDetailView,
+    );
+    updateDetailView(newDetailWidget);
+  }
+
+  void updateDetailView(Widget newDetailView) {
+    this.setState(() {
+      detailViewKey = Key(DateTime.now().millisecondsSinceEpoch.toString());
+      detailView = newDetailView;
+    });
   }
 }

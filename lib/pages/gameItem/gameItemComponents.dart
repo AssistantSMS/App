@@ -42,7 +42,7 @@ ResultWithValue<Widget> getTableRows(BuildContext context, GameItem gameItem) {
       Text(
         Translations.get(
             context, gameItem.flammable ? LocaleKey.yes : LocaleKey.no),
-        textAlign: TextAlign.end,
+        textAlign: TextAlign.center,
         style: TextStyle(color: getPrimaryColour(context), fontSize: 16),
       ),
     ]));

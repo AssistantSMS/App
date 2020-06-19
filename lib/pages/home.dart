@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:scrapmechanic_kurtlourens_com/constants/Routes.dart';
 
 import '../components/adaptive/appScaffold.dart';
 import '../components/adaptive/homePageAppBar.dart';
@@ -8,9 +7,11 @@ import '../components/responsiveStaggeredGrid.dart';
 import '../components/tilePresenters/responsiveStaggeredGridTilePresenter.dart';
 import '../constants/AnalyticsEvent.dart';
 import '../constants/AppImage.dart';
+import '../constants/Routes.dart';
 import '../constants/StaggeredGridItemType.dart';
 import '../contracts/misc/staggeredGridItem.dart';
 import '../helpers/analytics.dart';
+import '../helpers/colourHelper.dart';
 import '../helpers/listPageHelper.dart';
 import '../helpers/navigationHelper.dart';
 import 'gameItem/gameItemListPage.dart';
@@ -37,6 +38,7 @@ class Home extends StatelessWidget {
     const smallImage = 40.0;
     const largeImage = 65.0;
 
+var tileColour = getIsDark(context) ? Colors.blueGrey[600] : Colors.blueGrey[300];
     return responsiveStaggeredGrid(
       [
         StaggeredGridItem(
@@ -44,7 +46,7 @@ class Home extends StatelessWidget {
               responsiveStaggeredGridImageTilePresenter(
             context,
             AppImage.craftBot,
-            Colors.lightBlue,
+            tileColour, // Colors.blue[500],
             text: getCraftBotPageName(),
             height: largeImage,
             onTap: () async => await navigateAwayFromHomeAsync(
@@ -62,7 +64,7 @@ class Home extends StatelessWidget {
               responsiveStaggeredGridImageTilePresenter(
             context,
             AppImage.cookBot,
-            Colors.purple,
+            tileColour, // Colors.green[900],
             text: getWorkbenchPageName(),
             height: smallImage,
             onTap: () async => await navigateAwayFromHomeAsync(
@@ -80,7 +82,7 @@ class Home extends StatelessWidget {
               responsiveStaggeredGridImageTilePresenter(
             context,
             AppImage.block,
-            Colors.blueGrey,
+            tileColour, // Colors.blueGrey,
             text: getBlocksAndItemsPageName(),
             height: largeImage,
             onTap: () async => await navigateAwayFromHomeAsync(
@@ -98,7 +100,7 @@ class Home extends StatelessWidget {
               responsiveStaggeredGridImageTilePresenter(
             context,
             AppImage.refiner,
-            Colors.redAccent,
+            tileColour, // Colors.orange[900],
             text: getDispensorPageName(),
             height: smallImage,
             onTap: () async => await navigateAwayFromHomeAsync(
@@ -116,7 +118,7 @@ class Home extends StatelessWidget {
               responsiveStaggeredGridImageTilePresenter(
             context,
             AppImage.cookBot,
-            Colors.green,
+            tileColour, // Colors.green[300],
             text: getCookBotPageName(),
             height: smallImage,
             onTap: () async => await navigateAwayFromHomeAsync(
@@ -134,7 +136,7 @@ class Home extends StatelessWidget {
               responsiveStaggeredGridImageTilePresenter(
             context,
             AppImage.refiner,
-            Colors.indigo,
+            tileColour, // Colors.brown,
             text: getRefinerPageName(),
             height: smallImage,
             onTap: () async => await navigateAwayFromHomeAsync(
@@ -152,7 +154,7 @@ class Home extends StatelessWidget {
               responsiveStaggeredGridImageTilePresenter(
             context,
             AppImage.dressBot,
-            Colors.amber,
+            tileColour, // Colors.amber,
             text: getDressBotPageName(),
             height: smallImage,
             onTap: () async => await navigateAwayFromHomeAsync(
@@ -170,7 +172,7 @@ class Home extends StatelessWidget {
               responsiveStaggeredGridIconTilePresenter(
             context,
             Icons.shopping_basket,
-            Colors.cyan,
+            tileColour, // Colors.purple[300],
             text: getCartPageName(),
             height: smallImage,
             onTap: () async => await navigateAwayFromHomeAsync(
@@ -185,7 +187,7 @@ class Home extends StatelessWidget {
               responsiveStaggeredGridIconTilePresenter(
             context,
             Icons.new_releases,
-            Colors.black,
+            tileColour, // Colors.black,
             text: getSteamNewsPageName(),
             height: smallImage,
             onTap: () async => await navigateAwayFromHomeAsync(

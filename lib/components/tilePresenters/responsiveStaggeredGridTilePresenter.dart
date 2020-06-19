@@ -81,21 +81,33 @@ Widget responsiveStaggeredGridBaseTilePresenter(
   List<Widget> children = List<Widget>();
   children.add(Center(child: image));
   if (text != null) {
-    children.add(Positioned(
-      child: Text(
-        Translations.get(context, text),
-        textAlign: TextAlign.center,
-        style: TextStyle(
-          color: getForegroundTextColour(backgroundColor),
+    children.add(
+      /*Positioned(
+      child: */
+      Padding(
+        child: Text(
+          Translations.get(context, text),
+          textAlign: TextAlign.center,
+          maxLines: 1,
+          style: TextStyle(
+            color: getForegroundTextColour(backgroundColor),
+          ),
         ),
-      ),
+        padding: EdgeInsets.only(left: 8, top: 4, right: 8),
+      ), /*,
       bottom: 8,
       left: 4,
       right: 4,
-    ));
+    )*/
+    );
   }
   return Card(
     color: backgroundColor,
-    child: InkWell(onTap: safeOnTap, child: Stack(children: children)),
+    child: InkWell(
+        onTap: safeOnTap,
+        child: Column(
+          children: children,
+          mainAxisAlignment: MainAxisAlignment.center,
+        )),
   );
 }

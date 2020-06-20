@@ -36,7 +36,7 @@ ThemeData lightTheme(String fontFamily) {
 ThemeData darkTheme(String fontFamily) {
   final base = ThemeData.dark();
   final primary = Colors.orange[600];
-  final secondary = Colors.lightBlue[400];
+  final secondary = Colors.lightBlue[600];
   return base.copyWith(
       primaryColor: primary,
       accentColor: secondary,

@@ -40,7 +40,8 @@ class GameItemBase {
         icon: readStringSafe(json, "Icon"),
         color: readStringSafe(json, "Color"),
         physicsMaterial: readStringSafe(json, "PhysicsMaterial"),
-        rating: Rating.fromJson(json["Ratings"]),
+        rating:
+            json["Ratings"] == null ? null : Rating.fromJson(json["Ratings"]),
         box: json["Box"] == null ? null : Box.fromJson(json["Box"]),
         flammable: readBoolSafe(json, "Flammable"),
         density: readDoubleSafe(json, "Density"),

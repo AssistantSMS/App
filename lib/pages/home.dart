@@ -160,7 +160,7 @@ class Home extends StatelessWidget {
             height: smallImage,
             onTap: () async => await navigateAwayFromHomeAsync(
               context,
-              navigateTo: (context) => RecipeListPage(
+              navigateTo: (context) => GameItemListPage(
                 getDressBotPageName(),
                 getDressBotPageLocales(),
               ),

@@ -57,8 +57,9 @@ class GameItemDetailPage extends StatelessWidget {
       whenDoneLoading:
           (AsyncSnapshot<ResultWithValue<GameItemPageItem>> snapshot) {
         var bodyWidget = StoreConnector<AppState, CartViewModel>(
-            converter: (store) => CartViewModel.fromStore(store),
-            builder: (_, viewModel) => getBody(context, viewModel, snapshot));
+          converter: (store) => CartViewModel.fromStore(store),
+          builder: (_, viewModel) => getBody(context, viewModel, snapshot),
+        );
         if (isInDetailPane) return bodyWidget;
         return genericPageScaffold<ResultWithValue<GameItemPageItem>>(
           context,
@@ -71,8 +72,12 @@ class GameItemDetailPage extends StatelessWidget {
     );
   }
 
-  Widget getBody(BuildContext context, CartViewModel viewModel,
-      AsyncSnapshot<ResultWithValue<GameItemPageItem>> snapshot) {
+  Widget getBody(
+    BuildContext context,
+    // Breakpoint breakpoint,
+    CartViewModel viewModel,
+    AsyncSnapshot<ResultWithValue<GameItemPageItem>> snapshot,
+  ) {
     TextEditingController controller = TextEditingController();
     Widget errorWidget = asyncSnapshotHandler(context, snapshot);
     if (errorWidget != null) return errorWidget;
@@ -81,32 +86,61 @@ class GameItemDetailPage extends StatelessWidget {
 
     List<Widget> widgets = List<Widget>();
 
-    widgets.add(genericItemImage(
-      context,
-      '${AppImage.base}${gameItem.icon}',
-      name: gameItem.title,
-    ));
+    if (gameItem.icon != null) {
+      widgets.add(genericItemImage(
+        context,
+        '${AppImage.base}${gameItem.icon}',
+        name: gameItem.title,
+      ));
+    }
     widgets.add(emptySpace1x());
     widgets.add(genericItemName(gameItem.title));
 
     widgets.add(emptySpace1x());
 
-    ResultWithValue<Widget> tableResult = getRatingTableRows(context, gameItem);
-    if (tableResult.isSuccess) {
-      widgets.add(Divider());
-      widgets.add(tableResult.value);
+    List<Widget> rowWidgets = List<Widget>();
+
+    if (gameItem.rating != null) {
+      ResultWithValue<Widget> tableResult =
+          getRatingTableRows(context, gameItem);
+      if (tableResult.isSuccess) {
+        // widgets.add(tableResult.value);
+        rowWidgets.add(Card(
+          child: Container(
+            constraints: BoxConstraints(maxWidth: 450),
+            padding: EdgeInsets.all(10),
+            child: tableResult.value,
+          ),
+        ));
+      }
     }
 
     if (gameItem.box != null) {
-      widgets.add(Divider());
-      widgets.add(Center(
+      var cudeWidget = Center(
         child: SizedBox(
           child: cubeDimension(context, gameItem.box),
           height: 120,
-          width: 120,
+          // width: 120,
         ),
+      );
+
+      rowWidgets.add(Card(
+        child: Padding(
+            padding: EdgeInsets.only(bottom: 18),
+            child: Container(
+              constraints: BoxConstraints(maxWidth: 450),
+              padding: EdgeInsets.all(10),
+              child: cudeWidget,
+            )),
       ));
     }
+
+    widgets.add(
+      Wrap(
+        alignment: WrapAlignment.center,
+        children: rowWidgets,
+      ),
+    );
 
     List<CraftedUsing> craftingRecipes =
         snapshot?.data?.value?.craftingRecipes ?? [];

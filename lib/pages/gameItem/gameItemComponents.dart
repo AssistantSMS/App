@@ -19,31 +19,33 @@ ResultWithValue<Widget> getRatingTableRows(
 
   if (gameItem.rating.density != null) {
     rows.add(TableRow(children: [
-      headingText(context, LocaleKey.density),
+      headingLocaleKeyWithImage(context, AppImage.weight, LocaleKey.density),
       rowValue(context, gameItem.rating.density)
     ]));
   }
   if (gameItem.rating.durability != null) {
     rows.add(TableRow(children: [
-      headingText(context, LocaleKey.durability),
+      headingLocaleKeyWithImage(
+          context, AppImage.durability, LocaleKey.durability),
       rowValue(context, gameItem.rating.durability)
     ]));
   }
   if (gameItem.rating.friction != null) {
     rows.add(TableRow(children: [
-      headingText(context, LocaleKey.friction),
+      headingLocaleKeyWithImage(context, AppImage.friction, LocaleKey.friction),
       rowValue(context, gameItem.rating.friction)
     ]));
   }
   if (gameItem.rating.buoyancy != null) {
     rows.add(TableRow(children: [
-      headingText(context, LocaleKey.buoyancy),
+      headingLocaleKeyWithImage(context, AppImage.buoyancy, LocaleKey.buoyancy),
       rowValue(context, gameItem.rating.buoyancy)
     ]));
   }
   if (gameItem.flammable != null) {
     rows.add(TableRow(children: [
-      headingText(context, LocaleKey.flammable),
+      headingLocaleKeyWithImage(
+          context, AppImage.flammable, LocaleKey.flammable),
       Text(
         Translations.get(
             context, gameItem.flammable ? LocaleKey.yes : LocaleKey.no),
@@ -65,9 +67,29 @@ ResultWithValue<Widget> getRatingTableRows(
   return ResultWithValue<Widget>(true, child, '');
 }
 
-Widget headingText(BuildContext context, LocaleKey key) => Padding(
-      child:
-          Text(Translations.get(context, key), style: TextStyle(fontSize: 16)),
+Widget headingLocaleKeyWithImage(
+        BuildContext context, String imagePath, LocaleKey key,
+        {TextAlign textAlign}) =>
+    Row(children: [
+      Padding(
+        padding: EdgeInsets.only(right: 4),
+        child: localImage(imagePath, height: 16),
+      ),
+      headingText(context, Translations.get(context, key),
+          textAlign: textAlign),
+    ]);
+
+Widget headingLocaleKey(BuildContext context, LocaleKey key,
+        {TextAlign textAlign}) =>
+    headingText(context, Translations.get(context, key), textAlign: textAlign);
+
+Widget headingText(BuildContext context, String text, {TextAlign textAlign}) =>
+    Padding(
+      child: Text(
+        text,
+        style: TextStyle(fontSize: 16),
+        textAlign: textAlign,
+      ),
       padding: EdgeInsets.only(top: 2, bottom: 4),
     );
 
@@ -86,6 +108,52 @@ Widget rowValue(BuildContext context, int value) {
   );
 }
 
+Widget rowText(BuildContext context, String text) {
+  return Padding(
+    child: Text(text),
+    padding: EdgeInsets.only(top: 2, bottom: 4),
+  );
+}
+
+Widget rowInt(
+    BuildContext context, int quantity, String suffix, String suffixPural) {
+  return Padding(
+    child: Text(quantity.toString() + (quantity == 1 ? suffix : suffixPural)),
+    padding: EdgeInsets.only(top: 2, bottom: 4),
+  );
+}
+
+Widget cubeDimensionGrid(BuildContext context, Box box) {
+  String suffix = "";
+  String suffixPural = "";
+  return Padding(
+    padding: EdgeInsets.only(top: 8, left: 8, right: 8),
+    child: Table(
+      children: [
+        TableRow(children: [
+          headingText(context, "X: ", textAlign: TextAlign.end),
+          rowInt(context, box.x, suffix, suffixPural),
+        ]),
+        TableRow(children: [
+          headingText(context, "Y: ", textAlign: TextAlign.end),
+          rowInt(context, box.y, suffix, suffixPural),
+        ]),
+        TableRow(children: [
+          headingText(context, "Z: ", textAlign: TextAlign.end),
+          rowInt(context, box.z, suffix, suffixPural),
+        ]),
+        TableRow(children: [
+          headingText(context, "Area: ", textAlign: TextAlign.end),
+          rowInt(context, (box.x * box.y * box.z), suffix, suffixPural),
+        ])
+      ],
+      // border: TableBorder.all(),
+      defaultVerticalAlignment: TableCellVerticalAlignment.middle,
+      columnWidths: {0: FractionColumnWidth(.5), 1: FractionColumnWidth(.5)},
+    ),
+  );
+}
+
 Widget cubeDimension(BuildContext context, Box box) {
   var textStyleDim = TextStyle(
     fontSize: 20,
@@ -95,7 +163,7 @@ Widget cubeDimension(BuildContext context, Box box) {
     children: [
       Padding(
         child: localImage(AppImage.dimensionsCube),
-        padding: EdgeInsets.all(16),
+        padding: EdgeInsets.all(24),
       ),
       Positioned(
         child: Row(

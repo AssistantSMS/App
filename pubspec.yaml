@@ -147,6 +147,12 @@ flutter:
     - assets/img/refiner.png
     - assets/img/unknown.png
 
+    - assets/img/rating/buoyancy.png
+    - assets/img/rating/durability.png
+    - assets/img/rating/flammable.png
+    - assets/img/rating/friction.png
+    - assets/img/rating/weight.png
+
     - assets/img/donation/bat.png
     - assets/img/donation/buyMeACoffee.png
     - assets/img/donation/openCollective.png

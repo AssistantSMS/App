@@ -94,4 +94,7 @@ enum LocaleKey {
   timeToCraft,
   cart,
   news,
+  feedback,
+  twitter,
+  contribute,
 }

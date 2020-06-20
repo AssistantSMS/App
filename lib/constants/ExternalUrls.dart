@@ -9,8 +9,8 @@ class ExternalUrls {
   static const String openCollective = 'https://opencollective.com/assistantsm';
   // Contact
   static const String kurtLourensEmail =
-      'mailto:hi@kurtlourens.com?subject=Assistant for Scrap Mechanic';
-  static const String githubOrganization = 'https://github.com/AssistantSM';
+      'mailto:scrap@kurtlourens.com?subject=Assistant for Scrap Mechanic';
+  static const String githubOrganization = 'https://github.com/AssistantSMS';
   // App public links
   static const String googlePlayListing =
       'https://play.google.com/store/apps/details?id=com.kurtlourens.no_mans_sky_recipes';

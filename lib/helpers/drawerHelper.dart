@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:package_info/package_info.dart';
+import 'package:scrapmechanic_kurtlourens_com/constants/ExternalUrls.dart';
 
 import '../constants/Routes.dart';
 import '../contracts/results/resultWithValue.dart';
@@ -28,11 +29,29 @@ Future<List<Widget>> getDrawerItems(context,
     key: LocaleKey.donation,
     navigateToNamed: Routes.donation,
   ));
+
+  widgets.add(Divider(thickness: .5));
+
   widgets.add(_drawerItem(
     context,
-    image: getCorrectlySizedImageFromIcon(context, Icons.shopping_cart),
-    key: LocaleKey.cart,
-    navigateToNamed: Routes.cart,
+    image: getListTileImage(context, 'drawer/twitter.png'),
+    key: LocaleKey.twitter,
+    onTap: () => launchExternalURL(ExternalUrls.twitter),
+  ));
+  widgets.add(_drawerItem(
+    context,
+    image: getListTileImage(context, 'drawer/github.png'),
+    key: LocaleKey.contribute,
+    onTap: () => launchExternalURL(ExternalUrls.githubOrganization),
+  ));
+
+  widgets.add(Divider(thickness: .5));
+
+  widgets.add(_drawerItem(
+    context,
+    image: getCorrectlySizedImageFromIcon(context, Icons.email),
+    key: LocaleKey.feedback,
+    onTap: () => launchExternalURL(ExternalUrls.kurtLourensEmail),
   ));
 
   // widgets.add(_drawerItem(
@@ -53,7 +72,7 @@ Future<List<Widget>> getDrawerItems(context,
       await currentAppVersionFuture;
 
   if (packageInfoResult.isSuccess) {
-    widgets.add(Divider());
+    widgets.add(Divider(thickness: .5));
     widgets.add(ListTile(
       key: Key('versionNumber'),
       title: Text(

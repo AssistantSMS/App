@@ -38,7 +38,6 @@ class About extends StatelessWidget {
 
     widgets.add(Text(Translations.get(context, LocaleKey.aboutContent),
         textAlign: TextAlign.center,
-        overflow: TextOverflow.ellipsis,
         maxLines: 50,
         style: TextStyle(fontSize: 16)));
 

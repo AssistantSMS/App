@@ -94,7 +94,6 @@ class SettingsPage extends StatelessWidget {
               icon: Icons.description,
               onTap: () => showAboutDialog(
                 context: context,
-                applicationIcon: getListTileImage(context, 'icon.png'),
                 applicationLegalese:
                     Translations.get(context, LocaleKey.fairUseDisclaimer),
                 applicationVersion: snapshot?.data?.value?.version ?? 'v1.0',

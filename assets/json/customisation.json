@@ -1,7 +1,7 @@
 [
   {
-    "Id": "custFaceM1",
-    "Icon": "items/custFaceM1.png",
+    "Id": "custFacM1",
+    "Icon": "items/custFacM1.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -9,8 +9,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custFaceF1",
-    "Icon": "items/custFaceF1.png",
+    "Id": "custFacF1",
+    "Icon": "items/custFacF1.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -18,8 +18,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custFaceM2",
-    "Icon": "items/custFaceM2.png",
+    "Id": "custFacM2",
+    "Icon": "items/custFacM2.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -27,8 +27,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custFaceF2",
-    "Icon": "items/custFaceF2.png",
+    "Id": "custFacF2",
+    "Icon": "items/custFacF2.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -36,8 +36,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custFaceM3",
-    "Icon": "items/custFaceM3.png",
+    "Id": "custFacM3",
+    "Icon": "items/custFacM3.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -45,8 +45,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custFaceF3",
-    "Icon": "items/custFaceF3.png",
+    "Id": "custFacF3",
+    "Icon": "items/custFacF3.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -54,8 +54,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custFaceM4",
-    "Icon": "items/custFaceM4.png",
+    "Id": "custFacM4",
+    "Icon": "items/custFacM4.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -63,8 +63,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custFaceF4",
-    "Icon": "items/custFaceF4.png",
+    "Id": "custFacF4",
+    "Icon": "items/custFacF4.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -72,8 +72,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custFaceM5",
-    "Icon": "items/custFaceM5.png",
+    "Id": "custFacM5",
+    "Icon": "items/custFacM5.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -81,8 +81,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custFaceF5",
-    "Icon": "items/custFaceF5.png",
+    "Id": "custFacF5",
+    "Icon": "items/custFacF5.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -90,8 +90,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custFaceM6",
-    "Icon": "items/custFaceM6.png",
+    "Id": "custFacM6",
+    "Icon": "items/custFacM6.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -99,8 +99,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custFaceF6",
-    "Icon": "items/custFaceF6.png",
+    "Id": "custFacF6",
+    "Icon": "items/custFacF6.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -108,8 +108,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custFaceM7",
-    "Icon": "items/custFaceM7.png",
+    "Id": "custFacM7",
+    "Icon": "items/custFacM7.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -117,8 +117,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custFaceF7",
-    "Icon": "items/custFaceF7.png",
+    "Id": "custFacF7",
+    "Icon": "items/custFacF7.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -126,8 +126,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custFaceM8",
-    "Icon": "items/custFaceM8.png",
+    "Id": "custFacM8",
+    "Icon": "items/custFacM8.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -135,8 +135,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custFaceF8",
-    "Icon": "items/custFaceF8.png",
+    "Id": "custFacF8",
+    "Icon": "items/custFacF8.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -144,8 +144,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custFaceM9",
-    "Icon": "items/custFaceM9.png",
+    "Id": "custFacM9",
+    "Icon": "items/custFacM9.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -153,8 +153,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custFaceF9",
-    "Icon": "items/custFaceF9.png",
+    "Id": "custFacF9",
+    "Icon": "items/custFacF9.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -162,8 +162,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custFaceM10",
-    "Icon": "items/custFaceM10.png",
+    "Id": "custFacM10",
+    "Icon": "items/custFacM10.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -171,8 +171,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custFaceF10",
-    "Icon": "items/custFaceF10.png",
+    "Id": "custFacF10",
+    "Icon": "items/custFacF10.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -180,8 +180,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custFaceM11",
-    "Icon": "items/custFaceM11.png",
+    "Id": "custFacM11",
+    "Icon": "items/custFacM11.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -189,8 +189,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custFaceF11",
-    "Icon": "items/custFaceF11.png",
+    "Id": "custFacF11",
+    "Icon": "items/custFacF11.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -198,8 +198,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custTorsoM2",
-    "Icon": "items/custTorsoM2.png",
+    "Id": "custTorM2",
+    "Icon": "items/custTorM2.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -207,8 +207,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custTorsoM3",
-    "Icon": "items/custTorsoM3.png",
+    "Id": "custTorM3",
+    "Icon": "items/custTorM3.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -216,8 +216,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custTorsoM4",
-    "Icon": "items/custTorsoM4.png",
+    "Id": "custTorM4",
+    "Icon": "items/custTorM4.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -225,8 +225,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custTorsoM5",
-    "Icon": "items/custTorsoM5.png",
+    "Id": "custTorM5",
+    "Icon": "items/custTorM5.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -234,8 +234,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custTorsoM6",
-    "Icon": "items/custTorsoM6.png",
+    "Id": "custTorM6",
+    "Icon": "items/custTorM6.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -243,8 +243,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custTorsoM7",
-    "Icon": "items/custTorsoM7.png",
+    "Id": "custTorM7",
+    "Icon": "items/custTorM7.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -252,8 +252,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custTorsoM8",
-    "Icon": "items/custTorsoM8.png",
+    "Id": "custTorM8",
+    "Icon": "items/custTorM8.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -261,8 +261,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custTorsoM9",
-    "Icon": "items/custTorsoM9.png",
+    "Id": "custTorM9",
+    "Icon": "items/custTorM9.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -270,8 +270,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custTorsoM10",
-    "Icon": "items/custTorsoM10.png",
+    "Id": "custTorM10",
+    "Icon": "items/custTorM10.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -279,8 +279,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custTorsoM11",
-    "Icon": "items/custTorsoM11.png",
+    "Id": "custTorM11",
+    "Icon": "items/custTorM11.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -288,8 +288,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custTorsoM12",
-    "Icon": "items/custTorsoM12.png",
+    "Id": "custTorM12",
+    "Icon": "items/custTorM12.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -297,8 +297,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custTorsoM13",
-    "Icon": "items/custTorsoM13.png",
+    "Id": "custTorM13",
+    "Icon": "items/custTorM13.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -306,8 +306,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custTorsoM14",
-    "Icon": "items/custTorsoM14.png",
+    "Id": "custTorM14",
+    "Icon": "items/custTorM14.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -315,8 +315,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custTorsoM15",
-    "Icon": "items/custTorsoM15.png",
+    "Id": "custTorM15",
+    "Icon": "items/custTorM15.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -324,8 +324,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custTorsoM16",
-    "Icon": "items/custTorsoM16.png",
+    "Id": "custTorM16",
+    "Icon": "items/custTorM16.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -333,8 +333,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custTorsoM17",
-    "Icon": "items/custTorsoM17.png",
+    "Id": "custTorM17",
+    "Icon": "items/custTorM17.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -342,8 +342,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custTorsoM18",
-    "Icon": "items/custTorsoM18.png",
+    "Id": "custTorM18",
+    "Icon": "items/custTorM18.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -351,8 +351,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custTorsoM19",
-    "Icon": "items/custTorsoM19.png",
+    "Id": "custTorM19",
+    "Icon": "items/custTorM19.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -360,8 +360,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custTorsoM20",
-    "Icon": "items/custTorsoM20.png",
+    "Id": "custTorM20",
+    "Icon": "items/custTorM20.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -369,8 +369,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custTorsoM21",
-    "Icon": "items/custTorsoM21.png",
+    "Id": "custTorM21",
+    "Icon": "items/custTorM21.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -378,8 +378,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custTorsoM22",
-    "Icon": "items/custTorsoM22.png",
+    "Id": "custTorM22",
+    "Icon": "items/custTorM22.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -387,8 +387,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custTorsoM23",
-    "Icon": "items/custTorsoM23.png",
+    "Id": "custTorM23",
+    "Icon": "items/custTorM23.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -396,8 +396,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custTorsoM24",
-    "Icon": "items/custTorsoM24.png",
+    "Id": "custTorM24",
+    "Icon": "items/custTorM24.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -405,8 +405,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custTorsoM25",
-    "Icon": "items/custTorsoM25.png",
+    "Id": "custTorM25",
+    "Icon": "items/custTorM25.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -414,8 +414,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custTorsoM26",
-    "Icon": "items/custTorsoM26.png",
+    "Id": "custTorM26",
+    "Icon": "items/custTorM26.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -423,8 +423,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custTorsoM27",
-    "Icon": "items/custTorsoM27.png",
+    "Id": "custTorM27",
+    "Icon": "items/custTorM27.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -432,8 +432,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custTorsoM28",
-    "Icon": "items/custTorsoM28.png",
+    "Id": "custTorM28",
+    "Icon": "items/custTorM28.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -441,8 +441,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custTorsoM29",
-    "Icon": "items/custTorsoM29.png",
+    "Id": "custTorM29",
+    "Icon": "items/custTorM29.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -450,8 +450,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custTorsoM30",
-    "Icon": "items/custTorsoM30.png",
+    "Id": "custTorM30",
+    "Icon": "items/custTorM30.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -459,8 +459,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custTorsoM31",
-    "Icon": "items/custTorsoM31.png",
+    "Id": "custTorM31",
+    "Icon": "items/custTorM31.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -468,8 +468,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custTorsoM32",
-    "Icon": "items/custTorsoM32.png",
+    "Id": "custTorM32",
+    "Icon": "items/custTorM32.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -477,8 +477,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custGlovesM2",
-    "Icon": "items/custGlovesM2.png",
+    "Id": "custGloM2",
+    "Icon": "items/custGloM2.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -486,8 +486,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custGlovesM3",
-    "Icon": "items/custGlovesM3.png",
+    "Id": "custGloM3",
+    "Icon": "items/custGloM3.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -495,8 +495,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custGlovesM4",
-    "Icon": "items/custGlovesM4.png",
+    "Id": "custGloM4",
+    "Icon": "items/custGloM4.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -504,8 +504,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custGlovesM5",
-    "Icon": "items/custGlovesM5.png",
+    "Id": "custGloM5",
+    "Icon": "items/custGloM5.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -513,8 +513,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custGlovesM6",
-    "Icon": "items/custGlovesM6.png",
+    "Id": "custGloM6",
+    "Icon": "items/custGloM6.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -522,8 +522,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custGlovesM7",
-    "Icon": "items/custGlovesM7.png",
+    "Id": "custGloM7",
+    "Icon": "items/custGloM7.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -531,8 +531,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custGlovesM8",
-    "Icon": "items/custGlovesM8.png",
+    "Id": "custGloM8",
+    "Icon": "items/custGloM8.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -540,8 +540,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custGlovesM9",
-    "Icon": "items/custGlovesM9.png",
+    "Id": "custGloM9",
+    "Icon": "items/custGloM9.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -549,8 +549,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custGlovesM10",
-    "Icon": "items/custGlovesM10.png",
+    "Id": "custGloM10",
+    "Icon": "items/custGloM10.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -558,8 +558,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custGlovesM11",
-    "Icon": "items/custGlovesM11.png",
+    "Id": "custGloM11",
+    "Icon": "items/custGloM11.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -567,8 +567,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custGlovesM12",
-    "Icon": "items/custGlovesM12.png",
+    "Id": "custGloM12",
+    "Icon": "items/custGloM12.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -576,8 +576,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custGlovesM13",
-    "Icon": "items/custGlovesM13.png",
+    "Id": "custGloM13",
+    "Icon": "items/custGloM13.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -585,8 +585,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custGlovesM14",
-    "Icon": "items/custGlovesM14.png",
+    "Id": "custGloM14",
+    "Icon": "items/custGloM14.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -594,8 +594,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custShoesM2",
-    "Icon": "items/custShoesM2.png",
+    "Id": "custShoM2",
+    "Icon": "items/custShoM2.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -603,8 +603,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custShoesM3",
-    "Icon": "items/custShoesM3.png",
+    "Id": "custShoM3",
+    "Icon": "items/custShoM3.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -612,8 +612,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custShoesM4",
-    "Icon": "items/custShoesM4.png",
+    "Id": "custShoM4",
+    "Icon": "items/custShoM4.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -621,8 +621,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custShoesM5",
-    "Icon": "items/custShoesM5.png",
+    "Id": "custShoM5",
+    "Icon": "items/custShoM5.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -630,8 +630,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custShoesM6",
-    "Icon": "items/custShoesM6.png",
+    "Id": "custShoM6",
+    "Icon": "items/custShoM6.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -639,8 +639,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custShoesM7",
-    "Icon": "items/custShoesM7.png",
+    "Id": "custShoM7",
+    "Icon": "items/custShoM7.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -648,8 +648,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custShoesM8",
-    "Icon": "items/custShoesM8.png",
+    "Id": "custShoM8",
+    "Icon": "items/custShoM8.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -657,8 +657,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custShoesM9",
-    "Icon": "items/custShoesM9.png",
+    "Id": "custShoM9",
+    "Icon": "items/custShoM9.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -666,8 +666,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custShoesM10",
-    "Icon": "items/custShoesM10.png",
+    "Id": "custShoM10",
+    "Icon": "items/custShoM10.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -675,8 +675,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custShoesM11",
-    "Icon": "items/custShoesM11.png",
+    "Id": "custShoM11",
+    "Icon": "items/custShoM11.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -684,8 +684,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custShoesM12",
-    "Icon": "items/custShoesM12.png",
+    "Id": "custShoM12",
+    "Icon": "items/custShoM12.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -693,8 +693,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custShoesM13",
-    "Icon": "items/custShoesM13.png",
+    "Id": "custShoM13",
+    "Icon": "items/custShoM13.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -702,8 +702,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custShoesM14",
-    "Icon": "items/custShoesM14.png",
+    "Id": "custShoM14",
+    "Icon": "items/custShoM14.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -711,8 +711,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custLegsM2",
-    "Icon": "items/custLegsM2.png",
+    "Id": "custLegM2",
+    "Icon": "items/custLegM2.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -720,8 +720,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custLegsM3",
-    "Icon": "items/custLegsM3.png",
+    "Id": "custLegM3",
+    "Icon": "items/custLegM3.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -729,8 +729,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custLegsM4",
-    "Icon": "items/custLegsM4.png",
+    "Id": "custLegM4",
+    "Icon": "items/custLegM4.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -738,8 +738,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custLegsM5",
-    "Icon": "items/custLegsM5.png",
+    "Id": "custLegM5",
+    "Icon": "items/custLegM5.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -747,8 +747,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custLegsM6",
-    "Icon": "items/custLegsM6.png",
+    "Id": "custLegM6",
+    "Icon": "items/custLegM6.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -756,8 +756,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custLegsM7",
-    "Icon": "items/custLegsM7.png",
+    "Id": "custLegM7",
+    "Icon": "items/custLegM7.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -765,8 +765,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custLegsM8",
-    "Icon": "items/custLegsM8.png",
+    "Id": "custLegM8",
+    "Icon": "items/custLegM8.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -774,8 +774,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custLegsM9",
-    "Icon": "items/custLegsM9.png",
+    "Id": "custLegM9",
+    "Icon": "items/custLegM9.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -783,8 +783,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custLegsM10",
-    "Icon": "items/custLegsM10.png",
+    "Id": "custLegM10",
+    "Icon": "items/custLegM10.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -792,8 +792,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custLegsM11",
-    "Icon": "items/custLegsM11.png",
+    "Id": "custLegM11",
+    "Icon": "items/custLegM11.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -801,8 +801,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custLegsM12",
-    "Icon": "items/custLegsM12.png",
+    "Id": "custLegM12",
+    "Icon": "items/custLegM12.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -810,8 +810,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custLegsM13",
-    "Icon": "items/custLegsM13.png",
+    "Id": "custLegM13",
+    "Icon": "items/custLegM13.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -819,8 +819,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custLegsM14",
-    "Icon": "items/custLegsM14.png",
+    "Id": "custLegM14",
+    "Icon": "items/custLegM14.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -828,8 +828,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custFacialHairM1",
-    "Icon": "items/custFacialHairM1.png",
+    "Id": "custFacM1",
+    "Icon": "items/custFacM1.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -837,8 +837,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custFacialHairF1",
-    "Icon": "items/custFacialHairF1.png",
+    "Id": "custFacF1",
+    "Icon": "items/custFacF1.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -846,8 +846,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custFacialHairM2",
-    "Icon": "items/custFacialHairM2.png",
+    "Id": "custFacM2",
+    "Icon": "items/custFacM2.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -855,8 +855,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custFacialHairF2",
-    "Icon": "items/custFacialHairF2.png",
+    "Id": "custFacF2",
+    "Icon": "items/custFacF2.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -864,8 +864,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custFacialHairM3",
-    "Icon": "items/custFacialHairM3.png",
+    "Id": "custFacM3",
+    "Icon": "items/custFacM3.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -873,8 +873,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custFacialHairF3",
-    "Icon": "items/custFacialHairF3.png",
+    "Id": "custFacF3",
+    "Icon": "items/custFacF3.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -882,8 +882,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custFacialHairM4",
-    "Icon": "items/custFacialHairM4.png",
+    "Id": "custFacM4",
+    "Icon": "items/custFacM4.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -891,8 +891,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custFacialHairF4",
-    "Icon": "items/custFacialHairF4.png",
+    "Id": "custFacF4",
+    "Icon": "items/custFacF4.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -900,8 +900,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custFacialHairM5",
-    "Icon": "items/custFacialHairM5.png",
+    "Id": "custFacM5",
+    "Icon": "items/custFacM5.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -909,8 +909,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custFacialHairF5",
-    "Icon": "items/custFacialHairF5.png",
+    "Id": "custFacF5",
+    "Icon": "items/custFacF5.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -918,8 +918,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custFacialHairM6",
-    "Icon": "items/custFacialHairM6.png",
+    "Id": "custFacM6",
+    "Icon": "items/custFacM6.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -927,8 +927,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custFacialHairF6",
-    "Icon": "items/custFacialHairF6.png",
+    "Id": "custFacF6",
+    "Icon": "items/custFacF6.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -936,8 +936,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custFacialHairM7",
-    "Icon": "items/custFacialHairM7.png",
+    "Id": "custFacM7",
+    "Icon": "items/custFacM7.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -945,8 +945,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custFacialHairF7",
-    "Icon": "items/custFacialHairF7.png",
+    "Id": "custFacF7",
+    "Icon": "items/custFacF7.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -954,8 +954,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custFacialHairM8",
-    "Icon": "items/custFacialHairM8.png",
+    "Id": "custFacM8",
+    "Icon": "items/custFacM8.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -963,8 +963,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custFacialHairF8",
-    "Icon": "items/custFacialHairF8.png",
+    "Id": "custFacF8",
+    "Icon": "items/custFacF8.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -972,8 +972,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custFacialHairM9",
-    "Icon": "items/custFacialHairM9.png",
+    "Id": "custFacM9",
+    "Icon": "items/custFacM9.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -981,8 +981,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custFacialHairF9",
-    "Icon": "items/custFacialHairF9.png",
+    "Id": "custFacF9",
+    "Icon": "items/custFacF9.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -990,8 +990,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custFacialHairM10",
-    "Icon": "items/custFacialHairM10.png",
+    "Id": "custFacM10",
+    "Icon": "items/custFacM10.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -999,8 +999,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custFacialHairF10",
-    "Icon": "items/custFacialHairF10.png",
+    "Id": "custFacF10",
+    "Icon": "items/custFacF10.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -1008,8 +1008,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custFacialHairM11",
-    "Icon": "items/custFacialHairM11.png",
+    "Id": "custFacM11",
+    "Icon": "items/custFacM11.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -1017,8 +1017,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custFacialHairF11",
-    "Icon": "items/custFacialHairF11.png",
+    "Id": "custFacF11",
+    "Icon": "items/custFacF11.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -1026,8 +1026,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custFacialHairM12",
-    "Icon": "items/custFacialHairM12.png",
+    "Id": "custFacM12",
+    "Icon": "items/custFacM12.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -1035,8 +1035,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custFacialHairF12",
-    "Icon": "items/custFacialHairF12.png",
+    "Id": "custFacF12",
+    "Icon": "items/custFacF12.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -1044,8 +1044,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custFacialHairM13",
-    "Icon": "items/custFacialHairM13.png",
+    "Id": "custFacM13",
+    "Icon": "items/custFacM13.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -1053,8 +1053,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custFacialHairF13",
-    "Icon": "items/custFacialHairF13.png",
+    "Id": "custFacF13",
+    "Icon": "items/custFacF13.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -1062,8 +1062,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custFacialHairM14",
-    "Icon": "items/custFacialHairM14.png",
+    "Id": "custFacM14",
+    "Icon": "items/custFacM14.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -1071,8 +1071,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custFacialHairF14",
-    "Icon": "items/custFacialHairF14.png",
+    "Id": "custFacF14",
+    "Icon": "items/custFacF14.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -1080,8 +1080,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custHairM1",
-    "Icon": "items/custHairM1.png",
+    "Id": "custHaiM1",
+    "Icon": "items/custHaiM1.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -1089,8 +1089,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custHairF1",
-    "Icon": "items/custHairF1.png",
+    "Id": "custHaiF1",
+    "Icon": "items/custHaiF1.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -1098,8 +1098,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custHairM2",
-    "Icon": "items/custHairM2.png",
+    "Id": "custHaiM2",
+    "Icon": "items/custHaiM2.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -1107,8 +1107,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custHairF2",
-    "Icon": "items/custHairF2.png",
+    "Id": "custHaiF2",
+    "Icon": "items/custHaiF2.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -1116,8 +1116,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custHairM3",
-    "Icon": "items/custHairM3.png",
+    "Id": "custHaiM3",
+    "Icon": "items/custHaiM3.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -1125,8 +1125,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custHairF3",
-    "Icon": "items/custHairF3.png",
+    "Id": "custHaiF3",
+    "Icon": "items/custHaiF3.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -1134,8 +1134,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custHairM4",
-    "Icon": "items/custHairM4.png",
+    "Id": "custHaiM4",
+    "Icon": "items/custHaiM4.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -1143,8 +1143,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custHairF4",
-    "Icon": "items/custHairF4.png",
+    "Id": "custHaiF4",
+    "Icon": "items/custHaiF4.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -1152,8 +1152,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custHairM5",
-    "Icon": "items/custHairM5.png",
+    "Id": "custHaiM5",
+    "Icon": "items/custHaiM5.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -1161,8 +1161,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custHairF5",
-    "Icon": "items/custHairF5.png",
+    "Id": "custHaiF5",
+    "Icon": "items/custHaiF5.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -1170,8 +1170,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custHairM6",
-    "Icon": "items/custHairM6.png",
+    "Id": "custHaiM6",
+    "Icon": "items/custHaiM6.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -1179,8 +1179,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custHairF6",
-    "Icon": "items/custHairF6.png",
+    "Id": "custHaiF6",
+    "Icon": "items/custHaiF6.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -1188,8 +1188,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custHairM7",
-    "Icon": "items/custHairM7.png",
+    "Id": "custHaiM7",
+    "Icon": "items/custHaiM7.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -1197,8 +1197,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custHairF7",
-    "Icon": "items/custHairF7.png",
+    "Id": "custHaiF7",
+    "Icon": "items/custHaiF7.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -1206,8 +1206,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custHairM8",
-    "Icon": "items/custHairM8.png",
+    "Id": "custHaiM8",
+    "Icon": "items/custHaiM8.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -1215,8 +1215,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custHairF8",
-    "Icon": "items/custHairF8.png",
+    "Id": "custHaiF8",
+    "Icon": "items/custHaiF8.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -1224,8 +1224,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custHairM9",
-    "Icon": "items/custHairM9.png",
+    "Id": "custHaiM9",
+    "Icon": "items/custHaiM9.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -1233,8 +1233,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custHairF9",
-    "Icon": "items/custHairF9.png",
+    "Id": "custHaiF9",
+    "Icon": "items/custHaiF9.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -1242,8 +1242,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custHairM10",
-    "Icon": "items/custHairM10.png",
+    "Id": "custHaiM10",
+    "Icon": "items/custHaiM10.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -1251,8 +1251,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custHairF10",
-    "Icon": "items/custHairF10.png",
+    "Id": "custHaiF10",
+    "Icon": "items/custHaiF10.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -1260,8 +1260,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custHairM11",
-    "Icon": "items/custHairM11.png",
+    "Id": "custHaiM11",
+    "Icon": "items/custHaiM11.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -1269,8 +1269,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custHairF11",
-    "Icon": "items/custHairF11.png",
+    "Id": "custHaiF11",
+    "Icon": "items/custHaiF11.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -1278,8 +1278,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custHairM12",
-    "Icon": "items/custHairM12.png",
+    "Id": "custHaiM12",
+    "Icon": "items/custHaiM12.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -1287,8 +1287,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custHairF12",
-    "Icon": "items/custHairF12.png",
+    "Id": "custHaiF12",
+    "Icon": "items/custHaiF12.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -1296,8 +1296,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custHairM13",
-    "Icon": "items/custHairM13.png",
+    "Id": "custHaiM13",
+    "Icon": "items/custHaiM13.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -1305,8 +1305,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custHairF13",
-    "Icon": "items/custHairF13.png",
+    "Id": "custHaiF13",
+    "Icon": "items/custHaiF13.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -1314,8 +1314,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custHairM14",
-    "Icon": "items/custHairM14.png",
+    "Id": "custHaiM14",
+    "Icon": "items/custHaiM14.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -1323,8 +1323,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custHairF14",
-    "Icon": "items/custHairF14.png",
+    "Id": "custHaiF14",
+    "Icon": "items/custHaiF14.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -1332,8 +1332,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custHatsM1",
-    "Icon": "items/custHatsM1.png",
+    "Id": "custHatM1",
+    "Icon": "items/custHatM1.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -1341,8 +1341,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custHatsM2",
-    "Icon": "items/custHatsM2.png",
+    "Id": "custHatM2",
+    "Icon": "items/custHatM2.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -1350,8 +1350,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custHatsM3",
-    "Icon": "items/custHatsM3.png",
+    "Id": "custHatM3",
+    "Icon": "items/custHatM3.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -1359,8 +1359,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custHatsM4",
-    "Icon": "items/custHatsM4.png",
+    "Id": "custHatM4",
+    "Icon": "items/custHatM4.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -1368,8 +1368,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custHatsM5",
-    "Icon": "items/custHatsM5.png",
+    "Id": "custHatM5",
+    "Icon": "items/custHatM5.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -1377,8 +1377,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custHatsM6",
-    "Icon": "items/custHatsM6.png",
+    "Id": "custHatM6",
+    "Icon": "items/custHatM6.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -1386,8 +1386,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custHatsM7",
-    "Icon": "items/custHatsM7.png",
+    "Id": "custHatM7",
+    "Icon": "items/custHatM7.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -1395,8 +1395,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custHatsM8",
-    "Icon": "items/custHatsM8.png",
+    "Id": "custHatM8",
+    "Icon": "items/custHatM8.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -1404,8 +1404,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custHatsM9",
-    "Icon": "items/custHatsM9.png",
+    "Id": "custHatM9",
+    "Icon": "items/custHatM9.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -1413,8 +1413,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custHatsM10",
-    "Icon": "items/custHatsM10.png",
+    "Id": "custHatM10",
+    "Icon": "items/custHatM10.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -1422,8 +1422,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custHatsM11",
-    "Icon": "items/custHatsM11.png",
+    "Id": "custHatM11",
+    "Icon": "items/custHatM11.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -1431,8 +1431,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custBackpackM1",
-    "Icon": "items/custBackpackM1.png",
+    "Id": "custBacM1",
+    "Icon": "items/custBacM1.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -1440,8 +1440,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custBackpackM2",
-    "Icon": "items/custBackpackM2.png",
+    "Id": "custBacM2",
+    "Icon": "items/custBacM2.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -1449,8 +1449,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custBackpackM3",
-    "Icon": "items/custBackpackM3.png",
+    "Id": "custBacM3",
+    "Icon": "items/custBacM3.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -1458,8 +1458,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custBackpackM4",
-    "Icon": "items/custBackpackM4.png",
+    "Id": "custBacM4",
+    "Icon": "items/custBacM4.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -1467,8 +1467,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custBackpackM5",
-    "Icon": "items/custBackpackM5.png",
+    "Id": "custBacM5",
+    "Icon": "items/custBacM5.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -1476,8 +1476,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custBackpackM6",
-    "Icon": "items/custBackpackM6.png",
+    "Id": "custBacM6",
+    "Icon": "items/custBacM6.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -1485,8 +1485,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custBackpackM7",
-    "Icon": "items/custBackpackM7.png",
+    "Id": "custBacM7",
+    "Icon": "items/custBacM7.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -1494,8 +1494,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custBackpackM8",
-    "Icon": "items/custBackpackM8.png",
+    "Id": "custBacM8",
+    "Icon": "items/custBacM8.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -1503,8 +1503,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custBackpackM9",
-    "Icon": "items/custBackpackM9.png",
+    "Id": "custBacM9",
+    "Icon": "items/custBacM9.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -1512,8 +1512,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custBackpackM10",
-    "Icon": "items/custBackpackM10.png",
+    "Id": "custBacM10",
+    "Icon": "items/custBacM10.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -1521,8 +1521,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custBackpackM11",
-    "Icon": "items/custBackpackM11.png",
+    "Id": "custBacM11",
+    "Icon": "items/custBacM11.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,

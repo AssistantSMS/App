@@ -35,8 +35,8 @@ class Home extends StatelessWidget {
   }
 
   Widget getBody(BuildContext context) {
-    const smallImage = 40.0;
-    const largeImage = 65.0;
+    const smallImage = 100.0;
+    const largeImage = 200.0;
 
     var tileColour =
         getIsDark(context) ? Colors.blueGrey[600] : Colors.blueGrey[300];
@@ -46,8 +46,7 @@ class Home extends StatelessWidget {
           childBuilder: (BuildContext childContext) =>
               responsiveStaggeredGridImageTilePresenter(
             context,
-            AppImage.craftBot,
-            tileColour, // Colors.blue[500],
+            AppImage.craftTile,
             text: getCraftBotPageName(),
             height: largeImage,
             onTap: () async => await navigateAwayFromHomeAsync(
@@ -64,8 +63,7 @@ class Home extends StatelessWidget {
           childBuilder: (BuildContext childContext) =>
               responsiveStaggeredGridImageTilePresenter(
             context,
-            AppImage.cookBot,
-            tileColour, // Colors.green[900],
+            AppImage.workshopTile,
             text: getWorkbenchPageName(),
             height: smallImage,
             onTap: () async => await navigateAwayFromHomeAsync(
@@ -83,7 +81,6 @@ class Home extends StatelessWidget {
               responsiveStaggeredGridImageTilePresenter(
             context,
             AppImage.block,
-            tileColour, // Colors.blueGrey,
             text: getBlocksAndItemsPageName(),
             height: largeImage,
             onTap: () async => await navigateAwayFromHomeAsync(
@@ -100,8 +97,7 @@ class Home extends StatelessWidget {
           childBuilder: (BuildContext childContext) =>
               responsiveStaggeredGridImageTilePresenter(
             context,
-            AppImage.refiner,
-            tileColour, // Colors.orange[900],
+            AppImage.resourceTile,
             text: getDispensorPageName(),
             height: smallImage,
             onTap: () async => await navigateAwayFromHomeAsync(
@@ -118,8 +114,7 @@ class Home extends StatelessWidget {
           childBuilder: (BuildContext childContext) =>
               responsiveStaggeredGridImageTilePresenter(
             context,
-            AppImage.cookBot,
-            tileColour, // Colors.green[300],
+            AppImage.cookingTile,
             text: getCookBotPageName(),
             height: smallImage,
             onTap: () async => await navigateAwayFromHomeAsync(
@@ -136,8 +131,7 @@ class Home extends StatelessWidget {
           childBuilder: (BuildContext childContext) =>
               responsiveStaggeredGridImageTilePresenter(
             context,
-            AppImage.refiner,
-            tileColour, // Colors.brown,
+            AppImage.refinerTile,
             text: getRefinerPageName(),
             height: smallImage,
             onTap: () async => await navigateAwayFromHomeAsync(
@@ -154,8 +148,7 @@ class Home extends StatelessWidget {
           childBuilder: (BuildContext childContext) =>
               responsiveStaggeredGridImageTilePresenter(
             context,
-            AppImage.dressBot,
-            tileColour, // Colors.amber,
+            AppImage.dressTile,
             text: getDressBotPageName(),
             height: smallImage,
             onTap: () async => await navigateAwayFromHomeAsync(
@@ -173,9 +166,7 @@ class Home extends StatelessWidget {
               responsiveStaggeredGridIconTilePresenter(
             context,
             Icons.shopping_basket,
-            tileColour, // Colors.purple[300],
             text: getCartPageName(),
-            height: smallImage,
             onTap: () async => await navigateAwayFromHomeAsync(
               context,
               navigateToNamed: Routes.cart,
@@ -188,9 +179,7 @@ class Home extends StatelessWidget {
               responsiveStaggeredGridIconTilePresenter(
             context,
             Icons.new_releases,
-            tileColour, // Colors.black,
             text: getSteamNewsPageName(),
-            height: smallImage,
             onTap: () async => await navigateAwayFromHomeAsync(
               context,
               navigateToNamed: Routes.steamNews,

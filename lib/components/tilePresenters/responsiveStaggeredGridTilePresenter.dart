@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import '../../helpers/colourHelper.dart';
 import '../../helpers/genericHelper.dart';
 import '../../localization/localeKey.dart';
-import '../../localization/translations.dart';
 
 Widget responsiveStaggeredGridTilePresenter(
         IconData icon, Color backgroundColor,
@@ -30,7 +29,7 @@ Widget responsiveStaggeredGridTilePresenter(
     );
 
 Widget responsiveStaggeredGridImageTilePresenter(
-    BuildContext context, String imgPath, Color backgroundColor,
+    BuildContext context, String imgPath,
     {Color iconColor, LocaleKey text, double height, Function() onTap}) {
   var safeOnTap = () {
     if (onTap != null) onTap();
@@ -38,7 +37,6 @@ Widget responsiveStaggeredGridImageTilePresenter(
   return responsiveStaggeredGridBaseTilePresenter(
     context,
     genericItemImage(context, imgPath, height: height, onTap: safeOnTap),
-    backgroundColor,
     iconColor: iconColor,
     text: text,
     height: height,
@@ -47,7 +45,7 @@ Widget responsiveStaggeredGridImageTilePresenter(
 }
 
 Widget responsiveStaggeredGridIconTilePresenter(
-    BuildContext context, IconData icon, Color backgroundColor,
+    BuildContext context, IconData icon,
     {Color iconColor, LocaleKey text, double height, Function() onTap}) {
   var safeOnTap = () {
     if (onTap != null) onTap();
@@ -58,12 +56,11 @@ Widget responsiveStaggeredGridIconTilePresenter(
       child: getCorrectlySizedImageFromIcon(
         context,
         icon,
-        maxSize: height,
-        colour: getForegroundTextColour(backgroundColor),
+        maxSize: 50,
+        colour: Colors.white,
       ),
       onTap: safeOnTap,
     ),
-    backgroundColor,
     iconColor: iconColor,
     text: text,
     height: height,
@@ -72,7 +69,7 @@ Widget responsiveStaggeredGridIconTilePresenter(
 }
 
 Widget responsiveStaggeredGridBaseTilePresenter(
-    BuildContext context, Widget image, Color backgroundColor,
+    BuildContext context, Widget image,
     {Color iconColor, LocaleKey text, double height, Function() onTap}) {
   var safeOnTap = () {
     if (onTap != null) onTap();
@@ -80,34 +77,43 @@ Widget responsiveStaggeredGridBaseTilePresenter(
 
   List<Widget> children = List<Widget>();
   children.add(Center(child: image));
-  if (text != null) {
-    children.add(
-      /*Positioned(
-      child: */
-      Padding(
-        child: Text(
-          Translations.get(context, text),
-          textAlign: TextAlign.center,
-          maxLines: 1,
-          style: TextStyle(
-            color: getForegroundTextColour(backgroundColor),
-          ),
-        ),
-        padding: EdgeInsets.only(left: 8, top: 4, right: 8),
-      ), /*,
-      bottom: 8,
-      left: 4,
-      right: 4,
-    )*/
-    );
-  }
+  // if (text != null) {
+  //   children.add(Positioned(
+  //     child: Padding(
+  //       child: Text(
+  //         Translations.get(context, text),
+  //         textAlign: TextAlign.center,
+  //         maxLines: 1,
+  //         style: TextStyle(
+  //           color: getForegroundTextColour(backgroundColor),
+  //         ),
+  //       ),
+  //       padding: EdgeInsets.only(left: 8, top: 4, right: 8),
+  //     ),
+  //     bottom: 8,
+  //     left: 4,
+  //     right: 4,
+  //   ));
+  // }
+
+  // var backgroundColor = backgroundColor;
+  // var backgroundColor =HexColor("4B7287");
+  // var backgroundColor = HexColor("21536C");
+  var backgroundColor = getSecondaryColour(context);
   return Card(
     color: backgroundColor,
     child: InkWell(
-        onTap: safeOnTap,
-        child: Column(
-          children: children,
-          mainAxisAlignment: MainAxisAlignment.center,
-        )),
+      onTap: safeOnTap,
+      child: Stack(
+        children: children,
+        // mainAxisAlignment: MainAxisAlignment.center,
+      ),
+    ),
+    // shape: RoundedRectangleBorder(
+    //   borderRadius: BorderRadius.only(
+    //     topRight: Radius.circular(25),
+    //     bottomLeft: Radius.circular(25),
+    //   ),
+    // ),
   );
 }

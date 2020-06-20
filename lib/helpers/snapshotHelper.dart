@@ -8,7 +8,7 @@ Widget asyncSnapshotHandler<T>(BuildContext context, AsyncSnapshot<T> snapshot,
     {bool Function(T) isValidFunction,
     Widget Function() invalidBuilder,
     Widget Function() loader}) {
-  Widget errorWidget = const Text('An Error has occurred');
+  Widget errorWidget = const Center(child: const Text('An Error has occurred'));
   switch (snapshot.connectionState) {
     case ConnectionState.none:
       return errorWidget;

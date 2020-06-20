@@ -5,6 +5,7 @@ class IdPrefix {
   static const String consumable = "consu";
   static const String containers = "cont";
   static const String craftbot = "craftb";
+  static const String customisation = "cust";
   static const String decor = "deco";
   static const String gitting = "fitt";
   static const String harvest = "harv";

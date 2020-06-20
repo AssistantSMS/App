@@ -46,6 +46,8 @@ String getBaseFileName(LocaleKey detailsJson) {
       return BaseJson.containers;
     case LocaleKey.craftbotJson:
       return BaseJson.craftbot;
+    case LocaleKey.customisationJson:
+      return BaseJson.customisation;
     case LocaleKey.decorJson:
       return BaseJson.decor;
     case LocaleKey.gittingJson:

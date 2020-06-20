@@ -198,35 +198,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custTorsoM1",
-    "Icon": "items/custTorsoM1.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
-    "Id": "custTorsoF1",
-    "Icon": "unknown.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
     "Id": "custTorsoM2",
     "Icon": "items/custTorsoM2.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
-    "Id": "custTorsoF2",
-    "Icon": "unknown.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -243,26 +216,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custTorsoF3",
-    "Icon": "unknown.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
     "Id": "custTorsoM4",
     "Icon": "items/custTorsoM4.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
-    "Id": "custTorsoF4",
-    "Icon": "unknown.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -279,26 +234,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custTorsoF5",
-    "Icon": "unknown.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
     "Id": "custTorsoM6",
     "Icon": "items/custTorsoM6.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
-    "Id": "custTorsoF6",
-    "Icon": "unknown.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -315,26 +252,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custTorsoF7",
-    "Icon": "unknown.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
     "Id": "custTorsoM8",
     "Icon": "items/custTorsoM8.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
-    "Id": "custTorsoF8",
-    "Icon": "unknown.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -351,26 +270,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custTorsoF9",
-    "Icon": "unknown.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
     "Id": "custTorsoM10",
     "Icon": "items/custTorsoM10.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
-    "Id": "custTorsoF10",
-    "Icon": "unknown.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -387,26 +288,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custTorsoF11",
-    "Icon": "unknown.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
     "Id": "custTorsoM12",
     "Icon": "items/custTorsoM12.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
-    "Id": "custTorsoF12",
-    "Icon": "unknown.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -423,26 +306,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custTorsoF13",
-    "Icon": "unknown.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
     "Id": "custTorsoM14",
     "Icon": "items/custTorsoM14.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
-    "Id": "custTorsoF14",
-    "Icon": "unknown.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -459,26 +324,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custTorsoF15",
-    "Icon": "unknown.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
     "Id": "custTorsoM16",
     "Icon": "items/custTorsoM16.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
-    "Id": "custTorsoF16",
-    "Icon": "unknown.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -495,26 +342,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custTorsoF17",
-    "Icon": "unknown.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
     "Id": "custTorsoM18",
     "Icon": "items/custTorsoM18.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
-    "Id": "custTorsoF18",
-    "Icon": "unknown.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -531,26 +360,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custTorsoF19",
-    "Icon": "unknown.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
     "Id": "custTorsoM20",
     "Icon": "items/custTorsoM20.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
-    "Id": "custTorsoF20",
-    "Icon": "unknown.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -567,26 +378,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custTorsoF21",
-    "Icon": "unknown.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
     "Id": "custTorsoM22",
     "Icon": "items/custTorsoM22.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
-    "Id": "custTorsoF22",
-    "Icon": "unknown.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -603,26 +396,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custTorsoF23",
-    "Icon": "unknown.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
     "Id": "custTorsoM24",
     "Icon": "items/custTorsoM24.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
-    "Id": "custTorsoF24",
-    "Icon": "unknown.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -639,26 +414,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custTorsoF25",
-    "Icon": "unknown.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
     "Id": "custTorsoM26",
     "Icon": "items/custTorsoM26.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
-    "Id": "custTorsoF26",
-    "Icon": "unknown.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -675,26 +432,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custTorsoF27",
-    "Icon": "unknown.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
     "Id": "custTorsoM28",
     "Icon": "items/custTorsoM28.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
-    "Id": "custTorsoF28",
-    "Icon": "unknown.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -711,26 +450,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custTorsoF29",
-    "Icon": "unknown.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
     "Id": "custTorsoM30",
     "Icon": "items/custTorsoM30.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
-    "Id": "custTorsoF30",
-    "Icon": "unknown.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -747,44 +468,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custTorsoF31",
-    "Icon": "unknown.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
     "Id": "custTorsoM32",
     "Icon": "items/custTorsoM32.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
-    "Id": "custTorsoF32",
-    "Icon": "unknown.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
-    "Id": "custGlovesM1",
-    "Icon": "items/custGlovesM1.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
-    "Id": "custGlovesF1",
-    "Icon": "unknown.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -801,26 +486,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custGlovesF2",
-    "Icon": "unknown.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
     "Id": "custGlovesM3",
     "Icon": "items/custGlovesM3.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
-    "Id": "custGlovesF3",
-    "Icon": "unknown.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -837,26 +504,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custGlovesF4",
-    "Icon": "unknown.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
     "Id": "custGlovesM5",
     "Icon": "items/custGlovesM5.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
-    "Id": "custGlovesF5",
-    "Icon": "unknown.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -873,26 +522,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custGlovesF6",
-    "Icon": "unknown.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
     "Id": "custGlovesM7",
     "Icon": "items/custGlovesM7.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
-    "Id": "custGlovesF7",
-    "Icon": "unknown.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -909,26 +540,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custGlovesF8",
-    "Icon": "unknown.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
     "Id": "custGlovesM9",
     "Icon": "items/custGlovesM9.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
-    "Id": "custGlovesF9",
-    "Icon": "unknown.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -945,26 +558,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custGlovesF10",
-    "Icon": "unknown.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
     "Id": "custGlovesM11",
     "Icon": "items/custGlovesM11.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
-    "Id": "custGlovesF11",
-    "Icon": "unknown.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -981,26 +576,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custGlovesF12",
-    "Icon": "unknown.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
     "Id": "custGlovesM13",
     "Icon": "items/custGlovesM13.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
-    "Id": "custGlovesF13",
-    "Icon": "unknown.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -1017,44 +594,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custGlovesF14",
-    "Icon": "unknown.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
-    "Id": "custShoesM1",
-    "Icon": "items/custShoesM1.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
-    "Id": "custShoesF1",
-    "Icon": "unknown.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
     "Id": "custShoesM2",
     "Icon": "items/custShoesM2.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
-    "Id": "custShoesF2",
-    "Icon": "unknown.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -1071,26 +612,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custShoesF3",
-    "Icon": "unknown.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
     "Id": "custShoesM4",
     "Icon": "items/custShoesM4.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
-    "Id": "custShoesF4",
-    "Icon": "unknown.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -1107,26 +630,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custShoesF5",
-    "Icon": "unknown.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
     "Id": "custShoesM6",
     "Icon": "items/custShoesM6.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
-    "Id": "custShoesF6",
-    "Icon": "unknown.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -1143,26 +648,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custShoesF7",
-    "Icon": "unknown.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
     "Id": "custShoesM8",
     "Icon": "items/custShoesM8.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
-    "Id": "custShoesF8",
-    "Icon": "unknown.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -1179,26 +666,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custShoesF9",
-    "Icon": "unknown.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
     "Id": "custShoesM10",
     "Icon": "items/custShoesM10.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
-    "Id": "custShoesF10",
-    "Icon": "unknown.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -1215,26 +684,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custShoesF11",
-    "Icon": "unknown.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
     "Id": "custShoesM12",
     "Icon": "items/custShoesM12.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
-    "Id": "custShoesF12",
-    "Icon": "unknown.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -1251,44 +702,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custShoesF13",
-    "Icon": "unknown.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
     "Id": "custShoesM14",
     "Icon": "items/custShoesM14.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
-    "Id": "custShoesF14",
-    "Icon": "unknown.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
-    "Id": "custLegsM1",
-    "Icon": "items/custLegsM1.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
-    "Id": "custLegsF1",
-    "Icon": "unknown.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -1305,26 +720,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custLegsF2",
-    "Icon": "unknown.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
     "Id": "custLegsM3",
     "Icon": "items/custLegsM3.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
-    "Id": "custLegsF3",
-    "Icon": "unknown.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -1341,26 +738,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custLegsF4",
-    "Icon": "unknown.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
     "Id": "custLegsM5",
     "Icon": "items/custLegsM5.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
-    "Id": "custLegsF5",
-    "Icon": "unknown.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -1377,26 +756,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custLegsF6",
-    "Icon": "unknown.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
     "Id": "custLegsM7",
     "Icon": "items/custLegsM7.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
-    "Id": "custLegsF7",
-    "Icon": "unknown.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -1413,26 +774,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custLegsF8",
-    "Icon": "unknown.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
     "Id": "custLegsM9",
     "Icon": "items/custLegsM9.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
-    "Id": "custLegsF9",
-    "Icon": "unknown.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -1449,26 +792,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custLegsF10",
-    "Icon": "unknown.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
     "Id": "custLegsM11",
     "Icon": "items/custLegsM11.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
-    "Id": "custLegsF11",
-    "Icon": "unknown.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -1485,15 +810,6 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custLegsF12",
-    "Icon": "unknown.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
     "Id": "custLegsM13",
     "Icon": "items/custLegsM13.png",
     "Color": "",
@@ -1503,26 +819,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custLegsF13",
-    "Icon": "unknown.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
     "Id": "custLegsM14",
     "Icon": "items/custLegsM14.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
-    "Id": "custLegsF14",
-    "Icon": "unknown.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -2043,26 +1341,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custHatsF1",
-    "Icon": "unknown.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
     "Id": "custHatsM2",
     "Icon": "items/custHatsM2.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
-    "Id": "custHatsF2",
-    "Icon": "unknown.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -2079,26 +1359,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custHatsF3",
-    "Icon": "unknown.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
     "Id": "custHatsM4",
     "Icon": "items/custHatsM4.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
-    "Id": "custHatsF4",
-    "Icon": "unknown.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -2115,26 +1377,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custHatsF5",
-    "Icon": "unknown.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
     "Id": "custHatsM6",
     "Icon": "items/custHatsM6.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
-    "Id": "custHatsF6",
-    "Icon": "unknown.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -2151,26 +1395,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custHatsF7",
-    "Icon": "unknown.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
     "Id": "custHatsM8",
     "Icon": "items/custHatsM8.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
-    "Id": "custHatsF8",
-    "Icon": "unknown.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -2187,26 +1413,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custHatsF9",
-    "Icon": "unknown.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
     "Id": "custHatsM10",
     "Icon": "items/custHatsM10.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
-    "Id": "custHatsF10",
-    "Icon": "unknown.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -2223,26 +1431,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custHatsF11",
-    "Icon": "unknown.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
     "Id": "custBackpackM1",
     "Icon": "items/custBackpackM1.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
-    "Id": "custBackpackF1",
-    "Icon": "unknown.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -2259,26 +1449,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custBackpackF2",
-    "Icon": "unknown.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
     "Id": "custBackpackM3",
     "Icon": "items/custBackpackM3.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
-    "Id": "custBackpackF3",
-    "Icon": "unknown.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -2295,26 +1467,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custBackpackF4",
-    "Icon": "unknown.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
     "Id": "custBackpackM5",
     "Icon": "items/custBackpackM5.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
-    "Id": "custBackpackF5",
-    "Icon": "unknown.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -2331,26 +1485,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custBackpackF6",
-    "Icon": "unknown.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
     "Id": "custBackpackM7",
     "Icon": "items/custBackpackM7.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
-    "Id": "custBackpackF7",
-    "Icon": "unknown.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -2367,26 +1503,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custBackpackF8",
-    "Icon": "unknown.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
     "Id": "custBackpackM9",
     "Icon": "items/custBackpackM9.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
-    "Id": "custBackpackF9",
-    "Icon": "unknown.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
@@ -2403,26 +1521,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custBackpackF10",
-    "Icon": "unknown.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
     "Id": "custBackpackM11",
     "Icon": "items/custBackpackM11.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
-    "Id": "custBackpackF11",
-    "Icon": "unknown.png",
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,

@@ -5,6 +5,7 @@ enum LocaleKey {
   consumableJson,
   containersJson,
   craftbotJson,
+  customisationJson,
   decorJson,
   gittingJson,
   harvestJson,

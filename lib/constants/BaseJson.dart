@@ -5,6 +5,7 @@ class BaseJson {
   static const String consumable = 'consumable';
   static const String containers = 'containers';
   static const String craftbot = 'craftbot';
+  static const String customisation = 'customisation';
   static const String decor = 'decor';
   static const String gitting = 'fittings';
   static const String harvest = 'harvests';

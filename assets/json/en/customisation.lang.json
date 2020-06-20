@@ -110,22 +110,7 @@
     "Description": "Face"
   },
   {
-    "Id": "custTorsoM1",
-    "Title": "None",
-    "Description": "Torso"
-  },
-  {
-    "Id": "custTorsoF1",
-    "Title": "None",
-    "Description": "Torso"
-  },
-  {
     "Id": "custTorsoM2",
-    "Title": "Mechanic Jacket",
-    "Description": "Torso"
-  },
-  {
-    "Id": "custTorsoF2",
     "Title": "Mechanic Jacket",
     "Description": "Torso"
   },
@@ -135,17 +120,7 @@
     "Description": "Torso"
   },
   {
-    "Id": "custTorsoF3",
-    "Title": "Crash Mechanic Jacket",
-    "Description": "Torso"
-  },
-  {
     "Id": "custTorsoM4",
-    "Title": "Applicator Jacket",
-    "Description": "Torso"
-  },
-  {
-    "Id": "custTorsoF4",
     "Title": "Applicator Jacket",
     "Description": "Torso"
   },
@@ -155,17 +130,7 @@
     "Description": "Torso"
   },
   {
-    "Id": "custTorsoF5",
-    "Title": "Automotive Jacket",
-    "Description": "Torso"
-  },
-  {
     "Id": "custTorsoM6",
-    "Title": "Delivery Jacket",
-    "Description": "Torso"
-  },
-  {
-    "Id": "custTorsoF6",
     "Title": "Delivery Jacket",
     "Description": "Torso"
   },
@@ -175,17 +140,7 @@
     "Description": "Torso"
   },
   {
-    "Id": "custTorsoF7",
-    "Title": "Demolition Jacket",
-    "Description": "Torso"
-  },
-  {
     "Id": "custTorsoM8",
-    "Title": "Lumberjack_ Jacket",
-    "Description": "Torso"
-  },
-  {
-    "Id": "custTorsoF8",
     "Title": "Lumberjack_ Jacket",
     "Description": "Torso"
   },
@@ -195,17 +150,7 @@
     "Description": "Torso"
   },
   {
-    "Id": "custTorsoF9",
-    "Title": "Farmer Jacket",
-    "Description": "Torso"
-  },
-  {
     "Id": "custTorsoM10",
-    "Title": "Engineer Jacket",
-    "Description": "Torso"
-  },
-  {
-    "Id": "custTorsoF10",
     "Title": "Engineer Jacket",
     "Description": "Torso"
   },
@@ -215,17 +160,7 @@
     "Description": "Torso"
   },
   {
-    "Id": "custTorsoF11",
-    "Title": "Painter Jacket",
-    "Description": "Torso"
-  },
-  {
     "Id": "custTorsoM12",
-    "Title": "Golf Jacket",
-    "Description": "Torso"
-  },
-  {
-    "Id": "custTorsoF12",
     "Title": "Golf Jacket",
     "Description": "Torso"
   },
@@ -235,17 +170,7 @@
     "Description": "Torso"
   },
   {
-    "Id": "custTorsoF13",
-    "Title": "Farmhand Jacket",
-    "Description": "Torso"
-  },
-  {
     "Id": "custTorsoM14",
-    "Title": "Technician Jacket",
-    "Description": "Torso"
-  },
-  {
-    "Id": "custTorsoF14",
     "Title": "Technician Jacket",
     "Description": "Torso"
   },
@@ -255,17 +180,7 @@
     "Description": "Torso"
   },
   {
-    "Id": "custTorsoF15",
-    "Title": "Torso",
-    "Description": "Torso"
-  },
-  {
     "Id": "custTorsoM16",
-    "Title": "Torso",
-    "Description": "Torso"
-  },
-  {
-    "Id": "custTorsoF16",
     "Title": "Torso",
     "Description": "Torso"
   },
@@ -275,17 +190,7 @@
     "Description": "Torso"
   },
   {
-    "Id": "custTorsoF17",
-    "Title": "Torso",
-    "Description": "Torso"
-  },
-  {
     "Id": "custTorsoM18",
-    "Title": "Torso",
-    "Description": "Torso"
-  },
-  {
-    "Id": "custTorsoF18",
     "Title": "Torso",
     "Description": "Torso"
   },
@@ -295,17 +200,7 @@
     "Description": "Torso"
   },
   {
-    "Id": "custTorsoF19",
-    "Title": "Torso",
-    "Description": "Torso"
-  },
-  {
     "Id": "custTorsoM20",
-    "Title": "Torso",
-    "Description": "Torso"
-  },
-  {
-    "Id": "custTorsoF20",
     "Title": "Torso",
     "Description": "Torso"
   },
@@ -315,17 +210,7 @@
     "Description": "Torso"
   },
   {
-    "Id": "custTorsoF21",
-    "Title": "Torso",
-    "Description": "Torso"
-  },
-  {
     "Id": "custTorsoM22",
-    "Title": "Torso",
-    "Description": "Torso"
-  },
-  {
-    "Id": "custTorsoF22",
     "Title": "Torso",
     "Description": "Torso"
   },
@@ -335,17 +220,7 @@
     "Description": "Torso"
   },
   {
-    "Id": "custTorsoF23",
-    "Title": "Torso",
-    "Description": "Torso"
-  },
-  {
     "Id": "custTorsoM24",
-    "Title": "Torso",
-    "Description": "Torso"
-  },
-  {
-    "Id": "custTorsoF24",
     "Title": "Torso",
     "Description": "Torso"
   },
@@ -355,17 +230,7 @@
     "Description": "Torso"
   },
   {
-    "Id": "custTorsoF25",
-    "Title": "Torso",
-    "Description": "Torso"
-  },
-  {
     "Id": "custTorsoM26",
-    "Title": "Torso",
-    "Description": "Torso"
-  },
-  {
-    "Id": "custTorsoF26",
     "Title": "Torso",
     "Description": "Torso"
   },
@@ -375,17 +240,7 @@
     "Description": "Torso"
   },
   {
-    "Id": "custTorsoF27",
-    "Title": "Torso",
-    "Description": "Torso"
-  },
-  {
     "Id": "custTorsoM28",
-    "Title": "Torso",
-    "Description": "Torso"
-  },
-  {
-    "Id": "custTorsoF28",
     "Title": "Torso",
     "Description": "Torso"
   },
@@ -395,17 +250,7 @@
     "Description": "Torso"
   },
   {
-    "Id": "custTorsoF29",
-    "Title": "Torso",
-    "Description": "Torso"
-  },
-  {
     "Id": "custTorsoM30",
-    "Title": "Torso",
-    "Description": "Torso"
-  },
-  {
-    "Id": "custTorsoF30",
     "Title": "Torso",
     "Description": "Torso"
   },
@@ -415,37 +260,12 @@
     "Description": "Torso"
   },
   {
-    "Id": "custTorsoF31",
-    "Title": "Torso",
-    "Description": "Torso"
-  },
-  {
     "Id": "custTorsoM32",
     "Title": "Torso",
     "Description": "Torso"
   },
   {
-    "Id": "custTorsoF32",
-    "Title": "Torso",
-    "Description": "Torso"
-  },
-  {
-    "Id": "custGlovesM1",
-    "Title": "None",
-    "Description": "Gloves"
-  },
-  {
-    "Id": "custGlovesF1",
-    "Title": "None",
-    "Description": "Gloves"
-  },
-  {
     "Id": "custGlovesM2",
-    "Title": "Mechanic Gloves",
-    "Description": "Gloves"
-  },
-  {
-    "Id": "custGlovesF2",
     "Title": "Mechanic Gloves",
     "Description": "Gloves"
   },
@@ -455,17 +275,7 @@
     "Description": "Gloves"
   },
   {
-    "Id": "custGlovesF3",
-    "Title": "Crash Mechanic Gloves",
-    "Description": "Gloves"
-  },
-  {
     "Id": "custGlovesM4",
-    "Title": "Applicator Gloves",
-    "Description": "Gloves"
-  },
-  {
-    "Id": "custGlovesF4",
     "Title": "Applicator Gloves",
     "Description": "Gloves"
   },
@@ -475,17 +285,7 @@
     "Description": "Gloves"
   },
   {
-    "Id": "custGlovesF5",
-    "Title": "Automotive Gloves",
-    "Description": "Gloves"
-  },
-  {
     "Id": "custGlovesM6",
-    "Title": "Delivery Shoes",
-    "Description": "Gloves"
-  },
-  {
-    "Id": "custGlovesF6",
     "Title": "Delivery Shoes",
     "Description": "Gloves"
   },
@@ -495,17 +295,7 @@
     "Description": "Gloves"
   },
   {
-    "Id": "custGlovesF7",
-    "Title": "Demolition Gloves",
-    "Description": "Gloves"
-  },
-  {
     "Id": "custGlovesM8",
-    "Title": "Lumberjack_ Gloves",
-    "Description": "Gloves"
-  },
-  {
-    "Id": "custGlovesF8",
     "Title": "Lumberjack_ Gloves",
     "Description": "Gloves"
   },
@@ -515,17 +305,7 @@
     "Description": "Gloves"
   },
   {
-    "Id": "custGlovesF9",
-    "Title": "Farmer Gloves",
-    "Description": "Gloves"
-  },
-  {
     "Id": "custGlovesM10",
-    "Title": "Engineer Gloves",
-    "Description": "Gloves"
-  },
-  {
-    "Id": "custGlovesF10",
     "Title": "Engineer Gloves",
     "Description": "Gloves"
   },
@@ -535,17 +315,7 @@
     "Description": "Gloves"
   },
   {
-    "Id": "custGlovesF11",
-    "Title": "Painter Gloves",
-    "Description": "Gloves"
-  },
-  {
     "Id": "custGlovesM12",
-    "Title": "Golf Gloves",
-    "Description": "Gloves"
-  },
-  {
-    "Id": "custGlovesF12",
     "Title": "Golf Gloves",
     "Description": "Gloves"
   },
@@ -555,37 +325,12 @@
     "Description": "Gloves"
   },
   {
-    "Id": "custGlovesF13",
-    "Title": "Farmhand Gloves",
-    "Description": "Gloves"
-  },
-  {
     "Id": "custGlovesM14",
     "Title": "Gloves",
     "Description": "Gloves"
   },
   {
-    "Id": "custGlovesF14",
-    "Title": "Gloves",
-    "Description": "Gloves"
-  },
-  {
-    "Id": "custShoesM1",
-    "Title": "None",
-    "Description": "Shoes"
-  },
-  {
-    "Id": "custShoesF1",
-    "Title": "None",
-    "Description": "Shoes"
-  },
-  {
     "Id": "custShoesM2",
-    "Title": "Mechanic Shoes",
-    "Description": "Shoes"
-  },
-  {
-    "Id": "custShoesF2",
     "Title": "Mechanic Shoes",
     "Description": "Shoes"
   },
@@ -595,17 +340,7 @@
     "Description": "Shoes"
   },
   {
-    "Id": "custShoesF3",
-    "Title": "Crash Mechanic Shoes",
-    "Description": "Shoes"
-  },
-  {
     "Id": "custShoesM4",
-    "Title": "Applicator Shoes",
-    "Description": "Shoes"
-  },
-  {
-    "Id": "custShoesF4",
     "Title": "Applicator Shoes",
     "Description": "Shoes"
   },
@@ -615,17 +350,7 @@
     "Description": "Shoes"
   },
   {
-    "Id": "custShoesF5",
-    "Title": "Automotive Shoes",
-    "Description": "Shoes"
-  },
-  {
     "Id": "custShoesM6",
-    "Title": "Shoes",
-    "Description": "Shoes"
-  },
-  {
-    "Id": "custShoesF6",
     "Title": "Shoes",
     "Description": "Shoes"
   },
@@ -635,17 +360,7 @@
     "Description": "Shoes"
   },
   {
-    "Id": "custShoesF7",
-    "Title": "Demolition Shoes",
-    "Description": "Shoes"
-  },
-  {
     "Id": "custShoesM8",
-    "Title": "Lumberjack Shoes",
-    "Description": "Shoes"
-  },
-  {
-    "Id": "custShoesF8",
     "Title": "Lumberjack Shoes",
     "Description": "Shoes"
   },
@@ -655,17 +370,7 @@
     "Description": "Shoes"
   },
   {
-    "Id": "custShoesF9",
-    "Title": "Farmer Shoes",
-    "Description": "Shoes"
-  },
-  {
     "Id": "custShoesM10",
-    "Title": "Engineer Shoes",
-    "Description": "Shoes"
-  },
-  {
-    "Id": "custShoesF10",
     "Title": "Engineer Shoes",
     "Description": "Shoes"
   },
@@ -675,17 +380,7 @@
     "Description": "Shoes"
   },
   {
-    "Id": "custShoesF11",
-    "Title": "Painter Shoes",
-    "Description": "Shoes"
-  },
-  {
     "Id": "custShoesM12",
-    "Title": "Golf Pants",
-    "Description": "Shoes"
-  },
-  {
-    "Id": "custShoesF12",
     "Title": "Golf Pants",
     "Description": "Shoes"
   },
@@ -695,37 +390,12 @@
     "Description": "Shoes"
   },
   {
-    "Id": "custShoesF13",
-    "Title": "Farmhand Shoes",
-    "Description": "Shoes"
-  },
-  {
     "Id": "custShoesM14",
     "Title": "Shoes",
     "Description": "Shoes"
   },
   {
-    "Id": "custShoesF14",
-    "Title": "Shoes",
-    "Description": "Shoes"
-  },
-  {
-    "Id": "custLegsM1",
-    "Title": "None",
-    "Description": "Legs"
-  },
-  {
-    "Id": "custLegsF1",
-    "Title": "None",
-    "Description": "Legs"
-  },
-  {
     "Id": "custLegsM2",
-    "Title": "Mechanic Pants",
-    "Description": "Legs"
-  },
-  {
-    "Id": "custLegsF2",
     "Title": "Mechanic Pants",
     "Description": "Legs"
   },
@@ -735,17 +405,7 @@
     "Description": "Legs"
   },
   {
-    "Id": "custLegsF3",
-    "Title": "Crash Mechanic Pants",
-    "Description": "Legs"
-  },
-  {
     "Id": "custLegsM4",
-    "Title": "Applicator Pants",
-    "Description": "Legs"
-  },
-  {
-    "Id": "custLegsF4",
     "Title": "Applicator Pants",
     "Description": "Legs"
   },
@@ -755,17 +415,7 @@
     "Description": "Legs"
   },
   {
-    "Id": "custLegsF5",
-    "Title": "Automotive Pants",
-    "Description": "Legs"
-  },
-  {
     "Id": "custLegsM6",
-    "Title": "Delivery Pants",
-    "Description": "Legs"
-  },
-  {
-    "Id": "custLegsF6",
     "Title": "Delivery Pants",
     "Description": "Legs"
   },
@@ -775,17 +425,7 @@
     "Description": "Legs"
   },
   {
-    "Id": "custLegsF7",
-    "Title": "Demolition Pants",
-    "Description": "Legs"
-  },
-  {
     "Id": "custLegsM8",
-    "Title": "Lumberjack Pants",
-    "Description": "Legs"
-  },
-  {
-    "Id": "custLegsF8",
     "Title": "Lumberjack Pants",
     "Description": "Legs"
   },
@@ -795,17 +435,7 @@
     "Description": "Legs"
   },
   {
-    "Id": "custLegsF9",
-    "Title": "Farmer Pants",
-    "Description": "Legs"
-  },
-  {
     "Id": "custLegsM10",
-    "Title": "Engineer Pants",
-    "Description": "Legs"
-  },
-  {
-    "Id": "custLegsF10",
     "Title": "Engineer Pants",
     "Description": "Legs"
   },
@@ -815,17 +445,7 @@
     "Description": "Legs"
   },
   {
-    "Id": "custLegsF11",
-    "Title": "Painter Pants",
-    "Description": "Legs"
-  },
-  {
     "Id": "custLegsM12",
-    "Title": "Duck Pants",
-    "Description": "Legs"
-  },
-  {
-    "Id": "custLegsF12",
     "Title": "Duck Pants",
     "Description": "Legs"
   },
@@ -835,17 +455,7 @@
     "Description": "Legs"
   },
   {
-    "Id": "custLegsF13",
-    "Title": "Farmhand Pants",
-    "Description": "Legs"
-  },
-  {
     "Id": "custLegsM14",
-    "Title": "Technician Pants",
-    "Description": "Legs"
-  },
-  {
-    "Id": "custLegsF14",
     "Title": "Technician Pants",
     "Description": "Legs"
   },
@@ -1135,17 +745,7 @@
     "Description": "Hats"
   },
   {
-    "Id": "custHatsF1",
-    "Title": "Applicator Hat",
-    "Description": "Hats"
-  },
-  {
     "Id": "custHatsM2",
-    "Title": "Automotive Hat",
-    "Description": "Hats"
-  },
-  {
-    "Id": "custHatsF2",
     "Title": "Automotive Hat",
     "Description": "Hats"
   },
@@ -1155,17 +755,7 @@
     "Description": "Hats"
   },
   {
-    "Id": "custHatsF3",
-    "Title": "Delivery Hat",
-    "Description": "Hats"
-  },
-  {
     "Id": "custHatsM4",
-    "Title": "Demolition Hat",
-    "Description": "Hats"
-  },
-  {
-    "Id": "custHatsF4",
     "Title": "Demolition Hat",
     "Description": "Hats"
   },
@@ -1175,17 +765,7 @@
     "Description": "Hats"
   },
   {
-    "Id": "custHatsF5",
-    "Title": "Lumberjack Hat",
-    "Description": "Hats"
-  },
-  {
     "Id": "custHatsM6",
-    "Title": "Farmer Hat",
-    "Description": "Hats"
-  },
-  {
-    "Id": "custHatsF6",
     "Title": "Farmer Hat",
     "Description": "Hats"
   },
@@ -1195,17 +775,7 @@
     "Description": "Hats"
   },
   {
-    "Id": "custHatsF7",
-    "Title": "Engineer Hat",
-    "Description": "Hats"
-  },
-  {
     "Id": "custHatsM8",
-    "Title": "Painter Hat",
-    "Description": "Hats"
-  },
-  {
-    "Id": "custHatsF8",
     "Title": "Painter Hat",
     "Description": "Hats"
   },
@@ -1215,17 +785,7 @@
     "Description": "Hats"
   },
   {
-    "Id": "custHatsF9",
-    "Title": "Golf Hat",
-    "Description": "Hats"
-  },
-  {
     "Id": "custHatsM10",
-    "Title": "Farmhand Hat",
-    "Description": "Hats"
-  },
-  {
-    "Id": "custHatsF10",
     "Title": "Farmhand Hat",
     "Description": "Hats"
   },
@@ -1235,17 +795,7 @@
     "Description": "Hats"
   },
   {
-    "Id": "custHatsF11",
-    "Title": "Technician Hat",
-    "Description": "Hats"
-  },
-  {
     "Id": "custBackpackM1",
-    "Title": "Mechanic Backpack",
-    "Description": "Backpack"
-  },
-  {
-    "Id": "custBackpackF1",
     "Title": "Mechanic Backpack",
     "Description": "Backpack"
   },
@@ -1255,17 +805,7 @@
     "Description": "Backpack"
   },
   {
-    "Id": "custBackpackF2",
-    "Title": "Crash Mechanic Backpack",
-    "Description": "Backpack"
-  },
-  {
     "Id": "custBackpackM3",
-    "Title": "Applicator Backpack",
-    "Description": "Backpack"
-  },
-  {
-    "Id": "custBackpackF3",
     "Title": "Applicator Backpack",
     "Description": "Backpack"
   },
@@ -1275,17 +815,7 @@
     "Description": "Backpack"
   },
   {
-    "Id": "custBackpackF4",
-    "Title": "Automotive Backpack",
-    "Description": "Backpack"
-  },
-  {
     "Id": "custBackpackM5",
-    "Title": "Delivery Backpack",
-    "Description": "Backpack"
-  },
-  {
-    "Id": "custBackpackF5",
     "Title": "Delivery Backpack",
     "Description": "Backpack"
   },
@@ -1295,17 +825,7 @@
     "Description": "Backpack"
   },
   {
-    "Id": "custBackpackF6",
-    "Title": "Demolition Backpack",
-    "Description": "Backpack"
-  },
-  {
     "Id": "custBackpackM7",
-    "Title": "Lumberjack Backpack",
-    "Description": "Backpack"
-  },
-  {
-    "Id": "custBackpackF7",
     "Title": "Lumberjack Backpack",
     "Description": "Backpack"
   },
@@ -1315,17 +835,7 @@
     "Description": "Backpack"
   },
   {
-    "Id": "custBackpackF8",
-    "Title": "Engineer Backpack",
-    "Description": "Backpack"
-  },
-  {
     "Id": "custBackpackM9",
-    "Title": "Painter Backpack",
-    "Description": "Backpack"
-  },
-  {
-    "Id": "custBackpackF9",
     "Title": "Painter Backpack",
     "Description": "Backpack"
   },
@@ -1335,17 +845,7 @@
     "Description": "Backpack"
   },
   {
-    "Id": "custBackpackF10",
-    "Title": "Golf Backpack",
-    "Description": "Backpack"
-  },
-  {
     "Id": "custBackpackM11",
-    "Title": "Technician Backpack",
-    "Description": "Backpack"
-  },
-  {
-    "Id": "custBackpackF11",
     "Title": "Technician Backpack",
     "Description": "Backpack"
   }

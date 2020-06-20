@@ -70,6 +70,7 @@ flutter:
     - assets/json/consumable.json
     - assets/json/containers.json
     - assets/json/craftbot.json
+    - assets/json/customisation.json
     - assets/json/decor.json
     - assets/json/fittings.json
     - assets/json/harvests.json
@@ -106,6 +107,7 @@ flutter:
     - assets/json/en/consumable.lang.json
     - assets/json/en/containers.lang.json
     - assets/json/en/craftbot.lang.json
+    - assets/json/en/customisation.lang.json
     - assets/json/en/decor.lang.json
     - assets/json/en/fittings.lang.json
     - assets/json/en/harvests.lang.json
@@ -376,10 +378,180 @@ flutter:
     - assets/img/items/cont9.png
     - assets/img/items/craftb1.png
     - assets/img/items/craftb2.png
-    - assets/img/items/craftb3.png
-    - assets/img/items/craftb4.png
-    - assets/img/items/craftb5.png
-    - assets/img/items/craftb6.png
+    - assets/img/items/custBackpackM1.png
+    - assets/img/items/custBackpackM10.png
+    - assets/img/items/custBackpackM11.png
+    - assets/img/items/custBackpackM2.png
+    - assets/img/items/custBackpackM3.png
+    - assets/img/items/custBackpackM4.png
+    - assets/img/items/custBackpackM5.png
+    - assets/img/items/custBackpackM6.png
+    - assets/img/items/custBackpackM7.png
+    - assets/img/items/custBackpackM8.png
+    - assets/img/items/custBackpackM9.png
+    - assets/img/items/custFaceF1.png
+    - assets/img/items/custFaceF10.png
+    - assets/img/items/custFaceF11.png
+    - assets/img/items/custFaceF2.png
+    - assets/img/items/custFaceF3.png
+    - assets/img/items/custFaceF4.png
+    - assets/img/items/custFaceF5.png
+    - assets/img/items/custFaceF6.png
+    - assets/img/items/custFaceF7.png
+    - assets/img/items/custFaceF8.png
+    - assets/img/items/custFaceF9.png
+    - assets/img/items/custFaceM1.png
+    - assets/img/items/custFaceM10.png
+    - assets/img/items/custFaceM11.png
+    - assets/img/items/custFaceM2.png
+    - assets/img/items/custFaceM3.png
+    - assets/img/items/custFaceM4.png
+    - assets/img/items/custFaceM5.png
+    - assets/img/items/custFaceM6.png
+    - assets/img/items/custFaceM7.png
+    - assets/img/items/custFaceM8.png
+    - assets/img/items/custFaceM9.png
+    - assets/img/items/custFacialHairF1.png
+    - assets/img/items/custFacialHairF10.png
+    - assets/img/items/custFacialHairF11.png
+    - assets/img/items/custFacialHairF12.png
+    - assets/img/items/custFacialHairF13.png
+    - assets/img/items/custFacialHairF14.png
+    - assets/img/items/custFacialHairF2.png
+    - assets/img/items/custFacialHairF3.png
+    - assets/img/items/custFacialHairF4.png
+    - assets/img/items/custFacialHairF5.png
+    - assets/img/items/custFacialHairF6.png
+    - assets/img/items/custFacialHairF7.png
+    - assets/img/items/custFacialHairF8.png
+    - assets/img/items/custFacialHairF9.png
+    - assets/img/items/custFacialHairM1.png
+    - assets/img/items/custFacialHairM10.png
+    - assets/img/items/custFacialHairM11.png
+    - assets/img/items/custFacialHairM12.png
+    - assets/img/items/custFacialHairM13.png
+    - assets/img/items/custFacialHairM14.png
+    - assets/img/items/custFacialHairM2.png
+    - assets/img/items/custFacialHairM3.png
+    - assets/img/items/custFacialHairM4.png
+    - assets/img/items/custFacialHairM5.png
+    - assets/img/items/custFacialHairM6.png
+    - assets/img/items/custFacialHairM7.png
+    - assets/img/items/custFacialHairM8.png
+    - assets/img/items/custFacialHairM9.png
+    - assets/img/items/custGlovesM1.png
+    - assets/img/items/custGlovesM10.png
+    - assets/img/items/custGlovesM11.png
+    - assets/img/items/custGlovesM12.png
+    - assets/img/items/custGlovesM13.png
+    - assets/img/items/custGlovesM14.png
+    - assets/img/items/custGlovesM2.png
+    - assets/img/items/custGlovesM3.png
+    - assets/img/items/custGlovesM4.png
+    - assets/img/items/custGlovesM5.png
+    - assets/img/items/custGlovesM6.png
+    - assets/img/items/custGlovesM7.png
+    - assets/img/items/custGlovesM8.png
+    - assets/img/items/custGlovesM9.png
+    - assets/img/items/custHairF1.png
+    - assets/img/items/custHairF10.png
+    - assets/img/items/custHairF11.png
+    - assets/img/items/custHairF12.png
+    - assets/img/items/custHairF13.png
+    - assets/img/items/custHairF14.png
+    - assets/img/items/custHairF2.png
+    - assets/img/items/custHairF3.png
+    - assets/img/items/custHairF4.png
+    - assets/img/items/custHairF5.png
+    - assets/img/items/custHairF6.png
+    - assets/img/items/custHairF7.png
+    - assets/img/items/custHairF8.png
+    - assets/img/items/custHairF9.png
+    - assets/img/items/custHairM1.png
+    - assets/img/items/custHairM10.png
+    - assets/img/items/custHairM11.png
+    - assets/img/items/custHairM12.png
+    - assets/img/items/custHairM13.png
+    - assets/img/items/custHairM14.png
+    - assets/img/items/custHairM2.png
+    - assets/img/items/custHairM3.png
+    - assets/img/items/custHairM4.png
+    - assets/img/items/custHairM5.png
+    - assets/img/items/custHairM6.png
+    - assets/img/items/custHairM7.png
+    - assets/img/items/custHairM8.png
+    - assets/img/items/custHairM9.png
+    - assets/img/items/custHatsM1.png
+    - assets/img/items/custHatsM10.png
+    - assets/img/items/custHatsM11.png
+    - assets/img/items/custHatsM2.png
+    - assets/img/items/custHatsM3.png
+    - assets/img/items/custHatsM4.png
+    - assets/img/items/custHatsM5.png
+    - assets/img/items/custHatsM6.png
+    - assets/img/items/custHatsM7.png
+    - assets/img/items/custHatsM8.png
+    - assets/img/items/custHatsM9.png
+    - assets/img/items/custLegsM1.png
+    - assets/img/items/custLegsM10.png
+    - assets/img/items/custLegsM11.png
+    - assets/img/items/custLegsM12.png
+    - assets/img/items/custLegsM13.png
+    - assets/img/items/custLegsM14.png
+    - assets/img/items/custLegsM2.png
+    - assets/img/items/custLegsM3.png
+    - assets/img/items/custLegsM4.png
+    - assets/img/items/custLegsM5.png
+    - assets/img/items/custLegsM6.png
+    - assets/img/items/custLegsM7.png
+    - assets/img/items/custLegsM8.png
+    - assets/img/items/custLegsM9.png
+    - assets/img/items/custShoesM1.png
+    - assets/img/items/custShoesM10.png
+    - assets/img/items/custShoesM11.png
+    - assets/img/items/custShoesM12.png
+    - assets/img/items/custShoesM13.png
+    - assets/img/items/custShoesM14.png
+    - assets/img/items/custShoesM2.png
+    - assets/img/items/custShoesM3.png
+    - assets/img/items/custShoesM4.png
+    - assets/img/items/custShoesM5.png
+    - assets/img/items/custShoesM6.png
+    - assets/img/items/custShoesM7.png
+    - assets/img/items/custShoesM8.png
+    - assets/img/items/custShoesM9.png
+    - assets/img/items/custTorsoM1.png
+    - assets/img/items/custTorsoM10.png
+    - assets/img/items/custTorsoM11.png
+    - assets/img/items/custTorsoM12.png
+    - assets/img/items/custTorsoM13.png
+    - assets/img/items/custTorsoM14.png
+    - assets/img/items/custTorsoM15.png
+    - assets/img/items/custTorsoM16.png
+    - assets/img/items/custTorsoM17.png
+    - assets/img/items/custTorsoM18.png
+    - assets/img/items/custTorsoM19.png
+    - assets/img/items/custTorsoM2.png
+    - assets/img/items/custTorsoM20.png
+    - assets/img/items/custTorsoM21.png
+    - assets/img/items/custTorsoM22.png
+    - assets/img/items/custTorsoM23.png
+    - assets/img/items/custTorsoM24.png
+    - assets/img/items/custTorsoM25.png
+    - assets/img/items/custTorsoM26.png
+    - assets/img/items/custTorsoM27.png
+    - assets/img/items/custTorsoM28.png
+    - assets/img/items/custTorsoM29.png
+    - assets/img/items/custTorsoM3.png
+    - assets/img/items/custTorsoM30.png
+    - assets/img/items/custTorsoM31.png
+    - assets/img/items/custTorsoM32.png
+    - assets/img/items/custTorsoM4.png
+    - assets/img/items/custTorsoM5.png
+    - assets/img/items/custTorsoM6.png
+    - assets/img/items/custTorsoM7.png
+    - assets/img/items/custTorsoM8.png
+    - assets/img/items/custTorsoM9.png
     - assets/img/items/deco1.png
     - assets/img/items/deco1.png
     - assets/img/items/deco10.png

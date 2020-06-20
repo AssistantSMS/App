@@ -6,6 +6,7 @@
   "consumableJson": "en/consumable.lang",
   "containersJson": "en/containers.lang",
   "craftbotJson": "en/craftbot.lang",
+  "customisationJson": "en/customisation.lang",
   "decorJson": "en/decor.lang",
   "gittingJson": "en/fittings.lang",
   "harvestJson": "en/harvests.lang",

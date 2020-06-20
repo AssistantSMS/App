@@ -28,6 +28,7 @@ class GameItemListPage extends StatelessWidget {
       appBar: appBarForSubPageHelper(
         context,
         title: Text(Translations.get(context, name)),
+        showHomeAction: true,
       ),
       body: ResponsiveListDetailView<GameItem>(
         () => getAllGameItemFromLocaleKeys(context, gameItemLocales),

@@ -79,7 +79,12 @@ class GameItemDetailPage extends StatelessWidget {
     AsyncSnapshot<ResultWithValue<GameItemPageItem>> snapshot,
   ) {
     TextEditingController controller = TextEditingController();
-    Widget errorWidget = asyncSnapshotHandler(context, snapshot);
+    Widget errorWidget = asyncSnapshotHandler(context, snapshot,
+        isValidFunction: (ResultWithValue<GameItemPageItem> gameItemResult) {
+      if (!gameItemResult.isSuccess) return false;
+      if (gameItemResult.value == null) return false;
+      return true;
+    });
     if (errorWidget != null) return errorWidget;
 
     var gameItem = snapshot?.data?.value?.gameItem;
@@ -151,7 +156,10 @@ class GameItemDetailPage extends StatelessWidget {
       widgets.add(Divider());
       widgets.add(emptySpace1x());
       widgets.add(getTextSpanFromTemplateAndArray(
-          context, LocaleKey.createXUsingY, [gameItem.title, stationName]));
+        context,
+        LocaleKey.createXUsingY,
+        [gameItem.title, stationName],
+      ));
       for (var ingDetailsIndex = 0;
           ingDetailsIndex < craftingRecipe.ingredientDetails.length;
           ingDetailsIndex++) {
@@ -201,8 +209,10 @@ class GameItemDetailPage extends StatelessWidget {
         Recipe recipe = usedInRecipe.recipes[recipeIndex];
         widgets.add(
           GestureDetector(
-            child:
-                Card(child: recipeTilePresenter(context, recipe, recipeIndex)),
+            child: Card(
+              child: recipeTilePresenter(context, recipe, recipeIndex,
+                  showOutputQuantity: true),
+            ),
             onTap: () async {
               if (isInDetailPane && updateDetailView != null) {
                 updateDetailView(RecipeDetailPage(
@@ -226,7 +236,7 @@ class GameItemDetailPage extends StatelessWidget {
       }
     }
 
-    widgets.add(emptySpace8x());
+    widgets.add(emptySpace10x());
 
     var fabColour = getSecondaryColour(context);
     return Stack(

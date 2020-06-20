@@ -28,6 +28,7 @@ class RecipeListPage extends StatelessWidget {
       appBar: appBarForSubPageHelper(
         context,
         title: Text(Translations.get(context, name)),
+        showHomeAction: true,
       ),
       body: ResponsiveListDetailView<Recipe>(
         () => getAllRecipeFromLocaleKeys(context, recipeLocales),

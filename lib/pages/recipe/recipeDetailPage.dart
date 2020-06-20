@@ -133,7 +133,7 @@ class RecipeDetailPage extends StatelessWidget {
       ));
     }
 
-    widgets.add(emptySpace8x());
+    widgets.add(emptySpace10x());
 
     return listWithScrollbar(
       padding: AppPadding.listSidePadding,

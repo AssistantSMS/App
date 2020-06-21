@@ -12,6 +12,7 @@ import '../../constants/AppImage.dart';
 import '../../constants/AppPadding.dart';
 import '../../constants/Routes.dart';
 import '../../contracts/recipe/recipePageItem.dart';
+import '../../contracts/recipeIngredient/recipeIngredient.dart';
 import '../../contracts/recipeIngredient/recipeIngredientDetail.dart';
 import '../../contracts/results/resultWithValue.dart';
 import '../../helpers/analytics.dart';
@@ -24,7 +25,8 @@ import '../../helpers/snapshotHelper.dart';
 import '../../localization/localeKey.dart';
 import '../../localization/translations.dart';
 import '../../state/modules/base/appState.dart';
-import '../../state/modules/cart/cartViewModel.dart';
+import '../../state/modules/cart/cartItemState.dart';
+import '../../state/modules/gameItem/gameItemViewModel.dart';
 import '../gameItem/gameItemDetailPage.dart';
 
 class RecipeDetailPage extends StatelessWidget {
@@ -52,8 +54,8 @@ class RecipeDetailPage extends StatelessWidget {
               body: (_, __) => loadingWidget, showShortcutLinks: true),
       whenDoneLoading:
           (AsyncSnapshot<ResultWithValue<RecipePageItem>> snapshot) {
-        var bodyWidget = StoreConnector<AppState, CartViewModel>(
-          converter: (store) => CartViewModel.fromStore(store),
+        var bodyWidget = StoreConnector<AppState, GameItemViewModel>(
+          converter: (store) => GameItemViewModel.fromStore(store),
           builder: (_, viewModel) => getBody(context, viewModel, snapshot),
         );
         if (isInDetailPane) return bodyWidget;
@@ -68,7 +70,7 @@ class RecipeDetailPage extends StatelessWidget {
     );
   }
 
-  Widget getBody(BuildContext context, CartViewModel viewModel,
+  Widget getBody(BuildContext context, GameItemViewModel viewModel,
       AsyncSnapshot<ResultWithValue<RecipePageItem>> snapshot) {
     TextEditingController controller = TextEditingController();
     Widget errorWidget = asyncSnapshotHandler(context, snapshot,
@@ -145,6 +147,30 @@ class RecipeDetailPage extends StatelessWidget {
       ));
     }
 
+    var navigateToCart = () async =>
+        await navigateHomeAsync(context, navigateToNamed: Routes.cart);
+
+    List<CartItemState> cartItems = viewModel.cartItems
+        .where((CartItemState ci) => ci.itemId == recipeItem.output.id)
+        .toList();
+    if (cartItems != null && cartItems.length > 0) {
+      widgets.add(emptySpace3x());
+      widgets.add(genericItemText(Translations.get(context, LocaleKey.cart)));
+      widgets.add(Card(
+        child: GestureDetector(
+            child: recipeIngredientTilePresenter(
+              context,
+              RecipeIngredient(
+                id: recipeItem.output.id,
+                quantity: cartItems[0].quantity,
+              ),
+              0,
+            ),
+            onTap: navigateToCart),
+        margin: const EdgeInsets.all(0.0),
+      ));
+    }
+
     widgets.add(emptySpace10x());
 
     var fabColour = getSecondaryColour(context);
@@ -174,8 +200,7 @@ class RecipeDetailPage extends StatelessWidget {
                   LocaleKey.addedToCart,
                   duration: Duration(seconds: 5),
                   actionLang: LocaleKey.view,
-                  onTap: () async => await navigateHomeAsync(context,
-                      navigateToNamed: Routes.cart),
+                  onTap: navigateToCart,
                 );
               });
             },

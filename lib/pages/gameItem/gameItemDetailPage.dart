@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
-import 'package:scrapmechanic_kurtlourens_com/integration/dependencyInjection.dart';
 
 import '../../components/adaptive/listWithScrollbar.dart';
 import '../../components/common/cachedFutureBuilder.dart';
@@ -16,6 +15,7 @@ import '../../constants/Routes.dart';
 import '../../contracts/craftingIngredient/craftedUsing.dart';
 import '../../contracts/gameItem/gameItemPageItem.dart';
 import '../../contracts/recipe/recipe.dart';
+import '../../contracts/recipeIngredient/recipeIngredient.dart';
 import '../../contracts/recipeIngredient/recipeIngredientDetail.dart';
 import '../../contracts/results/resultWithValue.dart';
 import '../../contracts/usedInRecipe/usedInRecipe.dart';
@@ -30,7 +30,8 @@ import '../../helpers/textSpanHelper.dart';
 import '../../localization/localeKey.dart';
 import '../../localization/translations.dart';
 import '../../state/modules/base/appState.dart';
-import '../../state/modules/cart/cartViewModel.dart';
+import '../../state/modules/cart/cartItemState.dart';
+import '../../state/modules/gameItem/gameItemViewModel.dart';
 import '../recipe/recipeDetailPage.dart';
 import 'gameItemComponents.dart';
 
@@ -59,8 +60,8 @@ class GameItemDetailPage extends StatelessWidget {
               body: (_, __) => loadingWidget, showShortcutLinks: true),
       whenDoneLoading:
           (AsyncSnapshot<ResultWithValue<GameItemPageItem>> snapshot) {
-        var bodyWidget = StoreConnector<AppState, CartViewModel>(
-          converter: (store) => CartViewModel.fromStore(store),
+        var bodyWidget = StoreConnector<AppState, GameItemViewModel>(
+          converter: (store) => GameItemViewModel.fromStore(store),
           builder: (_, viewModel) => getBody(context, viewModel, snapshot),
         );
         if (isInDetailPane) return bodyWidget;
@@ -77,8 +78,7 @@ class GameItemDetailPage extends StatelessWidget {
 
   Widget getBody(
     BuildContext context,
-    // Breakpoint breakpoint,
-    CartViewModel viewModel,
+    GameItemViewModel viewModel,
     AsyncSnapshot<ResultWithValue<GameItemPageItem>> snapshot,
   ) {
     TextEditingController controller = TextEditingController();
@@ -237,6 +237,30 @@ class GameItemDetailPage extends StatelessWidget {
           ),
         );
       }
+    }
+
+    var navigateToCart = () async =>
+        await navigateHomeAsync(context, navigateToNamed: Routes.cart);
+
+    List<CartItemState> cartItems = viewModel.cartItems
+        .where((CartItemState ci) => ci.itemId == gameItem.id)
+        .toList();
+    if (cartItems != null && cartItems.length > 0) {
+      widgets.add(emptySpace3x());
+      widgets.add(genericItemText(Translations.get(context, LocaleKey.cart)));
+      widgets.add(Card(
+        child: GestureDetector(
+            child: recipeIngredientTilePresenter(
+              context,
+              RecipeIngredient(
+                id: gameItem.id,
+                quantity: cartItems[0].quantity,
+              ),
+              0,
+            ),
+            onTap: navigateToCart),
+        margin: const EdgeInsets.all(0.0),
+      ));
     }
 
     widgets.add(emptySpace10x());

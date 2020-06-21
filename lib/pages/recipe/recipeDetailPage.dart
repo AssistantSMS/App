@@ -8,6 +8,7 @@ import '../../components/loading.dart';
 import '../../components/scaffoldTemplates/genericPageScaffold.dart';
 import '../../components/tilePresenters/recipeIngredientTilePresenter.dart';
 import '../../constants/AnalyticsEvent.dart';
+import '../../constants/AppDuration.dart';
 import '../../constants/AppImage.dart';
 import '../../constants/AppPadding.dart';
 import '../../constants/Routes.dart';
@@ -198,8 +199,7 @@ class RecipeDetailPage extends StatelessWidget {
                 showSnackbar(
                   context,
                   LocaleKey.addedToCart,
-                  duration: Duration(seconds: 5),
-                  actionLang: LocaleKey.view,
+                  duration: AppDuration.snackBarAddToCart,
                   onTap: navigateToCart,
                 );
               });

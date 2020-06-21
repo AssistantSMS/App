@@ -97,4 +97,6 @@ enum LocaleKey {
   feedback,
   twitter,
   contribute,
+  addedToCart,
+  view,
 }

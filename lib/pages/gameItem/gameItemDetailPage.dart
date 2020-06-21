@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
+import 'package:scrapmechanic_kurtlourens_com/integration/dependencyInjection.dart';
 
 import '../../components/adaptive/listWithScrollbar.dart';
 import '../../components/common/cachedFutureBuilder.dart';
@@ -11,6 +12,7 @@ import '../../components/tilePresenters/recipeTilePresenter.dart';
 import '../../constants/AnalyticsEvent.dart';
 import '../../constants/AppImage.dart';
 import '../../constants/AppPadding.dart';
+import '../../constants/Routes.dart';
 import '../../contracts/craftingIngredient/craftedUsing.dart';
 import '../../contracts/gameItem/gameItemPageItem.dart';
 import '../../contracts/recipe/recipe.dart';
@@ -22,6 +24,7 @@ import '../../helpers/colourHelper.dart';
 import '../../helpers/futureHelper.dart';
 import '../../helpers/genericHelper.dart';
 import '../../helpers/navigationHelper.dart';
+import '../../helpers/snackbarHelper.dart';
 import '../../helpers/snapshotHelper.dart';
 import '../../helpers/textSpanHelper.dart';
 import '../../localization/localeKey.dart';
@@ -260,6 +263,14 @@ class GameItemDetailPage extends StatelessWidget {
                 int quantity = int.tryParse(quantityString);
                 if (quantity == null) return;
                 viewModel.addToCart(gameItem.id, quantity);
+                showSnackbar(
+                  context,
+                  LocaleKey.addedToCart,
+                  duration: Duration(seconds: 5),
+                  actionLang: LocaleKey.view,
+                  onTap: () async => await navigateHomeAsync(context,
+                      navigateToNamed: Routes.cart),
+                );
               });
             },
           ),

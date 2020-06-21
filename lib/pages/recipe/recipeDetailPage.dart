@@ -1,23 +1,30 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_redux/flutter_redux.dart';
 
 import '../../components/adaptive/listWithScrollbar.dart';
 import '../../components/common/cachedFutureBuilder.dart';
+import '../../components/dialogs/quantityDialog.dart';
 import '../../components/loading.dart';
 import '../../components/scaffoldTemplates/genericPageScaffold.dart';
 import '../../components/tilePresenters/recipeIngredientTilePresenter.dart';
 import '../../constants/AnalyticsEvent.dart';
 import '../../constants/AppImage.dart';
 import '../../constants/AppPadding.dart';
+import '../../constants/Routes.dart';
 import '../../contracts/recipe/recipePageItem.dart';
 import '../../contracts/recipeIngredient/recipeIngredientDetail.dart';
 import '../../contracts/results/resultWithValue.dart';
 import '../../helpers/analytics.dart';
+import '../../helpers/colourHelper.dart';
 import '../../helpers/futureHelper.dart';
 import '../../helpers/genericHelper.dart';
 import '../../helpers/navigationHelper.dart';
+import '../../helpers/snackbarHelper.dart';
 import '../../helpers/snapshotHelper.dart';
 import '../../localization/localeKey.dart';
 import '../../localization/translations.dart';
+import '../../state/modules/base/appState.dart';
+import '../../state/modules/cart/cartViewModel.dart';
 import '../gameItem/gameItemDetailPage.dart';
 
 class RecipeDetailPage extends StatelessWidget {
@@ -45,20 +52,25 @@ class RecipeDetailPage extends StatelessWidget {
               body: (_, __) => loadingWidget, showShortcutLinks: true),
       whenDoneLoading:
           (AsyncSnapshot<ResultWithValue<RecipePageItem>> snapshot) {
-        if (isInDetailPane) return getBody(context, snapshot);
+        var bodyWidget = StoreConnector<AppState, CartViewModel>(
+          converter: (store) => CartViewModel.fromStore(store),
+          builder: (_, viewModel) => getBody(context, viewModel, snapshot),
+        );
+        if (isInDetailPane) return bodyWidget;
         return genericPageScaffold<ResultWithValue<RecipePageItem>>(
           context,
           (snapshot?.data?.value?.recipe?.title ?? loading) + ' recipe',
           snapshot,
-          body: getBody,
+          body: (_, __) => bodyWidget,
           showShortcutLinks: true,
         );
       },
     );
   }
 
-  Widget getBody(BuildContext context,
+  Widget getBody(BuildContext context, CartViewModel viewModel,
       AsyncSnapshot<ResultWithValue<RecipePageItem>> snapshot) {
+    TextEditingController controller = TextEditingController();
     Widget errorWidget = asyncSnapshotHandler(context, snapshot,
         isValidFunction: (ResultWithValue<RecipePageItem> itemResult) {
       if (!itemResult.isSuccess) return false;
@@ -135,10 +147,41 @@ class RecipeDetailPage extends StatelessWidget {
 
     widgets.add(emptySpace10x());
 
-    return listWithScrollbar(
-      padding: AppPadding.listSidePadding,
-      itemCount: widgets.length,
-      itemBuilder: (context, index) => widgets[index],
+    var fabColour = getSecondaryColour(context);
+    return Stack(
+      children: [
+        listWithScrollbar(
+          padding: AppPadding.listSidePadding,
+          itemCount: widgets.length,
+          itemBuilder: (context, index) => widgets[index],
+        ),
+        Positioned(
+          bottom: 16,
+          right: 16,
+          child: FloatingActionButton(
+            child: Icon(Icons.shopping_basket),
+            backgroundColor: fabColour,
+            foregroundColor: getForegroundTextColour(fabColour),
+            onPressed: () {
+              showQuantityDialog(context, controller,
+                  title: Translations.get(context, LocaleKey.quantity),
+                  onSuccess: (String quantityString) {
+                int quantity = int.tryParse(quantityString);
+                if (quantity == null) return;
+                viewModel.addToCart(recipeItem.output.id, quantity);
+                showSnackbar(
+                  context,
+                  LocaleKey.addedToCart,
+                  duration: Duration(seconds: 5),
+                  actionLang: LocaleKey.view,
+                  onTap: () async => await navigateHomeAsync(context,
+                      navigateToNamed: Routes.cart),
+                );
+              });
+            },
+          ),
+        )
+      ],
     );
   }
 }

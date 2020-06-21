@@ -32,22 +32,6 @@ Function genericItemImageOnTap(BuildContext context, String imagePath,
         bool disableZoom, String name, bool hdAvailable) =>
     () async {
       if (disableZoom) return;
-
-      // String url = 'assets/images/$icon';
-      // String helpContent;
-      // if (hdAvailable) {
-      //   url = "${ExternalUrls.assistantNMSCDN}/$icon";
-      //   helpContent =
-      //       'Yakuza did all the hard work'; // TODO HDImages - Translations
-      // }
-      // await navigateAsync(
-      //   context,
-      //   navigateTo: (context) => ImageViewerPage(
-      //     name,
-      //     url, // 'https://github.com/NMSCD/No-Mans-Sky-Enhanced-Images/blob/master/AssistantNMS/cooking/1.png?raw=true',
-      //     helpContent: helpContent,
-      //   ),
-      // );
     };
 
 Widget genericItemName(String name, {maxLines = 3}) => Container(

@@ -11,7 +11,6 @@ import '../constants/Routes.dart';
 import '../constants/StaggeredGridItemType.dart';
 import '../contracts/misc/staggeredGridItem.dart';
 import '../helpers/analytics.dart';
-import '../helpers/colourHelper.dart';
 import '../helpers/listPageHelper.dart';
 import '../helpers/navigationHelper.dart';
 import 'gameItem/gameItemListPage.dart';

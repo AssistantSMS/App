@@ -1,6 +1,5 @@
 import 'package:get_it/get_it.dart';
 
-import '../constants/AppGlobal.dart';
 import '../env/environmentSettings.dart';
 import '../helpers/repositoryHelper.dart';
 import '../localization/localeKey.dart';

@@ -1,6 +1,5 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:scrapmechanic_kurtlourens_com/integration/dependencyInjection.dart';
 
 import '../../helpers/navigationHelper.dart';
 

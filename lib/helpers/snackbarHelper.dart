@@ -1,12 +1,10 @@
 import 'package:flash/flash.dart';
 import 'package:flutter/material.dart';
-import 'package:scrapmechanic_kurtlourens_com/constants/Routes.dart';
-import 'package:scrapmechanic_kurtlourens_com/integration/logging.dart';
 
+import '../integration/logging.dart';
 import '../localization/localeKey.dart';
 import '../localization/translations.dart';
 import 'colourHelper.dart';
-import 'navigationHelper.dart';
 
 void showSnackbar(context, LocaleKey lang,
     {Duration duration, LocaleKey actionLang, Function onTap}) {

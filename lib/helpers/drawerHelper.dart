@@ -36,13 +36,13 @@ Future<List<Widget>> getDrawerItems(context,
     context,
     image: getListTileImage(context, 'drawer/twitter.png'),
     key: LocaleKey.twitter,
-    onTap: () => launchExternalURL(ExternalUrls.twitter),
+    navigateToExternal: ExternalUrls.twitter,
   ));
   widgets.add(_drawerItem(
     context,
     image: getListTileImage(context, 'drawer/github.png'),
     key: LocaleKey.contribute,
-    onTap: () => launchExternalURL(ExternalUrls.githubOrganization),
+    navigateToExternal: ExternalUrls.githubOrganization,
   ));
 
   widgets.add(Divider(thickness: .5));
@@ -51,7 +51,7 @@ Future<List<Widget>> getDrawerItems(context,
     context,
     image: getCorrectlySizedImageFromIcon(context, Icons.email),
     key: LocaleKey.feedback,
-    onTap: () => launchExternalURL(ExternalUrls.kurtLourensEmail),
+    navigateToExternal: ExternalUrls.kurtLourensEmail,
   ));
 
   // widgets.add(_drawerItem(

@@ -52,9 +52,9 @@ dev_dependencies:
 flutter_icons:
   ios: false
   android: true
-  image_path: "assets/img/fullSizeIcon.png"
-  # adaptive_icon_background: "assets/images/christmas-background.png"
-  # adaptive_icon_foreground: "assets/images/icon-foreground-432x432.png"
+  image_path: "assets/img/fullSizeIcon.jpg"
+  adaptive_icon_background: "assets/img/fullSizeIconAdaptiveBg.jpg"
+  adaptive_icon_foreground: "assets/img/fullSizeIconAdaptiveFg.png"
 
 flutter:
   uses-material-design: true

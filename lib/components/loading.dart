@@ -1,22 +1,12 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:scrapmechanic_kurtlourens_com/constants/AppImage.dart';
 
-import '../helpers/deviceHelper.dart';
+import '../constants/AppImage.dart';
 import '../localization/localeKey.dart';
 import '../localization/translations.dart';
 
-Widget smallLoadingIndicator() =>
-    /*StoreConnector<AppState, SettingViewModel>(
-      converter: (store) => SettingViewModel.fromStore(store),
-      builder: (_, viewModel) => isApple && viewModel.showMaterialTheme == false
-          ? CupertinoActivityIndicator()
-          : CircularProgressIndicator(),);*/
-    // CircularProgressIndicator();
-    CustomSpinner();
-
-Widget loadingIndicator({double height: 50.0}) => Container(
-    alignment: Alignment(0, 0), child: smallLoadingIndicator(), height: height);
+Widget smallLoadingIndicator() => CustomSpinner();
+// Widget smallLoadingIndicator() => isiOS ? CupertinoActivityIndicator() : CircularProgressIndicator();
 
 Widget fullPageLoading(context, {String loadingText}) => Container(
       child: Column(

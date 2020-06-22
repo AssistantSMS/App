@@ -100,4 +100,6 @@ enum LocaleKey {
   addedToCart,
   view,
   failedLatestDisplayingOld,
+  viewAllRequiredItems,
+  areYouSure,
 }

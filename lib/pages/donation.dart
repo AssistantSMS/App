@@ -25,8 +25,6 @@ class DonationPage extends StatelessWidget {
       child: Text(
         Translations.get(context, LocaleKey.donationDescrip),
         textAlign: TextAlign.center,
-        overflow: TextOverflow.ellipsis,
-        maxLines: 50,
         style: TextStyle(fontSize: 16),
       ),
       margin: const EdgeInsets.all(4.0),

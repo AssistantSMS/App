@@ -9,10 +9,14 @@ class GameItemViewModel {
   List<CartItemState> cartItems;
 
   Function(String itemId, int quantity) addToCart;
+  Function(String itemId, int quantity) editCartItem;
+  Function(String id) removeFromCart;
 
   GameItemViewModel({
     this.cartItems,
     this.addToCart,
+    this.editCartItem,
+    this.removeFromCart,
   });
 
   static GameItemViewModel fromStore(Store<AppState> store) {
@@ -20,6 +24,10 @@ class GameItemViewModel {
       cartItems: getCartItems(store.state),
       addToCart: (String itemId, int quantity) =>
           store.dispatch(AddCraftingToCartAction(itemId, quantity)),
+      editCartItem: (String itemId, int quantity) =>
+          store.dispatch(EditCraftingToCartAction(itemId, quantity)),
+      removeFromCart: (String id) =>
+          store.dispatch(RemoveCraftingFromCartAction(id)),
     );
   }
 }

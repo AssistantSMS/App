@@ -1,5 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
+import 'package:scrapmechanic_kurtlourens_com/components/dialogs/quantityDialog.dart';
+import 'package:scrapmechanic_kurtlourens_com/components/tilePresenters/cartTilePresenter.dart';
+import 'package:scrapmechanic_kurtlourens_com/constants/AppPadding.dart';
+import 'package:scrapmechanic_kurtlourens_com/helpers/dialogHelper.dart';
+import 'package:scrapmechanic_kurtlourens_com/pages/generic/genericPageAllRequired.dart';
 
 import '../../components/adaptive/appBarForSubPage.dart';
 import '../../components/adaptive/appScaffold.dart';
@@ -8,6 +13,7 @@ import '../../components/adaptive/listWithScrollbar.dart';
 import '../../components/tilePresenters/recipeIngredientTilePresenter.dart';
 import '../../constants/AnalyticsEvent.dart';
 import '../../contracts/gameItem/gameItem.dart';
+import '../../contracts/recipeIngredient/recipeIngredient.dart';
 import '../../contracts/recipeIngredient/recipeIngredientDetail.dart';
 import '../../contracts/results/resultWithValue.dart';
 import '../../helpers/analytics.dart';
@@ -73,65 +79,63 @@ class CartPage extends StatelessWidget {
     if (errorWidget != null) return errorWidget;
 
     List<Widget> widgets = List<Widget>();
-
+    List<RecipeIngredient> requiredItems = List<RecipeIngredient>();
     for (var ingDetailsIndex = 0;
         ingDetailsIndex < snapshot.data.length;
         ingDetailsIndex++) {
       RecipeIngredientDetails cartDetail = snapshot.data[ingDetailsIndex];
-      widgets.add(GestureDetector(
-        child: recipeIngredientDetailTilePresenter(
-            context, cartDetail, ingDetailsIndex),
+      widgets.add(cartTilePresenter(
+        context,
+        cartDetail,
+        ingDetailsIndex,
         onTap: () async => await navigateAsync(context,
             navigateTo: (context) => GameItemDetailPage(cartDetail.id)),
+        onEdit: () {
+          var controller =
+              TextEditingController(text: cartDetail.quantity.toString());
+          showQuantityDialog(context, controller, onSuccess: (quantity) {
+            int intQuantity = int.tryParse(quantity);
+            if (intQuantity == null) return;
+            viewModel.editCartItem(cartDetail.id, intQuantity);
+          });
+        },
+        onDelete: () {
+          viewModel.removeFromCart(cartDetail.id);
+        },
       ));
-      // showBackgroundColours: viewModel.displayGenericItemColour,
-      // onEdit: () {
-      //   var controller =
-      //       TextEditingController(text: cartDetail.quantity.toString());
-      //   showQuantityDialog(context, controller, onSuccess: (quantity) {
-      //     int intQuantity = int.tryParse(quantity);
-      //     if (intQuantity == null) return;
-      //     viewModel.editCartItem(cartDetail.details.id, intQuantity);
-      //   });
-      // },
-      // onDelete: () {
-      //   viewModel.removeFromCart(cartDetail.details.id);
-      // }));
+
+      requiredItems.add(RecipeIngredient(
+        id: cartDetail.id,
+        quantity: cartDetail.quantity,
+      ));
     }
 
     if (widgets.length > 0) {
       widgets.add(Container(
         child: positiveButton(
-          title: 'test',
-          //Translations.get(context, LocaleKey.viewAllRawMaterialsRequired),
-          // onPress: () async => await navigateAsync(context,
-          //     navigateTo: (context) => GenericPageAllRequiredRawMaterials(
-          //           GenericPageAllRequired(
-          //               genericItem: GenericPageItem(),
-          //               id: "",
-          //               name: "",
-          //               typeName: Translations.get(context, LocaleKey.cart),
-          //               requiredItems: requiredItems),
-          //           viewModel.displayGenericItemColour,
-          //         )),
+          title: Translations.get(context, LocaleKey.viewAllRequiredItems),
+          onPress: () async => await navigateAsync(
+            context,
+            navigateTo: (context) => GenericAllRequiredPage(requiredItems),
+          ),
         ),
       ));
-      // widgets.add(Container(
-      //   child: negativeButton(
-      //       title: Translations.get(context, LocaleKey.deleteAll),
-      //       onPress: () {
-      //         showSimpleDialog(
-      //             context,
-      //             Translations.get(context, LocaleKey.deleteAll),
-      //             Text(Translations.get(context, LocaleKey.areYouSure)),
-      //             buttons: [
-      //               simpleDialogCloseButton(context),
-      //               simpleDialogPositiveButton(context,
-      //                   title: LocaleKey.yes,
-      //                   onTap: () => viewModel.removeAllFromCart()),
-      //             ]);
-      //       }),
-      // ));
+      widgets.add(Container(
+        child: negativeButton(
+            title: Translations.get(context, LocaleKey.deleteAll),
+            onPress: () {
+              showSimpleDialog(
+                  context,
+                  Translations.get(context, LocaleKey.deleteAll),
+                  Text(Translations.get(context, LocaleKey.areYouSure)),
+                  buttons: [
+                    simpleDialogCloseButton(context),
+                    simpleDialogPositiveButton(context,
+                        title: LocaleKey.yes,
+                        onTap: () => viewModel.removeAllFromCart()),
+                  ]);
+            }),
+      ));
     } else {
       widgets.add(
         Container(
@@ -147,6 +151,7 @@ class CartPage extends StatelessWidget {
     }
 
     return listWithScrollbar(
+        padding: AppPadding.listSidePadding,
         itemCount: widgets.length,
         itemBuilder: (context, index) => widgets[index]);
   }

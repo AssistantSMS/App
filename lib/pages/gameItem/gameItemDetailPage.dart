@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
+import 'package:scrapmechanic_kurtlourens_com/components/tilePresenters/cartTilePresenter.dart';
 
 import '../../components/adaptive/listWithScrollbar.dart';
 import '../../components/common/cachedFutureBuilder.dart';
@@ -250,16 +251,29 @@ class GameItemDetailPage extends StatelessWidget {
       widgets.add(emptySpace3x());
       widgets.add(genericItemText(Translations.get(context, LocaleKey.cart)));
       widgets.add(Card(
-        child: GestureDetector(
-            child: recipeIngredientTilePresenter(
-              context,
-              RecipeIngredient(
-                id: gameItem.id,
-                quantity: cartItems[0].quantity,
-              ),
-              0,
-            ),
-            onTap: navigateToCart),
+        child: cartTilePresenter(
+          context,
+          RecipeIngredientDetails(
+            id: gameItem.id,
+            icon: gameItem.icon,
+            title: gameItem.title,
+            quantity: cartItems[0].quantity,
+          ),
+          0,
+          onTap: navigateToCart,
+          onEdit: () {
+            var controller =
+                TextEditingController(text: cartItems[0].quantity.toString());
+            showQuantityDialog(context, controller, onSuccess: (quantity) {
+              int intQuantity = int.tryParse(quantity);
+              if (intQuantity == null) return;
+              viewModel.editCartItem(gameItem.id, intQuantity);
+            });
+          },
+          onDelete: () {
+            viewModel.removeFromCart(gameItem.id);
+          },
+        ),
         margin: const EdgeInsets.all(0.0),
       ));
     }

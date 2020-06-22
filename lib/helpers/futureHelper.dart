@@ -272,3 +272,73 @@ Future<ResultWithValue<List<UsedInRecipe>>> usedInRecipesFuture(
 
   return ResultWithValue(results.length > 0, results, '');
 }
+
+Future<List<RecipeIngredientDetails>> getAllRequiredItemsForMultiple(
+    context, List<RecipeIngredient> requiredItems) async {
+  List<RecipeIngredient> allRequiredItems = List<RecipeIngredient>();
+  for (var requiredItem in requiredItems) {
+    allRequiredItems.addAll(await getRequiredItems(context, requiredItem));
+  }
+
+  Map<String, RecipeIngredient> rawMaterialMap =
+      Map<String, RecipeIngredient>();
+  for (var reqItem in allRequiredItems) {
+    if (rawMaterialMap.containsKey(reqItem.id)) {
+      rawMaterialMap.update(
+          reqItem.id,
+          (orig) => RecipeIngredient(
+                id: reqItem.id,
+                quantity: orig.quantity + reqItem.quantity,
+              ));
+    } else {
+      rawMaterialMap.putIfAbsent(reqItem.id, () => reqItem);
+    }
+  }
+
+  List<RecipeIngredient> uniqueRequiredItems = rawMaterialMap.values.toList();
+  ResultWithValue<List<RecipeIngredientDetails>> detailsResult =
+      await recipeIngredientDetailsFuture(context, uniqueRequiredItems);
+  if (!detailsResult.isSuccess) {
+    return List<RecipeIngredientDetails>();
+  }
+
+  return detailsResult.value.sortedBy((rd) => rd.quantity);
+}
+
+Future<List<RecipeIngredient>> getRequiredItems(
+    context, RecipeIngredient requiredItem) async {
+  List<RecipeIngredient> tempRawMaterials = List<RecipeIngredient>();
+
+  for (LocaleKey repJson in allRecipeJsons()) {
+    IRecipeJsonService repo = getRecipeRepo(repJson);
+    if (repo == null) continue;
+    ResultWithValue<List<Recipe>> recipesToCreateXResult =
+        await repo.getByOutputId(context, requiredItem.id);
+    if (!recipesToCreateXResult.isSuccess ||
+        recipesToCreateXResult.value.length < 1) continue;
+
+    for (var recipe in recipesToCreateXResult.value[0].inputs) {
+      tempRawMaterials.add(
+        RecipeIngredient(
+            id: recipe.id, quantity: recipe.quantity * requiredItem.quantity),
+      );
+    }
+  }
+
+  var rawMaterialsResult = List<RecipeIngredient>();
+
+  if (tempRawMaterials != null && tempRawMaterials.length == 0) {
+    rawMaterialsResult.add(requiredItem);
+    return rawMaterialsResult;
+  }
+
+  for (var requiredIndex = 0;
+      requiredIndex < tempRawMaterials.length;
+      requiredIndex++) {
+    var rawMaterial = tempRawMaterials[requiredIndex];
+    List<RecipeIngredient> requiredItems =
+        await getRequiredItems(context, rawMaterial);
+    rawMaterialsResult.addAll(requiredItems);
+  }
+  return rawMaterialsResult;
+}

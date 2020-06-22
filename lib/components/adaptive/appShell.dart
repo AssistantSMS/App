@@ -1,12 +1,11 @@
-import 'package:universal_html/html.dart';
-
 import 'package:after_layout/after_layout.dart';
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:theme_mode_handler/theme_mode_handler.dart';
+import 'package:universal_html/html.dart';
 
 import '../../constants/Routes.dart';
+import '../../helpers/deviceHelper.dart';
 import '../../integration/logging.dart';
 import '../../integration/themeManager.dart';
 import '../../localization/localization.dart';
@@ -30,7 +29,7 @@ class AppShell extends StatefulWidget {
 class _AppShellWidget extends State<AppShell> with AfterLayoutMixin<AppShell> {
   @override
   void afterFirstLayout(BuildContext context) {
-    if (kIsWeb) {
+    if (isWeb) {
       document.querySelector('#initial-loader').remove();
     }
   }

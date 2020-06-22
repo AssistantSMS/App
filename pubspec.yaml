@@ -50,7 +50,7 @@ dev_dependencies:
   #   sdk: flutter
 
 flutter_icons:
-  ios: false
+  ios: true
   android: true
   image_path: "assets/img/fullSizeIcon.png"
   adaptive_icon_background: "assets/img/fullSizeIconAdaptiveBg.png"

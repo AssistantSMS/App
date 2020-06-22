@@ -600,16 +600,6 @@
     "Description": "FacialHair"
   },
   {
-    "Id": "custHaiM1",
-    "Title": "Hair",
-    "Description": "Hair"
-  },
-  {
-    "Id": "custHaiF1",
-    "Title": "Hair",
-    "Description": "Hair"
-  },
-  {
     "Id": "custHaiM2",
     "Title": "Hair",
     "Description": "Hair"

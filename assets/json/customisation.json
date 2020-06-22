@@ -1080,24 +1080,6 @@
     "QualityLevel": 0
   },
   {
-    "Id": "custHaiM1",
-    "Icon": "items/custHaiM1.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
-    "Id": "custHaiF1",
-    "Icon": "items/custHaiF1.png",
-    "Color": "",
-    "PhysicsMaterial": "",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
     "Id": "custHaiM2",
     "Icon": "items/custHaiM2.png",
     "Color": "",

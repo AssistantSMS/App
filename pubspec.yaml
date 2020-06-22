@@ -37,12 +37,14 @@ dependencies:
   dartx: ^0.4.1
   shared_preferences: ^0.5.7+3
   shared_preferences_web: ^0.1.2+7
+  after_layout: ^1.0.7+2
   # Misc
   url_launcher: 5.4.10
   package_info: 0.4.0+18
   enum_to_string: 1.0.9
   share: ^0.6.4+2
   logger: ^0.9.1
+  universal_html: ^1.2.3
 
 dev_dependencies:
   flutter_launcher_icons: "^0.7.5"
@@ -170,6 +172,7 @@ flutter:
     - assets/img/dimensions.png
     - assets/img/steamNewsDefault.jpg
     - assets/img/loading.png
+    - assets/img/social.png
 
     - assets/img/items/blk1.png
     - assets/img/items/blk1.png

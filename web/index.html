@@ -1,26 +1,103 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="A new Flutter project.">
+  <title>Assistant for Scrap Mechanic</title>
+  <meta name="description" content="Assistant for Scrap Mechanic Survival">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/png" href="favicon.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
 
   <!-- iOS meta tags & icons -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <meta name="apple-mobile-web-app-title" content="scrapmechanic_kurtlourens_com">
-  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
 
-  <!-- Favicon -->
-  <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+  <!-- Google / Search Engine Tags - http://heymeta.com -->
+  <meta itemprop="name" content="Assistant for Scrap Mechanic">
+  <meta itemprop="description" content="Assistant for Scrap Mechanic Survival">
+  <meta itemprop="image" content="assets/img/social.png">
 
-  <title>scrapmechanic_kurtlourens_com</title>
-  <link rel="manifest" href="manifest.json">
+  <!-- Facebook Meta Tags - http://heymeta.com -->
+  <meta property="og:url" content="https://scrapassistant.com">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Assistant for Scrap Mechanic">
+  <meta property="og:description" content="Assistant for Scrap Mechanic Survival">
+  <meta property="og:image" content="assets/img/social.png">
+
+  <!-- Twitter Meta Tags - http://heymeta.com -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Assistant for Scrap Mechanic">
+  <meta name="twitter:description" content="Assistant for Scrap Mechanic Survival">
+  <meta name="twitter:image" content="assets/img/social.png">
+
+  <!-- Other Meta -->
+  <link rel="mask-icon" href="safari-pinned-tab.svg" color="#fb8c00">
+  <meta name="msapplication-TileColor" content="#2f2f2f">
+  <meta name="theme-color" content="#000000">
+  <link rel="manifest" href="site.webmanifest">
+
+  <style>
+    #initial-loader {
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: 2;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+
+      background-color: #333333;
+      z-index: 1000;
+    }
+
+    #initial-loader h1 {
+      color: white;
+      margin-top: 1em;
+    }
+
+    #initial-loader img {
+      max-height: 15vh;
+      width: 75px;
+      margin: 0 auto;
+      -webkit-animation: spin 2s linear infinite;
+      -moz-animation: spin 2s linear infinite;
+      animation: spin 2s linear infinite;
+    }
+
+    @-moz-keyframes spin {
+      100% {
+        -moz-transform: rotate(360deg);
+      }
+    }
+
+    @-webkit-keyframes spin {
+      100% {
+        -webkit-transform: rotate(360deg);
+      }
+    }
+
+    @keyframes spin {
+      100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+      }
+    }
+  </style>
 </head>
+
 <body>
-  <!-- This script installs service_worker.js to provide PWA functionality to
-       application. For more information, see:
-       https://developers.google.com/web/fundamentals/primers/service-workers -->
+  <div id="initial-loader" class="full-page-loader initial intro-background">
+    <img src="assets/img/loading.png" draggable="false" alt="loading-animation">
+  </div>
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', function () {
@@ -30,4 +107,5 @@
   </script>
   <script src="main.dart.js" type="application/javascript"></script>
 </body>
+
 </html>

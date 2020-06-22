@@ -1,21 +1,20 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
-import 'package:scrapmechanic_kurtlourens_com/components/dialogs/quantityDialog.dart';
-import 'package:scrapmechanic_kurtlourens_com/components/tilePresenters/cartTilePresenter.dart';
-import 'package:scrapmechanic_kurtlourens_com/constants/AppPadding.dart';
-import 'package:scrapmechanic_kurtlourens_com/helpers/dialogHelper.dart';
-import 'package:scrapmechanic_kurtlourens_com/pages/generic/genericPageAllRequired.dart';
 
 import '../../components/adaptive/appBarForSubPage.dart';
 import '../../components/adaptive/appScaffold.dart';
 import '../../components/adaptive/button.dart';
 import '../../components/adaptive/listWithScrollbar.dart';
+import '../../components/dialogs/quantityDialog.dart';
+import '../../components/tilePresenters/cartTilePresenter.dart';
 import '../../constants/AnalyticsEvent.dart';
+import '../../constants/AppPadding.dart';
 import '../../contracts/gameItem/gameItem.dart';
 import '../../contracts/recipeIngredient/recipeIngredient.dart';
 import '../../contracts/recipeIngredient/recipeIngredientDetail.dart';
 import '../../contracts/results/resultWithValue.dart';
 import '../../helpers/analytics.dart';
+import '../../helpers/dialogHelper.dart';
 import '../../helpers/itemsHelper.dart';
 import '../../helpers/navigationHelper.dart';
 import '../../helpers/snapshotHelper.dart';
@@ -25,6 +24,7 @@ import '../../state/modules/base/appState.dart';
 import '../../state/modules/cart/cartItemState.dart';
 import '../../state/modules/cart/cartViewModel.dart';
 import '../gameItem/gameItemDetailPage.dart';
+import '../generic/genericPageAllRequired.dart';
 
 class CartPage extends StatelessWidget {
   CartPage() {

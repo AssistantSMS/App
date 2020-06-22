@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:scrapmechanic_kurtlourens_com/components/tilePresenters/recipeIngredientTilePresenter.dart';
-import 'package:scrapmechanic_kurtlourens_com/constants/AppPadding.dart';
-import 'package:scrapmechanic_kurtlourens_com/contracts/recipeIngredient/recipeIngredient.dart';
-import 'package:scrapmechanic_kurtlourens_com/contracts/recipeIngredient/recipeIngredientDetail.dart';
 
 import '../../components/adaptive/listWithScrollbar.dart';
 import '../../components/scaffoldTemplates/genericPageScaffold.dart';
+import '../../components/tilePresenters/recipeIngredientTilePresenter.dart';
 import '../../constants/AnalyticsEvent.dart';
+import '../../constants/AppPadding.dart';
+import '../../contracts/recipeIngredient/recipeIngredient.dart';
+import '../../contracts/recipeIngredient/recipeIngredientDetail.dart';
 import '../../helpers/analytics.dart';
-import '../../helpers/genericHelper.dart';
 import '../../helpers/futureHelper.dart';
+import '../../helpers/genericHelper.dart';
 import '../../helpers/snapshotHelper.dart';
 import '../../localization/localeKey.dart';
 import '../../localization/translations.dart';
@@ -29,7 +29,7 @@ class GenericAllRequiredPage extends StatelessWidget {
             AsyncSnapshot<List<RecipeIngredientDetails>> snapshot) {
           return genericPageScaffold<List<RecipeIngredientDetails>>(
             context,
-            Translations.get(context, LocaleKey.loading),
+            Translations.get(context, LocaleKey.viewAllRequiredItems),
             snapshot,
             body: getBody,
           );

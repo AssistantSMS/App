@@ -95,6 +95,8 @@
   "addedToCart": "Added to Cart",
   "view": "View",
   "failedLatestDisplayingOld": "Failed to fetch latest, curently displaying old data",
+  "viewAllRequiredItems": "View All Required Items",
+  "areYouSure": "Are you sure?",
   "translatedBy": [
     {
       "name": "",

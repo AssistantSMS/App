@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:breakpoint/breakpoint.dart';
+import 'package:scrapmechanic_kurtlourens_com/components/loading.dart';
 
 import '../contracts/misc/responsiveFlexData.dart';
 import '../contracts/results/resultWithValue.dart';
@@ -44,7 +45,7 @@ class ResponsiveListDetailView<T> extends StatefulWidget {
 class _ResponsiveListDetailWidget<T>
     extends State<ResponsiveListDetailView<T>> {
   Key detailViewKey = Key('Initial');
-  Widget detailView = Center(child: Text('Please select an item on the left'));
+  Widget detailView = Center(child: smallLoadingIndicator());
   _ResponsiveListDetailWidget();
 
   @override

@@ -17,7 +17,6 @@ import '../../constants/Routes.dart';
 import '../../contracts/craftingIngredient/craftedUsing.dart';
 import '../../contracts/gameItem/gameItemPageItem.dart';
 import '../../contracts/recipe/recipe.dart';
-import '../../contracts/recipeIngredient/recipeIngredient.dart';
 import '../../contracts/recipeIngredient/recipeIngredientDetail.dart';
 import '../../contracts/results/resultWithValue.dart';
 import '../../contracts/usedInRecipe/usedInRecipe.dart';

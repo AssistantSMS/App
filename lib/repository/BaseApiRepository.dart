@@ -40,7 +40,7 @@ class BaseApiRepository {
       }
       return ResultWithValue<String>(true, response.body, '');
     } catch (exception) {
-      print("BaseApiService GET Exception: ${exception.toString()}");
+      logger.e("BaseApiService GET Exception: ${exception.toString()}");
       return ResultWithValue<String>(false, '', exception.toString());
     }
   }

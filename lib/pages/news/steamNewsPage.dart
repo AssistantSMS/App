@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:scrapmechanic_kurtlourens_com/components/tilePresenters/steamNewsTilePresenter.dart';
 import 'package:scrapmechanic_kurtlourens_com/contracts/generated/SteamNewsItem.dart';
 import 'package:scrapmechanic_kurtlourens_com/helpers/columnHelper.dart';
+import 'package:scrapmechanic_kurtlourens_com/services/json/steamNewsBackupJsonService.dart';
 
 import '../../components/adaptive/appBarForSubPage.dart';
 import '../../components/adaptive/appScaffold.dart';
@@ -30,6 +31,9 @@ class SteamNewsPage extends StatelessWidget {
         () => getApiRepo().getSteamNews(),
         steamNewsItemTilePresenter,
         (_, __) => false,
+        backupListGetter: () =>
+            new SteamNewsBackupJsonService().getAll(context),
+        backupListWarningMessage: LocaleKey.failedLatestDisplayingOld,
         minListForSearch: 20000,
         useGridView: true,
         gridViewColumnCalculator: steamNewsCustomColumnCount,

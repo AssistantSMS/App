@@ -14,6 +14,8 @@ import 'loading.dart';
 
 class SearchableList<T> extends StatefulWidget {
   final Future<ResultWithValue<List<T>>> Function() listGetter;
+  final Future<ResultWithValue<List<T>>> Function() backupListGetter;
+  final LocaleKey backupListWarningMessage;
   final Widget Function(BuildContext context, T, int index) listItemDisplayer;
   final bool Function(T, String) listItemSearch;
   final void Function() deleteAll;
@@ -37,6 +39,8 @@ class SearchableList<T> extends StatefulWidget {
     this.addFabPadding = false,
     this.useGridView = false,
     this.gridViewColumnCalculator,
+    this.backupListGetter,
+    this.backupListWarningMessage,
   });
   @override
   SearchableListWidget<T> createState() => SearchableListWidget<T>(
@@ -63,6 +67,7 @@ class SearchableListWidget<T> extends State<SearchableList<T>> {
   int minListForSearch;
   Key key;
   bool hasLoaded = false;
+  bool usingBackupGetter = false;
   String hintText;
   String loadingText;
   final bool addFabPadding;
@@ -90,22 +95,43 @@ class SearchableListWidget<T> extends State<SearchableList<T>> {
 
   Future<Null> getList() async {
     final temp = await listGetter;
-    //await new Future.delayed(const Duration(seconds: 3));
     if (temp.isSuccess) {
-      List<T> tempResults = [];
-      for (T item in temp.value) {
-        tempResults.add(item);
-      }
-      setState(() {
-        hasLoaded = true;
-        _listResults = tempResults;
-      });
-    } else {
-      setState(() {
-        hasLoaded = true;
-        _listResults = [];
-      });
+      listSuccessFunc(temp);
+      return;
     }
+
+    if (widget.backupListGetter == null) {
+      listErrorFunc();
+      return;
+    }
+
+    final backupTemp = await widget.backupListGetter();
+    if (!backupTemp.isSuccess) {
+      listErrorFunc();
+      return;
+    }
+    listSuccessFunc(backupTemp, usingBackupGetter: true);
+  }
+
+  listSuccessFunc(ResultWithValue<List<T>> temp,
+      {bool usingBackupGetter = false}) {
+    List<T> tempResults = [];
+    for (T item in temp.value) {
+      tempResults.add(item);
+    }
+
+    setState(() {
+      hasLoaded = true;
+      this.usingBackupGetter = usingBackupGetter;
+      _listResults = tempResults;
+    });
+  }
+
+  listErrorFunc() {
+    setState(() {
+      hasLoaded = true;
+      _listResults = [];
+    });
   }
 
   @override
@@ -119,6 +145,24 @@ class SearchableListWidget<T> extends State<SearchableList<T>> {
     if (_listResults.length > minListForSearch) {
       columnWidgets.add(
         searchBar(context, controller, hintText, onSearchTextChanged),
+      );
+    }
+
+    if (this.usingBackupGetter && widget.backupListWarningMessage != null) {
+      columnWidgets.add(
+        Container(
+          color: Colors.red,
+          width: double.infinity,
+          child: Padding(
+            padding: EdgeInsets.only(top: 4, bottom: 4),
+            child: Text(
+              Translations.get(context, widget.backupListWarningMessage),
+              textAlign: TextAlign.center,
+              maxLines: 1,
+              overflow: TextOverflow.ellipsis,
+            ),
+          ),
+        ),
       );
     }
 
@@ -189,7 +233,10 @@ class SearchableListWidget<T> extends State<SearchableList<T>> {
       }
     }
 
-    return Column(key: key, children: columnWidgets);
+    return Column(
+      key: Key('usingBackupGetter ' + usingBackupGetter.toString()),
+      children: columnWidgets,
+    );
   }
 
   Widget deleteAllButton(context) {

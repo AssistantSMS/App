@@ -138,6 +138,8 @@ flutter:
     - assets/json/en/recipeRefinery.lang.json
     - assets/json/en/recipeWorkbench.lang.json
 
+    - assets/data/steamNewsBackup.json
+
     # Images
     - assets/img/drawerHeader.png
     - assets/img/unknown.png

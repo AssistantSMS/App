@@ -99,4 +99,5 @@ enum LocaleKey {
   contribute,
   addedToCart,
   view,
+  failedLatestDisplayingOld,
 }

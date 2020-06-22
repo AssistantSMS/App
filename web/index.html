@@ -137,14 +137,25 @@
   <div id="initial-loader" class="full-page-loader initial intro-background">
     <img src="assets/assets/img/loading.png" draggable="false" alt="loading-animation">
   </div>
-  <script>
-    if ('serviceWorker' in navigator) {
-      window.addEventListener('load', function () {
-        navigator.serviceWorker.register('flutter_service_worker.js');
-      });
-    }
-  </script>
-  <script src="main.dart.js" type="application/javascript"></script>
 </body>
+
+<script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', function () {
+      navigator.serviceWorker.register('flutter_service_worker.js');
+    });
+  }
+  var removeLoader = function () {
+    var loader = document.querySelector('#initial-loader');
+    if (loader != null) {
+      setTimeout(function () {
+        loader.remove();
+      }, 2000);
+    }
+  };
+  window.document.onload = removeLoader;
+  window.onload = removeLoader;
+</script>
+<script src="main.dart.js" type="application/javascript"></script>
 
 </html>

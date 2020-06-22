@@ -1,17 +1,14 @@
-import 'package:after_layout/after_layout.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:theme_mode_handler/theme_mode_handler.dart';
-import 'package:universal_html/html.dart';
 
 import '../../constants/Routes.dart';
-import '../../helpers/deviceHelper.dart';
 import '../../integration/logging.dart';
 import '../../integration/themeManager.dart';
 import '../../localization/localization.dart';
 import '../../theme/themes.dart';
 
-class AppShell extends StatefulWidget {
+class AppShell extends StatelessWidget {
   final newLocaleDelegate;
   final changeBrightness;
   final onLocaleChange;
@@ -23,26 +20,14 @@ class AppShell extends StatefulWidget {
   });
 
   @override
-  _AppShellWidget createState() => _AppShellWidget();
-}
-
-class _AppShellWidget extends State<AppShell> with AfterLayoutMixin<AppShell> {
-  @override
-  void afterFirstLayout(BuildContext context) {
-    if (isWeb) {
-      document.querySelector('#initial-loader').remove();
-    }
-  }
-
-  @override
   Widget build(BuildContext context) {
     logger.i("main rebuild");
     Map<String, Widget Function(BuildContext)> routes = initNamedRoutes(
-      widget.changeBrightness,
-      widget.onLocaleChange,
+      changeBrightness,
+      onLocaleChange,
     );
     List<LocalizationsDelegate<dynamic>> localizationsDelegates = [
-      widget.newLocaleDelegate,
+      newLocaleDelegate,
       GlobalMaterialLocalizations.delegate, //provides localised strings
       GlobalWidgetsLocalizations.delegate, //provides RTL support
     ];

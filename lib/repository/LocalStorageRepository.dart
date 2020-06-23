@@ -26,7 +26,6 @@ class LocalStorageRepository implements ILocalStorageRepository {
     try {
       SharedPreferences preferences = await SharedPreferences.getInstance();
       var stateString = preferences.getString(key);
-      logger.d(stateString, 'loadFromStorage - stateString - $key');
       if (stateString == null) {
         return ResultWithValue<Map<String, dynamic>>(
             false, null, 'StateString is null');

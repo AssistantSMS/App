@@ -13,8 +13,8 @@ import '../helpers/genericHelper.dart';
 import '../localization/localeKey.dart';
 import '../localization/translations.dart';
 
-class About extends StatelessWidget {
-  About() {
+class AboutPage extends StatelessWidget {
+  AboutPage() {
     trackEvent(AnalyticsEvent.aboutPage);
   }
 

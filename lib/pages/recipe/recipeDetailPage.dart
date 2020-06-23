@@ -136,11 +136,13 @@ class RecipeDetailPage extends StatelessWidget {
             } else {
               await navigateAwayFromHomeAsync(
                 context,
-                navigateTo: (context) => GameItemDetailPage(
-                  recipeIng.id,
-                  isInDetailPane: isInDetailPane,
-                  updateDetailView: updateDetailView,
-                ),
+                navigateToNamed: Routes.recipeDetail,
+                navigateToNamedParameters: {Routes.itemIdParam: recipeIng.id},
+                // navigateTo: (context) => GameItemDetailPage(
+                //   recipeIng.id,
+                //   isInDetailPane: isInDetailPane,
+                //   updateDetailView: updateDetailView,
+                // ),
               );
             }
           },

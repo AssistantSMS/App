@@ -16,10 +16,10 @@ import '../helpers/navigationHelper.dart';
 import 'gameItem/gameItemListPage.dart';
 import 'recipe/recipeListPage.dart';
 
-class Home extends StatelessWidget {
+class HomePage extends StatelessWidget {
   final void Function(Locale locale) onLocaleChange;
   final void Function(BuildContext context) changeBrightness;
-  Home(this.changeBrightness, this.onLocaleChange) {
+  HomePage(this.changeBrightness, this.onLocaleChange) {
     trackEvent(AnalyticsEvent.homePage);
   }
 

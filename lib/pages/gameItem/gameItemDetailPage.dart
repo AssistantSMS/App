@@ -184,11 +184,15 @@ class GameItemDetailPage extends StatelessWidget {
               } else {
                 await navigateAwayFromHomeAsync(
                   context,
-                  navigateTo: (context) => GameItemDetailPage(
-                    ingDetails.id,
-                    isInDetailPane: isInDetailPane,
-                    updateDetailView: updateDetailView,
-                  ),
+                  navigateToNamed: Routes.gameDetail,
+                  navigateToNamedParameters: {
+                    Routes.itemIdParam: ingDetails.id
+                  },
+                  // navigateTo: (context) => GameItemDetailPage(
+                  //   ingDetails.id,
+                  //   isInDetailPane: isInDetailPane,
+                  //   updateDetailView: updateDetailView,
+                  // ),
                 );
               }
             },
@@ -227,11 +231,13 @@ class GameItemDetailPage extends StatelessWidget {
               } else {
                 await navigateAwayFromHomeAsync(
                   context,
-                  navigateTo: (context) => RecipeDetailPage(
-                    recipe.id,
-                    isInDetailPane: isInDetailPane,
-                    updateDetailView: updateDetailView,
-                  ),
+                  navigateToNamed: Routes.recipeDetail,
+                  navigateToNamedParameters: {Routes.itemIdParam: recipe.id},
+                  // navigateTo: (context) => RecipeDetailPage(
+                  //   recipe.id,
+                  //   isInDetailPane: isInDetailPane,
+                  //   updateDetailView: updateDetailView,
+                  // ),
                 );
               }
             },

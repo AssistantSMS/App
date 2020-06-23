@@ -156,12 +156,13 @@
       navigator.serviceWorker.register('flutter_service_worker.js');
     });
   }
+  // Backup loader dismissal
   var removeLoader = function () {
     var loader = document.querySelector('#initial-loader');
     if (loader != null) {
       setTimeout(function () {
         loader.remove();
-      }, 2000);
+      }, 5000);
     }
   };
   window.document.onload = removeLoader;

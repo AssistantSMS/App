@@ -2,10 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:theme_mode_handler/theme_mode_handler.dart';
 
-import '../../constants/Routes.dart';
 import '../../integration/logging.dart';
-import '../../integration/themeManager.dart';
 import '../../integration/router.dart';
+import '../../integration/themeManager.dart';
 import '../../localization/localization.dart';
 import '../../theme/themes.dart';
 

@@ -15,7 +15,7 @@ class LocalStorageRepository implements ILocalStorageRepository {
       await preferences.setString(key, stateString);
       return Result(true, '');
     } catch (exception) {
-      logger.e(exception);
+      logger.e(exception, 'saveToStorage');
       return Result(false, exception.toString());
     }
   }
@@ -26,10 +26,13 @@ class LocalStorageRepository implements ILocalStorageRepository {
     try {
       SharedPreferences preferences = await SharedPreferences.getInstance();
       var stateString = preferences.getString(key);
-      Map<String, dynamic> stateMap = Map<String, dynamic>();
-      if (stateString != null) {
-        stateMap = json.decode(stateString) as Map<String, dynamic>;
+      logger.d(stateString, 'loadFromStorage - stateString - $key');
+      if (stateString == null) {
+        return ResultWithValue<Map<String, dynamic>>(
+            false, null, 'StateString is null');
       }
+      Map<String, dynamic> stateMap =
+          json.decode(stateString) as Map<String, dynamic>;
       return ResultWithValue<Map<String, dynamic>>(true, stateMap, '');
     } catch (exception) {
       logger.e(exception, 'loadFromStorage');

@@ -1,5 +1,6 @@
 import 'dart:convert';
 
+import 'package:scrapmechanic_kurtlourens_com/integration/logging.dart';
 import 'package:scrapmechanic_kurtlourens_com/state/themeState.dart';
 
 import './interface/ILocalStorageService.dart';
@@ -34,8 +35,9 @@ class LocalStorageService implements ILocalStorageService {
       return ResultWithValue<AppState>(false, null, tempResult.errorMessage);
     try {
       AppState result = AppState.fromJson(tempResult.value);
-      return ResultWithValue<AppState>(false, result, '');
+      return ResultWithValue<AppState>(true, result, '');
     } catch (exception) {
+      logger.e(exception, 'localStorageService - loadAppState');
       return ResultWithValue<AppState>(false, null, exception.errorMessage);
     }
   }
@@ -57,7 +59,7 @@ class LocalStorageService implements ILocalStorageService {
       return ResultWithValue<ThemeState>(false, null, tempResult.errorMessage);
     try {
       ThemeState result = ThemeState.fromJson(tempResult.value);
-      return ResultWithValue<ThemeState>(false, result, '');
+      return ResultWithValue<ThemeState>(true, result, '');
     } catch (exception) {
       return ResultWithValue<ThemeState>(false, null, exception.errorMessage);
     }

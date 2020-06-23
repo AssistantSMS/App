@@ -24,7 +24,7 @@ class SettingState {
   }
 
   SettingState.fromJson(Map<String, dynamic> json)
-      : selectedLanguage = readStringSafe(json, 'cartState');
+      : selectedLanguage = readStringSafe(json, 'selectedLanguage');
 
   Map<String, dynamic> toJson() => {
         'selectedLanguage': selectedLanguage,

@@ -6,6 +6,7 @@ import '../contracts/results/resultWithValue.dart';
 import '../state/themeState.dart';
 import '../theme/themes.dart';
 import 'dependencyInjection.dart';
+import 'logging.dart';
 
 class ThemeManager implements IThemeModeManager {
   @override
@@ -13,8 +14,9 @@ class ThemeManager implements IThemeModeManager {
     ResultWithValue<ThemeState> themeResult =
         await getStorageService().loadThemeState();
     var defaultThemeMode = 'ThemeMode.dark';
-    if (themeResult.isSuccess)
+    if (themeResult.isSuccess) {
       return themeResult?.value?.themeMode ?? defaultThemeMode;
+    }
     return defaultThemeMode;
   }
 

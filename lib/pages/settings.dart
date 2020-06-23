@@ -1,10 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
-import 'package:scrapmechanic_kurtlourens_com/constants/ExternalUrls.dart';
-import 'package:scrapmechanic_kurtlourens_com/contracts/results/resultWithValue.dart';
-import 'package:scrapmechanic_kurtlourens_com/helpers/external.dart';
-import 'package:scrapmechanic_kurtlourens_com/helpers/futureHelper.dart';
-import 'package:scrapmechanic_kurtlourens_com/helpers/snapshotHelper.dart';
 import 'package:package_info/package_info.dart';
 
 import '../components/adaptive/appBarForSubPage.dart';
@@ -12,9 +7,14 @@ import '../components/adaptive/appScaffold.dart';
 import '../components/adaptive/listWithScrollbar.dart';
 import '../components/tilePresenters/settingTilePresenter.dart';
 import '../constants/AnalyticsEvent.dart';
+import '../constants/ExternalUrls.dart';
+import '../contracts/results/resultWithValue.dart';
 import '../helpers/analytics.dart';
 import '../helpers/colourHelper.dart';
+import '../helpers/external.dart';
+import '../helpers/futureHelper.dart';
 import '../helpers/genericHelper.dart';
+import '../helpers/snapshotHelper.dart';
 import '../localization/localeKey.dart';
 import '../localization/translations.dart';
 import '../state/modules/base/appState.dart';

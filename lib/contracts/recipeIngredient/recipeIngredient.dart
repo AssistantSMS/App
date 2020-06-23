@@ -4,7 +4,7 @@
 
 import 'dart:convert';
 
-import 'package:scrapmechanic_kurtlourens_com/helpers/jsonHelper.dart';
+import '../../helpers/jsonHelper.dart';
 
 List<RecipeIngredient> recipeIngredientFromJson(String str) =>
     List<RecipeIngredient>.from(

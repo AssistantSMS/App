@@ -1,5 +1,4 @@
-import 'package:scrapmechanic_kurtlourens_com/contracts/recipe/recipe.dart';
-
+import '../../contracts/recipe/recipe.dart';
 import '../../contracts/results/resultWithValue.dart';
 
 class IRecipeJsonService {

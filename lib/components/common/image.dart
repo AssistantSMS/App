@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:scrapmechanic_kurtlourens_com/constants/AppImage.dart';
 
 import '../../constants/ExternalUrls.dart';
 import '../loading.dart';
@@ -39,11 +38,9 @@ Widget localImage(
   BoxFit boxfit,
   double height,
   double width,
-  bool imageGreyScale = false,
-  bool imageInvertColor = false,
   EdgeInsetsGeometry padding = EdgeInsets.zero,
 }) {
-  var image = Padding(
+  return Padding(
     child: Image(
       image: AssetImage(imagePath),
       fit: boxfit,
@@ -51,13 +48,5 @@ Widget localImage(
       width: width,
     ),
     padding: padding,
-  );
-  if (imageGreyScale == false && imageInvertColor == false) return image;
-
-  List<double> matrix = AppImage.predefinedColorFilterMatrixGreyScale;
-  if (imageInvertColor) matrix = AppImage.predefinedColorFilterMatrixInverse;
-  return ColorFiltered(
-    colorFilter: ColorFilter.matrix(matrix),
-    child: image,
   );
 }

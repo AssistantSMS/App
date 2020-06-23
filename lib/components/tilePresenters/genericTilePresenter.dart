@@ -1,7 +1,7 @@
 import 'package:badges/badges.dart';
 import 'package:flutter/material.dart';
-import 'package:scrapmechanic_kurtlourens_com/constants/AppImage.dart';
 
+import '../../constants/AppImage.dart';
 import '../../helpers/analytics.dart';
 import '../../helpers/colourHelper.dart';
 import '../../localization/localeKey.dart';
@@ -83,8 +83,7 @@ ListTile genericListTileWithSubtitle(context,
 
   return genericListTileWithSubtitleAndImageCount(
     context,
-    leadingImage: genericTileImage(leadingImage, imageBackgroundColour,
-        imageGreyScale: imageGreyScale),
+    leadingImage: genericTileImage(leadingImage, imageBackgroundColour),
     leadingImageCount: 0,
     imageGreyScale: imageGreyScale,
     title: title,
@@ -174,12 +173,10 @@ ListTile genericListTileWithNetworkImage(context,
   );
 }
 
-Widget genericTileImage(String leadingImage, String imageBackgroundColour,
-    {bool imageGreyScale = false}) {
+Widget genericTileImage(String leadingImage, String imageBackgroundColour) {
   if (leadingImage == null) return null;
 
-  Widget image = localImage('${AppImage.base}$leadingImage',
-      imageGreyScale: imageGreyScale);
+  Widget image = localImage('${AppImage.base}$leadingImage');
   if (imageBackgroundColour == null) {
     return image;
   }

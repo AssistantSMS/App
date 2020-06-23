@@ -2,7 +2,7 @@
 //
 //     final recipeIngredient = recipeIngredientFromJson(jsonString);
 
-import 'package:scrapmechanic_kurtlourens_com/localization/localeKey.dart';
+import '../../localization/localeKey.dart';
 
 class RecipeIngredientDetails {
   RecipeIngredientDetails({

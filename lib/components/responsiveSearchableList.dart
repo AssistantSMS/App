@@ -1,11 +1,11 @@
-import 'package:flutter/material.dart';
 import 'package:breakpoint/breakpoint.dart';
-import 'package:scrapmechanic_kurtlourens_com/components/loading.dart';
+import 'package:flutter/material.dart';
 
 import '../contracts/misc/responsiveFlexData.dart';
 import '../contracts/results/resultWithValue.dart';
 import '../helpers/colourHelper.dart';
 import '../helpers/columnHelper.dart';
+import 'loading.dart';
 import 'searchableList.dart';
 
 class ResponsiveListDetailView<T> extends StatefulWidget {

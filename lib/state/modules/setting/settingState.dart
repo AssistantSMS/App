@@ -1,5 +1,6 @@
 import 'package:meta/meta.dart';
-import 'package:scrapmechanic_kurtlourens_com/helpers/jsonHelper.dart';
+
+import '../../../helpers/jsonHelper.dart';
 
 @immutable
 class SettingState {

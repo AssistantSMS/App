@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:package_info/package_info.dart';
-import 'package:scrapmechanic_kurtlourens_com/constants/ExternalUrls.dart';
 
+import '../constants/ExternalUrls.dart';
 import '../constants/Routes.dart';
 import '../contracts/results/resultWithValue.dart';
 import '../localization/localeKey.dart';

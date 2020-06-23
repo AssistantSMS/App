@@ -1,4 +1,4 @@
-import 'package:scrapmechanic_kurtlourens_com/localization/localeKey.dart';
+import '../localization/localeKey.dart';
 
 LocaleKey getCraftBotPageName() => LocaleKey.craftBot;
 List<LocaleKey> getCraftBotPageLocales() => [LocaleKey.craftBotRecipeJson];

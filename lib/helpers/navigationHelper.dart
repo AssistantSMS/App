@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:scrapmechanic_kurtlourens_com/constants/Routes.dart';
+
+import '../constants/Routes.dart';
 
 Future<bool> navigateBackOrHomeAsync(context) async {
   if (Navigator.canPop(context)) {

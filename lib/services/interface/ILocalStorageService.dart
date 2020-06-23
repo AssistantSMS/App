@@ -1,8 +1,7 @@
-import 'package:scrapmechanic_kurtlourens_com/state/modules/base/appState.dart';
-import 'package:scrapmechanic_kurtlourens_com/state/themeState.dart';
-
 import '../../contracts/results/result.dart';
 import '../../contracts/results/resultWithValue.dart';
+import '../../state/modules/base/appState.dart';
+import '../../state/themeState.dart';
 
 class ILocalStorageService {
   Future<Result> saveAppState(AppState state) async =>

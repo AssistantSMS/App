@@ -1,9 +1,8 @@
-import 'package:scrapmechanic_kurtlourens_com/integration/logging.dart';
-
 import '../../contracts/recipe/recipe.dart';
 import '../../contracts/recipe/recipeBase.dart';
 import '../../contracts/recipe/recipeLang.dart';
 import '../../contracts/results/resultWithValue.dart';
+import '../../integration/logging.dart';
 import '../../localization/localeKey.dart';
 import '../../localization/translations.dart';
 import '../../mapper/recipeMapper.dart';

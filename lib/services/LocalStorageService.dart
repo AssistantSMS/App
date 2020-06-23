@@ -1,15 +1,14 @@
 import 'dart:convert';
 
-import 'package:scrapmechanic_kurtlourens_com/integration/logging.dart';
-import 'package:scrapmechanic_kurtlourens_com/state/themeState.dart';
-
 import './interface/ILocalStorageService.dart';
 import '../constants/AppConfig.dart';
 import '../contracts/results/result.dart';
 import '../contracts/results/resultWithValue.dart';
 import '../integration/dependencyInjection.dart';
+import '../integration/logging.dart';
 import '../repository/interface/ILocalStorageRepository.dart';
 import '../state/modules/base/appState.dart';
+import '../state/themeState.dart';
 
 class LocalStorageService implements ILocalStorageService {
   ILocalStorageRepository _storageRepo;

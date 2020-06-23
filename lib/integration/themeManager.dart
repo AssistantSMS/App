@@ -6,7 +6,6 @@ import '../contracts/results/resultWithValue.dart';
 import '../state/themeState.dart';
 import '../theme/themes.dart';
 import 'dependencyInjection.dart';
-import 'logging.dart';
 
 class ThemeManager implements IThemeModeManager {
   @override

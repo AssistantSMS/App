@@ -5,6 +5,7 @@ import '../../contracts/generated/SteamNewsItem.dart';
 import '../../helpers/colourHelper.dart';
 import '../../helpers/dateHelper.dart';
 import '../../helpers/external.dart';
+import '../../components/webSpecific/mousePointer.dart';
 import '../common/image.dart';
 
 Widget steamNewsItemTilePresenter(
@@ -64,7 +65,7 @@ Widget steamNewsItemTilePresenter(
               ),
             ),
           ],
-        ),
+        ).showPointerOnHover,
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(10.0),
         ),

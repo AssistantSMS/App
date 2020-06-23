@@ -158,12 +158,12 @@
   }
   // Backup loader dismissal
   var removeLoader = function () {
-    var loader = document.querySelector('#initial-loader');
-    if (loader != null) {
       setTimeout(function () {
-        loader.remove();
-      }, 5000);
-    }
+        var loader = document.querySelector('#initial-loader');
+        if (loader != null) {
+            loader.remove();
+        }
+      }, 2500);
   };
   window.document.onload = removeLoader;
   window.onload = removeLoader;

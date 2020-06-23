@@ -35,7 +35,7 @@ dependencies:
   universal_platform: ^0.1.3
   breakpoint: ^1.0.1+2
   dartx: ^0.4.1
-  shared_preferences: ^0.5.4+8
+  shared_preferences: ^0.5.7+3
   shared_preferences_web: ^0.1.2+7
   # Misc
   url_launcher: 5.4.10
@@ -145,11 +145,17 @@ flutter:
     - assets/img/unknown.png
     - assets/img/block.png
 
-    - assets/img/rating/buoyancy.png
-    - assets/img/rating/durability.png
-    - assets/img/rating/flammable.png
-    - assets/img/rating/friction.png
-    - assets/img/rating/weight.png
+    - assets/img/rating/dark/buoyancy.png
+    - assets/img/rating/dark/durability.png
+    - assets/img/rating/dark/flammable.png
+    - assets/img/rating/dark/friction.png
+    - assets/img/rating/dark/weight.png
+
+    - assets/img/rating/light/buoyancy.png
+    - assets/img/rating/light/durability.png
+    - assets/img/rating/light/flammable.png
+    - assets/img/rating/light/friction.png
+    - assets/img/rating/light/weight.png
 
     - assets/img/tile/cooking.png
     - assets/img/tile/craft.png

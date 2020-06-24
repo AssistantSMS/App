@@ -9,9 +9,11 @@ The goal is to have a responsive Flutter app that will look good on mobile devic
 ### Android & iOS
 I am using [CodeMagic](codemagic.io) to build the android and iOS apps
 
-Android: [![Codemagic build status](https://api.codemagic.io/apps/5ee912bbed34a921a214116d/5ee912bbed34a921a214116c/status_badge.svg)](https://codemagic.io/apps/5ee912bbed34a921a214116d/5ee912bbed34a921a214116c/latest_build)
+Android & iOS combined Build: [![Codemagic build status](https://api.codemagic.io/apps/5ee912bbed34a921a214116d/5ee912bbed34a921a214116c/status_badge.svg)](https://codemagic.io/apps/5ee912bbed34a921a214116d/5ee912bbed34a921a214116c/latest_build)
 
-iOS: [![Codemagic build status](https://api.codemagic.io/apps/5ee912bbed34a921a214116d/5ef1121503ad6bc3b0540846/status_badge.svg)](https://codemagic.io/apps/5ee912bbed34a921a214116d/5ef1121503ad6bc3b0540846/latest_build)
+Android Only Build: [![Codemagic build status](https://api.codemagic.io/apps/5ee912bbed34a921a214116d/5ee912bbed34a921a214116c/status_badge.svg)](https://codemagic.io/apps/5ee912bbed34a921a214116d/5ee912bbed34a921a214116c/latest_build)
+
+iOS Only Build: [![Codemagic build status](https://api.codemagic.io/apps/5ee912bbed34a921a214116d/5ef1121503ad6bc3b0540846/status_badge.svg)](https://codemagic.io/apps/5ee912bbed34a921a214116d/5ef1121503ad6bc3b0540846/latest_build)
 
 ### Web
 Build: [![Build Status](https://dev.azure.com/khaoznet/Scrap%20Mechanic%20Assistant/_apis/build/status/AssistantSMS.App?branchName=master)](https://dev.azure.com/khaoznet/Scrap%20Mechanic%20Assistant/_apis/build/status/AssistantSMS.App?branchName=master)

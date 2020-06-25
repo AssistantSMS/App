@@ -28,6 +28,7 @@ class AppImage {
   static const String dressTile = base + tile + 'dress.png';
   static const String refinerTile = base + tile + 'refiner.png';
   static const String resourceTile = base + tile + 'resource.png';
+  static const String traderTile = base + tile + 'trader.png';
   static const String workshopTile = base + tile + 'workshop.png';
 
   static const String customLoading = base + 'loading.png';

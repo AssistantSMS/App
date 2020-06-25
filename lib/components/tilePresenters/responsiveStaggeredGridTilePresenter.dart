@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:scrapmechanic_kurtlourens_com/localization/translations.dart';
 
 import '../../helpers/colourHelper.dart';
 import '../../helpers/genericHelper.dart';
@@ -38,7 +39,7 @@ Widget responsiveStaggeredGridImageTilePresenter(
     context,
     genericItemImage(context, imgPath, height: height, onTap: safeOnTap),
     iconColor: iconColor,
-    text: text,
+    text: null, //text,
     height: height,
     onTap: safeOnTap,
   );
@@ -56,7 +57,7 @@ Widget responsiveStaggeredGridIconTilePresenter(
       child: getCorrectlySizedImageFromIcon(
         context,
         icon,
-        maxSize: 50,
+        maxSize: 45,
         colour: Colors.white,
       ),
       onTap: safeOnTap,
@@ -75,45 +76,43 @@ Widget responsiveStaggeredGridBaseTilePresenter(
     if (onTap != null) onTap();
   };
 
-  List<Widget> children = List<Widget>();
-  children.add(Center(child: image));
-  // if (text != null) {
-  //   children.add(Positioned(
-  //     child: Padding(
-  //       child: Text(
-  //         Translations.get(context, text),
-  //         textAlign: TextAlign.center,
-  //         maxLines: 1,
-  //         style: TextStyle(
-  //           color: getForegroundTextColour(backgroundColor),
-  //         ),
-  //       ),
-  //       padding: EdgeInsets.only(left: 8, top: 4, right: 8),
-  //     ),
-  //     bottom: 8,
-  //     left: 4,
-  //     right: 4,
-  //   ));
-  // }
-
   // var backgroundColor = backgroundColor;
   // var backgroundColor =HexColor("4B7287");
   // var backgroundColor = HexColor("21536C");
   var backgroundColor = getSecondaryColour(context);
+  List<Widget> children = List<Widget>();
+  children.add(Center(child: image));
+  if (text != null) {
+    children.add(
+      /*Positioned(
+      child: */
+      Padding(
+        child: Text(
+          Translations.get(context, text),
+          textAlign: TextAlign.center,
+          maxLines: 1,
+          style: TextStyle(
+            color: getForegroundTextColour(backgroundColor),
+          ),
+        ),
+        padding: EdgeInsets.only(left: 8, top: 4, right: 8),
+      ),
+      /*bottom: 8,
+      left: 4,
+      right: 4,
+    )*/
+    );
+  }
+
+  var child = children.length == 1
+      ? children[0]
+      : Column(
+          children: children,
+          mainAxisAlignment: MainAxisAlignment.center,
+        );
+
   return Card(
     color: backgroundColor,
-    child: InkWell(
-      onTap: safeOnTap,
-      child: Stack(
-        children: children,
-        // mainAxisAlignment: MainAxisAlignment.center,
-      ),
-    ),
-    // shape: RoundedRectangleBorder(
-    //   borderRadius: BorderRadius.only(
-    //     topRight: Radius.circular(25),
-    //     bottomLeft: Radius.circular(25),
-    //   ),
-    // ),
+    child: InkWell(onTap: safeOnTap, child: child),
   );
 }

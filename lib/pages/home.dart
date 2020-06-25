@@ -60,14 +60,14 @@ class HomePage extends StatelessWidget {
           childBuilder: (BuildContext childContext) =>
               responsiveStaggeredGridImageTilePresenter(
             context,
-            AppImage.workshopTile,
-            text: getWorkbenchPageName(),
+            AppImage.traderTile,
+            text: getHideoutPageName(),
             height: smallImage,
             onTap: () async => await navigateAwayFromHomeAsync(
               context,
               navigateTo: (context) => RecipeListPage(
-                getWorkbenchPageName(),
-                getWorkbenchPageLocales(),
+                getHideoutPageName(),
+                getHideoutPageLocales(),
               ),
             ),
           ),
@@ -94,6 +94,23 @@ class HomePage extends StatelessWidget {
           childBuilder: (BuildContext childContext) =>
               responsiveStaggeredGridImageTilePresenter(
             context,
+            AppImage.workshopTile,
+            text: getWorkbenchPageName(),
+            height: smallImage * 0.6,
+            onTap: () async => await navigateAwayFromHomeAsync(
+              context,
+              navigateTo: (context) => RecipeListPage(
+                getWorkbenchPageName(),
+                getWorkbenchPageLocales(),
+              ),
+            ),
+          ),
+          gridItemType: StaggeredGridItemType.smallSquare,
+        ),
+        StaggeredGridItem(
+          childBuilder: (BuildContext childContext) =>
+              responsiveStaggeredGridImageTilePresenter(
+            context,
             AppImage.resourceTile,
             text: getDispensorPageName(),
             height: smallImage,
@@ -105,7 +122,7 @@ class HomePage extends StatelessWidget {
               ),
             ),
           ),
-          gridItemType: StaggeredGridItemType.smallRectLandscape,
+          gridItemType: StaggeredGridItemType.smallSquare,
         ),
         StaggeredGridItem(
           childBuilder: (BuildContext childContext) =>
@@ -162,7 +179,7 @@ class HomePage extends StatelessWidget {
           childBuilder: (BuildContext childContext) =>
               responsiveStaggeredGridIconTilePresenter(
             context,
-            Icons.shopping_basket,
+            Icons.shopping_cart,
             text: getCartPageName(),
             onTap: () async => await navigateAwayFromHomeAsync(
               context,

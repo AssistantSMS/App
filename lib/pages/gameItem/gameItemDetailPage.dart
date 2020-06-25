@@ -298,7 +298,7 @@ class GameItemDetailPage extends StatelessWidget {
           bottom: 16,
           right: 16,
           child: FloatingActionButton(
-            child: Icon(Icons.shopping_basket),
+            child: Icon(Icons.shopping_cart),
             backgroundColor: fabColour,
             foregroundColor: getForegroundTextColour(fabColour),
             onPressed: () {

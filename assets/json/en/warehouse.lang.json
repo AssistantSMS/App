@@ -64,10 +64,6 @@
     "Title": "Metal Storage Support"
   },
   {
-    "Id": "ware17",
-    "Title": "obj_warehouse_container2"
-  },
-  {
     "Id": "ware18",
     "Title": "Metal Storage Ramp"
   },
@@ -128,10 +124,6 @@
     "Title": "Banner"
   },
   {
-    "Id": "ware33",
-    "Title": "obj_warehouse_banner2"
-  },
-  {
     "Id": "ware34",
     "Title": "Frame Beam Light"
   },
@@ -166,14 +158,6 @@
   {
     "Id": "ware42",
     "Title": "Crane Loading Floor"
-  },
-  {
-    "Id": "ware43",
-    "Title": "obj_warehouse_encryptorsign_destruction"
-  },
-  {
-    "Id": "ware44",
-    "Title": "obj_warehouse_encryptorsign_connection"
   },
   {
     "Id": "ware45",

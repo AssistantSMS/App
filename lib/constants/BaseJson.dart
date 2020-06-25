@@ -33,7 +33,7 @@ class BaseJson {
   static const String craftBot = 'recipeCraftbot';
   static const String dispenser = 'recipeDispenser';
   static const String dressBot = 'recipeDressbot';
-  static const String hideOut = 'hideout';
+  static const String hideOut = 'recipeHideout';
   // static const String itemNames = 'item_names';
   static const String refinery = 'recipeRefinery';
   // static const String undecided = 'undecided';

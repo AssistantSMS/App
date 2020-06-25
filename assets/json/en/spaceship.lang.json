@@ -60,62 +60,6 @@
     "Title": "Ship Wall Panel Large"
   },
   {
-    "Id": "spaceship16",
-    "Title": "obj_spaceship_wall08_damaged"
-  },
-  {
-    "Id": "spaceship17",
-    "Title": "obj_spaceship_wall02"
-  },
-  {
-    "Id": "spaceship18",
-    "Title": "obj_spaceship_wall02_damaged"
-  },
-  {
-    "Id": "spaceship19",
-    "Title": "obj_spaceship_wall01"
-  },
-  {
-    "Id": "spaceship20",
-    "Title": "obj_spaceship_wall03"
-  },
-  {
-    "Id": "spaceship21",
-    "Title": "obj_spaceship_wall04"
-  },
-  {
-    "Id": "spaceship22",
-    "Title": "obj_spaceship_wall12"
-  },
-  {
-    "Id": "spaceship23",
-    "Title": "obj_spaceship_wall12_damaged"
-  },
-  {
-    "Id": "spaceship24",
-    "Title": "obj_spaceship_wall06"
-  },
-  {
-    "Id": "spaceship25",
-    "Title": "obj_spaceship_wall05"
-  },
-  {
-    "Id": "spaceship26",
-    "Title": "obj_spaceship_corner01"
-  },
-  {
-    "Id": "spaceship27",
-    "Title": "obj_spaceship_corner01_damaged"
-  },
-  {
-    "Id": "spaceship28",
-    "Title": "obj_spaceship_corner02"
-  },
-  {
-    "Id": "spaceship29",
-    "Title": "obj_spaceship_corner03"
-  },
-  {
     "Id": "spaceship30",
     "Title": "Ship Wall Panel Small"
   },
@@ -144,26 +88,6 @@
     "Title": "Ship Floor Mold"
   },
   {
-    "Id": "spaceship37",
-    "Title": "obj_spaceship_frame02"
-  },
-  {
-    "Id": "spaceship38",
-    "Title": "obj_spaceship_frame05"
-  },
-  {
-    "Id": "spaceship39",
-    "Title": "obj_spaceship_frame03"
-  },
-  {
-    "Id": "spaceship40",
-    "Title": "obj_spaceship_frame04"
-  },
-  {
-    "Id": "spaceship41",
-    "Title": "obj_spaceship_frame06"
-  },
-  {
     "Id": "spaceship42",
     "Title": "Ship Blinds"
   },
@@ -174,14 +98,6 @@
   {
     "Id": "spaceship44",
     "Title": "Ship Ventilation Panel"
-  },
-  {
-    "Id": "spaceship45",
-    "Title": "obj_spaceship_floor_panel"
-  },
-  {
-    "Id": "spaceship46",
-    "Title": "obj_spaceship_infoboard"
   },
   {
     "Id": "spaceship47",

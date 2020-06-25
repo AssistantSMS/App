@@ -13,8 +13,9 @@ class ThemeManager implements IThemeModeManager {
     ResultWithValue<ThemeState> themeResult =
         await getStorageService().loadThemeState();
     var defaultThemeMode = 'ThemeMode.dark';
-    if (themeResult.isSuccess)
+    if (themeResult.isSuccess) {
       return themeResult?.value?.themeMode ?? defaultThemeMode;
+    }
     return defaultThemeMode;
   }
 

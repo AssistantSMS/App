@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:scrapmechanic_kurtlourens_com/helpers/deviceHelper.dart';
+
+import '../../helpers/deviceHelper.dart';
 
 // Widget adaptiveCheckbox(BuildContext context,
 //         {@required bool value,

@@ -1,5 +1,6 @@
 import 'package:breakpoint/breakpoint.dart';
-import 'package:scrapmechanic_kurtlourens_com/contracts/misc/responsiveFlexData.dart';
+
+import '../contracts/misc/responsiveFlexData.dart';
 
 int getCustomColumnCount(Breakpoint breakpoint) {
   if (breakpoint.window == WindowSize.xsmall) return 4;

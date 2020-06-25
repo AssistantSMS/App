@@ -5,6 +5,7 @@ import '../../components/adaptive/appScaffold.dart';
 import '../../components/responsiveSearchableList.dart';
 import '../../components/tilePresenters/gameItemTilePresenter.dart';
 import '../../constants/AnalyticsEvent.dart';
+import '../../constants/Routes.dart';
 import '../../contracts/gameItem/gameItem.dart';
 import '../../helpers/analytics.dart';
 import '../../helpers/futureHelper.dart';
@@ -34,16 +35,21 @@ class GameItemListPage extends StatelessWidget {
         () => getAllGameItemFromLocaleKeys(context, gameItemLocales),
         gameItemTilePresenter,
         searchGameItem,
-        listItemMobileOnTap: (BuildContext context, GameItem recipe) async =>
-            await navigateAwayFromHomeAsync(context,
-                navigateTo: (context) => GameItemDetailPage(recipe.id)),
+        listItemMobileOnTap: (BuildContext context, GameItem gameItem) async {
+          return await navigateAwayFromHomeAsync(
+            context,
+            navigateToNamed: Routes.gameDetail,
+            navigateToNamedParameters: {Routes.itemIdParam: gameItem.id},
+          );
+        },
         listItemDesktopOnTap: (BuildContext context, GameItem recipe,
-                void Function(Widget) updateDetailView) =>
-            GameItemDetailPage(
-          recipe.id,
-          isInDetailPane: true,
-          updateDetailView: updateDetailView,
-        ),
+            void Function(Widget) updateDetailView) {
+          return GameItemDetailPage(
+            recipe.id,
+            isInDetailPane: true,
+            updateDetailView: updateDetailView,
+          );
+        },
         key: Key(Translations.of(context).currentLanguage),
       ),
     );

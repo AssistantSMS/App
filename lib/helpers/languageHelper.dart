@@ -1,12 +1,12 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:scrapmechanic_kurtlourens_com/components/tilePresenters/languageTilePresenter.dart';
-import 'package:scrapmechanic_kurtlourens_com/localization/localizationMap.dart';
 
+import '../components/tilePresenters/languageTilePresenter.dart';
 import '../constants/SupportedLanguages.dart';
 import '../contracts/search/dropdownOption.dart';
 import '../localization/localeKey.dart';
+import '../localization/localizationMap.dart';
 import '../localization/translations.dart';
 import '../pages/dialog/optionsListPageDialog.dart';
 

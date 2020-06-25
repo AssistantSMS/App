@@ -4,7 +4,6 @@
 <head>
   <meta charset="UTF-8" />
   <meta content="IE=Edge" http-equiv="X-UA-Compatible" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Assistant for Scrap Mechanic</title>
   <meta name="description"
     content="Available on the Google Play and Apple App Store. Get crafting recipes and item details for the Scrap Mechanic Survival Survival!!" />
@@ -82,7 +81,8 @@
   <link rel="manifest" href="manifest.json">
 
   <style>
-    #initial-loader {
+    #initial-loader,
+    #enable-js {
       position: fixed;
       top: 0;
       right: 0;
@@ -98,7 +98,8 @@
       z-index: 1000;
     }
 
-    #initial-loader h1 {
+    #initial-loader h1,
+    #enable-js h1 {
       color: white;
       margin-top: 1em;
     }
@@ -110,6 +111,11 @@
       -webkit-animation: spin 2s linear infinite;
       -moz-animation: spin 2s linear infinite;
       animation: spin 2s linear infinite;
+    }
+
+    #enable-js img {
+      margin: 0 auto;
+      height: 50%;
     }
 
     @-moz-keyframes spin {
@@ -134,9 +140,15 @@
 </head>
 
 <body>
-  <div id="initial-loader" class="full-page-loader initial intro-background">
-    <img src="assets/assets/img/loading.png" draggable="false" alt="loading-animation">
+  <div id="initial-loader">
+    <img src="assets/assets/img/loading.png" draggable="false" alt="Loading">
   </div>
+  <noscript>
+    <div id="enable-js">
+      <h1>Please enable javascript</h1>
+      <img src="enable-js.png" draggable="false" alt="Please Enable Javascript">
+    </div>
+  </noscript>
 </body>
 
 <script>
@@ -145,17 +157,28 @@
       navigator.serviceWorker.register('flutter_service_worker.js');
     });
   }
+  // Backup loader dismissal
   var removeLoader = function () {
-    var loader = document.querySelector('#initial-loader');
-    if (loader != null) {
-      setTimeout(function () {
+    setTimeout(function () {
+      var loader = document.querySelector('#initial-loader');
+      if (loader != null) {
         loader.remove();
-      }, 2000);
-    }
+      }
+    }, 5000);
   };
   window.document.onload = removeLoader;
   window.onload = removeLoader;
 </script>
 <script src="main.dart.js" type="application/javascript"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-170150150-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
+
+  gtag('config', 'UA-170150150-1');
+</script>
+
 
 </html>

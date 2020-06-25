@@ -1,6 +1,6 @@
-import 'package:scrapmechanic_kurtlourens_com/state/modules/base/appState.dart';
 import 'package:redux/redux.dart';
 
+import '../base/appState.dart';
 import 'selector.dart';
 
 class SettingViewModel {

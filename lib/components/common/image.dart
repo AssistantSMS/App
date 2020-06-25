@@ -38,43 +38,15 @@ Widget localImage(
   BoxFit boxfit,
   double height,
   double width,
-  bool imageGreyScale = false,
   EdgeInsetsGeometry padding = EdgeInsets.zero,
 }) {
-  var image = Image(
-    image: AssetImage(imagePath),
-    fit: boxfit,
-    height: height,
-    width: width,
-  );
   return Padding(
-    child: imageGreyScale
-        ? ColorFiltered(
-            colorFilter: ColorFilter.matrix(<double>[
-              0.2126,
-              0.7152,
-              0.0722,
-              0,
-              0,
-              0.2126,
-              0.7152,
-              0.0722,
-              0,
-              0,
-              0.2126,
-              0.7152,
-              0.0722,
-              0,
-              0,
-              0,
-              0,
-              0,
-              1,
-              0,
-            ]),
-            child: image,
-          )
-        : image,
+    child: Image(
+      image: AssetImage(imagePath),
+      fit: boxfit,
+      height: height,
+      width: width,
+    ),
     padding: padding,
   );
 }

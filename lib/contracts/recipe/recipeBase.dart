@@ -4,7 +4,7 @@
 
 import 'dart:convert';
 
-import 'package:scrapmechanic_kurtlourens_com/helpers/jsonHelper.dart';
+import '../../helpers/jsonHelper.dart';
 
 import '../recipeIngredient/recipeIngredient.dart';
 

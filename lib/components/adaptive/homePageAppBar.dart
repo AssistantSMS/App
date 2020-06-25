@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:scrapmechanic_kurtlourens_com/constants/Routes.dart';
 
+import '../../constants/Routes.dart';
 import '../../contracts/misc/actionItem.dart';
 import '../../helpers/deviceHelper.dart';
 import '../../helpers/navigationHelper.dart';

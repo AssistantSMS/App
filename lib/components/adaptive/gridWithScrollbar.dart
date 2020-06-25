@@ -2,8 +2,8 @@ import 'package:breakpoint/breakpoint.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
-import 'package:scrapmechanic_kurtlourens_com/helpers/columnHelper.dart';
 
+import '../../helpers/columnHelper.dart';
 import '../../helpers/deviceHelper.dart';
 
 Widget gridWithScrollbar(

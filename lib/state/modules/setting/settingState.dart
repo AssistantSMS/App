@@ -1,5 +1,6 @@
 import 'package:meta/meta.dart';
-import 'package:scrapmechanic_kurtlourens_com/helpers/jsonHelper.dart';
+
+import '../../../helpers/jsonHelper.dart';
 
 @immutable
 class SettingState {
@@ -24,7 +25,7 @@ class SettingState {
   }
 
   SettingState.fromJson(Map<String, dynamic> json)
-      : selectedLanguage = readStringSafe(json, 'cartState');
+      : selectedLanguage = readStringSafe(json, 'selectedLanguage');
 
   Map<String, dynamic> toJson() => {
         'selectedLanguage': selectedLanguage,

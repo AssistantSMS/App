@@ -17,35 +17,39 @@ ResultWithValue<Widget> getRatingTableRows(
   if (gameItem.rating == null)
     return ResultWithValue<Table>(false, null, 'rating is null');
 
+  var isDark = getIsDark(context);
   if (gameItem.rating.density != null) {
     rows.add(TableRow(children: [
-      headingLocaleKeyWithImage(context, AppImage.weight, LocaleKey.density),
+      headingLocaleKeyWithImage(
+          context, AppImage.weight(isDark), LocaleKey.density),
       rowValue(context, gameItem.rating.density)
     ]));
   }
   if (gameItem.rating.durability != null) {
     rows.add(TableRow(children: [
       headingLocaleKeyWithImage(
-          context, AppImage.durability, LocaleKey.durability),
+          context, AppImage.durability(isDark), LocaleKey.durability),
       rowValue(context, gameItem.rating.durability)
     ]));
   }
   if (gameItem.rating.friction != null) {
     rows.add(TableRow(children: [
-      headingLocaleKeyWithImage(context, AppImage.friction, LocaleKey.friction),
+      headingLocaleKeyWithImage(
+          context, AppImage.friction(isDark), LocaleKey.friction),
       rowValue(context, gameItem.rating.friction)
     ]));
   }
   if (gameItem.rating.buoyancy != null) {
     rows.add(TableRow(children: [
-      headingLocaleKeyWithImage(context, AppImage.buoyancy, LocaleKey.buoyancy),
+      headingLocaleKeyWithImage(
+          context, AppImage.buoyancy(isDark), LocaleKey.buoyancy),
       rowValue(context, gameItem.rating.buoyancy)
     ]));
   }
   if (gameItem.flammable != null) {
     rows.add(TableRow(children: [
       headingLocaleKeyWithImage(
-          context, AppImage.flammable, LocaleKey.flammable),
+          context, AppImage.flammable(isDark), LocaleKey.flammable),
       Text(
         Translations.get(
             context, gameItem.flammable ? LocaleKey.yes : LocaleKey.no),
@@ -73,7 +77,11 @@ Widget headingLocaleKeyWithImage(
     Row(children: [
       Padding(
         padding: EdgeInsets.only(right: 4),
-        child: localImage(imagePath, height: 16),
+        child: localImage(
+          imagePath,
+          height: 16,
+          // imageInvertColor: true, //getIsDark(context) == false,
+        ),
       ),
       headingText(context, Translations.get(context, key),
           textAlign: textAlign),

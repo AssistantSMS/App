@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:scrapmechanic_kurtlourens_com/constants/Routes.dart';
+
+import '../constants/Routes.dart';
+import '../integration/logging.dart';
 
 Future<bool> navigateBackOrHomeAsync(context) async {
   if (Navigator.canPop(context)) {
@@ -37,8 +39,12 @@ Future<bool> navigateHomeAsync(context,
   return Future.value(false);
 }
 
-Future navigateAwayFromHomeAsync(context,
-    {Function navigateTo, String navigateToNamed}) async {
+Future navigateAwayFromHomeAsync(
+  context, {
+  Function navigateTo,
+  String navigateToNamed,
+  Map<String, String> navigateToNamedParameters,
+}) async {
   if (navigateTo != null) {
     if (Navigator.canPop(context)) {
       Navigator.push(
@@ -54,9 +60,16 @@ Future navigateAwayFromHomeAsync(context,
     }
   } else {
     // Navigator.pushReplacementNamed(
+    String routeWithQueryParams = navigateToNamed;
+    for (var paramKey in navigateToNamedParameters?.keys ?? []) {
+      var value = navigateToNamedParameters[paramKey];
+      routeWithQueryParams =
+          routeWithQueryParams.replaceAll('/:$paramKey', '/$value');
+    }
+    logger.i(routeWithQueryParams);
     Navigator.pushNamed(
       context,
-      navigateToNamed,
+      routeWithQueryParams,
     );
   }
 }

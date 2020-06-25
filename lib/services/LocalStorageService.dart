@@ -1,14 +1,14 @@
 import 'dart:convert';
 
-import 'package:scrapmechanic_kurtlourens_com/state/themeState.dart';
-
 import './interface/ILocalStorageService.dart';
 import '../constants/AppConfig.dart';
 import '../contracts/results/result.dart';
 import '../contracts/results/resultWithValue.dart';
 import '../integration/dependencyInjection.dart';
+import '../integration/logging.dart';
 import '../repository/interface/ILocalStorageRepository.dart';
 import '../state/modules/base/appState.dart';
+import '../state/themeState.dart';
 
 class LocalStorageService implements ILocalStorageService {
   ILocalStorageRepository _storageRepo;
@@ -34,8 +34,9 @@ class LocalStorageService implements ILocalStorageService {
       return ResultWithValue<AppState>(false, null, tempResult.errorMessage);
     try {
       AppState result = AppState.fromJson(tempResult.value);
-      return ResultWithValue<AppState>(false, result, '');
+      return ResultWithValue<AppState>(true, result, '');
     } catch (exception) {
+      logger.e(exception, 'localStorageService - loadAppState');
       return ResultWithValue<AppState>(false, null, exception.errorMessage);
     }
   }
@@ -57,7 +58,7 @@ class LocalStorageService implements ILocalStorageService {
       return ResultWithValue<ThemeState>(false, null, tempResult.errorMessage);
     try {
       ThemeState result = ThemeState.fromJson(tempResult.value);
-      return ResultWithValue<ThemeState>(false, result, '');
+      return ResultWithValue<ThemeState>(true, result, '');
     } catch (exception) {
       return ResultWithValue<ThemeState>(false, null, exception.errorMessage);
     }

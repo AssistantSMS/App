@@ -7,6 +7,7 @@ import '../../components/common/cachedFutureBuilder.dart';
 import '../../components/dialogs/quantityDialog.dart';
 import '../../components/loading.dart';
 import '../../components/scaffoldTemplates/genericPageScaffold.dart';
+import '../../components/tilePresenters/cartTilePresenter.dart';
 import '../../components/tilePresenters/recipeIngredientTilePresenter.dart';
 import '../../components/tilePresenters/recipeTilePresenter.dart';
 import '../../constants/AnalyticsEvent.dart';
@@ -184,11 +185,15 @@ class GameItemDetailPage extends StatelessWidget {
               } else {
                 await navigateAwayFromHomeAsync(
                   context,
-                  navigateTo: (context) => GameItemDetailPage(
-                    ingDetails.id,
-                    isInDetailPane: isInDetailPane,
-                    updateDetailView: updateDetailView,
-                  ),
+                  navigateToNamed: Routes.gameDetail,
+                  navigateToNamedParameters: {
+                    Routes.itemIdParam: ingDetails.id
+                  },
+                  // navigateTo: (context) => GameItemDetailPage(
+                  //   ingDetails.id,
+                  //   isInDetailPane: isInDetailPane,
+                  //   updateDetailView: updateDetailView,
+                  // ),
                 );
               }
             },
@@ -227,11 +232,13 @@ class GameItemDetailPage extends StatelessWidget {
               } else {
                 await navigateAwayFromHomeAsync(
                   context,
-                  navigateTo: (context) => RecipeDetailPage(
-                    recipe.id,
-                    isInDetailPane: isInDetailPane,
-                    updateDetailView: updateDetailView,
-                  ),
+                  navigateToNamed: Routes.recipeDetail,
+                  navigateToNamedParameters: {Routes.itemIdParam: recipe.id},
+                  // navigateTo: (context) => RecipeDetailPage(
+                  //   recipe.id,
+                  //   isInDetailPane: isInDetailPane,
+                  //   updateDetailView: updateDetailView,
+                  // ),
                 );
               }
             },

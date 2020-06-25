@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:scrapmechanic_kurtlourens_com/constants/Routes.dart';
 
 import '../../components/adaptive/appBarForSubPage.dart';
 import '../../components/adaptive/appScaffold.dart';
@@ -34,16 +35,21 @@ class RecipeListPage extends StatelessWidget {
         () => getAllRecipeFromLocaleKeys(context, recipeLocales),
         recipeTilePresenter,
         searchRecipe,
-        listItemMobileOnTap: (BuildContext context, Recipe recipe) async =>
-            await navigateAwayFromHomeAsync(context,
-                navigateTo: (context) => RecipeDetailPage(recipe.id)),
+        listItemMobileOnTap: (BuildContext context, Recipe recipe) async {
+          return await navigateAwayFromHomeAsync(
+            context,
+            navigateToNamed: Routes.recipeDetail,
+            navigateToNamedParameters: {Routes.itemIdParam: recipe.id},
+          );
+        },
         listItemDesktopOnTap: (BuildContext context, Recipe recipe,
-                void Function(Widget) updateDetailView) =>
-            RecipeDetailPage(
-          recipe.id,
-          isInDetailPane: true,
-          updateDetailView: updateDetailView,
-        ),
+            void Function(Widget) updateDetailView) {
+          return RecipeDetailPage(
+            recipe.id,
+            isInDetailPane: true,
+            updateDetailView: updateDetailView,
+          );
+        },
         key: Key(Translations.of(context).currentLanguage),
       ),
     );

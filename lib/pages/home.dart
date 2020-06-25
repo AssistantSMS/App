@@ -34,8 +34,8 @@ class HomePage extends StatelessWidget {
   }
 
   Widget getBody(BuildContext context) {
-    const smallImage = 100.0;
-    const largeImage = 200.0;
+    const smallImage = 50.0;
+    const largeImage = 140.0;
 
     return responsiveStaggeredGrid(
       [
@@ -96,7 +96,7 @@ class HomePage extends StatelessWidget {
             context,
             AppImage.workshopTile,
             text: getWorkbenchPageName(),
-            height: smallImage * 0.6,
+            height: smallImage,
             onTap: () async => await navigateAwayFromHomeAsync(
               context,
               navigateTo: (context) => RecipeListPage(

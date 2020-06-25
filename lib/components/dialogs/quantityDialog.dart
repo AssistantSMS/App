@@ -63,7 +63,7 @@ void showQuantityDialog(context, TextEditingController controller,
           controller: controller,
           style: TextStyle(),
           autofocus: true,
-          cursorColor: Colors.teal,
+          cursorColor: getSecondaryColour(context),
           keyboardType: TextInputType.number,
           inputFormatters: <TextInputFormatter>[
             WhitelistingTextInputFormatter.digitsOnly

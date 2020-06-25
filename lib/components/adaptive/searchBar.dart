@@ -31,6 +31,7 @@ Widget _androidSearchBar(context, TextEditingController controller,
           leading: Icon(Icons.search),
           title: TextField(
             controller: controller,
+            cursorColor: getSecondaryColour(context),
             decoration: InputDecoration(
                 hintText: hintText == null
                     ? Translations.get(context, LocaleKey.searchItems)
@@ -43,6 +44,7 @@ Widget _androidSearchBar(context, TextEditingController controller,
             onPressed: () {
               controller.clear();
               onSearchTextChanged('');
+              FocusScope.of(context).requestFocus(new FocusNode());
             },
           ),
         ),

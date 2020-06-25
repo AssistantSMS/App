@@ -41,7 +41,8 @@ LocaleKey getWorkbenchPageName() => LocaleKey.workbench;
 List<LocaleKey> getWorkbenchPageLocales() => [LocaleKey.workbenchRecipeJson];
 
 LocaleKey getDispensorPageName() => LocaleKey.dispenser;
-List<LocaleKey> getDispensorPageLocales() => [LocaleKey.dispenserRecipeJson];
+// List<LocaleKey> getDispensorPageLocales() => [LocaleKey.dispenserRecipeJson];
+List<LocaleKey> getDispensorPageLocales() => [LocaleKey.hideOutRecipeJson];
 
 LocaleKey getRefinerPageName() => LocaleKey.refiner;
 List<LocaleKey> getRefinerPageLocales() => [LocaleKey.refineryRecipeJson];

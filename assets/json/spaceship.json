@@ -195,26 +195,6 @@
     "QualityLevel": 0
   },
   {
-    "Id": "spaceship12",
-    "Icon": "items/spaceship12.png",
-    "Color": "3e9ffe",
-    "PhysicsMaterial": "Metal",
-    "Ratings": {
-      "Density": 5,
-      "Durability": 2,
-      "Friction": 4,
-      "Buoyancy": 2
-    },
-    "Box": {
-      "X": 4,
-      "Y": 1,
-      "Z": 7
-    },
-    "Flammable": true,
-    "Density": 250.0,
-    "QualityLevel": 0
-  },
-  {
     "Id": "spaceship13",
     "Icon": "items/spaceship13.png",
     "Color": "3e9ffe",

@@ -1,0 +1,259 @@
+[
+  {
+    "Id": "recipeHideout.json1",
+    "Icon": "items/recipeHideout.json1.png",
+    "CraftingTime": 0,
+    "Output": {
+      "Id": "consu14",
+      "Quantity": 5
+    },
+    "Inputs": [
+      {
+        "Id": "pack6",
+        "Quantity": 1
+      }
+    ]
+  },
+  {
+    "Id": "recipeHideout.json2",
+    "Icon": "items/recipeHideout.json2.png",
+    "CraftingTime": 0,
+    "Output": {
+      "Id": "consu4",
+      "Quantity": 10
+    },
+    "Inputs": [
+      {
+        "Id": "pack7",
+        "Quantity": 1
+      }
+    ]
+  },
+  {
+    "Id": "recipeHideout.json3",
+    "Icon": "items/recipeHideout.json3.png",
+    "CraftingTime": 0,
+    "Output": {
+      "Id": "plant1",
+      "Quantity": 5
+    },
+    "Inputs": [
+      {
+        "Id": "pack6",
+        "Quantity": 3
+      }
+    ]
+  },
+  {
+    "Id": "recipeHideout.json4",
+    "Icon": "items/recipeHideout.json4.png",
+    "CraftingTime": 0,
+    "Output": {
+      "Id": "plant3",
+      "Quantity": 5
+    },
+    "Inputs": [
+      {
+        "Id": "pack8",
+        "Quantity": 3
+      }
+    ]
+  },
+  {
+    "Id": "recipeHideout.json5",
+    "Icon": "items/recipeHideout.json5.png",
+    "CraftingTime": 0,
+    "Output": {
+      "Id": "plant2",
+      "Quantity": 5
+    },
+    "Inputs": [
+      {
+        "Id": "pack7",
+        "Quantity": 3
+      }
+    ]
+  },
+  {
+    "Id": "recipeHideout.json6",
+    "Icon": "items/recipeHideout.json6.png",
+    "CraftingTime": 0,
+    "Output": {
+      "Id": "plant19",
+      "Quantity": 5
+    },
+    "Inputs": [
+      {
+        "Id": "pack1",
+        "Quantity": 3
+      }
+    ]
+  },
+  {
+    "Id": "recipeHideout.json7",
+    "Icon": "items/recipeHideout.json7.png",
+    "CraftingTime": 0,
+    "Output": {
+      "Id": "powertool1",
+      "Quantity": 1
+    },
+    "Inputs": [
+      {
+        "Id": "pack8",
+        "Quantity": 4
+      }
+    ]
+  },
+  {
+    "Id": "recipeHideout.json8",
+    "Icon": "items/recipeHideout.json8.png",
+    "CraftingTime": 0,
+    "Output": {
+      "Id": "powertool2",
+      "Quantity": 1
+    },
+    "Inputs": [
+      {
+        "Id": "pack7",
+        "Quantity": 4
+      }
+    ]
+  },
+  {
+    "Id": "recipeHideout.json9",
+    "Icon": "items/recipeHideout.json9.png",
+    "CraftingTime": 32,
+    "Output": {
+      "Id": "intera13",
+      "Quantity": 1
+    },
+    "Inputs": [
+      {
+        "Id": "pack1",
+        "Quantity": 2
+      },
+      {
+        "Id": "pack2",
+        "Quantity": 1
+      }
+    ]
+  },
+  {
+    "Id": "recipeHideout.json10",
+    "Icon": "items/recipeHideout.json10.png",
+    "CraftingTime": 32,
+    "Output": {
+      "Id": "interc5",
+      "Quantity": 1
+    },
+    "Inputs": [
+      {
+        "Id": "pack8",
+        "Quantity": 1
+      },
+      {
+        "Id": "pack7",
+        "Quantity": 1
+      }
+    ]
+  },
+  {
+    "Id": "recipeHideout.json11",
+    "Icon": "items/recipeHideout.json11.png",
+    "CraftingTime": 0,
+    "Output": {
+      "Id": "other15",
+      "Quantity": 1
+    },
+    "Inputs": [
+      {
+        "Id": "pack4",
+        "Quantity": 2
+      },
+      {
+        "Id": "pack2",
+        "Quantity": 2
+      },
+      {
+        "Id": "surv26",
+        "Quantity": 1
+      }
+    ]
+  },
+  {
+    "Id": "recipeHideout.json12",
+    "Icon": "items/recipeHideout.json12.png",
+    "CraftingTime": 0,
+    "Output": {
+      "Id": "other16",
+      "Quantity": 1
+    },
+    "Inputs": [
+      {
+        "Id": "pack3",
+        "Quantity": 4
+      },
+      {
+        "Id": "surv26",
+        "Quantity": 1
+      }
+    ]
+  },
+  {
+    "Id": "recipeHideout.json13",
+    "Icon": "items/recipeHideout.json13.png",
+    "CraftingTime": 0,
+    "Output": {
+      "Id": "other17",
+      "Quantity": 1
+    },
+    "Inputs": [
+      {
+        "Id": "pack5",
+        "Quantity": 5
+      },
+      {
+        "Id": "surv26",
+        "Quantity": 2
+      }
+    ]
+  },
+  {
+    "Id": "recipeHideout.json14",
+    "Icon": "items/recipeHideout.json14.png",
+    "CraftingTime": 0,
+    "Output": {
+      "Id": "out1",
+      "Quantity": 1
+    },
+    "Inputs": [
+      {
+        "Id": "pack4",
+        "Quantity": 1
+      },
+      {
+        "Id": "surv26",
+        "Quantity": 1
+      }
+    ]
+  },
+  {
+    "Id": "recipeHideout.json15",
+    "Icon": "items/recipeHideout.json15.png",
+    "CraftingTime": 0,
+    "Output": {
+      "Id": "out2",
+      "Quantity": 1
+    },
+    "Inputs": [
+      {
+        "Id": "pack3",
+        "Quantity": 2
+      },
+      {
+        "Id": "surv26",
+        "Quantity": 2
+      }
+    ]
+  }
+]

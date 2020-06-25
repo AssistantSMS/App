@@ -156,8 +156,8 @@
     "Icon": "items/recipeWorkbench9.png",
     "CraftingTime": 32,
     "Output": {
-      "Id": "",
-      "Quantity": 0
+      "Id": "other1",
+      "Quantity": 1
     },
     "Inputs": [
       {

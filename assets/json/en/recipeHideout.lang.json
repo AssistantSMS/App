@@ -1,0 +1,73 @@
+[
+  {
+    "Id": "recipeHideout.json1",
+    "Title": "Soil Bag",
+    "Description": "Use them on the ground to place your seeds in"
+  },
+  {
+    "Id": "recipeHideout.json2",
+    "Title": "Fertilizer",
+    "Description": "Makes plants grow faster"
+  },
+  {
+    "Id": "recipeHideout.json3",
+    "Title": "Banana Seed"
+  },
+  {
+    "Id": "recipeHideout.json4",
+    "Title": "Orange Seed"
+  },
+  {
+    "Id": "recipeHideout.json5",
+    "Title": "Blueberry Seed"
+  },
+  {
+    "Id": "recipeHideout.json6",
+    "Title": "Cotton Seed"
+  },
+  {
+    "Id": "recipeHideout.json7",
+    "Title": "Saw Blade",
+    "Description": "Cut down trees faster with the Saw Blade. Put it on a bearing that is connected to a engine and drive it in to a tree."
+  },
+  {
+    "Id": "recipeHideout.json8",
+    "Title": "Drill",
+    "Description": "Use the Drill to mine square rocks for stone and metal. Put it on a bearing that is connected to a engine and drive it in to a square rock."
+  },
+  {
+    "Id": "recipeHideout.json9",
+    "Title": "Mountable Spud Gun",
+    "Description": "Connect it to a Ammo container with a trigger to shoot"
+  },
+  {
+    "Id": "recipeHideout.json10",
+    "Title": "Potato Ammo Container",
+    "Description": "Connect it to a Moutable Spud Gun with a trigger to shoot potato ammo"
+  },
+  {
+    "Id": "recipeHideout.json11",
+    "Title": "Spud Gun",
+    "Description": "Spud Gun with single potato shot."
+  },
+  {
+    "Id": "recipeHideout.json12",
+    "Title": "Spud Shotgun",
+    "Description": "Shoots sizzling hot fries in a spread."
+  },
+  {
+    "Id": "recipeHideout.json13",
+    "Title": "Spudling Gun",
+    "Description": "Shoots potatoes in a rapid fire. Uses a lot of potato ammo"
+  },
+  {
+    "Id": "recipeHideout.json14",
+    "Title": "Garment Box (Common)",
+    "Description": "Use it in a Dressbot to make new clothes"
+  },
+  {
+    "Id": "recipeHideout.json15",
+    "Title": "Garment Box (Rare)",
+    "Description": "Use it in a Dressbot to make new clothes"
+  }
+]

@@ -11,6 +11,7 @@ import '../../constants/AnalyticsEvent.dart';
 import '../../constants/AppDuration.dart';
 import '../../constants/AppImage.dart';
 import '../../constants/AppPadding.dart';
+import '../../constants/IdPrefix.dart';
 import '../../constants/Routes.dart';
 import '../../contracts/recipe/recipePageItem.dart';
 import '../../contracts/recipeIngredient/recipeIngredient.dart';
@@ -112,8 +113,12 @@ class RecipeDetailPage extends StatelessWidget {
     widgets.add(Divider());
     widgets.add(emptySpace1x());
 
+    LocaleKey localeKey = LocaleKey.craftedUsing;
+    if (recipeItem.id.contains(IdPrefix.recipeHideOut)) {
+      localeKey = LocaleKey.tradedFor;
+    }
     widgets.add(Text(
-      Translations.get(context, LocaleKey.craftedUsing),
+      Translations.get(context, localeKey),
       textAlign: TextAlign.center,
     ));
     for (var recipeIngIndex = 0;

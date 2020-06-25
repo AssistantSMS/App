@@ -103,4 +103,5 @@ enum LocaleKey {
   viewAllRequiredItems,
   areYouSure,
   hideout,
+  tradedFor,
 }

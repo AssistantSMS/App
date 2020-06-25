@@ -41,14 +41,16 @@ LocaleKey getWorkbenchPageName() => LocaleKey.workbench;
 List<LocaleKey> getWorkbenchPageLocales() => [LocaleKey.workbenchRecipeJson];
 
 LocaleKey getDispensorPageName() => LocaleKey.dispenser;
-// List<LocaleKey> getDispensorPageLocales() => [LocaleKey.dispenserRecipeJson];
-List<LocaleKey> getDispensorPageLocales() => [LocaleKey.hideOutRecipeJson];
+List<LocaleKey> getDispensorPageLocales() => [LocaleKey.dispenserRecipeJson];
 
 LocaleKey getRefinerPageName() => LocaleKey.refiner;
 List<LocaleKey> getRefinerPageLocales() => [LocaleKey.refineryRecipeJson];
 
 LocaleKey getDressBotPageName() => LocaleKey.dressBot;
 List<LocaleKey> getDressBotPageLocales() => [LocaleKey.customisationJson];
+
+LocaleKey getHideoutPageName() => LocaleKey.hideout;
+List<LocaleKey> getHideoutPageLocales() => [LocaleKey.hideOutRecipeJson];
 
 LocaleKey getCartPageName() => LocaleKey.cart;
 LocaleKey getSteamNewsPageName() => LocaleKey.news;

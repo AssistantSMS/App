@@ -279,233 +279,247 @@
   },
   {
     "Id": "recipeCraft62",
+    "Title": "Chemical Container"
+  },
+  {
+    "Id": "recipeCraft63",
     "Title": "Water Cannon",
     "Description": "Connect it to a Water container with a trigger to water your plants more efficiently"
   },
   {
-    "Id": "recipeCraft63",
+    "Id": "recipeCraft64",
     "Title": "Saw Blade",
     "Description": "Cut down trees faster with the Saw Blade. Put it on a bearing that is connected to a engine and drive it in to a tree."
   },
   {
-    "Id": "recipeCraft64",
+    "Id": "recipeCraft65",
     "Title": "Drill",
     "Description": "Use the Drill to mine square rocks for stone and metal. Put it on a bearing that is connected to a engine and drive it in to a square rock."
   },
   {
-    "Id": "recipeCraft65",
+    "Id": "recipeCraft66",
     "Title": "Water Bucket",
     "Description": "Fill it with water to water your plants."
   },
   {
-    "Id": "recipeCraft66",
+    "Id": "recipeCraft67",
     "Title": "Soil Bag",
     "Description": "Use them on the ground to place your seeds in"
   },
   {
-    "Id": "recipeCraft67",
+    "Id": "recipeCraft68",
+    "Title": "Fertilizer",
+    "Description": "Makes plants grow faster"
+  },
+  {
+    "Id": "recipeCraft69",
     "Title": "Gasoline",
     "Description": "Used to power gas engines and thrusters"
   },
   {
-    "Id": "recipeCraft68",
+    "Id": "recipeCraft70",
+    "Title": "Battery",
+    "Description": "Used to power electric parts"
+  },
+  {
+    "Id": "recipeCraft71",
     "Title": "Glue"
   },
   {
-    "Id": "recipeCraft69",
+    "Id": "recipeCraft72",
     "Title": "Water",
     "Description": "Great for watering plants, unfortunately not good for drinking."
   },
   {
-    "Id": "recipeCraft70",
-    "Title": "Chemical"
+    "Id": "recipeCraft73",
+    "Title": "Chemicals"
   },
   {
-    "Id": "recipeCraft71",
+    "Id": "recipeCraft74",
     "Title": "Paint Ammo",
     "Description": "Load your Paint Tool and give your creations some color"
   },
   {
-    "Id": "recipeCraft72",
+    "Id": "recipeCraft75",
     "Title": "Glowstick",
     "Description": "Throw them at night or other dark places to see things better"
   },
   {
-    "Id": "recipeCraft73",
+    "Id": "recipeCraft76",
     "Title": "Small Explosive Canister",
     "Description": "Highly explosive canister that can detonate by strong collisions or by Spud Guns\nThis canister has a small explosion radius."
   },
   {
-    "Id": "recipeCraft74",
+    "Id": "recipeCraft77",
     "Title": "Large Explosive Canister",
     "Description": "Highly explosive canister that can detonate by strong collisions or by Spud Guns\nThis canister has a large explosion radius."
   },
   {
-    "Id": "recipeCraft75",
+    "Id": "recipeCraft78",
     "Title": "Wheel"
   },
   {
-    "Id": "recipeCraft76",
+    "Id": "recipeCraft79",
     "Title": "Big Wheel"
   },
   {
-    "Id": "recipeCraft77",
+    "Id": "recipeCraft80",
     "Title": "Small Pipe Short"
   },
   {
-    "Id": "recipeCraft78",
+    "Id": "recipeCraft81",
     "Title": "Small Pipe Long"
   },
   {
-    "Id": "recipeCraft79",
+    "Id": "recipeCraft82",
     "Title": "Small Pipe Bend"
   },
   {
-    "Id": "recipeCraft80",
+    "Id": "recipeCraft83",
     "Title": "Small Pipe Tee"
   },
   {
-    "Id": "recipeCraft81",
+    "Id": "recipeCraft84",
     "Title": "Small Pipe Corner"
   },
   {
-    "Id": "recipeCraft82",
+    "Id": "recipeCraft85",
     "Title": "Small Pipe Four Way"
   },
   {
-    "Id": "recipeCraft83",
+    "Id": "recipeCraft86",
     "Title": "Small Pipe Four Way Tee"
   },
   {
-    "Id": "recipeCraft84",
+    "Id": "recipeCraft87",
     "Title": "Small Pipe Five Way"
   },
   {
-    "Id": "recipeCraft85",
+    "Id": "recipeCraft88",
     "Title": "Small Pipe Six Way"
   },
   {
-    "Id": "recipeCraft86",
+    "Id": "recipeCraft89",
     "Title": "Pipe Short"
   },
   {
-    "Id": "recipeCraft87",
+    "Id": "recipeCraft90",
     "Title": "Pipe Long"
   },
   {
-    "Id": "recipeCraft88",
+    "Id": "recipeCraft91",
     "Title": "Pipe Corner"
   },
   {
-    "Id": "recipeCraft89",
+    "Id": "recipeCraft92",
     "Title": "Pipe Join"
   },
   {
-    "Id": "recipeCraft90",
+    "Id": "recipeCraft93",
     "Title": "Valve"
   },
   {
-    "Id": "recipeCraft91",
+    "Id": "recipeCraft94",
     "Title": "Short I-Beam"
   },
   {
-    "Id": "recipeCraft92",
+    "Id": "recipeCraft95",
     "Title": "Long I-Beam"
   },
   {
-    "Id": "recipeCraft93",
+    "Id": "recipeCraft96",
     "Title": "I-Beam Corner"
   },
   {
-    "Id": "recipeCraft94",
+    "Id": "recipeCraft97",
     "Title": "I-Beam End"
   },
   {
-    "Id": "recipeCraft95",
+    "Id": "recipeCraft98",
     "Title": "I-Beam Holder"
   },
   {
-    "Id": "recipeCraft96",
+    "Id": "recipeCraft99",
     "Title": "Toilet Paper"
   },
   {
-    "Id": "recipeCraft97",
+    "Id": "recipeCraft100",
     "Title": "Sink"
   },
   {
-    "Id": "recipeCraft98",
+    "Id": "recipeCraft101",
     "Title": "Air Conditioner"
   },
   {
-    "Id": "recipeCraft99",
+    "Id": "recipeCraft102",
     "Title": "Mug"
   },
   {
-    "Id": "recipeCraft100",
+    "Id": "recipeCraft103",
     "Title": "Mannequin Boot"
   },
   {
-    "Id": "recipeCraft101",
+    "Id": "recipeCraft104",
     "Title": "Mannequin Hand"
   },
   {
-    "Id": "recipeCraft102",
+    "Id": "recipeCraft105",
     "Title": "Baby Duck Statuette"
   },
   {
-    "Id": "recipeCraft103",
+    "Id": "recipeCraft106",
     "Title": "Potted Plant"
   },
   {
-    "Id": "recipeCraft104",
+    "Id": "recipeCraft107",
     "Title": "Small Potted Plant"
   },
   {
-    "Id": "recipeCraft105",
+    "Id": "recipeCraft108",
     "Title": "Potted Vine Plant"
   },
   {
-    "Id": "recipeCraft106",
+    "Id": "recipeCraft109",
     "Title": "Big Pot"
   },
   {
-    "Id": "recipeCraft107",
+    "Id": "recipeCraft110",
     "Title": "Potted Seed Plant"
   },
   {
-    "Id": "recipeCraft108",
+    "Id": "recipeCraft111",
     "Title": "Potted Blooming Cactus"
   },
   {
-    "Id": "recipeCraft109",
+    "Id": "recipeCraft112",
     "Title": "Potted Cactus"
   },
   {
-    "Id": "recipeCraft110",
+    "Id": "recipeCraft113",
     "Title": "Potted Blue Flower"
   },
   {
-    "Id": "recipeCraft111",
+    "Id": "recipeCraft114",
     "Title": "Small Rectangular Window"
   },
   {
-    "Id": "recipeCraft112",
+    "Id": "recipeCraft115",
     "Title": "Square Window"
   },
   {
-    "Id": "recipeCraft113",
+    "Id": "recipeCraft116",
     "Title": "Large Rectangular Window"
   },
   {
-    "Id": "recipeCraft114",
+    "Id": "recipeCraft117",
     "Title": "Large Windshield"
   },
   {
-    "Id": "recipeCraft115",
+    "Id": "recipeCraft118",
     "Title": "Small Windshield"
   },
   {
-    "Id": "recipeCraft116",
+    "Id": "recipeCraft119",
     "Title": "Traffic Cone"
   }
 ]

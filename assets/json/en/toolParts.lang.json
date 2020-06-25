@@ -10,5 +10,29 @@
   {
     "Id": "tool3",
     "Title": "Chemical Bucket"
+  },
+  {
+    "Id": "tool4",
+    "Title": "obj_tool_connect"
+  },
+  {
+    "Id": "tool5",
+    "Title": "obj_tool_paint"
+  },
+  {
+    "Id": "tool6",
+    "Title": "obj_tool_weld"
+  },
+  {
+    "Id": "tool7",
+    "Title": "obj_tool_spudgun"
+  },
+  {
+    "Id": "tool8",
+    "Title": "obj_tool_spudling"
+  },
+  {
+    "Id": "tool9",
+    "Title": "obj_tool_frier"
   }
 ]

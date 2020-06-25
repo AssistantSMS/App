@@ -283,5 +283,20 @@
     "Flammable": true,
     "Density": 0.0,
     "QualityLevel": 0
+  },
+  {
+    "Id": "plant19",
+    "Icon": "items/plant19.png",
+    "Color": "ff72bb",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 2,
+      "Friction": 4,
+      "Buoyancy": 3
+    },
+    "Flammable": true,
+    "Density": 0.0,
+    "QualityLevel": 0
   }
 ]

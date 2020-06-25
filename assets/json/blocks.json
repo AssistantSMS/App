@@ -516,7 +516,7 @@
     "PhysicsMaterial": "Plastic",
     "Ratings": {
       "Density": 2,
-      "Durability": 2,
+      "Durability": 3,
       "Friction": 4,
       "Buoyancy": 7
     },

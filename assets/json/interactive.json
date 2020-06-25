@@ -210,7 +210,7 @@
     "Color": "3e9ffe",
     "PhysicsMaterial": "Mechanical",
     "Ratings": {
-      "Density": 7,
+      "Density": 5,
       "Durability": 5,
       "Friction": 4,
       "Buoyancy": 2

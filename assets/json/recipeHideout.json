@@ -1,7 +1,7 @@
 [
   {
-    "Id": "recipeHideout.json1",
-    "Icon": "items/recipeHideout.json1.png",
+    "Id": "recipeHideout1",
+    "Icon": "items/recipeHideout1.png",
     "CraftingTime": 0,
     "Output": {
       "Id": "consu14",
@@ -15,8 +15,8 @@
     ]
   },
   {
-    "Id": "recipeHideout.json2",
-    "Icon": "items/recipeHideout.json2.png",
+    "Id": "recipeHideout2",
+    "Icon": "items/recipeHideout2.png",
     "CraftingTime": 0,
     "Output": {
       "Id": "consu4",
@@ -30,8 +30,8 @@
     ]
   },
   {
-    "Id": "recipeHideout.json3",
-    "Icon": "items/recipeHideout.json3.png",
+    "Id": "recipeHideout3",
+    "Icon": "items/recipeHideout3.png",
     "CraftingTime": 0,
     "Output": {
       "Id": "plant1",
@@ -45,8 +45,8 @@
     ]
   },
   {
-    "Id": "recipeHideout.json4",
-    "Icon": "items/recipeHideout.json4.png",
+    "Id": "recipeHideout4",
+    "Icon": "items/recipeHideout4.png",
     "CraftingTime": 0,
     "Output": {
       "Id": "plant3",
@@ -60,8 +60,8 @@
     ]
   },
   {
-    "Id": "recipeHideout.json5",
-    "Icon": "items/recipeHideout.json5.png",
+    "Id": "recipeHideout5",
+    "Icon": "items/recipeHideout5.png",
     "CraftingTime": 0,
     "Output": {
       "Id": "plant2",
@@ -75,8 +75,8 @@
     ]
   },
   {
-    "Id": "recipeHideout.json6",
-    "Icon": "items/recipeHideout.json6.png",
+    "Id": "recipeHideout6",
+    "Icon": "items/recipeHideout6.png",
     "CraftingTime": 0,
     "Output": {
       "Id": "plant19",
@@ -90,8 +90,8 @@
     ]
   },
   {
-    "Id": "recipeHideout.json7",
-    "Icon": "items/recipeHideout.json7.png",
+    "Id": "recipeHideout7",
+    "Icon": "items/recipeHideout7.png",
     "CraftingTime": 0,
     "Output": {
       "Id": "powertool1",
@@ -105,8 +105,8 @@
     ]
   },
   {
-    "Id": "recipeHideout.json8",
-    "Icon": "items/recipeHideout.json8.png",
+    "Id": "recipeHideout8",
+    "Icon": "items/recipeHideout8.png",
     "CraftingTime": 0,
     "Output": {
       "Id": "powertool2",
@@ -120,8 +120,8 @@
     ]
   },
   {
-    "Id": "recipeHideout.json9",
-    "Icon": "items/recipeHideout.json9.png",
+    "Id": "recipeHideout9",
+    "Icon": "items/recipeHideout9.png",
     "CraftingTime": 32,
     "Output": {
       "Id": "intera13",
@@ -139,8 +139,8 @@
     ]
   },
   {
-    "Id": "recipeHideout.json10",
-    "Icon": "items/recipeHideout.json10.png",
+    "Id": "recipeHideout10",
+    "Icon": "items/recipeHideout10.png",
     "CraftingTime": 32,
     "Output": {
       "Id": "interc5",
@@ -158,8 +158,8 @@
     ]
   },
   {
-    "Id": "recipeHideout.json11",
-    "Icon": "items/recipeHideout.json11.png",
+    "Id": "recipeHideout11",
+    "Icon": "items/recipeHideout11.png",
     "CraftingTime": 0,
     "Output": {
       "Id": "other15",
@@ -181,8 +181,8 @@
     ]
   },
   {
-    "Id": "recipeHideout.json12",
-    "Icon": "items/recipeHideout.json12.png",
+    "Id": "recipeHideout12",
+    "Icon": "items/recipeHideout12.png",
     "CraftingTime": 0,
     "Output": {
       "Id": "other16",
@@ -200,8 +200,8 @@
     ]
   },
   {
-    "Id": "recipeHideout.json13",
-    "Icon": "items/recipeHideout.json13.png",
+    "Id": "recipeHideout13",
+    "Icon": "items/recipeHideout13.png",
     "CraftingTime": 0,
     "Output": {
       "Id": "other17",
@@ -219,8 +219,8 @@
     ]
   },
   {
-    "Id": "recipeHideout.json14",
-    "Icon": "items/recipeHideout.json14.png",
+    "Id": "recipeHideout14",
+    "Icon": "items/recipeHideout14.png",
     "CraftingTime": 0,
     "Output": {
       "Id": "out1",
@@ -238,8 +238,8 @@
     ]
   },
   {
-    "Id": "recipeHideout.json15",
-    "Icon": "items/recipeHideout.json15.png",
+    "Id": "recipeHideout15",
+    "Icon": "items/recipeHideout15.png",
     "CraftingTime": 0,
     "Output": {
       "Id": "out2",

@@ -1,126 +1,126 @@
 [
   {
     "Id": "other1",
-    "Icon": "unknown.png",
+    "Icon": "items/other1.png",
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "Id": "other2",
-    "Icon": "unknown.png",
+    "Icon": "items/other2.png",
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "Id": "other3",
-    "Icon": "unknown.png",
+    "Icon": "items/other3.png",
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "Id": "other4",
-    "Icon": "unknown.png",
+    "Icon": "items/other4.png",
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "Id": "other5",
-    "Icon": "unknown.png",
+    "Icon": "items/other5.png",
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "Id": "other6",
-    "Icon": "unknown.png",
+    "Icon": "items/other6.png",
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "Id": "other7",
-    "Icon": "unknown.png",
+    "Icon": "items/other7.png",
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "Id": "other8",
-    "Icon": "unknown.png",
+    "Icon": "items/other8.png",
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "Id": "other9",
-    "Icon": "unknown.png",
+    "Icon": "items/other9.png",
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "Id": "other10",
-    "Icon": "unknown.png",
+    "Icon": "items/other10.png",
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "Id": "other11",
-    "Icon": "unknown.png",
+    "Icon": "items/other11.png",
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "Id": "other12",
-    "Icon": "unknown.png",
+    "Icon": "items/other12.png",
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "Id": "other13",
-    "Icon": "unknown.png",
+    "Icon": "items/other13.png",
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "Id": "other14",
-    "Icon": "unknown.png",
+    "Icon": "items/other14.png",
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "Id": "other15",
-    "Icon": "unknown.png",
+    "Icon": "items/other15.png",
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "Id": "other16",
-    "Icon": "unknown.png",
+    "Icon": "items/other16.png",
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "Id": "other17",
-    "Icon": "unknown.png",
+    "Icon": "items/other17.png",
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "Id": "other18",
-    "Icon": "unknown.png",
+    "Icon": "items/other18.png",
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0

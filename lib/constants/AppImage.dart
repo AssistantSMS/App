@@ -7,7 +7,6 @@ class AppImage {
   static const String light = 'light/';
 
   static const String drawer = base + 'drawerHeader.png';
-  static const String block = base + 'block.png';
   static const String steamNewsDefault = base + 'steamNewsDefault.jpg';
   static const String dimensionsCube = base + 'dimensions.png';
 
@@ -23,6 +22,7 @@ class AppImage {
   static String weight(bool isDark) =>
       base + rating + _darkLightFolder(isDark) + 'weight.png';
 
+  static const String block = base + tile + 'block.png';
   static const String cookingTile = base + tile + 'cooking.png';
   static const String craftTile = base + tile + 'craft.png';
   static const String dressTile = base + tile + 'dress.png';

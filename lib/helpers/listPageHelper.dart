@@ -28,7 +28,7 @@ List<LocaleKey> getBlocksAndItemsPageLocales() => [
       LocaleKey.plantJson,
       LocaleKey.powerJson,
       LocaleKey.resourcesJson,
-      LocaleKey.robotJson,
+      // LocaleKey.robotJson,
       LocaleKey.scrapJson,
       LocaleKey.spaceshipJson,
       LocaleKey.survivalJson,

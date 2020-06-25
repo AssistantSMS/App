@@ -102,4 +102,5 @@ enum LocaleKey {
   failedLatestDisplayingOld,
   viewAllRequiredItems,
   areYouSure,
+  hideout,
 }

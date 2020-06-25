@@ -32,7 +32,7 @@ class IdPrefix {
   static const String recipeCraftBot = "recipeCraft";
   static const String recipeDispenser = "recipeDisp";
   static const String recipeDressBot = "recipeDress";
-  // static const String recipeHideOut = "recipeHideout.json";
+  static const String recipeHideOut = "recipeHideout";
   // static const String recipeItemNames = "recipeItem_names.json";
   static const String recipeRefinery = "recipeRef";
   // static const String recipeUndecided = "recipeUndecided.json";

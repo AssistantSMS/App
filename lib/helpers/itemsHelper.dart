@@ -15,6 +15,8 @@ LocaleKey getLangJsonFromItemId(String itemId) {
     return LocaleKey.dispenserRecipeJson;
   if (itemId.contains(IdPrefix.recipeDressBot))
     return LocaleKey.dressBotRecipeJson;
+  if (itemId.contains(IdPrefix.recipeHideOut))
+    return LocaleKey.hideOutRecipeJson;
   if (itemId.contains(IdPrefix.recipeRefinery))
     return LocaleKey.refineryRecipeJson;
   if (itemId.contains(IdPrefix.recipeWorkbench))

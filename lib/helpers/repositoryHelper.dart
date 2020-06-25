@@ -7,7 +7,7 @@ List<LocaleKey> allRecipeJsons() {
     LocaleKey.craftBotRecipeJson,
     LocaleKey.dispenserRecipeJson,
     LocaleKey.dressBotRecipeJson,
-    // LocaleKey.hideOutRecipeJson,
+    LocaleKey.hideOutRecipeJson,
     // LocaleKey.itemNamesRecipeJson,
     LocaleKey.refineryRecipeJson,
     // LocaleKey.undecidedRecipeJson,
@@ -25,7 +25,8 @@ String getBaseFileName(LocaleKey detailsJson) {
       return BaseJson.dispenser;
     case LocaleKey.dressBotRecipeJson:
       return BaseJson.dressBot;
-    // case LocaleKey.hideOutRecipeJson: return BaseJson.hid;
+    case LocaleKey.hideOutRecipeJson:
+      return BaseJson.hideOut;
     // case LocaleKey.itemNamesRecipeJson: return BaseJson.blocks;
     case LocaleKey.refineryRecipeJson:
       return BaseJson.refinery;
@@ -105,7 +106,8 @@ LocaleKey getDisplayNameFromLangFileName(LocaleKey detailsJson) {
       return LocaleKey.dispenser;
     case LocaleKey.dressBotRecipeJson:
       return LocaleKey.dressBot;
-    // case LocaleKey.hideOutRecipeJson: return LocaleKey.hid;
+    case LocaleKey.hideOutRecipeJson:
+      return LocaleKey.hideout;
     // case LocaleKey.itemNamesRecipeJson: return LocaleKey.blocks;
     case LocaleKey.refineryRecipeJson:
       return LocaleKey.refiner;

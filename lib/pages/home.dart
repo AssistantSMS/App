@@ -190,19 +190,19 @@ class HomePage extends StatelessWidget {
           ),
           gridItemType: StaggeredGridItemType.smallRectLandscape,
         ),
-        StaggeredGridItem(
-          childBuilder: (BuildContext childContext) =>
-              responsiveStaggeredGridIconTilePresenter(
-            context,
-            Icons.new_releases,
-            text: getSteamNewsPageName(),
-            onTap: () async => await navigateAwayFromHomeAsync(
-              context,
-              navigateToNamed: Routes.raidCalc,
-            ),
-          ),
-          gridItemType: StaggeredGridItemType.smallRectLandscape,
-        ),
+        // StaggeredGridItem(
+        //   childBuilder: (BuildContext childContext) =>
+        //       responsiveStaggeredGridIconTilePresenter(
+        //     context,
+        //     Icons.new_releases,
+        //     text: getSteamNewsPageName(),
+        //     onTap: () async => await navigateAwayFromHomeAsync(
+        //       context,
+        //       navigateToNamed: Routes.raidCalc,
+        //     ),
+        //   ),
+        //   gridItemType: StaggeredGridItemType.smallRectLandscape,
+        // ),
       ],
     );
   }

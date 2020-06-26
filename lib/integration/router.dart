@@ -9,6 +9,7 @@ import '../pages/gameItem/gameItemDetailPage.dart';
 import '../pages/home.dart';
 import '../pages/news/steamNewsPage.dart';
 import '../pages/notFound.dart';
+import '../pages/raid/raidCalculatorPage.dart';
 import '../pages/recipe/recipeDetailPage.dart';
 import '../pages/settings.dart';
 
@@ -57,6 +58,11 @@ class FluroRouter {
     router.define(
       Routes.steamNews,
       handler: _basicHandlerFunc(() => SteamNewsPage()),
+      transitionType: transition,
+    );
+    router.define(
+      Routes.raidCalc,
+      handler: _basicHandlerFunc(() => RaidCalcPage()),
       transitionType: transition,
     );
     router.define(

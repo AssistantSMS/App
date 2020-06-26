@@ -34,9 +34,6 @@ class HomePage extends StatelessWidget {
   }
 
   Widget getBody(BuildContext context) {
-    const smallImage = 50.0;
-    const largeImage = 140.0;
-
     return responsiveStaggeredGrid(
       [
         StaggeredGridItem(
@@ -45,7 +42,6 @@ class HomePage extends StatelessWidget {
             context,
             AppImage.craftTile,
             text: getCraftBotPageName(),
-            height: largeImage,
             onTap: () async => await navigateAwayFromHomeAsync(
               context,
               navigateTo: (context) => RecipeListPage(
@@ -62,7 +58,6 @@ class HomePage extends StatelessWidget {
             context,
             AppImage.traderTile,
             text: getHideoutPageName(),
-            height: smallImage,
             onTap: () async => await navigateAwayFromHomeAsync(
               context,
               navigateTo: (context) => RecipeListPage(
@@ -79,7 +74,6 @@ class HomePage extends StatelessWidget {
             context,
             AppImage.block,
             text: getBlocksAndItemsPageName(),
-            height: largeImage,
             onTap: () async => await navigateAwayFromHomeAsync(
               context,
               navigateTo: (context) => GameItemListPage(
@@ -96,7 +90,6 @@ class HomePage extends StatelessWidget {
             context,
             AppImage.workshopTile,
             text: getWorkbenchPageName(),
-            height: smallImage,
             onTap: () async => await navigateAwayFromHomeAsync(
               context,
               navigateTo: (context) => RecipeListPage(
@@ -113,7 +106,6 @@ class HomePage extends StatelessWidget {
             context,
             AppImage.resourceTile,
             text: getDispensorPageName(),
-            height: smallImage,
             onTap: () async => await navigateAwayFromHomeAsync(
               context,
               navigateTo: (context) => RecipeListPage(
@@ -130,7 +122,6 @@ class HomePage extends StatelessWidget {
             context,
             AppImage.cookingTile,
             text: getCookBotPageName(),
-            height: smallImage,
             onTap: () async => await navigateAwayFromHomeAsync(
               context,
               navigateTo: (context) => RecipeListPage(
@@ -147,7 +138,6 @@ class HomePage extends StatelessWidget {
             context,
             AppImage.refinerTile,
             text: getRefinerPageName(),
-            height: smallImage,
             onTap: () async => await navigateAwayFromHomeAsync(
               context,
               navigateTo: (context) => RecipeListPage(
@@ -164,7 +154,6 @@ class HomePage extends StatelessWidget {
             context,
             AppImage.dressTile,
             text: getDressBotPageName(),
-            height: smallImage,
             onTap: () async => await navigateAwayFromHomeAsync(
               context,
               navigateTo: (context) => GameItemListPage(
@@ -197,6 +186,19 @@ class HomePage extends StatelessWidget {
             onTap: () async => await navigateAwayFromHomeAsync(
               context,
               navigateToNamed: Routes.steamNews,
+            ),
+          ),
+          gridItemType: StaggeredGridItemType.smallRectLandscape,
+        ),
+        StaggeredGridItem(
+          childBuilder: (BuildContext childContext) =>
+              responsiveStaggeredGridIconTilePresenter(
+            context,
+            Icons.new_releases,
+            text: getSteamNewsPageName(),
+            onTap: () async => await navigateAwayFromHomeAsync(
+              context,
+              navigateToNamed: Routes.raidCalc,
             ),
           ),
           gridItemType: StaggeredGridItemType.smallRectLandscape,

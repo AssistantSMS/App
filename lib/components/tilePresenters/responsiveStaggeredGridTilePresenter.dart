@@ -31,16 +31,15 @@ Widget responsiveStaggeredGridTilePresenter(
 
 Widget responsiveStaggeredGridImageTilePresenter(
     BuildContext context, String imgPath,
-    {Color iconColor, LocaleKey text, double height, Function() onTap}) {
+    {Color iconColor, LocaleKey text, Function() onTap}) {
   var safeOnTap = () {
     if (onTap != null) onTap();
   };
   return responsiveStaggeredGridBaseTilePresenter(
     context,
-    genericItemImage(context, imgPath, height: height, onTap: safeOnTap),
+    genericItemImage(context, imgPath, height: 1000, onTap: safeOnTap),
     iconColor: iconColor,
     text: text,
-    height: height,
     onTap: safeOnTap,
   );
 }
@@ -51,43 +50,56 @@ Widget responsiveStaggeredGridIconTilePresenter(
   var safeOnTap = () {
     if (onTap != null) onTap();
   };
-  var backgroundColor = getSecondaryColour(context);
-  return Card(
-    color: backgroundColor,
-    child: InkWell(
-      onTap: safeOnTap,
-      child: Column(
-        children: [
-          GestureDetector(
-            child: getCorrectlySizedImageFromIcon(
-              context,
-              icon,
-              maxSize: 45,
-              colour: Colors.white,
-            ),
-            onTap: safeOnTap,
-          ),
-          Padding(
-            child: Text(
-              Translations.get(context, text),
-              textAlign: TextAlign.center,
-              maxLines: 1,
-              style: TextStyle(
-                color: getForegroundTextColour(backgroundColor),
-              ),
-            ),
-            padding: EdgeInsets.only(left: 8, top: 4, right: 8),
-          )
-        ],
-        mainAxisAlignment: MainAxisAlignment.center,
-      ),
-    ),
+  return responsiveStaggeredGridBaseTilePresenter(
+    context,
+    Center(
+        child: getCorrectlySizedImageFromIcon(
+      context,
+      icon,
+      maxSize: 45,
+      colour: Colors.white,
+    )),
+    iconColor: iconColor,
+    text: text,
+    onTap: safeOnTap,
   );
+  // var backgroundColor = getSecondaryColour(context);
+  // return Card(
+  //   color: backgroundColor,
+  //   child: InkWell(
+  //     onTap: safeOnTap,
+  //     child: Column(
+  //       children: [
+  //         GestureDetector(
+  //           child: getCorrectlySizedImageFromIcon(
+  //             context,
+  //             icon,
+  //             maxSize: 100,
+  //             colour: Colors.white,
+  //           ),
+  //           onTap: safeOnTap,
+  //         ),
+  //         Padding(
+  //           child: Text(
+  //             Translations.get(context, text),
+  //             textAlign: TextAlign.center,
+  //             maxLines: 1,
+  //             style: TextStyle(
+  //               color: getForegroundTextColour(backgroundColor),
+  //             ),
+  //           ),
+  //           padding: EdgeInsets.only(left: 8, top: 4, right: 8),
+  //         )
+  //       ],
+  //       mainAxisAlignment: MainAxisAlignment.center,
+  //     ),
+  //   ),
+  // );
 }
 
 Widget responsiveStaggeredGridBaseTilePresenter(
     BuildContext context, Widget image,
-    {Color iconColor, LocaleKey text, double height, Function() onTap}) {
+    {Color iconColor, LocaleKey text, Function() onTap}) {
   var safeOnTap = () {
     if (onTap != null) onTap();
   };
@@ -98,12 +110,12 @@ Widget responsiveStaggeredGridBaseTilePresenter(
   var backgroundColor = getSecondaryColour(context);
   List<Widget> children = List<Widget>();
   // children.add(Center(child: image));
-  children.add(Positioned(
-    child: image,
-    top: 4,
-    left: 4,
-    right: 4,
-  ));
+  children.add(
+    Padding(
+      child: image,
+      padding: EdgeInsets.only(left: 8, top: 8, right: 8, bottom: 24),
+    ),
+  );
   if (text != null) {
     children.add(Positioned(
       child: Padding(

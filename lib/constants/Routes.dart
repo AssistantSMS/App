@@ -14,6 +14,7 @@ class Routes {
   static const String donation = '/donation';
   static const String cart = '/cart';
   static const String steamNews = '/steamNews';
+  static const String raidCalc = '/raidCalculator';
 
   static const String itemIdParam = 'itemId';
   static const String gameDetail = '/item/:$itemIdParam';

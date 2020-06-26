@@ -70,7 +70,8 @@ Widget steamNewsItemTilePresenter(
           borderRadius: BorderRadius.circular(10.0),
         ),
         elevation: 5,
-        margin: EdgeInsets.only(top: 5, bottom: 5),
+        // margin: EdgeInsets.only(top: 5, bottom: 5),
+        margin: EdgeInsets.all(10),
       ),
       onTap: () => launchExternalURL(news.link),
     );

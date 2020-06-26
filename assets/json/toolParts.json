@@ -1,7 +1,7 @@
 [
   {
-    "Id": "tool1",
-    "Icon": "items/tool1.png",
+    "Id": "tools1",
+    "Icon": "items/tools1.png",
     "Color": "0b9ade",
     "PhysicsMaterial": "Plastic",
     "Ratings": {
@@ -15,8 +15,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "tool2",
-    "Icon": "items/tool2.png",
+    "Id": "tools2",
+    "Icon": "items/tools2.png",
     "Color": "0b9ade",
     "PhysicsMaterial": "Plastic",
     "Ratings": {
@@ -30,8 +30,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "tool3",
-    "Icon": "items/tool3.png",
+    "Id": "tools3",
+    "Icon": "items/tools3.png",
     "Color": "0b9ade",
     "PhysicsMaterial": "Plastic",
     "Ratings": {

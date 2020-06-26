@@ -1379,7 +1379,7 @@
     "Icon": "items/recipeCraft66.png",
     "CraftingTime": 17,
     "Output": {
-      "Id": "tool1",
+      "Id": "tools1",
       "Quantity": 1
     },
     "Inputs": [
@@ -1498,7 +1498,7 @@
     },
     "Inputs": [
       {
-        "Id": "tool2",
+        "Id": "tools2",
         "Quantity": 1
       }
     ]
@@ -1513,7 +1513,7 @@
     },
     "Inputs": [
       {
-        "Id": "tool3",
+        "Id": "tools3",
         "Quantity": 1
       }
     ]

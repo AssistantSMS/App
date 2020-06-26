@@ -16,8 +16,8 @@ import 'raidCalculatorResultComponent.dart';
 
 const greenyDevGithubImage =
     'https://avatars0.githubusercontent.com/u/3734204?s=460&u=7eb6ec6aa9200855109647c7fcdd159069b673fe&v=4';
-const greenyDevGithubLink = 'https://github.com/greeny';
-const greenyDevTool = 'https://scrapmechanic.greeny.dev/';
+const greenyDevGithubLink = 'https://github.com/greeny/?ref=AssistantSMS';
+const greenyDevTool = 'https://scrapmechanic.greeny.dev/?ref=AssistantSMS';
 
 class RaidCalcPage extends StatefulWidget {
   const RaidCalcPage({Key key}) : super(key: key);

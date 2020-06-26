@@ -7,6 +7,7 @@ import '../../components/scaffoldTemplates/genericPageScaffold.dart';
 import '../../components/tilePresenters/raidTilePresenter.dart';
 import '../../components/webSpecific/mousePointer.dart';
 import '../../contracts/raid/raidFarmDetails.dart';
+import '../../helpers/columnHelper.dart';
 import '../../helpers/external.dart';
 import '../../helpers/raidHelper.dart';
 import '../../localization/localeKey.dart';
@@ -31,6 +32,7 @@ class _RaidCalcWidget extends State<RaidCalcPage> {
   _RaidCalcWidget() {
     _inputScreen = gridWithScrollbar(
       itemCount: (RaidHelper.plants.length + 1),
+      gridViewColumnCalculator: raidCustomColumnCount,
       itemBuilder: (context, index) {
         if (index < RaidHelper.plants.length) {
           return raidGridTilePresenter(

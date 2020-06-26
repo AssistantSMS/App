@@ -1,18 +1,16 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
-import 'package:scrapmechanic_kurtlourens_com/components/adaptive/button.dart';
-import 'package:scrapmechanic_kurtlourens_com/components/adaptive/listWithScrollbar.dart';
-import 'package:scrapmechanic_kurtlourens_com/components/common/image.dart';
-import 'package:scrapmechanic_kurtlourens_com/helpers/external.dart';
-import 'package:scrapmechanic_kurtlourens_com/helpers/raidHelper.dart';
-import 'package:scrapmechanic_kurtlourens_com/pages/raid/raidCalculatorResultComponent.dart';
 
 import '../../components/adaptive/gridWithScrollbar.dart';
+import '../../components/adaptive/listWithScrollbar.dart';
+import '../../components/common/image.dart';
 import '../../components/scaffoldTemplates/genericPageScaffold.dart';
 import '../../components/tilePresenters/raidTilePresenter.dart';
 import '../../contracts/raid/raidFarmDetails.dart';
+import '../../helpers/external.dart';
+import '../../helpers/raidHelper.dart';
 import '../../localization/localeKey.dart';
 import '../../localization/translations.dart';
+import 'raidCalculatorResultComponent.dart';
 
 const greenyDevGithubImage =
     'https://avatars0.githubusercontent.com/u/3734204?s=460&u=7eb6ec6aa9200855109647c7fcdd159069b673fe&v=4';

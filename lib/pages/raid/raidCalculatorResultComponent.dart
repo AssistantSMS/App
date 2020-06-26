@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import '../../components/adaptive/listWithScrollbar.dart';
 import '../../components/tilePresenters/raidTilePresenter.dart';
 import '../../contracts/raid/raidFarmDetails.dart';
-import '../../contracts/raid/raidSpawn.dart';
 import '../../helpers/genericHelper.dart';
 import '../../helpers/raidHelper.dart';
 

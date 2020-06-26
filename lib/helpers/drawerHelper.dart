@@ -82,6 +82,11 @@ Future<List<Widget>> getDrawerItems(context,
       dense: true,
     ));
   }
+  widgets.add(Divider(thickness: .5));
+  widgets.add(ListTile(
+    title: Text("Game Version: 0.4.6", textAlign: TextAlign.center),
+    dense: true,
+  ));
 
   return widgets;
 }

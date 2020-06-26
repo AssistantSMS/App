@@ -34,7 +34,7 @@ Widget raidDetailGridTilePresenter(
     child: Card(
       child: Column(
         children: [
-          localImage('img/${details.icon}'),
+          localImage('${AppImage.base}${details.icon}'),
           Padding(
             child: TextField(
               controller: _controller,

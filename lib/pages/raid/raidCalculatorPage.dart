@@ -5,6 +5,7 @@ import '../../components/adaptive/listWithScrollbar.dart';
 import '../../components/common/image.dart';
 import '../../components/scaffoldTemplates/genericPageScaffold.dart';
 import '../../components/tilePresenters/raidTilePresenter.dart';
+import '../../components/webSpecific/mousePointer.dart';
 import '../../contracts/raid/raidFarmDetails.dart';
 import '../../helpers/external.dart';
 import '../../helpers/raidHelper.dart';
@@ -50,7 +51,7 @@ class _RaidCalcWidget extends State<RaidCalcPage> {
             ),
           ),
           onTap: () => launchExternalURL(greenyDevTool),
-        );
+        ).showPointerOnHover;
       },
     );
   }

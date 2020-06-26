@@ -1,12 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:scrapmechanic_kurtlourens_com/components/adaptive/listWithScrollbar.dart';
 
-import '../../components/adaptive/gridWithScrollbar.dart';
-import '../../components/scaffoldTemplates/genericPageScaffold.dart';
-import '../../components/tilePresenters/raidGridTilePresenter.dart';
+import '../../components/adaptive/listWithScrollbar.dart';
+import '../../components/tilePresenters/raidTilePresenter.dart';
 import '../../contracts/raid/raidFarmDetails.dart';
-import '../../localization/localeKey.dart';
-import '../../localization/translations.dart';
+import '../../contracts/raid/raidSpawn.dart';
+import '../../helpers/genericHelper.dart';
+import '../../helpers/raidHelper.dart';
 
 class RaidCalculatorResultComponent extends StatelessWidget {
   final RaidFarmDetails details;
@@ -17,9 +16,21 @@ class RaidCalculatorResultComponent extends StatelessWidget {
   Widget build(BuildContext context) {
     List<Widget> widgets = List<Widget>();
 
-    widgets.add(Card(
-      child: CircularProgressIndicator(),
-    ));
+    var cropValue = RaidHelper.getCropValue(details);
+    var highCount = RaidHelper.getHighCount(details);
+    var spawns = RaidHelper.getRaidSpawns(cropValue, highCount);
+
+    if (spawns == null || spawns.length < 1) {
+      widgets.add(emptySpace3x());
+      widgets.add(genericItemName('Your farm is safe')); // TODO translation
+    }
+
+    for (int spawnIndex = 0; spawnIndex < spawns.length; spawnIndex++) {
+      widgets.add(genericItemGroup(
+          'Attackers on night ${(spawnIndex + 1)}')); // TODO translation
+      widgets.add(raidAttackerTilePresenter(context, spawns[spawnIndex]));
+      widgets.add(emptySpace2x());
+    }
 
     return listWithScrollbar(
         shrinkWrap: true,

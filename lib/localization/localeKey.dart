@@ -104,4 +104,5 @@ enum LocaleKey {
   areYouSure,
   hideout,
   tradedFor,
+  raidCalculator,
 }

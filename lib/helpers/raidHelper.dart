@@ -14,30 +14,32 @@ class RaidHelper {
   static const String broccoliId = "plant17";
   static const String cottonId = "reso4";
 
+  static const int highValue = 3;
+
   static const List<String> plants = [
     carrotId,
     tomatoId,
     beetrootId,
+    cottonId,
+    potatoId,
     bananaId,
     berryId,
     orangeId,
-    potatoId,
     pineappleId,
     broccoliId,
-    cottonId,
   ];
 
   static const Map<String, double> plantsWeights = {
     carrotId: 1,
     tomatoId: 1,
     beetrootId: 1,
+    cottonId: 1,
+    potatoId: 1.5,
     bananaId: 2,
     berryId: 2,
     orangeId: 2,
-    potatoId: 1.5,
     pineappleId: 3,
     broccoliId: 3,
-    cottonId: 0,
   };
 
   static List<RaidAttack> raidAttackDetails = [
@@ -123,16 +125,16 @@ class RaidHelper {
   }
 
   static int getPlantQuantity(RaidFarmDetails details, String itemId) {
-    if (itemId == RaidHelper.carrotId) return details.carrot;
-    if (itemId == RaidHelper.tomatoId) return details.tomato;
-    if (itemId == RaidHelper.beetrootId) return details.beetroot;
-    if (itemId == RaidHelper.bananaId) return details.banana;
-    if (itemId == RaidHelper.berryId) return details.berry;
-    if (itemId == RaidHelper.orangeId) return details.orange;
-    if (itemId == RaidHelper.potatoId) return details.potato;
-    if (itemId == RaidHelper.pineappleId) return details.pineapple;
-    if (itemId == RaidHelper.broccoliId) return details.broccoli;
-    if (itemId == RaidHelper.cottonId) return details.cotton;
+    if (itemId == RaidHelper.carrotId) return details.carrot ?? 0;
+    if (itemId == RaidHelper.tomatoId) return details.tomato ?? 0;
+    if (itemId == RaidHelper.beetrootId) return details.beetroot ?? 0;
+    if (itemId == RaidHelper.bananaId) return details.banana ?? 0;
+    if (itemId == RaidHelper.berryId) return details.berry ?? 0;
+    if (itemId == RaidHelper.orangeId) return details.orange ?? 0;
+    if (itemId == RaidHelper.potatoId) return details.potato ?? 0;
+    if (itemId == RaidHelper.pineappleId) return details.pineapple ?? 0;
+    if (itemId == RaidHelper.broccoliId) return details.broccoli ?? 0;
+    if (itemId == RaidHelper.cottonId) return details.cotton ?? 0;
 
     return 0;
   }
@@ -141,10 +143,43 @@ class RaidHelper {
     double cropValue = 0;
     for (var plantId in plants) {
       double plantWeight = plantsWeights[plantId];
+      if (plantWeight == null) continue;
+
       int plantQuantity = getPlantQuantity(details, plantId);
+      if (plantQuantity == null || plantQuantity == 0) continue;
+
       cropValue += plantWeight * plantQuantity;
     }
 
     return cropValue;
+  }
+
+  static int getHighCount(RaidFarmDetails details) {
+    int highCount = 0;
+    for (var plantId in plants) {
+      double plantWeight = plantsWeights[plantId];
+      if (plantWeight == null) continue;
+
+      int plantQuantity = getPlantQuantity(details, plantId);
+      if (plantQuantity == null || plantQuantity == 0) continue;
+
+      if (plantWeight >= highValue) {
+        highCount += plantQuantity;
+      }
+    }
+
+    return highCount;
+  }
+
+  static List<RaidSpawn> getRaidSpawns(double cropValue, int highCount) {
+    List<RaidSpawn> spawns = List<RaidSpawn>();
+    for (var raidAttack in raidAttackDetails) {
+      if (cropValue >= raidAttack.minValue &&
+          highCount >= raidAttack.minHighCount) {
+        spawns = raidAttack.spawns;
+      }
+    }
+
+    return spawns;
   }
 }

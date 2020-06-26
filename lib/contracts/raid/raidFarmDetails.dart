@@ -11,16 +11,16 @@ class RaidFarmDetails {
   int cotton;
 
   RaidFarmDetails({
-    this.carrot,
-    this.tomato,
-    this.beetroot,
-    this.banana,
-    this.berry,
-    this.orange,
-    this.potato,
-    this.pineapple,
-    this.broccoli,
-    this.cotton,
+    this.carrot = 0,
+    this.tomato = 0,
+    this.beetroot = 0,
+    this.banana = 0,
+    this.berry = 0,
+    this.orange = 0,
+    this.potato = 0,
+    this.pineapple = 0,
+    this.broccoli = 0,
+    this.cotton = 0,
   });
 
   RaidFarmDetails copyWith({

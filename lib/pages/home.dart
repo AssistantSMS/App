@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:scrapmechanic_kurtlourens_com/localization/localeKey.dart';
 
 import '../components/adaptive/appScaffold.dart';
 import '../components/adaptive/homePageAppBar.dart';
@@ -104,46 +105,11 @@ class HomePage extends StatelessWidget {
           childBuilder: (BuildContext childContext) =>
               responsiveStaggeredGridImageTilePresenter(
             context,
-            AppImage.resourceTile,
-            text: getDispensorPageName(),
-            onTap: () async => await navigateAwayFromHomeAsync(
-              context,
-              navigateTo: (context) => RecipeListPage(
-                getDispensorPageName(),
-                getDispensorPageLocales(),
-              ),
-            ),
-          ),
-          gridItemType: StaggeredGridItemType.smallSquare,
-        ),
-        StaggeredGridItem(
-          childBuilder: (BuildContext childContext) =>
-              responsiveStaggeredGridImageTilePresenter(
-            context,
-            AppImage.cookingTile,
-            text: getCookBotPageName(),
-            onTap: () async => await navigateAwayFromHomeAsync(
-              context,
-              navigateTo: (context) => RecipeListPage(
-                getCookBotPageName(),
-                getCookBotPageLocales(),
-              ),
-            ),
-          ),
-          gridItemType: StaggeredGridItemType.smallSquare,
-        ),
-        StaggeredGridItem(
-          childBuilder: (BuildContext childContext) =>
-              responsiveStaggeredGridImageTilePresenter(
-            context,
             AppImage.refinerTile,
-            text: getRefinerPageName(),
+            text: LocaleKey.other,
             onTap: () async => await navigateAwayFromHomeAsync(
               context,
-              navigateTo: (context) => RecipeListPage(
-                getRefinerPageName(),
-                getRefinerPageLocales(),
-              ),
+              navigateToNamed: Routes.otherRecipes,
             ),
           ),
           gridItemType: StaggeredGridItemType.smallSquare,
@@ -160,6 +126,19 @@ class HomePage extends StatelessWidget {
                 getDressBotPageName(),
                 getDressBotPageLocales(),
               ),
+            ),
+          ),
+          gridItemType: StaggeredGridItemType.smallRectLandscape,
+        ),
+        StaggeredGridItem(
+          childBuilder: (BuildContext childContext) =>
+              responsiveStaggeredGridImageTilePresenter(
+            context,
+            AppImage.raidTile,
+            text: LocaleKey.raidCalculator,
+            onTap: () async => await navigateAwayFromHomeAsync(
+              context,
+              navigateToNamed: Routes.raidCalc,
             ),
           ),
           gridItemType: StaggeredGridItemType.smallRectLandscape,
@@ -190,19 +169,6 @@ class HomePage extends StatelessWidget {
           ),
           gridItemType: StaggeredGridItemType.smallRectLandscape,
         ),
-        // StaggeredGridItem(
-        //   childBuilder: (BuildContext childContext) =>
-        //       responsiveStaggeredGridIconTilePresenter(
-        //     context,
-        //     Icons.new_releases,
-        //     text: getSteamNewsPageName(),
-        //     onTap: () async => await navigateAwayFromHomeAsync(
-        //       context,
-        //       navigateToNamed: Routes.raidCalc,
-        //     ),
-        //   ),
-        //   gridItemType: StaggeredGridItemType.smallRectLandscape,
-        // ),
       ],
     );
   }

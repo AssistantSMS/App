@@ -1,7 +1,7 @@
 name: scrapmechanic_kurtlourens_com
 description: A companion app for Scrap Mechanic.
 publish_to: 'none'
-version: 1.0.16+16
+version: 1.0.17+17
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
@@ -28,6 +28,7 @@ dependencies:
   country_icons: ^1.1.1
   step_progress_indicator: ^0.2.3+6
   flash: "^1.2.0" # Snackbar
+  giffy_dialog: ^1.7.0
   # Base
   get_it: 4.0.2
   http: 0.12.0+2
@@ -79,7 +80,17 @@ flutter:
 
     # Base Json Items
     - assets/json/ 
-    - assets/json/en/ 
+    - assets/json/de/
+    - assets/json/en/
+    - assets/json/es/
+    - assets/json/fr/
+    - assets/json/it/
+    - assets/json/ja/
+    - assets/json/ko/
+    - assets/json/po/
+    - assets/json/pt-br/
+    - assets/json/ru/
+    - assets/json/zh-hans/
 
   fonts:
     - family: Roboto

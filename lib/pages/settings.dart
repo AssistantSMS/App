@@ -1,10 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
 import 'package:package_info/package_info.dart';
+import 'package:scrapmechanic_kurtlourens_com/constants/AppImage.dart';
+import 'package:scrapmechanic_kurtlourens_com/constants/SupportedLanguages.dart';
+import 'package:scrapmechanic_kurtlourens_com/localization/localizationMap.dart';
 
 import '../components/adaptive/appBarForSubPage.dart';
 import '../components/adaptive/appScaffold.dart';
 import '../components/adaptive/listWithScrollbar.dart';
+import '../components/dialogs/prettyDialog.dart';
 import '../components/tilePresenters/settingTilePresenter.dart';
 import '../constants/AnalyticsEvent.dart';
 import '../constants/ExternalUrls.dart';
@@ -53,7 +57,23 @@ class SettingsPage extends StatelessWidget {
       context,
       Translations.get(context, LocaleKey.appLanguage),
       viewModel.selectedLanguage,
-      onChange: (Locale locale) => this.onLocaleChange(locale),
+      onChange: (Locale locale) {
+        this.onLocaleChange(locale);
+        LocalizationMap newLocal = supportedLanguageMaps.firstWhere(
+          (LocalizationMap localizationMap) =>
+              localizationMap.code == locale.languageCode,
+          orElse: () => supportedLanguageMaps[0],
+        );
+        if (newLocal.code != 'en') {
+          prettyDialog(
+            context,
+            AppImage.translate,
+            Translations.get(context, LocaleKey.translation),
+            Translations.get(context, LocaleKey.translationIssue)
+                .replaceAll('{0}', Translations.get(context, newLocal.name)),
+          );
+        }
+      },
     ));
 
     widgets.add(boolSettingTilePresenter(

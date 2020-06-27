@@ -53,7 +53,7 @@
   "chinese": "Chinese",
   "noItems": "No Items",
   "viewXMore": "View {0} More",
-  "shareContent": "I am using the Assistant for Hytale",
+  "shareContent": "I am using the Assistant for Scrap Mechanic",
   "searchItems": "Search Items",
   "unknown": "Unknown",
   "edit": "Edit",
@@ -112,6 +112,10 @@
   "originalWorkByGreenyDev": "Original work by GreenyDev",
   "yourFarmIsSafe": "Your farm is safe",
   "attackersOnNightX": "Attackers on night {0}",
+  "ok": "Ok",
+  "cancel": "Cancel",
+  "translation": "Translation",
+  "translationIssue": "Please note that Scrap mechanic is not completely translated for the language you have selected. There will be items that are not translated into {0}.",
   "translatedBy": [
     {
       "name": "",

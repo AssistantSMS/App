@@ -71,22 +71,25 @@ Future<List<Widget>> getDrawerItems(context,
   ResultWithValue<PackageInfo> packageInfoResult =
       await currentAppVersionFuture;
 
+  String appVersion = 'App Version ';
+  Widget gameVersion = Text('Game Version: 0.4.6', textAlign: TextAlign.center);
+  widgets.add(Divider(thickness: .5));
   if (packageInfoResult.isSuccess) {
-    widgets.add(Divider(thickness: .5));
+    var versionText = packageInfoResult.value != null
+        ? packageInfoResult.value.version
+        : Translations.get(context, LocaleKey.loading);
     widgets.add(ListTile(
       key: Key('versionNumber'),
       title: Text(
-        "Version ${(packageInfoResult.value != null ? packageInfoResult.value.version : Translations.get(context, LocaleKey.loading))}",
+        '$appVersion $versionText',
         textAlign: TextAlign.center,
       ),
+      subtitle: gameVersion,
       dense: true,
     ));
+  } else {
+    widgets.add(ListTile(title: gameVersion, dense: true));
   }
-  widgets.add(Divider(thickness: .5));
-  widgets.add(ListTile(
-    title: Text("Game Version: 0.4.6", textAlign: TextAlign.center),
-    dense: true,
-  ));
 
   return widgets;
 }

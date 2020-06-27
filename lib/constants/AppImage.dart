@@ -34,6 +34,7 @@ class AppImage {
   static const String workshopTile = base + tile + 'workshop.png';
 
   static const String customLoading = base + 'loading.png';
+  static const String translate = base + 'translate.png';
 
   static const String totebot = base + raid + 'totebot.png';
   static const String haybot = base + raid + 'haybot.png';

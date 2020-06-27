@@ -36,7 +36,10 @@ class _RaidCalcWidget extends State<RaidCalcPage> {
       itemBuilder: (context, index) {
         if (index < RaidHelper.plants.length) {
           return raidGridTilePresenter(
-              context, RaidHelper.plants[index], setFarmQuantity);
+            context,
+            RaidHelper.plants[index],
+            setFarmQuantity,
+          );
         }
         return GestureDetector(
           child: Card(
@@ -44,12 +47,13 @@ class _RaidCalcWidget extends State<RaidCalcPage> {
               children: [
                 networkImage(greenyDevGithubImage, height: 110),
                 Padding(
-                    child: Text(
-                      Translations.get(
-                          context, LocaleKey.originalWorkByGreenyDev),
-                      textAlign: TextAlign.center,
-                    ),
-                    padding: EdgeInsets.all(8)),
+                  child: Text(
+                    Translations.get(
+                        context, LocaleKey.originalWorkByGreenyDev),
+                    textAlign: TextAlign.center,
+                  ),
+                  padding: EdgeInsets.all(8),
+                ),
               ],
             ),
           ),

@@ -35,6 +35,7 @@ class RaidCalculatorResultComponent extends StatelessWidget {
       widgets.add(raidAttackerTilePresenter(context, spawns[spawnIndex]));
       widgets.add(emptySpace2x());
     }
+    widgets.add(emptySpace8x());
 
     return listWithScrollbar(
         shrinkWrap: true,

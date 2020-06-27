@@ -1,0 +1,86 @@
+[
+  {
+    "Id": "cont1",
+    "Title": "Hay Crate"
+  },
+  {
+    "Id": "cont2",
+    "Title": "Stone Crate"
+  },
+  {
+    "Id": "cont3",
+    "Title": "Tree Crate"
+  },
+  {
+    "Id": "cont4",
+    "Title": "Unfolded Banana Box"
+  },
+  {
+    "Id": "cont5",
+    "Title": "Unfolded Onion Box"
+  },
+  {
+    "Id": "cont6",
+    "Title": "Unfolded Grow Box"
+  },
+  {
+    "Id": "cont7",
+    "Title": "Main Humidifier"
+  },
+  {
+    "Id": "cont8",
+    "Title": "Warehouse Crate"
+  },
+  {
+    "Id": "cont9",
+    "Title": "Blueberry Juice Cylinder"
+  },
+  {
+    "Id": "cont10",
+    "Title": "Tomato Juice Cylinder"
+  },
+  {
+    "Id": "cont11",
+    "Title": "Деревянный ящик"
+  },
+  {
+    "Id": "cont12",
+    "Title": "Коробка с овощами"
+  },
+  {
+    "Id": "cont13",
+    "Title": "Коробка с огурцами"
+  },
+  {
+    "Id": "cont14",
+    "Title": "Коробка с морковью"
+  },
+  {
+    "Id": "cont15",
+    "Title": "Коробка с бананами"
+  },
+  {
+    "Id": "cont16",
+    "Title": "Коробка с фруктами"
+  },
+  {
+    "Id": "cont17",
+    "Title": "Коробка с луком"
+  },
+  {
+    "Id": "cont18",
+    "Title": "Коробка со свеклой"
+  },
+  {
+    "Id": "cont19",
+    "Title": "Коробка с апельсинами"
+  },
+  {
+    "Id": "cont20",
+    "Title": "Контейнер для растений"
+  },
+  {
+    "Id": "cont21",
+    "Title": "Откр. конт. для растений"
+  }
+]

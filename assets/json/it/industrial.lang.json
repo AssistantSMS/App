@@ -1,0 +1,262 @@
+[
+  {
+    "Id": "indus1",
+    "Title": "Generator Coil Segment"
+  },
+  {
+    "Id": "indus2",
+    "Title": "Generator Coil Corner"
+  },
+  {
+    "Id": "indus3",
+    "Title": "Ventilation Frame"
+  },
+  {
+    "Id": "indus4",
+    "Title": "Steel Support Bracket"
+  },
+  {
+    "Id": "indus5",
+    "Title": "Encryptor Base"
+  },
+  {
+    "Id": "indus6",
+    "Title": "Encryptor Base Plate"
+  },
+  {
+    "Id": "indus7",
+    "Title": "Encryptor Frame Top"
+  },
+  {
+    "Id": "indus8",
+    "Title": "Small Steel Bracket"
+  },
+  {
+    "Id": "indus9",
+    "Title": "Encryptor Frame Beam"
+  },
+  {
+    "Id": "indus10",
+    "Title": "Encryptor Holder"
+  },
+  {
+    "Id": "indus11",
+    "Title": "Base Extension"
+  },
+  {
+    "Id": "indus12",
+    "Title": "Generator B"
+  },
+  {
+    "Id": "indus13",
+    "Title": "Generator C"
+  },
+  {
+    "Id": "indus14",
+    "Title": "Generator D"
+  },
+  {
+    "Id": "indus15",
+    "Title": "Generator A"
+  },
+  {
+    "Id": "indus16",
+    "Title": "Power Generator Side"
+  },
+  {
+    "Id": "indus17",
+    "Title": "Generator Tank"
+  },
+  {
+    "Id": "indus18",
+    "Title": "Generator E"
+  },
+  {
+    "Id": "indus19",
+    "Title": "Trigger Frame"
+  },
+  {
+    "Id": "indus20",
+    "Title": "Generator Pipe Holder"
+  },
+  {
+    "Id": "indus21",
+    "Title": "Trave Corta"
+  },
+  {
+    "Id": "indus22",
+    "Title": "Trave Lunga"
+  },
+  {
+    "Id": "indus23",
+    "Title": "Giunzione Trave"
+  },
+  {
+    "Id": "indus24",
+    "Title": "Sostenitore Trave"
+  },
+  {
+    "Id": "indus25",
+    "Title": "Estremità Trave"
+  },
+  {
+    "Id": "indus26",
+    "Title": "Ripiano"
+  },
+  {
+    "Id": "indus27",
+    "Title": "Base Scala"
+  },
+  {
+    "Id": "indus28",
+    "Title": "Ringhiera Lunga Scala"
+  },
+  {
+    "Id": "indus29",
+    "Title": "Ringhiera Corta Scala"
+  },
+  {
+    "Id": "indus30",
+    "Title": "Balaustra Scala"
+  },
+  {
+    "Id": "indus31",
+    "Title": "Collegamento Ringhiera"
+  },
+  {
+    "Id": "indus32",
+    "Title": "Scalino"
+  },
+  {
+    "Id": "indus33",
+    "Title": "Corrimano Scala"
+  },
+  {
+    "Id": "indus34",
+    "Title": "Zeppa Scala"
+  },
+  {
+    "Id": "indus35",
+    "Title": "Rampa Scala"
+  },
+  {
+    "Id": "indus36",
+    "Title": "Grata Ventilazione"
+  },
+  {
+    "Id": "indus37",
+    "Title": "Rete"
+  },
+  {
+    "Id": "indus38",
+    "Title": "Supporto di Metallo"
+  },
+  {
+    "Id": "indus39",
+    "Title": "Struttura Grande di Supporto"
+  },
+  {
+    "Id": "indus40",
+    "Title": "Struttura di Supporto"
+  },
+  {
+    "Id": "indus41",
+    "Title": "Small Support Structure"
+  },
+  {
+    "Id": "indus42",
+    "Title": "Trave"
+  },
+  {
+    "Id": "indus43",
+    "Title": "Colonna di Metallo"
+  },
+  {
+    "Id": "indus44",
+    "Title": "Pilastro Supporto"
+  },
+  {
+    "Id": "indus45",
+    "Title": "Base Pilastro Supporto"
+  },
+  {
+    "Id": "indus46",
+    "Title": "Base"
+  },
+  {
+    "Id": "indus47",
+    "Title": "Base Ripiano"
+  },
+  {
+    "Id": "indus48",
+    "Title": "Base Alta Ripiano"
+  },
+  {
+    "Id": "indus49",
+    "Title": "Serbatoio Piccolo"
+  },
+  {
+    "Id": "indus50",
+    "Title": "Serbatoio Medio"
+  },
+  {
+    "Id": "indus51",
+    "Title": "Serbatoio Grande"
+  },
+  {
+    "Id": "indus52",
+    "Title": "Finestrino di Metallo"
+  },
+  {
+    "Id": "indus53",
+    "Title": "Pallet di Metallo"
+  },
+  {
+    "Id": "indus54",
+    "Title": "Supporto Tavolo"
+  },
+  {
+    "Id": "indus55",
+    "Title": "Base del palo"
+  },
+  {
+    "Id": "indus56",
+    "Title": "Punta della base del palo"
+  },
+  {
+    "Id": "indus57",
+    "Title": "Antenna parabolica"
+  },
+  {
+    "Id": "indus58",
+    "Title": "Parabola satellitare"
+  },
+  {
+    "Id": "indus59",
+    "Title": "Antenna"
+  },
+  {
+    "Id": "indus60",
+    "Title": "Antenna a riflettore"
+  },
+  {
+    "Id": "indus61",
+    "Title": "Finestrino Rettangolare Piccolo"
+  },
+  {
+    "Id": "indus62",
+    "Title": "Finestrino Quadrato"
+  },
+  {
+    "Id": "indus63",
+    "Title": "Finestrino Rettangolare Grande"
+  },
+  {
+    "Id": "indus64",
+    "Title": "Parabrezza Grande"
+  },
+  {
+    "Id": "indus65",
+    "Title": "Parabrezza Piccolo"
+  }
+]

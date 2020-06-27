@@ -1,0 +1,47 @@
+[
+  {
+    "Id": "recipeWorkbench1",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeWorkbench2",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeWorkbench3",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeWorkbench4",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeWorkbench5",
+    "Title": "Łożysko",
+    "Description": "Wszystko, co znajdzie się na łożysku, zacznie się obracać. Łożyska można łączyć z silnikiem lub fotelem kierowcy, aby sterować nimi na różne sposoby."
+  },
+  {
+    "Id": "recipeWorkbench6",
+    "Title": "Blok kartonowy",
+    "Description": ""
+  },
+  {
+    "Id": "recipeWorkbench7",
+    "Title": "Przełącznik",
+    "Description": "Nieograniczone możliwości na życzenie! Przełącznik uruchamia wszystko, co się z nim połączy. Niezastąpiony we włączaniu i wyłączaniu jednym przyciśnięciem. Może uruchomić wszystkie rodzaje silników, programator i inne elementy."
+  },
+  {
+    "Id": "recipeWorkbench8",
+    "Title": "Przycisk",
+    "Description": "Uruchamia różne elementy na czas, kiedy pozostaje wciśnięty."
+  },
+  {
+    "Id": "recipeWorkbench9",
+    "Title": "Łącznik",
+    "Description": "Najlepszy przyjaciel każdego mechanika! Użyj go, by połączyć ze sobą poszczególne części interaktywne. Na przykład silnik spalinowy z łożyskiem czy silnik rakietowy z fotelem kierowcy."
+  }
+]

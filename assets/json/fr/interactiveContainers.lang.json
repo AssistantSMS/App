@@ -1,0 +1,30 @@
+[
+  {
+    "Id": "interc1",
+    "Title": "Gas Container"
+  },
+  {
+    "Id": "interc2",
+    "Title": "Water Container"
+  },
+  {
+    "Id": "interc3",
+    "Title": "Fertilizer Container"
+  },
+  {
+    "Id": "interc4",
+    "Title": "Battery Container"
+  },
+  {
+    "Id": "interc5",
+    "Title": "Potato Ammo Container"
+  },
+  {
+    "Id": "interc6",
+    "Title": "Seed Container"
+  },
+  {
+    "Id": "interc7",
+    "Title": "Chemical Container"
+  }
+]

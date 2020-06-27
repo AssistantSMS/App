@@ -1,0 +1,38 @@
+[
+  {
+    "Id": "man1",
+    "Title": "Shack Wall"
+  },
+  {
+    "Id": "man2",
+    "Title": "Shack Half Wall"
+  },
+  {
+    "Id": "man3",
+    "Title": "Shade Sails"
+  },
+  {
+    "Id": "man4",
+    "Title": "Awning"
+  },
+  {
+    "Id": "man5",
+    "Title": "Shack Roof"
+  },
+  {
+    "Id": "man6",
+    "Title": "Shack Light"
+  },
+  {
+    "Id": "man7",
+    "Title": "Fresh Neon Sign"
+  },
+  {
+    "Id": "man8",
+    "Title": "Hard Work Sign"
+  },
+  {
+    "Id": "man9",
+    "Title": "Sale Sign"
+  }
+]

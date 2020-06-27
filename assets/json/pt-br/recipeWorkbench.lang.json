@@ -1,0 +1,47 @@
+[
+  {
+    "Id": "recipeWorkbench1",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeWorkbench2",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeWorkbench3",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeWorkbench4",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeWorkbench5",
+    "Title": "Rolamento",
+    "Description": "Tudo que você colocar sobre o rolamento vai girar. Rolamentos também podem ser conectados a um motor ou a um assento de operador para ser controlado de formas diferentes."
+  },
+  {
+    "Id": "recipeWorkbench6",
+    "Title": "Bloco de Papelão",
+    "Description": ""
+  },
+  {
+    "Id": "recipeWorkbench7",
+    "Title": "Comando",
+    "Description": "Ligue e desligue à vontade. O comando ativa a peça à qual está conectado, tornando-a indispensável para quando você quer ligar e desligar coisas com facilidade. Ela pode ativar um motor, um propulsor, o controlador e mais."
+  },
+  {
+    "Id": "recipeWorkbench8",
+    "Title": "Botão",
+    "Description": "Ativa coisas. O botão fica ativado enquanto continuar pressionado."
+  },
+  {
+    "Id": "recipeWorkbench9",
+    "Title": "Ferramenta de Conexão",
+    "Description": "A favorita de todos os mecânicos. Conecta partes interativas, como por exemplo: um motor a combustão a rolamentos ou um propulsor a um assento de operador."
+  }
+]

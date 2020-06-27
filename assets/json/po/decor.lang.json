@@ -1,0 +1,186 @@
+[
+  {
+    "Id": "deco1",
+    "Title": "Produce Billboard"
+  },
+  {
+    "Id": "deco2",
+    "Title": "Berry Billboard"
+  },
+  {
+    "Id": "deco3",
+    "Title": "Sickle-Down Billboard"
+  },
+  {
+    "Id": "deco4",
+    "Title": "Warehouse Sign"
+  },
+  {
+    "Id": "deco5",
+    "Title": "Elevator Sign"
+  },
+  {
+    "Id": "deco6",
+    "Title": "Storage Sign"
+  },
+  {
+    "Id": "deco7",
+    "Title": "Packing Sign"
+  },
+  {
+    "Id": "deco8",
+    "Title": "Growroom Sign"
+  },
+  {
+    "Id": "deco9",
+    "Title": "Utility Sign"
+  },
+  {
+    "Id": "deco10",
+    "Title": "Man Sign"
+  },
+  {
+    "Id": "deco11",
+    "Title": "Woman Sign"
+  },
+  {
+    "Id": "deco12",
+    "Title": "Recycling Bin"
+  },
+  {
+    "Id": "deco13",
+    "Title": "Paper Stack"
+  },
+  {
+    "Id": "deco14",
+    "Title": "Old Restroom Mirror"
+  },
+  {
+    "Id": "deco15",
+    "Title": "Traffic Sign"
+  },
+  {
+    "Id": "deco16",
+    "Title": "Metallic Tube"
+  },
+  {
+    "Id": "deco17",
+    "Title": "Road Sign Base"
+  },
+  {
+    "Id": "deco18",
+    "Title": "Cash Register"
+  },
+  {
+    "Id": "deco19",
+    "Title": "Open Sign"
+  },
+  {
+    "Id": "deco20",
+    "Title": "Old Fruit Stand"
+  },
+  {
+    "Id": "deco21",
+    "Title": "Stacked Crates"
+  },
+  {
+    "Id": "deco22",
+    "Title": "Sunshake Vending Machine"
+  },
+  {
+    "Id": "deco23",
+    "Title": "Udder Decoration"
+  },
+  {
+    "Id": "deco24",
+    "Title": "Haystack"
+  },
+  {
+    "Id": "deco25",
+    "Title": "Hay Bale"
+  },
+  {
+    "Id": "deco26",
+    "Title": "Papier toaletowy"
+  },
+  {
+    "Id": "deco27",
+    "Title": "Zlew"
+  },
+  {
+    "Id": "deco28",
+    "Title": "Kubek"
+  },
+  {
+    "Id": "deco29",
+    "Title": "But manekina"
+  },
+  {
+    "Id": "deco30",
+    "Title": "Ręka manekina"
+  },
+  {
+    "Id": "deco31",
+    "Title": "Figurka kaczuszki"
+  },
+  {
+    "Id": "deco32",
+    "Title": "Śruba"
+  },
+  {
+    "Id": "deco33",
+    "Title": "Nakrętka"
+  },
+  {
+    "Id": "deco34",
+    "Title": "„Trupia czaszka”"
+  },
+  {
+    "Id": "deco35",
+    "Title": "„Strefa budowy”"
+  },
+  {
+    "Id": "deco36",
+    "Title": "„Uwaga!”"
+  },
+  {
+    "Id": "deco37",
+    "Title": "„Niebezpieczeństwo!”"
+  },
+  {
+    "Id": "deco38",
+    "Title": "„Stop!”"
+  },
+  {
+    "Id": "deco39",
+    "Title": "„Uwaga, Farmboty!”"
+  },
+  {
+    "Id": "deco40",
+    "Title": "„Witamy!”"
+  },
+  {
+    "Id": "deco41",
+    "Title": "„Zakaz wstępu”"
+  },
+  {
+    "Id": "deco42",
+    "Title": "„Spadające przedmioty”"
+  },
+  {
+    "Id": "deco43",
+    "Title": "„Strzałka”"
+  },
+  {
+    "Id": "deco44",
+    "Title": "Pachołek drogowy"
+  },
+  {
+    "Id": "deco45",
+    "Title": "Materac"
+  },
+  {
+    "Id": "deco46",
+    "Title": "Poduszka"
+  }
+]

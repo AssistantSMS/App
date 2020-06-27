@@ -1,0 +1,186 @@
+[
+  {
+    "Id": "deco1",
+    "Title": "Produce Billboard"
+  },
+  {
+    "Id": "deco2",
+    "Title": "Berry Billboard"
+  },
+  {
+    "Id": "deco3",
+    "Title": "Sickle-Down Billboard"
+  },
+  {
+    "Id": "deco4",
+    "Title": "Warehouse Sign"
+  },
+  {
+    "Id": "deco5",
+    "Title": "Elevator Sign"
+  },
+  {
+    "Id": "deco6",
+    "Title": "Storage Sign"
+  },
+  {
+    "Id": "deco7",
+    "Title": "Packing Sign"
+  },
+  {
+    "Id": "deco8",
+    "Title": "Growroom Sign"
+  },
+  {
+    "Id": "deco9",
+    "Title": "Utility Sign"
+  },
+  {
+    "Id": "deco10",
+    "Title": "Man Sign"
+  },
+  {
+    "Id": "deco11",
+    "Title": "Woman Sign"
+  },
+  {
+    "Id": "deco12",
+    "Title": "Recycling Bin"
+  },
+  {
+    "Id": "deco13",
+    "Title": "Paper Stack"
+  },
+  {
+    "Id": "deco14",
+    "Title": "Old Restroom Mirror"
+  },
+  {
+    "Id": "deco15",
+    "Title": "Traffic Sign"
+  },
+  {
+    "Id": "deco16",
+    "Title": "Metallic Tube"
+  },
+  {
+    "Id": "deco17",
+    "Title": "Road Sign Base"
+  },
+  {
+    "Id": "deco18",
+    "Title": "Cash Register"
+  },
+  {
+    "Id": "deco19",
+    "Title": "Open Sign"
+  },
+  {
+    "Id": "deco20",
+    "Title": "Old Fruit Stand"
+  },
+  {
+    "Id": "deco21",
+    "Title": "Stacked Crates"
+  },
+  {
+    "Id": "deco22",
+    "Title": "Sunshake Vending Machine"
+  },
+  {
+    "Id": "deco23",
+    "Title": "Udder Decoration"
+  },
+  {
+    "Id": "deco24",
+    "Title": "Haystack"
+  },
+  {
+    "Id": "deco25",
+    "Title": "Hay Bale"
+  },
+  {
+    "Id": "deco26",
+    "Title": "Papel Higiénico"
+  },
+  {
+    "Id": "deco27",
+    "Title": "Sumidero"
+  },
+  {
+    "Id": "deco28",
+    "Title": "Taza"
+  },
+  {
+    "Id": "deco29",
+    "Title": "Bota de Maniquí"
+  },
+  {
+    "Id": "deco30",
+    "Title": "Mano de manequín"
+  },
+  {
+    "Id": "deco31",
+    "Title": "Figura de Bebe\nPato "
+  },
+  {
+    "Id": "deco32",
+    "Title": "Tornillo"
+  },
+  {
+    "Id": "deco33",
+    "Title": "Tuerca"
+  },
+  {
+    "Id": "deco34",
+    "Title": "Señal de Calavera"
+  },
+  {
+    "Id": "deco35",
+    "Title": "Señal de Construcción"
+  },
+  {
+    "Id": "deco36",
+    "Title": "Señal de Precaución"
+  },
+  {
+    "Id": "deco37",
+    "Title": "Señal de Peligro"
+  },
+  {
+    "Id": "deco38",
+    "Title": "Señal de Stop"
+  },
+  {
+    "Id": "deco39",
+    "Title": "Señal de Cuidado\ncon Farmbots"
+  },
+  {
+    "Id": "deco40",
+    "Title": "Señal de Bienvenida"
+  },
+  {
+    "Id": "deco41",
+    "Title": "Señal de No Entrar"
+  },
+  {
+    "Id": "deco42",
+    "Title": "Señal de Caída de Objetos"
+  },
+  {
+    "Id": "deco43",
+    "Title": "Flecha"
+  },
+  {
+    "Id": "deco44",
+    "Title": "Cono de Tráfico"
+  },
+  {
+    "Id": "deco45",
+    "Title": "Colchón"
+  },
+  {
+    "Id": "deco46",
+    "Title": "Almohada"
+  }
+]

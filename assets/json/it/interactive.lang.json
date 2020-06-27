@@ -1,0 +1,174 @@
+[
+  {
+    "Id": "intera1",
+    "Title": "Fridge"
+  },
+  {
+    "Id": "intera2",
+    "Title": "Locker"
+  },
+  {
+    "Id": "intera3",
+    "Title": "File Cabinet"
+  },
+  {
+    "Id": "intera4",
+    "Title": "Chest"
+  },
+  {
+    "Id": "intera5",
+    "Title": "Large Chest"
+  },
+  {
+    "Id": "intera6",
+    "Title": "Protector: Anti-Destruction"
+  },
+  {
+    "Id": "intera7",
+    "Title": "Encryptor: Anti-Connection"
+  },
+  {
+    "Id": "intera8",
+    "Title": "Oily Toilet Seat"
+  },
+  {
+    "Id": "intera9",
+    "Title": "Resource Collector"
+  },
+  {
+    "Id": "intera10",
+    "Title": "Refinebot"
+  },
+  {
+    "Id": "intera11",
+    "Title": "Dressbot"
+  },
+  {
+    "Id": "intera12",
+    "Title": "Water Cannon"
+  },
+  {
+    "Id": "intera13",
+    "Title": "Mountable Spud Gun"
+  },
+  {
+    "Id": "intera14",
+    "Title": "Respawn Bed"
+  },
+  {
+    "Id": "intera15",
+    "Title": "Cuscinetto"
+  },
+  {
+    "Id": "intera16",
+    "Title": "Sospensioni Sportive"
+  },
+  {
+    "Id": "intera17",
+    "Title": "Sospensioni Fuoristrada"
+  },
+  {
+    "Id": "intera18",
+    "Title": "Sedile di Guida"
+  },
+  {
+    "Id": "intera19",
+    "Title": "Sedile"
+  },
+  {
+    "Id": "intera20",
+    "Title": "Sellino di Guida"
+  },
+  {
+    "Id": "intera21",
+    "Title": "Sellino"
+  },
+  {
+    "Id": "intera22",
+    "Title": "WC"
+  },
+  {
+    "Id": "intera23",
+    "Title": "Motore a Gas"
+  },
+  {
+    "Id": "intera24",
+    "Title": "Motore Elettrico"
+  },
+  {
+    "Id": "intera25",
+    "Title": "Propulsore"
+  },
+  {
+    "Id": "intera26",
+    "Title": "Unità di controllo"
+  },
+  {
+    "Id": "intera27",
+    "Title": "Interruttore"
+  },
+  {
+    "Id": "intera28",
+    "Title": "Pulsante"
+  },
+  {
+    "Id": "intera29",
+    "Title": "Sensore"
+  },
+  {
+    "Id": "intera30",
+    "Title": "Radio"
+  },
+  {
+    "Id": "intera31",
+    "Title": "Clacson"
+  },
+  {
+    "Id": "intera32",
+    "Title": "Porta Logica"
+  },
+  {
+    "Id": "intera33",
+    "Title": "Timer"
+  },
+  {
+    "Id": "intera34",
+    "Title": "Testa Totebot: Basso"
+  },
+  {
+    "Id": "intera35",
+    "Title": "Testa Totebot: Percussioni"
+  },
+  {
+    "Id": "intera36",
+    "Title": "Testa Totebot: Sintetizzatore Vocale"
+  },
+  {
+    "Id": "intera37",
+    "Title": "Testa Totebot: Bip"
+  },
+  {
+    "Id": "intera38",
+    "Title": "Vasca"
+  },
+  {
+    "Id": "intera39",
+    "Title": "Pistone"
+  },
+  {
+    "Id": "intera40",
+    "Title": "Montatura squalo di Raft"
+  },
+  {
+    "Id": "intera41",
+    "Title": "Spara-patate assemblabile"
+  },
+  {
+    "Id": "intera42",
+    "Title": "Small Explosive Canister"
+  },
+  {
+    "Id": "intera43",
+    "Title": "Large Explosive Canister"
+  }
+]

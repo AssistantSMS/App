@@ -1,0 +1,22 @@
+[
+  {
+    "Id": "harv1",
+    "Title": "Scrap Stone"
+  },
+  {
+    "Id": "harv2",
+    "Title": "Scrap Wood"
+  },
+  {
+    "Id": "harv3",
+    "Title": "Wood"
+  },
+  {
+    "Id": "harv4",
+    "Title": "Scrap Metal"
+  },
+  {
+    "Id": "harv5",
+    "Title": "Metal"
+  }
+]

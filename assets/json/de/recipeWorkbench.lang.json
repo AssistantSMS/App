@@ -1,0 +1,47 @@
+[
+  {
+    "Id": "recipeWorkbench1",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeWorkbench2",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeWorkbench3",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeWorkbench4",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeWorkbench5",
+    "Title": "Lager",
+    "Description": "Alles, was du am Lager befestigst, wird sich drehen. Außerdem kannst du Lager mit einem Motor oder dem Fahrersitz verbinden, wo sie dann unterschiedlich kontrolliert werden können."
+  },
+  {
+    "Id": "recipeWorkbench6",
+    "Title": "Karton-Block",
+    "Description": ""
+  },
+  {
+    "Id": "recipeWorkbench7",
+    "Title": "Schalter",
+    "Description": "Kann bei Bedarf uneingeschränkt ein- und ausgeschaltet werden. Der Schalter aktiviert alles, womit du ihn verbindest. Er ist unverzichtbar, wenn du Dinge mit einer einzigen Bewegung ein- und ausschalten möchtest. Kann einen Motor, eine Schubdüse, die Steuereinheit und mehr aktivieren."
+  },
+  {
+    "Id": "recipeWorkbench8",
+    "Title": "Knopf",
+    "Description": "Aktiviert Dinge. Der Knopf aktiviert Dinge, solange du ihn gedrückt hältst."
+  },
+  {
+    "Id": "recipeWorkbench9",
+    "Title": "Verbindungswerkzeug",
+    "Description": "Das Lieblingswerkzeug eines jeden Mechanikers. Verbindet interaktive Teile miteinander, wie einen Gasmotor mit Lagern oder eine Schubdüse mit einem Fahrersitz."
+  }
+]

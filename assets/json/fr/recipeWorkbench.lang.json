@@ -1,0 +1,47 @@
+[
+  {
+    "Id": "recipeWorkbench1",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeWorkbench2",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeWorkbench3",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeWorkbench4",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeWorkbench5",
+    "Title": "Palier",
+    "Description": "Tout ce que vous placez sur un palier pourra tourner. Les paliers peuvent aussi être connectés à un moteur ou à un siège conducteur pour être contrôlés de différentes manières."
+  },
+  {
+    "Id": "recipeWorkbench6",
+    "Title": "Bloc: carton",
+    "Description": ""
+  },
+  {
+    "Id": "recipeWorkbench7",
+    "Title": "Interrupteur",
+    "Description": "L'interrupteur active ce à quoi il est connecté, il est indispensable lorsque vous souhaitez allumer ou éteindre vos créations. Il peut activer un moteur, un propulseur, un contrôleur et bien plus encore."
+  },
+  {
+    "Id": "recipeWorkbench8",
+    "Title": "Bouton",
+    "Description": "Active des choses. Le bouton est activé tant qu'il reste appuyé."
+  },
+  {
+    "Id": "recipeWorkbench9",
+    "Title": "Outil de connexion",
+    "Description": "Le meilleur ami des mécanos ! Utilisé pour accrocher les pièces interactives entre elles, par exemple : un moteur à essence à un palier ou un propulseur à un siège conducteur."
+  }
+]

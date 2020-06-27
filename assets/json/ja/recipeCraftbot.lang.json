@@ -1,0 +1,597 @@
+[
+  {
+    "Id": "recipeCraft1",
+    "Title": "接続 ツール",
+    "Description": "メカニック お気に入り の ツール です。 例えば ガス エンジン と ベアリング、 スラスター と ドライバー ズ シート など、 インタラクティブ パーツ を 接続 する の に 使い ます。"
+  },
+  {
+    "Id": "recipeCraft2",
+    "Title": "ペイント ツール",
+    "Description": "パーツ や ブロック を ペイント し て 製 作品 に 個性 を 加 え、 さらには 美しい アート へ と 昇華 さ せ ま しょう！ マウス の 左 ボタン を 使 って ペイント、 右 ボタン で 削除 し ます。 Q を 押して、 カラー セレクタ- を 開き ます。 マウス の 左 ボタン を 押し ながら ドラッグ する だけ で、 より 大きな 面積 を ペイント でき ます。"
+  },
+  {
+    "Id": "recipeCraft3",
+    "Title": "溶接 ツール",
+    "Description": "製 作品 を 溶接 し ます！\n 溶接 ツール を 選択 後、 自由 な 状態 の 製 作品 を 左 クリック し、 次に もう 一つ の 製 作品 の 表面 を 左 クリック し て 両者 を 溶接 さ せ ます。 リフト 上 で パーツ を 結合 させる こと も でき ます。 最初 の パーツ 上 で マウス の 左 ボタン を 押し、 溶接 する パーツ に ドラッグ し ます。"
+  },
+  {
+    "Id": "recipeCraft4",
+    "Title": "ダンボールブロック",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft5",
+    "Title": "ウッド ブロック",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft6",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft7",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft8",
+    "Title": "メタル ブロック",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft9",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft10",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft11",
+    "Title": "コンクリートブロック",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft12",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft13",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft14",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft15",
+    "Title": "ガラス ブロック",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft16",
+    "Title": "ガラス ブロック",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft17",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft18",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft19",
+    "Title": "通路 ライト ブロック",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft20",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft21",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft22",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft23",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft24",
+    "Title": "船体整備用ブロック",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft25",
+    "Title": "レンガ ブロック",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft26",
+    "Title": "タイル ブロック",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft27",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft28",
+    "Title": "バリ アブ ロック",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft29",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft30",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft31",
+    "Title": "ベアリング",
+    "Description": "ベアリング に 取り付け た もの は 全て 回転 し ます。 ベアリング は エンジン や ドライバー ズ シート に 取り付け、 様々 な 方法 で コントロール する こと も でき ます。"
+  },
+  {
+    "Id": "recipeCraft32",
+    "Title": "スイッチ",
+    "Description": "無制限 の オン デマンド・ トグル。 スイッチ は 接続 さ れ て いる もの を すべて 起動 する ので、 ワン プッシュ で の オン オフ に 不可欠 です。 エンジン、 スラスター、 コントローラー その他 を 起動 さ せ ら れ ます。"
+  },
+  {
+    "Id": "recipeCraft33",
+    "Title": "ボタン",
+    "Description": "物体 を アクティブ にし ます。 ボタン を 押して いる 間 は アクティブ です。"
+  },
+  {
+    "Id": "recipeCraft34",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft35",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft36",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft37",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft38",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft39",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft40",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft41",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft42",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft43",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft44",
+    "Title": "トイレット",
+    "Description": "立ち 小便 を 防止 し ます。 便座 に 座 って リラックス し て 用 を 足 しま しょう。 あなた の 車両 に 取り付け れ ば、 友人 たち が 寄 って き ます。 トリガー に 接続 し て シート から 他の インタラクティブ パーツ を 有効 化 させる こと も でき ます。 流す の を 忘れ ない で！"
+  },
+  {
+    "Id": "recipeCraft45",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft46",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft47",
+    "Title": "ロジック ゲート",
+    "Description": "ロジック ブロック は、 基本 的 な ロジック 構築 を 可能 に させる パワフル な ブロック です。 ブロック の E を 押す と メカニック は 様々 な ロジック ゲート タイプ を 選択 でき ます。 ロジック ゲート は 他の ロジック ゲート、 トリガー、 タイマー その他 と 接続 でき ます。 高度 な クリ エイ ション に 最適 です。"
+  },
+  {
+    "Id": "recipeCraft48",
+    "Title": "タイマー",
+    "Description": "タイマー で 2 つ の インタラクティブ パーツ の 相互作用 を 遅らせる こと が でき ます。 例えば スイッチ と コントローラー など です。 ロジック ゲート に 最適 です。"
+  },
+  {
+    "Id": "recipeCraft49",
+    "Title": "ラジオ",
+    "Description": "常に ヒット 曲 を 流し ます。 野獣 の よう な ファームボット が ラジオ 局 を 乗 っ 取 って おり、 悪 趣味 な チューン を 放送 し てい ます。\n 相互作用 させる か トリガー に 接続 する こと によって 起動 し ます。"
+  },
+  {
+    "Id": "recipeCraft50",
+    "Title": "ホーン",
+    "Description": "車両 に 追加 した り、 ドア ベル として 使い ます。 事故 を 避ける ため 友人 に 向け て 鳴 ら しま しょう。 ピッチ を 設定 し て トリガー に 接続 し、 起動 し ます。"
+  },
+  {
+    "Id": "recipeCraft51",
+    "Title": "ライト",
+    "Description": "視界 を 良く しま しょう。"
+  },
+  {
+    "Id": "recipeCraft52",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft53",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft54",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft55",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft56",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft57",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft58",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft59",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft60",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft61",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft62",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft63",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft64",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft65",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft66",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft67",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft68",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft69",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft70",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft71",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft72",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft73",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft74",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft75",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft76",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft77",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft78",
+    "Title": "ホイール",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft79",
+    "Title": "ビッグ ホイール",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft80",
+    "Title": "ショート スモール パイプ",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft81",
+    "Title": "ロング スモール パイプ",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft82",
+    "Title": "スモール パイプ バンド",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft83",
+    "Title": "T 字 スモール パイプ",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft84",
+    "Title": "コーナー スモール パイプ",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft85",
+    "Title": "十字 スモール パイプ",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft86",
+    "Title": "４ 股 パイプ",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft87",
+    "Title": "5 股 スモール パイプ",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft88",
+    "Title": "6 股 スモール パイプ",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft89",
+    "Title": "ショート パイプ",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft90",
+    "Title": "ロング パイプ",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft91",
+    "Title": "パイプ コーナー",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft92",
+    "Title": "パイプ ジョ イン",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft93",
+    "Title": "バルブ",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft94",
+    "Title": "ショート I ビーム",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft95",
+    "Title": "ロング I ビーム",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft96",
+    "Title": "I ビーム コーナー",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft97",
+    "Title": "I ビーム エンド",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft98",
+    "Title": "I ビーム コーナー",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft99",
+    "Title": "トイレットペーパー",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft100",
+    "Title": "シンク",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft101",
+    "Title": "エア コンディション",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft102",
+    "Title": "マグカップ",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft103",
+    "Title": "マネキン ブーツ",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft104",
+    "Title": "マネキンの手",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft105",
+    "Title": "子供 の アヒル の 人形",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft106",
+    "Title": "鉢植",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft107",
+    "Title": "小型 鉢植",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft108",
+    "Title": "ぶどう の 鉢植",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft109",
+    "Title": "大型 植木鉢",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft110",
+    "Title": "種子 植物 の 鉢植",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft111",
+    "Title": "花 の 咲 い た サボテン の 鉢植",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft112",
+    "Title": "サボテン の 鉢植",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft113",
+    "Title": "青い 花 の 鉢植",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft114",
+    "Title": "小型 角 窓",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft115",
+    "Title": "角 窓",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft116",
+    "Title": "大型 角 窓",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft117",
+    "Title": "大型 ウィンド シールド",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft118",
+    "Title": "小型 ウィンド シールド",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft119",
+    "Title": "トラ フ ィ ッ ク コーン",
+    "Description": ""
+  }
+]

@@ -1,0 +1,262 @@
+[
+  {
+    "Id": "indus1",
+    "Title": "Generator Coil Segment"
+  },
+  {
+    "Id": "indus2",
+    "Title": "Generator Coil Corner"
+  },
+  {
+    "Id": "indus3",
+    "Title": "Ventilation Frame"
+  },
+  {
+    "Id": "indus4",
+    "Title": "Steel Support Bracket"
+  },
+  {
+    "Id": "indus5",
+    "Title": "Encryptor Base"
+  },
+  {
+    "Id": "indus6",
+    "Title": "Encryptor Base Plate"
+  },
+  {
+    "Id": "indus7",
+    "Title": "Encryptor Frame Top"
+  },
+  {
+    "Id": "indus8",
+    "Title": "Small Steel Bracket"
+  },
+  {
+    "Id": "indus9",
+    "Title": "Encryptor Frame Beam"
+  },
+  {
+    "Id": "indus10",
+    "Title": "Encryptor Holder"
+  },
+  {
+    "Id": "indus11",
+    "Title": "Base Extension"
+  },
+  {
+    "Id": "indus12",
+    "Title": "Generator B"
+  },
+  {
+    "Id": "indus13",
+    "Title": "Generator C"
+  },
+  {
+    "Id": "indus14",
+    "Title": "Generator D"
+  },
+  {
+    "Id": "indus15",
+    "Title": "Generator A"
+  },
+  {
+    "Id": "indus16",
+    "Title": "Power Generator Side"
+  },
+  {
+    "Id": "indus17",
+    "Title": "Generator Tank"
+  },
+  {
+    "Id": "indus18",
+    "Title": "Generator E"
+  },
+  {
+    "Id": "indus19",
+    "Title": "Trigger Frame"
+  },
+  {
+    "Id": "indus20",
+    "Title": "Generator Pipe Holder"
+  },
+  {
+    "Id": "indus21",
+    "Title": "Короткая двутавр. балка"
+  },
+  {
+    "Id": "indus22",
+    "Title": "Длинная двутавр. балка"
+  },
+  {
+    "Id": "indus23",
+    "Title": "Двутавр. балка - угол"
+  },
+  {
+    "Id": "indus24",
+    "Title": "Двутавр. балка - обойма"
+  },
+  {
+    "Id": "indus25",
+    "Title": "Двутавр. балка - конец"
+  },
+  {
+    "Id": "indus26",
+    "Title": "Полка"
+  },
+  {
+    "Id": "indus27",
+    "Title": "Лестничная площадка"
+  },
+  {
+    "Id": "indus28",
+    "Title": "Лестница - длин. перила"
+  },
+  {
+    "Id": "indus29",
+    "Title": "Лестница - коротк. перила"
+  },
+  {
+    "Id": "indus30",
+    "Title": "Лестница - стойка перил"
+  },
+  {
+    "Id": "indus31",
+    "Title": "Лестница - соед. перил"
+  },
+  {
+    "Id": "indus32",
+    "Title": "Лестница - ступенька"
+  },
+  {
+    "Id": "indus33",
+    "Title": "Лестница - балясина"
+  },
+  {
+    "Id": "indus34",
+    "Title": "Лестница - клин"
+  },
+  {
+    "Id": "indus35",
+    "Title": "Лестница - уклон"
+  },
+  {
+    "Id": "indus36",
+    "Title": "Вентиляционная сетка"
+  },
+  {
+    "Id": "indus37",
+    "Title": "Забор-сетка"
+  },
+  {
+    "Id": "indus38",
+    "Title": "Металлическая опора"
+  },
+  {
+    "Id": "indus39",
+    "Title": "Большая вспом. структура"
+  },
+  {
+    "Id": "indus40",
+    "Title": "Вспомогательная структура"
+  },
+  {
+    "Id": "indus41",
+    "Title": "Small Support Structure"
+  },
+  {
+    "Id": "indus42",
+    "Title": "Швеллерная балка"
+  },
+  {
+    "Id": "indus43",
+    "Title": "Металлическая колонна"
+  },
+  {
+    "Id": "indus44",
+    "Title": "Опорная колонна"
+  },
+  {
+    "Id": "indus45",
+    "Title": "Стойка - опорная колонна"
+  },
+  {
+    "Id": "indus46",
+    "Title": "Столб полки"
+  },
+  {
+    "Id": "indus47",
+    "Title": "Опора полки"
+  },
+  {
+    "Id": "indus48",
+    "Title": "Высокая опора полки"
+  },
+  {
+    "Id": "indus49",
+    "Title": "Малый бак"
+  },
+  {
+    "Id": "indus50",
+    "Title": "Средний бак"
+  },
+  {
+    "Id": "indus51",
+    "Title": "Большой бак"
+  },
+  {
+    "Id": "indus52",
+    "Title": "Металлическое окно"
+  },
+  {
+    "Id": "indus53",
+    "Title": "Стальной поддон"
+  },
+  {
+    "Id": "indus54",
+    "Title": "Опора стола"
+  },
+  {
+    "Id": "indus55",
+    "Title": "Вышка"
+  },
+  {
+    "Id": "indus56",
+    "Title": "Верхушка для вышки"
+  },
+  {
+    "Id": "indus57",
+    "Title": "Спутниковая тарелка"
+  },
+  {
+    "Id": "indus58",
+    "Title": "Спутниковая отражающая тарелка"
+  },
+  {
+    "Id": "indus59",
+    "Title": "Антенна"
+  },
+  {
+    "Id": "indus60",
+    "Title": "Отражающая антенна"
+  },
+  {
+    "Id": "indus61",
+    "Title": "Малое прямоуг. окно"
+  },
+  {
+    "Id": "indus62",
+    "Title": "Квадратное окно"
+  },
+  {
+    "Id": "indus63",
+    "Title": "Большое прямоуг. окно"
+  },
+  {
+    "Id": "indus64",
+    "Title": "Большое ветровое стекло"
+  },
+  {
+    "Id": "indus65",
+    "Title": "Малое ветровое стекло"
+  }
+]

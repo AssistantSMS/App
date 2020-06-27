@@ -1,0 +1,525 @@
+[
+  {
+    "Id": "recipeCraft1",
+    "Title": "Connect Tool",
+    "Description": "Every mechanic's favorite tool. Connects interactive parts together, for example: a gas engine to bearings or a thruster to a driver's seat."
+  },
+  {
+    "Id": "recipeCraft2",
+    "Title": "Paint Tool",
+    "Description": "Paint any part or block to personalize your creations or even make beautiful art! Paint using the left mouse button and delete with the right. Press 'Q' to open the color selector. Simply hold down left mouse button and drag if you want to paint larger surfaces."
+  },
+  {
+    "Id": "recipeCraft3",
+    "Title": "Weld Tool",
+    "Description": "Weld your creations together!\nSelect the Weld Tool and left-click on a loose creation, then left-click on a surface of another creation to weld them together. You can also join touching parts on the lift. Hold the left mouse button on the first part and drag to the part you wish to weld together."
+  },
+  {
+    "Id": "recipeCraft4",
+    "Title": "Cardboard Block"
+  },
+  {
+    "Id": "recipeCraft5",
+    "Title": "Wood Block 1"
+  },
+  {
+    "Id": "recipeCraft6",
+    "Title": "Wood Block 2"
+  },
+  {
+    "Id": "recipeCraft7",
+    "Title": "Wood Block 3"
+  },
+  {
+    "Id": "recipeCraft8",
+    "Title": "Metal Block 1"
+  },
+  {
+    "Id": "recipeCraft9",
+    "Title": "Metal Block 2"
+  },
+  {
+    "Id": "recipeCraft10",
+    "Title": "Metal Block 3"
+  },
+  {
+    "Id": "recipeCraft11",
+    "Title": "Concrete Block 1"
+  },
+  {
+    "Id": "recipeCraft12",
+    "Title": "Concrete Block 2"
+  },
+  {
+    "Id": "recipeCraft13",
+    "Title": "Concrete Block 3"
+  },
+  {
+    "Id": "recipeCraft14",
+    "Title": "Sand Block"
+  },
+  {
+    "Id": "recipeCraft15",
+    "Title": "Glass Block"
+  },
+  {
+    "Id": "recipeCraft16",
+    "Title": "Glass Tile Block"
+  },
+  {
+    "Id": "recipeCraft17",
+    "Title": "Armored Glass Block"
+  },
+  {
+    "Id": "recipeCraft18",
+    "Title": "Diamond Plate Block"
+  },
+  {
+    "Id": "recipeCraft19",
+    "Title": "Path Light Block"
+  },
+  {
+    "Id": "recipeCraft20",
+    "Title": "Extruded Metal Block"
+  },
+  {
+    "Id": "recipeCraft21",
+    "Title": "Net Block"
+  },
+  {
+    "Id": "recipeCraft22",
+    "Title": "Punched Steel Block"
+  },
+  {
+    "Id": "recipeCraft23",
+    "Title": "Solid Net Block"
+  },
+  {
+    "Id": "recipeCraft24",
+    "Title": "Spaceship Block"
+  },
+  {
+    "Id": "recipeCraft25",
+    "Title": "Brick Block"
+  },
+  {
+    "Id": "recipeCraft26",
+    "Title": "Tile Block"
+  },
+  {
+    "Id": "recipeCraft27",
+    "Title": "Restroom Block"
+  },
+  {
+    "Id": "recipeCraft28",
+    "Title": "Barrier Block"
+  },
+  {
+    "Id": "recipeCraft29",
+    "Title": "Carpet Block"
+  },
+  {
+    "Id": "recipeCraft30",
+    "Title": "Bubble Plastic Block"
+  },
+  {
+    "Id": "recipeCraft31",
+    "Title": "Bearing",
+    "Description": "Everything you place on the bearing will revolve. Bearings can also be connected to an engine or the driver's seat to be controlled in different ways."
+  },
+  {
+    "Id": "recipeCraft32",
+    "Title": "Switch",
+    "Description": "Unlimited toggling on demand. The Switch activates whatever it's connected to, making it indispensible when you want to turn things on and off with a single push. It can activate an engine, a thruster, the controller and more."
+  },
+  {
+    "Id": "recipeCraft33",
+    "Title": "Button",
+    "Description": "Activates stuff. The button activates as long as it remains pressed."
+  },
+  {
+    "Id": "recipeCraft34",
+    "Title": "Sensor 1",
+    "Description": "It detects, it activates! The sensor activates when detecting any kind of surface that comes into its view, and has a reach of ten blocks. It can activate an engine, a thruster, the controller and more."
+  },
+  {
+    "Id": "recipeCraft35",
+    "Title": "Sport Suspension 1",
+    "Description": "Adds shock absorption and provides stability. Great for vehicles to prevent them from easily flipping over. This suspension is small, but has a firmer bounce."
+  },
+  {
+    "Id": "recipeCraft36",
+    "Title": "Off-Road Suspension 1",
+    "Description": "Adds shock absorption and provides stability. Great for vehicles to prevent them from easily flipping over. This suspension has a lot of bounce, making it ideal for off-road vehicles."
+  },
+  {
+    "Id": "recipeCraft37",
+    "Title": "Piston 1",
+    "Description": "Extends and contracts! Connect it to a trigger to activate. The piston can also be connected to a controller to make it extend and contract in a sequence. Perfect for creating impressive creations."
+  },
+  {
+    "Id": "recipeCraft38",
+    "Title": "Gas Engine 1",
+    "Description": "An engine with fixed speed and adjustable power, ideally suited to powering vehicles. Can be connected to a driver's seat or trigger. Upgrade for more connection points and less gas consumption."
+  },
+  {
+    "Id": "recipeCraft39",
+    "Title": "Electric Engine 1",
+    "Description": "Powers bearings. An engine with fixed power and adjustable speed. A weak engine with an adjustable speed. Can be connected to a driver's seat or triggers. Upgrade for more connection points and less battery consumption."
+  },
+  {
+    "Id": "recipeCraft40",
+    "Title": "Driver's Seat 1",
+    "Description": "Makes bearings turn left and right. Can be connected to an engine to control the direction of travel. Can also be connected to triggers that can be activated from the seat. Lvl 5 Driver's Seat unlocks steering settings by pressing (E) on connected bearings with the Connect Tool."
+  },
+  {
+    "Id": "recipeCraft41",
+    "Title": "Seat 1",
+    "Description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. Can be connected to triggers which can activate other interactive parts from the seat."
+  },
+  {
+    "Id": "recipeCraft42",
+    "Title": "Driver's Saddle 1",
+    "Description": "Makes bearings turn left and right. Can be connected to an engine to control the direction of travel. Can also be connected to triggers that can be activated from the saddle. Lvl 5 Driver's Saddle unlocks steering settings by pressing (E) on connected bearings with the Connect Tool."
+  },
+  {
+    "Id": "recipeCraft43",
+    "Title": "Saddle 1",
+    "Description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. Can be connected to triggers which can activate other interactive parts from the saddle."
+  },
+  {
+    "Id": "recipeCraft44",
+    "Title": "Toilet",
+    "Description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. Can be connected to triggers which can activate other interactive parts from the toilet. Don't forget to flush!"
+  },
+  {
+    "Id": "recipeCraft45",
+    "Title": "Thruster 1",
+    "Description": "Enough of these can make things fly. Needs to be connected to a trigger or the driver's seat in order to activate. Upgrade for less gas consumption."
+  },
+  {
+    "Id": "recipeCraft46",
+    "Title": "Controller 1",
+    "Description": "Allows bearings to rotate in sequence. Perfect for building transforming creations. Needs to be connected to bearings. Activated by connecting a trigger or driver's seat to the controller."
+  },
+  {
+    "Id": "recipeCraft47",
+    "Title": "Logic Gate",
+    "Description": "The Logic Gate is a powerful block that allows you to build basic logical functions. By pressing E on the block, the mechanic can choose between different logic gate types. The logic gate can be connected to other logic gates, triggers, timers and more. Great for making advanced creations."
+  },
+  {
+    "Id": "recipeCraft48",
+    "Title": "Timer",
+    "Description": "The Timer allows you delay the interaction between two interactive parts. For example, between a switch and a controller. It goes great with Logic Gates."
+  },
+  {
+    "Id": "recipeCraft49",
+    "Title": "Radio",
+    "Description": "All hits, all the time. Those beastly bots have hijacked and are now transmitting classic selections from their deeply unusual taste in music. Activate it by interacting with it\nor by connecting it to a trigger."
+  },
+  {
+    "Id": "recipeCraft50",
+    "Title": "Horn",
+    "Description": "Add it to your vehicle or use it as a door bell. Honk at your friends to avoid accidents. Set the pitch and connect it to a trigger to activate it."
+  },
+  {
+    "Id": "recipeCraft51",
+    "Title": "Headlight",
+    "Description": "Let there be visibility! Connect to a trigger to turn on and off. Adjustable beam range."
+  },
+  {
+    "Id": "recipeCraft52",
+    "Title": "Respawn Bed",
+    "Description": "Take a lovely nap in this comfy bed to respawn in it after your mechanic has been knocked out"
+  },
+  {
+    "Id": "recipeCraft53",
+    "Title": "Fridge",
+    "Description": "Keeps your food fresh"
+  },
+  {
+    "Id": "recipeCraft54",
+    "Title": "Chest",
+    "Description": "A simple chest to store your items."
+  },
+  {
+    "Id": "recipeCraft55",
+    "Title": "Large Chest",
+    "Description": "Great for storing a lot of items. Can also be used with a Vacuum Pump"
+  },
+  {
+    "Id": "recipeCraft56",
+    "Title": "Vacuum Pump",
+    "Description": "The Vaccum Pump has many uses when connected to a trigger. Suck up water in to a water container. Pick up plants in to a chest. It can even shoot and place items from a chest."
+  },
+  {
+    "Id": "recipeCraft57",
+    "Title": "Vacuum Pipe",
+    "Description": "Use it with the Vacuum Pump to make items travel through pipes"
+  },
+  {
+    "Id": "recipeCraft58",
+    "Title": "Vacuum Pipe Corner",
+    "Description": "Use it with the Vacuum Pump to make items travel through pipes"
+  },
+  {
+    "Id": "recipeCraft59",
+    "Title": "Gas Container",
+    "Description": "Can stores more gas and loads gas in to Gas Engines and other interactive parts that require Gas when connected"
+  },
+  {
+    "Id": "recipeCraft60",
+    "Title": "Battery Container",
+    "Description": "Can Store more batteries and loads batteries in to Electric Engines and other interactive parts that require batteries when connected"
+  },
+  {
+    "Id": "recipeCraft61",
+    "Title": "Water Container",
+    "Description": "Connect it to a Vacuum Pump that is under water to fil the Water Container with water"
+  },
+  {
+    "Id": "recipeCraft62",
+    "Title": "Chemical Container"
+  },
+  {
+    "Id": "recipeCraft63",
+    "Title": "Water Cannon",
+    "Description": "Connect it to a Water container with a trigger to water your plants more efficiently"
+  },
+  {
+    "Id": "recipeCraft64",
+    "Title": "Saw Blade",
+    "Description": "Cut down trees faster with the Saw Blade. Put it on a bearing that is connected to a engine and drive it in to a tree."
+  },
+  {
+    "Id": "recipeCraft65",
+    "Title": "Drill",
+    "Description": "Use the Drill to mine square rocks for stone and metal. Put it on a bearing that is connected to a engine and drive it in to a square rock."
+  },
+  {
+    "Id": "recipeCraft66",
+    "Title": "Water Bucket",
+    "Description": "Fill it with water to water your plants."
+  },
+  {
+    "Id": "recipeCraft67",
+    "Title": "Soil Bag",
+    "Description": "Use them on the ground to place your seeds in"
+  },
+  {
+    "Id": "recipeCraft68",
+    "Title": "Fertilizer",
+    "Description": "Makes plants grow faster"
+  },
+  {
+    "Id": "recipeCraft69",
+    "Title": "Gasoline",
+    "Description": "Used to power gas engines and thrusters"
+  },
+  {
+    "Id": "recipeCraft70",
+    "Title": "Battery",
+    "Description": "Used to power electric parts"
+  },
+  {
+    "Id": "recipeCraft71",
+    "Title": "Glue"
+  },
+  {
+    "Id": "recipeCraft72",
+    "Title": "Water",
+    "Description": "Great for watering plants, unfortunately not good for drinking."
+  },
+  {
+    "Id": "recipeCraft73",
+    "Title": "Chemicals"
+  },
+  {
+    "Id": "recipeCraft74",
+    "Title": "Paint Ammo",
+    "Description": "Load your Paint Tool and give your creations some color"
+  },
+  {
+    "Id": "recipeCraft75",
+    "Title": "Glowstick",
+    "Description": "Throw them at night or other dark places to see things better"
+  },
+  {
+    "Id": "recipeCraft76",
+    "Title": "Small Explosive Canister",
+    "Description": "Highly explosive canister that can detonate by strong collisions or by Spud Guns\nThis canister has a small explosion radius."
+  },
+  {
+    "Id": "recipeCraft77",
+    "Title": "Large Explosive Canister",
+    "Description": "Highly explosive canister that can detonate by strong collisions or by Spud Guns\nThis canister has a large explosion radius."
+  },
+  {
+    "Id": "recipeCraft78",
+    "Title": "Wheel"
+  },
+  {
+    "Id": "recipeCraft79",
+    "Title": "Big Wheel"
+  },
+  {
+    "Id": "recipeCraft80",
+    "Title": "Small Pipe Short"
+  },
+  {
+    "Id": "recipeCraft81",
+    "Title": "Small Pipe Long"
+  },
+  {
+    "Id": "recipeCraft82",
+    "Title": "Small Pipe Bend"
+  },
+  {
+    "Id": "recipeCraft83",
+    "Title": "Small Pipe Tee"
+  },
+  {
+    "Id": "recipeCraft84",
+    "Title": "Small Pipe Corner"
+  },
+  {
+    "Id": "recipeCraft85",
+    "Title": "Small Pipe Four Way"
+  },
+  {
+    "Id": "recipeCraft86",
+    "Title": "Small Pipe Four Way Tee"
+  },
+  {
+    "Id": "recipeCraft87",
+    "Title": "Small Pipe Five Way"
+  },
+  {
+    "Id": "recipeCraft88",
+    "Title": "Small Pipe Six Way"
+  },
+  {
+    "Id": "recipeCraft89",
+    "Title": "Pipe Short"
+  },
+  {
+    "Id": "recipeCraft90",
+    "Title": "Pipe Long"
+  },
+  {
+    "Id": "recipeCraft91",
+    "Title": "Pipe Corner"
+  },
+  {
+    "Id": "recipeCraft92",
+    "Title": "Pipe Join"
+  },
+  {
+    "Id": "recipeCraft93",
+    "Title": "Valve"
+  },
+  {
+    "Id": "recipeCraft94",
+    "Title": "Short I-Beam"
+  },
+  {
+    "Id": "recipeCraft95",
+    "Title": "Long I-Beam"
+  },
+  {
+    "Id": "recipeCraft96",
+    "Title": "I-Beam Corner"
+  },
+  {
+    "Id": "recipeCraft97",
+    "Title": "I-Beam End"
+  },
+  {
+    "Id": "recipeCraft98",
+    "Title": "I-Beam Holder"
+  },
+  {
+    "Id": "recipeCraft99",
+    "Title": "Toilet Paper"
+  },
+  {
+    "Id": "recipeCraft100",
+    "Title": "Sink"
+  },
+  {
+    "Id": "recipeCraft101",
+    "Title": "Air Conditioner"
+  },
+  {
+    "Id": "recipeCraft102",
+    "Title": "Mug"
+  },
+  {
+    "Id": "recipeCraft103",
+    "Title": "Mannequin Boot"
+  },
+  {
+    "Id": "recipeCraft104",
+    "Title": "Mannequin Hand"
+  },
+  {
+    "Id": "recipeCraft105",
+    "Title": "Baby Duck Statuette"
+  },
+  {
+    "Id": "recipeCraft106",
+    "Title": "Potted Plant"
+  },
+  {
+    "Id": "recipeCraft107",
+    "Title": "Small Potted Plant"
+  },
+  {
+    "Id": "recipeCraft108",
+    "Title": "Potted Vine Plant"
+  },
+  {
+    "Id": "recipeCraft109",
+    "Title": "Big Pot"
+  },
+  {
+    "Id": "recipeCraft110",
+    "Title": "Potted Seed Plant"
+  },
+  {
+    "Id": "recipeCraft111",
+    "Title": "Potted Blooming Cactus"
+  },
+  {
+    "Id": "recipeCraft112",
+    "Title": "Potted Cactus"
+  },
+  {
+    "Id": "recipeCraft113",
+    "Title": "Potted Blue Flower"
+  },
+  {
+    "Id": "recipeCraft114",
+    "Title": "Small Rectangular Window"
+  },
+  {
+    "Id": "recipeCraft115",
+    "Title": "Square Window"
+  },
+  {
+    "Id": "recipeCraft116",
+    "Title": "Large Rectangular Window"
+  },
+  {
+    "Id": "recipeCraft117",
+    "Title": "Large Windshield"
+  },
+  {
+    "Id": "recipeCraft118",
+    "Title": "Small Windshield"
+  },
+  {
+    "Id": "recipeCraft119",
+    "Title": "Traffic Cone"
+  }
+]

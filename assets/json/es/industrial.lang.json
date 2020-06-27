@@ -1,0 +1,262 @@
+[
+  {
+    "Id": "indus1",
+    "Title": "Generator Coil Segment"
+  },
+  {
+    "Id": "indus2",
+    "Title": "Generator Coil Corner"
+  },
+  {
+    "Id": "indus3",
+    "Title": "Ventilation Frame"
+  },
+  {
+    "Id": "indus4",
+    "Title": "Steel Support Bracket"
+  },
+  {
+    "Id": "indus5",
+    "Title": "Encryptor Base"
+  },
+  {
+    "Id": "indus6",
+    "Title": "Encryptor Base Plate"
+  },
+  {
+    "Id": "indus7",
+    "Title": "Encryptor Frame Top"
+  },
+  {
+    "Id": "indus8",
+    "Title": "Small Steel Bracket"
+  },
+  {
+    "Id": "indus9",
+    "Title": "Encryptor Frame Beam"
+  },
+  {
+    "Id": "indus10",
+    "Title": "Encryptor Holder"
+  },
+  {
+    "Id": "indus11",
+    "Title": "Base Extension"
+  },
+  {
+    "Id": "indus12",
+    "Title": "Generator B"
+  },
+  {
+    "Id": "indus13",
+    "Title": "Generator C"
+  },
+  {
+    "Id": "indus14",
+    "Title": "Generator D"
+  },
+  {
+    "Id": "indus15",
+    "Title": "Generator A"
+  },
+  {
+    "Id": "indus16",
+    "Title": "Power Generator Side"
+  },
+  {
+    "Id": "indus17",
+    "Title": "Generator Tank"
+  },
+  {
+    "Id": "indus18",
+    "Title": "Generator E"
+  },
+  {
+    "Id": "indus19",
+    "Title": "Trigger Frame"
+  },
+  {
+    "Id": "indus20",
+    "Title": "Generator Pipe Holder"
+  },
+  {
+    "Id": "indus21",
+    "Title": "Viga Corta"
+  },
+  {
+    "Id": "indus22",
+    "Title": "Viga Larga"
+  },
+  {
+    "Id": "indus23",
+    "Title": "Viga Esquina"
+  },
+  {
+    "Id": "indus24",
+    "Title": "Viga Soporte"
+  },
+  {
+    "Id": "indus25",
+    "Title": "Viga Fin"
+  },
+  {
+    "Id": "indus26",
+    "Title": "Estante"
+  },
+  {
+    "Id": "indus27",
+    "Title": "Escalera"
+  },
+  {
+    "Id": "indus28",
+    "Title": "Escalera\nBarandilla Larga"
+  },
+  {
+    "Id": "indus29",
+    "Title": "Escalera\nBarandilla Corta"
+  },
+  {
+    "Id": "indus30",
+    "Title": "Escalera Balaustre"
+  },
+  {
+    "Id": "indus31",
+    "Title": "Escalera\n Unión de Barandilla"
+  },
+  {
+    "Id": "indus32",
+    "Title": "Escalon de Escalera"
+  },
+  {
+    "Id": "indus33",
+    "Title": "Pasamanos de Escalera"
+  },
+  {
+    "Id": "indus34",
+    "Title": "Cuña de Escalera"
+  },
+  {
+    "Id": "indus35",
+    "Title": "Rampa de Escalera"
+  },
+  {
+    "Id": "indus36",
+    "Title": "Rejilla de Ventilación"
+  },
+  {
+    "Id": "indus37",
+    "Title": "Alambrada"
+  },
+  {
+    "Id": "indus38",
+    "Title": "Soporte de Metal"
+  },
+  {
+    "Id": "indus39",
+    "Title": "Estructura\nde Soporte Grande"
+  },
+  {
+    "Id": "indus40",
+    "Title": "Estructura de Soporte"
+  },
+  {
+    "Id": "indus41",
+    "Title": "Small Support Structure"
+  },
+  {
+    "Id": "indus42",
+    "Title": "Viga Artesa"
+  },
+  {
+    "Id": "indus43",
+    "Title": "Columna de Metal"
+  },
+  {
+    "Id": "indus44",
+    "Title": "Pilar de Soporte"
+  },
+  {
+    "Id": "indus45",
+    "Title": "Estante de Pilar"
+  },
+  {
+    "Id": "indus46",
+    "Title": "Pilar de Estante"
+  },
+  {
+    "Id": "indus47",
+    "Title": "Soporte de Estante"
+  },
+  {
+    "Id": "indus48",
+    "Title": "Soporte de Estante Alto"
+  },
+  {
+    "Id": "indus49",
+    "Title": "Tanque Pequeño"
+  },
+  {
+    "Id": "indus50",
+    "Title": "Tanque Medio"
+  },
+  {
+    "Id": "indus51",
+    "Title": "Tanque Grande"
+  },
+  {
+    "Id": "indus52",
+    "Title": "Ventana de Metal"
+  },
+  {
+    "Id": "indus53",
+    "Title": "Paleta de Acero"
+  },
+  {
+    "Id": "indus54",
+    "Title": "Soporte de Mesa"
+  },
+  {
+    "Id": "indus55",
+    "Title": "Poste de la torre"
+  },
+  {
+    "Id": "indus56",
+    "Title": "Tope del poste de la torre"
+  },
+  {
+    "Id": "indus57",
+    "Title": "Satellite Dish"
+  },
+  {
+    "Id": "indus58",
+    "Title": "Antena parabólica reflectora"
+  },
+  {
+    "Id": "indus59",
+    "Title": "Antena"
+  },
+  {
+    "Id": "indus60",
+    "Title": "Antena reflectora"
+  },
+  {
+    "Id": "indus61",
+    "Title": "Pequeña Ventana Rectangular"
+  },
+  {
+    "Id": "indus62",
+    "Title": "Ventana Cuadrada"
+  },
+  {
+    "Id": "indus63",
+    "Title": "Ventana Rectangular Grande"
+  },
+  {
+    "Id": "indus64",
+    "Title": "Parabrisas Grande"
+  },
+  {
+    "Id": "indus65",
+    "Title": "Parabrisas Pequeño"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "Id": "veh1",
+    "Title": "Concave Wedge"
+  },
+  {
+    "Id": "veh2",
+    "Title": "License Plate"
+  },
+  {
+    "Id": "veh3",
+    "Title": "Metallic Tube Straight"
+  },
+  {
+    "Id": "veh4",
+    "Title": "Metallic Tube Bend"
+  },
+  {
+    "Id": "veh5",
+    "Title": "Rounded Frame Corner"
+  },
+  {
+    "Id": "veh6",
+    "Title": "Rad"
+  },
+  {
+    "Id": "veh7",
+    "Title": "Großes Rad"
+  }
+]

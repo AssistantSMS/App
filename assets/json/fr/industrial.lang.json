@@ -1,0 +1,262 @@
+[
+  {
+    "Id": "indus1",
+    "Title": "Generator Coil Segment"
+  },
+  {
+    "Id": "indus2",
+    "Title": "Generator Coil Corner"
+  },
+  {
+    "Id": "indus3",
+    "Title": "Ventilation Frame"
+  },
+  {
+    "Id": "indus4",
+    "Title": "Steel Support Bracket"
+  },
+  {
+    "Id": "indus5",
+    "Title": "Encryptor Base"
+  },
+  {
+    "Id": "indus6",
+    "Title": "Encryptor Base Plate"
+  },
+  {
+    "Id": "indus7",
+    "Title": "Encryptor Frame Top"
+  },
+  {
+    "Id": "indus8",
+    "Title": "Small Steel Bracket"
+  },
+  {
+    "Id": "indus9",
+    "Title": "Encryptor Frame Beam"
+  },
+  {
+    "Id": "indus10",
+    "Title": "Encryptor Holder"
+  },
+  {
+    "Id": "indus11",
+    "Title": "Base Extension"
+  },
+  {
+    "Id": "indus12",
+    "Title": "Generator B"
+  },
+  {
+    "Id": "indus13",
+    "Title": "Generator C"
+  },
+  {
+    "Id": "indus14",
+    "Title": "Generator D"
+  },
+  {
+    "Id": "indus15",
+    "Title": "Generator A"
+  },
+  {
+    "Id": "indus16",
+    "Title": "Power Generator Side"
+  },
+  {
+    "Id": "indus17",
+    "Title": "Generator Tank"
+  },
+  {
+    "Id": "indus18",
+    "Title": "Generator E"
+  },
+  {
+    "Id": "indus19",
+    "Title": "Trigger Frame"
+  },
+  {
+    "Id": "indus20",
+    "Title": "Generator Pipe Holder"
+  },
+  {
+    "Id": "indus21",
+    "Title": "Poutrelle I : courte"
+  },
+  {
+    "Id": "indus22",
+    "Title": "Poutrelle I : longue"
+  },
+  {
+    "Id": "indus23",
+    "Title": "Poutrelle I : coin"
+  },
+  {
+    "Id": "indus24",
+    "Title": "Poutrelle I : soutien"
+  },
+  {
+    "Id": "indus25",
+    "Title": "Poutrelle I : extrémité"
+  },
+  {
+    "Id": "indus26",
+    "Title": "Étagère"
+  },
+  {
+    "Id": "indus27",
+    "Title": "Escalier : palier"
+  },
+  {
+    "Id": "indus28",
+    "Title": "Escal. : garde-corps haut"
+  },
+  {
+    "Id": "indus29",
+    "Title": "Escal. : garde-corps bas"
+  },
+  {
+    "Id": "indus30",
+    "Title": "Escalier : balustre"
+  },
+  {
+    "Id": "indus31",
+    "Title": "Jointure pour garde-corps"
+  },
+  {
+    "Id": "indus32",
+    "Title": "Escalier : marche"
+  },
+  {
+    "Id": "indus33",
+    "Title": "Escalier : main courante"
+  },
+  {
+    "Id": "indus34",
+    "Title": "Escalier : cale"
+  },
+  {
+    "Id": "indus35",
+    "Title": "Escalier : rampe"
+  },
+  {
+    "Id": "indus36",
+    "Title": "Grille de ventilation"
+  },
+  {
+    "Id": "indus37",
+    "Title": "Grillage"
+  },
+  {
+    "Id": "indus38",
+    "Title": "Support en métal"
+  },
+  {
+    "Id": "indus39",
+    "Title": "Large structure de support"
+  },
+  {
+    "Id": "indus40",
+    "Title": "Structure de support"
+  },
+  {
+    "Id": "indus41",
+    "Title": "Small Support Structure"
+  },
+  {
+    "Id": "indus42",
+    "Title": "Poutrelle U "
+  },
+  {
+    "Id": "indus43",
+    "Title": "Colonne en métal"
+  },
+  {
+    "Id": "indus44",
+    "Title": "Pilier de support"
+  },
+  {
+    "Id": "indus45",
+    "Title": "Socle de support"
+  },
+  {
+    "Id": "indus46",
+    "Title": "Étagère : pilier"
+  },
+  {
+    "Id": "indus47",
+    "Title": "Étagère : support"
+  },
+  {
+    "Id": "indus48",
+    "Title": "Étagère : grand support"
+  },
+  {
+    "Id": "indus49",
+    "Title": "Petit réservoir"
+  },
+  {
+    "Id": "indus50",
+    "Title": "Réservoir moyen"
+  },
+  {
+    "Id": "indus51",
+    "Title": "Grand réservoir"
+  },
+  {
+    "Id": "indus52",
+    "Title": "Fenêtre en métal"
+  },
+  {
+    "Id": "indus53",
+    "Title": "Palette en métal"
+  },
+  {
+    "Id": "indus54",
+    "Title": "Support de table"
+  },
+  {
+    "Id": "indus55",
+    "Title": "Pylône de tour"
+  },
+  {
+    "Id": "indus56",
+    "Title": "Pylône de tour: haut"
+  },
+  {
+    "Id": "indus57",
+    "Title": "Parabole"
+  },
+  {
+    "Id": "indus58",
+    "Title": "Parabole réflectrice"
+  },
+  {
+    "Id": "indus59",
+    "Title": "Antenne"
+  },
+  {
+    "Id": "indus60",
+    "Title": "Antenne réflectrice"
+  },
+  {
+    "Id": "indus61",
+    "Title": "Petite fenêtre rect."
+  },
+  {
+    "Id": "indus62",
+    "Title": "Fenêtre carrée"
+  },
+  {
+    "Id": "indus63",
+    "Title": "Grande fenêtre rect."
+  },
+  {
+    "Id": "indus64",
+    "Title": "Grand pare-brise"
+  },
+  {
+    "Id": "indus65",
+    "Title": "Petit pare-brise"
+  }
+]

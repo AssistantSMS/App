@@ -1,0 +1,82 @@
+[
+  {
+    "Id": "constr1",
+    "Title": "Hollow Concrete"
+  },
+  {
+    "Id": "constr2",
+    "Title": "Broken Concrete Small"
+  },
+  {
+    "Id": "constr3",
+    "Title": "Broken Concrete Medium"
+  },
+  {
+    "Id": "constr4",
+    "Title": "Broken Concrete Large"
+  },
+  {
+    "Id": "constr5",
+    "Title": "Barrier Stand"
+  },
+  {
+    "Id": "constr6",
+    "Title": "Cement Mix"
+  },
+  {
+    "Id": "constr7",
+    "Title": "Concrete Block Mould"
+  },
+  {
+    "Id": "constr8",
+    "Title": "Carpet Roll"
+  },
+  {
+    "Id": "constr9",
+    "Title": "Carpet Spool Holder"
+  },
+  {
+    "Id": "constr10",
+    "Title": "Scaffold Plastic Wall"
+  },
+  {
+    "Id": "constr11",
+    "Title": "Scaffold Ledger"
+  },
+  {
+    "Id": "constr12",
+    "Title": "Scaffold Frame"
+  },
+  {
+    "Id": "constr13",
+    "Title": "Scaffold Plank"
+  },
+  {
+    "Id": "constr14",
+    "Title": "Construction Pallet"
+  },
+  {
+    "Id": "constr15",
+    "Title": "Scaffold Pallet Ramp"
+  },
+  {
+    "Id": "constr16",
+    "Title": "Sound Isolation Small "
+  },
+  {
+    "Id": "constr17",
+    "Title": "Sound Isolation Large"
+  },
+  {
+    "Id": "constr18",
+    "Title": "Work Light"
+  },
+  {
+    "Id": "constr19",
+    "Title": "Paint Bucket"
+  },
+  {
+    "Id": "constr20",
+    "Title": "Scaffolding Step"
+  }
+]

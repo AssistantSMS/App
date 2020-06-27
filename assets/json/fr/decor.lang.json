@@ -1,0 +1,186 @@
+[
+  {
+    "Id": "deco1",
+    "Title": "Produce Billboard"
+  },
+  {
+    "Id": "deco2",
+    "Title": "Berry Billboard"
+  },
+  {
+    "Id": "deco3",
+    "Title": "Sickle-Down Billboard"
+  },
+  {
+    "Id": "deco4",
+    "Title": "Warehouse Sign"
+  },
+  {
+    "Id": "deco5",
+    "Title": "Elevator Sign"
+  },
+  {
+    "Id": "deco6",
+    "Title": "Storage Sign"
+  },
+  {
+    "Id": "deco7",
+    "Title": "Packing Sign"
+  },
+  {
+    "Id": "deco8",
+    "Title": "Growroom Sign"
+  },
+  {
+    "Id": "deco9",
+    "Title": "Utility Sign"
+  },
+  {
+    "Id": "deco10",
+    "Title": "Man Sign"
+  },
+  {
+    "Id": "deco11",
+    "Title": "Woman Sign"
+  },
+  {
+    "Id": "deco12",
+    "Title": "Recycling Bin"
+  },
+  {
+    "Id": "deco13",
+    "Title": "Paper Stack"
+  },
+  {
+    "Id": "deco14",
+    "Title": "Old Restroom Mirror"
+  },
+  {
+    "Id": "deco15",
+    "Title": "Traffic Sign"
+  },
+  {
+    "Id": "deco16",
+    "Title": "Metallic Tube"
+  },
+  {
+    "Id": "deco17",
+    "Title": "Road Sign Base"
+  },
+  {
+    "Id": "deco18",
+    "Title": "Cash Register"
+  },
+  {
+    "Id": "deco19",
+    "Title": "Open Sign"
+  },
+  {
+    "Id": "deco20",
+    "Title": "Old Fruit Stand"
+  },
+  {
+    "Id": "deco21",
+    "Title": "Stacked Crates"
+  },
+  {
+    "Id": "deco22",
+    "Title": "Sunshake Vending Machine"
+  },
+  {
+    "Id": "deco23",
+    "Title": "Udder Decoration"
+  },
+  {
+    "Id": "deco24",
+    "Title": "Haystack"
+  },
+  {
+    "Id": "deco25",
+    "Title": "Hay Bale"
+  },
+  {
+    "Id": "deco26",
+    "Title": "Papier toilette"
+  },
+  {
+    "Id": "deco27",
+    "Title": "Évier"
+  },
+  {
+    "Id": "deco28",
+    "Title": "Tasse"
+  },
+  {
+    "Id": "deco29",
+    "Title": "Mannequin de chaussure"
+  },
+  {
+    "Id": "deco30",
+    "Title": "Main de mannequin"
+  },
+  {
+    "Id": "deco31",
+    "Title": "Statuette de caneton"
+  },
+  {
+    "Id": "deco32",
+    "Title": "Vis"
+  },
+  {
+    "Id": "deco33",
+    "Title": "Écrou"
+  },
+  {
+    "Id": "deco34",
+    "Title": "Panneau : tête de mort"
+  },
+  {
+    "Id": "deco35",
+    "Title": "Panneau : construction"
+  },
+  {
+    "Id": "deco36",
+    "Title": "Panneau : avertissement"
+  },
+  {
+    "Id": "deco37",
+    "Title": "Panneau : danger"
+  },
+  {
+    "Id": "deco38",
+    "Title": "Panneau : stop"
+  },
+  {
+    "Id": "deco39",
+    "Title": "Panneau : danger agribots"
+  },
+  {
+    "Id": "deco40",
+    "Title": "Panneau : bienvenue"
+  },
+  {
+    "Id": "deco41",
+    "Title": "Panneau : entrée interdite"
+  },
+  {
+    "Id": "deco42",
+    "Title": "Panneau : chute d'objets"
+  },
+  {
+    "Id": "deco43",
+    "Title": "Panneau : direction"
+  },
+  {
+    "Id": "deco44",
+    "Title": "Cône de signalisation"
+  },
+  {
+    "Id": "deco45",
+    "Title": "Matelas"
+  },
+  {
+    "Id": "deco46",
+    "Title": "Oreiller"
+  }
+]

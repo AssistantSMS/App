@@ -1,0 +1,597 @@
+[
+  {
+    "Id": "recipeCraft1",
+    "Title": "Ferramenta de Conexão",
+    "Description": "A favorita de todos os mecânicos. Conecta partes interativas, como por exemplo: um motor a combustão a rolamentos ou um propulsor a um assento de operador."
+  },
+  {
+    "Id": "recipeCraft2",
+    "Title": "Ferramenta de Pintura",
+    "Description": "Pinte qualquer peça ou bloco para personalizar suas criações ou até criar lindas obras de arte! Pinte com o botão esquerdo do mouse e apague com o direito. Pressione ‘Q’ para abrir o seletor de cores. Se quiser pintar superfícies maiores, é só segurar o botão esquerdo e arrastar o mouse."
+  },
+  {
+    "Id": "recipeCraft3",
+    "Title": "Ferramenta de Solda",
+    "Description": "Funda suas criações!\nSelecione a Ferramenta de Solda e clique com o botão esquerdo em uma criação solta e depois na superfície de outra criação para soldá-las juntas. Você também pode soldar peças na plataforma que estejam se tocando. Segure o botão esquerdo na primeira peça e arraste-a até a outra que você quer soldar."
+  },
+  {
+    "Id": "recipeCraft4",
+    "Title": "Bloco de Papelão",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft5",
+    "Title": "Bloco de Madeira",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft6",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft7",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft8",
+    "Title": "Bloco de Metal",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft9",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft10",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft11",
+    "Title": "Bloco de Concreto",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft12",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft13",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft14",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft15",
+    "Title": "Bloco de vidro",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft16",
+    "Title": "Bloco de Vidro",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft17",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft18",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft19",
+    "Title": "Bloco de Luz Externa",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft20",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft21",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft22",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft23",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft24",
+    "Title": "Bloco de Navio de Manutenção",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft25",
+    "Title": "Bloco de Tijolo",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft26",
+    "Title": "Bloco de Azulejo",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft27",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft28",
+    "Title": "Bloco de Barreira",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft29",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft30",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft31",
+    "Title": "Rolamento",
+    "Description": "Tudo que você colocar sobre o rolamento vai girar. Rolamentos também podem ser conectados a um motor ou a um assento de operador para ser controlado de formas diferentes."
+  },
+  {
+    "Id": "recipeCraft32",
+    "Title": "Comando",
+    "Description": "Ligue e desligue à vontade. O comando ativa a peça à qual está conectado, tornando-a indispensável para quando você quer ligar e desligar coisas com facilidade. Ela pode ativar um motor, um propulsor, o controlador e mais."
+  },
+  {
+    "Id": "recipeCraft33",
+    "Title": "Botão",
+    "Description": "Ativa coisas. O botão fica ativado enquanto continuar pressionado."
+  },
+  {
+    "Id": "recipeCraft34",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft35",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft36",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft37",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft38",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft39",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft40",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft41",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft42",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft43",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft44",
+    "Title": "Privada",
+    "Description": "Usada para não ter que ficar de pé. Sente-se e relaxe ou adicione-a a um veículo para que seus amigos possam ir com você. Pode ser conectada a acionadores, permitindo que outras peças interativas sejam ativadas dela. Não esqueça de dar descarga!"
+  },
+  {
+    "Id": "recipeCraft45",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft46",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft47",
+    "Title": "Portão Lógico",
+    "Description": "O Portão Lógico é um bloco poderoso que permite que você crie funções lógicas básicas. Pressionando E no bloco, o mecânico pode escolher entre vários tipos de portões lógicos. O portão lógico pode ser conectado a outros portões lógicos, acionadores, temporizadores e mais. Ótimo para se fazer criações avançadas."
+  },
+  {
+    "Id": "recipeCraft48",
+    "Title": "Temporizador",
+    "Description": "O temporizador permite atrasar a interação entre duas peças. Por exemplo, entre um comando e um controlador. Ele combina muito bem com Portões Lógicos."
+  },
+  {
+    "Id": "recipeCraft49",
+    "Title": "Rádio",
+    "Description": "Só sucessos, o dia todo. Esses incultos desses Fazendabôs invadiram o sinal e estão transmitindo seleções clássicas de seus repertórios nada convencionais de músicas. Ative-o por interação direta\n ou conectando-o a um acionador."
+  },
+  {
+    "Id": "recipeCraft50",
+    "Title": "Buzina",
+    "Description": "Adicione-a ao seu veículo ou use-a como campainha. Buzine para seus amigos para evitar acidentes. Escolha o tom e conecte-a a um acionador para ativá-la."
+  },
+  {
+    "Id": "recipeCraft51",
+    "Title": "Luz",
+    "Description": "Que haja visibilidade."
+  },
+  {
+    "Id": "recipeCraft52",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft53",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft54",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft55",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft56",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft57",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft58",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft59",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft60",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft61",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft62",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft63",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft64",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft65",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft66",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft67",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft68",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft69",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft70",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft71",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft72",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft73",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft74",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft75",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft76",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft77",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft78",
+    "Title": "Roda",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft79",
+    "Title": "Roda Grande",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft80",
+    "Title": "Cano Pequeno - Curto",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft81",
+    "Title": "Cano Pequeno - Longo",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft82",
+    "Title": "Cano Pequeno - Dobra",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft83",
+    "Title": "Cano Pequeno - T",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft84",
+    "Title": "Cano Pequeno - Cotovelo",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft85",
+    "Title": "Cano Pequeno - 4 Vias",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft86",
+    "Title": "Cano Pequeno - T de 4 Vias",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft87",
+    "Title": "Cano Pequeno - 5 Vias",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft88",
+    "Title": "Cano Pequeno - 6 Vias",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft89",
+    "Title": "Cano - Curto",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft90",
+    "Title": "Cano - Longo",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft91",
+    "Title": "Cano - Cotovelo",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft92",
+    "Title": "Cano - Junção",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft93",
+    "Title": "Válvula",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft94",
+    "Title": "Viga em I - Curta",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft95",
+    "Title": "Viga em I - Longa",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft96",
+    "Title": "Viga em I - Canto",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft97",
+    "Title": "Viga em I - Final",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft98",
+    "Title": "Viga em I - Suporte",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft99",
+    "Title": "Papel Higiênico",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft100",
+    "Title": "Pia",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft101",
+    "Title": "Ar-condicionado",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft102",
+    "Title": "Caneca",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft103",
+    "Title": "Bota de Manequim",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft104",
+    "Title": "Mão de Manequim",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft105",
+    "Title": "Estatueta de Patinho",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft106",
+    "Title": "Vaso com Planta",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft107",
+    "Title": "Vaso com Planta Pequena",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft108",
+    "Title": "Vaso com Trepadeira",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft109",
+    "Title": "Vaso Grande",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft110",
+    "Title": "Vaso com Planta e Semente",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft111",
+    "Title": "Vaso com Cacto Florido",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft112",
+    "Title": "Vaso com Cacto",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft113",
+    "Title": "Vaso com Flor Azul",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft114",
+    "Title": "Janela Retangular Pequena",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft115",
+    "Title": "Janela Quadrada",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft116",
+    "Title": "Janela Retangular Grande",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft117",
+    "Title": "Para-brisa Grande",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft118",
+    "Title": "Para-brisa Pequeno",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft119",
+    "Title": "Cone de Trânsito",
+    "Description": ""
+  }
+]

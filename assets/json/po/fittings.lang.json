@@ -1,0 +1,246 @@
+[
+  {
+    "Id": "fitt1",
+    "Title": "Large Pipe Mount"
+  },
+  {
+    "Id": "fitt2",
+    "Title": "Holder Support Leg Base"
+  },
+  {
+    "Id": "fitt3",
+    "Title": "Holder Support Leg"
+  },
+  {
+    "Id": "fitt4",
+    "Title": "Holder Support Bend"
+  },
+  {
+    "Id": "fitt5",
+    "Title": "Large Pipe Extension"
+  },
+  {
+    "Id": "fitt6",
+    "Title": "Large Pipe Cap"
+  },
+  {
+    "Id": "fitt7",
+    "Title": "Large Pipe Compressor"
+  },
+  {
+    "Id": "fitt8",
+    "Title": "Power Station"
+  },
+  {
+    "Id": "fitt9",
+    "Title": "Giant Pipe"
+  },
+  {
+    "Id": "fitt10",
+    "Title": "Giant Pipe Glass Straight"
+  },
+  {
+    "Id": "fitt11",
+    "Title": "Giant Pipe Corner"
+  },
+  {
+    "Id": "fitt12",
+    "Title": "Giant Pipe Glass Corner"
+  },
+  {
+    "Id": "fitt13",
+    "Title": "Giant Pipe Tee"
+  },
+  {
+    "Id": "fitt14",
+    "Title": "Giant Pipe Bracer"
+  },
+  {
+    "Id": "fitt15",
+    "Title": "Giant Pipe Holder"
+  },
+  {
+    "Id": "fitt16",
+    "Title": "Warehouse Ventilation Short"
+  },
+  {
+    "Id": "fitt17",
+    "Title": "Warehouse Ventilation Long"
+  },
+  {
+    "Id": "fitt18",
+    "Title": "Warehouse Ventilation Corner"
+  },
+  {
+    "Id": "fitt19",
+    "Title": "Warehouse Ventilation Tee"
+  },
+  {
+    "Id": "fitt20",
+    "Title": "Warehouse Ventilation Mount"
+  },
+  {
+    "Id": "fitt21",
+    "Title": "Warehouse Ventilation Drum"
+  },
+  {
+    "Id": "fitt22",
+    "Title": "Generator Pipe Short"
+  },
+  {
+    "Id": "fitt23",
+    "Title": "Generator Pipe Long"
+  },
+  {
+    "Id": "fitt24",
+    "Title": "Generator Pipe Corner"
+  },
+  {
+    "Id": "fitt25",
+    "Title": "Generator Pipe Tee"
+  },
+  {
+    "Id": "fitt26",
+    "Title": "Generator Pipe Four Way"
+  },
+  {
+    "Id": "fitt27",
+    "Title": "Duct Short"
+  },
+  {
+    "Id": "fitt28",
+    "Title": "Długi tunel"
+  },
+  {
+    "Id": "fitt29",
+    "Title": "Narożnik tunelu"
+  },
+  {
+    "Id": "fitt30",
+    "Title": "Łącznik tuneli"
+  },
+  {
+    "Id": "fitt31",
+    "Title": "Wspornik tunelu"
+  },
+  {
+    "Id": "fitt32",
+    "Title": "Końcówka tunelu"
+  },
+  {
+    "Id": "fitt33",
+    "Title": "Klimatyzator"
+  },
+  {
+    "Id": "fitt34",
+    "Title": "Krótka rura"
+  },
+  {
+    "Id": "fitt35",
+    "Title": "Długa rura"
+  },
+  {
+    "Id": "fitt36",
+    "Title": "Kolanko"
+  },
+  {
+    "Id": "fitt37",
+    "Title": "Łącznik rur"
+  },
+  {
+    "Id": "fitt38",
+    "Title": "Zawór"
+  },
+  {
+    "Id": "fitt39",
+    "Title": "Duża krótka rura"
+  },
+  {
+    "Id": "fitt40",
+    "Title": "Duża długa rura"
+  },
+  {
+    "Id": "fitt41",
+    "Title": "Duże kolanko"
+  },
+  {
+    "Id": "fitt42",
+    "Title": "Łącznik dużych rur"
+  },
+  {
+    "Id": "fitt43",
+    "Title": "Krótka wiązka okablowania"
+  },
+  {
+    "Id": "fitt44",
+    "Title": "Długa wiązka okablowania"
+  },
+  {
+    "Id": "fitt45",
+    "Title": "Wygięta wiązka okablowania"
+  },
+  {
+    "Id": "fitt46",
+    "Title": "Pełny narożnik okablow."
+  },
+  {
+    "Id": "fitt47",
+    "Title": "Wycięty narożnik okablow."
+  },
+  {
+    "Id": "fitt48",
+    "Title": "Bezpiecznik"
+  },
+  {
+    "Id": "fitt49",
+    "Title": "Krótkie przewody"
+  },
+  {
+    "Id": "fitt50",
+    "Title": "Długie przewody"
+  },
+  {
+    "Id": "fitt51",
+    "Title": "Narożne przewody"
+  },
+  {
+    "Id": "fitt52",
+    "Title": "Łącznik przewodów"
+  },
+  {
+    "Id": "fitt53",
+    "Title": "Mała krótka rura"
+  },
+  {
+    "Id": "fitt54",
+    "Title": "Mała długa rura"
+  },
+  {
+    "Id": "fitt55",
+    "Title": "Mały łącznik do rur"
+  },
+  {
+    "Id": "fitt56",
+    "Title": "Mały łącznik T"
+  },
+  {
+    "Id": "fitt57",
+    "Title": "Małe kolanko"
+  },
+  {
+    "Id": "fitt58",
+    "Title": "Mały czwórnik"
+  },
+  {
+    "Id": "fitt59",
+    "Title": "Mały czwórnik T"
+  },
+  {
+    "Id": "fitt60",
+    "Title": "Mały łącznik pięciodrożny"
+  },
+  {
+    "Id": "fitt61",
+    "Title": "Mały łącznik sześciodrożny"
+  }
+]

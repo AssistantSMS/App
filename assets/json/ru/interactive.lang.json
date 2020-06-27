@@ -1,0 +1,174 @@
+[
+  {
+    "Id": "intera1",
+    "Title": "Fridge"
+  },
+  {
+    "Id": "intera2",
+    "Title": "Locker"
+  },
+  {
+    "Id": "intera3",
+    "Title": "File Cabinet"
+  },
+  {
+    "Id": "intera4",
+    "Title": "Chest"
+  },
+  {
+    "Id": "intera5",
+    "Title": "Large Chest"
+  },
+  {
+    "Id": "intera6",
+    "Title": "Protector: Anti-Destruction"
+  },
+  {
+    "Id": "intera7",
+    "Title": "Encryptor: Anti-Connection"
+  },
+  {
+    "Id": "intera8",
+    "Title": "Oily Toilet Seat"
+  },
+  {
+    "Id": "intera9",
+    "Title": "Resource Collector"
+  },
+  {
+    "Id": "intera10",
+    "Title": "Refinebot"
+  },
+  {
+    "Id": "intera11",
+    "Title": "Dressbot"
+  },
+  {
+    "Id": "intera12",
+    "Title": "Water Cannon"
+  },
+  {
+    "Id": "intera13",
+    "Title": "Mountable Spud Gun"
+  },
+  {
+    "Id": "intera14",
+    "Title": "Respawn Bed"
+  },
+  {
+    "Id": "intera15",
+    "Title": "Подшипник"
+  },
+  {
+    "Id": "intera16",
+    "Title": "Спортивная подвеска"
+  },
+  {
+    "Id": "intera17",
+    "Title": "Внедорожная подвеска"
+  },
+  {
+    "Id": "intera18",
+    "Title": "Кресло водителя"
+  },
+  {
+    "Id": "intera19",
+    "Title": "Кресло"
+  },
+  {
+    "Id": "intera20",
+    "Title": "Сиденье водителя"
+  },
+  {
+    "Id": "intera21",
+    "Title": "Сиденье"
+  },
+  {
+    "Id": "intera22",
+    "Title": "Туалет"
+  },
+  {
+    "Id": "intera23",
+    "Title": "Бензиновый двигатель"
+  },
+  {
+    "Id": "intera24",
+    "Title": "Электрический двигатель"
+  },
+  {
+    "Id": "intera25",
+    "Title": "Реактивный двигатель"
+  },
+  {
+    "Id": "intera26",
+    "Title": "Контроллер"
+  },
+  {
+    "Id": "intera27",
+    "Title": "Тумблер"
+  },
+  {
+    "Id": "intera28",
+    "Title": "Кнопка"
+  },
+  {
+    "Id": "intera29",
+    "Title": "Сенсор"
+  },
+  {
+    "Id": "intera30",
+    "Title": "Радио"
+  },
+  {
+    "Id": "intera31",
+    "Title": "Звуковой сигнал"
+  },
+  {
+    "Id": "intera32",
+    "Title": "Логический затвор"
+  },
+  {
+    "Id": "intera33",
+    "Title": "Таймер"
+  },
+  {
+    "Id": "intera34",
+    "Title": "Голова робота: бас"
+  },
+  {
+    "Id": "intera35",
+    "Title": "Голова робота: ударные"
+  },
+  {
+    "Id": "intera36",
+    "Title": "Голова робота: синтетический голос"
+  },
+  {
+    "Id": "intera37",
+    "Title": "Голова робота: бип"
+  },
+  {
+    "Id": "intera38",
+    "Title": "Ванна"
+  },
+  {
+    "Id": "intera39",
+    "Title": "Поршень"
+  },
+  {
+    "Id": "intera40",
+    "Title": "Модель акулы из Raft"
+  },
+  {
+    "Id": "intera41",
+    "Title": "Навесной картофелемет"
+  },
+  {
+    "Id": "intera42",
+    "Title": "Small Explosive Canister"
+  },
+  {
+    "Id": "intera43",
+    "Title": "Large Explosive Canister"
+  }
+]

@@ -1,0 +1,262 @@
+[
+  {
+    "Id": "indus1",
+    "Title": "Generator Coil Segment"
+  },
+  {
+    "Id": "indus2",
+    "Title": "Generator Coil Corner"
+  },
+  {
+    "Id": "indus3",
+    "Title": "Ventilation Frame"
+  },
+  {
+    "Id": "indus4",
+    "Title": "Steel Support Bracket"
+  },
+  {
+    "Id": "indus5",
+    "Title": "Encryptor Base"
+  },
+  {
+    "Id": "indus6",
+    "Title": "Encryptor Base Plate"
+  },
+  {
+    "Id": "indus7",
+    "Title": "Encryptor Frame Top"
+  },
+  {
+    "Id": "indus8",
+    "Title": "Small Steel Bracket"
+  },
+  {
+    "Id": "indus9",
+    "Title": "Encryptor Frame Beam"
+  },
+  {
+    "Id": "indus10",
+    "Title": "Encryptor Holder"
+  },
+  {
+    "Id": "indus11",
+    "Title": "Base Extension"
+  },
+  {
+    "Id": "indus12",
+    "Title": "Generator B"
+  },
+  {
+    "Id": "indus13",
+    "Title": "Generator C"
+  },
+  {
+    "Id": "indus14",
+    "Title": "Generator D"
+  },
+  {
+    "Id": "indus15",
+    "Title": "Generator A"
+  },
+  {
+    "Id": "indus16",
+    "Title": "Power Generator Side"
+  },
+  {
+    "Id": "indus17",
+    "Title": "Generator Tank"
+  },
+  {
+    "Id": "indus18",
+    "Title": "Generator E"
+  },
+  {
+    "Id": "indus19",
+    "Title": "Trigger Frame"
+  },
+  {
+    "Id": "indus20",
+    "Title": "Generator Pipe Holder"
+  },
+  {
+    "Id": "indus21",
+    "Title": "Kurzer I-Träger"
+  },
+  {
+    "Id": "indus22",
+    "Title": "Langer I-Träger"
+  },
+  {
+    "Id": "indus23",
+    "Title": "I-Träger-Ecke"
+  },
+  {
+    "Id": "indus24",
+    "Title": "I-Träger-Halterung"
+  },
+  {
+    "Id": "indus25",
+    "Title": "I-Träger-Ende"
+  },
+  {
+    "Id": "indus26",
+    "Title": "Regal"
+  },
+  {
+    "Id": "indus27",
+    "Title": "Treppenabsatz"
+  },
+  {
+    "Id": "indus28",
+    "Title": "Langes Treppengeländer"
+  },
+  {
+    "Id": "indus29",
+    "Title": "Kurzes Treppengeländer"
+  },
+  {
+    "Id": "indus30",
+    "Title": "Treppenbalustrade"
+  },
+  {
+    "Id": "indus31",
+    "Title": "Treppengeländer- Verbindung"
+  },
+  {
+    "Id": "indus32",
+    "Title": "Treppenstufe"
+  },
+  {
+    "Id": "indus33",
+    "Title": "Treppenhandlauf"
+  },
+  {
+    "Id": "indus34",
+    "Title": "Treppenkeil"
+  },
+  {
+    "Id": "indus35",
+    "Title": "Treppenrampe"
+  },
+  {
+    "Id": "indus36",
+    "Title": "Belüftungsgitter"
+  },
+  {
+    "Id": "indus37",
+    "Title": "Netzzaun"
+  },
+  {
+    "Id": "indus38",
+    "Title": "Metallstütze"
+  },
+  {
+    "Id": "indus39",
+    "Title": "Große Tragstruktur"
+  },
+  {
+    "Id": "indus40",
+    "Title": "Tragstruktur"
+  },
+  {
+    "Id": "indus41",
+    "Title": "Small Support Structure"
+  },
+  {
+    "Id": "indus42",
+    "Title": "U-Träger"
+  },
+  {
+    "Id": "indus43",
+    "Title": "Metallsäule"
+  },
+  {
+    "Id": "indus44",
+    "Title": "Stützpfeiler"
+  },
+  {
+    "Id": "indus45",
+    "Title": "Stützpfeilerständer"
+  },
+  {
+    "Id": "indus46",
+    "Title": "Regalpfeiler"
+  },
+  {
+    "Id": "indus47",
+    "Title": "Regalstütze"
+  },
+  {
+    "Id": "indus48",
+    "Title": "Hohe Regalstütze"
+  },
+  {
+    "Id": "indus49",
+    "Title": "Kleiner Tank"
+  },
+  {
+    "Id": "indus50",
+    "Title": "Mittlerer Tank"
+  },
+  {
+    "Id": "indus51",
+    "Title": "Großer Tank"
+  },
+  {
+    "Id": "indus52",
+    "Title": "Metallfenster"
+  },
+  {
+    "Id": "indus53",
+    "Title": "Stahlpalette"
+  },
+  {
+    "Id": "indus54",
+    "Title": "Tischstütze"
+  },
+  {
+    "Id": "indus55",
+    "Title": "Sendeturm"
+  },
+  {
+    "Id": "indus56",
+    "Title": "Sendeturmspitze"
+  },
+  {
+    "Id": "indus57",
+    "Title": "Satellitenschüssel"
+  },
+  {
+    "Id": "indus58",
+    "Title": "Reflektorsatellitenschüssel"
+  },
+  {
+    "Id": "indus59",
+    "Title": "Antenne"
+  },
+  {
+    "Id": "indus60",
+    "Title": "Reflektorantenne"
+  },
+  {
+    "Id": "indus61",
+    "Title": "Rechteckiges Fenster klein"
+  },
+  {
+    "Id": "indus62",
+    "Title": "Quadratisches Fenster"
+  },
+  {
+    "Id": "indus63",
+    "Title": "Rechteckiges Fenster groß"
+  },
+  {
+    "Id": "indus64",
+    "Title": "Große Windschutzscheibe"
+  },
+  {
+    "Id": "indus65",
+    "Title": "Kleine Windschutzscheibe"
+  }
+]

@@ -1,0 +1,262 @@
+[
+  {
+    "Id": "indus1",
+    "Title": "Generator Coil Segment"
+  },
+  {
+    "Id": "indus2",
+    "Title": "Generator Coil Corner"
+  },
+  {
+    "Id": "indus3",
+    "Title": "Ventilation Frame"
+  },
+  {
+    "Id": "indus4",
+    "Title": "Steel Support Bracket"
+  },
+  {
+    "Id": "indus5",
+    "Title": "Encryptor Base"
+  },
+  {
+    "Id": "indus6",
+    "Title": "Encryptor Base Plate"
+  },
+  {
+    "Id": "indus7",
+    "Title": "Encryptor Frame Top"
+  },
+  {
+    "Id": "indus8",
+    "Title": "Small Steel Bracket"
+  },
+  {
+    "Id": "indus9",
+    "Title": "Encryptor Frame Beam"
+  },
+  {
+    "Id": "indus10",
+    "Title": "Encryptor Holder"
+  },
+  {
+    "Id": "indus11",
+    "Title": "Base Extension"
+  },
+  {
+    "Id": "indus12",
+    "Title": "Generator B"
+  },
+  {
+    "Id": "indus13",
+    "Title": "Generator C"
+  },
+  {
+    "Id": "indus14",
+    "Title": "Generator D"
+  },
+  {
+    "Id": "indus15",
+    "Title": "Generator A"
+  },
+  {
+    "Id": "indus16",
+    "Title": "Power Generator Side"
+  },
+  {
+    "Id": "indus17",
+    "Title": "Generator Tank"
+  },
+  {
+    "Id": "indus18",
+    "Title": "Generator E"
+  },
+  {
+    "Id": "indus19",
+    "Title": "Trigger Frame"
+  },
+  {
+    "Id": "indus20",
+    "Title": "Generator Pipe Holder"
+  },
+  {
+    "Id": "indus21",
+    "Title": "짧은 I 빔"
+  },
+  {
+    "Id": "indus22",
+    "Title": "긴 I 빔"
+  },
+  {
+    "Id": "indus23",
+    "Title": "I 빔 모서리"
+  },
+  {
+    "Id": "indus24",
+    "Title": "I 빔 지지대"
+  },
+  {
+    "Id": "indus25",
+    "Title": "I 빔 끝단"
+  },
+  {
+    "Id": "indus26",
+    "Title": "선반"
+  },
+  {
+    "Id": "indus27",
+    "Title": "계단 밑단"
+  },
+  {
+    "Id": "indus28",
+    "Title": "계단 긴 손잡이"
+  },
+  {
+    "Id": "indus29",
+    "Title": "계단 짧은 손잡이"
+  },
+  {
+    "Id": "indus30",
+    "Title": "계단 난간동자"
+  },
+  {
+    "Id": "indus31",
+    "Title": "계단 난간 연결부"
+  },
+  {
+    "Id": "indus32",
+    "Title": "계단 발판"
+  },
+  {
+    "Id": "indus33",
+    "Title": "계단 난간"
+  },
+  {
+    "Id": "indus34",
+    "Title": "계단 쐐기"
+  },
+  {
+    "Id": "indus35",
+    "Title": "계단 경사로"
+  },
+  {
+    "Id": "indus36",
+    "Title": "환풍구"
+  },
+  {
+    "Id": "indus37",
+    "Title": "네트 펜스"
+  },
+  {
+    "Id": "indus38",
+    "Title": "금속 지지대"
+  },
+  {
+    "Id": "indus39",
+    "Title": "대형 지지구조물"
+  },
+  {
+    "Id": "indus40",
+    "Title": "지지구조물"
+  },
+  {
+    "Id": "indus41",
+    "Title": "Small Support Structure"
+  },
+  {
+    "Id": "indus42",
+    "Title": "U 빔"
+  },
+  {
+    "Id": "indus43",
+    "Title": "금속 기둥"
+  },
+  {
+    "Id": "indus44",
+    "Title": "지지 기둥"
+  },
+  {
+    "Id": "indus45",
+    "Title": "지지 기둥 스탠드"
+  },
+  {
+    "Id": "indus46",
+    "Title": "선반 기둥"
+  },
+  {
+    "Id": "indus47",
+    "Title": "선반 지지대"
+  },
+  {
+    "Id": "indus48",
+    "Title": "긴 선반 지지대"
+  },
+  {
+    "Id": "indus49",
+    "Title": "소형 탱크"
+  },
+  {
+    "Id": "indus50",
+    "Title": "중형 탱크"
+  },
+  {
+    "Id": "indus51",
+    "Title": "대형 탱크"
+  },
+  {
+    "Id": "indus52",
+    "Title": "금속창"
+  },
+  {
+    "Id": "indus53",
+    "Title": "금속 팔렛트"
+  },
+  {
+    "Id": "indus54",
+    "Title": "식탁 지지대"
+  },
+  {
+    "Id": "indus55",
+    "Title": "타워 폴"
+  },
+  {
+    "Id": "indus56",
+    "Title": "타워 폴 톱"
+  },
+  {
+    "Id": "indus57",
+    "Title": "위성 안테나"
+  },
+  {
+    "Id": "indus58",
+    "Title": "위성 반사 안테나"
+  },
+  {
+    "Id": "indus59",
+    "Title": "안테나"
+  },
+  {
+    "Id": "indus60",
+    "Title": "반사 안테나"
+  },
+  {
+    "Id": "indus61",
+    "Title": "소형 직사각형 창"
+  },
+  {
+    "Id": "indus62",
+    "Title": "정방형 창"
+  },
+  {
+    "Id": "indus63",
+    "Title": "대형 직사각형 창"
+  },
+  {
+    "Id": "indus64",
+    "Title": "대형 방풍창"
+  },
+  {
+    "Id": "indus65",
+    "Title": "소형 방풍창"
+  }
+]

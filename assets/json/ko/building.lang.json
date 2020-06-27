@@ -1,0 +1,82 @@
+[
+  {
+    "Id": "build1",
+    "Title": "Stand Support A"
+  },
+  {
+    "Id": "build2",
+    "Title": "Stand Support Long"
+  },
+  {
+    "Id": "build3",
+    "Title": "Stand Support Corner"
+  },
+  {
+    "Id": "build4",
+    "Title": "Stand Support"
+  },
+  {
+    "Id": "build5",
+    "Title": "Stand Support Base"
+  },
+  {
+    "Id": "build6",
+    "Title": "Mop Set"
+  },
+  {
+    "Id": "build7",
+    "Title": "Bathroom Stall Door"
+  },
+  {
+    "Id": "build8",
+    "Title": "Slippery Surface Sign"
+  },
+  {
+    "Id": "build9",
+    "Title": "Plunger"
+  },
+  {
+    "Id": "build10",
+    "Title": "Warehouse sink"
+  },
+  {
+    "Id": "build11",
+    "Title": "Water Dispenser"
+  },
+  {
+    "Id": "build12",
+    "Title": "Cup Holder"
+  },
+  {
+    "Id": "build13",
+    "Title": "Water Tank"
+  },
+  {
+    "Id": "build14",
+    "Title": "Cubicle Wall"
+  },
+  {
+    "Id": "build15",
+    "Title": "Corner Brace"
+  },
+  {
+    "Id": "build16",
+    "Title": "Office Table B"
+  },
+  {
+    "Id": "build17",
+    "Title": "Office Table A"
+  },
+  {
+    "Id": "build18",
+    "Title": "Office Table Leg"
+  },
+  {
+    "Id": "build19",
+    "Title": "Office Chair Top"
+  },
+  {
+    "Id": "build20",
+    "Title": "Office Chair Base"
+  }
+]

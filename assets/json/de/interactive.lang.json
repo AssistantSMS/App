@@ -1,0 +1,174 @@
+[
+  {
+    "Id": "intera1",
+    "Title": "Fridge"
+  },
+  {
+    "Id": "intera2",
+    "Title": "Locker"
+  },
+  {
+    "Id": "intera3",
+    "Title": "File Cabinet"
+  },
+  {
+    "Id": "intera4",
+    "Title": "Chest"
+  },
+  {
+    "Id": "intera5",
+    "Title": "Large Chest"
+  },
+  {
+    "Id": "intera6",
+    "Title": "Protector: Anti-Destruction"
+  },
+  {
+    "Id": "intera7",
+    "Title": "Encryptor: Anti-Connection"
+  },
+  {
+    "Id": "intera8",
+    "Title": "Oily Toilet Seat"
+  },
+  {
+    "Id": "intera9",
+    "Title": "Resource Collector"
+  },
+  {
+    "Id": "intera10",
+    "Title": "Refinebot"
+  },
+  {
+    "Id": "intera11",
+    "Title": "Dressbot"
+  },
+  {
+    "Id": "intera12",
+    "Title": "Water Cannon"
+  },
+  {
+    "Id": "intera13",
+    "Title": "Mountable Spud Gun"
+  },
+  {
+    "Id": "intera14",
+    "Title": "Respawn Bed"
+  },
+  {
+    "Id": "intera15",
+    "Title": "Lager"
+  },
+  {
+    "Id": "intera16",
+    "Title": "Sportaufhängung"
+  },
+  {
+    "Id": "intera17",
+    "Title": "Off-Road-Aufhängung"
+  },
+  {
+    "Id": "intera18",
+    "Title": "Fahrersitz"
+  },
+  {
+    "Id": "intera19",
+    "Title": "Sitz"
+  },
+  {
+    "Id": "intera20",
+    "Title": "Fahrersattel"
+  },
+  {
+    "Id": "intera21",
+    "Title": "Sattel"
+  },
+  {
+    "Id": "intera22",
+    "Title": "Toilette"
+  },
+  {
+    "Id": "intera23",
+    "Title": "Gasmotor"
+  },
+  {
+    "Id": "intera24",
+    "Title": "Elektromotor"
+  },
+  {
+    "Id": "intera25",
+    "Title": "Schubdüse"
+  },
+  {
+    "Id": "intera26",
+    "Title": "Steuereinheit"
+  },
+  {
+    "Id": "intera27",
+    "Title": "Schalter"
+  },
+  {
+    "Id": "intera28",
+    "Title": "Knopf"
+  },
+  {
+    "Id": "intera29",
+    "Title": "Sensor"
+  },
+  {
+    "Id": "intera30",
+    "Title": "Radiosender"
+  },
+  {
+    "Id": "intera31",
+    "Title": "Hupe"
+  },
+  {
+    "Id": "intera32",
+    "Title": "Logikgatter"
+  },
+  {
+    "Id": "intera33",
+    "Title": "Timer"
+  },
+  {
+    "Id": "intera34",
+    "Title": "Totebot-Kopf: Bass"
+  },
+  {
+    "Id": "intera35",
+    "Title": "Totebot-Kopf: Schlagzeug"
+  },
+  {
+    "Id": "intera36",
+    "Title": "Totebot-Kopf: Synth-Stimme"
+  },
+  {
+    "Id": "intera37",
+    "Title": "Totebot-Kopf: Biep"
+  },
+  {
+    "Id": "intera38",
+    "Title": "Badewanne"
+  },
+  {
+    "Id": "intera39",
+    "Title": "Kolben"
+  },
+  {
+    "Id": "intera40",
+    "Title": "Raft-Hai zum Reiten"
+  },
+  {
+    "Id": "intera41",
+    "Title": "Montierbare Kartoffelkanone"
+  },
+  {
+    "Id": "intera42",
+    "Title": "Small Explosive Canister"
+  },
+  {
+    "Id": "intera43",
+    "Title": "Large Explosive Canister"
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "Id": "out1",
+    "Title": "Garment Box (Common)"
+  },
+  {
+    "Id": "out2",
+    "Title": "Garment Box (Rare)"
+  },
+  {
+    "Id": "out3",
+    "Title": "Garment Box (Epic)"
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "Id": "cont1",
+    "Title": "Hay Crate"
+  },
+  {
+    "Id": "cont2",
+    "Title": "Stone Crate"
+  },
+  {
+    "Id": "cont3",
+    "Title": "Tree Crate"
+  },
+  {
+    "Id": "cont4",
+    "Title": "Unfolded Banana Box"
+  },
+  {
+    "Id": "cont5",
+    "Title": "Unfolded Onion Box"
+  },
+  {
+    "Id": "cont6",
+    "Title": "Unfolded Grow Box"
+  },
+  {
+    "Id": "cont7",
+    "Title": "Main Humidifier"
+  },
+  {
+    "Id": "cont8",
+    "Title": "Warehouse Crate"
+  },
+  {
+    "Id": "cont9",
+    "Title": "Blueberry Juice Cylinder"
+  },
+  {
+    "Id": "cont10",
+    "Title": "Tomato Juice Cylinder"
+  },
+  {
+    "Id": "cont11",
+    "Title": "Holzkiste"
+  },
+  {
+    "Id": "cont12",
+    "Title": "Gemüsekiste"
+  },
+  {
+    "Id": "cont13",
+    "Title": "Gurkenkiste"
+  },
+  {
+    "Id": "cont14",
+    "Title": "Karottenkiste"
+  },
+  {
+    "Id": "cont15",
+    "Title": "Bananenkiste"
+  },
+  {
+    "Id": "cont16",
+    "Title": "Obstkiste"
+  },
+  {
+    "Id": "cont17",
+    "Title": "Zwiebelkiste"
+  },
+  {
+    "Id": "cont18",
+    "Title": "Rote-Bete-Kiste"
+  },
+  {
+    "Id": "cont19",
+    "Title": "Apfelsinenkiste"
+  },
+  {
+    "Id": "cont20",
+    "Title": "Pflanzenbehälter"
+  },
+  {
+    "Id": "cont21",
+    "Title": "Offener Pflanzenbehälter"
+  }
+]

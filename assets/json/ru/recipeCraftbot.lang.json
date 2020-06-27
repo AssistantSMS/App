@@ -1,0 +1,597 @@
+[
+  {
+    "Id": "recipeCraft1",
+    "Title": "Соединитель",
+    "Description": "Любимый инструмент всех механиков. Соединяет друг с другом интерактивные элементы, например, бензиновый двигатель с подшипниками или реактивный двигатель с сиденьем водителя."
+  },
+  {
+    "Id": "recipeCraft2",
+    "Title": "Кисть",
+    "Description": "Позволяет раскрасить любой элемент или блок, чтобы придать своим творениям уникальности и даже сделать из них произведения искусства. Рисование производится левой кнопкой мыши, стирание нарисованного - правой кнопкой. Клавиша 'Q' открывает меню выбора цветов. Чтобы закрашивать большие поверхности, передвигайте мышь с зажатой левой кнопкой."
+  },
+  {
+    "Id": "recipeCraft3",
+    "Title": "Сварочный аппарат",
+    "Description": "Соединяйте свои творения друг с другом! Выберите сварочный аппарат, щелкните левой кнопкой мыши на незакрепленном механизме, затем щелкните на поверхности или другом механизме, чтобы соединить их. Можно также соединять соприкасающиеся части подъемника. Нажмите и удерживайте левую кнопку мыши на первой части, затем перетащите курсор с зажатой кнопкой к части, с которой хотите соединить первую."
+  },
+  {
+    "Id": "recipeCraft4",
+    "Title": "Картонный блок",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft5",
+    "Title": "Деревянный блок",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft6",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft7",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft8",
+    "Title": "Металлический блок",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft9",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft10",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft11",
+    "Title": "Бетонный блок",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft12",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft13",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft14",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft15",
+    "Title": "Стеклянный блок",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft16",
+    "Title": "Стеклянный блок-плитка",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft17",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft18",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft19",
+    "Title": "Путь - легкий блок",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft20",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft21",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft22",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft23",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft24",
+    "Title": "Ремонтный корабль: блок",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft25",
+    "Title": "Кирпичный блок",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft26",
+    "Title": "Блок-плитка",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft27",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft28",
+    "Title": "Блок-барьер",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft29",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft30",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft31",
+    "Title": "Подшипник",
+    "Description": "Все, что вы установите на подшипнике, будет вращаться. Подшипники можно соединять с двигателем или сиденьем водителя, чтобы управлять их вращением."
+  },
+  {
+    "Id": "recipeCraft32",
+    "Title": "Тумблер",
+    "Description": "Неограниченное переключение по запросу. Активирует то, к чему подключен, незаменим, когда нужно включать и выключать что-нибудь одним нажатием. Может активировать двигатель, реактивный двигатель, контроллер и т.д."
+  },
+  {
+    "Id": "recipeCraft33",
+    "Title": "Кнопка",
+    "Description": "Активирует разные механизмы. Активация длится, пока кнопка нажата."
+  },
+  {
+    "Id": "recipeCraft34",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft35",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft36",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft37",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft38",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft39",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft40",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft41",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft42",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft43",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft44",
+    "Title": "Туалет",
+    "Description": "Нужен, чтобы не стоять. Сядьте сами или установите в машину, чтобы там мог сесть Ваш друг. Можно подсоединять к триггерам и управлять с унитаза разными интерактивными элементами. Не забудьте смыть за собой!"
+  },
+  {
+    "Id": "recipeCraft45",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft46",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft47",
+    "Title": "Логический затвор",
+    "Description": "Логический затвор - мощный блок с возможностью программирования. Выбрав его и нажав клавишу 'E', можно выбирать разные виды условий. Логический затвор можно соединять с другими логическими затворами, триггерами, таймерами и т.д., он отлично подходит для создания сложных механизмов."
+  },
+  {
+    "Id": "recipeCraft48",
+    "Title": "Таймер",
+    "Description": "Таймер позволяет вставлять паузу во взаимодействие между двумя интерактивными элементами - к примеру, между переключателем и контроллером. Он хорошо сочетается с логическими затворами."
+  },
+  {
+    "Id": "recipeCraft49",
+    "Title": "Радио",
+    "Description": "Только лучшие хиты. Фермоботы перехватили вещание и теперь передают то, что на их весьма необычный музыкальный вкус считается классикой. Чтобы включить радио, взаимодействуйте с ним или подключите его к триггеру."
+  },
+  {
+    "Id": "recipeCraft50",
+    "Title": "Звуковой сигнал",
+    "Description": "Можно установить в машину или использовать как дверной звонок. Гудите друзьям, чтобы не сбить их ненароком. Задайте тон и подключите к триггеру, чтобы активировать."
+  },
+  {
+    "Id": "recipeCraft51",
+    "Title": "Свет",
+    "Description": "Да будет видимость! Подключите к триггеру, чтобы можно было включать и выключать. Дальность луча настраивается."
+  },
+  {
+    "Id": "recipeCraft52",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft53",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft54",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft55",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft56",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft57",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft58",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft59",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft60",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft61",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft62",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft63",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft64",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft65",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft66",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft67",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft68",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft69",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft70",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft71",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft72",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft73",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft74",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft75",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft76",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft77",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft78",
+    "Title": "Колесо",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft79",
+    "Title": "Большое колесо",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft80",
+    "Title": "Малая труба - короткая",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft81",
+    "Title": "Малая труба - длинная",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft82",
+    "Title": "Малая труба - изгиб",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft83",
+    "Title": "Малая труба - Т",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft84",
+    "Title": "Малая труба - уголок",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft85",
+    "Title": "Малая труба - четырехпут. соед.",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft86",
+    "Title": "Малая труба - четырехпут. соед. - Т",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft87",
+    "Title": "Малая труба - пятипут. соед.",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft88",
+    "Title": "Малая труба - шестипут. соед.",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft89",
+    "Title": "Длинная труба",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft90",
+    "Title": "Короткая труба",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft91",
+    "Title": "Труба - угол",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft92",
+    "Title": "Труба - соединение",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft93",
+    "Title": "Вентиль",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft94",
+    "Title": "Короткая двутавр. балка",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft95",
+    "Title": "Длинная двутавр. балка",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft96",
+    "Title": "Двутавр. балка - угол",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft97",
+    "Title": "Двутавр. балка - конец",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft98",
+    "Title": "Двутавр. балка - обойма",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft99",
+    "Title": "Туалетная бумага",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft100",
+    "Title": "Раковина",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft101",
+    "Title": "Кондиционер",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft102",
+    "Title": "Кружка",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft103",
+    "Title": "Нога манекена",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft104",
+    "Title": "Рука Манекена",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft105",
+    "Title": "Статуэтка утенка",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft106",
+    "Title": "Растение в горшке",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft107",
+    "Title": "Малое растение в горшке",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft108",
+    "Title": "Лоза в горшке",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft109",
+    "Title": "Большой горшок",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft110",
+    "Title": "Семенное раст. в горшке",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft111",
+    "Title": "Цветущий кактус в горшке",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft112",
+    "Title": "Кактус в горшке",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft113",
+    "Title": "Синий цветок в горшке",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft114",
+    "Title": "Малое прямоуг. окно",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft115",
+    "Title": "Квадратное окно",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft116",
+    "Title": "Большое прямоуг. окно",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft117",
+    "Title": "Большое ветровое стекло",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft118",
+    "Title": "Малое ветровое стекло",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft119",
+    "Title": "Дорожный конус",
+    "Description": ""
+  }
+]

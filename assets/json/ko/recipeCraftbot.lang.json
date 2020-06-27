@@ -1,0 +1,596 @@
+[
+  {
+    "Id": "recipeCraft1",
+    "Title": "연결용 도구",
+    "Description": "모든 메카닉들이 선호하는 도구. 가솔린 엔진에 베어링을 연결하거나 운전석에 가속기를 연결하는 식의 상호작용 부품들을 연결시켜 줍니다."
+  },
+  {
+    "Id": "recipeCraft2",
+    "Title": "도색 도구",
+    "Description": "부품이나 블록에 색을 입혀서 여러분의 창작물에 개성을 부여하거나 멋진 그림을 그려보세요! 마우스 왼쪽 버튼으로 색을 칠하거나 오른쪽 버튼으로 색을 제거할 수 있으며, [Q]키를 눌러서 색상 선택기를 열 수 있습니다. 넓은 면적에 색을 칠하고자 할 때는 간단하게 마우스 왼쪽 버튼을 누른 상태에서 칠하면 됩니다."
+  },
+  {
+    "Id": "recipeCraft3",
+    "Title": "용접 도구",
+    "Description": "창작물을 하나로 용접해 줍니다!\n 용접 도구를 선택해서 창작물에 왼쪽 클릭 후, 같이 용접할 다른 창작물의 표면에 왼쪽 클릭을 해줍니다. 리프트에도 부품을 붙일 수 있습니다. 첫 번째 부품에 마우스 왼쪽 버튼을 누른 상태로 용접을 하고자 하는 부품에 끌어주기를 하면 됩니다."
+  },
+  {
+    "Id": "recipeCraft4",
+    "Title": "골판지 블록",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft5",
+    "Title": "나무 블록",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft6",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft7",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft8",
+    "Title": "금속 블록",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft9",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft10",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft11",
+    "Title": "콘크리트 블록",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft12",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft13",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft14",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft15",
+    "Title": "유리 블록",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft16",
+    "Title": "잔디 블록",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft17",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft18",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft19",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft20",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft21",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft22",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft23",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft24",
+    "Title": "유지보수 선박 블록",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft25",
+    "Title": "벽돌 블록",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft26",
+    "Title": "타일 블록",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft27",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft28",
+    "Title": "보호막 블록",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft29",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft30",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft31",
+    "Title": "베어링",
+    "Description": "베어링에 배치하는 모든 것은 회전하게 됩니다. 또한 베어링을 엔진이나 운전석에 연결하여 다른 방식으로 제어할 수도 있습니다."
+  },
+  {
+    "Id": "recipeCraft32",
+    "Title": "스위치",
+    "Description": "필요에 따라 무한정 끄고 껼 수 있습니다. 스위치는 연결된 건 무엇이든 누르기만 하면 무한정 끄고 켜서 작동시킬 수 있으며, 엔진, 가속기, 그리고 제어판 등을 작동시킬 수 있습니다."
+  },
+  {
+    "Id": "recipeCraft33",
+    "Title": "버튼",
+    "Description": "무언가를 작동시킵니다.  버튼을 누르고 있는 동안만 작동합니다."
+  },
+  {
+    "Id": "recipeCraft34",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft35",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft36",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft37",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft38",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft39",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft40",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft41",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft42",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft43",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft44",
+    "Title": "양변기",
+    "Description": "앉을 때 사용합니다. 앉아서 쉬거나 차량에 추가하면 친구가 같이 탑승할 수 있습니다. 양번기에서 다른 상호작용 부품을 작동시킬 수 있는 트리거에 연결할 수 있습니다. 물내리는걸 잊지 마세요!"
+  },
+  {
+    "Id": "recipeCraft45",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft46",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft47",
+    "Title": "로직 게이트",
+    "Description": "로직 게이트는 여러분이 기본적인 논리적 기능을 만들 수 있게 해주는 강력한 블록입니다. 블록에 대고 [E]키를 눌러서 각기 다른 로직 게이트 형태를 선택할 수 있습니다. 로직 게이트는 다른 로직 게이트나 트리거, 타이머 등에 연결시킬 수 있습니다. 좀 더 향상된 창작물을 만들 때 적합합니다."
+  },
+  {
+    "Id": "recipeCraft48",
+    "Title": "타이머",
+    "Description": "타이머는 두 개의 상호작용 부품 간의 상호작용을 지연시킬 수 있습니다. 스위치와 제어판의 사용을 예로 들 수 있을 것입니다. 로직 게이트와 함께 사용하기에 제격입니다."
+  },
+  {
+    "Id": "recipeCraft49",
+    "Title": "라디오",
+    "Description": "세대를 아우르는 명품. 팜봇들이 납치를 당해서 자신들의 범상치 않은 음악적 취향에 따라 클래식만 틀어주고 있습니다. 직접 조작을 해서 작동시키거나\n 트리거에 연결해서 작동시킬 수 있습니다."
+  },
+  {
+    "Id": "recipeCraft50",
+    "Title": "경적",
+    "Description": "차량에 부착하거나 초인종으로 사용합니다. 교통 사고를 방지하기 위해 친구에게 울려주세요. 경적음의 세기를 설정해서 트리거에 연결해서 작동시키면 됩니다."
+  },
+  {
+    "Id": "recipeCraft51",
+    "Title": "라이트",
+    "Description": "시야를 밝혀 줍니다."
+  },
+  {
+    "Id": "recipeCraft52",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft53",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft54",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft55",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft56",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft57",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft58",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft59",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft60",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft61",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft62",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft63",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft64",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft65",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft66",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft67",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft68",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft69",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft70",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft71",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft72",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft73",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft74",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft75",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft76",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft77",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft78",
+    "Title": "바퀴",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft79",
+    "Title": "대형 바퀴",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft80",
+    "Title": "소형 짧은 파이프",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft81",
+    "Title": "소형 긴 파이프",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft82",
+    "Title": "소형 곡선 파이프",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft83",
+    "Title": "소형 파이프 티",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft84",
+    "Title": "소형 파이프 코너",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft85",
+    "Title": "소형 4방형 파이프",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft86",
+    "Title": "소형 4방형 파이프 티",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft87",
+    "Title": "소형 5방형 파이프",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft88",
+    "Title": "소형 6방향 파이프",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft89",
+    "Title": "짧은 파이프",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft90",
+    "Title": "긴 파이프",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft91",
+    "Title": "파이프 모서리",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft92",
+    "Title": "파이프 연결자",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft93",
+    "Title": "밸브",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft94",
+    "Title": "짧은 I 빔",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft95",
+    "Title": "긴 I 빔",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft96",
+    "Title": "I 빔 모서리",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft97",
+    "Title": "I 빔 끝단",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft98",
+    "Title": "I 빔 지지대",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft99",
+    "Title": "화장지",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft100",
+    "Title": "세면대",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft101",
+    "Title": "에어컨",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft102",
+    "Title": "머그",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft103",
+    "Title": "마네킹 부츠",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft104",
+    "Title": "마네킹 손",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft105",
+    "Title": "아기 오리상",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft106",
+    "Title": "화분",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft107",
+    "Title": "소형 화분",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft108",
+    "Title": "덩굴 화분",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft109",
+    "Title": "대형 빈 화분",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft110",
+    "Title": "종자 화분",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft111",
+    "Title": "꽃핀 선인장 화분",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft112",
+    "Title": "선인장 화분",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft113",
+    "Title": "파란꽃 화분",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft114",
+    "Title": "소형 직사각형 창",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft115",
+    "Title": "정방형 창",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft116",
+    "Title": "대형 직사각형 창",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft117",
+    "Title": "대형 방풍창",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft118",
+    "Title": "소형 방풍창",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft119",
+    "Title": "원추형 표지판",
+    "Description": ""
+  }
+]

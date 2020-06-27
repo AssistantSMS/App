@@ -1,0 +1,174 @@
+[
+  {
+    "Id": "intera1",
+    "Title": "Fridge"
+  },
+  {
+    "Id": "intera2",
+    "Title": "Locker"
+  },
+  {
+    "Id": "intera3",
+    "Title": "File Cabinet"
+  },
+  {
+    "Id": "intera4",
+    "Title": "Chest"
+  },
+  {
+    "Id": "intera5",
+    "Title": "Large Chest"
+  },
+  {
+    "Id": "intera6",
+    "Title": "Protector: Anti-Destruction"
+  },
+  {
+    "Id": "intera7",
+    "Title": "Encryptor: Anti-Connection"
+  },
+  {
+    "Id": "intera8",
+    "Title": "Oily Toilet Seat"
+  },
+  {
+    "Id": "intera9",
+    "Title": "Resource Collector"
+  },
+  {
+    "Id": "intera10",
+    "Title": "Refinebot"
+  },
+  {
+    "Id": "intera11",
+    "Title": "Dressbot"
+  },
+  {
+    "Id": "intera12",
+    "Title": "Water Cannon"
+  },
+  {
+    "Id": "intera13",
+    "Title": "Mountable Spud Gun"
+  },
+  {
+    "Id": "intera14",
+    "Title": "Respawn Bed"
+  },
+  {
+    "Id": "intera15",
+    "Title": "Łożysko"
+  },
+  {
+    "Id": "intera16",
+    "Title": "Zawieszenie sportowe"
+  },
+  {
+    "Id": "intera17",
+    "Title": "Zawieszenie terenowe"
+  },
+  {
+    "Id": "intera18",
+    "Title": "Fotel kierowcy"
+  },
+  {
+    "Id": "intera19",
+    "Title": "Fotel"
+  },
+  {
+    "Id": "intera20",
+    "Title": "Siedzenie kierowcy"
+  },
+  {
+    "Id": "intera21",
+    "Title": "Siedzenie"
+  },
+  {
+    "Id": "intera22",
+    "Title": "Toaleta"
+  },
+  {
+    "Id": "intera23",
+    "Title": "Silnik spalinowy"
+  },
+  {
+    "Id": "intera24",
+    "Title": "Silnik elektryczny"
+  },
+  {
+    "Id": "intera25",
+    "Title": "Silnik rakietowy"
+  },
+  {
+    "Id": "intera26",
+    "Title": "Programator"
+  },
+  {
+    "Id": "intera27",
+    "Title": "Przełącznik"
+  },
+  {
+    "Id": "intera28",
+    "Title": "Przycisk"
+  },
+  {
+    "Id": "intera29",
+    "Title": "Czujnik"
+  },
+  {
+    "Id": "intera30",
+    "Title": "Radio"
+  },
+  {
+    "Id": "intera31",
+    "Title": "Trąbka"
+  },
+  {
+    "Id": "intera32",
+    "Title": "Bramka logiczna"
+  },
+  {
+    "Id": "intera33",
+    "Title": "Timer"
+  },
+  {
+    "Id": "intera34",
+    "Title": "Głowa Totebota: basy"
+  },
+  {
+    "Id": "intera35",
+    "Title": "Głowa Totebota: perkusja"
+  },
+  {
+    "Id": "intera36",
+    "Title": "Głowa Totebota: głos"
+  },
+  {
+    "Id": "intera37",
+    "Title": "Głowa Totebota: bip"
+  },
+  {
+    "Id": "intera38",
+    "Title": "Wanna"
+  },
+  {
+    "Id": "intera39",
+    "Title": "Tłok"
+  },
+  {
+    "Id": "intera40",
+    "Title": "Rekin"
+  },
+  {
+    "Id": "intera41",
+    "Title": "Montowalny miotacz pyr"
+  },
+  {
+    "Id": "intera42",
+    "Title": "Small Explosive Canister"
+  },
+  {
+    "Id": "intera43",
+    "Title": "Large Explosive Canister"
+  }
+]

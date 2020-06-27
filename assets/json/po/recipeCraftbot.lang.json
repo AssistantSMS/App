@@ -1,0 +1,597 @@
+[
+  {
+    "Id": "recipeCraft1",
+    "Title": "Łącznik",
+    "Description": "Najlepszy przyjaciel każdego mechanika! Użyj go, by połączyć ze sobą poszczególne części interaktywne. Na przykład silnik spalinowy z łożyskiem czy silnik rakietowy z fotelem kierowcy."
+  },
+  {
+    "Id": "recipeCraft2",
+    "Title": "Malowanie",
+    "Description": "Użyj farby, aby nadać swoim konstrukcjom wyjątkowy wygląd i tworzyć własne dzieła sztuki. Aby malować, wciśnij lewy przycisk myszy. Aby usunąć farbę – prawy. Wciśnij „Q”, aby otworzyć paletę kolorów. Aby pomalować większą powierzchnię, przytrzymaj i przeciągnij lewy przycisk myszy."
+  },
+  {
+    "Id": "recipeCraft3",
+    "Title": "Spawarka",
+    "Description": "Zespawaj swoje konstrukcje!\nWybierz spawarkę, kliknij lewym przyciskiem myszy dowolną swobodną konstrukcję, a następnie ponownie kliknij tym samym przyciskiem powierzchnię innej konstrukcji, by zespawać je ze sobą. Możesz też zespawać ze sobą części znajdujące się na podnośniku. Przytrzymaj lewy przycisk myszy na pierwszej części i przeciągnij w kierunku części, do której chcesz ją przyspawać."
+  },
+  {
+    "Id": "recipeCraft4",
+    "Title": "Blok kartonowy",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft5",
+    "Title": "Blok drewniany",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft6",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft7",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft8",
+    "Title": "Blok metalowy",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft9",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft10",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft11",
+    "Title": "Blok betonowy",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft12",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft13",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft14",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft15",
+    "Title": "Szklany blok",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft16",
+    "Title": "Blok szklany",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft17",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft18",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft19",
+    "Title": "Blok oświetlający ścieżkę",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft20",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft21",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft22",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft23",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft24",
+    "Title": "Blok statku naprawczego",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft25",
+    "Title": "Blok ceglany",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft26",
+    "Title": "Blok ceramiczny",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft27",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft28",
+    "Title": "Blok ochronny",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft29",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft30",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft31",
+    "Title": "Łożysko",
+    "Description": "Wszystko, co znajdzie się na łożysku, zacznie się obracać. Łożyska można łączyć z silnikiem lub fotelem kierowcy, aby sterować nimi na różne sposoby."
+  },
+  {
+    "Id": "recipeCraft32",
+    "Title": "Przełącznik",
+    "Description": "Nieograniczone możliwości na życzenie! Przełącznik uruchamia wszystko, co się z nim połączy. Niezastąpiony we włączaniu i wyłączaniu jednym przyciśnięciem. Może uruchomić wszystkie rodzaje silników, programator i inne elementy."
+  },
+  {
+    "Id": "recipeCraft33",
+    "Title": "Przycisk",
+    "Description": "Uruchamia różne elementy na czas, kiedy pozostaje wciśnięty."
+  },
+  {
+    "Id": "recipeCraft34",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft35",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft36",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft37",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft38",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft39",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft40",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft41",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft42",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft43",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft44",
+    "Title": "Toaleta",
+    "Description": "Przydatna, kiedy nogi chcą odpocząć. Usiądź i odpoczywaj albo zamontuj ją w swoim pojeździe, by zachęcić przyjaciół do wspólnej przejażdżki. Może być połączona z włącznikiem, który uruchamia pozostałe interaktywne części toalety. Nie zapomnij spuścić wody!"
+  },
+  {
+    "Id": "recipeCraft45",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft46",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft47",
+    "Title": "Bramka logiczna",
+    "Description": "Bramka logiczna to specjalny rodzaj bloku, który pozwala na przeprowadzanie prostych operacji logicznych. Wciskając „E” na bloku, można wybrać spośród kilku rodzajów bramek logicznych. Bramki logiczne można łączyć między sobą oraz z włącznikami, timerami i innymi elementami. Idealne do tworzenia skomplikowanych konstrukcji."
+  },
+  {
+    "Id": "recipeCraft48",
+    "Title": "Timer",
+    "Description": "Timer umożliwia opóźnienie interakcji zachodzącej pomiędzy dwoma częściami interaktywnymi. Na przykład pomiędzy przełącznikiem a programatorem. Świetnie współdziała z bramkami logicznymi."
+  },
+  {
+    "Id": "recipeCraft49",
+    "Title": "Radio",
+    "Description": "Hity bez granic. Te nieposłuszne Farmboty porwały radio i teraz odtwarzają muzykę klasyczną, zarażając swoim niecodziennym gustem muzycznym. Można je uruchomić poprzez interakcję\n lub łącząc z włącznikiem."
+  },
+  {
+    "Id": "recipeCraft50",
+    "Title": "Trąbka",
+    "Description": "Dodaj ją do pojazdu lub używaj jako dzwonka do drzwi. Zatrąb na przyjaciół, by uniknąć wypadku. Ustaw skalę dźwięku i uruchom trąbkę, łącząc ją z włącznikiem."
+  },
+  {
+    "Id": "recipeCraft51",
+    "Title": "Światło",
+    "Description": "I stała się jasność!"
+  },
+  {
+    "Id": "recipeCraft52",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft53",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft54",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft55",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft56",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft57",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft58",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft59",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft60",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft61",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft62",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft63",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft64",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft65",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft66",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft67",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft68",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft69",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft70",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft71",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft72",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft73",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft74",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft75",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft76",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft77",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft78",
+    "Title": "Koło",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft79",
+    "Title": "Duże koło",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft80",
+    "Title": "Mała krótka rura",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft81",
+    "Title": "Mała długa rura",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft82",
+    "Title": "Mały łącznik do rur",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft83",
+    "Title": "Mały łącznik T",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft84",
+    "Title": "Małe kolanko",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft85",
+    "Title": "Mały czwórnik",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft86",
+    "Title": "Mały czwórnik T",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft87",
+    "Title": "Mały łącznik pięciodrożny",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft88",
+    "Title": "Mały łącznik sześciodrożny",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft89",
+    "Title": "Krótka rura",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft90",
+    "Title": "Długa rura",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft91",
+    "Title": "Kolanko",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft92",
+    "Title": "Łącznik rur",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft93",
+    "Title": "Zawór",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft94",
+    "Title": "Krótki dwuteownik",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft95",
+    "Title": "Długi dwuteownik",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft96",
+    "Title": "Narożnik dwuteownika",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft97",
+    "Title": "Końcówka dwuteownika",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft98",
+    "Title": "Wspornik dwuteownika",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft99",
+    "Title": "Papier toaletowy",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft100",
+    "Title": "Zlew",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft101",
+    "Title": "Klimatyzator",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft102",
+    "Title": "Kubek",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft103",
+    "Title": "But manekina",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft104",
+    "Title": "Ręka manekina",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft105",
+    "Title": "Figurka kaczuszki",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft106",
+    "Title": "Roślina doniczkowa",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft107",
+    "Title": "Mała roślina doniczkowa",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft108",
+    "Title": "Winorośl doniczkowa",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft109",
+    "Title": "Duża donica",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft110",
+    "Title": "Roślina nasienna w donicy",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft111",
+    "Title": "Kwitnący kaktus",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft112",
+    "Title": "Kaktus w doniczce",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft113",
+    "Title": "Niebieski kwiat doniczkowy",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft114",
+    "Title": "Małe prostokątne okno",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft115",
+    "Title": "Kwadratowe okno",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft116",
+    "Title": "Duże prostokątne okno",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft117",
+    "Title": "Duża przednia szyba",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft118",
+    "Title": "Mała przednia szyba",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft119",
+    "Title": "Pachołek drogowy",
+    "Description": ""
+  }
+]

@@ -1,0 +1,262 @@
+[
+  {
+    "Id": "indus1",
+    "Title": "Generator Coil Segment"
+  },
+  {
+    "Id": "indus2",
+    "Title": "Generator Coil Corner"
+  },
+  {
+    "Id": "indus3",
+    "Title": "Ventilation Frame"
+  },
+  {
+    "Id": "indus4",
+    "Title": "Steel Support Bracket"
+  },
+  {
+    "Id": "indus5",
+    "Title": "Encryptor Base"
+  },
+  {
+    "Id": "indus6",
+    "Title": "Encryptor Base Plate"
+  },
+  {
+    "Id": "indus7",
+    "Title": "Encryptor Frame Top"
+  },
+  {
+    "Id": "indus8",
+    "Title": "Small Steel Bracket"
+  },
+  {
+    "Id": "indus9",
+    "Title": "Encryptor Frame Beam"
+  },
+  {
+    "Id": "indus10",
+    "Title": "Encryptor Holder"
+  },
+  {
+    "Id": "indus11",
+    "Title": "Base Extension"
+  },
+  {
+    "Id": "indus12",
+    "Title": "Generator B"
+  },
+  {
+    "Id": "indus13",
+    "Title": "Generator C"
+  },
+  {
+    "Id": "indus14",
+    "Title": "Generator D"
+  },
+  {
+    "Id": "indus15",
+    "Title": "Generator A"
+  },
+  {
+    "Id": "indus16",
+    "Title": "Power Generator Side"
+  },
+  {
+    "Id": "indus17",
+    "Title": "Generator Tank"
+  },
+  {
+    "Id": "indus18",
+    "Title": "Generator E"
+  },
+  {
+    "Id": "indus19",
+    "Title": "Trigger Frame"
+  },
+  {
+    "Id": "indus20",
+    "Title": "Generator Pipe Holder"
+  },
+  {
+    "Id": "indus21",
+    "Title": "Krótki dwuteownik"
+  },
+  {
+    "Id": "indus22",
+    "Title": "Długi dwuteownik"
+  },
+  {
+    "Id": "indus23",
+    "Title": "Narożnik dwuteownika"
+  },
+  {
+    "Id": "indus24",
+    "Title": "Wspornik dwuteownika"
+  },
+  {
+    "Id": "indus25",
+    "Title": "Końcówka dwuteownika"
+  },
+  {
+    "Id": "indus26",
+    "Title": "Półka"
+  },
+  {
+    "Id": "indus27",
+    "Title": "Podest schodów"
+  },
+  {
+    "Id": "indus28",
+    "Title": "Długa poręcz schodów"
+  },
+  {
+    "Id": "indus29",
+    "Title": "Krótka poręcz schodów"
+  },
+  {
+    "Id": "indus30",
+    "Title": "Tralka"
+  },
+  {
+    "Id": "indus31",
+    "Title": "Łącznik poręczy"
+  },
+  {
+    "Id": "indus32",
+    "Title": "Stopień"
+  },
+  {
+    "Id": "indus33",
+    "Title": "Balustrada"
+  },
+  {
+    "Id": "indus34",
+    "Title": "Klin do schodów"
+  },
+  {
+    "Id": "indus35",
+    "Title": "Rampa"
+  },
+  {
+    "Id": "indus36",
+    "Title": "Kratka wentylacyjna"
+  },
+  {
+    "Id": "indus37",
+    "Title": "Płot z siatki"
+  },
+  {
+    "Id": "indus38",
+    "Title": "Metalowy wspornik"
+  },
+  {
+    "Id": "indus39",
+    "Title": "Duża kratownica"
+  },
+  {
+    "Id": "indus40",
+    "Title": "Kratownica"
+  },
+  {
+    "Id": "indus41",
+    "Title": "Small Support Structure"
+  },
+  {
+    "Id": "indus42",
+    "Title": "Ceownik"
+  },
+  {
+    "Id": "indus43",
+    "Title": "Metalowa kolumna"
+  },
+  {
+    "Id": "indus44",
+    "Title": "Filar wspierający"
+  },
+  {
+    "Id": "indus45",
+    "Title": "Filar podpierający"
+  },
+  {
+    "Id": "indus46",
+    "Title": "Filar półki"
+  },
+  {
+    "Id": "indus47",
+    "Title": "Wspornik półki"
+  },
+  {
+    "Id": "indus48",
+    "Title": "Wysoki wspornik półki"
+  },
+  {
+    "Id": "indus49",
+    "Title": "Mały zbiornik"
+  },
+  {
+    "Id": "indus50",
+    "Title": "Średni zbiornik"
+  },
+  {
+    "Id": "indus51",
+    "Title": "Duży zbiornik"
+  },
+  {
+    "Id": "indus52",
+    "Title": "Metalowe okno"
+  },
+  {
+    "Id": "indus53",
+    "Title": "Stalowa paleta"
+  },
+  {
+    "Id": "indus54",
+    "Title": "Wspornik stołu"
+  },
+  {
+    "Id": "indus55",
+    "Title": "Stojak"
+  },
+  {
+    "Id": "indus56",
+    "Title": "Wierzchołek stojaka"
+  },
+  {
+    "Id": "indus57",
+    "Title": "Antena satelitarna"
+  },
+  {
+    "Id": "indus58",
+    "Title": "Satelitarna antena reflektorowa"
+  },
+  {
+    "Id": "indus59",
+    "Title": "Antena"
+  },
+  {
+    "Id": "indus60",
+    "Title": "Antena reflektorowa"
+  },
+  {
+    "Id": "indus61",
+    "Title": "Małe prostokątne okno"
+  },
+  {
+    "Id": "indus62",
+    "Title": "Kwadratowe okno"
+  },
+  {
+    "Id": "indus63",
+    "Title": "Duże prostokątne okno"
+  },
+  {
+    "Id": "indus64",
+    "Title": "Duża przednia szyba"
+  },
+  {
+    "Id": "indus65",
+    "Title": "Mała przednia szyba"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "Id": "recipeWorkbench1",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeWorkbench2",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeWorkbench3",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeWorkbench4",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeWorkbench5",
+    "Title": "Cuscinetto",
+    "Description": "Tutto quello che metti sui cuscinetti ruoterà. I cuscinetti possono essere anche collegati a un motore o al sedile di guida per essere controllati in modi diversi."
+  },
+  {
+    "Id": "recipeWorkbench6",
+    "Title": "Blocco di cartone",
+    "Description": ""
+  },
+  {
+    "Id": "recipeWorkbench7",
+    "Title": "Interruttore",
+    "Description": "Spegni o accendi quanto ti pare. L'interruttore attiva qualunque cosa a cui è collegato, rendendolo indispensabile per spegnere o accendere in un solo clic. Può attivare un motore, un propulsore, l'unità di controllo e altro."
+  },
+  {
+    "Id": "recipeWorkbench8",
+    "Title": "Pulsante",
+    "Description": "Fa funzionare le cose. Il pulsante attiva le cose finché rimane premuto."
+  },
+  {
+    "Id": "recipeWorkbench9",
+    "Title": "Connettore",
+    "Description": "Il migliore amico di ogni meccanico! Usalo per agganciare parti interattive, per esempio: un motore a gas ai cuscinetti o un propulsore a un sedile di guida."
+  }
+]

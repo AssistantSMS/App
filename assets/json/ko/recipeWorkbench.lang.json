@@ -1,0 +1,47 @@
+[
+  {
+    "Id": "recipeWorkbench1",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeWorkbench2",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeWorkbench3",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeWorkbench4",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeWorkbench5",
+    "Title": "베어링",
+    "Description": "베어링에 배치하는 모든 것은 회전하게 됩니다. 또한 베어링을 엔진이나 운전석에 연결하여 다른 방식으로 제어할 수도 있습니다."
+  },
+  {
+    "Id": "recipeWorkbench6",
+    "Title": "골판지 블록",
+    "Description": ""
+  },
+  {
+    "Id": "recipeWorkbench7",
+    "Title": "스위치",
+    "Description": "필요에 따라 무한정 끄고 껼 수 있습니다. 스위치는 연결된 건 무엇이든 누르기만 하면 무한정 끄고 켜서 작동시킬 수 있으며, 엔진, 가속기, 그리고 제어판 등을 작동시킬 수 있습니다."
+  },
+  {
+    "Id": "recipeWorkbench8",
+    "Title": "버튼",
+    "Description": "무언가를 작동시킵니다.  버튼을 누르고 있는 동안만 작동합니다."
+  },
+  {
+    "Id": "recipeWorkbench9",
+    "Title": "연결용 도구",
+    "Description": "모든 메카닉들이 선호하는 도구. 가솔린 엔진에 베어링을 연결하거나 운전석에 가속기를 연결하는 식의 상호작용 부품들을 연결시켜 줍니다."
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "Id": "recipeRef1",
+    "Title": "Scrap Wood"
+  },
+  {
+    "Id": "recipeRef2",
+    "Title": "Wood"
+  },
+  {
+    "Id": "recipeRef3",
+    "Title": "Scrap Metal"
+  },
+  {
+    "Id": "recipeRef4",
+    "Title": "Metal"
+  },
+  {
+    "Id": "recipeRef5",
+    "Title": "Scrap Stone"
+  }
+]

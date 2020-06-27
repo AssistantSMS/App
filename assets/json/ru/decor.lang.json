@@ -1,0 +1,186 @@
+[
+  {
+    "Id": "deco1",
+    "Title": "Produce Billboard"
+  },
+  {
+    "Id": "deco2",
+    "Title": "Berry Billboard"
+  },
+  {
+    "Id": "deco3",
+    "Title": "Sickle-Down Billboard"
+  },
+  {
+    "Id": "deco4",
+    "Title": "Warehouse Sign"
+  },
+  {
+    "Id": "deco5",
+    "Title": "Elevator Sign"
+  },
+  {
+    "Id": "deco6",
+    "Title": "Storage Sign"
+  },
+  {
+    "Id": "deco7",
+    "Title": "Packing Sign"
+  },
+  {
+    "Id": "deco8",
+    "Title": "Growroom Sign"
+  },
+  {
+    "Id": "deco9",
+    "Title": "Utility Sign"
+  },
+  {
+    "Id": "deco10",
+    "Title": "Man Sign"
+  },
+  {
+    "Id": "deco11",
+    "Title": "Woman Sign"
+  },
+  {
+    "Id": "deco12",
+    "Title": "Recycling Bin"
+  },
+  {
+    "Id": "deco13",
+    "Title": "Paper Stack"
+  },
+  {
+    "Id": "deco14",
+    "Title": "Old Restroom Mirror"
+  },
+  {
+    "Id": "deco15",
+    "Title": "Traffic Sign"
+  },
+  {
+    "Id": "deco16",
+    "Title": "Metallic Tube"
+  },
+  {
+    "Id": "deco17",
+    "Title": "Road Sign Base"
+  },
+  {
+    "Id": "deco18",
+    "Title": "Cash Register"
+  },
+  {
+    "Id": "deco19",
+    "Title": "Open Sign"
+  },
+  {
+    "Id": "deco20",
+    "Title": "Old Fruit Stand"
+  },
+  {
+    "Id": "deco21",
+    "Title": "Stacked Crates"
+  },
+  {
+    "Id": "deco22",
+    "Title": "Sunshake Vending Machine"
+  },
+  {
+    "Id": "deco23",
+    "Title": "Udder Decoration"
+  },
+  {
+    "Id": "deco24",
+    "Title": "Haystack"
+  },
+  {
+    "Id": "deco25",
+    "Title": "Hay Bale"
+  },
+  {
+    "Id": "deco26",
+    "Title": "Туалетная бумага"
+  },
+  {
+    "Id": "deco27",
+    "Title": "Раковина"
+  },
+  {
+    "Id": "deco28",
+    "Title": "Кружка"
+  },
+  {
+    "Id": "deco29",
+    "Title": "Нога манекена"
+  },
+  {
+    "Id": "deco30",
+    "Title": "Рука Манекена"
+  },
+  {
+    "Id": "deco31",
+    "Title": "Статуэтка утенка"
+  },
+  {
+    "Id": "deco32",
+    "Title": "Винт"
+  },
+  {
+    "Id": "deco33",
+    "Title": "Гайка"
+  },
+  {
+    "Id": "deco34",
+    "Title": "Знак с черепом"
+  },
+  {
+    "Id": "deco35",
+    "Title": "Знак стройки"
+  },
+  {
+    "Id": "deco36",
+    "Title": "Знак Внимание"
+  },
+  {
+    "Id": "deco37",
+    "Title": "Знак Опасность"
+  },
+  {
+    "Id": "deco38",
+    "Title": "Знак Стоп"
+  },
+  {
+    "Id": "deco39",
+    "Title": "Знак Фермоботы"
+  },
+  {
+    "Id": "deco40",
+    "Title": "Знак Добро пожаловать"
+  },
+  {
+    "Id": "deco41",
+    "Title": "Знак Вход запрещен"
+  },
+  {
+    "Id": "deco42",
+    "Title": "Знак Падающие объекты"
+  },
+  {
+    "Id": "deco43",
+    "Title": "Знак-стрелка"
+  },
+  {
+    "Id": "deco44",
+    "Title": "Дорожный конус"
+  },
+  {
+    "Id": "deco45",
+    "Title": "Матрац"
+  },
+  {
+    "Id": "deco46",
+    "Title": "Подушка"
+  }
+]

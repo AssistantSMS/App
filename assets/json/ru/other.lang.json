@@ -1,0 +1,74 @@
+[
+  {
+    "Id": "other1",
+    "Title": "Соединитель"
+  },
+  {
+    "Id": "other2",
+    "Title": "Кисть"
+  },
+  {
+    "Id": "other3",
+    "Title": "Сварочный аппарат"
+  },
+  {
+    "Id": "other4",
+    "Title": "Vacuum Pump"
+  },
+  {
+    "Id": "other5",
+    "Title": "Vacuum Pipe"
+  },
+  {
+    "Id": "other6",
+    "Title": "Vacuum Pipe Corner"
+  },
+  {
+    "Id": "other7",
+    "Title": "Растение в горшке"
+  },
+  {
+    "Id": "other8",
+    "Title": "Малое растение в горшке"
+  },
+  {
+    "Id": "other9",
+    "Title": "Лоза в горшке"
+  },
+  {
+    "Id": "other10",
+    "Title": "Большой горшок"
+  },
+  {
+    "Id": "other11",
+    "Title": "Семенное раст. в горшке"
+  },
+  {
+    "Id": "other12",
+    "Title": "Цветущий кактус в горшке"
+  },
+  {
+    "Id": "other13",
+    "Title": "Кактус в горшке"
+  },
+  {
+    "Id": "other14",
+    "Title": "Синий цветок в горшке"
+  },
+  {
+    "Id": "other15",
+    "Title": "Spud Gun"
+  },
+  {
+    "Id": "other16",
+    "Title": "Spud Shotgun"
+  },
+  {
+    "Id": "other17",
+    "Title": "Spudling Gun"
+  },
+  {
+    "Id": "other18",
+    "Title": "Соединитель"
+  }
+]

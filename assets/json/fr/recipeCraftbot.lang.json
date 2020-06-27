@@ -1,0 +1,597 @@
+[
+  {
+    "Id": "recipeCraft1",
+    "Title": "Outil de connexion",
+    "Description": "Le meilleur ami des mécanos ! Utilisé pour accrocher les pièces interactives entre elles, par exemple : un moteur à essence à un palier ou un propulseur à un siège conducteur."
+  },
+  {
+    "Id": "recipeCraft2",
+    "Title": "Outil de peinture",
+    "Description": "Peignez n'importe quel bloc ou pièce pour personnaliser vos créactions ou simplement pour le plaisir de faire de l'art ! Peignez en utilisant le bouton gauche de la souris et supprimez avec le droit. Appuyez sur Q pour ouvrir la palette de couleurs. Si vous souhaitez peindre des grandes surfaces, il suffit simplement de maintenir le bouton gauche appuyé et de faire glisser la souris."
+  },
+  {
+    "Id": "recipeCraft3",
+    "Title": "Outil de soudage",
+    "Description": "Soudez vos créations ensembles !\nChoisissez l'outil de soudage et appuyez sur le bouton gauche de la souris sur une création libre, appuyez de nouveau sur le bouton gauche de la souris en visant la surface d'une autre création pour les souder l'une à l'autre. Vous pouvez également joindre des pièces qui se touchent sur le cric. Maintenez appuyé le bouton gauche de la souris sur la première pièce et faites glisser la souris vers la pièce que vous souhaitez souder."
+  },
+  {
+    "Id": "recipeCraft4",
+    "Title": "Bloc: carton",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft5",
+    "Title": "Bloc : bois",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft6",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft7",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft8",
+    "Title": "Bloc : métal",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft9",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft10",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft11",
+    "Title": "Bloc : béton",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft12",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft13",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft14",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft15",
+    "Title": "Bloc de verre",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft16",
+    "Title": "Bloc : verre",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft17",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft18",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft19",
+    "Title": "Bloc chemin lumineux",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft20",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft21",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft22",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft23",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft24",
+    "Title": "Bloc: navire de réparation",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft25",
+    "Title": "Bloc : brique",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft26",
+    "Title": "Bloc : carrelage",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft27",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft28",
+    "Title": "Bloc : barrière",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft29",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft30",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft31",
+    "Title": "Palier",
+    "Description": "Tout ce que vous placez sur un palier pourra tourner. Les paliers peuvent aussi être connectés à un moteur ou à un siège conducteur pour être contrôlés de différentes manières."
+  },
+  {
+    "Id": "recipeCraft32",
+    "Title": "Interrupteur",
+    "Description": "L'interrupteur active ce à quoi il est connecté, il est indispensable lorsque vous souhaitez allumer ou éteindre vos créations. Il peut activer un moteur, un propulseur, un contrôleur et bien plus encore."
+  },
+  {
+    "Id": "recipeCraft33",
+    "Title": "Bouton",
+    "Description": "Active des choses. Le bouton est activé tant qu'il reste appuyé."
+  },
+  {
+    "Id": "recipeCraft34",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft35",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft36",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft37",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft38",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft39",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft40",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft41",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft42",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft43",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft44",
+    "Title": "Toilettes",
+    "Description": "Pour ceux qui n'aiment pas rester debout. Asseyez-vous et détendez-vous, ou ajoutez-les à votre véhicule pour emmener vos amis avec vous. Peuvent être connectées à des déclencheurs qui peuvent activer d'autres pièces interactives depuis le siège. N'oubliez pas de tirer la chasse !"
+  },
+  {
+    "Id": "recipeCraft45",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft46",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft47",
+    "Title": "Fonction logique",
+    "Description": "La fonction logique est un bloc puissant vous permettant de créer des fonctions basiques. En appuyant sur le bloc avec E, le mécano peut choisir entre différents types de fonctions logiques. Un bloc fonction logique peut être connecté à un autre, à des déclencheurs et bien plus encore. Ce bloc est idéal pour les créations avancées."
+  },
+  {
+    "Id": "recipeCraft48",
+    "Title": "Minuteur",
+    "Description": "Le minuteur vous permet d'espacer les intéractions entre deux pièces interactives. Par exemple, entre un interrupteur et un contrôleur. Il fonctionne bien avec la fonction logique."
+  },
+  {
+    "Id": "recipeCraft49",
+    "Title": "Radio",
+    "Description": "Que des tubes, tout le temps. Ces imposants agribots ont piraté les ondes et transmettent maintenant une sélection de classiques pour le moins inhabituels. La Radio s'active en intéragissant avec\nou en étant connectée à un déclencheur."
+  },
+  {
+    "Id": "recipeCraft50",
+    "Title": "Klaxon",
+    "Description": "Ajoutez-le à votre véhicule ou utilisez-le comme sonnette. Klaxonnez vos amis pour éviter les accidents. Sélectionnez le volume et connectez-le à un déclencheur pour l'activer."
+  },
+  {
+    "Id": "recipeCraft51",
+    "Title": "Éclairage",
+    "Description": "Que la visibilité soit"
+  },
+  {
+    "Id": "recipeCraft52",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft53",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft54",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft55",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft56",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft57",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft58",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft59",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft60",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft61",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft62",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft63",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft64",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft65",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft66",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft67",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft68",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft69",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft70",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft71",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft72",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft73",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft74",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft75",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft76",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft77",
+    "Title": "",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft78",
+    "Title": "Roue",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft79",
+    "Title": "Grande roue",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft80",
+    "Title": "Petit tuyeau: court",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft81",
+    "Title": "Petit tuyeau: long",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft82",
+    "Title": "Petit tuyeau: courbe",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft83",
+    "Title": "Petit tuyeau: forme en T",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft84",
+    "Title": "Petit tuyeau: coin",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft85",
+    "Title": "Petit tuyeau: 4 voies",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft86",
+    "Title": "Petit tuyeau: 4 voies en T",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft87",
+    "Title": "Petit tuyeau: 5 voies",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft88",
+    "Title": "Petit tuyeau: 6 voies",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft89",
+    "Title": "Tuyau : court",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft90",
+    "Title": "Tuyau : long",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft91",
+    "Title": "Tuyau : coin",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft92",
+    "Title": "Tuyau : jointure",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft93",
+    "Title": "Vanne",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft94",
+    "Title": "Poutrelle I : courte",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft95",
+    "Title": "Poutrelle I : longue",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft96",
+    "Title": "Poutrelle I : coin",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft97",
+    "Title": "Poutrelle I : extrémité",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft98",
+    "Title": "Poutrelle I : soutien",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft99",
+    "Title": "Papier toilette",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft100",
+    "Title": "Évier",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft101",
+    "Title": "Climatiseur",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft102",
+    "Title": "Tasse",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft103",
+    "Title": "Mannequin de chaussure",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft104",
+    "Title": "Main de mannequin",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft105",
+    "Title": "Statuette de caneton",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft106",
+    "Title": "Plante en pot",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft107",
+    "Title": "Petite plante en pot",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft108",
+    "Title": "Vigne en pot",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft109",
+    "Title": "Grand pot",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft110",
+    "Title": "Pousse en pot",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft111",
+    "Title": "Cactus épanoui en pot",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft112",
+    "Title": "Cactus en pot",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft113",
+    "Title": "Fleur bleue en pot",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft114",
+    "Title": "Petite fenêtre rect.",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft115",
+    "Title": "Fenêtre carrée",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft116",
+    "Title": "Grande fenêtre rect.",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft117",
+    "Title": "Grand pare-brise",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft118",
+    "Title": "Petit pare-brise",
+    "Description": ""
+  },
+  {
+    "Id": "recipeCraft119",
+    "Title": "Cône de signalisation",
+    "Description": ""
+  }
+]

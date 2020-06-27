@@ -1,0 +1,174 @@
+[
+  {
+    "Id": "intera1",
+    "Title": "Fridge"
+  },
+  {
+    "Id": "intera2",
+    "Title": "Locker"
+  },
+  {
+    "Id": "intera3",
+    "Title": "File Cabinet"
+  },
+  {
+    "Id": "intera4",
+    "Title": "Chest"
+  },
+  {
+    "Id": "intera5",
+    "Title": "Large Chest"
+  },
+  {
+    "Id": "intera6",
+    "Title": "Protector: Anti-Destruction"
+  },
+  {
+    "Id": "intera7",
+    "Title": "Encryptor: Anti-Connection"
+  },
+  {
+    "Id": "intera8",
+    "Title": "Oily Toilet Seat"
+  },
+  {
+    "Id": "intera9",
+    "Title": "Resource Collector"
+  },
+  {
+    "Id": "intera10",
+    "Title": "Refinebot"
+  },
+  {
+    "Id": "intera11",
+    "Title": "Dressbot"
+  },
+  {
+    "Id": "intera12",
+    "Title": "Water Cannon"
+  },
+  {
+    "Id": "intera13",
+    "Title": "Mountable Spud Gun"
+  },
+  {
+    "Id": "intera14",
+    "Title": "Respawn Bed"
+  },
+  {
+    "Id": "intera15",
+    "Title": "Bearing"
+  },
+  {
+    "Id": "intera16",
+    "Title": "Sport Suspension"
+  },
+  {
+    "Id": "intera17",
+    "Title": "Off-Road Suspension"
+  },
+  {
+    "Id": "intera18",
+    "Title": "Driver's Seat"
+  },
+  {
+    "Id": "intera19",
+    "Title": "Seat"
+  },
+  {
+    "Id": "intera20",
+    "Title": "Driver's Saddle"
+  },
+  {
+    "Id": "intera21",
+    "Title": "Saddle"
+  },
+  {
+    "Id": "intera22",
+    "Title": "Toilet"
+  },
+  {
+    "Id": "intera23",
+    "Title": "Gas Engine"
+  },
+  {
+    "Id": "intera24",
+    "Title": "Electric Engine"
+  },
+  {
+    "Id": "intera25",
+    "Title": "Thruster"
+  },
+  {
+    "Id": "intera26",
+    "Title": "Controller"
+  },
+  {
+    "Id": "intera27",
+    "Title": "Switch"
+  },
+  {
+    "Id": "intera28",
+    "Title": "Button"
+  },
+  {
+    "Id": "intera29",
+    "Title": "Sensor"
+  },
+  {
+    "Id": "intera30",
+    "Title": "Radio"
+  },
+  {
+    "Id": "intera31",
+    "Title": "Horn"
+  },
+  {
+    "Id": "intera32",
+    "Title": "Logic Gate"
+  },
+  {
+    "Id": "intera33",
+    "Title": "Timer"
+  },
+  {
+    "Id": "intera34",
+    "Title": "Totebot Head: Bass"
+  },
+  {
+    "Id": "intera35",
+    "Title": "Totebot Head: Percussion"
+  },
+  {
+    "Id": "intera36",
+    "Title": "Totebot Head: Synth Voice"
+  },
+  {
+    "Id": "intera37",
+    "Title": "Totebot Head: Blip"
+  },
+  {
+    "Id": "intera38",
+    "Title": "Bathtub"
+  },
+  {
+    "Id": "intera39",
+    "Title": "Piston"
+  },
+  {
+    "Id": "intera40",
+    "Title": "Raft Shark Mount"
+  },
+  {
+    "Id": "intera41",
+    "Title": "Mountable Spudgun"
+  },
+  {
+    "Id": "intera42",
+    "Title": "Small Explosive Canister"
+  },
+  {
+    "Id": "intera43",
+    "Title": "Large Explosive Canister"
+  }
+]

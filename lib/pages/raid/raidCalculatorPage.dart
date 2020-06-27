@@ -7,6 +7,7 @@ import '../../components/scaffoldTemplates/genericPageScaffold.dart';
 import '../../components/tilePresenters/raidTilePresenter.dart';
 import '../../components/webSpecific/mousePointer.dart';
 import '../../contracts/raid/raidFarmDetails.dart';
+import '../../helpers/columnHelper.dart';
 import '../../helpers/external.dart';
 import '../../helpers/raidHelper.dart';
 import '../../localization/localeKey.dart';
@@ -15,8 +16,8 @@ import 'raidCalculatorResultComponent.dart';
 
 const greenyDevGithubImage =
     'https://avatars0.githubusercontent.com/u/3734204?s=460&u=7eb6ec6aa9200855109647c7fcdd159069b673fe&v=4';
-const greenyDevGithubLink = 'https://github.com/greeny';
-const greenyDevTool = 'https://scrapmechanic.greeny.dev/';
+const greenyDevGithubLink = 'https://github.com/greeny/?ref=AssistantSMS';
+const greenyDevTool = 'https://scrapmechanic.greeny.dev/?ref=AssistantSMS';
 
 class RaidCalcPage extends StatefulWidget {
   const RaidCalcPage({Key key}) : super(key: key);
@@ -31,6 +32,7 @@ class _RaidCalcWidget extends State<RaidCalcPage> {
   _RaidCalcWidget() {
     _inputScreen = gridWithScrollbar(
       itemCount: (RaidHelper.plants.length + 1),
+      gridViewColumnCalculator: raidCustomColumnCount,
       itemBuilder: (context, index) {
         if (index < RaidHelper.plants.length) {
           return raidGridTilePresenter(

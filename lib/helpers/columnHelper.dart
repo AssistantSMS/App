@@ -36,3 +36,13 @@ int steamNewsCustomColumnCount(Breakpoint breakpoint) {
 
   return 4;
 }
+
+int raidCustomColumnCount(Breakpoint breakpoint) {
+  if (breakpoint.window == WindowSize.xsmall) return 3;
+  if (breakpoint.window == WindowSize.small) return 3;
+  if (breakpoint.window == WindowSize.medium) return 4;
+  if (breakpoint.window == WindowSize.large) return 6;
+  if (breakpoint.window == WindowSize.xlarge) return 8;
+
+  return 4;
+}

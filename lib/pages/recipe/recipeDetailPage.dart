@@ -164,6 +164,7 @@ class RecipeDetailPage extends StatelessWidget {
     if (cartItems != null && cartItems.length > 0) {
       widgets.add(emptySpace3x());
       widgets.add(genericItemText(Translations.get(context, LocaleKey.cart)));
+      print(recipeItem.output.id);
       widgets.add(Card(
         child: GestureDetector(
             child: recipeIngredientTilePresenter(

@@ -5,6 +5,8 @@ import '../../components/tilePresenters/raidTilePresenter.dart';
 import '../../contracts/raid/raidFarmDetails.dart';
 import '../../helpers/genericHelper.dart';
 import '../../helpers/raidHelper.dart';
+import '../../localization/localeKey.dart';
+import '../../localization/translations.dart';
 
 class RaidCalculatorResultComponent extends StatelessWidget {
   final RaidFarmDetails details;
@@ -21,12 +23,15 @@ class RaidCalculatorResultComponent extends StatelessWidget {
 
     if (spawns == null || spawns.length < 1) {
       widgets.add(emptySpace3x());
-      widgets.add(genericItemName('Your farm is safe')); // TODO translation
+      widgets.add(
+          genericItemName(Translations.get(context, LocaleKey.yourFarmIsSafe)));
     }
 
     for (int spawnIndex = 0; spawnIndex < spawns.length; spawnIndex++) {
+      var template = Translations.get(context, LocaleKey.attackersOnNightX);
       widgets.add(genericItemGroup(
-          'Attackers on night ${(spawnIndex + 1)}')); // TODO translation
+        template.replaceAll('{0}', (spawnIndex + 1).toString()),
+      ));
       widgets.add(raidAttackerTilePresenter(context, spawns[spawnIndex]));
       widgets.add(emptySpace2x());
     }

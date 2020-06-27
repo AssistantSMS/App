@@ -45,7 +45,8 @@ class _RaidCalcWidget extends State<RaidCalcPage> {
                 networkImage(greenyDevGithubImage, height: 110),
                 Padding(
                     child: Text(
-                      'Original work by GreenyDev',
+                      Translations.get(
+                          context, LocaleKey.originalWorkByGreenyDev),
                       textAlign: TextAlign.center,
                     ),
                     padding: EdgeInsets.all(8)),

@@ -105,4 +105,7 @@ enum LocaleKey {
   hideout,
   tradedFor,
   raidCalculator,
+  originalWorkByGreenyDev,
+  yourFarmIsSafe,
+  attackersOnNightX,
 }

@@ -109,10 +109,9 @@ Widget _drawerItem(context,
     onTap: () async {
       Navigator.pop(context);
       if (navigateTo != null) {
-        await navigateAwayFromHomeAsync(context, navigateTo: navigateTo);
+        await navigateHomeAsync(context, navigateTo: navigateTo);
       } else if (navigateToNamed != null) {
-        await navigateAwayFromHomeAsync(context,
-            navigateToNamed: navigateToNamed);
+        await navigateHomeAsync(context, navigateToNamed: navigateToNamed);
       } else if (navigateToExternal != null) {
         launchExternalURL(navigateToExternal);
       } else if (onTap != null) {

@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-import '../constants/Routes.dart';
 import '../integration/logging.dart';
 
 Future<bool> navigateBackOrHomeAsync(context) async {
@@ -12,7 +11,7 @@ Future<bool> navigateBackOrHomeAsync(context) async {
   //   return navigateHomeAsync(context);
   // }
 
-  await Navigator.pushReplacementNamed(context, Routes.home);
+  // if (isWeb) await Navigator.pushReplacementNamed(context, Routes.home);
 
   return Future.value(true);
 }

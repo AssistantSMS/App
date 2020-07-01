@@ -7,6 +7,7 @@ import '../../components/dialogs/quantityDialog.dart';
 import '../../components/loading.dart';
 import '../../components/scaffoldTemplates/genericPageScaffold.dart';
 import '../../components/tilePresenters/recipeIngredientTilePresenter.dart';
+import '../../components/webSpecific/mousePointer.dart';
 import '../../constants/AnalyticsEvent.dart';
 import '../../constants/AppDuration.dart';
 import '../../constants/AppImage.dart';
@@ -193,15 +194,16 @@ class RecipeDetailPage extends StatelessWidget {
       print(recipeItem.output.id);
       widgets.add(Card(
         child: GestureDetector(
-            child: recipeIngredientTilePresenter(
-              context,
-              RecipeIngredient(
-                id: recipeItem.output.id,
-                quantity: cartItems[0].quantity,
-              ),
-              0,
+          child: recipeIngredientTilePresenter(
+            context,
+            RecipeIngredient(
+              id: recipeItem.output.id,
+              quantity: cartItems[0].quantity,
             ),
-            onTap: navigateToCart),
+            0,
+          ),
+          onTap: navigateToCart,
+        ).showPointerOnHover,
         margin: const EdgeInsets.all(0.0),
       ));
     }

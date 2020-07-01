@@ -119,7 +119,7 @@ class RecipeDetailPage extends StatelessWidget {
               );
             }
           },
-        ),
+        ).showPointerOnHover,
         top: 12,
         right: 4,
       ));
@@ -173,7 +173,7 @@ class RecipeDetailPage extends StatelessWidget {
             } else {
               await navigateAwayFromHomeAsync(
                 context,
-                navigateToNamed: Routes.recipeDetail,
+                navigateToNamed: Routes.gameDetail,
                 navigateToNamedParameters: {Routes.itemIdParam: recipeIng.id},
               );
             }
@@ -203,7 +203,7 @@ class RecipeDetailPage extends StatelessWidget {
             0,
           ),
           onTap: navigateToCart,
-        ).showPointerOnHover,
+        ),
         margin: const EdgeInsets.all(0.0),
       ));
     }

@@ -7,8 +7,14 @@ import '../../localization/translations.dart';
 import '../common/image.dart';
 
 void prettyDialog(
-    BuildContext context, String appImage, String title, String description,
-    {Function() onCancel, Function() onSuccess}) {
+  BuildContext context,
+  String appImage,
+  String title,
+  String description, {
+  bool onlyCancelButton = false,
+  Function() onCancel,
+  Function() onSuccess,
+}) {
   showDialog(
     context: context,
     builder: (_) => NetworkGiffyDialog(
@@ -28,7 +34,10 @@ void prettyDialog(
         if (onSuccess != null) onSuccess();
         Navigator.pop(context);
       },
-      buttonCancelText: Text(Translations.get(context, LocaleKey.cancel)),
+      onlyCancelButton: onlyCancelButton,
+      buttonCancelText: Text(onlyCancelButton
+          ? Translations.get(context, LocaleKey.ok)
+          : Translations.get(context, LocaleKey.cancel)),
       onCancelButtonPressed: onCancel,
     ),
   );

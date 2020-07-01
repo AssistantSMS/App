@@ -87,14 +87,43 @@ class RecipeDetailPage extends StatelessWidget {
     if (errorWidget != null) return errorWidget;
 
     var recipeItem = snapshot?.data?.value?.recipe;
+    var isTrade = recipeItem.id.contains(IdPrefix.recipeHideOut);
 
     List<Widget> widgets = List<Widget>();
 
-    widgets.add(genericItemImage(
+    List<Widget> stackWidgets = List<Widget>();
+    stackWidgets.add(genericItemImage(
       context,
       '${AppImage.base}${recipeItem.icon}',
       name: recipeItem.title,
     ));
+    if (recipeItem?.output?.id != null) {
+      stackWidgets.add(Positioned(
+        child: GestureDetector(
+          child: Icon(Icons.info_outline, size: 40),
+          onTap: () async {
+            if (isInDetailPane && updateDetailView != null) {
+              updateDetailView(GameItemDetailPage(
+                recipeItem.output.id,
+                isInDetailPane: isInDetailPane,
+                updateDetailView: updateDetailView,
+              ));
+            } else {
+              await navigateAwayFromHomeAsync(
+                context,
+                navigateToNamed: Routes.gameDetail,
+                navigateToNamedParameters: {
+                  Routes.itemIdParam: recipeItem.output.id
+                },
+              );
+            }
+          },
+        ),
+        top: 12,
+        right: 4,
+      ));
+    }
+    widgets.add(Stack(children: stackWidgets));
     widgets.add(emptySpace1x());
     var quantitySuffix = recipeItem?.output?.quantity?.toString() != null
         ? ' x${recipeItem.output.quantity}'
@@ -104,17 +133,19 @@ class RecipeDetailPage extends StatelessWidget {
       widgets.add(genericItemDescription(recipeItem.description));
     }
 
-    var timeToCraft = Translations.get(context, LocaleKey.timeToCraft) +
-        ' ' +
-        recipeItem.craftingTime.toString() +
-        's';
-    widgets.add(genericItemDescription(timeToCraft));
+    if (!isTrade) {
+      var timeToCraft = Translations.get(context, LocaleKey.timeToCraft) +
+          ' ' +
+          recipeItem.craftingTime.toString() +
+          's';
+      widgets.add(genericItemDescription(timeToCraft));
+    }
 
     widgets.add(Divider());
     widgets.add(emptySpace1x());
 
     LocaleKey localeKey = LocaleKey.craftedUsing;
-    if (recipeItem.id.contains(IdPrefix.recipeHideOut)) {
+    if (isTrade) {
       localeKey = LocaleKey.tradedFor;
     }
     widgets.add(Text(
@@ -143,11 +174,6 @@ class RecipeDetailPage extends StatelessWidget {
                 context,
                 navigateToNamed: Routes.recipeDetail,
                 navigateToNamedParameters: {Routes.itemIdParam: recipeIng.id},
-                // navigateTo: (context) => GameItemDetailPage(
-                //   recipeIng.id,
-                //   isInDetailPane: isInDetailPane,
-                //   updateDetailView: updateDetailView,
-                // ),
               );
             }
           },

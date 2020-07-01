@@ -4,8 +4,8 @@ This will be an app to help the players of the game Scrap Mechanic.
 
 The goal is to have a responsive Flutter app that will look good on mobile devices as well as larger screens. Then I will use Flutter web in order to have 1 codebase for Android, iOS and Web.
 
-[![Apple App Store](https://github.com/AssistantSMS/App/blob/master/web/store-apple.png?raw=true)](https://scrapAssistant.com)
-[![Google Play Store](https://github.com/AssistantSMS/App/blob/master/web/store-google.png?raw=true)](https://scrapAssistant.com)
+[![Apple App Store](https://github.com/AssistantSMS/App/blob/master/web/store-apple.png?raw=true)](https://apps.apple.com/us/app/id1519215611)
+[![Google Play Store](https://github.com/AssistantSMS/App/blob/master/web/store-google.png?raw=true)](https://play.google.com/store/apps/details?id=com.kurtlourens.scrap_mechanic)
 [![Progressive Web App](https://github.com/AssistantSMS/App/blob/master/web/store-web.png?raw=true)](https://scrapAssistant.com)
 
 ## Builds and Releases
@@ -24,7 +24,7 @@ Build: [![Build Status](https://dev.azure.com/khaoznet/Scrap%20Mechanic%20Assist
 
 ## How to run
  - Ensure that Flutter is installed and working.
- - flutter run
+ - `flutter run`
 
 ## Contributing
  - Issues and PullRequests welcome

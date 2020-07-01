@@ -6,7 +6,8 @@ class ExternalUrls {
   static const String payPal = 'https://paypal.me/KurtLourens';
   static const String patreon = 'https://www.patreon.com/AssistantNMS';
   static const String bat = 'https://brave.com/nms136';
-  static const String openCollective = 'https://opencollective.com/assistantsm';
+  static const String openCollective =
+      'https://opencollective.com/assistantsms';
   // Contact
   static const String kurtLourensEmail =
       'mailto:scrap@kurtlourens.com?subject=Assistant for Scrap Mechanic';

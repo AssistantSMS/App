@@ -71,6 +71,7 @@ class SettingsPage extends StatelessWidget {
             Translations.get(context, LocaleKey.translation),
             Translations.get(context, LocaleKey.translationIssue)
                 .replaceAll('{0}', Translations.get(context, newLocal.name)),
+            onlyCancelButton: true,
           );
         }
       },

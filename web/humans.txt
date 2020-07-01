@@ -2,7 +2,11 @@
 	Software Engineer: Kurt Lourens
 	Contact: hi [at] kurtlourens.com
 	Twitter: @KhaozTopsy
-	From:Johannesburg, South Africa, Unfortunately
+	From:Johannesburg, South Africa
+
+	Designer: Leandra Methven
+	Contact: https://lionesslilo.com
+	From:Johannesburg, South Africa                            
 
 /* SITE */
 	Last update:2020/02/03

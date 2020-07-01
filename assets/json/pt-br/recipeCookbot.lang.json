@@ -1,17 +1,17 @@
 [
   {
     "Id": "recipeCook1",
-    "Title": "",
-    "Description": ""
+    "Title": "Pizza Burger",
+    "Description": "A mechanics favorite food. Fills up the hunger meter to the max"
   },
   {
     "Id": "recipeCook2",
-    "Title": "",
-    "Description": ""
+    "Title": "Veggie Burger",
+    "Description": "A vegetarian alternative. Fills up the hunger meter to the max"
   },
   {
     "Id": "recipeCook3",
-    "Title": "",
-    "Description": ""
+    "Title": "Revival Baguette",
+    "Description": "Feed your fallen friends to get them back on their feet and back in action"
   }
 ]

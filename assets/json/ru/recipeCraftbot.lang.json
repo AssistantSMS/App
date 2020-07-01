@@ -16,138 +16,111 @@
   },
   {
     "Id": "recipeCraft4",
-    "Title": "Картонный блок",
-    "Description": ""
+    "Title": "Картонный блок"
   },
   {
     "Id": "recipeCraft5",
-    "Title": "Деревянный блок",
-    "Description": ""
+    "Title": "Деревянный блок"
   },
   {
     "Id": "recipeCraft6",
-    "Title": "",
-    "Description": ""
+    "Title": "Wood Block 2"
   },
   {
     "Id": "recipeCraft7",
-    "Title": "",
-    "Description": ""
+    "Title": "Wood Block 3"
   },
   {
     "Id": "recipeCraft8",
-    "Title": "Металлический блок",
-    "Description": ""
+    "Title": "Металлический блок"
   },
   {
     "Id": "recipeCraft9",
-    "Title": "",
-    "Description": ""
+    "Title": "Metal Block 2"
   },
   {
     "Id": "recipeCraft10",
-    "Title": "",
-    "Description": ""
+    "Title": "Metal Block 3"
   },
   {
     "Id": "recipeCraft11",
-    "Title": "Бетонный блок",
-    "Description": ""
+    "Title": "Бетонный блок"
   },
   {
     "Id": "recipeCraft12",
-    "Title": "",
-    "Description": ""
+    "Title": "Concrete Block 2"
   },
   {
     "Id": "recipeCraft13",
-    "Title": "",
-    "Description": ""
+    "Title": "Concrete Block 3"
   },
   {
     "Id": "recipeCraft14",
-    "Title": "",
-    "Description": ""
+    "Title": "Sand Block"
   },
   {
     "Id": "recipeCraft15",
-    "Title": "Стеклянный блок",
-    "Description": ""
+    "Title": "Стеклянный блок"
   },
   {
     "Id": "recipeCraft16",
-    "Title": "Стеклянный блок-плитка",
-    "Description": ""
+    "Title": "Стеклянный блок-плитка"
   },
   {
     "Id": "recipeCraft17",
-    "Title": "",
-    "Description": ""
+    "Title": "Armored Glass Block"
   },
   {
     "Id": "recipeCraft18",
-    "Title": "",
-    "Description": ""
+    "Title": "Diamond Plate Block"
   },
   {
     "Id": "recipeCraft19",
-    "Title": "Путь - легкий блок",
-    "Description": ""
+    "Title": "Путь - легкий блок"
   },
   {
     "Id": "recipeCraft20",
-    "Title": "",
-    "Description": ""
+    "Title": "Extruded Metal Block"
   },
   {
     "Id": "recipeCraft21",
-    "Title": "",
-    "Description": ""
+    "Title": "Net Block"
   },
   {
     "Id": "recipeCraft22",
-    "Title": "",
-    "Description": ""
+    "Title": "Punched Steel Block"
   },
   {
     "Id": "recipeCraft23",
-    "Title": "",
-    "Description": ""
+    "Title": "Solid Net Block"
   },
   {
     "Id": "recipeCraft24",
-    "Title": "Ремонтный корабль: блок",
-    "Description": ""
+    "Title": "Ремонтный корабль: блок"
   },
   {
     "Id": "recipeCraft25",
-    "Title": "Кирпичный блок",
-    "Description": ""
+    "Title": "Кирпичный блок"
   },
   {
     "Id": "recipeCraft26",
-    "Title": "Блок-плитка",
-    "Description": ""
+    "Title": "Блок-плитка"
   },
   {
     "Id": "recipeCraft27",
-    "Title": "",
-    "Description": ""
+    "Title": "Restroom Block"
   },
   {
     "Id": "recipeCraft28",
-    "Title": "Блок-барьер",
-    "Description": ""
+    "Title": "Блок-барьер"
   },
   {
     "Id": "recipeCraft29",
-    "Title": "",
-    "Description": ""
+    "Title": "Carpet Block"
   },
   {
     "Id": "recipeCraft30",
-    "Title": "",
-    "Description": ""
+    "Title": "Bubble Plastic Block"
   },
   {
     "Id": "recipeCraft31",
@@ -166,53 +139,53 @@
   },
   {
     "Id": "recipeCraft34",
-    "Title": "",
-    "Description": ""
+    "Title": "Sensor 1",
+    "Description": "It detects, it activates! The sensor activates when detecting any kind of surface that comes into its view, and has a reach of ten blocks. It can activate an engine, a thruster, the controller and more."
   },
   {
     "Id": "recipeCraft35",
-    "Title": "",
-    "Description": ""
+    "Title": "Sport Suspension 1",
+    "Description": "Adds shock absorption and provides stability. Great for vehicles to prevent them from easily flipping over. This suspension is small, but has a firmer bounce."
   },
   {
     "Id": "recipeCraft36",
-    "Title": "",
-    "Description": ""
+    "Title": "Off-Road Suspension 1",
+    "Description": "Adds shock absorption and provides stability. Great for vehicles to prevent them from easily flipping over. This suspension has a lot of bounce, making it ideal for off-road vehicles."
   },
   {
     "Id": "recipeCraft37",
-    "Title": "",
-    "Description": ""
+    "Title": "Piston 1",
+    "Description": "Extends and contracts! Connect it to a trigger to activate. The piston can also be connected to a controller to make it extend and contract in a sequence. Perfect for creating impressive creations."
   },
   {
     "Id": "recipeCraft38",
-    "Title": "",
-    "Description": ""
+    "Title": "Gas Engine 1",
+    "Description": "An engine with fixed speed and adjustable power, ideally suited to powering vehicles. Can be connected to a driver's seat or trigger. Upgrade for more connection points and less gas consumption."
   },
   {
     "Id": "recipeCraft39",
-    "Title": "",
-    "Description": ""
+    "Title": "Electric Engine 1",
+    "Description": "Powers bearings. An engine with fixed power and adjustable speed. A weak engine with an adjustable speed. Can be connected to a driver's seat or triggers. Upgrade for more connection points and less battery consumption."
   },
   {
     "Id": "recipeCraft40",
-    "Title": "",
-    "Description": ""
+    "Title": "Driver's Seat 1",
+    "Description": "Makes bearings turn left and right. Can be connected to an engine to control the direction of travel. Can also be connected to triggers that can be activated from the seat. Lvl 5 Driver's Seat unlocks steering settings by pressing (E) on connected bearings with the Connect Tool."
   },
   {
     "Id": "recipeCraft41",
-    "Title": "",
-    "Description": ""
+    "Title": "Seat 1",
+    "Description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. Can be connected to triggers which can activate other interactive parts from the seat."
   },
   {
     "Id": "recipeCraft42",
-    "Title": "",
-    "Description": ""
+    "Title": "Driver's Saddle 1",
+    "Description": "Makes bearings turn left and right. Can be connected to an engine to control the direction of travel. Can also be connected to triggers that can be activated from the saddle. Lvl 5 Driver's Saddle unlocks steering settings by pressing (E) on connected bearings with the Connect Tool."
   },
   {
     "Id": "recipeCraft43",
-    "Title": "",
-    "Description": ""
+    "Title": "Saddle 1",
+    "Description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. Can be connected to triggers which can activate other interactive parts from the saddle."
   },
   {
     "Id": "recipeCraft44",
@@ -221,13 +194,13 @@
   },
   {
     "Id": "recipeCraft45",
-    "Title": "",
-    "Description": ""
+    "Title": "Thruster 1",
+    "Description": "Enough of these can make things fly. Needs to be connected to a trigger or the driver's seat in order to activate. Upgrade for less gas consumption."
   },
   {
     "Id": "recipeCraft46",
-    "Title": "",
-    "Description": ""
+    "Title": "Controller 1",
+    "Description": "Allows bearings to rotate in sequence. Perfect for building transforming creations. Needs to be connected to bearings. Activated by connecting a trigger or driver's seat to the controller."
   },
   {
     "Id": "recipeCraft47",
@@ -256,342 +229,297 @@
   },
   {
     "Id": "recipeCraft52",
-    "Title": "",
-    "Description": ""
+    "Title": "Respawn Bed",
+    "Description": "Take a lovely nap in this comfy bed to respawn in it after your mechanic has been knocked out"
   },
   {
     "Id": "recipeCraft53",
-    "Title": "",
-    "Description": ""
+    "Title": "Fridge",
+    "Description": "Keeps your food fresh"
   },
   {
     "Id": "recipeCraft54",
-    "Title": "",
-    "Description": ""
+    "Title": "Chest",
+    "Description": "A simple chest to store your items."
   },
   {
     "Id": "recipeCraft55",
-    "Title": "",
-    "Description": ""
+    "Title": "Large Chest",
+    "Description": "Great for storing a lot of items. Can also be used with a Vacuum Pump"
   },
   {
     "Id": "recipeCraft56",
-    "Title": "",
-    "Description": ""
+    "Title": "Vacuum Pump",
+    "Description": "The Vaccum Pump has many uses when connected to a trigger. Suck up water in to a water container. Pick up plants in to a chest. It can even shoot and place items from a chest."
   },
   {
     "Id": "recipeCraft57",
-    "Title": "",
-    "Description": ""
+    "Title": "Vacuum Pipe",
+    "Description": "Use it with the Vacuum Pump to make items travel through pipes"
   },
   {
     "Id": "recipeCraft58",
-    "Title": "",
-    "Description": ""
+    "Title": "Vacuum Pipe Corner",
+    "Description": "Use it with the Vacuum Pump to make items travel through pipes"
   },
   {
     "Id": "recipeCraft59",
-    "Title": "",
-    "Description": ""
+    "Title": "Gas Container",
+    "Description": "Can stores more gas and loads gas in to Gas Engines and other interactive parts that require Gas when connected"
   },
   {
     "Id": "recipeCraft60",
-    "Title": "",
-    "Description": ""
+    "Title": "Battery Container",
+    "Description": "Can Store more batteries and loads batteries in to Electric Engines and other interactive parts that require batteries when connected"
   },
   {
     "Id": "recipeCraft61",
-    "Title": "",
-    "Description": ""
+    "Title": "Water Container",
+    "Description": "Connect it to a Vacuum Pump that is under water to fil the Water Container with water"
   },
   {
     "Id": "recipeCraft62",
-    "Title": "",
-    "Description": ""
+    "Title": "Chemical Container"
   },
   {
     "Id": "recipeCraft63",
-    "Title": "",
-    "Description": ""
+    "Title": "Water Cannon",
+    "Description": "Connect it to a Water container with a trigger to water your plants more efficiently"
   },
   {
     "Id": "recipeCraft64",
-    "Title": "",
-    "Description": ""
+    "Title": "Saw Blade",
+    "Description": "Cut down trees faster with the Saw Blade. Put it on a bearing that is connected to a engine and drive it in to a tree."
   },
   {
     "Id": "recipeCraft65",
-    "Title": "",
-    "Description": ""
+    "Title": "Drill",
+    "Description": "Use the Drill to mine square rocks for stone and metal. Put it on a bearing that is connected to a engine and drive it in to a square rock."
   },
   {
     "Id": "recipeCraft66",
-    "Title": "",
-    "Description": ""
+    "Title": "Water Bucket",
+    "Description": "Fill it with water to water your plants."
   },
   {
     "Id": "recipeCraft67",
-    "Title": "",
-    "Description": ""
+    "Title": "Soil Bag",
+    "Description": "Use them on the ground to place your seeds in"
   },
   {
     "Id": "recipeCraft68",
-    "Title": "",
-    "Description": ""
+    "Title": "Fertilizer",
+    "Description": "Makes plants grow faster"
   },
   {
     "Id": "recipeCraft69",
-    "Title": "",
-    "Description": ""
+    "Title": "Gasoline",
+    "Description": "Used to power gas engines and thrusters"
   },
   {
     "Id": "recipeCraft70",
-    "Title": "",
-    "Description": ""
+    "Title": "Battery",
+    "Description": "Used to power electric parts"
   },
   {
     "Id": "recipeCraft71",
-    "Title": "",
-    "Description": ""
+    "Title": "Glue"
   },
   {
     "Id": "recipeCraft72",
-    "Title": "",
-    "Description": ""
+    "Title": "Water",
+    "Description": "Great for watering plants, unfortunately not good for drinking."
   },
   {
     "Id": "recipeCraft73",
-    "Title": "",
-    "Description": ""
+    "Title": "Chemicals"
   },
   {
     "Id": "recipeCraft74",
-    "Title": "",
-    "Description": ""
+    "Title": "Paint Ammo",
+    "Description": "Load your Paint Tool and give your creations some color"
   },
   {
     "Id": "recipeCraft75",
-    "Title": "",
-    "Description": ""
+    "Title": "Glowstick",
+    "Description": "Throw them at night or other dark places to see things better"
   },
   {
     "Id": "recipeCraft76",
-    "Title": "",
-    "Description": ""
+    "Title": "Small Explosive Canister",
+    "Description": "Highly explosive canister that can detonate by strong collisions or by Spud Guns\nThis canister has a small explosion radius."
   },
   {
     "Id": "recipeCraft77",
-    "Title": "",
-    "Description": ""
+    "Title": "Large Explosive Canister",
+    "Description": "Highly explosive canister that can detonate by strong collisions or by Spud Guns\nThis canister has a large explosion radius."
   },
   {
     "Id": "recipeCraft78",
-    "Title": "Колесо",
-    "Description": ""
+    "Title": "Колесо"
   },
   {
     "Id": "recipeCraft79",
-    "Title": "Большое колесо",
-    "Description": ""
+    "Title": "Большое колесо"
   },
   {
     "Id": "recipeCraft80",
-    "Title": "Малая труба - короткая",
-    "Description": ""
+    "Title": "Малая труба - короткая"
   },
   {
     "Id": "recipeCraft81",
-    "Title": "Малая труба - длинная",
-    "Description": ""
+    "Title": "Малая труба - длинная"
   },
   {
     "Id": "recipeCraft82",
-    "Title": "Малая труба - изгиб",
-    "Description": ""
+    "Title": "Малая труба - изгиб"
   },
   {
     "Id": "recipeCraft83",
-    "Title": "Малая труба - Т",
-    "Description": ""
+    "Title": "Малая труба - Т"
   },
   {
     "Id": "recipeCraft84",
-    "Title": "Малая труба - уголок",
-    "Description": ""
+    "Title": "Малая труба - уголок"
   },
   {
     "Id": "recipeCraft85",
-    "Title": "Малая труба - четырехпут. соед.",
-    "Description": ""
+    "Title": "Малая труба - четырехпут. соед."
   },
   {
     "Id": "recipeCraft86",
-    "Title": "Малая труба - четырехпут. соед. - Т",
-    "Description": ""
+    "Title": "Малая труба - четырехпут. соед. - Т"
   },
   {
     "Id": "recipeCraft87",
-    "Title": "Малая труба - пятипут. соед.",
-    "Description": ""
+    "Title": "Малая труба - пятипут. соед."
   },
   {
     "Id": "recipeCraft88",
-    "Title": "Малая труба - шестипут. соед.",
-    "Description": ""
+    "Title": "Малая труба - шестипут. соед."
   },
   {
     "Id": "recipeCraft89",
-    "Title": "Длинная труба",
-    "Description": ""
+    "Title": "Длинная труба"
   },
   {
     "Id": "recipeCraft90",
-    "Title": "Короткая труба",
-    "Description": ""
+    "Title": "Короткая труба"
   },
   {
     "Id": "recipeCraft91",
-    "Title": "Труба - угол",
-    "Description": ""
+    "Title": "Труба - угол"
   },
   {
     "Id": "recipeCraft92",
-    "Title": "Труба - соединение",
-    "Description": ""
+    "Title": "Труба - соединение"
   },
   {
     "Id": "recipeCraft93",
-    "Title": "Вентиль",
-    "Description": ""
+    "Title": "Вентиль"
   },
   {
     "Id": "recipeCraft94",
-    "Title": "Короткая двутавр. балка",
-    "Description": ""
+    "Title": "Короткая двутавр. балка"
   },
   {
     "Id": "recipeCraft95",
-    "Title": "Длинная двутавр. балка",
-    "Description": ""
+    "Title": "Длинная двутавр. балка"
   },
   {
     "Id": "recipeCraft96",
-    "Title": "Двутавр. балка - угол",
-    "Description": ""
+    "Title": "Двутавр. балка - угол"
   },
   {
     "Id": "recipeCraft97",
-    "Title": "Двутавр. балка - конец",
-    "Description": ""
+    "Title": "Двутавр. балка - конец"
   },
   {
     "Id": "recipeCraft98",
-    "Title": "Двутавр. балка - обойма",
-    "Description": ""
+    "Title": "Двутавр. балка - обойма"
   },
   {
     "Id": "recipeCraft99",
-    "Title": "Туалетная бумага",
-    "Description": ""
+    "Title": "Туалетная бумага"
   },
   {
     "Id": "recipeCraft100",
-    "Title": "Раковина",
-    "Description": ""
+    "Title": "Раковина"
   },
   {
     "Id": "recipeCraft101",
-    "Title": "Кондиционер",
-    "Description": ""
+    "Title": "Кондиционер"
   },
   {
     "Id": "recipeCraft102",
-    "Title": "Кружка",
-    "Description": ""
+    "Title": "Кружка"
   },
   {
     "Id": "recipeCraft103",
-    "Title": "Нога манекена",
-    "Description": ""
+    "Title": "Нога манекена"
   },
   {
     "Id": "recipeCraft104",
-    "Title": "Рука Манекена",
-    "Description": ""
+    "Title": "Рука Манекена"
   },
   {
     "Id": "recipeCraft105",
-    "Title": "Статуэтка утенка",
-    "Description": ""
+    "Title": "Статуэтка утенка"
   },
   {
     "Id": "recipeCraft106",
-    "Title": "Растение в горшке",
-    "Description": ""
+    "Title": "Растение в горшке"
   },
   {
     "Id": "recipeCraft107",
-    "Title": "Малое растение в горшке",
-    "Description": ""
+    "Title": "Малое растение в горшке"
   },
   {
     "Id": "recipeCraft108",
-    "Title": "Лоза в горшке",
-    "Description": ""
+    "Title": "Лоза в горшке"
   },
   {
     "Id": "recipeCraft109",
-    "Title": "Большой горшок",
-    "Description": ""
+    "Title": "Большой горшок"
   },
   {
     "Id": "recipeCraft110",
-    "Title": "Семенное раст. в горшке",
-    "Description": ""
+    "Title": "Семенное раст. в горшке"
   },
   {
     "Id": "recipeCraft111",
-    "Title": "Цветущий кактус в горшке",
-    "Description": ""
+    "Title": "Цветущий кактус в горшке"
   },
   {
     "Id": "recipeCraft112",
-    "Title": "Кактус в горшке",
-    "Description": ""
+    "Title": "Кактус в горшке"
   },
   {
     "Id": "recipeCraft113",
-    "Title": "Синий цветок в горшке",
-    "Description": ""
+    "Title": "Синий цветок в горшке"
   },
   {
     "Id": "recipeCraft114",
-    "Title": "Малое прямоуг. окно",
-    "Description": ""
+    "Title": "Малое прямоуг. окно"
   },
   {
     "Id": "recipeCraft115",
-    "Title": "Квадратное окно",
-    "Description": ""
+    "Title": "Квадратное окно"
   },
   {
     "Id": "recipeCraft116",
-    "Title": "Большое прямоуг. окно",
-    "Description": ""
+    "Title": "Большое прямоуг. окно"
   },
   {
     "Id": "recipeCraft117",
-    "Title": "Большое ветровое стекло",
-    "Description": ""
+    "Title": "Большое ветровое стекло"
   },
   {
     "Id": "recipeCraft118",
-    "Title": "Малое ветровое стекло",
-    "Description": ""
+    "Title": "Малое ветровое стекло"
   },
   {
     "Id": "recipeCraft119",
-    "Title": "Дорожный конус",
-    "Description": ""
+    "Title": "Дорожный конус"
   }
 ]

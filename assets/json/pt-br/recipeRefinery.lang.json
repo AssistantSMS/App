@@ -1,27 +1,22 @@
 [
   {
     "Id": "recipeRef1",
-    "Title": "",
-    "Description": ""
+    "Title": "Scrap Wood"
   },
   {
     "Id": "recipeRef2",
-    "Title": "",
-    "Description": ""
+    "Title": "Wood"
   },
   {
     "Id": "recipeRef3",
-    "Title": "",
-    "Description": ""
+    "Title": "Scrap Metal"
   },
   {
     "Id": "recipeRef4",
-    "Title": "",
-    "Description": ""
+    "Title": "Metal"
   },
   {
     "Id": "recipeRef5",
-    "Title": "",
-    "Description": ""
+    "Title": "Scrap Stone"
   }
 ]

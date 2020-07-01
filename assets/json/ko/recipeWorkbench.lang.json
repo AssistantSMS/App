@@ -1,23 +1,23 @@
 [
   {
     "Id": "recipeWorkbench1",
-    "Title": "",
-    "Description": ""
+    "Title": "Scrap Gas Engine",
+    "Description": "An engine with uneven speed and adjustable power, ideally suited to powering vehicles. Can be connected to a driver's seat or trigger. This Engine is not upgradable."
   },
   {
     "Id": "recipeWorkbench2",
-    "Title": "",
-    "Description": ""
+    "Title": "Scrap Driver's Seat",
+    "Description": "Makes bearings turn left and right. Can be connected to an engine to control the direction of travel. Can also be connected to triggers that can be activated from the seat. This Drive's Seat is not upgradable."
   },
   {
     "Id": "recipeWorkbench3",
-    "Title": "",
-    "Description": ""
+    "Title": "Scrap Seat",
+    "Description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. This Seat is not upgradable."
   },
   {
     "Id": "recipeWorkbench4",
-    "Title": "",
-    "Description": ""
+    "Title": "Scrap Wheel",
+    "Description": "Not perfectly round"
   },
   {
     "Id": "recipeWorkbench5",
@@ -26,8 +26,7 @@
   },
   {
     "Id": "recipeWorkbench6",
-    "Title": "골판지 블록",
-    "Description": ""
+    "Title": "골판지 블록"
   },
   {
     "Id": "recipeWorkbench7",

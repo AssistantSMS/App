@@ -1,7 +1,7 @@
 name: scrapmechanic_kurtlourens_com
 description: A companion app for Scrap Mechanic.
 publish_to: 'none'
-version: 1.1.0+19
+version: 1.1.1+20
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
@@ -15,7 +15,8 @@ dependencies:
 
   # Firebase
   firebase_core: 0.4.4+3
-  firebase_analytics: 5.0.11
+  firebase_analytics: 5.0.16
+  firebase_analytics_web: ^0.1.1
   # Redux
   flutter_redux: 0.6.0
   redux: 4.0.0

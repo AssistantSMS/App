@@ -87,6 +87,7 @@ class RecipeDetailPage extends StatelessWidget {
     if (errorWidget != null) return errorWidget;
 
     var recipeItem = snapshot?.data?.value?.recipe;
+    var isTrade = recipeItem.id.contains(IdPrefix.recipeHideOut);
 
     List<Widget> widgets = List<Widget>();
 
@@ -104,17 +105,19 @@ class RecipeDetailPage extends StatelessWidget {
       widgets.add(genericItemDescription(recipeItem.description));
     }
 
-    var timeToCraft = Translations.get(context, LocaleKey.timeToCraft) +
-        ' ' +
-        recipeItem.craftingTime.toString() +
-        's';
-    widgets.add(genericItemDescription(timeToCraft));
+    if (!isTrade) {
+      var timeToCraft = Translations.get(context, LocaleKey.timeToCraft) +
+          ' ' +
+          recipeItem.craftingTime.toString() +
+          's';
+      widgets.add(genericItemDescription(timeToCraft));
+    }
 
     widgets.add(Divider());
     widgets.add(emptySpace1x());
 
     LocaleKey localeKey = LocaleKey.craftedUsing;
-    if (recipeItem.id.contains(IdPrefix.recipeHideOut)) {
+    if (isTrade) {
       localeKey = LocaleKey.tradedFor;
     }
     widgets.add(Text(

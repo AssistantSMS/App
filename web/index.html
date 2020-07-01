@@ -151,7 +151,22 @@
   </noscript>
 </body>
 
+<script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-analytics.js"></script>
 <script>
+  var firebaseConfig = {
+    apiKey: "AIzaSyA7ohFsX2SyIEvVe3j1a32eTBwJYu9T9IA",
+    authDomain: "assistant-for-scrap-mechanic.firebaseapp.com",
+    databaseURL: "https://assistant-for-scrap-mechanic.firebaseio.com",
+    projectId: "assistant-for-scrap-mechanic",
+    storageBucket: "assistant-for-scrap-mechanic.appspot.com",
+    messagingSenderId: "803086273039",
+    appId: "1:803086273039:web:cd9e08e9214701463c317a",
+    measurementId: "G-E40XWE8HDP"
+  };
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+
   if ('serviceWorker' in navigator) {
     window.addEventListener('load', function () {
       navigator.serviceWorker.register('flutter_service_worker.js');
@@ -169,22 +184,6 @@
   window.document.onload = removeLoader;
   window.onload = removeLoader;
 </script>
-<script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-app.js"></script>
-<script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-analytics.js"></script>
-<script>
-  var firebaseConfig = {
-    apiKey: "AIzaSyA7ohFsX2SyIEvVe3j1a32eTBwJYu9T9IA",
-    authDomain: "assistant-for-scrap-mechanic.firebaseapp.com",
-    databaseURL: "https://assistant-for-scrap-mechanic.firebaseio.com",
-    projectId: "assistant-for-scrap-mechanic",
-    storageBucket: "assistant-for-scrap-mechanic.appspot.com",
-    messagingSenderId: "803086273039",
-    appId: "1:803086273039:web:cd9e08e9214701463c317a",
-    measurementId: "G-E40XWE8HDP"
-  };
-  firebase.initializeApp(firebaseConfig);
-  firebase.analytics();
-</script>
 <script src="main.dart.js" type="application/javascript"></script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-170150150-1"></script>
@@ -195,6 +194,6 @@
 
   gtag('config', 'UA-170150150-1');
 </script>
-
+<!-- Google analytics may not be needed now that FirebaseAnalyticsWeb has been addded -->
 
 </html>

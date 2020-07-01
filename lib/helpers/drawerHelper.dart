@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:package_info/package_info.dart';
-import 'package:scrapmechanic_kurtlourens_com/helpers/deviceHelper.dart';
 
 import '../constants/ExternalUrls.dart';
 import '../constants/Routes.dart';
@@ -8,6 +7,7 @@ import '../contracts/results/resultWithValue.dart';
 import '../localization/localeKey.dart';
 import '../localization/translations.dart';
 import 'colourHelper.dart';
+import 'deviceHelper.dart';
 import 'external.dart';
 import 'genericHelper.dart';
 import 'navigationHelper.dart';

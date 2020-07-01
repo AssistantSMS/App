@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:package_info/package_info.dart';
+import 'package:scrapmechanic_kurtlourens_com/helpers/deviceHelper.dart';
 
 import '../constants/ExternalUrls.dart';
 import '../constants/Routes.dart';
@@ -23,12 +24,14 @@ Future<List<Widget>> getDrawerItems(context,
     key: LocaleKey.about,
     navigateToNamed: Routes.about,
   ));
-  widgets.add(_drawerItem(
-    context,
-    image: getListTileImage(context, 'donation/buyMeACoffee.png'),
-    key: LocaleKey.donation,
-    navigateToNamed: Routes.donation,
-  ));
+  if (!isiOS) {
+    widgets.add(_drawerItem(
+      context,
+      image: getListTileImage(context, 'donation/buyMeACoffee.png'),
+      key: LocaleKey.donation,
+      navigateToNamed: Routes.donation,
+    ));
+  }
 
   widgets.add(Divider(thickness: .5));
 

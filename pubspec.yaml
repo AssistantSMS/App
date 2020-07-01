@@ -40,7 +40,7 @@ dependencies:
   shared_preferences_web: ^0.1.2+7
   # Misc
   url_launcher: 5.4.11
-  url_launcher_web: 0.1.1+6
+  url_launcher_web: 0.1.2
   package_info: 0.4.0+18
   enum_to_string: 1.0.9
   share: ^0.6.4+2

@@ -16,6 +16,7 @@
   "interactiveContainerJson": "ja/interactiveContainers.lang",
   "lightJson": "ja/lights.lang",
   "manMadeJson": "ja/manMade.lang",
+  "otherJson": "ja/other.lang",
   "outfitJson": "ja/outfitPackage.lang",
   "packingCrateJson": "ja/packingCrates.lang",
   "plantJson": "ja/plantables.lang",

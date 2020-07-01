@@ -59,6 +59,7 @@ ResultWithValue<IGameItemJsonService> getGameItemRepoFromId(
     key = LocaleKey.interactiveContainerJson;
   if (id.contains(IdPrefix.light)) key = LocaleKey.lightJson;
   if (id.contains(IdPrefix.manMade)) key = LocaleKey.manMadeJson;
+  if (id.contains(IdPrefix.other)) key = LocaleKey.otherJson;
   if (id.contains(IdPrefix.outfit)) key = LocaleKey.outfitJson;
   if (id.contains(IdPrefix.packingCrate)) key = LocaleKey.packingCrateJson;
   if (id.contains(IdPrefix.plant)) key = LocaleKey.plantJson;

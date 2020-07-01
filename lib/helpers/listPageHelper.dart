@@ -23,6 +23,7 @@ List<LocaleKey> getBlocksAndItemsPageLocales() => [
       LocaleKey.interactiveContainerJson,
       LocaleKey.lightJson,
       LocaleKey.manMadeJson,
+      LocaleKey.otherJson,
       LocaleKey.outfitJson,
       LocaleKey.packingCrateJson,
       LocaleKey.plantJson,

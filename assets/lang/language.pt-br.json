@@ -16,6 +16,7 @@
   "interactiveContainerJson": "pt-br/interactiveContainers.lang",
   "lightJson": "pt-br/lights.lang",
   "manMadeJson": "pt-br/manMade.lang",
+  "otherJson": "pt-br/other.lang",
   "outfitJson": "pt-br/outfitPackage.lang",
   "packingCrateJson": "pt-br/packingCrates.lang",
   "plantJson": "pt-br/plantables.lang",

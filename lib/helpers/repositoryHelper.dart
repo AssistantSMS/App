@@ -67,6 +67,8 @@ String getBaseFileName(LocaleKey detailsJson) {
       return BaseJson.light;
     case LocaleKey.manMadeJson:
       return BaseJson.manMade;
+    case LocaleKey.otherJson:
+      return BaseJson.other;
     case LocaleKey.outfitJson:
       return BaseJson.outfit;
     case LocaleKey.packingCrateJson:

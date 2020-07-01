@@ -16,6 +16,7 @@
   "interactiveContainerJson": "ru/interactiveContainers.lang",
   "lightJson": "ru/lights.lang",
   "manMadeJson": "ru/manMade.lang",
+  "otherJson": "ru/other.lang",
   "outfitJson": "ru/outfitPackage.lang",
   "packingCrateJson": "ru/packingCrates.lang",
   "plantJson": "ru/plantables.lang",

@@ -16,6 +16,7 @@
   "interactiveContainerJson": "zh-hans/interactiveContainers.lang",
   "lightJson": "zh-hans/lights.lang",
   "manMadeJson": "zh-hans/manMade.lang",
+  "otherJson": "zh-hans/other.lang",
   "outfitJson": "zh-hans/outfitPackage.lang",
   "packingCrateJson": "zh-hans/packingCrates.lang",
   "plantJson": "zh-hans/plantables.lang",

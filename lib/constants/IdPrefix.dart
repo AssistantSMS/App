@@ -15,6 +15,7 @@ class IdPrefix {
   static const String interactiveContainer = "interc";
   static const String light = "light";
   static const String manMade = "man";
+  static const String other = "other";
   static const String outfit = "out";
   static const String packingCrate = "pack";
   static const String plant = "plant";

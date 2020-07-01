@@ -15,6 +15,7 @@ class BaseJson {
   static const String interactiveContainer = 'interactiveContainers';
   static const String light = 'lights';
   static const String manMade = 'manMade';
+  static const String other = 'other';
   static const String outfit = 'outfitPackage';
   static const String packingCrate = 'packingCrates';
   static const String plant = 'plantables';

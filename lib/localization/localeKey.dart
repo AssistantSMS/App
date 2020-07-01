@@ -14,6 +14,7 @@ enum LocaleKey {
   interactiveUpgradableJson,
   interactiveContainerJson,
   lightJson,
+  otherJson,
   manMadeJson,
   outfitJson,
   packingCrateJson,

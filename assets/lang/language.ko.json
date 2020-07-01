@@ -16,6 +16,7 @@
   "interactiveContainerJson": "ko/interactiveContainers.lang",
   "lightJson": "ko/lights.lang",
   "manMadeJson": "ko/manMade.lang",
+  "otherJson": "ko/other.lang",
   "outfitJson": "ko/outfitPackage.lang",
   "packingCrateJson": "ko/packingCrates.lang",
   "plantJson": "ko/plantables.lang",

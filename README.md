@@ -24,7 +24,7 @@ Build: [![Build Status](https://dev.azure.com/khaoznet/Scrap%20Mechanic%20Assist
 
 ## How to run
  - Ensure that Flutter is installed and working.
- - flutter run
+ - `flutter run`
 
 ## Contributing
  - Issues and PullRequests welcome

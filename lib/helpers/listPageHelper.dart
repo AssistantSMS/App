@@ -1,12 +1,7 @@
 import '../localization/localeKey.dart';
 
-LocaleKey getCraftBotPageName() => LocaleKey.craftBot;
 List<LocaleKey> getCraftBotPageLocales() => [LocaleKey.craftBotRecipeJson];
-
-LocaleKey getCookBotPageName() => LocaleKey.cookingBot;
 List<LocaleKey> getCookBotPageLocales() => [LocaleKey.cookBotRecipeJson];
-
-LocaleKey getBlocksAndItemsPageName() => LocaleKey.blocksAndItems;
 List<LocaleKey> getBlocksAndItemsPageLocales() => [
       LocaleKey.blocksJson,
       LocaleKey.buildingJson,
@@ -38,20 +33,8 @@ List<LocaleKey> getBlocksAndItemsPageLocales() => [
       LocaleKey.warehouseJson,
     ];
 
-LocaleKey getWorkbenchPageName() => LocaleKey.workbench;
 List<LocaleKey> getWorkbenchPageLocales() => [LocaleKey.workbenchRecipeJson];
-
-LocaleKey getDispensorPageName() => LocaleKey.dispenser;
 List<LocaleKey> getDispensorPageLocales() => [LocaleKey.dispenserRecipeJson];
-
-LocaleKey getRefinerPageName() => LocaleKey.refiner;
 List<LocaleKey> getRefinerPageLocales() => [LocaleKey.refineryRecipeJson];
-
-LocaleKey getDressBotPageName() => LocaleKey.dressBot;
 List<LocaleKey> getDressBotPageLocales() => [LocaleKey.customisationJson];
-
-LocaleKey getHideoutPageName() => LocaleKey.hideout;
 List<LocaleKey> getHideoutPageLocales() => [LocaleKey.hideOutRecipeJson];
-
-LocaleKey getCartPageName() => LocaleKey.cart;
-LocaleKey getSteamNewsPageName() => LocaleKey.news;

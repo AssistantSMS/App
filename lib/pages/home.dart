@@ -42,11 +42,11 @@ class HomePage extends StatelessWidget {
               responsiveStaggeredGridImageTilePresenter(
             context,
             AppImage.craftTile,
-            text: getCraftBotPageName(),
+            text: LocaleKey.craftBot,
             onTap: () async => await navigateAwayFromHomeAsync(
               context,
               navigateTo: (context) => RecipeListPage(
-                getCraftBotPageName(),
+                LocaleKey.craftBot,
                 getCraftBotPageLocales(),
               ),
             ),
@@ -58,11 +58,11 @@ class HomePage extends StatelessWidget {
               responsiveStaggeredGridImageTilePresenter(
             context,
             AppImage.traderTile,
-            text: getHideoutPageName(),
+            text: LocaleKey.hideout,
             onTap: () async => await navigateAwayFromHomeAsync(
               context,
               navigateTo: (context) => RecipeListPage(
-                getHideoutPageName(),
+                LocaleKey.hideout,
                 getHideoutPageLocales(),
               ),
             ),
@@ -74,11 +74,11 @@ class HomePage extends StatelessWidget {
               responsiveStaggeredGridImageTilePresenter(
             context,
             AppImage.block,
-            text: getBlocksAndItemsPageName(),
+            text: LocaleKey.blocksAndItems,
             onTap: () async => await navigateAwayFromHomeAsync(
               context,
               navigateTo: (context) => GameItemListPage(
-                getBlocksAndItemsPageName(),
+                LocaleKey.blocksAndItems,
                 getBlocksAndItemsPageLocales(),
               ),
             ),
@@ -90,11 +90,11 @@ class HomePage extends StatelessWidget {
               responsiveStaggeredGridImageTilePresenter(
             context,
             AppImage.workshopTile,
-            text: getWorkbenchPageName(),
+            text: LocaleKey.workbench,
             onTap: () async => await navigateAwayFromHomeAsync(
               context,
               navigateTo: (context) => RecipeListPage(
-                getWorkbenchPageName(),
+                LocaleKey.workbench,
                 getWorkbenchPageLocales(),
               ),
             ),
@@ -119,11 +119,11 @@ class HomePage extends StatelessWidget {
               responsiveStaggeredGridImageTilePresenter(
             context,
             AppImage.dressTile,
-            text: getDressBotPageName(),
+            text: LocaleKey.dressBot,
             onTap: () async => await navigateAwayFromHomeAsync(
               context,
               navigateTo: (context) => GameItemListPage(
-                getDressBotPageName(),
+                LocaleKey.dressBot,
                 getDressBotPageLocales(),
               ),
             ),
@@ -148,7 +148,7 @@ class HomePage extends StatelessWidget {
               responsiveStaggeredGridIconTilePresenter(
             context,
             Icons.shopping_cart,
-            text: getCartPageName(),
+            text: LocaleKey.cart,
             onTap: () async => await navigateAwayFromHomeAsync(
               context,
               navigateToNamed: Routes.cart,
@@ -161,7 +161,7 @@ class HomePage extends StatelessWidget {
               responsiveStaggeredGridIconTilePresenter(
             context,
             Icons.new_releases,
-            text: getSteamNewsPageName(),
+            text: LocaleKey.news,
             onTap: () async => await navigateAwayFromHomeAsync(
               context,
               navigateToNamed: Routes.steamNews,

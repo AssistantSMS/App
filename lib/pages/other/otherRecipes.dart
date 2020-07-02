@@ -41,11 +41,11 @@ class OtherRecipesPage extends StatelessWidget {
               responsiveStaggeredGridImageTilePresenter(
             context,
             AppImage.refinerTile,
-            text: LocaleKey.other,
+            text: LocaleKey.refiner,
             onTap: () async => await navigateAwayFromHomeAsync(
               context,
               navigateTo: (context) => RecipeListPage(
-                getRefinerPageName(),
+                LocaleKey.refiner,
                 getRefinerPageLocales(),
               ),
             ),
@@ -57,11 +57,11 @@ class OtherRecipesPage extends StatelessWidget {
               responsiveStaggeredGridImageTilePresenter(
             context,
             AppImage.resourceTile,
-            text: getDispensorPageName(),
+            text: LocaleKey.dispenser,
             onTap: () async => await navigateAwayFromHomeAsync(
               context,
               navigateTo: (context) => RecipeListPage(
-                getDispensorPageName(),
+                LocaleKey.dispenser,
                 getDispensorPageLocales(),
               ),
             ),
@@ -73,11 +73,11 @@ class OtherRecipesPage extends StatelessWidget {
               responsiveStaggeredGridImageTilePresenter(
             context,
             AppImage.cookingTile,
-            text: getCookBotPageName(),
+            text: LocaleKey.cookingBot,
             onTap: () async => await navigateAwayFromHomeAsync(
               context,
               navigateTo: (context) => RecipeListPage(
-                getCookBotPageName(),
+                LocaleKey.cookingBot,
                 getCookBotPageLocales(),
               ),
             ),

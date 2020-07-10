@@ -182,4 +182,21 @@ class RaidHelper {
 
     return spawns;
   }
+
+  static List<String> getPlantsWithQuantity(RaidFarmDetails details) {
+    List<String> plantIds = List<String>();
+
+    if (details.carrot > 0) plantIds.add(carrotId);
+    if (details.tomato > 0) plantIds.add(tomatoId);
+    if (details.beetroot > 0) plantIds.add(beetrootId);
+    if (details.banana > 0) plantIds.add(bananaId);
+    if (details.berry > 0) plantIds.add(berryId);
+    if (details.orange > 0) plantIds.add(orangeId);
+    if (details.potato > 0) plantIds.add(potatoId);
+    if (details.pineapple > 0) plantIds.add(pineappleId);
+    if (details.broccoli > 0) plantIds.add(broccoliId);
+    if (details.cotton > 0) plantIds.add(cottonId);
+
+    return plantIds;
+  }
 }

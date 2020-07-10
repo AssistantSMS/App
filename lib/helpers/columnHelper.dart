@@ -46,3 +46,13 @@ int raidCustomColumnCount(Breakpoint breakpoint) {
 
   return 4;
 }
+
+bool isMobileScreenWidth(Breakpoint breakpoint) {
+  if (breakpoint.window == WindowSize.xsmall) return true;
+  if (breakpoint.window == WindowSize.small) return true;
+  if (breakpoint.window == WindowSize.medium) return false;
+  if (breakpoint.window == WindowSize.large) return false;
+  if (breakpoint.window == WindowSize.xlarge) return false;
+
+  return false;
+}

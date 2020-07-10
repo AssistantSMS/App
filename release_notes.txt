@@ -1,1 +1,1 @@
-Initial Release
+- Made Raid Calculator more mobile friendly

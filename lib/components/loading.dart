@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:scrapmechanic_kurtlourens_com/components/common/image.dart';
 
 import '../constants/AppImage.dart';
 import '../localization/localeKey.dart';
@@ -7,6 +8,11 @@ import '../localization/translations.dart';
 
 Widget smallLoadingIndicator() => CustomSpinner();
 // Widget smallLoadingIndicator() => isiOS ? CupertinoActivityIndicator() : CircularProgressIndicator();
+
+Widget listTileLoading(context, {String loadingText}) => ListTile(
+      leading: localImage(AppImage.customLoading),
+      title: Text(loadingText ?? Translations.get(context, LocaleKey.loading)),
+    );
 
 Widget fullPageLoading(context, {String loadingText}) => Container(
       child: Column(

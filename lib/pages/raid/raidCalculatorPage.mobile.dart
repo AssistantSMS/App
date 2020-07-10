@@ -1,0 +1,81 @@
+import 'package:flutter/material.dart';
+import 'package:scrapmechanic_kurtlourens_com/components/adaptive/listWithScrollbar.dart';
+import 'package:scrapmechanic_kurtlourens_com/components/tilePresenters/genericTilePresenter.dart';
+import 'package:scrapmechanic_kurtlourens_com/contracts/misc/popupMenuActionItem.dart';
+import 'package:scrapmechanic_kurtlourens_com/helpers/popupMenuButtonHelper.dart';
+import 'package:scrapmechanic_kurtlourens_com/integration/logging.dart';
+
+import '../../components/adaptive/gridWithScrollbar.dart';
+import '../../components/common/image.dart';
+import '../../components/tilePresenters/raidTilePresenter.dart';
+import '../../components/webSpecific/mousePointer.dart';
+import '../../contracts/raid/raidFarmDetails.dart';
+import '../../helpers/columnHelper.dart';
+import '../../helpers/external.dart';
+import '../../helpers/raidHelper.dart';
+import '../../localization/localeKey.dart';
+import '../../localization/translations.dart';
+
+const greenyDevGithubImage =
+    'https://avatars0.githubusercontent.com/u/3734204?s=460&u=7eb6ec6aa9200855109647c7fcdd159069b673fe&v=4';
+const greenyDevGithubLink = 'https://github.com/greeny/?ref=AssistantSMS';
+const greenyDevTool = 'https://scrapmechanic.greeny.dev/?ref=AssistantSMS';
+
+class RaidCalcMobileInputScreen extends StatelessWidget {
+  final RaidFarmDetails currentDetails;
+  final Function(RaidFarmDetails) setFarmQuantity;
+  RaidCalcMobileInputScreen(this.setFarmQuantity, this.currentDetails);
+
+  @override
+  Widget build(BuildContext context) {
+    var currentPlants = RaidHelper.getPlantsWithQuantity(currentDetails);
+    bool hasAllPlants = currentPlants.length >= RaidHelper.plants.length;
+
+    List<Widget> columnWidgets = List<Widget>();
+    var onGreenyPress = () => launchExternalURL(greenyDevTool);
+    columnWidgets.add(genericListTileWithNetworkImage(
+      context,
+      imageUrl: greenyDevGithubImage,
+      name: Translations.get(context, LocaleKey.originalWorkByGreenyDev),
+      trailing: popupMenu(context, additionalItems: [
+        PopupMenuActionItem(
+          icon: Icons.open_in_new,
+          text: 'Open tool in new Window',
+          onPressed: onGreenyPress,
+        )
+      ]),
+      onTap: onGreenyPress,
+    ));
+
+    for (var plantId in currentPlants) {
+      columnWidgets.add(
+        raidTilePresenter(
+          context,
+          plantId,
+          currentDetails,
+          onEdit: _setFarmQuantity,
+          onDelete: (String itemId) => _setFarmQuantity(itemId, 0),
+        ),
+      );
+    }
+
+    if (!hasAllPlants) {
+      columnWidgets.add(raidAddPlantTilePresenter(context, _setFarmQuantity));
+    }
+
+    return Column(children: columnWidgets);
+  }
+
+  void _setFarmQuantity(String itemId, int quantity) {
+    RaidFarmDetails temp = RaidHelper.setFarmDetailsQuantity(
+      currentDetails,
+      itemId,
+      quantity,
+    );
+
+    if (temp == null) return;
+    if (setFarmQuantity == null) return;
+
+    setFarmQuantity(temp);
+  }
+}

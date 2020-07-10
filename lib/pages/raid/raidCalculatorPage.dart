@@ -1,17 +1,14 @@
+import 'package:breakpoint/breakpoint.dart';
 import 'package:flutter/material.dart';
 
-import '../../components/adaptive/gridWithScrollbar.dart';
 import '../../components/adaptive/listWithScrollbar.dart';
-import '../../components/common/image.dart';
 import '../../components/scaffoldTemplates/genericPageScaffold.dart';
-import '../../components/tilePresenters/raidTilePresenter.dart';
-import '../../components/webSpecific/mousePointer.dart';
 import '../../contracts/raid/raidFarmDetails.dart';
 import '../../helpers/columnHelper.dart';
-import '../../helpers/external.dart';
-import '../../helpers/raidHelper.dart';
 import '../../localization/localeKey.dart';
 import '../../localization/translations.dart';
+import 'raidCalculatorPage.desktop.dart';
+import 'raidCalculatorPage.mobile.dart';
 import 'raidCalculatorResultComponent.dart';
 
 const greenyDevGithubImage =
@@ -28,50 +25,14 @@ class RaidCalcPage extends StatefulWidget {
 
 // https://scrapmechanic.greeny.dev/
 class _RaidCalcWidget extends State<RaidCalcPage> {
-  Widget _inputScreen = Container(width: 0, height: 0);
-  _RaidCalcWidget() {
-    _inputScreen = gridWithScrollbar(
-      itemCount: (RaidHelper.plants.length + 1),
-      gridViewColumnCalculator: raidCustomColumnCount,
-      itemBuilder: (context, index) {
-        if (index < RaidHelper.plants.length) {
-          return raidGridTilePresenter(
-            context,
-            RaidHelper.plants[index],
-            setFarmQuantity,
-          );
-        }
-        return GestureDetector(
-          child: Card(
-            child: Column(
-              children: [
-                networkImage(greenyDevGithubImage, height: 110),
-                Padding(
-                  child: Text(
-                    Translations.get(
-                        context, LocaleKey.originalWorkByGreenyDev),
-                    textAlign: TextAlign.center,
-                  ),
-                  padding: EdgeInsets.all(8),
-                ),
-              ],
-            ),
-          ),
-          onTap: () => launchExternalURL(greenyDevTool),
-        ).showPointerOnHover;
-      },
-    );
-  }
-
+  Widget _desktopInputScreen = Container(width: 0, height: 0);
   RaidFarmDetails details = RaidFarmDetails();
 
-  void setFarmQuantity(String itemId, int quantity) {
-    RaidFarmDetails temp = RaidHelper.setFarmDetailsQuantity(
-      details,
-      itemId,
-      quantity,
-    );
+  _RaidCalcWidget() {
+    _desktopInputScreen = RaidCalcDesktopInputScreen(setFarmQuantity, details);
+  }
 
+  void setFarmQuantity(RaidFarmDetails temp) {
     if (temp == null) return;
 
     this.setState(() {
@@ -85,16 +46,26 @@ class _RaidCalcWidget extends State<RaidCalcPage> {
       context,
       Translations.get(context, LocaleKey.raidCalculator),
       null,
-      body: getBody,
+      body: (BuildContext innerContext, _) => BreakpointBuilder(
+        builder: (BuildContext innerContext, Breakpoint breakpoint) {
+          var showMobileView = isMobileScreenWidth(breakpoint);
+          return getBody(innerContext, showMobileView);
+        },
+      ),
       showShortcutLinks: true,
     );
   }
 
-  Widget getBody(BuildContext context, dynamic snapshot) {
+  Widget getBody(BuildContext context, bool showMobileView) {
     List<Widget> columnWidgets = List<Widget>();
 
-    columnWidgets.add(_inputScreen);
-    columnWidgets.add(RaidCalculatorResultComponent(details));
+    if (showMobileView) {
+      columnWidgets.add(RaidCalcMobileInputScreen(setFarmQuantity, details));
+      columnWidgets.add(Divider());
+    } else {
+      columnWidgets.add(_desktopInputScreen);
+    }
+    columnWidgets.add(RaidCalculatorResultComponent(details, showMobileView));
 
     return listWithScrollbar(
         itemCount: columnWidgets.length,

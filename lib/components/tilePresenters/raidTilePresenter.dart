@@ -1,7 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:scrapmechanic_kurtlourens_com/components/dialogs/quantityDialog.dart';
+import 'package:scrapmechanic_kurtlourens_com/components/loading.dart';
+import 'package:scrapmechanic_kurtlourens_com/components/tilePresenters/genericTilePresenter.dart';
 import 'package:scrapmechanic_kurtlourens_com/constants/AppImage.dart';
+import 'package:scrapmechanic_kurtlourens_com/contracts/raid/raidFarmDetails.dart';
 import 'package:scrapmechanic_kurtlourens_com/contracts/raid/raidSpawn.dart';
+import 'package:scrapmechanic_kurtlourens_com/contracts/search/dropdownOption.dart';
+import 'package:scrapmechanic_kurtlourens_com/helpers/navigationHelper.dart';
+import 'package:scrapmechanic_kurtlourens_com/helpers/popupMenuButtonHelper.dart';
+import 'package:scrapmechanic_kurtlourens_com/localization/localeKey.dart';
+import 'package:scrapmechanic_kurtlourens_com/localization/translations.dart';
+import 'package:dotted_border/dotted_border.dart';
+import 'package:scrapmechanic_kurtlourens_com/pages/dialog/optionsListPageDialog.dart';
 
 import '../../contracts/recipeIngredient/recipeIngredient.dart';
 import '../../contracts/recipeIngredient/recipeIngredientDetail.dart';
@@ -9,6 +20,7 @@ import '../../contracts/results/resultWithValue.dart';
 import '../../helpers/colourHelper.dart';
 import '../../helpers/futureHelper.dart';
 import '../../helpers/snapshotHelper.dart';
+import '../../helpers/raidHelper.dart';
 import '../common/image.dart';
 
 Widget raidGridTilePresenter(BuildContext context, String itemId,
@@ -21,6 +33,148 @@ Widget raidGridTilePresenter(BuildContext context, String itemId,
       Widget errorWidget = asyncSnapshotHandler(context, snapshot);
       if (errorWidget != null) return errorWidget;
       return raidDetailGridTilePresenter(context, snapshot.data.value, onEdit);
+    },
+  );
+}
+
+Widget raidTilePresenter(
+  BuildContext context,
+  String itemId,
+  RaidFarmDetails currentDetails, {
+  void Function(String itemId, int quantity) onEdit,
+  void Function(String itemId) onDelete,
+}) {
+  return FutureBuilder<ResultWithValue<RecipeIngredientDetails>>(
+    future:
+        getRecipeIngredientDetailsFuture(context, RecipeIngredient(id: itemId)),
+    builder: (BuildContext context,
+        AsyncSnapshot<ResultWithValue<RecipeIngredientDetails>> snapshot) {
+      Widget errorWidget = asyncSnapshotHandler(context, snapshot);
+      if (errorWidget != null) return errorWidget;
+
+      RecipeIngredientDetails plantDetail = snapshot.data.value;
+      int plantQuantity = RaidHelper.getPlantQuantity(currentDetails, itemId);
+
+      var localOnEdit = () =>
+          showQuantityDialog(context, TextEditingController(),
+              onSuccess: (String quantityString) {
+            int quantity = int.tryParse(quantityString);
+            if (quantity == null) return;
+            if (onEdit == null) return;
+            onEdit(plantDetail.id, quantity);
+          });
+
+      return raidPlantDetailTilePresenter(
+        context,
+        plantDetail,
+        plantQuantity,
+        onTap: localOnEdit,
+        onEdit: localOnEdit,
+        onDelete: () => onDelete(plantDetail.id),
+      );
+    },
+  );
+}
+
+Widget raidPlantDetailTilePresenter(
+  BuildContext context,
+  RecipeIngredientDetails plantDetail,
+  int plantQuantity, {
+  void Function() onTap,
+  void Function() onEdit,
+  void Function() onDelete,
+}) {
+  return genericListTile(
+    context,
+    leadingImage: plantDetail.icon,
+    name: plantDetail.title,
+    quantity: plantQuantity,
+    onTap: onTap,
+    trailing: popupMenu(context, onEdit: onEdit, onDelete: onDelete),
+  );
+}
+
+Widget raidAddPlantTilePresenter(
+    BuildContext context, void Function(String itemId, int quantity) onEdit) {
+  List<RecipeIngredient> inputs = List<RecipeIngredient>();
+  for (var plantId in RaidHelper.plants) {
+    inputs.add(RecipeIngredient(id: plantId, quantity: 0));
+  }
+  return FutureBuilder<ResultWithValue<List<RecipeIngredientDetails>>>(
+    future: recipeIngredientDetailsFuture(context, inputs),
+    builder: (BuildContext context,
+        AsyncSnapshot<ResultWithValue<List<RecipeIngredientDetails>>>
+            snapshot) {
+      Widget errorWidget = asyncSnapshotHandler(
+        context,
+        snapshot,
+        loader: () => listTileLoading(context),
+      );
+      if (errorWidget != null) return errorWidget;
+      return _raidAddPlantTileContent(context, snapshot.data.value, onEdit);
+    },
+  );
+}
+
+Widget _raidAddPlantTileContent(
+    BuildContext context,
+    List<RecipeIngredientDetails> platsWithDetails,
+    void Function(String itemId, int quantity) onEdit) {
+  List<DropdownOption> options = List<DropdownOption>();
+  for (var plantDetails in platsWithDetails) {
+    options.add(DropdownOption(plantDetails.title, value: plantDetails.id));
+  }
+  return ListTile(
+    leading: SizedBox(
+      width: 50,
+      height: 50,
+      child: DottedBorder(
+        borderType: BorderType.RRect,
+        radius: Radius.circular(12),
+        padding: EdgeInsets.all(6),
+        dashPattern: [8, 4],
+        color: getSecondaryColour(context),
+        child: ClipRRect(
+          borderRadius: BorderRadius.all(Radius.circular(12)),
+          child: Center(
+            child: Icon(Icons.add),
+          ),
+        ),
+      ),
+    ),
+    title: Text(Translations.get(context, LocaleKey.addTag)),
+    onTap: () async {
+      String tempPlantId = await navigateAsync(
+        context,
+        navigateTo: (context) => OptionsListPageDialog(
+          Translations.get(context, LocaleKey.raidCalculator),
+          options,
+          customPresenter:
+              (BuildContext innerC, DropdownOption dropOpt, int index) {
+            RecipeIngredientDetails currentPlantDetails =
+                RecipeIngredientDetails();
+            for (RecipeIngredientDetails plantDetails in platsWithDetails) {
+              if (plantDetails.id == dropOpt.value) {
+                currentPlantDetails = plantDetails;
+              }
+            }
+            return raidPlantDetailTilePresenter(
+              innerC,
+              currentPlantDetails,
+              0,
+              onTap: () => Navigator.of(context).pop(currentPlantDetails.id),
+            );
+          },
+        ),
+      );
+      if (tempPlantId == null || tempPlantId.length <= 0) return;
+      showQuantityDialog(context, TextEditingController(),
+          onSuccess: (String quantityString) {
+        int quantity = int.tryParse(quantityString);
+        if (quantity == null) return;
+        if (onEdit == null) return;
+        onEdit(tempPlantId, quantity);
+      });
     },
   );
 }
@@ -40,7 +194,9 @@ Widget raidDetailGridTilePresenter(
               controller: _controller,
               textAlign: TextAlign.center,
               cursorColor: getSecondaryColour(context),
-              decoration: InputDecoration(hintText: details.title),
+              decoration: InputDecoration(
+                hintText: "# of ${details.title} plots",
+              ),
               keyboardType: TextInputType.number,
               inputFormatters: <TextInputFormatter>[
                 WhitelistingTextInputFormatter.digitsOnly
@@ -59,12 +215,13 @@ Widget raidDetailGridTilePresenter(
   );
 }
 
-Widget raidAttackerTilePresenter(BuildContext context, RaidSpawn spawn) {
+Widget raidAttackerTilePresenter(
+    BuildContext context, RaidSpawn spawn, bool isMobileView) {
   List<Widget> rowWidgets = List<Widget>();
   if (spawn.totebot > 0) {
     rowWidgets.add(
       Row(children: [
-        getRaidAttackerImg(AppImage.totebot),
+        getRaidAttackerImg(AppImage.totebot, isMobileView),
         getRaidAttackerCount(spawn.totebot),
       ], mainAxisSize: MainAxisSize.min),
     );
@@ -72,7 +229,7 @@ Widget raidAttackerTilePresenter(BuildContext context, RaidSpawn spawn) {
   if (spawn.haybot > 0) {
     rowWidgets.add(
       Row(children: [
-        getRaidAttackerImg(AppImage.haybot),
+        getRaidAttackerImg(AppImage.haybot, isMobileView),
         getRaidAttackerCount(spawn.haybot),
       ], mainAxisSize: MainAxisSize.min),
     );
@@ -80,7 +237,7 @@ Widget raidAttackerTilePresenter(BuildContext context, RaidSpawn spawn) {
   if (spawn.tapebot > 0) {
     rowWidgets.add(
       Row(children: [
-        getRaidAttackerImg(AppImage.tapebot),
+        getRaidAttackerImg(AppImage.tapebot, isMobileView),
         getRaidAttackerCount(spawn.tapebot),
       ], mainAxisSize: MainAxisSize.min),
     );
@@ -88,7 +245,7 @@ Widget raidAttackerTilePresenter(BuildContext context, RaidSpawn spawn) {
   if (spawn.farmbot > 0) {
     rowWidgets.add(
       Row(children: [
-        getRaidAttackerImg(AppImage.farmbot),
+        getRaidAttackerImg(AppImage.farmbot, isMobileView),
         getRaidAttackerCount(spawn.farmbot),
       ], mainAxisSize: MainAxisSize.min),
     );
@@ -103,7 +260,10 @@ Widget raidAttackerTilePresenter(BuildContext context, RaidSpawn spawn) {
   );
 }
 
-Widget getRaidAttackerImg(String path) => localImage(path, height: 100);
+Widget getRaidAttackerImg(String path, bool isMobileView) => localImage(
+      path,
+      height: isMobileView ? 75 : 100,
+    );
 Widget getRaidAttackerCount(int quantity) => Center(
       child: Text(
         ' x$quantity',

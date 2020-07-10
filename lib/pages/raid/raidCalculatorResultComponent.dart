@@ -10,8 +10,9 @@ import '../../localization/translations.dart';
 
 class RaidCalculatorResultComponent extends StatelessWidget {
   final RaidFarmDetails details;
+  final bool showMobileView;
 
-  RaidCalculatorResultComponent(this.details);
+  RaidCalculatorResultComponent(this.details, this.showMobileView);
 
   @override
   Widget build(BuildContext context) {
@@ -32,7 +33,11 @@ class RaidCalculatorResultComponent extends StatelessWidget {
       widgets.add(genericItemGroup(
         template.replaceAll('{0}', (spawnIndex + 1).toString()),
       ));
-      widgets.add(raidAttackerTilePresenter(context, spawns[spawnIndex]));
+      widgets.add(raidAttackerTilePresenter(
+        context,
+        spawns[spawnIndex],
+        showMobileView,
+      ));
       widgets.add(emptySpace2x());
     }
     widgets.add(emptySpace8x());

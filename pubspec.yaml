@@ -30,6 +30,7 @@ dependencies:
   step_progress_indicator: ^0.2.3+6
   flash: "^1.2.0" # Snackbar
   giffy_dialog: ^1.7.0
+  dotted_border: ^1.0.5
   # Base
   get_it: 4.0.2
   http: 0.12.0+2

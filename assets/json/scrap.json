@@ -12,7 +12,13 @@
     },
     "Flammable": true,
     "Density": 0.0,
-    "QualityLevel": 0
+    "QualityLevel": 0,
+    "Features": [
+      {
+        "LocaleKey": "maxConnections",
+        "Value": "2"
+      }
+    ]
   },
   {
     "Id": "scrap2",
@@ -67,6 +73,24 @@
     },
     "Flammable": true,
     "Density": 1250.0,
-    "QualityLevel": 0
+    "QualityLevel": 0,
+    "Features": [
+      {
+        "LocaleKey": "gearCount",
+        "Value": "4"
+      },
+      {
+        "LocaleKey": "velocity",
+        "Value": "90"
+      },
+      {
+        "LocaleKey": "bearingCount",
+        "Value": "3"
+      },
+      {
+        "LocaleKey": "pointsPerBattery",
+        "Value": "3000"
+      }
+    ]
   }
 ]

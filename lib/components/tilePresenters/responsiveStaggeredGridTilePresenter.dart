@@ -123,11 +123,12 @@ Widget responsiveStaggeredGridBaseTilePresenter(
           Translations.get(context, text),
           textAlign: TextAlign.center,
           maxLines: 1,
+          overflow: TextOverflow.ellipsis,
           style: TextStyle(
             color: getForegroundTextColour(backgroundColor),
           ),
         ),
-        padding: EdgeInsets.only(left: 8, top: 4, right: 8),
+        padding: EdgeInsets.symmetric(horizontal: 2),
       ),
       bottom: 4,
       left: 4,

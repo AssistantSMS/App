@@ -7,6 +7,7 @@ import '../components/adaptive/listWithScrollbar.dart';
 import '../constants/AnalyticsEvent.dart';
 import '../constants/ExternalUrls.dart';
 import '../helpers/analytics.dart';
+import '../helpers/deviceHelper.dart';
 import '../helpers/external.dart';
 import '../helpers/genericHelper.dart';
 import '../localization/localeKey.dart';
@@ -29,7 +30,7 @@ class DonationPage extends StatelessWidget {
       ),
       margin: const EdgeInsets.all(4.0),
     ));
-    items.add(Divider(key: Key('donationDescripDivider')));
+    items.add(customDivider());
 
     List<Widget> paymentOptions = List<Widget>();
 

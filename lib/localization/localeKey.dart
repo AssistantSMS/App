@@ -121,4 +121,5 @@ enum LocaleKey {
   cancel,
   translation,
   translationIssue,
+  addPlantPlot,
 }

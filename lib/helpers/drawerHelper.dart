@@ -33,7 +33,7 @@ Future<List<Widget>> getDrawerItems(context,
     ));
   }
 
-  widgets.add(Divider(thickness: .5));
+  widgets.add(customDivider());
 
   widgets.add(_drawerItem(
     context,
@@ -48,7 +48,7 @@ Future<List<Widget>> getDrawerItems(context,
     navigateToExternal: ExternalUrls.githubOrganization,
   ));
 
-  widgets.add(Divider(thickness: .5));
+  widgets.add(customDivider());
 
   widgets.add(_drawerItem(
     context,
@@ -75,18 +75,16 @@ Future<List<Widget>> getDrawerItems(context,
       await currentAppVersionFuture;
 
   String appVersion = 'App Version ';
-  Widget gameVersion = Text('Game Version: 0.4.6', textAlign: TextAlign.center);
-  widgets.add(Divider(thickness: .5));
+  Widget gameVersion = Text('Game Version: 0.4.6');
+  widgets.add(customDivider());
   if (packageInfoResult.isSuccess) {
     var versionText = packageInfoResult.value != null
         ? packageInfoResult.value.version
         : Translations.get(context, LocaleKey.loading);
     widgets.add(ListTile(
       key: Key('versionNumber'),
-      title: Text(
-        '$appVersion $versionText',
-        textAlign: TextAlign.center,
-      ),
+      leading: getCorrectlySizedImageFromIcon(context, Icons.code),
+      title: Text('$appVersion $versionText'),
       subtitle: gameVersion,
       dense: true,
     ));

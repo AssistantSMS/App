@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
 
-import '../../components/tilePresenters/genericTilePresenter.dart';
+import '../../components/common/image.dart';
 import '../../components/tilePresenters/raidTilePresenter.dart';
 import '../../contracts/misc/popupMenuActionItem.dart';
 import '../../contracts/raid/raidFarmDetails.dart';
+import '../../helpers/deviceHelper.dart';
 import '../../helpers/external.dart';
+import '../../helpers/genericHelper.dart';
 import '../../helpers/popupMenuButtonHelper.dart';
 import '../../helpers/raidHelper.dart';
 import '../../localization/localeKey.dart';
@@ -27,10 +29,17 @@ class RaidCalcMobileInputScreen extends StatelessWidget {
 
     List<Widget> columnWidgets = List<Widget>();
     var onGreenyPress = () => launchExternalURL(greenyDevTool);
-    columnWidgets.add(genericListTileWithNetworkImage(
-      context,
-      imageUrl: greenyDevGithubImage,
-      name: Translations.get(context, LocaleKey.originalWorkByGreenyDev),
+    columnWidgets.add(ListTile(
+      leading: Padding(
+        padding: EdgeInsets.only(right: 6),
+        child: networkImage(
+          greenyDevGithubImage,
+          boxfit: BoxFit.contain,
+          height: 50.0,
+          width: 50.0,
+        ),
+      ),
+      title: Text(Translations.get(context, LocaleKey.originalWorkByGreenyDev)),
       trailing: popupMenu(context, additionalItems: [
         PopupMenuActionItem(
           icon: Icons.open_in_new,
@@ -54,7 +63,12 @@ class RaidCalcMobileInputScreen extends StatelessWidget {
     }
 
     if (!hasAllPlants) {
-      columnWidgets.add(raidAddPlantTilePresenter(context, _setFarmQuantity));
+      columnWidgets.add(raidAddPlantTilePresenter(
+        context,
+        currentDetails,
+        _setFarmQuantity,
+      ));
+      columnWidgets.add(emptySpace1x());
     }
 
     return Column(children: columnWidgets);

@@ -22,3 +22,5 @@ List<Widget> actionItemToAppleAction(context, List<ActionItem> actions) =>
               onTap: a.onPressed,
             ))
         .toList();
+
+Widget customDivider() => isWeb ? Divider(thickness: .5) : Divider();

@@ -5,6 +5,8 @@ import '../../components/adaptive/listWithScrollbar.dart';
 import '../../components/scaffoldTemplates/genericPageScaffold.dart';
 import '../../contracts/raid/raidFarmDetails.dart';
 import '../../helpers/columnHelper.dart';
+import '../../helpers/deviceHelper.dart';
+import '../../helpers/genericHelper.dart';
 import '../../localization/localeKey.dart';
 import '../../localization/translations.dart';
 import 'raidCalculatorPage.desktop.dart';
@@ -46,6 +48,9 @@ class _RaidCalcWidget extends State<RaidCalcPage> {
       context,
       Translations.get(context, LocaleKey.raidCalculator),
       null,
+      // shortcutActions: [
+      //   ActionItem(icon: Icons.plant)
+      // ],
       body: (BuildContext innerContext, _) => BreakpointBuilder(
         builder: (BuildContext innerContext, Breakpoint breakpoint) {
           var showMobileView = isMobileScreenWidth(breakpoint);
@@ -61,7 +66,7 @@ class _RaidCalcWidget extends State<RaidCalcPage> {
 
     if (showMobileView) {
       columnWidgets.add(RaidCalcMobileInputScreen(setFarmQuantity, details));
-      columnWidgets.add(Divider());
+      columnWidgets.add(customDivider());
     } else {
       columnWidgets.add(_desktopInputScreen);
     }

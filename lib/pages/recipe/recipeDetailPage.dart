@@ -20,6 +20,7 @@ import '../../contracts/recipeIngredient/recipeIngredientDetail.dart';
 import '../../contracts/results/resultWithValue.dart';
 import '../../helpers/analytics.dart';
 import '../../helpers/colourHelper.dart';
+import '../../helpers/deviceHelper.dart';
 import '../../helpers/futureHelper.dart';
 import '../../helpers/genericHelper.dart';
 import '../../helpers/navigationHelper.dart';
@@ -142,7 +143,7 @@ class RecipeDetailPage extends StatelessWidget {
       widgets.add(genericItemDescription(timeToCraft));
     }
 
-    widgets.add(Divider());
+    widgets.add(customDivider());
     widgets.add(emptySpace1x());
 
     LocaleKey localeKey = LocaleKey.craftedUsing;

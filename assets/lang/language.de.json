@@ -117,6 +117,7 @@
 	"cancel": "Abbrechen",
 	"translation": "Übersetzung",
 	"translationIssue": "Bitte beachte, dass Scrap Mechanic noch nicht komplett in deine Sprache ( {0} ) übersetzt ist.\nEs wird Gegenstände geben, die noch nicht on deiner Sprache vorhanden sind.",
+	"addPlantPlot": "Add plant plot",
 	"translatedBy": [
 		{
 			"name": "Sphynxcolt",

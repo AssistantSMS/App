@@ -1,6 +1,6 @@
-import 'package:scrapmechanic_kurtlourens_com/contracts/raid/raidAttack.dart';
-import 'package:scrapmechanic_kurtlourens_com/contracts/raid/raidFarmDetails.dart';
-import 'package:scrapmechanic_kurtlourens_com/contracts/raid/raidSpawn.dart';
+import '../contracts/raid/raidAttack.dart';
+import '../contracts/raid/raidFarmDetails.dart';
+import '../contracts/raid/raidSpawn.dart';
 
 class RaidHelper {
   static const String carrotId = "plant14";

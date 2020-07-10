@@ -95,9 +95,14 @@ Widget raidPlantDetailTilePresenter(
 }
 
 Widget raidAddPlantTilePresenter(
-    BuildContext context, void Function(String itemId, int quantity) onEdit) {
+    BuildContext context,
+    RaidFarmDetails currentDetails,
+    void Function(String itemId, int quantity) onEdit) {
+  var currentPlants = RaidHelper.getPlantsWithQuantity(currentDetails);
+
   List<RecipeIngredient> inputs = List<RecipeIngredient>();
   for (var plantId in RaidHelper.plants) {
+    if (currentPlants.contains(plantId)) continue;
     inputs.add(RecipeIngredient(id: plantId, quantity: 0));
   }
   return FutureBuilder<ResultWithValue<List<RecipeIngredientDetails>>>(
@@ -126,23 +131,26 @@ Widget _raidAddPlantTileContent(
   }
   return ListTile(
     leading: SizedBox(
-      width: 50,
-      height: 50,
-      child: DottedBorder(
-        borderType: BorderType.RRect,
-        radius: Radius.circular(12),
-        padding: EdgeInsets.all(6),
-        dashPattern: [8, 4],
-        color: getSecondaryColour(context),
-        child: ClipRRect(
-          borderRadius: BorderRadius.all(Radius.circular(12)),
-          child: Center(
-            child: Icon(Icons.add),
+      width: 55,
+      height: 55,
+      child: Padding(
+        padding: EdgeInsets.all(4),
+        child: DottedBorder(
+          borderType: BorderType.RRect,
+          radius: Radius.circular(12),
+          padding: EdgeInsets.all(6),
+          dashPattern: [8, 4],
+          color: getSecondaryColour(context),
+          child: ClipRRect(
+            borderRadius: BorderRadius.all(Radius.circular(12)),
+            child: Center(
+              child: Icon(Icons.add),
+            ),
           ),
         ),
       ),
     ),
-    title: Text(Translations.get(context, LocaleKey.addTag)),
+    title: Text(Translations.get(context, LocaleKey.addPlantPlot)),
     onTap: () async {
       String tempPlantId = await navigateAsync(
         context,

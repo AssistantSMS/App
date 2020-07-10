@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
-import 'package:scrapmechanic_kurtlourens_com/components/tilePresenters/cartTilePresenter.dart';
 
 import '../../components/adaptive/listWithScrollbar.dart';
 import '../../components/common/cachedFutureBuilder.dart';
@@ -23,6 +22,7 @@ import '../../contracts/results/resultWithValue.dart';
 import '../../contracts/usedInRecipe/usedInRecipe.dart';
 import '../../helpers/analytics.dart';
 import '../../helpers/colourHelper.dart';
+import '../../helpers/deviceHelper.dart';
 import '../../helpers/futureHelper.dart';
 import '../../helpers/genericHelper.dart';
 import '../../helpers/navigationHelper.dart';
@@ -158,7 +158,7 @@ class GameItemDetailPage extends StatelessWidget {
     for (CraftedUsing craftingRecipe in craftingRecipes) {
       var stationName = Translations.get(context, craftingRecipe.name);
       widgets.add(emptySpace1x());
-      widgets.add(Divider());
+      widgets.add(customDivider());
       widgets.add(emptySpace1x());
       widgets.add(getTextSpanFromTemplateAndArray(
         context,
@@ -207,7 +207,7 @@ class GameItemDetailPage extends StatelessWidget {
 
     for (UsedInRecipe usedInRecipe in usedInRecipes) {
       widgets.add(emptySpace1x());
-      widgets.add(Divider());
+      widgets.add(customDivider());
       widgets.add(emptySpace1x());
       var name = Translations.get(context, usedInRecipe.name);
       widgets.add(getTextSpanFromTemplateAndArray(

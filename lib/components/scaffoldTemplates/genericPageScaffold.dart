@@ -8,6 +8,7 @@ import '../adaptive/appScaffold.dart';
 Widget genericPageScaffold<T>(context, String title, snapshot,
     {Widget Function(BuildContext context, AsyncSnapshot<T> snapshot) body,
     bool showShortcutLinks = false,
+    List<ActionItem> shortcutActions,
     floatingActionButton}) {
   List<ActionItem> actions = List<ActionItem>();
   actions.add(ActionItem(
@@ -20,6 +21,7 @@ Widget genericPageScaffold<T>(context, String title, snapshot,
       context,
       title: Text(title),
       actions: actions,
+      shortcutActions: shortcutActions,
     ),
     body: body(context, snapshot),
     floatingActionButton: floatingActionButton,

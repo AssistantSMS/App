@@ -118,10 +118,5 @@
 	"translation": "Übersetzung",
 	"translationIssue": "Bitte beachte, dass Scrap Mechanic noch nicht komplett in deine Sprache ( {0} ) übersetzt ist.\nEs wird Gegenstände geben, die noch nicht on deiner Sprache vorhanden sind.",
 	"addPlantPlot": "Add plant plot",
-	"translatedBy": [
-		{
-			"name": "Sphynxcolt",
-			"link": ""
-		}
-	]
+	"getXByTradingY": "Get {0} at the {1} in exchange for:"
 }

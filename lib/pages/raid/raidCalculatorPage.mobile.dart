@@ -4,7 +4,6 @@ import '../../components/common/image.dart';
 import '../../components/tilePresenters/raidTilePresenter.dart';
 import '../../contracts/misc/popupMenuActionItem.dart';
 import '../../contracts/raid/raidFarmDetails.dart';
-import '../../helpers/deviceHelper.dart';
 import '../../helpers/external.dart';
 import '../../helpers/genericHelper.dart';
 import '../../helpers/popupMenuButtonHelper.dart';

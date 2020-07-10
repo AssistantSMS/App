@@ -160,9 +160,12 @@ class GameItemDetailPage extends StatelessWidget {
       widgets.add(emptySpace1x());
       widgets.add(customDivider());
       widgets.add(emptySpace1x());
+      var templateLocale = (craftingRecipe.name == LocaleKey.hideout)
+          ? LocaleKey.getXByTradingY
+          : LocaleKey.createXUsingY;
       widgets.add(getTextSpanFromTemplateAndArray(
         context,
-        LocaleKey.createXUsingY,
+        templateLocale,
         [gameItem.title, stationName],
       ));
       for (var ingDetailsIndex = 0;

@@ -122,4 +122,5 @@ enum LocaleKey {
   translation,
   translationIssue,
   addPlantPlot,
+  getXByTradingY,
 }

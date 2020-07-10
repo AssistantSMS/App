@@ -118,10 +118,5 @@
   "translation": "Translation",
   "translationIssue": "Please note that Scrap mechanic is not completely translated for the language you have selected. There will be items that are not translated into {0}.",
   "addPlantPlot": "Add plant plot",
-  "translatedBy": [
-    {
-      "name": "",
-      "link": ""
-    }
-  ]
+  "getXByTradingY": "Get {0} at the {1} in exchange for:"
 }

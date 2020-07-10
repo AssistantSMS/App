@@ -6,7 +6,6 @@ import '../../components/scaffoldTemplates/genericPageScaffold.dart';
 import '../../contracts/raid/raidFarmDetails.dart';
 import '../../helpers/columnHelper.dart';
 import '../../helpers/deviceHelper.dart';
-import '../../helpers/genericHelper.dart';
 import '../../localization/localeKey.dart';
 import '../../localization/translations.dart';
 import 'raidCalculatorPage.desktop.dart';

@@ -52,8 +52,9 @@ dependencies:
   after_layout: ^1.0.7+2
 
 dependency_overrides:
+  path: ^1.6.4
   dartx: 0.3.0
-  collection: 1.15.0-nullsafety
+  characters: 1.0.0
 
 dev_dependencies:
   flutter_launcher_icons: "^0.7.5"

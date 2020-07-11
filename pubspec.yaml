@@ -53,6 +53,7 @@ dependencies:
 
 dependency_overrides:
   dartx: 0.4.1
+  collection: 1.15.0-nullsafety
 
 dev_dependencies:
   flutter_launcher_icons: "^0.7.5"

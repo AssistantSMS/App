@@ -1,0 +1,801 @@
+[
+  {
+    "appId": "out1",
+    "chances": [
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 13,
+        "type": 0
+      },
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 13,
+        "type": 1
+      }
+    ]
+  },
+  {
+    "appId": "out2",
+    "chances": [
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 8,
+        "type": 0
+      },
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 8,
+        "type": 1
+      }
+    ]
+  },
+  {
+    "appId": "out3",
+    "chances": [
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 3,
+        "type": 0
+      },
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 3,
+        "type": 1
+      }
+    ]
+  },
+  {
+    "appId": "consu14",
+    "chances": [
+      {
+        "min": 2,
+        "max": 4,
+        "chance": 13,
+        "type": 0
+      },
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 6,
+        "type": 0
+      },
+      {
+        "min": 2,
+        "max": 4,
+        "chance": 13,
+        "type": 1
+      },
+      {
+        "min": 1,
+        "max": 3,
+        "chance": 6,
+        "type": 1
+      }
+    ]
+  },
+  {
+    "appId": "consu6",
+    "chances": [
+      {
+        "min": 2,
+        "max": 4,
+        "chance": 13,
+        "type": 0
+      },
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 11,
+        "type": 0
+      },
+      {
+        "min": 2,
+        "max": 4,
+        "chance": 13,
+        "type": 1
+      },
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 10,
+        "type": 1
+      }
+    ]
+  },
+  {
+    "appId": "interu6",
+    "chances": [
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 5,
+        "type": 0
+      },
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 5,
+        "type": 1
+      }
+    ]
+  },
+  {
+    "appId": "interu1",
+    "chances": [
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 5,
+        "type": 0
+      },
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 5,
+        "type": 1
+      }
+    ]
+  },
+  {
+    "appId": "interu56",
+    "chances": [
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 5,
+        "type": 0
+      },
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 5,
+        "type": 1
+      }
+    ]
+  },
+  {
+    "appId": "intera27",
+    "chances": [
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 3,
+        "type": 0
+      },
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 3,
+        "type": 1
+      }
+    ]
+  },
+  {
+    "appId": "intera28",
+    "chances": [
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 3,
+        "type": 0
+      },
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 3,
+        "type": 1
+      }
+    ]
+  },
+  {
+    "appId": "intera30",
+    "chances": [
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 1,
+        "type": 0
+      },
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 1,
+        "type": 1
+      }
+    ]
+  },
+  {
+    "appId": "intera31",
+    "chances": [
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 1,
+        "type": 0
+      },
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 1,
+        "type": 1
+      }
+    ]
+  },
+  {
+    "appId": "intera32",
+    "chances": [
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 3,
+        "type": 0
+      },
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 3,
+        "type": 1
+      }
+    ]
+  },
+  {
+    "appId": "intera33",
+    "chances": [
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 1,
+        "type": 0
+      },
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 1,
+        "type": 1
+      }
+    ]
+  },
+  {
+    "appId": "interu31",
+    "chances": [
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 3,
+        "type": 0
+      },
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 3,
+        "type": 1
+      }
+    ]
+  },
+  {
+    "appId": "interu36",
+    "chances": [
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 1,
+        "type": 0
+      },
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 1,
+        "type": 1
+      }
+    ]
+  },
+  {
+    "appId": "interu46",
+    "chances": [
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 3,
+        "type": 0
+      },
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 3,
+        "type": 1
+      }
+    ]
+  },
+  {
+    "appId": "interu11",
+    "chances": [
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 3,
+        "type": 0
+      },
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 3,
+        "type": 1
+      }
+    ]
+  },
+  {
+    "appId": "interu21",
+    "chances": [
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 5,
+        "type": 0
+      },
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 5,
+        "type": 1
+      }
+    ]
+  },
+  {
+    "appId": "interu16",
+    "chances": [
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 3,
+        "type": 0
+      },
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 3,
+        "type": 1
+      }
+    ]
+  },
+  {
+    "appId": "interu26",
+    "chances": [
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 5,
+        "type": 0
+      },
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 5,
+        "type": 1
+      }
+    ]
+  },
+  {
+    "appId": "plant14",
+    "chances": [
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 2,
+        "type": 0
+      },
+      {
+        "min": 1,
+        "max": 3,
+        "chance": 2,
+        "type": 1
+      }
+    ]
+  },
+  {
+    "appId": "plant15",
+    "chances": [
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 2,
+        "type": 0
+      },
+      {
+        "min": 1,
+        "max": 3,
+        "chance": 2,
+        "type": 1
+      }
+    ]
+  },
+  {
+    "appId": "plant16",
+    "chances": [
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 2,
+        "type": 0
+      },
+      {
+        "min": 1,
+        "max": 3,
+        "chance": 2,
+        "type": 1
+      }
+    ]
+  },
+  {
+    "appId": "plant10",
+    "chances": [
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 2,
+        "type": 0
+      },
+      {
+        "min": 1,
+        "max": 3,
+        "chance": 1,
+        "type": 1
+      }
+    ]
+  },
+  {
+    "appId": "plant11",
+    "chances": [
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 2,
+        "type": 0
+      },
+      {
+        "min": 1,
+        "max": 3,
+        "chance": 1,
+        "type": 1
+      }
+    ]
+  },
+  {
+    "appId": "plant12",
+    "chances": [
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 2,
+        "type": 0
+      },
+      {
+        "min": 1,
+        "max": 3,
+        "chance": 1,
+        "type": 1
+      }
+    ]
+  },
+  {
+    "appId": "plant18",
+    "chances": [
+      {
+        "min": 3,
+        "max": 7,
+        "chance": 3,
+        "type": 0
+      },
+      {
+        "min": 5,
+        "max": 10,
+        "chance": 3,
+        "type": 1
+      }
+    ]
+  },
+  {
+    "appId": "consu9",
+    "chances": [
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 2,
+        "type": 0
+      },
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 2,
+        "type": 1
+      }
+    ]
+  },
+  {
+    "appId": "consu1",
+    "chances": [
+      {
+        "min": 2,
+        "max": 4,
+        "chance": 10,
+        "type": 0
+      },
+      {
+        "min": 3,
+        "max": 7,
+        "chance": 9,
+        "type": 1
+      }
+    ]
+  },
+  {
+    "appId": "consu2",
+    "chances": [
+      {
+        "min": 1,
+        "max": 3,
+        "chance": 6,
+        "type": 0
+      },
+      {
+        "min": 2,
+        "max": 5,
+        "chance": 6,
+        "type": 1
+      }
+    ]
+  },
+  {
+    "appId": "consu3",
+    "chances": [
+      {
+        "min": 2,
+        "max": 5,
+        "chance": 2,
+        "type": 0
+      },
+      {
+        "min": 5,
+        "max": 10,
+        "chance": 1,
+        "type": 1
+      }
+    ]
+  },
+  {
+    "appId": "consu5",
+    "chances": [
+      {
+        "min": 2,
+        "max": 5,
+        "chance": 11,
+        "type": 0
+      },
+      {
+        "min": 5,
+        "max": 10,
+        "chance": 10,
+        "type": 1
+      }
+    ]
+  },
+  {
+    "appId": "consu4",
+    "chances": [
+      {
+        "min": 2,
+        "max": 5,
+        "chance": 4,
+        "type": 0
+      },
+      {
+        "min": 5,
+        "max": 10,
+        "chance": 4,
+        "type": 1
+      }
+    ]
+  },
+  {
+    "appId": "consu7",
+    "chances": [
+      {
+        "min": 5,
+        "max": 10,
+        "chance": 4,
+        "type": 0
+      },
+      {
+        "min": 10,
+        "max": 20,
+        "chance": 4,
+        "type": 1
+      }
+    ]
+  },
+  {
+    "appId": "consu8",
+    "chances": [
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 3,
+        "type": 0
+      },
+      {
+        "min": 1,
+        "max": 3,
+        "chance": 3,
+        "type": 1
+      }
+    ]
+  },
+  {
+    "appId": "reso6",
+    "chances": [
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 8,
+        "type": 0
+      },
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 7,
+        "type": 1
+      }
+    ]
+  },
+  {
+    "appId": "plant5",
+    "chances": [
+      {
+        "min": 1,
+        "max": 3,
+        "chance": 3,
+        "type": 0
+      },
+      {
+        "min": 1,
+        "max": 3,
+        "chance": 3,
+        "type": 1
+      }
+    ]
+  },
+  {
+    "appId": "plant6",
+    "chances": [
+      {
+        "min": 1,
+        "max": 3,
+        "chance": 3,
+        "type": 0
+      },
+      {
+        "min": 1,
+        "max": 3,
+        "chance": 3,
+        "type": 1
+      }
+    ]
+  },
+  {
+    "appId": "plant7",
+    "chances": [
+      {
+        "min": 1,
+        "max": 3,
+        "chance": 3,
+        "type": 0
+      },
+      {
+        "min": 1,
+        "max": 3,
+        "chance": 3,
+        "type": 1
+      }
+    ]
+  },
+  {
+    "appId": "plant9",
+    "chances": [
+      {
+        "min": 1,
+        "max": 3,
+        "chance": 3,
+        "type": 0
+      },
+      {
+        "min": 1,
+        "max": 3,
+        "chance": 3,
+        "type": 1
+      }
+    ]
+  },
+  {
+    "appId": "blk38",
+    "chances": [
+      {
+        "min": 5,
+        "max": 10,
+        "chance": 3,
+        "type": 0
+      },
+      {
+        "min": 5,
+        "max": 10,
+        "chance": 3,
+        "type": 1
+      }
+    ]
+  },
+  {
+    "appId": "intera15",
+    "chances": [
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 1,
+        "type": 0
+      },
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 1,
+        "type": 1
+      }
+    ]
+  },
+  {
+    "appId": "consu12",
+    "chances": [
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 2,
+        "type": 1
+      }
+    ]
+  },
+  {
+    "appId": "plant1",
+    "chances": [
+      {
+        "min": 1,
+        "max": 3,
+        "chance": 3,
+        "type": 1
+      }
+    ]
+  },
+  {
+    "appId": "plant3",
+    "chances": [
+      {
+        "min": 1,
+        "max": 3,
+        "chance": 3,
+        "type": 1
+      }
+    ]
+  },
+  {
+    "appId": "plant2",
+    "chances": [
+      {
+        "min": 1,
+        "max": 3,
+        "chance": 3,
+        "type": 1
+      }
+    ]
+  }
+]

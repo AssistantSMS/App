@@ -11,6 +11,8 @@ class AppImage {
   static const String steamNewsDefault = base + 'steamNewsDefault.jpg';
   static const String dimensionsCube = base + 'dimensionsCube.png';
   static const String dimensionsCylinder = base + 'dimensionsCylinder.png';
+  static const String chest = base + 'chest.png';
+  static const String chestGold = base + 'chestGold.png';
 
   static String _darkLightFolder(bool isDark) => isDark ? dark : light;
   static String buoyancy(bool isDark) =>

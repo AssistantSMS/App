@@ -44,7 +44,7 @@ packages:
     source: hosted
     version: "1.0.1+2"
   characters:
-    dependency: "direct overridden"
+    dependency: transitive
     description:
       name: characters
       url: "https://pub.dartlang.org"
@@ -112,7 +112,7 @@ packages:
       name: dartx
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.3.0"
+    version: "0.4.2"
   dotted_border:
     dependency: "direct main"
     description:
@@ -325,7 +325,7 @@ packages:
     source: hosted
     version: "0.4.0+18"
   path:
-    dependency: "direct overridden"
+    dependency: transitive
     description:
       name: path
       url: "https://pub.dartlang.org"

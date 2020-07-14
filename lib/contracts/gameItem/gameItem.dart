@@ -4,6 +4,7 @@
 
 import '../rating/rating.dart';
 import 'box.dart';
+import 'cylinder.dart';
 import 'gameItemBase.dart';
 import 'gameItemLang.dart';
 
@@ -16,6 +17,7 @@ class GameItem {
     this.physicsMaterial,
     this.rating,
     this.box,
+    this.cylinder,
     this.flammable,
     this.density,
     this.qualityLevel,
@@ -28,6 +30,7 @@ class GameItem {
   String physicsMaterial;
   Rating rating;
   Box box;
+  Cylinder cylinder;
   bool flammable;
   double density;
   int qualityLevel;
@@ -41,6 +44,7 @@ class GameItem {
         physicsMaterial: baseItem.physicsMaterial,
         rating: baseItem.rating,
         box: baseItem.box,
+        cylinder: baseItem.cylinder,
         flammable: baseItem.flammable,
         density: baseItem.density,
         qualityLevel: baseItem.qualityLevel,

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:scrapmechanic_kurtlourens_com/contracts/gameItem/cylinder.dart';
 import 'package:step_progress_indicator/step_progress_indicator.dart';
 
 import '../../components/common/image.dart';
@@ -189,6 +190,37 @@ Widget cubeDimension(BuildContext context, Box box) {
         child: Align(
           alignment: Alignment.centerRight,
           child: Text(box.y.toString(), style: textStyleDim),
+        ),
+      ),
+    ],
+  );
+}
+
+Widget cylinderDimension(BuildContext context, Cylinder cylinder) {
+  var textStyleDim = TextStyle(
+    fontSize: 20,
+    color: getSecondaryColour(context),
+  );
+  return Stack(
+    children: [
+      Padding(
+        child: localImage(AppImage.dimensionsCylinder),
+        padding: EdgeInsets.all(24),
+      ),
+      Positioned(
+        child: Text(
+          cylinder.diameter.toString(),
+          style: textStyleDim,
+          textAlign: TextAlign.center,
+        ),
+        left: 8,
+        right: 8,
+        bottom: 0,
+      ),
+      Positioned.fill(
+        child: Align(
+          alignment: Alignment.centerRight,
+          child: Text(cylinder.depth.toString(), style: textStyleDim),
         ),
       ),
     ],

@@ -10,6 +10,11 @@
       "Friction": 4,
       "Buoyancy": 6
     },
+    "Box": {
+      "X": 3,
+      "Y": 4,
+      "Z": 2
+    },
     "Flammable": false,
     "Density": 450.0,
     "QualityLevel": 0
@@ -144,6 +149,11 @@
       "Durability": 2,
       "Friction": 4,
       "Buoyancy": 4
+    },
+    "Box": {
+      "X": 2,
+      "Y": 1,
+      "Z": 1
     },
     "Flammable": true,
     "Density": 250.0,

@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
+import 'package:scrapmechanic_kurtlourens_com/components/common/image.dart';
+import 'package:scrapmechanic_kurtlourens_com/contracts/generated/LootChance.dart';
 
 import '../../components/adaptive/listWithScrollbar.dart';
 import '../../components/common/cachedFutureBuilder.dart';
@@ -126,22 +128,72 @@ class GameItemDetailPage extends StatelessWidget {
     }
 
     if (gameItem.box != null) {
-      var cudeWidget = Center(
-        child: SizedBox(
-          child: cubeDimension(context, gameItem.box),
-          height: 120,
-          // width: 120,
-        ),
-      );
-
       rowWidgets.add(Card(
         child: Padding(
-            padding: EdgeInsets.only(bottom: 18),
-            child: Container(
-              constraints: BoxConstraints(maxWidth: 450),
-              padding: EdgeInsets.all(10),
-              child: cudeWidget,
-            )),
+          padding: EdgeInsets.only(bottom: 18),
+          child: Container(
+            constraints: BoxConstraints(maxWidth: 450),
+            padding: EdgeInsets.all(10),
+            child: Center(
+              child: SizedBox(
+                child: cubeDimension(context, gameItem.box),
+                height: 120,
+              ),
+            ),
+          ),
+        ),
+      ));
+    }
+
+    if (gameItem.cylinder != null) {
+      rowWidgets.add(Card(
+        child: Padding(
+          padding: EdgeInsets.only(bottom: 18),
+          child: Container(
+            constraints: BoxConstraints(maxWidth: 450),
+            padding: EdgeInsets.all(10),
+            child: Center(
+              child: SizedBox(
+                child: cylinderDimension(context, gameItem.cylinder),
+                height: 120,
+              ),
+            ),
+          ),
+        ),
+      ));
+    }
+
+    List<LootChance> lootChances = snapshot?.data?.value?.lootChances ?? [];
+    if (lootChances != null && lootChances.length > 0) {
+      const double chestIconSize = 40;
+      List<Widget> rows = List<Widget>();
+      for (var lootChance in lootChances) {
+        var imagePath =
+            lootChance.type == 0 ? AppImage.chest : AppImage.chestGold;
+        var quantityString = "${lootChance.min} to ${lootChance.max}";
+        if (lootChance.min == lootChance.max) {
+          quantityString = "";
+        }
+        rows.add(Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: [
+            localImage(imagePath, height: chestIconSize),
+            Container(width: 10, height: chestIconSize),
+            Text(
+              "${lootChance.chance}% chance of dropping $quantityString",
+            ),
+          ],
+        ));
+      }
+      rowWidgets.add(Card(
+        child: Padding(
+          padding: EdgeInsets.all(18),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: rows,
+          ),
+        ),
       ));
     }
 

@@ -4,6 +4,8 @@
 
 import 'dart:convert';
 
+import './cylinder.dart';
+
 import '../../helpers/jsonHelper.dart';
 
 import '../rating/rating.dart';
@@ -17,6 +19,7 @@ class GameItemBase {
     this.physicsMaterial,
     this.rating,
     this.box,
+    this.cylinder,
     this.flammable,
     this.density,
     this.qualityLevel,
@@ -28,6 +31,7 @@ class GameItemBase {
   String physicsMaterial;
   Rating rating;
   Box box;
+  Cylinder cylinder;
   bool flammable;
   double density;
   int qualityLevel;
@@ -43,6 +47,9 @@ class GameItemBase {
         rating:
             json["Ratings"] == null ? null : Rating.fromJson(json["Ratings"]),
         box: json["Box"] == null ? null : Box.fromJson(json["Box"]),
+        cylinder: json["Cylinder"] == null
+            ? null
+            : Cylinder.fromJson(json["Cylinder"]),
         flammable: readBoolSafe(json, "Flammable"),
         density: readDoubleSafe(json, "Density"),
         qualityLevel: readIntSafe(json, "QualityLevel"),

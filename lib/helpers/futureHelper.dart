@@ -1,6 +1,8 @@
 import 'package:dartx/dartx.dart';
 import 'package:flutter/material.dart';
 import 'package:package_info/package_info.dart';
+import 'package:scrapmechanic_kurtlourens_com/contracts/generated/LootChance.dart';
+import 'package:scrapmechanic_kurtlourens_com/services/json/lootItemJsonService.dart';
 
 import '../contracts/craftingIngredient/craftedUsing.dart';
 import '../contracts/gameItem/gameItem.dart';
@@ -100,6 +102,7 @@ Future<ResultWithValue<GameItemPageItem>> gameItemPageItemFuture(
 
   var craftingRecipesTask = craftingRecipesFuture(context, itemId);
   var usedInRecipesTask = usedInRecipesFuture(context, itemId);
+  var lootChanceTask = getLootChanceFuture(context, itemId);
 
   ResultWithValue<IGameItemJsonService> genRepo =
       getGameItemRepoFromId(context, itemId);
@@ -118,12 +121,17 @@ Future<ResultWithValue<GameItemPageItem>> gameItemPageItemFuture(
     List<CraftedUsing> craftingRecipes = craftingRecipesResult.isSuccess
         ? craftingRecipesResult.value
         : List<CraftedUsing>();
+    ResultWithValue<List<LootChance>> lootChancesResult = await lootChanceTask;
+    List<LootChance> lootChances = lootChancesResult.isSuccess
+        ? lootChancesResult.value
+        : List<LootChance>();
     return ResultWithValue<GameItemPageItem>(
         true,
         GameItemPageItem(
           gameItem: itemResult.value,
           usedInRecipes: usedInRecipes,
           craftingRecipes: craftingRecipes,
+          lootChances: lootChances,
         ),
         '');
   }
@@ -341,4 +349,15 @@ Future<List<RecipeIngredient>> getRequiredItems(
     rawMaterialsResult.addAll(requiredItems);
   }
   return rawMaterialsResult;
+}
+
+Future<ResultWithValue<List<LootChance>>> getLootChanceFuture(
+    context, String itemId) async {
+  LootItemJsonService service = LootItemJsonService();
+  var appLootResult = await service.getById(context, itemId);
+  if (!appLootResult.isSuccess)
+    return ResultWithValue(
+        false, List<LootChance>(), appLootResult.errorMessage);
+  var chances = appLootResult.value.chances;
+  return ResultWithValue(chances.length > 0, chances, '');
 }

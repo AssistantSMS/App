@@ -30,6 +30,10 @@
       "Friction": 2,
       "Buoyancy": 7
     },
+    "Cylinder": {
+      "Diameter": 2,
+      "Depth": 4
+    },
     "Flammable": false,
     "Density": 1250.0,
     "QualityLevel": 0

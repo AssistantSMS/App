@@ -50,6 +50,11 @@
       "Friction": 4,
       "Buoyancy": 6
     },
+    "Box": {
+      "X": 2,
+      "Y": 2,
+      "Z": 3
+    },
     "Flammable": false,
     "Density": 250.0,
     "QualityLevel": 0
@@ -145,6 +150,11 @@
       "Friction": 1,
       "Buoyancy": 4
     },
+    "Box": {
+      "X": 3,
+      "Y": 2,
+      "Z": 3
+    },
     "Flammable": true,
     "Density": 250.0,
     "QualityLevel": 0
@@ -179,6 +189,11 @@
       "Durability": 7,
       "Friction": 6,
       "Buoyancy": 1
+    },
+    "Box": {
+      "X": 10,
+      "Y": 11,
+      "Z": 6
     },
     "Flammable": false,
     "Density": 1250.0,
@@ -235,6 +250,11 @@
       "Friction": 4,
       "Buoyancy": 2
     },
+    "Box": {
+      "X": 1,
+      "Y": 1,
+      "Z": 4
+    },
     "Flammable": false,
     "Density": 1250.0,
     "QualityLevel": 0
@@ -270,6 +290,10 @@
       "Friction": 4,
       "Buoyancy": 0
     },
+    "Cylinder": {
+      "Diameter": 1,
+      "Depth": 1
+    },
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0
@@ -279,6 +303,10 @@
     "Icon": "items/intera16.png",
     "Color": "df7f01",
     "PhysicsMaterial": "Mechanical",
+    "Cylinder": {
+      "Diameter": 1,
+      "Depth": 2
+    },
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0
@@ -288,6 +316,10 @@
     "Icon": "items/intera17.png",
     "Color": "df7f01",
     "PhysicsMaterial": "Mechanical",
+    "Cylinder": {
+      "Diameter": 1,
+      "Depth": 3
+    },
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0
@@ -297,6 +329,11 @@
     "Icon": "items/intera18.png",
     "Color": "df7f01",
     "PhysicsMaterial": "Mechanical",
+    "Box": {
+      "X": 4,
+      "Y": 4,
+      "Z": 6
+    },
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0
@@ -306,6 +343,11 @@
     "Icon": "items/intera19.png",
     "Color": "df7f01",
     "PhysicsMaterial": "Mechanical",
+    "Box": {
+      "X": 4,
+      "Y": 4,
+      "Z": 4
+    },
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0
@@ -315,6 +357,11 @@
     "Icon": "items/intera20.png",
     "Color": "df7f01",
     "PhysicsMaterial": "Mechanical",
+    "Box": {
+      "X": 3,
+      "Y": 4,
+      "Z": 5
+    },
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0
@@ -324,6 +371,11 @@
     "Icon": "items/intera21.png",
     "Color": "df7f01",
     "PhysicsMaterial": "Mechanical",
+    "Box": {
+      "X": 3,
+      "Y": 4,
+      "Z": 3
+    },
     "Flammable": false,
     "Density": 250.0,
     "QualityLevel": 0
@@ -338,6 +390,11 @@
       "Durability": 3,
       "Friction": 3,
       "Buoyancy": 4
+    },
+    "Box": {
+      "X": 3,
+      "Y": 4,
+      "Z": 3
     },
     "Flammable": false,
     "Density": 250.0,
@@ -410,6 +467,11 @@
       "Friction": 5,
       "Buoyancy": 2
     },
+    "Box": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
     "Flammable": true,
     "Density": 250.0,
     "QualityLevel": 0
@@ -424,6 +486,11 @@
       "Durability": 3,
       "Friction": 5,
       "Buoyancy": 2
+    },
+    "Box": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
     },
     "Flammable": true,
     "Density": 250.0,
@@ -473,6 +540,11 @@
       "Durability": 2,
       "Friction": 5,
       "Buoyancy": 5
+    },
+    "Box": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
     },
     "Flammable": true,
     "Density": 250.0,
@@ -609,6 +681,11 @@
       "Friction": 2,
       "Buoyancy": 8
     },
+    "Box": {
+      "X": 4,
+      "Y": 3,
+      "Z": 7
+    },
     "Flammable": false,
     "Density": 500.0,
     "QualityLevel": 0
@@ -638,6 +715,11 @@
       "Friction": 5,
       "Buoyancy": 7
     },
+    "Box": {
+      "X": 8,
+      "Y": 4,
+      "Z": 2
+    },
     "Flammable": true,
     "Density": 250.0,
     "QualityLevel": 0
@@ -647,6 +729,11 @@
     "Icon": "items/intera41.png",
     "Color": "df7f01",
     "PhysicsMaterial": "Mechanical",
+    "Box": {
+      "X": 1,
+      "Y": 1,
+      "Z": 4
+    },
     "Flammable": false,
     "Density": 1250.0,
     "QualityLevel": 0

@@ -5,12 +5,11 @@
 import 'dart:convert';
 
 import './cylinder.dart';
-
 import '../../helpers/jsonHelper.dart';
-
 import '../rating/rating.dart';
 import 'box.dart';
 import 'feature.dart';
+import 'upgrade.dart';
 
 class GameItemBase {
   GameItemBase({
@@ -25,6 +24,7 @@ class GameItemBase {
     this.density,
     this.qualityLevel,
     this.features,
+    this.upgrade,
   });
 
   String id;
@@ -37,6 +37,7 @@ class GameItemBase {
   bool flammable;
   double density;
   int qualityLevel;
+  Upgrade upgrade;
   List<Feature> features;
 
   factory GameItemBase.fromRawJson(String str) =>
@@ -53,6 +54,8 @@ class GameItemBase {
         cylinder: json["Cylinder"] == null
             ? null
             : Cylinder.fromJson(json["Cylinder"]),
+        upgrade:
+            json["Upgrade"] == null ? null : Upgrade.fromJson(json["Upgrade"]),
         features: json["Features"] == null
             ? null
             : List<Feature>.from(

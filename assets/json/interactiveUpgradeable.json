@@ -16,7 +16,18 @@
     },
     "Flammable": true,
     "Density": 0.0,
-    "QualityLevel": 0
+    "QualityLevel": 0,
+    "Upgrade": {
+      "LocaleKey": "level2",
+      "TargetId": "interu2",
+      "Cost": 1
+    },
+    "Features": [
+      {
+        "LocaleKey": "stiffness",
+        "Value": "4"
+      }
+    ]
   },
   {
     "Id": "interu2",
@@ -35,7 +46,18 @@
     },
     "Flammable": true,
     "Density": 0.0,
-    "QualityLevel": 0
+    "QualityLevel": 0,
+    "Upgrade": {
+      "LocaleKey": "level3",
+      "TargetId": "interu3",
+      "Cost": 2
+    },
+    "Features": [
+      {
+        "LocaleKey": "stiffness",
+        "Value": "6"
+      }
+    ]
   },
   {
     "Id": "interu3",
@@ -54,7 +76,18 @@
     },
     "Flammable": true,
     "Density": 0.0,
-    "QualityLevel": 0
+    "QualityLevel": 0,
+    "Upgrade": {
+      "LocaleKey": "level4",
+      "TargetId": "interu4",
+      "Cost": 4
+    },
+    "Features": [
+      {
+        "LocaleKey": "stiffness",
+        "Value": "9"
+      }
+    ]
   },
   {
     "Id": "interu4",
@@ -73,7 +106,18 @@
     },
     "Flammable": false,
     "Density": 0.0,
-    "QualityLevel": 0
+    "QualityLevel": 0,
+    "Upgrade": {
+      "LocaleKey": "level5",
+      "TargetId": "interu5",
+      "Cost": 5
+    },
+    "Features": [
+      {
+        "LocaleKey": "stiffness",
+        "Value": "13"
+      }
+    ]
   },
   {
     "Id": "interu5",
@@ -92,7 +136,13 @@
     },
     "Flammable": false,
     "Density": 0.0,
-    "QualityLevel": 0
+    "QualityLevel": 0,
+    "Features": [
+      {
+        "LocaleKey": "stiffness",
+        "Value": "19"
+      }
+    ]
   },
   {
     "Id": "interu6",
@@ -111,7 +161,18 @@
     },
     "Flammable": false,
     "Density": 0.0,
-    "QualityLevel": 0
+    "QualityLevel": 0,
+    "Upgrade": {
+      "LocaleKey": "level2",
+      "TargetId": "interu7",
+      "Cost": 1
+    },
+    "Features": [
+      {
+        "LocaleKey": "stiffness",
+        "Value": "4"
+      }
+    ]
   },
   {
     "Id": "interu7",
@@ -130,7 +191,18 @@
     },
     "Flammable": true,
     "Density": 0.0,
-    "QualityLevel": 0
+    "QualityLevel": 0,
+    "Upgrade": {
+      "LocaleKey": "level3",
+      "TargetId": "interu8",
+      "Cost": 2
+    },
+    "Features": [
+      {
+        "LocaleKey": "stiffness",
+        "Value": "6"
+      }
+    ]
   },
   {
     "Id": "interu8",
@@ -149,7 +221,18 @@
     },
     "Flammable": true,
     "Density": 0.0,
-    "QualityLevel": 0
+    "QualityLevel": 0,
+    "Upgrade": {
+      "LocaleKey": "level4",
+      "TargetId": "interu9",
+      "Cost": 4
+    },
+    "Features": [
+      {
+        "LocaleKey": "stiffness",
+        "Value": "9"
+      }
+    ]
   },
   {
     "Id": "interu9",
@@ -168,7 +251,18 @@
     },
     "Flammable": false,
     "Density": 0.0,
-    "QualityLevel": 0
+    "QualityLevel": 0,
+    "Upgrade": {
+      "LocaleKey": "level5",
+      "TargetId": "interu10",
+      "Cost": 5
+    },
+    "Features": [
+      {
+        "LocaleKey": "stiffness",
+        "Value": "13"
+      }
+    ]
   },
   {
     "Id": "interu10",
@@ -187,7 +281,13 @@
     },
     "Flammable": false,
     "Density": 0.0,
-    "QualityLevel": 0
+    "QualityLevel": 0,
+    "Features": [
+      {
+        "LocaleKey": "stiffness",
+        "Value": "19"
+      }
+    ]
   },
   {
     "Id": "interu11",
@@ -208,10 +308,9 @@
     "Flammable": true,
     "Density": 0.0,
     "QualityLevel": 0,
-    "Upgrades": {
-      "Uuid": "77c2687c-2e13-4df8-996a-96fb26d75ee0",
+    "Upgrade": {
       "LocaleKey": "level2",
-      "TargetUuid": "efbf45f8-62ec-4541-9eb1-d529966f6a29",
+      "TargetId": "interu12",
       "Cost": 1
     },
     "Features": [
@@ -244,10 +343,9 @@
     "Flammable": true,
     "Density": 0.0,
     "QualityLevel": 0,
-    "Upgrades": {
-      "Uuid": "efbf45f8-62ec-4541-9eb1-d529966f6a29",
+    "Upgrade": {
       "LocaleKey": "level3",
-      "TargetUuid": "c3ef3008-9367-4ab7-813a-24195d63e5a3",
+      "TargetId": "interu13",
       "Cost": 2
     },
     "Features": [
@@ -280,10 +378,9 @@
     "Flammable": true,
     "Density": 0.0,
     "QualityLevel": 0,
-    "Upgrades": {
-      "Uuid": "c3ef3008-9367-4ab7-813a-24195d63e5a3",
+    "Upgrade": {
       "LocaleKey": "level4",
-      "TargetUuid": "d30dcd12-ec39-43b9-a115-44c08e1b9091",
+      "TargetId": "interu14",
       "Cost": 3
     },
     "Features": [
@@ -316,10 +413,9 @@
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0,
-    "Upgrades": {
-      "Uuid": "d30dcd12-ec39-43b9-a115-44c08e1b9091",
+    "Upgrade": {
       "LocaleKey": "level5",
-      "TargetUuid": "ffa3a47e-fc0d-4977-802f-bd15683bbe5c",
+      "TargetId": "interu15",
       "Cost": 5
     },
     "Features": [
@@ -382,10 +478,9 @@
     "Flammable": true,
     "Density": 0.0,
     "QualityLevel": 0,
-    "Upgrades": {
-      "Uuid": "7d601a5a-796d-4cae-be88-b47479d38d11",
+    "Upgrade": {
       "LocaleKey": "level2",
-      "TargetUuid": "bb2ed406-f0d3-4fd6-b3f9-7caadfa8e4e4",
+      "TargetId": "interu17",
       "Cost": 1
     },
     "Features": [
@@ -418,10 +513,9 @@
     "Flammable": true,
     "Density": 0.0,
     "QualityLevel": 0,
-    "Upgrades": {
-      "Uuid": "bb2ed406-f0d3-4fd6-b3f9-7caadfa8e4e4",
+    "Upgrade": {
       "LocaleKey": "level3",
-      "TargetUuid": "6953b17e-0a38-4107-8c56-5ee97e68bee3",
+      "TargetId": "interu18",
       "Cost": 2
     },
     "Features": [
@@ -454,10 +548,9 @@
     "Flammable": true,
     "Density": 0.0,
     "QualityLevel": 0,
-    "Upgrades": {
-      "Uuid": "6953b17e-0a38-4107-8c56-5ee97e68bee3",
+    "Upgrade": {
       "LocaleKey": "level4",
-      "TargetUuid": "41960868-6245-47b5-97c4-f446e199812f",
+      "TargetId": "interu19",
       "Cost": 3
     },
     "Features": [
@@ -490,10 +583,9 @@
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0,
-    "Upgrades": {
-      "Uuid": "41960868-6245-47b5-97c4-f446e199812f",
+    "Upgrade": {
       "LocaleKey": "level5",
-      "TargetUuid": "9dd1ccea-1e44-430d-b706-3ff45416583e",
+      "TargetId": "interu20",
       "Cost": 5
     },
     "Features": [
@@ -556,10 +648,9 @@
     "Flammable": true,
     "Density": 0.0,
     "QualityLevel": 0,
-    "Upgrades": {
-      "Uuid": "3b972f2f-30c7-4a5e-a100-5e257e62295d",
+    "Upgrade": {
       "LocaleKey": "level2",
-      "TargetUuid": "2b9c6e87-1b75-4a57-8979-74d9f95668ba",
+      "TargetId": "interu22",
       "Cost": 1
     },
     "Features": [
@@ -588,10 +679,9 @@
     "Flammable": true,
     "Density": 0.0,
     "QualityLevel": 0,
-    "Upgrades": {
-      "Uuid": "2b9c6e87-1b75-4a57-8979-74d9f95668ba",
+    "Upgrade": {
       "LocaleKey": "level3",
-      "TargetUuid": "ebe2782e-a4f5-4d91-83cc-db110179393b",
+      "TargetId": "interu23",
       "Cost": 1
     },
     "Features": [
@@ -620,10 +710,9 @@
     "Flammable": true,
     "Density": 0.0,
     "QualityLevel": 0,
-    "Upgrades": {
-      "Uuid": "ebe2782e-a4f5-4d91-83cc-db110179393b",
+    "Upgrade": {
       "LocaleKey": "level4",
-      "TargetUuid": "46465697-ed36-4720-ba8a-08c568b4e36c",
+      "TargetId": "interu24",
       "Cost": 1
     },
     "Features": [
@@ -652,10 +741,9 @@
     "Flammable": true,
     "Density": 0.0,
     "QualityLevel": 0,
-    "Upgrades": {
-      "Uuid": "46465697-ed36-4720-ba8a-08c568b4e36c",
+    "Upgrade": {
       "LocaleKey": "level5",
-      "TargetUuid": "703ca746-d802-4e76-b443-4881e83afb73",
+      "TargetId": "interu25",
       "Cost": 1
     },
     "Features": [
@@ -710,10 +798,9 @@
     "Flammable": false,
     "Density": 250.0,
     "QualityLevel": 0,
-    "Upgrades": {
-      "Uuid": "2d3016f7-febe-416e-93bc-41d80ca3910d",
+    "Upgrade": {
       "LocaleKey": "level2",
-      "TargetUuid": "bb2ed406-f0d3-4fd6-b3f9-7caadfa8e4e4",
+      "TargetId": "interu17",
       "Cost": 1
     },
     "Features": [
@@ -846,10 +933,9 @@
     "Flammable": true,
     "Density": 1250.0,
     "QualityLevel": 0,
-    "Upgrades": {
-      "Uuid": "1bfccc0a-828f-475c-882c-87d5a96054c9",
+    "Upgrade": {
       "LocaleKey": "level2",
-      "TargetUuid": "33d01ddd-f32b-4a9a-87d6-efb6710b389c",
+      "TargetId": "interu32",
       "Cost": 4
     },
     "Features": [
@@ -890,10 +976,9 @@
     "Flammable": true,
     "Density": 1250.0,
     "QualityLevel": 0,
-    "Upgrades": {
-      "Uuid": "33d01ddd-f32b-4a9a-87d6-efb6710b389c",
+    "Upgrade": {
       "LocaleKey": "level3",
-      "TargetUuid": "470b9a92-ed94-4ef2-b1ea-b45f47ef0982",
+      "TargetId": "interu33",
       "Cost": 6
     },
     "Features": [
@@ -934,10 +1019,9 @@
     "Flammable": true,
     "Density": 1250.0,
     "QualityLevel": 0,
-    "Upgrades": {
-      "Uuid": "470b9a92-ed94-4ef2-b1ea-b45f47ef0982",
+    "Upgrade": {
       "LocaleKey": "level4",
-      "TargetUuid": "bfcaac1a-5a7f-4fba-9980-1159617a7212",
+      "TargetId": "interu34",
       "Cost": 8
     },
     "Features": [
@@ -978,10 +1062,9 @@
     "Flammable": false,
     "Density": 1250.0,
     "QualityLevel": 0,
-    "Upgrades": {
-      "Uuid": "bfcaac1a-5a7f-4fba-9980-1159617a7212",
+    "Upgrade": {
       "LocaleKey": "level5",
-      "TargetUuid": "3091926a-9340-46d9-83d6-4fd7c68ad950",
+      "TargetId": "interu35",
       "Cost": 10
     },
     "Features": [
@@ -1060,10 +1143,9 @@
     "Flammable": true,
     "Density": 1250.0,
     "QualityLevel": 0,
-    "Upgrades": {
-      "Uuid": "5e5d231e-405e-4f45-9bd0-b3557dbb42eb",
+    "Upgrade": {
       "LocaleKey": "level2",
-      "TargetUuid": "0c9cc5bb-af2f-4023-b8d8-cd7d52a60efe",
+      "TargetId": "interu37",
       "Cost": 4
     },
     "Features": [
@@ -1104,10 +1186,9 @@
     "Flammable": true,
     "Density": 1250.0,
     "QualityLevel": 0,
-    "Upgrades": {
-      "Uuid": "0c9cc5bb-af2f-4023-b8d8-cd7d52a60efe",
+    "Upgrade": {
       "LocaleKey": "level3",
-      "TargetUuid": "56cea967-a685-494d-85ef-3aa121a0c193",
+      "TargetId": "interu38",
       "Cost": 6
     },
     "Features": [
@@ -1148,10 +1229,9 @@
     "Flammable": true,
     "Density": 1250.0,
     "QualityLevel": 0,
-    "Upgrades": {
-      "Uuid": "56cea967-a685-494d-85ef-3aa121a0c193",
+    "Upgrade": {
       "LocaleKey": "level4",
-      "TargetUuid": "5e57e0f7-e87c-4269-b274-146fe40e1b44",
+      "TargetId": "interu39",
       "Cost": 8
     },
     "Features": [
@@ -1192,10 +1272,9 @@
     "Flammable": false,
     "Density": 1250.0,
     "QualityLevel": 0,
-    "Upgrades": {
-      "Uuid": "5e57e0f7-e87c-4269-b274-146fe40e1b44",
+    "Upgrade": {
       "LocaleKey": "level5",
-      "TargetUuid": "22f3e797-82f5-4819-a085-c3cc28ec9025",
+      "TargetId": "interu40",
       "Cost": 10
     },
     "Features": [
@@ -1273,7 +1352,22 @@
     },
     "Flammable": true,
     "Density": 250.0,
-    "QualityLevel": 0
+    "QualityLevel": 0,
+    "Upgrade": {
+      "LocaleKey": "level2",
+      "TargetId": "interu42",
+      "Cost": 10
+    },
+    "Features": [
+      {
+        "LocaleKey": "efficiency",
+        "Value": "1"
+      },
+      {
+        "LocaleKey": "thrust",
+        "Value": "3"
+      }
+    ]
   },
   {
     "Id": "interu42",
@@ -1293,7 +1387,22 @@
     },
     "Flammable": true,
     "Density": 250.0,
-    "QualityLevel": 0
+    "QualityLevel": 0,
+    "Upgrade": {
+      "LocaleKey": "level3",
+      "TargetId": "interu43",
+      "Cost": 10
+    },
+    "Features": [
+      {
+        "LocaleKey": "efficiency",
+        "Value": "2"
+      },
+      {
+        "LocaleKey": "thrust",
+        "Value": "4"
+      }
+    ]
   },
   {
     "Id": "interu43",
@@ -1313,7 +1422,22 @@
     },
     "Flammable": true,
     "Density": 250.0,
-    "QualityLevel": 0
+    "QualityLevel": 0,
+    "Upgrade": {
+      "LocaleKey": "level4",
+      "TargetId": "interu44",
+      "Cost": 10
+    },
+    "Features": [
+      {
+        "LocaleKey": "efficiency",
+        "Value": "3"
+      },
+      {
+        "LocaleKey": "thrust",
+        "Value": "5"
+      }
+    ]
   },
   {
     "Id": "interu44",
@@ -1333,7 +1457,22 @@
     },
     "Flammable": false,
     "Density": 250.0,
-    "QualityLevel": 0
+    "QualityLevel": 0,
+    "Upgrade": {
+      "LocaleKey": "level5",
+      "TargetId": "interu45",
+      "Cost": 10
+    },
+    "Features": [
+      {
+        "LocaleKey": "efficiency",
+        "Value": "4"
+      },
+      {
+        "LocaleKey": "thrust",
+        "Value": "6"
+      }
+    ]
   },
   {
     "Id": "interu45",
@@ -1353,7 +1492,17 @@
     },
     "Flammable": false,
     "Density": 250.0,
-    "QualityLevel": 0
+    "QualityLevel": 0,
+    "Features": [
+      {
+        "LocaleKey": "efficiency",
+        "Value": "5"
+      },
+      {
+        "LocaleKey": "thrust",
+        "Value": "7"
+      }
+    ]
   },
   {
     "Id": "interu46",
@@ -1373,7 +1522,22 @@
     },
     "Flammable": true,
     "Density": 250.0,
-    "QualityLevel": 0
+    "QualityLevel": 0,
+    "Upgrade": {
+      "LocaleKey": "level2",
+      "TargetId": "interu47",
+      "Cost": 2
+    },
+    "Features": [
+      {
+        "LocaleKey": "maxConnections",
+        "Value": "1"
+      },
+      {
+        "LocaleKey": "velocity",
+        "Value": "1"
+      }
+    ]
   },
   {
     "Id": "interu47",
@@ -1393,7 +1557,22 @@
     },
     "Flammable": true,
     "Density": 250.0,
-    "QualityLevel": 0
+    "QualityLevel": 0,
+    "Upgrade": {
+      "LocaleKey": "level3",
+      "TargetId": "interu48",
+      "Cost": 3
+    },
+    "Features": [
+      {
+        "LocaleKey": "maxConnections",
+        "Value": "2"
+      },
+      {
+        "LocaleKey": "velocity",
+        "Value": "2"
+      }
+    ]
   },
   {
     "Id": "interu48",
@@ -1413,7 +1592,22 @@
     },
     "Flammable": true,
     "Density": 250.0,
-    "QualityLevel": 0
+    "QualityLevel": 0,
+    "Upgrade": {
+      "LocaleKey": "level4",
+      "TargetId": "interu49",
+      "Cost": 5
+    },
+    "Features": [
+      {
+        "LocaleKey": "maxConnections",
+        "Value": "4"
+      },
+      {
+        "LocaleKey": "velocity",
+        "Value": "4"
+      }
+    ]
   },
   {
     "Id": "interu49",
@@ -1433,7 +1627,22 @@
     },
     "Flammable": false,
     "Density": 250.0,
-    "QualityLevel": 0
+    "QualityLevel": 0,
+    "Upgrade": {
+      "LocaleKey": "level5",
+      "TargetId": "interu50",
+      "Cost": 10
+    },
+    "Features": [
+      {
+        "LocaleKey": "maxConnections",
+        "Value": "8"
+      },
+      {
+        "LocaleKey": "velocity",
+        "Value": "6"
+      }
+    ]
   },
   {
     "Id": "interu50",
@@ -1453,7 +1662,17 @@
     },
     "Flammable": false,
     "Density": 250.0,
-    "QualityLevel": 0
+    "QualityLevel": 0,
+    "Features": [
+      {
+        "LocaleKey": "maxConnections",
+        "Value": "10"
+      },
+      {
+        "LocaleKey": "velocity",
+        "Value": "8"
+      }
+    ]
   },
   {
     "Id": "interu51",
@@ -1473,7 +1692,22 @@
     },
     "Flammable": true,
     "Density": 250.0,
-    "QualityLevel": 0
+    "QualityLevel": 0,
+    "Upgrade": {
+      "LocaleKey": "level2",
+      "TargetId": "interu52",
+      "Cost": 1
+    },
+    "Features": [
+      {
+        "LocaleKey": "range",
+        "Value": "4"
+      },
+      {
+        "LocaleKey": "hasColourDetection",
+        "Value": "false"
+      }
+    ]
   },
   {
     "Id": "interu52",
@@ -1493,7 +1727,22 @@
     },
     "Flammable": true,
     "Density": 250.0,
-    "QualityLevel": 0
+    "QualityLevel": 0,
+    "Upgrade": {
+      "LocaleKey": "level3",
+      "TargetId": "interu53",
+      "Cost": 1
+    },
+    "Features": [
+      {
+        "LocaleKey": "range",
+        "Value": "8"
+      },
+      {
+        "LocaleKey": "hasColourDetection",
+        "Value": "false"
+      }
+    ]
   },
   {
     "Id": "interu53",
@@ -1513,7 +1762,22 @@
     },
     "Flammable": true,
     "Density": 250.0,
-    "QualityLevel": 0
+    "QualityLevel": 0,
+    "Upgrade": {
+      "LocaleKey": "level4",
+      "TargetId": "interu54",
+      "Cost": 1
+    },
+    "Features": [
+      {
+        "LocaleKey": "range",
+        "Value": "12"
+      },
+      {
+        "LocaleKey": "hasColourDetection",
+        "Value": "false"
+      }
+    ]
   },
   {
     "Id": "interu54",
@@ -1533,7 +1797,22 @@
     },
     "Flammable": false,
     "Density": 250.0,
-    "QualityLevel": 0
+    "QualityLevel": 0,
+    "Upgrade": {
+      "LocaleKey": "level5",
+      "TargetId": "interu55",
+      "Cost": 3
+    },
+    "Features": [
+      {
+        "LocaleKey": "range",
+        "Value": "16"
+      },
+      {
+        "LocaleKey": "hasColourDetection",
+        "Value": "false"
+      }
+    ]
   },
   {
     "Id": "interu55",
@@ -1553,7 +1832,17 @@
     },
     "Flammable": false,
     "Density": 250.0,
-    "QualityLevel": 0
+    "QualityLevel": 0,
+    "Features": [
+      {
+        "LocaleKey": "range",
+        "Value": "20"
+      },
+      {
+        "LocaleKey": "hasColourDetection",
+        "Value": "false"
+      }
+    ]
   },
   {
     "Id": "interu56",
@@ -1573,7 +1862,26 @@
     },
     "Flammable": true,
     "Density": 0.0,
-    "QualityLevel": 0
+    "QualityLevel": 0,
+    "Upgrade": {
+      "LocaleKey": "level2",
+      "TargetId": "interu57",
+      "Cost": 2
+    },
+    "Features": [
+      {
+        "LocaleKey": "range",
+        "Value": "7"
+      },
+      {
+        "LocaleKey": "velocity",
+        "Value": "2"
+      },
+      {
+        "LocaleKey": "force",
+        "Value": "1"
+      }
+    ]
   },
   {
     "Id": "interu57",
@@ -1593,7 +1901,26 @@
     },
     "Flammable": false,
     "Density": 0.0,
-    "QualityLevel": 0
+    "QualityLevel": 0,
+    "Upgrade": {
+      "LocaleKey": "level3",
+      "TargetId": "interu58",
+      "Cost": 2
+    },
+    "Features": [
+      {
+        "LocaleKey": "range",
+        "Value": "9"
+      },
+      {
+        "LocaleKey": "velocity",
+        "Value": "4"
+      },
+      {
+        "LocaleKey": "force",
+        "Value": "2"
+      }
+    ]
   },
   {
     "Id": "interu58",
@@ -1613,7 +1940,26 @@
     },
     "Flammable": true,
     "Density": 0.0,
-    "QualityLevel": 0
+    "QualityLevel": 0,
+    "Upgrade": {
+      "LocaleKey": "level4",
+      "TargetId": "interu59",
+      "Cost": 2
+    },
+    "Features": [
+      {
+        "LocaleKey": "range",
+        "Value": "11"
+      },
+      {
+        "LocaleKey": "velocity",
+        "Value": "6"
+      },
+      {
+        "LocaleKey": "force",
+        "Value": "3"
+      }
+    ]
   },
   {
     "Id": "interu59",
@@ -1633,7 +1979,26 @@
     },
     "Flammable": false,
     "Density": 0.0,
-    "QualityLevel": 0
+    "QualityLevel": 0,
+    "Upgrade": {
+      "LocaleKey": "level5",
+      "TargetId": "interu60",
+      "Cost": 2
+    },
+    "Features": [
+      {
+        "LocaleKey": "range",
+        "Value": "13"
+      },
+      {
+        "LocaleKey": "velocity",
+        "Value": "8"
+      },
+      {
+        "LocaleKey": "force",
+        "Value": "4"
+      }
+    ]
   },
   {
     "Id": "interu60",
@@ -1653,6 +2018,20 @@
     },
     "Flammable": false,
     "Density": 0.0,
-    "QualityLevel": 0
+    "QualityLevel": 0,
+    "Features": [
+      {
+        "LocaleKey": "range",
+        "Value": "15"
+      },
+      {
+        "LocaleKey": "velocity",
+        "Value": "10"
+      },
+      {
+        "LocaleKey": "force",
+        "Value": "5"
+      }
+    ]
   }
 ]

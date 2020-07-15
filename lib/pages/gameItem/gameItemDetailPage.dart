@@ -204,6 +204,50 @@ class GameItemDetailPage extends StatelessWidget {
       )));
     }
 
+    if (gameItem.upgrade != null) {
+      rowWidgets.add(GestureDetector(
+        child: Container(
+            constraints: BoxConstraints(maxWidth: 450),
+            child: Padding(
+              child: Stack(children: [
+                localImage(AppImage.upgradeButton, height: 100),
+                Positioned.fill(
+                  child: Align(
+                    alignment: Alignment.center,
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        localImage(AppImage.componentKit, height: 20),
+                        Container(width: 10),
+                        Text(gameItem.upgrade.cost.toString(),
+                            style: TextStyle(fontSize: 20)),
+                      ],
+                    ),
+                  ),
+                ),
+              ]),
+              padding: EdgeInsets.all(8),
+            )),
+        onTap: () async {
+          if (isInDetailPane && updateDetailView != null) {
+            updateDetailView(GameItemDetailPage(
+              gameItem.upgrade.targetId,
+              isInDetailPane: isInDetailPane,
+              updateDetailView: updateDetailView,
+            ));
+          } else {
+            await navigateAwayFromHomeAsync(
+              context,
+              navigateToNamed: Routes.gameDetail,
+              navigateToNamedParameters: {
+                Routes.itemIdParam: gameItem.upgrade.targetId
+              },
+            );
+          }
+        },
+      ));
+    }
+
     widgets.add(
       Wrap(
         alignment: WrapAlignment.center,

@@ -13,6 +13,8 @@ class AppImage {
   static const String dimensionsCylinder = base + 'dimensionsCylinder.png';
   static const String chest = base + 'chest.png';
   static const String chestGold = base + 'chestGold.png';
+  static const String upgradeButton = base + 'upgradeButton.png';
+  static const String componentKit = base + 'componentKit.png';
 
   static String _darkLightFolder(bool isDark) => isDark ? dark : light;
   static String buoyancy(bool isDark) =>

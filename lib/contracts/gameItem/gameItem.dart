@@ -8,6 +8,7 @@ import 'cylinder.dart';
 import 'feature.dart';
 import 'gameItemBase.dart';
 import 'gameItemLang.dart';
+import 'upgrade.dart';
 
 class GameItem {
   GameItem({
@@ -23,6 +24,7 @@ class GameItem {
     this.density,
     this.qualityLevel,
     this.features,
+    this.upgrade,
   });
 
   String id;
@@ -36,6 +38,7 @@ class GameItem {
   bool flammable;
   double density;
   int qualityLevel;
+  Upgrade upgrade;
   List<Feature> features;
 
   factory GameItem.fromBaseAndLang(GameItemBase baseItem, GameItemLang lang) =>
@@ -52,5 +55,6 @@ class GameItem {
         density: baseItem.density,
         qualityLevel: baseItem.qualityLevel,
         features: baseItem.features,
+        upgrade: baseItem.upgrade,
       );
 }

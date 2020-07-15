@@ -123,4 +123,11 @@ enum LocaleKey {
   translationIssue,
   addPlantPlot,
   getXByTradingY,
+  gearCount,
+  velocity,
+  bearingCount,
+  pointsPerBattery,
+  pointsPerFuel,
+  maxConnections,
+  allowAdjustingJoints,
 }

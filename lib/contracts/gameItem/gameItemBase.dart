@@ -10,6 +10,7 @@ import '../../helpers/jsonHelper.dart';
 
 import '../rating/rating.dart';
 import 'box.dart';
+import 'feature.dart';
 
 class GameItemBase {
   GameItemBase({
@@ -23,6 +24,7 @@ class GameItemBase {
     this.flammable,
     this.density,
     this.qualityLevel,
+    this.features,
   });
 
   String id;
@@ -35,6 +37,7 @@ class GameItemBase {
   bool flammable;
   double density;
   int qualityLevel;
+  List<Feature> features;
 
   factory GameItemBase.fromRawJson(String str) =>
       GameItemBase.fromJson(json.decode(str));
@@ -50,6 +53,10 @@ class GameItemBase {
         cylinder: json["Cylinder"] == null
             ? null
             : Cylinder.fromJson(json["Cylinder"]),
+        features: json["Features"] == null
+            ? null
+            : List<Feature>.from(
+                json["Features"].map((x) => Feature.fromJson(x))),
         flammable: readBoolSafe(json, "Flammable"),
         density: readDoubleSafe(json, "Density"),
         qualityLevel: readIntSafe(json, "QualityLevel"),

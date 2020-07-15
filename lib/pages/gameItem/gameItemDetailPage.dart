@@ -1,10 +1,12 @@
+import 'package:enum_to_string/enum_to_string.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
-import 'package:scrapmechanic_kurtlourens_com/components/common/image.dart';
-import 'package:scrapmechanic_kurtlourens_com/contracts/generated/LootChance.dart';
+import 'package:scrapmechanic_kurtlourens_com/contracts/gameItem/feature.dart';
+import '../../localization/localesFromString.dart';
 
 import '../../components/adaptive/listWithScrollbar.dart';
 import '../../components/common/cachedFutureBuilder.dart';
+import '../../components/common/image.dart';
 import '../../components/dialogs/quantityDialog.dart';
 import '../../components/loading.dart';
 import '../../components/scaffoldTemplates/genericPageScaffold.dart';
@@ -18,6 +20,7 @@ import '../../constants/AppPadding.dart';
 import '../../constants/Routes.dart';
 import '../../contracts/craftingIngredient/craftedUsing.dart';
 import '../../contracts/gameItem/gameItemPageItem.dart';
+import '../../contracts/generated/LootChance.dart';
 import '../../contracts/recipe/recipe.dart';
 import '../../contracts/recipeIngredient/recipeIngredientDetail.dart';
 import '../../contracts/results/resultWithValue.dart';
@@ -128,38 +131,26 @@ class GameItemDetailPage extends StatelessWidget {
     }
 
     if (gameItem.box != null) {
-      rowWidgets.add(Card(
-        child: Padding(
-          padding: EdgeInsets.only(bottom: 18),
-          child: Container(
-            constraints: BoxConstraints(maxWidth: 450),
-            padding: EdgeInsets.all(10),
-            child: Center(
-              child: SizedBox(
-                child: cubeDimension(context, gameItem.box),
-                height: 120,
-              ),
-            ),
+      rowWidgets.add(paddedCardWithMaxSize(
+        Center(
+          child: SizedBox(
+            child: cubeDimension(context, gameItem.box),
+            height: 120,
           ),
         ),
+        padding: EdgeInsets.only(bottom: 18),
       ));
     }
 
     if (gameItem.cylinder != null) {
-      rowWidgets.add(Card(
-        child: Padding(
-          padding: EdgeInsets.only(bottom: 18),
-          child: Container(
-            constraints: BoxConstraints(maxWidth: 450),
-            padding: EdgeInsets.all(10),
-            child: Center(
-              child: SizedBox(
-                child: cylinderDimension(context, gameItem.cylinder),
-                height: 120,
-              ),
-            ),
+      rowWidgets.add(paddedCardWithMaxSize(
+        Center(
+          child: SizedBox(
+            child: cylinderDimension(context, gameItem.cylinder),
+            height: 120,
           ),
         ),
+        padding: EdgeInsets.only(bottom: 18),
       ));
     }
 
@@ -186,15 +177,31 @@ class GameItemDetailPage extends StatelessWidget {
           ],
         ));
       }
-      rowWidgets.add(Card(
-        child: Padding(
-          padding: EdgeInsets.all(18),
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: rows,
-          ),
+      rowWidgets.add(paddedCardWithMaxSize(
+        Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: rows,
         ),
       ));
+    }
+
+    if (gameItem.features != null && gameItem.features.length > 0) {
+      List<TableRow> rows = List<TableRow>();
+      for (Feature feature in gameItem.features) {
+        LocaleKey locale =
+            EnumToString.fromString(localesFromString, feature.localeKey);
+        rows.add(TableRow(children: [
+          Padding(
+            child: Text(Translations.get(context, locale) + ": "),
+            padding: EdgeInsets.all(4),
+          ),
+          Padding(child: Text(feature.value), padding: EdgeInsets.all(4)),
+        ]));
+      }
+      rowWidgets.add(paddedCardWithMaxSize(Padding(
+        child: Table(children: rows),
+        padding: EdgeInsets.all(8),
+      )));
     }
 
     widgets.add(

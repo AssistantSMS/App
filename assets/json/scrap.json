@@ -98,7 +98,7 @@
         "Value": "3"
       },
       {
-        "LocaleKey": "pointsPerBattery",
+        "LocaleKey": "pointsPerFuel",
         "Value": "3000"
       }
     ]

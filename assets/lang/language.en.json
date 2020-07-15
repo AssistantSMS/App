@@ -118,5 +118,12 @@
   "translation": "Translation",
   "translationIssue": "Please note that Scrap mechanic is not completely translated for the language you have selected. There will be items that are not translated into {0}.",
   "addPlantPlot": "Add plant plot",
-  "getXByTradingY": "Get {0} at the {1} in exchange for:"
+  "getXByTradingY": "Get {0} at the {1} in exchange for:",
+  "gearCount": "Number of gears",
+  "velocity": "Max speed",
+  "bearingCount": "Max bearings connected",
+  "pointsPerBattery": "Uses per Battery",
+  "pointsPerFuel": "Uses per Fuel",
+  "maxConnections": "Max amount of connections",
+  "allowAdjustingJoints": "Allow adjusting joints"
 }

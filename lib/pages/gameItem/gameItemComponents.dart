@@ -226,3 +226,20 @@ Widget cylinderDimension(BuildContext context, Cylinder cylinder) {
     ],
   );
 }
+
+Widget paddedCardWithMaxSize(Widget child,
+    {double maxWidth = 450, EdgeInsetsGeometry padding}) {
+  var container = Container(
+    constraints: BoxConstraints(maxWidth: maxWidth),
+    padding: EdgeInsets.all(10),
+    child: child,
+  );
+  return (padding == null)
+      ? Card(child: container)
+      : Card(
+          child: Padding(
+            padding: padding,
+            child: container,
+          ),
+        );
+}

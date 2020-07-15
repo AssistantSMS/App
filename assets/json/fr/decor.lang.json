@@ -1,103 +1,103 @@
 [
   {
     "Id": "deco1",
-    "Title": "Produce Billboard"
+    "Title": "Panneau production"
   },
   {
     "Id": "deco2",
-    "Title": "Berry Billboard"
+    "Title": "Panneau baies"
   },
   {
     "Id": "deco3",
-    "Title": "Sickle-Down Billboard"
+    "Title": "Panneau économie"
   },
   {
     "Id": "deco4",
-    "Title": "Warehouse Sign"
+    "Title": "Panneau entrepôt"
   },
   {
     "Id": "deco5",
-    "Title": "Elevator Sign"
+    "Title": "Panneau ascenseur"
   },
   {
     "Id": "deco6",
-    "Title": "Storage Sign"
+    "Title": "Panneau rangement"
   },
   {
     "Id": "deco7",
-    "Title": "Packing Sign"
+    "Title": "Panneau emballage"
   },
   {
     "Id": "deco8",
-    "Title": "Growroom Sign"
+    "Title": "Panneau bureau"
   },
   {
     "Id": "deco9",
-    "Title": "Utility Sign"
+    "Title": "Panneau placard à balais"
   },
   {
     "Id": "deco10",
-    "Title": "Man Sign"
+    "Title": "Panneau homme"
   },
   {
     "Id": "deco11",
-    "Title": "Woman Sign"
+    "Title": "Panneau femme"
   },
   {
     "Id": "deco12",
-    "Title": "Recycling Bin"
+    "Title": "Poubelle de recyclage"
   },
   {
     "Id": "deco13",
-    "Title": "Paper Stack"
+    "Title": "Pile de papier"
   },
   {
     "Id": "deco14",
-    "Title": "Old Restroom Mirror"
+    "Title": "Vieux miroir de toilettes"
   },
   {
     "Id": "deco15",
-    "Title": "Traffic Sign"
+    "Title": "Panneau routier"
   },
   {
     "Id": "deco16",
-    "Title": "Metallic Tube"
+    "Title": "Tube métallique"
   },
   {
     "Id": "deco17",
-    "Title": "Road Sign Base"
+    "Title": "Base de panneau routier"
   },
   {
     "Id": "deco18",
-    "Title": "Cash Register"
+    "Title": "Caisse enregistreuse"
   },
   {
     "Id": "deco19",
-    "Title": "Open Sign"
+    "Title": "Panneau ouvert"
   },
   {
     "Id": "deco20",
-    "Title": "Old Fruit Stand"
+    "Title": "Vieux stand de fruits"
   },
   {
     "Id": "deco21",
-    "Title": "Stacked Crates"
+    "Title": "Caisses empilées"
   },
   {
     "Id": "deco22",
-    "Title": "Sunshake Vending Machine"
+    "Title": "Distributeur de sunshakes"
   },
   {
     "Id": "deco23",
-    "Title": "Udder Decoration"
+    "Title": "Décoration mamelles"
   },
   {
     "Id": "deco24",
-    "Title": "Haystack"
+    "Title": "Meule de foin"
   },
   {
     "Id": "deco25",
-    "Title": "Hay Bale"
+    "Title": "Ballot de foin"
   },
   {
     "Id": "deco26",
@@ -113,7 +113,7 @@
   },
   {
     "Id": "deco29",
-    "Title": "Mannequin de chaussure"
+    "Title": "Botte de mannequin"
   },
   {
     "Id": "deco30",
@@ -121,7 +121,7 @@
   },
   {
     "Id": "deco31",
-    "Title": "Statuette de caneton"
+    "Title": "Figurine de bébé canard"
   },
   {
     "Id": "deco32",
@@ -133,43 +133,43 @@
   },
   {
     "Id": "deco34",
-    "Title": "Panneau : tête de mort"
+    "Title": "Panneau crâne"
   },
   {
     "Id": "deco35",
-    "Title": "Panneau : construction"
+    "Title": "Panneau zone de construction"
   },
   {
     "Id": "deco36",
-    "Title": "Panneau : avertissement"
+    "Title": "Panneau attention"
   },
   {
     "Id": "deco37",
-    "Title": "Panneau : danger"
+    "Title": "Panneau danger"
   },
   {
     "Id": "deco38",
-    "Title": "Panneau : stop"
+    "Title": "Panneau stop"
   },
   {
     "Id": "deco39",
-    "Title": "Panneau : danger agribots"
+    "Title": "Panneau attention aux Fermebots"
   },
   {
     "Id": "deco40",
-    "Title": "Panneau : bienvenue"
+    "Title": "Panneau bienvenue"
   },
   {
     "Id": "deco41",
-    "Title": "Panneau : entrée interdite"
+    "Title": "Panneau défense d'entrer"
   },
   {
     "Id": "deco42",
-    "Title": "Panneau : chute d'objets"
+    "Title": "Panneau objets qui tombent"
   },
   {
     "Id": "deco43",
-    "Title": "Panneau : direction"
+    "Title": "Panneau flèche"
   },
   {
     "Id": "deco44",
@@ -181,6 +181,6 @@
   },
   {
     "Id": "deco46",
-    "Title": "Oreiller"
+    "Title": "Coussin"
   }
 ]

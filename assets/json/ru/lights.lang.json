@@ -1,31 +1,31 @@
 [
   {
     "Id": "light1",
-    "Title": "Warehouse Wall Light"
+    "Title": "Складская настенная лампа."
   },
   {
     "Id": "light2",
-    "Title": "Packing Lamp"
+    "Title": "Упаковочная лампа"
   },
   {
     "Id": "light3",
-    "Title": "Warehouse Fluorescent Light"
+    "Title": "Складская флюоресцентная лампа."
   },
   {
     "Id": "light4",
-    "Title": "Warehouse Square Light"
+    "Title": "Складская квадратная лампа."
   },
   {
     "Id": "light5",
-    "Title": "Warehouse Spotlight"
+    "Title": "Складской прожектор"
   },
   {
     "Id": "light6",
-    "Title": "Warehouse Spot Small"
+    "Title": "Малый складской прожектор"
   },
   {
     "Id": "light7",
-    "Title": "Свет"
+    "Title": "Налобный фонарь"
   },
   {
     "Id": "light8",

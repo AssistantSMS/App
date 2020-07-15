@@ -1,59 +1,59 @@
 [
   {
     "Id": "intera1",
-    "Title": "Fridge"
+    "Title": "Nevera"
   },
   {
     "Id": "intera2",
-    "Title": "Locker"
+    "Title": "Taquilla"
   },
   {
     "Id": "intera3",
-    "Title": "File Cabinet"
+    "Title": "Archivo"
   },
   {
     "Id": "intera4",
-    "Title": "Chest"
+    "Title": "Cofre"
   },
   {
     "Id": "intera5",
-    "Title": "Large Chest"
+    "Title": "Cofre grande"
   },
   {
     "Id": "intera6",
-    "Title": "Protector: Anti-Destruction"
+    "Title": "Protector: antidestrucción"
   },
   {
     "Id": "intera7",
-    "Title": "Encryptor: Anti-Connection"
+    "Title": "Codificador: anticonexión"
   },
   {
     "Id": "intera8",
-    "Title": "Oily Toilet Seat"
+    "Title": "Asiento de retrete grasiento"
   },
   {
     "Id": "intera9",
-    "Title": "Resource Collector"
+    "Title": "Recogedor de recursos"
   },
   {
     "Id": "intera10",
-    "Title": "Refinebot"
+    "Title": "Procesabot"
   },
   {
     "Id": "intera11",
-    "Title": "Dressbot"
+    "Title": "Sastrebot"
   },
   {
     "Id": "intera12",
-    "Title": "Water Cannon"
+    "Title": "Cañón de agua"
   },
   {
     "Id": "intera13",
-    "Title": "Mountable Spud Gun"
+    "Title": "Lanzapapas portátil"
   },
   {
     "Id": "intera14",
-    "Title": "Respawn Bed"
+    "Title": "Cama de reaparición"
   },
   {
     "Id": "intera15",
@@ -85,7 +85,7 @@
   },
   {
     "Id": "intera22",
-    "Title": "WC"
+    "Title": "Retrete"
   },
   {
     "Id": "intera23",
@@ -121,11 +121,11 @@
   },
   {
     "Id": "intera31",
-    "Title": "Bocina"
+    "Title": "Claxon"
   },
   {
     "Id": "intera32",
-    "Title": "Puerta Lógica"
+    "Title": "Puerta lógica"
   },
   {
     "Id": "intera33",
@@ -133,19 +133,19 @@
   },
   {
     "Id": "intera34",
-    "Title": "Cabeza Totebot:\nBajo"
+    "Title": "Cabeza de transportabot: bajo"
   },
   {
     "Id": "intera35",
-    "Title": "Cabeza Totebot:\nPercusión"
+    "Title": "Cabeza de transportabot: percusión"
   },
   {
     "Id": "intera36",
-    "Title": "Cabeza Totebot:\nSintetizador"
+    "Title": "Cabeza de transportabot: voz sintetizada"
   },
   {
     "Id": "intera37",
-    "Title": "Cabeza Totebot:\nBlip"
+    "Title": "Cabeza de transportabot: blip"
   },
   {
     "Id": "intera38",
@@ -157,7 +157,7 @@
   },
   {
     "Id": "intera40",
-    "Title": "Montura de tiburón de Raft"
+    "Title": "Tiburón de Raft enmarcado"
   },
   {
     "Id": "intera41",
@@ -165,10 +165,10 @@
   },
   {
     "Id": "intera42",
-    "Title": "Small Explosive Canister"
+    "Title": "Bote explosivo pequeño"
   },
   {
     "Id": "intera43",
-    "Title": "Large Explosive Canister"
+    "Title": "Bote explosivo grande"
   }
 ]

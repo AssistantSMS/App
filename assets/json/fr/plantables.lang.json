@@ -1,47 +1,47 @@
 [
   {
     "Id": "plant1",
-    "Title": "Banana Seed"
+    "Title": "Graines de bananes"
   },
   {
     "Id": "plant2",
-    "Title": "Blueberry Seed"
+    "Title": "Graines de myrtilles"
   },
   {
     "Id": "plant3",
-    "Title": "Orange Seed"
+    "Title": "Graines d'oranges"
   },
   {
     "Id": "plant4",
-    "Title": "Pineapple Seed"
+    "Title": "Graines d'ananas"
   },
   {
     "Id": "plant5",
-    "Title": "Carrot Seed"
+    "Title": "Graines de carottes"
   },
   {
     "Id": "plant6",
-    "Title": "Redbeet Seed"
+    "Title": "Graines de betteraves"
   },
   {
     "Id": "plant7",
-    "Title": "Tomato Seed"
+    "Title": "Graines de tomates"
   },
   {
     "Id": "plant8",
-    "Title": "Broccoli Seed"
+    "Title": "Graines de brocolis"
   },
   {
     "Id": "plant9",
-    "Title": "Potato Seed"
+    "Title": "Graines de patates"
   },
   {
     "Id": "plant10",
-    "Title": "Banana"
+    "Title": "Banane"
   },
   {
     "Id": "plant11",
-    "Title": "Blueberry"
+    "Title": "Myrtille"
   },
   {
     "Id": "plant12",
@@ -49,30 +49,30 @@
   },
   {
     "Id": "plant13",
-    "Title": "Pineapple"
+    "Title": "Ananas"
   },
   {
     "Id": "plant14",
-    "Title": "Carrot"
+    "Title": "Carotte"
   },
   {
     "Id": "plant15",
-    "Title": "Redbeet"
+    "Title": "Betterave"
   },
   {
     "Id": "plant16",
-    "Title": "Tomato"
+    "Title": "Tomate"
   },
   {
     "Id": "plant17",
-    "Title": "Broccoli"
+    "Title": "Brocoli"
   },
   {
     "Id": "plant18",
-    "Title": "Potato"
+    "Title": "Patate"
   },
   {
     "Id": "plant19",
-    "Title": "Cotton Seed"
+    "Title": "Graines de coton"
   }
 ]

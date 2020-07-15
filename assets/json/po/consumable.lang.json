@@ -1,35 +1,35 @@
 [
   {
     "Id": "consu1",
-    "Title": "Gasoline"
+    "Title": "Benzyna"
   },
   {
     "Id": "consu2",
-    "Title": "Battery"
+    "Title": "Akumulator"
   },
   {
     "Id": "consu3",
-    "Title": "Water"
+    "Title": "Woda"
   },
   {
     "Id": "consu4",
-    "Title": "Fertilizer"
+    "Title": "Nawóz"
   },
   {
     "Id": "consu5",
-    "Title": "Chemicals"
+    "Title": "Chemikalia"
   },
   {
     "Id": "consu6",
-    "Title": "Component Kit"
+    "Title": "Zestaw komponentów"
   },
   {
     "Id": "consu7",
-    "Title": "Paint Ammo"
+    "Title": "Nabój do malowania"
   },
   {
     "Id": "consu8",
-    "Title": "Glowstick"
+    "Title": "Świetlik"
   },
   {
     "Id": "consu9",
@@ -37,22 +37,22 @@
   },
   {
     "Id": "consu10",
-    "Title": "Pizza Burger"
+    "Title": "Pizzoburger"
   },
   {
     "Id": "consu11",
-    "Title": "Veggie Burger"
+    "Title": "Wegeburger"
   },
   {
     "Id": "consu12",
-    "Title": "Revival Baguette"
+    "Title": "Ożywcza bagietka"
   },
   {
     "Id": "consu13",
-    "Title": "Woc Milk"
+    "Title": "Mleko aworka"
   },
   {
     "Id": "consu14",
-    "Title": "Soil Bag"
+    "Title": "Worek ziemi"
   }
 ]

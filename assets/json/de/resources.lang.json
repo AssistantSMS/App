@@ -1,46 +1,46 @@
 [
   {
     "Id": "reso1",
-    "Title": "Ember"
+    "Title": "Asche"
   },
   {
     "Id": "reso2",
-    "Title": "Beeswax"
+    "Title": "Bienenwachs"
   },
   {
     "Id": "reso3",
-    "Title": "Glue Clam"
+    "Title": "Klebermuschel"
   },
   {
     "Id": "reso4",
-    "Title": "Cotton"
+    "Title": "Baumwolle"
   },
   {
     "Id": "reso5",
-    "Title": "Corn"
+    "Title": "Mais"
   },
   {
     "Id": "reso6",
-    "Title": "Circuit Board"
+    "Title": "Platine"
   },
   {
     "Id": "reso7",
-    "Title": "Woc Steak"
+    "Title": "Woc-Steak"
   },
   {
     "Id": "reso8",
-    "Title": "Glow"
+    "Title": "Leuchten"
   },
   {
     "Id": "reso9",
-    "Title": "Pigment Flower"
+    "Title": "Pigmentblume"
   },
   {
     "Id": "reso10",
-    "Title": "Glue"
+    "Title": "Kleber"
   },
   {
     "Id": "reso11",
-    "Title": "Crude Oil"
+    "Title": "Rohöl"
   }
 ]

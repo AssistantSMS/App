@@ -1,103 +1,103 @@
 [
   {
     "Id": "deco1",
-    "Title": "Produce Billboard"
+    "Title": "Щит продукции"
   },
   {
     "Id": "deco2",
-    "Title": "Berry Billboard"
+    "Title": "Ягодный щит"
   },
   {
     "Id": "deco3",
-    "Title": "Sickle-Down Billboard"
+    "Title": "Знак «Жатва»"
   },
   {
     "Id": "deco4",
-    "Title": "Warehouse Sign"
+    "Title": "Знак «Склад»"
   },
   {
     "Id": "deco5",
-    "Title": "Elevator Sign"
+    "Title": "Знак «Лифт»"
   },
   {
     "Id": "deco6",
-    "Title": "Storage Sign"
+    "Title": "Знак «Хранение»"
   },
   {
     "Id": "deco7",
-    "Title": "Packing Sign"
+    "Title": "Знак «Упаковка»"
   },
   {
     "Id": "deco8",
-    "Title": "Growroom Sign"
+    "Title": "Знак «Офис»"
   },
   {
     "Id": "deco9",
-    "Title": "Utility Sign"
+    "Title": "Знак «Обслуживание»"
   },
   {
     "Id": "deco10",
-    "Title": "Man Sign"
+    "Title": "Знак «Мужчина»"
   },
   {
     "Id": "deco11",
-    "Title": "Woman Sign"
+    "Title": "Знак «Женщина»"
   },
   {
     "Id": "deco12",
-    "Title": "Recycling Bin"
+    "Title": "Мусорный контейнер"
   },
   {
     "Id": "deco13",
-    "Title": "Paper Stack"
+    "Title": "Стопка бумаги"
   },
   {
     "Id": "deco14",
-    "Title": "Old Restroom Mirror"
+    "Title": "Старое зеркало из уборной"
   },
   {
     "Id": "deco15",
-    "Title": "Traffic Sign"
+    "Title": "Дорожный знак"
   },
   {
     "Id": "deco16",
-    "Title": "Metallic Tube"
+    "Title": "Металлическая труба"
   },
   {
     "Id": "deco17",
-    "Title": "Road Sign Base"
+    "Title": "Подставка дорожного знака"
   },
   {
     "Id": "deco18",
-    "Title": "Cash Register"
+    "Title": "Кассовый аппарат"
   },
   {
     "Id": "deco19",
-    "Title": "Open Sign"
+    "Title": "Знак «Открыто»"
   },
   {
     "Id": "deco20",
-    "Title": "Old Fruit Stand"
+    "Title": "Старый фруктовый прилавок"
   },
   {
     "Id": "deco21",
-    "Title": "Stacked Crates"
+    "Title": "Штабель ящиков"
   },
   {
     "Id": "deco22",
-    "Title": "Sunshake Vending Machine"
+    "Title": "Автомат с саншейками"
   },
   {
     "Id": "deco23",
-    "Title": "Udder Decoration"
+    "Title": "Украшение «Вымя»"
   },
   {
     "Id": "deco24",
-    "Title": "Haystack"
+    "Title": "Стог"
   },
   {
     "Id": "deco25",
-    "Title": "Hay Bale"
+    "Title": "Тюк сена"
   },
   {
     "Id": "deco26",
@@ -113,15 +113,15 @@
   },
   {
     "Id": "deco29",
-    "Title": "Нога манекена"
+    "Title": "Ботинок манекена"
   },
   {
     "Id": "deco30",
-    "Title": "Рука Манекена"
+    "Title": "Рука манекена"
   },
   {
     "Id": "deco31",
-    "Title": "Статуэтка утенка"
+    "Title": "Фигурка утенка"
   },
   {
     "Id": "deco32",
@@ -133,43 +133,43 @@
   },
   {
     "Id": "deco34",
-    "Title": "Знак с черепом"
+    "Title": "Знак черепа"
   },
   {
     "Id": "deco35",
-    "Title": "Знак стройки"
+    "Title": "Знак «Идет строительство»"
   },
   {
     "Id": "deco36",
-    "Title": "Знак Внимание"
+    "Title": "Знак «Осторожно!»"
   },
   {
     "Id": "deco37",
-    "Title": "Знак Опасность"
+    "Title": "Знак «Опасно!»"
   },
   {
     "Id": "deco38",
-    "Title": "Знак Стоп"
+    "Title": "Знак «Стоп»"
   },
   {
     "Id": "deco39",
-    "Title": "Знак Фермоботы"
+    "Title": "Знак «Берегись фермоботов!»"
   },
   {
     "Id": "deco40",
-    "Title": "Знак Добро пожаловать"
+    "Title": "Знак «Добро пожаловать!»"
   },
   {
     "Id": "deco41",
-    "Title": "Знак Вход запрещен"
+    "Title": "Знак «Вход воспрещен»"
   },
   {
     "Id": "deco42",
-    "Title": "Знак Падающие объекты"
+    "Title": "Знак «Осторожно, падающие предметы»"
   },
   {
     "Id": "deco43",
-    "Title": "Знак-стрелка"
+    "Title": "Знак стрелки"
   },
   {
     "Id": "deco44",
@@ -177,7 +177,7 @@
   },
   {
     "Id": "deco45",
-    "Title": "Матрац"
+    "Title": "Матрас"
   },
   {
     "Id": "deco46",

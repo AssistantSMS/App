@@ -1,34 +1,34 @@
 [
   {
     "Id": "light1",
-    "Title": "Warehouse Wall Light"
+    "Title": "Lampe murale d'entrepôt"
   },
   {
     "Id": "light2",
-    "Title": "Packing Lamp"
+    "Title": "Lampe emballage"
   },
   {
     "Id": "light3",
-    "Title": "Warehouse Fluorescent Light"
+    "Title": "Lampe d'entrepôt fluorescente"
   },
   {
     "Id": "light4",
-    "Title": "Warehouse Square Light"
+    "Title": "Lampe d'entrepôt carrée"
   },
   {
     "Id": "light5",
-    "Title": "Warehouse Spotlight"
+    "Title": "Projecteur d'entrepôt"
   },
   {
     "Id": "light6",
-    "Title": "Warehouse Spot Small"
+    "Title": "Petit spot d'entrepôt"
   },
   {
     "Id": "light7",
-    "Title": "Éclairage"
+    "Title": "Phare"
   },
   {
     "Id": "light8",
-    "Title": "Éclairage d'entrepôt"
+    "Title": "Projecteur d'entrepôt"
   }
 ]

@@ -1,111 +1,111 @@
 [
   {
     "Id": "deco1",
-    "Title": "Produce Billboard"
+    "Title": "Cartel de producción"
   },
   {
     "Id": "deco2",
-    "Title": "Berry Billboard"
+    "Title": "Cartel de arandabots"
   },
   {
     "Id": "deco3",
-    "Title": "Sickle-Down Billboard"
+    "Title": "Cartel siega económica"
   },
   {
     "Id": "deco4",
-    "Title": "Warehouse Sign"
+    "Title": "Señal de almacén"
   },
   {
     "Id": "deco5",
-    "Title": "Elevator Sign"
+    "Title": "Señal de elevador"
   },
   {
     "Id": "deco6",
-    "Title": "Storage Sign"
+    "Title": "Señal de depósito"
   },
   {
     "Id": "deco7",
-    "Title": "Packing Sign"
+    "Title": "Señal de empaquetado"
   },
   {
     "Id": "deco8",
-    "Title": "Growroom Sign"
+    "Title": "Señal de oficina"
   },
   {
     "Id": "deco9",
-    "Title": "Utility Sign"
+    "Title": "Señal de utilidad"
   },
   {
     "Id": "deco10",
-    "Title": "Man Sign"
+    "Title": "Señal de hombre"
   },
   {
     "Id": "deco11",
-    "Title": "Woman Sign"
+    "Title": "Señal de mujer"
   },
   {
     "Id": "deco12",
-    "Title": "Recycling Bin"
+    "Title": "Papelera de reciclaje"
   },
   {
     "Id": "deco13",
-    "Title": "Paper Stack"
+    "Title": "Pila de papeles"
   },
   {
     "Id": "deco14",
-    "Title": "Old Restroom Mirror"
+    "Title": "Espejo de baño antiguo"
   },
   {
     "Id": "deco15",
-    "Title": "Traffic Sign"
+    "Title": "Señal de tráfico"
   },
   {
     "Id": "deco16",
-    "Title": "Metallic Tube"
+    "Title": "Tubo metálico"
   },
   {
     "Id": "deco17",
-    "Title": "Road Sign Base"
+    "Title": "Base de señal de carretera"
   },
   {
     "Id": "deco18",
-    "Title": "Cash Register"
+    "Title": "Caja registradora"
   },
   {
     "Id": "deco19",
-    "Title": "Open Sign"
+    "Title": "Señal de abierto"
   },
   {
     "Id": "deco20",
-    "Title": "Old Fruit Stand"
+    "Title": "Puesto de fruta vieja"
   },
   {
     "Id": "deco21",
-    "Title": "Stacked Crates"
+    "Title": "Cajones apilados"
   },
   {
     "Id": "deco22",
-    "Title": "Sunshake Vending Machine"
+    "Title": "Máquina expendedora de sunshake"
   },
   {
     "Id": "deco23",
-    "Title": "Udder Decoration"
+    "Title": "Adorno de ubres"
   },
   {
     "Id": "deco24",
-    "Title": "Haystack"
+    "Title": "Pila de heno"
   },
   {
     "Id": "deco25",
-    "Title": "Hay Bale"
+    "Title": "Fardo de heno"
   },
   {
     "Id": "deco26",
-    "Title": "Papel Higiénico"
+    "Title": "Papel higiénico"
   },
   {
     "Id": "deco27",
-    "Title": "Sumidero"
+    "Title": "Lavabo"
   },
   {
     "Id": "deco28",
@@ -113,15 +113,15 @@
   },
   {
     "Id": "deco29",
-    "Title": "Bota de Maniquí"
+    "Title": "Bota de maniquí"
   },
   {
     "Id": "deco30",
-    "Title": "Mano de manequín"
+    "Title": "Mano de maniquí"
   },
   {
     "Id": "deco31",
-    "Title": "Figura de Bebe\nPato "
+    "Title": "Estatuilla de patito"
   },
   {
     "Id": "deco32",
@@ -133,47 +133,47 @@
   },
   {
     "Id": "deco34",
-    "Title": "Señal de Calavera"
+    "Title": "Señal de calavera"
   },
   {
     "Id": "deco35",
-    "Title": "Señal de Construcción"
+    "Title": "Señal de zona de construcción"
   },
   {
     "Id": "deco36",
-    "Title": "Señal de Precaución"
+    "Title": "Señal de atención"
   },
   {
     "Id": "deco37",
-    "Title": "Señal de Peligro"
+    "Title": "Señal de peligro"
   },
   {
     "Id": "deco38",
-    "Title": "Señal de Stop"
+    "Title": "Señal de stop"
   },
   {
     "Id": "deco39",
-    "Title": "Señal de Cuidado\ncon Farmbots"
+    "Title": "Señal de «Cuidado con los granjebots»"
   },
   {
     "Id": "deco40",
-    "Title": "Señal de Bienvenida"
+    "Title": "Señal de bienvenida"
   },
   {
     "Id": "deco41",
-    "Title": "Señal de No Entrar"
+    "Title": "Señal de no pasar"
   },
   {
     "Id": "deco42",
-    "Title": "Señal de Caída de Objetos"
+    "Title": "Señal de caída de objetos"
   },
   {
     "Id": "deco43",
-    "Title": "Flecha"
+    "Title": "Señal de flecha"
   },
   {
     "Id": "deco44",
-    "Title": "Cono de Tráfico"
+    "Title": "Cono de tráfico"
   },
   {
     "Id": "deco45",

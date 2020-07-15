@@ -1,106 +1,106 @@
 [
   {
     "Id": "spaceship1",
-    "Title": "Ship Light"
+    "Title": "Światło statku"
   },
   {
     "Id": "spaceship2",
-    "Title": "Handle"
+    "Title": "Uchwyt"
   },
   {
     "Id": "spaceship3",
-    "Title": "Ship Floor Tile"
+    "Title": "Panel podłogowy okrętu"
   },
   {
     "Id": "spaceship4",
-    "Title": "Ship Ventilation"
+    "Title": "Wentylacja okrętu"
   },
   {
     "Id": "spaceship5",
-    "Title": "Ship Compartment"
+    "Title": "Schowek na okręcie"
   },
   {
     "Id": "spaceship6",
-    "Title": "Ship Dual fan"
+    "Title": "Podwójny wiatrak okrętu"
   },
   {
     "Id": "spaceship7",
-    "Title": "Warehouse Brick Lamp"
+    "Title": "Ceglana lampa magazynowa"
   },
   {
     "Id": "spaceship8",
-    "Title": "Net frame"
+    "Title": "Rama siatki"
   },
   {
     "Id": "spaceship9",
-    "Title": "Net frame hatch"
+    "Title": "Rama drzwiczek do siatki"
   },
   {
     "Id": "spaceship10",
-    "Title": "Ship Shelf"
+    "Title": "Półka okrętowa"
   },
   {
     "Id": "spaceship11",
-    "Title": "Calendar"
+    "Title": "Kalendarz"
   },
   {
     "Id": "spaceship13",
-    "Title": "Broken Microwave"
+    "Title": "Zepsuta mikrofala"
   },
   {
     "Id": "spaceship14",
-    "Title": "Crane Wheel"
+    "Title": "Koło żurawia"
   },
   {
     "Id": "spaceship15",
-    "Title": "Ship Wall Panel Large"
+    "Title": "Duży panel ścienny okrętu"
   },
   {
     "Id": "spaceship30",
-    "Title": "Ship Wall Panel Small"
+    "Title": "Mały panel ścienny okrętu"
   },
   {
     "Id": "spaceship31",
-    "Title": "Ship Wall Panel Medium"
+    "Title": "Średni panel ścienny okrętu"
   },
   {
     "Id": "spaceship32",
-    "Title": "Ship Wall Panel Large"
+    "Title": "Duży panel ścienny okrętu"
   },
   {
     "Id": "spaceship33",
-    "Title": "Ship Wiring Short"
+    "Title": "Krótkie okablowanie statku"
   },
   {
     "Id": "spaceship34",
-    "Title": "Ship Wiring Long"
+    "Title": "Długie okablowanie statku"
   },
   {
     "Id": "spaceship35",
-    "Title": "Ship Wiring End"
+    "Title": "Zakończenie okablowania statku"
   },
   {
     "Id": "spaceship36",
-    "Title": "Ship Floor Mold"
+    "Title": "Forma podłogi okrętowej"
   },
   {
     "Id": "spaceship42",
-    "Title": "Ship Blinds"
+    "Title": "Zasłony okrętowe"
   },
   {
     "Id": "spaceship43",
-    "Title": "Ship Ceiling Ventilation"
+    "Title": "Wentylacja sufitowa okrętu"
   },
   {
     "Id": "spaceship44",
-    "Title": "Ship Ventilation Panel"
+    "Title": "Panel wentylacyjny okrętu"
   },
   {
     "Id": "spaceship47",
-    "Title": "Znak „Wyjście”"
+    "Title": "„Wyjście”"
   },
   {
     "Id": "spaceship48",
-    "Title": "Drzwi statku naprawczego"
+    "Title": "Drzwi okrętu-bazy"
   }
 ]

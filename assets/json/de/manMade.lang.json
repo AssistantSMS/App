@@ -1,38 +1,38 @@
 [
   {
     "Id": "man1",
-    "Title": "Shack Wall"
+    "Title": "Hüttenwand"
   },
   {
     "Id": "man2",
-    "Title": "Shack Half Wall"
+    "Title": "Halbe Hüttenwand"
   },
   {
     "Id": "man3",
-    "Title": "Shade Sails"
+    "Title": "Schattensegel für Hütte"
   },
   {
     "Id": "man4",
-    "Title": "Awning"
+    "Title": "Markise für Hütte"
   },
   {
     "Id": "man5",
-    "Title": "Shack Roof"
+    "Title": "Hüttendach"
   },
   {
     "Id": "man6",
-    "Title": "Shack Light"
+    "Title": "Hüttenbeleuchtung"
   },
   {
     "Id": "man7",
-    "Title": "Fresh Neon Sign"
+    "Title": "Frisches Neonschild"
   },
   {
     "Id": "man8",
-    "Title": "Hard Work Sign"
+    "Title": "Schild: Harte Arbeit"
   },
   {
     "Id": "man9",
-    "Title": "Sale Sign"
+    "Title": "Schild: Sale"
   }
 ]

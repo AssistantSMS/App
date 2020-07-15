@@ -1,82 +1,82 @@
 [
   {
     "Id": "constr1",
-    "Title": "Hollow Concrete"
+    "Title": "속빈콘크리트"
   },
   {
     "Id": "constr2",
-    "Title": "Broken Concrete Small"
+    "Title": "부서진 콘크리트 소형"
   },
   {
     "Id": "constr3",
-    "Title": "Broken Concrete Medium"
+    "Title": "부서진 콘크리트 중형"
   },
   {
     "Id": "constr4",
-    "Title": "Broken Concrete Large"
+    "Title": "부서진 콘크리트 대형"
   },
   {
     "Id": "constr5",
-    "Title": "Barrier Stand"
+    "Title": "장애물 스탠드"
   },
   {
     "Id": "constr6",
-    "Title": "Cement Mix"
+    "Title": "시멘트 믹스"
   },
   {
     "Id": "constr7",
-    "Title": "Concrete Block Mould"
+    "Title": "콘크리트 블록 몰드"
   },
   {
     "Id": "constr8",
-    "Title": "Carpet Roll"
+    "Title": "카펫 롤"
   },
   {
     "Id": "constr9",
-    "Title": "Carpet Spool Holder"
+    "Title": "카펫 감개 거치대"
   },
   {
     "Id": "constr10",
-    "Title": "Scaffold Plastic Wall"
+    "Title": "비계 플라스틱 벽"
   },
   {
     "Id": "constr11",
-    "Title": "Scaffold Ledger"
+    "Title": "비계 수평 부재"
   },
   {
     "Id": "constr12",
-    "Title": "Scaffold Frame"
+    "Title": "비계 프레임"
   },
   {
     "Id": "constr13",
-    "Title": "Scaffold Plank"
+    "Title": "비계 플랭크"
   },
   {
     "Id": "constr14",
-    "Title": "Construction Pallet"
+    "Title": "건설용 팔레트"
   },
   {
     "Id": "constr15",
-    "Title": "Scaffold Pallet Ramp"
+    "Title": "비계 팔레트 경사로"
   },
   {
     "Id": "constr16",
-    "Title": "Sound Isolation Small "
+    "Title": "방음 소형 "
   },
   {
     "Id": "constr17",
-    "Title": "Sound Isolation Large"
+    "Title": "방음 대형"
   },
   {
     "Id": "constr18",
-    "Title": "Work Light"
+    "Title": "작업용 조명"
   },
   {
     "Id": "constr19",
-    "Title": "Paint Bucket"
+    "Title": "도색용 페인트통"
   },
   {
     "Id": "constr20",
-    "Title": "Scaffolding Step"
+    "Title": "비계 계단"
   }
 ]

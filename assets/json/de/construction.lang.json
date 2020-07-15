@@ -1,82 +1,82 @@
 [
   {
     "Id": "constr1",
-    "Title": "Hollow Concrete"
+    "Title": "Hohler Beton"
   },
   {
     "Id": "constr2",
-    "Title": "Broken Concrete Small"
+    "Title": "Zerbrochener Beton klein"
   },
   {
     "Id": "constr3",
-    "Title": "Broken Concrete Medium"
+    "Title": "Zerbrochener Beton mittel"
   },
   {
     "Id": "constr4",
-    "Title": "Broken Concrete Large"
+    "Title": "Zerbrochener Beton groß"
   },
   {
     "Id": "constr5",
-    "Title": "Barrier Stand"
+    "Title": "Barrierestand"
   },
   {
     "Id": "constr6",
-    "Title": "Cement Mix"
+    "Title": "Zementmischung"
   },
   {
     "Id": "constr7",
-    "Title": "Concrete Block Mould"
+    "Title": "Betonblockform"
   },
   {
     "Id": "constr8",
-    "Title": "Carpet Roll"
+    "Title": "Teppichrolle"
   },
   {
     "Id": "constr9",
-    "Title": "Carpet Spool Holder"
+    "Title": "Teppichspulenhalter"
   },
   {
     "Id": "constr10",
-    "Title": "Scaffold Plastic Wall"
+    "Title": "Gerüst für Plastikwand"
   },
   {
     "Id": "constr11",
-    "Title": "Scaffold Ledger"
+    "Title": "Gerüstquerbalken"
   },
   {
     "Id": "constr12",
-    "Title": "Scaffold Frame"
+    "Title": "Gerüstrahmen"
   },
   {
     "Id": "constr13",
-    "Title": "Scaffold Plank"
+    "Title": "Gerüstbohle"
   },
   {
     "Id": "constr14",
-    "Title": "Construction Pallet"
+    "Title": "Konstruktionspalette"
   },
   {
     "Id": "constr15",
-    "Title": "Scaffold Pallet Ramp"
+    "Title": "Gerüst-Palettenrampe"
   },
   {
     "Id": "constr16",
-    "Title": "Sound Isolation Small "
+    "Title": "Geräuschisolierung klein "
   },
   {
     "Id": "constr17",
-    "Title": "Sound Isolation Large"
+    "Title": "Geräuschisolierung groß"
   },
   {
     "Id": "constr18",
-    "Title": "Work Light"
+    "Title": "Arbeitsleuchte"
   },
   {
     "Id": "constr19",
-    "Title": "Paint Bucket"
+    "Title": "Farbeimer"
   },
   {
     "Id": "constr20",
-    "Title": "Scaffolding Step"
+    "Title": "Gerüststufe"
   }
 ]

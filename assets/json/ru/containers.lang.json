@@ -1,43 +1,43 @@
 [
   {
     "Id": "cont1",
-    "Title": "Hay Crate"
+    "Title": "Ящик для сена"
   },
   {
     "Id": "cont2",
-    "Title": "Stone Crate"
+    "Title": "Ящик для камня"
   },
   {
     "Id": "cont3",
-    "Title": "Tree Crate"
+    "Title": "Ящик для деревьев"
   },
   {
     "Id": "cont4",
-    "Title": "Unfolded Banana Box"
+    "Title": "Вскрытый ящик для бананов"
   },
   {
     "Id": "cont5",
-    "Title": "Unfolded Onion Box"
+    "Title": "Вскрытый ящик для лука"
   },
   {
     "Id": "cont6",
-    "Title": "Unfolded Grow Box"
+    "Title": "Вскрытый ящик для саженцев"
   },
   {
     "Id": "cont7",
-    "Title": "Main Humidifier"
+    "Title": "Главный увлажнитель"
   },
   {
     "Id": "cont8",
-    "Title": "Warehouse Crate"
+    "Title": "Складской ящик"
   },
   {
     "Id": "cont9",
-    "Title": "Blueberry Juice Cylinder"
+    "Title": "Баллон черничного сока"
   },
   {
     "Id": "cont10",
-    "Title": "Tomato Juice Cylinder"
+    "Title": "Баллон томатного сока"
   },
   {
     "Id": "cont11",
@@ -45,35 +45,35 @@
   },
   {
     "Id": "cont12",
-    "Title": "Коробка с овощами"
+    "Title": "Ящик для овощей"
   },
   {
     "Id": "cont13",
-    "Title": "Коробка с огурцами"
+    "Title": "Ящик для огурцов"
   },
   {
     "Id": "cont14",
-    "Title": "Коробка с морковью"
+    "Title": "Ящик для морковки"
   },
   {
     "Id": "cont15",
-    "Title": "Коробка с бананами"
+    "Title": "Ящик для бананов"
   },
   {
     "Id": "cont16",
-    "Title": "Коробка с фруктами"
+    "Title": "Ящик для фруктов"
   },
   {
     "Id": "cont17",
-    "Title": "Коробка с луком"
+    "Title": "Ящик для лука"
   },
   {
     "Id": "cont18",
-    "Title": "Коробка со свеклой"
+    "Title": "Ящик для свеклы"
   },
   {
     "Id": "cont19",
-    "Title": "Коробка с апельсинами"
+    "Title": "Ящик для апельсинов"
   },
   {
     "Id": "cont20",
@@ -81,6 +81,6 @@
   },
   {
     "Id": "cont21",
-    "Title": "Откр. конт. для растений"
+    "Title": "Контейнер для грунтовых растений"
   }
 ]

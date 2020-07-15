@@ -1,78 +1,78 @@
 [
   {
     "Id": "plant1",
-    "Title": "Banana Seed"
+    "Title": "Семена банана"
   },
   {
     "Id": "plant2",
-    "Title": "Blueberry Seed"
+    "Title": "Семена черники"
   },
   {
     "Id": "plant3",
-    "Title": "Orange Seed"
+    "Title": "Семена апельсина"
   },
   {
     "Id": "plant4",
-    "Title": "Pineapple Seed"
+    "Title": "Семена ананасов"
   },
   {
     "Id": "plant5",
-    "Title": "Carrot Seed"
+    "Title": "Семена морковки"
   },
   {
     "Id": "plant6",
-    "Title": "Redbeet Seed"
+    "Title": "Семена свеклы"
   },
   {
     "Id": "plant7",
-    "Title": "Tomato Seed"
+    "Title": "Семена помидоров"
   },
   {
     "Id": "plant8",
-    "Title": "Broccoli Seed"
+    "Title": "Семена брокколи"
   },
   {
     "Id": "plant9",
-    "Title": "Potato Seed"
+    "Title": "Семена картошки"
   },
   {
     "Id": "plant10",
-    "Title": "Banana"
+    "Title": "Банан"
   },
   {
     "Id": "plant11",
-    "Title": "Blueberry"
+    "Title": "Черника"
   },
   {
     "Id": "plant12",
-    "Title": "Orange"
+    "Title": "Апельсин"
   },
   {
     "Id": "plant13",
-    "Title": "Pineapple"
+    "Title": "Ананас"
   },
   {
     "Id": "plant14",
-    "Title": "Carrot"
+    "Title": "Морковь"
   },
   {
     "Id": "plant15",
-    "Title": "Redbeet"
+    "Title": "Свекла"
   },
   {
     "Id": "plant16",
-    "Title": "Tomato"
+    "Title": "Помидор"
   },
   {
     "Id": "plant17",
-    "Title": "Broccoli"
+    "Title": "Брокколи"
   },
   {
     "Id": "plant18",
-    "Title": "Potato"
+    "Title": "Картошка"
   },
   {
     "Id": "plant19",
-    "Title": "Cotton Seed"
+    "Title": "Семена хлопка"
   }
 ]

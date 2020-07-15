@@ -1,17 +1,17 @@
 [
   {
     "Id": "recipeDress1",
-    "Title": "Garment Box (Common)",
-    "Description": "Use it in a Dressbot to make new clothes"
+    "Title": "Caixa de Traje (Comum)",
+    "Description": "Use em um Robô Tecelão para fazer novas roupas."
   },
   {
     "Id": "recipeDress2",
-    "Title": "Garment Box (Rare)",
-    "Description": "Use it in a Dressbot to make new clothes"
+    "Title": "Caixa de Traje (Rara)",
+    "Description": "Use em um Robô Tecelão para fazer novas roupas."
   },
   {
     "Id": "recipeDress3",
-    "Title": "Garment Box (Epic)",
-    "Description": "Use it in a Dressbot to make new clothes"
+    "Title": "Caixa de Traje (Épica)",
+    "Description": "Use em um Robô Tecelão para fazer novas roupas."
   }
 ]

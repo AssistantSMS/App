@@ -1,28 +1,28 @@
 [
   {
     "Id": "recipeWorkbench1",
-    "Title": "Scrap Gas Engine",
-    "Description": "An engine with uneven speed and adjustable power, ideally suited to powering vehicles. Can be connected to a driver's seat or trigger. This Engine is not upgradable."
+    "Title": "スクラップガスエンジン",
+    "Description": "むら​の​ある​速度​と​調整​可能​な​パワー​を​備え​た​エンジン。​乗り物​の​動力​に​最適​です。​運転​席​や​トリガー​に​接続​する​こと​が​でき​ます。​この​エンジン​は​アップ​グレード​でき​ませ​ん。"
   },
   {
     "Id": "recipeWorkbench2",
-    "Title": "Scrap Driver's Seat",
-    "Description": "Makes bearings turn left and right. Can be connected to an engine to control the direction of travel. Can also be connected to triggers that can be activated from the seat. This Drive's Seat is not upgradable."
+    "Title": "スクラップ運転席",
+    "Description": "ベアリング​を​左右​に​回し​ます。​エンジン​に​接続​する​と、​動く​方向​を​コントロール​する​こと​が​でき​ます。​また、​トリガー​に​接続​する​と、​運転​席​から​動作​さ​せる​こと​が​でき​ます。​この​運転​席​は​アップ​グレード​でき​ませ​ん。"
   },
   {
     "Id": "recipeWorkbench3",
-    "Title": "Scrap Seat",
-    "Description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. This Seat is not upgradable."
+    "Title": "スクラップ座席",
+    "Description": "立ち​続ける​の​を​避ける​の​に​使い​ます。​座っ​て​リラックス​し​たり、​乗り物​に​取り付け​て​フレンド​が​一緒​について​こ​られる​よう​に​し​ましょ​う。​この​座席​は​アップ​グレード​でき​ませ​ん。"
   },
   {
     "Id": "recipeWorkbench4",
-    "Title": "Scrap Wheel",
-    "Description": "Not perfectly round"
+    "Title": "スクラップホイール",
+    "Description": "完璧​な​丸​さ​で​は​あり​ませ​ん。"
   },
   {
     "Id": "recipeWorkbench5",
     "Title": "ベアリング",
-    "Description": "ベアリング に 取り付け た もの は 全て 回転 し ます。 ベアリング は エンジン や ドライバー ズ シート に 取り付け、 様々 な 方法 で コントロール する こと も でき ます。"
+    "Description": "ベアリング​の​上​に​置い​た​もの​は​すべて​回転​し​ます。​ベアリング​は、​エンジン​や​運転​席​に​接続​する​と、​別​の​方法​で​操作​する​こと​も​でき​ます。"
   },
   {
     "Id": "recipeWorkbench6",
@@ -31,16 +31,16 @@
   {
     "Id": "recipeWorkbench7",
     "Title": "スイッチ",
-    "Description": "無制限 の オン デマンド・ トグル。 スイッチ は 接続 さ れ て いる もの を すべて 起動 する ので、 ワン プッシュ で の オン オフ に 不可欠 です。 エンジン、 スラスター、 コントローラー その他 を 起動 さ せ ら れ ます。"
+    "Description": "いくらでも​好き​な​だけ​切り替え​られ​ます。​スイッチ​は、​接続​し​た​もの​を​動作​さ​せ、​一​回​押し​た​だけ​で​オン​と​オフ​を​切り替え​たい​とき​に​は​欠か​せ​ませ​ん。​エンジン、​スラスター、​コントローラー​など​を​動作​さ​せる​こと​が​でき​ます。"
   },
   {
     "Id": "recipeWorkbench8",
     "Title": "ボタン",
-    "Description": "物体 を アクティブ にし ます。 ボタン を 押して いる 間 は アクティブ です。"
+    "Description": "何​か​を​動作​さ​せ​ます。​ボタン​を​押し​て​いる​あいだ​だけ​動作​し​ます。"
   },
   {
     "Id": "recipeWorkbench9",
     "Title": "接続 ツール",
-    "Description": "メカニック お気に入り の ツール です。 例えば ガス エンジン と ベアリング、 スラスター と ドライバー ズ シート など、 インタラクティブ パーツ を 接続 する の に 使い ます。"
+    "Description": "メカニック​お気に入り​の​ツール​です。​例えば​ガス​エンジン​と​ベアリング、​スラスター​と​ドライバーズシート​など、​インタラクティブ​パーツ​を​接続​する​の​に​使い​ます。"
   }
 ]

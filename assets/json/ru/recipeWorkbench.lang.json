@@ -1,28 +1,28 @@
 [
   {
     "Id": "recipeWorkbench1",
-    "Title": "Scrap Gas Engine",
-    "Description": "An engine with uneven speed and adjustable power, ideally suited to powering vehicles. Can be connected to a driver's seat or trigger. This Engine is not upgradable."
+    "Title": "Бензиновый двигатель (мусор)",
+    "Description": "Мотор с неравномерной скоростью и настраиваемой мощностью. Хорошо подходит для транспорта. Можно подсоединить к сиденью водителя или триггеру. Нельзя улучшить."
   },
   {
     "Id": "recipeWorkbench2",
-    "Title": "Scrap Driver's Seat",
-    "Description": "Makes bearings turn left and right. Can be connected to an engine to control the direction of travel. Can also be connected to triggers that can be activated from the seat. This Drive's Seat is not upgradable."
+    "Title": "Сиденье водителя (мусор)",
+    "Description": "Управляет вращением подшипников. Присоедините к двигателю, чтобы управлять направлением движения. Также позволяет активировать подсоединенные триггеры. Нельзя улучшить."
   },
   {
     "Id": "recipeWorkbench3",
-    "Title": "Scrap Seat",
-    "Description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. This Seat is not upgradable."
+    "Title": "Сиденье (мусор)",
+    "Description": "Присядьте, пусть ноги отдохнут. Отдохните сами или присоедините к транспорту, чтобы взять пассажира. Нельзя улучшить."
   },
   {
     "Id": "recipeWorkbench4",
-    "Title": "Scrap Wheel",
-    "Description": "Not perfectly round"
+    "Title": "Колесо (мусор)",
+    "Description": "Не совсем круглое."
   },
   {
     "Id": "recipeWorkbench5",
     "Title": "Подшипник",
-    "Description": "Все, что вы установите на подшипнике, будет вращаться. Подшипники можно соединять с двигателем или сиденьем водителя, чтобы управлять их вращением."
+    "Description": "Все, что вы ставите на подшипник, будет вращаться. К подшипнику можно присоединить двигатель или сиденье водителя, чтобы управлять вращением."
   },
   {
     "Id": "recipeWorkbench6",
@@ -31,12 +31,12 @@
   {
     "Id": "recipeWorkbench7",
     "Title": "Тумблер",
-    "Description": "Неограниченное переключение по запросу. Активирует то, к чему подключен, незаменим, когда нужно включать и выключать что-нибудь одним нажатием. Может активировать двигатель, реактивный двигатель, контроллер и т.д."
+    "Description": "Неограниченное количество переключений по команде. Активирует любой подключенный механизм. Незаменим, если что-то нужно включить одним движением. Может включить двигатель, реактивный двигатель, контроллер... что угодно."
   },
   {
     "Id": "recipeWorkbench8",
     "Title": "Кнопка",
-    "Description": "Активирует разные механизмы. Активация длится, пока кнопка нажата."
+    "Description": "Включает механизмы. Активация работает, пока кнопка нажата."
   },
   {
     "Id": "recipeWorkbench9",

@@ -2,17 +2,17 @@
   {
     "Id": "recipeCraft1",
     "Title": "接続 ツール",
-    "Description": "メカニック お気に入り の ツール です。 例えば ガス エンジン と ベアリング、 スラスター と ドライバー ズ シート など、 インタラクティブ パーツ を 接続 する の に 使い ます。"
+    "Description": "メカニック​お気に入り​の​ツール​です。​例えば​ガス​エンジン​と​ベアリング、​スラスター​と​ドライバーズシート​など、​インタラクティブ​パーツ​を​接続​する​の​に​使い​ます。"
   },
   {
     "Id": "recipeCraft2",
     "Title": "ペイント ツール",
-    "Description": "パーツ や ブロック を ペイント し て 製 作品 に 個性 を 加 え、 さらには 美しい アート へ と 昇華 さ せ ま しょう！ マウス の 左 ボタン を 使 って ペイント、 右 ボタン で 削除 し ます。 Q を 押して、 カラー セレクタ- を 開き ます。 マウス の 左 ボタン を 押し ながら ドラッグ する だけ で、 より 大きな 面積 を ペイント でき ます。"
+    "Description": "パーツ​や​ブロック​を​ペイント​し​て​製作​品​に​個性​を​加え、​さらに​は​美しい​アート​へ​と​昇華​さ​せ​ましょ​う！​マウス​の​左​ボタン​を​使っ​て​ペイント、​右​ボタン​で​削除​し​ます。​Q​を​押し​て、​カラー​セレクタ​-​を​開き​ます。​マウス​の​左​ボタン​を​押し​ながら​ドラッグ​する​だけ​で、​より​大きな​面積​を​ペイント​でき​ます。"
   },
   {
     "Id": "recipeCraft3",
     "Title": "溶接 ツール",
-    "Description": "製 作品 を 溶接 し ます！\n 溶接 ツール を 選択 後、 自由 な 状態 の 製 作品 を 左 クリック し、 次に もう 一つ の 製 作品 の 表面 を 左 クリック し て 両者 を 溶接 さ せ ます。 リフト 上 で パーツ を 結合 させる こと も でき ます。 最初 の パーツ 上 で マウス の 左 ボタン を 押し、 溶接 する パーツ に ドラッグ し ます。"
+    "Description": "製作​品​を​溶接​し​ます！​\n​溶接​ツール​を​選択​後、​自由​な​状態​の​製作​品​を​左​クリック​し、​次に​もう​一つ​の​製作​品​の​表面​を​左​クリック​し​て​両者​を​溶接​さ​せ​ます。​リフト​上​で​パーツ​を​結合​さ​せる​こと​も​でき​ます。​最初​の​パーツ​上​で​マウス​の​左​ボタン​を​押し、​溶接​する​パーツ​に​ドラッグ​し​ます。"
   },
   {
     "Id": "recipeCraft4",
@@ -20,339 +20,339 @@
   },
   {
     "Id": "recipeCraft5",
-    "Title": "ウッド ブロック"
+    "Title": "木材ブロック1"
   },
   {
     "Id": "recipeCraft6",
-    "Title": "Wood Block 2"
+    "Title": "木材ブロック2"
   },
   {
     "Id": "recipeCraft7",
-    "Title": "Wood Block 3"
+    "Title": "木材ブロック3"
   },
   {
     "Id": "recipeCraft8",
-    "Title": "メタル ブロック"
+    "Title": "金属ブロック1"
   },
   {
     "Id": "recipeCraft9",
-    "Title": "Metal Block 2"
+    "Title": "金属ブロック2"
   },
   {
     "Id": "recipeCraft10",
-    "Title": "Metal Block 3"
+    "Title": "金属ブロック3"
   },
   {
     "Id": "recipeCraft11",
-    "Title": "コンクリートブロック"
+    "Title": "コンクリートブロック1"
   },
   {
     "Id": "recipeCraft12",
-    "Title": "Concrete Block 2"
+    "Title": "コンクリートブロック2"
   },
   {
     "Id": "recipeCraft13",
-    "Title": "Concrete Block 3"
+    "Title": "コンクリートブロック3"
   },
   {
     "Id": "recipeCraft14",
-    "Title": "Sand Block"
+    "Title": "砂ブロック"
   },
   {
     "Id": "recipeCraft15",
-    "Title": "ガラス ブロック"
+    "Title": "ガラスブロック"
   },
   {
     "Id": "recipeCraft16",
-    "Title": "ガラス ブロック"
+    "Title": "ガラスタイルブロック"
   },
   {
     "Id": "recipeCraft17",
-    "Title": "Armored Glass Block"
+    "Title": "強化ガラスブロック"
   },
   {
     "Id": "recipeCraft18",
-    "Title": "Diamond Plate Block"
+    "Title": "ダイヤモンド板ブロック"
   },
   {
     "Id": "recipeCraft19",
-    "Title": "通路 ライト ブロック"
+    "Title": "街灯ブロック"
   },
   {
     "Id": "recipeCraft20",
-    "Title": "Extruded Metal Block"
+    "Title": "押出加工用金属ブロック"
   },
   {
     "Id": "recipeCraft21",
-    "Title": "Net Block"
+    "Title": "網ブロック"
   },
   {
     "Id": "recipeCraft22",
-    "Title": "Punched Steel Block"
+    "Title": "パンチングメタルブロック"
   },
   {
     "Id": "recipeCraft23",
-    "Title": "Solid Net Block"
+    "Title": "耐久網ブロック"
   },
   {
     "Id": "recipeCraft24",
-    "Title": "船体整備用ブロック"
+    "Title": "宇宙船ブロック"
   },
   {
     "Id": "recipeCraft25",
-    "Title": "レンガ ブロック"
+    "Title": "レンガブロック"
   },
   {
     "Id": "recipeCraft26",
-    "Title": "タイル ブロック"
+    "Title": "タイルブロック"
   },
   {
     "Id": "recipeCraft27",
-    "Title": "Restroom Block"
+    "Title": "トイレブロック"
   },
   {
     "Id": "recipeCraft28",
-    "Title": "バリ アブ ロック"
+    "Title": "柵ブロック"
   },
   {
     "Id": "recipeCraft29",
-    "Title": "Carpet Block"
+    "Title": "絨毯ブロック"
   },
   {
     "Id": "recipeCraft30",
-    "Title": "Bubble Plastic Block"
+    "Title": "気泡緩衝材ブロック"
   },
   {
     "Id": "recipeCraft31",
     "Title": "ベアリング",
-    "Description": "ベアリング に 取り付け た もの は 全て 回転 し ます。 ベアリング は エンジン や ドライバー ズ シート に 取り付け、 様々 な 方法 で コントロール する こと も でき ます。"
+    "Description": "ベアリング​の​上​に​置い​た​もの​は​すべて​回転​し​ます。​ベアリング​は、​エンジン​や​運転​席​に​接続​する​と、​別​の​方法​で​操作​する​こと​も​でき​ます。"
   },
   {
     "Id": "recipeCraft32",
     "Title": "スイッチ",
-    "Description": "無制限 の オン デマンド・ トグル。 スイッチ は 接続 さ れ て いる もの を すべて 起動 する ので、 ワン プッシュ で の オン オフ に 不可欠 です。 エンジン、 スラスター、 コントローラー その他 を 起動 さ せ ら れ ます。"
+    "Description": "いくらでも​好き​な​だけ​切り替え​られ​ます。​スイッチ​は、​接続​し​た​もの​を​動作​さ​せ、​一​回​押し​た​だけ​で​オン​と​オフ​を​切り替え​たい​とき​に​は​欠か​せ​ませ​ん。​エンジン、​スラスター、​コントローラー​など​を​動作​さ​せる​こと​が​でき​ます。"
   },
   {
     "Id": "recipeCraft33",
     "Title": "ボタン",
-    "Description": "物体 を アクティブ にし ます。 ボタン を 押して いる 間 は アクティブ です。"
+    "Description": "何​か​を​動作​さ​せ​ます。​ボタン​を​押し​て​いる​あいだ​だけ​動作​し​ます。"
   },
   {
     "Id": "recipeCraft34",
-    "Title": "Sensor 1",
-    "Description": "It detects, it activates! The sensor activates when detecting any kind of surface that comes into its view, and has a reach of ten blocks. It can activate an engine, a thruster, the controller and more."
+    "Title": "センサー1",
+    "Description": "検知​し​たり、​動作​さ​せ​たり​し​ます！​センサー​は​物体​の​表面​を​検知​する​と​動作​し​ます。​範囲​は​ブロック​10​個​分​です。​エンジン、​スラスター、​コントローラー​など​を​動作​さ​せる​こと​が​でき​ます。"
   },
   {
     "Id": "recipeCraft35",
-    "Title": "Sport Suspension 1",
-    "Description": "Adds shock absorption and provides stability. Great for vehicles to prevent them from easily flipping over. This suspension is small, but has a firmer bounce."
+    "Title": "スポーツサスペンション1",
+    "Description": "衝撃​吸収​を​付加​し、​安定​性​を​増し​ます。​乗り物​が​簡単​に​ひっくり返っ​て​しまう​の​を​防ぐ​の​に​適し​て​い​ます。​この​サスペンション​は​小型​です​が、​弾力​は​しっかり​し​て​い​ます。"
   },
   {
     "Id": "recipeCraft36",
-    "Title": "Off-Road Suspension 1",
-    "Description": "Adds shock absorption and provides stability. Great for vehicles to prevent them from easily flipping over. This suspension has a lot of bounce, making it ideal for off-road vehicles."
+    "Title": "オフロードサスペンション1",
+    "Description": "衝撃​吸収​を​付加​し、​安定​性​を​増し​ます。​乗り物​が​簡単​に​ひっくり返っ​て​しまう​の​を​防ぐ​の​に​適し​て​い​ます。​この​サスペンション​は​弾力​性​が​高く、​オフロード​用​の​乗り物​に​最適​です。"
   },
   {
     "Id": "recipeCraft37",
-    "Title": "Piston 1",
-    "Description": "Extends and contracts! Connect it to a trigger to activate. The piston can also be connected to a controller to make it extend and contract in a sequence. Perfect for creating impressive creations."
+    "Title": "ピストン1",
+    "Description": "伸び​て、​縮み​ます！​トリガー​に​接続​し​て​動作​さ​せ​ます。​ピストン​は、​コントローラー​に​接続​し​て、​順序​どおり​に​伸び​縮み​さ​せる​こと​も​でき​ます。​印象​的​な​作成​物​を​作る​のに​最適​です。"
   },
   {
     "Id": "recipeCraft38",
-    "Title": "Gas Engine 1",
-    "Description": "An engine with fixed speed and adjustable power, ideally suited to powering vehicles. Can be connected to a driver's seat or trigger. Upgrade for more connection points and less gas consumption."
+    "Title": "ガスエンジン1",
+    "Description": "一定​の​速度​と​調整​可能​な​パワー​を​備え​た​エンジン。​乗り物​の​動力​に​最適​です。​運転​席​や​トリガー​に​接続​する​こと​が​でき​ます。​アップ​グレード​する​と​接続​点​が​増え、​ガス​消費​が​減り​ます。"
   },
   {
     "Id": "recipeCraft39",
-    "Title": "Electric Engine 1",
-    "Description": "Powers bearings. An engine with fixed power and adjustable speed. A weak engine with an adjustable speed. Can be connected to a driver's seat or triggers. Upgrade for more connection points and less battery consumption."
+    "Title": "電気エンジン1",
+    "Description": "ベアリング​の​動力​に​なり​ます。​一定​の​パワー​と、​調整​可能​な​速度​を​備え​て​い​ます。​速度​調整​可能​な​力​の​弱い​エンジン​です。​運転​席​や​トリガー​に​接続​する​こと​が​でき​ます。​アップ​グレード​する​と​接続​点​が​増え、​バッテリー​消費​が​減り​ます。"
   },
   {
     "Id": "recipeCraft40",
-    "Title": "Driver's Seat 1",
-    "Description": "Makes bearings turn left and right. Can be connected to an engine to control the direction of travel. Can also be connected to triggers that can be activated from the seat. Lvl 5 Driver's Seat unlocks steering settings by pressing (E) on connected bearings with the Connect Tool."
+    "Title": "運転席1",
+    "Description": "ベアリング​を​左右​に​回し​ます。​エンジン​に​接続​する​と、​動く​方向​を​コントロール​する​こと​が​でき​ます。​また、​トリガー​に​接続​する​と、​運転​席​から​動作​さ​せる​こと​が​でき​ます。​レベル​5​の​運転​席​で​は、​（​E​）​を​押す​こと​で、​接続​具​で​接続​し​た​ベアリング​の​ステアリング​設定​が​アン​ロック​さ​れ​ます。"
   },
   {
     "Id": "recipeCraft41",
-    "Title": "Seat 1",
-    "Description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. Can be connected to triggers which can activate other interactive parts from the seat."
+    "Title": "座席1",
+    "Description": "立ち​続ける​の​を​避ける​の​に​使い​ます。​座っ​て​リラックス​し​たり、​乗り物​に​取り付け​て​フレンド​が​一緒​について​こ​られる​よう​に​し​ましょ​う。​トリガー​に​接続​し​て、​他​の​インタラクティブ​パーツ​を​座席​から​動作​さ​せ​られる​よう​に​する​こと​が​でき​ます。"
   },
   {
     "Id": "recipeCraft42",
-    "Title": "Driver's Saddle 1",
-    "Description": "Makes bearings turn left and right. Can be connected to an engine to control the direction of travel. Can also be connected to triggers that can be activated from the saddle. Lvl 5 Driver's Saddle unlocks steering settings by pressing (E) on connected bearings with the Connect Tool."
+    "Title": "運転サドル1",
+    "Description": "ベアリング​を​左右​に​回し​ます。​エンジン​に​接続​する​と、​動く​方向​を​コントロール​する​こと​が​でき​ます。​また、​トリガー​に​接続​する​と、​サドル​から​動作​さ​せる​こと​が​でき​ます。​レベル​5​の​運転​サドル​で​は、​（​E​）​を​押す​こと​で、​接続​具​で​接続​し​た​ベアリング​の​ステアリング​設定​が​アン​ロック​さ​れ​ます。"
   },
   {
     "Id": "recipeCraft43",
-    "Title": "Saddle 1",
-    "Description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. Can be connected to triggers which can activate other interactive parts from the saddle."
+    "Title": "サドル1",
+    "Description": "立ち​続ける​の​を​避ける​の​に​使い​ます。​座っ​て​リラックス​し​たり、​乗り物​に​取り付け​て​フレンド​が​一緒​について​こ​られる​よう​に​し​ましょ​う。​トリガー​に​接続​し​て、​他​の​インタラクティブ​パーツ​を​サドル​から​動作​さ​せ​られる​よう​に​する​こと​が​でき​ます。"
   },
   {
     "Id": "recipeCraft44",
-    "Title": "トイレット",
-    "Description": "立ち 小便 を 防止 し ます。 便座 に 座 って リラックス し て 用 を 足 しま しょう。 あなた の 車両 に 取り付け れ ば、 友人 たち が 寄 って き ます。 トリガー に 接続 し て シート から 他の インタラクティブ パーツ を 有効 化 させる こと も でき ます。 流す の を 忘れ ない で！"
+    "Title": "トイレ",
+    "Description": "立ち​続ける​の​を​避ける​の​に​使い​ます。​座っ​て​リラックス​し​たり、​乗り物​に​取り付け​て​フレンド​が​一緒​について​こ​られる​よう​に​し​ましょ​う。​トリガー​に​接続​し​て、​他​の​インタラクティブ​パーツ​を​トイレ​から​動作​さ​せ​られる​よう​に​する​こと​が​でき​ます。​水​を​流す​の​を​お​忘れ​なく！"
   },
   {
     "Id": "recipeCraft45",
-    "Title": "Thruster 1",
-    "Description": "Enough of these can make things fly. Needs to be connected to a trigger or the driver's seat in order to activate. Upgrade for less gas consumption."
+    "Title": "スラスター1",
+    "Description": "これら​が​十分​に​あれ​ば​物​を​飛ばす​こと​が​でき​ます。​動作​さ​せる​に​は、​トリガー​や​運転​席​に​接続​する​必要​が​あり​ます。​アップ​グレード​する​と、​ガス​消費​が​減り​ます。"
   },
   {
     "Id": "recipeCraft46",
-    "Title": "Controller 1",
-    "Description": "Allows bearings to rotate in sequence. Perfect for building transforming creations. Needs to be connected to bearings. Activated by connecting a trigger or driver's seat to the controller."
+    "Title": "コントローラー1",
+    "Description": "ベアリング​が​順序​どおり​に​回転​する​よう​に​でき​ます。​変形​する​作成​物​を​建造​する​のに​最適​です。​ベアリング​に​接続​する​必要​が​あり​ます。​トリガー​や​運転​席​を​コントローラー​に​接続​する​こと​で​動作​し​ます。"
   },
   {
     "Id": "recipeCraft47",
-    "Title": "ロジック ゲート",
-    "Description": "ロジック ブロック は、 基本 的 な ロジック 構築 を 可能 に させる パワフル な ブロック です。 ブロック の E を 押す と メカニック は 様々 な ロジック ゲート タイプ を 選択 でき ます。 ロジック ゲート は 他の ロジック ゲート、 トリガー、 タイマー その他 と 接続 でき ます。 高度 な クリ エイ ション に 最適 です。"
+    "Title": "論理ゲート",
+    "Description": "論理​ゲート​は、​基本​的​な​論理​関数​を​構築​する​こと​の​できる​強力​な​ブロック​です。​ブロック​の​上​で​E​を​押す​と、​メカニック​は、​様々​な​種類​の​論理​ゲート​を​選ぶ​こと​が​でき​ます。​論理​ゲート​は、​他​の​論理​ゲート、​トリガー、​タイマー​など​に​接続​する​こと​が​でき​ます。​高度​な​作成​物​を​作る​の​に​適し​て​い​ます。"
   },
   {
     "Id": "recipeCraft48",
     "Title": "タイマー",
-    "Description": "タイマー で 2 つ の インタラクティブ パーツ の 相互作用 を 遅らせる こと が でき ます。 例えば スイッチ と コントローラー など です。 ロジック ゲート に 最適 です。"
+    "Description": "タイマー​を​使う​こと​で、​2​つ​の​インタラクティブ​パーツ​間​の​相互​作用​を​遅延​さ​せる​こと​が​でき​ます。​例えば、​スイッチ​と​コントローラー​の​相互​作用​など​です。​論理​ゲート​で​役に立ち​ます。"
   },
   {
     "Id": "recipeCraft49",
     "Title": "ラジオ",
-    "Description": "常に ヒット 曲 を 流し ます。 野獣 の よう な ファームボット が ラジオ 局 を 乗 っ 取 って おり、 悪 趣味 な チューン を 放送 し てい ます。\n 相互作用 させる か トリガー に 接続 する こと によって 起動 し ます。"
+    "Description": "あらゆる​時代​の​あらゆる​ヒット​曲。​まったく​異常​な​音楽​を​好む​忌々しい​ボット​が​電波​を​乗っ取り、​クラシック​の​セレクション​を​流し​て​い​ます。​これ​を​使う​か、​トリガー​に​接続​し​て​動作​さ​せ​ましょ​う。"
   },
   {
     "Id": "recipeCraft50",
-    "Title": "ホーン",
-    "Description": "車両 に 追加 した り、 ドア ベル として 使い ます。 事故 を 避ける ため 友人 に 向け て 鳴 ら しま しょう。 ピッチ を 設定 し て トリガー に 接続 し、 起動 し ます。"
+    "Title": "警笛",
+    "Description": "乗り物​に​取り付ける​か、​ドア​ベル​として​使い​ます。​フレンド​が​事故​を​避け​られる​よう​に​警笛​を​鳴らし​ましょ​う。​ピッチ​を​設定​し、​トリガー​に​接続​し​て​動作​さ​せ​ます。"
   },
   {
     "Id": "recipeCraft51",
-    "Title": "ライト",
-    "Description": "視界 を 良く しま しょう。"
+    "Title": "ヘッドライト",
+    "Description": "周囲​を​見える​よう​に​し​ましょ​う！​トリガー​に​接続​し​て​オン​と​オフ​を​切り替え​ます。​ビーム​の​範囲​は​調整​可能​です。"
   },
   {
     "Id": "recipeCraft52",
-    "Title": "Respawn Bed",
-    "Description": "Take a lovely nap in this comfy bed to respawn in it after your mechanic has been knocked out"
+    "Title": "リスポーンベッド",
+    "Description": "この​快適​な​ベッド​で​ぐっすり​眠っ​て​おく​と、​あなた​の​メカニック​が​倒さ​れ​た​とき​に、​ここ​で​リスポーン​する​こと​が​でき​ます。"
   },
   {
     "Id": "recipeCraft53",
-    "Title": "Fridge",
-    "Description": "Keeps your food fresh"
+    "Title": "冷蔵庫",
+    "Description": "食べ物​の​鮮度​を​保ち​ます。"
   },
   {
     "Id": "recipeCraft54",
-    "Title": "Chest",
-    "Description": "A simple chest to store your items."
+    "Title": "チェスト",
+    "Description": "アイテム​を​保管​し​て​おける​簡素​な​チェスト​です。"
   },
   {
     "Id": "recipeCraft55",
-    "Title": "Large Chest",
-    "Description": "Great for storing a lot of items. Can also be used with a Vacuum Pump"
+    "Title": "チェスト（大）",
+    "Description": "大量​の​アイテム​を​保管​する​の​に​適し​て​い​ます。​真空​ポンプ​で​使う​こと​も​でき​ます。"
   },
   {
     "Id": "recipeCraft56",
-    "Title": "Vacuum Pump",
-    "Description": "The Vaccum Pump has many uses when connected to a trigger. Suck up water in to a water container. Pick up plants in to a chest. It can even shoot and place items from a chest."
+    "Title": "真空ポンプ",
+    "Description": "真空​ポンプ​は、​トリガー​に​接続​する​と​様々​な​用途​で​使う​こと​が​でき​ます。​水​を​吸い取っ​て​水​コンテナ​に​入れ​ます。​植物​を​チェスト​に​入れ​ます。​アイテム​を​チェスト​から​撃ち​出し​たり​配置​し​たり​する​こと​も​でき​ます。"
   },
   {
     "Id": "recipeCraft57",
-    "Title": "Vacuum Pipe",
-    "Description": "Use it with the Vacuum Pump to make items travel through pipes"
+    "Title": "真空パイプ",
+    "Description": "真空​ポンプ​と​一緒​に​使う​と、​アイテム​に​パイプ​の​中​を​通ら​せる​こと​が​でき​ます。"
   },
   {
     "Id": "recipeCraft58",
-    "Title": "Vacuum Pipe Corner",
-    "Description": "Use it with the Vacuum Pump to make items travel through pipes"
+    "Title": "真空パイプ（コーナー）",
+    "Description": "真空​ポンプ​と​一緒​に​使う​と、​アイテム​に​パイプ​の​中​を​通ら​せる​こと​が​でき​ます。"
   },
   {
     "Id": "recipeCraft59",
-    "Title": "Gas Container",
-    "Description": "Can stores more gas and loads gas in to Gas Engines and other interactive parts that require Gas when connected"
+    "Title": "ガスコンテナ",
+    "Description": "ガス​を​保管​し、​ガス​エンジン​や、​接続​時​に​ガス​が​必要​な​その他​の​インタラクティブ​パーツ​に​ガス​を​入れる​こと​が​でき​ます。"
   },
   {
     "Id": "recipeCraft60",
-    "Title": "Battery Container",
-    "Description": "Can Store more batteries and loads batteries in to Electric Engines and other interactive parts that require batteries when connected"
+    "Title": "バッテリーコンテナ",
+    "Description": "バッテリー​を​保管​し、​電気​エンジン​や、​接続​時​に​バッテリー​が​必要​な​その他​の​インタラクティブ​パーツ​に​バッテリー​を​入れる​こと​が​でき​ます。"
   },
   {
     "Id": "recipeCraft61",
-    "Title": "Water Container",
-    "Description": "Connect it to a Vacuum Pump that is under water to fil the Water Container with water"
+    "Title": "水コンテナ",
+    "Description": "水​より​下​の​位置​に​ある​真空​ポンプ​に​接続​する​と、​水​コンテナ​が​水​で​いっぱい​に​なり​ます。"
   },
   {
     "Id": "recipeCraft62",
-    "Title": "Chemical Container"
+    "Title": "ケミカルコンテナ"
   },
   {
     "Id": "recipeCraft63",
-    "Title": "Water Cannon",
-    "Description": "Connect it to a Water container with a trigger to water your plants more efficiently"
+    "Title": "放水砲",
+    "Description": "トリガー​で​水​コンテナ​に​接続​する​と、​植物​に​効率​よく​水​を​やる​こと​が​でき​ます。"
   },
   {
     "Id": "recipeCraft64",
-    "Title": "Saw Blade",
-    "Description": "Cut down trees faster with the Saw Blade. Put it on a bearing that is connected to a engine and drive it in to a tree."
+    "Title": "ノコ刃",
+    "Description": "ノコ​刃​が​あれ​ば、​木​を​すばやく​切り倒す​こと​が​でき​ます。​エンジン​に​接続​し​た​ベアリング​に​配置​し​て、​木​の​近く​で​動かし​ましょ​う。"
   },
   {
     "Id": "recipeCraft65",
-    "Title": "Drill",
-    "Description": "Use the Drill to mine square rocks for stone and metal. Put it on a bearing that is connected to a engine and drive it in to a square rock."
+    "Title": "ドリル",
+    "Description": "ドリル​を​使え​ば、​四角い​岩​を​掘っ​て​石​や​金属​を​得る​こと​が​でき​ます。​エンジン​に​接続​し​た​ベアリング​に​配置​し​て、​四角い​岩​の​近く​で​動かし​ましょ​う。"
   },
   {
     "Id": "recipeCraft66",
-    "Title": "Water Bucket",
-    "Description": "Fill it with water to water your plants."
+    "Title": "水バケツ",
+    "Description": "水​で​満たし​て​植物​に​水​を​やり​ます。"
   },
   {
     "Id": "recipeCraft67",
-    "Title": "Soil Bag",
-    "Description": "Use them on the ground to place your seeds in"
+    "Title": "土袋",
+    "Description": "地面​で​使う​と​種​を​植え​られる​よう​に​なり​ます。"
   },
   {
     "Id": "recipeCraft68",
-    "Title": "Fertilizer",
-    "Description": "Makes plants grow faster"
+    "Title": "肥料",
+    "Description": "植物​の​生育​を​促進​し​ます。"
   },
   {
     "Id": "recipeCraft69",
-    "Title": "Gasoline",
-    "Description": "Used to power gas engines and thrusters"
+    "Title": "ガソリン",
+    "Description": "ガス​エンジン​と​スラスター​に​パワー​を​供給​する​の​に​使い​ます。"
   },
   {
     "Id": "recipeCraft70",
-    "Title": "Battery",
-    "Description": "Used to power electric parts"
+    "Title": "バッテリー",
+    "Description": "電気​パーツ​に​パワー​を​供給​する​の​に​使い​ます。"
   },
   {
     "Id": "recipeCraft71",
-    "Title": "Glue"
+    "Title": "接着剤"
   },
   {
     "Id": "recipeCraft72",
-    "Title": "Water",
-    "Description": "Great for watering plants, unfortunately not good for drinking."
+    "Title": "水",
+    "Description": "植物​に​水​を​やる​の​に​適し​て​いる​ものの、​残念​ながら​飲用​で​は​あり​ませ​ん。"
   },
   {
     "Id": "recipeCraft73",
-    "Title": "Chemicals"
+    "Title": "ケミカル"
   },
   {
     "Id": "recipeCraft74",
-    "Title": "Paint Ammo",
-    "Description": "Load your Paint Tool and give your creations some color"
+    "Title": "塗装弾薬",
+    "Description": "塗装​具​に​装填​し、​作成​物​に​色​を​塗り​ます。"
   },
   {
     "Id": "recipeCraft75",
-    "Title": "Glowstick",
-    "Description": "Throw them at night or other dark places to see things better"
+    "Title": "サイリウム",
+    "Description": "夜​や​暗い​場所​で​投げる​と​よく​見える​よう​に​なる。"
   },
   {
     "Id": "recipeCraft76",
-    "Title": "Small Explosive Canister",
-    "Description": "Highly explosive canister that can detonate by strong collisions or by Spud Guns\nThis canister has a small explosion radius."
+    "Title": "小型爆薬缶",
+    "Description": "スパッドガン​で​強力​な​衝撃​を​与える​と​起爆​する​非常​に​爆発​性​の​高い​缶。​この​缶​の​爆破​範囲​は​小規模​です。"
   },
   {
     "Id": "recipeCraft77",
-    "Title": "Large Explosive Canister",
-    "Description": "Highly explosive canister that can detonate by strong collisions or by Spud Guns\nThis canister has a large explosion radius."
+    "Title": "大型爆薬缶",
+    "Description": "スパッドガン​で​強力​な​衝撃​を​与える​と​起爆​する​非常​に​爆発​性​の​高い​缶。​この​缶​の​爆破​範囲​は​大​規模​です。"
   },
   {
     "Id": "recipeCraft78",
@@ -360,59 +360,59 @@
   },
   {
     "Id": "recipeCraft79",
-    "Title": "ビッグ ホイール"
+    "Title": "ホイール（大）"
   },
   {
     "Id": "recipeCraft80",
-    "Title": "ショート スモール パイプ"
+    "Title": "パイプ（小、短）"
   },
   {
     "Id": "recipeCraft81",
-    "Title": "ロング スモール パイプ"
+    "Title": "パイプ（小、長）"
   },
   {
     "Id": "recipeCraft82",
-    "Title": "スモール パイプ バンド"
+    "Title": "パイプ（小、曲がり）"
   },
   {
     "Id": "recipeCraft83",
-    "Title": "T 字 スモール パイプ"
+    "Title": "パイプ（小、T字）"
   },
   {
     "Id": "recipeCraft84",
-    "Title": "コーナー スモール パイプ"
+    "Title": "パイプ（小、コーナー）"
   },
   {
     "Id": "recipeCraft85",
-    "Title": "十字 スモール パイプ"
+    "Title": "パイプ（小、四方向）"
   },
   {
     "Id": "recipeCraft86",
-    "Title": "４ 股 パイプ"
+    "Title": "パイプ（小、四方T）"
   },
   {
     "Id": "recipeCraft87",
-    "Title": "5 股 スモール パイプ"
+    "Title": "パイプ（小、五方向）"
   },
   {
     "Id": "recipeCraft88",
-    "Title": "6 股 スモール パイプ"
+    "Title": "パイプ（小、六方向）"
   },
   {
     "Id": "recipeCraft89",
-    "Title": "ショート パイプ"
+    "Title": "パイプ（短）"
   },
   {
     "Id": "recipeCraft90",
-    "Title": "ロング パイプ"
+    "Title": "パイプ（長）"
   },
   {
     "Id": "recipeCraft91",
-    "Title": "パイプ コーナー"
+    "Title": "パイプ（コーナー）"
   },
   {
     "Id": "recipeCraft92",
-    "Title": "パイプ ジョ イン"
+    "Title": "パイプ（接合部）"
   },
   {
     "Id": "recipeCraft93",
@@ -420,23 +420,23 @@
   },
   {
     "Id": "recipeCraft94",
-    "Title": "ショート I ビーム"
+    "Title": "I型鋼（短）"
   },
   {
     "Id": "recipeCraft95",
-    "Title": "ロング I ビーム"
+    "Title": "I型鋼（長）"
   },
   {
     "Id": "recipeCraft96",
-    "Title": "I ビーム コーナー"
+    "Title": "I型鋼（コーナー）"
   },
   {
     "Id": "recipeCraft97",
-    "Title": "I ビーム エンド"
+    "Title": "I型鋼（端部）"
   },
   {
     "Id": "recipeCraft98",
-    "Title": "I ビーム コーナー"
+    "Title": "I型鋼（ホルダー）"
   },
   {
     "Id": "recipeCraft99",
@@ -448,15 +448,15 @@
   },
   {
     "Id": "recipeCraft101",
-    "Title": "エア コンディション"
+    "Title": "エアコン"
   },
   {
     "Id": "recipeCraft102",
-    "Title": "マグカップ"
+    "Title": "マグ"
   },
   {
     "Id": "recipeCraft103",
-    "Title": "マネキン ブーツ"
+    "Title": "マネキンの靴"
   },
   {
     "Id": "recipeCraft104",
@@ -464,62 +464,62 @@
   },
   {
     "Id": "recipeCraft105",
-    "Title": "子供 の アヒル の 人形"
+    "Title": "コガモの小象"
   },
   {
     "Id": "recipeCraft106",
-    "Title": "鉢植"
+    "Title": "鉢植え"
   },
   {
     "Id": "recipeCraft107",
-    "Title": "小型 鉢植"
+    "Title": "鉢植え（小）"
   },
   {
     "Id": "recipeCraft108",
-    "Title": "ぶどう の 鉢植"
+    "Title": "鉢植え（蔓）"
   },
   {
     "Id": "recipeCraft109",
-    "Title": "大型 植木鉢"
+    "Title": "鉢（大）"
   },
   {
     "Id": "recipeCraft110",
-    "Title": "種子 植物 の 鉢植"
+    "Title": "鉢植え（種）"
   },
   {
     "Id": "recipeCraft111",
-    "Title": "花 の 咲 い た サボテン の 鉢植"
+    "Title": "鉢植え（花サボテン）"
   },
   {
     "Id": "recipeCraft112",
-    "Title": "サボテン の 鉢植"
+    "Title": "鉢植え（サボテン）"
   },
   {
     "Id": "recipeCraft113",
-    "Title": "青い 花 の 鉢植"
+    "Title": "鉢植え（青い花）"
   },
   {
     "Id": "recipeCraft114",
-    "Title": "小型 角 窓"
+    "Title": "窓（小、長方形）"
   },
   {
     "Id": "recipeCraft115",
-    "Title": "角 窓"
+    "Title": "窓（四角）"
   },
   {
     "Id": "recipeCraft116",
-    "Title": "大型 角 窓"
+    "Title": "窓（大、長方形）"
   },
   {
     "Id": "recipeCraft117",
-    "Title": "大型 ウィンド シールド"
+    "Title": "フロントガラス（大）"
   },
   {
     "Id": "recipeCraft118",
-    "Title": "小型 ウィンド シールド"
+    "Title": "フロントガラス（小）"
   },
   {
     "Id": "recipeCraft119",
-    "Title": "トラ フ ィ ッ ク コーン"
+    "Title": "トラフィックコーン"
   }
 ]

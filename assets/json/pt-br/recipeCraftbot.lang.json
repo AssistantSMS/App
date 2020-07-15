@@ -20,83 +20,83 @@
   },
   {
     "Id": "recipeCraft5",
-    "Title": "Bloco de Madeira"
+    "Title": "Bloco de Madeira 1"
   },
   {
     "Id": "recipeCraft6",
-    "Title": "Wood Block 2"
+    "Title": "Bloco de Madeira 2"
   },
   {
     "Id": "recipeCraft7",
-    "Title": "Wood Block 3"
+    "Title": "Bloco de Madeira 3"
   },
   {
     "Id": "recipeCraft8",
-    "Title": "Bloco de Metal"
+    "Title": "Bloco de Metal 1"
   },
   {
     "Id": "recipeCraft9",
-    "Title": "Metal Block 2"
+    "Title": "Bloco de Metal 2"
   },
   {
     "Id": "recipeCraft10",
-    "Title": "Metal Block 3"
+    "Title": "Bloco de Metal 3"
   },
   {
     "Id": "recipeCraft11",
-    "Title": "Bloco de Concreto"
+    "Title": "Bloco de Concreto 1"
   },
   {
     "Id": "recipeCraft12",
-    "Title": "Concrete Block 2"
+    "Title": "Bloco de Concreto 2"
   },
   {
     "Id": "recipeCraft13",
-    "Title": "Concrete Block 3"
+    "Title": "Bloco de Concreto 3"
   },
   {
     "Id": "recipeCraft14",
-    "Title": "Sand Block"
+    "Title": "Bloco de Areia"
   },
   {
     "Id": "recipeCraft15",
-    "Title": "Bloco de vidro"
-  },
-  {
-    "Id": "recipeCraft16",
     "Title": "Bloco de Vidro"
   },
   {
+    "Id": "recipeCraft16",
+    "Title": "Bloco de Ladrilhos de Vidro"
+  },
+  {
     "Id": "recipeCraft17",
-    "Title": "Armored Glass Block"
+    "Title": "Bloco de Vidro Blindado"
   },
   {
     "Id": "recipeCraft18",
-    "Title": "Diamond Plate Block"
+    "Title": "Bloco de Chapa de Diamante"
   },
   {
     "Id": "recipeCraft19",
-    "Title": "Bloco de Luz Externa"
+    "Title": "Bloco de Iluminação"
   },
   {
     "Id": "recipeCraft20",
-    "Title": "Extruded Metal Block"
+    "Title": "Bloco de Metal Extrudido"
   },
   {
     "Id": "recipeCraft21",
-    "Title": "Net Block"
+    "Title": "Bloco de Malha"
   },
   {
     "Id": "recipeCraft22",
-    "Title": "Punched Steel Block"
+    "Title": "Bloco de Aço Perfurado"
   },
   {
     "Id": "recipeCraft23",
-    "Title": "Solid Net Block"
+    "Title": "Bloco de Malha Sólido"
   },
   {
     "Id": "recipeCraft24",
-    "Title": "Bloco de Navio de Manutenção"
+    "Title": "Bloco de Nave"
   },
   {
     "Id": "recipeCraft25",
@@ -104,11 +104,11 @@
   },
   {
     "Id": "recipeCraft26",
-    "Title": "Bloco de Azulejo"
+    "Title": "Bloco de Ladrilhos"
   },
   {
     "Id": "recipeCraft27",
-    "Title": "Restroom Block"
+    "Title": "Bloco de Lavabo"
   },
   {
     "Id": "recipeCraft28",
@@ -116,243 +116,243 @@
   },
   {
     "Id": "recipeCraft29",
-    "Title": "Carpet Block"
+    "Title": "Bloco de Carpete"
   },
   {
     "Id": "recipeCraft30",
-    "Title": "Bubble Plastic Block"
+    "Title": "Bloco de Bolhas de Plástico"
   },
   {
     "Id": "recipeCraft31",
     "Title": "Rolamento",
-    "Description": "Tudo que você colocar sobre o rolamento vai girar. Rolamentos também podem ser conectados a um motor ou a um assento de operador para ser controlado de formas diferentes."
+    "Description": "Tudo que você posicionar no rolamento irá girar. Rolamentos também podem ser conectados a um motor ou ao banco de motorista para serem controlados de jeitos diferentes."
   },
   {
     "Id": "recipeCraft32",
-    "Title": "Comando",
-    "Description": "Ligue e desligue à vontade. O comando ativa a peça à qual está conectado, tornando-a indispensável para quando você quer ligar e desligar coisas com facilidade. Ela pode ativar um motor, um propulsor, o controlador e mais."
+    "Title": "Interruptor",
+    "Description": "Alterne sem moderação. O interruptor ativa o que estiver conectado a ele, tornando-se indispensável para ligar e desligar as coisas ao usar uma única vez. Ele pode ativar um motor, um propulsor, o controlador e muito mais."
   },
   {
     "Id": "recipeCraft33",
     "Title": "Botão",
-    "Description": "Ativa coisas. O botão fica ativado enquanto continuar pressionado."
+    "Description": "Ativa coisas. O botão ativa enquanto for pressionado."
   },
   {
     "Id": "recipeCraft34",
     "Title": "Sensor 1",
-    "Description": "It detects, it activates! The sensor activates when detecting any kind of surface that comes into its view, and has a reach of ten blocks. It can activate an engine, a thruster, the controller and more."
+    "Description": "Detectou algo? Hora de ativar! O sensor é ativado ao detectar qualquer tipo de superfície que esteja no campo de visão dele. Tem um alcance de dez blocos. Ele pode ativar um motor, um propulsor, o controlador e muito mais."
   },
   {
     "Id": "recipeCraft35",
-    "Title": "Sport Suspension 1",
-    "Description": "Adds shock absorption and provides stability. Great for vehicles to prevent them from easily flipping over. This suspension is small, but has a firmer bounce."
+    "Title": "Suspensão Desportiva 1",
+    "Description": "Adiciona absorção de choque e concede estabilidade. Ótimo para evitar que veículos capotem facilmente. A suspensão é pequena, mas fornece uma boa aderência."
   },
   {
     "Id": "recipeCraft36",
-    "Title": "Off-Road Suspension 1",
-    "Description": "Adds shock absorption and provides stability. Great for vehicles to prevent them from easily flipping over. This suspension has a lot of bounce, making it ideal for off-road vehicles."
+    "Title": "Suspensão Off-road 1",
+    "Description": "Adiciona absorção de choque e concede estabilidade. Ótimo para evitar que veículos capotem facilmente. A suspensão tem uma aderência incrível, o que a torna ideal para veículos off-road."
   },
   {
     "Id": "recipeCraft37",
-    "Title": "Piston 1",
-    "Description": "Extends and contracts! Connect it to a trigger to activate. The piston can also be connected to a controller to make it extend and contract in a sequence. Perfect for creating impressive creations."
+    "Title": "Pistão 1",
+    "Description": "Expande e contrai! Conecte a um acionador para ativar. O pistão também pode ser conectado a um controlador para expandir e contrair em uma sequência. É perfeito para fazer criações incríveis."
   },
   {
     "Id": "recipeCraft38",
-    "Title": "Gas Engine 1",
-    "Description": "An engine with fixed speed and adjustable power, ideally suited to powering vehicles. Can be connected to a driver's seat or trigger. Upgrade for more connection points and less gas consumption."
+    "Title": "Motor de Combustão 1",
+    "Description": "Um motor com velocidade fixa e potência ajustável, ideal para alimentar veículos. Pode ser conectado a um banco de motorista ou a um acionador. Melhore para mais pontos de conexão e menor consumo de gasolina."
   },
   {
     "Id": "recipeCraft39",
-    "Title": "Electric Engine 1",
-    "Description": "Powers bearings. An engine with fixed power and adjustable speed. A weak engine with an adjustable speed. Can be connected to a driver's seat or triggers. Upgrade for more connection points and less battery consumption."
+    "Title": "Motor Elétrico 1",
+    "Description": "Alimenta os rolamentos. Um motor com potência fixa e velocidade ajustável. Um motor fraco com velocidade ajustável. Pode ser conectado a um banco de motorista ou a um acionador. Melhore para mais pontos de conexão e menor consumo de bateria."
   },
   {
     "Id": "recipeCraft40",
-    "Title": "Driver's Seat 1",
-    "Description": "Makes bearings turn left and right. Can be connected to an engine to control the direction of travel. Can also be connected to triggers that can be activated from the seat. Lvl 5 Driver's Seat unlocks steering settings by pressing (E) on connected bearings with the Connect Tool."
+    "Title": "Banco de Motorista 1",
+    "Description": "Faz os rolamentos girarem para a esquerda e para a direita. Pode ser conectado a um motor para controlar a direção da viagem. Além disso, é possível conectar a acionadores que podem ser ativados a partir do banco. O Banco de Motorista de Nível 5 libera ajustes de direção ao apertar (E) em rolamentos ligados com o conector."
   },
   {
     "Id": "recipeCraft41",
-    "Title": "Seat 1",
-    "Description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. Can be connected to triggers which can activate other interactive parts from the seat."
+    "Title": "Banco 1",
+    "Description": "Usado para não precisar ficar de pé. Sente-se e relaxe ou então coloque no seu veículo para dar carona aos seus amigos. Pode ser conectado a acionadores que são capazes de ativar outras peças interativas a partir do banco."
   },
   {
     "Id": "recipeCraft42",
-    "Title": "Driver's Saddle 1",
-    "Description": "Makes bearings turn left and right. Can be connected to an engine to control the direction of travel. Can also be connected to triggers that can be activated from the saddle. Lvl 5 Driver's Saddle unlocks steering settings by pressing (E) on connected bearings with the Connect Tool."
+    "Title": "Assento de Motorista 1",
+    "Description": "Faz os rolamentos girarem para a esquerda e para a direita. Pode ser conectado a um motor para controlar a direção da viagem. Além disso, é possível conectar a acionadores que podem ser ativados a partir do assento. O Assento de Motorista de Nível 5 libera ajustes de direção ao apertar (E) em rolamentos ligados com o conector."
   },
   {
     "Id": "recipeCraft43",
-    "Title": "Saddle 1",
-    "Description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. Can be connected to triggers which can activate other interactive parts from the saddle."
+    "Title": "Assento 1",
+    "Description": "Usado para não precisar ficar de pé. Sente-se e relaxe ou então coloque no seu veículo para dar carona aos seus amigos. Pode ser conectado a acionadores que são capazes de ativar outras peças interativas a partir do assento."
   },
   {
     "Id": "recipeCraft44",
-    "Title": "Privada",
-    "Description": "Usada para não ter que ficar de pé. Sente-se e relaxe ou adicione-a a um veículo para que seus amigos possam ir com você. Pode ser conectada a acionadores, permitindo que outras peças interativas sejam ativadas dela. Não esqueça de dar descarga!"
+    "Title": "Sanitário",
+    "Description": "Usado para não precisar ficar de pé. Sente-se e relaxe ou então coloque no seu veículo para dar carona aos seus amigos. Pode ser conectado a acionadores que são capazes de ativar outras peças interativas a partir do sanitário. Não se esqueça de dar a descarga!"
   },
   {
     "Id": "recipeCraft45",
-    "Title": "Thruster 1",
-    "Description": "Enough of these can make things fly. Needs to be connected to a trigger or the driver's seat in order to activate. Upgrade for less gas consumption."
+    "Title": "Propulsor 1",
+    "Description": "Ter alguns deles podem fazer as coisas voarem. Precisa estar conectado a um acionador ou ao banco de motorista para ser ativado. Melhore para um menor consumo de gasolina."
   },
   {
     "Id": "recipeCraft46",
-    "Title": "Controller 1",
-    "Description": "Allows bearings to rotate in sequence. Perfect for building transforming creations. Needs to be connected to bearings. Activated by connecting a trigger or driver's seat to the controller."
+    "Title": "Controlador 1",
+    "Description": "Permite que os rolamentos girem em sequência. É perfeito para construir criações conversíveis. Precisa estar conectado a rolamentos. Ativado ao conectar o controlador a um acionador ou banco de motorista."
   },
   {
     "Id": "recipeCraft47",
-    "Title": "Portão Lógico",
-    "Description": "O Portão Lógico é um bloco poderoso que permite que você crie funções lógicas básicas. Pressionando E no bloco, o mecânico pode escolher entre vários tipos de portões lógicos. O portão lógico pode ser conectado a outros portões lógicos, acionadores, temporizadores e mais. Ótimo para se fazer criações avançadas."
+    "Title": "Porta Lógica",
+    "Description": "A porta lógica é um bloco poderoso que permite construir funções lógicas básicas. Ao apertar E no bloco, o mecanista poderá escolher entre diferentes tipos de portas lógicas. A porta lógica pode ser conectada a outras portas lógicas, acionadores, temporizadores e muito mais. É ótima para fazer criações avançadas."
   },
   {
     "Id": "recipeCraft48",
     "Title": "Temporizador",
-    "Description": "O temporizador permite atrasar a interação entre duas peças. Por exemplo, entre um comando e um controlador. Ele combina muito bem com Portões Lógicos."
+    "Description": "O temporizador permite atrasar a interação entre duas peças interativas. Por exemplo, um interruptor e um controlador. Funciona que é uma beleza com portas lógicas."
   },
   {
     "Id": "recipeCraft49",
     "Title": "Rádio",
-    "Description": "Só sucessos, o dia todo. Esses incultos desses Fazendabôs invadiram o sinal e estão transmitindo seleções clássicas de seus repertórios nada convencionais de músicas. Ative-o por interação direta\n ou conectando-o a um acionador."
+    "Description": "As melhores músicas sem interrupções. Os terríveis robôs tomaram o controle e estão transmitindo seleções clássicas do gosto musical excêntrico deles. Ative ao interagir com ele\nou ao conectar a um acionador."
   },
   {
     "Id": "recipeCraft50",
     "Title": "Buzina",
-    "Description": "Adicione-a ao seu veículo ou use-a como campainha. Buzine para seus amigos para evitar acidentes. Escolha o tom e conecte-a a um acionador para ativá-la."
+    "Description": "Adicione ao seu veículo ou use como campainha. Buzine para seus amigos a fim de evitar acidentes. Escolha a afinação e conecte a um acionador para ativar."
   },
   {
     "Id": "recipeCraft51",
-    "Title": "Luz",
-    "Description": "Que haja visibilidade."
+    "Title": "Farol",
+    "Description": "Faça-se a visibilidade! Conecte a um acionador para ligar e desligar. Alcance de luz ajustável."
   },
   {
     "Id": "recipeCraft52",
-    "Title": "Respawn Bed",
-    "Description": "Take a lovely nap in this comfy bed to respawn in it after your mechanic has been knocked out"
+    "Title": "Leito de Ressurgimento",
+    "Description": "Tire uma soneca gostosa nesta cama confortável para ressurgir nela após seu mecanista apagar."
   },
   {
     "Id": "recipeCraft53",
-    "Title": "Fridge",
-    "Description": "Keeps your food fresh"
+    "Title": "Geladeira",
+    "Description": "Mantém seus alimentos frescos."
   },
   {
     "Id": "recipeCraft54",
-    "Title": "Chest",
-    "Description": "A simple chest to store your items."
+    "Title": "Baú",
+    "Description": "Um baú simples para armazenar seus itens."
   },
   {
     "Id": "recipeCraft55",
-    "Title": "Large Chest",
-    "Description": "Great for storing a lot of items. Can also be used with a Vacuum Pump"
+    "Title": "Baú Grande",
+    "Description": "Ótimo para armazenar vários itens. Pode ser usado com uma Bomba de Vácuo."
   },
   {
     "Id": "recipeCraft56",
-    "Title": "Vacuum Pump",
-    "Description": "The Vaccum Pump has many uses when connected to a trigger. Suck up water in to a water container. Pick up plants in to a chest. It can even shoot and place items from a chest."
+    "Title": "Bomba de Vácuo",
+    "Description": "A bomba de vácuo tem várias utilidades ao ser conectada a um acionador. Suga água para um reservatório de água. Coloca plantas em um baú. Ela pode até mesmo disparar e posicionar itens a partir de um baú."
   },
   {
     "Id": "recipeCraft57",
-    "Title": "Vacuum Pipe",
-    "Description": "Use it with the Vacuum Pump to make items travel through pipes"
+    "Title": "Cano de Vácuo",
+    "Description": "Use com a bomba de vácuo para transportar itens por meio dos canos."
   },
   {
     "Id": "recipeCraft58",
-    "Title": "Vacuum Pipe Corner",
-    "Description": "Use it with the Vacuum Pump to make items travel through pipes"
+    "Title": "Cano de Vácuo Convergente",
+    "Description": "Use com a bomba de vácuo para transportar itens por meio dos canos."
   },
   {
     "Id": "recipeCraft59",
-    "Title": "Gas Container",
-    "Description": "Can stores more gas and loads gas in to Gas Engines and other interactive parts that require Gas when connected"
+    "Title": "Contêiner de Gasolina",
+    "Description": "Pode armazenar mais gasolina, além de alimentar motores de combustão e outras peças interativas que precisam de gasolina quando estão conectados."
   },
   {
     "Id": "recipeCraft60",
-    "Title": "Battery Container",
-    "Description": "Can Store more batteries and loads batteries in to Electric Engines and other interactive parts that require batteries when connected"
+    "Title": "Caixa de Bateria",
+    "Description": "Pode armazenar mais baterias, além de carregar motores elétricos e outras peças interativas que precisam de bateria quando estão conectados."
   },
   {
     "Id": "recipeCraft61",
-    "Title": "Water Container",
-    "Description": "Connect it to a Vacuum Pump that is under water to fil the Water Container with water"
+    "Title": "Reservatório de Água",
+    "Description": "Conecte-o a uma Bomba de Vácuo sob a água para encher o reservatório com água."
   },
   {
     "Id": "recipeCraft62",
-    "Title": "Chemical Container"
+    "Title": "Contêiner Químico"
   },
   {
     "Id": "recipeCraft63",
-    "Title": "Water Cannon",
-    "Description": "Connect it to a Water container with a trigger to water your plants more efficiently"
+    "Title": "Canhão de Água",
+    "Description": "Conecte a um reservatório de água com um acionador para regar as plantas com mais eficiência."
   },
   {
     "Id": "recipeCraft64",
-    "Title": "Saw Blade",
-    "Description": "Cut down trees faster with the Saw Blade. Put it on a bearing that is connected to a engine and drive it in to a tree."
+    "Title": "Serra",
+    "Description": "Corte árvores mais rápido com a serra. Coloque em um rolamento conectado a um motor e dirija na direção de uma árvore."
   },
   {
     "Id": "recipeCraft65",
-    "Title": "Drill",
-    "Description": "Use the Drill to mine square rocks for stone and metal. Put it on a bearing that is connected to a engine and drive it in to a square rock."
+    "Title": "Broca",
+    "Description": "Use a broca para minerar rochas em busca de pedra e metal. Coloque em um rolamento conectado a um motor e dirija na direção de uma rocha quadrada."
   },
   {
     "Id": "recipeCraft66",
-    "Title": "Water Bucket",
-    "Description": "Fill it with water to water your plants."
+    "Title": "Balde de Água",
+    "Description": "Encha-o com água para regar suas plantas."
   },
   {
     "Id": "recipeCraft67",
-    "Title": "Soil Bag",
-    "Description": "Use them on the ground to place your seeds in"
+    "Title": "Saco de Terra",
+    "Description": "Use no solo para colocar suas sementes."
   },
   {
     "Id": "recipeCraft68",
-    "Title": "Fertilizer",
-    "Description": "Makes plants grow faster"
+    "Title": "Fertilizante",
+    "Description": "Faz as plantas crescerem mais rápido."
   },
   {
     "Id": "recipeCraft69",
-    "Title": "Gasoline",
-    "Description": "Used to power gas engines and thrusters"
+    "Title": "Gasolina",
+    "Description": "Usada para alimentar motores de combustão e propulsores."
   },
   {
     "Id": "recipeCraft70",
-    "Title": "Battery",
-    "Description": "Used to power electric parts"
+    "Title": "Bateria",
+    "Description": "Usada para alimentar peças elétricas."
   },
   {
     "Id": "recipeCraft71",
-    "Title": "Glue"
+    "Title": "Cola"
   },
   {
     "Id": "recipeCraft72",
-    "Title": "Water",
-    "Description": "Great for watering plants, unfortunately not good for drinking."
+    "Title": "Água",
+    "Description": "Ótima para regar as plantas. Infelizmente, não é ideal para beber."
   },
   {
     "Id": "recipeCraft73",
-    "Title": "Chemicals"
+    "Title": "Químicos"
   },
   {
     "Id": "recipeCraft74",
-    "Title": "Paint Ammo",
-    "Description": "Load your Paint Tool and give your creations some color"
+    "Title": "Munição Pigmentadora",
+    "Description": "Carregue o Pigmentador e dê cor às suas criações."
   },
   {
     "Id": "recipeCraft75",
-    "Title": "Glowstick",
-    "Description": "Throw them at night or other dark places to see things better"
+    "Title": "Bastão Fluorescente",
+    "Description": "Use-os à noite ou em lugares escuros para ver melhor as coisas."
   },
   {
     "Id": "recipeCraft76",
-    "Title": "Small Explosive Canister",
-    "Description": "Highly explosive canister that can detonate by strong collisions or by Spud Guns\nThis canister has a small explosion radius."
+    "Title": "Botijão Explosivo Pequeno",
+    "Description": "Um botijão altamente explosivo que pode ser detonado por colisões fortes ou por Batatarmas.\nEste botijão tem um curto alcance de explosão."
   },
   {
     "Id": "recipeCraft77",
-    "Title": "Large Explosive Canister",
-    "Description": "Highly explosive canister that can detonate by strong collisions or by Spud Guns\nThis canister has a large explosion radius."
+    "Title": "Botijão Explosivo Grande",
+    "Description": "Um botijão altamente explosivo que pode ser detonado por colisões fortes ou por Batatarmas.\nEste botijão tem um grande alcance de explosão."
   },
   {
     "Id": "recipeCraft78",
@@ -360,59 +360,59 @@
   },
   {
     "Id": "recipeCraft79",
-    "Title": "Roda Grande"
+    "Title": "Roda Grade"
   },
   {
     "Id": "recipeCraft80",
-    "Title": "Cano Pequeno - Curto"
+    "Title": "Cano Pequeno Curto"
   },
   {
     "Id": "recipeCraft81",
-    "Title": "Cano Pequeno - Longo"
+    "Title": "Cano Pequeno Longo"
   },
   {
     "Id": "recipeCraft82",
-    "Title": "Cano Pequeno - Dobra"
+    "Title": "Cano Pequeno Curvo"
   },
   {
     "Id": "recipeCraft83",
-    "Title": "Cano Pequeno - T"
+    "Title": "Cano em Tê Pequeno"
   },
   {
     "Id": "recipeCraft84",
-    "Title": "Cano Pequeno - Cotovelo"
+    "Title": "Cano Pequeno Convergente"
   },
   {
     "Id": "recipeCraft85",
-    "Title": "Cano Pequeno - 4 Vias"
+    "Title": "Cruzeta de Cano Pequeno"
   },
   {
     "Id": "recipeCraft86",
-    "Title": "Cano Pequeno - T de 4 Vias"
+    "Title": "Cruzeta Cano em Tê Pequeno"
   },
   {
     "Id": "recipeCraft87",
-    "Title": "Cano Pequeno - 5 Vias"
+    "Title": "Cruzeta Quíntupla de Cano Pequeno"
   },
   {
     "Id": "recipeCraft88",
-    "Title": "Cano Pequeno - 6 Vias"
+    "Title": "Cruzeta Sêxtupla de Cano Pequeno"
   },
   {
     "Id": "recipeCraft89",
-    "Title": "Cano - Curto"
+    "Title": "Cano Curto"
   },
   {
     "Id": "recipeCraft90",
-    "Title": "Cano - Longo"
+    "Title": "Cano Longo"
   },
   {
     "Id": "recipeCraft91",
-    "Title": "Cano - Cotovelo"
+    "Title": "Cano Convergente"
   },
   {
     "Id": "recipeCraft92",
-    "Title": "Cano - Junção"
+    "Title": "Junção de Cano"
   },
   {
     "Id": "recipeCraft93",
@@ -420,23 +420,23 @@
   },
   {
     "Id": "recipeCraft94",
-    "Title": "Viga em I - Curta"
+    "Title": "Viga I Curta"
   },
   {
     "Id": "recipeCraft95",
-    "Title": "Viga em I - Longa"
+    "Title": "Viga I Longa"
   },
   {
     "Id": "recipeCraft96",
-    "Title": "Viga em I - Canto"
+    "Title": "Viga I Convergente"
   },
   {
     "Id": "recipeCraft97",
-    "Title": "Viga em I - Final"
+    "Title": "Extremidade de Viga I"
   },
   {
     "Id": "recipeCraft98",
-    "Title": "Viga em I - Suporte"
+    "Title": "Suporte de Viga I"
   },
   {
     "Id": "recipeCraft99",
@@ -464,19 +464,19 @@
   },
   {
     "Id": "recipeCraft105",
-    "Title": "Estatueta de Patinho"
+    "Title": "Escultura de Patinho"
   },
   {
     "Id": "recipeCraft106",
-    "Title": "Vaso com Planta"
+    "Title": "Vaso de Planta"
   },
   {
     "Id": "recipeCraft107",
-    "Title": "Vaso com Planta Pequena"
+    "Title": "Vaso de Planta Pequeno"
   },
   {
     "Id": "recipeCraft108",
-    "Title": "Vaso com Trepadeira"
+    "Title": "Vaso de Videira"
   },
   {
     "Id": "recipeCraft109",
@@ -484,19 +484,19 @@
   },
   {
     "Id": "recipeCraft110",
-    "Title": "Vaso com Planta e Semente"
+    "Title": "Vaso de Broto"
   },
   {
     "Id": "recipeCraft111",
-    "Title": "Vaso com Cacto Florido"
+    "Title": "Vaso de Cacto Florido"
   },
   {
     "Id": "recipeCraft112",
-    "Title": "Vaso com Cacto"
+    "Title": "Vaso de Cacto"
   },
   {
     "Id": "recipeCraft113",
-    "Title": "Vaso com Flor Azul"
+    "Title": "Vaso de Flor Azul"
   },
   {
     "Id": "recipeCraft114",

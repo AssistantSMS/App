@@ -1,78 +1,78 @@
 [
   {
     "Id": "plant1",
-    "Title": "Banana Seed"
+    "Title": "바나나 씨"
   },
   {
     "Id": "plant2",
-    "Title": "Blueberry Seed"
+    "Title": "블루베리 씨"
   },
   {
     "Id": "plant3",
-    "Title": "Orange Seed"
+    "Title": "오렌지 씨"
   },
   {
     "Id": "plant4",
-    "Title": "Pineapple Seed"
+    "Title": "파인애플 씨"
   },
   {
     "Id": "plant5",
-    "Title": "Carrot Seed"
+    "Title": "당근 씨"
   },
   {
     "Id": "plant6",
-    "Title": "Redbeet Seed"
+    "Title": "비트 씨"
   },
   {
     "Id": "plant7",
-    "Title": "Tomato Seed"
+    "Title": "토마토 씨"
   },
   {
     "Id": "plant8",
-    "Title": "Broccoli Seed"
+    "Title": "브로콜리 씨"
   },
   {
     "Id": "plant9",
-    "Title": "Potato Seed"
+    "Title": "감자 씨"
   },
   {
     "Id": "plant10",
-    "Title": "Banana"
+    "Title": "바나나"
   },
   {
     "Id": "plant11",
-    "Title": "Blueberry"
+    "Title": "블루베리"
   },
   {
     "Id": "plant12",
-    "Title": "Orange"
+    "Title": "오렌지"
   },
   {
     "Id": "plant13",
-    "Title": "Pineapple"
+    "Title": "파인애플"
   },
   {
     "Id": "plant14",
-    "Title": "Carrot"
+    "Title": "당근"
   },
   {
     "Id": "plant15",
-    "Title": "Redbeet"
+    "Title": "비트"
   },
   {
     "Id": "plant16",
-    "Title": "Tomato"
+    "Title": "토마토"
   },
   {
     "Id": "plant17",
-    "Title": "Broccoli"
+    "Title": "브로콜리"
   },
   {
     "Id": "plant18",
-    "Title": "Potato"
+    "Title": "감자"
   },
   {
     "Id": "plant19",
-    "Title": "Cotton Seed"
+    "Title": "목화 씨"
   }
 ]

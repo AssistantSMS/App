@@ -1,82 +1,82 @@
 [
   {
     "Id": "build1",
-    "Title": "Stand Support A"
+    "Title": "スタンドサポートA"
   },
   {
     "Id": "build2",
-    "Title": "Stand Support Long"
+    "Title": "スタンドサポート（長）"
   },
   {
     "Id": "build3",
-    "Title": "Stand Support Corner"
+    "Title": "スタンドサポート（コーナー）"
   },
   {
     "Id": "build4",
-    "Title": "Stand Support"
+    "Title": "スタンドサポート"
   },
   {
     "Id": "build5",
-    "Title": "Stand Support Base"
+    "Title": "スタンドサポート土台"
   },
   {
     "Id": "build6",
-    "Title": "Mop Set"
+    "Title": "モップセット"
   },
   {
     "Id": "build7",
-    "Title": "Bathroom Stall Door"
+    "Title": "バスルームの仕切り扉"
   },
   {
     "Id": "build8",
-    "Title": "Slippery Surface Sign"
+    "Title": "滑面注意標識"
   },
   {
     "Id": "build9",
-    "Title": "Plunger"
+    "Title": "プランジャー"
   },
   {
     "Id": "build10",
-    "Title": "Warehouse sink"
+    "Title": "倉庫のシンク"
   },
   {
     "Id": "build11",
-    "Title": "Water Dispenser"
+    "Title": "ウォーターサーバー"
   },
   {
     "Id": "build12",
-    "Title": "Cup Holder"
+    "Title": "カップホルダー"
   },
   {
     "Id": "build13",
-    "Title": "Water Tank"
+    "Title": "ウォータータンク"
   },
   {
     "Id": "build14",
-    "Title": "Cubicle Wall"
+    "Title": "仕切り壁"
   },
   {
     "Id": "build15",
-    "Title": "Corner Brace"
+    "Title": "筋かい"
   },
   {
     "Id": "build16",
-    "Title": "Office Table B"
+    "Title": "オフィステーブルB"
   },
   {
     "Id": "build17",
-    "Title": "Office Table A"
+    "Title": "オフィステーブルA"
   },
   {
     "Id": "build18",
-    "Title": "Office Table Leg"
+    "Title": "オフィステーブルの脚"
   },
   {
     "Id": "build19",
-    "Title": "Office Chair Top"
+    "Title": "オフィステーブルの上部"
   },
   {
     "Id": "build20",
-    "Title": "Office Chair Base"
+    "Title": "オフィスチェアの土台"
   }
 ]

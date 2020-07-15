@@ -1,59 +1,59 @@
 [
   {
     "Id": "intera1",
-    "Title": "Fridge"
+    "Title": "Lodówka"
   },
   {
     "Id": "intera2",
-    "Title": "Locker"
+    "Title": "Szafka"
   },
   {
     "Id": "intera3",
-    "Title": "File Cabinet"
+    "Title": "Szafka na dokumenty"
   },
   {
     "Id": "intera4",
-    "Title": "Chest"
+    "Title": "Skrzynia"
   },
   {
     "Id": "intera5",
-    "Title": "Large Chest"
+    "Title": "Duża skrzynia"
   },
   {
     "Id": "intera6",
-    "Title": "Protector: Anti-Destruction"
+    "Title": "Protektor: Ochrona przed zniszczeniami"
   },
   {
     "Id": "intera7",
-    "Title": "Encryptor: Anti-Connection"
+    "Title": "Szyfrator: Ochrona połączeń"
   },
   {
     "Id": "intera8",
-    "Title": "Oily Toilet Seat"
+    "Title": "Zatłuszczona deska sedesowa"
   },
   {
     "Id": "intera9",
-    "Title": "Resource Collector"
+    "Title": "Kolektor zasobów"
   },
   {
     "Id": "intera10",
-    "Title": "Refinebot"
+    "Title": "Rafinobot"
   },
   {
     "Id": "intera11",
-    "Title": "Dressbot"
+    "Title": "Ciuchbot"
   },
   {
     "Id": "intera12",
-    "Title": "Water Cannon"
+    "Title": "Działko wodne"
   },
   {
     "Id": "intera13",
-    "Title": "Mountable Spud Gun"
+    "Title": "Montowane działko na kartofle"
   },
   {
     "Id": "intera14",
-    "Title": "Respawn Bed"
+    "Title": "Łóżko odrodzenia"
   },
   {
     "Id": "intera15",
@@ -133,19 +133,19 @@
   },
   {
     "Id": "intera34",
-    "Title": "Głowa Totebota: basy"
+    "Title": "Głowa Totebota: Basy"
   },
   {
     "Id": "intera35",
-    "Title": "Głowa Totebota: perkusja"
+    "Title": "Głowa Totebota: Perkusja"
   },
   {
     "Id": "intera36",
-    "Title": "Głowa Totebota: głos"
+    "Title": "Głowa Totebota: Syntezator mowy"
   },
   {
     "Id": "intera37",
-    "Title": "Głowa Totebota: bip"
+    "Title": "Głowa Totebota: Pisk"
   },
   {
     "Id": "intera38",
@@ -157,7 +157,7 @@
   },
   {
     "Id": "intera40",
-    "Title": "Rekin"
+    "Title": "Rekin z gry Raft"
   },
   {
     "Id": "intera41",
@@ -165,10 +165,10 @@
   },
   {
     "Id": "intera42",
-    "Title": "Small Explosive Canister"
+    "Title": "Mały wybuchowy kanister"
   },
   {
     "Id": "intera43",
-    "Title": "Large Explosive Canister"
+    "Title": "Duży wybuchowy kanister"
   }
 ]

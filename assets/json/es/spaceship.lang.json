@@ -1,106 +1,106 @@
 [
   {
     "Id": "spaceship1",
-    "Title": "Ship Light"
+    "Title": "Luz de nave"
   },
   {
     "Id": "spaceship2",
-    "Title": "Handle"
+    "Title": "Tirador"
   },
   {
     "Id": "spaceship3",
-    "Title": "Ship Floor Tile"
+    "Title": "Loseta de nave"
   },
   {
     "Id": "spaceship4",
-    "Title": "Ship Ventilation"
+    "Title": "Ventilación de nave"
   },
   {
     "Id": "spaceship5",
-    "Title": "Ship Compartment"
+    "Title": "Compartimento de nave"
   },
   {
     "Id": "spaceship6",
-    "Title": "Ship Dual fan"
+    "Title": "Ventilador doble de nave"
   },
   {
     "Id": "spaceship7",
-    "Title": "Warehouse Brick Lamp"
+    "Title": "Lámpara de ladrillo de almacén"
   },
   {
     "Id": "spaceship8",
-    "Title": "Net frame"
+    "Title": "Marco enrejado"
   },
   {
     "Id": "spaceship9",
-    "Title": "Net frame hatch"
+    "Title": "Compuerta de marco enrejado"
   },
   {
     "Id": "spaceship10",
-    "Title": "Ship Shelf"
+    "Title": "Estante de nave"
   },
   {
     "Id": "spaceship11",
-    "Title": "Calendar"
+    "Title": "Calendario"
   },
   {
     "Id": "spaceship13",
-    "Title": "Broken Microwave"
+    "Title": "Microondas roto"
   },
   {
     "Id": "spaceship14",
-    "Title": "Crane Wheel"
+    "Title": "Volante de grúa"
   },
   {
     "Id": "spaceship15",
-    "Title": "Ship Wall Panel Large"
+    "Title": "Panel de muro de nave grande"
   },
   {
     "Id": "spaceship30",
-    "Title": "Ship Wall Panel Small"
+    "Title": "Panel de muro de nave pequeño"
   },
   {
     "Id": "spaceship31",
-    "Title": "Ship Wall Panel Medium"
+    "Title": "Panel de muro de nave mediano"
   },
   {
     "Id": "spaceship32",
-    "Title": "Ship Wall Panel Large"
+    "Title": "Panel de muro de nave grande"
   },
   {
     "Id": "spaceship33",
-    "Title": "Ship Wiring Short"
+    "Title": "Cableado de nave (corto)"
   },
   {
     "Id": "spaceship34",
-    "Title": "Ship Wiring Long"
+    "Title": "Cableado de nave (largo)"
   },
   {
     "Id": "spaceship35",
-    "Title": "Ship Wiring End"
+    "Title": "Cableado de nave (final)"
   },
   {
     "Id": "spaceship36",
-    "Title": "Ship Floor Mold"
+    "Title": "Molde de suelo de nave"
   },
   {
     "Id": "spaceship42",
-    "Title": "Ship Blinds"
+    "Title": "Persianas de nave"
   },
   {
     "Id": "spaceship43",
-    "Title": "Ship Ceiling Ventilation"
+    "Title": "Ventilación de techo de nave"
   },
   {
     "Id": "spaceship44",
-    "Title": "Ship Ventilation Panel"
+    "Title": "Panel de ventilación de nave"
   },
   {
     "Id": "spaceship47",
-    "Title": "Letrero de salida"
+    "Title": "Señal de salida"
   },
   {
     "Id": "spaceship48",
-    "Title": "Puerta de mantenimiento del barco"
+    "Title": "Puerta de mantenimiento de nave"
   }
 ]

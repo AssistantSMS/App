@@ -1,14 +1,14 @@
 [
   {
     "Id": "out1",
-    "Title": "Garment Box (Common)"
+    "Title": "Skrzynia z odzieżą (pospolita)"
   },
   {
     "Id": "out2",
-    "Title": "Garment Box (Rare)"
+    "Title": "Skrzynia z odzieżą (rzadka)"
   },
   {
     "Id": "out3",
-    "Title": "Garment Box (Epic)"
+    "Title": "Skrzynia z odzieżą (epicka)"
   }
 ]

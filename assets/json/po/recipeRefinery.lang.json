@@ -1,15 +1,15 @@
 [
   {
     "Id": "recipeRef1",
-    "Title": "Scrap Wood"
+    "Title": "Drewno z odzysku"
   },
   {
     "Id": "recipeRef2",
-    "Title": "Wood"
+    "Title": "Drewno"
   },
   {
     "Id": "recipeRef3",
-    "Title": "Scrap Metal"
+    "Title": "Metal z odzysku"
   },
   {
     "Id": "recipeRef4",
@@ -17,6 +17,6 @@
   },
   {
     "Id": "recipeRef5",
-    "Title": "Scrap Stone"
+    "Title": "Kamień z odzysku"
   }
 ]

@@ -1,14 +1,14 @@
 [
   {
     "Id": "surv1",
-    "Title": "Warehouse Key"
+    "Title": "창고 열쇠"
   },
   {
     "Id": "surv22",
-    "Title": "Master Battery"
+    "Title": "마스터 배터리"
   },
   {
     "Id": "surv26",
-    "Title": "Caged Farmer"
+    "Title": "갇힌 농부"
   }
 ]

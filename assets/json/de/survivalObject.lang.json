@@ -1,14 +1,14 @@
 [
   {
     "Id": "surv1",
-    "Title": "Warehouse Key"
+    "Title": "Lagerhaus-Schlüsselkarte"
   },
   {
     "Id": "surv22",
-    "Title": "Master Battery"
+    "Title": "Master-Batterie"
   },
   {
     "Id": "surv26",
-    "Title": "Caged Farmer"
+    "Title": "Eingesperrter Bauer"
   }
 ]

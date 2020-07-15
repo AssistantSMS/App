@@ -1,131 +1,131 @@
 [
   {
     "Id": "fitt1",
-    "Title": "Large Pipe Mount"
+    "Title": "Support de tuyau large"
   },
   {
     "Id": "fitt2",
-    "Title": "Holder Support Leg Base"
+    "Title": "Pied de base à support"
   },
   {
     "Id": "fitt3",
-    "Title": "Holder Support Leg"
+    "Title": "Pied de support"
   },
   {
     "Id": "fitt4",
-    "Title": "Holder Support Bend"
+    "Title": "Coude de support"
   },
   {
     "Id": "fitt5",
-    "Title": "Large Pipe Extension"
+    "Title": "Extension de tuyau large"
   },
   {
     "Id": "fitt6",
-    "Title": "Large Pipe Cap"
+    "Title": "Bouchon de tuyau large"
   },
   {
     "Id": "fitt7",
-    "Title": "Large Pipe Compressor"
+    "Title": "Compresseur de tuyau large"
   },
   {
     "Id": "fitt8",
-    "Title": "Power Station"
+    "Title": "Centrale électrique"
   },
   {
     "Id": "fitt9",
-    "Title": "Giant Pipe"
+    "Title": "Tuyau géant"
   },
   {
     "Id": "fitt10",
-    "Title": "Giant Pipe Glass Straight"
+    "Title": "Tuyau de verre géant droit"
   },
   {
     "Id": "fitt11",
-    "Title": "Giant Pipe Corner"
+    "Title": "Coin de tuyau géant"
   },
   {
     "Id": "fitt12",
-    "Title": "Giant Pipe Glass Corner"
+    "Title": "Coin de tuyau de verre géant"
   },
   {
     "Id": "fitt13",
-    "Title": "Giant Pipe Tee"
+    "Title": "Tuyau en T géant"
   },
   {
     "Id": "fitt14",
-    "Title": "Giant Pipe Bracer"
+    "Title": "Croisillon de tuyau géant"
   },
   {
     "Id": "fitt15",
-    "Title": "Giant Pipe Holder"
+    "Title": "Support de tuyau géant"
   },
   {
     "Id": "fitt16",
-    "Title": "Warehouse Ventilation Short"
+    "Title": "Petite ventilation d'entrepôt"
   },
   {
     "Id": "fitt17",
-    "Title": "Warehouse Ventilation Long"
+    "Title": "Grande ventilation d'entrepôt"
   },
   {
     "Id": "fitt18",
-    "Title": "Warehouse Ventilation Corner"
+    "Title": "Coin de ventilation d'entrepôt"
   },
   {
     "Id": "fitt19",
-    "Title": "Warehouse Ventilation Tee"
+    "Title": "Ventilation d'entrepôt en T"
   },
   {
     "Id": "fitt20",
-    "Title": "Warehouse Ventilation Mount"
+    "Title": "Support de ventilation d'entrepôt"
   },
   {
     "Id": "fitt21",
-    "Title": "Warehouse Ventilation Drum"
+    "Title": "Tambour de ventilation d'entrepôt"
   },
   {
     "Id": "fitt22",
-    "Title": "Generator Pipe Short"
+    "Title": "Tuyau de générateur court"
   },
   {
     "Id": "fitt23",
-    "Title": "Generator Pipe Long"
+    "Title": "Tuyau de générateur long"
   },
   {
     "Id": "fitt24",
-    "Title": "Generator Pipe Corner"
+    "Title": "Coin de tuyau de générateur"
   },
   {
     "Id": "fitt25",
-    "Title": "Generator Pipe Tee"
+    "Title": "Tuyau de générateur en T"
   },
   {
     "Id": "fitt26",
-    "Title": "Generator Pipe Four Way"
+    "Title": "Tuyau de générateur à 4 côtés"
   },
   {
     "Id": "fitt27",
-    "Title": "Duct Short"
+    "Title": "Conduit court"
   },
   {
     "Id": "fitt28",
-    "Title": "Conduit : long"
+    "Title": "Conduit long"
   },
   {
     "Id": "fitt29",
-    "Title": "Conduit : coin"
+    "Title": "Coin de conduit"
   },
   {
     "Id": "fitt30",
-    "Title": "Conduit : jointure"
+    "Title": "Raccord de conduit"
   },
   {
     "Id": "fitt31",
-    "Title": "Conduit : soutien"
+    "Title": "Support de conduit"
   },
   {
     "Id": "fitt32",
-    "Title": "Conduit : extrémité"
+    "Title": "Extrémité de conduit"
   },
   {
     "Id": "fitt33",
@@ -133,59 +133,59 @@
   },
   {
     "Id": "fitt34",
-    "Title": "Tuyau : court"
+    "Title": "Tuyau court"
   },
   {
     "Id": "fitt35",
-    "Title": "Tuyau : long"
+    "Title": "Tuyau long"
   },
   {
     "Id": "fitt36",
-    "Title": "Tuyau : coin"
+    "Title": "Coin de tuyau"
   },
   {
     "Id": "fitt37",
-    "Title": "Tuyau : jointure"
+    "Title": "Raccord de tuyau"
   },
   {
     "Id": "fitt38",
-    "Title": "Vanne"
+    "Title": "Valve"
   },
   {
     "Id": "fitt39",
-    "Title": "Tuyau large : court"
+    "Title": "Large tuyau court"
   },
   {
     "Id": "fitt40",
-    "Title": "Tuyau large : long"
+    "Title": "Large tuyau long"
   },
   {
     "Id": "fitt41",
-    "Title": "Tuyau large : coin"
+    "Title": "Large coin de tuyau"
   },
   {
     "Id": "fitt42",
-    "Title": "Tuyau large : jointure"
+    "Title": "Large raccord de tuyau"
   },
   {
     "Id": "fitt43",
-    "Title": "Câbles : courts"
+    "Title": "Câbles courts"
   },
   {
     "Id": "fitt44",
-    "Title": "Câbles : longs"
+    "Title": "Câbles longs"
   },
   {
     "Id": "fitt45",
-    "Title": "Câbles : courbes"
+    "Title": "Coude de câbles"
   },
   {
     "Id": "fitt46",
-    "Title": "Câbles : ensemble convexe"
+    "Title": "Coude de câbles convexe"
   },
   {
     "Id": "fitt47",
-    "Title": "Câbles : ensemble concave"
+    "Title": "Coude de câbles concave"
   },
   {
     "Id": "fitt48",
@@ -193,54 +193,54 @@
   },
   {
     "Id": "fitt49",
-    "Title": "Tubes : courts"
+    "Title": "Tubes courts"
   },
   {
     "Id": "fitt50",
-    "Title": "Tubes : longs"
+    "Title": "Tubes longs"
   },
   {
     "Id": "fitt51",
-    "Title": "Tubes : coin"
+    "Title": "Coin de tubes"
   },
   {
     "Id": "fitt52",
-    "Title": "Tubes : jointure"
+    "Title": "Raccord de tubes"
   },
   {
     "Id": "fitt53",
-    "Title": "Petit tuyeau: court"
+    "Title": "Petit tuyau court"
   },
   {
     "Id": "fitt54",
-    "Title": "Petit tuyeau: long"
+    "Title": "Petit tuyau long"
   },
   {
     "Id": "fitt55",
-    "Title": "Petit tuyeau: courbe"
+    "Title": "Petit coude de tuyau"
   },
   {
     "Id": "fitt56",
-    "Title": "Petit tuyeau: forme en T"
+    "Title": "Petit coin de tuyau en T"
   },
   {
     "Id": "fitt57",
-    "Title": "Petit tuyeau: coin"
+    "Title": "Petit coin de tuyau"
   },
   {
     "Id": "fitt58",
-    "Title": "Petit tuyeau: 4 voies"
+    "Title": "Petit tuyau à 4 côtés"
   },
   {
     "Id": "fitt59",
-    "Title": "Petit tuyeau: 4 voies en T"
+    "Title": "Petit tuyau à 4 côtés en T"
   },
   {
     "Id": "fitt60",
-    "Title": "Petit tuyeau: 5 voies"
+    "Title": "Petit tuyau à 5 côtés"
   },
   {
     "Id": "fitt61",
-    "Title": "Petit tuyeau: 6 voies"
+    "Title": "Petit tuyau à 6 côtés"
   }
 ]

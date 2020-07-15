@@ -1,59 +1,59 @@
 [
   {
     "Id": "intera1",
-    "Title": "Fridge"
+    "Title": "Холодильник"
   },
   {
     "Id": "intera2",
-    "Title": "Locker"
+    "Title": "Шкафчик"
   },
   {
     "Id": "intera3",
-    "Title": "File Cabinet"
+    "Title": "Ящик для документов"
   },
   {
     "Id": "intera4",
-    "Title": "Chest"
+    "Title": "Сундук"
   },
   {
     "Id": "intera5",
-    "Title": "Large Chest"
+    "Title": "Большой сундук"
   },
   {
     "Id": "intera6",
-    "Title": "Protector: Anti-Destruction"
+    "Title": "Блокатор: Антиразрушение"
   },
   {
     "Id": "intera7",
-    "Title": "Encryptor: Anti-Connection"
+    "Title": "Шифровщик: Антиподключение"
   },
   {
     "Id": "intera8",
-    "Title": "Oily Toilet Seat"
+    "Title": "Грязный унитаз"
   },
   {
     "Id": "intera9",
-    "Title": "Resource Collector"
+    "Title": "Сборщик ресурсов"
   },
   {
     "Id": "intera10",
-    "Title": "Refinebot"
+    "Title": "Бот-очиститель"
   },
   {
     "Id": "intera11",
-    "Title": "Dressbot"
+    "Title": "Бот-закройщик"
   },
   {
     "Id": "intera12",
-    "Title": "Water Cannon"
+    "Title": "Водяная пушка"
   },
   {
     "Id": "intera13",
-    "Title": "Mountable Spud Gun"
+    "Title": "Картопушка"
   },
   {
     "Id": "intera14",
-    "Title": "Respawn Bed"
+    "Title": "Кровать для возрождения"
   },
   {
     "Id": "intera15",
@@ -85,7 +85,7 @@
   },
   {
     "Id": "intera22",
-    "Title": "Туалет"
+    "Title": "Унитаз"
   },
   {
     "Id": "intera23",
@@ -121,7 +121,7 @@
   },
   {
     "Id": "intera31",
-    "Title": "Звуковой сигнал"
+    "Title": "Клаксон"
   },
   {
     "Id": "intera32",
@@ -133,19 +133,19 @@
   },
   {
     "Id": "intera34",
-    "Title": "Голова робота: бас"
+    "Title": "Голова грузобота: Бас"
   },
   {
     "Id": "intera35",
-    "Title": "Голова робота: ударные"
+    "Title": "Голова грузобота: Перкуссия"
   },
   {
     "Id": "intera36",
-    "Title": "Голова робота: синтетический голос"
+    "Title": "Голова грузобота: Синтезатор"
   },
   {
     "Id": "intera37",
-    "Title": "Голова робота: бип"
+    "Title": "Голова грузобота: Импульс"
   },
   {
     "Id": "intera38",
@@ -157,7 +157,7 @@
   },
   {
     "Id": "intera40",
-    "Title": "Модель акулы из Raft"
+    "Title": "Акула из Raft"
   },
   {
     "Id": "intera41",
@@ -165,10 +165,10 @@
   },
   {
     "Id": "intera42",
-    "Title": "Small Explosive Canister"
+    "Title": "Малая канистра взрывчатки"
   },
   {
     "Id": "intera43",
-    "Title": "Large Explosive Canister"
+    "Title": "Большая канистра взрывчатки"
   }
 ]

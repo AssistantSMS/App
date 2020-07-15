@@ -1,151 +1,151 @@
 [
   {
     "Id": "fitt1",
-    "Title": "Large Pipe Mount"
+    "Title": "Montura de tubería grande"
   },
   {
     "Id": "fitt2",
-    "Title": "Holder Support Leg Base"
+    "Title": "Base de brazo de soporte de apoyo"
   },
   {
     "Id": "fitt3",
-    "Title": "Holder Support Leg"
+    "Title": "Brazo de soporte de apoyo"
   },
   {
     "Id": "fitt4",
-    "Title": "Holder Support Bend"
+    "Title": "Codo de soporte de apoyo"
   },
   {
     "Id": "fitt5",
-    "Title": "Large Pipe Extension"
+    "Title": "Extensión de tubería grande"
   },
   {
     "Id": "fitt6",
-    "Title": "Large Pipe Cap"
+    "Title": "Tope de tubería grande"
   },
   {
     "Id": "fitt7",
-    "Title": "Large Pipe Compressor"
+    "Title": "Compresor de tubería grande"
   },
   {
     "Id": "fitt8",
-    "Title": "Power Station"
+    "Title": "Central eléctrica"
   },
   {
     "Id": "fitt9",
-    "Title": "Giant Pipe"
+    "Title": "Tubería gigante"
   },
   {
     "Id": "fitt10",
-    "Title": "Giant Pipe Glass Straight"
+    "Title": "Recta de tubería gigante de cristal"
   },
   {
     "Id": "fitt11",
-    "Title": "Giant Pipe Corner"
+    "Title": "Esquina de tubería gigante"
   },
   {
     "Id": "fitt12",
-    "Title": "Giant Pipe Glass Corner"
+    "Title": "Esquina de tubería gigante de cristal"
   },
   {
     "Id": "fitt13",
-    "Title": "Giant Pipe Tee"
+    "Title": "Adaptador de tubería gigante"
   },
   {
     "Id": "fitt14",
-    "Title": "Giant Pipe Bracer"
+    "Title": "Abrazadera de tubería gigante"
   },
   {
     "Id": "fitt15",
-    "Title": "Giant Pipe Holder"
+    "Title": "Soporte de tubería gigante"
   },
   {
     "Id": "fitt16",
-    "Title": "Warehouse Ventilation Short"
+    "Title": "Ventilación de almacén (corta)"
   },
   {
     "Id": "fitt17",
-    "Title": "Warehouse Ventilation Long"
+    "Title": "Ventilación de almacén (larga)"
   },
   {
     "Id": "fitt18",
-    "Title": "Warehouse Ventilation Corner"
+    "Title": "Esquina de ventilación de almacén"
   },
   {
     "Id": "fitt19",
-    "Title": "Warehouse Ventilation Tee"
+    "Title": "Adaptador de ventilación de almacén"
   },
   {
     "Id": "fitt20",
-    "Title": "Warehouse Ventilation Mount"
+    "Title": "Montura de ventilación de almacén"
   },
   {
     "Id": "fitt21",
-    "Title": "Warehouse Ventilation Drum"
+    "Title": "Tambor de ventilación de almacén"
   },
   {
     "Id": "fitt22",
-    "Title": "Generator Pipe Short"
+    "Title": "Tubería de generador (corto)"
   },
   {
     "Id": "fitt23",
-    "Title": "Generator Pipe Long"
+    "Title": "Tubería de generador (largo)"
   },
   {
     "Id": "fitt24",
-    "Title": "Generator Pipe Corner"
+    "Title": "Esquina de tubería de generador"
   },
   {
     "Id": "fitt25",
-    "Title": "Generator Pipe Tee"
+    "Title": "Adaptador de tubería de generador"
   },
   {
     "Id": "fitt26",
-    "Title": "Generator Pipe Four Way"
+    "Title": "Conector de tubería de generador (4 salidas)"
   },
   {
     "Id": "fitt27",
-    "Title": "Duct Short"
+    "Title": "Conducto (corto)"
   },
   {
     "Id": "fitt28",
-    "Title": "Conducto Largo"
+    "Title": "Conducto (largo)"
   },
   {
     "Id": "fitt29",
-    "Title": "Esquina de Conducto"
+    "Title": "Esquina de conducto"
   },
   {
     "Id": "fitt30",
-    "Title": "Unión de Conducto"
+    "Title": "Junta de conducto"
   },
   {
     "Id": "fitt31",
-    "Title": "Soporte de Conducto"
+    "Title": "Soporte de conducto"
   },
   {
     "Id": "fitt32",
-    "Title": "Extremo de Conducto"
+    "Title": "Final de conducto"
   },
   {
     "Id": "fitt33",
-    "Title": "Aire Acondicionado"
+    "Title": "Aire acondicionado"
   },
   {
     "Id": "fitt34",
-    "Title": "Tubo Corto"
+    "Title": "Tubería (corta)"
   },
   {
     "Id": "fitt35",
-    "Title": "Tubo Largo"
+    "Title": "Tubería (larga)"
   },
   {
     "Id": "fitt36",
-    "Title": "Esquina de Tubo"
+    "Title": "Esquina de tubería"
   },
   {
     "Id": "fitt37",
-    "Title": "Unión de Tubo"
+    "Title": "Junta de tubería"
   },
   {
     "Id": "fitt38",
@@ -153,94 +153,94 @@
   },
   {
     "Id": "fitt39",
-    "Title": "Gran Tubo Corto"
+    "Title": "Tubería grande (corta)"
   },
   {
     "Id": "fitt40",
-    "Title": "Gran Tubo Largo"
+    "Title": "Tubería grande (larga)"
   },
   {
     "Id": "fitt41",
-    "Title": "Gran Esquina de Tubo"
+    "Title": "Esquina de tubería grande"
   },
   {
     "Id": "fitt42",
-    "Title": "Gran Unión de Tubo"
+    "Title": "Junta de tubería grande"
   },
   {
     "Id": "fitt43",
-    "Title": "Cables Cortos"
+    "Title": "Cables (corto)"
   },
   {
     "Id": "fitt44",
-    "Title": "Cables Largos"
+    "Title": "Cables (largo)"
   },
   {
     "Id": "fitt45",
-    "Title": "Cables Curvados"
+    "Title": "Curva de cables"
   },
   {
     "Id": "fitt46",
-    "Title": "Cables Convexos\nCurvados"
+    "Title": "Curva convexa de cables"
   },
   {
     "Id": "fitt47",
-    "Title": "Cables Concavos\nCurvados"
+    "Title": "Curva cóncava de cables"
   },
   {
     "Id": "fitt48",
-    "Title": "Caja de Fusibles"
+    "Title": "Caja de fusibles"
   },
   {
     "Id": "fitt49",
-    "Title": "Tubos Cortos"
+    "Title": "Tubos (cortos)"
   },
   {
     "Id": "fitt50",
-    "Title": "Tubos Largos"
+    "Title": "Tubos (largos)"
   },
   {
     "Id": "fitt51",
-    "Title": "Esquina de Tubos"
+    "Title": "Esquina de tubos"
   },
   {
     "Id": "fitt52",
-    "Title": "Unión de Tubos"
+    "Title": "Junta de tubos"
   },
   {
     "Id": "fitt53",
-    "Title": "Pequeño Tubo Corto"
+    "Title": "Tubería pequeña (corta)"
   },
   {
     "Id": "fitt54",
-    "Title": "Pequeño Tubo Largo"
+    "Title": "Tubería pequeña (larga)"
   },
   {
     "Id": "fitt55",
-    "Title": "Pequeño Tubo Curvado"
+    "Title": "Codo de tubería pequeña"
   },
   {
     "Id": "fitt56",
-    "Title": "Pequeño Tubo Soporte"
+    "Title": "Adaptador de tubería pequeña"
   },
   {
     "Id": "fitt57",
-    "Title": "Pequeño Tubo Esquina"
+    "Title": "Esquina de tubería pequeña"
   },
   {
     "Id": "fitt58",
-    "Title": "Pequeño Tubo de Cuatro Vías"
+    "Title": "Conector de tubería pequeña (4 salidas)"
   },
   {
     "Id": "fitt59",
-    "Title": "Pequeño Tubo de Soporte de Cuatro Vías"
+    "Title": "Adaptador de tubería pequeña (4 salidas)"
   },
   {
     "Id": "fitt60",
-    "Title": "Pequeño Tubo de Cinco Vías"
+    "Title": "Conector de tubería pequeña (5 salidas)"
   },
   {
     "Id": "fitt61",
-    "Title": "Pequeño Tubo de Seis Vías"
+    "Title": "Conector de tubería pequeña (6 salidas)"
   }
 ]

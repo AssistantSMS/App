@@ -1,42 +1,42 @@
 [
   {
     "Id": "recipeWorkbench1",
-    "Title": "Scrap Gas Engine",
-    "Description": "An engine with uneven speed and adjustable power, ideally suited to powering vehicles. Can be connected to a driver's seat or trigger. This Engine is not upgradable."
+    "Title": "Schrott-Benzinmotor",
+    "Description": "Ein Motor mit ungleichmäßiger Drehzahl und einstellbarer Leistung, ideal für das Antreiben von Fahrzeugen geeignet. Kann mit einem Fahrersitz oder Auslöser verbunden werden. Dieser Motor kann nicht hochgerüstet werden."
   },
   {
     "Id": "recipeWorkbench2",
-    "Title": "Scrap Driver's Seat",
-    "Description": "Makes bearings turn left and right. Can be connected to an engine to control the direction of travel. Can also be connected to triggers that can be activated from the seat. This Drive's Seat is not upgradable."
+    "Title": "Schrott-Fahrersitz",
+    "Description": "Sorgt dafür, dass sich Lager nach links und rechts drehen. Kann mit einem Motor verbunden werden, damit du die Fahrtrichtung kontrollieren kannst. Kann an Auslöser angeschlossen werden, die auch vom Sitz aus aktiviert werden können. Dieser Fahrersitz kann nicht hochgerüstet werden."
   },
   {
     "Id": "recipeWorkbench3",
-    "Title": "Scrap Seat",
-    "Description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. This Seat is not upgradable."
+    "Title": "Schrott-Sitz",
+    "Description": "Damit du nicht stehen musst. Setz dich und entspann dich. Oder bau ihn in dein Fahrzeug ein, damit deine Freunde mitkommen können. Dieser Sitz kann nicht hochgerüstet werden."
   },
   {
     "Id": "recipeWorkbench4",
-    "Title": "Scrap Wheel",
-    "Description": "Not perfectly round"
+    "Title": "Schrott-Reifen",
+    "Description": "Nicht ganz rund."
   },
   {
     "Id": "recipeWorkbench5",
     "Title": "Lager",
-    "Description": "Alles, was du am Lager befestigst, wird sich drehen. Außerdem kannst du Lager mit einem Motor oder dem Fahrersitz verbinden, wo sie dann unterschiedlich kontrolliert werden können."
+    "Description": "Alles, was du auf dem Lager platzierst, wird sich drehen. Lager können auch mit einem Motor oder dem Fahrersitz verbunden werden. So können sie auf verschiedene Weisen kontrolliert werden."
   },
   {
     "Id": "recipeWorkbench6",
-    "Title": "Karton-Block"
+    "Title": "Pappkartonblock"
   },
   {
     "Id": "recipeWorkbench7",
     "Title": "Schalter",
-    "Description": "Kann bei Bedarf uneingeschränkt ein- und ausgeschaltet werden. Der Schalter aktiviert alles, womit du ihn verbindest. Er ist unverzichtbar, wenn du Dinge mit einer einzigen Bewegung ein- und ausschalten möchtest. Kann einen Motor, eine Schubdüse, die Steuereinheit und mehr aktivieren."
+    "Description": "Unbegrenztes Schalten nach Bedarf. Der Schalter aktiviert alles, womit er verbunden ist. So kannst du Sachen mit Leichtigkeit auf einmal an- und abschalten. Er kann einen Motor, eine Schubdüse, die Steuereinheit und noch viel mehr aktivieren."
   },
   {
     "Id": "recipeWorkbench8",
     "Title": "Knopf",
-    "Description": "Aktiviert Dinge. Der Knopf aktiviert Dinge, solange du ihn gedrückt hältst."
+    "Description": "Aktiviert Sachen. Der Knopf ist aktiv, solange er gedrückt bleibt."
   },
   {
     "Id": "recipeWorkbench9",

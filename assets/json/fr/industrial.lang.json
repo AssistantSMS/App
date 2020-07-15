@@ -1,103 +1,103 @@
 [
   {
     "Id": "indus1",
-    "Title": "Generator Coil Segment"
+    "Title": "Segment de bobine de générateur"
   },
   {
     "Id": "indus2",
-    "Title": "Generator Coil Corner"
+    "Title": "Coin de bobine de générateur"
   },
   {
     "Id": "indus3",
-    "Title": "Ventilation Frame"
+    "Title": "Cadre de ventilation"
   },
   {
     "Id": "indus4",
-    "Title": "Steel Support Bracket"
+    "Title": "Support de fixation en acier"
   },
   {
     "Id": "indus5",
-    "Title": "Encryptor Base"
+    "Title": "Base de codeur"
   },
   {
     "Id": "indus6",
-    "Title": "Encryptor Base Plate"
+    "Title": "Plaque de base de codeur"
   },
   {
     "Id": "indus7",
-    "Title": "Encryptor Frame Top"
+    "Title": "Cadre supérieur de codeur"
   },
   {
     "Id": "indus8",
-    "Title": "Small Steel Bracket"
+    "Title": "Petit support de fixation en acier"
   },
   {
     "Id": "indus9",
-    "Title": "Encryptor Frame Beam"
+    "Title": "Poutre porteuse de codeur"
   },
   {
     "Id": "indus10",
-    "Title": "Encryptor Holder"
+    "Title": "Support de codeur"
   },
   {
     "Id": "indus11",
-    "Title": "Base Extension"
+    "Title": "Extension de base"
   },
   {
     "Id": "indus12",
-    "Title": "Generator B"
+    "Title": "Générateur B"
   },
   {
     "Id": "indus13",
-    "Title": "Generator C"
+    "Title": "Générateur C"
   },
   {
     "Id": "indus14",
-    "Title": "Generator D"
+    "Title": "Générateur D"
   },
   {
     "Id": "indus15",
-    "Title": "Generator A"
+    "Title": "Générateur A"
   },
   {
     "Id": "indus16",
-    "Title": "Power Generator Side"
+    "Title": "Côté de générateur électrique"
   },
   {
     "Id": "indus17",
-    "Title": "Generator Tank"
+    "Title": "Réservoir de générateur"
   },
   {
     "Id": "indus18",
-    "Title": "Generator E"
+    "Title": "Générateur E"
   },
   {
     "Id": "indus19",
-    "Title": "Trigger Frame"
+    "Title": "Structure de déclencheur"
   },
   {
     "Id": "indus20",
-    "Title": "Generator Pipe Holder"
+    "Title": "Support de tuyau de générateur"
   },
   {
     "Id": "indus21",
-    "Title": "Poutrelle I : courte"
+    "Title": "Poutre en I courte"
   },
   {
     "Id": "indus22",
-    "Title": "Poutrelle I : longue"
+    "Title": "Poutre en I longue"
   },
   {
     "Id": "indus23",
-    "Title": "Poutrelle I : coin"
+    "Title": "Coin de poutre en I"
   },
   {
     "Id": "indus24",
-    "Title": "Poutrelle I : soutien"
+    "Title": "Support de poutre en I"
   },
   {
     "Id": "indus25",
-    "Title": "Poutrelle I : extrémité"
+    "Title": "Extrémité de poutre en I"
   },
   {
     "Id": "indus26",
@@ -105,39 +105,39 @@
   },
   {
     "Id": "indus27",
-    "Title": "Escalier : palier"
+    "Title": "Palier d'escalier"
   },
   {
     "Id": "indus28",
-    "Title": "Escal. : garde-corps haut"
+    "Title": "Rambarde d'escalier longue"
   },
   {
     "Id": "indus29",
-    "Title": "Escal. : garde-corps bas"
+    "Title": "Rambarde d'escalier courte"
   },
   {
     "Id": "indus30",
-    "Title": "Escalier : balustre"
+    "Title": "Balustre d'escalier"
   },
   {
     "Id": "indus31",
-    "Title": "Jointure pour garde-corps"
+    "Title": "Raccord de rambarde d'escalier"
   },
   {
     "Id": "indus32",
-    "Title": "Escalier : marche"
+    "Title": "Marche d'escalier"
   },
   {
     "Id": "indus33",
-    "Title": "Escalier : main courante"
+    "Title": "Rampe d'escalier 1"
   },
   {
     "Id": "indus34",
-    "Title": "Escalier : cale"
+    "Title": "Coin d'escalier"
   },
   {
     "Id": "indus35",
-    "Title": "Escalier : rampe"
+    "Title": "Rampe d'escalier 2"
   },
   {
     "Id": "indus36",
@@ -145,7 +145,7 @@
   },
   {
     "Id": "indus37",
-    "Title": "Grillage"
+    "Title": "Clôture en filet"
   },
   {
     "Id": "indus38",
@@ -153,7 +153,7 @@
   },
   {
     "Id": "indus39",
-    "Title": "Large structure de support"
+    "Title": "Grande structure de support"
   },
   {
     "Id": "indus40",
@@ -161,11 +161,11 @@
   },
   {
     "Id": "indus41",
-    "Title": "Small Support Structure"
+    "Title": "Petite structure de support"
   },
   {
     "Id": "indus42",
-    "Title": "Poutrelle U "
+    "Title": "Poutre en U"
   },
   {
     "Id": "indus43",
@@ -173,23 +173,23 @@
   },
   {
     "Id": "indus44",
-    "Title": "Pilier de support"
+    "Title": "Pilier support"
   },
   {
     "Id": "indus45",
-    "Title": "Socle de support"
+    "Title": "Base de pilier support"
   },
   {
     "Id": "indus46",
-    "Title": "Étagère : pilier"
+    "Title": "Pilier d'étagère"
   },
   {
     "Id": "indus47",
-    "Title": "Étagère : support"
+    "Title": "Support d'étagère"
   },
   {
     "Id": "indus48",
-    "Title": "Étagère : grand support"
+    "Title": "Grand support d'étagère"
   },
   {
     "Id": "indus49",
@@ -197,7 +197,7 @@
   },
   {
     "Id": "indus50",
-    "Title": "Réservoir moyen"
+    "Title": "Moyen réservoir"
   },
   {
     "Id": "indus51",
@@ -209,7 +209,7 @@
   },
   {
     "Id": "indus53",
-    "Title": "Palette en métal"
+    "Title": "Palette en acier"
   },
   {
     "Id": "indus54",
@@ -217,11 +217,11 @@
   },
   {
     "Id": "indus55",
-    "Title": "Pylône de tour"
+    "Title": "Pylône"
   },
   {
     "Id": "indus56",
-    "Title": "Pylône de tour: haut"
+    "Title": "Partie supérieure de pylône"
   },
   {
     "Id": "indus57",
@@ -229,7 +229,7 @@
   },
   {
     "Id": "indus58",
-    "Title": "Parabole réflectrice"
+    "Title": "Réflecteur de parabole"
   },
   {
     "Id": "indus59",
@@ -237,11 +237,11 @@
   },
   {
     "Id": "indus60",
-    "Title": "Antenne réflectrice"
+    "Title": "Réflecteur d'antenne"
   },
   {
     "Id": "indus61",
-    "Title": "Petite fenêtre rect."
+    "Title": "Petite fenêtre rectangulaire"
   },
   {
     "Id": "indus62",
@@ -249,7 +249,7 @@
   },
   {
     "Id": "indus63",
-    "Title": "Grande fenêtre rect."
+    "Title": "Grande fenêtre rectangulaire"
   },
   {
     "Id": "indus64",

@@ -1,78 +1,78 @@
 [
   {
     "Id": "plant1",
-    "Title": "Banana Seed"
+    "Title": "バナナの種"
   },
   {
     "Id": "plant2",
-    "Title": "Blueberry Seed"
+    "Title": "ブルーベリーの種"
   },
   {
     "Id": "plant3",
-    "Title": "Orange Seed"
+    "Title": "オレンジの種"
   },
   {
     "Id": "plant4",
-    "Title": "Pineapple Seed"
+    "Title": "パイナップルの種"
   },
   {
     "Id": "plant5",
-    "Title": "Carrot Seed"
+    "Title": "ニンジンの種"
   },
   {
     "Id": "plant6",
-    "Title": "Redbeet Seed"
+    "Title": "レッドビートの種"
   },
   {
     "Id": "plant7",
-    "Title": "Tomato Seed"
+    "Title": "トマトの種"
   },
   {
     "Id": "plant8",
-    "Title": "Broccoli Seed"
+    "Title": "ブロッコリーの種"
   },
   {
     "Id": "plant9",
-    "Title": "Potato Seed"
+    "Title": "ジャガイモの種"
   },
   {
     "Id": "plant10",
-    "Title": "Banana"
+    "Title": "バナナ"
   },
   {
     "Id": "plant11",
-    "Title": "Blueberry"
+    "Title": "ブルーベリー"
   },
   {
     "Id": "plant12",
-    "Title": "Orange"
+    "Title": "オレンジ"
   },
   {
     "Id": "plant13",
-    "Title": "Pineapple"
+    "Title": "パイナップル"
   },
   {
     "Id": "plant14",
-    "Title": "Carrot"
+    "Title": "ニンジン"
   },
   {
     "Id": "plant15",
-    "Title": "Redbeet"
+    "Title": "レッドビート"
   },
   {
     "Id": "plant16",
-    "Title": "Tomato"
+    "Title": "トマト"
   },
   {
     "Id": "plant17",
-    "Title": "Broccoli"
+    "Title": "ブロッコリー"
   },
   {
     "Id": "plant18",
-    "Title": "Potato"
+    "Title": "ジャガイモ"
   },
   {
     "Id": "plant19",
-    "Title": "Cotton Seed"
+    "Title": "綿の種"
   }
 ]

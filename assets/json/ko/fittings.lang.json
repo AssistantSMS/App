@@ -1,131 +1,131 @@
 [
   {
     "Id": "fitt1",
-    "Title": "Large Pipe Mount"
+    "Title": "대형 파이프 마운트"
   },
   {
     "Id": "fitt2",
-    "Title": "Holder Support Leg Base"
+    "Title": "홀더 지지대 다리 베이스"
   },
   {
     "Id": "fitt3",
-    "Title": "Holder Support Leg"
+    "Title": "홀더 지지대 다리"
   },
   {
     "Id": "fitt4",
-    "Title": "Holder Support Bend"
+    "Title": "홀더 지지대 곡선"
   },
   {
     "Id": "fitt5",
-    "Title": "Large Pipe Extension"
+    "Title": "대형 파이프 확장부"
   },
   {
     "Id": "fitt6",
-    "Title": "Large Pipe Cap"
+    "Title": "대형 파이프 캡"
   },
   {
     "Id": "fitt7",
-    "Title": "Large Pipe Compressor"
+    "Title": "대형 파이프 컴프레서"
   },
   {
     "Id": "fitt8",
-    "Title": "Power Station"
+    "Title": "발전소"
   },
   {
     "Id": "fitt9",
-    "Title": "Giant Pipe"
+    "Title": "초대형 파이프"
   },
   {
     "Id": "fitt10",
-    "Title": "Giant Pipe Glass Straight"
+    "Title": "직선 유리 초대형 파이프"
   },
   {
     "Id": "fitt11",
-    "Title": "Giant Pipe Corner"
+    "Title": "코너 초대형 파이프"
   },
   {
     "Id": "fitt12",
-    "Title": "Giant Pipe Glass Corner"
+    "Title": "코너 유리 초대형 파이프"
   },
   {
     "Id": "fitt13",
-    "Title": "Giant Pipe Tee"
+    "Title": "T자 초대형 파이프"
   },
   {
     "Id": "fitt14",
-    "Title": "Giant Pipe Bracer"
+    "Title": "초대형 파이프 죔쇠"
   },
   {
     "Id": "fitt15",
-    "Title": "Giant Pipe Holder"
+    "Title": "초대형 파이프 홀더"
   },
   {
     "Id": "fitt16",
-    "Title": "Warehouse Ventilation Short"
+    "Title": "짧은 창고 환기 장치"
   },
   {
     "Id": "fitt17",
-    "Title": "Warehouse Ventilation Long"
+    "Title": "긴 창고 환기 장치"
   },
   {
     "Id": "fitt18",
-    "Title": "Warehouse Ventilation Corner"
+    "Title": "코너 창고 환기 장치"
   },
   {
     "Id": "fitt19",
-    "Title": "Warehouse Ventilation Tee"
+    "Title": "T자 창고 환기 장치"
   },
   {
     "Id": "fitt20",
-    "Title": "Warehouse Ventilation Mount"
+    "Title": "창고 환기 장치 마운트"
   },
   {
     "Id": "fitt21",
-    "Title": "Warehouse Ventilation Drum"
+    "Title": "창고 환기 장치 드럼"
   },
   {
     "Id": "fitt22",
-    "Title": "Generator Pipe Short"
+    "Title": "짧은 발전기 파이프"
   },
   {
     "Id": "fitt23",
-    "Title": "Generator Pipe Long"
+    "Title": "긴 발전기 파이프"
   },
   {
     "Id": "fitt24",
-    "Title": "Generator Pipe Corner"
+    "Title": "코너 발전기 파이프"
   },
   {
     "Id": "fitt25",
-    "Title": "Generator Pipe Tee"
+    "Title": "T자 발전기 파이프"
   },
   {
     "Id": "fitt26",
-    "Title": "Generator Pipe Four Way"
+    "Title": "4방향 발전기 파이프"
   },
   {
     "Id": "fitt27",
-    "Title": "Duct Short"
+    "Title": "짧은 배관"
   },
   {
     "Id": "fitt28",
-    "Title": "덕트 몸통"
+    "Title": "긴 배관"
   },
   {
     "Id": "fitt29",
-    "Title": "덕트 모서리"
+    "Title": "코너 배관"
   },
   {
     "Id": "fitt30",
-    "Title": "덕트 연결자"
+    "Title": "연결부 배관"
   },
   {
     "Id": "fitt31",
-    "Title": "덕트 지지대"
+    "Title": "배관 받침대"
   },
   {
     "Id": "fitt32",
-    "Title": "덕트 끝단"
+    "Title": "배관 끝부분"
   },
   {
     "Id": "fitt33",
@@ -141,11 +141,11 @@
   },
   {
     "Id": "fitt36",
-    "Title": "파이프 모서리"
+    "Title": "코너 파이프"
   },
   {
     "Id": "fitt37",
-    "Title": "파이프 연결자"
+    "Title": "연결부 파이프"
   },
   {
     "Id": "fitt38",
@@ -153,19 +153,19 @@
   },
   {
     "Id": "fitt39",
-    "Title": "대형 짧은 파이프"
+    "Title": "짧은 대형 파이프"
   },
   {
     "Id": "fitt40",
-    "Title": "대형 긴 파이프"
+    "Title": "긴 대형 파이프"
   },
   {
     "Id": "fitt41",
-    "Title": "대형 파이프 모서리"
+    "Title": "코너 대형 파이프"
   },
   {
     "Id": "fitt42",
-    "Title": "대형 파이프 연결자"
+    "Title": "연결부 대형 파이프"
   },
   {
     "Id": "fitt43",
@@ -177,15 +177,15 @@
   },
   {
     "Id": "fitt45",
-    "Title": "와이어 벤드"
+    "Title": "곡선 와이어"
   },
   {
     "Id": "fitt46",
-    "Title": "볼록 와이어 벤드"
+    "Title": "볼록 곡선 와이어"
   },
   {
     "Id": "fitt47",
-    "Title": "오목 와이어 벤드"
+    "Title": "오목 곡선 와이어"
   },
   {
     "Id": "fitt48",
@@ -201,46 +201,46 @@
   },
   {
     "Id": "fitt51",
-    "Title": "튜브 모서리"
+    "Title": "코너 튜브"
   },
   {
     "Id": "fitt52",
-    "Title": "튜브 연결자"
+    "Title": "연결부 튜브"
   },
   {
     "Id": "fitt53",
-    "Title": "소형 짧은 파이프"
+    "Title": "짧은 소형 파이프"
   },
   {
     "Id": "fitt54",
-    "Title": "소형 긴 파이프"
+    "Title": "긴 소형 파이프"
   },
   {
     "Id": "fitt55",
-    "Title": "소형 곡선 파이프"
+    "Title": "곡선 소형 파이프"
   },
   {
     "Id": "fitt56",
-    "Title": "소형 파이프 티"
+    "Title": "T자 소형 파이프"
   },
   {
     "Id": "fitt57",
-    "Title": "소형 파이프 코너"
+    "Title": "코너 소형 파이프"
   },
   {
     "Id": "fitt58",
-    "Title": "소형 4방형 파이프"
+    "Title": "4방향 소형 파이프"
   },
   {
     "Id": "fitt59",
-    "Title": "소형 4방형 파이프 티"
+    "Title": "4방향 T자 소형 파이프"
   },
   {
     "Id": "fitt60",
-    "Title": "소형 5방형 파이프"
+    "Title": "5방향 소형 파이프"
   },
   {
     "Id": "fitt61",
-    "Title": "소형 6방향 파이프"
+    "Title": "6방향 소형 파이프"
   }
 ]

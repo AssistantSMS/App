@@ -1,78 +1,78 @@
 [
   {
     "Id": "plant1",
-    "Title": "Banana Seed"
+    "Title": "Semilla de plátano"
   },
   {
     "Id": "plant2",
-    "Title": "Blueberry Seed"
+    "Title": "Semilla de arándano"
   },
   {
     "Id": "plant3",
-    "Title": "Orange Seed"
+    "Title": "Semilla de naranja"
   },
   {
     "Id": "plant4",
-    "Title": "Pineapple Seed"
+    "Title": "Semilla de piña"
   },
   {
     "Id": "plant5",
-    "Title": "Carrot Seed"
+    "Title": "Semilla de zanahoria"
   },
   {
     "Id": "plant6",
-    "Title": "Redbeet Seed"
+    "Title": "Semilla de remolacha"
   },
   {
     "Id": "plant7",
-    "Title": "Tomato Seed"
+    "Title": "Semilla de tomate"
   },
   {
     "Id": "plant8",
-    "Title": "Broccoli Seed"
+    "Title": "Semilla de brócoli"
   },
   {
     "Id": "plant9",
-    "Title": "Potato Seed"
+    "Title": "Semilla de patata"
   },
   {
     "Id": "plant10",
-    "Title": "Banana"
+    "Title": "Plátano"
   },
   {
     "Id": "plant11",
-    "Title": "Blueberry"
+    "Title": "Arándano"
   },
   {
     "Id": "plant12",
-    "Title": "Orange"
+    "Title": "Naranja"
   },
   {
     "Id": "plant13",
-    "Title": "Pineapple"
+    "Title": "Piña"
   },
   {
     "Id": "plant14",
-    "Title": "Carrot"
+    "Title": "Zanahoria"
   },
   {
     "Id": "plant15",
-    "Title": "Redbeet"
+    "Title": "Remolacha"
   },
   {
     "Id": "plant16",
-    "Title": "Tomato"
+    "Title": "Tomate"
   },
   {
     "Id": "plant17",
-    "Title": "Broccoli"
+    "Title": "Brócoli"
   },
   {
     "Id": "plant18",
-    "Title": "Potato"
+    "Title": "Patata"
   },
   {
     "Id": "plant19",
-    "Title": "Cotton Seed"
+    "Title": "Semilla de algodón"
   }
 ]

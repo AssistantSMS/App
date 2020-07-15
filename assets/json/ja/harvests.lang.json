@@ -1,22 +1,22 @@
 [
   {
     "Id": "harv1",
-    "Title": "Scrap Stone"
+    "Title": "スクラップ石材"
   },
   {
     "Id": "harv2",
-    "Title": "Scrap Wood"
+    "Title": "スクラップ木材"
   },
   {
     "Id": "harv3",
-    "Title": "Wood"
+    "Title": "木材"
   },
   {
     "Id": "harv4",
-    "Title": "Scrap Metal"
+    "Title": "スクラップ金属"
   },
   {
     "Id": "harv5",
-    "Title": "Metal"
+    "Title": "金属"
   }
 ]

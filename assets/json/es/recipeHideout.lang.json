@@ -1,73 +1,73 @@
 [
   {
     "Id": "recipeHideout1",
-    "Title": "Soil Bag",
-    "Description": "Use them on the ground to place your seeds in"
+    "Title": "Saco de tierra",
+    "Description": "Úsalos para sembrar semillas en el suelo."
   },
   {
     "Id": "recipeHideout2",
-    "Title": "Fertilizer",
-    "Description": "Makes plants grow faster"
+    "Title": "Fertilizante",
+    "Description": "Hace que las plantas crezcan más rápido."
   },
   {
     "Id": "recipeHideout3",
-    "Title": "Banana Seed"
+    "Title": "Semilla de plátano"
   },
   {
     "Id": "recipeHideout4",
-    "Title": "Orange Seed"
+    "Title": "Semilla de naranja"
   },
   {
     "Id": "recipeHideout5",
-    "Title": "Blueberry Seed"
+    "Title": "Semilla de arándano"
   },
   {
     "Id": "recipeHideout6",
-    "Title": "Cotton Seed"
+    "Title": "Semilla de algodón"
   },
   {
     "Id": "recipeHideout7",
-    "Title": "Saw Blade",
-    "Description": "Cut down trees faster with the Saw Blade. Put it on a bearing that is connected to a engine and drive it in to a tree."
+    "Title": "Sierra",
+    "Description": "Corta los árboles más rápido con la sierra. Pónsela a un cojinete que esté conectado a un motor y dirígela hacia un árbol."
   },
   {
     "Id": "recipeHideout8",
-    "Title": "Drill",
-    "Description": "Use the Drill to mine square rocks for stone and metal. Put it on a bearing that is connected to a engine and drive it in to a square rock."
+    "Title": "Perforadora",
+    "Description": "Usa la perforadora para minar rocas y obtener piedra y metal. Pónsela a un cojinete que esté conectado a un motor y dirígela hacia un cuadrado de roca."
   },
   {
     "Id": "recipeHideout9",
-    "Title": "Mountable Spud Gun",
-    "Description": "Connect it to a Ammo container with a trigger to shoot"
+    "Title": "Lanzapapas portátil",
+    "Description": "Para disparar, conéctalo a un contenedor de munición con disparador."
   },
   {
     "Id": "recipeHideout10",
-    "Title": "Potato Ammo Container",
-    "Description": "Connect it to a Moutable Spud Gun with a trigger to shoot potato ammo"
+    "Title": "Contenedor de munición de patatas",
+    "Description": "Conéctalo a un lanzapapas con un disparador para lanzar munición de patatas."
   },
   {
     "Id": "recipeHideout11",
-    "Title": "Spud Gun",
-    "Description": "Spud Gun with single potato shot."
+    "Title": "Lanzapapas",
+    "Description": "Lanzapapas con un único disparo de patata."
   },
   {
     "Id": "recipeHideout12",
-    "Title": "Spud Shotgun",
-    "Description": "Shoots sizzling hot fries in a spread."
+    "Title": "Escopeta lanzapapas",
+    "Description": "Dispara una salva de patatas fritas calientes."
   },
   {
     "Id": "recipeHideout13",
-    "Title": "Spudling Gun",
-    "Description": "Shoots potatoes in a rapid fire. Uses a lot of potato ammo"
+    "Title": "Papatralleta",
+    "Description": "Dispara patatas rápidamente. Usa mucha munición de patata."
   },
   {
     "Id": "recipeHideout14",
-    "Title": "Garment Box (Common)",
-    "Description": "Use it in a Dressbot to make new clothes"
+    "Title": "Caja de prendas (común)",
+    "Description": "Úsala con un sastrebot para hacer ropa nueva."
   },
   {
     "Id": "recipeHideout15",
-    "Title": "Garment Box (Rare)",
-    "Description": "Use it in a Dressbot to make new clothes"
+    "Title": "Caja de prendas (rara)",
+    "Description": "Úsala con un sastrebot para hacer ropa nueva."
   }
 ]

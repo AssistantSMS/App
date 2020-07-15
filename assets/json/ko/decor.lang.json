@@ -1,115 +1,115 @@
 [
   {
     "Id": "deco1",
-    "Title": "Produce Billboard"
+    "Title": "제품 광고판"
   },
   {
     "Id": "deco2",
-    "Title": "Berry Billboard"
+    "Title": "베리 광고판"
   },
   {
     "Id": "deco3",
-    "Title": "Sickle-Down Billboard"
+    "Title": "수확 광고판"
   },
   {
     "Id": "deco4",
-    "Title": "Warehouse Sign"
+    "Title": "창고 표지판"
   },
   {
     "Id": "deco5",
-    "Title": "Elevator Sign"
+    "Title": "엘리베이터 표지판"
   },
   {
     "Id": "deco6",
-    "Title": "Storage Sign"
+    "Title": "보관 표지판"
   },
   {
     "Id": "deco7",
-    "Title": "Packing Sign"
+    "Title": "포장 표지판"
   },
   {
     "Id": "deco8",
-    "Title": "Growroom Sign"
+    "Title": "사무실 표지판"
   },
   {
     "Id": "deco9",
-    "Title": "Utility Sign"
+    "Title": "다용도실 표지판"
   },
   {
     "Id": "deco10",
-    "Title": "Man Sign"
+    "Title": "남성 표지판"
   },
   {
     "Id": "deco11",
-    "Title": "Woman Sign"
+    "Title": "여성 표지판"
   },
   {
     "Id": "deco12",
-    "Title": "Recycling Bin"
+    "Title": "분리수거함"
   },
   {
     "Id": "deco13",
-    "Title": "Paper Stack"
+    "Title": "종이 더미"
   },
   {
     "Id": "deco14",
-    "Title": "Old Restroom Mirror"
+    "Title": "낡은 화장실 거울"
   },
   {
     "Id": "deco15",
-    "Title": "Traffic Sign"
+    "Title": "도로 표지판"
   },
   {
     "Id": "deco16",
-    "Title": "Metallic Tube"
+    "Title": "금속제 튜브"
   },
   {
     "Id": "deco17",
-    "Title": "Road Sign Base"
+    "Title": "도로 표지판 베이스"
   },
   {
     "Id": "deco18",
-    "Title": "Cash Register"
+    "Title": "금전 등록기"
   },
   {
     "Id": "deco19",
-    "Title": "Open Sign"
+    "Title": "오픈 표지판"
   },
   {
     "Id": "deco20",
-    "Title": "Old Fruit Stand"
+    "Title": "낡은 과일 가판대"
   },
   {
     "Id": "deco21",
-    "Title": "Stacked Crates"
+    "Title": "상자 더미"
   },
   {
     "Id": "deco22",
-    "Title": "Sunshake Vending Machine"
+    "Title": "선셰이크 자판기"
   },
   {
     "Id": "deco23",
-    "Title": "Udder Decoration"
+    "Title": "우더 장식"
   },
   {
     "Id": "deco24",
-    "Title": "Haystack"
+    "Title": "건초 더미"
   },
   {
     "Id": "deco25",
-    "Title": "Hay Bale"
+    "Title": "건초 꾸러미"
   },
   {
     "Id": "deco26",
-    "Title": "화장지"
+    "Title": "휴지"
   },
   {
     "Id": "deco27",
-    "Title": "세면대"
+    "Title": "싱크대"
   },
   {
     "Id": "deco28",
-    "Title": "머그"
+    "Title": "진흙"
   },
   {
     "Id": "deco29",
@@ -121,7 +121,7 @@
   },
   {
     "Id": "deco31",
-    "Title": "아기 오리상"
+    "Title": "작은 오리 인형"
   },
   {
     "Id": "deco32",
@@ -133,47 +133,47 @@
   },
   {
     "Id": "deco34",
-    "Title": "해골 표식"
+    "Title": "해골 표지판"
   },
   {
     "Id": "deco35",
-    "Title": "공사장 표식"
+    "Title": "건설 공사장 표지판"
   },
   {
     "Id": "deco36",
-    "Title": "주의 표식"
+    "Title": "경고 표지판"
   },
   {
     "Id": "deco37",
-    "Title": "위험 표식"
+    "Title": "위험 표지판"
   },
   {
     "Id": "deco38",
-    "Title": "정지 표식"
+    "Title": "정지 표지판"
   },
   {
     "Id": "deco39",
-    "Title": "팜봇 주의 표식"
+    "Title": "팜봇 주의 표지판"
   },
   {
     "Id": "deco40",
-    "Title": "환영 표식"
+    "Title": "환영 표지판"
   },
   {
     "Id": "deco41",
-    "Title": "진입 금지 표식"
+    "Title": "진입금지 표지판"
   },
   {
     "Id": "deco42",
-    "Title": "낙하물 주의 표식"
+    "Title": "낙하물 표지판"
   },
   {
     "Id": "deco43",
-    "Title": "화살표 표식"
+    "Title": "화살표 표지판"
   },
   {
     "Id": "deco44",
-    "Title": "원추형 표지판"
+    "Title": "도로콘"
   },
   {
     "Id": "deco45",
@@ -181,6 +181,6 @@
   },
   {
     "Id": "deco46",
-    "Title": "필로우"
+    "Title": "베개"
   }
 ]

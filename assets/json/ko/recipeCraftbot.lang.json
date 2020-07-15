@@ -20,43 +20,43 @@
   },
   {
     "Id": "recipeCraft5",
-    "Title": "나무 블록"
+    "Title": "목재 블록 1"
   },
   {
     "Id": "recipeCraft6",
-    "Title": "Wood Block 2"
+    "Title": "목재 블록 2"
   },
   {
     "Id": "recipeCraft7",
-    "Title": "Wood Block 3"
+    "Title": "목재 블록 3"
   },
   {
     "Id": "recipeCraft8",
-    "Title": "금속 블록"
+    "Title": "금속 블록 1"
   },
   {
     "Id": "recipeCraft9",
-    "Title": "Metal Block 2"
+    "Title": "금속 블록 2"
   },
   {
     "Id": "recipeCraft10",
-    "Title": "Metal Block 3"
+    "Title": "금속 블록 3"
   },
   {
     "Id": "recipeCraft11",
-    "Title": "콘크리트 블록"
+    "Title": "콘크리트 블록 1"
   },
   {
     "Id": "recipeCraft12",
-    "Title": "Concrete Block 2"
+    "Title": "콘크리트 블록 2"
   },
   {
     "Id": "recipeCraft13",
-    "Title": "Concrete Block 3"
+    "Title": "콘크리트 블록 3"
   },
   {
     "Id": "recipeCraft14",
-    "Title": "Sand Block"
+    "Title": "모래 블록"
   },
   {
     "Id": "recipeCraft15",
@@ -64,39 +64,39 @@
   },
   {
     "Id": "recipeCraft16",
-    "Title": "잔디 블록"
+    "Title": "유리 타일 블록"
   },
   {
     "Id": "recipeCraft17",
-    "Title": "Armored Glass Block"
+    "Title": "강화 유리 블록"
   },
   {
     "Id": "recipeCraft18",
-    "Title": "Diamond Plate Block"
+    "Title": "다이아몬드판 블록"
   },
   {
     "Id": "recipeCraft19",
-    "Title": "Path Light Block"
+    "Title": "도로 조명 블록"
   },
   {
     "Id": "recipeCraft20",
-    "Title": "Extruded Metal Block"
+    "Title": "압출 금속 블록"
   },
   {
     "Id": "recipeCraft21",
-    "Title": "Net Block"
+    "Title": "그물 블록"
   },
   {
     "Id": "recipeCraft22",
-    "Title": "Punched Steel Block"
+    "Title": "구멍 뚫린 강철 블록"
   },
   {
     "Id": "recipeCraft23",
-    "Title": "Solid Net Block"
+    "Title": "견고한 그물 블록"
   },
   {
     "Id": "recipeCraft24",
-    "Title": "유지보수 선박 블록"
+    "Title": "우주선 블록"
   },
   {
     "Id": "recipeCraft25",
@@ -108,251 +108,251 @@
   },
   {
     "Id": "recipeCraft27",
-    "Title": "Restroom Block"
+    "Title": "화장실 블록"
   },
   {
     "Id": "recipeCraft28",
-    "Title": "보호막 블록"
+    "Title": "장애물 블록"
   },
   {
     "Id": "recipeCraft29",
-    "Title": "Carpet Block"
+    "Title": "카펫 블록"
   },
   {
     "Id": "recipeCraft30",
-    "Title": "Bubble Plastic Block"
+    "Title": "뽁뽁이 블록"
   },
   {
     "Id": "recipeCraft31",
     "Title": "베어링",
-    "Description": "베어링에 배치하는 모든 것은 회전하게 됩니다. 또한 베어링을 엔진이나 운전석에 연결하여 다른 방식으로 제어할 수도 있습니다."
+    "Description": "베어링에 배치된 모든 것은 회전합니다. 베어링을 엔진이나 운전석에 연결하면 다른 방식으로 조작 가능합니다."
   },
   {
     "Id": "recipeCraft32",
     "Title": "스위치",
-    "Description": "필요에 따라 무한정 끄고 껼 수 있습니다. 스위치는 연결된 건 무엇이든 누르기만 하면 무한정 끄고 켜서 작동시킬 수 있으며, 엔진, 가속기, 그리고 제어판 등을 작동시킬 수 있습니다."
+    "Description": "필요할 때 무한하게 켜고 끌 수 있습니다. 연결된 것이 무엇이든 작동시키며, 작동한 대상은 버릴 수 없습니다. 스위치를 한 번 누르기만 하면 켜고 끌 수 있습니다. 엔진, 추진기, 제어판 등을 켤 수 있습니다."
   },
   {
     "Id": "recipeCraft33",
     "Title": "버튼",
-    "Description": "무언가를 작동시킵니다.  버튼을 누르고 있는 동안만 작동합니다."
+    "Description": "대상을 작동시킵니다. 버튼을 누르고 있으면 그동안 대상이 작동합니다."
   },
   {
     "Id": "recipeCraft34",
-    "Title": "Sensor 1",
-    "Description": "It detects, it activates! The sensor activates when detecting any kind of surface that comes into its view, and has a reach of ten blocks. It can activate an engine, a thruster, the controller and more."
+    "Title": "센서 1",
+    "Description": "뭔가를 감지하면 작동합니다! 센서 작동 시 인식 범위 내에서 모든 유형의 표면을 활성화시키며, 블록 10개 범위를 인식할 수 있습니다. 엔진, 추진기, 제어판 등을 켤 수 있습니다."
   },
   {
     "Id": "recipeCraft35",
-    "Title": "Sport Suspension 1",
-    "Description": "Adds shock absorption and provides stability. Great for vehicles to prevent them from easily flipping over. This suspension is small, but has a firmer bounce."
+    "Title": "스포츠 서스펜션 1",
+    "Description": "충격을 흡수하고 안정성을 더해줍니다. 차량이 쉽게 뒤집히지 않도록 막는 데 좋습니다. 서스펜션의 크기는 작지만, 안정적으로 튕깁니다."
   },
   {
     "Id": "recipeCraft36",
-    "Title": "Off-Road Suspension 1",
-    "Description": "Adds shock absorption and provides stability. Great for vehicles to prevent them from easily flipping over. This suspension has a lot of bounce, making it ideal for off-road vehicles."
+    "Title": "오프로드 서스펜션 1",
+    "Description": "충격을 흡수하고 안정성을 더해줍니다. 차량이 쉽게 뒤집히지 않도록 막는 데 좋습니다. 매우 잘 튕기며, 오프로드 차량에 적합합니다."
   },
   {
     "Id": "recipeCraft37",
-    "Title": "Piston 1",
-    "Description": "Extends and contracts! Connect it to a trigger to activate. The piston can also be connected to a controller to make it extend and contract in a sequence. Perfect for creating impressive creations."
+    "Title": "피스톤 1",
+    "Description": "늘어나고 줄어들죠! 트리거와 연결하면 작동합니다. 또한, 피스톤을 제어판에 연결하면 차례대로 늘어났다가 줄어들게 할 수 있습니다. 인상적인 창작물을 만들기에 적합합니다."
   },
   {
     "Id": "recipeCraft38",
-    "Title": "Gas Engine 1",
-    "Description": "An engine with fixed speed and adjustable power, ideally suited to powering vehicles. Can be connected to a driver's seat or trigger. Upgrade for more connection points and less gas consumption."
+    "Title": "가솔린 엔진 1",
+    "Description": "속도가 고정되었으며 출력을 조정할 수 있는 엔진. 차량에서 동력을 발생시킬 때 적절합니다. 운전석이나 트리거에 연결시킬 수 있습니다. 업그레이드하면 연결 부위가 많아지고 가솔린 사용량이 감소합니다."
   },
   {
     "Id": "recipeCraft39",
-    "Title": "Electric Engine 1",
-    "Description": "Powers bearings. An engine with fixed power and adjustable speed. A weak engine with an adjustable speed. Can be connected to a driver's seat or triggers. Upgrade for more connection points and less battery consumption."
+    "Title": "전기 엔진 1",
+    "Description": "베어링에 전력을 공급합니다. 출력이 고정되었으며 속도를 조절할 수 있는 엔진입니다. 속도를 조절할 수 있지만 약한 엔진입니다. 운전석이나 트리거에 연결시킬 수 있습니다. 업그레이드하면 연결 부위가 많아지고 배터리 사용량이 감소합니다."
   },
   {
     "Id": "recipeCraft40",
-    "Title": "Driver's Seat 1",
-    "Description": "Makes bearings turn left and right. Can be connected to an engine to control the direction of travel. Can also be connected to triggers that can be activated from the seat. Lvl 5 Driver's Seat unlocks steering settings by pressing (E) on connected bearings with the Connect Tool."
+    "Title": "운전석 1",
+    "Description": "베어링이 왼쪽, 오른쪽으로 회전하도록 해줍니다. 엔진과 연결해 이동 방향을 조작할 수 있습니다. 또한, 트리거에 연결해 운전석에서 작동시킬 수 있습니다. 5레벨 운전석은 스티어링 설정을 잠금 해제해줍니다. 연결용 도구로 연결된 베어링에서 [E]키를 누르면 됩니다."
   },
   {
     "Id": "recipeCraft41",
-    "Title": "Seat 1",
-    "Description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. Can be connected to triggers which can activate other interactive parts from the seat."
+    "Title": "좌석 1",
+    "Description": "서있고 싶지 않을 때 사용합니다. 앉아서 쉬거나, 차량에 추가해 친구들이 멋대로 앉아있을 수 있도록 해주세요. 트리거와 연결해 좌석에서 다른 상호작용 부품을 작동시킬 수도 있습니다."
   },
   {
     "Id": "recipeCraft42",
-    "Title": "Driver's Saddle 1",
-    "Description": "Makes bearings turn left and right. Can be connected to an engine to control the direction of travel. Can also be connected to triggers that can be activated from the saddle. Lvl 5 Driver's Saddle unlocks steering settings by pressing (E) on connected bearings with the Connect Tool."
+    "Title": "운전자용 안장 1",
+    "Description": "베어링이 왼쪽, 오른쪽으로 회전하도록 해줍니다. 엔진과 연결해 이동 방향을 조작할 수 있습니다. 또한, 트리거에 연결해 운전자용 안장에서 작동시킬 수 있습니다. 5레벨 운전자용 안장은 스티어링 설정을 잠금 해제해줍니다. 연결용 도구로 연결된 베어링에서 [E]키를 누르면 됩니다."
   },
   {
     "Id": "recipeCraft43",
-    "Title": "Saddle 1",
-    "Description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. Can be connected to triggers which can activate other interactive parts from the saddle."
+    "Title": "안장 1",
+    "Description": "서있고 싶지 않을 때 사용합니다. 앉아서 쉬거나, 차량에 추가해 친구들이 멋대로 앉아있을 수 있도록 해주세요. 트리거와 연결해 안장에서 다른 상호작용 부품을 작동시킬 수도 있습니다."
   },
   {
     "Id": "recipeCraft44",
-    "Title": "양변기",
-    "Description": "앉을 때 사용합니다. 앉아서 쉬거나 차량에 추가하면 친구가 같이 탑승할 수 있습니다. 양번기에서 다른 상호작용 부품을 작동시킬 수 있는 트리거에 연결할 수 있습니다. 물내리는걸 잊지 마세요!"
+    "Title": "변기",
+    "Description": "서있고 싶지 않을 때 사용합니다. 앉아서 쉬거나, 차량에 추가해 친구들이 멋대로 앉아있을 수 있도록 해주세요. 트리거와 연결해 변기에서 다른 상호작용 부품을 작동시킬 수도 있습니다. 물 내리는 것도 잊지 마세요!"
   },
   {
     "Id": "recipeCraft45",
-    "Title": "Thruster 1",
-    "Description": "Enough of these can make things fly. Needs to be connected to a trigger or the driver's seat in order to activate. Upgrade for less gas consumption."
+    "Title": "추진기 1",
+    "Description": "숫자가 충분하면 대상을 날려보낼 수 있습니다. 트리거나 운전석에 연결해야 작동합니다. 업그레이드하면 가솔린 사용량이 감소합니다."
   },
   {
     "Id": "recipeCraft46",
-    "Title": "Controller 1",
-    "Description": "Allows bearings to rotate in sequence. Perfect for building transforming creations. Needs to be connected to bearings. Activated by connecting a trigger or driver's seat to the controller."
+    "Title": "제어판 1",
+    "Description": "베어링이 차례로 회전하도록 해줍니다. 변신하는 창작물을 만들 때 적합합니다. 베어링과 연결되어야 합니다. 트리거나 운전석을 제어판과 연결하면 작동합니다."
   },
   {
     "Id": "recipeCraft47",
-    "Title": "로직 게이트",
-    "Description": "로직 게이트는 여러분이 기본적인 논리적 기능을 만들 수 있게 해주는 강력한 블록입니다. 블록에 대고 [E]키를 눌러서 각기 다른 로직 게이트 형태를 선택할 수 있습니다. 로직 게이트는 다른 로직 게이트나 트리거, 타이머 등에 연결시킬 수 있습니다. 좀 더 향상된 창작물을 만들 때 적합합니다."
+    "Title": "논리 게이트",
+    "Description": "로직 게이트는 기본적 논리 함수를 만들 수 있는 강력한 블록입니다. 블록에서 [E]키를 누르면 정비공이 다양한 논리 게이트 유형을 고를 수 있습니다. 논리 게이트는 다른 논리 게이트, 트리거, 타이머 등과 연결 가능합니다. 고급 창작물을 만들기에 적합합니다."
   },
   {
     "Id": "recipeCraft48",
     "Title": "타이머",
-    "Description": "타이머는 두 개의 상호작용 부품 간의 상호작용을 지연시킬 수 있습니다. 스위치와 제어판의 사용을 예로 들 수 있을 것입니다. 로직 게이트와 함께 사용하기에 제격입니다."
+    "Description": "타이머를 사용하면 상호작용 부품 두 개의 상호작용을 지연시킬 수 있습니다. 예를 들면 스위치와 제어판의 상호작용을 늦출 수 있죠. 논리 게이트와 사용하면 좋습니다."
   },
   {
     "Id": "recipeCraft49",
     "Title": "라디오",
-    "Description": "세대를 아우르는 명품. 팜봇들이 납치를 당해서 자신들의 범상치 않은 음악적 취향에 따라 클래식만 틀어주고 있습니다. 직접 조작을 해서 작동시키거나\n 트리거에 연결해서 작동시킬 수 있습니다."
+    "Description": "항상 히트곡을 틀어주죠. 끔찍한 봇들이 전파를 하이재킹했습니다. 이제 굉장히 특이한 음악 취향에 맞춰 클래식 셀렉션을 송출하고 있습니다. 상호작용해 활성화하세요\n트리거에 연결해도 작동합니다."
   },
   {
     "Id": "recipeCraft50",
     "Title": "경적",
-    "Description": "차량에 부착하거나 초인종으로 사용합니다. 교통 사고를 방지하기 위해 친구에게 울려주세요. 경적음의 세기를 설정해서 트리거에 연결해서 작동시키면 됩니다."
+    "Description": "차량에 추가하거나 초인종으로 사용하세요. 친구들을 향해 빵! 울려서 사고를 막아줍니다. 음높이를 설정하고 트리거와 연결하면 작동합니다."
   },
   {
     "Id": "recipeCraft51",
-    "Title": "라이트",
-    "Description": "시야를 밝혀 줍니다."
+    "Title": "전조등",
+    "Description": "눈에 보이는 것이 있으라! 트리거와 연결해 켜고 끌 수 있습니다. 광선 범위는 조절 가능합니다."
   },
   {
     "Id": "recipeCraft52",
-    "Title": "Respawn Bed",
-    "Description": "Take a lovely nap in this comfy bed to respawn in it after your mechanic has been knocked out"
+    "Title": "부활 침대",
+    "Description": "정비공이 쓰러진 후, 편안한 침대에서 단잠을 잠깐 자면 부활합니다."
   },
   {
     "Id": "recipeCraft53",
-    "Title": "Fridge",
-    "Description": "Keeps your food fresh"
+    "Title": "냉장고",
+    "Description": "음식을 신선하게 보관해줍니다."
   },
   {
     "Id": "recipeCraft54",
-    "Title": "Chest",
-    "Description": "A simple chest to store your items."
+    "Title": "상자",
+    "Description": "아이템을 보관하는 간단한 상자입니다."
   },
   {
     "Id": "recipeCraft55",
-    "Title": "Large Chest",
-    "Description": "Great for storing a lot of items. Can also be used with a Vacuum Pump"
+    "Title": "대형 상자",
+    "Description": "많은 아이템을 보관하기에 좋습니다. 진공 펌프와 함께 사용 가능합니다."
   },
   {
     "Id": "recipeCraft56",
-    "Title": "Vacuum Pump",
-    "Description": "The Vaccum Pump has many uses when connected to a trigger. Suck up water in to a water container. Pick up plants in to a chest. It can even shoot and place items from a chest."
+    "Title": "진공 펌프",
+    "Description": "진공 펌프는 트리거와 연결해 다양하게 활용할 수 있습니다. 물통에서는 물을 끌어올립니다. 상자에서는 식물을 집습니다. 상자에서 아이템을 쏘거나 배치할 수도 있습니다."
   },
   {
     "Id": "recipeCraft57",
-    "Title": "Vacuum Pipe",
-    "Description": "Use it with the Vacuum Pump to make items travel through pipes"
+    "Title": "진공 파이프",
+    "Description": "진공 펌프와 함께 사용해 파이프 사이에서 아이템을 옮기세요."
   },
   {
     "Id": "recipeCraft58",
-    "Title": "Vacuum Pipe Corner",
-    "Description": "Use it with the Vacuum Pump to make items travel through pipes"
+    "Title": "코너 진공 파이프",
+    "Description": "진공 펌프와 함께 사용해 파이프 사이에서 아이템을 옮기세요."
   },
   {
     "Id": "recipeCraft59",
-    "Title": "Gas Container",
-    "Description": "Can stores more gas and loads gas in to Gas Engines and other interactive parts that require Gas when connected"
+    "Title": "가솔린 용기",
+    "Description": "가솔린을 더 보관할 수 있으며, 가솔린 엔진 및 연결되었을 때 가솔린이 필요한 상호작용 부품에 가솔린을 채웁니다."
   },
   {
     "Id": "recipeCraft60",
-    "Title": "Battery Container",
-    "Description": "Can Store more batteries and loads batteries in to Electric Engines and other interactive parts that require batteries when connected"
+    "Title": "배터리 통",
+    "Description": "배터리를 더 보관할 수 있으며, 전기 엔진 및 연결되었을 때 배터리가 필요한 상호작용 부품에 배터리를 채웁니다."
   },
   {
     "Id": "recipeCraft61",
-    "Title": "Water Container",
-    "Description": "Connect it to a Vacuum Pump that is under water to fil the Water Container with water"
+    "Title": "물통",
+    "Description": "수중의 진공 펌프에 연결하면 물통에 물을 채울 수 있습니다."
   },
   {
     "Id": "recipeCraft62",
-    "Title": "Chemical Container"
+    "Title": "화학물질 용기"
   },
   {
     "Id": "recipeCraft63",
-    "Title": "Water Cannon",
-    "Description": "Connect it to a Water container with a trigger to water your plants more efficiently"
+    "Title": "물대포",
+    "Description": "트리거, 물통과 연결하고 식물에 더욱 효율적으로 물을 주세요."
   },
   {
     "Id": "recipeCraft64",
-    "Title": "Saw Blade",
-    "Description": "Cut down trees faster with the Saw Blade. Put it on a bearing that is connected to a engine and drive it in to a tree."
+    "Title": "톱날",
+    "Description": "톱날이 있으면 나무를 빠르게 벨 수 있습니다. 엔진과 연결된 베어링에 놓고 나무로 운전해보세요."
   },
   {
     "Id": "recipeCraft65",
-    "Title": "Drill",
-    "Description": "Use the Drill to mine square rocks for stone and metal. Put it on a bearing that is connected to a engine and drive it in to a square rock."
+    "Title": "드릴",
+    "Description": "드릴을 사용해 사각형 바위에서 암석과 금속을 캐내세요. 엔진과 연결된 베어링에 놓고 사각형 바위으로 운전해보세요."
   },
   {
     "Id": "recipeCraft66",
-    "Title": "Water Bucket",
-    "Description": "Fill it with water to water your plants."
+    "Title": "물 양동이",
+    "Description": "물로 채워서 식물에게 물을 주세요."
   },
   {
     "Id": "recipeCraft67",
-    "Title": "Soil Bag",
-    "Description": "Use them on the ground to place your seeds in"
+    "Title": "흙 봉지",
+    "Description": "땅에서 사용하면 씨를 심을 수 있습니다."
   },
   {
     "Id": "recipeCraft68",
-    "Title": "Fertilizer",
-    "Description": "Makes plants grow faster"
+    "Title": "비료",
+    "Description": "식물이 더 빠르게 자라도록 해줍니다."
   },
   {
     "Id": "recipeCraft69",
-    "Title": "Gasoline",
-    "Description": "Used to power gas engines and thrusters"
+    "Title": "가솔린",
+    "Description": "가솔린 엔진과 추진기에 동력을 공급하는 데 사용합니다."
   },
   {
     "Id": "recipeCraft70",
-    "Title": "Battery",
-    "Description": "Used to power electric parts"
+    "Title": "배터리",
+    "Description": "전기 부품에 전력을 공급하는 데 사용합니다."
   },
   {
     "Id": "recipeCraft71",
-    "Title": "Glue"
+    "Title": "풀"
   },
   {
     "Id": "recipeCraft72",
-    "Title": "Water",
-    "Description": "Great for watering plants, unfortunately not good for drinking."
+    "Title": "물",
+    "Description": "식물에 주기는 좋습니다. 아쉽지만 마시기에는 적절하지 않네요."
   },
   {
     "Id": "recipeCraft73",
-    "Title": "Chemicals"
+    "Title": "화학물질"
   },
   {
     "Id": "recipeCraft74",
-    "Title": "Paint Ammo",
-    "Description": "Load your Paint Tool and give your creations some color"
+    "Title": "도색용 총알",
+    "Description": "도색 도구에 장전하고 창작물에 색을 입히세요."
   },
   {
     "Id": "recipeCraft75",
-    "Title": "Glowstick",
-    "Description": "Throw them at night or other dark places to see things better"
+    "Title": "야광 스틱",
+    "Description": "밤이나 어두운 곳에 던지면 시야를 밝힐 수 있습니다."
   },
   {
     "Id": "recipeCraft76",
-    "Title": "Small Explosive Canister",
-    "Description": "Highly explosive canister that can detonate by strong collisions or by Spud Guns\nThis canister has a small explosion radius."
+    "Title": "소형 폭발성 통",
+    "Description": "심하게 부딪치거나 장난감총으로 쏘면 펑 폭발하는 통입니다.\n폭발 범위가 좁습니다."
   },
   {
     "Id": "recipeCraft77",
-    "Title": "Large Explosive Canister",
-    "Description": "Highly explosive canister that can detonate by strong collisions or by Spud Guns\nThis canister has a large explosion radius."
+    "Title": "대형 폭발성 통",
+    "Description": "심하게 부딪치거나 장난감총으로 쏘면 펑 폭발하는 통입니다.\n폭발 범위가 넓습니다."
   },
   {
     "Id": "recipeCraft78",
@@ -364,39 +364,39 @@
   },
   {
     "Id": "recipeCraft80",
-    "Title": "소형 짧은 파이프"
+    "Title": "짧은 소형 파이프"
   },
   {
     "Id": "recipeCraft81",
-    "Title": "소형 긴 파이프"
+    "Title": "긴 소형 파이프"
   },
   {
     "Id": "recipeCraft82",
-    "Title": "소형 곡선 파이프"
+    "Title": "곡선 소형 파이프"
   },
   {
     "Id": "recipeCraft83",
-    "Title": "소형 파이프 티"
+    "Title": "T자 소형 파이프"
   },
   {
     "Id": "recipeCraft84",
-    "Title": "소형 파이프 코너"
+    "Title": "코너 소형 파이프"
   },
   {
     "Id": "recipeCraft85",
-    "Title": "소형 4방형 파이프"
+    "Title": "4방향 소형 파이프"
   },
   {
     "Id": "recipeCraft86",
-    "Title": "소형 4방형 파이프 티"
+    "Title": "4방향 T자 소형 파이프"
   },
   {
     "Id": "recipeCraft87",
-    "Title": "소형 5방형 파이프"
+    "Title": "5방향 소형 파이프"
   },
   {
     "Id": "recipeCraft88",
-    "Title": "소형 6방향 파이프"
+    "Title": "6방향 소형 파이프"
   },
   {
     "Id": "recipeCraft89",
@@ -408,11 +408,11 @@
   },
   {
     "Id": "recipeCraft91",
-    "Title": "파이프 모서리"
+    "Title": "코너 파이프"
   },
   {
     "Id": "recipeCraft92",
-    "Title": "파이프 연결자"
+    "Title": "연결부 파이프"
   },
   {
     "Id": "recipeCraft93",
@@ -420,31 +420,31 @@
   },
   {
     "Id": "recipeCraft94",
-    "Title": "짧은 I 빔"
+    "Title": "짧은 I자형 대들보"
   },
   {
     "Id": "recipeCraft95",
-    "Title": "긴 I 빔"
+    "Title": "긴 I자형 대들보"
   },
   {
     "Id": "recipeCraft96",
-    "Title": "I 빔 모서리"
+    "Title": "코너 I자형 대들보"
   },
   {
     "Id": "recipeCraft97",
-    "Title": "I 빔 끝단"
+    "Title": "I자형 대들보 끝부분"
   },
   {
     "Id": "recipeCraft98",
-    "Title": "I 빔 지지대"
+    "Title": "I자형 대들보 홀더"
   },
   {
     "Id": "recipeCraft99",
-    "Title": "화장지"
+    "Title": "휴지"
   },
   {
     "Id": "recipeCraft100",
-    "Title": "세면대"
+    "Title": "싱크대"
   },
   {
     "Id": "recipeCraft101",
@@ -452,7 +452,7 @@
   },
   {
     "Id": "recipeCraft102",
-    "Title": "머그"
+    "Title": "진흙"
   },
   {
     "Id": "recipeCraft103",
@@ -464,62 +464,62 @@
   },
   {
     "Id": "recipeCraft105",
-    "Title": "아기 오리상"
+    "Title": "작은 오리 인형"
   },
   {
     "Id": "recipeCraft106",
-    "Title": "화분"
+    "Title": "화분 식물"
   },
   {
     "Id": "recipeCraft107",
-    "Title": "소형 화분"
+    "Title": "소형 화분 식물"
   },
   {
     "Id": "recipeCraft108",
-    "Title": "덩굴 화분"
+    "Title": "화분 덩굴식물"
   },
   {
     "Id": "recipeCraft109",
-    "Title": "대형 빈 화분"
+    "Title": "대형 화분"
   },
   {
     "Id": "recipeCraft110",
-    "Title": "종자 화분"
+    "Title": "화분 종자식물"
   },
   {
     "Id": "recipeCraft111",
-    "Title": "꽃핀 선인장 화분"
+    "Title": "화분 꽃 피는 선인장"
   },
   {
     "Id": "recipeCraft112",
-    "Title": "선인장 화분"
+    "Title": "화분 선인장"
   },
   {
     "Id": "recipeCraft113",
-    "Title": "파란꽃 화분"
+    "Title": "화분 푸른 꽃"
   },
   {
     "Id": "recipeCraft114",
-    "Title": "소형 직사각형 창"
+    "Title": "소형 직사각형 창문"
   },
   {
     "Id": "recipeCraft115",
-    "Title": "정방형 창"
+    "Title": "사각형 창문"
   },
   {
     "Id": "recipeCraft116",
-    "Title": "대형 직사각형 창"
+    "Title": "대형 직사각형 창문"
   },
   {
     "Id": "recipeCraft117",
-    "Title": "대형 방풍창"
+    "Title": "대형 바람막이 창"
   },
   {
     "Id": "recipeCraft118",
-    "Title": "소형 방풍창"
+    "Title": "소형 바람막이 창"
   },
   {
     "Id": "recipeCraft119",
-    "Title": "원추형 표지판"
+    "Title": "도로콘"
   }
 ]

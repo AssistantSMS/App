@@ -1,82 +1,82 @@
 [
   {
     "Id": "constr1",
-    "Title": "Hollow Concrete"
+    "Title": "Ciment creux"
   },
   {
     "Id": "constr2",
-    "Title": "Broken Concrete Small"
+    "Title": "Petits morceaux de ciment cassé"
   },
   {
     "Id": "constr3",
-    "Title": "Broken Concrete Medium"
+    "Title": "Moyens morceaux de ciment cassé"
   },
   {
     "Id": "constr4",
-    "Title": "Broken Concrete Large"
+    "Title": "Grands morceaux de ciment cassé"
   },
   {
     "Id": "constr5",
-    "Title": "Barrier Stand"
+    "Title": "Barrière"
   },
   {
     "Id": "constr6",
-    "Title": "Cement Mix"
+    "Title": "Mélange de ciment"
   },
   {
     "Id": "constr7",
-    "Title": "Concrete Block Mould"
+    "Title": "Moule de bloc de ciment"
   },
   {
     "Id": "constr8",
-    "Title": "Carpet Roll"
+    "Title": "Rouleau de moquette"
   },
   {
     "Id": "constr9",
-    "Title": "Carpet Spool Holder"
+    "Title": "Porte-bobine pour moquette"
   },
   {
     "Id": "constr10",
-    "Title": "Scaffold Plastic Wall"
+    "Title": "Mur d'échafaud en plastique"
   },
   {
     "Id": "constr11",
-    "Title": "Scaffold Ledger"
+    "Title": "Rebord d'échafaud"
   },
   {
     "Id": "constr12",
-    "Title": "Scaffold Frame"
+    "Title": "Structure d'échafaud"
   },
   {
     "Id": "constr13",
-    "Title": "Scaffold Plank"
+    "Title": "Planche d'échafaud"
   },
   {
     "Id": "constr14",
-    "Title": "Construction Pallet"
+    "Title": "Palette de construction"
   },
   {
     "Id": "constr15",
-    "Title": "Scaffold Pallet Ramp"
+    "Title": "Rampe d'échafaud"
   },
   {
     "Id": "constr16",
-    "Title": "Sound Isolation Small "
+    "Title": "Petite isolation sonore "
   },
   {
     "Id": "constr17",
-    "Title": "Sound Isolation Large"
+    "Title": "Grande isolation sonore"
   },
   {
     "Id": "constr18",
-    "Title": "Work Light"
+    "Title": "Lampe de travail"
   },
   {
     "Id": "constr19",
-    "Title": "Paint Bucket"
+    "Title": "Pot de peinture"
   },
   {
     "Id": "constr20",
-    "Title": "Scaffolding Step"
+    "Title": "Marche d'échafaud"
   }
 ]

@@ -1,23 +1,23 @@
 [
   {
     "Id": "veh1",
-    "Title": "Concave Wedge"
+    "Title": "凹型くさび"
   },
   {
     "Id": "veh2",
-    "Title": "License Plate"
+    "Title": "ナンバープレート"
   },
   {
     "Id": "veh3",
-    "Title": "Metallic Tube Straight"
+    "Title": "金属管（直線）"
   },
   {
     "Id": "veh4",
-    "Title": "Metallic Tube Bend"
+    "Title": "金属管（曲がり）"
   },
   {
     "Id": "veh5",
-    "Title": "Rounded Frame Corner"
+    "Title": "円形枠（コーナー）"
   },
   {
     "Id": "veh6",
@@ -25,6 +25,6 @@
   },
   {
     "Id": "veh7",
-    "Title": "ビッグ ホイール"
+    "Title": "ホイール（大）"
   }
 ]

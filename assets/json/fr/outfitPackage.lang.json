@@ -1,14 +1,14 @@
 [
   {
     "Id": "out1",
-    "Title": "Garment Box (Common)"
+    "Title": "Boîte à vêtements (ordinaire)"
   },
   {
     "Id": "out2",
-    "Title": "Garment Box (Rare)"
+    "Title": "Boîte à vêtements (rare)"
   },
   {
     "Id": "out3",
-    "Title": "Garment Box (Epic)"
+    "Title": "Boîte à vêtements (épique)"
   }
 ]

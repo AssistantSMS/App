@@ -1,58 +1,58 @@
 [
   {
     "Id": "consu1",
-    "Title": "Gasoline"
+    "Title": "ガソリン"
   },
   {
     "Id": "consu2",
-    "Title": "Battery"
+    "Title": "バッテリー"
   },
   {
     "Id": "consu3",
-    "Title": "Water"
+    "Title": "水"
   },
   {
     "Id": "consu4",
-    "Title": "Fertilizer"
+    "Title": "肥料"
   },
   {
     "Id": "consu5",
-    "Title": "Chemicals"
+    "Title": "ケミカル"
   },
   {
     "Id": "consu6",
-    "Title": "Component Kit"
+    "Title": "構成キット"
   },
   {
     "Id": "consu7",
-    "Title": "Paint Ammo"
+    "Title": "塗装弾薬"
   },
   {
     "Id": "consu8",
-    "Title": "Glowstick"
+    "Title": "サイリウム"
   },
   {
     "Id": "consu9",
-    "Title": "Sunshake"
+    "Title": "サンシェイク"
   },
   {
     "Id": "consu10",
-    "Title": "Pizza Burger"
+    "Title": "ピザバーガー"
   },
   {
     "Id": "consu11",
-    "Title": "Veggie Burger"
+    "Title": "野菜バーガー"
   },
   {
     "Id": "consu12",
-    "Title": "Revival Baguette"
+    "Title": "蘇生パン"
   },
   {
     "Id": "consu13",
-    "Title": "Woc Milk"
+    "Title": "ウォクミルク"
   },
   {
     "Id": "consu14",
-    "Title": "Soil Bag"
+    "Title": "土袋"
   }
 ]

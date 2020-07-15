@@ -1,46 +1,46 @@
 [
   {
     "Id": "reso1",
-    "Title": "Ember"
+    "Title": "Янтарь"
   },
   {
     "Id": "reso2",
-    "Title": "Beeswax"
+    "Title": "Пчелиный воск"
   },
   {
     "Id": "reso3",
-    "Title": "Glue Clam"
+    "Title": "Клейкий моллюск"
   },
   {
     "Id": "reso4",
-    "Title": "Cotton"
+    "Title": "Хлопок"
   },
   {
     "Id": "reso5",
-    "Title": "Corn"
+    "Title": "Кукуруза"
   },
   {
     "Id": "reso6",
-    "Title": "Circuit Board"
+    "Title": "Электроплата"
   },
   {
     "Id": "reso7",
-    "Title": "Woc Steak"
+    "Title": "Стейк из вока"
   },
   {
     "Id": "reso8",
-    "Title": "Glow"
+    "Title": "Флюослизь"
   },
   {
     "Id": "reso9",
-    "Title": "Pigment Flower"
+    "Title": "Пигментированный цветок"
   },
   {
     "Id": "reso10",
-    "Title": "Glue"
+    "Title": "Клей"
   },
   {
     "Id": "reso11",
-    "Title": "Crude Oil"
+    "Title": "Неочищенная нефть"
   }
 ]

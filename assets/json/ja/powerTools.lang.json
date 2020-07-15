@@ -1,10 +1,10 @@
 [
   {
     "Id": "powertool1",
-    "Title": "Saw Blade"
+    "Title": "ノコ刃"
   },
   {
     "Id": "powertool2",
-    "Title": "Drill"
+    "Title": "ドリル"
   }
 ]

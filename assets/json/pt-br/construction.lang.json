@@ -1,82 +1,82 @@
 [
   {
     "Id": "constr1",
-    "Title": "Hollow Concrete"
+    "Title": "Concreto Oco"
   },
   {
     "Id": "constr2",
-    "Title": "Broken Concrete Small"
+    "Title": "Concreto Quebrado Pequeno"
   },
   {
     "Id": "constr3",
-    "Title": "Broken Concrete Medium"
+    "Title": "Concreto Quebrado Médio"
   },
   {
     "Id": "constr4",
-    "Title": "Broken Concrete Large"
+    "Title": "Concreto Quebrado Grande"
   },
   {
     "Id": "constr5",
-    "Title": "Barrier Stand"
+    "Title": "Barreira"
   },
   {
     "Id": "constr6",
-    "Title": "Cement Mix"
+    "Title": "Betoneira"
   },
   {
     "Id": "constr7",
-    "Title": "Concrete Block Mould"
+    "Title": "Molde de Bloco de Concreto"
   },
   {
     "Id": "constr8",
-    "Title": "Carpet Roll"
+    "Title": "Rolo de Carpete"
   },
   {
     "Id": "constr9",
-    "Title": "Carpet Spool Holder"
+    "Title": "Carretel de Carpete"
   },
   {
     "Id": "constr10",
-    "Title": "Scaffold Plastic Wall"
+    "Title": "Andaime de Parede de Plástico"
   },
   {
     "Id": "constr11",
-    "Title": "Scaffold Ledger"
+    "Title": "Borda de Andaime"
   },
   {
     "Id": "constr12",
-    "Title": "Scaffold Frame"
+    "Title": "Suporte de Andaime"
   },
   {
     "Id": "constr13",
-    "Title": "Scaffold Plank"
+    "Title": "Placa de Andaime"
   },
   {
     "Id": "constr14",
-    "Title": "Construction Pallet"
+    "Title": "Palete de Construção"
   },
   {
     "Id": "constr15",
-    "Title": "Scaffold Pallet Ramp"
+    "Title": "Rampa de Andaime"
   },
   {
     "Id": "constr16",
-    "Title": "Sound Isolation Small "
+    "Title": "Isolamento Acústico Pequeno "
   },
   {
     "Id": "constr17",
-    "Title": "Sound Isolation Large"
+    "Title": "Isolamento Acústico Grande"
   },
   {
     "Id": "constr18",
-    "Title": "Work Light"
+    "Title": "Refletor"
   },
   {
     "Id": "constr19",
-    "Title": "Paint Bucket"
+    "Title": "Balde de Tinta"
   },
   {
     "Id": "constr20",
-    "Title": "Scaffolding Step"
+    "Title": "Escada de Andaime"
   }
 ]

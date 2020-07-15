@@ -1,59 +1,59 @@
 [
   {
     "Id": "intera1",
-    "Title": "Fridge"
+    "Title": "Geladeira"
   },
   {
     "Id": "intera2",
-    "Title": "Locker"
+    "Title": "Armário"
   },
   {
     "Id": "intera3",
-    "Title": "File Cabinet"
+    "Title": "Arquivo Morto"
   },
   {
     "Id": "intera4",
-    "Title": "Chest"
+    "Title": "Baú"
   },
   {
     "Id": "intera5",
-    "Title": "Large Chest"
+    "Title": "Baú Grande"
   },
   {
     "Id": "intera6",
-    "Title": "Protector: Anti-Destruction"
+    "Title": "Protetor: Antidestruição"
   },
   {
     "Id": "intera7",
-    "Title": "Encryptor: Anti-Connection"
+    "Title": "Codificador: Anticonexão"
   },
   {
     "Id": "intera8",
-    "Title": "Oily Toilet Seat"
+    "Title": "Sanitário Oleoso"
   },
   {
     "Id": "intera9",
-    "Title": "Resource Collector"
+    "Title": "Coletor de Recursos"
   },
   {
     "Id": "intera10",
-    "Title": "Refinebot"
+    "Title": "Robô Refinador"
   },
   {
     "Id": "intera11",
-    "Title": "Dressbot"
+    "Title": "Robô Tecelão"
   },
   {
     "Id": "intera12",
-    "Title": "Water Cannon"
+    "Title": "Canhão de Água"
   },
   {
     "Id": "intera13",
-    "Title": "Mountable Spud Gun"
+    "Title": "Batatarma Portátil"
   },
   {
     "Id": "intera14",
-    "Title": "Respawn Bed"
+    "Title": "Leito de Ressurgimento"
   },
   {
     "Id": "intera15",
@@ -85,7 +85,7 @@
   },
   {
     "Id": "intera22",
-    "Title": "Privada"
+    "Title": "Sanitário"
   },
   {
     "Id": "intera23",
@@ -105,7 +105,7 @@
   },
   {
     "Id": "intera27",
-    "Title": "Comando"
+    "Title": "Interruptor"
   },
   {
     "Id": "intera28",
@@ -125,7 +125,7 @@
   },
   {
     "Id": "intera32",
-    "Title": "Portão Lógico"
+    "Title": "Porta Lógica"
   },
   {
     "Id": "intera33",
@@ -133,19 +133,19 @@
   },
   {
     "Id": "intera34",
-    "Title": "Cabeça de Totembô: Baixo"
+    "Title": "Cabeça de Robô Cargueiro: Baixo"
   },
   {
     "Id": "intera35",
-    "Title": "Cabeça de Totembô: Percussão"
+    "Title": "Cabeça de Robô Cargueiro: Percussão"
   },
   {
     "Id": "intera36",
-    "Title": "Cabeça de Totembô: Sintetizador"
+    "Title": "Cabeça de Robô Cargueiro: Voz Sintetizada"
   },
   {
     "Id": "intera37",
-    "Title": "Cabeça de Totembô: Bip"
+    "Title": "Cabeça de Robô Cargueiro: Sinal Sonoro"
   },
   {
     "Id": "intera38",
@@ -157,7 +157,7 @@
   },
   {
     "Id": "intera40",
-    "Title": "Tubarão do Raft Montável"
+    "Title": "Tubarão na Jangada"
   },
   {
     "Id": "intera41",
@@ -165,10 +165,10 @@
   },
   {
     "Id": "intera42",
-    "Title": "Small Explosive Canister"
+    "Title": "Botijão Explosivo Pequeno"
   },
   {
     "Id": "intera43",
-    "Title": "Large Explosive Canister"
+    "Title": "Botijão Explosivo Grande"
   }
 ]

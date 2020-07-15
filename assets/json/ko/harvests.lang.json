@@ -1,22 +1,22 @@
 [
   {
     "Id": "harv1",
-    "Title": "Scrap Stone"
+    "Title": "기초 석조"
   },
   {
     "Id": "harv2",
-    "Title": "Scrap Wood"
+    "Title": "기초 목재"
   },
   {
     "Id": "harv3",
-    "Title": "Wood"
+    "Title": "목재"
   },
   {
     "Id": "harv4",
-    "Title": "Scrap Metal"
+    "Title": "기초 금속"
   },
   {
     "Id": "harv5",
-    "Title": "Metal"
+    "Title": "금속"
   }
 ]

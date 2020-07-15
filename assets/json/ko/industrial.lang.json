@@ -1,103 +1,103 @@
 [
   {
     "Id": "indus1",
-    "Title": "Generator Coil Segment"
+    "Title": "발전기 코일 조각"
   },
   {
     "Id": "indus2",
-    "Title": "Generator Coil Corner"
+    "Title": "발전기 코일 코너"
   },
   {
     "Id": "indus3",
-    "Title": "Ventilation Frame"
+    "Title": "환기 프레임"
   },
   {
     "Id": "indus4",
-    "Title": "Steel Support Bracket"
+    "Title": "철제 지지대 브래킷"
   },
   {
     "Id": "indus5",
-    "Title": "Encryptor Base"
+    "Title": "암호생성기 베이스"
   },
   {
     "Id": "indus6",
-    "Title": "Encryptor Base Plate"
+    "Title": "암호생성기 베이스 판"
   },
   {
     "Id": "indus7",
-    "Title": "Encryptor Frame Top"
+    "Title": "암호생성기 프레임 상부"
   },
   {
     "Id": "indus8",
-    "Title": "Small Steel Bracket"
+    "Title": "소형 철제 브래킷"
   },
   {
     "Id": "indus9",
-    "Title": "Encryptor Frame Beam"
+    "Title": "암호생성기 프레임 기둥"
   },
   {
     "Id": "indus10",
-    "Title": "Encryptor Holder"
+    "Title": "암호생성기 홀더"
   },
   {
     "Id": "indus11",
-    "Title": "Base Extension"
+    "Title": "베이스 확장부"
   },
   {
     "Id": "indus12",
-    "Title": "Generator B"
+    "Title": "발전기 B"
   },
   {
     "Id": "indus13",
-    "Title": "Generator C"
+    "Title": "발전기 C"
   },
   {
     "Id": "indus14",
-    "Title": "Generator D"
+    "Title": "발전기 D"
   },
   {
     "Id": "indus15",
-    "Title": "Generator A"
+    "Title": "발전기 A"
   },
   {
     "Id": "indus16",
-    "Title": "Power Generator Side"
+    "Title": "발전기 옆면"
   },
   {
     "Id": "indus17",
-    "Title": "Generator Tank"
+    "Title": "발전기 탱크"
   },
   {
     "Id": "indus18",
-    "Title": "Generator E"
+    "Title": "발전기 E"
   },
   {
     "Id": "indus19",
-    "Title": "Trigger Frame"
+    "Title": "트리거 프레임"
   },
   {
     "Id": "indus20",
-    "Title": "Generator Pipe Holder"
+    "Title": "발전기 파이프 홀더"
   },
   {
     "Id": "indus21",
-    "Title": "짧은 I 빔"
+    "Title": "짧은 I자형 대들보"
   },
   {
     "Id": "indus22",
-    "Title": "긴 I 빔"
+    "Title": "긴 I자형 대들보"
   },
   {
     "Id": "indus23",
-    "Title": "I 빔 모서리"
+    "Title": "코너 I자형 대들보"
   },
   {
     "Id": "indus24",
-    "Title": "I 빔 지지대"
+    "Title": "I자형 대들보 홀더"
   },
   {
     "Id": "indus25",
-    "Title": "I 빔 끝단"
+    "Title": "I자형 대들보 끝부분"
   },
   {
     "Id": "indus26",
@@ -105,27 +105,27 @@
   },
   {
     "Id": "indus27",
-    "Title": "계단 밑단"
+    "Title": "계단 층계참"
   },
   {
     "Id": "indus28",
-    "Title": "계단 긴 손잡이"
+    "Title": "긴 레일 계단"
   },
   {
     "Id": "indus29",
-    "Title": "계단 짧은 손잡이"
+    "Title": "짧은 레일 계단"
   },
   {
     "Id": "indus30",
-    "Title": "계단 난간동자"
+    "Title": "계단 밸러스터"
   },
   {
     "Id": "indus31",
-    "Title": "계단 난간 연결부"
+    "Title": "연결부 레일 계단"
   },
   {
     "Id": "indus32",
-    "Title": "계단 발판"
+    "Title": "계단 단차"
   },
   {
     "Id": "indus33",
@@ -141,43 +141,43 @@
   },
   {
     "Id": "indus36",
-    "Title": "환풍구"
+    "Title": "환기 그리드"
   },
   {
     "Id": "indus37",
-    "Title": "네트 펜스"
+    "Title": "그물망 울타리"
   },
   {
     "Id": "indus38",
-    "Title": "금속 지지대"
+    "Title": "철제 지지대"
   },
   {
     "Id": "indus39",
-    "Title": "대형 지지구조물"
+    "Title": "대형 지지대 구조물"
   },
   {
     "Id": "indus40",
-    "Title": "지지구조물"
+    "Title": "지지대 구조물"
   },
   {
     "Id": "indus41",
-    "Title": "Small Support Structure"
+    "Title": "소형 지지대 구조물"
   },
   {
     "Id": "indus42",
-    "Title": "U 빔"
+    "Title": "U자형 대들보"
   },
   {
     "Id": "indus43",
-    "Title": "금속 기둥"
+    "Title": "철제 기둥"
   },
   {
     "Id": "indus44",
-    "Title": "지지 기둥"
+    "Title": "지지용 기둥"
   },
   {
     "Id": "indus45",
-    "Title": "지지 기둥 스탠드"
+    "Title": "지지용 기둥 받침"
   },
   {
     "Id": "indus46",
@@ -189,7 +189,7 @@
   },
   {
     "Id": "indus48",
-    "Title": "긴 선반 지지대"
+    "Title": "높은 선반 지지대"
   },
   {
     "Id": "indus49",
@@ -205,31 +205,31 @@
   },
   {
     "Id": "indus52",
-    "Title": "금속창"
+    "Title": "철제 창문"
   },
   {
     "Id": "indus53",
-    "Title": "금속 팔렛트"
+    "Title": "철제 팔레트"
   },
   {
     "Id": "indus54",
-    "Title": "식탁 지지대"
+    "Title": "테이블 지지대"
   },
   {
     "Id": "indus55",
-    "Title": "타워 폴"
+    "Title": "탑 기둥"
   },
   {
     "Id": "indus56",
-    "Title": "타워 폴 톱"
+    "Title": "탑 기둥 꼭대기"
   },
   {
     "Id": "indus57",
-    "Title": "위성 안테나"
+    "Title": "접시 안테나"
   },
   {
     "Id": "indus58",
-    "Title": "위성 반사 안테나"
+    "Title": "반사 접시 안테나"
   },
   {
     "Id": "indus59",
@@ -241,22 +241,22 @@
   },
   {
     "Id": "indus61",
-    "Title": "소형 직사각형 창"
+    "Title": "소형 직사각형 창문"
   },
   {
     "Id": "indus62",
-    "Title": "정방형 창"
+    "Title": "사각형 창문"
   },
   {
     "Id": "indus63",
-    "Title": "대형 직사각형 창"
+    "Title": "대형 직사각형 창문"
   },
   {
     "Id": "indus64",
-    "Title": "대형 방풍창"
+    "Title": "대형 바람막이 창"
   },
   {
     "Id": "indus65",
-    "Title": "소형 방풍창"
+    "Title": "소형 바람막이 창"
   }
 ]

@@ -1,17 +1,17 @@
 [
   {
     "Id": "recipeDress1",
-    "Title": "Garment Box (Common)",
-    "Description": "Use it in a Dressbot to make new clothes"
+    "Title": "의류 박스(일반)",
+    "Description": "드레스봇에서 사용해 새 옷을 만드세요."
   },
   {
     "Id": "recipeDress2",
-    "Title": "Garment Box (Rare)",
-    "Description": "Use it in a Dressbot to make new clothes"
+    "Title": "의류 박스(희귀)",
+    "Description": "드레스봇에서 사용해 새 옷을 만드세요."
   },
   {
     "Id": "recipeDress3",
-    "Title": "Garment Box (Epic)",
-    "Description": "Use it in a Dressbot to make new clothes"
+    "Title": "의류 박스(영웅)",
+    "Description": "드레스봇에서 사용해 새 옷을 만드세요."
   }
 ]

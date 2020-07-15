@@ -1,17 +1,17 @@
 [
   {
     "Id": "recipeDress1",
-    "Title": "Garment Box (Common)",
-    "Description": "Use it in a Dressbot to make new clothes"
+    "Title": "Boîte à vêtements (ordinaire)",
+    "Description": "Utilisez-la dans le Tenuebot pour créer de nouveaux habits."
   },
   {
     "Id": "recipeDress2",
-    "Title": "Garment Box (Rare)",
-    "Description": "Use it in a Dressbot to make new clothes"
+    "Title": "Boîte à vêtements (rare)",
+    "Description": "Utilisez-la dans le Tenuebot pour créer de nouveaux habits."
   },
   {
     "Id": "recipeDress3",
-    "Title": "Garment Box (Epic)",
-    "Description": "Use it in a Dressbot to make new clothes"
+    "Title": "Boîte à vêtements (épique)",
+    "Description": "Utilisez-la dans le Tenuebot pour créer de nouveaux habits."
   }
 ]

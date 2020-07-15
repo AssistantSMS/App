@@ -1,151 +1,151 @@
 [
   {
     "Id": "fitt1",
-    "Title": "Large Pipe Mount"
+    "Title": "パイプ（大、装着）"
   },
   {
     "Id": "fitt2",
-    "Title": "Holder Support Leg Base"
+    "Title": "ホルダーサポート脚部の土台"
   },
   {
     "Id": "fitt3",
-    "Title": "Holder Support Leg"
+    "Title": "ホルダーサポート脚部"
   },
   {
     "Id": "fitt4",
-    "Title": "Holder Support Bend"
+    "Title": "ホルダーサポートベンド"
   },
   {
     "Id": "fitt5",
-    "Title": "Large Pipe Extension"
+    "Title": "パイプ（大、延長）"
   },
   {
     "Id": "fitt6",
-    "Title": "Large Pipe Cap"
+    "Title": "パイプ（大、キャップ）"
   },
   {
     "Id": "fitt7",
-    "Title": "Large Pipe Compressor"
+    "Title": "パイプ（大、コンプレッサー）"
   },
   {
     "Id": "fitt8",
-    "Title": "Power Station"
+    "Title": "発電所"
   },
   {
     "Id": "fitt9",
-    "Title": "Giant Pipe"
+    "Title": "パイプ（特大）"
   },
   {
     "Id": "fitt10",
-    "Title": "Giant Pipe Glass Straight"
+    "Title": "パイプ（特大、ガラス、直線）"
   },
   {
     "Id": "fitt11",
-    "Title": "Giant Pipe Corner"
+    "Title": "パイプ（特大、コーナー）"
   },
   {
     "Id": "fitt12",
-    "Title": "Giant Pipe Glass Corner"
+    "Title": "パイプ（特大、ガラス、コーナー）"
   },
   {
     "Id": "fitt13",
-    "Title": "Giant Pipe Tee"
+    "Title": "パイプ（特大、T字）"
   },
   {
     "Id": "fitt14",
-    "Title": "Giant Pipe Bracer"
+    "Title": "パイプ（特大、ブレーサー）"
   },
   {
     "Id": "fitt15",
-    "Title": "Giant Pipe Holder"
+    "Title": "パイプ（特大、ホルダー）"
   },
   {
     "Id": "fitt16",
-    "Title": "Warehouse Ventilation Short"
+    "Title": "倉庫の換気装置（短）"
   },
   {
     "Id": "fitt17",
-    "Title": "Warehouse Ventilation Long"
+    "Title": "倉庫の換気装置（長）"
   },
   {
     "Id": "fitt18",
-    "Title": "Warehouse Ventilation Corner"
+    "Title": "倉庫の換気装置（コーナー）"
   },
   {
     "Id": "fitt19",
-    "Title": "Warehouse Ventilation Tee"
+    "Title": "倉庫の換気装置（T字）"
   },
   {
     "Id": "fitt20",
-    "Title": "Warehouse Ventilation Mount"
+    "Title": "倉庫の換気装置（装着）"
   },
   {
     "Id": "fitt21",
-    "Title": "Warehouse Ventilation Drum"
+    "Title": "倉庫の換気装置（ドラム）"
   },
   {
     "Id": "fitt22",
-    "Title": "Generator Pipe Short"
+    "Title": "ジェネレーターパイプ（短）"
   },
   {
     "Id": "fitt23",
-    "Title": "Generator Pipe Long"
+    "Title": "ジェネレーターパイプ（長）"
   },
   {
     "Id": "fitt24",
-    "Title": "Generator Pipe Corner"
+    "Title": "ジェネレーターパイプ（コーナー）"
   },
   {
     "Id": "fitt25",
-    "Title": "Generator Pipe Tee"
+    "Title": "ジェネレーターパイプ（T字）"
   },
   {
     "Id": "fitt26",
-    "Title": "Generator Pipe Four Way"
+    "Title": "ジェネレーターパイプ（四方向）"
   },
   {
     "Id": "fitt27",
-    "Title": "Duct Short"
+    "Title": "ダクト（短）"
   },
   {
     "Id": "fitt28",
-    "Title": "ロング ダクト"
+    "Title": "ダクト（長）"
   },
   {
     "Id": "fitt29",
-    "Title": "ダクト コーナー"
+    "Title": "ダクト（コーナー）"
   },
   {
     "Id": "fitt30",
-    "Title": "ダクト ジョ イン"
+    "Title": "ダクト（接合部）"
   },
   {
     "Id": "fitt31",
-    "Title": "ダクト ホルダー"
+    "Title": "ダクト（ホルダー）"
   },
   {
     "Id": "fitt32",
-    "Title": "ダクト エンド"
+    "Title": "ダクト（端部）"
   },
   {
     "Id": "fitt33",
-    "Title": "エア コンディション"
+    "Title": "エアコン"
   },
   {
     "Id": "fitt34",
-    "Title": "ショート パイプ"
+    "Title": "パイプ（短）"
   },
   {
     "Id": "fitt35",
-    "Title": "ロング パイプ"
+    "Title": "パイプ（長）"
   },
   {
     "Id": "fitt36",
-    "Title": "パイプ コーナー"
+    "Title": "パイプ（コーナー）"
   },
   {
     "Id": "fitt37",
-    "Title": "パイプ ジョ イン"
+    "Title": "パイプ（接合部）"
   },
   {
     "Id": "fitt38",
@@ -153,94 +153,94 @@
   },
   {
     "Id": "fitt39",
-    "Title": "ラ ージ パイプ、 ショート"
+    "Title": "パイプ（大、短）"
   },
   {
     "Id": "fitt40",
-    "Title": "ラ ージ パイプ、 ロング"
+    "Title": "パイプ（大、長）"
   },
   {
     "Id": "fitt41",
-    "Title": "ラ ージ パイプ、 ロング"
+    "Title": "パイプ（大、コーナー）"
   },
   {
     "Id": "fitt42",
-    "Title": "ラ ージ パイプ、 ジョ イン"
+    "Title": "パイプ（大、接合部）"
   },
   {
     "Id": "fitt43",
-    "Title": "ワイヤ、 ショート"
+    "Title": "ワイヤ（短）"
   },
   {
     "Id": "fitt44",
-    "Title": "ワイヤ、 ロング"
+    "Title": "ワイヤ（長）"
   },
   {
     "Id": "fitt45",
-    "Title": "ワイヤ ベン ド"
+    "Title": "ワイヤ（曲がり）"
   },
   {
     "Id": "fitt46",
-    "Title": "ワイヤ 山折 れ"
+    "Title": "ワイヤ（凸）"
   },
   {
     "Id": "fitt47",
-    "Title": "ワイヤ 谷折 れ"
+    "Title": "ワイヤ（凹）"
   },
   {
     "Id": "fitt48",
-    "Title": "ヒューズ ボックス"
+    "Title": "フューズボックス"
   },
   {
     "Id": "fitt49",
-    "Title": "チューブ、 ショート"
+    "Title": "管（短）"
   },
   {
     "Id": "fitt50",
-    "Title": "チューブ、 ロング"
+    "Title": "管（長）"
   },
   {
     "Id": "fitt51",
-    "Title": "チューブ、 コーナー"
+    "Title": "管（コーナー）"
   },
   {
     "Id": "fitt52",
-    "Title": "チューブ ジョ イン"
+    "Title": "管（接合部）"
   },
   {
     "Id": "fitt53",
-    "Title": "ショート スモール パイプ"
+    "Title": "パイプ（小、短）"
   },
   {
     "Id": "fitt54",
-    "Title": "ロング スモール パイプ"
+    "Title": "パイプ（小、長）"
   },
   {
     "Id": "fitt55",
-    "Title": "スモール パイプ バンド"
+    "Title": "パイプ（小、曲がり）"
   },
   {
     "Id": "fitt56",
-    "Title": "T 字 スモール パイプ"
+    "Title": "パイプ（小、T字）"
   },
   {
     "Id": "fitt57",
-    "Title": "コーナー スモール パイプ"
+    "Title": "パイプ（小、コーナー）"
   },
   {
     "Id": "fitt58",
-    "Title": "十字 スモール パイプ"
+    "Title": "パイプ（小、四方向）"
   },
   {
     "Id": "fitt59",
-    "Title": "４ 股 パイプ"
+    "Title": "パイプ（小、四方T）"
   },
   {
     "Id": "fitt60",
-    "Title": "5 股 スモール パイプ"
+    "Title": "パイプ（小、五方向）"
   },
   {
     "Id": "fitt61",
-    "Title": "6 股 スモール パイプ"
+    "Title": "パイプ（小、六方向）"
   }
 ]

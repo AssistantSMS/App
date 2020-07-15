@@ -1,86 +1,86 @@
 [
   {
     "Id": "cont1",
-    "Title": "Hay Crate"
+    "Title": "干し草クレート"
   },
   {
     "Id": "cont2",
-    "Title": "Stone Crate"
+    "Title": "石製クレート"
   },
   {
     "Id": "cont3",
-    "Title": "Tree Crate"
+    "Title": "樹木クレート"
   },
   {
     "Id": "cont4",
-    "Title": "Unfolded Banana Box"
+    "Title": "開いたバナナボックス"
   },
   {
     "Id": "cont5",
-    "Title": "Unfolded Onion Box"
+    "Title": "開いたタマネギボックス"
   },
   {
     "Id": "cont6",
-    "Title": "Unfolded Grow Box"
+    "Title": "開いたグロウボックス"
   },
   {
     "Id": "cont7",
-    "Title": "Main Humidifier"
+    "Title": "メイン加湿器"
   },
   {
     "Id": "cont8",
-    "Title": "Warehouse Crate"
+    "Title": "倉庫のクレート"
   },
   {
     "Id": "cont9",
-    "Title": "Blueberry Juice Cylinder"
+    "Title": "ブルーベリージュースのシリンダー"
   },
   {
     "Id": "cont10",
-    "Title": "Tomato Juice Cylinder"
+    "Title": "トマトジュースのシリンダー"
   },
   {
     "Id": "cont11",
-    "Title": "木製 クレート"
+    "Title": "木製クレート"
   },
   {
     "Id": "cont12",
-    "Title": "野菜 ボックス"
+    "Title": "野菜ボックス"
   },
   {
     "Id": "cont13",
-    "Title": "キュウリ ボックス"
+    "Title": "キュウリボックス"
   },
   {
     "Id": "cont14",
-    "Title": "にんじん ボックス"
+    "Title": "ニンジンボックス"
   },
   {
     "Id": "cont15",
-    "Title": "バナナ ボックス"
+    "Title": "バナナボックス"
   },
   {
     "Id": "cont16",
-    "Title": "フルーツ ボックス"
+    "Title": "果物ボックス"
   },
   {
     "Id": "cont17",
-    "Title": "タマネギ ボックス"
+    "Title": "タマネギボックス"
   },
   {
     "Id": "cont18",
-    "Title": "ビート ルート ボックス"
+    "Title": "ビートルートボックス"
   },
   {
     "Id": "cont19",
-    "Title": "オレンジ ボックス"
+    "Title": "オレンジボックス"
   },
   {
     "Id": "cont20",
-    "Title": "プラント コンテナ"
+    "Title": "植物コンテナ"
   },
   {
     "Id": "cont21",
-    "Title": "オープン プラント コンテナ"
+    "Title": "植物コンテナを開く"
   }
 ]

@@ -1,103 +1,103 @@
 [
   {
     "Id": "deco1",
-    "Title": "Produce Billboard"
+    "Title": "Painel de Produção"
   },
   {
     "Id": "deco2",
-    "Title": "Berry Billboard"
+    "Title": "Painel de Robô Fazendeiro"
   },
   {
     "Id": "deco3",
-    "Title": "Sickle-Down Billboard"
+    "Title": "Painel de Cultivo Econômico"
   },
   {
     "Id": "deco4",
-    "Title": "Warehouse Sign"
+    "Title": "Placa de Armazém"
   },
   {
     "Id": "deco5",
-    "Title": "Elevator Sign"
+    "Title": "Placa de Elevador"
   },
   {
     "Id": "deco6",
-    "Title": "Storage Sign"
+    "Title": "Placa de Depósito"
   },
   {
     "Id": "deco7",
-    "Title": "Packing Sign"
+    "Title": "Placa de Empacotamento"
   },
   {
     "Id": "deco8",
-    "Title": "Growroom Sign"
+    "Title": "Placa de Escritório"
   },
   {
     "Id": "deco9",
-    "Title": "Utility Sign"
+    "Title": "Placa de Serviço"
   },
   {
     "Id": "deco10",
-    "Title": "Man Sign"
+    "Title": "Placa de Homem"
   },
   {
     "Id": "deco11",
-    "Title": "Woman Sign"
+    "Title": "Placa de Mulher"
   },
   {
     "Id": "deco12",
-    "Title": "Recycling Bin"
+    "Title": "Lixeira"
   },
   {
     "Id": "deco13",
-    "Title": "Paper Stack"
+    "Title": "Pilha de Papéis"
   },
   {
     "Id": "deco14",
-    "Title": "Old Restroom Mirror"
+    "Title": "Espelho Velho de Banheiro"
   },
   {
     "Id": "deco15",
-    "Title": "Traffic Sign"
+    "Title": "Placa de Trânsito"
   },
   {
     "Id": "deco16",
-    "Title": "Metallic Tube"
+    "Title": "Tubo Metálico"
   },
   {
     "Id": "deco17",
-    "Title": "Road Sign Base"
+    "Title": "Base de Placa Rodoviária"
   },
   {
     "Id": "deco18",
-    "Title": "Cash Register"
+    "Title": "Caixa Registradora"
   },
   {
     "Id": "deco19",
-    "Title": "Open Sign"
+    "Title": "Placa de Aberto"
   },
   {
     "Id": "deco20",
-    "Title": "Old Fruit Stand"
+    "Title": "Caixote de Frutas Velhas"
   },
   {
     "Id": "deco21",
-    "Title": "Stacked Crates"
+    "Title": "Caixotes Empilhados"
   },
   {
     "Id": "deco22",
-    "Title": "Sunshake Vending Machine"
+    "Title": "Máquina de Venda de Sunshake"
   },
   {
     "Id": "deco23",
-    "Title": "Udder Decoration"
+    "Title": "Decoração Úbere"
   },
   {
     "Id": "deco24",
-    "Title": "Haystack"
+    "Title": "Pilha de Feno"
   },
   {
     "Id": "deco25",
-    "Title": "Hay Bale"
+    "Title": "Fardo de Feno"
   },
   {
     "Id": "deco26",
@@ -121,7 +121,7 @@
   },
   {
     "Id": "deco31",
-    "Title": "Estatueta de Patinho"
+    "Title": "Escultura de Patinho"
   },
   {
     "Id": "deco32",
@@ -137,11 +137,11 @@
   },
   {
     "Id": "deco35",
-    "Title": "Placa de Zona de Construção"
+    "Title": "Placa de Obras"
   },
   {
     "Id": "deco36",
-    "Title": "Placa de Cuidado"
+    "Title": "Placa de Alerta"
   },
   {
     "Id": "deco37",
@@ -149,15 +149,15 @@
   },
   {
     "Id": "deco38",
-    "Title": "Placa de PARE"
+    "Title": "Placa de Pare"
   },
   {
     "Id": "deco39",
-    "Title": "Placa 'Cuidado com Fazendabôs'"
+    "Title": "Placa de Cuidado com Robôs Fazendeiros"
   },
   {
     "Id": "deco40",
-    "Title": "Placa de Bem-vindo"
+    "Title": "Placa de Boas-vindas"
   },
   {
     "Id": "deco41",

@@ -1,47 +1,47 @@
 [
   {
     "Id": "plant1",
-    "Title": "Banana Seed"
+    "Title": "Bananensamen"
   },
   {
     "Id": "plant2",
-    "Title": "Blueberry Seed"
+    "Title": "Blaubeersamen"
   },
   {
     "Id": "plant3",
-    "Title": "Orange Seed"
+    "Title": "Orangensamen"
   },
   {
     "Id": "plant4",
-    "Title": "Pineapple Seed"
+    "Title": "Ananassamen"
   },
   {
     "Id": "plant5",
-    "Title": "Carrot Seed"
+    "Title": "Karottensamen"
   },
   {
     "Id": "plant6",
-    "Title": "Redbeet Seed"
+    "Title": "Rote-Beete-Samen"
   },
   {
     "Id": "plant7",
-    "Title": "Tomato Seed"
+    "Title": "Tomatensamen"
   },
   {
     "Id": "plant8",
-    "Title": "Broccoli Seed"
+    "Title": "Brokkolisamen"
   },
   {
     "Id": "plant9",
-    "Title": "Potato Seed"
+    "Title": "Kartoffelsamen"
   },
   {
     "Id": "plant10",
-    "Title": "Banana"
+    "Title": "Banane"
   },
   {
     "Id": "plant11",
-    "Title": "Blueberry"
+    "Title": "Blaubeere"
   },
   {
     "Id": "plant12",
@@ -49,30 +49,30 @@
   },
   {
     "Id": "plant13",
-    "Title": "Pineapple"
+    "Title": "Ananas"
   },
   {
     "Id": "plant14",
-    "Title": "Carrot"
+    "Title": "Karotte"
   },
   {
     "Id": "plant15",
-    "Title": "Redbeet"
+    "Title": "Rote Beete"
   },
   {
     "Id": "plant16",
-    "Title": "Tomato"
+    "Title": "Tomate"
   },
   {
     "Id": "plant17",
-    "Title": "Broccoli"
+    "Title": "Brokkoli"
   },
   {
     "Id": "plant18",
-    "Title": "Potato"
+    "Title": "Kartoffel"
   },
   {
     "Id": "plant19",
-    "Title": "Cotton Seed"
+    "Title": "Baumwollsamen"
   }
 ]

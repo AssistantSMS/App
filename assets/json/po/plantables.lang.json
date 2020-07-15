@@ -1,78 +1,78 @@
 [
   {
     "Id": "plant1",
-    "Title": "Banana Seed"
+    "Title": "Nasiono banana"
   },
   {
     "Id": "plant2",
-    "Title": "Blueberry Seed"
+    "Title": "Nasiono borówki"
   },
   {
     "Id": "plant3",
-    "Title": "Orange Seed"
+    "Title": "Nasiono pomarańczy"
   },
   {
     "Id": "plant4",
-    "Title": "Pineapple Seed"
+    "Title": "Nasiono ananasa"
   },
   {
     "Id": "plant5",
-    "Title": "Carrot Seed"
+    "Title": "Nasiono marchwi"
   },
   {
     "Id": "plant6",
-    "Title": "Redbeet Seed"
+    "Title": "Nasiono buraka"
   },
   {
     "Id": "plant7",
-    "Title": "Tomato Seed"
+    "Title": "Nasiono pomidora"
   },
   {
     "Id": "plant8",
-    "Title": "Broccoli Seed"
+    "Title": "Nasiono brokuła"
   },
   {
     "Id": "plant9",
-    "Title": "Potato Seed"
+    "Title": "Nasiono kartofla"
   },
   {
     "Id": "plant10",
-    "Title": "Banana"
+    "Title": "Banan"
   },
   {
     "Id": "plant11",
-    "Title": "Blueberry"
+    "Title": "Borówka"
   },
   {
     "Id": "plant12",
-    "Title": "Orange"
+    "Title": "Pomarańcza"
   },
   {
     "Id": "plant13",
-    "Title": "Pineapple"
+    "Title": "Ananas"
   },
   {
     "Id": "plant14",
-    "Title": "Carrot"
+    "Title": "Marchewka"
   },
   {
     "Id": "plant15",
-    "Title": "Redbeet"
+    "Title": "Burak"
   },
   {
     "Id": "plant16",
-    "Title": "Tomato"
+    "Title": "Pomidor"
   },
   {
     "Id": "plant17",
-    "Title": "Broccoli"
+    "Title": "Brokuł"
   },
   {
     "Id": "plant18",
-    "Title": "Potato"
+    "Title": "Kartofel"
   },
   {
     "Id": "plant19",
-    "Title": "Cotton Seed"
+    "Title": "Nasiono bawełny"
   }
 ]

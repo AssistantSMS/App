@@ -1,46 +1,46 @@
 [
   {
     "Id": "reso1",
-    "Title": "Ember"
+    "Title": "Węgielek"
   },
   {
     "Id": "reso2",
-    "Title": "Beeswax"
+    "Title": "Wosk pszczeli"
   },
   {
     "Id": "reso3",
-    "Title": "Glue Clam"
+    "Title": "Klejowa muszla"
   },
   {
     "Id": "reso4",
-    "Title": "Cotton"
+    "Title": "Bawełna"
   },
   {
     "Id": "reso5",
-    "Title": "Corn"
+    "Title": "Kukurydza"
   },
   {
     "Id": "reso6",
-    "Title": "Circuit Board"
+    "Title": "Płytka drukowana"
   },
   {
     "Id": "reso7",
-    "Title": "Woc Steak"
+    "Title": "Stek z aworka"
   },
   {
     "Id": "reso8",
-    "Title": "Glow"
+    "Title": "Błyszczak"
   },
   {
     "Id": "reso9",
-    "Title": "Pigment Flower"
+    "Title": "Barwiący kwiat"
   },
   {
     "Id": "reso10",
-    "Title": "Glue"
+    "Title": "Klej"
   },
   {
     "Id": "reso11",
-    "Title": "Crude Oil"
+    "Title": "Ropa naftowa"
   }
 ]

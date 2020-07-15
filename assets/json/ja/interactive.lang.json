@@ -1,59 +1,59 @@
 [
   {
     "Id": "intera1",
-    "Title": "Fridge"
+    "Title": "冷蔵庫"
   },
   {
     "Id": "intera2",
-    "Title": "Locker"
+    "Title": "ロッカー"
   },
   {
     "Id": "intera3",
-    "Title": "File Cabinet"
+    "Title": "ファイルキャビネット"
   },
   {
     "Id": "intera4",
-    "Title": "Chest"
+    "Title": "チェスト"
   },
   {
     "Id": "intera5",
-    "Title": "Large Chest"
+    "Title": "チェスト（大）"
   },
   {
     "Id": "intera6",
-    "Title": "Protector: Anti-Destruction"
+    "Title": "プロテクター：破壊防止"
   },
   {
     "Id": "intera7",
-    "Title": "Encryptor: Anti-Connection"
+    "Title": "エンクリプター：接続防止"
   },
   {
     "Id": "intera8",
-    "Title": "Oily Toilet Seat"
+    "Title": "油っぽい便座"
   },
   {
     "Id": "intera9",
-    "Title": "Resource Collector"
+    "Title": "リソースコレクター"
   },
   {
     "Id": "intera10",
-    "Title": "Refinebot"
+    "Title": "精製ボット"
   },
   {
     "Id": "intera11",
-    "Title": "Dressbot"
+    "Title": "ドレスボット"
   },
   {
     "Id": "intera12",
-    "Title": "Water Cannon"
+    "Title": "放水砲"
   },
   {
     "Id": "intera13",
-    "Title": "Mountable Spud Gun"
+    "Title": "装着型スパッドガン"
   },
   {
     "Id": "intera14",
-    "Title": "Respawn Bed"
+    "Title": "リスポーンベッド"
   },
   {
     "Id": "intera15",
@@ -85,7 +85,7 @@
   },
   {
     "Id": "intera22",
-    "Title": "トイレット"
+    "Title": "トイレ"
   },
   {
     "Id": "intera23",
@@ -121,11 +121,11 @@
   },
   {
     "Id": "intera31",
-    "Title": "ホーン"
+    "Title": "警笛"
   },
   {
     "Id": "intera32",
-    "Title": "ロジック ゲート"
+    "Title": "論理ゲート"
   },
   {
     "Id": "intera33",
@@ -133,23 +133,23 @@
   },
   {
     "Id": "intera34",
-    "Title": "トテボットヘッド：\nバス"
+    "Title": "トートボットの頭：ベース"
   },
   {
     "Id": "intera35",
-    "Title": "トテボットヘッド：\nパー カッ ション"
+    "Title": "トートボットの頭：パーカッション"
   },
   {
     "Id": "intera36",
-    "Title": "トテボットヘッド：\n合成 音声"
+    "Title": "トートボットの頭：合成音声"
   },
   {
     "Id": "intera37",
-    "Title": "トテボットヘッド：\nブリップ"
+    "Title": "トートボットの頭：ブリップ"
   },
   {
     "Id": "intera38",
-    "Title": "バス タブ"
+    "Title": "バスタブ"
   },
   {
     "Id": "intera39",
@@ -157,7 +157,7 @@
   },
   {
     "Id": "intera40",
-    "Title": "Raftのサメの装飾品"
+    "Title": "Raftの鮫マウント"
   },
   {
     "Id": "intera41",
@@ -165,10 +165,10 @@
   },
   {
     "Id": "intera42",
-    "Title": "Small Explosive Canister"
+    "Title": "小型爆薬缶"
   },
   {
     "Id": "intera43",
-    "Title": "Large Explosive Canister"
+    "Title": "大型爆薬缶"
   }
 ]

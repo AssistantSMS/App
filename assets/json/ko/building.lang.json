@@ -1,82 +1,82 @@
 [
   {
     "Id": "build1",
-    "Title": "Stand Support A"
+    "Title": "스탠드 지지대 A"
   },
   {
     "Id": "build2",
-    "Title": "Stand Support Long"
+    "Title": "스탠드 지지대 연장형"
   },
   {
     "Id": "build3",
-    "Title": "Stand Support Corner"
+    "Title": "스탠드 지지대 코너"
   },
   {
     "Id": "build4",
-    "Title": "Stand Support"
+    "Title": "스탠드 지지대"
   },
   {
     "Id": "build5",
-    "Title": "Stand Support Base"
+    "Title": "스탠드 지지대 베이스"
   },
   {
     "Id": "build6",
-    "Title": "Mop Set"
+    "Title": "대걸레 세트"
   },
   {
     "Id": "build7",
-    "Title": "Bathroom Stall Door"
+    "Title": "화장실 칸막이 문"
   },
   {
     "Id": "build8",
-    "Title": "Slippery Surface Sign"
+    "Title": "미끄럼 주의 표지판"
   },
   {
     "Id": "build9",
-    "Title": "Plunger"
+    "Title": "뚫어뻥"
   },
   {
     "Id": "build10",
-    "Title": "Warehouse sink"
+    "Title": "창고 싱크대"
   },
   {
     "Id": "build11",
-    "Title": "Water Dispenser"
+    "Title": "물뿌리개"
   },
   {
     "Id": "build12",
-    "Title": "Cup Holder"
+    "Title": "컵 홀더"
   },
   {
     "Id": "build13",
-    "Title": "Water Tank"
+    "Title": "물탱크"
   },
   {
     "Id": "build14",
-    "Title": "Cubicle Wall"
+    "Title": "칸막이 벽"
   },
   {
     "Id": "build15",
-    "Title": "Corner Brace"
+    "Title": "코너 죔쇠"
   },
   {
     "Id": "build16",
-    "Title": "Office Table B"
+    "Title": "사무용 책상 B"
   },
   {
     "Id": "build17",
-    "Title": "Office Table A"
+    "Title": "사무용 책상 A"
   },
   {
     "Id": "build18",
-    "Title": "Office Table Leg"
+    "Title": "사무용 책상 다리"
   },
   {
     "Id": "build19",
-    "Title": "Office Chair Top"
+    "Title": "사무실 의자 상부"
   },
   {
     "Id": "build20",
-    "Title": "Office Chair Base"
+    "Title": "사무실 의자 베이스"
   }
 ]

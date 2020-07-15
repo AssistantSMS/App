@@ -1,28 +1,28 @@
 [
   {
     "Id": "recipeWorkbench1",
-    "Title": "Scrap Gas Engine",
-    "Description": "An engine with uneven speed and adjustable power, ideally suited to powering vehicles. Can be connected to a driver's seat or trigger. This Engine is not upgradable."
+    "Title": "기초 가솔린 엔진",
+    "Description": "속도가 안정적이지 않으며 출력을 조정할 수 있는 엔진. 차량에서 동력을 발생시킬 때 적절합니다. 운전석이나 트리거에 연결시킬 수 있습니다. 업그레이드할 수 없는 엔진입니다."
   },
   {
     "Id": "recipeWorkbench2",
-    "Title": "Scrap Driver's Seat",
-    "Description": "Makes bearings turn left and right. Can be connected to an engine to control the direction of travel. Can also be connected to triggers that can be activated from the seat. This Drive's Seat is not upgradable."
+    "Title": "기초 운전석",
+    "Description": "베어링이 왼쪽, 오른쪽으로 회전하도록 해줍니다. 엔진과 연결해 이동 방향을 조작할 수 있습니다. 또한, 트리거에 연결해 운전석에서 작동시킬 수 있습니다. 업그레이드할 수 없는 운전석입니다."
   },
   {
     "Id": "recipeWorkbench3",
-    "Title": "Scrap Seat",
-    "Description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. This Seat is not upgradable."
+    "Title": "기초 좌석",
+    "Description": "서있고 싶지 않을 때 사용합니다. 앉아서 쉬거나, 차량에 추가해 친구들이 멋대로 앉아있을 수 있도록 해주세요. 업그레이드할 수 없는 좌석입니다."
   },
   {
     "Id": "recipeWorkbench4",
-    "Title": "Scrap Wheel",
-    "Description": "Not perfectly round"
+    "Title": "기초 바퀴",
+    "Description": "완벽하게 둥글진 않습니다."
   },
   {
     "Id": "recipeWorkbench5",
     "Title": "베어링",
-    "Description": "베어링에 배치하는 모든 것은 회전하게 됩니다. 또한 베어링을 엔진이나 운전석에 연결하여 다른 방식으로 제어할 수도 있습니다."
+    "Description": "베어링에 배치된 모든 것은 회전합니다. 베어링을 엔진이나 운전석에 연결하면 다른 방식으로 조작 가능합니다."
   },
   {
     "Id": "recipeWorkbench6",
@@ -31,12 +31,12 @@
   {
     "Id": "recipeWorkbench7",
     "Title": "스위치",
-    "Description": "필요에 따라 무한정 끄고 껼 수 있습니다. 스위치는 연결된 건 무엇이든 누르기만 하면 무한정 끄고 켜서 작동시킬 수 있으며, 엔진, 가속기, 그리고 제어판 등을 작동시킬 수 있습니다."
+    "Description": "필요할 때 무한하게 켜고 끌 수 있습니다. 연결된 것이 무엇이든 작동시키며, 작동한 대상은 버릴 수 없습니다. 스위치를 한 번 누르기만 하면 켜고 끌 수 있습니다. 엔진, 추진기, 제어판 등을 켤 수 있습니다."
   },
   {
     "Id": "recipeWorkbench8",
     "Title": "버튼",
-    "Description": "무언가를 작동시킵니다.  버튼을 누르고 있는 동안만 작동합니다."
+    "Description": "대상을 작동시킵니다. 버튼을 누르고 있으면 그동안 대상이 작동합니다."
   },
   {
     "Id": "recipeWorkbench9",

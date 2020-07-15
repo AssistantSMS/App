@@ -1,82 +1,82 @@
 [
   {
     "Id": "constr1",
-    "Title": "Hollow Concrete"
+    "Title": "空洞コンクリート"
   },
   {
     "Id": "constr2",
-    "Title": "Broken Concrete Small"
+    "Title": "壊れたコンクリート（小）"
   },
   {
     "Id": "constr3",
-    "Title": "Broken Concrete Medium"
+    "Title": "壊れたコンクリート（中）"
   },
   {
     "Id": "constr4",
-    "Title": "Broken Concrete Large"
+    "Title": "壊れたコンクリート（大）"
   },
   {
     "Id": "constr5",
-    "Title": "Barrier Stand"
+    "Title": "バリアスタンド"
   },
   {
     "Id": "constr6",
-    "Title": "Cement Mix"
+    "Title": "セメントミックス"
   },
   {
     "Id": "constr7",
-    "Title": "Concrete Block Mould"
+    "Title": "コンクリートブロックの型"
   },
   {
     "Id": "constr8",
-    "Title": "Carpet Roll"
+    "Title": "絨毯ロール"
   },
   {
     "Id": "constr9",
-    "Title": "Carpet Spool Holder"
+    "Title": "絨毯のスプールホルダー"
   },
   {
     "Id": "constr10",
-    "Title": "Scaffold Plastic Wall"
+    "Title": "吊り足場のプラスチック壁"
   },
   {
     "Id": "constr11",
-    "Title": "Scaffold Ledger"
+    "Title": "吊り足場の土台"
   },
   {
     "Id": "constr12",
-    "Title": "Scaffold Frame"
+    "Title": "吊り足場の枠"
   },
   {
     "Id": "constr13",
-    "Title": "Scaffold Plank"
+    "Title": "吊り足場の板"
   },
   {
     "Id": "constr14",
-    "Title": "Construction Pallet"
+    "Title": "建造パレット"
   },
   {
     "Id": "constr15",
-    "Title": "Scaffold Pallet Ramp"
+    "Title": "吊り足場のパレットランプ"
   },
   {
     "Id": "constr16",
-    "Title": "Sound Isolation Small "
+    "Title": "防音材（小） "
   },
   {
     "Id": "constr17",
-    "Title": "Sound Isolation Large"
+    "Title": "防音材（大）"
   },
   {
     "Id": "constr18",
-    "Title": "Work Light"
+    "Title": "作業灯"
   },
   {
     "Id": "constr19",
-    "Title": "Paint Bucket"
+    "Title": "ペイントバケツ"
   },
   {
     "Id": "constr20",
-    "Title": "Scaffolding Step"
+    "Title": "吊り足場の段"
   }
 ]

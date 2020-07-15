@@ -1,14 +1,14 @@
 [
   {
     "Id": "surv1",
-    "Title": "Warehouse Key"
+    "Title": "Cartão de Acesso de Armazém"
   },
   {
     "Id": "surv22",
-    "Title": "Master Battery"
+    "Title": "Bateria Principal"
   },
   {
     "Id": "surv26",
-    "Title": "Caged Farmer"
+    "Title": "Fazendeiro Enjaulado"
   }
 ]

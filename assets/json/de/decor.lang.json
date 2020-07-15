@@ -1,103 +1,103 @@
 [
   {
     "Id": "deco1",
-    "Title": "Produce Billboard"
+    "Title": "Reklametafel für Produkte"
   },
   {
     "Id": "deco2",
-    "Title": "Berry Billboard"
+    "Title": "Reklametafel für Beeren"
   },
   {
     "Id": "deco3",
-    "Title": "Sickle-Down Billboard"
+    "Title": "Reklametafel mit Sicheln"
   },
   {
     "Id": "deco4",
-    "Title": "Warehouse Sign"
+    "Title": "Lagerhausschild"
   },
   {
     "Id": "deco5",
-    "Title": "Elevator Sign"
+    "Title": "Aufzugschild"
   },
   {
     "Id": "deco6",
-    "Title": "Storage Sign"
+    "Title": "Lagerschild"
   },
   {
     "Id": "deco7",
-    "Title": "Packing Sign"
+    "Title": "Verpackungsschild"
   },
   {
     "Id": "deco8",
-    "Title": "Growroom Sign"
+    "Title": "Büroschild"
   },
   {
     "Id": "deco9",
-    "Title": "Utility Sign"
+    "Title": "Schild: Gebrauchsgegenstände"
   },
   {
     "Id": "deco10",
-    "Title": "Man Sign"
+    "Title": "Schild: Mann"
   },
   {
     "Id": "deco11",
-    "Title": "Woman Sign"
+    "Title": "Schild: Frau"
   },
   {
     "Id": "deco12",
-    "Title": "Recycling Bin"
+    "Title": "Mülleimer"
   },
   {
     "Id": "deco13",
-    "Title": "Paper Stack"
+    "Title": "Papierstapel"
   },
   {
     "Id": "deco14",
-    "Title": "Old Restroom Mirror"
+    "Title": "Alter Toilettenspiegel"
   },
   {
     "Id": "deco15",
-    "Title": "Traffic Sign"
+    "Title": "Verkehrsschild"
   },
   {
     "Id": "deco16",
-    "Title": "Metallic Tube"
+    "Title": "Metallrohr"
   },
   {
     "Id": "deco17",
-    "Title": "Road Sign Base"
+    "Title": "Fuß eines Straßenschilds"
   },
   {
     "Id": "deco18",
-    "Title": "Cash Register"
+    "Title": "Kasse"
   },
   {
     "Id": "deco19",
-    "Title": "Open Sign"
+    "Title": "Schild: Offen"
   },
   {
     "Id": "deco20",
-    "Title": "Old Fruit Stand"
+    "Title": "Alter Obststand"
   },
   {
     "Id": "deco21",
-    "Title": "Stacked Crates"
+    "Title": "Gestapelte Kisten"
   },
   {
     "Id": "deco22",
-    "Title": "Sunshake Vending Machine"
+    "Title": "Sonnenshake-Verkaufsautomat"
   },
   {
     "Id": "deco23",
-    "Title": "Udder Decoration"
+    "Title": "Euterdekoration"
   },
   {
     "Id": "deco24",
-    "Title": "Haystack"
+    "Title": "Heuhaufen"
   },
   {
     "Id": "deco25",
-    "Title": "Hay Bale"
+    "Title": "Heuballen"
   },
   {
     "Id": "deco26",
@@ -113,15 +113,15 @@
   },
   {
     "Id": "deco29",
-    "Title": "Schaufensterpuppenstiefel"
+    "Title": "Schuh einer Schaufensterpuppe"
   },
   {
     "Id": "deco30",
-    "Title": "Mannequin-Hand"
+    "Title": "Hand einer Schaufensterpuppe"
   },
   {
     "Id": "deco31",
-    "Title": "Entenbaby-Figur"
+    "Title": "Statue einer Babyente"
   },
   {
     "Id": "deco32",
@@ -133,47 +133,47 @@
   },
   {
     "Id": "deco34",
-    "Title": "Schild „Totenkopf“"
+    "Title": "Totenkopfschild"
   },
   {
     "Id": "deco35",
-    "Title": "Schild „Achtung Baustelle“"
+    "Title": "Baustellenschild"
   },
   {
     "Id": "deco36",
-    "Title": "Schild „Warnung“"
+    "Title": "Warnschild"
   },
   {
     "Id": "deco37",
-    "Title": "Schild „Gefahr“"
+    "Title": "Gefahrenschild"
   },
   {
     "Id": "deco38",
-    "Title": "Schild „Stopp“"
+    "Title": "Stoppschild"
   },
   {
     "Id": "deco39",
-    "Title": "Schild „Achtung Farmbots“"
+    "Title": "Schild: Achtung Farmbots"
   },
   {
     "Id": "deco40",
-    "Title": "Schild „Willkommen“"
+    "Title": "Schild: Herzlich Willkommen!"
   },
   {
     "Id": "deco41",
-    "Title": "Schild „Nicht betreten“"
+    "Title": "Schild: Betreten verboten"
   },
   {
     "Id": "deco42",
-    "Title": "Schild „Fallende Objekte“"
+    "Title": "Schild: Herunterfallende Gegenstände"
   },
   {
     "Id": "deco43",
-    "Title": "Schild „Pfeil“"
+    "Title": "Pfeilschild"
   },
   {
     "Id": "deco44",
-    "Title": "Absperrkegel"
+    "Title": "Verkehrskegel"
   },
   {
     "Id": "deco45",

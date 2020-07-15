@@ -1,59 +1,59 @@
 [
   {
     "Id": "intera1",
-    "Title": "Fridge"
+    "Title": "Frigo"
   },
   {
     "Id": "intera2",
-    "Title": "Locker"
+    "Title": "Casier"
   },
   {
     "Id": "intera3",
-    "Title": "File Cabinet"
+    "Title": "Caisson de rangement"
   },
   {
     "Id": "intera4",
-    "Title": "Chest"
+    "Title": "Coffre"
   },
   {
     "Id": "intera5",
-    "Title": "Large Chest"
+    "Title": "Grand coffre"
   },
   {
     "Id": "intera6",
-    "Title": "Protector: Anti-Destruction"
+    "Title": "Protecteur : anti-destruction"
   },
   {
     "Id": "intera7",
-    "Title": "Encryptor: Anti-Connection"
+    "Title": "Codeur : anti-connexion"
   },
   {
     "Id": "intera8",
-    "Title": "Oily Toilet Seat"
+    "Title": "Lunette de toilettes graisseuse"
   },
   {
     "Id": "intera9",
-    "Title": "Resource Collector"
+    "Title": "Collecteur de ressources"
   },
   {
     "Id": "intera10",
-    "Title": "Refinebot"
+    "Title": "Raffinebot"
   },
   {
     "Id": "intera11",
-    "Title": "Dressbot"
+    "Title": "Tenuebot"
   },
   {
     "Id": "intera12",
-    "Title": "Water Cannon"
+    "Title": "Canon à eau"
   },
   {
     "Id": "intera13",
-    "Title": "Mountable Spud Gun"
+    "Title": "Lance-patates montable"
   },
   {
     "Id": "intera14",
-    "Title": "Respawn Bed"
+    "Title": "Lit de réapparition"
   },
   {
     "Id": "intera15",
@@ -133,19 +133,19 @@
   },
   {
     "Id": "intera34",
-    "Title": "Tête de Totebot : basse"
+    "Title": "Tête de totebot : basse"
   },
   {
     "Id": "intera35",
-    "Title": "Tête de Totebot : perc."
+    "Title": "Tête de totebot : percussions"
   },
   {
     "Id": "intera36",
-    "Title": "Tête de Totebot : synthé"
+    "Title": "Tête de totebot : voix de synthèse"
   },
   {
     "Id": "intera37",
-    "Title": "Tête de Totebot : bip"
+    "Title": "Tête de totebot : bip"
   },
   {
     "Id": "intera38",
@@ -157,7 +157,7 @@
   },
   {
     "Id": "intera40",
-    "Title": "Raft: requin en plastique"
+    "Title": "Support de requin Raft"
   },
   {
     "Id": "intera41",
@@ -165,10 +165,10 @@
   },
   {
     "Id": "intera42",
-    "Title": "Small Explosive Canister"
+    "Title": "Petite bonbonne explosive"
   },
   {
     "Id": "intera43",
-    "Title": "Large Explosive Canister"
+    "Title": "Grande bonbonne explosive"
   }
 ]

@@ -1,28 +1,28 @@
 [
   {
     "Id": "recipeWorkbench1",
-    "Title": "Scrap Gas Engine",
-    "Description": "An engine with uneven speed and adjustable power, ideally suited to powering vehicles. Can be connected to a driver's seat or trigger. This Engine is not upgradable."
+    "Title": "Motor de Combustão Sucateado",
+    "Description": "Um motor com velocidade variável e potência ajustável, ideal para alimentar veículos. Pode ser conectado a um banco de motorista ou a um acionador. Este motor não pode ser melhorado."
   },
   {
     "Id": "recipeWorkbench2",
-    "Title": "Scrap Driver's Seat",
-    "Description": "Makes bearings turn left and right. Can be connected to an engine to control the direction of travel. Can also be connected to triggers that can be activated from the seat. This Drive's Seat is not upgradable."
+    "Title": "Banco de Motorista Sucateado",
+    "Description": "Faz os rolamentos girarem para a esquerda e para a direita. Pode ser conectado a um motor para controlar a direção da viagem. Além disso, é possível conectar a acionadores que podem ser ativados a partir do banco. Este banco de motorista não pode ser melhorado."
   },
   {
     "Id": "recipeWorkbench3",
-    "Title": "Scrap Seat",
-    "Description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. This Seat is not upgradable."
+    "Title": "Banco Sucateado",
+    "Description": "Usado para não precisar ficar de pé. Sente-se e relaxe ou então coloque no seu veículo para dar carona aos seus amigos. Este banco não pode ser melhorado."
   },
   {
     "Id": "recipeWorkbench4",
-    "Title": "Scrap Wheel",
-    "Description": "Not perfectly round"
+    "Title": "Roda Sucateada",
+    "Description": "Não desce redondo."
   },
   {
     "Id": "recipeWorkbench5",
     "Title": "Rolamento",
-    "Description": "Tudo que você colocar sobre o rolamento vai girar. Rolamentos também podem ser conectados a um motor ou a um assento de operador para ser controlado de formas diferentes."
+    "Description": "Tudo que você posicionar no rolamento irá girar. Rolamentos também podem ser conectados a um motor ou ao banco de motorista para serem controlados de jeitos diferentes."
   },
   {
     "Id": "recipeWorkbench6",
@@ -30,13 +30,13 @@
   },
   {
     "Id": "recipeWorkbench7",
-    "Title": "Comando",
-    "Description": "Ligue e desligue à vontade. O comando ativa a peça à qual está conectado, tornando-a indispensável para quando você quer ligar e desligar coisas com facilidade. Ela pode ativar um motor, um propulsor, o controlador e mais."
+    "Title": "Interruptor",
+    "Description": "Alterne sem moderação. O interruptor ativa o que estiver conectado a ele, tornando-se indispensável para ligar e desligar as coisas ao usar uma única vez. Ele pode ativar um motor, um propulsor, o controlador e muito mais."
   },
   {
     "Id": "recipeWorkbench8",
     "Title": "Botão",
-    "Description": "Ativa coisas. O botão fica ativado enquanto continuar pressionado."
+    "Description": "Ativa coisas. O botão ativa enquanto for pressionado."
   },
   {
     "Id": "recipeWorkbench9",

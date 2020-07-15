@@ -1,166 +1,166 @@
 [
   {
     "Id": "ware1",
-    "Title": "Industrial Beam Short"
+    "Title": "Krótka belka przemysłowa"
   },
   {
     "Id": "ware2",
-    "Title": "Industrial Beam Long"
+    "Title": "Długa belka przemysłowa"
   },
   {
     "Id": "ware3",
-    "Title": "Industrial Beam Corner"
+    "Title": "Róg do belek przemysłowych"
   },
   {
     "Id": "ware4",
-    "Title": "Industrial Beam Corner Bend"
+    "Title": "Zgięty róg do belek przemysłowych"
   },
   {
     "Id": "ware5",
-    "Title": "Industrial Beam Four Way"
+    "Title": "Czwórnik do belek przemysłowych"
   },
   {
     "Id": "ware6",
-    "Title": "Industrial Beam Crossing"
+    "Title": "Rozwidlenie do belek przemysłowych"
   },
   {
     "Id": "ware7",
-    "Title": "Industrial Beam End"
+    "Title": "Zakończenie do belek przemysłowych"
   },
   {
     "Id": "ware8",
-    "Title": "Frame Beam Short"
+    "Title": "Krótka belka ramy"
   },
   {
     "Id": "ware9",
-    "Title": "Frame Beam Long"
+    "Title": "Długa belka ramy"
   },
   {
     "Id": "ware10",
-    "Title": "Frame Beam End"
+    "Title": "Zakończenie belki ramy"
   },
   {
     "Id": "ware11",
-    "Title": "Frame Beam Corner"
+    "Title": "Róg belki ramy"
   },
   {
     "Id": "ware12",
-    "Title": "Warehouse Ramp Big"
+    "Title": "Duża rampa do magazynu"
   },
   {
     "Id": "ware13",
-    "Title": "Warehouse Ramp Small"
+    "Title": "Mała rampa do magazynu"
   },
   {
     "Id": "ware14",
-    "Title": "Warehouse Ramp Narrow"
+    "Title": "Duża wąska rampa do magazynu"
   },
   {
     "Id": "ware15",
-    "Title": "Warehouse Ramp Narrow Small"
+    "Title": "Mała wąska rampa do magazynu"
   },
   {
     "Id": "ware16",
-    "Title": "Metal Storage Support"
+    "Title": "Metalowy wspornik powierzchni magazynowej"
   },
   {
     "Id": "ware18",
-    "Title": "Metal Storage Ramp"
+    "Title": "Metalowa rampa powierzchni magazynowej"
   },
   {
     "Id": "ware19",
-    "Title": "Large Metal Storage Lamp"
+    "Title": "Duża metalowa rampa do powierzchni magazynowej"
   },
   {
     "Id": "ware20",
-    "Title": "Metal Storage Beam"
+    "Title": "Metalowa belka do powierzchni magazynowej"
   },
   {
     "Id": "ware21",
-    "Title": "Metal Storage Corner B"
+    "Title": "Metalowy narożnik powierzchni magazynowej B"
   },
   {
     "Id": "ware22",
-    "Title": "Metal Storage Corner A"
+    "Title": "Metalowy narożnik powierzchni magazynowej C"
   },
   {
     "Id": "ware23",
-    "Title": "Metal Storage Handle"
+    "Title": "Metalowy uchwyt do powierzchni magazynowej"
   },
   {
     "Id": "ware24",
-    "Title": "Metal Storage Floor"
+    "Title": "Metalowa podłoga do powierzchni magazynowej"
   },
   {
     "Id": "ware25",
-    "Title": "Fan Base"
+    "Title": "Podstawa wiatraka"
   },
   {
     "Id": "ware26",
-    "Title": "Fan Blade Cap"
+    "Title": "Końcówka ostrza wiatraka"
   },
   {
     "Id": "ware27",
-    "Title": "Fan Blade"
+    "Title": "Ostrze wiatraka"
   },
   {
     "Id": "ware28",
-    "Title": "Packing Table"
+    "Title": "Stół do pakowania"
   },
   {
     "Id": "ware29",
-    "Title": "Packing Table Holder"
+    "Title": "Uchwyt stołu do pakowania"
   },
   {
     "Id": "ware30",
-    "Title": "Pack Instruction Sign"
+    "Title": "Znak z instrukcjami pakowania"
   },
   {
     "Id": "ware31",
-    "Title": "Wrapping Roll"
+    "Title": "Papier do pakowania"
   },
   {
     "Id": "ware32",
-    "Title": "Banner"
+    "Title": "Baner"
   },
   {
     "Id": "ware34",
-    "Title": "Frame Beam Light"
+    "Title": "Światło belki ramy"
   },
   {
     "Id": "ware35",
-    "Title": "Crane Leg"
+    "Title": "Noga żurawia"
   },
   {
     "Id": "ware36",
-    "Title": "Crane Panel"
+    "Title": "Panel żurawia"
   },
   {
     "Id": "ware37",
-    "Title": "Crane Cable Roll"
+    "Title": "Bęben kablowy żurawia"
   },
   {
     "Id": "ware38",
-    "Title": "Crane Top"
+    "Title": "Góra żurawia"
   },
   {
     "Id": "ware39",
-    "Title": "Crane Body"
+    "Title": "Korpus żurawia"
   },
   {
     "Id": "ware40",
-    "Title": "Crane Hook"
+    "Title": "Hak żurawia"
   },
   {
     "Id": "ware41",
-    "Title": "Crane Hook Block"
+    "Title": "Blok z hakiem żurawia"
   },
   {
     "Id": "ware42",
-    "Title": "Crane Loading Floor"
+    "Title": "Obszar załadunku żurawia"
   },
   {
     "Id": "ware45",
-    "Title": "Master Switch"
+    "Title": "Przełącznik główny"
   }
 ]

@@ -1,38 +1,38 @@
 [
   {
     "Id": "man1",
-    "Title": "Shack Wall"
+    "Title": "판자 벽"
   },
   {
     "Id": "man2",
-    "Title": "Shack Half Wall"
+    "Title": "판자 절반 벽"
   },
   {
     "Id": "man3",
-    "Title": "Shade Sails"
+    "Title": "판자 그늘 돛"
   },
   {
     "Id": "man4",
-    "Title": "Awning"
+    "Title": "판자 차양"
   },
   {
     "Id": "man5",
-    "Title": "Shack Roof"
+    "Title": "판자 지붕"
   },
   {
     "Id": "man6",
-    "Title": "Shack Light"
+    "Title": "판자 조명"
   },
   {
     "Id": "man7",
-    "Title": "Fresh Neon Sign"
+    "Title": "Fresh 형광등 표지판"
   },
   {
     "Id": "man8",
-    "Title": "Hard Work Sign"
+    "Title": "근면성실 표지판"
   },
   {
     "Id": "man9",
-    "Title": "Sale Sign"
+    "Title": "판매 표지판"
   }
 ]

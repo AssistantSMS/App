@@ -1,82 +1,82 @@
 [
   {
     "Id": "constr1",
-    "Title": "Hollow Concrete"
+    "Title": "Пустой бетонный блок"
   },
   {
     "Id": "constr2",
-    "Title": "Broken Concrete Small"
+    "Title": "Расколотый бетон – малый"
   },
   {
     "Id": "constr3",
-    "Title": "Broken Concrete Medium"
+    "Title": "Расколотый бетон – средний"
   },
   {
     "Id": "constr4",
-    "Title": "Broken Concrete Large"
+    "Title": "Расколотый бетон – большой"
   },
   {
     "Id": "constr5",
-    "Title": "Barrier Stand"
+    "Title": "Барьерный стенд"
   },
   {
     "Id": "constr6",
-    "Title": "Cement Mix"
+    "Title": "Цементная смесь"
   },
   {
     "Id": "constr7",
-    "Title": "Concrete Block Mould"
+    "Title": "Форма для бетонных блоков"
   },
   {
     "Id": "constr8",
-    "Title": "Carpet Roll"
+    "Title": "Ковровая дорожка"
   },
   {
     "Id": "constr9",
-    "Title": "Carpet Spool Holder"
+    "Title": "Бобина для ковра"
   },
   {
     "Id": "constr10",
-    "Title": "Scaffold Plastic Wall"
+    "Title": "Леса – пластиковая стена"
   },
   {
     "Id": "constr11",
-    "Title": "Scaffold Ledger"
+    "Title": "Леса – балка"
   },
   {
     "Id": "constr12",
-    "Title": "Scaffold Frame"
+    "Title": "Леса – каркас"
   },
   {
     "Id": "constr13",
-    "Title": "Scaffold Plank"
+    "Title": "Леса – настил"
   },
   {
     "Id": "constr14",
-    "Title": "Construction Pallet"
+    "Title": "Палета"
   },
   {
     "Id": "constr15",
-    "Title": "Scaffold Pallet Ramp"
+    "Title": "Леса – Пандус из палет"
   },
   {
     "Id": "constr16",
-    "Title": "Sound Isolation Small "
+    "Title": "Звукоизоляция – малый "
   },
   {
     "Id": "constr17",
-    "Title": "Sound Isolation Large"
+    "Title": "Звукоизоляция – большой"
   },
   {
     "Id": "constr18",
-    "Title": "Work Light"
+    "Title": "Рабочий фонарь"
   },
   {
     "Id": "constr19",
-    "Title": "Paint Bucket"
+    "Title": "Ведро с краской"
   },
   {
     "Id": "constr20",
-    "Title": "Scaffolding Step"
+    "Title": "Ступенька лесов"
   }
 ]

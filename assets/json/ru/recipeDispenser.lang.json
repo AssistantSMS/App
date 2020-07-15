@@ -1,27 +1,27 @@
 [
   {
     "Id": "recipeDisp1",
-    "Title": "Craftbot",
-    "Description": "The Craftbot will help you craft everything from new blocks to useful interactive parts. A mechanics best friend."
+    "Title": "Бот-мастер",
+    "Description": "Поможет смастерить что угодно: от новых блоков до сложных интерактивных элементов. Лучший друг механика."
   },
   {
     "Id": "recipeDisp2",
-    "Title": "Refinebot",
-    "Description": "Let the Refinebot help you out and refine all your collected logs. Put them in by hand or by placing a Resource Collector with logs next to it."
+    "Title": "Бот-очиститель",
+    "Description": "Помогает очищать и перерабатывать собранный мусор. Поставьте рядом с ним сборщик ресурсов."
   },
   {
     "Id": "recipeDisp3",
-    "Title": "Resource Collector",
-    "Description": "Perfect for collecting and stacking logs. When full, place it next to a refinebot to turn logs in to blocks."
+    "Title": "Сборщик ресурсов",
+    "Description": "Собирает и складывает ресурсы. Когда он наполнится, переместите его к очистителю, и ресурсы начнут превращаться в блоки."
   },
   {
     "Id": "recipeDisp4",
-    "Title": "Cookbot",
-    "Description": "Cooks delicious food that will fill up your health bar or revive fallen friends."
+    "Title": "Бот-повар",
+    "Description": "Готовит вкусную еду, которая помогает восстановить силы или оживить павших товарищей."
   },
   {
     "Id": "recipeDisp5",
-    "Title": "Dressbot",
-    "Description": "Use the Dressbot to make new clothes for your Mechanic. Just add your garment boxes and the right amount of cotton. You can also customise your look by using the blue wardrobe."
+    "Title": "Бот-закройщик",
+    "Description": "Делает одежду для механиков. Обеспечьте его контейнерами для одежды и хлопком. При желании можно проявить оригинальность: сменить цвет на синий."
   }
 ]

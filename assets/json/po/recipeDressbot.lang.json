@@ -1,17 +1,17 @@
 [
   {
     "Id": "recipeDress1",
-    "Title": "Garment Box (Common)",
-    "Description": "Use it in a Dressbot to make new clothes"
+    "Title": "Skrzynia z odzieżą (pospolita)",
+    "Description": "Użyj Ciuchbota do wykonania nowych ubrań."
   },
   {
     "Id": "recipeDress2",
-    "Title": "Garment Box (Rare)",
-    "Description": "Use it in a Dressbot to make new clothes"
+    "Title": "Skrzynia z odzieżą (rzadka)",
+    "Description": "Użyj Ciuchbota do wykonania nowych ubrań."
   },
   {
     "Id": "recipeDress3",
-    "Title": "Garment Box (Epic)",
-    "Description": "Use it in a Dressbot to make new clothes"
+    "Title": "Skrzynia z odzieżą (epicka)",
+    "Description": "Użyj Ciuchbota do wykonania nowych ubrań."
   }
 ]

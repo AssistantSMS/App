@@ -1,35 +1,35 @@
 [
   {
     "Id": "consu1",
-    "Title": "Gasoline"
+    "Title": "Essence"
   },
   {
     "Id": "consu2",
-    "Title": "Battery"
+    "Title": "Batterie"
   },
   {
     "Id": "consu3",
-    "Title": "Water"
+    "Title": "Eau"
   },
   {
     "Id": "consu4",
-    "Title": "Fertilizer"
+    "Title": "Engrais"
   },
   {
     "Id": "consu5",
-    "Title": "Chemicals"
+    "Title": "Produits chimiques"
   },
   {
     "Id": "consu6",
-    "Title": "Component Kit"
+    "Title": "Kit de composants"
   },
   {
     "Id": "consu7",
-    "Title": "Paint Ammo"
+    "Title": "Munition de peinture"
   },
   {
     "Id": "consu8",
-    "Title": "Glowstick"
+    "Title": "Bâton lumineux"
   },
   {
     "Id": "consu9",
@@ -37,22 +37,22 @@
   },
   {
     "Id": "consu10",
-    "Title": "Pizza Burger"
+    "Title": "Burger pizza"
   },
   {
     "Id": "consu11",
-    "Title": "Veggie Burger"
+    "Title": "Burger végé"
   },
   {
     "Id": "consu12",
-    "Title": "Revival Baguette"
+    "Title": "Baguette de la renaissance"
   },
   {
     "Id": "consu13",
-    "Title": "Woc Milk"
+    "Title": "Lait de woc"
   },
   {
     "Id": "consu14",
-    "Title": "Soil Bag"
+    "Title": "Sac de terre"
   }
 ]

@@ -1,27 +1,27 @@
 [
   {
     "Id": "recipeDisp1",
-    "Title": "Craftbot",
-    "Description": "The Craftbot will help you craft everything from new blocks to useful interactive parts. A mechanics best friend."
+    "Title": "Handwerkerbot",
+    "Description": "Der Handwerkerbot hilft dir, alles herzustellen – von neuen Blocks bis hin zu nützlichen interaktiven Teilen. Der beste Freund eines jeden Mechanikers."
   },
   {
     "Id": "recipeDisp2",
-    "Title": "Refinebot",
-    "Description": "Let the Refinebot help you out and refine all your collected logs. Put them in by hand or by placing a Resource Collector with logs next to it."
+    "Title": "Veredelungsbot",
+    "Description": "Der Veredelungsbot hilft dir und veredelt alle deine gesammelten Klötze. Du kannst sie per Hand zugeben oder einen Ressourcensammler mit Klötzen daneben platzieren."
   },
   {
     "Id": "recipeDisp3",
-    "Title": "Resource Collector",
-    "Description": "Perfect for collecting and stacking logs. When full, place it next to a refinebot to turn logs in to blocks."
+    "Title": "Ressourcensammler",
+    "Description": "Perfekt zum Sammeln und Stapeln von Klötzen. Er ist voll? Stell ihn neben den Veredelungsbot, der aus den Klötzen Blocks macht."
   },
   {
     "Id": "recipeDisp4",
-    "Title": "Cookbot",
-    "Description": "Cooks delicious food that will fill up your health bar or revive fallen friends."
+    "Title": "Kochbot",
+    "Description": "Kocht köstliche Gerichte, die deine Gesundheit auffüllen oder deine Freunde wiederbeleben."
   },
   {
     "Id": "recipeDisp5",
-    "Title": "Dressbot",
-    "Description": "Use the Dressbot to make new clothes for your Mechanic. Just add your garment boxes and the right amount of cotton. You can also customise your look by using the blue wardrobe."
+    "Title": "Kleiderbot",
+    "Description": "Verwende den Kleiderbot, um neue Kleider für deinen Mechaniker herzustellen. Füg einfach deine Kleiderkisten und die richtige Menge Baumwolle hinzu. Mit dem blauen Kleiderschrank kannst du ebenfalls deinen Look anpassen."
   }
 ]

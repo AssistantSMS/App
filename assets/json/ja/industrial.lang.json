@@ -1,219 +1,219 @@
 [
   {
     "Id": "indus1",
-    "Title": "Generator Coil Segment"
+    "Title": "ジェネレーターのコイルセグメント"
   },
   {
     "Id": "indus2",
-    "Title": "Generator Coil Corner"
+    "Title": "ジェネレーターのコイルコーナー"
   },
   {
     "Id": "indus3",
-    "Title": "Ventilation Frame"
+    "Title": "換気装置の枠"
   },
   {
     "Id": "indus4",
-    "Title": "Steel Support Bracket"
+    "Title": "鋼鉄製サポートブラケット"
   },
   {
     "Id": "indus5",
-    "Title": "Encryptor Base"
+    "Title": "エンクリプターの土台"
   },
   {
     "Id": "indus6",
-    "Title": "Encryptor Base Plate"
+    "Title": "エンクリプターの土台板"
   },
   {
     "Id": "indus7",
-    "Title": "Encryptor Frame Top"
+    "Title": "エンクリプターの枠上端部"
   },
   {
     "Id": "indus8",
-    "Title": "Small Steel Bracket"
+    "Title": "鋼鉄製ブラケット（小）"
   },
   {
     "Id": "indus9",
-    "Title": "Encryptor Frame Beam"
+    "Title": "エンクリプターの枠梁"
   },
   {
     "Id": "indus10",
-    "Title": "Encryptor Holder"
+    "Title": "エンクリプターのホルダー"
   },
   {
     "Id": "indus11",
-    "Title": "Base Extension"
+    "Title": "土台延長"
   },
   {
     "Id": "indus12",
-    "Title": "Generator B"
+    "Title": "ジェネレーターB"
   },
   {
     "Id": "indus13",
-    "Title": "Generator C"
+    "Title": "ジェネレーターC"
   },
   {
     "Id": "indus14",
-    "Title": "Generator D"
+    "Title": "ジェネレーターD"
   },
   {
     "Id": "indus15",
-    "Title": "Generator A"
+    "Title": "ジェネレーターA"
   },
   {
     "Id": "indus16",
-    "Title": "Power Generator Side"
+    "Title": "発電所側面"
   },
   {
     "Id": "indus17",
-    "Title": "Generator Tank"
+    "Title": "ジェネレータータンク"
   },
   {
     "Id": "indus18",
-    "Title": "Generator E"
+    "Title": "ジェネレーターE"
   },
   {
     "Id": "indus19",
-    "Title": "Trigger Frame"
+    "Title": "トリガー枠"
   },
   {
     "Id": "indus20",
-    "Title": "Generator Pipe Holder"
+    "Title": "ジェネレーターパイプ（ホルダー）"
   },
   {
     "Id": "indus21",
-    "Title": "ショート I ビーム"
+    "Title": "I型鋼（短）"
   },
   {
     "Id": "indus22",
-    "Title": "ロング I ビーム"
+    "Title": "I型鋼（長）"
   },
   {
     "Id": "indus23",
-    "Title": "I ビーム コーナー"
+    "Title": "I型鋼（コーナー）"
   },
   {
     "Id": "indus24",
-    "Title": "I ビーム コーナー"
+    "Title": "I型鋼（ホルダー）"
   },
   {
     "Id": "indus25",
-    "Title": "I ビーム エンド"
+    "Title": "I型鋼（端部）"
   },
   {
     "Id": "indus26",
-    "Title": "シェルフ"
+    "Title": "棚"
   },
   {
     "Id": "indus27",
-    "Title": "踊り場"
+    "Title": "階段（降り場）"
   },
   {
     "Id": "indus28",
-    "Title": "階段 ロング レール"
+    "Title": "階段（長、手すり）"
   },
   {
     "Id": "indus29",
-    "Title": "階段 ショート レール"
+    "Title": "階段（短、手すり）"
   },
   {
     "Id": "indus30",
-    "Title": "階段 手すり 子"
+    "Title": "階段（バラスター）"
   },
   {
     "Id": "indus31",
-    "Title": "階段 レール 結合"
+    "Title": "階段（手すり、接合部）"
   },
   {
     "Id": "indus32",
-    "Title": "階段 ステップ"
+    "Title": "階段（踏み場）"
   },
   {
     "Id": "indus33",
-    "Title": "階段 手すり"
+    "Title": "階段（欄干）"
   },
   {
     "Id": "indus34",
-    "Title": "階段 くさび"
+    "Title": "階段（くさび）"
   },
   {
     "Id": "indus35",
-    "Title": "階段 タラップ"
+    "Title": "階段（傾斜）"
   },
   {
     "Id": "indus36",
-    "Title": "ベンチ レ ー ション グリッド"
+    "Title": "換気装置の格子網"
   },
   {
     "Id": "indus37",
-    "Title": "ネット フェンス"
+    "Title": "ネットフェンス"
   },
   {
     "Id": "indus38",
-    "Title": "メタル サポート"
+    "Title": "金属サポート"
   },
   {
     "Id": "indus39",
-    "Title": "大型 サポート 構造"
+    "Title": "支持構造物（大）"
   },
   {
     "Id": "indus40",
-    "Title": "サポート 構造"
+    "Title": "支持構造物"
   },
   {
     "Id": "indus41",
-    "Title": "Small Support Structure"
+    "Title": "支持構造物（小）"
   },
   {
     "Id": "indus42",
-    "Title": "U ビーム"
+    "Title": "U型鋼"
   },
   {
     "Id": "indus43",
-    "Title": "メタル コラム"
+    "Title": "金属柱"
   },
   {
     "Id": "indus44",
-    "Title": "サポート 支柱"
+    "Title": "支持柱"
   },
   {
     "Id": "indus45",
-    "Title": "サポート 支柱 スタンド"
+    "Title": "支持柱の土台"
   },
   {
     "Id": "indus46",
-    "Title": "シェルフピラー"
+    "Title": "棚柱"
   },
   {
     "Id": "indus47",
-    "Title": "シェル フサ ポート"
+    "Title": "棚サポート"
   },
   {
     "Id": "indus48",
-    "Title": "ハイ シェル フサ ポート"
+    "Title": "棚サポート（高）"
   },
   {
     "Id": "indus49",
-    "Title": "小型 タンク"
+    "Title": "タンク（小）"
   },
   {
     "Id": "indus50",
-    "Title": "中型 タンク"
+    "Title": "タンク（中）"
   },
   {
     "Id": "indus51",
-    "Title": "大型 タンク"
+    "Title": "タンク（大）"
   },
   {
     "Id": "indus52",
-    "Title": "メタル ウィンドウ"
+    "Title": "金属窓"
   },
   {
     "Id": "indus53",
-    "Title": "スチール パレット"
+    "Title": "鋼鉄パレット"
   },
   {
     "Id": "indus54",
-    "Title": "テーブル サポート"
+    "Title": "テーブルサポート"
   },
   {
     "Id": "indus55",
@@ -221,15 +221,15 @@
   },
   {
     "Id": "indus56",
-    "Title": "タワーポールの上部"
+    "Title": "タワーポールの上端部"
   },
   {
     "Id": "indus57",
-    "Title": "衛星放送受信アンテナ"
+    "Title": "サテライトディッシュ"
   },
   {
     "Id": "indus58",
-    "Title": "衛星用アンテナ"
+    "Title": "サテライト反射ディッシュ"
   },
   {
     "Id": "indus59",
@@ -237,26 +237,26 @@
   },
   {
     "Id": "indus60",
-    "Title": "パラボラアンテナ"
+    "Title": "反射アンテナ"
   },
   {
     "Id": "indus61",
-    "Title": "小型 角 窓"
+    "Title": "窓（小、長方形）"
   },
   {
     "Id": "indus62",
-    "Title": "角 窓"
+    "Title": "窓（四角）"
   },
   {
     "Id": "indus63",
-    "Title": "大型 角 窓"
+    "Title": "窓（大、長方形）"
   },
   {
     "Id": "indus64",
-    "Title": "大型 ウィンド シールド"
+    "Title": "フロントガラス（大）"
   },
   {
     "Id": "indus65",
-    "Title": "小型 ウィンド シールド"
+    "Title": "フロントガラス（小）"
   }
 ]

@@ -1,22 +1,22 @@
 [
   {
     "Id": "harv1",
-    "Title": "Scrap Stone"
+    "Title": "Камень (мусор)"
   },
   {
     "Id": "harv2",
-    "Title": "Scrap Wood"
+    "Title": "Дерево (мусор)"
   },
   {
     "Id": "harv3",
-    "Title": "Wood"
+    "Title": "Древесина"
   },
   {
     "Id": "harv4",
-    "Title": "Scrap Metal"
+    "Title": "Металл (мусор)"
   },
   {
     "Id": "harv5",
-    "Title": "Metal"
+    "Title": "Металл"
   }
 ]

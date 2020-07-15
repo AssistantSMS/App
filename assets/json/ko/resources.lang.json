@@ -1,46 +1,46 @@
 [
   {
     "Id": "reso1",
-    "Title": "Ember"
+    "Title": "불씨"
   },
   {
     "Id": "reso2",
-    "Title": "Beeswax"
+    "Title": "밀랍"
   },
   {
     "Id": "reso3",
-    "Title": "Glue Clam"
+    "Title": "풀 조개"
   },
   {
     "Id": "reso4",
-    "Title": "Cotton"
+    "Title": "면"
   },
   {
     "Id": "reso5",
-    "Title": "Corn"
+    "Title": "옥수수"
   },
   {
     "Id": "reso6",
-    "Title": "Circuit Board"
+    "Title": "회로판"
   },
   {
     "Id": "reso7",
-    "Title": "Woc Steak"
+    "Title": "웍 스테이크"
   },
   {
     "Id": "reso8",
-    "Title": "Glow"
+    "Title": "글로우"
   },
   {
     "Id": "reso9",
-    "Title": "Pigment Flower"
+    "Title": "색소 꽃"
   },
   {
     "Id": "reso10",
-    "Title": "Glue"
+    "Title": "풀"
   },
   {
     "Id": "reso11",
-    "Title": "Crude Oil"
+    "Title": "원유"
   }
 ]

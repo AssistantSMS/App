@@ -1,27 +1,27 @@
 [
   {
     "Id": "recipeDisp1",
-    "Title": "Craftbot",
-    "Description": "The Craftbot will help you craft everything from new blocks to useful interactive parts. A mechanics best friend."
+    "Title": "クラフトボット",
+    "Description": "クラフトボット​は​新しい​ブロック​から​便利​な​インタラクティブ​パーツ​を​作る​の​に​役立ち​ます。​メカニック​の​真​の​友。"
   },
   {
     "Id": "recipeDisp2",
-    "Title": "Refinebot",
-    "Description": "Let the Refinebot help you out and refine all your collected logs. Put them in by hand or by placing a Resource Collector with logs next to it."
+    "Title": "精製ボット",
+    "Description": "精製​ボット​に​手伝い​を​さ​せ​て、​回収​し​た​丸太​を​すべて​精製​し​ましょ​う。​手作業​で​入れる​か、​丸太​を​入れ​た​リソース​コレクター​を​隣​に​置い​て​ください。"
   },
   {
     "Id": "recipeDisp3",
-    "Title": "Resource Collector",
-    "Description": "Perfect for collecting and stacking logs. When full, place it next to a refinebot to turn logs in to blocks."
+    "Title": "リソースコレクター",
+    "Description": "丸太​の​回収​と​積載​に​最適​です。​いっぱい​に​なっ​たら、​精製​ボット​の​隣​に​置い​て、​丸太​を​ブロック​に​変え​ましょ​う。"
   },
   {
     "Id": "recipeDisp4",
-    "Title": "Cookbot",
-    "Description": "Cooks delicious food that will fill up your health bar or revive fallen friends."
+    "Title": "クックボット",
+    "Description": "体力​を​回復​し​たり、​倒れ​た​フレンド​を​蘇生​し​たり​できる​美味しい​食べ物​を​作り​ます。"
   },
   {
     "Id": "recipeDisp5",
-    "Title": "Dressbot",
-    "Description": "Use the Dressbot to make new clothes for your Mechanic. Just add your garment boxes and the right amount of cotton. You can also customise your look by using the blue wardrobe."
+    "Title": "ドレスボット",
+    "Description": "ドレスボット​を​使っ​て、​メカニック​の​ため​に​新しい​衣類​を​作り​ましょ​う。​衣類​ボックス​と​正しい​量​の​綿​を​追加​する​だけ。​青色​の​ワード​ローブ​を​使っ​て​見た目​を​カスタマイズ​する​こと​も​でき​ます。"
   }
 ]

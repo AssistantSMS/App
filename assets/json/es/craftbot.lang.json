@@ -1,10 +1,10 @@
 [
   {
     "Id": "craftb1",
-    "Title": "Cookbot"
+    "Title": "Robot de cocina"
   },
   {
     "Id": "craftb2",
-    "Title": "Craftbot"
+    "Title": "Robot artesano"
   }
 ]

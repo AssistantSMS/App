@@ -1,99 +1,99 @@
 [
   {
     "Id": "spaceship1",
-    "Title": "Ship Light"
+    "Title": "Luz de Nave"
   },
   {
     "Id": "spaceship2",
-    "Title": "Handle"
+    "Title": "Maçaneta"
   },
   {
     "Id": "spaceship3",
-    "Title": "Ship Floor Tile"
+    "Title": "Piso de Nave"
   },
   {
     "Id": "spaceship4",
-    "Title": "Ship Ventilation"
+    "Title": "Ventilação de Nave"
   },
   {
     "Id": "spaceship5",
-    "Title": "Ship Compartment"
+    "Title": "Compartimento de Nave"
   },
   {
     "Id": "spaceship6",
-    "Title": "Ship Dual fan"
+    "Title": "Ventilador Duplo de Nave"
   },
   {
     "Id": "spaceship7",
-    "Title": "Warehouse Brick Lamp"
+    "Title": "Luz de Tijolo de Armazém"
   },
   {
     "Id": "spaceship8",
-    "Title": "Net frame"
+    "Title": "Estrutura de Malha"
   },
   {
     "Id": "spaceship9",
-    "Title": "Net frame hatch"
+    "Title": "Escotilha de Estrutura de Malha"
   },
   {
     "Id": "spaceship10",
-    "Title": "Ship Shelf"
+    "Title": "Plataforma de Nave"
   },
   {
     "Id": "spaceship11",
-    "Title": "Calendar"
+    "Title": "Calendário"
   },
   {
     "Id": "spaceship13",
-    "Title": "Broken Microwave"
+    "Title": "Micro-ondas Estragado"
   },
   {
     "Id": "spaceship14",
-    "Title": "Crane Wheel"
+    "Title": "Roda de Guindaste"
   },
   {
     "Id": "spaceship15",
-    "Title": "Ship Wall Panel Large"
+    "Title": "Painel de Parede Grande de Nave"
   },
   {
     "Id": "spaceship30",
-    "Title": "Ship Wall Panel Small"
+    "Title": "Painel de Parede Pequeno de Nave"
   },
   {
     "Id": "spaceship31",
-    "Title": "Ship Wall Panel Medium"
+    "Title": "Painel de Parede Médio de Nave"
   },
   {
     "Id": "spaceship32",
-    "Title": "Ship Wall Panel Large"
+    "Title": "Painel de Parede Grande de Nave"
   },
   {
     "Id": "spaceship33",
-    "Title": "Ship Wiring Short"
+    "Title": "Fiação Curta de Nave"
   },
   {
     "Id": "spaceship34",
-    "Title": "Ship Wiring Long"
+    "Title": "Fiação Longa de Nave"
   },
   {
     "Id": "spaceship35",
-    "Title": "Ship Wiring End"
+    "Title": "Extremidade de Fiação de Nave"
   },
   {
     "Id": "spaceship36",
-    "Title": "Ship Floor Mold"
+    "Title": "Molde de Piso de Nave"
   },
   {
     "Id": "spaceship42",
-    "Title": "Ship Blinds"
+    "Title": "Cortinas de Nave"
   },
   {
     "Id": "spaceship43",
-    "Title": "Ship Ceiling Ventilation"
+    "Title": "Ventilação de Teto de Nave"
   },
   {
     "Id": "spaceship44",
-    "Title": "Ship Ventilation Panel"
+    "Title": "Painel de Ventilação de Nave"
   },
   {
     "Id": "spaceship47",
@@ -101,6 +101,6 @@
   },
   {
     "Id": "spaceship48",
-    "Title": "Porta do Navio de Manutenção"
+    "Title": "Porta de Manutenção de Nave"
   }
 ]

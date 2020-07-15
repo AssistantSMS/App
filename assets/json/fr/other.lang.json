@@ -13,15 +13,15 @@
   },
   {
     "Id": "other4",
-    "Title": "Vacuum Pump"
+    "Title": "Pompe aspirante"
   },
   {
     "Id": "other5",
-    "Title": "Vacuum Pipe"
+    "Title": "Tuyau d'aspiration"
   },
   {
     "Id": "other6",
-    "Title": "Vacuum Pipe Corner"
+    "Title": "Coin de tuyau d'aspiration"
   },
   {
     "Id": "other7",
@@ -33,7 +33,7 @@
   },
   {
     "Id": "other9",
-    "Title": "Vigne en pot"
+    "Title": "Pied de vigne en pot"
   },
   {
     "Id": "other10",
@@ -41,11 +41,11 @@
   },
   {
     "Id": "other11",
-    "Title": "Pousse en pot"
+    "Title": "Graine en pot"
   },
   {
     "Id": "other12",
-    "Title": "Cactus épanoui en pot"
+    "Title": "Cactus fleuri en pot"
   },
   {
     "Id": "other13",
@@ -57,15 +57,15 @@
   },
   {
     "Id": "other15",
-    "Title": "Spud Gun"
+    "Title": "Lance-patates"
   },
   {
     "Id": "other16",
-    "Title": "Spud Shotgun"
+    "Title": "Fusil à pompe lance-patates"
   },
   {
     "Id": "other17",
-    "Title": "Spudling Gun"
+    "Title": "Fusil lance-patates"
   },
   {
     "Id": "other18",

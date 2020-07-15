@@ -1,59 +1,59 @@
 [
   {
     "Id": "intera1",
-    "Title": "Fridge"
+    "Title": "Kühlschrank"
   },
   {
     "Id": "intera2",
-    "Title": "Locker"
+    "Title": "Spind"
   },
   {
     "Id": "intera3",
-    "Title": "File Cabinet"
+    "Title": "Aktenschrank"
   },
   {
     "Id": "intera4",
-    "Title": "Chest"
+    "Title": "Truhe"
   },
   {
     "Id": "intera5",
-    "Title": "Large Chest"
+    "Title": "Große Truhe"
   },
   {
     "Id": "intera6",
-    "Title": "Protector: Anti-Destruction"
+    "Title": "Schützer: Anti-Zerstörung"
   },
   {
     "Id": "intera7",
-    "Title": "Encryptor: Anti-Connection"
+    "Title": "Kodiergerät: Anti-Verbindung"
   },
   {
     "Id": "intera8",
-    "Title": "Oily Toilet Seat"
+    "Title": "Öliger Toilettensitz"
   },
   {
     "Id": "intera9",
-    "Title": "Resource Collector"
+    "Title": "Ressourcensammler"
   },
   {
     "Id": "intera10",
-    "Title": "Refinebot"
+    "Title": "Veredelungsbot"
   },
   {
     "Id": "intera11",
-    "Title": "Dressbot"
+    "Title": "Kleiderbot"
   },
   {
     "Id": "intera12",
-    "Title": "Water Cannon"
+    "Title": "Wasserkanone"
   },
   {
     "Id": "intera13",
-    "Title": "Mountable Spud Gun"
+    "Title": "Montierbare Knollenkanone"
   },
   {
     "Id": "intera14",
-    "Title": "Respawn Bed"
+    "Title": "Respawn-Bett"
   },
   {
     "Id": "intera15",
@@ -117,7 +117,7 @@
   },
   {
     "Id": "intera30",
-    "Title": "Radiosender"
+    "Title": "Radio"
   },
   {
     "Id": "intera31",
@@ -133,19 +133,19 @@
   },
   {
     "Id": "intera34",
-    "Title": "Totebot-Kopf: Bass"
+    "Title": "Musikbot-Kopf: Bass"
   },
   {
     "Id": "intera35",
-    "Title": "Totebot-Kopf: Schlagzeug"
+    "Title": "Musikbot-Kopf: Schlaginstrument"
   },
   {
     "Id": "intera36",
-    "Title": "Totebot-Kopf: Synth-Stimme"
+    "Title": "Musikbot-Kopf: Synthesizer-Stimme"
   },
   {
     "Id": "intera37",
-    "Title": "Totebot-Kopf: Biep"
+    "Title": "Musikbot-Kopf: Biep"
   },
   {
     "Id": "intera38",
@@ -157,7 +157,7 @@
   },
   {
     "Id": "intera40",
-    "Title": "Raft-Hai zum Reiten"
+    "Title": "Raft-Haiaufsatz"
   },
   {
     "Id": "intera41",
@@ -165,10 +165,10 @@
   },
   {
     "Id": "intera42",
-    "Title": "Small Explosive Canister"
+    "Title": "Kleiner explosiver Kanister"
   },
   {
     "Id": "intera43",
-    "Title": "Large Explosive Canister"
+    "Title": "Großer explosiver Kanister"
   }
 ]

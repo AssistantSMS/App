@@ -1,106 +1,106 @@
 [
   {
     "Id": "spaceship1",
-    "Title": "Ship Light"
+    "Title": "선박 조명"
   },
   {
     "Id": "spaceship2",
-    "Title": "Handle"
+    "Title": "핸들"
   },
   {
     "Id": "spaceship3",
-    "Title": "Ship Floor Tile"
+    "Title": "선박 바닥 타일"
   },
   {
     "Id": "spaceship4",
-    "Title": "Ship Ventilation"
+    "Title": "선박 환기구"
   },
   {
     "Id": "spaceship5",
-    "Title": "Ship Compartment"
+    "Title": "선박 객실"
   },
   {
     "Id": "spaceship6",
-    "Title": "Ship Dual fan"
+    "Title": "선박 이중 팬"
   },
   {
     "Id": "spaceship7",
-    "Title": "Warehouse Brick Lamp"
+    "Title": "창고 벽돌 램프"
   },
   {
     "Id": "spaceship8",
-    "Title": "Net frame"
+    "Title": "그물 프레임"
   },
   {
     "Id": "spaceship9",
-    "Title": "Net frame hatch"
+    "Title": "그물 프레임 해치"
   },
   {
     "Id": "spaceship10",
-    "Title": "Ship Shelf"
+    "Title": "선박 선반"
   },
   {
     "Id": "spaceship11",
-    "Title": "Calendar"
+    "Title": "달력"
   },
   {
     "Id": "spaceship13",
-    "Title": "Broken Microwave"
+    "Title": "망가진 전자레인지"
   },
   {
     "Id": "spaceship14",
-    "Title": "Crane Wheel"
+    "Title": "크레인 바퀴"
   },
   {
     "Id": "spaceship15",
-    "Title": "Ship Wall Panel Large"
+    "Title": "선박 대형 벽 패널"
   },
   {
     "Id": "spaceship30",
-    "Title": "Ship Wall Panel Small"
+    "Title": "선박 소형 벽 패널"
   },
   {
     "Id": "spaceship31",
-    "Title": "Ship Wall Panel Medium"
+    "Title": "선박 중형 벽 패널"
   },
   {
     "Id": "spaceship32",
-    "Title": "Ship Wall Panel Large"
+    "Title": "선박 대형 벽 패널"
   },
   {
     "Id": "spaceship33",
-    "Title": "Ship Wiring Short"
+    "Title": "짧은 선박 와이어"
   },
   {
     "Id": "spaceship34",
-    "Title": "Ship Wiring Long"
+    "Title": "긴 선박 와이어"
   },
   {
     "Id": "spaceship35",
-    "Title": "Ship Wiring End"
+    "Title": "선박 와이어 끝부분"
   },
   {
     "Id": "spaceship36",
-    "Title": "Ship Floor Mold"
+    "Title": "선박 바닥 몰드"
   },
   {
     "Id": "spaceship42",
-    "Title": "Ship Blinds"
+    "Title": "선박 블라인드"
   },
   {
     "Id": "spaceship43",
-    "Title": "Ship Ceiling Ventilation"
+    "Title": "선박 천장 환기구"
   },
   {
     "Id": "spaceship44",
-    "Title": "Ship Ventilation Panel"
+    "Title": "선박 환기 패널"
   },
   {
     "Id": "spaceship47",
-    "Title": "출구 표시"
+    "Title": "출구 표지판"
   },
   {
     "Id": "spaceship48",
-    "Title": "유지보수 선박 문"
+    "Title": "정비함 문"
   }
 ]

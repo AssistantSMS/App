@@ -1,23 +1,23 @@
 [
   {
     "Id": "veh1",
-    "Title": "Concave Wedge"
+    "Title": "오목 쐐기"
   },
   {
     "Id": "veh2",
-    "Title": "License Plate"
+    "Title": "차량 번호판"
   },
   {
     "Id": "veh3",
-    "Title": "Metallic Tube Straight"
+    "Title": "직선 금속제 튜브"
   },
   {
     "Id": "veh4",
-    "Title": "Metallic Tube Bend"
+    "Title": "곡선 금속제 튜브"
   },
   {
     "Id": "veh5",
-    "Title": "Rounded Frame Corner"
+    "Title": "원형 프레임 코너"
   },
   {
     "Id": "veh6",

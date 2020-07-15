@@ -1,42 +1,42 @@
 [
   {
     "Id": "recipeWorkbench1",
-    "Title": "Scrap Gas Engine",
-    "Description": "An engine with uneven speed and adjustable power, ideally suited to powering vehicles. Can be connected to a driver's seat or trigger. This Engine is not upgradable."
+    "Title": "Moteur à essence abîmé",
+    "Description": "Un moteur avec une vitesse inégale et une puissance ajustable, idéal pour faire avancer les véhicules. Vous pouvez le connecter à un siège conducteur ou un déclencheur. Ce moteur n'est pas améliorable."
   },
   {
     "Id": "recipeWorkbench2",
-    "Title": "Scrap Driver's Seat",
-    "Description": "Makes bearings turn left and right. Can be connected to an engine to control the direction of travel. Can also be connected to triggers that can be activated from the seat. This Drive's Seat is not upgradable."
+    "Title": "Siège conducteur abîmé",
+    "Description": "Fait tourner les paliers à gauche et à droite. Peut être connecté à un moteur pour contrôler la direction. Il peut également être connecté à des déclencheurs activables à partir du siège. Ce siège conducteur n'est pas améliorable."
   },
   {
     "Id": "recipeWorkbench3",
-    "Title": "Scrap Seat",
-    "Description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. This Seat is not upgradable."
+    "Title": "Siège abîmé",
+    "Description": "À utiliser pour ne pas rester debout. Asseyez-vous et détendez-vous, ou ajoutez-les à votre véhicule pour que vos amis vous accompagnent. Ce siège n'est pas améliorable."
   },
   {
     "Id": "recipeWorkbench4",
-    "Title": "Scrap Wheel",
-    "Description": "Not perfectly round"
+    "Title": "Roue abîmé",
+    "Description": "Il n'est pas totalement rond."
   },
   {
     "Id": "recipeWorkbench5",
     "Title": "Palier",
-    "Description": "Tout ce que vous placez sur un palier pourra tourner. Les paliers peuvent aussi être connectés à un moteur ou à un siège conducteur pour être contrôlés de différentes manières."
+    "Description": "Tout ce que vous placez sur un palier peut tourner. Les paliers peuvent aussi être connectés à un moteur ou au siège conducteur pour être contrôlés de diverses manières."
   },
   {
     "Id": "recipeWorkbench6",
-    "Title": "Bloc: carton"
+    "Title": "Bloc de carton"
   },
   {
     "Id": "recipeWorkbench7",
     "Title": "Interrupteur",
-    "Description": "L'interrupteur active ce à quoi il est connecté, il est indispensable lorsque vous souhaitez allumer ou éteindre vos créations. Il peut activer un moteur, un propulseur, un contrôleur et bien plus encore."
+    "Description": "Vous pouvez l'actionner de manière illimitée et à la demande. L'interrupteur active ce à quoi il est relié, ce qui le rend indispensable pour allumer ou éteindre des choses d'une simple pression. Il peut activer un moteur, un propulseur, le contrôleur et plus encore."
   },
   {
     "Id": "recipeWorkbench8",
     "Title": "Bouton",
-    "Description": "Active des choses. Le bouton est activé tant qu'il reste appuyé."
+    "Description": "Il active des choses. Le bouton reste actif tant qu'il est maintenu enfoncé."
   },
   {
     "Id": "recipeWorkbench9",

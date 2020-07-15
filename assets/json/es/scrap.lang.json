@@ -1,18 +1,18 @@
 [
   {
     "Id": "scrap1",
-    "Title": "Scrap Driver's Seat"
+    "Title": "Asiento de conductor de chatarra"
   },
   {
     "Id": "scrap2",
-    "Title": "Scrap Seat"
+    "Title": "Asiento de chatarra"
   },
   {
     "Id": "scrap3",
-    "Title": "Scrap Wheel"
+    "Title": "Rueda de chatarra"
   },
   {
     "Id": "scrap4",
-    "Title": "Scrap Gas Engine"
+    "Title": "Motor de gasolina de chatarra"
   }
 ]

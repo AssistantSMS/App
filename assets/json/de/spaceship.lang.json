@@ -1,106 +1,106 @@
 [
   {
     "Id": "spaceship1",
-    "Title": "Ship Light"
+    "Title": "Schiffsbeleuchtung"
   },
   {
     "Id": "spaceship2",
-    "Title": "Handle"
+    "Title": "Griff"
   },
   {
     "Id": "spaceship3",
-    "Title": "Ship Floor Tile"
+    "Title": "Schiffsbodenfliese"
   },
   {
     "Id": "spaceship4",
-    "Title": "Ship Ventilation"
+    "Title": "Schiffsbelüftung"
   },
   {
     "Id": "spaceship5",
-    "Title": "Ship Compartment"
+    "Title": "Schiffsabteilung"
   },
   {
     "Id": "spaceship6",
-    "Title": "Ship Dual fan"
+    "Title": "Schiff-Doppelventilator"
   },
   {
     "Id": "spaceship7",
-    "Title": "Warehouse Brick Lamp"
+    "Title": "Lagerhaus-Ziegellampe"
   },
   {
     "Id": "spaceship8",
-    "Title": "Net frame"
+    "Title": "Netzrahmen"
   },
   {
     "Id": "spaceship9",
-    "Title": "Net frame hatch"
+    "Title": "Klappe im Netzrahmen"
   },
   {
     "Id": "spaceship10",
-    "Title": "Ship Shelf"
+    "Title": "Schiffsregal"
   },
   {
     "Id": "spaceship11",
-    "Title": "Calendar"
+    "Title": "Kalender"
   },
   {
     "Id": "spaceship13",
-    "Title": "Broken Microwave"
+    "Title": "Kaputte Mikrowelle"
   },
   {
     "Id": "spaceship14",
-    "Title": "Crane Wheel"
+    "Title": "Kranrad"
   },
   {
     "Id": "spaceship15",
-    "Title": "Ship Wall Panel Large"
+    "Title": "Großes Schiffwandpanel"
   },
   {
     "Id": "spaceship30",
-    "Title": "Ship Wall Panel Small"
+    "Title": "Kleines Schiffwandpanel"
   },
   {
     "Id": "spaceship31",
-    "Title": "Ship Wall Panel Medium"
+    "Title": "Mittleres Schiffwandpanel"
   },
   {
     "Id": "spaceship32",
-    "Title": "Ship Wall Panel Large"
+    "Title": "Großes Schiffwandpanel"
   },
   {
     "Id": "spaceship33",
-    "Title": "Ship Wiring Short"
+    "Title": "Kurze Schiffverdrahtung"
   },
   {
     "Id": "spaceship34",
-    "Title": "Ship Wiring Long"
+    "Title": "Lange Schiffverdrahtung"
   },
   {
     "Id": "spaceship35",
-    "Title": "Ship Wiring End"
+    "Title": "Schiffverdrahtung Endstück"
   },
   {
     "Id": "spaceship36",
-    "Title": "Ship Floor Mold"
+    "Title": "Schiffsbodenfliese"
   },
   {
     "Id": "spaceship42",
-    "Title": "Ship Blinds"
+    "Title": "Schiffsblenden"
   },
   {
     "Id": "spaceship43",
-    "Title": "Ship Ceiling Ventilation"
+    "Title": "Schiff-Deckenbelüftung"
   },
   {
     "Id": "spaceship44",
-    "Title": "Ship Ventilation Panel"
+    "Title": "Schiff-Belüftungspanel"
   },
   {
     "Id": "spaceship47",
-    "Title": "Ausgangsschild"
+    "Title": "Schild: Ausgang"
   },
   {
     "Id": "spaceship48",
-    "Title": "Wartungsschiff-Tür"
+    "Title": "Wartungsschifftür"
   }
 ]

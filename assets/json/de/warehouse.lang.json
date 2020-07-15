@@ -1,123 +1,123 @@
 [
   {
     "Id": "ware1",
-    "Title": "Industrial Beam Short"
+    "Title": "Industrieträger (kurz)"
   },
   {
     "Id": "ware2",
-    "Title": "Industrial Beam Long"
+    "Title": "Industrieträger (lang)"
   },
   {
     "Id": "ware3",
-    "Title": "Industrial Beam Corner"
+    "Title": "Industrieträger (Eckteil)"
   },
   {
     "Id": "ware4",
-    "Title": "Industrial Beam Corner Bend"
+    "Title": "Industrieträger (Eckkrümmung)"
   },
   {
     "Id": "ware5",
-    "Title": "Industrial Beam Four Way"
+    "Title": "Industrieträger (Vierwege-Stück)"
   },
   {
     "Id": "ware6",
-    "Title": "Industrial Beam Crossing"
+    "Title": "Industrieträger (Kreuz)"
   },
   {
     "Id": "ware7",
-    "Title": "Industrial Beam End"
+    "Title": "Industrieträger (Endstück)"
   },
   {
     "Id": "ware8",
-    "Title": "Frame Beam Short"
+    "Title": "Rahmenträger (kurz)"
   },
   {
     "Id": "ware9",
-    "Title": "Frame Beam Long"
+    "Title": "Rahmenträger (lang)"
   },
   {
     "Id": "ware10",
-    "Title": "Frame Beam End"
+    "Title": "Rahmenträger (Endstück)"
   },
   {
     "Id": "ware11",
-    "Title": "Frame Beam Corner"
+    "Title": "Rahmenträger (Eckteil)"
   },
   {
     "Id": "ware12",
-    "Title": "Warehouse Ramp Big"
+    "Title": "Große Lagerhausrampe"
   },
   {
     "Id": "ware13",
-    "Title": "Warehouse Ramp Small"
+    "Title": "Kleine Lagerhausrampe"
   },
   {
     "Id": "ware14",
-    "Title": "Warehouse Ramp Narrow"
+    "Title": "Große, schmale Lagerhausrampe"
   },
   {
     "Id": "ware15",
-    "Title": "Warehouse Ramp Narrow Small"
+    "Title": "Kleine, schmale Lagerhausrampe"
   },
   {
     "Id": "ware16",
-    "Title": "Metal Storage Support"
+    "Title": "Metalllagerstütze"
   },
   {
     "Id": "ware18",
-    "Title": "Metal Storage Ramp"
+    "Title": "Metalllagerrampe"
   },
   {
     "Id": "ware19",
-    "Title": "Large Metal Storage Lamp"
+    "Title": "Große Metalllagerlampe"
   },
   {
     "Id": "ware20",
-    "Title": "Metal Storage Beam"
+    "Title": "Metalllagerträger"
   },
   {
     "Id": "ware21",
-    "Title": "Metal Storage Corner B"
+    "Title": "Metalllagereckteil B"
   },
   {
     "Id": "ware22",
-    "Title": "Metal Storage Corner A"
+    "Title": "Metalllagereckteil C"
   },
   {
     "Id": "ware23",
-    "Title": "Metal Storage Handle"
+    "Title": "Metalllagergriff"
   },
   {
     "Id": "ware24",
-    "Title": "Metal Storage Floor"
+    "Title": "Metalllagerboden"
   },
   {
     "Id": "ware25",
-    "Title": "Fan Base"
+    "Title": "Ventilatorfuß"
   },
   {
     "Id": "ware26",
-    "Title": "Fan Blade Cap"
+    "Title": "Ventilatorblattkappe"
   },
   {
     "Id": "ware27",
-    "Title": "Fan Blade"
+    "Title": "Ventilatorblatt"
   },
   {
     "Id": "ware28",
-    "Title": "Packing Table"
+    "Title": "Packtisch"
   },
   {
     "Id": "ware29",
-    "Title": "Packing Table Holder"
+    "Title": "Packtischhalterung"
   },
   {
     "Id": "ware30",
-    "Title": "Pack Instruction Sign"
+    "Title": "Schild: Packanweisung"
   },
   {
     "Id": "ware31",
-    "Title": "Wrapping Roll"
+    "Title": "Packpapierrolle"
   },
   {
     "Id": "ware32",
@@ -125,42 +125,42 @@
   },
   {
     "Id": "ware34",
-    "Title": "Frame Beam Light"
+    "Title": "Rahmenbalken-Licht"
   },
   {
     "Id": "ware35",
-    "Title": "Crane Leg"
+    "Title": "Kranfuß"
   },
   {
     "Id": "ware36",
-    "Title": "Crane Panel"
+    "Title": "Kranpanel"
   },
   {
     "Id": "ware37",
-    "Title": "Crane Cable Roll"
+    "Title": "Krankabelrolle"
   },
   {
     "Id": "ware38",
-    "Title": "Crane Top"
+    "Title": "Kranoberteil"
   },
   {
     "Id": "ware39",
-    "Title": "Crane Body"
+    "Title": "Krankörper"
   },
   {
     "Id": "ware40",
-    "Title": "Crane Hook"
+    "Title": "Kranhaken"
   },
   {
     "Id": "ware41",
-    "Title": "Crane Hook Block"
+    "Title": "Kranhakenblock"
   },
   {
     "Id": "ware42",
-    "Title": "Crane Loading Floor"
+    "Title": "Kranladefläche"
   },
   {
     "Id": "ware45",
-    "Title": "Master Switch"
+    "Title": "Master-Schalter"
   }
 ]

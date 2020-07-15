@@ -1,34 +1,34 @@
 [
   {
     "Id": "light1",
-    "Title": "Warehouse Wall Light"
+    "Title": "Światło ścienne do magazynu"
   },
   {
     "Id": "light2",
-    "Title": "Packing Lamp"
+    "Title": "Lampa do pakowania"
   },
   {
     "Id": "light3",
-    "Title": "Warehouse Fluorescent Light"
+    "Title": "Fluorescencyjne światło do magazynu"
   },
   {
     "Id": "light4",
-    "Title": "Warehouse Square Light"
+    "Title": "Kwadratowe światło do magazynu"
   },
   {
     "Id": "light5",
-    "Title": "Warehouse Spotlight"
+    "Title": "Światło punktowe do magazynu"
   },
   {
     "Id": "light6",
-    "Title": "Warehouse Spot Small"
+    "Title": "Małe pole w magazynie"
   },
   {
     "Id": "light7",
-    "Title": "Światło"
+    "Title": "Światło przednie"
   },
   {
     "Id": "light8",
-    "Title": "Reflektor warsztatowy"
+    "Title": "Światło punktowe do magazynu"
   }
 ]

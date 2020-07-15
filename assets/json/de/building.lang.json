@@ -1,82 +1,82 @@
 [
   {
     "Id": "build1",
-    "Title": "Stand Support A"
+    "Title": "Standstütze A"
   },
   {
     "Id": "build2",
-    "Title": "Stand Support Long"
+    "Title": "Standstütze (lang)"
   },
   {
     "Id": "build3",
-    "Title": "Stand Support Corner"
+    "Title": "Standstütze (Eckteil)"
   },
   {
     "Id": "build4",
-    "Title": "Stand Support"
+    "Title": "Standstütze"
   },
   {
     "Id": "build5",
-    "Title": "Stand Support Base"
+    "Title": "Standstütze (Fuß)"
   },
   {
     "Id": "build6",
-    "Title": "Mop Set"
+    "Title": "Mopp-Set"
   },
   {
     "Id": "build7",
-    "Title": "Bathroom Stall Door"
+    "Title": "Toilettentür"
   },
   {
     "Id": "build8",
-    "Title": "Slippery Surface Sign"
+    "Title": "Schild: Achtung Rutschgefahr!"
   },
   {
     "Id": "build9",
-    "Title": "Plunger"
+    "Title": "Saugglocke"
   },
   {
     "Id": "build10",
-    "Title": "Warehouse sink"
+    "Title": "Lagerhausbecken"
   },
   {
     "Id": "build11",
-    "Title": "Water Dispenser"
+    "Title": "Wasserspender"
   },
   {
     "Id": "build12",
-    "Title": "Cup Holder"
+    "Title": "Becherhalter"
   },
   {
     "Id": "build13",
-    "Title": "Water Tank"
+    "Title": "Wassertank"
   },
   {
     "Id": "build14",
-    "Title": "Cubicle Wall"
+    "Title": "Kabinenwand"
   },
   {
     "Id": "build15",
-    "Title": "Corner Brace"
+    "Title": "Eckschiene"
   },
   {
     "Id": "build16",
-    "Title": "Office Table B"
+    "Title": "Bürotisch B"
   },
   {
     "Id": "build17",
-    "Title": "Office Table A"
+    "Title": "Bürotisch A"
   },
   {
     "Id": "build18",
-    "Title": "Office Table Leg"
+    "Title": "Bürotischbein"
   },
   {
     "Id": "build19",
-    "Title": "Office Chair Top"
+    "Title": "Obere Hälfte eines Bürostuhls"
   },
   {
     "Id": "build20",
-    "Title": "Office Chair Base"
+    "Title": "Bürostuhlfuß"
   }
 ]

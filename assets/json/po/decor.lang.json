@@ -1,103 +1,103 @@
 [
   {
     "Id": "deco1",
-    "Title": "Produce Billboard"
+    "Title": "Reklama produktów rolnych"
   },
   {
     "Id": "deco2",
-    "Title": "Berry Billboard"
+    "Title": "Reklama jagód"
   },
   {
     "Id": "deco3",
-    "Title": "Sickle-Down Billboard"
+    "Title": "Reklama sierpu"
   },
   {
     "Id": "deco4",
-    "Title": "Warehouse Sign"
+    "Title": "Symbol magazynu"
   },
   {
     "Id": "deco5",
-    "Title": "Elevator Sign"
+    "Title": "Symbol windy"
   },
   {
     "Id": "deco6",
-    "Title": "Storage Sign"
+    "Title": "Symbol powierzchni magazynowej"
   },
   {
     "Id": "deco7",
-    "Title": "Packing Sign"
+    "Title": "Symbol pakowania"
   },
   {
     "Id": "deco8",
-    "Title": "Growroom Sign"
+    "Title": "Symbol biura"
   },
   {
     "Id": "deco9",
-    "Title": "Utility Sign"
+    "Title": "Symbol narzędzi"
   },
   {
     "Id": "deco10",
-    "Title": "Man Sign"
+    "Title": "Symbol mężczyzny"
   },
   {
     "Id": "deco11",
-    "Title": "Woman Sign"
+    "Title": "Symbol kobiety"
   },
   {
     "Id": "deco12",
-    "Title": "Recycling Bin"
+    "Title": "Kosz na odpady"
   },
   {
     "Id": "deco13",
-    "Title": "Paper Stack"
+    "Title": "Stos papieru"
   },
   {
     "Id": "deco14",
-    "Title": "Old Restroom Mirror"
+    "Title": "Stare lustro z toalety"
   },
   {
     "Id": "deco15",
-    "Title": "Traffic Sign"
+    "Title": "Znak drogowy"
   },
   {
     "Id": "deco16",
-    "Title": "Metallic Tube"
+    "Title": "Metalowa rura"
   },
   {
     "Id": "deco17",
-    "Title": "Road Sign Base"
+    "Title": "Podstawa znaku drogowego"
   },
   {
     "Id": "deco18",
-    "Title": "Cash Register"
+    "Title": "Kasa"
   },
   {
     "Id": "deco19",
-    "Title": "Open Sign"
+    "Title": "Tabliczka „Otwarte”"
   },
   {
     "Id": "deco20",
-    "Title": "Old Fruit Stand"
+    "Title": "Stare stoisko z owocami"
   },
   {
     "Id": "deco21",
-    "Title": "Stacked Crates"
+    "Title": "Stos skrzyń"
   },
   {
     "Id": "deco22",
-    "Title": "Sunshake Vending Machine"
+    "Title": "Automat do sprzedaży Sunshake"
   },
   {
     "Id": "deco23",
-    "Title": "Udder Decoration"
+    "Title": "Dekoracja w kształcie wymienia"
   },
   {
     "Id": "deco24",
-    "Title": "Haystack"
+    "Title": "Stóg siana"
   },
   {
     "Id": "deco25",
-    "Title": "Hay Bale"
+    "Title": "Bela siana"
   },
   {
     "Id": "deco26",
@@ -137,11 +137,11 @@
   },
   {
     "Id": "deco35",
-    "Title": "„Strefa budowy”"
+    "Title": "„Teren budowy”"
   },
   {
     "Id": "deco36",
-    "Title": "„Uwaga!”"
+    "Title": "„Uwaga”"
   },
   {
     "Id": "deco37",

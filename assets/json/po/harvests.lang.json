@@ -1,19 +1,19 @@
 [
   {
     "Id": "harv1",
-    "Title": "Scrap Stone"
+    "Title": "Kamień z odzysku"
   },
   {
     "Id": "harv2",
-    "Title": "Scrap Wood"
+    "Title": "Drewno z odzysku"
   },
   {
     "Id": "harv3",
-    "Title": "Wood"
+    "Title": "Drewno"
   },
   {
     "Id": "harv4",
-    "Title": "Scrap Metal"
+    "Title": "Metal z odzysku"
   },
   {
     "Id": "harv5",

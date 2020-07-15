@@ -1,23 +1,23 @@
 [
   {
     "Id": "veh1",
-    "Title": "Concave Wedge"
+    "Title": "Вогнутый клин"
   },
   {
     "Id": "veh2",
-    "Title": "License Plate"
+    "Title": "Номерной знак"
   },
   {
     "Id": "veh3",
-    "Title": "Metallic Tube Straight"
+    "Title": "Металлическая труба – прямая"
   },
   {
     "Id": "veh4",
-    "Title": "Metallic Tube Bend"
+    "Title": "Металлическая труба – изогнутая"
   },
   {
     "Id": "veh5",
-    "Title": "Rounded Frame Corner"
+    "Title": "Скругленный угол рамы"
   },
   {
     "Id": "veh6",

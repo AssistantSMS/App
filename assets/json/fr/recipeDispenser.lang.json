@@ -1,27 +1,27 @@
 [
   {
     "Id": "recipeDisp1",
-    "Title": "Craftbot",
-    "Description": "The Craftbot will help you craft everything from new blocks to useful interactive parts. A mechanics best friend."
+    "Title": "Fabribot",
+    "Description": "Ce Fabribot vous aidera à fabriquer tout ce que vous souhaitez : de nouveaux blocs, des pièces interactives… Le meilleur ami des mécanos."
   },
   {
     "Id": "recipeDisp2",
-    "Title": "Refinebot",
-    "Description": "Let the Refinebot help you out and refine all your collected logs. Put them in by hand or by placing a Resource Collector with logs next to it."
+    "Title": "Raffinebot",
+    "Description": "Le Raffinebot vous aide à raffiner les rondins que vous collectez. Mettez-les à la main ou placez un collecteur de ressources rempli de rondins à côté."
   },
   {
     "Id": "recipeDisp3",
-    "Title": "Resource Collector",
-    "Description": "Perfect for collecting and stacking logs. When full, place it next to a refinebot to turn logs in to blocks."
+    "Title": "Collecteur de ressources",
+    "Description": "L'outil parfait pour collecter et empiler les rondins. Lorsqu'il est plein, placez-le près d'un Raffinebot pour transformer les rondins en blocs."
   },
   {
     "Id": "recipeDisp4",
-    "Title": "Cookbot",
-    "Description": "Cooks delicious food that will fill up your health bar or revive fallen friends."
+    "Title": "Cuisibot",
+    "Description": "Cuisine de délicieux plats qui rempliront votre barre de santé ou réanimeront vos amis."
   },
   {
     "Id": "recipeDisp5",
-    "Title": "Dressbot",
-    "Description": "Use the Dressbot to make new clothes for your Mechanic. Just add your garment boxes and the right amount of cotton. You can also customise your look by using the blue wardrobe."
+    "Title": "Tenuebot",
+    "Description": "Utilisez le Tenuebot afin de créer des tenues pour votre mécano. Ajoutez vos boîtes à vêtements et la quantité requise de coton. Vous pouvez également personnaliser votre look grâce à la garde-robe bleue."
   }
 ]

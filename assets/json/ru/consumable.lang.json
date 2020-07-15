@@ -1,58 +1,58 @@
 [
   {
     "Id": "consu1",
-    "Title": "Gasoline"
+    "Title": "Бензин"
   },
   {
     "Id": "consu2",
-    "Title": "Battery"
+    "Title": "Батарея"
   },
   {
     "Id": "consu3",
-    "Title": "Water"
+    "Title": "Вода"
   },
   {
     "Id": "consu4",
-    "Title": "Fertilizer"
+    "Title": "Удобрение"
   },
   {
     "Id": "consu5",
-    "Title": "Chemicals"
+    "Title": "Химикалии"
   },
   {
     "Id": "consu6",
-    "Title": "Component Kit"
+    "Title": "Набор компонентов"
   },
   {
     "Id": "consu7",
-    "Title": "Paint Ammo"
+    "Title": "Краскозаряд"
   },
   {
     "Id": "consu8",
-    "Title": "Glowstick"
+    "Title": "Химический фонарь"
   },
   {
     "Id": "consu9",
-    "Title": "Sunshake"
+    "Title": "Саншейк"
   },
   {
     "Id": "consu10",
-    "Title": "Pizza Burger"
+    "Title": "Пиццебургер"
   },
   {
     "Id": "consu11",
-    "Title": "Veggie Burger"
+    "Title": "Веганский бургер"
   },
   {
     "Id": "consu12",
-    "Title": "Revival Baguette"
+    "Title": "Батон-реаниматор"
   },
   {
     "Id": "consu13",
-    "Title": "Woc Milk"
+    "Title": "Молоко воков"
   },
   {
     "Id": "consu14",
-    "Title": "Soil Bag"
+    "Title": "Мешок с землей"
   }
 ]

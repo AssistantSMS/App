@@ -1,23 +1,23 @@
 [
   {
     "Id": "recipeWorkbench1",
-    "Title": "Scrap Gas Engine",
-    "Description": "An engine with uneven speed and adjustable power, ideally suited to powering vehicles. Can be connected to a driver's seat or trigger. This Engine is not upgradable."
+    "Title": "Silnik spalinowy z odzysku",
+    "Description": "Silnik pracujący ze zmienną prędkością i regulowaną mocą. Idealnie nadaje się do napędzania pojazdów. Może być połączony z fotelem kierowcy lub włącznikiem. Ten silnik nie może zostać ulepszony."
   },
   {
     "Id": "recipeWorkbench2",
-    "Title": "Scrap Driver's Seat",
-    "Description": "Makes bearings turn left and right. Can be connected to an engine to control the direction of travel. Can also be connected to triggers that can be activated from the seat. This Drive's Seat is not upgradable."
+    "Title": "Fotel kierowcy z odzysku",
+    "Description": "Sprawia, że łożyska obracają się w lewo i w prawo. Podłączony do silnika umożliwia sterowanie kierunkiem jazdy. Może być połączony z włącznikami uruchamianymi z fotela. Ten fotel kierowcy nie może zostać ulepszony."
   },
   {
     "Id": "recipeWorkbench3",
-    "Title": "Scrap Seat",
-    "Description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. This Seat is not upgradable."
+    "Title": "Fotel z odzysku",
+    "Description": "Przydatny, kiedy nogi chcą odpocząć. Usiądź i odpoczywaj albo zamontuj go w swoim pojeździe, by zachęcić przyjaciół do wspólnej przejażdżki. Tego fotela nie można ulepszyć."
   },
   {
     "Id": "recipeWorkbench4",
-    "Title": "Scrap Wheel",
-    "Description": "Not perfectly round"
+    "Title": "Koło z odzysku",
+    "Description": "Idealnie okrągłe to ono nie jest."
   },
   {
     "Id": "recipeWorkbench5",
@@ -31,12 +31,12 @@
   {
     "Id": "recipeWorkbench7",
     "Title": "Przełącznik",
-    "Description": "Nieograniczone możliwości na życzenie! Przełącznik uruchamia wszystko, co się z nim połączy. Niezastąpiony we włączaniu i wyłączaniu jednym przyciśnięciem. Może uruchomić wszystkie rodzaje silników, programator i inne elementy."
+    "Description": "Przełączaj do woli. Przełącznik uruchamia wszystko, co się z nim połączy. Niezastąpiony we włączaniu i wyłączaniu jednym przyciśnięciem. Może uruchomić wszystkie rodzaje silników, programator i inne elementy."
   },
   {
     "Id": "recipeWorkbench8",
     "Title": "Przycisk",
-    "Description": "Uruchamia różne elementy na czas, kiedy pozostaje wciśnięty."
+    "Description": "Uruchamia różne elementy. Pozostają one włączone tak długo, jak długo wciśnięty jest przycisk."
   },
   {
     "Id": "recipeWorkbench9",

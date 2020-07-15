@@ -1,59 +1,59 @@
 [
   {
     "Id": "intera1",
-    "Title": "Fridge"
+    "Title": "냉장고"
   },
   {
     "Id": "intera2",
-    "Title": "Locker"
+    "Title": "사물함"
   },
   {
     "Id": "intera3",
-    "Title": "File Cabinet"
+    "Title": "파일 캐비닛"
   },
   {
     "Id": "intera4",
-    "Title": "Chest"
+    "Title": "상자"
   },
   {
     "Id": "intera5",
-    "Title": "Large Chest"
+    "Title": "대형 상자"
   },
   {
     "Id": "intera6",
-    "Title": "Protector: Anti-Destruction"
+    "Title": "보호물: 파열 방지"
   },
   {
     "Id": "intera7",
-    "Title": "Encryptor: Anti-Connection"
+    "Title": "암호생성기: 연결 방지"
   },
   {
     "Id": "intera8",
-    "Title": "Oily Toilet Seat"
+    "Title": "기름진 변기"
   },
   {
     "Id": "intera9",
-    "Title": "Resource Collector"
+    "Title": "자원 수집기"
   },
   {
     "Id": "intera10",
-    "Title": "Refinebot"
+    "Title": "리파인봇"
   },
   {
     "Id": "intera11",
-    "Title": "Dressbot"
+    "Title": "드레스봇"
   },
   {
     "Id": "intera12",
-    "Title": "Water Cannon"
+    "Title": "물대포"
   },
   {
     "Id": "intera13",
-    "Title": "Mountable Spud Gun"
+    "Title": "마운트 가능 장난감총"
   },
   {
     "Id": "intera14",
-    "Title": "Respawn Bed"
+    "Title": "부활 침대"
   },
   {
     "Id": "intera15",
@@ -85,7 +85,7 @@
   },
   {
     "Id": "intera22",
-    "Title": "양변기"
+    "Title": "변기"
   },
   {
     "Id": "intera23",
@@ -125,7 +125,7 @@
   },
   {
     "Id": "intera32",
-    "Title": "로직 게이트"
+    "Title": "논리 게이트"
   },
   {
     "Id": "intera33",
@@ -141,11 +141,11 @@
   },
   {
     "Id": "intera36",
-    "Title": "토트봇 머리: 기계 목소리"
+    "Title": "토트봇 머리: 신시사이저 보이스"
   },
   {
     "Id": "intera37",
-    "Title": "토트봇 머리: 비프음"
+    "Title": "토트봇 머리: 삑"
   },
   {
     "Id": "intera38",
@@ -157,7 +157,7 @@
   },
   {
     "Id": "intera40",
-    "Title": "Raft 상어 마운트"
+    "Title": "래프트 상어 마운트"
   },
   {
     "Id": "intera41",
@@ -165,10 +165,10 @@
   },
   {
     "Id": "intera42",
-    "Title": "Small Explosive Canister"
+    "Title": "소형 폭발성 통"
   },
   {
     "Id": "intera43",
-    "Title": "Large Explosive Canister"
+    "Title": "대형 폭발성 통"
   }
 ]

@@ -1,17 +1,17 @@
 [
   {
     "Id": "recipeCook1",
-    "Title": "Pizza Burger",
-    "Description": "A mechanics favorite food. Fills up the hunger meter to the max"
+    "Title": "피자 버거",
+    "Description": "정비공은 먹길 좋아하죠. 모든 수치를 최대치로 채워줍니다."
   },
   {
     "Id": "recipeCook2",
-    "Title": "Veggie Burger",
-    "Description": "A vegetarian alternative. Fills up the hunger meter to the max"
+    "Title": "야채 버거",
+    "Description": "채식주의자를 위한 대체 식품. 모든 수치를 최대치로 채워줍니다."
   },
   {
     "Id": "recipeCook3",
-    "Title": "Revival Baguette",
-    "Description": "Feed your fallen friends to get them back on their feet and back in action"
+    "Title": "부활 바게트",
+    "Description": "쓰러진 친구에게 먹이면 친구가 다시 부활합니다."
   }
 ]

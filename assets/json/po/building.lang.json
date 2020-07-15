@@ -1,82 +1,82 @@
 [
   {
     "Id": "build1",
-    "Title": "Stand Support A"
+    "Title": "Wspornik A"
   },
   {
     "Id": "build2",
-    "Title": "Stand Support Long"
+    "Title": "Wspornik długi"
   },
   {
     "Id": "build3",
-    "Title": "Stand Support Corner"
+    "Title": "Wspornik narożny"
   },
   {
     "Id": "build4",
-    "Title": "Stand Support"
+    "Title": "Wspornik"
   },
   {
     "Id": "build5",
-    "Title": "Stand Support Base"
+    "Title": "Wspornik – podstawa"
   },
   {
     "Id": "build6",
-    "Title": "Mop Set"
+    "Title": "Mop"
   },
   {
     "Id": "build7",
-    "Title": "Bathroom Stall Door"
+    "Title": "Drzwi toalety"
   },
   {
     "Id": "build8",
-    "Title": "Slippery Surface Sign"
+    "Title": "Znak „Mokra nawierzchnia”"
   },
   {
     "Id": "build9",
-    "Title": "Plunger"
+    "Title": "Przepychacz"
   },
   {
     "Id": "build10",
-    "Title": "Warehouse sink"
+    "Title": "Zlew z magazynu"
   },
   {
     "Id": "build11",
-    "Title": "Water Dispenser"
+    "Title": "Podajnik wody"
   },
   {
     "Id": "build12",
-    "Title": "Cup Holder"
+    "Title": "Uchwyt na kubek"
   },
   {
     "Id": "build13",
-    "Title": "Water Tank"
+    "Title": "Zbiornik z wodą"
   },
   {
     "Id": "build14",
-    "Title": "Cubicle Wall"
+    "Title": "Ścianka biurowa"
   },
   {
     "Id": "build15",
-    "Title": "Corner Brace"
+    "Title": "Szyna rożna"
   },
   {
     "Id": "build16",
-    "Title": "Office Table B"
+    "Title": "Stolik biurowy B"
   },
   {
     "Id": "build17",
-    "Title": "Office Table A"
+    "Title": "Stolik biurowy A"
   },
   {
     "Id": "build18",
-    "Title": "Office Table Leg"
+    "Title": "Noga stolika biurowego"
   },
   {
     "Id": "build19",
-    "Title": "Office Chair Top"
+    "Title": "Góra fotela biurowego"
   },
   {
     "Id": "build20",
-    "Title": "Office Chair Base"
+    "Title": "Podstawa fotela biurowego"
   }
 ]

@@ -1,38 +1,38 @@
 [
   {
     "Id": "man1",
-    "Title": "Shack Wall"
+    "Title": "Muro de choza"
   },
   {
     "Id": "man2",
-    "Title": "Shack Half Wall"
+    "Title": "Medio muro de choza"
   },
   {
     "Id": "man3",
-    "Title": "Shade Sails"
+    "Title": "Toldos de choza"
   },
   {
     "Id": "man4",
-    "Title": "Awning"
+    "Title": "Pérgola de choza"
   },
   {
     "Id": "man5",
-    "Title": "Shack Roof"
+    "Title": "Tejado de choza"
   },
   {
     "Id": "man6",
-    "Title": "Shack Light"
+    "Title": "Luz de choza"
   },
   {
     "Id": "man7",
-    "Title": "Fresh Neon Sign"
+    "Title": "Señal de neón \"Fresh\""
   },
   {
     "Id": "man8",
-    "Title": "Hard Work Sign"
+    "Title": "Señal de trabajo duro"
   },
   {
     "Id": "man9",
-    "Title": "Sale Sign"
+    "Title": "Señal de rebajas"
   }
 ]

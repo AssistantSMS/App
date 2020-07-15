@@ -1,28 +1,28 @@
 [
   {
     "Id": "recipeWorkbench1",
-    "Title": "Scrap Gas Engine",
-    "Description": "An engine with uneven speed and adjustable power, ideally suited to powering vehicles. Can be connected to a driver's seat or trigger. This Engine is not upgradable."
+    "Title": "Motor de gasolina de chatarra",
+    "Description": "Un motor de velocidad desigual y potencia ajustable, ideal para alimentar vehículos. Se puede conectar a un asiento de conductor o a un disparador. Este motor no se puede mejorar."
   },
   {
     "Id": "recipeWorkbench2",
-    "Title": "Scrap Driver's Seat",
-    "Description": "Makes bearings turn left and right. Can be connected to an engine to control the direction of travel. Can also be connected to triggers that can be activated from the seat. This Drive's Seat is not upgradable."
+    "Title": "Asiento de conductor de chatarra",
+    "Description": "Hace que los cojinetes giren a derecha e izquierda. Se puede conectar a un motor para controlar la dirección del trayecto. También se puede conectar a disparadores que se podrán activar desde el asiento. Este asiento de conductor no se puede mejorar."
   },
   {
     "Id": "recipeWorkbench3",
-    "Title": "Scrap Seat",
-    "Description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. This Seat is not upgradable."
+    "Title": "Asiento de chatarra",
+    "Description": "Se usa para no ir de pie. Siéntate y relájate o añádelo a tu vehículo para que tus amigos puedan ir contigo. Este asiento no se puede mejorar."
   },
   {
     "Id": "recipeWorkbench4",
-    "Title": "Scrap Wheel",
-    "Description": "Not perfectly round"
+    "Title": "Rueda de chatarra",
+    "Description": "No es del todo redonda."
   },
   {
     "Id": "recipeWorkbench5",
     "Title": "Cojinete",
-    "Description": "Todo lo que se coloca en el cojinete girará. Los cojinetes también se puede conectar a un motor o al asiento del conductor para ser controlado de diferentes maneras."
+    "Description": "Todo lo que pongas en el cojinete empezará a dar vueltas. Los cojinetes también se pueden conectar a motores o al asiento de conductor para controlarlo de distintas formas."
   },
   {
     "Id": "recipeWorkbench6",
@@ -31,12 +31,12 @@
   {
     "Id": "recipeWorkbench7",
     "Title": "Interruptor",
-    "Description": "Alterna ilimitadamente a la carta. El interruptor activa lo que esté conectado a el, por lo que es indispensable cuando se quieren encender y apagar cosas con una sola pulsación. Puede activar un motor, un propulsor, el controlador y más"
+    "Description": "Para activar o desactivar cosas. El interruptor activa cualquier cosa a la que esté conectado, lo cual lo hace indispensable cuando quieres activar y desactivar cosas con un simple toque. Puede desactivar motores, controladores, propulsores, etc."
   },
   {
     "Id": "recipeWorkbench8",
     "Title": "Botón",
-    "Description": "Activa cosas. El botón activa mientras permanece presionado."
+    "Description": "Activa cosas. El botón actúa mientras se mantenga pulsado."
   },
   {
     "Id": "recipeWorkbench9",

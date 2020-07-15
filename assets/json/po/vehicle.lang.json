@@ -1,23 +1,23 @@
 [
   {
     "Id": "veh1",
-    "Title": "Concave Wedge"
+    "Title": "Klin do narożnika"
   },
   {
     "Id": "veh2",
-    "Title": "License Plate"
+    "Title": "Tablica rejestracyjna"
   },
   {
     "Id": "veh3",
-    "Title": "Metallic Tube Straight"
+    "Title": "Prosta metalowa rura"
   },
   {
     "Id": "veh4",
-    "Title": "Metallic Tube Bend"
+    "Title": "Zgięta metalowa rura"
   },
   {
     "Id": "veh5",
-    "Title": "Rounded Frame Corner"
+    "Title": "Zaokrąglony róg ramki"
   },
   {
     "Id": "veh6",

@@ -1,18 +1,18 @@
 [
   {
     "Id": "scrap1",
-    "Title": "Scrap Driver's Seat"
+    "Title": "기초 운전석"
   },
   {
     "Id": "scrap2",
-    "Title": "Scrap Seat"
+    "Title": "기초 좌석"
   },
   {
     "Id": "scrap3",
-    "Title": "Scrap Wheel"
+    "Title": "기초 바퀴"
   },
   {
     "Id": "scrap4",
-    "Title": "Scrap Gas Engine"
+    "Title": "기초 가솔린 엔진"
   }
 ]

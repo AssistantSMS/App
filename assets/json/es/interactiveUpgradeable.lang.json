@@ -1,203 +1,203 @@
 [
   {
     "Id": "interu1",
-    "Title": "Sport Suspension 1"
+    "Title": "Suspensión deportiva 1"
   },
   {
     "Id": "interu2",
-    "Title": "Sport Suspension 2"
+    "Title": "Suspensión deportiva 2"
   },
   {
     "Id": "interu3",
-    "Title": "Sport Suspension 3"
+    "Title": "Suspensión deportiva 3"
   },
   {
     "Id": "interu4",
-    "Title": "Sport Suspension 4"
+    "Title": "Suspensión deportiva 4"
   },
   {
     "Id": "interu5",
-    "Title": "Sport Suspension 5"
+    "Title": "Suspensión deportiva 5"
   },
   {
     "Id": "interu6",
-    "Title": "Off-Road Suspension 1"
+    "Title": "Suspensión todoterreno 1"
   },
   {
     "Id": "interu7",
-    "Title": "Off-Road Suspension 2"
+    "Title": "Suspensión todoterreno 2"
   },
   {
     "Id": "interu8",
-    "Title": "Off-Road Suspension 3"
+    "Title": "Suspensión todoterreno 3"
   },
   {
     "Id": "interu9",
-    "Title": "Off-Road Suspension 4"
+    "Title": "Suspensión todoterreno 4"
   },
   {
     "Id": "interu10",
-    "Title": "Off-Road Suspension 5"
+    "Title": "Suspensión todoterreno 5"
   },
   {
     "Id": "interu11",
-    "Title": "Driver's Seat 1"
+    "Title": "Asiento de conductor 1"
   },
   {
     "Id": "interu12",
-    "Title": "Driver's Seat 2"
+    "Title": "Asiento de conductor 2"
   },
   {
     "Id": "interu13",
-    "Title": "Driver's Seat 3"
+    "Title": "Asiento de conductor 3"
   },
   {
     "Id": "interu14",
-    "Title": "Driver's Seat 4"
+    "Title": "Asiento de conductor 4"
   },
   {
     "Id": "interu15",
-    "Title": "Driver's Seat 5"
+    "Title": "Asiento de conductor 5"
   },
   {
     "Id": "interu16",
-    "Title": "Driver's Saddle 1"
+    "Title": "Sillín de conductor 1"
   },
   {
     "Id": "interu17",
-    "Title": "Driver's Saddle 2"
+    "Title": "Sillín de conductor 2"
   },
   {
     "Id": "interu18",
-    "Title": "Driver's Saddle 3"
+    "Title": "Sillín de conductor 3"
   },
   {
     "Id": "interu19",
-    "Title": "Driver's Saddle 4"
+    "Title": "Sillín de conductor 4"
   },
   {
     "Id": "interu20",
-    "Title": "Driver's Saddle 5"
+    "Title": "Sillín de conductor 5"
   },
   {
     "Id": "interu21",
-    "Title": "Seat 1"
+    "Title": "Asiento 1"
   },
   {
     "Id": "interu22",
-    "Title": "Seat 2"
+    "Title": "Asiento 2"
   },
   {
     "Id": "interu23",
-    "Title": "Seat 3"
+    "Title": "Asiento 3"
   },
   {
     "Id": "interu24",
-    "Title": "Seat 4"
+    "Title": "Asiento 4"
   },
   {
     "Id": "interu25",
-    "Title": "Seat 5"
+    "Title": "Asiento 5"
   },
   {
     "Id": "interu26",
-    "Title": "Saddle 1"
+    "Title": "Sillín 1"
   },
   {
     "Id": "interu27",
-    "Title": "Saddle 2"
+    "Title": "Sillín 2"
   },
   {
     "Id": "interu28",
-    "Title": "Saddle 3"
+    "Title": "Sillín 3"
   },
   {
     "Id": "interu29",
-    "Title": "Saddle 4"
+    "Title": "Sillín 4"
   },
   {
     "Id": "interu30",
-    "Title": "Saddle 5"
+    "Title": "Sillín 5"
   },
   {
     "Id": "interu31",
-    "Title": "Gas Engine 1"
+    "Title": "Motor de gasolina 1"
   },
   {
     "Id": "interu32",
-    "Title": "Gas Engine 2"
+    "Title": "Motor de gasolina 2"
   },
   {
     "Id": "interu33",
-    "Title": "Gas Engine 3"
+    "Title": "Motor de gasolina 3"
   },
   {
     "Id": "interu34",
-    "Title": "Gas Engine 4"
+    "Title": "Motor de gasolina 4"
   },
   {
     "Id": "interu35",
-    "Title": "Gas Engine 5"
+    "Title": "Motor de gasolina 5"
   },
   {
     "Id": "interu36",
-    "Title": "Electric Engine 1"
+    "Title": "Motor eléctrico 1"
   },
   {
     "Id": "interu37",
-    "Title": "Electric Engine 2"
+    "Title": "Motor eléctrico 2"
   },
   {
     "Id": "interu38",
-    "Title": "Electric Engine 3"
+    "Title": "Motor eléctrico 3"
   },
   {
     "Id": "interu39",
-    "Title": "Electric Engine 4"
+    "Title": "Motor eléctrico 4"
   },
   {
     "Id": "interu40",
-    "Title": "Electric Engine 5"
+    "Title": "Motor eléctrico 5"
   },
   {
     "Id": "interu41",
-    "Title": "Thruster 1"
+    "Title": "Propulsor 1"
   },
   {
     "Id": "interu42",
-    "Title": "Thruster 2"
+    "Title": "Propulsor 2"
   },
   {
     "Id": "interu43",
-    "Title": "Thruster 3"
+    "Title": "Propulsor 3"
   },
   {
     "Id": "interu44",
-    "Title": "Thruster 4"
+    "Title": "Propulsor 4"
   },
   {
     "Id": "interu45",
-    "Title": "Thruster 5"
+    "Title": "Propulsor 5"
   },
   {
     "Id": "interu46",
-    "Title": "Controller 1"
+    "Title": "Controlador 1"
   },
   {
     "Id": "interu47",
-    "Title": "Controller 2"
+    "Title": "Controlador 2"
   },
   {
     "Id": "interu48",
-    "Title": "Controller 3"
+    "Title": "Controlador 3"
   },
   {
     "Id": "interu49",
-    "Title": "Controller 4"
+    "Title": "Controlador 4"
   },
   {
     "Id": "interu50",
-    "Title": "Controller 5"
+    "Title": "Controlador 5"
   },
   {
     "Id": "interu51",
@@ -221,22 +221,22 @@
   },
   {
     "Id": "interu56",
-    "Title": "Piston 1"
+    "Title": "Pistón 1"
   },
   {
     "Id": "interu57",
-    "Title": "Piston 2"
+    "Title": "Pistón 2"
   },
   {
     "Id": "interu58",
-    "Title": "Piston 3"
+    "Title": "Pistón 3"
   },
   {
     "Id": "interu59",
-    "Title": "Piston 4"
+    "Title": "Pistón 4"
   },
   {
     "Id": "interu60",
-    "Title": "Piston 5"
+    "Title": "Pistón 5"
   }
 ]

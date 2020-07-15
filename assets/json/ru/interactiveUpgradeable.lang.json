@@ -1,242 +1,242 @@
 [
   {
     "Id": "interu1",
-    "Title": "Sport Suspension 1"
+    "Title": "Спортивная подвеска 1"
   },
   {
     "Id": "interu2",
-    "Title": "Sport Suspension 2"
+    "Title": "Спортивная подвеска 2"
   },
   {
     "Id": "interu3",
-    "Title": "Sport Suspension 3"
+    "Title": "Спортивная подвеска 3"
   },
   {
     "Id": "interu4",
-    "Title": "Sport Suspension 4"
+    "Title": "Спортивная подвеска 4"
   },
   {
     "Id": "interu5",
-    "Title": "Sport Suspension 5"
+    "Title": "Спортивная подвеска 5"
   },
   {
     "Id": "interu6",
-    "Title": "Off-Road Suspension 1"
+    "Title": "Внедорожная подвеска 1"
   },
   {
     "Id": "interu7",
-    "Title": "Off-Road Suspension 2"
+    "Title": "Внедорожная подвеска 2"
   },
   {
     "Id": "interu8",
-    "Title": "Off-Road Suspension 3"
+    "Title": "Внедорожная подвеска 3"
   },
   {
     "Id": "interu9",
-    "Title": "Off-Road Suspension 4"
+    "Title": "Внедорожная подвеска 4"
   },
   {
     "Id": "interu10",
-    "Title": "Off-Road Suspension 5"
+    "Title": "Внедорожная подвеска 5"
   },
   {
     "Id": "interu11",
-    "Title": "Driver's Seat 1"
+    "Title": "Сиденье водителя 1"
   },
   {
     "Id": "interu12",
-    "Title": "Driver's Seat 2"
+    "Title": "Сиденье водителя 2"
   },
   {
     "Id": "interu13",
-    "Title": "Driver's Seat 3"
+    "Title": "Сиденье водителя 3"
   },
   {
     "Id": "interu14",
-    "Title": "Driver's Seat 4"
+    "Title": "Сиденье водителя 4"
   },
   {
     "Id": "interu15",
-    "Title": "Driver's Seat 5"
+    "Title": "Сиденье водителя 5"
   },
   {
     "Id": "interu16",
-    "Title": "Driver's Saddle 1"
+    "Title": "Седло водителя 1"
   },
   {
     "Id": "interu17",
-    "Title": "Driver's Saddle 2"
+    "Title": "Седло водителя 2"
   },
   {
     "Id": "interu18",
-    "Title": "Driver's Saddle 3"
+    "Title": "Седло водителя 3"
   },
   {
     "Id": "interu19",
-    "Title": "Driver's Saddle 4"
+    "Title": "Седло водителя 4"
   },
   {
     "Id": "interu20",
-    "Title": "Driver's Saddle 5"
+    "Title": "Седло водителя 5"
   },
   {
     "Id": "interu21",
-    "Title": "Seat 1"
+    "Title": "Сиденье 1"
   },
   {
     "Id": "interu22",
-    "Title": "Seat 2"
+    "Title": "Сиденье 2"
   },
   {
     "Id": "interu23",
-    "Title": "Seat 3"
+    "Title": "Сиденье 3"
   },
   {
     "Id": "interu24",
-    "Title": "Seat 4"
+    "Title": "Сиденье 4"
   },
   {
     "Id": "interu25",
-    "Title": "Seat 5"
+    "Title": "Сиденье 5"
   },
   {
     "Id": "interu26",
-    "Title": "Saddle 1"
+    "Title": "Седло 1"
   },
   {
     "Id": "interu27",
-    "Title": "Saddle 2"
+    "Title": "Седло 2"
   },
   {
     "Id": "interu28",
-    "Title": "Saddle 3"
+    "Title": "Седло 3"
   },
   {
     "Id": "interu29",
-    "Title": "Saddle 4"
+    "Title": "Седло 4"
   },
   {
     "Id": "interu30",
-    "Title": "Saddle 5"
+    "Title": "Седло 5"
   },
   {
     "Id": "interu31",
-    "Title": "Gas Engine 1"
+    "Title": "Бензиновый двигатель 1"
   },
   {
     "Id": "interu32",
-    "Title": "Gas Engine 2"
+    "Title": "Бензиновый двигатель 2"
   },
   {
     "Id": "interu33",
-    "Title": "Gas Engine 3"
+    "Title": "Бензиновый двигатель 3"
   },
   {
     "Id": "interu34",
-    "Title": "Gas Engine 4"
+    "Title": "Бензиновый двигатель 4"
   },
   {
     "Id": "interu35",
-    "Title": "Gas Engine 5"
+    "Title": "Бензиновый двигатель 5"
   },
   {
     "Id": "interu36",
-    "Title": "Electric Engine 1"
+    "Title": "Электродвигатель 1"
   },
   {
     "Id": "interu37",
-    "Title": "Electric Engine 2"
+    "Title": "Электродвигатель 2"
   },
   {
     "Id": "interu38",
-    "Title": "Electric Engine 3"
+    "Title": "Электродвигатель 3"
   },
   {
     "Id": "interu39",
-    "Title": "Electric Engine 4"
+    "Title": "Электродвигатель 4"
   },
   {
     "Id": "interu40",
-    "Title": "Electric Engine 5"
+    "Title": "Электродвигатель 5"
   },
   {
     "Id": "interu41",
-    "Title": "Thruster 1"
+    "Title": "Реактивный двигатель 1"
   },
   {
     "Id": "interu42",
-    "Title": "Thruster 2"
+    "Title": "Реактивный двигатель 2"
   },
   {
     "Id": "interu43",
-    "Title": "Thruster 3"
+    "Title": "Реактивный двигатель 3"
   },
   {
     "Id": "interu44",
-    "Title": "Thruster 4"
+    "Title": "Реактивный двигатель 4"
   },
   {
     "Id": "interu45",
-    "Title": "Thruster 5"
+    "Title": "Реактивный двигатель 5"
   },
   {
     "Id": "interu46",
-    "Title": "Controller 1"
+    "Title": "Контроллер 1"
   },
   {
     "Id": "interu47",
-    "Title": "Controller 2"
+    "Title": "Контроллер 2"
   },
   {
     "Id": "interu48",
-    "Title": "Controller 3"
+    "Title": "Контроллер 3"
   },
   {
     "Id": "interu49",
-    "Title": "Controller 4"
+    "Title": "Контроллер 4"
   },
   {
     "Id": "interu50",
-    "Title": "Controller 5"
+    "Title": "Контроллер 5"
   },
   {
     "Id": "interu51",
-    "Title": "Sensor 1"
+    "Title": "Сенсор 1"
   },
   {
     "Id": "interu52",
-    "Title": "Sensor 2"
+    "Title": "Сенсор 2"
   },
   {
     "Id": "interu53",
-    "Title": "Sensor 3"
+    "Title": "Сенсор 3"
   },
   {
     "Id": "interu54",
-    "Title": "Sensor 4"
+    "Title": "Сенсор 4"
   },
   {
     "Id": "interu55",
-    "Title": "Sensor 5"
+    "Title": "Сенсор 5"
   },
   {
     "Id": "interu56",
-    "Title": "Piston 1"
+    "Title": "Поршень 1"
   },
   {
     "Id": "interu57",
-    "Title": "Piston 2"
+    "Title": "Поршень 2"
   },
   {
     "Id": "interu58",
-    "Title": "Piston 3"
+    "Title": "Поршень 3"
   },
   {
     "Id": "interu59",
-    "Title": "Piston 4"
+    "Title": "Поршень 4"
   },
   {
     "Id": "interu60",
-    "Title": "Piston 5"
+    "Title": "Поршень 5"
   }
 ]

@@ -1,35 +1,35 @@
 [
   {
     "Id": "consu1",
-    "Title": "Gasoline"
+    "Title": "Gasolina"
   },
   {
     "Id": "consu2",
-    "Title": "Battery"
+    "Title": "Bateria"
   },
   {
     "Id": "consu3",
-    "Title": "Water"
+    "Title": "Água"
   },
   {
     "Id": "consu4",
-    "Title": "Fertilizer"
+    "Title": "Fertilizante"
   },
   {
     "Id": "consu5",
-    "Title": "Chemicals"
+    "Title": "Químicos"
   },
   {
     "Id": "consu6",
-    "Title": "Component Kit"
+    "Title": "Kit de Componentes"
   },
   {
     "Id": "consu7",
-    "Title": "Paint Ammo"
+    "Title": "Munição Pigmentadora"
   },
   {
     "Id": "consu8",
-    "Title": "Glowstick"
+    "Title": "Bastão Fluorescente"
   },
   {
     "Id": "consu9",
@@ -37,22 +37,22 @@
   },
   {
     "Id": "consu10",
-    "Title": "Pizza Burger"
+    "Title": "Hambúrguer de Pizza"
   },
   {
     "Id": "consu11",
-    "Title": "Veggie Burger"
+    "Title": "Hambúrguer Vegetariano"
   },
   {
     "Id": "consu12",
-    "Title": "Revival Baguette"
+    "Title": "Baguete da Ressurreição"
   },
   {
     "Id": "consu13",
-    "Title": "Woc Milk"
+    "Title": "Leite de Woc"
   },
   {
     "Id": "consu14",
-    "Title": "Soil Bag"
+    "Title": "Saco de Terra"
   }
 ]

@@ -1,47 +1,47 @@
 [
   {
     "Id": "indus1",
-    "Title": "Generator Coil Segment"
+    "Title": "Generatorspule (Segment)"
   },
   {
     "Id": "indus2",
-    "Title": "Generator Coil Corner"
+    "Title": "Generatorspule (Eckteil)"
   },
   {
     "Id": "indus3",
-    "Title": "Ventilation Frame"
+    "Title": "Lüftungsrahmen"
   },
   {
     "Id": "indus4",
-    "Title": "Steel Support Bracket"
+    "Title": "Stahlstützwinkel"
   },
   {
     "Id": "indus5",
-    "Title": "Encryptor Base"
+    "Title": "Kodiergerätfuß"
   },
   {
     "Id": "indus6",
-    "Title": "Encryptor Base Plate"
+    "Title": "Kodiergerätfußplatte"
   },
   {
     "Id": "indus7",
-    "Title": "Encryptor Frame Top"
+    "Title": "Kodiergerätrahmen oben"
   },
   {
     "Id": "indus8",
-    "Title": "Small Steel Bracket"
+    "Title": "Kleiner Stahlwinkel"
   },
   {
     "Id": "indus9",
-    "Title": "Encryptor Frame Beam"
+    "Title": "Kodiergerätrahmenträger"
   },
   {
     "Id": "indus10",
-    "Title": "Encryptor Holder"
+    "Title": "Kodiergeräthalterung"
   },
   {
     "Id": "indus11",
-    "Title": "Base Extension"
+    "Title": "Basiserweiterung"
   },
   {
     "Id": "indus12",
@@ -61,11 +61,11 @@
   },
   {
     "Id": "indus16",
-    "Title": "Power Generator Side"
+    "Title": "Energiegenerator (Seite)"
   },
   {
     "Id": "indus17",
-    "Title": "Generator Tank"
+    "Title": "Generatortank"
   },
   {
     "Id": "indus18",
@@ -73,31 +73,31 @@
   },
   {
     "Id": "indus19",
-    "Title": "Trigger Frame"
+    "Title": "Auslöserrahmen"
   },
   {
     "Id": "indus20",
-    "Title": "Generator Pipe Holder"
+    "Title": "Rohr für Generator (Halterung)"
   },
   {
     "Id": "indus21",
-    "Title": "Kurzer I-Träger"
+    "Title": "Kurzer Doppel-T-Träger"
   },
   {
     "Id": "indus22",
-    "Title": "Langer I-Träger"
+    "Title": "Langer Doppel-T-Träger"
   },
   {
     "Id": "indus23",
-    "Title": "I-Träger-Ecke"
+    "Title": "Doppel-T-Träger (Eckteil)"
   },
   {
     "Id": "indus24",
-    "Title": "I-Träger-Halterung"
+    "Title": "Doppel-T-Träger Halterung"
   },
   {
     "Id": "indus25",
-    "Title": "I-Träger-Ende"
+    "Title": "Doppel-T-Träger Endstück"
   },
   {
     "Id": "indus26",
@@ -109,19 +109,19 @@
   },
   {
     "Id": "indus28",
-    "Title": "Langes Treppengeländer"
+    "Title": "Langer Treppenhandlauf"
   },
   {
     "Id": "indus29",
-    "Title": "Kurzes Treppengeländer"
+    "Title": "Kurzer Treppenhandlauf"
   },
   {
     "Id": "indus30",
-    "Title": "Treppenbalustrade"
+    "Title": "Treppenbaluster"
   },
   {
     "Id": "indus31",
-    "Title": "Treppengeländer- Verbindung"
+    "Title": "Treppengeländer-Verbindungsstück"
   },
   {
     "Id": "indus32",
@@ -129,7 +129,7 @@
   },
   {
     "Id": "indus33",
-    "Title": "Treppenhandlauf"
+    "Title": "Treppengeländer"
   },
   {
     "Id": "indus34",
@@ -141,7 +141,7 @@
   },
   {
     "Id": "indus36",
-    "Title": "Belüftungsgitter"
+    "Title": "Lüftungsgitter"
   },
   {
     "Id": "indus37",
@@ -153,15 +153,15 @@
   },
   {
     "Id": "indus39",
-    "Title": "Große Tragstruktur"
+    "Title": "Große Stützstruktur"
   },
   {
     "Id": "indus40",
-    "Title": "Tragstruktur"
+    "Title": "Stützstruktur"
   },
   {
     "Id": "indus41",
-    "Title": "Small Support Structure"
+    "Title": "Kleine Stützstruktur"
   },
   {
     "Id": "indus42",
@@ -173,15 +173,15 @@
   },
   {
     "Id": "indus44",
-    "Title": "Stützpfeiler"
+    "Title": "Stützsäule"
   },
   {
     "Id": "indus45",
-    "Title": "Stützpfeilerständer"
+    "Title": "Stützsäulenfuß"
   },
   {
     "Id": "indus46",
-    "Title": "Regalpfeiler"
+    "Title": "Regalsäule"
   },
   {
     "Id": "indus47",
@@ -217,11 +217,11 @@
   },
   {
     "Id": "indus55",
-    "Title": "Sendeturm"
+    "Title": "Turmmast"
   },
   {
     "Id": "indus56",
-    "Title": "Sendeturmspitze"
+    "Title": "Turmmastspitze"
   },
   {
     "Id": "indus57",
@@ -229,7 +229,7 @@
   },
   {
     "Id": "indus58",
-    "Title": "Reflektorsatellitenschüssel"
+    "Title": "Satellitenschüssel-Reflektor"
   },
   {
     "Id": "indus59",
@@ -241,7 +241,7 @@
   },
   {
     "Id": "indus61",
-    "Title": "Rechteckiges Fenster klein"
+    "Title": "Kleines rechteckiges Fenster"
   },
   {
     "Id": "indus62",
@@ -249,14 +249,14 @@
   },
   {
     "Id": "indus63",
-    "Title": "Rechteckiges Fenster groß"
+    "Title": "Großes rechteckiges Fenster"
   },
   {
     "Id": "indus64",
-    "Title": "Große Windschutzscheibe"
+    "Title": "Großer Windschutz"
   },
   {
     "Id": "indus65",
-    "Title": "Kleine Windschutzscheibe"
+    "Title": "Kleiner Windschutz"
   }
 ]

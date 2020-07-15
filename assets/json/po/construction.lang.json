@@ -1,82 +1,82 @@
 [
   {
     "Id": "constr1",
-    "Title": "Hollow Concrete"
+    "Title": "Pustak"
   },
   {
     "Id": "constr2",
-    "Title": "Broken Concrete Small"
+    "Title": "Pokruszony beton – mały"
   },
   {
     "Id": "constr3",
-    "Title": "Broken Concrete Medium"
+    "Title": "Pokruszony beton – średni"
   },
   {
     "Id": "constr4",
-    "Title": "Broken Concrete Large"
+    "Title": "Pokruszony beton – duży"
   },
   {
     "Id": "constr5",
-    "Title": "Barrier Stand"
+    "Title": "Barierka"
   },
   {
     "Id": "constr6",
-    "Title": "Cement Mix"
+    "Title": "Mieszanka cementowa"
   },
   {
     "Id": "constr7",
-    "Title": "Concrete Block Mould"
+    "Title": "Forma do bloków betonowych"
   },
   {
     "Id": "constr8",
-    "Title": "Carpet Roll"
+    "Title": "Rulon wykładziny"
   },
   {
     "Id": "constr9",
-    "Title": "Carpet Spool Holder"
+    "Title": "Stojak na rolkę wykładziny"
   },
   {
     "Id": "constr10",
-    "Title": "Scaffold Plastic Wall"
+    "Title": "Rusztowanie – ścianka"
   },
   {
     "Id": "constr11",
-    "Title": "Scaffold Ledger"
+    "Title": "Rusztowanie – podłużnica"
   },
   {
     "Id": "constr12",
-    "Title": "Scaffold Frame"
+    "Title": "Rusztowanie – szkielet"
   },
   {
     "Id": "constr13",
-    "Title": "Scaffold Plank"
+    "Title": "Rusztowanie – deska"
   },
   {
     "Id": "constr14",
-    "Title": "Construction Pallet"
+    "Title": "Paleta budowlana"
   },
   {
     "Id": "constr15",
-    "Title": "Scaffold Pallet Ramp"
+    "Title": "Rusztowanie – rampa paletowa"
   },
   {
     "Id": "constr16",
-    "Title": "Sound Isolation Small "
+    "Title": "Izolacja akustyczna – mała "
   },
   {
     "Id": "constr17",
-    "Title": "Sound Isolation Large"
+    "Title": "Izolacja akustyczna – duża"
   },
   {
     "Id": "constr18",
-    "Title": "Work Light"
+    "Title": "Reflektor"
   },
   {
     "Id": "constr19",
-    "Title": "Paint Bucket"
+    "Title": "Wiadro z farbą"
   },
   {
     "Id": "constr20",
-    "Title": "Scaffolding Step"
+    "Title": "Rusztowanie – stopień"
   }
 ]

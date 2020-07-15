@@ -1,38 +1,38 @@
 [
   {
     "Id": "pack1",
-    "Title": "Banana Crate"
+    "Title": "Caisse de bananes"
   },
   {
     "Id": "pack2",
-    "Title": "Blueberry Crate"
+    "Title": "Caisse de myrtilles"
   },
   {
     "Id": "pack3",
-    "Title": "Broccoli Crate"
+    "Title": "Caisse de brocolis"
   },
   {
     "Id": "pack4",
-    "Title": "Orange Crate"
+    "Title": "Caisse d'oranges"
   },
   {
     "Id": "pack5",
-    "Title": "Pineapple Crate"
+    "Title": "Caisse d'ananas"
   },
   {
     "Id": "pack6",
-    "Title": "Carrot Crate"
+    "Title": "Caisse de carottes"
   },
   {
     "Id": "pack7",
-    "Title": "Redbeet Crate"
+    "Title": "Caisse de betteraves"
   },
   {
     "Id": "pack8",
-    "Title": "Tomato Crate"
+    "Title": "Caisse de tomates"
   },
   {
     "Id": "pack9",
-    "Title": "Woc Crate"
+    "Title": "Caisse de woc"
   }
 ]

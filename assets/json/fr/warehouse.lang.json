@@ -1,166 +1,166 @@
 [
   {
     "Id": "ware1",
-    "Title": "Industrial Beam Short"
+    "Title": "Poutre industrielle courte"
   },
   {
     "Id": "ware2",
-    "Title": "Industrial Beam Long"
+    "Title": "Poutre industrielle longue"
   },
   {
     "Id": "ware3",
-    "Title": "Industrial Beam Corner"
+    "Title": "Coin de poutre industrielle"
   },
   {
     "Id": "ware4",
-    "Title": "Industrial Beam Corner Bend"
+    "Title": "Coin de coude de poutre industrielle"
   },
   {
     "Id": "ware5",
-    "Title": "Industrial Beam Four Way"
+    "Title": "Poutre industrielle à 4 côtés"
   },
   {
     "Id": "ware6",
-    "Title": "Industrial Beam Crossing"
+    "Title": "Croisement de poutre industrielle"
   },
   {
     "Id": "ware7",
-    "Title": "Industrial Beam End"
+    "Title": "Extrémité de poutre industrielle"
   },
   {
     "Id": "ware8",
-    "Title": "Frame Beam Short"
+    "Title": "Poutre porteuse courte"
   },
   {
     "Id": "ware9",
-    "Title": "Frame Beam Long"
+    "Title": "Poutre porteuse longue"
   },
   {
     "Id": "ware10",
-    "Title": "Frame Beam End"
+    "Title": "Extrémité de poutre porteuse"
   },
   {
     "Id": "ware11",
-    "Title": "Frame Beam Corner"
+    "Title": "Coin de poutre porteuse"
   },
   {
     "Id": "ware12",
-    "Title": "Warehouse Ramp Big"
+    "Title": "Grande rampe d'entrepôt"
   },
   {
     "Id": "ware13",
-    "Title": "Warehouse Ramp Small"
+    "Title": "Petite rampe d'entrepôt"
   },
   {
     "Id": "ware14",
-    "Title": "Warehouse Ramp Narrow"
+    "Title": "Grande rampe d'entrepôt étroite"
   },
   {
     "Id": "ware15",
-    "Title": "Warehouse Ramp Narrow Small"
+    "Title": "Petite rampe d'entrepôt étroite"
   },
   {
     "Id": "ware16",
-    "Title": "Metal Storage Support"
+    "Title": "Support de rangement en métal"
   },
   {
     "Id": "ware18",
-    "Title": "Metal Storage Ramp"
+    "Title": "Rampe de rangement en métal"
   },
   {
     "Id": "ware19",
-    "Title": "Large Metal Storage Lamp"
+    "Title": "Grande lampe de rangement en métal"
   },
   {
     "Id": "ware20",
-    "Title": "Metal Storage Beam"
+    "Title": "Poutre de rangement en métal"
   },
   {
     "Id": "ware21",
-    "Title": "Metal Storage Corner B"
+    "Title": "Coin B de rangement en métal"
   },
   {
     "Id": "ware22",
-    "Title": "Metal Storage Corner A"
+    "Title": "Coin C de rangement en métal"
   },
   {
     "Id": "ware23",
-    "Title": "Metal Storage Handle"
+    "Title": "Poignée de rangement en métal"
   },
   {
     "Id": "ware24",
-    "Title": "Metal Storage Floor"
+    "Title": "Sol de rangement en métal"
   },
   {
     "Id": "ware25",
-    "Title": "Fan Base"
+    "Title": "Base de ventilateur"
   },
   {
     "Id": "ware26",
-    "Title": "Fan Blade Cap"
+    "Title": "Bouchon de pale de ventilateur"
   },
   {
     "Id": "ware27",
-    "Title": "Fan Blade"
+    "Title": "Pale de ventilateur"
   },
   {
     "Id": "ware28",
-    "Title": "Packing Table"
+    "Title": "Table d'emballage"
   },
   {
     "Id": "ware29",
-    "Title": "Packing Table Holder"
+    "Title": "Support de table d'emballage"
   },
   {
     "Id": "ware30",
-    "Title": "Pack Instruction Sign"
+    "Title": "Panneau consignes d'emballage"
   },
   {
     "Id": "ware31",
-    "Title": "Wrapping Roll"
+    "Title": "Rouleau d'emballage"
   },
   {
     "Id": "ware32",
-    "Title": "Banner"
+    "Title": "Bannière"
   },
   {
     "Id": "ware34",
-    "Title": "Frame Beam Light"
+    "Title": "Lampe de poutre porteuse"
   },
   {
     "Id": "ware35",
-    "Title": "Crane Leg"
+    "Title": "Pied de grue"
   },
   {
     "Id": "ware36",
-    "Title": "Crane Panel"
+    "Title": "Panneau de grue"
   },
   {
     "Id": "ware37",
-    "Title": "Crane Cable Roll"
+    "Title": "Rouleau de câble de grue"
   },
   {
     "Id": "ware38",
-    "Title": "Crane Top"
+    "Title": "Partie supérieure de grue"
   },
   {
     "Id": "ware39",
-    "Title": "Crane Body"
+    "Title": "Corps de grue"
   },
   {
     "Id": "ware40",
-    "Title": "Crane Hook"
+    "Title": "Crochet de grue"
   },
   {
     "Id": "ware41",
-    "Title": "Crane Hook Block"
+    "Title": "Bloc de crochet de grue"
   },
   {
     "Id": "ware42",
-    "Title": "Crane Loading Floor"
+    "Title": "Plateforme de chargement de grue"
   },
   {
     "Id": "ware45",
-    "Title": "Master Switch"
+    "Title": "Interrupteur principal"
   }
 ]

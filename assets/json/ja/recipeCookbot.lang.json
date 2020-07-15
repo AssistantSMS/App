@@ -1,17 +1,17 @@
 [
   {
     "Id": "recipeCook1",
-    "Title": "Pizza Burger",
-    "Description": "A mechanics favorite food. Fills up the hunger meter to the max"
+    "Title": "ピザバーガー",
+    "Description": "メカニック​が​大好き​な​食べ物。​メーター​を​最大​まで​充填​し​ます。"
   },
   {
     "Id": "recipeCook2",
-    "Title": "Veggie Burger",
-    "Description": "A vegetarian alternative. Fills up the hunger meter to the max"
+    "Title": "野菜バーガー",
+    "Description": "野菜​の​代わり。​メーター​を​最大​まで​充填​し​ます。"
   },
   {
     "Id": "recipeCook3",
-    "Title": "Revival Baguette",
-    "Description": "Feed your fallen friends to get them back on their feet and back in action"
+    "Title": "蘇生パン",
+    "Description": "倒れ​た​フレンド​に​与える​と、​立ち上がり、​行動​できる​よう​に​なり​ます。"
   }
 ]

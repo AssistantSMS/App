@@ -1,46 +1,46 @@
 [
   {
     "Id": "reso1",
-    "Title": "Ember"
+    "Title": "Brasa"
   },
   {
     "Id": "reso2",
-    "Title": "Beeswax"
+    "Title": "Cera de Abelha"
   },
   {
     "Id": "reso3",
-    "Title": "Glue Clam"
+    "Title": "Marisco Pegajoso"
   },
   {
     "Id": "reso4",
-    "Title": "Cotton"
+    "Title": "Algodão"
   },
   {
     "Id": "reso5",
-    "Title": "Corn"
+    "Title": "Milho"
   },
   {
     "Id": "reso6",
-    "Title": "Circuit Board"
+    "Title": "Placa de Circuito"
   },
   {
     "Id": "reso7",
-    "Title": "Woc Steak"
+    "Title": "Filé de Woc"
   },
   {
     "Id": "reso8",
-    "Title": "Glow"
+    "Title": "Incandescência"
   },
   {
     "Id": "reso9",
-    "Title": "Pigment Flower"
+    "Title": "Flor Pigmentada"
   },
   {
     "Id": "reso10",
-    "Title": "Glue"
+    "Title": "Cola"
   },
   {
     "Id": "reso11",
-    "Title": "Crude Oil"
+    "Title": "Petróleo Bruto"
   }
 ]

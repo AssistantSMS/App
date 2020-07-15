@@ -1,27 +1,27 @@
 [
   {
     "Id": "recipeDisp1",
-    "Title": "Craftbot",
-    "Description": "The Craftbot will help you craft everything from new blocks to useful interactive parts. A mechanics best friend."
+    "Title": "크래프트봇",
+    "Description": "크래프트봇은 새 블록에서 유용한 상호작용 부품까지 모든 것을 제작하도록 도와줍니다. 정비공의 절친이죠."
   },
   {
     "Id": "recipeDisp2",
-    "Title": "Refinebot",
-    "Description": "Let the Refinebot help you out and refine all your collected logs. Put them in by hand or by placing a Resource Collector with logs next to it."
+    "Title": "리파인봇",
+    "Description": "리파인봇이 수집한 통나무를 꺼내 다듬도록 도와줍니다. 손으로 들거나 근처에 통나무가 있는 자원 수집기 옆에 두세요."
   },
   {
     "Id": "recipeDisp3",
-    "Title": "Resource Collector",
-    "Description": "Perfect for collecting and stacking logs. When full, place it next to a refinebot to turn logs in to blocks."
+    "Title": "자원 수집기",
+    "Description": "통나무를 수집하고 쌓아놓기 좋습니다. 꽉 차면 리파인봇 옆에 두세요. 통나무를 블록으로 다듬어줍니다."
   },
   {
     "Id": "recipeDisp4",
-    "Title": "Cookbot",
-    "Description": "Cooks delicious food that will fill up your health bar or revive fallen friends."
+    "Title": "쿡봇",
+    "Description": "체력을 채워주거나 쓰러진 친구를 되살려줄 맛있는 음식을 요리해줍니다."
   },
   {
     "Id": "recipeDisp5",
-    "Title": "Dressbot",
-    "Description": "Use the Dressbot to make new clothes for your Mechanic. Just add your garment boxes and the right amount of cotton. You can also customise your look by using the blue wardrobe."
+    "Title": "드레스봇",
+    "Description": "드레스봇을 사용해 정비공에게 새 옷을 만들어주세요. 의류 박스를 추가하고 적절한 양의 면을 넣으면 됩니다. 또한, 파란색 옷장을 사용해 외모를 커스텀할 수 있습니다."
   }
 ]

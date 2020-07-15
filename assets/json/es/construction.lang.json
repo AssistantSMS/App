@@ -1,82 +1,82 @@
 [
   {
     "Id": "constr1",
-    "Title": "Hollow Concrete"
+    "Title": "Bloque de hormigón"
   },
   {
     "Id": "constr2",
-    "Title": "Broken Concrete Small"
+    "Title": "Ladrillo de hormigón pequeño"
   },
   {
     "Id": "constr3",
-    "Title": "Broken Concrete Medium"
+    "Title": "Ladrillo de hormigón mediano"
   },
   {
     "Id": "constr4",
-    "Title": "Broken Concrete Large"
+    "Title": "Ladrillo de hormigón grande"
   },
   {
     "Id": "constr5",
-    "Title": "Barrier Stand"
+    "Title": "Barrera"
   },
   {
     "Id": "constr6",
-    "Title": "Cement Mix"
+    "Title": "Hormigonera"
   },
   {
     "Id": "constr7",
-    "Title": "Concrete Block Mould"
+    "Title": "Molde de bloque de hormigón"
   },
   {
     "Id": "constr8",
-    "Title": "Carpet Roll"
+    "Title": "Rollo de alfombra"
   },
   {
     "Id": "constr9",
-    "Title": "Carpet Spool Holder"
+    "Title": "Soporte de bobina de alfombra"
   },
   {
     "Id": "constr10",
-    "Title": "Scaffold Plastic Wall"
+    "Title": "Muro de plástico de andamio"
   },
   {
     "Id": "constr11",
-    "Title": "Scaffold Ledger"
+    "Title": "Baranda de andamio"
   },
   {
     "Id": "constr12",
-    "Title": "Scaffold Frame"
+    "Title": "Marco de andamio"
   },
   {
     "Id": "constr13",
-    "Title": "Scaffold Plank"
+    "Title": "Plataforma de andamio"
   },
   {
     "Id": "constr14",
-    "Title": "Construction Pallet"
+    "Title": "Palé de construcción"
   },
   {
     "Id": "constr15",
-    "Title": "Scaffold Pallet Ramp"
+    "Title": "Rampa de palé de andamio"
   },
   {
     "Id": "constr16",
-    "Title": "Sound Isolation Small "
+    "Title": "Aislante de sonido pequeño "
   },
   {
     "Id": "constr17",
-    "Title": "Sound Isolation Large"
+    "Title": "Aislante de sonido grande"
   },
   {
     "Id": "constr18",
-    "Title": "Work Light"
+    "Title": "Luz de trabajo"
   },
   {
     "Id": "constr19",
-    "Title": "Paint Bucket"
+    "Title": "Cubo de pintura"
   },
   {
     "Id": "constr20",
-    "Title": "Scaffolding Step"
+    "Title": "Escalón de andamio"
   }
 ]

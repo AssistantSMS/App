@@ -1,23 +1,23 @@
 [
   {
     "Id": "veh1",
-    "Title": "Concave Wedge"
+    "Title": "Calzo cóncavo"
   },
   {
     "Id": "veh2",
-    "Title": "License Plate"
+    "Title": "Matrícula"
   },
   {
     "Id": "veh3",
-    "Title": "Metallic Tube Straight"
+    "Title": "Tubo metálico recto"
   },
   {
     "Id": "veh4",
-    "Title": "Metallic Tube Bend"
+    "Title": "Codo de tubo metálico"
   },
   {
     "Id": "veh5",
-    "Title": "Rounded Frame Corner"
+    "Title": "Esquina redondeada de estructura"
   },
   {
     "Id": "veh6",
@@ -25,6 +25,6 @@
   },
   {
     "Id": "veh7",
-    "Title": "Rueda Grande"
+    "Title": "Rueda grande"
   }
 ]

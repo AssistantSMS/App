@@ -1,73 +1,73 @@
 [
   {
     "Id": "recipeHideout1",
-    "Title": "Soil Bag",
-    "Description": "Use them on the ground to place your seeds in"
+    "Title": "土袋",
+    "Description": "地面​で​使う​と​種​を​植え​られる​よう​に​なり​ます。"
   },
   {
     "Id": "recipeHideout2",
-    "Title": "Fertilizer",
-    "Description": "Makes plants grow faster"
+    "Title": "肥料",
+    "Description": "植物​の​生育​を​促進​し​ます。"
   },
   {
     "Id": "recipeHideout3",
-    "Title": "Banana Seed"
+    "Title": "バナナの種"
   },
   {
     "Id": "recipeHideout4",
-    "Title": "Orange Seed"
+    "Title": "オレンジの種"
   },
   {
     "Id": "recipeHideout5",
-    "Title": "Blueberry Seed"
+    "Title": "ブルーベリーの種"
   },
   {
     "Id": "recipeHideout6",
-    "Title": "Cotton Seed"
+    "Title": "綿の種"
   },
   {
     "Id": "recipeHideout7",
-    "Title": "Saw Blade",
-    "Description": "Cut down trees faster with the Saw Blade. Put it on a bearing that is connected to a engine and drive it in to a tree."
+    "Title": "ノコ刃",
+    "Description": "ノコ​刃​が​あれ​ば、​木​を​すばやく​切り倒す​こと​が​でき​ます。​エンジン​に​接続​し​た​ベアリング​に​配置​し​て、​木​の​近く​で​動かし​ましょ​う。"
   },
   {
     "Id": "recipeHideout8",
-    "Title": "Drill",
-    "Description": "Use the Drill to mine square rocks for stone and metal. Put it on a bearing that is connected to a engine and drive it in to a square rock."
+    "Title": "ドリル",
+    "Description": "ドリル​を​使え​ば、​四角い​岩​を​掘っ​て​石​や​金属​を​得る​こと​が​でき​ます。​エンジン​に​接続​し​た​ベアリング​に​配置​し​て、​四角い​岩​の​近く​で​動かし​ましょ​う。"
   },
   {
     "Id": "recipeHideout9",
-    "Title": "Mountable Spud Gun",
-    "Description": "Connect it to a Ammo container with a trigger to shoot"
+    "Title": "装着型スパッドガン",
+    "Description": "トリガー​で​弾薬​コンテナ​に​接続​する​と、​撃つ​こと​が​でき​ます。"
   },
   {
     "Id": "recipeHideout10",
-    "Title": "Potato Ammo Container",
-    "Description": "Connect it to a Moutable Spud Gun with a trigger to shoot potato ammo"
+    "Title": "ジャガイモ弾薬コンテナ",
+    "Description": "トリガー​で​装着​型​スパッドガン​に​接続​する​と、​ジャガイモ​弾薬​を​撃つ​こと​が​でき​ます。"
   },
   {
     "Id": "recipeHideout11",
-    "Title": "Spud Gun",
-    "Description": "Spud Gun with single potato shot."
+    "Title": "スパッドガン",
+    "Description": "ジャガイモ​を​一​発​ずつ​撃つ​こと​の​できる​スパッドガン。"
   },
   {
     "Id": "recipeHideout12",
-    "Title": "Spud Shotgun",
-    "Description": "Shoots sizzling hot fries in a spread."
+    "Title": "スパッドショットガン",
+    "Description": "弾​を​強烈​に​ばら​撒く​こと​が​でき​ます。"
   },
   {
     "Id": "recipeHideout13",
-    "Title": "Spudling Gun",
-    "Description": "Shoots potatoes in a rapid fire. Uses a lot of potato ammo"
+    "Title": "スパッドリングガン",
+    "Description": "ジャガイモ​を​高速​で​連射​し​ます。​大量​の​ジャガイモ​弾薬​を​使い​ます。"
   },
   {
     "Id": "recipeHideout14",
-    "Title": "Garment Box (Common)",
-    "Description": "Use it in a Dressbot to make new clothes"
+    "Title": "衣類ボックス（コモン）",
+    "Description": "ドレスボット​で​使用​する​と、​新しい​服​を​作れ​ます。"
   },
   {
     "Id": "recipeHideout15",
-    "Title": "Garment Box (Rare)",
-    "Description": "Use it in a Dressbot to make new clothes"
+    "Title": "衣類ボックス（レア）",
+    "Description": "ドレスボット​で​使用​する​と、​新しい​服​を​作れ​ます。"
   }
 ]

@@ -1,27 +1,27 @@
 [
   {
     "Id": "recipeDisp1",
-    "Title": "Craftbot",
-    "Description": "The Craftbot will help you craft everything from new blocks to useful interactive parts. A mechanics best friend."
+    "Title": "Robot artesano",
+    "Description": "El robot artesano te ayudará a crear de todo, desde bloques nuevos hasta piezas interactivas útiles. El mejor amigo de todo maquinista."
   },
   {
     "Id": "recipeDisp2",
-    "Title": "Refinebot",
-    "Description": "Let the Refinebot help you out and refine all your collected logs. Put them in by hand or by placing a Resource Collector with logs next to it."
+    "Title": "Procesabot",
+    "Description": "Deja que el procesabot te ayude a procesar todas las barras que hayas recogido. Pónselos dentro a mano o con un recogedor de recursos que tenga barras a su lado."
   },
   {
     "Id": "recipeDisp3",
-    "Title": "Resource Collector",
-    "Description": "Perfect for collecting and stacking logs. When full, place it next to a refinebot to turn logs in to blocks."
+    "Title": "Recogedor de recursos",
+    "Description": "Perfecto para recoger y almacenar barras. Cuando esté lleno, ponlo junto a un procesabot para convertir las barras en bloques."
   },
   {
     "Id": "recipeDisp4",
-    "Title": "Cookbot",
-    "Description": "Cooks delicious food that will fill up your health bar or revive fallen friends."
+    "Title": "Robot de cocina",
+    "Description": "Cocina deliciosa comida para llenar tu barra de vida o revivir a los amigos caídos."
   },
   {
     "Id": "recipeDisp5",
-    "Title": "Dressbot",
-    "Description": "Use the Dressbot to make new clothes for your Mechanic. Just add your garment boxes and the right amount of cotton. You can also customise your look by using the blue wardrobe."
+    "Title": "Sastrebot",
+    "Description": "Usa al sastrebot para hacerle ropa nueva a tu maquinista. Solo tienes que añadir tu caja de prendas y la cantidad correcta de algodón. También puedes personalizar tu aspecto usando el armario azul."
   }
 ]

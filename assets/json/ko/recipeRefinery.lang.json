@@ -1,22 +1,22 @@
 [
   {
     "Id": "recipeRef1",
-    "Title": "Scrap Wood"
+    "Title": "기초 목재"
   },
   {
     "Id": "recipeRef2",
-    "Title": "Wood"
+    "Title": "목재"
   },
   {
     "Id": "recipeRef3",
-    "Title": "Scrap Metal"
+    "Title": "기초 금속"
   },
   {
     "Id": "recipeRef4",
-    "Title": "Metal"
+    "Title": "금속"
   },
   {
     "Id": "recipeRef5",
-    "Title": "Scrap Stone"
+    "Title": "기초 석조"
   }
 ]

@@ -1,14 +1,14 @@
 [
   {
     "Id": "out1",
-    "Title": "Garment Box (Common)"
+    "Title": "衣類ボックス（コモン）"
   },
   {
     "Id": "out2",
-    "Title": "Garment Box (Rare)"
+    "Title": "衣類ボックス（レア）"
   },
   {
     "Id": "out3",
-    "Title": "Garment Box (Epic)"
+    "Title": "衣類ボックス（エピック）"
   }
 ]

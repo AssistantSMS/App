@@ -1,46 +1,46 @@
 [
   {
     "Id": "reso1",
-    "Title": "Ember"
+    "Title": "Charbon ardent"
   },
   {
     "Id": "reso2",
-    "Title": "Beeswax"
+    "Title": "Cire d'abeille"
   },
   {
     "Id": "reso3",
-    "Title": "Glue Clam"
+    "Title": "Palourde à colle"
   },
   {
     "Id": "reso4",
-    "Title": "Cotton"
+    "Title": "Coton"
   },
   {
     "Id": "reso5",
-    "Title": "Corn"
+    "Title": "Maïs"
   },
   {
     "Id": "reso6",
-    "Title": "Circuit Board"
+    "Title": "Circuit imprimé"
   },
   {
     "Id": "reso7",
-    "Title": "Woc Steak"
+    "Title": "Steak de woc"
   },
   {
     "Id": "reso8",
-    "Title": "Glow"
+    "Title": "Lueur"
   },
   {
     "Id": "reso9",
-    "Title": "Pigment Flower"
+    "Title": "Fleur à pigment"
   },
   {
     "Id": "reso10",
-    "Title": "Glue"
+    "Title": "Colle"
   },
   {
     "Id": "reso11",
-    "Title": "Crude Oil"
+    "Title": "Pétrole brut"
   }
 ]

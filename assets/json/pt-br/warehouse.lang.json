@@ -1,166 +1,166 @@
 [
   {
     "Id": "ware1",
-    "Title": "Industrial Beam Short"
+    "Title": "Viga Industrial Curta"
   },
   {
     "Id": "ware2",
-    "Title": "Industrial Beam Long"
+    "Title": "Viga Industrial Longa"
   },
   {
     "Id": "ware3",
-    "Title": "Industrial Beam Corner"
+    "Title": "Viga Industrial Convergente"
   },
   {
     "Id": "ware4",
-    "Title": "Industrial Beam Corner Bend"
+    "Title": "Viga Industrial Convergente Curva"
   },
   {
     "Id": "ware5",
-    "Title": "Industrial Beam Four Way"
+    "Title": "Cruzeta de Viga Industrial"
   },
   {
     "Id": "ware6",
-    "Title": "Industrial Beam Crossing"
+    "Title": "Intersecção de Viga Industrial"
   },
   {
     "Id": "ware7",
-    "Title": "Industrial Beam End"
+    "Title": "Extremidade de Viga Industrial"
   },
   {
     "Id": "ware8",
-    "Title": "Frame Beam Short"
+    "Title": "Estrutura Curta"
   },
   {
     "Id": "ware9",
-    "Title": "Frame Beam Long"
+    "Title": "Estrutura Longa"
   },
   {
     "Id": "ware10",
-    "Title": "Frame Beam End"
+    "Title": "Extremidade de Estrutura"
   },
   {
     "Id": "ware11",
-    "Title": "Frame Beam Corner"
+    "Title": "Estrutura Convergente"
   },
   {
     "Id": "ware12",
-    "Title": "Warehouse Ramp Big"
+    "Title": "Rampa Grande de Armazém"
   },
   {
     "Id": "ware13",
-    "Title": "Warehouse Ramp Small"
+    "Title": "Rampa Pequena de Armazém"
   },
   {
     "Id": "ware14",
-    "Title": "Warehouse Ramp Narrow"
+    "Title": "Rampa Estreita Grande de Armazém"
   },
   {
     "Id": "ware15",
-    "Title": "Warehouse Ramp Narrow Small"
+    "Title": "Rampa Estreita Pequena de Armazém"
   },
   {
     "Id": "ware16",
-    "Title": "Metal Storage Support"
+    "Title": "Suporte de Metal de Depósito"
   },
   {
     "Id": "ware18",
-    "Title": "Metal Storage Ramp"
+    "Title": "Rampa de Metal de Depósito"
   },
   {
     "Id": "ware19",
-    "Title": "Large Metal Storage Lamp"
+    "Title": "Lâmpada Grande de Metal de Depósito"
   },
   {
     "Id": "ware20",
-    "Title": "Metal Storage Beam"
+    "Title": "Estrutura de Metal de Depósito"
   },
   {
     "Id": "ware21",
-    "Title": "Metal Storage Corner B"
+    "Title": "Convergente B de Metal de Depósito"
   },
   {
     "Id": "ware22",
-    "Title": "Metal Storage Corner A"
+    "Title": "Convergente C de Metal de Depósito"
   },
   {
     "Id": "ware23",
-    "Title": "Metal Storage Handle"
+    "Title": "Maçaneta de Metal de Depósito"
   },
   {
     "Id": "ware24",
-    "Title": "Metal Storage Floor"
+    "Title": "Piso de Metal de Depósito"
   },
   {
     "Id": "ware25",
-    "Title": "Fan Base"
+    "Title": "Base de Ventilador"
   },
   {
     "Id": "ware26",
-    "Title": "Fan Blade Cap"
+    "Title": "Haste de Pá de Ventilador"
   },
   {
     "Id": "ware27",
-    "Title": "Fan Blade"
+    "Title": "Pá de Ventilador"
   },
   {
     "Id": "ware28",
-    "Title": "Packing Table"
+    "Title": "Bancada de Empacotamento"
   },
   {
     "Id": "ware29",
-    "Title": "Packing Table Holder"
+    "Title": "Suporte de Bancada de Empacotamento"
   },
   {
     "Id": "ware30",
-    "Title": "Pack Instruction Sign"
+    "Title": "Placa de Instruções de Empacotamento"
   },
   {
     "Id": "ware31",
-    "Title": "Wrapping Roll"
+    "Title": "Rolo de Embrulho"
   },
   {
     "Id": "ware32",
-    "Title": "Banner"
+    "Title": "Estandarte"
   },
   {
     "Id": "ware34",
-    "Title": "Frame Beam Light"
+    "Title": "Estrutura de Luz"
   },
   {
     "Id": "ware35",
-    "Title": "Crane Leg"
+    "Title": "Braço de Guindaste"
   },
   {
     "Id": "ware36",
-    "Title": "Crane Panel"
+    "Title": "Painel de Guindaste"
   },
   {
     "Id": "ware37",
-    "Title": "Crane Cable Roll"
+    "Title": "Rolo de Cabo de Guindaste"
   },
   {
     "Id": "ware38",
-    "Title": "Crane Top"
+    "Title": "Topo de Guindaste"
   },
   {
     "Id": "ware39",
-    "Title": "Crane Body"
+    "Title": "Estrutura de Guindaste"
   },
   {
     "Id": "ware40",
-    "Title": "Crane Hook"
+    "Title": "Gancho de Guindaste"
   },
   {
     "Id": "ware41",
-    "Title": "Crane Hook Block"
+    "Title": "Bloco de Gancho de Guindaste"
   },
   {
     "Id": "ware42",
-    "Title": "Crane Loading Floor"
+    "Title": "Piso de Descarga de Guindaste"
   },
   {
     "Id": "ware45",
-    "Title": "Master Switch"
+    "Title": "Interruptor Principal"
   }
 ]

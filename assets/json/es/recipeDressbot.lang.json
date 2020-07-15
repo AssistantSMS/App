@@ -1,17 +1,17 @@
 [
   {
     "Id": "recipeDress1",
-    "Title": "Garment Box (Common)",
-    "Description": "Use it in a Dressbot to make new clothes"
+    "Title": "Caja de prendas (común)",
+    "Description": "Úsala con un sastrebot para hacer ropa nueva."
   },
   {
     "Id": "recipeDress2",
-    "Title": "Garment Box (Rare)",
-    "Description": "Use it in a Dressbot to make new clothes"
+    "Title": "Caja de prendas (rara)",
+    "Description": "Úsala con un sastrebot para hacer ropa nueva."
   },
   {
     "Id": "recipeDress3",
-    "Title": "Garment Box (Epic)",
-    "Description": "Use it in a Dressbot to make new clothes"
+    "Title": "Caja de prendas (épica)",
+    "Description": "Úsala con un sastrebot para hacer ropa nueva."
   }
 ]

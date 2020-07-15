@@ -1,14 +1,14 @@
 [
   {
     "Id": "out1",
-    "Title": "Garment Box (Common)"
+    "Title": "의류 박스(일반)"
   },
   {
     "Id": "out2",
-    "Title": "Garment Box (Rare)"
+    "Title": "의류 박스(희귀)"
   },
   {
     "Id": "out3",
-    "Title": "Garment Box (Epic)"
+    "Title": "의류 박스(영웅)"
   }
 ]

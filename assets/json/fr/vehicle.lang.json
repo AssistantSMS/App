@@ -1,23 +1,23 @@
 [
   {
     "Id": "veh1",
-    "Title": "Concave Wedge"
+    "Title": "Coin concave"
   },
   {
     "Id": "veh2",
-    "Title": "License Plate"
+    "Title": "Plaque d'immatriculation"
   },
   {
     "Id": "veh3",
-    "Title": "Metallic Tube Straight"
+    "Title": "Tube métallique droit"
   },
   {
     "Id": "veh4",
-    "Title": "Metallic Tube Bend"
+    "Title": "Coude de tube métallique"
   },
   {
     "Id": "veh5",
-    "Title": "Rounded Frame Corner"
+    "Title": "Coin de cadre rond"
   },
   {
     "Id": "veh6",

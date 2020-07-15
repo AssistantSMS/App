@@ -1,73 +1,73 @@
 [
   {
     "Id": "recipeHideout1",
-    "Title": "Soil Bag",
-    "Description": "Use them on the ground to place your seeds in"
+    "Title": "흙 봉지",
+    "Description": "땅에서 사용하면 씨를 심을 수 있습니다."
   },
   {
     "Id": "recipeHideout2",
-    "Title": "Fertilizer",
-    "Description": "Makes plants grow faster"
+    "Title": "비료",
+    "Description": "식물이 더 빠르게 자라도록 해줍니다."
   },
   {
     "Id": "recipeHideout3",
-    "Title": "Banana Seed"
+    "Title": "바나나 씨"
   },
   {
     "Id": "recipeHideout4",
-    "Title": "Orange Seed"
+    "Title": "오렌지 씨"
   },
   {
     "Id": "recipeHideout5",
-    "Title": "Blueberry Seed"
+    "Title": "블루베리 씨"
   },
   {
     "Id": "recipeHideout6",
-    "Title": "Cotton Seed"
+    "Title": "목화 씨"
   },
   {
     "Id": "recipeHideout7",
-    "Title": "Saw Blade",
-    "Description": "Cut down trees faster with the Saw Blade. Put it on a bearing that is connected to a engine and drive it in to a tree."
+    "Title": "톱날",
+    "Description": "톱날이 있으면 나무를 빠르게 벨 수 있습니다. 엔진과 연결된 베어링에 놓고 나무로 운전해보세요."
   },
   {
     "Id": "recipeHideout8",
-    "Title": "Drill",
-    "Description": "Use the Drill to mine square rocks for stone and metal. Put it on a bearing that is connected to a engine and drive it in to a square rock."
+    "Title": "드릴",
+    "Description": "드릴을 사용해 사각형 바위에서 암석과 금속을 캐내세요. 엔진과 연결된 베어링에 놓고 사각형 바위으로 운전해보세요."
   },
   {
     "Id": "recipeHideout9",
-    "Title": "Mountable Spud Gun",
-    "Description": "Connect it to a Ammo container with a trigger to shoot"
+    "Title": "마운트 가능 장난감총",
+    "Description": "총알통, 트리거와 연결하고 쏘세요."
   },
   {
     "Id": "recipeHideout10",
-    "Title": "Potato Ammo Container",
-    "Description": "Connect it to a Moutable Spud Gun with a trigger to shoot potato ammo"
+    "Title": "감자총알통",
+    "Description": "트리거가 있는 마운트 가능 장난감총과 연결하면 감자총알을 쏴줄 수 있습니다."
   },
   {
     "Id": "recipeHideout11",
-    "Title": "Spud Gun",
-    "Description": "Spud Gun with single potato shot."
+    "Title": "장난감총",
+    "Description": "감자총알을 한 발 쏠 수 있는 장난감총."
   },
   {
     "Id": "recipeHideout12",
-    "Title": "Spud Shotgun",
-    "Description": "Shoots sizzling hot fries in a spread."
+    "Title": "장난감 산탄총",
+    "Description": "핫한 감자튀김을 연사할 수 있습니다."
   },
   {
     "Id": "recipeHideout13",
-    "Title": "Spudling Gun",
-    "Description": "Shoots potatoes in a rapid fire. Uses a lot of potato ammo"
+    "Title": "감자총",
+    "Description": "감자를 빠르게 발사합니다. 감자총알을 많이 사용합니다."
   },
   {
     "Id": "recipeHideout14",
-    "Title": "Garment Box (Common)",
-    "Description": "Use it in a Dressbot to make new clothes"
+    "Title": "의류 박스(일반)",
+    "Description": "드레스봇에서 사용해 새 옷을 만드세요."
   },
   {
     "Id": "recipeHideout15",
-    "Title": "Garment Box (Rare)",
-    "Description": "Use it in a Dressbot to make new clothes"
+    "Title": "의류 박스(희귀)",
+    "Description": "드레스봇에서 사용해 새 옷을 만드세요."
   }
 ]

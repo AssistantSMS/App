@@ -1,14 +1,14 @@
 [
   {
     "Id": "out1",
-    "Title": "Garment Box (Common)"
+    "Title": "Caixa de Traje (Comum)"
   },
   {
     "Id": "out2",
-    "Title": "Garment Box (Rare)"
+    "Title": "Caixa de Traje (Rara)"
   },
   {
     "Id": "out3",
-    "Title": "Garment Box (Epic)"
+    "Title": "Caixa de Traje (Épica)"
   }
 ]

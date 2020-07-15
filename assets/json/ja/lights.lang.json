@@ -1,34 +1,34 @@
 [
   {
     "Id": "light1",
-    "Title": "Warehouse Wall Light"
+    "Title": "倉庫のウォールライト"
   },
   {
     "Id": "light2",
-    "Title": "Packing Lamp"
+    "Title": "梱包ランプ"
   },
   {
     "Id": "light3",
-    "Title": "Warehouse Fluorescent Light"
+    "Title": "倉庫の蛍光ライト"
   },
   {
     "Id": "light4",
-    "Title": "Warehouse Square Light"
+    "Title": "倉庫のスクエアライト"
   },
   {
     "Id": "light5",
-    "Title": "Warehouse Spotlight"
+    "Title": "倉庫のスポットライト"
   },
   {
     "Id": "light6",
-    "Title": "Warehouse Spot Small"
+    "Title": "倉庫のスポット（小）"
   },
   {
     "Id": "light7",
-    "Title": "ライト"
+    "Title": "ヘッドライト"
   },
   {
     "Id": "light8",
-    "Title": "倉庫 ライト"
+    "Title": "倉庫のスポットライト"
   }
 ]

@@ -1,17 +1,17 @@
 [
   {
     "Id": "recipeDress1",
-    "Title": "Garment Box (Common)",
-    "Description": "Use it in a Dressbot to make new clothes"
+    "Title": "Kleiderschachtel (gewöhnlich)",
+    "Description": "Verwende den Kleiderbot, um neue Kleider für deinen Mechaniker herzustellen."
   },
   {
     "Id": "recipeDress2",
-    "Title": "Garment Box (Rare)",
-    "Description": "Use it in a Dressbot to make new clothes"
+    "Title": "Kleiderschachtel (selten)",
+    "Description": "Verwende den Kleiderbot, um neue Kleider für deinen Mechaniker herzustellen."
   },
   {
     "Id": "recipeDress3",
-    "Title": "Garment Box (Epic)",
-    "Description": "Use it in a Dressbot to make new clothes"
+    "Title": "Kleiderschachtel (episch)",
+    "Description": "Verwende den Kleiderbot, um neue Kleider für deinen Mechaniker herzustellen."
   }
 ]

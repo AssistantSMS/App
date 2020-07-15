@@ -1,73 +1,73 @@
 [
   {
     "Id": "recipeHideout1",
-    "Title": "Soil Bag",
-    "Description": "Use them on the ground to place your seeds in"
+    "Title": "Мешок с землей",
+    "Description": "Почва для семян. Используйте на полу."
   },
   {
     "Id": "recipeHideout2",
-    "Title": "Fertilizer",
-    "Description": "Makes plants grow faster"
+    "Title": "Удобрение",
+    "Description": "Заставляет растения расти быстрее."
   },
   {
     "Id": "recipeHideout3",
-    "Title": "Banana Seed"
+    "Title": "Семена банана"
   },
   {
     "Id": "recipeHideout4",
-    "Title": "Orange Seed"
+    "Title": "Семена апельсина"
   },
   {
     "Id": "recipeHideout5",
-    "Title": "Blueberry Seed"
+    "Title": "Семена черники"
   },
   {
     "Id": "recipeHideout6",
-    "Title": "Cotton Seed"
+    "Title": "Семена хлопка"
   },
   {
     "Id": "recipeHideout7",
-    "Title": "Saw Blade",
-    "Description": "Cut down trees faster with the Saw Blade. Put it on a bearing that is connected to a engine and drive it in to a tree."
+    "Title": "Лезвие пилы",
+    "Description": "Позволяет быстрее валить деревья. Поставьте на подшипник, присоединенный к двигателю, и подвезите к дереву."
   },
   {
     "Id": "recipeHideout8",
-    "Title": "Drill",
-    "Description": "Use the Drill to mine square rocks for stone and metal. Put it on a bearing that is connected to a engine and drive it in to a square rock."
+    "Title": "Бур",
+    "Description": "Позволяет добывать металл и камень из квадратных камней. Поставьте на подшипник, присоединенный к двигателю, и подвезите к камню."
   },
   {
     "Id": "recipeHideout9",
-    "Title": "Mountable Spud Gun",
-    "Description": "Connect it to a Ammo container with a trigger to shoot"
+    "Title": "Картопушка",
+    "Description": "Присоедините к контейнеру с картошкой триггером и открывайте огонь."
   },
   {
     "Id": "recipeHideout10",
-    "Title": "Potato Ammo Container",
-    "Description": "Connect it to a Moutable Spud Gun with a trigger to shoot potato ammo"
+    "Title": "Контейнер с картошкозапасом",
+    "Description": "Присоедините к картопушке с триггером и стреляйте картофельными снарядами."
   },
   {
     "Id": "recipeHideout11",
-    "Title": "Spud Gun",
-    "Description": "Spud Gun with single potato shot."
+    "Title": "Бульбострел",
+    "Description": "Стреляет картошкой – одиночными выстрелами."
   },
   {
     "Id": "recipeHideout12",
-    "Title": "Spud Shotgun",
-    "Description": "Shoots sizzling hot fries in a spread."
+    "Title": "Фривольвер",
+    "Description": "Стреляет очередями горячей картошки-фри"
   },
   {
     "Id": "recipeHideout13",
-    "Title": "Spudling Gun",
-    "Description": "Shoots potatoes in a rapid fire. Uses a lot of potato ammo"
+    "Title": "Бульбомет",
+    "Description": "Стреляет очередями картофелин Требует большого картошкозапаса."
   },
   {
     "Id": "recipeHideout14",
-    "Title": "Garment Box (Common)",
-    "Description": "Use it in a Dressbot to make new clothes"
+    "Title": "Коробка для одежды (обычная)",
+    "Description": "Позволяет боту-закройщику делать одежду."
   },
   {
     "Id": "recipeHideout15",
-    "Title": "Garment Box (Rare)",
-    "Description": "Use it in a Dressbot to make new clothes"
+    "Title": "Коробка для одежды (редкая)",
+    "Description": "Позволяет боту-закройщику делать одежду."
   }
 ]

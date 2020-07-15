@@ -1,111 +1,111 @@
 [
   {
     "Id": "fitt1",
-    "Title": "Large Pipe Mount"
+    "Title": "Mocowanie dużej rury"
   },
   {
     "Id": "fitt2",
-    "Title": "Holder Support Leg Base"
+    "Title": "Podstawa nogi wspornika uchwytu"
   },
   {
     "Id": "fitt3",
-    "Title": "Holder Support Leg"
+    "Title": "Noga wspornika uchwytu"
   },
   {
     "Id": "fitt4",
-    "Title": "Holder Support Bend"
+    "Title": "Narożnik wspornika uchwytu"
   },
   {
     "Id": "fitt5",
-    "Title": "Large Pipe Extension"
+    "Title": "Przedłużenie dużej rury"
   },
   {
     "Id": "fitt6",
-    "Title": "Large Pipe Cap"
+    "Title": "Zaślepka dużej rury"
   },
   {
     "Id": "fitt7",
-    "Title": "Large Pipe Compressor"
+    "Title": "Kompresor dużej rury"
   },
   {
     "Id": "fitt8",
-    "Title": "Power Station"
+    "Title": "Siłownia"
   },
   {
     "Id": "fitt9",
-    "Title": "Giant Pipe"
+    "Title": "Ogromna rura"
   },
   {
     "Id": "fitt10",
-    "Title": "Giant Pipe Glass Straight"
+    "Title": "Ogromna szklana rura prosta"
   },
   {
     "Id": "fitt11",
-    "Title": "Giant Pipe Corner"
+    "Title": "Ogromne kolanko"
   },
   {
     "Id": "fitt12",
-    "Title": "Giant Pipe Glass Corner"
+    "Title": "Ogromne szklane kolanko"
   },
   {
     "Id": "fitt13",
-    "Title": "Giant Pipe Tee"
+    "Title": "Ogromny trójnik"
   },
   {
     "Id": "fitt14",
-    "Title": "Giant Pipe Bracer"
+    "Title": "Obejma ogromnej rury"
   },
   {
     "Id": "fitt15",
-    "Title": "Giant Pipe Holder"
+    "Title": "Wspornik ogromnej rury"
   },
   {
     "Id": "fitt16",
-    "Title": "Warehouse Ventilation Short"
+    "Title": "Kanał went. magazynu krótki"
   },
   {
     "Id": "fitt17",
-    "Title": "Warehouse Ventilation Long"
+    "Title": "Kanał went. magazynu długi"
   },
   {
     "Id": "fitt18",
-    "Title": "Warehouse Ventilation Corner"
+    "Title": "Kanał went. magazynu – kolanko"
   },
   {
     "Id": "fitt19",
-    "Title": "Warehouse Ventilation Tee"
+    "Title": "Kanał went. magazynu – trójnik"
   },
   {
     "Id": "fitt20",
-    "Title": "Warehouse Ventilation Mount"
+    "Title": "Mocowanie kanału went. magazynu"
   },
   {
     "Id": "fitt21",
-    "Title": "Warehouse Ventilation Drum"
+    "Title": "Kanał went. magazynu – bęben"
   },
   {
     "Id": "fitt22",
-    "Title": "Generator Pipe Short"
+    "Title": "Rura generatora krótka"
   },
   {
     "Id": "fitt23",
-    "Title": "Generator Pipe Long"
+    "Title": "Rura generatora długa"
   },
   {
     "Id": "fitt24",
-    "Title": "Generator Pipe Corner"
+    "Title": "Rura generatora – kolanko"
   },
   {
     "Id": "fitt25",
-    "Title": "Generator Pipe Tee"
+    "Title": "Rura generatora – trójnik"
   },
   {
     "Id": "fitt26",
-    "Title": "Generator Pipe Four Way"
+    "Title": "Rura generatora – czwórnik"
   },
   {
     "Id": "fitt27",
-    "Title": "Duct Short"
+    "Title": "Krótki tunel"
   },
   {
     "Id": "fitt28",
@@ -161,7 +161,7 @@
   },
   {
     "Id": "fitt41",
-    "Title": "Duże kolanko"
+    "Title": "Duży trójnik kątowy"
   },
   {
     "Id": "fitt42",
@@ -181,11 +181,11 @@
   },
   {
     "Id": "fitt46",
-    "Title": "Pełny narożnik okablow."
+    "Title": "Pełny narożnik okablowania."
   },
   {
     "Id": "fitt47",
-    "Title": "Wycięty narożnik okablow."
+    "Title": "Wycięty narożnik okablowania."
   },
   {
     "Id": "fitt48",
@@ -217,15 +217,15 @@
   },
   {
     "Id": "fitt55",
-    "Title": "Mały łącznik do rur"
+    "Title": "Małe kolanko"
   },
   {
     "Id": "fitt56",
-    "Title": "Mały łącznik T"
+    "Title": "Mały trójnik"
   },
   {
     "Id": "fitt57",
-    "Title": "Małe kolanko"
+    "Title": "Mały trójnik kątowy"
   },
   {
     "Id": "fitt58",
@@ -233,14 +233,14 @@
   },
   {
     "Id": "fitt59",
-    "Title": "Mały czwórnik T"
+    "Title": "Mały czwórnik kątowy"
   },
   {
     "Id": "fitt60",
-    "Title": "Mały łącznik pięciodrożny"
+    "Title": "Mały piątnik"
   },
   {
     "Id": "fitt61",
-    "Title": "Mały łącznik sześciodrożny"
+    "Title": "Mały szóstnik"
   }
 ]

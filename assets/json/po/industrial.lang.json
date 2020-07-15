@@ -1,47 +1,47 @@
 [
   {
     "Id": "indus1",
-    "Title": "Generator Coil Segment"
+    "Title": "Segment cewki generatora"
   },
   {
     "Id": "indus2",
-    "Title": "Generator Coil Corner"
+    "Title": "Narożnik cewki generatora"
   },
   {
     "Id": "indus3",
-    "Title": "Ventilation Frame"
+    "Title": "Ramka otworu wentylacyjnego"
   },
   {
     "Id": "indus4",
-    "Title": "Steel Support Bracket"
+    "Title": "Stalowy kątownik"
   },
   {
     "Id": "indus5",
-    "Title": "Encryptor Base"
+    "Title": "Podstawa szyfratora"
   },
   {
     "Id": "indus6",
-    "Title": "Encryptor Base Plate"
+    "Title": "Płyta podstawy szyfratora"
   },
   {
     "Id": "indus7",
-    "Title": "Encryptor Frame Top"
+    "Title": "Wierzch ramy szyfratora"
   },
   {
     "Id": "indus8",
-    "Title": "Small Steel Bracket"
+    "Title": "Mały stalowy kątownik"
   },
   {
     "Id": "indus9",
-    "Title": "Encryptor Frame Beam"
+    "Title": "Słupek ramy szyfratora"
   },
   {
     "Id": "indus10",
-    "Title": "Encryptor Holder"
+    "Title": "Oprawa szyfratora"
   },
   {
     "Id": "indus11",
-    "Title": "Base Extension"
+    "Title": "Rozszerzenie podstawy"
   },
   {
     "Id": "indus12",
@@ -61,11 +61,11 @@
   },
   {
     "Id": "indus16",
-    "Title": "Power Generator Side"
+    "Title": "Bok generatora prądu"
   },
   {
     "Id": "indus17",
-    "Title": "Generator Tank"
+    "Title": "Zbiornik generatora"
   },
   {
     "Id": "indus18",
@@ -73,11 +73,11 @@
   },
   {
     "Id": "indus19",
-    "Title": "Trigger Frame"
+    "Title": "Rama włącznika"
   },
   {
     "Id": "indus20",
-    "Title": "Generator Pipe Holder"
+    "Title": "Wspornik rury generatora"
   },
   {
     "Id": "indus21",
@@ -161,7 +161,7 @@
   },
   {
     "Id": "indus41",
-    "Title": "Small Support Structure"
+    "Title": "Mała kratownica"
   },
   {
     "Id": "indus42",
@@ -173,11 +173,11 @@
   },
   {
     "Id": "indus44",
-    "Title": "Filar wspierający"
+    "Title": "Filar wspornika"
   },
   {
     "Id": "indus45",
-    "Title": "Filar podpierający"
+    "Title": "Podstawa filaru wspornika"
   },
   {
     "Id": "indus46",
@@ -217,11 +217,11 @@
   },
   {
     "Id": "indus55",
-    "Title": "Stojak"
+    "Title": "Maszt"
   },
   {
     "Id": "indus56",
-    "Title": "Wierzchołek stojaka"
+    "Title": "Czubek masztu"
   },
   {
     "Id": "indus57",
@@ -229,7 +229,7 @@
   },
   {
     "Id": "indus58",
-    "Title": "Satelitarna antena reflektorowa"
+    "Title": "Antena satelitarna reflektorowa"
   },
   {
     "Id": "indus59",

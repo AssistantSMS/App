@@ -1,15 +1,15 @@
 [
   {
     "Id": "recipeRef1",
-    "Title": "Scrap Wood"
+    "Title": "Madeira Sucateada"
   },
   {
     "Id": "recipeRef2",
-    "Title": "Wood"
+    "Title": "Madeira"
   },
   {
     "Id": "recipeRef3",
-    "Title": "Scrap Metal"
+    "Title": "Metal Sucateado"
   },
   {
     "Id": "recipeRef4",
@@ -17,6 +17,6 @@
   },
   {
     "Id": "recipeRef5",
-    "Title": "Scrap Stone"
+    "Title": "Pedra Sucateada"
   }
 ]

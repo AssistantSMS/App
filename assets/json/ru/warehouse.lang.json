@@ -1,166 +1,166 @@
 [
   {
     "Id": "ware1",
-    "Title": "Industrial Beam Short"
+    "Title": "Промышленная балка – короткая"
   },
   {
     "Id": "ware2",
-    "Title": "Industrial Beam Long"
+    "Title": "Промышленная балка – длинная"
   },
   {
     "Id": "ware3",
-    "Title": "Industrial Beam Corner"
+    "Title": "Промышленная балка – угол"
   },
   {
     "Id": "ware4",
-    "Title": "Industrial Beam Corner Bend"
+    "Title": "Промышленная балка – согнутый угол"
   },
   {
     "Id": "ware5",
-    "Title": "Industrial Beam Four Way"
+    "Title": "Промышленная балка – крестовина"
   },
   {
     "Id": "ware6",
-    "Title": "Industrial Beam Crossing"
+    "Title": "Промышленная балка – сочленение"
   },
   {
     "Id": "ware7",
-    "Title": "Industrial Beam End"
+    "Title": "Промышленная балка – наконечник"
   },
   {
     "Id": "ware8",
-    "Title": "Frame Beam Short"
+    "Title": "Балка рамы – короткая"
   },
   {
     "Id": "ware9",
-    "Title": "Frame Beam Long"
+    "Title": "Балка рамы – длинная"
   },
   {
     "Id": "ware10",
-    "Title": "Frame Beam End"
+    "Title": "Балка рамы – наконечник"
   },
   {
     "Id": "ware11",
-    "Title": "Frame Beam Corner"
+    "Title": "Балка рамы – угол"
   },
   {
     "Id": "ware12",
-    "Title": "Warehouse Ramp Big"
+    "Title": "Большой складской пандус"
   },
   {
     "Id": "ware13",
-    "Title": "Warehouse Ramp Small"
+    "Title": "Малый складской пандус"
   },
   {
     "Id": "ware14",
-    "Title": "Warehouse Ramp Narrow"
+    "Title": "Большой складской пандус (узкий)"
   },
   {
     "Id": "ware15",
-    "Title": "Warehouse Ramp Narrow Small"
+    "Title": "Малый складской пандус (узкий)"
   },
   {
     "Id": "ware16",
-    "Title": "Metal Storage Support"
+    "Title": "Металлический ангар: опора"
   },
   {
     "Id": "ware18",
-    "Title": "Metal Storage Ramp"
+    "Title": "Металлический ангар: пандус"
   },
   {
     "Id": "ware19",
-    "Title": "Large Metal Storage Lamp"
+    "Title": "Металлический ангар: большая лампа"
   },
   {
     "Id": "ware20",
-    "Title": "Metal Storage Beam"
+    "Title": "Металлический ангар: балка"
   },
   {
     "Id": "ware21",
-    "Title": "Metal Storage Corner B"
+    "Title": "Металлический ангар: угол B"
   },
   {
     "Id": "ware22",
-    "Title": "Metal Storage Corner A"
+    "Title": "Металлический ангар: угол C"
   },
   {
     "Id": "ware23",
-    "Title": "Metal Storage Handle"
+    "Title": "Металлический ангар: ручка"
   },
   {
     "Id": "ware24",
-    "Title": "Metal Storage Floor"
+    "Title": "Металлический ангар: пол"
   },
   {
     "Id": "ware25",
-    "Title": "Fan Base"
+    "Title": "Основание вентилятора"
   },
   {
     "Id": "ware26",
-    "Title": "Fan Blade Cap"
+    "Title": "Колпак вентилятора"
   },
   {
     "Id": "ware27",
-    "Title": "Fan Blade"
+    "Title": "Лопасть вентилятора"
   },
   {
     "Id": "ware28",
-    "Title": "Packing Table"
+    "Title": "Упаковочный стол"
   },
   {
     "Id": "ware29",
-    "Title": "Packing Table Holder"
+    "Title": "Держатель упаковочного стола"
   },
   {
     "Id": "ware30",
-    "Title": "Pack Instruction Sign"
+    "Title": "Знак с инструкцией по упаковке"
   },
   {
     "Id": "ware31",
-    "Title": "Wrapping Roll"
+    "Title": "Обертка"
   },
   {
     "Id": "ware32",
-    "Title": "Banner"
+    "Title": "Транспарант"
   },
   {
     "Id": "ware34",
-    "Title": "Frame Beam Light"
+    "Title": "Балка рамы – освещение"
   },
   {
     "Id": "ware35",
-    "Title": "Crane Leg"
+    "Title": "Нога лебедки"
   },
   {
     "Id": "ware36",
-    "Title": "Crane Panel"
+    "Title": "Панель лебедки"
   },
   {
     "Id": "ware37",
-    "Title": "Crane Cable Roll"
+    "Title": "Кабель лебедки"
   },
   {
     "Id": "ware38",
-    "Title": "Crane Top"
+    "Title": "Верх лебедки"
   },
   {
     "Id": "ware39",
-    "Title": "Crane Body"
+    "Title": "Корпус лебедки"
   },
   {
     "Id": "ware40",
-    "Title": "Crane Hook"
+    "Title": "Крюк лебедки"
   },
   {
     "Id": "ware41",
-    "Title": "Crane Hook Block"
+    "Title": "Блок крюка лебедки"
   },
   {
     "Id": "ware42",
-    "Title": "Crane Loading Floor"
+    "Title": "Погрузочная платформа лебедки"
   },
   {
     "Id": "ware45",
-    "Title": "Master Switch"
+    "Title": "Главный тумблер"
   }
 ]

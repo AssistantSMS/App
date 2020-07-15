@@ -1,166 +1,166 @@
 [
   {
     "Id": "ware1",
-    "Title": "Industrial Beam Short"
+    "Title": "工業用角材（短）"
   },
   {
     "Id": "ware2",
-    "Title": "Industrial Beam Long"
+    "Title": "工業用角材（長）"
   },
   {
     "Id": "ware3",
-    "Title": "Industrial Beam Corner"
+    "Title": "工業用角材（コーナー）"
   },
   {
     "Id": "ware4",
-    "Title": "Industrial Beam Corner Bend"
+    "Title": "工業用角材（コーナー、曲がり）"
   },
   {
     "Id": "ware5",
-    "Title": "Industrial Beam Four Way"
+    "Title": "工業用角材（四方向）"
   },
   {
     "Id": "ware6",
-    "Title": "Industrial Beam Crossing"
+    "Title": "工業用角材（交差）"
   },
   {
     "Id": "ware7",
-    "Title": "Industrial Beam End"
+    "Title": "工業用角材（端部）"
   },
   {
     "Id": "ware8",
-    "Title": "Frame Beam Short"
+    "Title": "枠梁（短）"
   },
   {
     "Id": "ware9",
-    "Title": "Frame Beam Long"
+    "Title": "枠梁（長）"
   },
   {
     "Id": "ware10",
-    "Title": "Frame Beam End"
+    "Title": "枠梁（端部）"
   },
   {
     "Id": "ware11",
-    "Title": "Frame Beam Corner"
+    "Title": "枠梁（コーナー）"
   },
   {
     "Id": "ware12",
-    "Title": "Warehouse Ramp Big"
+    "Title": "倉庫のランプ（大）"
   },
   {
     "Id": "ware13",
-    "Title": "Warehouse Ramp Small"
+    "Title": "倉庫のランプ（小）"
   },
   {
     "Id": "ware14",
-    "Title": "Warehouse Ramp Narrow"
+    "Title": "狭い倉庫のランプ（大）"
   },
   {
     "Id": "ware15",
-    "Title": "Warehouse Ramp Narrow Small"
+    "Title": "狭い倉庫のランプ（小）"
   },
   {
     "Id": "ware16",
-    "Title": "Metal Storage Support"
+    "Title": "金属収納庫のサポート"
   },
   {
     "Id": "ware18",
-    "Title": "Metal Storage Ramp"
+    "Title": "金属収納庫のランプ"
   },
   {
     "Id": "ware19",
-    "Title": "Large Metal Storage Lamp"
+    "Title": "金属収納庫のランプ（大）"
   },
   {
     "Id": "ware20",
-    "Title": "Metal Storage Beam"
+    "Title": "金属収納庫の梁"
   },
   {
     "Id": "ware21",
-    "Title": "Metal Storage Corner B"
+    "Title": "金属収納庫のコーナーB"
   },
   {
     "Id": "ware22",
-    "Title": "Metal Storage Corner A"
+    "Title": "金属収納庫のコーナーC"
   },
   {
     "Id": "ware23",
-    "Title": "Metal Storage Handle"
+    "Title": "金属収納庫のハンドル"
   },
   {
     "Id": "ware24",
-    "Title": "Metal Storage Floor"
+    "Title": "金属収納庫のフロア"
   },
   {
     "Id": "ware25",
-    "Title": "Fan Base"
+    "Title": "ファンの土台"
   },
   {
     "Id": "ware26",
-    "Title": "Fan Blade Cap"
+    "Title": "ファンブレードのキャップ"
   },
   {
     "Id": "ware27",
-    "Title": "Fan Blade"
+    "Title": "ファンブレード"
   },
   {
     "Id": "ware28",
-    "Title": "Packing Table"
+    "Title": "梱包テーブル"
   },
   {
     "Id": "ware29",
-    "Title": "Packing Table Holder"
+    "Title": "梱包テーブルのホルダー"
   },
   {
     "Id": "ware30",
-    "Title": "Pack Instruction Sign"
+    "Title": "梱包指示のサイン"
   },
   {
     "Id": "ware31",
-    "Title": "Wrapping Roll"
+    "Title": "ラップロール"
   },
   {
     "Id": "ware32",
-    "Title": "Banner"
+    "Title": "バナー"
   },
   {
     "Id": "ware34",
-    "Title": "Frame Beam Light"
+    "Title": "枠梁の照明"
   },
   {
     "Id": "ware35",
-    "Title": "Crane Leg"
+    "Title": "クレーンの脚"
   },
   {
     "Id": "ware36",
-    "Title": "Crane Panel"
+    "Title": "クレーンのパネル"
   },
   {
     "Id": "ware37",
-    "Title": "Crane Cable Roll"
+    "Title": "クレーンのケーブルロール"
   },
   {
     "Id": "ware38",
-    "Title": "Crane Top"
+    "Title": "クレーンの上部"
   },
   {
     "Id": "ware39",
-    "Title": "Crane Body"
+    "Title": "クレーンの胴体"
   },
   {
     "Id": "ware40",
-    "Title": "Crane Hook"
+    "Title": "クレーンのフック"
   },
   {
     "Id": "ware41",
-    "Title": "Crane Hook Block"
+    "Title": "クレーンのフックブロック"
   },
   {
     "Id": "ware42",
-    "Title": "Crane Loading Floor"
+    "Title": "クレーンの荷積みフロア"
   },
   {
     "Id": "ware45",
-    "Title": "Master Switch"
+    "Title": "マスタースイッチ"
   }
 ]

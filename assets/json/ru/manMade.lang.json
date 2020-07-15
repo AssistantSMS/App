@@ -1,38 +1,38 @@
 [
   {
     "Id": "man1",
-    "Title": "Shack Wall"
+    "Title": "Стена сарая"
   },
   {
     "Id": "man2",
-    "Title": "Shack Half Wall"
+    "Title": "Половина стены сарая"
   },
   {
     "Id": "man3",
-    "Title": "Shade Sails"
+    "Title": "Маркизы сарая"
   },
   {
     "Id": "man4",
-    "Title": "Awning"
+    "Title": "Навес сарая"
   },
   {
     "Id": "man5",
-    "Title": "Shack Roof"
+    "Title": "Крыша сарая"
   },
   {
     "Id": "man6",
-    "Title": "Shack Light"
+    "Title": "Освещение сарая"
   },
   {
     "Id": "man7",
-    "Title": "Fresh Neon Sign"
+    "Title": "Неоновый знак «Свежее»"
   },
   {
     "Id": "man8",
-    "Title": "Hard Work Sign"
+    "Title": "Знак «Тяжелый труд»"
   },
   {
     "Id": "man9",
-    "Title": "Sale Sign"
+    "Title": "Знак «Распродажа»"
   }
 ]

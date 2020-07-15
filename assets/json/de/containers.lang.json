@@ -1,43 +1,43 @@
 [
   {
     "Id": "cont1",
-    "Title": "Hay Crate"
+    "Title": "Strohkiste"
   },
   {
     "Id": "cont2",
-    "Title": "Stone Crate"
+    "Title": "Steinkiste"
   },
   {
     "Id": "cont3",
-    "Title": "Tree Crate"
+    "Title": "Baumkiste"
   },
   {
     "Id": "cont4",
-    "Title": "Unfolded Banana Box"
+    "Title": "Aufgefaltete Bananenschachtel"
   },
   {
     "Id": "cont5",
-    "Title": "Unfolded Onion Box"
+    "Title": "Aufgefaltete Zwiebelschachtel"
   },
   {
     "Id": "cont6",
-    "Title": "Unfolded Grow Box"
+    "Title": "Aufgefaltete Anzuchtschachtel"
   },
   {
     "Id": "cont7",
-    "Title": "Main Humidifier"
+    "Title": "Hauptbefeuchter"
   },
   {
     "Id": "cont8",
-    "Title": "Warehouse Crate"
+    "Title": "Lagerhauskiste"
   },
   {
     "Id": "cont9",
-    "Title": "Blueberry Juice Cylinder"
+    "Title": "Zylinder für Blaubeersaft"
   },
   {
     "Id": "cont10",
-    "Title": "Tomato Juice Cylinder"
+    "Title": "Zylinder für Tomatensaft"
   },
   {
     "Id": "cont11",
@@ -45,42 +45,42 @@
   },
   {
     "Id": "cont12",
-    "Title": "Gemüsekiste"
+    "Title": "Gemüseschachtel"
   },
   {
     "Id": "cont13",
-    "Title": "Gurkenkiste"
+    "Title": "Gurkenschachtel"
   },
   {
     "Id": "cont14",
-    "Title": "Karottenkiste"
+    "Title": "Karottenschachtel"
   },
   {
     "Id": "cont15",
-    "Title": "Bananenkiste"
+    "Title": "Bananenschachtel"
   },
   {
     "Id": "cont16",
-    "Title": "Obstkiste"
+    "Title": "Obstschachtel"
   },
   {
     "Id": "cont17",
-    "Title": "Zwiebelkiste"
+    "Title": "Zwiebelschachtel"
   },
   {
     "Id": "cont18",
-    "Title": "Rote-Bete-Kiste"
+    "Title": "Schachtel für Rote Beete"
   },
   {
     "Id": "cont19",
-    "Title": "Apfelsinenkiste"
+    "Title": "Orangenschachtel"
   },
   {
     "Id": "cont20",
-    "Title": "Pflanzenbehälter"
+    "Title": "Pflanzbehälter"
   },
   {
     "Id": "cont21",
-    "Title": "Offener Pflanzenbehälter"
+    "Title": "Offener Pflanzbehälter"
   }
 ]

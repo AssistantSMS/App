@@ -1,143 +1,143 @@
 [
   {
     "Id": "indus1",
-    "Title": "Generator Coil Segment"
+    "Title": "Segmento de Bobina de Gerador"
   },
   {
     "Id": "indus2",
-    "Title": "Generator Coil Corner"
+    "Title": "Bobina Convergente de Gerador"
   },
   {
     "Id": "indus3",
-    "Title": "Ventilation Frame"
+    "Title": "Estrutura de Ventilação"
   },
   {
     "Id": "indus4",
-    "Title": "Steel Support Bracket"
+    "Title": "Suporte de Apoio de Aço"
   },
   {
     "Id": "indus5",
-    "Title": "Encryptor Base"
+    "Title": "Base de Codificador"
   },
   {
     "Id": "indus6",
-    "Title": "Encryptor Base Plate"
+    "Title": "Chapa de Base de Codificador"
   },
   {
     "Id": "indus7",
-    "Title": "Encryptor Frame Top"
+    "Title": "Armação Superior de Codificador"
   },
   {
     "Id": "indus8",
-    "Title": "Small Steel Bracket"
+    "Title": "Suporte de Apoio Pequeno de Aço"
   },
   {
     "Id": "indus9",
-    "Title": "Encryptor Frame Beam"
+    "Title": "Estrutura de Codificador"
   },
   {
     "Id": "indus10",
-    "Title": "Encryptor Holder"
+    "Title": "Suporte de Codificador"
   },
   {
     "Id": "indus11",
-    "Title": "Base Extension"
+    "Title": "Peça Extensora"
   },
   {
     "Id": "indus12",
-    "Title": "Generator B"
+    "Title": "Gerador B"
   },
   {
     "Id": "indus13",
-    "Title": "Generator C"
+    "Title": "Gerador C"
   },
   {
     "Id": "indus14",
-    "Title": "Generator D"
+    "Title": "Gerador D"
   },
   {
     "Id": "indus15",
-    "Title": "Generator A"
+    "Title": "Gerador A"
   },
   {
     "Id": "indus16",
-    "Title": "Power Generator Side"
+    "Title": "Lateral de Gerador de Energia"
   },
   {
     "Id": "indus17",
-    "Title": "Generator Tank"
+    "Title": "Tanque de Gerador de Energia"
   },
   {
     "Id": "indus18",
-    "Title": "Generator E"
+    "Title": "Gerador E"
   },
   {
     "Id": "indus19",
-    "Title": "Trigger Frame"
+    "Title": "Estrutura Acionadora"
   },
   {
     "Id": "indus20",
-    "Title": "Generator Pipe Holder"
+    "Title": "Suporte de Cano de Gerador"
   },
   {
     "Id": "indus21",
-    "Title": "Viga em I - Curta"
+    "Title": "Viga I Curta"
   },
   {
     "Id": "indus22",
-    "Title": "Viga em I - Longa"
+    "Title": "Viga I Longa"
   },
   {
     "Id": "indus23",
-    "Title": "Viga em I - Canto"
+    "Title": "Viga I Convergente"
   },
   {
     "Id": "indus24",
-    "Title": "Viga em I - Suporte"
+    "Title": "Suporte de Viga I"
   },
   {
     "Id": "indus25",
-    "Title": "Viga em I - Final"
+    "Title": "Extremidade de Viga I"
   },
   {
     "Id": "indus26",
-    "Title": "Prateleira"
+    "Title": "Plataforma"
   },
   {
     "Id": "indus27",
-    "Title": "Escadaria - Patamar"
+    "Title": "Base de Escadaria"
   },
   {
     "Id": "indus28",
-    "Title": "Escadaria - Corrimão Longo"
+    "Title": "Corrimão Longo de Escadaria"
   },
   {
     "Id": "indus29",
-    "Title": "Escadaria - Corrimão Curto"
+    "Title": "Corrimão Curto de Escadaria"
   },
   {
     "Id": "indus30",
-    "Title": "Escadaria - Balaústre"
+    "Title": "Balaústre de Escadaria"
   },
   {
     "Id": "indus31",
-    "Title": "Escadaria - Junção de Corrimão"
+    "Title": "Junção de Corrimão de Escadaria"
   },
   {
     "Id": "indus32",
-    "Title": "Escadaria - Degrau"
+    "Title": "Degrau de Escadaria"
   },
   {
     "Id": "indus33",
-    "Title": "Escadaria - Guarda-corpo"
+    "Title": "Balaustrada de Escadaria"
   },
   {
     "Id": "indus34",
-    "Title": "Escadaria - Cunha"
+    "Title": "Calço de Escadaria"
   },
   {
     "Id": "indus35",
-    "Title": "Escadaria - Rampa"
+    "Title": "Rampa de Escadaria"
   },
   {
     "Id": "indus36",
@@ -145,7 +145,7 @@
   },
   {
     "Id": "indus37",
-    "Title": "Alambrado"
+    "Title": "Cerca de Malha"
   },
   {
     "Id": "indus38",
@@ -161,11 +161,11 @@
   },
   {
     "Id": "indus41",
-    "Title": "Small Support Structure"
+    "Title": "Estrutura de Suporte Pequena"
   },
   {
     "Id": "indus42",
-    "Title": "Viga em U"
+    "Title": "Viga U"
   },
   {
     "Id": "indus43",
@@ -177,19 +177,19 @@
   },
   {
     "Id": "indus45",
-    "Title": "Pilar de Suporte - Base"
+    "Title": "Base de Pilar de Suporte"
   },
   {
     "Id": "indus46",
-    "Title": "Prateleira - Pilar"
+    "Title": "Pilar de Plataforma"
   },
   {
     "Id": "indus47",
-    "Title": "Prateleira - Apoio"
+    "Title": "Suporte de Plataforma"
   },
   {
     "Id": "indus48",
-    "Title": "Prateleira - Apoio Alto"
+    "Title": "Suporte Alto de Plataforma"
   },
   {
     "Id": "indus49",
@@ -209,27 +209,27 @@
   },
   {
     "Id": "indus53",
-    "Title": "Pallet de Aço"
+    "Title": "Palete de Metal"
   },
   {
     "Id": "indus54",
-    "Title": "Pé de Mesa"
+    "Title": "Suporte de Mesa"
   },
   {
     "Id": "indus55",
-    "Title": "Poste de Torre"
+    "Title": "Coluna de Torre"
   },
   {
     "Id": "indus56",
-    "Title": "Poste de Torre - Topo"
+    "Title": "Topo de Coluna de Torre"
   },
   {
     "Id": "indus57",
-    "Title": "Antena Parabólica"
+    "Title": "Disco de Satélite"
   },
   {
     "Id": "indus58",
-    "Title": "Parabólica Refletora"
+    "Title": "Disco Refletor de Satélite"
   },
   {
     "Id": "indus59",
@@ -237,7 +237,7 @@
   },
   {
     "Id": "indus60",
-    "Title": "Antena de Refletor"
+    "Title": "Antena Refletora"
   },
   {
     "Id": "indus61",

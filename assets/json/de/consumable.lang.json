@@ -1,58 +1,58 @@
 [
   {
     "Id": "consu1",
-    "Title": "Gasoline"
+    "Title": "Benzin"
   },
   {
     "Id": "consu2",
-    "Title": "Battery"
+    "Title": "Batterie"
   },
   {
     "Id": "consu3",
-    "Title": "Water"
+    "Title": "Wasser"
   },
   {
     "Id": "consu4",
-    "Title": "Fertilizer"
+    "Title": "Düngemittel"
   },
   {
     "Id": "consu5",
-    "Title": "Chemicals"
+    "Title": "Chemikalien"
   },
   {
     "Id": "consu6",
-    "Title": "Component Kit"
+    "Title": "Komponenten-Bausatz"
   },
   {
     "Id": "consu7",
-    "Title": "Paint Ammo"
+    "Title": "Farbmunition"
   },
   {
     "Id": "consu8",
-    "Title": "Glowstick"
+    "Title": "Knicklicht"
   },
   {
     "Id": "consu9",
-    "Title": "Sunshake"
+    "Title": "Sonnenshake"
   },
   {
     "Id": "consu10",
-    "Title": "Pizza Burger"
+    "Title": "Pizza-Burger"
   },
   {
     "Id": "consu11",
-    "Title": "Veggie Burger"
+    "Title": "Veggie-Burger"
   },
   {
     "Id": "consu12",
-    "Title": "Revival Baguette"
+    "Title": "Wiederbelebungsbaguette"
   },
   {
     "Id": "consu13",
-    "Title": "Woc Milk"
+    "Title": "Woc-Milch"
   },
   {
     "Id": "consu14",
-    "Title": "Soil Bag"
+    "Title": "Sack Erde"
   }
 ]

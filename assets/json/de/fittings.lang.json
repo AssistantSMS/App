@@ -1,131 +1,131 @@
 [
   {
     "Id": "fitt1",
-    "Title": "Large Pipe Mount"
+    "Title": "Großes Rohr (Befestigung)"
   },
   {
     "Id": "fitt2",
-    "Title": "Holder Support Leg Base"
+    "Title": "Halterungsstütze Beinsockel"
   },
   {
     "Id": "fitt3",
-    "Title": "Holder Support Leg"
+    "Title": "Halterungsstütze Bein"
   },
   {
     "Id": "fitt4",
-    "Title": "Holder Support Bend"
+    "Title": "Halterungsstütze Krümmung"
   },
   {
     "Id": "fitt5",
-    "Title": "Large Pipe Extension"
+    "Title": "Großes Rohr (Erweiterung)"
   },
   {
     "Id": "fitt6",
-    "Title": "Large Pipe Cap"
+    "Title": "Großes Rohr (Kappe)"
   },
   {
     "Id": "fitt7",
-    "Title": "Large Pipe Compressor"
+    "Title": "Großes Rohr (Kompressor)"
   },
   {
     "Id": "fitt8",
-    "Title": "Power Station"
+    "Title": "E-Werk"
   },
   {
     "Id": "fitt9",
-    "Title": "Giant Pipe"
+    "Title": "Riesiges Rohr"
   },
   {
     "Id": "fitt10",
-    "Title": "Giant Pipe Glass Straight"
+    "Title": "Riesiges Glasrohr (gerade)"
   },
   {
     "Id": "fitt11",
-    "Title": "Giant Pipe Corner"
+    "Title": "Riesiges Rohr (Eckteil)"
   },
   {
     "Id": "fitt12",
-    "Title": "Giant Pipe Glass Corner"
+    "Title": "Riesiges Glasrohr (Eckteil)"
   },
   {
     "Id": "fitt13",
-    "Title": "Giant Pipe Tee"
+    "Title": "Riesiges Rohr (T-Stück)"
   },
   {
     "Id": "fitt14",
-    "Title": "Giant Pipe Bracer"
+    "Title": "Riesiges Rohr (Schiene)"
   },
   {
     "Id": "fitt15",
-    "Title": "Giant Pipe Holder"
+    "Title": "Riesiges Rohr (Halterung)"
   },
   {
     "Id": "fitt16",
-    "Title": "Warehouse Ventilation Short"
+    "Title": "Lagerhausbelüftung (kurz)"
   },
   {
     "Id": "fitt17",
-    "Title": "Warehouse Ventilation Long"
+    "Title": "Lagerhausbelüftung (lang)"
   },
   {
     "Id": "fitt18",
-    "Title": "Warehouse Ventilation Corner"
+    "Title": "Lagerhausbelüftung (Eckteil)"
   },
   {
     "Id": "fitt19",
-    "Title": "Warehouse Ventilation Tee"
+    "Title": "Lagerhausbelüftung (T-Stück)"
   },
   {
     "Id": "fitt20",
-    "Title": "Warehouse Ventilation Mount"
+    "Title": "Lagerhausbelüftung (Befestigung)"
   },
   {
     "Id": "fitt21",
-    "Title": "Warehouse Ventilation Drum"
+    "Title": "Lagerhausbelüftung (Trommel)"
   },
   {
     "Id": "fitt22",
-    "Title": "Generator Pipe Short"
+    "Title": "Rohr für Generator (kurz)"
   },
   {
     "Id": "fitt23",
-    "Title": "Generator Pipe Long"
+    "Title": "Rohr für Generator (lang)"
   },
   {
     "Id": "fitt24",
-    "Title": "Generator Pipe Corner"
+    "Title": "Rohr für Generator (Eckteil)"
   },
   {
     "Id": "fitt25",
-    "Title": "Generator Pipe Tee"
+    "Title": "Rohr für Generator (T-Stück)"
   },
   {
     "Id": "fitt26",
-    "Title": "Generator Pipe Four Way"
+    "Title": "Rohr für Generator (Vierwege-Stück)"
   },
   {
     "Id": "fitt27",
-    "Title": "Duct Short"
+    "Title": "Kurzer Schacht"
   },
   {
     "Id": "fitt28",
-    "Title": "Langer Kanal"
+    "Title": "Langer Schacht"
   },
   {
     "Id": "fitt29",
-    "Title": "Kanaleckstück"
+    "Title": "Schachteckteil"
   },
   {
     "Id": "fitt30",
-    "Title": "Kanalverbindung"
+    "Title": "Schachtverbindungsstück"
   },
   {
     "Id": "fitt31",
-    "Title": "Kanalhalterung"
+    "Title": "Schachthalter"
   },
   {
     "Id": "fitt32",
-    "Title": "Kanalendstück"
+    "Title": "Schachtende"
   },
   {
     "Id": "fitt33",
@@ -141,11 +141,11 @@
   },
   {
     "Id": "fitt36",
-    "Title": "Rohreckstück"
+    "Title": "Rohreckteil"
   },
   {
     "Id": "fitt37",
-    "Title": "Rohrverbindung"
+    "Title": "Rohrverbindungsstück"
   },
   {
     "Id": "fitt38",
@@ -153,19 +153,19 @@
   },
   {
     "Id": "fitt39",
-    "Title": "Großes Rohr, kurz"
+    "Title": "Großes Rohr (kurz)"
   },
   {
     "Id": "fitt40",
-    "Title": "Großes Rohr, lang"
+    "Title": "Großes Rohr (lang)"
   },
   {
     "Id": "fitt41",
-    "Title": "Großes Rohreckstück"
+    "Title": "Großes Rohr (Eckteil)"
   },
   {
     "Id": "fitt42",
-    "Title": "Große Rohrverbindung"
+    "Title": "Großes Rohr (Verbindungsstück)"
   },
   {
     "Id": "fitt43",
@@ -177,15 +177,15 @@
   },
   {
     "Id": "fitt45",
-    "Title": "Kabel, gekrümmt"
+    "Title": "Kabelbogen"
   },
   {
     "Id": "fitt46",
-    "Title": "Kabel, konvexe Krümmung"
+    "Title": "Konvexer Kabelbogen"
   },
   {
     "Id": "fitt47",
-    "Title": "Kabel, konkave Krümmung"
+    "Title": "Konkaver Kabelbogen"
   },
   {
     "Id": "fitt48",
@@ -193,54 +193,54 @@
   },
   {
     "Id": "fitt49",
-    "Title": "Kurze Röhren"
+    "Title": "Kurzer Schlauch"
   },
   {
     "Id": "fitt50",
-    "Title": "Lange Röhren"
+    "Title": "Langer Schlauch"
   },
   {
     "Id": "fitt51",
-    "Title": "Röhreneckstück"
+    "Title": "Schlaucheckteil"
   },
   {
     "Id": "fitt52",
-    "Title": "Röhrenverbindung"
+    "Title": "Schlauchverbindungsstück"
   },
   {
     "Id": "fitt53",
-    "Title": "Kleines Rohr, kurz"
+    "Title": "Kleines Rohr (kurz)"
   },
   {
     "Id": "fitt54",
-    "Title": "Kleines Rohr, lang"
+    "Title": "Kleines Rohr (lang)"
   },
   {
     "Id": "fitt55",
-    "Title": "Kleines Rohr, gekrümmt"
+    "Title": "Kleines Rohr (Krümmung)"
   },
   {
     "Id": "fitt56",
-    "Title": "Kleines Rohr, T-Stück"
+    "Title": "Kleines Rohr (T-Stück)"
   },
   {
     "Id": "fitt57",
-    "Title": "Kleines Rohreckstück"
+    "Title": "Kleines Rohr (Eckteil)"
   },
   {
     "Id": "fitt58",
-    "Title": "Kleines Rohr, vierfach"
+    "Title": "Kleines Rohr (Vierwege-Stück)"
   },
   {
     "Id": "fitt59",
-    "Title": "Kleines Rohr, vierfach T-Stück"
+    "Title": "Kleines Rohr (Vierwege-T-Stück)"
   },
   {
     "Id": "fitt60",
-    "Title": "Kleines Rohr, fünffach"
+    "Title": "Kleines Rohr (Fünfwege-Stück)"
   },
   {
     "Id": "fitt61",
-    "Title": "Kleines Rohr, sechsfach"
+    "Title": "Kleines Rohr (Sechswege-Stück)"
   }
 ]

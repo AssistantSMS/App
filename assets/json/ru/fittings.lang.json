@@ -1,131 +1,131 @@
 [
   {
     "Id": "fitt1",
-    "Title": "Large Pipe Mount"
+    "Title": "Большая труба – держатель"
   },
   {
     "Id": "fitt2",
-    "Title": "Holder Support Leg Base"
+    "Title": "База ноги опоры держателя"
   },
   {
     "Id": "fitt3",
-    "Title": "Holder Support Leg"
+    "Title": "Нога опоры держателя"
   },
   {
     "Id": "fitt4",
-    "Title": "Holder Support Bend"
+    "Title": "Колено ноги опоры держателя"
   },
   {
     "Id": "fitt5",
-    "Title": "Large Pipe Extension"
+    "Title": "Большая труба – удлинитель"
   },
   {
     "Id": "fitt6",
-    "Title": "Large Pipe Cap"
+    "Title": "Большая труба – крышка"
   },
   {
     "Id": "fitt7",
-    "Title": "Large Pipe Compressor"
+    "Title": "Большая труба – компрессор"
   },
   {
     "Id": "fitt8",
-    "Title": "Power Station"
+    "Title": "Электростанция"
   },
   {
     "Id": "fitt9",
-    "Title": "Giant Pipe"
+    "Title": "Огромная труба"
   },
   {
     "Id": "fitt10",
-    "Title": "Giant Pipe Glass Straight"
+    "Title": "Огромная труба (стекло) – прямая"
   },
   {
     "Id": "fitt11",
-    "Title": "Giant Pipe Corner"
+    "Title": "Огромная труба – угол"
   },
   {
     "Id": "fitt12",
-    "Title": "Giant Pipe Glass Corner"
+    "Title": "Огромная труба (стекло) – угол"
   },
   {
     "Id": "fitt13",
-    "Title": "Giant Pipe Tee"
+    "Title": "Огромная труба – Т-сочленение"
   },
   {
     "Id": "fitt14",
-    "Title": "Giant Pipe Bracer"
+    "Title": "Огромная труба – крепление"
   },
   {
     "Id": "fitt15",
-    "Title": "Giant Pipe Holder"
+    "Title": "Огромная труба – держатель"
   },
   {
     "Id": "fitt16",
-    "Title": "Warehouse Ventilation Short"
+    "Title": "Вентиляция склада – короткая"
   },
   {
     "Id": "fitt17",
-    "Title": "Warehouse Ventilation Long"
+    "Title": "Вентиляция склада – длинная"
   },
   {
     "Id": "fitt18",
-    "Title": "Warehouse Ventilation Corner"
+    "Title": "Вентиляция склада – угол"
   },
   {
     "Id": "fitt19",
-    "Title": "Warehouse Ventilation Tee"
+    "Title": "Вентиляция склада – Т-сочленение"
   },
   {
     "Id": "fitt20",
-    "Title": "Warehouse Ventilation Mount"
+    "Title": "Вентиляция склада – держатель"
   },
   {
     "Id": "fitt21",
-    "Title": "Warehouse Ventilation Drum"
+    "Title": "Вентиляция склада – барабан"
   },
   {
     "Id": "fitt22",
-    "Title": "Generator Pipe Short"
+    "Title": "Труба генератора – короткая"
   },
   {
     "Id": "fitt23",
-    "Title": "Generator Pipe Long"
+    "Title": "Труба генератора – длинная"
   },
   {
     "Id": "fitt24",
-    "Title": "Generator Pipe Corner"
+    "Title": "Труба генератора – угол"
   },
   {
     "Id": "fitt25",
-    "Title": "Generator Pipe Tee"
+    "Title": "Труба генератора – Т-сочленение"
   },
   {
     "Id": "fitt26",
-    "Title": "Generator Pipe Four Way"
+    "Title": "Труба генератора – крестовина"
   },
   {
     "Id": "fitt27",
-    "Title": "Duct Short"
+    "Title": "Короб – короткий"
   },
   {
     "Id": "fitt28",
-    "Title": "Длинный канал"
+    "Title": "Короб – длинный"
   },
   {
     "Id": "fitt29",
-    "Title": "Канал - угол"
+    "Title": "Короб – угол"
   },
   {
     "Id": "fitt30",
-    "Title": "Канал - соединение"
+    "Title": "Короб – сочленение"
   },
   {
     "Id": "fitt31",
-    "Title": "Канал - обойма"
+    "Title": "Короб – держатель"
   },
   {
     "Id": "fitt32",
-    "Title": "Канал - конец"
+    "Title": "Короб – наконечник"
   },
   {
     "Id": "fitt33",
@@ -133,19 +133,19 @@
   },
   {
     "Id": "fitt34",
-    "Title": "Длинная труба"
+    "Title": "Труба – короткая"
   },
   {
     "Id": "fitt35",
-    "Title": "Короткая труба"
+    "Title": "Труба – длинная"
   },
   {
     "Id": "fitt36",
-    "Title": "Труба - угол"
+    "Title": "Труба – угол"
   },
   {
     "Id": "fitt37",
-    "Title": "Труба - соединение"
+    "Title": "Труба – сочленение"
   },
   {
     "Id": "fitt38",
@@ -153,94 +153,94 @@
   },
   {
     "Id": "fitt39",
-    "Title": "Большая труба - коротк."
+    "Title": "Большая труба – короткая"
   },
   {
     "Id": "fitt40",
-    "Title": "Большая труба - длин."
+    "Title": "Большая труба – длинная"
   },
   {
     "Id": "fitt41",
-    "Title": "Большая труба - угол"
+    "Title": "Большая труба – угол"
   },
   {
     "Id": "fitt42",
-    "Title": "Большая труба - соед."
+    "Title": "Большая труба – сочленение"
   },
   {
     "Id": "fitt43",
-    "Title": "Провода - короткие"
+    "Title": "Проводка – короткая"
   },
   {
     "Id": "fitt44",
-    "Title": "Провода - длинные"
+    "Title": "Проводка – длинная"
   },
   {
     "Id": "fitt45",
-    "Title": "Провода - угол"
+    "Title": "Проводка – угол"
   },
   {
     "Id": "fitt46",
-    "Title": "Провода - угол выступа"
+    "Title": "Проводка – выступ"
   },
   {
     "Id": "fitt47",
-    "Title": "Провода - угол желоба"
+    "Title": "Проводка – прогиб"
   },
   {
     "Id": "fitt48",
-    "Title": "Блок предохранителей"
+    "Title": "Предохранительная коробка"
   },
   {
     "Id": "fitt49",
-    "Title": "Трубки - короткие"
+    "Title": "Трубы – короткие"
   },
   {
     "Id": "fitt50",
-    "Title": "Трубки - длинные"
+    "Title": "Трубы – длинные"
   },
   {
     "Id": "fitt51",
-    "Title": "Трубки - угол"
+    "Title": "Трубы – угол"
   },
   {
     "Id": "fitt52",
-    "Title": "Трубки - соединение"
+    "Title": "Трубы – сочленение"
   },
   {
     "Id": "fitt53",
-    "Title": "Малая труба - короткая"
+    "Title": "Малая труба – короткая"
   },
   {
     "Id": "fitt54",
-    "Title": "Малая труба - длинная"
+    "Title": "Малая труба – длинная"
   },
   {
     "Id": "fitt55",
-    "Title": "Малая труба - изгиб"
+    "Title": "Малая труба – угол"
   },
   {
     "Id": "fitt56",
-    "Title": "Малая труба - Т"
+    "Title": "Малая труба – Т-сочленение"
   },
   {
     "Id": "fitt57",
-    "Title": "Малая труба - уголок"
+    "Title": "Малая труба – угол"
   },
   {
     "Id": "fitt58",
-    "Title": "Малая труба - четырехпут. соед."
+    "Title": "Малая труба – крестовина"
   },
   {
     "Id": "fitt59",
-    "Title": "Малая труба - четырехпут. соед. - Т"
+    "Title": "Малая труба – Т-крестовина"
   },
   {
     "Id": "fitt60",
-    "Title": "Малая труба - пятипут. соед."
+    "Title": "Малая труба – 5-конечное сочленение"
   },
   {
     "Id": "fitt61",
-    "Title": "Малая труба - шестипут. соед."
+    "Title": "Малая труба – 6-конечное сочленение"
   }
 ]

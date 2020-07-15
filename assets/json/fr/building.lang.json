@@ -1,82 +1,82 @@
 [
   {
     "Id": "build1",
-    "Title": "Stand Support A"
+    "Title": "Support A"
   },
   {
     "Id": "build2",
-    "Title": "Stand Support Long"
+    "Title": "Long support"
   },
   {
     "Id": "build3",
-    "Title": "Stand Support Corner"
+    "Title": "Coin de support"
   },
   {
     "Id": "build4",
-    "Title": "Stand Support"
+    "Title": "Support"
   },
   {
     "Id": "build5",
-    "Title": "Stand Support Base"
+    "Title": "Base de support"
   },
   {
     "Id": "build6",
-    "Title": "Mop Set"
+    "Title": "Kit de balai à franges"
   },
   {
     "Id": "build7",
-    "Title": "Bathroom Stall Door"
+    "Title": "Porte de toilettes"
   },
   {
     "Id": "build8",
-    "Title": "Slippery Surface Sign"
+    "Title": "Panneau sol mouillé"
   },
   {
     "Id": "build9",
-    "Title": "Plunger"
+    "Title": "Ventouse"
   },
   {
     "Id": "build10",
-    "Title": "Warehouse sink"
+    "Title": "Évier d'entrepôt"
   },
   {
     "Id": "build11",
-    "Title": "Water Dispenser"
+    "Title": "Distributeur d'eau"
   },
   {
     "Id": "build12",
-    "Title": "Cup Holder"
+    "Title": "Porte-verres"
   },
   {
     "Id": "build13",
-    "Title": "Water Tank"
+    "Title": "Réservoir d'eau"
   },
   {
     "Id": "build14",
-    "Title": "Cubicle Wall"
+    "Title": "Séparation de box"
   },
   {
     "Id": "build15",
-    "Title": "Corner Brace"
+    "Title": "Équerre de renfort"
   },
   {
     "Id": "build16",
-    "Title": "Office Table B"
+    "Title": "Table de bureau B"
   },
   {
     "Id": "build17",
-    "Title": "Office Table A"
+    "Title": "Table de bureau A"
   },
   {
     "Id": "build18",
-    "Title": "Office Table Leg"
+    "Title": "Pied de table de bureau"
   },
   {
     "Id": "build19",
-    "Title": "Office Chair Top"
+    "Title": "Partie supérieure de chaise de bureau"
   },
   {
     "Id": "build20",
-    "Title": "Office Chair Base"
+    "Title": "Base de chaise de bureau"
   }
 ]

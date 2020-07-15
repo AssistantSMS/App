@@ -1,38 +1,38 @@
 [
   {
     "Id": "man1",
-    "Title": "Shack Wall"
+    "Title": "おんぼろの壁"
   },
   {
     "Id": "man2",
-    "Title": "Shack Half Wall"
+    "Title": "おんぼろの壁（半）"
   },
   {
     "Id": "man3",
-    "Title": "Shade Sails"
+    "Title": "おんぼろの日除け布"
   },
   {
     "Id": "man4",
-    "Title": "Awning"
+    "Title": "おんぼろの天幕"
   },
   {
     "Id": "man5",
-    "Title": "Shack Roof"
+    "Title": "おんぼろの屋根"
   },
   {
     "Id": "man6",
-    "Title": "Shack Light"
+    "Title": "おんぼろの照明"
   },
   {
     "Id": "man7",
-    "Title": "Fresh Neon Sign"
+    "Title": "新品のネオンサイン"
   },
   {
     "Id": "man8",
-    "Title": "Hard Work Sign"
+    "Title": "重労働サイン"
   },
   {
     "Id": "man9",
-    "Title": "Sale Sign"
+    "Title": "セールサイン"
   }
 ]

@@ -1,38 +1,38 @@
 [
   {
     "Id": "man1",
-    "Title": "Shack Wall"
+    "Title": "Mur de cabane"
   },
   {
     "Id": "man2",
-    "Title": "Shack Half Wall"
+    "Title": "Demi-mur de cabane"
   },
   {
     "Id": "man3",
-    "Title": "Shade Sails"
+    "Title": "Stores de cabane"
   },
   {
     "Id": "man4",
-    "Title": "Awning"
+    "Title": "Auvent de cabane"
   },
   {
     "Id": "man5",
-    "Title": "Shack Roof"
+    "Title": "Toit de cabane"
   },
   {
     "Id": "man6",
-    "Title": "Shack Light"
+    "Title": "Lampe de cabane"
   },
   {
     "Id": "man7",
-    "Title": "Fresh Neon Sign"
+    "Title": "Panneau néon Fresh"
   },
   {
     "Id": "man8",
-    "Title": "Hard Work Sign"
+    "Title": "Panneau travail dur"
   },
   {
     "Id": "man9",
-    "Title": "Sale Sign"
+    "Title": "Panneau vente"
   }
 ]

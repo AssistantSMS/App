@@ -1,131 +1,131 @@
 [
   {
     "Id": "fitt1",
-    "Title": "Large Pipe Mount"
+    "Title": "Braçadeira Fixa de Cano Grande"
   },
   {
     "Id": "fitt2",
-    "Title": "Holder Support Leg Base"
+    "Title": "Base do Pé de Suporte de Apoio"
   },
   {
     "Id": "fitt3",
-    "Title": "Holder Support Leg"
+    "Title": "Pé de Suporte de Apoio"
   },
   {
     "Id": "fitt4",
-    "Title": "Holder Support Bend"
+    "Title": "Suporte de Apoio Curvo"
   },
   {
     "Id": "fitt5",
-    "Title": "Large Pipe Extension"
+    "Title": "Extensão de Cano Grande"
   },
   {
     "Id": "fitt6",
-    "Title": "Large Pipe Cap"
+    "Title": "Tampão de Cano Grande"
   },
   {
     "Id": "fitt7",
-    "Title": "Large Pipe Compressor"
+    "Title": "Compressor de Cano Grande"
   },
   {
     "Id": "fitt8",
-    "Title": "Power Station"
+    "Title": "Central Elétrica"
   },
   {
     "Id": "fitt9",
-    "Title": "Giant Pipe"
+    "Title": "Cano Gigante"
   },
   {
     "Id": "fitt10",
-    "Title": "Giant Pipe Glass Straight"
+    "Title": "Cano Gigante de Vidro"
   },
   {
     "Id": "fitt11",
-    "Title": "Giant Pipe Corner"
+    "Title": "Cano Gigante Convergente"
   },
   {
     "Id": "fitt12",
-    "Title": "Giant Pipe Glass Corner"
+    "Title": "Cano Gigante de Vidro Convergente"
   },
   {
     "Id": "fitt13",
-    "Title": "Giant Pipe Tee"
+    "Title": "Cano em Tê Gigante"
   },
   {
     "Id": "fitt14",
-    "Title": "Giant Pipe Bracer"
+    "Title": "Fixador L de Cano Gigante"
   },
   {
     "Id": "fitt15",
-    "Title": "Giant Pipe Holder"
+    "Title": "Suporte de Cano Gigante"
   },
   {
     "Id": "fitt16",
-    "Title": "Warehouse Ventilation Short"
+    "Title": "Ventilação Curta de Armazém"
   },
   {
     "Id": "fitt17",
-    "Title": "Warehouse Ventilation Long"
+    "Title": "Ventilação Longa de Armazém"
   },
   {
     "Id": "fitt18",
-    "Title": "Warehouse Ventilation Corner"
+    "Title": "Ventilação Convergente de Armazém"
   },
   {
     "Id": "fitt19",
-    "Title": "Warehouse Ventilation Tee"
+    "Title": "Tê de Ventilação de Armazém"
   },
   {
     "Id": "fitt20",
-    "Title": "Warehouse Ventilation Mount"
+    "Title": "Braçadeira Fixa de Ventilação de Armazém"
   },
   {
     "Id": "fitt21",
-    "Title": "Warehouse Ventilation Drum"
+    "Title": "Cilindro de Ventilação de Armazém"
   },
   {
     "Id": "fitt22",
-    "Title": "Generator Pipe Short"
+    "Title": "Cano Curto de Gerador"
   },
   {
     "Id": "fitt23",
-    "Title": "Generator Pipe Long"
+    "Title": "Cano Longo de Gerador"
   },
   {
     "Id": "fitt24",
-    "Title": "Generator Pipe Corner"
+    "Title": "Cano Convergente de Gerador"
   },
   {
     "Id": "fitt25",
-    "Title": "Generator Pipe Tee"
+    "Title": "Cano em Tê de Gerador"
   },
   {
     "Id": "fitt26",
-    "Title": "Generator Pipe Four Way"
+    "Title": "Cruzeta de Cano de Gerador"
   },
   {
     "Id": "fitt27",
-    "Title": "Duct Short"
+    "Title": "Duto Curto"
   },
   {
     "Id": "fitt28",
-    "Title": "Duto - Longo"
+    "Title": "Duto Longo"
   },
   {
     "Id": "fitt29",
-    "Title": "Duto - Cotovelo"
+    "Title": "Duto Convergente"
   },
   {
     "Id": "fitt30",
-    "Title": "Duto - Junção"
+    "Title": "Junção de Duto"
   },
   {
     "Id": "fitt31",
-    "Title": "Apoio de tubos"
+    "Title": "Suporte de Duto"
   },
   {
     "Id": "fitt32",
-    "Title": "Duto - Final"
+    "Title": "Extremidade de Duto"
   },
   {
     "Id": "fitt33",
@@ -133,19 +133,19 @@
   },
   {
     "Id": "fitt34",
-    "Title": "Cano - Curto"
+    "Title": "Cano Curto"
   },
   {
     "Id": "fitt35",
-    "Title": "Cano - Longo"
+    "Title": "Cano Longo"
   },
   {
     "Id": "fitt36",
-    "Title": "Cano - Cotovelo"
+    "Title": "Cano Convergente"
   },
   {
     "Id": "fitt37",
-    "Title": "Cano - Junção"
+    "Title": "Junção de Cano"
   },
   {
     "Id": "fitt38",
@@ -153,39 +153,39 @@
   },
   {
     "Id": "fitt39",
-    "Title": "Cano Grande - Curto"
+    "Title": "Cano Grande Curto"
   },
   {
     "Id": "fitt40",
-    "Title": "Cano Grande - Longo"
+    "Title": "Cano Grande Longo"
   },
   {
     "Id": "fitt41",
-    "Title": "Cano Grande - Cotovelo"
+    "Title": "Cano Grande Convergente"
   },
   {
     "Id": "fitt42",
-    "Title": "Cano Grande - Junção"
+    "Title": "Junção de Cano Grande"
   },
   {
     "Id": "fitt43",
-    "Title": "Fiação - Curta"
+    "Title": "Cabos Curtos"
   },
   {
     "Id": "fitt44",
-    "Title": "Fiação - Longa"
+    "Title": "Cabos Longos"
   },
   {
     "Id": "fitt45",
-    "Title": "Fiação - Dobra"
+    "Title": "Cabos Curvos"
   },
   {
     "Id": "fitt46",
-    "Title": "Fiação - Dobra Convexa"
+    "Title": "Cabos Curvos Conexos"
   },
   {
     "Id": "fitt47",
-    "Title": "Fiação - Dobra Côncava"
+    "Title": "Cabos Curvos Côncavos"
   },
   {
     "Id": "fitt48",
@@ -193,54 +193,54 @@
   },
   {
     "Id": "fitt49",
-    "Title": "Tubo - Curto"
+    "Title": "Tubos Curtos"
   },
   {
     "Id": "fitt50",
-    "Title": "Tubo - Longo"
+    "Title": "Tubos Longos"
   },
   {
     "Id": "fitt51",
-    "Title": "Tubo - Cotovelo"
+    "Title": "Tubos Convergente"
   },
   {
     "Id": "fitt52",
-    "Title": "Tubo - Junção"
+    "Title": "Junção de Tubos"
   },
   {
     "Id": "fitt53",
-    "Title": "Cano Pequeno - Curto"
+    "Title": "Cano Pequeno Curto"
   },
   {
     "Id": "fitt54",
-    "Title": "Cano Pequeno - Longo"
+    "Title": "Cano Pequeno Longo"
   },
   {
     "Id": "fitt55",
-    "Title": "Cano Pequeno - Dobra"
+    "Title": "Cano Pequeno Curvo"
   },
   {
     "Id": "fitt56",
-    "Title": "Cano Pequeno - T"
+    "Title": "Cano em Tê Pequeno"
   },
   {
     "Id": "fitt57",
-    "Title": "Cano Pequeno - Cotovelo"
+    "Title": "Cano Pequeno Convergente"
   },
   {
     "Id": "fitt58",
-    "Title": "Cano Pequeno - 4 Vias"
+    "Title": "Cruzeta de Cano Pequeno"
   },
   {
     "Id": "fitt59",
-    "Title": "Cano Pequeno - T de 4 Vias"
+    "Title": "Cruzeta Cano em Tê Pequeno"
   },
   {
     "Id": "fitt60",
-    "Title": "Cano Pequeno - 5 Vias"
+    "Title": "Cruzeta Quíntupla de Cano Pequeno"
   },
   {
     "Id": "fitt61",
-    "Title": "Cano Pequeno - 6 Vias"
+    "Title": "Cruzeta Sêxtupla de Cano Pequeno"
   }
 ]

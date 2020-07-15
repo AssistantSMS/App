@@ -1,73 +1,73 @@
 [
   {
     "Id": "recipeHideout1",
-    "Title": "Soil Bag",
-    "Description": "Use them on the ground to place your seeds in"
+    "Title": "Sac de terre",
+    "Description": "À utiliser au sol pour y placer vos graines."
   },
   {
     "Id": "recipeHideout2",
-    "Title": "Fertilizer",
-    "Description": "Makes plants grow faster"
+    "Title": "Engrais",
+    "Description": "Fait pousser les plantes plus rapidement."
   },
   {
     "Id": "recipeHideout3",
-    "Title": "Banana Seed"
+    "Title": "Graines de bananes"
   },
   {
     "Id": "recipeHideout4",
-    "Title": "Orange Seed"
+    "Title": "Graines d'oranges"
   },
   {
     "Id": "recipeHideout5",
-    "Title": "Blueberry Seed"
+    "Title": "Graines de myrtilles"
   },
   {
     "Id": "recipeHideout6",
-    "Title": "Cotton Seed"
+    "Title": "Graines de coton"
   },
   {
     "Id": "recipeHideout7",
-    "Title": "Saw Blade",
-    "Description": "Cut down trees faster with the Saw Blade. Put it on a bearing that is connected to a engine and drive it in to a tree."
+    "Title": "Lame de scie",
+    "Description": "Coupez plus rapidement des arbres avec la lame de scie. Placez-la sur un palier connecté à un moteur puis utilisez-là sur un arbre."
   },
   {
     "Id": "recipeHideout8",
-    "Title": "Drill",
-    "Description": "Use the Drill to mine square rocks for stone and metal. Put it on a bearing that is connected to a engine and drive it in to a square rock."
+    "Title": "Perceuse",
+    "Description": "Utilisez la perceuse sur les rochers carrés pour extraire de la pierre et du métal. Placez-la sur un palier connecté à un moteur puis utilisez-la sur un rocher carré."
   },
   {
     "Id": "recipeHideout9",
-    "Title": "Mountable Spud Gun",
-    "Description": "Connect it to a Ammo container with a trigger to shoot"
+    "Title": "Lance-patates montable",
+    "Description": "Pour tirer, connectez-le à un conteneur à munitions avec un déclencheur."
   },
   {
     "Id": "recipeHideout10",
-    "Title": "Potato Ammo Container",
-    "Description": "Connect it to a Moutable Spud Gun with a trigger to shoot potato ammo"
+    "Title": "Conteneur à munitions de patates",
+    "Description": "Connectez-le à un lance-patates montable avec un déclencheur pour tirer des munitions de patates."
   },
   {
     "Id": "recipeHideout11",
-    "Title": "Spud Gun",
-    "Description": "Spud Gun with single potato shot."
+    "Title": "Lance-patates",
+    "Description": "Un lance-patates qui tire une seule patate."
   },
   {
     "Id": "recipeHideout12",
-    "Title": "Spud Shotgun",
-    "Description": "Shoots sizzling hot fries in a spread."
+    "Title": "Fusil à pompe lance-patates",
+    "Description": "Tire un jet de frites chaudes crépitantes."
   },
   {
     "Id": "recipeHideout13",
-    "Title": "Spudling Gun",
-    "Description": "Shoots potatoes in a rapid fire. Uses a lot of potato ammo"
+    "Title": "Fusil lance-patates",
+    "Description": "Tire des patates en rafale. Utilise beaucoup de munitions de patates."
   },
   {
     "Id": "recipeHideout14",
-    "Title": "Garment Box (Common)",
-    "Description": "Use it in a Dressbot to make new clothes"
+    "Title": "Boîte à vêtements (ordinaire)",
+    "Description": "Utilisez-la dans le Tenuebot pour créer de nouveaux habits."
   },
   {
     "Id": "recipeHideout15",
-    "Title": "Garment Box (Rare)",
-    "Description": "Use it in a Dressbot to make new clothes"
+    "Title": "Boîte à vêtements (rare)",
+    "Description": "Utilisez-la dans le Tenuebot pour créer de nouveaux habits."
   }
 ]

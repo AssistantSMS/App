@@ -1,30 +1,30 @@
 [
   {
     "Id": "interc1",
-    "Title": "Gas Container"
+    "Title": "Conteneur à essence"
   },
   {
     "Id": "interc2",
-    "Title": "Water Container"
+    "Title": "Conteneur à eau"
   },
   {
     "Id": "interc3",
-    "Title": "Fertilizer Container"
+    "Title": "Conteneur à engrais"
   },
   {
     "Id": "interc4",
-    "Title": "Battery Container"
+    "Title": "Conteneur à batteries"
   },
   {
     "Id": "interc5",
-    "Title": "Potato Ammo Container"
+    "Title": "Conteneur à munitions de patates"
   },
   {
     "Id": "interc6",
-    "Title": "Seed Container"
+    "Title": "Conteneur à graines"
   },
   {
     "Id": "interc7",
-    "Title": "Chemical Container"
+    "Title": "Conteneur à produits chimiques"
   }
 ]

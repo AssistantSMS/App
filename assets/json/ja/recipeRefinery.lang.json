@@ -1,22 +1,22 @@
 [
   {
     "Id": "recipeRef1",
-    "Title": "Scrap Wood"
+    "Title": "スクラップ木材"
   },
   {
     "Id": "recipeRef2",
-    "Title": "Wood"
+    "Title": "木材"
   },
   {
     "Id": "recipeRef3",
-    "Title": "Scrap Metal"
+    "Title": "スクラップ金属"
   },
   {
     "Id": "recipeRef4",
-    "Title": "Metal"
+    "Title": "金属"
   },
   {
     "Id": "recipeRef5",
-    "Title": "Scrap Stone"
+    "Title": "スクラップ石材"
   }
 ]

@@ -1,23 +1,23 @@
 [
   {
     "Id": "veh1",
-    "Title": "Concave Wedge"
+    "Title": "Calço Côncavo"
   },
   {
     "Id": "veh2",
-    "Title": "License Plate"
+    "Title": "Placa de Carro"
   },
   {
     "Id": "veh3",
-    "Title": "Metallic Tube Straight"
+    "Title": "Tubo Metálico"
   },
   {
     "Id": "veh4",
-    "Title": "Metallic Tube Bend"
+    "Title": "Tubo Metálico Curvo"
   },
   {
     "Id": "veh5",
-    "Title": "Rounded Frame Corner"
+    "Title": "Estrutura Convergente Redonda"
   },
   {
     "Id": "veh6",
@@ -25,6 +25,6 @@
   },
   {
     "Id": "veh7",
-    "Title": "Roda Grande"
+    "Title": "Roda Grade"
   }
 ]

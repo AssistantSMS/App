@@ -1,151 +1,151 @@
 [
   {
     "Id": "blk1",
-    "Title": "Scrap Wood Block"
+    "Title": "Bloc de bois abîmé"
   },
   {
     "Id": "blk2",
-    "Title": "Wood Block 2"
+    "Title": "Bloc de bois 2"
   },
   {
     "Id": "blk3",
-    "Title": "Wood Block 3"
+    "Title": "Bloc de bois 3"
   },
   {
     "Id": "blk4",
-    "Title": "Scrap Metal Block"
+    "Title": "Bloc de métal abîmé"
   },
   {
     "Id": "blk5",
-    "Title": "Metal Block 2"
+    "Title": "Bloc de métal 2"
   },
   {
     "Id": "blk6",
-    "Title": "Metal Block 3"
+    "Title": "Bloc de métal 3"
   },
   {
     "Id": "blk7",
-    "Title": "Scrap Stone Block"
+    "Title": "Bloc de pierre abîmé"
   },
   {
     "Id": "blk8",
-    "Title": "Concrete Block 2"
+    "Title": "Bloc de béton 2"
   },
   {
     "Id": "blk9",
-    "Title": "Concrete Block 3"
+    "Title": "Bloc de béton 3"
   },
   {
     "Id": "blk10",
-    "Title": "Cracked Concrete Block"
+    "Title": "Bloc de béton craquelé"
   },
   {
     "Id": "blk11",
-    "Title": "Concrete Slab Block"
+    "Title": "Bloc de béton à dalles"
   },
   {
     "Id": "blk12",
-    "Title": "Rusted Metal Block"
+    "Title": "Bloc de métal rouillé"
   },
   {
     "Id": "blk13",
-    "Title": "Extruded Metal Block"
+    "Title": "Bloc de métal extrudé"
   },
   {
     "Id": "blk14",
-    "Title": "Bubble Plastic Block"
+    "Title": "Bloc de papier bulle"
   },
   {
     "Id": "blk15",
-    "Title": "Plastic Block"
+    "Title": "Bloc de plastique"
   },
   {
     "Id": "blk16",
-    "Title": "Insulation Block"
+    "Title": "Bloc isolant"
   },
   {
     "Id": "blk17",
-    "Title": "Plaster Block"
+    "Title": "Bloc de plâtre"
   },
   {
     "Id": "blk18",
-    "Title": "Carpet Block"
+    "Title": "Bloc moquette"
   },
   {
     "Id": "blk19",
-    "Title": "Painted Wall Block"
+    "Title": "Bloc mur peint"
   },
   {
     "Id": "blk20",
-    "Title": "Net Block"
+    "Title": "Bloc filet"
   },
   {
     "Id": "blk21",
-    "Title": "Solid Net Block"
+    "Title": "Bloc filet solide"
   },
   {
     "Id": "blk22",
-    "Title": "Punched Steel Block"
+    "Title": "Bloc d'acier perforé"
   },
   {
     "Id": "blk23",
-    "Title": "Striped Net Block"
+    "Title": "Bloc filet solide"
   },
   {
     "Id": "blk24",
-    "Title": "Square Mesh Block"
+    "Title": "Bloc en maille carrée"
   },
   {
     "Id": "blk25",
-    "Title": "Restroom Block"
+    "Title": "Bloc de toilettes"
   },
   {
     "Id": "blk26",
-    "Title": "Diamond Plate Block"
+    "Title": "Bloc à losanges"
   },
   {
     "Id": "blk27",
-    "Title": "Aluminum Block"
+    "Title": "Bloc en aluminium"
   },
   {
     "Id": "blk28",
-    "Title": "Worn Metal Block"
+    "Title": "Bloc de métal érodé"
   },
   {
     "Id": "blk29",
-    "Title": "Spaceship Floor Block"
+    "Title": "Bloc sol de vaisseau spatial"
   },
   {
     "Id": "blk30",
-    "Title": "Sand Block"
+    "Title": "Bloc de sable"
   },
   {
     "Id": "blk31",
-    "Title": "Armored Glass Block"
+    "Title": "Bloc de verre blindé"
   },
   {
     "Id": "blk32",
-    "Title": "Bloc : béton"
+    "Title": "Bloc de béton 1"
   },
   {
     "Id": "blk33",
-    "Title": "Bloc : bois"
+    "Title": "Bloc de bois 1"
   },
   {
     "Id": "blk34",
-    "Title": "Bloc : métal"
+    "Title": "Bloc de métal 1"
   },
   {
     "Id": "blk35",
-    "Title": "Bloc : barrière"
+    "Title": "Bloc barrière"
   },
   {
     "Id": "blk36",
-    "Title": "Bloc : carrelage"
+    "Title": "Bloc à carreaux"
   },
   {
     "Id": "blk37",
-    "Title": "Bloc : brique"
+    "Title": "Bloc de briques"
   },
   {
     "Id": "blk38",
@@ -153,18 +153,18 @@
   },
   {
     "Id": "blk39",
-    "Title": "Bloc : verre"
+    "Title": "Bloc de verre à carreaux"
   },
   {
     "Id": "blk40",
-    "Title": "Bloc chemin lumineux"
+    "Title": "Bloc chemin illuminé"
   },
   {
     "Id": "blk41",
-    "Title": "Bloc: navire de réparation"
+    "Title": "Bloc vaisseau spatial"
   },
   {
     "Id": "blk42",
-    "Title": "Bloc: carton"
+    "Title": "Bloc de carton"
   }
 ]

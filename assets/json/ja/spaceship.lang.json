@@ -1,106 +1,106 @@
 [
   {
     "Id": "spaceship1",
-    "Title": "Ship Light"
+    "Title": "船の照明"
   },
   {
     "Id": "spaceship2",
-    "Title": "Handle"
+    "Title": "ハンドル"
   },
   {
     "Id": "spaceship3",
-    "Title": "Ship Floor Tile"
+    "Title": "船のフロアタイル"
   },
   {
     "Id": "spaceship4",
-    "Title": "Ship Ventilation"
+    "Title": "船の換気装置"
   },
   {
     "Id": "spaceship5",
-    "Title": "Ship Compartment"
+    "Title": "船の区画"
   },
   {
     "Id": "spaceship6",
-    "Title": "Ship Dual fan"
+    "Title": "船のデュアルファン"
   },
   {
     "Id": "spaceship7",
-    "Title": "Warehouse Brick Lamp"
+    "Title": "倉庫のブリックランプ"
   },
   {
     "Id": "spaceship8",
-    "Title": "Net frame"
+    "Title": "網枠"
   },
   {
     "Id": "spaceship9",
-    "Title": "Net frame hatch"
+    "Title": "網枠のハッチ"
   },
   {
     "Id": "spaceship10",
-    "Title": "Ship Shelf"
+    "Title": "船の棚"
   },
   {
     "Id": "spaceship11",
-    "Title": "Calendar"
+    "Title": "カレンダー"
   },
   {
     "Id": "spaceship13",
-    "Title": "Broken Microwave"
+    "Title": "壊れた電子レンジ"
   },
   {
     "Id": "spaceship14",
-    "Title": "Crane Wheel"
+    "Title": "クレーンのホイール"
   },
   {
     "Id": "spaceship15",
-    "Title": "Ship Wall Panel Large"
+    "Title": "船の壁パネル（大）"
   },
   {
     "Id": "spaceship30",
-    "Title": "Ship Wall Panel Small"
+    "Title": "船の壁パネル（小）"
   },
   {
     "Id": "spaceship31",
-    "Title": "Ship Wall Panel Medium"
+    "Title": "船の壁パネル（中）"
   },
   {
     "Id": "spaceship32",
-    "Title": "Ship Wall Panel Large"
+    "Title": "船の壁パネル（大）"
   },
   {
     "Id": "spaceship33",
-    "Title": "Ship Wiring Short"
+    "Title": "船の配線（短）"
   },
   {
     "Id": "spaceship34",
-    "Title": "Ship Wiring Long"
+    "Title": "船の配線（長）"
   },
   {
     "Id": "spaceship35",
-    "Title": "Ship Wiring End"
+    "Title": "船の配線（端部）"
   },
   {
     "Id": "spaceship36",
-    "Title": "Ship Floor Mold"
+    "Title": "船のフロアモールド"
   },
   {
     "Id": "spaceship42",
-    "Title": "Ship Blinds"
+    "Title": "船のブラインド"
   },
   {
     "Id": "spaceship43",
-    "Title": "Ship Ceiling Ventilation"
+    "Title": "船の天井換気装置"
   },
   {
     "Id": "spaceship44",
-    "Title": "Ship Ventilation Panel"
+    "Title": "船の換気装置パネル"
   },
   {
     "Id": "spaceship47",
-    "Title": "非常口マーク"
+    "Title": "出口サイン"
   },
   {
     "Id": "spaceship48",
-    "Title": "船体整備用ドア"
+    "Title": "メンテナンス船の扉"
   }
 ]

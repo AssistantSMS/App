@@ -1,34 +1,34 @@
 [
   {
     "Id": "light1",
-    "Title": "Warehouse Wall Light"
+    "Title": "창고 벽 조명"
   },
   {
     "Id": "light2",
-    "Title": "Packing Lamp"
+    "Title": "포장용 램프"
   },
   {
     "Id": "light3",
-    "Title": "Warehouse Fluorescent Light"
+    "Title": "창고 형광 조명"
   },
   {
     "Id": "light4",
-    "Title": "Warehouse Square Light"
+    "Title": "창고 사각형 조명"
   },
   {
     "Id": "light5",
-    "Title": "Warehouse Spotlight"
+    "Title": "창고 강조등"
   },
   {
     "Id": "light6",
-    "Title": "Warehouse Spot Small"
+    "Title": "소형 창고 강조등"
   },
   {
     "Id": "light7",
-    "Title": "라이트"
+    "Title": "전조등"
   },
   {
     "Id": "light8",
-    "Title": "창고 스포트라이트"
+    "Title": "창고 강조등"
   }
 ]

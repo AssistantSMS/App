@@ -1,17 +1,17 @@
 [
   {
     "Id": "recipeDress1",
-    "Title": "Garment Box (Common)",
-    "Description": "Use it in a Dressbot to make new clothes"
+    "Title": "Коробка для одежды (обычная)",
+    "Description": "Позволяет боту-закройщику делать одежду."
   },
   {
     "Id": "recipeDress2",
-    "Title": "Garment Box (Rare)",
-    "Description": "Use it in a Dressbot to make new clothes"
+    "Title": "Коробка для одежды (редкая)",
+    "Description": "Позволяет боту-закройщику делать одежду."
   },
   {
     "Id": "recipeDress3",
-    "Title": "Garment Box (Epic)",
-    "Description": "Use it in a Dressbot to make new clothes"
+    "Title": "Коробка для одежды (эпическая)",
+    "Description": "Позволяет боту-закройщику делать одежду."
   }
 ]

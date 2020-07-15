@@ -1,23 +1,23 @@
 [
   {
     "Id": "veh1",
-    "Title": "Concave Wedge"
+    "Title": "Konkaver Keil"
   },
   {
     "Id": "veh2",
-    "Title": "License Plate"
+    "Title": "Nummernschild"
   },
   {
     "Id": "veh3",
-    "Title": "Metallic Tube Straight"
+    "Title": "Metallrohr (gerade)"
   },
   {
     "Id": "veh4",
-    "Title": "Metallic Tube Bend"
+    "Title": "Metallrohr (Krümmung)"
   },
   {
     "Id": "veh5",
-    "Title": "Rounded Frame Corner"
+    "Title": "Abgerundetes Rahmeneckteil"
   },
   {
     "Id": "veh6",

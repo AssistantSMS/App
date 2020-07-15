@@ -1,82 +1,82 @@
 [
   {
     "Id": "build1",
-    "Title": "Stand Support A"
+    "Title": "Suporte A"
   },
   {
     "Id": "build2",
-    "Title": "Stand Support Long"
+    "Title": "Suporte Longo"
   },
   {
     "Id": "build3",
-    "Title": "Stand Support Corner"
+    "Title": "Suporte Convergente"
   },
   {
     "Id": "build4",
-    "Title": "Stand Support"
+    "Title": "Suporte"
   },
   {
     "Id": "build5",
-    "Title": "Stand Support Base"
+    "Title": "Base de Suporte"
   },
   {
     "Id": "build6",
-    "Title": "Mop Set"
+    "Title": "Conjunto de Esfregão"
   },
   {
     "Id": "build7",
-    "Title": "Bathroom Stall Door"
+    "Title": "Porta de Banheiro"
   },
   {
     "Id": "build8",
-    "Title": "Slippery Surface Sign"
+    "Title": "Placa de Superfície Escorregadia"
   },
   {
     "Id": "build9",
-    "Title": "Plunger"
+    "Title": "Desentupidor"
   },
   {
     "Id": "build10",
-    "Title": "Warehouse sink"
+    "Title": "Pia de Armazém"
   },
   {
     "Id": "build11",
-    "Title": "Water Dispenser"
+    "Title": "Dispensador de Água"
   },
   {
     "Id": "build12",
-    "Title": "Cup Holder"
+    "Title": "Suporte de Copo"
   },
   {
     "Id": "build13",
-    "Title": "Water Tank"
+    "Title": "Tanque de Água"
   },
   {
     "Id": "build14",
-    "Title": "Cubicle Wall"
+    "Title": "Parede de Cubículo"
   },
   {
     "Id": "build15",
-    "Title": "Corner Brace"
+    "Title": "Fixador L"
   },
   {
     "Id": "build16",
-    "Title": "Office Table B"
+    "Title": "Mesa de Escritório B"
   },
   {
     "Id": "build17",
-    "Title": "Office Table A"
+    "Title": "Mesa de Escritório A"
   },
   {
     "Id": "build18",
-    "Title": "Office Table Leg"
+    "Title": "Perna de Mesa de Escritório"
   },
   {
     "Id": "build19",
-    "Title": "Office Chair Top"
+    "Title": "Topo de Cadeira de Escritório"
   },
   {
     "Id": "build20",
-    "Title": "Office Chair Base"
+    "Title": "Base de Cadeira de Escritório"
   }
 ]

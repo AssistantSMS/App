@@ -1,18 +1,18 @@
 [
   {
     "Id": "scrap1",
-    "Title": "Scrap Driver's Seat"
+    "Title": "Fotel kierowcy z odzysku"
   },
   {
     "Id": "scrap2",
-    "Title": "Scrap Seat"
+    "Title": "Fotel z odzysku"
   },
   {
     "Id": "scrap3",
-    "Title": "Scrap Wheel"
+    "Title": "Koło z odzysku"
   },
   {
     "Id": "scrap4",
-    "Title": "Scrap Gas Engine"
+    "Title": "Silnik spalinowy z odzysku"
   }
 ]

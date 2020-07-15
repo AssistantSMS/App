@@ -1,103 +1,103 @@
 [
   {
     "Id": "indus1",
-    "Title": "Generator Coil Segment"
+    "Title": "Segmento de bobina de generador"
   },
   {
     "Id": "indus2",
-    "Title": "Generator Coil Corner"
+    "Title": "Esquina de bobinas de generador"
   },
   {
     "Id": "indus3",
-    "Title": "Ventilation Frame"
+    "Title": "Estructura de ventilación"
   },
   {
     "Id": "indus4",
-    "Title": "Steel Support Bracket"
+    "Title": "Soporte de apoyo de acero"
   },
   {
     "Id": "indus5",
-    "Title": "Encryptor Base"
+    "Title": "Base de codificador"
   },
   {
     "Id": "indus6",
-    "Title": "Encryptor Base Plate"
+    "Title": "Sujeción de base de codificador"
   },
   {
     "Id": "indus7",
-    "Title": "Encryptor Frame Top"
+    "Title": "Estructura superior de codificador"
   },
   {
     "Id": "indus8",
-    "Title": "Small Steel Bracket"
+    "Title": "Soporte de acero pequeño"
   },
   {
     "Id": "indus9",
-    "Title": "Encryptor Frame Beam"
+    "Title": "Estructura de vigas de codificador"
   },
   {
     "Id": "indus10",
-    "Title": "Encryptor Holder"
+    "Title": "Soporte de codificador"
   },
   {
     "Id": "indus11",
-    "Title": "Base Extension"
+    "Title": "Extensión de base"
   },
   {
     "Id": "indus12",
-    "Title": "Generator B"
+    "Title": "Generador B"
   },
   {
     "Id": "indus13",
-    "Title": "Generator C"
+    "Title": "Generador C"
   },
   {
     "Id": "indus14",
-    "Title": "Generator D"
+    "Title": "Generador D"
   },
   {
     "Id": "indus15",
-    "Title": "Generator A"
+    "Title": "Generador A"
   },
   {
     "Id": "indus16",
-    "Title": "Power Generator Side"
+    "Title": "Lateral de generador"
   },
   {
     "Id": "indus17",
-    "Title": "Generator Tank"
+    "Title": "Tanque de generador"
   },
   {
     "Id": "indus18",
-    "Title": "Generator E"
+    "Title": "Generador E"
   },
   {
     "Id": "indus19",
-    "Title": "Trigger Frame"
+    "Title": "Estructura de disparador"
   },
   {
     "Id": "indus20",
-    "Title": "Generator Pipe Holder"
+    "Title": "Soporte de tubería de generador"
   },
   {
     "Id": "indus21",
-    "Title": "Viga Corta"
+    "Title": "Viga I (corta)"
   },
   {
     "Id": "indus22",
-    "Title": "Viga Larga"
+    "Title": "Viga I (larga)"
   },
   {
     "Id": "indus23",
-    "Title": "Viga Esquina"
+    "Title": "Esquina de viga I"
   },
   {
     "Id": "indus24",
-    "Title": "Viga Soporte"
+    "Title": "Soporte de viga I"
   },
   {
     "Id": "indus25",
-    "Title": "Viga Fin"
+    "Title": "Final de viga I"
   },
   {
     "Id": "indus26",
@@ -105,131 +105,131 @@
   },
   {
     "Id": "indus27",
-    "Title": "Escalera"
+    "Title": "Rellano de escalera"
   },
   {
     "Id": "indus28",
-    "Title": "Escalera\nBarandilla Larga"
+    "Title": "Pasamanos de escalera (largo)"
   },
   {
     "Id": "indus29",
-    "Title": "Escalera\nBarandilla Corta"
+    "Title": "Pasamanos de escalera (corto)"
   },
   {
     "Id": "indus30",
-    "Title": "Escalera Balaustre"
+    "Title": "Pilar de escalera"
   },
   {
     "Id": "indus31",
-    "Title": "Escalera\n Unión de Barandilla"
+    "Title": "Junta de pasamanos de escalera"
   },
   {
     "Id": "indus32",
-    "Title": "Escalon de Escalera"
+    "Title": "Escalón de escalera"
   },
   {
     "Id": "indus33",
-    "Title": "Pasamanos de Escalera"
+    "Title": "Balaustre de escalera"
   },
   {
     "Id": "indus34",
-    "Title": "Cuña de Escalera"
+    "Title": "Calzo de escalera"
   },
   {
     "Id": "indus35",
-    "Title": "Rampa de Escalera"
+    "Title": "Rampa de escalera"
   },
   {
     "Id": "indus36",
-    "Title": "Rejilla de Ventilación"
+    "Title": "Rejilla de ventilación"
   },
   {
     "Id": "indus37",
-    "Title": "Alambrada"
+    "Title": "Valla de red"
   },
   {
     "Id": "indus38",
-    "Title": "Soporte de Metal"
+    "Title": "Soporte de metal"
   },
   {
     "Id": "indus39",
-    "Title": "Estructura\nde Soporte Grande"
+    "Title": "Estructura de soporte grande"
   },
   {
     "Id": "indus40",
-    "Title": "Estructura de Soporte"
+    "Title": "Estructura de soporte"
   },
   {
     "Id": "indus41",
-    "Title": "Small Support Structure"
+    "Title": "Estructura de soporte pequeña"
   },
   {
     "Id": "indus42",
-    "Title": "Viga Artesa"
+    "Title": "Viga U"
   },
   {
     "Id": "indus43",
-    "Title": "Columna de Metal"
+    "Title": "Columna de metal"
   },
   {
     "Id": "indus44",
-    "Title": "Pilar de Soporte"
+    "Title": "Pilar"
   },
   {
     "Id": "indus45",
-    "Title": "Estante de Pilar"
+    "Title": "Base de pilar"
   },
   {
     "Id": "indus46",
-    "Title": "Pilar de Estante"
+    "Title": "Pilar de estante"
   },
   {
     "Id": "indus47",
-    "Title": "Soporte de Estante"
+    "Title": "Soporte de estante"
   },
   {
     "Id": "indus48",
-    "Title": "Soporte de Estante Alto"
+    "Title": "Soporte de estante grande"
   },
   {
     "Id": "indus49",
-    "Title": "Tanque Pequeño"
+    "Title": "Tanque pequeño"
   },
   {
     "Id": "indus50",
-    "Title": "Tanque Medio"
+    "Title": "Tanque mediano"
   },
   {
     "Id": "indus51",
-    "Title": "Tanque Grande"
+    "Title": "Tanque grande"
   },
   {
     "Id": "indus52",
-    "Title": "Ventana de Metal"
+    "Title": "Ventana de metal"
   },
   {
     "Id": "indus53",
-    "Title": "Paleta de Acero"
+    "Title": "Palé de acero"
   },
   {
     "Id": "indus54",
-    "Title": "Soporte de Mesa"
+    "Title": "Soporte de mesa"
   },
   {
     "Id": "indus55",
-    "Title": "Poste de la torre"
+    "Title": "Poste de torre"
   },
   {
     "Id": "indus56",
-    "Title": "Tope del poste de la torre"
+    "Title": "Acabado superior de torre"
   },
   {
     "Id": "indus57",
-    "Title": "Satellite Dish"
+    "Title": "Parabólica"
   },
   {
     "Id": "indus58",
-    "Title": "Antena parabólica reflectora"
+    "Title": "Reflector de parabólica"
   },
   {
     "Id": "indus59",
@@ -237,26 +237,26 @@
   },
   {
     "Id": "indus60",
-    "Title": "Antena reflectora"
+    "Title": "Reflector de antena"
   },
   {
     "Id": "indus61",
-    "Title": "Pequeña Ventana Rectangular"
+    "Title": "Ventana rectangular pequeña"
   },
   {
     "Id": "indus62",
-    "Title": "Ventana Cuadrada"
+    "Title": "Ventana cuadrada"
   },
   {
     "Id": "indus63",
-    "Title": "Ventana Rectangular Grande"
+    "Title": "Ventana rectangular grande"
   },
   {
     "Id": "indus64",
-    "Title": "Parabrisas Grande"
+    "Title": "Parabrisas grande"
   },
   {
     "Id": "indus65",
-    "Title": "Parabrisas Pequeño"
+    "Title": "Parabrisas pequeño"
   }
 ]

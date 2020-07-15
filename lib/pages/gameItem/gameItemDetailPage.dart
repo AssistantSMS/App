@@ -150,24 +150,27 @@ class GameItemDetailPage extends StatelessWidget {
       rowWidgets.add(GestureDetector(
         child: paddedCardWithMaxSize(
           Center(
-            child: Stack(children: [
-              localImage(AppImage.upgradeButton, height: 75),
-              Positioned.fill(
-                child: Align(
-                  alignment: Alignment.center,
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      localImage(AppImage.componentKit, height: 20),
-                      Container(width: 10),
-                      Text(gameItem.upgrade.cost.toString()),
-                    ],
+            child: Padding(
+              child: Stack(children: [
+                localImage(AppImage.upgradeButton, height: 100),
+                Positioned.fill(
+                  child: Align(
+                    alignment: Alignment.center,
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        localImage(AppImage.componentKit, height: 20),
+                        Container(width: 10),
+                        Text(gameItem.upgrade.cost.toString(),
+                            style: TextStyle(fontSize: 20)),
+                      ],
+                    ),
                   ),
                 ),
-              ),
-            ]),
+              ]),
+              padding: EdgeInsets.all(18),
+            ),
           ),
-          padding: EdgeInsets.all(8),
         ),
         onTap: () => navigateToGameItem(gameItem.upgrade.targetId),
       ));
@@ -178,10 +181,10 @@ class GameItemDetailPage extends StatelessWidget {
         Center(
           child: SizedBox(
             child: cubeDimension(context, gameItem.box),
-            height: 100,
+            height: 120,
           ),
         ),
-        padding: EdgeInsets.only(bottom: 6),
+        padding: EdgeInsets.only(bottom: 12),
       ));
     }
 
@@ -190,10 +193,10 @@ class GameItemDetailPage extends StatelessWidget {
         Center(
           child: SizedBox(
             child: cylinderDimension(context, gameItem.cylinder),
-            height: 100,
+            height: 120,
           ),
         ),
-        padding: EdgeInsets.only(bottom: 6),
+        padding: EdgeInsets.only(bottom: 12),
       ));
     }
 

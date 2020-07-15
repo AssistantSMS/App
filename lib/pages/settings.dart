@@ -64,7 +64,7 @@ class SettingsPage extends StatelessWidget {
               localizationMap.code == locale.languageCode,
           orElse: () => supportedLanguageMaps[0],
         );
-        if (newLocal.code != 'en') {
+        if (newLocal.code == 'it' || newLocal.code == 'zh-hans') {
           prettyDialog(
             context,
             AppImage.translate,

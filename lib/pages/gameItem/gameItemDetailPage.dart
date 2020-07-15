@@ -130,15 +130,58 @@ class GameItemDetailPage extends StatelessWidget {
       }
     }
 
+    var navigateToGameItem = (String gameItemId) async {
+      if (isInDetailPane && updateDetailView != null) {
+        updateDetailView(GameItemDetailPage(
+          gameItemId,
+          isInDetailPane: isInDetailPane,
+          updateDetailView: updateDetailView,
+        ));
+      } else {
+        await navigateAwayFromHomeAsync(
+          context,
+          navigateToNamed: Routes.gameDetail,
+          navigateToNamedParameters: {Routes.itemIdParam: gameItemId},
+        );
+      }
+    };
+
+    if (gameItem.upgrade != null) {
+      rowWidgets.add(GestureDetector(
+        child: paddedCardWithMaxSize(
+          Center(
+            child: Stack(children: [
+              localImage(AppImage.upgradeButton, height: 75),
+              Positioned.fill(
+                child: Align(
+                  alignment: Alignment.center,
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      localImage(AppImage.componentKit, height: 20),
+                      Container(width: 10),
+                      Text(gameItem.upgrade.cost.toString()),
+                    ],
+                  ),
+                ),
+              ),
+            ]),
+          ),
+          padding: EdgeInsets.all(8),
+        ),
+        onTap: () => navigateToGameItem(gameItem.upgrade.targetId),
+      ));
+    }
+
     if (gameItem.box != null) {
       rowWidgets.add(paddedCardWithMaxSize(
         Center(
           child: SizedBox(
             child: cubeDimension(context, gameItem.box),
-            height: 120,
+            height: 100,
           ),
         ),
-        padding: EdgeInsets.only(bottom: 18),
+        padding: EdgeInsets.only(bottom: 6),
       ));
     }
 
@@ -147,10 +190,10 @@ class GameItemDetailPage extends StatelessWidget {
         Center(
           child: SizedBox(
             child: cylinderDimension(context, gameItem.cylinder),
-            height: 120,
+            height: 100,
           ),
         ),
-        padding: EdgeInsets.only(bottom: 18),
+        padding: EdgeInsets.only(bottom: 6),
       ));
     }
 
@@ -204,50 +247,6 @@ class GameItemDetailPage extends StatelessWidget {
       )));
     }
 
-    if (gameItem.upgrade != null) {
-      rowWidgets.add(GestureDetector(
-        child: Container(
-            constraints: BoxConstraints(maxWidth: 450),
-            child: Padding(
-              child: Stack(children: [
-                localImage(AppImage.upgradeButton, height: 100),
-                Positioned.fill(
-                  child: Align(
-                    alignment: Alignment.center,
-                    child: Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        localImage(AppImage.componentKit, height: 20),
-                        Container(width: 10),
-                        Text(gameItem.upgrade.cost.toString(),
-                            style: TextStyle(fontSize: 20)),
-                      ],
-                    ),
-                  ),
-                ),
-              ]),
-              padding: EdgeInsets.all(8),
-            )),
-        onTap: () async {
-          if (isInDetailPane && updateDetailView != null) {
-            updateDetailView(GameItemDetailPage(
-              gameItem.upgrade.targetId,
-              isInDetailPane: isInDetailPane,
-              updateDetailView: updateDetailView,
-            ));
-          } else {
-            await navigateAwayFromHomeAsync(
-              context,
-              navigateToNamed: Routes.gameDetail,
-              navigateToNamedParameters: {
-                Routes.itemIdParam: gameItem.upgrade.targetId
-              },
-            );
-          }
-        },
-      ));
-    }
-
     widgets.add(
       Wrap(
         alignment: WrapAlignment.center,
@@ -281,28 +280,7 @@ class GameItemDetailPage extends StatelessWidget {
             context,
             ingDetails,
             ingDetailsIndex,
-            onTap: () async {
-              if (isInDetailPane && updateDetailView != null) {
-                updateDetailView(GameItemDetailPage(
-                  ingDetails.id,
-                  isInDetailPane: isInDetailPane,
-                  updateDetailView: updateDetailView,
-                ));
-              } else {
-                await navigateAwayFromHomeAsync(
-                  context,
-                  navigateToNamed: Routes.gameDetail,
-                  navigateToNamedParameters: {
-                    Routes.itemIdParam: ingDetails.id
-                  },
-                  // navigateTo: (context) => GameItemDetailPage(
-                  //   ingDetails.id,
-                  //   isInDetailPane: isInDetailPane,
-                  //   updateDetailView: updateDetailView,
-                  // ),
-                );
-              }
-            },
+            onTap: () => navigateToGameItem(ingDetails.id),
           ),
         ));
       }

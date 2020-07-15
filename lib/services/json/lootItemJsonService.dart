@@ -31,7 +31,6 @@ class LootItemJsonService extends BaseJsonService {
           allGenericItemsResult.value.firstWhere((r) => r.appId == appId);
       return ResultWithValue<Loot>(true, selectedGeneric, '');
     } catch (exception) {
-      print("LootItemJsonService Exception: ${exception.toString()}");
       return ResultWithValue<Loot>(false, Loot(), exception.toString());
     }
   }

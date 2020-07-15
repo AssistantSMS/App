@@ -125,5 +125,10 @@
   "pointsPerBattery": "Uses per Battery",
   "pointsPerFuel": "Uses per Fuel",
   "maxConnections": "Max amount of connections",
-  "allowAdjustingJoints": "Allow adjusting joints"
+  "allowAdjustingJoints": "Allow adjusting joints",
+  "range": "Range",
+  "force": "Force",
+  "hasColourDetection": "Colour detection",
+  "efficiency": "Efficiency",
+  "thrust": "Thrust"
 }

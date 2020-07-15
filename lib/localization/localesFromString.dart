@@ -8,4 +8,9 @@ List<LocaleKey> localesFromString = [
   LocaleKey.pointsPerFuel,
   LocaleKey.maxConnections,
   LocaleKey.allowAdjustingJoints,
+  LocaleKey.range,
+  LocaleKey.hasColourDetection,
+  LocaleKey.force,
+  LocaleKey.efficiency,
+  LocaleKey.thrust,
 ];

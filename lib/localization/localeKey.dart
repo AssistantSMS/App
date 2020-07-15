@@ -130,4 +130,9 @@ enum LocaleKey {
   pointsPerFuel,
   maxConnections,
   allowAdjustingJoints,
+  range,
+  hasColourDetection,
+  force,
+  efficiency,
+  thrust,
 }

@@ -172,7 +172,7 @@ Widget cubeDimension(BuildContext context, Box box) {
     children: [
       Padding(
         child: localImage(AppImage.dimensionsCube),
-        padding: EdgeInsets.all(24),
+        padding: EdgeInsets.only(top: 10, left: 20, right: 20, bottom: 20),
       ),
       Positioned(
         child: Row(
@@ -205,7 +205,7 @@ Widget cylinderDimension(BuildContext context, Cylinder cylinder) {
     children: [
       Padding(
         child: localImage(AppImage.dimensionsCylinder),
-        padding: EdgeInsets.all(24),
+        padding: EdgeInsets.only(top: 10, left: 20, right: 20, bottom: 20),
       ),
       Positioned(
         child: Text(

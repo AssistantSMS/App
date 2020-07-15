@@ -1840,7 +1840,7 @@
       },
       {
         "LocaleKey": "hasColourDetection",
-        "Value": "false"
+        "Value": "true"
       }
     ]
   },

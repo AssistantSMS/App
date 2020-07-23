@@ -157,7 +157,7 @@ class _DressBotWidget extends State<DressBotPage> {
                 List<CheckboxOption> newSelection = await navigateAsync(
                   context,
                   navigateTo: (context) => CheckboxListPageDialog(
-                    Translations.get(context, LocaleKey.openCollective),
+                    Translations.get(context, LocaleKey.dressBot),
                     this.currentSelection ?? allItemList,
                   ),
                 );

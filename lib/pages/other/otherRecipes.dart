@@ -40,6 +40,22 @@ class OtherRecipesPage extends StatelessWidget {
           childBuilder: (BuildContext childContext) =>
               responsiveStaggeredGridImageTilePresenter(
             context,
+            AppImage.workshopTile,
+            text: LocaleKey.workbench,
+            onTap: () async => await navigateAwayFromHomeAsync(
+              context,
+              navigateTo: (context) => RecipeListPage(
+                LocaleKey.workbench,
+                getWorkbenchPageLocales(),
+              ),
+            ),
+          ),
+          gridItemType: StaggeredGridItemType.medSquare,
+        ),
+        StaggeredGridItem(
+          childBuilder: (BuildContext childContext) =>
+              responsiveStaggeredGridImageTilePresenter(
+            context,
             AppImage.refinerTile,
             text: LocaleKey.refiner,
             onTap: () async => await navigateAwayFromHomeAsync(

@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:scrapmechanic_kurtlourens_com/localization/localeKey.dart';
 
 import '../components/adaptive/appScaffold.dart';
 import '../components/adaptive/homePageAppBar.dart';
@@ -14,6 +13,7 @@ import '../contracts/misc/staggeredGridItem.dart';
 import '../helpers/analytics.dart';
 import '../helpers/listPageHelper.dart';
 import '../helpers/navigationHelper.dart';
+import '../localization/localeKey.dart';
 import 'gameItem/gameItemListPage.dart';
 import 'recipe/recipeListPage.dart';
 
@@ -90,29 +90,13 @@ class HomePage extends StatelessWidget {
               responsiveStaggeredGridImageTilePresenter(
             context,
             AppImage.workshopTile,
-            text: LocaleKey.workbench,
-            onTap: () async => await navigateAwayFromHomeAsync(
-              context,
-              navigateTo: (context) => RecipeListPage(
-                LocaleKey.workbench,
-                getWorkbenchPageLocales(),
-              ),
-            ),
-          ),
-          gridItemType: StaggeredGridItemType.smallSquare,
-        ),
-        StaggeredGridItem(
-          childBuilder: (BuildContext childContext) =>
-              responsiveStaggeredGridImageTilePresenter(
-            context,
-            AppImage.refinerTile,
             text: LocaleKey.other,
             onTap: () async => await navigateAwayFromHomeAsync(
               context,
               navigateToNamed: Routes.otherRecipes,
             ),
           ),
-          gridItemType: StaggeredGridItemType.smallSquare,
+          gridItemType: StaggeredGridItemType.smallRectLandscape,
         ),
         StaggeredGridItem(
           childBuilder: (BuildContext childContext) =>

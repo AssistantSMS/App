@@ -1,7 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:scrapmechanic_kurtlourens_com/contracts/misc/actionItem.dart';
-import 'package:scrapmechanic_kurtlourens_com/contracts/search/checkboxOption.dart';
-import 'package:scrapmechanic_kurtlourens_com/pages/dialog/checkboxListPageDialog.dart';
 
 import '../../components/adaptive/appBarForSubPage.dart';
 import '../../components/adaptive/appScaffold.dart';
@@ -10,15 +7,16 @@ import '../../components/tilePresenters/gameItemTilePresenter.dart';
 import '../../constants/AnalyticsEvent.dart';
 import '../../constants/Routes.dart';
 import '../../contracts/gameItem/gameItem.dart';
+import '../../contracts/misc/actionItem.dart';
 import '../../contracts/results/resultWithValue.dart';
+import '../../contracts/search/checkboxOption.dart';
 import '../../helpers/analytics.dart';
-import '../../helpers/colourHelper.dart';
-import '../../helpers/deviceHelper.dart';
 import '../../helpers/futureHelper.dart';
 import '../../helpers/navigationHelper.dart';
 import '../../helpers/searchHelper.dart';
 import '../../localization/localeKey.dart';
 import '../../localization/translations.dart';
+import '../dialog/checkboxListPageDialog.dart';
 import '../gameItem/gameItemDetailPage.dart';
 
 class DressBotPage extends StatefulWidget {

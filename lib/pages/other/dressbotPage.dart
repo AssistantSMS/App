@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:grouped_checkbox/grouped_checkbox.dart';
+import 'package:scrapmechanic_kurtlourens_com/contracts/misc/actionItem.dart';
+import 'package:scrapmechanic_kurtlourens_com/contracts/search/checkboxOption.dart';
+import 'package:scrapmechanic_kurtlourens_com/pages/dialog/checkboxListPageDialog.dart';
 
 import '../../components/adaptive/appBarForSubPage.dart';
 import '../../components/adaptive/appScaffold.dart';
@@ -25,7 +27,7 @@ class DressBotPage extends StatefulWidget {
 }
 
 class _DressBotWidget extends State<DressBotPage> {
-  List<String> currentSelection;
+  List<CheckboxOption> currentSelection;
 
   _DressBotWidget() {
     trackEvent(AnalyticsEvent.dressBotPage);
@@ -33,7 +35,7 @@ class _DressBotWidget extends State<DressBotPage> {
 
   Future<ResultWithValue<List<GameItem>>> getCustomisationsFiltered(
     dynamic context,
-    List<String> selection, {
+    List<CheckboxOption> selection, {
     bool showHat = false,
     bool showHair = false,
     bool showFace = false,
@@ -87,6 +89,8 @@ class _DressBotWidget extends State<DressBotPage> {
     return ResultWithValue<List<GameItem>>(true, filtered, '');
   }
 
+  CheckboxOption getOption(String text) => CheckboxOption(text, value: true);
+
   @override
   Widget build(BuildContext context) {
     String hatKey = Translations.get(context, LocaleKey.hat);
@@ -98,36 +102,79 @@ class _DressBotWidget extends State<DressBotPage> {
     String legsKey = Translations.get(context, LocaleKey.legs);
     String shoesKey = Translations.get(context, LocaleKey.shoes);
 
-    List<String> allItemList = [
-      hatKey,
-      hairKey,
-      faceKey,
-      torsoKey,
-      backpackKey,
-      glovesKey,
-      legsKey,
-      shoesKey
-    ];
-    List<String> boolSearchList = this.currentSelection ?? List<String>();
-    bool showHat = boolSearchList.contains(hatKey);
-    bool showHair = boolSearchList.contains(hairKey);
-    bool showFace = boolSearchList.contains(faceKey);
-    bool showTorso = boolSearchList.contains(torsoKey);
-    bool showBackpack = boolSearchList.contains(backpackKey);
-    bool showGloves = boolSearchList.contains(glovesKey);
-    bool showLegs = boolSearchList.contains(legsKey);
-    bool showShoes = boolSearchList.contains(shoesKey);
+    List<CheckboxOption> allItemList = List<CheckboxOption>();
+    allItemList.add(getOption(hatKey));
+    allItemList.add(getOption(hairKey));
+    allItemList.add(getOption(faceKey));
+    allItemList.add(getOption(torsoKey));
+    allItemList.add(getOption(backpackKey));
+    allItemList.add(getOption(glovesKey));
+    allItemList.add(getOption(legsKey));
+    allItemList.add(getOption(shoesKey));
+
+    List<CheckboxOption> select =
+        this.currentSelection ?? List<CheckboxOption>();
+    bool showHat = select
+        .firstWhere((s) => s.title == hatKey,
+            orElse: () => CheckboxOption(hatKey))
+        .value;
+    bool showHair = select
+        .firstWhere((s) => s.title == hairKey,
+            orElse: () => CheckboxOption(hairKey))
+        .value;
+    bool showFace = select
+        .firstWhere((s) => s.title == faceKey,
+            orElse: () => CheckboxOption(faceKey))
+        .value;
+    bool showTorso = select
+        .firstWhere((s) => s.title == torsoKey,
+            orElse: () => CheckboxOption(torsoKey))
+        .value;
+    bool showBackpack = select
+        .firstWhere((s) => s.title == backpackKey,
+            orElse: () => CheckboxOption(backpackKey))
+        .value;
+    bool showGloves = select
+        .firstWhere((s) => s.title == glovesKey,
+            orElse: () => CheckboxOption(glovesKey))
+        .value;
+    bool showLegs = select
+        .firstWhere((s) => s.title == legsKey,
+            orElse: () => CheckboxOption(legsKey))
+        .value;
+    bool showShoes = select
+        .firstWhere((s) => s.title == shoesKey,
+            orElse: () => CheckboxOption(shoesKey))
+        .value;
+
     return appScaffold(
       context,
-      appBar: appBarForSubPageHelper(
-        context,
-        title: Text(Translations.get(context, LocaleKey.dressBot)),
-        showHomeAction: true,
-      ),
+      appBar: appBarForSubPageHelper(context,
+          title: Text(Translations.get(context, LocaleKey.dressBot)),
+          showHomeAction: true,
+          actions: [
+            ActionItem(
+              icon: Icons.sort,
+              onPressed: () async {
+                List<CheckboxOption> newSelection = await navigateAsync(
+                  context,
+                  navigateTo: (context) => CheckboxListPageDialog(
+                    Translations.get(context, LocaleKey.openCollective),
+                    this.currentSelection ?? allItemList,
+                  ),
+                );
+                if (newSelection == null ||
+                    newSelection.length != allItemList.length) return;
+                this.setState(() {
+                  this.currentSelection = newSelection;
+                });
+              },
+            )
+          ]),
       body: ResponsiveListDetailView<GameItem>(
         () => getCustomisationsFiltered(
           context,
-          currentSelection,
+          this.currentSelection,
           showHat: showHat,
           showHair: showHair,
           showFace: showFace,
@@ -139,24 +186,6 @@ class _DressBotWidget extends State<DressBotPage> {
         ),
         gameItemTilePresenter,
         searchGameItem,
-        firstListItemWidget: Column(
-          children: [
-            GroupedCheckbox(
-              itemList: allItemList,
-              checkedItemList: this.currentSelection == null
-                  ? allItemList
-                  : this.currentSelection,
-              onChanged: (itemList) => setState(() {
-                this.currentSelection = itemList;
-              }),
-              wrapAlignment: WrapAlignment.center,
-              orientation: CheckboxOrientation.WRAP,
-              checkColor: Colors.white,
-              activeColor: getSecondaryColour(context),
-            ),
-            customDivider(),
-          ],
-        ),
         listItemMobileOnTap: (BuildContext context, GameItem gameItem) async {
           return await navigateAwayFromHomeAsync(
             context,
@@ -173,9 +202,18 @@ class _DressBotWidget extends State<DressBotPage> {
           );
         },
         key: Key(
-          "${Translations.of(context).currentLanguage}${this.currentSelection}",
+          "${Translations.of(context).currentLanguage}${_getKeyFromSelection(this.currentSelection)}",
         ),
       ),
     );
+  }
+
+  String _getKeyFromSelection(List<CheckboxOption> list) {
+    String temp = '';
+    for (var item in list ?? List<CheckboxOption>()) {
+      temp += item.title + (item.value ? '1' : '0');
+    }
+    print(temp);
+    return temp;
   }
 }

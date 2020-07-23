@@ -1,5 +1,6 @@
 import 'package:fluro/fluro.dart';
 import 'package:flutter/material.dart';
+import 'package:scrapmechanic_kurtlourens_com/pages/other/dressBotPage.dart';
 
 import '../constants/Routes.dart';
 import '../pages/about.dart';
@@ -69,6 +70,11 @@ class FluroRouter {
     router.define(
       Routes.raidCalc,
       handler: _basicHandlerFunc(() => RaidCalcPage()),
+      transitionType: transition,
+    );
+    router.define(
+      Routes.dressbot,
+      handler: _basicHandlerFunc(() => DressBotPage()),
       transitionType: transition,
     );
     router.define(

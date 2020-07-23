@@ -16,6 +16,7 @@ class Routes {
   static const String steamNews = '/steamNews';
   static const String raidCalc = '/raidCalculator';
   static const String otherRecipes = '/otherRecipes';
+  static const String dressbot = '/dressbot';
 
   static const String itemIdParam = 'itemId';
   static const String gameDetail = '/item/:$itemIdParam';

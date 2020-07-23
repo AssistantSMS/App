@@ -1,1 +1,1 @@
-- Made Raid Calculator more mobile friendly
+- Add filtering by Cosmetic type

@@ -135,4 +135,12 @@ enum LocaleKey {
   force,
   efficiency,
   thrust,
+  hat,
+  hair,
+  face,
+  torso,
+  backpack,
+  gloves,
+  legs,
+  shoes,
 }

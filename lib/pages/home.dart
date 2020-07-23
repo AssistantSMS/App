@@ -106,10 +106,7 @@ class HomePage extends StatelessWidget {
             text: LocaleKey.dressBot,
             onTap: () async => await navigateAwayFromHomeAsync(
               context,
-              navigateTo: (context) => GameItemListPage(
-                LocaleKey.dressBot,
-                getDressBotPageLocales(),
-              ),
+              navigateToNamed: Routes.dressbot,
             ),
           ),
           gridItemType: StaggeredGridItemType.smallRectLandscape,

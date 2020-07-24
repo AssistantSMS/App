@@ -1,1 +1,2 @@
 - Add filtering by Cosmetic type
+- Add Raid to Storage

@@ -21,6 +21,7 @@ class Routes {
   static const String itemIdParam = 'itemId';
   static const String gameDetail = '/item/:$itemIdParam';
   static const String recipeDetail = '/recipe/:$itemIdParam';
+  static const String cosmeticDetail = '/cosmetic/:$itemIdParam';
 }
 
 // Map<String, Widget Function(BuildContext)> initNamedRoutes(

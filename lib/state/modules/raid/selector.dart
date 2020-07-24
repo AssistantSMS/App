@@ -1,4 +1,4 @@
-import 'package:scrapmechanic_kurtlourens_com/state/modules/base/appState.dart';
+import '../base/appState.dart';
 
 int getCarrot(AppState state) => state?.raidState?.carrot ?? 0;
 int getTomato(AppState state) => state?.raidState?.tomato ?? 0;

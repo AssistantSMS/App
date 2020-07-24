@@ -51,6 +51,11 @@ class _CheckboxListPageDialogWidget extends State<CheckboxListPageDialog> {
                   });
                 },
               ),
+              onTap: () {
+                this.setState(() {
+                  this.options[index].value = !this.options[index].value;
+                });
+              },
             );
           },
           (_, __) => false,

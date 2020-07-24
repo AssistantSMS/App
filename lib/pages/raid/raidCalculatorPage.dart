@@ -1,9 +1,12 @@
 import 'package:breakpoint/breakpoint.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_redux/flutter_redux.dart';
+import 'package:scrapmechanic_kurtlourens_com/state/modules/base/appState.dart';
+import 'package:scrapmechanic_kurtlourens_com/state/modules/raid/raidViewModel.dart';
 
 import '../../components/adaptive/listWithScrollbar.dart';
 import '../../components/scaffoldTemplates/genericPageScaffold.dart';
-import '../../contracts/raid/raidFarmDetails.dart';
+import '../../state/modules/raid/raidState.dart';
 import '../../helpers/columnHelper.dart';
 import '../../helpers/deviceHelper.dart';
 import '../../localization/localeKey.dart';
@@ -26,20 +29,20 @@ class RaidCalcPage extends StatefulWidget {
 
 // https://scrapmechanic.greeny.dev/
 class _RaidCalcWidget extends State<RaidCalcPage> {
-  Widget _desktopInputScreen = Container(width: 0, height: 0);
-  RaidFarmDetails details = RaidFarmDetails();
-
-  _RaidCalcWidget() {
-    _desktopInputScreen = RaidCalcDesktopInputScreen(setFarmQuantity, details);
+  @override
+  Widget build(BuildContext context) {
+    return StoreConnector<AppState, RaidViewModel>(
+      converter: (store) => RaidViewModel.fromStore(store),
+      builder: (_, viewModel) => _RaidCalcInnerWidget(
+          viewModel, RaidCalcDesktopInputScreen(viewModel)),
+    );
   }
+}
 
-  void setFarmQuantity(RaidFarmDetails temp) {
-    if (temp == null) return;
-
-    this.setState(() {
-      details = temp;
-    });
-  }
+class _RaidCalcInnerWidget extends StatelessWidget {
+  final Widget desktopInputScreen;
+  final RaidViewModel viewModel;
+  _RaidCalcInnerWidget(this.viewModel, this.desktopInputScreen);
 
   @override
   Widget build(BuildContext context) {
@@ -47,29 +50,27 @@ class _RaidCalcWidget extends State<RaidCalcPage> {
       context,
       Translations.get(context, LocaleKey.raidCalculator),
       null,
-      // shortcutActions: [
-      //   ActionItem(icon: Icons.plant)
-      // ],
       body: (BuildContext innerContext, _) => BreakpointBuilder(
         builder: (BuildContext innerContext, Breakpoint breakpoint) {
           var showMobileView = isMobileScreenWidth(breakpoint);
-          return getBody(innerContext, showMobileView);
+          return getBody(innerContext, viewModel, showMobileView);
         },
       ),
       showShortcutLinks: true,
     );
   }
 
-  Widget getBody(BuildContext context, bool showMobileView) {
+  Widget getBody(
+      BuildContext context, RaidViewModel viewModel, bool showMobileView) {
     List<Widget> columnWidgets = List<Widget>();
 
     if (showMobileView) {
-      columnWidgets.add(RaidCalcMobileInputScreen(setFarmQuantity, details));
+      columnWidgets.add(RaidCalcMobileInputScreen(viewModel));
       columnWidgets.add(customDivider());
     } else {
-      columnWidgets.add(_desktopInputScreen);
+      columnWidgets.add(desktopInputScreen);
     }
-    columnWidgets.add(RaidCalculatorResultComponent(details, showMobileView));
+    columnWidgets.add(RaidCalculatorResultComponent(viewModel, showMobileView));
 
     return listWithScrollbar(
         itemCount: columnWidgets.length,

@@ -1,9 +1,10 @@
 import 'package:dotted_border/dotted_border.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:scrapmechanic_kurtlourens_com/state/modules/raid/raidViewModel.dart';
 
 import '../../constants/AppImage.dart';
-import '../../contracts/raid/raidFarmDetails.dart';
+import '../../state/modules/raid/raidState.dart';
 import '../../contracts/raid/raidSpawn.dart';
 import '../../contracts/recipeIngredient/recipeIngredient.dart';
 import '../../contracts/recipeIngredient/recipeIngredientDetail.dart';
@@ -40,7 +41,7 @@ Widget raidGridTilePresenter(BuildContext context, String itemId,
 Widget raidTilePresenter(
   BuildContext context,
   String itemId,
-  RaidFarmDetails currentDetails, {
+  RaidViewModel currentDetails, {
   void Function(String itemId, int quantity) onEdit,
   void Function(String itemId) onDelete,
 }) {
@@ -96,7 +97,7 @@ Widget raidPlantDetailTilePresenter(
 
 Widget raidAddPlantTilePresenter(
     BuildContext context,
-    RaidFarmDetails currentDetails,
+    RaidViewModel currentDetails,
     void Function(String itemId, int quantity) onEdit) {
   var currentPlants = RaidHelper.getPlantsWithQuantity(currentDetails);
 

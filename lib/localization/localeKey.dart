@@ -143,4 +143,8 @@ enum LocaleKey {
   gloves,
   legs,
   shoes,
+  showOwned,
+  owned,
+  notOwned,
+  showNotOwned,
 }

@@ -131,8 +131,8 @@ class _DressBotWidget extends State<DressBotPage> {
     String glovesKey = Translations.get(context, LocaleKey.gloves);
     String legsKey = Translations.get(context, LocaleKey.legs);
     String shoesKey = Translations.get(context, LocaleKey.shoes);
-    String showOwnedKey = Translations.get(context, LocaleKey.yes);
-    String showNotOwnedKey = Translations.get(context, LocaleKey.no);
+    String showOwnedKey = Translations.get(context, LocaleKey.showOwned);
+    String showNotOwnedKey = Translations.get(context, LocaleKey.showNotOwned);
 
     List<CheckboxOption> allItemList = List<CheckboxOption>();
     allItemList.add(getOption(hatKey));

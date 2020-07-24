@@ -88,11 +88,15 @@ class DressBotDetailPage extends StatelessWidget {
     widgets.add(emptySpace1x());
     widgets.add(genericItemName(gameItem.title));
 
+    var isOwned =
+        ((viewModel?.owned ?? List<String>()).any((own) => own == gameItem.id));
+    widgets.add(emptySpace1x());
+    widgets.add(genericItemGroup(Translations.get(
+        context, isOwned ? LocaleKey.owned : LocaleKey.notOwned)));
+
     widgets.add(emptySpace10x());
 
     var fabColour = getSecondaryColour(context);
-    var isOwned =
-        ((viewModel?.owned ?? List<String>()).any((own) => own == gameItem.id));
     var fabWidget = isOwned
         ? FloatingActionButton(
             child: Icon(Icons.cancel),

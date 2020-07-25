@@ -1,10 +1,8 @@
 import 'package:dotted_border/dotted_border.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:scrapmechanic_kurtlourens_com/state/modules/raid/raidViewModel.dart';
 
 import '../../constants/AppImage.dart';
-import '../../state/modules/raid/raidState.dart';
 import '../../contracts/raid/raidSpawn.dart';
 import '../../contracts/recipeIngredient/recipeIngredient.dart';
 import '../../contracts/recipeIngredient/recipeIngredientDetail.dart';
@@ -19,6 +17,7 @@ import '../../helpers/snapshotHelper.dart';
 import '../../localization/localeKey.dart';
 import '../../localization/translations.dart';
 import '../../pages/dialog/optionsListPageDialog.dart';
+import '../../state/modules/raid/raidViewModel.dart';
 import '../common/image.dart';
 import '../dialogs/quantityDialog.dart';
 import '../loading.dart';

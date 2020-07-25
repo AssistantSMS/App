@@ -1,16 +1,15 @@
 import 'package:breakpoint/breakpoint.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
-import 'package:scrapmechanic_kurtlourens_com/state/modules/base/appState.dart';
-import 'package:scrapmechanic_kurtlourens_com/state/modules/raid/raidViewModel.dart';
 
 import '../../components/adaptive/listWithScrollbar.dart';
 import '../../components/scaffoldTemplates/genericPageScaffold.dart';
-import '../../state/modules/raid/raidState.dart';
 import '../../helpers/columnHelper.dart';
 import '../../helpers/deviceHelper.dart';
 import '../../localization/localeKey.dart';
 import '../../localization/translations.dart';
+import '../../state/modules/base/appState.dart';
+import '../../state/modules/raid/raidViewModel.dart';
 import 'raidCalculatorPage.desktop.dart';
 import 'raidCalculatorPage.mobile.dart';
 import 'raidCalculatorResultComponent.dart';

@@ -2,8 +2,15 @@
     {
         "name": "Sphynxcolt",
         "link": "https://github.com/Sphynxcolt",
+        "imageUrl": "https://cdn.discordapp.com/attachments/677786732279889940/722908892266233976/Logopit_1592425157486.jpg",
         "description": "German Translation",
-        "sortRank": 30,
-        "imageUrl": "https://cdn.discordapp.com/attachments/677786732279889940/722908892266233976/Logopit_1592425157486.jpg"
+        "sortRank": 30
+    },
+    {
+        "name": "Alan Borowy",
+        "link": "https://github.com/borowyalan",
+        "imageUrl": "https://avatars2.githubusercontent.com/u/38703820?s=460&u=959a6e93547c53523315fc79998bb4a873338e3e&v=4",
+        "description": "Fixed link in documentation",
+        "sortRank": 1000
     }
 ]

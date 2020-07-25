@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:scrapmechanic_kurtlourens_com/state/modules/raid/raidViewModel.dart';
 
 import '../../components/common/image.dart';
 import '../../components/tilePresenters/raidTilePresenter.dart';
 import '../../contracts/misc/popupMenuActionItem.dart';
-import '../../contracts/raid/raidFarmDetails.dart';
+import '../../state/modules/raid/raidState.dart';
 import '../../helpers/external.dart';
 import '../../helpers/genericHelper.dart';
 import '../../helpers/popupMenuButtonHelper.dart';
@@ -17,9 +18,8 @@ const greenyDevGithubLink = 'https://github.com/greeny/?ref=AssistantSMS';
 const greenyDevTool = 'https://scrapmechanic.greeny.dev/?ref=AssistantSMS';
 
 class RaidCalcMobileInputScreen extends StatelessWidget {
-  final RaidFarmDetails currentDetails;
-  final Function(RaidFarmDetails) setFarmQuantity;
-  RaidCalcMobileInputScreen(this.setFarmQuantity, this.currentDetails);
+  final RaidViewModel currentDetails;
+  RaidCalcMobileInputScreen(this.currentDetails);
 
   @override
   Widget build(BuildContext context) {
@@ -74,15 +74,24 @@ class RaidCalcMobileInputScreen extends StatelessWidget {
   }
 
   void _setFarmQuantity(String itemId, int quantity) {
-    RaidFarmDetails temp = RaidHelper.setFarmDetailsQuantity(
+    RaidViewModel temp = RaidHelper.setFarmDetailsQuantity(
       currentDetails,
       itemId,
       quantity,
     );
 
     if (temp == null) return;
-    if (setFarmQuantity == null) return;
-
-    setFarmQuantity(temp);
+    currentDetails.editRaidItem(
+      carrot: temp.carrot,
+      tomato: temp.tomato,
+      beetroot: temp.beetroot,
+      banana: temp.banana,
+      berry: temp.berry,
+      orange: temp.orange,
+      potato: temp.potato,
+      pineapple: temp.pineapple,
+      broccoli: temp.broccoli,
+      cotton: temp.cotton,
+    );
   }
 }

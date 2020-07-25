@@ -15,6 +15,7 @@ import 'loading.dart';
 class SearchableList<T> extends StatefulWidget {
   final Future<ResultWithValue<List<T>>> Function() listGetter;
   final Future<ResultWithValue<List<T>>> Function() backupListGetter;
+  final Widget firstListItemWidget;
   final LocaleKey backupListWarningMessage;
   final Widget Function(BuildContext context, T, int index) listItemDisplayer;
   final bool Function(T, String) listItemSearch;
@@ -32,6 +33,7 @@ class SearchableList<T> extends StatefulWidget {
     this.listItemDisplayer,
     this.listItemSearch, {
     this.key,
+    this.firstListItemWidget,
     this.hintText,
     this.loadingText,
     this.deleteAll,
@@ -168,20 +170,27 @@ class SearchableListWidget<T> extends State<SearchableList<T>> {
 
     if (_searchResult.length == 0 && controller.text.isNotEmpty ||
         _listResults.length == 0 && controller.text.isEmpty) {
+      List<Widget> noItemsList = List<Widget>();
+      if (widget.firstListItemWidget != null) {
+        noItemsList.add(widget.firstListItemWidget);
+      }
+      noItemsList.add(
+        Container(
+          child: Text(
+            Translations.get(context, LocaleKey.noItems),
+            textAlign: TextAlign.center,
+            overflow: TextOverflow.ellipsis,
+            style: TextStyle(fontSize: 20),
+          ),
+          margin: EdgeInsets.only(top: 30),
+        ),
+      );
       columnWidgets.add(
         Expanded(
           child: listWithScrollbar(
-            itemCount: 1,
+            itemCount: noItemsList.length,
             itemBuilder: (context, index) {
-              return Container(
-                child: Text(
-                  Translations.get(context, LocaleKey.noItems),
-                  textAlign: TextAlign.center,
-                  overflow: TextOverflow.ellipsis,
-                  style: TextStyle(fontSize: 20),
-                ),
-                margin: EdgeInsets.only(top: 30),
-              );
+              return noItemsList[index];
             },
           ),
         ),
@@ -200,6 +209,7 @@ class SearchableListWidget<T> extends State<SearchableList<T>> {
       }
 
       int listLength = list.length + additionalWidgets.length;
+      if (widget.firstListItemWidget != null) listLength++;
 
       if (widget.useGridView) {
         columnWidgets.add(
@@ -222,8 +232,13 @@ class SearchableListWidget<T> extends State<SearchableList<T>> {
             child: listWithScrollbar(
               itemCount: listLength,
               itemBuilder: (context, index) {
+                if (widget.firstListItemWidget != null) {
+                  if (index == 0) return widget.firstListItemWidget;
+                  index = index - 1;
+                }
                 if (index >= list.length) {
-                  return additionalWidgets[listLength - index - 1];
+                  int modifier = (widget.firstListItemWidget != null) ? 2 : 1;
+                  return additionalWidgets[listLength - index - modifier];
                 }
                 return listItemDisplayer(context, list[index], index);
               },

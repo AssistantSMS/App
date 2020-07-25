@@ -10,6 +10,7 @@ import 'searchableList.dart';
 
 class ResponsiveListDetailView<T> extends StatefulWidget {
   final Future<ResultWithValue<List<T>>> Function() listGetter;
+  final Widget firstListItemWidget;
   final Widget Function(BuildContext context, T, int index) listItemDisplayer;
   final void Function(BuildContext context, T) listItemMobileOnTap;
   final Widget Function(
@@ -28,6 +29,7 @@ class ResponsiveListDetailView<T> extends StatefulWidget {
     this.listItemDisplayer,
     this.listItemSearch, {
     this.key,
+    this.firstListItemWidget,
     this.listItemMobileOnTap,
     this.listItemDesktopOnTap,
     this.hintText,
@@ -83,9 +85,10 @@ class _ResponsiveListDetailWidget<T>
           widget.listItemSearch,
           key: widget.key,
           hintText: widget.hintText,
-          loadingText: widget.loadingText,
           deleteAll: widget.deleteAll,
+          loadingText: widget.loadingText,
           minListForSearch: widget.minListForSearch,
+          firstListItemWidget: widget.firstListItemWidget,
           addFabPadding: widget.addFabPadding,
         );
         if (flexData.isMobile) return listView;

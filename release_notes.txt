@@ -1,1 +1,4 @@
-- Made Raid Calculator more mobile friendly
+- Add filtering by Cosmetic type
+- Add Raid to local storage
+- Add ability to mark cosmetic as owned
+- Filter cosmetics by type, owned and not owned

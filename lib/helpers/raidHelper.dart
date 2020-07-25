@@ -1,5 +1,6 @@
+import 'package:scrapmechanic_kurtlourens_com/state/modules/raid/raidViewModel.dart';
+
 import '../contracts/raid/raidAttack.dart';
-import '../contracts/raid/raidFarmDetails.dart';
 import '../contracts/raid/raidSpawn.dart';
 
 class RaidHelper {
@@ -95,36 +96,26 @@ class RaidHelper {
     ]),
   ];
 
-  static RaidFarmDetails setFarmDetailsQuantity(
-    RaidFarmDetails details,
+  static RaidViewModel setFarmDetailsQuantity(
+    RaidViewModel details,
     String itemId,
     int quantity,
   ) {
-    RaidFarmDetails temp;
-    if (itemId == RaidHelper.carrotId)
-      temp = details.copyWith(carrot: quantity);
-    if (itemId == RaidHelper.tomatoId)
-      temp = details.copyWith(tomato: quantity);
-    if (itemId == RaidHelper.beetrootId)
-      temp = details.copyWith(beetroot: quantity);
-    if (itemId == RaidHelper.bananaId)
-      temp = details.copyWith(banana: quantity);
-    if (itemId == RaidHelper.berryId) temp = details.copyWith(berry: quantity);
-    if (itemId == RaidHelper.orangeId)
-      temp = details.copyWith(orange: quantity);
-    if (itemId == RaidHelper.potatoId)
-      temp = details.copyWith(potato: quantity);
-    if (itemId == RaidHelper.pineappleId)
-      temp = details.copyWith(pineapple: quantity);
-    if (itemId == RaidHelper.broccoliId)
-      temp = details.copyWith(broccoli: quantity);
-    if (itemId == RaidHelper.cottonId)
-      temp = details.copyWith(cotton: quantity);
+    if (itemId == RaidHelper.carrotId) details.carrot = quantity;
+    if (itemId == RaidHelper.tomatoId) details.tomato = quantity;
+    if (itemId == RaidHelper.beetrootId) details.beetroot = quantity;
+    if (itemId == RaidHelper.bananaId) details.banana = quantity;
+    if (itemId == RaidHelper.berryId) details.berry = quantity;
+    if (itemId == RaidHelper.orangeId) details.orange = quantity;
+    if (itemId == RaidHelper.potatoId) details.potato = quantity;
+    if (itemId == RaidHelper.pineappleId) details.pineapple = quantity;
+    if (itemId == RaidHelper.broccoliId) details.broccoli = quantity;
+    if (itemId == RaidHelper.cottonId) details.cotton = quantity;
 
-    return temp;
+    return details;
   }
 
-  static int getPlantQuantity(RaidFarmDetails details, String itemId) {
+  static int getPlantQuantity(RaidViewModel details, String itemId) {
     if (itemId == RaidHelper.carrotId) return details.carrot ?? 0;
     if (itemId == RaidHelper.tomatoId) return details.tomato ?? 0;
     if (itemId == RaidHelper.beetrootId) return details.beetroot ?? 0;
@@ -139,7 +130,7 @@ class RaidHelper {
     return 0;
   }
 
-  static double getCropValue(RaidFarmDetails details) {
+  static double getCropValue(RaidViewModel details) {
     double cropValue = 0;
     for (var plantId in plants) {
       double plantWeight = plantsWeights[plantId];
@@ -154,7 +145,7 @@ class RaidHelper {
     return cropValue;
   }
 
-  static int getHighCount(RaidFarmDetails details) {
+  static int getHighCount(RaidViewModel details) {
     int highCount = 0;
     for (var plantId in plants) {
       double plantWeight = plantsWeights[plantId];
@@ -183,7 +174,7 @@ class RaidHelper {
     return spawns;
   }
 
-  static List<String> getPlantsWithQuantity(RaidFarmDetails details) {
+  static List<String> getPlantsWithQuantity(RaidViewModel details) {
     List<String> plantIds = List<String>();
 
     if (details.carrot > 0) plantIds.add(carrotId);

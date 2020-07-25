@@ -1,8 +1,6 @@
 import 'package:enum_to_string/enum_to_string.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
-import 'package:scrapmechanic_kurtlourens_com/contracts/gameItem/feature.dart';
-import '../../localization/localesFromString.dart';
 
 import '../../components/adaptive/listWithScrollbar.dart';
 import '../../components/common/cachedFutureBuilder.dart';
@@ -13,12 +11,14 @@ import '../../components/scaffoldTemplates/genericPageScaffold.dart';
 import '../../components/tilePresenters/cartTilePresenter.dart';
 import '../../components/tilePresenters/recipeIngredientTilePresenter.dart';
 import '../../components/tilePresenters/recipeTilePresenter.dart';
+import '../../components/webSpecific/mousePointer.dart';
 import '../../constants/AnalyticsEvent.dart';
 import '../../constants/AppDuration.dart';
 import '../../constants/AppImage.dart';
 import '../../constants/AppPadding.dart';
 import '../../constants/Routes.dart';
 import '../../contracts/craftingIngredient/craftedUsing.dart';
+import '../../contracts/gameItem/feature.dart';
 import '../../contracts/gameItem/gameItemPageItem.dart';
 import '../../contracts/generated/LootChance.dart';
 import '../../contracts/recipe/recipe.dart';
@@ -35,6 +35,7 @@ import '../../helpers/snackbarHelper.dart';
 import '../../helpers/snapshotHelper.dart';
 import '../../helpers/textSpanHelper.dart';
 import '../../localization/localeKey.dart';
+import '../../localization/localesFromString.dart';
 import '../../localization/translations.dart';
 import '../../state/modules/base/appState.dart';
 import '../../state/modules/cart/cartItemState.dart';
@@ -173,7 +174,7 @@ class GameItemDetailPage extends StatelessWidget {
           ),
         ),
         onTap: () => navigateToGameItem(gameItem.upgrade.targetId),
-      ));
+      ).showPointerOnHover);
     }
 
     if (gameItem.box != null) {

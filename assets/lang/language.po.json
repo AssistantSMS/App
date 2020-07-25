@@ -130,5 +130,17 @@
   "force": "Force",
   "hasColourDetection": "Colour detection",
   "efficiency": "Efficiency",
-  "thrust": "Thrust"
+  "thrust": "Thrust",
+  "hat": "Hat",
+  "hair": "Hair",
+  "face": "Face",
+  "torso": "Torso",
+  "backpack": "Backpack",
+  "gloves": "Gloves",
+  "legs": "Legs",
+  "shoes": "Shoes",
+  "showOwned": "Show owned",
+  "owned": "Owned",
+  "notOwned": "Not owned",
+  "showNotOwned": "Show not owned"
 }

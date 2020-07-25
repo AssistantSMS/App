@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 
 import '../../components/adaptive/listWithScrollbar.dart';
 import '../../components/tilePresenters/raidTilePresenter.dart';
-import '../../contracts/raid/raidFarmDetails.dart';
 import '../../helpers/genericHelper.dart';
 import '../../helpers/raidHelper.dart';
 import '../../localization/localeKey.dart';
 import '../../localization/translations.dart';
+import '../../state/modules/raid/raidViewModel.dart';
 
 class RaidCalculatorResultComponent extends StatelessWidget {
-  final RaidFarmDetails details;
+  final RaidViewModel details;
   final bool showMobileView;
 
   RaidCalculatorResultComponent(this.details, this.showMobileView);

@@ -1,5 +1,7 @@
 import 'package:fluro/fluro.dart';
 import 'package:flutter/material.dart';
+import 'package:scrapmechanic_kurtlourens_com/pages/other/dressBotPage.dart';
+import 'package:scrapmechanic_kurtlourens_com/pages/other/dressbotDetailPage.dart';
 
 import '../constants/Routes.dart';
 import '../pages/about.dart';
@@ -72,9 +74,21 @@ class FluroRouter {
       transitionType: transition,
     );
     router.define(
+      Routes.dressbot,
+      handler: _basicHandlerFunc(() => DressBotPage()),
+      transitionType: transition,
+    );
+    router.define(
       Routes.gameDetail,
       handler: _itemListPageHandler(
         (String id) => GameItemDetailPage(id, isInDetailPane: false),
+      ),
+      transitionType: transition,
+    );
+    router.define(
+      Routes.cosmeticDetail,
+      handler: _itemListPageHandler(
+        (String id) => DressBotDetailPage(id, isInDetailPane: false),
       ),
       transitionType: transition,
     );

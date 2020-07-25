@@ -15,6 +15,7 @@ class AnalyticsEvent {
   static const String cartPage = 'Cart_Page_View';
   static const String steamNewsPage = 'Steam_News_Page_View';
   static const String genericAllRequiredPage = 'GenericAllRequired_Page_View';
+  static const String dressBotPage = 'DressBot_Page_View';
   //json
   //external
   static const String externalLinkCVWebsite = 'CV_Website';

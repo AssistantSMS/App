@@ -1,27 +1,28 @@
+import 'package:dotted_border/dotted_border.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:scrapmechanic_kurtlourens_com/components/dialogs/quantityDialog.dart';
-import 'package:scrapmechanic_kurtlourens_com/components/loading.dart';
-import 'package:scrapmechanic_kurtlourens_com/components/tilePresenters/genericTilePresenter.dart';
-import 'package:scrapmechanic_kurtlourens_com/constants/AppImage.dart';
-import 'package:scrapmechanic_kurtlourens_com/contracts/raid/raidFarmDetails.dart';
-import 'package:scrapmechanic_kurtlourens_com/contracts/raid/raidSpawn.dart';
-import 'package:scrapmechanic_kurtlourens_com/contracts/search/dropdownOption.dart';
-import 'package:scrapmechanic_kurtlourens_com/helpers/navigationHelper.dart';
-import 'package:scrapmechanic_kurtlourens_com/helpers/popupMenuButtonHelper.dart';
-import 'package:scrapmechanic_kurtlourens_com/localization/localeKey.dart';
-import 'package:scrapmechanic_kurtlourens_com/localization/translations.dart';
-import 'package:dotted_border/dotted_border.dart';
-import 'package:scrapmechanic_kurtlourens_com/pages/dialog/optionsListPageDialog.dart';
+import 'package:scrapmechanic_kurtlourens_com/state/modules/raid/raidViewModel.dart';
 
+import '../../constants/AppImage.dart';
+import '../../state/modules/raid/raidState.dart';
+import '../../contracts/raid/raidSpawn.dart';
 import '../../contracts/recipeIngredient/recipeIngredient.dart';
 import '../../contracts/recipeIngredient/recipeIngredientDetail.dart';
 import '../../contracts/results/resultWithValue.dart';
+import '../../contracts/search/dropdownOption.dart';
 import '../../helpers/colourHelper.dart';
 import '../../helpers/futureHelper.dart';
-import '../../helpers/snapshotHelper.dart';
+import '../../helpers/navigationHelper.dart';
+import '../../helpers/popupMenuButtonHelper.dart';
 import '../../helpers/raidHelper.dart';
+import '../../helpers/snapshotHelper.dart';
+import '../../localization/localeKey.dart';
+import '../../localization/translations.dart';
+import '../../pages/dialog/optionsListPageDialog.dart';
 import '../common/image.dart';
+import '../dialogs/quantityDialog.dart';
+import '../loading.dart';
+import 'genericTilePresenter.dart';
 
 Widget raidGridTilePresenter(BuildContext context, String itemId,
     void Function(String itemId, int quantity) onEdit) {
@@ -40,7 +41,7 @@ Widget raidGridTilePresenter(BuildContext context, String itemId,
 Widget raidTilePresenter(
   BuildContext context,
   String itemId,
-  RaidFarmDetails currentDetails, {
+  RaidViewModel currentDetails, {
   void Function(String itemId, int quantity) onEdit,
   void Function(String itemId) onDelete,
 }) {
@@ -96,7 +97,7 @@ Widget raidPlantDetailTilePresenter(
 
 Widget raidAddPlantTilePresenter(
     BuildContext context,
-    RaidFarmDetails currentDetails,
+    RaidViewModel currentDetails,
     void Function(String itemId, int quantity) onEdit) {
   var currentPlants = RaidHelper.getPlantsWithQuantity(currentDetails);
 

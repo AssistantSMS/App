@@ -1,5 +1,4 @@
 import '../base/persistToStorage.dart';
-import 'raidState.dart';
 
 class EditRaidAction extends PersistToStorage {
   final int carrot;

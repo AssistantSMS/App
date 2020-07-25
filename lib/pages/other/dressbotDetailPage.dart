@@ -91,8 +91,12 @@ class DressBotDetailPage extends StatelessWidget {
     var isOwned =
         ((viewModel?.owned ?? List<String>()).any((own) => own == gameItem.id));
     widgets.add(emptySpace1x());
-    widgets.add(genericItemGroup(Translations.get(
-        context, isOwned ? LocaleKey.owned : LocaleKey.notOwned)));
+    widgets.add(genericItemDescription(
+      Translations.get(context, isOwned ? LocaleKey.owned : LocaleKey.notOwned),
+      textStyle: TextStyle(
+        color: getSecondaryColour(context),
+      ),
+    ));
 
     widgets.add(emptySpace10x());
 

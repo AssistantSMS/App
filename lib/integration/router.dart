@@ -1,12 +1,12 @@
 import 'package:fluro/fluro.dart';
 import 'package:flutter/material.dart';
-import 'package:scrapmechanic_kurtlourens_com/pages/other/dressBotPage.dart';
-import 'package:scrapmechanic_kurtlourens_com/pages/other/dressbotDetailPage.dart';
 
 import '../constants/Routes.dart';
 import '../pages/about.dart';
 import '../pages/cart/cartPage.dart';
 import '../pages/donation.dart';
+import '../pages/dressbot/dressbotPage.dart';
+import '../pages/dressbot/dressbotDetailPage.dart';
 import '../pages/gameItem/gameItemDetailPage.dart';
 import '../pages/home.dart';
 import '../pages/news/steamNewsPage.dart';

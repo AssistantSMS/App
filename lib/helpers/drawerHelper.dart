@@ -89,7 +89,12 @@ Future<List<Widget>> getDrawerItems(context,
       dense: true,
     ));
   } else {
-    widgets.add(ListTile(title: gameVersion, dense: true));
+    widgets.add(ListTile(
+      key: Key('versionNumber'),
+      leading: getCorrectlySizedImageFromIcon(context, Icons.code),
+      title: gameVersion,
+      dense: true,
+    ));
   }
 
   return widgets;

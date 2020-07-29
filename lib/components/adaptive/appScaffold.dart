@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import '../../helpers/navigationHelper.dart';
+import '../bottomNavbar.dart';
 
 Widget appScaffold(
   BuildContext context, {
@@ -9,6 +10,7 @@ Widget appScaffold(
   Widget body,
   Widget Function(BuildContext scaffoldContext) builder,
   Widget drawer,
+  Widget bottomNavigationBar,
   Widget floatingActionButton,
   FloatingActionButtonLocation floatingActionButtonLocation,
 }) {
@@ -77,9 +79,11 @@ Widget appScaffold(
           );
         }
         return Scaffold(
+          key: Key('homeScaffold-${constraints.maxWidth}'),
           appBar: deviceAppBar,
           body: customBody,
           drawer: drawer,
+          bottomNavigationBar: bottomNavigationBar,
           floatingActionButton: floatingActionButton,
           floatingActionButtonLocation: floatingActionButtonLocation,
         );

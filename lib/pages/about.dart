@@ -4,9 +4,11 @@ import '../components/adaptive/appBarForSubPage.dart';
 import '../components/adaptive/appScaffold.dart';
 import '../components/adaptive/button.dart';
 import '../components/adaptive/listWithScrollbar.dart';
+import '../components/bottomNavbar.dart';
 import '../constants/AnalyticsEvent.dart';
 import '../constants/AppPadding.dart';
 import '../constants/ExternalUrls.dart';
+import '../constants/Routes.dart';
 import '../helpers/analytics.dart';
 import '../helpers/external.dart';
 import '../helpers/genericHelper.dart';
@@ -28,6 +30,7 @@ class AboutPage extends StatelessWidget {
         title: Text(Translations.get(context, LocaleKey.about)),
       ),
       body: getBody(context),
+      bottomNavigationBar: BottomNavbar(currentRoute: Routes.about),
     );
   }
 

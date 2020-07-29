@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
+import 'package:scrapmechanic_kurtlourens_com/components/bottomNavbar.dart';
 
 import '../../components/adaptive/listWithScrollbar.dart';
 import '../../components/common/cachedFutureBuilder.dart';
@@ -233,12 +234,12 @@ class RecipeDetailPage extends StatelessWidget {
                 int quantity = int.tryParse(quantityString);
                 if (quantity == null) return;
                 viewModel.addToCart(recipeItem.output.id, quantity);
-                showSnackbar(
-                  context,
-                  LocaleKey.addedToCart,
-                  duration: AppDuration.snackBarAddToCart,
-                  onTap: navigateToCart,
-                );
+                // showSnackbar(
+                //   context,
+                //   LocaleKey.addedToCart,
+                //   duration: AppDuration.snackBarAddToCart,
+                //   onTap: navigateToCart,
+                // );
               });
             },
           ),

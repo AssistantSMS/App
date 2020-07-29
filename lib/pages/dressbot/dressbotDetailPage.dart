@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
-import 'package:scrapmechanic_kurtlourens_com/state/modules/base/appState.dart';
 
 import '../../components/adaptive/listWithScrollbar.dart';
 import '../../components/common/cachedFutureBuilder.dart';
@@ -18,6 +17,7 @@ import '../../helpers/genericHelper.dart';
 import '../../helpers/snapshotHelper.dart';
 import '../../localization/localeKey.dart';
 import '../../localization/translations.dart';
+import '../../state/modules/base/appState.dart';
 import '../../state/modules/cosmetic/cosmeticViewModel.dart';
 
 class DressBotDetailPage extends StatelessWidget {

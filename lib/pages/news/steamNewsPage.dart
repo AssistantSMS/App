@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../../components/adaptive/appBarForSubPage.dart';
 import '../../components/adaptive/appScaffold.dart';
+import '../../components/bottomNavbar.dart';
 import '../../components/searchableList.dart';
 import '../../components/tilePresenters/steamNewsTilePresenter.dart';
 import '../../constants/AnalyticsEvent.dart';
@@ -38,6 +39,7 @@ class SteamNewsPage extends StatelessWidget {
         useGridView: true,
         gridViewColumnCalculator: steamNewsCustomColumnCount,
       ),
+      bottomNavigationBar: BottomNavbar(noRouteSelected: true),
     );
   }
 }

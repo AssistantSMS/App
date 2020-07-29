@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../components/adaptive/appScaffold.dart';
 import '../components/adaptive/homePageAppBar.dart';
+import '../components/bottomNavbar.dart';
 import '../components/drawer.dart';
 import '../components/responsiveStaggeredGrid.dart';
 import '../components/tilePresenters/responsiveStaggeredGridTilePresenter.dart';
@@ -31,6 +32,7 @@ class HomePage extends StatelessWidget {
       appBar: homePageAppBar(context, onLocaleChange),
       drawer: AppDrawer(),
       builder: (scaffoldContext) => getBody(scaffoldContext),
+      bottomNavigationBar: BottomNavbar(currentRoute: Routes.home),
     );
   }
 

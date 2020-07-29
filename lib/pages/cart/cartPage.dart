@@ -5,10 +5,12 @@ import '../../components/adaptive/appBarForSubPage.dart';
 import '../../components/adaptive/appScaffold.dart';
 import '../../components/adaptive/button.dart';
 import '../../components/adaptive/listWithScrollbar.dart';
+import '../../components/bottomNavbar.dart';
 import '../../components/dialogs/quantityDialog.dart';
 import '../../components/tilePresenters/cartTilePresenter.dart';
 import '../../constants/AnalyticsEvent.dart';
 import '../../constants/AppPadding.dart';
+import '../../constants/Routes.dart';
 import '../../contracts/gameItem/gameItem.dart';
 import '../../contracts/recipeIngredient/recipeIngredient.dart';
 import '../../contracts/recipeIngredient/recipeIngredientDetail.dart';
@@ -49,6 +51,7 @@ class CartPage extends StatelessWidget {
               getBody(context, viewModel, snapshot),
         ),
       ),
+      bottomNavigationBar: BottomNavbar(currentRoute: Routes.cart),
     );
   }
 

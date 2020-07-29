@@ -396,13 +396,13 @@ class GameItemDetailPage extends StatelessWidget {
                 int quantity = int.tryParse(quantityString);
                 if (quantity == null) return;
                 viewModel.addToCart(gameItem.id, quantity);
-                showSnackbar(
-                  context,
-                  LocaleKey.addedToCart,
-                  duration: AppDuration.snackBarAddToCart,
-                  onTap: () async => await navigateHomeAsync(context,
-                      navigateToNamed: Routes.cart),
-                );
+                // showSnackbar(
+                //   context,
+                //   LocaleKey.addedToCart,
+                //   duration: AppDuration.snackBarAddToCart,
+                //   onTap: () async => await navigateHomeAsync(context,
+                //       navigateToNamed: Routes.cart),
+                // );
               });
             },
           ),

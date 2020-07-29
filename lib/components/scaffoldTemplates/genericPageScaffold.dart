@@ -4,12 +4,17 @@ import '../../contracts/misc/actionItem.dart';
 import '../../helpers/navigationHelper.dart';
 import '../adaptive/appBarForSubPage.dart';
 import '../adaptive/appScaffold.dart';
+import '../bottomNavbar.dart';
 
-Widget genericPageScaffold<T>(context, String title, snapshot,
-    {Widget Function(BuildContext context, AsyncSnapshot<T> snapshot) body,
-    bool showShortcutLinks = false,
-    List<ActionItem> shortcutActions,
-    floatingActionButton}) {
+Widget genericPageScaffold<T>(
+  context,
+  String title,
+  snapshot, {
+  Widget Function(BuildContext context, AsyncSnapshot<T> snapshot) body,
+  bool showShortcutLinks = false,
+  List<ActionItem> shortcutActions,
+  Widget floatingActionButton,
+}) {
   List<ActionItem> actions = List<ActionItem>();
   actions.add(ActionItem(
     icon: Icons.home,
@@ -24,6 +29,7 @@ Widget genericPageScaffold<T>(context, String title, snapshot,
       shortcutActions: shortcutActions,
     ),
     body: body(context, snapshot),
+    bottomNavigationBar: BottomNavbar(noRouteSelected: true),
     floatingActionButton: floatingActionButton,
   );
 }

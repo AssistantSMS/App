@@ -10,6 +10,7 @@ import '../../integration/router.dart';
 import '../../integration/themeManager.dart';
 import '../../localization/localization.dart';
 import '../../theme/themes.dart';
+import '../bottomNavbar.dart';
 
 class AppShell extends StatefulWidget {
   final newLocaleDelegate;

@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
-import 'package:scrapmechanic_kurtlourens_com/components/bottomNavbar.dart';
 
 import '../../components/adaptive/listWithScrollbar.dart';
 import '../../components/common/cachedFutureBuilder.dart';
@@ -10,7 +9,6 @@ import '../../components/scaffoldTemplates/genericPageScaffold.dart';
 import '../../components/tilePresenters/recipeIngredientTilePresenter.dart';
 import '../../components/webSpecific/mousePointer.dart';
 import '../../constants/AnalyticsEvent.dart';
-import '../../constants/AppDuration.dart';
 import '../../constants/AppImage.dart';
 import '../../constants/AppPadding.dart';
 import '../../constants/IdPrefix.dart';
@@ -25,7 +23,6 @@ import '../../helpers/deviceHelper.dart';
 import '../../helpers/futureHelper.dart';
 import '../../helpers/genericHelper.dart';
 import '../../helpers/navigationHelper.dart';
-import '../../helpers/snackbarHelper.dart';
 import '../../helpers/snapshotHelper.dart';
 import '../../localization/localeKey.dart';
 import '../../localization/translations.dart';

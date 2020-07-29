@@ -2,7 +2,6 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import '../../helpers/navigationHelper.dart';
-import '../bottomNavbar.dart';
 
 Widget appScaffold(
   BuildContext context, {

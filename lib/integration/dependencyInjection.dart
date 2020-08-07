@@ -1,11 +1,13 @@
 import 'package:get_it/get_it.dart';
+import 'package:scrapmechanic_kurtlourens_com/repository/api/PatreonApiRepository.dart';
+import 'package:scrapmechanic_kurtlourens_com/repository/api/interface/IPatreonApiRepository.dart';
 
 import '../env/environmentSettings.dart';
 import '../helpers/repositoryHelper.dart';
 import '../localization/localeKey.dart';
-import '../repository/ApiRepository.dart';
+import '../repository/api/SteamApiRepository.dart';
 import '../repository/LocalStorageRepository.dart';
-import '../repository/interface/IApiRepository.dart';
+import '../repository/api/interface/ISteamApiRepository.dart';
 import '../repository/interface/ILocalStorageRepository.dart';
 import '../services/LocalStorageService.dart';
 import '../services/interface/IGameItemJsonService.dart';
@@ -31,7 +33,8 @@ initDependencyInjection(EnvironmentSettings _env) {
 
   //Repository
   getIt.registerSingleton<ILocalStorageRepository>(LocalStorageRepository());
-  getIt.registerSingleton<IApiRepository>(ApiRepository());
+  getIt.registerSingleton<ISteamApiRepository>(SteamApiRepository());
+  getIt.registerSingleton<IPatreonApiRepository>(PatreonApiRepository());
 
   //Service
   getIt.registerSingleton<ILocalStorageService>(LocalStorageService());
@@ -47,7 +50,8 @@ IGameItemJsonService getGameItemRepo(LocaleKey key) =>
 
 //Repository
 ILocalStorageRepository getStorageRepo() => getIt<ILocalStorageRepository>();
-IApiRepository getApiRepo() => getIt<IApiRepository>();
+ISteamApiRepository getSteamApiRepo() => getIt<ISteamApiRepository>();
+IPatreonApiRepository getPatreonApiRepo() => getIt<IPatreonApiRepository>();
 
 //Service
 ILocalStorageService getStorageService() => getIt<ILocalStorageService>();

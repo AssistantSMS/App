@@ -1,13 +1,14 @@
 import 'dart:convert';
 
-import './BaseApiRepository.dart';
-import './interface/IApiRepository.dart';
-import '../constants/ApiUrls.dart';
-import '../contracts/generated/SteamNewsItem.dart';
-import '../contracts/results/resultWithValue.dart';
-import '../integration/logging.dart';
+import '../BaseApiRepository.dart';
+import 'interface/ISteamApiRepository.dart';
+import '../../constants/ApiUrls.dart';
+import '../../contracts/generated/SteamNewsItem.dart';
+import '../../contracts/results/resultWithValue.dart';
+import '../../integration/logging.dart';
 
-class ApiRepository extends BaseApiRepository implements IApiRepository {
+class SteamApiRepository extends BaseApiRepository
+    implements ISteamApiRepository {
   Future<ResultWithValue<List<SteamNewsItem>>> getSteamNews() async {
     try {
       final response = await this.apiGet(ApiUrls.steamNews);

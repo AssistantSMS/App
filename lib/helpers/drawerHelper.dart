@@ -47,6 +47,12 @@ Future<List<Widget>> getDrawerItems(context,
     key: LocaleKey.contribute,
     navigateToExternal: ExternalUrls.githubOrganization,
   ));
+  widgets.add(_drawerItem(
+    context,
+    image: getListTileImage(context, 'drawer/patreon.png'),
+    key: LocaleKey.patrons,
+    navigateToNamed: Routes.patronList,
+  ));
 
   widgets.add(customDivider());
 

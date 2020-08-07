@@ -4,19 +4,18 @@ import '../../components/adaptive/appBarForSubPage.dart';
 import '../../components/adaptive/appScaffold.dart';
 import '../../components/bottomNavbar.dart';
 import '../../components/searchableList.dart';
-import '../../components/tilePresenters/steamNewsTilePresenter.dart';
+import '../../components/tilePresenters/patreonTilePresenter.dart';
 import '../../constants/AnalyticsEvent.dart';
-import '../../contracts/generated/SteamNewsItem.dart';
+import '../../contracts/generated/PatreonViewModel.dart';
 import '../../helpers/analytics.dart';
 import '../../helpers/columnHelper.dart';
 import '../../integration/dependencyInjection.dart';
 import '../../localization/localeKey.dart';
 import '../../localization/translations.dart';
-import '../../services/json/steamNewsBackupJsonService.dart';
 
-class SteamNewsPage extends StatelessWidget {
-  SteamNewsPage() {
-    trackEvent(AnalyticsEvent.steamNewsPage);
+class PatronListPage extends StatelessWidget {
+  PatronListPage() {
+    trackEvent(AnalyticsEvent.patronListPage);
   }
 
   @override
@@ -26,15 +25,15 @@ class SteamNewsPage extends StatelessWidget {
       appBar: appBarForSubPageHelper(
         context,
         showHomeAction: true,
-        title: Text(Translations.get(context, LocaleKey.news)),
+        title: Text(Translations.get(context, LocaleKey.patrons)),
       ),
-      body: SearchableList<SteamNewsItem>(
-        () => getSteamApiRepo().getSteamNews(),
-        steamNewsItemTilePresenter,
+      body: SearchableList<PatreonViewModel>(
+        () => getPatreonApiRepo().getPatrons(),
+        patronTilePresenter,
         (_, __) => false,
-        backupListGetter: () =>
-            new SteamNewsBackupJsonService().getAll(context),
-        backupListWarningMessage: LocaleKey.failedLatestDisplayingOld,
+        // backupListGetter: () =>
+        //     new SteamNewsBackupJsonService().getAll(context),
+        // backupListWarningMessage: LocaleKey.failedLatestDisplayingOld,
         minListForSearch: 20000,
         useGridView: true,
         gridViewColumnCalculator: steamNewsCustomColumnCount,

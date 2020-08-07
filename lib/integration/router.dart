@@ -5,13 +5,14 @@ import '../constants/Routes.dart';
 import '../pages/about.dart';
 import '../pages/cart/cartPage.dart';
 import '../pages/donation.dart';
-import '../pages/dressbot/dressbotPage.dart';
 import '../pages/dressbot/dressbotDetailPage.dart';
+import '../pages/dressbot/dressbotPage.dart';
 import '../pages/gameItem/gameItemDetailPage.dart';
 import '../pages/home.dart';
 import '../pages/news/steamNewsPage.dart';
 import '../pages/notFound.dart';
 import '../pages/other/otherRecipes.dart';
+import '../pages/other/patronListPage.dart';
 import '../pages/raid/raidCalculatorPage.dart';
 import '../pages/recipe/recipeDetailPage.dart';
 import '../pages/settings.dart';
@@ -76,6 +77,11 @@ class FluroRouter {
     router.define(
       Routes.dressbot,
       handler: _basicHandlerFunc(() => DressBotPage()),
+      transitionType: transition,
+    );
+    router.define(
+      Routes.patronList,
+      handler: _basicHandlerFunc(() => PatronListPage()),
       transitionType: transition,
     );
     router.define(

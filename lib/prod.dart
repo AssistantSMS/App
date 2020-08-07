@@ -5,7 +5,8 @@ import 'env/environmentSettings.dart';
 
 Future main() async {
   var env = EnvironmentSettings(
-    baseApi: "https://api.scrapassistant.com",
+    scrapAssistantApiUrl: "https://api.scrapassistant.com",
+    assistantAppsApiUrl: "https://api.assistantapps.com",
     donationsEnabled: false,
     isProduction: true,
   );

@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
+import 'package:scrapmechanic_kurtlourens_com/contracts/enum/customisationSourceType.dart';
+import 'package:scrapmechanic_kurtlourens_com/helpers/deviceHelper.dart';
 
 import '../../components/adaptive/listWithScrollbar.dart';
 import '../../components/common/cachedFutureBuilder.dart';
@@ -97,6 +99,36 @@ class DressBotDetailPage extends StatelessWidget {
         color: getSecondaryColour(context),
       ),
     ));
+
+    if (gameItem.customisationSource != null &&
+        gameItem.customisationSource != CustomisationSourceType.unknown) {
+      widgets.add(emptySpace1x());
+      widgets.add(customDivider());
+      widgets.add(genericItemDescription(
+        Translations.get(context, LocaleKey.foundIn),
+      ));
+      var image = AppImage.outfitCommon;
+      switch (gameItem.customisationSource) {
+        case CustomisationSourceType.common:
+          image = AppImage.outfitCommon;
+          break;
+        case CustomisationSourceType.rare:
+          image = AppImage.outfitRare;
+          break;
+        case CustomisationSourceType.epic:
+          image = AppImage.outfitEpic;
+          break;
+        default:
+          image = AppImage.outfitCommon;
+          break;
+      }
+      widgets.add(genericItemImage(
+        context,
+        image,
+        height: 50,
+        disableZoom: true,
+      ));
+    }
 
     widgets.add(emptySpace10x());
 

@@ -2,6 +2,7 @@
 //
 //     final gameItem = gameItemFromJson(jsonString);
 
+import '../enum/customisationSourceType.dart';
 import '../rating/rating.dart';
 import 'box.dart';
 import 'cylinder.dart';
@@ -25,6 +26,7 @@ class GameItem {
     this.qualityLevel,
     this.features,
     this.upgrade,
+    this.customisationSource,
   });
 
   String id;
@@ -40,6 +42,7 @@ class GameItem {
   int qualityLevel;
   Upgrade upgrade;
   List<Feature> features;
+  CustomisationSourceType customisationSource;
 
   factory GameItem.fromBaseAndLang(GameItemBase baseItem, GameItemLang lang) =>
       GameItem(
@@ -56,5 +59,6 @@ class GameItem {
         qualityLevel: baseItem.qualityLevel,
         features: baseItem.features,
         upgrade: baseItem.upgrade,
+        customisationSource: baseItem.customisationSource,
       );
 }

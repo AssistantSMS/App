@@ -4,6 +4,8 @@
 
 import 'dart:convert';
 
+import 'package:scrapmechanic_kurtlourens_com/contracts/enum/customisationSourceType.dart';
+
 import './cylinder.dart';
 import '../../helpers/jsonHelper.dart';
 import '../rating/rating.dart';
@@ -25,6 +27,7 @@ class GameItemBase {
     this.qualityLevel,
     this.features,
     this.upgrade,
+    this.customisationSource,
   });
 
   String id;
@@ -39,6 +42,7 @@ class GameItemBase {
   int qualityLevel;
   Upgrade upgrade;
   List<Feature> features;
+  CustomisationSourceType customisationSource;
 
   factory GameItemBase.fromRawJson(String str) =>
       GameItemBase.fromJson(json.decode(str));
@@ -63,5 +67,7 @@ class GameItemBase {
         flammable: readBoolSafe(json, "Flammable"),
         density: readDoubleSafe(json, "Density"),
         qualityLevel: readIntSafe(json, "QualityLevel"),
+        customisationSource: CustomisationSourceType
+            .values[(json["CustomisationSource"] as int ?? 0)],
       );
 }

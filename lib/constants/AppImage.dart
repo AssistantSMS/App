@@ -41,6 +41,10 @@ class AppImage {
   static const String customLoading = base + 'loading.png';
   static const String translate = base + 'translate.png';
 
+  static const String outfitCommon = base + 'outfitCommon.png';
+  static const String outfitRare = base + 'outfitRare.png';
+  static const String outfitEpic = base + 'outfitEpic.png';
+
   static const String totebot = base + raid + 'totebot.png';
   static const String haybot = base + raid + 'haybot.png';
   static const String tapebot = base + raid + 'tapebot.png';

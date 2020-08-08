@@ -303,6 +303,12 @@
     "Icon": "items/intera16.png",
     "Color": "df7f01",
     "PhysicsMaterial": "Mechanical",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 0,
+      "Buoyancy": 0
+    },
     "Cylinder": {
       "Diameter": 1,
       "Depth": 2
@@ -316,6 +322,12 @@
     "Icon": "items/intera17.png",
     "Color": "df7f01",
     "PhysicsMaterial": "Mechanical",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 0,
+      "Buoyancy": 0
+    },
     "Cylinder": {
       "Diameter": 1,
       "Depth": 3
@@ -329,6 +341,12 @@
     "Icon": "items/intera18.png",
     "Color": "df7f01",
     "PhysicsMaterial": "Mechanical",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 0,
+      "Buoyancy": 0
+    },
     "Box": {
       "X": 4,
       "Y": 4,
@@ -343,6 +361,12 @@
     "Icon": "items/intera19.png",
     "Color": "df7f01",
     "PhysicsMaterial": "Mechanical",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 0,
+      "Buoyancy": 0
+    },
     "Box": {
       "X": 4,
       "Y": 4,
@@ -357,6 +381,12 @@
     "Icon": "items/intera20.png",
     "Color": "df7f01",
     "PhysicsMaterial": "Mechanical",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 0,
+      "Buoyancy": 0
+    },
     "Box": {
       "X": 3,
       "Y": 4,
@@ -371,6 +401,12 @@
     "Icon": "items/intera21.png",
     "Color": "df7f01",
     "PhysicsMaterial": "Mechanical",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 0,
+      "Buoyancy": 0
+    },
     "Box": {
       "X": 3,
       "Y": 4,
@@ -405,6 +441,12 @@
     "Icon": "items/intera23.png",
     "Color": "df7f01",
     "PhysicsMaterial": "Mechanical",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 0,
+      "Buoyancy": 0
+    },
     "Box": {
       "X": 2,
       "Y": 2,
@@ -419,6 +461,12 @@
     "Icon": "items/intera24.png",
     "Color": "df7f01",
     "PhysicsMaterial": "Mechanical",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 0,
+      "Buoyancy": 0
+    },
     "Box": {
       "X": 2,
       "Y": 2,
@@ -433,6 +481,12 @@
     "Icon": "items/intera25.png",
     "Color": "df7f01",
     "PhysicsMaterial": "Mechanical",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 0,
+      "Buoyancy": 0
+    },
     "Box": {
       "X": 2,
       "Y": 2,
@@ -447,6 +501,12 @@
     "Icon": "items/intera26.png",
     "Color": "df7f01",
     "PhysicsMaterial": "Mechanical",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 0,
+      "Buoyancy": 0
+    },
     "Box": {
       "X": 2,
       "Y": 1,
@@ -501,6 +561,12 @@
     "Icon": "items/intera29.png",
     "Color": "df7f01",
     "PhysicsMaterial": "Mechanical",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 0,
+      "Buoyancy": 0
+    },
     "Box": {
       "X": 1,
       "Y": 1,
@@ -695,6 +761,12 @@
     "Icon": "items/intera39.png",
     "Color": "df7f01",
     "PhysicsMaterial": "Mechanical",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 0,
+      "Buoyancy": 0
+    },
     "Box": {
       "X": 1,
       "Y": 1,
@@ -729,6 +801,12 @@
     "Icon": "items/intera41.png",
     "Color": "df7f01",
     "PhysicsMaterial": "Mechanical",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 0,
+      "Buoyancy": 0
+    },
     "Box": {
       "X": 1,
       "Y": 1,

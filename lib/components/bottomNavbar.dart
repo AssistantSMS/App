@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:ff_navigation_bar/ff_navigation_bar.dart';
 import 'package:scrapmechanic_kurtlourens_com/constants/Routes.dart';
+import 'package:scrapmechanic_kurtlourens_com/helpers/colourHelper.dart';
 import 'package:scrapmechanic_kurtlourens_com/helpers/navigationHelper.dart';
 
 class NavBarItem {
@@ -58,16 +59,23 @@ class _BottomNavbarWidget extends State<BottomNavbar> {
 
   @override
   Widget build(BuildContext context) {
+    var secondaryColour = getSecondaryColour(context);
+    var foregroundColour = getH1Colour(context);
+    var backgroundColour = getBackgroundColour(context);
+    var theme = FFNavigationBarTheme(
+      barBackgroundColor: backgroundColour,
+      selectedItemBorderColor: backgroundColour,
+      selectedItemIconColor: foregroundColour,
+      selectedItemBackgroundColor: secondaryColour,
+      selectedItemLabelColor: foregroundColour,
+      unselectedItemIconColor: foregroundColour,
+      unselectedItemLabelColor: foregroundColour,
+    );
     return FFNavigationBar(
-      key: Key('NavBar'),
-      theme: FFNavigationBarTheme(
-          // barBackgroundColor: Colors.white,
-          // selectedItemBorderColor: Colors.yellow,
-          // selectedItemBackgroundColor: Colors.green,
-          // selectedItemIconColor: Colors.white,
-          // selectedItemLabelColor: Colors.black,
-          ),
-      selectedIndex: selectedIndex,
+      key: Key('NavBar' + getIsDark(context).toString()),
+      theme: theme,
+      selectedIndex: null,
+      // selectedIndex: selectedIndex,
       onSelectTab: (index) {
         if (navBarItems[index] != null && navBarItems[index].route != null) {
           navigateHomeAsync(

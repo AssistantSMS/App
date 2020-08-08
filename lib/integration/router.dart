@@ -11,6 +11,7 @@ import '../pages/gameItem/gameItemDetailPage.dart';
 import '../pages/home.dart';
 import '../pages/news/steamNewsPage.dart';
 import '../pages/notFound.dart';
+import '../pages/other/contributorListPage.dart';
 import '../pages/other/otherRecipes.dart';
 import '../pages/other/patronListPage.dart';
 import '../pages/raid/raidCalculatorPage.dart';
@@ -82,6 +83,11 @@ class FluroRouter {
     router.define(
       Routes.patronList,
       handler: _basicHandlerFunc(() => PatronListPage()),
+      transitionType: transition,
+    );
+    router.define(
+      Routes.contributors,
+      handler: _basicHandlerFunc(() => ContributorListPage()),
       transitionType: transition,
     );
     router.define(

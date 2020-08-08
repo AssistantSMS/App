@@ -32,6 +32,13 @@ Future<List<Widget>> getDrawerItems(context,
       navigateToNamed: Routes.donation,
     ));
   }
+  widgets.add(_drawerItem(
+    context,
+    image: getCorrectlySizedImageFromIcon(context, Icons.people,
+        colour: drawerIconColour),
+    key: LocaleKey.contributors,
+    navigateToNamed: Routes.contributors,
+  ));
 
   widgets.add(customDivider());
 

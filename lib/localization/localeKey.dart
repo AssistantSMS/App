@@ -150,4 +150,5 @@ enum LocaleKey {
   patrons,
   joinPatreon,
   foundIn,
+  contributors,
 }

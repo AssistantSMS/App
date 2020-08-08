@@ -1,3 +1,4 @@
 - Add Patrons page
 - Add bottom navbar
 - Improved Trader image
+- Add contributors page

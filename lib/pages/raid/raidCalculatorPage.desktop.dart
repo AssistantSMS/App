@@ -27,9 +27,11 @@ class RaidCalcDesktopInputScreen extends StatelessWidget {
       gridViewColumnCalculator: raidCustomColumnCount,
       itemBuilder: (context, index) {
         if (index < RaidHelper.plants.length) {
+          var plantId = RaidHelper.plants[index];
           return raidGridTilePresenter(
             context,
-            RaidHelper.plants[index],
+            plantId,
+            RaidHelper.getPlantQuantity(currentDetails, plantId),
             _setFarmQuantity,
           );
         }

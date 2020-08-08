@@ -2,3 +2,4 @@
 - Add bottom navbar
 - Improved Trader image
 - Add contributors page
+- Fix Pateron on click

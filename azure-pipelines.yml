@@ -21,7 +21,7 @@ steps:
 
 - task: CmdLine@2
   inputs:
-    script: '$(FlutterToolPath)/flutter build web --release'
+    script: '$(FlutterToolPath)/flutter build web -t lib/prod.dart --release'
 
 - task: PublishBuildArtifacts@1
   inputs:

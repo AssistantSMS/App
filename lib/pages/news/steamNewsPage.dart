@@ -32,8 +32,7 @@ class SteamNewsPage extends StatelessWidget {
         () => getSteamApiRepo().getSteamNews(),
         steamNewsItemTilePresenter,
         (_, __) => false,
-        backupListGetter: () =>
-            new SteamNewsBackupJsonService().getAll(context),
+        backupListGetter: () => SteamNewsBackupJsonService().getAll(context),
         backupListWarningMessage: LocaleKey.failedLatestDisplayingOld,
         minListForSearch: 20000,
         useGridView: true,

@@ -148,4 +148,5 @@ enum LocaleKey {
   notOwned,
   showNotOwned,
   patrons,
+  joinPatreon,
 }

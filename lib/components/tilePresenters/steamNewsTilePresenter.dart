@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
 
+import '../../components/webSpecific/mousePointer.dart';
 import '../../constants/AppImage.dart';
 import '../../contracts/generated/SteamNewsItem.dart';
 import '../../helpers/colourHelper.dart';
 import '../../helpers/dateHelper.dart';
+import '../../helpers/deviceHelper.dart';
 import '../../helpers/external.dart';
-import '../../components/webSpecific/mousePointer.dart';
+import '../common/icon.dart';
 import '../common/image.dart';
 
 Widget steamNewsItemTilePresenter(
@@ -50,6 +52,14 @@ Widget steamNewsItemTilePresenter(
                         news.shortDescription,
                         maxLines: 3,
                         style: TextStyle(color: getCardTextColour(context)),
+                      ),
+                      customDivider(),
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                        children: [
+                          iconWithValueRow(Icons.thumb_up, news.upVotes),
+                          iconWithValueRow(Icons.thumb_down, news.downVotes),
+                        ],
                       ),
                     ],
                   ),

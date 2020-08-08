@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../../components/adaptive/appBarForSubPage.dart';
 import '../../components/adaptive/appScaffold.dart';
+import '../../components/bottomNavbar.dart';
 import '../../components/searchableList.dart';
 import '../../components/tilePresenters/steamNewsTilePresenter.dart';
 import '../../constants/AnalyticsEvent.dart';
@@ -28,16 +29,16 @@ class SteamNewsPage extends StatelessWidget {
         title: Text(Translations.get(context, LocaleKey.news)),
       ),
       body: SearchableList<SteamNewsItem>(
-        () => getApiRepo().getSteamNews(),
+        () => getSteamApiRepo().getSteamNews(),
         steamNewsItemTilePresenter,
         (_, __) => false,
-        backupListGetter: () =>
-            new SteamNewsBackupJsonService().getAll(context),
+        backupListGetter: () => SteamNewsBackupJsonService().getAll(context),
         backupListWarningMessage: LocaleKey.failedLatestDisplayingOld,
         minListForSearch: 20000,
         useGridView: true,
         gridViewColumnCalculator: steamNewsCustomColumnCount,
       ),
+      bottomNavigationBar: BottomNavbar(noRouteSelected: true),
     );
   }
 }

@@ -104,13 +104,14 @@ class _ResponsiveListDetailWidget<T>
               key: detailViewKey,
               flex: flexData.flex2,
               child: Container(
-                  decoration: BoxDecoration(
-                    border: Border(
-                      left: BorderSide(
-                          color: getSecondaryColour(context), width: 4),
-                    ),
+                decoration: BoxDecoration(
+                  border: Border(
+                    left: BorderSide(
+                        color: getSecondaryColour(context), width: 4),
                   ),
-                  child: detailView),
+                ),
+                child: detailView,
+              ),
             ),
           ],
         );

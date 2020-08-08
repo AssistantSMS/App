@@ -9,7 +9,6 @@ import '../../components/scaffoldTemplates/genericPageScaffold.dart';
 import '../../components/tilePresenters/recipeIngredientTilePresenter.dart';
 import '../../components/webSpecific/mousePointer.dart';
 import '../../constants/AnalyticsEvent.dart';
-import '../../constants/AppDuration.dart';
 import '../../constants/AppImage.dart';
 import '../../constants/AppPadding.dart';
 import '../../constants/IdPrefix.dart';
@@ -24,7 +23,6 @@ import '../../helpers/deviceHelper.dart';
 import '../../helpers/futureHelper.dart';
 import '../../helpers/genericHelper.dart';
 import '../../helpers/navigationHelper.dart';
-import '../../helpers/snackbarHelper.dart';
 import '../../helpers/snapshotHelper.dart';
 import '../../localization/localeKey.dart';
 import '../../localization/translations.dart';
@@ -99,27 +97,28 @@ class RecipeDetailPage extends StatelessWidget {
       '${AppImage.base}${recipeItem.icon}',
       name: recipeItem.title,
     ));
+
+    var navigateToGameItem = () async {
+      if (isInDetailPane && updateDetailView != null) {
+        updateDetailView(GameItemDetailPage(
+          recipeItem.output.id,
+          isInDetailPane: isInDetailPane,
+          updateDetailView: updateDetailView,
+        ));
+      } else {
+        await navigateAwayFromHomeAsync(
+          context,
+          navigateToNamed: Routes.gameDetail,
+          navigateToNamedParameters: {Routes.itemIdParam: recipeItem.output.id},
+        );
+      }
+    };
+
     if (recipeItem?.output?.id != null) {
       stackWidgets.add(Positioned(
         child: GestureDetector(
           child: Icon(Icons.info_outline, size: 40),
-          onTap: () async {
-            if (isInDetailPane && updateDetailView != null) {
-              updateDetailView(GameItemDetailPage(
-                recipeItem.output.id,
-                isInDetailPane: isInDetailPane,
-                updateDetailView: updateDetailView,
-              ));
-            } else {
-              await navigateAwayFromHomeAsync(
-                context,
-                navigateToNamed: Routes.gameDetail,
-                navigateToNamedParameters: {
-                  Routes.itemIdParam: recipeItem.output.id
-                },
-              );
-            }
-          },
+          onTap: navigateToGameItem,
         ).showPointerOnHover,
         top: 12,
         right: 4,
@@ -164,21 +163,7 @@ class RecipeDetailPage extends StatelessWidget {
           context,
           recipeIng,
           recipeIngIndex,
-          onTap: () async {
-            if (isInDetailPane && updateDetailView != null) {
-              updateDetailView(GameItemDetailPage(
-                recipeIng.id,
-                isInDetailPane: isInDetailPane,
-                updateDetailView: updateDetailView,
-              ));
-            } else {
-              await navigateAwayFromHomeAsync(
-                context,
-                navigateToNamed: Routes.gameDetail,
-                navigateToNamedParameters: {Routes.itemIdParam: recipeIng.id},
-              );
-            }
-          },
+          onTap: navigateToGameItem,
         ),
       ));
     }
@@ -233,12 +218,12 @@ class RecipeDetailPage extends StatelessWidget {
                 int quantity = int.tryParse(quantityString);
                 if (quantity == null) return;
                 viewModel.addToCart(recipeItem.output.id, quantity);
-                showSnackbar(
-                  context,
-                  LocaleKey.addedToCart,
-                  duration: AppDuration.snackBarAddToCart,
-                  onTap: navigateToCart,
-                );
+                // showSnackbar(
+                //   context,
+                //   LocaleKey.addedToCart,
+                //   duration: AppDuration.snackBarAddToCart,
+                //   onTap: navigateToCart,
+                // );
               });
             },
           ),

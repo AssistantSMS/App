@@ -147,4 +147,8 @@ enum LocaleKey {
   owned,
   notOwned,
   showNotOwned,
+  patrons,
+  joinPatreon,
+  foundIn,
+  contributors,
 }

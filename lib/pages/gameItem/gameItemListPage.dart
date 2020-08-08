@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../../components/adaptive/appBarForSubPage.dart';
 import '../../components/adaptive/appScaffold.dart';
+import '../../components/bottomNavbar.dart';
 import '../../components/responsiveSearchableList.dart';
 import '../../components/tilePresenters/gameItemTilePresenter.dart';
 import '../../constants/AnalyticsEvent.dart';
@@ -52,6 +53,7 @@ class GameItemListPage extends StatelessWidget {
         },
         key: Key(Translations.of(context).currentLanguage),
       ),
+      bottomNavigationBar: BottomNavbar(noRouteSelected: true),
     );
   }
 }

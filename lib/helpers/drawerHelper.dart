@@ -32,6 +32,13 @@ Future<List<Widget>> getDrawerItems(context,
       navigateToNamed: Routes.donation,
     ));
   }
+  widgets.add(_drawerItem(
+    context,
+    image: getCorrectlySizedImageFromIcon(context, Icons.people,
+        colour: drawerIconColour),
+    key: LocaleKey.contributors,
+    navigateToNamed: Routes.contributors,
+  ));
 
   widgets.add(customDivider());
 
@@ -46,6 +53,12 @@ Future<List<Widget>> getDrawerItems(context,
     image: getListTileImage(context, 'drawer/github.png'),
     key: LocaleKey.contribute,
     navigateToExternal: ExternalUrls.githubOrganization,
+  ));
+  widgets.add(_drawerItem(
+    context,
+    image: getListTileImage(context, 'drawer/patreon.png'),
+    key: LocaleKey.patrons,
+    navigateToNamed: Routes.patronList,
   ));
 
   widgets.add(customDivider());
@@ -89,7 +102,12 @@ Future<List<Widget>> getDrawerItems(context,
       dense: true,
     ));
   } else {
-    widgets.add(ListTile(title: gameVersion, dense: true));
+    widgets.add(ListTile(
+      key: Key('versionNumber'),
+      leading: getCorrectlySizedImageFromIcon(context, Icons.code),
+      title: gameVersion,
+      dense: true,
+    ));
   }
 
   return widgets;

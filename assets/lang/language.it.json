@@ -142,5 +142,9 @@
   "showOwned": "Show owned",
   "owned": "Owned",
   "notOwned": "Not owned",
-  "showNotOwned": "Show not owned"
+  "showNotOwned": "Show not owned",
+  "patrons": "Patrons",
+  "joinPatreon": "Join Patreon",
+  "foundIn": "Found in",
+  "contributors": "Contributors"
 }

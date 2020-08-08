@@ -23,11 +23,11 @@ import '../dialogs/quantityDialog.dart';
 import '../loading.dart';
 import 'genericTilePresenter.dart';
 
-Widget raidGridTilePresenter(BuildContext context, String itemId,
+Widget raidGridTilePresenter(BuildContext context, String itemId, int quantity,
     void Function(String itemId, int quantity) onEdit) {
   return FutureBuilder<ResultWithValue<RecipeIngredientDetails>>(
-    future:
-        getRecipeIngredientDetailsFuture(context, RecipeIngredient(id: itemId)),
+    future: getRecipeIngredientDetailsFuture(
+        context, RecipeIngredient(id: itemId, quantity: quantity)),
     builder: (BuildContext context,
         AsyncSnapshot<ResultWithValue<RecipeIngredientDetails>> snapshot) {
       Widget errorWidget = asyncSnapshotHandler(context, snapshot);
@@ -192,6 +192,7 @@ Widget raidDetailGridTilePresenter(
     RecipeIngredientDetails details,
     void Function(String itemId, int quantity) onEdit) {
   TextEditingController _controller = TextEditingController();
+  _controller.text = details.quantity.toString();
   return GestureDetector(
     child: Card(
       child: Column(

@@ -11,7 +11,7 @@ import '../../localization/localeKey.dart';
 import '../../localization/translations.dart';
 import '../../state/modules/base/appState.dart';
 import '../../state/modules/cosmetic/cosmeticViewModel.dart';
-import 'dressBotListDetailPage.dart';
+import 'dressbotListDetailPage.dart';
 
 class DressBotPage extends StatefulWidget {
   @override

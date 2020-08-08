@@ -1,4 +1,4 @@
-- Add filtering by Cosmetic type
-- Add Raid to local storage
-- Add ability to mark cosmetic as owned
-- Filter cosmetics by type, owned and not owned
+- Add Patrons page
+- Add bottom navbar
+- Improved Trader image
+- Add contributors page

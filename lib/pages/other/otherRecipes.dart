@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../../components/adaptive/appBarForSubPage.dart';
 import '../../components/adaptive/appScaffold.dart';
+import '../../components/bottomNavbar.dart';
 import '../../components/responsiveStaggeredGrid.dart';
 import '../../components/tilePresenters/responsiveStaggeredGridTilePresenter.dart';
 import '../../constants/AnalyticsEvent.dart';
@@ -30,6 +31,7 @@ class OtherRecipesPage extends StatelessWidget {
         title: Text(Translations.get(context, LocaleKey.other)),
       ),
       builder: (scaffoldContext) => getBody(scaffoldContext),
+      bottomNavigationBar: BottomNavbar(noRouteSelected: true),
     );
   }
 

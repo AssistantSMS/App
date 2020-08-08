@@ -4,6 +4,7 @@ import 'package:grouped_checkbox/grouped_checkbox.dart';
 
 import '../../components/adaptive/appBarForSubPage.dart';
 import '../../components/adaptive/appScaffold.dart';
+import '../../components/bottomNavbar.dart';
 import '../../components/responsiveSearchableList.dart';
 import '../../components/tilePresenters/gameItemTilePresenter.dart';
 import '../../constants/Routes.dart';
@@ -159,6 +160,7 @@ class DressBotListDetailPage extends StatelessWidget {
           ),
         ),
       ),
+      bottomNavigationBar: BottomNavbar(noRouteSelected: true),
     );
   }
 

@@ -1,47 +1,33 @@
-import 'package:enum_to_string/enum_to_string.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
 
 import '../../components/adaptive/listWithScrollbar.dart';
 import '../../components/common/cachedFutureBuilder.dart';
-import '../../components/common/image.dart';
 import '../../components/dialogs/quantityDialog.dart';
 import '../../components/loading.dart';
 import '../../components/scaffoldTemplates/genericPageScaffold.dart';
-import '../../components/tilePresenters/cartTilePresenter.dart';
-import '../../components/tilePresenters/recipeIngredientTilePresenter.dart';
-import '../../components/tilePresenters/recipeTilePresenter.dart';
-import '../../components/webSpecific/mousePointer.dart';
+import '../../components/scrapSpecific/itemDetailComponents.dart';
 import '../../constants/AnalyticsEvent.dart';
-import '../../constants/AppDuration.dart';
 import '../../constants/AppImage.dart';
 import '../../constants/AppPadding.dart';
 import '../../constants/Routes.dart';
 import '../../contracts/craftingIngredient/craftedUsing.dart';
-import '../../contracts/gameItem/feature.dart';
 import '../../contracts/gameItem/gameItemPageItem.dart';
 import '../../contracts/generated/LootChance.dart';
-import '../../contracts/recipe/recipe.dart';
-import '../../contracts/recipeIngredient/recipeIngredientDetail.dart';
 import '../../contracts/results/resultWithValue.dart';
 import '../../contracts/usedInRecipe/usedInRecipe.dart';
 import '../../helpers/analytics.dart';
 import '../../helpers/colourHelper.dart';
-import '../../helpers/deviceHelper.dart';
 import '../../helpers/futureHelper.dart';
 import '../../helpers/genericHelper.dart';
 import '../../helpers/navigationHelper.dart';
-import '../../helpers/snackbarHelper.dart';
 import '../../helpers/snapshotHelper.dart';
-import '../../helpers/textSpanHelper.dart';
 import '../../localization/localeKey.dart';
-import '../../localization/localesFromString.dart';
 import '../../localization/translations.dart';
 import '../../state/modules/base/appState.dart';
 import '../../state/modules/cart/cartItemState.dart';
 import '../../state/modules/gameItem/gameItemViewModel.dart';
 import '../recipe/recipeDetailPage.dart';
-import 'gameItemComponents.dart';
 
 class GameItemDetailPage extends StatelessWidget {
   final String itemId;
@@ -147,108 +133,43 @@ class GameItemDetailPage extends StatelessWidget {
       }
     };
 
+    var navigateToRecipeItem = (String recipeItemId) async {
+      if (isInDetailPane && updateDetailView != null) {
+        updateDetailView(RecipeDetailPage(
+          recipeItemId,
+          isInDetailPane: isInDetailPane,
+          updateDetailView: updateDetailView,
+        ));
+      } else {
+        await navigateAwayFromHomeAsync(
+          context,
+          navigateToNamed: Routes.recipeDetail,
+          navigateToNamedParameters: {Routes.itemIdParam: recipeItemId},
+        );
+      }
+    };
+
     if (gameItem.upgrade != null) {
-      rowWidgets.add(GestureDetector(
-        child: paddedCardWithMaxSize(
-          Center(
-            child: Padding(
-              child: Stack(children: [
-                localImage(AppImage.upgradeButton, height: 100),
-                Positioned.fill(
-                  child: Align(
-                    alignment: Alignment.center,
-                    child: Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        localImage(AppImage.componentKit, height: 20),
-                        Container(width: 10),
-                        Text(gameItem.upgrade.cost.toString(),
-                            style: TextStyle(fontSize: 20)),
-                      ],
-                    ),
-                  ),
-                ),
-              ]),
-              padding: EdgeInsets.all(18),
-            ),
-          ),
-        ),
-        onTap: () => navigateToGameItem(gameItem.upgrade.targetId),
-      ).showPointerOnHover);
+      rowWidgets.add(
+        itemDetailUpgradeWidget(gameItem.upgrade, navigateToGameItem),
+      );
     }
 
     if (gameItem.box != null) {
-      rowWidgets.add(paddedCardWithMaxSize(
-        Center(
-          child: SizedBox(
-            child: cubeDimension(context, gameItem.box),
-            height: 120,
-          ),
-        ),
-        padding: EdgeInsets.only(bottom: 12),
-      ));
+      rowWidgets.add(itemDetailBoxWidget(context, gameItem.box));
     }
 
     if (gameItem.cylinder != null) {
-      rowWidgets.add(paddedCardWithMaxSize(
-        Center(
-          child: SizedBox(
-            child: cylinderDimension(context, gameItem.cylinder),
-            height: 120,
-          ),
-        ),
-        padding: EdgeInsets.only(bottom: 12),
-      ));
+      rowWidgets.add(itemDetailCylinderWidget(context, gameItem.cylinder));
     }
 
     List<LootChance> lootChances = snapshot?.data?.value?.lootChances ?? [];
     if (lootChances != null && lootChances.length > 0) {
-      const double chestIconSize = 40;
-      List<Widget> rows = List<Widget>();
-      for (var lootChance in lootChances) {
-        var imagePath =
-            lootChance.type == 0 ? AppImage.chest : AppImage.chestGold;
-        var quantityString = "${lootChance.min} to ${lootChance.max}";
-        if (lootChance.min == lootChance.max) {
-          quantityString = "";
-        }
-        rows.add(Row(
-          mainAxisAlignment: MainAxisAlignment.center,
-          crossAxisAlignment: CrossAxisAlignment.center,
-          children: [
-            localImage(imagePath, height: chestIconSize),
-            Container(width: 10, height: chestIconSize),
-            Text(
-              "${lootChance.chance}% chance of dropping $quantityString",
-            ),
-          ],
-        ));
-      }
-      rowWidgets.add(paddedCardWithMaxSize(
-        Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: rows,
-        ),
-      ));
+      rowWidgets.add(itemDetailLootChancesWidget(lootChances));
     }
 
     if (gameItem.features != null && gameItem.features.length > 0) {
-      List<TableRow> rows = List<TableRow>();
-      for (Feature feature in gameItem.features) {
-        LocaleKey locale =
-            EnumToString.fromString(localesFromString, feature.localeKey);
-        rows.add(TableRow(children: [
-          Padding(
-            child: Text(Translations.get(context, locale) + ": "),
-            padding: EdgeInsets.all(4),
-          ),
-          Padding(child: Text(feature.value), padding: EdgeInsets.all(4)),
-        ]));
-      }
-      rowWidgets.add(paddedCardWithMaxSize(Padding(
-        child: Table(children: rows),
-        padding: EdgeInsets.all(8),
-      )));
+      rowWidgets.add(itemDetailFeaturesWidget(context, gameItem.features));
     }
 
     widgets.add(
@@ -260,117 +181,26 @@ class GameItemDetailPage extends StatelessWidget {
 
     List<CraftedUsing> craftingRecipes =
         snapshot?.data?.value?.craftingRecipes ?? [];
-
-    for (CraftedUsing craftingRecipe in craftingRecipes) {
-      var stationName = Translations.get(context, craftingRecipe.name);
-      widgets.add(emptySpace1x());
-      widgets.add(customDivider());
-      widgets.add(emptySpace1x());
-      var templateLocale = (craftingRecipe.name == LocaleKey.hideout)
-          ? LocaleKey.getXByTradingY
-          : LocaleKey.createXUsingY;
-      widgets.add(getTextSpanFromTemplateAndArray(
-        context,
-        templateLocale,
-        [gameItem.title, stationName],
-      ));
-      for (var ingDetailsIndex = 0;
-          ingDetailsIndex < craftingRecipe.ingredientDetails.length;
-          ingDetailsIndex++) {
-        RecipeIngredientDetails ingDetails =
-            craftingRecipe.ingredientDetails[ingDetailsIndex];
-        widgets.add(Card(
-          child: recipeIngredientDetailCustomOnTapTilePresenter(
-            context,
-            ingDetails,
-            ingDetailsIndex,
-            onTap: () => navigateToGameItem(ingDetails.id),
-          ),
-        ));
-      }
-    }
+    widgets.addAll(itemCraftingRecipesWidget(
+      context,
+      craftingRecipes,
+      gameItem.title,
+      navigateToGameItem,
+    ));
 
     List<UsedInRecipe> usedInRecipes =
         snapshot?.data?.value?.usedInRecipes ?? [];
-
-    for (UsedInRecipe usedInRecipe in usedInRecipes) {
-      widgets.add(emptySpace1x());
-      widgets.add(customDivider());
-      widgets.add(emptySpace1x());
-      var name = Translations.get(context, usedInRecipe.name);
-      widgets.add(getTextSpanFromTemplateAndArray(
-          context, LocaleKey.usedInXToCreate, [name]));
-      for (var recipeIndex = 0;
-          recipeIndex < usedInRecipe.recipes.length;
-          recipeIndex++) {
-        Recipe recipe = usedInRecipe.recipes[recipeIndex];
-        widgets.add(
-          GestureDetector(
-            child: Card(
-              child: recipeTilePresenter(context, recipe, recipeIndex,
-                  showOutputQuantity: true),
-            ),
-            onTap: () async {
-              if (isInDetailPane && updateDetailView != null) {
-                updateDetailView(RecipeDetailPage(
-                  recipe.id,
-                  isInDetailPane: isInDetailPane,
-                  updateDetailView: updateDetailView,
-                ));
-              } else {
-                await navigateAwayFromHomeAsync(
-                  context,
-                  navigateToNamed: Routes.recipeDetail,
-                  navigateToNamedParameters: {Routes.itemIdParam: recipe.id},
-                  // navigateTo: (context) => RecipeDetailPage(
-                  //   recipe.id,
-                  //   isInDetailPane: isInDetailPane,
-                  //   updateDetailView: updateDetailView,
-                  // ),
-                );
-              }
-            },
-          ),
-        );
-      }
-    }
-
-    var navigateToCart = () async =>
-        await navigateHomeAsync(context, navigateToNamed: Routes.cart);
+    widgets.addAll(itemUsedInRecipesWidget(
+      context,
+      usedInRecipes,
+      isInDetailPane,
+      navigateToRecipeItem,
+    ));
 
     List<CartItemState> cartItems = viewModel.cartItems
         .where((CartItemState ci) => ci.itemId == gameItem.id)
         .toList();
-    if (cartItems != null && cartItems.length > 0) {
-      widgets.add(emptySpace3x());
-      widgets.add(genericItemText(Translations.get(context, LocaleKey.cart)));
-      widgets.add(Card(
-        child: cartTilePresenter(
-          context,
-          RecipeIngredientDetails(
-            id: gameItem.id,
-            icon: gameItem.icon,
-            title: gameItem.title,
-            quantity: cartItems[0].quantity,
-          ),
-          0,
-          onTap: navigateToCart,
-          onEdit: () {
-            var controller =
-                TextEditingController(text: cartItems[0].quantity.toString());
-            showQuantityDialog(context, controller, onSuccess: (quantity) {
-              int intQuantity = int.tryParse(quantity);
-              if (intQuantity == null) return;
-              viewModel.editCartItem(gameItem.id, intQuantity);
-            });
-          },
-          onDelete: () {
-            viewModel.removeFromCart(gameItem.id);
-          },
-        ),
-        margin: const EdgeInsets.all(0.0),
-      ));
-    }
+    widgets.addAll(inCartWidget(context, gameItem, cartItems, viewModel));
 
     widgets.add(emptySpace10x());
 
@@ -396,13 +226,13 @@ class GameItemDetailPage extends StatelessWidget {
                 int quantity = int.tryParse(quantityString);
                 if (quantity == null) return;
                 viewModel.addToCart(gameItem.id, quantity);
-                showSnackbar(
-                  context,
-                  LocaleKey.addedToCart,
-                  duration: AppDuration.snackBarAddToCart,
-                  onTap: () async => await navigateHomeAsync(context,
-                      navigateToNamed: Routes.cart),
-                );
+                // showSnackbar(
+                //   context,
+                //   LocaleKey.addedToCart,
+                //   duration: AppDuration.snackBarAddToCart,
+                //   onTap: () async => await navigateHomeAsync(context,
+                //       navigateToNamed: Routes.cart),
+                // );
               });
             },
           ),

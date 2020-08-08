@@ -5,12 +5,16 @@ import '../integration/logging.dart';
 import '../integration/dependencyInjection.dart';
 
 class BaseApiRepository {
+  String _baseUrl;
+  BaseApiRepository({String baseUrl}) {
+    _baseUrl = baseUrl ?? getEnv().scrapAssistantApiUrl;
+  }
+
   Future<ResultWithValue<String>> apiPost(String url, dynamic body) async {
     try {
-      var baseApi = getEnv().baseApi;
-      logger.d('post request to: $baseApi/$url');
+      logger.d('post request to: $_baseUrl/$url');
       logger.d('post request body: $body');
-      final response = await http.post('$baseApi/$url',
+      final response = await http.post('$_baseUrl/$url',
           body: body, headers: {"Content-Type": "application/json"});
       if (response.statusCode != 200) {
         logger.e('Not a 200 OK response ${response.body}');
@@ -26,8 +30,7 @@ class BaseApiRepository {
 
   Future<ResultWithValue<String>> apiGet(String url,
       {Map<String, String> headers}) async {
-    var baseApi = getEnv().baseApi;
-    return await this.webGet('$baseApi/$url', headers: headers);
+    return await this.webGet('$_baseUrl/$url', headers: headers);
   }
 
   Future<ResultWithValue<String>> webGet(String url,

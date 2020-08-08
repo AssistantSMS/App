@@ -29,6 +29,7 @@ Future<bool> navigateHomeAsync(context,
       MaterialPageRoute(builder: navigateTo),
     );
   } else if (navigateToNamed != null) {
+    if (navigateToNamed == Routes.home) return Future.value(false);
     Navigator.pushNamed(
       context,
       navigateToNamed,

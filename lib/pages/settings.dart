@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
 import 'package:package_info/package_info.dart';
-import 'package:scrapmechanic_kurtlourens_com/constants/AppImage.dart';
-import 'package:scrapmechanic_kurtlourens_com/constants/SupportedLanguages.dart';
-import 'package:scrapmechanic_kurtlourens_com/localization/localizationMap.dart';
+import 'package:scrapmechanic_kurtlourens_com/components/bottomNavbar.dart';
 
 import '../components/adaptive/appBarForSubPage.dart';
 import '../components/adaptive/appScaffold.dart';
@@ -11,7 +9,9 @@ import '../components/adaptive/listWithScrollbar.dart';
 import '../components/dialogs/prettyDialog.dart';
 import '../components/tilePresenters/settingTilePresenter.dart';
 import '../constants/AnalyticsEvent.dart';
+import '../constants/AppImage.dart';
 import '../constants/ExternalUrls.dart';
+import '../constants/SupportedLanguages.dart';
 import '../contracts/results/resultWithValue.dart';
 import '../helpers/analytics.dart';
 import '../helpers/colourHelper.dart';
@@ -20,6 +20,7 @@ import '../helpers/futureHelper.dart';
 import '../helpers/genericHelper.dart';
 import '../helpers/snapshotHelper.dart';
 import '../localization/localeKey.dart';
+import '../localization/localizationMap.dart';
 import '../localization/translations.dart';
 import '../state/modules/base/appState.dart';
 import '../state/modules/setting/settingViewModel.dart';
@@ -44,6 +45,7 @@ class SettingsPage extends StatelessWidget {
         converter: (store) => SettingViewModel.fromStore(store),
         builder: (_, viewModel) => getBody(context, viewModel),
       ),
+      bottomNavigationBar: BottomNavbar(noRouteSelected: true),
     );
   }
 

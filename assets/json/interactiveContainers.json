@@ -2,8 +2,8 @@
   {
     "Id": "interc1",
     "Icon": "items/interc1.png",
-    "Color": "c52319",
-    "PhysicsMaterial": "Metal",
+    "Color": "008ae1",
+    "PhysicsMaterial": "Plastic",
     "Ratings": {
       "Density": 5,
       "Durability": 6,
@@ -22,7 +22,7 @@
   {
     "Id": "interc2",
     "Icon": "items/interc2.png",
-    "Color": "008ae1",
+    "Color": "357a1b",
     "PhysicsMaterial": "Plastic",
     "Ratings": {
       "Density": 5,
@@ -42,46 +42,6 @@
   {
     "Id": "interc3",
     "Icon": "items/interc3.png",
-    "Color": "357a1b",
-    "PhysicsMaterial": "Plastic",
-    "Ratings": {
-      "Density": 5,
-      "Durability": 6,
-      "Friction": 4,
-      "Buoyancy": 6
-    },
-    "Box": {
-      "X": 4,
-      "Y": 3,
-      "Z": 3
-    },
-    "Flammable": false,
-    "Density": 250.0,
-    "QualityLevel": 0
-  },
-  {
-    "Id": "interc4",
-    "Icon": "items/interc4.png",
-    "Color": "f1a400",
-    "PhysicsMaterial": "Metal",
-    "Ratings": {
-      "Density": 5,
-      "Durability": 6,
-      "Friction": 4,
-      "Buoyancy": 6
-    },
-    "Box": {
-      "X": 4,
-      "Y": 3,
-      "Z": 3
-    },
-    "Flammable": false,
-    "Density": 250.0,
-    "QualityLevel": 0
-  },
-  {
-    "Id": "interc5",
-    "Icon": "items/interc5.png",
     "Color": "505c30",
     "PhysicsMaterial": "Metal",
     "Ratings": {
@@ -100,8 +60,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "interc6",
-    "Icon": "items/interc6.png",
+    "Id": "interc4",
+    "Icon": "items/interc4.png",
     "Color": "4c9938",
     "PhysicsMaterial": "Wood",
     "Ratings": {
@@ -120,8 +80,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "interc7",
-    "Icon": "items/interc7.png",
+    "Id": "interc5",
+    "Icon": "items/interc5.png",
     "Color": "495975",
     "PhysicsMaterial": "Wood",
     "Ratings": {

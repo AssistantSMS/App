@@ -2,11 +2,11 @@
   {
     "Id": "consu1",
     "Icon": "items/consu1.png",
-    "Color": "981e11",
-    "PhysicsMaterial": "Plastic",
+    "Color": "3e9ffe",
+    "PhysicsMaterial": "Fruit",
     "Ratings": {
       "Density": 2,
-      "Durability": 1,
+      "Durability": 2,
       "Friction": 4,
       "Buoyancy": 7
     },
@@ -15,18 +15,18 @@
       "Y": 2,
       "Z": 2
     },
-    "Flammable": true,
+    "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "Id": "consu2",
     "Icon": "items/consu2.png",
-    "Color": "f1a400",
-    "PhysicsMaterial": "Plastic",
+    "Color": "a5ca11",
+    "PhysicsMaterial": "Fruit",
     "Ratings": {
       "Density": 2,
-      "Durability": 1,
+      "Durability": 2,
       "Friction": 4,
       "Buoyancy": 7
     },
@@ -42,11 +42,11 @@
   {
     "Id": "consu3",
     "Icon": "items/consu3.png",
-    "Color": "3e9ffe",
+    "Color": "495975",
     "PhysicsMaterial": "Fruit",
     "Ratings": {
       "Density": 2,
-      "Durability": 1,
+      "Durability": 2,
       "Friction": 4,
       "Buoyancy": 7
     },
@@ -55,53 +55,13 @@
       "Y": 2,
       "Z": 2
     },
-    "Flammable": false,
+    "Flammable": true,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "Id": "consu4",
     "Icon": "items/consu4.png",
-    "Color": "a5ca11",
-    "PhysicsMaterial": "Fruit",
-    "Ratings": {
-      "Density": 2,
-      "Durability": 1,
-      "Friction": 4,
-      "Buoyancy": 7
-    },
-    "Box": {
-      "X": 2,
-      "Y": 2,
-      "Z": 2
-    },
-    "Flammable": true,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
-    "Id": "consu5",
-    "Icon": "items/consu5.png",
-    "Color": "495975",
-    "PhysicsMaterial": "Fruit",
-    "Ratings": {
-      "Density": 2,
-      "Durability": 1,
-      "Friction": 4,
-      "Buoyancy": 7
-    },
-    "Box": {
-      "X": 2,
-      "Y": 2,
-      "Z": 2
-    },
-    "Flammable": true,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
-    "Id": "consu6",
-    "Icon": "items/consu6.png",
     "Color": "df7f01",
     "PhysicsMaterial": "Metal",
     "Ratings": {
@@ -120,13 +80,13 @@
     "QualityLevel": 0
   },
   {
-    "Id": "consu7",
-    "Icon": "items/consu7.png",
+    "Id": "consu5",
+    "Icon": "items/consu5.png",
     "Color": "1c8687",
     "PhysicsMaterial": "Plastic",
     "Ratings": {
       "Density": 2,
-      "Durability": 1,
+      "Durability": 2,
       "Friction": 4,
       "Buoyancy": 7
     },
@@ -139,13 +99,13 @@
     "QualityLevel": 0
   },
   {
-    "Id": "consu8",
-    "Icon": "items/consu8.png",
+    "Id": "consu6",
+    "Icon": "items/consu6.png",
     "Color": "ccffcc",
     "PhysicsMaterial": "Metal",
     "Ratings": {
       "Density": 2,
-      "Durability": 1,
+      "Durability": 2,
       "Friction": 4,
       "Buoyancy": 7
     },
@@ -158,8 +118,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "consu9",
-    "Icon": "items/consu9.png",
+    "Id": "consu7",
+    "Icon": "items/consu7.png",
     "Color": "fe878c",
     "PhysicsMaterial": "Fruit",
     "Ratings": {
@@ -177,8 +137,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "consu10",
-    "Icon": "items/consu10.png",
+    "Id": "consu8",
+    "Icon": "items/consu8.png",
     "Color": "3e9ffe",
     "PhysicsMaterial": "Fruit",
     "Ratings": {
@@ -197,8 +157,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "consu11",
-    "Icon": "items/consu11.png",
+    "Id": "consu9",
+    "Icon": "items/consu9.png",
     "Color": "ccffcc",
     "PhysicsMaterial": "Fruit",
     "Ratings": {
@@ -217,8 +177,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "consu12",
-    "Icon": "items/consu12.png",
+    "Id": "consu10",
+    "Icon": "items/consu10.png",
     "Color": "3e9ffe",
     "PhysicsMaterial": "Fruit",
     "Ratings": {
@@ -237,8 +197,8 @@
     "QualityLevel": 0
   },
   {
-    "Id": "consu13",
-    "Icon": "items/consu13.png",
+    "Id": "consu11",
+    "Icon": "items/consu11.png",
     "Color": "ffffff",
     "PhysicsMaterial": "Fruit",
     "Ratings": {
@@ -256,13 +216,13 @@
     "QualityLevel": 0
   },
   {
-    "Id": "consu14",
-    "Icon": "items/consu14.png",
+    "Id": "consu12",
+    "Icon": "items/consu12.png",
     "Color": "3a9c51",
     "PhysicsMaterial": "Sand",
     "Ratings": {
       "Density": 2,
-      "Durability": 1,
+      "Durability": 2,
       "Friction": 4,
       "Buoyancy": 7
     },

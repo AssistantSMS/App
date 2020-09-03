@@ -735,7 +735,7 @@
         "Quantity": 20
       },
       {
-        "Id": "other10",
+        "Id": "fuel2",
         "Quantity": 5
       },
       {
@@ -973,7 +973,7 @@
         "Quantity": 5
       },
       {
-        "Id": "other10",
+        "Id": "fuel2",
         "Quantity": 2
       },
       {
@@ -1440,7 +1440,7 @@
     "Icon": "items/recipeCraft69.png",
     "CraftingTime": 7,
     "Output": {
-      "Id": "other9",
+      "Id": "fuel1",
       "Quantity": 5
     },
     "Inputs": [
@@ -1455,7 +1455,7 @@
     "Icon": "items/recipeCraft70.png",
     "CraftingTime": 7,
     "Output": {
-      "Id": "other10",
+      "Id": "fuel2",
       "Quantity": 5
     },
     "Inputs": [
@@ -1562,7 +1562,7 @@
     },
     "Inputs": [
       {
-        "Id": "other9",
+        "Id": "fuel1",
         "Quantity": 10
       },
       {
@@ -1585,7 +1585,7 @@
     },
     "Inputs": [
       {
-        "Id": "other9",
+        "Id": "fuel1",
         "Quantity": 20
       },
       {
@@ -2075,7 +2075,7 @@
     "Icon": "items/recipeCraft106.png",
     "CraftingTime": 12,
     "Output": {
-      "Id": "other11",
+      "Id": "other9",
       "Quantity": 1
     },
     "Inputs": [
@@ -2094,7 +2094,7 @@
     "Icon": "items/recipeCraft107.png",
     "CraftingTime": 12,
     "Output": {
-      "Id": "other12",
+      "Id": "other10",
       "Quantity": 1
     },
     "Inputs": [
@@ -2113,7 +2113,7 @@
     "Icon": "items/recipeCraft108.png",
     "CraftingTime": 12,
     "Output": {
-      "Id": "other13",
+      "Id": "other11",
       "Quantity": 1
     },
     "Inputs": [
@@ -2136,7 +2136,7 @@
     "Icon": "items/recipeCraft109.png",
     "CraftingTime": 12,
     "Output": {
-      "Id": "other14",
+      "Id": "other12",
       "Quantity": 1
     },
     "Inputs": [
@@ -2155,7 +2155,7 @@
     "Icon": "items/recipeCraft110.png",
     "CraftingTime": 12,
     "Output": {
-      "Id": "other15",
+      "Id": "other13",
       "Quantity": 1
     },
     "Inputs": [
@@ -2174,7 +2174,7 @@
     "Icon": "items/recipeCraft111.png",
     "CraftingTime": 12,
     "Output": {
-      "Id": "other16",
+      "Id": "other14",
       "Quantity": 1
     },
     "Inputs": [
@@ -2193,7 +2193,7 @@
     "Icon": "items/recipeCraft112.png",
     "CraftingTime": 12,
     "Output": {
-      "Id": "other17",
+      "Id": "other15",
       "Quantity": 1
     },
     "Inputs": [
@@ -2212,7 +2212,7 @@
     "Icon": "items/recipeCraft113.png",
     "CraftingTime": 12,
     "Output": {
-      "Id": "other18",
+      "Id": "other16",
       "Quantity": 1
     },
     "Inputs": [

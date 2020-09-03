@@ -162,7 +162,7 @@
     "Icon": "items/recipeHideout11.png",
     "CraftingTime": 0,
     "Output": {
-      "Id": "other19",
+      "Id": "other17",
       "Quantity": 1
     },
     "Inputs": [
@@ -185,7 +185,7 @@
     "Icon": "items/recipeHideout12.png",
     "CraftingTime": 0,
     "Output": {
-      "Id": "other20",
+      "Id": "other18",
       "Quantity": 1
     },
     "Inputs": [
@@ -204,7 +204,7 @@
     "Icon": "items/recipeHideout13.png",
     "CraftingTime": 0,
     "Output": {
-      "Id": "other21",
+      "Id": "other19",
       "Quantity": 1
     },
     "Inputs": [

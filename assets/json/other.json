@@ -138,19 +138,5 @@
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0
-  },
-  {
-    "Id": "other21",
-    "Icon": "items/other21.png",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
-    "Id": "other22",
-    "Icon": "items/other22.png",
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
   }
 ]

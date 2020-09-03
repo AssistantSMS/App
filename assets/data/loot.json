@@ -51,7 +51,7 @@
     ]
   },
   {
-    "appId": "consu14",
+    "appId": "consu12",
     "chances": [
       {
         "min": 2,
@@ -80,7 +80,7 @@
     ]
   },
   {
-    "appId": "consu6",
+    "appId": "consu4",
     "chances": [
       {
         "min": 2,
@@ -500,7 +500,7 @@
     ]
   },
   {
-    "appId": "consu9",
+    "appId": "consu7",
     "chances": [
       {
         "min": 1,
@@ -517,7 +517,7 @@
     ]
   },
   {
-    "appId": "consu1",
+    "appId": "fuel1",
     "chances": [
       {
         "min": 2,
@@ -534,7 +534,7 @@
     ]
   },
   {
-    "appId": "consu2",
+    "appId": "fuel2",
     "chances": [
       {
         "min": 1,
@@ -551,7 +551,7 @@
     ]
   },
   {
-    "appId": "consu3",
+    "appId": "consu1",
     "chances": [
       {
         "min": 2,
@@ -568,7 +568,7 @@
     ]
   },
   {
-    "appId": "consu5",
+    "appId": "consu3",
     "chances": [
       {
         "min": 2,
@@ -585,7 +585,7 @@
     ]
   },
   {
-    "appId": "consu4",
+    "appId": "consu2",
     "chances": [
       {
         "min": 2,
@@ -602,7 +602,7 @@
     ]
   },
   {
-    "appId": "consu7",
+    "appId": "consu5",
     "chances": [
       {
         "min": 5,
@@ -619,7 +619,7 @@
     ]
   },
   {
-    "appId": "consu8",
+    "appId": "consu6",
     "chances": [
       {
         "min": 1,
@@ -755,7 +755,7 @@
     ]
   },
   {
-    "appId": "consu12",
+    "appId": "consu10",
     "chances": [
       {
         "min": 1,

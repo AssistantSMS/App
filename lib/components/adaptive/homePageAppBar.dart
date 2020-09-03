@@ -11,15 +11,12 @@ import 'appBar.dart';
 
 class HomePageAppBar extends StatelessWidget
     implements PreferredSizeWidget, ObstructingPreferredSizeWidget {
-  final changeBrightness;
-  final onLocaleChange;
   final preferredSize;
   final bottom;
   final backgroundColor;
   static final kMinInteractiveDimensionCupertino = 44.0;
 
-  HomePageAppBar(this.changeBrightness, this.onLocaleChange,
-      {this.bottom, this.backgroundColor})
+  HomePageAppBar({this.bottom, this.backgroundColor})
       : preferredSize = Size.fromHeight(
             kToolbarHeight + (bottom?.preferredSize?.height ?? 0.0)),
         super();
@@ -53,6 +50,3 @@ class HomePageAppBar extends StatelessWidget
   @override
   bool shouldFullyObstruct(BuildContext context) => true;
 }
-
-Widget homePageAppBar(changeBrightness, onLocaleChange) =>
-    HomePageAppBar(changeBrightness, onLocaleChange);

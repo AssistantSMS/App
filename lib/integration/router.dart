@@ -19,10 +19,7 @@ import '../pages/recipe/recipeDetailPage.dart';
 import '../pages/settings.dart';
 
 class FluroRouter {
-  static Router configureRoutes(
-    void Function(BuildContext context) changeBrightness,
-    void Function(Locale locale) onLocaleChange,
-  ) {
+  static Router configureRoutes() {
     final router = Router();
 
     router.notFoundHandler = Handler(
@@ -33,9 +30,7 @@ class FluroRouter {
     TransitionType transition = TransitionType.material;
     router.define(
       Routes.home,
-      handler: _basicHandlerFunc(
-        () => HomePage(changeBrightness, onLocaleChange),
-      ),
+      handler: _basicHandlerFunc(() => HomePage()),
       transitionType: transition,
     );
     router.define(
@@ -45,9 +40,7 @@ class FluroRouter {
     );
     router.define(
       Routes.settings,
-      handler: _basicHandlerFunc(
-        () => SettingsPage(changeBrightness, onLocaleChange),
-      ),
+      handler: _basicHandlerFunc(() => SettingsPage()),
       transitionType: transition,
     );
     router.define(

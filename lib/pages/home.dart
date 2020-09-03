@@ -19,9 +19,7 @@ import 'gameItem/gameItemListPage.dart';
 import 'recipe/recipeListPage.dart';
 
 class HomePage extends StatelessWidget {
-  final void Function(Locale locale) onLocaleChange;
-  final void Function(BuildContext context) changeBrightness;
-  HomePage(this.changeBrightness, this.onLocaleChange) {
+  HomePage() {
     trackEvent(AnalyticsEvent.homePage);
   }
 
@@ -29,7 +27,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return appScaffold(
       context,
-      appBar: homePageAppBar(context, onLocaleChange),
+      appBar: HomePageAppBar(),
       drawer: AppDrawer(),
       builder: (scaffoldContext) => getBody(scaffoldContext),
       bottomNavigationBar: BottomNavbar(currentRoute: Routes.home),

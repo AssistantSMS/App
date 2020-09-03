@@ -88,7 +88,7 @@ Future<List<Widget>> getDrawerItems(context,
       await currentAppVersionFuture;
 
   String appVersion = 'App Version ';
-  Widget gameVersion = Text('Game Version: 0.4.7');
+  Widget gameVersion = Text('Game Version: 0.4.8');
   widgets.add(customDivider());
   if (packageInfoResult.isSuccess) {
     var versionText = packageInfoResult.value != null

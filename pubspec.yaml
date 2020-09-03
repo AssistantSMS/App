@@ -14,12 +14,12 @@ dependencies:
   cupertino_icons: ^0.1.3
 
   # Firebase
-  firebase_core: 0.4.4+3
-  firebase_analytics: 5.0.16
+  firebase_core: 0.5.0
+  firebase_analytics: 6.0.0
   firebase_analytics_web: ^0.1.1
   # Redux
   flutter_redux: 0.6.0
-  redux: 4.0.0
+  redux: 4.0.0+3
   # UI
   badges: ^1.1.1
   theme_mode_handler: ^2.0.0
@@ -30,22 +30,22 @@ dependencies:
   flash: "^1.2.0" # Snackbar
   giffy_dialog: ^1.7.0
   dotted_border: ^1.0.5
-  grouped_checkbox: 1.0.0
+  grouped_checkbox: ^1.0.0
   ff_navigation_bar: ^0.1.5
   # Base
-  get_it: 4.0.2
+  get_it: ^4.0.4
   http: 0.12.0+2
-  uuid: 2.0.1
-  dartx: 0.5.0
-  fluro: "^1.6.3"
+  uuid: ^2.2.2
+  dartx: ^0.5.0
+  fluro: ^1.6.3
   logger: ^0.9.1
   shared_preferences: ^0.5.7+3
   shared_preferences_web: ^0.1.2+7
   # Misc
-  url_launcher: 5.4.11
-  url_launcher_web: 0.1.2
+  url_launcher: ^5.5.2
+  url_launcher_web: ^0.1.3+1
   package_info: 0.4.0+18
-  enum_to_string: 1.0.9
+  enum_to_string: ^1.0.9
   share: ^0.6.4+2
   universal_html: ^1.2.1
   universal_platform: ^0.1.3

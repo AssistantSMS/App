@@ -230,12 +230,12 @@
   {
     "Id": "recipeCraft52",
     "Title": "Respawn Bed",
-    "Description": "Take a lovely nap in this comfy bed to respawn in it after your mechanic has been knocked out"
+    "Description": "Take a lovely nap in this comfy bed to respawn in it after your mechanic has been knocked out."
   },
   {
     "Id": "recipeCraft53",
     "Title": "Fridge",
-    "Description": "Keeps your food fresh"
+    "Description": "Keeps your food fresh."
   },
   {
     "Id": "recipeCraft54",
@@ -245,7 +245,7 @@
   {
     "Id": "recipeCraft55",
     "Title": "Large Chest",
-    "Description": "Great for storing a lot of items. Can also be used with a Vacuum Pump"
+    "Description": "Great for storing a lot of items. Can also be used with a Vacuum Pump."
   },
   {
     "Id": "recipeCraft56",
@@ -255,27 +255,27 @@
   {
     "Id": "recipeCraft57",
     "Title": "Vacuum Pipe",
-    "Description": "Use it with the Vacuum Pump to make items travel through pipes"
+    "Description": "Use it with the Vacuum Pump to make items travel through pipes."
   },
   {
     "Id": "recipeCraft58",
     "Title": "Vacuum Pipe Corner",
-    "Description": "Use it with the Vacuum Pump to make items travel through pipes"
+    "Description": "Use it with the Vacuum Pump to make items travel through pipes."
   },
   {
     "Id": "recipeCraft59",
     "Title": "Gas Container",
-    "Description": "Can stores more gas and loads gas in to Gas Engines and other interactive parts that require Gas when connected"
+    "Description": "Can stores more gas and loads gas in to Gas Engines and other interactive parts that require Gas when connected."
   },
   {
     "Id": "recipeCraft60",
     "Title": "Battery Container",
-    "Description": "Can Store more batteries and loads batteries in to Electric Engines and other interactive parts that require batteries when connected"
+    "Description": "Can Store more batteries and loads batteries in to Electric Engines and other interactive parts that require batteries when connected."
   },
   {
     "Id": "recipeCraft61",
     "Title": "Water Container",
-    "Description": "Connect it to a Vacuum Pump that is under water to fil the Water Container with water"
+    "Description": "Connect it to a Vacuum Pump that is under water to fil the Water Container with water."
   },
   {
     "Id": "recipeCraft62",
@@ -284,7 +284,7 @@
   {
     "Id": "recipeCraft63",
     "Title": "Water Cannon",
-    "Description": "Connect it to a Water container with a trigger to water your plants more efficiently"
+    "Description": "Connect it to a Water container with a trigger to water your plants more efficiently."
   },
   {
     "Id": "recipeCraft64",
@@ -304,22 +304,22 @@
   {
     "Id": "recipeCraft67",
     "Title": "Soil Bag",
-    "Description": "Use them on the ground to place your seeds in"
+    "Description": "Use them on the ground to place your seeds in."
   },
   {
     "Id": "recipeCraft68",
     "Title": "Fertilizer",
-    "Description": "Makes plants grow faster"
+    "Description": "Makes plants grow faster."
   },
   {
     "Id": "recipeCraft69",
     "Title": "Gasoline",
-    "Description": "Used to power gas engines and thrusters"
+    "Description": "Used to power gas engines and thrusters."
   },
   {
     "Id": "recipeCraft70",
     "Title": "Battery",
-    "Description": "Used to power electric parts"
+    "Description": "Used to power electric parts."
   },
   {
     "Id": "recipeCraft71",
@@ -337,22 +337,22 @@
   {
     "Id": "recipeCraft74",
     "Title": "Paint Ammo",
-    "Description": "Load your Paint Tool and give your creations some color"
+    "Description": "Load your Paint Tool and give your creations some color."
   },
   {
     "Id": "recipeCraft75",
     "Title": "Glowstick",
-    "Description": "Throw them at night or other dark places to see things better"
+    "Description": "Throw them at night or other dark places to see things better."
   },
   {
     "Id": "recipeCraft76",
     "Title": "Small Explosive Canister",
-    "Description": "Highly explosive canister that can detonate by strong collisions or by Spud Guns\nThis canister has a small explosion radius."
+    "Description": "Highly explosive canister that can detonate by strong collisions or by Spud Guns. This canister has a small explosion radius."
   },
   {
     "Id": "recipeCraft77",
     "Title": "Large Explosive Canister",
-    "Description": "Highly explosive canister that can detonate by strong collisions or by Spud Guns\nThis canister has a large explosion radius."
+    "Description": "Highly explosive canister that can detonate by strong collisions or by Spud Guns. This canister has a large explosion radius."
   },
   {
     "Id": "recipeCraft78",

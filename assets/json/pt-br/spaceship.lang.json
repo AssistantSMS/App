@@ -84,6 +84,26 @@
     "Title": "Molde de Piso de Nave"
   },
   {
+    "Id": "spaceship37",
+    "Title": "Molde de Piso Grande de Nave"
+  },
+  {
+    "Id": "spaceship38",
+    "Title": "Molde de Rodapé de Nave"
+  },
+  {
+    "Id": "spaceship39",
+    "Title": "Molde de Piso Convergente Pequeno de Nave"
+  },
+  {
+    "Id": "spaceship40",
+    "Title": "Molde de Piso Convergente Grande de Nave"
+  },
+  {
+    "Id": "spaceship41",
+    "Title": "Molde de Piso Diagonal de Nave"
+  },
+  {
     "Id": "spaceship42",
     "Title": "Cortinas de Nave"
   },
@@ -94,6 +114,10 @@
   {
     "Id": "spaceship44",
     "Title": "Painel de Ventilação de Nave"
+  },
+  {
+    "Id": "spaceship46",
+    "Title": "Painel Informativo de Bateria Principal"
   },
   {
     "Id": "spaceship47",

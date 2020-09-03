@@ -4,11 +4,59 @@
     "Title": "Klucz do magazynu"
   },
   {
+    "Id": "surv2",
+    "Title": "Czytnik kart"
+  },
+  {
+    "Id": "surv10",
+    "Title": "Przycisk windy"
+  },
+  {
+    "Id": "surv11",
+    "Title": "Przycisk wzywający"
+  },
+  {
+    "Id": "surv13",
+    "Title": "Ratunkowy karton bananów"
+  },
+  {
+    "Id": "surv14",
+    "Title": "Lampa w windzie"
+  },
+  {
+    "Id": "surv19",
+    "Title": "Mini wyrobot"
+  },
+  {
+    "Id": "surv20",
+    "Title": "Drzwi kapsuły"
+  },
+  {
+    "Id": "surv21",
+    "Title": "Gniazdo na główny akumulator"
+  },
+  {
     "Id": "surv22",
     "Title": "Główny akumulator"
   },
   {
+    "Id": "surv25",
+    "Title": "Terminal statku"
+  },
+  {
     "Id": "surv26",
     "Title": "Farmer w klatce"
+  },
+  {
+    "Id": "surv28",
+    "Title": "Przycisk do kryjówki"
+  },
+  {
+    "Id": "surv30",
+    "Title": "Worek treningowy"
+  },
+  {
+    "Id": "surv31",
+    "Title": "Zniszczona skrzynia"
   }
 ]

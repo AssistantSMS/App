@@ -1,7 +1,7 @@
 [
   {
     "Id": "fuel1",
-    "Icon": "unknown.png",
+    "Icon": "items/fuel1.png",
     "Color": "981e11",
     "PhysicsMaterial": "Plastic",
     "Ratings": {
@@ -21,7 +21,7 @@
   },
   {
     "Id": "fuel2",
-    "Icon": "unknown.png",
+    "Icon": "items/fuel2.png",
     "Color": "f1a400",
     "PhysicsMaterial": "Plastic",
     "Ratings": {

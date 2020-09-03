@@ -4,11 +4,59 @@
     "Title": "Clé d'entrepôt"
   },
   {
+    "Id": "surv2",
+    "Title": "Lecteur de carte"
+  },
+  {
+    "Id": "surv10",
+    "Title": "Bouton d'ascenseur"
+  },
+  {
+    "Id": "surv11",
+    "Title": "Bouton d'appel"
+  },
+  {
+    "Id": "surv13",
+    "Title": "Carton de bananes d'urgence"
+  },
+  {
+    "Id": "surv14",
+    "Title": "Lampe d'ascenseur"
+  },
+  {
+    "Id": "surv19",
+    "Title": "Mini Fabribot"
+  },
+  {
+    "Id": "surv20",
+    "Title": "Porte de capsule"
+  },
+  {
+    "Id": "surv21",
+    "Title": "Prise de batterie principale"
+  },
+  {
     "Id": "surv22",
     "Title": "Batterie principale"
   },
   {
+    "Id": "surv25",
+    "Title": "Spacioport"
+  },
+  {
     "Id": "surv26",
     "Title": "Fermier en cage"
+  },
+  {
+    "Id": "surv28",
+    "Title": "Bouton de cachette"
+  },
+  {
+    "Id": "surv30",
+    "Title": "Sac K.-O."
+  },
+  {
+    "Id": "surv31",
+    "Title": "Coffre de ruines"
   }
 ]

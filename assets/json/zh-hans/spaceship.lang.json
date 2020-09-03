@@ -84,6 +84,26 @@
     "Title": "Ship Floor Mold"
   },
   {
+    "Id": "spaceship37",
+    "Title": "Large Ship Floor Mold"
+  },
+  {
+    "Id": "spaceship38",
+    "Title": "Ship Opening Floor Mold"
+  },
+  {
+    "Id": "spaceship39",
+    "Title": "Small Ship Corner Floor Mold"
+  },
+  {
+    "Id": "spaceship40",
+    "Title": "Large Ship Corner Floor Mold"
+  },
+  {
+    "Id": "spaceship41",
+    "Title": "Diagonal Ship Floor Mold"
+  },
+  {
     "Id": "spaceship42",
     "Title": "Ship Blinds"
   },
@@ -94,6 +114,10 @@
   {
     "Id": "spaceship44",
     "Title": "Ship Ventilation Panel"
+  },
+  {
+    "Id": "spaceship46",
+    "Title": "Master Battery Info Board"
   },
   {
     "Id": "spaceship47",

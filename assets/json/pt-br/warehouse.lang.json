@@ -64,6 +64,10 @@
     "Title": "Suporte de Metal de Depósito"
   },
   {
+    "Id": "ware17",
+    "Title": "Convergente A de Metal de Depósito"
+  },
+  {
     "Id": "ware18",
     "Title": "Rampa de Metal de Depósito"
   },
@@ -124,6 +128,10 @@
     "Title": "Estandarte"
   },
   {
+    "Id": "ware33",
+    "Title": "Suporte de Estandarte"
+  },
+  {
     "Id": "ware34",
     "Title": "Estrutura de Luz"
   },
@@ -158,6 +166,14 @@
   {
     "Id": "ware42",
     "Title": "Piso de Descarga de Guindaste"
+  },
+  {
+    "Id": "ware43",
+    "Title": "Placa de Protetor"
+  },
+  {
+    "Id": "ware44",
+    "Title": "Placa de Codificador"
   },
   {
     "Id": "ware45",

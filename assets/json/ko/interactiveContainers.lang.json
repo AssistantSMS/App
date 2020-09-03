@@ -1,30 +1,22 @@
 [
   {
     "Id": "interc1",
-    "Title": "가솔린 용기"
-  },
-  {
-    "Id": "interc2",
     "Title": "물통"
   },
   {
-    "Id": "interc3",
+    "Id": "interc2",
     "Title": "비료 용기"
   },
   {
-    "Id": "interc4",
-    "Title": "배터리 통"
-  },
-  {
-    "Id": "interc5",
+    "Id": "interc3",
     "Title": "감자총알통"
   },
   {
-    "Id": "interc6",
+    "Id": "interc4",
     "Title": "씨앗통"
   },
   {
-    "Id": "interc7",
+    "Id": "interc5",
     "Title": "화학물질 용기"
   }
 ]

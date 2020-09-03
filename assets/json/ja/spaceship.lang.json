@@ -84,6 +84,26 @@
     "Title": "船のフロアモールド"
   },
   {
+    "Id": "spaceship37",
+    "Title": "船のフロアモールド（大）"
+  },
+  {
+    "Id": "spaceship38",
+    "Title": "船のオープンフロアモールド"
+  },
+  {
+    "Id": "spaceship39",
+    "Title": "船のコーナーフロアモールド（小）"
+  },
+  {
+    "Id": "spaceship40",
+    "Title": "船のコーナーフロアモールド（大）"
+  },
+  {
+    "Id": "spaceship41",
+    "Title": "船のフロアモールド（斜め）"
+  },
+  {
     "Id": "spaceship42",
     "Title": "船のブラインド"
   },
@@ -94,6 +114,10 @@
   {
     "Id": "spaceship44",
     "Title": "船の換気装置パネル"
+  },
+  {
+    "Id": "spaceship46",
+    "Title": "マスターバッテリーの情報ボード"
   },
   {
     "Id": "spaceship47",

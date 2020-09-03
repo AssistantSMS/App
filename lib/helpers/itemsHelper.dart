@@ -49,7 +49,8 @@ ResultWithValue<IGameItemJsonService> getGameItemRepoFromId(
   if (id.contains(IdPrefix.craftbot)) key = LocaleKey.craftbotJson;
   if (id.contains(IdPrefix.customisation)) key = LocaleKey.customisationJson;
   if (id.contains(IdPrefix.decor)) key = LocaleKey.decorJson;
-  if (id.contains(IdPrefix.gitting)) key = LocaleKey.gittingJson;
+  if (id.contains(IdPrefix.fitting)) key = LocaleKey.fittingJson;
+  if (id.contains(IdPrefix.fuel)) key = LocaleKey.fuelJson;
   if (id.contains(IdPrefix.harvest)) key = LocaleKey.harvestJson;
   if (id.contains(IdPrefix.industrial)) key = LocaleKey.industrialJson;
   if (id.contains(IdPrefix.interactive)) key = LocaleKey.interactiveJson;

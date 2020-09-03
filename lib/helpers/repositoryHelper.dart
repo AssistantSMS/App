@@ -51,8 +51,10 @@ String getBaseFileName(LocaleKey detailsJson) {
       return BaseJson.customisation;
     case LocaleKey.decorJson:
       return BaseJson.decor;
-    case LocaleKey.gittingJson:
-      return BaseJson.gitting;
+    case LocaleKey.fittingJson:
+      return BaseJson.fitting;
+    case LocaleKey.fuelJson:
+      return BaseJson.fuel;
     case LocaleKey.harvestJson:
       return BaseJson.harvest;
     case LocaleKey.industrialJson:

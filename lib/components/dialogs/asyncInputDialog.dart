@@ -59,7 +59,7 @@ Future<String> asyncInputDialog(BuildContext context, String title,
     {String defaultText, List<Widget> actions, TextInputType inputType}) async {
   String output = '';
   List<TextInputFormatter> inputFormatters = inputType == TextInputType.number
-      ? <TextInputFormatter>[WhitelistingTextInputFormatter.digitsOnly]
+      ? <TextInputFormatter>[FilteringTextInputFormatter.digitsOnly]
       : null;
   var alertResult = await Alert(
     context: context,

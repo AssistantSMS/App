@@ -2,9 +2,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 import 'app.dart';
-import 'env/appRouter.dart';
 import 'env/environmentSettings.dart';
-import 'integration/router.dart';
 
 Future main() async {
   var env = EnvironmentSettings(

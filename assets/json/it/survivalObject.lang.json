@@ -4,11 +4,59 @@
     "Title": "Warehouse Key"
   },
   {
+    "Id": "surv2",
+    "Title": "Key Reader"
+  },
+  {
+    "Id": "surv10",
+    "Title": "Elevator Button"
+  },
+  {
+    "Id": "surv11",
+    "Title": "Call Button"
+  },
+  {
+    "Id": "surv13",
+    "Title": "Emergency Banana Box"
+  },
+  {
+    "Id": "surv14",
+    "Title": "Elevator Lamp"
+  },
+  {
+    "Id": "surv19",
+    "Title": "Mini Craftbot"
+  },
+  {
+    "Id": "surv20",
+    "Title": "Capsule Door"
+  },
+  {
+    "Id": "surv21",
+    "Title": "Master Battery Socket"
+  },
+  {
     "Id": "surv22",
     "Title": "Master Battery"
   },
   {
+    "Id": "surv25",
+    "Title": "Ship Terminal"
+  },
+  {
     "Id": "surv26",
     "Title": "Caged Farmer"
+  },
+  {
+    "Id": "surv28",
+    "Title": "Hideout Button"
+  },
+  {
+    "Id": "surv30",
+    "Title": "K.O. Bag"
+  },
+  {
+    "Id": "surv31",
+    "Title": "Ruin Chest"
   }
 ]

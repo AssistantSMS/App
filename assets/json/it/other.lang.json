@@ -25,50 +25,58 @@
   },
   {
     "Id": "other7",
-    "Title": "Pianta in Vaso"
+    "Title": "Gas Container"
   },
   {
     "Id": "other8",
-    "Title": "Pianta Piccola in Vaso"
+    "Title": "Battery Container"
   },
   {
     "Id": "other9",
-    "Title": "Pianta Rampicante in Vaso"
+    "Title": "Pianta in Vaso"
   },
   {
     "Id": "other10",
-    "Title": "Vaso Grande"
+    "Title": "Pianta Piccola in Vaso"
   },
   {
     "Id": "other11",
-    "Title": "Pianta Seminata in Vaso"
+    "Title": "Pianta Rampicante in Vaso"
   },
   {
     "Id": "other12",
-    "Title": "Cactus in Fiore in Vaso"
+    "Title": "Vaso Grande"
   },
   {
     "Id": "other13",
-    "Title": "Cactus in Vaso"
+    "Title": "Pianta Seminata in Vaso"
   },
   {
     "Id": "other14",
-    "Title": "Fiore Blu in Vaso"
+    "Title": "Cactus in Fiore in Vaso"
   },
   {
     "Id": "other15",
-    "Title": "Spud Gun"
+    "Title": "Cactus in Vaso"
   },
   {
     "Id": "other16",
-    "Title": "Spud Shotgun"
+    "Title": "Fiore Blu in Vaso"
   },
   {
     "Id": "other17",
-    "Title": "Spudling Gun"
+    "Title": "Spud Gun"
   },
   {
     "Id": "other18",
+    "Title": "Spud Shotgun"
+  },
+  {
+    "Id": "other19",
+    "Title": "Spudling Gun"
+  },
+  {
+    "Id": "other20",
     "Title": "Connettore"
   }
 ]

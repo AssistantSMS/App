@@ -64,6 +64,10 @@
     "Title": "Soporte metálico de depósito"
   },
   {
+    "Id": "ware17",
+    "Title": "Esquina metálica de depósito A"
+  },
+  {
     "Id": "ware18",
     "Title": "Rampa metálica de depósito"
   },
@@ -124,6 +128,10 @@
     "Title": "Pancarta"
   },
   {
+    "Id": "ware33",
+    "Title": "Soporte de pancarta"
+  },
+  {
     "Id": "ware34",
     "Title": "Luz de estructura de viga"
   },
@@ -158,6 +166,14 @@
   {
     "Id": "ware42",
     "Title": "Plataforma de carga de grúa"
+  },
+  {
+    "Id": "ware43",
+    "Title": "Señal de protector"
+  },
+  {
+    "Id": "ware44",
+    "Title": "Señal de codificador"
   },
   {
     "Id": "ware45",

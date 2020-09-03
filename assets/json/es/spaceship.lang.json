@@ -84,6 +84,26 @@
     "Title": "Molde de suelo de nave"
   },
   {
+    "Id": "spaceship37",
+    "Title": "Molde grande de suelo de nave"
+  },
+  {
+    "Id": "spaceship38",
+    "Title": "Molde de cornisa de suelo de nave"
+  },
+  {
+    "Id": "spaceship39",
+    "Title": "Molde pequeño de esquina de suelo de nave"
+  },
+  {
+    "Id": "spaceship40",
+    "Title": "Molde grande de esquina de suelo de nave"
+  },
+  {
+    "Id": "spaceship41",
+    "Title": "Molde de suelo diagonal de nave"
+  },
+  {
     "Id": "spaceship42",
     "Title": "Persianas de nave"
   },
@@ -94,6 +114,10 @@
   {
     "Id": "spaceship44",
     "Title": "Panel de ventilación de nave"
+  },
+  {
+    "Id": "spaceship46",
+    "Title": "Tablón de información de batería general"
   },
   {
     "Id": "spaceship47",

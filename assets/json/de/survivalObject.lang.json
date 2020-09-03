@@ -4,11 +4,59 @@
     "Title": "Lagerhaus-Schlüsselkarte"
   },
   {
+    "Id": "surv2",
+    "Title": "Kartenleser"
+  },
+  {
+    "Id": "surv10",
+    "Title": "Aufzugknopf"
+  },
+  {
+    "Id": "surv11",
+    "Title": "Rufknopf"
+  },
+  {
+    "Id": "surv13",
+    "Title": "Notfall-Bananenschachtel"
+  },
+  {
+    "Id": "surv14",
+    "Title": "Aufzuglampe"
+  },
+  {
+    "Id": "surv19",
+    "Title": "Mini-Handwerkerbot"
+  },
+  {
+    "Id": "surv20",
+    "Title": "Kapseltür"
+  },
+  {
+    "Id": "surv21",
+    "Title": "Anschluss für Master-Batterie"
+  },
+  {
     "Id": "surv22",
     "Title": "Master-Batterie"
   },
   {
+    "Id": "surv25",
+    "Title": "Schiffsterminal"
+  },
+  {
     "Id": "surv26",
     "Title": "Eingesperrter Bauer"
+  },
+  {
+    "Id": "surv28",
+    "Title": "Unterschlupfknopf"
+  },
+  {
+    "Id": "surv30",
+    "Title": "K.O.-Sack"
+  },
+  {
+    "Id": "surv31",
+    "Title": "Ruinentruhe"
   }
 ]

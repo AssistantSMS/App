@@ -84,6 +84,26 @@
     "Title": "Forma podłogi okrętowej"
   },
   {
+    "Id": "spaceship37",
+    "Title": "Duży szablon podłogi okrętowej"
+  },
+  {
+    "Id": "spaceship38",
+    "Title": "Szablon otworu w podłodze okrętowej"
+  },
+  {
+    "Id": "spaceship39",
+    "Title": "Mały szablon narożnika podłogi okrętowej"
+  },
+  {
+    "Id": "spaceship40",
+    "Title": "Duży szablon narożnika podłogi okrętowej"
+  },
+  {
+    "Id": "spaceship41",
+    "Title": "Skośny szablon podłogi okrętowej"
+  },
+  {
     "Id": "spaceship42",
     "Title": "Zasłony okrętowe"
   },
@@ -94,6 +114,10 @@
   {
     "Id": "spaceship44",
     "Title": "Panel wentylacyjny okrętu"
+  },
+  {
+    "Id": "spaceship46",
+    "Title": "Tablica informacyjna głównego akumulatora"
   },
   {
     "Id": "spaceship47",

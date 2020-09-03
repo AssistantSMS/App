@@ -84,6 +84,26 @@
     "Title": "Plinthe de vaisseau"
   },
   {
+    "Id": "spaceship37",
+    "Title": "Grande plinthe de vaisseau"
+  },
+  {
+    "Id": "spaceship38",
+    "Title": "Plinthe d'entrée de vaisseau"
+  },
+  {
+    "Id": "spaceship39",
+    "Title": "Petite plinthe de coin de vaisseau"
+  },
+  {
+    "Id": "spaceship40",
+    "Title": "Grande plinthe de coin de vaisseau"
+  },
+  {
+    "Id": "spaceship41",
+    "Title": "Plinthe diagonale de vaisseau"
+  },
+  {
     "Id": "spaceship42",
     "Title": "Stores de vaisseau"
   },
@@ -94,6 +114,10 @@
   {
     "Id": "spaceship44",
     "Title": "Panneau de ventilation de vaisseau"
+  },
+  {
+    "Id": "spaceship46",
+    "Title": "Panneau d'info de batterie principale"
   },
   {
     "Id": "spaceship47",

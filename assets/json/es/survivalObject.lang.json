@@ -4,11 +4,59 @@
     "Title": "Llave de almacén"
   },
   {
+    "Id": "surv2",
+    "Title": "Lector de llaves"
+  },
+  {
+    "Id": "surv10",
+    "Title": "Botón de elevador"
+  },
+  {
+    "Id": "surv11",
+    "Title": "Botón de llamada"
+  },
+  {
+    "Id": "surv13",
+    "Title": "Caja de plátanos de emergencia"
+  },
+  {
+    "Id": "surv14",
+    "Title": "Luz de elevador"
+  },
+  {
+    "Id": "surv19",
+    "Title": "Minirobot artesano"
+  },
+  {
+    "Id": "surv20",
+    "Title": "Puerta de cápsula"
+  },
+  {
+    "Id": "surv21",
+    "Title": "Enchufe de batería general"
+  },
+  {
     "Id": "surv22",
     "Title": "Batería general"
   },
   {
+    "Id": "surv25",
+    "Title": "Terminal de nave"
+  },
+  {
     "Id": "surv26",
     "Title": "Granjero enjaulado"
+  },
+  {
+    "Id": "surv28",
+    "Title": "Botón de escondrijo"
+  },
+  {
+    "Id": "surv30",
+    "Title": "Saco de K.O."
+  },
+  {
+    "Id": "surv31",
+    "Title": "Cofre de ruinas"
   }
 ]

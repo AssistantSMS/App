@@ -25,50 +25,58 @@
   },
   {
     "Id": "other7",
-    "Title": "Vaso de Planta"
+    "Title": "Contêiner de Gasolina"
   },
   {
     "Id": "other8",
-    "Title": "Vaso de Planta Pequeno"
+    "Title": "Caixa de Bateria"
   },
   {
     "Id": "other9",
-    "Title": "Vaso de Videira"
+    "Title": "Vaso de Planta"
   },
   {
     "Id": "other10",
-    "Title": "Vaso Grande"
+    "Title": "Vaso de Planta Pequeno"
   },
   {
     "Id": "other11",
-    "Title": "Vaso de Broto"
+    "Title": "Vaso de Videira"
   },
   {
     "Id": "other12",
-    "Title": "Vaso de Cacto Florido"
+    "Title": "Vaso Grande"
   },
   {
     "Id": "other13",
-    "Title": "Vaso de Cacto"
+    "Title": "Vaso de Broto"
   },
   {
     "Id": "other14",
-    "Title": "Vaso de Flor Azul"
+    "Title": "Vaso de Cacto Florido"
   },
   {
     "Id": "other15",
-    "Title": "Batatarma"
+    "Title": "Vaso de Cacto"
   },
   {
     "Id": "other16",
-    "Title": "Batatarma de Cano Duplo"
+    "Title": "Vaso de Flor Azul"
   },
   {
     "Id": "other17",
-    "Title": "Batatalhadora"
+    "Title": "Batatarma"
   },
   {
     "Id": "other18",
+    "Title": "Batatarma de Cano Duplo"
+  },
+  {
+    "Id": "other19",
+    "Title": "Batatalhadora"
+  },
+  {
+    "Id": "other20",
     "Title": "Ferramenta de Conexão"
   }
 ]

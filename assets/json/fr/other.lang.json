@@ -25,50 +25,58 @@
   },
   {
     "Id": "other7",
-    "Title": "Plante en pot"
+    "Title": "Conteneur à essence"
   },
   {
     "Id": "other8",
-    "Title": "Petite plante en pot"
+    "Title": "Conteneur à batteries"
   },
   {
     "Id": "other9",
-    "Title": "Pied de vigne en pot"
+    "Title": "Plante en pot"
   },
   {
     "Id": "other10",
-    "Title": "Grand pot"
+    "Title": "Petite plante en pot"
   },
   {
     "Id": "other11",
-    "Title": "Graine en pot"
+    "Title": "Pied de vigne en pot"
   },
   {
     "Id": "other12",
-    "Title": "Cactus fleuri en pot"
+    "Title": "Grand pot"
   },
   {
     "Id": "other13",
-    "Title": "Cactus en pot"
+    "Title": "Graine en pot"
   },
   {
     "Id": "other14",
-    "Title": "Fleur bleue en pot"
+    "Title": "Cactus fleuri en pot"
   },
   {
     "Id": "other15",
-    "Title": "Lance-patates"
+    "Title": "Cactus en pot"
   },
   {
     "Id": "other16",
-    "Title": "Fusil à pompe lance-patates"
+    "Title": "Fleur bleue en pot"
   },
   {
     "Id": "other17",
-    "Title": "Fusil lance-patates"
+    "Title": "Lance-patates"
   },
   {
     "Id": "other18",
+    "Title": "Fusil à pompe lance-patates"
+  },
+  {
+    "Id": "other19",
+    "Title": "Fusil lance-patates"
+  },
+  {
+    "Id": "other20",
     "Title": "Outil de connexion"
   }
 ]

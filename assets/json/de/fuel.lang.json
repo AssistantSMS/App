@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "fuel1",
+    "Title": "Benzin"
+  },
+  {
+    "Id": "fuel2",
+    "Title": "Batterie"
+  }
+]

@@ -84,6 +84,26 @@
     "Title": "선박 바닥 몰드"
   },
   {
+    "Id": "spaceship37",
+    "Title": "선박 대형 바닥 몰드"
+  },
+  {
+    "Id": "spaceship38",
+    "Title": "선박 입구 바닥 몰드"
+  },
+  {
+    "Id": "spaceship39",
+    "Title": "선박 소형 코너 바닥 몰드"
+  },
+  {
+    "Id": "spaceship40",
+    "Title": "선박 대형 코너 바닥 몰드"
+  },
+  {
+    "Id": "spaceship41",
+    "Title": "선박 사선 바닥 몰드"
+  },
+  {
     "Id": "spaceship42",
     "Title": "선박 블라인드"
   },
@@ -94,6 +114,10 @@
   {
     "Id": "spaceship44",
     "Title": "선박 환기 패널"
+  },
+  {
+    "Id": "spaceship46",
+    "Title": "마스터 배터리 정보판"
   },
   {
     "Id": "spaceship47",

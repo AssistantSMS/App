@@ -1,58 +1,50 @@
 [
   {
     "Id": "consu1",
-    "Title": "Бензин"
-  },
-  {
-    "Id": "consu2",
-    "Title": "Батарея"
-  },
-  {
-    "Id": "consu3",
     "Title": "Вода"
   },
   {
-    "Id": "consu4",
+    "Id": "consu2",
     "Title": "Удобрение"
   },
   {
-    "Id": "consu5",
+    "Id": "consu3",
     "Title": "Химикалии"
   },
   {
-    "Id": "consu6",
+    "Id": "consu4",
     "Title": "Набор компонентов"
   },
   {
-    "Id": "consu7",
+    "Id": "consu5",
     "Title": "Краскозаряд"
   },
   {
-    "Id": "consu8",
+    "Id": "consu6",
     "Title": "Химический фонарь"
   },
   {
-    "Id": "consu9",
+    "Id": "consu7",
     "Title": "Саншейк"
   },
   {
-    "Id": "consu10",
+    "Id": "consu8",
     "Title": "Пиццебургер"
   },
   {
-    "Id": "consu11",
+    "Id": "consu9",
     "Title": "Веганский бургер"
   },
   {
-    "Id": "consu12",
+    "Id": "consu10",
     "Title": "Батон-реаниматор"
   },
   {
-    "Id": "consu13",
+    "Id": "consu11",
     "Title": "Молоко воков"
   },
   {
-    "Id": "consu14",
+    "Id": "consu12",
     "Title": "Мешок с землей"
   }
 ]

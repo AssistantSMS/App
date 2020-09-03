@@ -64,6 +64,10 @@
     "Title": "Metalllagerstütze"
   },
   {
+    "Id": "ware17",
+    "Title": "Metalllagereckteil A"
+  },
+  {
     "Id": "ware18",
     "Title": "Metalllagerrampe"
   },
@@ -124,6 +128,10 @@
     "Title": "Banner"
   },
   {
+    "Id": "ware33",
+    "Title": "Bannerhalterung"
+  },
+  {
     "Id": "ware34",
     "Title": "Rahmenbalken-Licht"
   },
@@ -158,6 +166,14 @@
   {
     "Id": "ware42",
     "Title": "Kranladefläche"
+  },
+  {
+    "Id": "ware43",
+    "Title": "Schützer-Schild"
+  },
+  {
+    "Id": "ware44",
+    "Title": "Kodiergerät-Schild"
   },
   {
     "Id": "ware45",

@@ -25,50 +25,58 @@
   },
   {
     "Id": "other7",
-    "Title": "Maceta"
+    "Title": "Contenedor de gasolina"
   },
   {
     "Id": "other8",
-    "Title": "Maceta pequeña"
+    "Title": "Contenedor de batería"
   },
   {
     "Id": "other9",
-    "Title": "Maceta de vid"
+    "Title": "Maceta"
   },
   {
     "Id": "other10",
-    "Title": "Maceta grande"
+    "Title": "Maceta pequeña"
   },
   {
     "Id": "other11",
-    "Title": "Semilla en maceta"
+    "Title": "Maceta de vid"
   },
   {
     "Id": "other12",
-    "Title": "Maceta de cactus floreciente"
+    "Title": "Maceta grande"
   },
   {
     "Id": "other13",
-    "Title": "Maceta de cactus"
+    "Title": "Semilla en maceta"
   },
   {
     "Id": "other14",
-    "Title": "Maceta de flor azul"
+    "Title": "Maceta de cactus floreciente"
   },
   {
     "Id": "other15",
-    "Title": "Lanzapapas"
+    "Title": "Maceta de cactus"
   },
   {
     "Id": "other16",
-    "Title": "Escopeta lanzapapas"
+    "Title": "Maceta de flor azul"
   },
   {
     "Id": "other17",
-    "Title": "Papatralleta"
+    "Title": "Lanzapapas"
   },
   {
     "Id": "other18",
+    "Title": "Escopeta lanzapapas"
+  },
+  {
+    "Id": "other19",
+    "Title": "Papatralleta"
+  },
+  {
+    "Id": "other20",
     "Title": "Herramienta de Conexión"
   }
 ]

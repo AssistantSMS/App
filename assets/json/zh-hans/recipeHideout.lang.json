@@ -2,12 +2,12 @@
   {
     "Id": "recipeHideout1",
     "Title": "Soil Bag",
-    "Description": "Use them on the ground to place your seeds in"
+    "Description": "Use them on the ground to place your seeds in."
   },
   {
     "Id": "recipeHideout2",
     "Title": "Fertilizer",
-    "Description": "Makes plants grow faster"
+    "Description": "Makes plants grow faster."
   },
   {
     "Id": "recipeHideout3",
@@ -38,12 +38,12 @@
   {
     "Id": "recipeHideout9",
     "Title": "Mountable Spud Gun",
-    "Description": "Connect it to a Ammo container with a trigger to shoot"
+    "Description": "Connect it to a Ammo container with a trigger to shoot."
   },
   {
     "Id": "recipeHideout10",
     "Title": "Potato Ammo Container",
-    "Description": "Connect it to a Moutable Spud Gun with a trigger to shoot potato ammo"
+    "Description": "Connect it to a Mountable Spud Gun with a trigger to shoot potato ammo."
   },
   {
     "Id": "recipeHideout11",
@@ -58,16 +58,16 @@
   {
     "Id": "recipeHideout13",
     "Title": "Spudling Gun",
-    "Description": "Shoots potatoes in a rapid fire. Uses a lot of potato ammo"
+    "Description": "Shoots potatoes in a rapid fire. Uses a lot of potato ammo."
   },
   {
     "Id": "recipeHideout14",
     "Title": "Garment Box (Common)",
-    "Description": "Use it in a Dressbot to make new clothes"
+    "Description": "Use it in a Dressbot to make new clothes."
   },
   {
     "Id": "recipeHideout15",
     "Title": "Garment Box (Rare)",
-    "Description": "Use it in a Dressbot to make new clothes"
+    "Description": "Use it in a Dressbot to make new clothes."
   }
 ]

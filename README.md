@@ -11,7 +11,7 @@ The goal is to have a responsive Flutter app that will look good on mobile devic
 ## Builds and Releases
 
 ### Android & iOS
-I am using [CodeMagic](codemagic.io) to build the android and iOS apps
+I am using [CodeMagic](https://codemagic.io) to build the android and iOS apps
 
 Android & iOS combined Build: [![Codemagic build status](https://api.codemagic.io/apps/5ee912bbed34a921a214116d/5ee912bbed34a921a214116c/status_badge.svg)](https://codemagic.io/apps/5ee912bbed34a921a214116d/5ee912bbed34a921a214116c/latest_build)
 

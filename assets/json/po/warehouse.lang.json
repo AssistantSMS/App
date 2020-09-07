@@ -64,6 +64,10 @@
     "Title": "Metalowy wspornik powierzchni magazynowej"
   },
   {
+    "Id": "ware17",
+    "Title": "Metalowy narożnik powierzchni magazynowej A"
+  },
+  {
     "Id": "ware18",
     "Title": "Metalowa rampa powierzchni magazynowej"
   },
@@ -124,6 +128,10 @@
     "Title": "Baner"
   },
   {
+    "Id": "ware33",
+    "Title": "Wspornik baneru"
+  },
+  {
     "Id": "ware34",
     "Title": "Światło belki ramy"
   },
@@ -158,6 +166,14 @@
   {
     "Id": "ware42",
     "Title": "Obszar załadunku żurawia"
+  },
+  {
+    "Id": "ware43",
+    "Title": "Symbol protektora"
+  },
+  {
+    "Id": "ware44",
+    "Title": "Symbol szyfratora"
   },
   {
     "Id": "ware45",

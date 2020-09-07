@@ -4,11 +4,59 @@
     "Title": "Cartão de Acesso de Armazém"
   },
   {
+    "Id": "surv2",
+    "Title": "Leitor de Cartão"
+  },
+  {
+    "Id": "surv10",
+    "Title": "Botão de Elevador"
+  },
+  {
+    "Id": "surv11",
+    "Title": "Botão de Chamada"
+  },
+  {
+    "Id": "surv13",
+    "Title": "Caixa de Bananas de Emergência"
+  },
+  {
+    "Id": "surv14",
+    "Title": "Lâmpada de Elevador"
+  },
+  {
+    "Id": "surv19",
+    "Title": "Minirrobô Artesão"
+  },
+  {
+    "Id": "surv20",
+    "Title": "Porta de Cápsula"
+  },
+  {
+    "Id": "surv21",
+    "Title": "Soquete de Bateria Principal"
+  },
+  {
     "Id": "surv22",
     "Title": "Bateria Principal"
   },
   {
+    "Id": "surv25",
+    "Title": "Terminal de Nave"
+  },
+  {
     "Id": "surv26",
     "Title": "Fazendeiro Enjaulado"
+  },
+  {
+    "Id": "surv28",
+    "Title": "Botão do Recanto"
+  },
+  {
+    "Id": "surv30",
+    "Title": "Saco de Abate"
+  },
+  {
+    "Id": "surv31",
+    "Title": "Baú Ruinoso"
   }
 ]

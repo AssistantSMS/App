@@ -7,7 +7,8 @@ class BaseJson {
   static const String craftbot = 'craftbot';
   static const String customisation = 'customisation';
   static const String decor = 'decor';
-  static const String gitting = 'fittings';
+  static const String fitting = 'fittings';
+  static const String fuel = 'fuel';
   static const String harvest = 'harvests';
   static const String industrial = 'industrial';
   static const String interactive = 'interactive';

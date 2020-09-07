@@ -6,12 +6,14 @@ import 'package:redux/redux.dart';
 import 'components/adaptive/appShell.dart';
 import 'components/loading.dart';
 import 'constants/AnalyticsEvent.dart';
+import 'env/appRouter.dart';
 import 'env/environmentSettings.dart';
 import 'helpers/analytics.dart';
 import 'helpers/colourHelper.dart';
 import 'integration/dependencyInjection.dart';
 import 'integration/firebaseAnalytics.dart';
 import 'integration/logging.dart';
+import 'integration/router.dart';
 import 'integration/themeManager.dart';
 import 'localization/localization.dart';
 import 'localization/translationDelegate.dart';
@@ -32,7 +34,9 @@ class _MyAppState extends State<MyApp> {
   Store<AppState> store;
   TranslationsDelegate _newLocaleDelegate;
 
-  _MyAppState(this._env);
+  _MyAppState(this._env) {
+    AppRouter.router = FluroRouter.configureRoutes();
+  }
 
   @override
   initState() {

@@ -66,7 +66,7 @@ void showQuantityDialog(context, TextEditingController controller,
           cursorColor: getSecondaryColour(context),
           keyboardType: TextInputType.number,
           inputFormatters: <TextInputFormatter>[
-            WhitelistingTextInputFormatter.digitsOnly
+            FilteringTextInputFormatter.digitsOnly
           ],
         ),
         Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly, children: inputs)

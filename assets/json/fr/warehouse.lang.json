@@ -64,6 +64,10 @@
     "Title": "Support de rangement en métal"
   },
   {
+    "Id": "ware17",
+    "Title": "Coin A de rangement en métal"
+  },
+  {
     "Id": "ware18",
     "Title": "Rampe de rangement en métal"
   },
@@ -124,6 +128,10 @@
     "Title": "Bannière"
   },
   {
+    "Id": "ware33",
+    "Title": "Support de bannière"
+  },
+  {
     "Id": "ware34",
     "Title": "Lampe de poutre porteuse"
   },
@@ -158,6 +166,14 @@
   {
     "Id": "ware42",
     "Title": "Plateforme de chargement de grue"
+  },
+  {
+    "Id": "ware43",
+    "Title": "Panneau protecteur"
+  },
+  {
+    "Id": "ware44",
+    "Title": "Panneau codeur"
   },
   {
     "Id": "ware45",

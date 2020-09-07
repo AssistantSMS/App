@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
 import 'package:package_info/package_info.dart';
 import 'package:scrapmechanic_kurtlourens_com/components/bottomNavbar.dart';
+import 'package:scrapmechanic_kurtlourens_com/integration/themeManager.dart';
 
 import '../components/adaptive/appBarForSubPage.dart';
 import '../components/adaptive/appScaffold.dart';
@@ -26,10 +27,14 @@ import '../state/modules/base/appState.dart';
 import '../state/modules/setting/settingViewModel.dart';
 
 class SettingsPage extends StatelessWidget {
-  final void Function(Locale locale) onLocaleChange;
-  final void Function(BuildContext context) changeBrightness;
-  SettingsPage(this.changeBrightness, this.onLocaleChange) {
+  SettingsPage() {
     trackEvent(AnalyticsEvent.settingsPage);
+  }
+
+  void _changeBrightness(BuildContext context) {
+    bool isDark = getIsDark(context);
+    setBrightness(context, isDark);
+    trackEvent(isDark ? AnalyticsEvent.lightMode : AnalyticsEvent.darkMode);
   }
 
   @override
@@ -60,7 +65,7 @@ class SettingsPage extends StatelessWidget {
       Translations.get(context, LocaleKey.appLanguage),
       viewModel.selectedLanguage,
       onChange: (Locale locale) {
-        this.onLocaleChange(locale);
+        viewModel.changeLanguage(locale);
         LocalizationMap newLocal = supportedLanguageMaps.firstWhere(
           (LocalizationMap localizationMap) =>
               localizationMap.code == locale.languageCode,
@@ -83,7 +88,7 @@ class SettingsPage extends StatelessWidget {
       context,
       Translations.get(context, LocaleKey.darkModeEnabled),
       getIsDark(context),
-      onChange: () => changeBrightness(context),
+      onChange: () => _changeBrightness(context),
     ));
 
     widgets.add(

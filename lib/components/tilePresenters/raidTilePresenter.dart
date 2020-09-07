@@ -208,7 +208,7 @@ Widget raidDetailGridTilePresenter(
               ),
               keyboardType: TextInputType.number,
               inputFormatters: <TextInputFormatter>[
-                WhitelistingTextInputFormatter.digitsOnly
+                FilteringTextInputFormatter.digitsOnly
               ],
               onChanged: (String text) {
                 int intQuantity = int.tryParse(text);

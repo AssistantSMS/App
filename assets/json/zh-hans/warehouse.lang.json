@@ -45,23 +45,27 @@
   },
   {
     "Id": "ware12",
-    "Title": "Warehouse Ramp Big"
+    "Title": "Large Warehouse Ramp"
   },
   {
     "Id": "ware13",
-    "Title": "Warehouse Ramp Small"
+    "Title": "Small Warehouse Ramp"
   },
   {
     "Id": "ware14",
-    "Title": "Warehouse Ramp Narrow"
+    "Title": "Large Narrow Warehouse Ramp"
   },
   {
     "Id": "ware15",
-    "Title": "Warehouse Ramp Narrow Small"
+    "Title": "Small Narrow Warehouse Ramp"
   },
   {
     "Id": "ware16",
     "Title": "Metal Storage Support"
+  },
+  {
+    "Id": "ware17",
+    "Title": "Metal Storage Corner A"
   },
   {
     "Id": "ware18",
@@ -81,7 +85,7 @@
   },
   {
     "Id": "ware22",
-    "Title": "Metal Storage Corner A"
+    "Title": "Metal Storage Corner C"
   },
   {
     "Id": "ware23",
@@ -124,6 +128,10 @@
     "Title": "Banner"
   },
   {
+    "Id": "ware33",
+    "Title": "Banner Holder"
+  },
+  {
     "Id": "ware34",
     "Title": "Frame Beam Light"
   },
@@ -158,6 +166,14 @@
   {
     "Id": "ware42",
     "Title": "Crane Loading Floor"
+  },
+  {
+    "Id": "ware43",
+    "Title": "Protector Sign"
+  },
+  {
+    "Id": "ware44",
+    "Title": "Encryptor Sign"
   },
   {
     "Id": "ware45",

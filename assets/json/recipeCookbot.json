@@ -4,7 +4,7 @@
     "Icon": "items/recipeCook1.png",
     "CraftingTime": 10,
     "Output": {
-      "Id": "consu10",
+      "Id": "consu8",
       "Quantity": 1
     },
     "Inputs": [
@@ -13,7 +13,7 @@
         "Quantity": 1
       },
       {
-        "Id": "consu13",
+        "Id": "consu11",
         "Quantity": 2
       },
       {
@@ -31,7 +31,7 @@
     "Icon": "items/recipeCook2.png",
     "CraftingTime": 10,
     "Output": {
-      "Id": "consu11",
+      "Id": "consu9",
       "Quantity": 1
     },
     "Inputs": [
@@ -58,7 +58,7 @@
     "Icon": "items/recipeCook3.png",
     "CraftingTime": 24,
     "Output": {
-      "Id": "consu12",
+      "Id": "consu10",
       "Quantity": 1
     },
     "Inputs": [
@@ -67,7 +67,7 @@
         "Quantity": 1
       },
       {
-        "Id": "consu13",
+        "Id": "consu11",
         "Quantity": 2
       },
       {

@@ -4,9 +4,9 @@ import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:theme_mode_handler/theme_mode_handler.dart';
 import 'package:universal_html/html.dart' as html;
 
+import '../../env/appRouter.dart';
 import '../../helpers/deviceHelper.dart';
 import '../../integration/logging.dart';
-import '../../integration/router.dart';
 import '../../integration/themeManager.dart';
 import '../../localization/localization.dart';
 import '../../theme/themes.dart';
@@ -38,10 +38,6 @@ class _AppShellWidget extends State<AppShell> with AfterLayoutMixin<AppShell> {
   @override
   Widget build(BuildContext context) {
     logger.i("main rebuild");
-    var router = FluroRouter.configureRoutes(
-      widget.changeBrightness,
-      widget.onLocaleChange,
-    );
 
     List<LocalizationsDelegate<dynamic>> localizationsDelegates = [
       widget.newLocaleDelegate,
@@ -57,7 +53,7 @@ class _AppShellWidget extends State<AppShell> with AfterLayoutMixin<AppShell> {
         themeMode: themeMode,
         darkTheme: getDynamicTheme(Brightness.dark),
         theme: getDynamicTheme(Brightness.light),
-        onGenerateRoute: router.generator,
+        onGenerateRoute: AppRouter.router.generator,
         localizationsDelegates: localizationsDelegates,
         supportedLocales: supportedLocales,
       ),

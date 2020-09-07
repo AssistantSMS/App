@@ -4,11 +4,59 @@
     "Title": "창고 열쇠"
   },
   {
+    "Id": "surv2",
+    "Title": "열쇠 리더기"
+  },
+  {
+    "Id": "surv10",
+    "Title": "엘리베이터 버튼"
+  },
+  {
+    "Id": "surv11",
+    "Title": "호출 버튼"
+  },
+  {
+    "Id": "surv13",
+    "Title": "긴급 바나나 박스"
+  },
+  {
+    "Id": "surv14",
+    "Title": "엘리베이터 램프"
+  },
+  {
+    "Id": "surv19",
+    "Title": "미니 크래프트봇"
+  },
+  {
+    "Id": "surv20",
+    "Title": "캡슐 문"
+  },
+  {
+    "Id": "surv21",
+    "Title": "마스터 배터리 소켓"
+  },
+  {
     "Id": "surv22",
     "Title": "마스터 배터리"
   },
   {
+    "Id": "surv25",
+    "Title": "선박 터미널"
+  },
+  {
     "Id": "surv26",
     "Title": "갇힌 농부"
+  },
+  {
+    "Id": "surv28",
+    "Title": "은신처 버튼"
+  },
+  {
+    "Id": "surv30",
+    "Title": "K.O. 백"
+  },
+  {
+    "Id": "surv31",
+    "Title": "망가진 상자"
   }
 ]

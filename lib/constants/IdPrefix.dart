@@ -7,7 +7,8 @@ class IdPrefix {
   static const String craftbot = "craftb";
   static const String customisation = "cust";
   static const String decor = "deco";
-  static const String gitting = "fitt";
+  static const String fitting = "fitt";
+  static const String fuel = "fuel";
   static const String harvest = "harv";
   static const String industrial = "indus";
   static const String interactive = "intera";

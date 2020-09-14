@@ -12,7 +12,7 @@ pool:
 steps:
 - task: FlutterInstall@0
   inputs:
-    channel: 'dev'
+    channel: 'beta'
     version: 'latest'
 
 - task: CmdLine@2
@@ -21,7 +21,7 @@ steps:
 
 - task: CmdLine@2
   inputs:
-    script: '$(FlutterToolPath)/flutter build web --release'
+    script: '$(FlutterToolPath)/flutter build web -t lib/prod.dart --release'
 
 - task: PublishBuildArtifacts@1
   inputs:

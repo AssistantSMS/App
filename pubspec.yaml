@@ -1,7 +1,7 @@
 name: scrapmechanic_kurtlourens_com
 description: A companion app for Scrap Mechanic.
 publish_to: 'none'
-version: 1.1.8+30
+version: 1.1.9+30
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
@@ -52,11 +52,11 @@ dependencies:
   breakpoint: ^1.0.1+2
   after_layout: ^1.0.7+2
 
-# dependency_overrides:
-#   path: ^1.6.4
-#   dartx: 0.3.0
-#   characters: 1.0.0
-#   collection: 1.15.0-nullsafety
+dependency_overrides:
+  path: ^1.6.4
+  dartx: 0.3.0
+  characters: 1.0.0
+  collection: 1.15.0-nullsafety
 
 dev_dependencies:
   flutter_launcher_icons: "^0.8.0"

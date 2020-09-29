@@ -12,7 +12,7 @@ pool:
 steps:
 - task: FlutterInstall@0
   inputs:
-    channel: 'beta'
+    channel: 'dev'
     version: 'latest'
 
 - task: CmdLine@2

@@ -1,7 +1,7 @@
 name: scrapmechanic_kurtlourens_com
 description: A companion app for Scrap Mechanic.
 publish_to: 'none'
-version: 1.1.8+29
+version: 1.1.8+30
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
@@ -21,33 +21,33 @@ dependencies:
   flutter_redux: 0.6.0
   redux: 4.0.0+3
   # UI
-  badges: ^1.1.1
+  badges: ^1.1.3
   theme_mode_handler: ^2.0.0
-  rflutter_alert: ^1.0.3
-  flutter_staggered_grid_view: ^0.3.0
+  rflutter_alert: ^1.1.0
+  flutter_staggered_grid_view: ^0.3.2
   country_icons: ^1.1.1
-  step_progress_indicator: ^0.2.3+6
-  flash: "^1.2.0" # Snackbar
-  giffy_dialog: ^1.7.0
-  dotted_border: ^1.0.5
+  step_progress_indicator: ^0.2.4+7
+  flash: "^1.3.1" # Snackbar
+  giffy_dialog: ^1.8.0
+  dotted_border: ^1.0.6
   grouped_checkbox: ^1.0.0
   ff_navigation_bar: ^0.1.5
   # Base
-  get_it: ^4.0.4
-  http: 0.12.0+2
+  get_it: ^5.0.1
+  http: ^0.12.2
   uuid: ^2.2.2
   dartx: ^0.5.0
   fluro: ^1.6.3
-  logger: ^0.9.1
-  shared_preferences: ^0.5.7+3
+  logger: ^0.9.4
+  shared_preferences: ^0.5.12
   shared_preferences_web: ^0.1.2+7
   # Misc
-  url_launcher: ^5.5.2
-  url_launcher_web: ^0.1.3+1
-  package_info: 0.4.0+18
-  enum_to_string: ^1.0.9
-  share: ^0.6.4+2
-  universal_html: ^1.2.1
+  url_launcher: ^5.7.2
+  url_launcher_web: ^0.1.4+1
+  package_info: ^0.4.3
+  enum_to_string: ^1.0.13
+  share: ^0.6.5+2
+  universal_html: ^1.2.3
   universal_platform: ^0.1.3
   breakpoint: ^1.0.1+2
   after_layout: ^1.0.7+2
@@ -59,7 +59,7 @@ dependencies:
 #   collection: 1.15.0-nullsafety
 
 dev_dependencies:
-  flutter_launcher_icons: "^0.7.5"
+  flutter_launcher_icons: "^0.8.0"
   # flutter_test:
   #   sdk: flutter
 

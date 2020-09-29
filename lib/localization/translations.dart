@@ -35,7 +35,7 @@ class Translations {
   get currentLanguage => locale.languageCode;
 
   String getLocale(LocaleKey key) {
-    String keyString = EnumToString.parse(key);
+    String keyString = EnumToString.convertToString(key);
     return _localisedValues[keyString] ?? "$keyString not found";
   }
 }

@@ -1,8 +1,9 @@
-import 'package:flutter/material.dart';
 import 'package:ff_navigation_bar/ff_navigation_bar.dart';
-import 'package:scrapmechanic_kurtlourens_com/constants/Routes.dart';
-import 'package:scrapmechanic_kurtlourens_com/helpers/colourHelper.dart';
-import 'package:scrapmechanic_kurtlourens_com/helpers/navigationHelper.dart';
+import 'package:flutter/material.dart';
+
+import '../constants/Routes.dart';
+import '../helpers/colourHelper.dart';
+import '../helpers/navigationHelper.dart';
 
 class NavBarItem {
   String route;

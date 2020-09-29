@@ -25,7 +25,7 @@ ListTile genericListTileWithSubtitleAndImageCount(context,
       ? Badge(
           badgeContent: Text(leadingImageCount.toString()),
           badgeColor: getSecondaryColour(context),
-          position: BadgePosition.bottomRight(),
+          position: BadgePosition.bottomEnd(),
           child: leadingImage,
           padding: EdgeInsets.all(8),
         )

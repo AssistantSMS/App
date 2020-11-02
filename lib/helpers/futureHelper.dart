@@ -1,12 +1,11 @@
 import 'package:dartx/dartx.dart';
 import 'package:flutter/material.dart';
 import 'package:package_info/package_info.dart';
-import 'package:scrapmechanic_kurtlourens_com/contracts/generated/LootChance.dart';
-import 'package:scrapmechanic_kurtlourens_com/services/json/lootItemJsonService.dart';
 
 import '../contracts/craftingIngredient/craftedUsing.dart';
 import '../contracts/gameItem/gameItem.dart';
 import '../contracts/gameItem/gameItemPageItem.dart';
+import '../contracts/generated/LootChance.dart';
 import '../contracts/recipe/recipe.dart';
 import '../contracts/recipe/recipePageItem.dart';
 import '../contracts/recipeIngredient/recipeIngredient.dart';
@@ -18,6 +17,7 @@ import '../integration/logging.dart';
 import '../localization/localeKey.dart';
 import '../services/interface/IGameItemJsonService.dart';
 import '../services/interface/IRecipeJsonService.dart';
+import '../services/json/lootItemJsonService.dart';
 import 'deviceHelper.dart';
 import 'itemsHelper.dart';
 import 'repositoryHelper.dart';

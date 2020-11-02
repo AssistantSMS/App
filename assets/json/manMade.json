@@ -15,9 +15,7 @@
       "Y": 8,
       "Z": 1
     },
-    "Flammable": true,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": true
   },
   {
     "Id": "man2",
@@ -35,9 +33,7 @@
       "Y": 4,
       "Z": 1
     },
-    "Flammable": true,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": true
   },
   {
     "Id": "man3",
@@ -55,9 +51,7 @@
       "Y": 1,
       "Z": 8
     },
-    "Flammable": true,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": true
   },
   {
     "Id": "man4",
@@ -75,9 +69,7 @@
       "Y": 2,
       "Z": 8
     },
-    "Flammable": true,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": true
   },
   {
     "Id": "man5",
@@ -95,9 +87,7 @@
       "Y": 1,
       "Z": 8
     },
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "man6",
@@ -115,9 +105,7 @@
       "Y": 2,
       "Z": 2
     },
-    "Flammable": true,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": true
   },
   {
     "Id": "man7",
@@ -135,9 +123,7 @@
       "Y": 8,
       "Z": 1
     },
-    "Flammable": true,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": true
   },
   {
     "Id": "man8",
@@ -155,9 +141,7 @@
       "Y": 5,
       "Z": 1
     },
-    "Flammable": true,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": true
   },
   {
     "Id": "man9",
@@ -175,8 +159,6 @@
       "Y": 2,
       "Z": 1
     },
-    "Flammable": true,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": true
   }
 ]

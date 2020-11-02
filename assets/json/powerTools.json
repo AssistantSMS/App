@@ -14,9 +14,7 @@
       "Diameter": 5,
       "Depth": 1
     },
-    "Flammable": false,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "powertool2",
@@ -34,8 +32,6 @@
       "Y": 3,
       "Z": 3
     },
-    "Flammable": false,
-    "Density": 1250.0,
-    "QualityLevel": 0
+    "Flammable": false
   }
 ]

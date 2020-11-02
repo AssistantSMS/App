@@ -14,9 +14,7 @@
       "Diameter": 2,
       "Depth": 4
     },
-    "Flammable": true,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": true
   },
   {
     "Id": "reso2",
@@ -34,9 +32,7 @@
       "Y": 1,
       "Z": 2
     },
-    "Flammable": true,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": true
   },
   {
     "Id": "reso3",
@@ -54,9 +50,7 @@
       "Y": 2,
       "Z": 2
     },
-    "Flammable": false,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "reso4",
@@ -74,9 +68,7 @@
       "Y": 1,
       "Z": 1
     },
-    "Flammable": true,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": true
   },
   {
     "Id": "reso5",
@@ -94,9 +86,7 @@
       "Y": 2,
       "Z": 1
     },
-    "Flammable": true,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": true
   },
   {
     "Id": "reso6",
@@ -114,9 +104,7 @@
       "Y": 1,
       "Z": 2
     },
-    "Flammable": false,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "reso7",
@@ -134,9 +122,7 @@
       "Y": 3,
       "Z": 4
     },
-    "Flammable": true,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": true
   },
   {
     "Id": "reso8",
@@ -154,9 +140,7 @@
       "Y": 1,
       "Z": 1
     },
-    "Flammable": true,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": true
   },
   {
     "Id": "reso9",
@@ -173,9 +157,7 @@
       "Diameter": 1,
       "Depth": 2
     },
-    "Flammable": true,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": true
   },
   {
     "Id": "reso10",
@@ -193,9 +175,7 @@
       "Y": 2,
       "Z": 1
     },
-    "Flammable": true,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": true
   },
   {
     "Id": "reso11",
@@ -213,8 +193,6 @@
       "Y": 2,
       "Z": 2
     },
-    "Flammable": true,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": true
   }
 ]

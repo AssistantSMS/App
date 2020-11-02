@@ -15,9 +15,7 @@
       "Y": 8,
       "Z": 1
     },
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "harv2",
@@ -35,9 +33,7 @@
       "Y": 8,
       "Z": 1
     },
-    "Flammable": true,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": true
   },
   {
     "Id": "harv3",
@@ -55,9 +51,7 @@
       "Y": 8,
       "Z": 1
     },
-    "Flammable": true,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": true
   },
   {
     "Id": "harv4",
@@ -75,9 +69,7 @@
       "Y": 8,
       "Z": 1
     },
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "harv5",
@@ -95,8 +87,6 @@
       "Y": 8,
       "Z": 1
     },
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": false
   }
 ]

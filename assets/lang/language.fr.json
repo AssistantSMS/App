@@ -2,6 +2,7 @@
   "title": "Assistant for Scrap Mechanic",
   "blocksJson": "fr/blocks.lang",
   "buildingJson": "fr/building.lang",
+  "componentsJson": "fr/component.lang",
   "constructionJson": "fr/construction.lang",
   "consumableJson": "fr/consumable.lang",
   "containersJson": "fr/containers.lang",

@@ -47,6 +47,7 @@ class _AppShellWidget extends State<AppShell> with AfterLayoutMixin<AppShell> {
     List<Locale> supportedLocales = localization.supportedLocales().toList();
 
     return ThemeModeHandler(
+      key: Key('ThemeModeHandler'),
       manager: ThemeManager(),
       builder: (ThemeMode themeMode) => MaterialApp(
         title: 'Assistant for Scrap Mechanic',

@@ -37,8 +37,12 @@ import '../tilePresenters/recipeTilePresenter.dart';
 ResultWithValue<Widget> getRatingTableRows(
     BuildContext context, GameItem gameItem) {
   List<TableRow> rows = List<TableRow>();
-  if (gameItem.rating == null)
+  if (gameItem.rating == null) {
     return ResultWithValue<Table>(false, null, 'rating is null');
+  }
+  if (gameItem.rating.durability == null) {
+    return ResultWithValue<Table>(false, null, 'rating is null');
+  }
 
   var isDark = getIsDark(context);
   if (gameItem.rating.density != null) {

@@ -4,7 +4,7 @@
     "Icon": "items/recipeHideout1.png",
     "CraftingTime": 0,
     "Output": {
-      "Id": "consu12",
+      "Id": "consu11",
       "Quantity": 5
     },
     "Inputs": [
@@ -79,7 +79,7 @@
     "Icon": "items/recipeHideout6.png",
     "CraftingTime": 0,
     "Output": {
-      "Id": "plant19",
+      "Id": "plant10",
       "Quantity": 5
     },
     "Inputs": [

@@ -141,7 +141,7 @@
   },
   {
     "Id": "custTorM8",
-    "Title": "Lumberjack_ Jacket",
+    "Title": "Lumberjack Jacket",
     "Description": "Torso"
   },
   {
@@ -176,92 +176,92 @@
   },
   {
     "Id": "custTorM15",
-    "Title": "Torso",
+    "Title": "T-shirt 1",
     "Description": "Torso"
   },
   {
     "Id": "custTorM16",
-    "Title": "Torso",
+    "Title": "T-shirt 2",
     "Description": "Torso"
   },
   {
     "Id": "custTorM17",
-    "Title": "Torso",
+    "Title": "T-shirt 3",
     "Description": "Torso"
   },
   {
     "Id": "custTorM18",
-    "Title": "Torso",
+    "Title": "T-shirt 4",
     "Description": "Torso"
   },
   {
     "Id": "custTorM19",
-    "Title": "Torso",
+    "Title": "T-shirt 5",
     "Description": "Torso"
   },
   {
     "Id": "custTorM20",
-    "Title": "Torso",
+    "Title": "T-shirt 6",
     "Description": "Torso"
   },
   {
     "Id": "custTorM21",
-    "Title": "Torso",
+    "Title": "T-shirt 7",
     "Description": "Torso"
   },
   {
     "Id": "custTorM22",
-    "Title": "Torso",
+    "Title": "T-shirt 8",
     "Description": "Torso"
   },
   {
     "Id": "custTorM23",
-    "Title": "Torso",
+    "Title": "T-shirt 9",
     "Description": "Torso"
   },
   {
     "Id": "custTorM24",
-    "Title": "Torso",
+    "Title": "T-shirt 10",
     "Description": "Torso"
   },
   {
     "Id": "custTorM25",
-    "Title": "Torso",
+    "Title": "T-shirt 11",
     "Description": "Torso"
   },
   {
     "Id": "custTorM26",
-    "Title": "Torso",
+    "Title": "T-shirt 12",
     "Description": "Torso"
   },
   {
     "Id": "custTorM27",
-    "Title": "Torso",
+    "Title": "T-shirt 13",
     "Description": "Torso"
   },
   {
     "Id": "custTorM28",
-    "Title": "Torso",
+    "Title": "T-shirt 14",
     "Description": "Torso"
   },
   {
     "Id": "custTorM29",
-    "Title": "Torso",
+    "Title": "T-shirt 15",
     "Description": "Torso"
   },
   {
     "Id": "custTorM30",
-    "Title": "Torso",
+    "Title": "T-shirt 16",
     "Description": "Torso"
   },
   {
     "Id": "custTorM31",
-    "Title": "Torso",
+    "Title": "T-shirt 17",
     "Description": "Torso"
   },
   {
     "Id": "custTorM32",
-    "Title": "Torso",
+    "Title": "T-shirt 18",
     "Description": "Torso"
   },
   {
@@ -286,7 +286,7 @@
   },
   {
     "Id": "custGloM6",
-    "Title": "Delivery Shoes",
+    "Title": "Delivery Gloves",
     "Description": "Gloves"
   },
   {
@@ -296,7 +296,7 @@
   },
   {
     "Id": "custGloM8",
-    "Title": "Lumberjack_ Gloves",
+    "Title": "Lumberjack Gloves",
     "Description": "Gloves"
   },
   {
@@ -326,7 +326,7 @@
   },
   {
     "Id": "custGloM14",
-    "Title": "Gloves",
+    "Title": "Technician Gloves",
     "Description": "Gloves"
   },
   {
@@ -351,7 +351,7 @@
   },
   {
     "Id": "custShoM6",
-    "Title": "Shoes",
+    "Title": "Delivery Shoes",
     "Description": "Shoes"
   },
   {
@@ -381,7 +381,7 @@
   },
   {
     "Id": "custShoM12",
-    "Title": "Golf Pants",
+    "Title": "Golf Shoes",
     "Description": "Shoes"
   },
   {
@@ -391,7 +391,7 @@
   },
   {
     "Id": "custShoM14",
-    "Title": "Shoes",
+    "Title": "Technician Shoes",
     "Description": "Shoes"
   },
   {
@@ -446,7 +446,7 @@
   },
   {
     "Id": "custLegM12",
-    "Title": "Duck Pants",
+    "Title": "Golf Pants",
     "Description": "Legs"
   },
   {

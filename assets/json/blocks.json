@@ -10,9 +10,7 @@
       "Friction": 4,
       "Buoyancy": 4
     },
-    "Flammable": true,
-    "Density": 250.0,
-    "QualityLevel": 2
+    "Flammable": true
   },
   {
     "Id": "blk2",
@@ -25,9 +23,7 @@
       "Friction": 5,
       "Buoyancy": 8
     },
-    "Flammable": true,
-    "Density": 250.0,
-    "QualityLevel": 3
+    "Flammable": true
   },
   {
     "Id": "blk3",
@@ -40,9 +36,7 @@
       "Friction": 5,
       "Buoyancy": 9
     },
-    "Flammable": true,
-    "Density": 250.0,
-    "QualityLevel": 3
+    "Flammable": true
   },
   {
     "Id": "blk4",
@@ -55,9 +49,7 @@
       "Friction": 4,
       "Buoyancy": 2
     },
-    "Flammable": true,
-    "Density": 1250.0,
-    "QualityLevel": 2
+    "Flammable": true
   },
   {
     "Id": "blk5",
@@ -70,9 +62,7 @@
       "Friction": 4,
       "Buoyancy": 5
     },
-    "Flammable": false,
-    "Density": 1250.0,
-    "QualityLevel": 5
+    "Flammable": false
   },
   {
     "Id": "blk6",
@@ -85,9 +75,7 @@
       "Friction": 4,
       "Buoyancy": 6
     },
-    "Flammable": false,
-    "Density": 1250.0,
-    "QualityLevel": 5
+    "Flammable": false
   },
   {
     "Id": "blk7",
@@ -100,9 +88,7 @@
       "Friction": 6,
       "Buoyancy": 5
     },
-    "Flammable": false,
-    "Density": 500.0,
-    "QualityLevel": 2
+    "Flammable": false
   },
   {
     "Id": "blk8",
@@ -115,9 +101,7 @@
       "Friction": 6,
       "Buoyancy": 5
     },
-    "Flammable": false,
-    "Density": 500.0,
-    "QualityLevel": 4
+    "Flammable": false
   },
   {
     "Id": "blk9",
@@ -130,9 +114,7 @@
       "Friction": 6,
       "Buoyancy": 5
     },
-    "Flammable": false,
-    "Density": 500.0,
-    "QualityLevel": 4
+    "Flammable": false
   },
   {
     "Id": "blk10",
@@ -145,9 +127,7 @@
       "Friction": 6,
       "Buoyancy": 4
     },
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "blk11",
@@ -160,9 +140,7 @@
       "Friction": 7,
       "Buoyancy": 1
     },
-    "Flammable": false,
-    "Density": 1250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "blk12",
@@ -175,9 +153,7 @@
       "Friction": 5,
       "Buoyancy": 1
     },
-    "Flammable": false,
-    "Density": 1250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "blk13",
@@ -190,9 +166,7 @@
       "Friction": 4,
       "Buoyancy": 1
     },
-    "Flammable": false,
-    "Density": 1250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "blk14",
@@ -205,9 +179,7 @@
       "Friction": 4,
       "Buoyancy": 8
     },
-    "Flammable": true,
-    "Density": 1250.0,
-    "QualityLevel": 0
+    "Flammable": true
   },
   {
     "Id": "blk15",
@@ -220,9 +192,7 @@
       "Friction": 4,
       "Buoyancy": 7
     },
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "blk16",
@@ -235,9 +205,7 @@
       "Friction": 5,
       "Buoyancy": 6
     },
-    "Flammable": true,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": true
   },
   {
     "Id": "blk17",
@@ -250,9 +218,7 @@
       "Friction": 5,
       "Buoyancy": 3
     },
-    "Flammable": false,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "blk18",
@@ -265,9 +231,7 @@
       "Friction": 4,
       "Buoyancy": 4
     },
-    "Flammable": true,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": true
   },
   {
     "Id": "blk19",
@@ -280,9 +244,7 @@
       "Friction": 6,
       "Buoyancy": 1
     },
-    "Flammable": false,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "blk20",
@@ -295,9 +257,7 @@
       "Friction": 3,
       "Buoyancy": 1
     },
-    "Flammable": false,
-    "Density": 1250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "blk21",
@@ -310,9 +270,7 @@
       "Friction": 4,
       "Buoyancy": 1
     },
-    "Flammable": false,
-    "Density": 1250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "blk22",
@@ -325,9 +283,7 @@
       "Friction": 4,
       "Buoyancy": 1
     },
-    "Flammable": false,
-    "Density": 1250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "blk23",
@@ -340,9 +296,7 @@
       "Friction": 4,
       "Buoyancy": 1
     },
-    "Flammable": false,
-    "Density": 1250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "blk24",
@@ -355,9 +309,7 @@
       "Friction": 2,
       "Buoyancy": 2
     },
-    "Flammable": false,
-    "Density": 1250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "blk25",
@@ -370,9 +322,7 @@
       "Friction": 4,
       "Buoyancy": 3
     },
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "blk26",
@@ -385,9 +335,7 @@
       "Friction": 6,
       "Buoyancy": 2
     },
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "blk27",
@@ -400,9 +348,7 @@
       "Friction": 4,
       "Buoyancy": 1
     },
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "blk28",
@@ -415,9 +361,7 @@
       "Friction": 5,
       "Buoyancy": 1
     },
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "blk29",
@@ -430,9 +374,7 @@
       "Friction": 5,
       "Buoyancy": 1
     },
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "blk30",
@@ -445,9 +387,7 @@
       "Friction": 4,
       "Buoyancy": 1
     },
-    "Flammable": false,
-    "Density": 250.0,
-    "QualityLevel": 1
+    "Flammable": false
   },
   {
     "Id": "blk31",
@@ -460,9 +400,7 @@
       "Friction": 3,
       "Buoyancy": 5
     },
-    "Flammable": false,
-    "Density": 250.0,
-    "QualityLevel": 1
+    "Flammable": false
   },
   {
     "Id": "blk32",
@@ -475,9 +413,7 @@
       "Friction": 6,
       "Buoyancy": 5
     },
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 4
+    "Flammable": false
   },
   {
     "Id": "blk33",
@@ -490,9 +426,7 @@
       "Friction": 5,
       "Buoyancy": 6
     },
-    "Flammable": true,
-    "Density": 250.0,
-    "QualityLevel": 3
+    "Flammable": true
   },
   {
     "Id": "blk34",
@@ -505,9 +439,7 @@
       "Friction": 4,
       "Buoyancy": 4
     },
-    "Flammable": false,
-    "Density": 1250.0,
-    "QualityLevel": 5
+    "Flammable": false
   },
   {
     "Id": "blk35",
@@ -520,9 +452,7 @@
       "Friction": 4,
       "Buoyancy": 7
     },
-    "Flammable": true,
-    "Density": 250.0,
-    "QualityLevel": 2
+    "Flammable": true
   },
   {
     "Id": "blk36",
@@ -535,9 +465,7 @@
       "Friction": 4,
       "Buoyancy": 5
     },
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 4
+    "Flammable": false
   },
   {
     "Id": "blk37",
@@ -550,9 +478,7 @@
       "Friction": 6,
       "Buoyancy": 5
     },
-    "Flammable": false,
-    "Density": 1250.0,
-    "QualityLevel": 4
+    "Flammable": false
   },
   {
     "Id": "blk38",
@@ -565,9 +491,7 @@
       "Friction": 3,
       "Buoyancy": 5
     },
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 1
+    "Flammable": false
   },
   {
     "Id": "blk39",
@@ -580,9 +504,7 @@
       "Friction": 3,
       "Buoyancy": 5
     },
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 1
+    "Flammable": false
   },
   {
     "Id": "blk40",
@@ -595,9 +517,7 @@
       "Friction": 4,
       "Buoyancy": 2
     },
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 5
+    "Flammable": false
   },
   {
     "Id": "blk41",
@@ -610,9 +530,7 @@
       "Friction": 4,
       "Buoyancy": 5
     },
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 5
+    "Flammable": false
   },
   {
     "Id": "blk42",
@@ -625,8 +543,6 @@
       "Friction": 4,
       "Buoyancy": 2
     },
-    "Flammable": true,
-    "Density": 250.0,
-    "QualityLevel": 1
+    "Flammable": true
   }
 ]

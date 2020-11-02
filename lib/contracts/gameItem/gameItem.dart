@@ -22,8 +22,6 @@ class GameItem {
     this.box,
     this.cylinder,
     this.flammable,
-    this.density,
-    this.qualityLevel,
     this.features,
     this.upgrade,
     this.customisationSource,
@@ -38,8 +36,6 @@ class GameItem {
   Box box;
   Cylinder cylinder;
   bool flammable;
-  double density;
-  int qualityLevel;
   Upgrade upgrade;
   List<Feature> features;
   CustomisationSourceType customisationSource;
@@ -55,8 +51,6 @@ class GameItem {
         box: baseItem.box,
         cylinder: baseItem.cylinder,
         flammable: baseItem.flammable,
-        density: baseItem.density,
-        qualityLevel: baseItem.qualityLevel,
         features: baseItem.features,
         upgrade: baseItem.upgrade,
         customisationSource: baseItem.customisationSource,

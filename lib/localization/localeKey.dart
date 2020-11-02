@@ -1,6 +1,7 @@
 enum LocaleKey {
   blocksJson,
   buildingJson,
+  componentsJson,
   constructionJson,
   consumableJson,
   containersJson,

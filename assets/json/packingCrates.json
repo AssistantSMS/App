@@ -15,9 +15,7 @@
       "Y": 6,
       "Z": 7
     },
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "pack2",
@@ -35,9 +33,7 @@
       "Y": 6,
       "Z": 7
     },
-    "Flammable": false,
-    "Density": 1250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "pack3",
@@ -55,9 +51,7 @@
       "Y": 6,
       "Z": 7
     },
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "pack4",
@@ -75,9 +69,7 @@
       "Y": 6,
       "Z": 7
     },
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "pack5",
@@ -95,9 +87,7 @@
       "Y": 6,
       "Z": 7
     },
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "pack6",
@@ -115,9 +105,7 @@
       "Y": 6,
       "Z": 7
     },
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "pack7",
@@ -135,9 +123,7 @@
       "Y": 6,
       "Z": 7
     },
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "pack8",
@@ -155,9 +141,7 @@
       "Y": 6,
       "Z": 7
     },
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "pack9",
@@ -175,8 +159,6 @@
       "Y": 6,
       "Z": 7
     },
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": false
   }
 ]

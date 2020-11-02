@@ -15,9 +15,7 @@
       "Y": 6,
       "Z": 7
     },
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "cont2",
@@ -35,9 +33,7 @@
       "Y": 6,
       "Z": 7
     },
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "cont3",
@@ -55,9 +51,7 @@
       "Y": 6,
       "Z": 7
     },
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "cont4",
@@ -75,9 +69,7 @@
       "Y": 1,
       "Z": 4
     },
-    "Flammable": false,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "cont5",
@@ -95,9 +87,7 @@
       "Y": 2,
       "Z": 4
     },
-    "Flammable": true,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": true
   },
   {
     "Id": "cont6",
@@ -115,9 +105,7 @@
       "Y": 2,
       "Z": 6
     },
-    "Flammable": true,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": true
   },
   {
     "Id": "cont7",
@@ -135,9 +123,7 @@
       "Y": 5,
       "Z": 8
     },
-    "Flammable": false,
-    "Density": 500.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "cont8",
@@ -155,9 +141,7 @@
       "Y": 8,
       "Z": 5
     },
-    "Flammable": true,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": true
   },
   {
     "Id": "cont9",
@@ -174,9 +158,7 @@
       "Diameter": 3,
       "Depth": 4
     },
-    "Flammable": false,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "cont10",
@@ -194,9 +176,7 @@
       "Y": 4,
       "Z": 3
     },
-    "Flammable": false,
-    "Density": 1300.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "cont11",
@@ -214,9 +194,7 @@
       "Y": 2,
       "Z": 2
     },
-    "Flammable": true,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": true
   },
   {
     "Id": "cont12",
@@ -234,9 +212,7 @@
       "Y": 2,
       "Z": 3
     },
-    "Flammable": true,
-    "Density": 1250.0,
-    "QualityLevel": 0
+    "Flammable": true
   },
   {
     "Id": "cont13",
@@ -254,9 +230,7 @@
       "Y": 2,
       "Z": 3
     },
-    "Flammable": true,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": true
   },
   {
     "Id": "cont14",
@@ -274,9 +248,7 @@
       "Y": 3,
       "Z": 3
     },
-    "Flammable": true,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": true
   },
   {
     "Id": "cont15",
@@ -294,9 +266,7 @@
       "Y": 3,
       "Z": 3
     },
-    "Flammable": true,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": true
   },
   {
     "Id": "cont16",
@@ -314,9 +284,7 @@
       "Y": 4,
       "Z": 4
     },
-    "Flammable": true,
-    "Density": 1250.0,
-    "QualityLevel": 0
+    "Flammable": true
   },
   {
     "Id": "cont17",
@@ -334,9 +302,7 @@
       "Y": 4,
       "Z": 4
     },
-    "Flammable": true,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": true
   },
   {
     "Id": "cont18",
@@ -354,9 +320,7 @@
       "Y": 4,
       "Z": 4
     },
-    "Flammable": true,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": true
   },
   {
     "Id": "cont19",
@@ -374,9 +338,7 @@
       "Y": 6,
       "Z": 6
     },
-    "Flammable": true,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": true
   },
   {
     "Id": "cont20",
@@ -394,9 +356,7 @@
       "Y": 2,
       "Z": 2
     },
-    "Flammable": true,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": true
   },
   {
     "Id": "cont21",
@@ -414,8 +374,6 @@
       "Y": 2,
       "Z": 2
     },
-    "Flammable": true,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": true
   }
 ]

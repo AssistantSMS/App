@@ -1,6 +1,7 @@
 class IdPrefix {
   static const String blocks = "blk";
   static const String building = "build";
+  static const String components = "comp";
   static const String construction = "constr";
   static const String consumable = "consu";
   static const String containers = "cont";

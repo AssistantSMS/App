@@ -15,9 +15,7 @@
       "Y": 2,
       "Z": 2
     },
-    "Flammable": true,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": true
   },
   {
     "Id": "plant2",
@@ -35,9 +33,7 @@
       "Y": 2,
       "Z": 2
     },
-    "Flammable": true,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": true
   },
   {
     "Id": "plant3",
@@ -55,9 +51,7 @@
       "Y": 2,
       "Z": 2
     },
-    "Flammable": true,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": true
   },
   {
     "Id": "plant4",
@@ -75,9 +69,7 @@
       "Y": 2,
       "Z": 2
     },
-    "Flammable": true,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": true
   },
   {
     "Id": "plant5",
@@ -95,9 +87,7 @@
       "Y": 2,
       "Z": 2
     },
-    "Flammable": true,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": true
   },
   {
     "Id": "plant6",
@@ -115,9 +105,7 @@
       "Y": 2,
       "Z": 2
     },
-    "Flammable": true,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": true
   },
   {
     "Id": "plant7",
@@ -135,9 +123,7 @@
       "Y": 2,
       "Z": 2
     },
-    "Flammable": true,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": true
   },
   {
     "Id": "plant8",
@@ -155,9 +141,7 @@
       "Y": 2,
       "Z": 2
     },
-    "Flammable": true,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": true
   },
   {
     "Id": "plant9",
@@ -175,29 +159,25 @@
       "Y": 2,
       "Z": 2
     },
-    "Flammable": true,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": true
   },
   {
     "Id": "plant10",
     "Icon": "items/plant10.png",
-    "Color": "e9c410",
-    "PhysicsMaterial": "Fruit",
+    "Color": "ff72bb",
+    "PhysicsMaterial": "Plastic",
     "Ratings": {
-      "Density": 1,
-      "Durability": 1,
+      "Density": 3,
+      "Durability": 2,
       "Friction": 4,
-      "Buoyancy": 4
+      "Buoyancy": 3
     },
     "Box": {
-      "X": 1,
-      "Y": 1,
-      "Z": 3
+      "X": 2,
+      "Y": 2,
+      "Z": 2
     },
-    "Flammable": true,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": true
   },
   {
     "Id": "plant11",
@@ -213,11 +193,9 @@
     "Box": {
       "X": 1,
       "Y": 1,
-      "Z": 1
+      "Z": 3
     },
-    "Flammable": true,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": true
   },
   {
     "Id": "plant12",
@@ -231,17 +209,33 @@
       "Buoyancy": 4
     },
     "Box": {
-      "X": 2,
-      "Y": 2,
-      "Z": 2
+      "X": 1,
+      "Y": 1,
+      "Z": 1
     },
-    "Flammable": true,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": true
   },
   {
     "Id": "plant13",
     "Icon": "items/plant13.png",
+    "Color": "e9c410",
+    "PhysicsMaterial": "Fruit",
+    "Ratings": {
+      "Density": 1,
+      "Durability": 1,
+      "Friction": 4,
+      "Buoyancy": 4
+    },
+    "Box": {
+      "X": 2,
+      "Y": 2,
+      "Z": 2
+    },
+    "Flammable": true
+  },
+  {
+    "Id": "plant14",
+    "Icon": "items/plant14.png",
     "Color": "e3ae20",
     "PhysicsMaterial": "Fruit",
     "Ratings": {
@@ -255,13 +249,11 @@
       "Y": 3,
       "Z": 2
     },
-    "Flammable": true,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": true
   },
   {
-    "Id": "plant14",
-    "Icon": "items/plant14.png",
+    "Id": "plant15",
+    "Icon": "items/plant15.png",
     "Color": "a64102",
     "PhysicsMaterial": "Fruit",
     "Ratings": {
@@ -275,29 +267,7 @@
       "Y": 1,
       "Z": 1
     },
-    "Flammable": true,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
-    "Id": "plant15",
-    "Icon": "items/plant15.png",
-    "Color": "a6274d",
-    "PhysicsMaterial": "Fruit",
-    "Ratings": {
-      "Density": 1,
-      "Durability": 1,
-      "Friction": 4,
-      "Buoyancy": 4
-    },
-    "Box": {
-      "X": 2,
-      "Y": 2,
-      "Z": 2
-    },
-    "Flammable": true,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": true
   },
   {
     "Id": "plant16",
@@ -315,9 +285,7 @@
       "Y": 2,
       "Z": 2
     },
-    "Flammable": true,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": true
   },
   {
     "Id": "plant17",
@@ -335,48 +303,24 @@
       "Y": 2,
       "Z": 2
     },
-    "Flammable": true,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": true
   },
   {
     "Id": "plant18",
     "Icon": "items/plant18.png",
-    "Color": "505c30",
-    "PhysicsMaterial": "Metal",
+    "Color": "a6274d",
+    "PhysicsMaterial": "Fruit",
     "Ratings": {
-      "Density": 2,
+      "Density": 1,
       "Durability": 1,
       "Friction": 4,
-      "Buoyancy": 3
+      "Buoyancy": 4
     },
     "Box": {
       "X": 2,
       "Y": 2,
       "Z": 2
     },
-    "Flammable": true,
-    "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
-    "Id": "plant19",
-    "Icon": "items/plant19.png",
-    "Color": "ff72bb",
-    "PhysicsMaterial": "Plastic",
-    "Ratings": {
-      "Density": 3,
-      "Durability": 2,
-      "Friction": 4,
-      "Buoyancy": 3
-    },
-    "Box": {
-      "X": 2,
-      "Y": 2,
-      "Z": 2
-    },
-    "Flammable": true,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": true
   }
 ]

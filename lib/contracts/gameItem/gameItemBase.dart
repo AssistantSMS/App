@@ -23,8 +23,6 @@ class GameItemBase {
     this.box,
     this.cylinder,
     this.flammable,
-    this.density,
-    this.qualityLevel,
     this.features,
     this.upgrade,
     this.customisationSource,
@@ -38,8 +36,6 @@ class GameItemBase {
   Box box;
   Cylinder cylinder;
   bool flammable;
-  double density;
-  int qualityLevel;
   Upgrade upgrade;
   List<Feature> features;
   CustomisationSourceType customisationSource;
@@ -65,8 +61,6 @@ class GameItemBase {
             : List<Feature>.from(
                 json["Features"].map((x) => Feature.fromJson(x))),
         flammable: readBoolSafe(json, "Flammable"),
-        density: readDoubleSafe(json, "Density"),
-        qualityLevel: readIntSafe(json, "QualityLevel"),
         customisationSource: CustomisationSourceType
             .values[(json["CustomisationSource"] as int ?? 0)],
       );

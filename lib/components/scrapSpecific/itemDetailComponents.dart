@@ -40,8 +40,12 @@ ResultWithValue<Widget> getRatingTableRows(
   if (gameItem.rating == null) {
     return ResultWithValue<Table>(false, null, 'rating is null');
   }
-  if (gameItem.rating.durability == null) {
-    return ResultWithValue<Table>(false, null, 'rating is null');
+  if (gameItem.rating.buoyancy == 0 &&
+      gameItem.rating.density == 0 &&
+      gameItem.rating.durability == 0 &&
+      gameItem.rating.friction == 0) {
+    return ResultWithValue<Table>(
+        false, null, 'rating is not worth displaying');
   }
 
   var isDark = getIsDark(context);

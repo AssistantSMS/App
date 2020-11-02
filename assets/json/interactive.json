@@ -772,7 +772,7 @@
   },
   {
     "Id": "intera44",
-    "Icon": "unknown.png",
+    "Icon": "items/intera44.png",
     "Color": "cb0a00",
     "PhysicsMaterial": "Mechanical",
     "Ratings": {

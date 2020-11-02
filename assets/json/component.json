@@ -1,7 +1,7 @@
 [
   {
     "Id": "comp1",
-    "Icon": "unknown.png",
+    "Icon": "items/comp1.png",
     "Color": "df7f01",
     "PhysicsMaterial": "Metal",
     "Ratings": {

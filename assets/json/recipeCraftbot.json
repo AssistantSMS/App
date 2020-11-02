@@ -2346,7 +2346,7 @@
   },
   {
     "Id": "recipeCraft120",
-    "Icon": "unknown.png",
+    "Icon": "items/recipeCraft120.png",
     "CraftingTime": 12,
     "Output": {
       "Id": "deco44",

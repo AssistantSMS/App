@@ -1,4 +1,5 @@
 class BaseJson {
+  static const String ammo = 'ammo';
   static const String blocks = 'blocks';
   static const String building = 'building';
   static const String components = 'component';

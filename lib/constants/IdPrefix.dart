@@ -1,4 +1,5 @@
 class IdPrefix {
+  static const String ammo = "ammo";
   static const String blocks = "blk";
   static const String building = "build";
   static const String components = "comp";

@@ -17,6 +17,10 @@
         "Quantity": 2
       },
       {
+        "Id": "ammo1",
+        "Quantity": 2
+      },
+      {
         "Id": "plant17",
         "Quantity": 1
       }
@@ -37,6 +41,10 @@
       },
       {
         "Id": "plant16",
+        "Quantity": 1
+      },
+      {
+        "Id": "ammo1",
         "Quantity": 1
       },
       {

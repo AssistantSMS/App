@@ -1,4 +1,5 @@
 enum LocaleKey {
+  ammoJson,
   blocksJson,
   buildingJson,
   componentsJson,

@@ -41,6 +41,7 @@ ResultWithValue<IGameItemJsonService> getGameItemRepoFromId(
     context, String id) {
   LocaleKey key = LocaleKey.title;
 
+  if (id.contains(IdPrefix.ammo)) key = LocaleKey.ammoJson;
   if (id.contains(IdPrefix.blocks)) key = LocaleKey.blocksJson;
   if (id.contains(IdPrefix.building)) key = LocaleKey.buildingJson;
   if (id.contains(IdPrefix.components)) key = LocaleKey.componentsJson;

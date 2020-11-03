@@ -434,7 +434,8 @@ List<Widget> itemUsedInRecipesWidget(
       widgets.add(
         GestureDetector(
           child: Card(
-            child: recipeTilePresenter(context, recipe, recipeIndex,
+            child: recipeTileWithIngDetailsPresenter(
+                context, recipe, recipeIndex,
                 showOutputQuantity: true),
           ),
           onTap: () => navigateToRecipeItem(recipe.id),

@@ -205,6 +205,7 @@ Future<ResultWithValue<List<RecipeIngredientDetails>>>
     results.add(ingResult.value);
   };
   for (RecipeIngredient input in inputs) {
+    if (input.id == null || input.id.length < 1) continue;
     tasks.add(
       getRecipeIngredientDetailsFuture(context, input).then(onFinishTask),
     );

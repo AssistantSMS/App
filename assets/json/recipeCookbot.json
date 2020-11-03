@@ -17,10 +17,6 @@
         "Quantity": 2
       },
       {
-        "Id": "",
-        "Quantity": 0
-      },
-      {
         "Id": "plant17",
         "Quantity": 1
       }
@@ -42,10 +38,6 @@
       {
         "Id": "plant16",
         "Quantity": 1
-      },
-      {
-        "Id": "",
-        "Quantity": 0
       },
       {
         "Id": "plant17",

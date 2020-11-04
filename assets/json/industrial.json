@@ -15,9 +15,7 @@
       "Y": 3,
       "Z": 6
     },
-    "Flammable": false,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "indus2",
@@ -35,9 +33,7 @@
       "Y": 6,
       "Z": 6
     },
-    "Flammable": false,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "indus3",
@@ -55,9 +51,7 @@
       "Y": 4,
       "Z": 1
     },
-    "Flammable": false,
-    "Density": 450.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "indus4",
@@ -75,9 +69,7 @@
       "Y": 4,
       "Z": 2
     },
-    "Flammable": false,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "indus5",
@@ -95,9 +87,7 @@
       "Y": 2,
       "Z": 3
     },
-    "Flammable": false,
-    "Density": 400.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "indus6",
@@ -115,9 +105,7 @@
       "Y": 1,
       "Z": 3
     },
-    "Flammable": false,
-    "Density": 300.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "indus7",
@@ -135,9 +123,7 @@
       "Y": 1,
       "Z": 1
     },
-    "Flammable": false,
-    "Density": 200.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "indus8",
@@ -155,9 +141,7 @@
       "Y": 1,
       "Z": 1
     },
-    "Flammable": false,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "indus9",
@@ -175,9 +159,7 @@
       "Y": 4,
       "Z": 1
     },
-    "Flammable": false,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "indus10",
@@ -194,9 +176,7 @@
       "Diameter": 1,
       "Depth": 1
     },
-    "Flammable": false,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "indus11",
@@ -214,9 +194,7 @@
       "Y": 2,
       "Z": 1
     },
-    "Flammable": false,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "indus12",
@@ -234,9 +212,7 @@
       "Y": 3,
       "Z": 8
     },
-    "Flammable": false,
-    "Density": 100.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "indus13",
@@ -254,9 +230,7 @@
       "Y": 3,
       "Z": 8
     },
-    "Flammable": false,
-    "Density": 100.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "indus14",
@@ -274,9 +248,7 @@
       "Y": 4,
       "Z": 8
     },
-    "Flammable": false,
-    "Density": 100.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "indus15",
@@ -294,9 +266,7 @@
       "Y": 4,
       "Z": 8
     },
-    "Flammable": false,
-    "Density": 100.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "indus16",
@@ -314,9 +284,7 @@
       "Y": 7,
       "Z": 1
     },
-    "Flammable": false,
-    "Density": 100.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "indus17",
@@ -334,9 +302,7 @@
       "Y": 4,
       "Z": 8
     },
-    "Flammable": false,
-    "Density": 100.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "indus18",
@@ -354,9 +320,7 @@
       "Y": 4,
       "Z": 8
     },
-    "Flammable": false,
-    "Density": 100.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "indus19",
@@ -374,9 +338,7 @@
       "Y": 3,
       "Z": 1
     },
-    "Flammable": false,
-    "Density": 100.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "indus20",
@@ -394,9 +356,7 @@
       "Y": 3,
       "Z": 1
     },
-    "Flammable": false,
-    "Density": 100.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "indus21",
@@ -414,9 +374,7 @@
       "Y": 1,
       "Z": 1
     },
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "indus22",
@@ -434,9 +392,7 @@
       "Y": 1,
       "Z": 4
     },
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "indus23",
@@ -454,9 +410,7 @@
       "Y": 1,
       "Z": 1
     },
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "indus24",
@@ -474,9 +428,7 @@
       "Y": 2,
       "Z": 1
     },
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "indus25",
@@ -494,9 +446,7 @@
       "Y": 1,
       "Z": 1
     },
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "indus26",
@@ -514,9 +464,7 @@
       "Y": 1,
       "Z": 4
     },
-    "Flammable": false,
-    "Density": 1250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "indus27",
@@ -534,9 +482,7 @@
       "Y": 1,
       "Z": 8
     },
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "indus28",
@@ -554,9 +500,7 @@
       "Y": 1,
       "Z": 6
     },
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "indus29",
@@ -574,9 +518,7 @@
       "Y": 1,
       "Z": 3
     },
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "indus30",
@@ -594,9 +536,7 @@
       "Y": 2,
       "Z": 1
     },
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "indus31",
@@ -614,9 +554,7 @@
       "Y": 1,
       "Z": 1
     },
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "indus32",
@@ -634,9 +572,7 @@
       "Y": 1,
       "Z": 6
     },
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "indus33",
@@ -654,9 +590,7 @@
       "Y": 4,
       "Z": 1
     },
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "indus34",
@@ -674,9 +608,7 @@
       "Y": 1,
       "Z": 1
     },
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "indus35",
@@ -694,9 +626,7 @@
       "Y": 5,
       "Z": 7
     },
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "indus36",
@@ -714,9 +644,7 @@
       "Y": 3,
       "Z": 1
     },
-    "Flammable": false,
-    "Density": 1250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "indus37",
@@ -734,9 +662,7 @@
       "Y": 4,
       "Z": 1
     },
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "indus38",
@@ -754,9 +680,7 @@
       "Y": 4,
       "Z": 2
     },
-    "Flammable": false,
-    "Density": 1250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "indus39",
@@ -774,9 +698,7 @@
       "Y": 8,
       "Z": 1
     },
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "indus40",
@@ -794,9 +716,7 @@
       "Y": 4,
       "Z": 1
     },
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "indus41",
@@ -814,9 +734,7 @@
       "Y": 4,
       "Z": 1
     },
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "indus42",
@@ -834,9 +752,7 @@
       "Y": 6,
       "Z": 1
     },
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "indus43",
@@ -854,9 +770,7 @@
       "Y": 5,
       "Z": 1
     },
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "indus44",
@@ -874,9 +788,7 @@
       "Y": 5,
       "Z": 5
     },
-    "Flammable": false,
-    "Density": 500.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "indus45",
@@ -894,9 +806,7 @@
       "Y": 1,
       "Z": 7
     },
-    "Flammable": false,
-    "Density": 1250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "indus46",
@@ -914,9 +824,7 @@
       "Y": 3,
       "Z": 1
     },
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "indus47",
@@ -934,9 +842,7 @@
       "Y": 1,
       "Z": 1
     },
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "indus48",
@@ -954,9 +860,7 @@
       "Y": 4,
       "Z": 1
     },
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "indus49",
@@ -973,9 +877,7 @@
       "Diameter": 3,
       "Depth": 4
     },
-    "Flammable": false,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "indus50",
@@ -992,9 +894,7 @@
       "Diameter": 5,
       "Depth": 4
     },
-    "Flammable": false,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "indus51",
@@ -1011,9 +911,7 @@
       "Diameter": 7,
       "Depth": 5
     },
-    "Flammable": false,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "indus52",
@@ -1031,9 +929,7 @@
       "Y": 6,
       "Z": 1
     },
-    "Flammable": false,
-    "Density": 1250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "indus53",
@@ -1051,9 +947,7 @@
       "Y": 1,
       "Z": 8
     },
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "indus54",
@@ -1070,9 +964,7 @@
       "Diameter": 1,
       "Depth": 2
     },
-    "Flammable": false,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "indus55",
@@ -1090,9 +982,7 @@
       "Y": 8,
       "Z": 3
     },
-    "Flammable": false,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "indus56",
@@ -1110,9 +1000,7 @@
       "Y": 8,
       "Z": 3
     },
-    "Flammable": false,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "indus57",
@@ -1130,9 +1018,7 @@
       "Y": 7,
       "Z": 1
     },
-    "Flammable": false,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "indus58",
@@ -1150,9 +1036,7 @@
       "Y": 5,
       "Z": 3
     },
-    "Flammable": false,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "indus59",
@@ -1170,9 +1054,7 @@
       "Y": 8,
       "Z": 1
     },
-    "Flammable": false,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "indus60",
@@ -1190,9 +1072,7 @@
       "Y": 7,
       "Z": 1
     },
-    "Flammable": false,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "indus61",
@@ -1210,9 +1090,7 @@
       "Y": 2,
       "Z": 2
     },
-    "Flammable": false,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "indus62",
@@ -1230,9 +1108,7 @@
       "Y": 4,
       "Z": 2
     },
-    "Flammable": false,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "indus63",
@@ -1250,9 +1126,7 @@
       "Y": 4,
       "Z": 2
     },
-    "Flammable": false,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "indus64",
@@ -1270,9 +1144,7 @@
       "Y": 3,
       "Z": 6
     },
-    "Flammable": false,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "indus65",
@@ -1290,8 +1162,6 @@
       "Y": 2,
       "Z": 5
     },
-    "Flammable": false,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": false
   }
 ]

@@ -16,8 +16,6 @@
       "Z": 6
     },
     "Flammable": true,
-    "Density": 0.0,
-    "QualityLevel": 0,
     "Features": [
       {
         "LocaleKey": "maxConnections",
@@ -41,9 +39,7 @@
       "Y": 4,
       "Z": 4
     },
-    "Flammable": true,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": true
   },
   {
     "Id": "scrap3",
@@ -61,9 +57,7 @@
       "Y": 3,
       "Z": 1
     },
-    "Flammable": true,
-    "Density": 1250.0,
-    "QualityLevel": 0
+    "Flammable": true
   },
   {
     "Id": "scrap4",
@@ -82,8 +76,6 @@
       "Z": 2
     },
     "Flammable": true,
-    "Density": 1250.0,
-    "QualityLevel": 0,
     "Features": [
       {
         "LocaleKey": "gearCount",

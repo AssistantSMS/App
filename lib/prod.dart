@@ -9,6 +9,8 @@ Future main() async {
     assistantAppsApiUrl: "https://api.assistantapps.com",
     donationsEnabled: false,
     isProduction: true,
+    assistantAppsAppGuid: 'dfe0dbc7-8df4-47fb-a5a5-49af1937c4e2',
+    currentWhatIsNewGuid: '198b35e1-0713-44e6-9286-67c3ed1c6799',
   );
 
   runApp(MyApp(env));

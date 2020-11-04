@@ -15,9 +15,7 @@
       "Y": 6,
       "Z": 4
     },
-    "Flammable": false,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "craftb2",
@@ -35,8 +33,6 @@
       "Y": 8,
       "Z": 9
     },
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": false
   }
 ]

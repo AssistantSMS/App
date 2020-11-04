@@ -37,8 +37,16 @@ import '../tilePresenters/recipeTilePresenter.dart';
 ResultWithValue<Widget> getRatingTableRows(
     BuildContext context, GameItem gameItem) {
   List<TableRow> rows = List<TableRow>();
-  if (gameItem.rating == null)
+  if (gameItem.rating == null) {
     return ResultWithValue<Table>(false, null, 'rating is null');
+  }
+  if (gameItem.rating.buoyancy == 0 &&
+      gameItem.rating.density == 0 &&
+      gameItem.rating.durability == 0 &&
+      gameItem.rating.friction == 0) {
+    return ResultWithValue<Table>(
+        false, null, 'rating is not worth displaying');
+  }
 
   var isDark = getIsDark(context);
   if (gameItem.rating.density != null) {
@@ -426,7 +434,8 @@ List<Widget> itemUsedInRecipesWidget(
       widgets.add(
         GestureDetector(
           child: Card(
-            child: recipeTilePresenter(context, recipe, recipeIndex,
+            child: recipeTileWithIngDetailsPresenter(
+                context, recipe, recipeIndex,
                 showOutputQuantity: true),
           ),
           onTap: () => navigateToRecipeItem(recipe.id),

@@ -88,7 +88,7 @@
     "Icon": "items/recipeWorkbench5.png",
     "CraftingTime": 12,
     "Output": {
-      "Id": "intera15",
+      "Id": "intera16",
       "Quantity": 1
     },
     "Inputs": [
@@ -118,7 +118,7 @@
     "Icon": "items/recipeWorkbench7.png",
     "CraftingTime": 22,
     "Output": {
-      "Id": "intera27",
+      "Id": "intera28",
       "Quantity": 1
     },
     "Inputs": [
@@ -137,7 +137,7 @@
     "Icon": "items/recipeWorkbench8.png",
     "CraftingTime": 22,
     "Output": {
-      "Id": "intera28",
+      "Id": "intera29",
       "Quantity": 1
     },
     "Inputs": [

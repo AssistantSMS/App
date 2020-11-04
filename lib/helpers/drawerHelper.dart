@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:package_info/package_info.dart';
 
+import '../constants/AppImage.dart';
 import '../constants/ExternalUrls.dart';
 import '../constants/Routes.dart';
 import '../contracts/results/resultWithValue.dart';
@@ -24,10 +25,16 @@ Future<List<Widget>> getDrawerItems(context,
     key: LocaleKey.about,
     navigateToNamed: Routes.about,
   ));
+  widgets.add(_drawerItem(
+    context,
+    image: getListTileImage(context, AppImage.whatIsNew),
+    key: LocaleKey.whatIsNew,
+    navigateToNamed: Routes.whatIsNew,
+  ));
   if (!isiOS) {
     widgets.add(_drawerItem(
       context,
-      image: getListTileImage(context, 'donation/buyMeACoffee.png'),
+      image: getListTileImage(context, AppImage.buyMeACoffee),
       key: LocaleKey.donation,
       navigateToNamed: Routes.donation,
     ));
@@ -44,19 +51,19 @@ Future<List<Widget>> getDrawerItems(context,
 
   widgets.add(_drawerItem(
     context,
-    image: getListTileImage(context, 'drawer/twitter.png'),
+    image: getListTileImage(context, AppImage.twitter),
     key: LocaleKey.twitter,
     navigateToExternal: ExternalUrls.twitter,
   ));
   widgets.add(_drawerItem(
     context,
-    image: getListTileImage(context, 'drawer/github.png'),
+    image: getListTileImage(context, AppImage.github),
     key: LocaleKey.contribute,
     navigateToExternal: ExternalUrls.githubOrganization,
   ));
   widgets.add(_drawerItem(
     context,
-    image: getListTileImage(context, 'drawer/patreon.png'),
+    image: getListTileImage(context, AppImage.patreon),
     key: LocaleKey.patrons,
     navigateToNamed: Routes.patronList,
   ));

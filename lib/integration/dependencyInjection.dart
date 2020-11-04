@@ -1,4 +1,6 @@
 import 'package:get_it/get_it.dart';
+import 'package:scrapmechanic_kurtlourens_com/repository/api/VersionApiRepository.dart';
+import 'package:scrapmechanic_kurtlourens_com/repository/api/interface/IVersionApiRepository.dart';
 
 import '../env/environmentSettings.dart';
 import '../helpers/repositoryHelper.dart';
@@ -40,6 +42,7 @@ initDependencyInjection(EnvironmentSettings _env) {
   getIt.registerSingleton<IContributorApiRepository>(
     ContributorApiRepository(),
   );
+  getIt.registerSingleton<IVersionApiRepository>(VersionApiRepository());
 
   //Service
   getIt.registerSingleton<ILocalStorageService>(LocalStorageService());
@@ -59,6 +62,7 @@ ISteamApiRepository getSteamApiRepo() => getIt<ISteamApiRepository>();
 IPatreonApiRepository getPatreonApiRepo() => getIt<IPatreonApiRepository>();
 IContributorApiRepository getContributorApiRepo() =>
     getIt<IContributorApiRepository>();
+IVersionApiRepository getVersionApiRepo() => getIt<IVersionApiRepository>();
 
 //Service
 ILocalStorageService getStorageService() => getIt<ILocalStorageService>();

@@ -15,9 +15,7 @@
       "Y": 2,
       "Z": 1
     },
-    "Flammable": false,
-    "Density": 500.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "surv2",
@@ -35,9 +33,7 @@
       "Y": 6,
       "Z": 5
     },
-    "Flammable": false,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "surv10",
@@ -55,9 +51,7 @@
       "Y": 3,
       "Z": 1
     },
-    "Flammable": false,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "surv11",
@@ -75,9 +69,7 @@
       "Y": 2,
       "Z": 1
     },
-    "Flammable": false,
-    "Density": 450.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "surv13",
@@ -95,9 +87,7 @@
       "Y": 4,
       "Z": 1
     },
-    "Flammable": false,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "surv14",
@@ -115,9 +105,7 @@
       "Y": 1,
       "Z": 2
     },
-    "Flammable": false,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "surv19",
@@ -135,9 +123,7 @@
       "Y": 11,
       "Z": 3
     },
-    "Flammable": false,
-    "Density": 200.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "surv20",
@@ -155,9 +141,7 @@
       "Y": 10,
       "Z": 1
     },
-    "Flammable": false,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "surv21",
@@ -175,9 +159,7 @@
       "Y": 12,
       "Z": 2
     },
-    "Flammable": false,
-    "Density": 1250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "surv22",
@@ -194,9 +176,7 @@
       "Diameter": 2,
       "Depth": 4
     },
-    "Flammable": false,
-    "Density": 1250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "surv25",
@@ -214,9 +194,7 @@
       "Y": 6,
       "Z": 3
     },
-    "Flammable": false,
-    "Density": 1250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "surv26",
@@ -229,9 +207,7 @@
       "Friction": 3,
       "Buoyancy": 8
     },
-    "Flammable": false,
-    "Density": 500.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "surv28",
@@ -249,9 +225,7 @@
       "Y": 6,
       "Z": 4
     },
-    "Flammable": false,
-    "Density": 1250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "surv30",
@@ -268,9 +242,7 @@
       "Diameter": 2,
       "Depth": 4
     },
-    "Flammable": false,
-    "Density": 500.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "surv31",
@@ -288,8 +260,6 @@
       "Y": 9,
       "Z": 10
     },
-    "Flammable": false,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": false
   }
 ]

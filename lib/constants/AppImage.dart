@@ -17,12 +17,12 @@ class AppImage {
   static const String upgradeButton = base + 'upgradeButton.png';
   static const String componentKit = base + 'componentKit.png';
 
-  static const String whatIsNew = base + drawerFolder + 'whatIsNew.png';
-  static const String twitter = base + drawerFolder + 'twitter.png';
-  static const String github = base + drawerFolder + 'github.png';
-  static const String patreon = base + drawerFolder + 'patreon.png';
+  static const String whatIsNew = drawerFolder + 'whatIsNew.png';
+  static const String twitter = drawerFolder + 'twitter.png';
+  static const String github = drawerFolder + 'github.png';
+  static const String patreon = drawerFolder + 'patreon.png';
 
-  static const String buyMeACoffee = base + 'donation/' + 'buyMeACoffee.png';
+  static const String buyMeACoffee = 'donation/' + 'buyMeACoffee.png';
 
   static String _darkLightFolder(bool isDark) => isDark ? dark : light;
   static String buoyancy(bool isDark) =>

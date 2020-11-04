@@ -18,6 +18,8 @@ class AnalyticsEvent {
   static const String dressBotPage = 'DressBot_Page_View';
   static const String patronListPage = 'Patrons_Page_View';
   static const String contributorListPage = 'Contributors_Page_View';
+  static const String whatIsNewPage = 'WhatIsNew_Page_View';
+  static const String whatIsNewDetailPage = 'WhatIsNewDetail_Page_View';
   //json
   //external
   static const String externalLinkCVWebsite = 'CV_Website';

@@ -35,6 +35,7 @@ dependencies:
   ff_navigation_bar: ^0.1.5
   pagination_view: ^1.0.3+2
   timeline_tile: 0.1.2
+  material_segmented_control: 2.1.0+1
   # Base
   get_it: ^5.0.1
   http: ^0.12.2

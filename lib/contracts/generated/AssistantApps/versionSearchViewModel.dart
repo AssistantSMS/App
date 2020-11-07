@@ -19,7 +19,7 @@ class VersionSearchViewModel {
 
   Map<String, dynamic> toJson() => {
         "AppGuid": appGuid,
-        "Platforms": platforms,
+        "Platforms": List<dynamic>.from(platforms.map((p) => platformTypeValues.reverse[p])),
         "LanguageCode": languageCode,
         "Page": page,
       };

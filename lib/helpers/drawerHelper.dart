@@ -27,9 +27,23 @@ Future<List<Widget>> getDrawerItems(context,
   ));
   widgets.add(_drawerItem(
     context,
-    image: getListTileImage(context, AppImage.whatIsNew),
+    image: getCorrectlySizedImageFromIcon(context, Icons.campaign,
+        colour: drawerIconColour),
     key: LocaleKey.whatIsNew,
     navigateToNamed: Routes.whatIsNew,
+  ));
+  widgets.add(_drawerItem(
+    context,
+    image: getCorrectlySizedImageFromIcon(context, Icons.people,
+        colour: drawerIconColour),
+    key: LocaleKey.contributors,
+    navigateToNamed: Routes.contributors,
+  ));
+  widgets.add(_drawerItem(
+    context,
+    image: getListTileImage(context, AppImage.patreon),
+    key: LocaleKey.patrons,
+    navigateToNamed: Routes.patronList,
   ));
   if (!isiOS) {
     widgets.add(_drawerItem(
@@ -39,13 +53,6 @@ Future<List<Widget>> getDrawerItems(context,
       navigateToNamed: Routes.donation,
     ));
   }
-  widgets.add(_drawerItem(
-    context,
-    image: getCorrectlySizedImageFromIcon(context, Icons.people,
-        colour: drawerIconColour),
-    key: LocaleKey.contributors,
-    navigateToNamed: Routes.contributors,
-  ));
 
   widgets.add(customDivider());
 
@@ -60,12 +67,6 @@ Future<List<Widget>> getDrawerItems(context,
     image: getListTileImage(context, AppImage.github),
     key: LocaleKey.contribute,
     navigateToExternal: ExternalUrls.githubOrganization,
-  ));
-  widgets.add(_drawerItem(
-    context,
-    image: getListTileImage(context, AppImage.patreon),
-    key: LocaleKey.patrons,
-    navigateToNamed: Routes.patronList,
   ));
 
   widgets.add(customDivider());

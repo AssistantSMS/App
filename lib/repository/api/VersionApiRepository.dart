@@ -1,3 +1,5 @@
+import 'package:scrapmechanic_kurtlourens_com/contracts/generated/AssistantApps/versionSearchViewModel.dart';
+
 import '../../constants/ApiUrls.dart';
 import '../../contracts/enum/platformType.dart';
 import '../../contracts/generated/AssistantApps/versionViewModel.dart';
@@ -12,6 +14,7 @@ class VersionApiRepository extends BaseApiRepository
     implements IVersionApiRepository {
   VersionApiRepository() : super(baseUrl: getEnv().assistantAppsApiUrl);
 
+  @override
   Future<ResultWithValue<VersionViewModel>> getLatest(
       List<PlatformType> platforms) async {
     var url = "${ApiUrls.appVersion}/${getEnv().assistantAppsAppGuid}";
@@ -30,6 +33,7 @@ class VersionApiRepository extends BaseApiRepository
     }
   }
 
+  // @override
   // Future<PaginationResultWithValue<List<VersionViewModel>>> getHistory(
   //     String langCode, List<PlatformType> platforms,
   //     {int page = 1}) async {
@@ -58,7 +62,8 @@ class VersionApiRepository extends BaseApiRepository
   //   }
   // }
 
-  Future<PaginationResultWithValue<List<VersionViewModel>>> getHistoryWith(
+  @override
+  Future<PaginationResultWithValue<List<VersionViewModel>>> getHistory(
       String langCode, List<PlatformType> platforms,
       {int page = 1}) async {
     VersionSearchViewModel body = VersionSearchViewModel(
@@ -68,7 +73,7 @@ class VersionApiRepository extends BaseApiRepository
       page: page,
     );
     try {
-      final response = await this.apiPost(ApiUrls.versionSearch, body);
+      final response = await this.apiPost(ApiUrls.versionSearch, body.toRawJson());
       if (response.hasFailed) {
         return PaginationResultWithValue<List<VersionViewModel>>(
             false, List<VersionViewModel>(), 0, 0, response.errorMessage);

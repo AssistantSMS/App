@@ -154,4 +154,9 @@ enum LocaleKey {
   joinPatreon,
   foundIn,
   contributors,
+  whatIsNew,
+  loadMore,
+  pendingAppStoreRelease,
+  release,
+  current,
 }

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:package_info/package_info.dart';
 
+import '../constants/AppImage.dart';
 import '../constants/ExternalUrls.dart';
 import '../constants/Routes.dart';
 import '../contracts/results/resultWithValue.dart';
@@ -24,14 +25,13 @@ Future<List<Widget>> getDrawerItems(context,
     key: LocaleKey.about,
     navigateToNamed: Routes.about,
   ));
-  if (!isiOS) {
-    widgets.add(_drawerItem(
-      context,
-      image: getListTileImage(context, 'donation/buyMeACoffee.png'),
-      key: LocaleKey.donation,
-      navigateToNamed: Routes.donation,
-    ));
-  }
+  widgets.add(_drawerItem(
+    context,
+    image: getCorrectlySizedImageFromIcon(context, Icons.campaign,
+        colour: drawerIconColour),
+    key: LocaleKey.whatIsNew,
+    navigateToNamed: Routes.whatIsNew,
+  ));
   widgets.add(_drawerItem(
     context,
     image: getCorrectlySizedImageFromIcon(context, Icons.people,
@@ -39,26 +39,34 @@ Future<List<Widget>> getDrawerItems(context,
     key: LocaleKey.contributors,
     navigateToNamed: Routes.contributors,
   ));
+  widgets.add(_drawerItem(
+    context,
+    image: getListTileImage(context, AppImage.patreon),
+    key: LocaleKey.patrons,
+    navigateToNamed: Routes.patronList,
+  ));
+  if (!isiOS) {
+    widgets.add(_drawerItem(
+      context,
+      image: getListTileImage(context, AppImage.buyMeACoffee),
+      key: LocaleKey.donation,
+      navigateToNamed: Routes.donation,
+    ));
+  }
 
   widgets.add(customDivider());
 
   widgets.add(_drawerItem(
     context,
-    image: getListTileImage(context, 'drawer/twitter.png'),
+    image: getListTileImage(context, AppImage.twitter),
     key: LocaleKey.twitter,
     navigateToExternal: ExternalUrls.twitter,
   ));
   widgets.add(_drawerItem(
     context,
-    image: getListTileImage(context, 'drawer/github.png'),
+    image: getListTileImage(context, AppImage.github),
     key: LocaleKey.contribute,
     navigateToExternal: ExternalUrls.githubOrganization,
-  ));
-  widgets.add(_drawerItem(
-    context,
-    image: getListTileImage(context, 'drawer/patreon.png'),
-    key: LocaleKey.patrons,
-    navigateToNamed: Routes.patronList,
   ));
 
   widgets.add(customDivider());

@@ -17,6 +17,7 @@ class BaseApiRepository {
       final response = await http.post('$_baseUrl/$url',
           body: body, headers: {"Content-Type": "application/json"});
       if (response.statusCode != 200) {
+        logger.e('Status Code: ${response.statusCode}.');
         logger.e('Not a 200 OK response ${response.body}');
         return ResultWithValue<String>(false, '', 'Not a 200 OK response');
       }

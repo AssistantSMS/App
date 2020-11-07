@@ -10,6 +10,7 @@ import '../constants/AppPadding.dart';
 import '../constants/ExternalUrls.dart';
 import '../constants/Routes.dart';
 import '../helpers/analytics.dart';
+import '../helpers/deviceHelper.dart';
 import '../helpers/external.dart';
 import '../helpers/genericHelper.dart';
 import '../localization/localeKey.dart';
@@ -44,13 +45,12 @@ class AboutPage extends StatelessWidget {
         maxLines: 50,
         style: TextStyle(fontSize: 16)));
 
-    widgets.add(emptySpace2x());
+    widgets.add(customDivider());
 
-    widgets.add(Text(Translations.get(context, LocaleKey.fairUseDisclaimer),
-        textAlign: TextAlign.center,
-        overflow: TextOverflow.ellipsis,
-        maxLines: 50,
-        style: TextStyle(fontSize: 16)));
+    widgets.add(genericItemDescription(
+      Translations.get(context, LocaleKey.fairUseDisclaimer),
+    ));
+    
     widgets.add(emptySpace3x());
     widgets.add(positiveButton(
       title: Translations.get(context, LocaleKey.kurtsBlog),

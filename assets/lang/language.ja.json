@@ -149,5 +149,9 @@
   "patrons": "Patrons",
   "joinPatreon": "Join Patreon",
   "foundIn": "Found in",
-  "contributors": "Contributors"
+  "contributors": "Contributors",
+  "whatIsNew": "What's New",
+  "release": "Release {0}",
+  "pendingAppStoreRelease": "Pending App Store approval",
+  "current": "Current"
 }

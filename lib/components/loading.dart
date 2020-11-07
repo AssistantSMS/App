@@ -14,6 +14,11 @@ Widget listTileLoading(context, {String loadingText}) => ListTile(
       title: Text(loadingText ?? Translations.get(context, LocaleKey.loading)),
     );
 
+Widget smallLoadingTile(BuildContext context, {String loadingText}) => ListTile(
+      leading: smallLoadingIndicator(),
+      title: Text(loadingText ?? Translations.get(context, LocaleKey.loading)),
+    );
+
 Widget fullPageLoading(context, {String loadingText}) => Container(
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,

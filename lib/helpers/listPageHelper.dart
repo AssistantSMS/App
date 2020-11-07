@@ -3,8 +3,10 @@ import '../localization/localeKey.dart';
 List<LocaleKey> getCraftBotPageLocales() => [LocaleKey.craftBotRecipeJson];
 List<LocaleKey> getCookBotPageLocales() => [LocaleKey.cookBotRecipeJson];
 List<LocaleKey> getBlocksAndItemsPageLocales() => [
+      LocaleKey.ammoJson,
       LocaleKey.blocksJson,
       LocaleKey.buildingJson,
+      LocaleKey.componentsJson,
       LocaleKey.constructionJson,
       LocaleKey.consumableJson,
       LocaleKey.containersJson,

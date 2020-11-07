@@ -35,10 +35,14 @@ String getBaseFileName(LocaleKey detailsJson) {
       return BaseJson.workbench;
 
     // Game Items below
+    case LocaleKey.ammoJson:
+      return BaseJson.ammo;
     case LocaleKey.blocksJson:
       return BaseJson.blocks;
     case LocaleKey.buildingJson:
       return BaseJson.building;
+    case LocaleKey.componentsJson:
+      return BaseJson.components;
     case LocaleKey.constructionJson:
       return BaseJson.construction;
     case LocaleKey.consumableJson:

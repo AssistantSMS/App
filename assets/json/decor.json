@@ -15,9 +15,7 @@
       "Y": 8,
       "Z": 1
     },
-    "Flammable": false,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "deco2",
@@ -35,9 +33,7 @@
       "Y": 8,
       "Z": 1
     },
-    "Flammable": false,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "deco3",
@@ -55,9 +51,7 @@
       "Y": 8,
       "Z": 1
     },
-    "Flammable": false,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "deco4",
@@ -75,9 +69,7 @@
       "Y": 2,
       "Z": 1
     },
-    "Flammable": false,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "deco5",
@@ -95,9 +87,7 @@
       "Y": 2,
       "Z": 1
     },
-    "Flammable": false,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "deco6",
@@ -115,9 +105,7 @@
       "Y": 2,
       "Z": 1
     },
-    "Flammable": false,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "deco7",
@@ -135,9 +123,7 @@
       "Y": 2,
       "Z": 1
     },
-    "Flammable": false,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "deco8",
@@ -155,9 +141,7 @@
       "Y": 2,
       "Z": 1
     },
-    "Flammable": false,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "deco9",
@@ -175,9 +159,7 @@
       "Y": 2,
       "Z": 1
     },
-    "Flammable": false,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "deco10",
@@ -195,9 +177,7 @@
       "Y": 3,
       "Z": 1
     },
-    "Flammable": false,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "deco11",
@@ -215,9 +195,7 @@
       "Y": 3,
       "Z": 1
     },
-    "Flammable": false,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "deco12",
@@ -234,9 +212,7 @@
       "Diameter": 3,
       "Depth": 6
     },
-    "Flammable": false,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "deco13",
@@ -254,9 +230,7 @@
       "Y": 2,
       "Z": 2
     },
-    "Flammable": true,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": true
   },
   {
     "Id": "deco14",
@@ -274,9 +248,7 @@
       "Y": 4,
       "Z": 1
     },
-    "Flammable": false,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "deco15",
@@ -294,9 +266,7 @@
       "Y": 7,
       "Z": 1
     },
-    "Flammable": false,
-    "Density": 500.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "deco16",
@@ -314,9 +284,7 @@
       "Y": 2,
       "Z": 1
     },
-    "Flammable": false,
-    "Density": 500.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "deco17",
@@ -334,9 +302,7 @@
       "Y": 2,
       "Z": 3
     },
-    "Flammable": false,
-    "Density": 500.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "deco18",
@@ -354,9 +320,7 @@
       "Y": 2,
       "Z": 2
     },
-    "Flammable": true,
-    "Density": 1250.0,
-    "QualityLevel": 0
+    "Flammable": true
   },
   {
     "Id": "deco19",
@@ -374,9 +338,7 @@
       "Y": 1,
       "Z": 1
     },
-    "Flammable": true,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": true
   },
   {
     "Id": "deco20",
@@ -394,9 +356,7 @@
       "Y": 4,
       "Z": 4
     },
-    "Flammable": false,
-    "Density": 500.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "deco21",
@@ -414,9 +374,7 @@
       "Y": 5,
       "Z": 4
     },
-    "Flammable": true,
-    "Density": 500.0,
-    "QualityLevel": 0
+    "Flammable": true
   },
   {
     "Id": "deco22",
@@ -434,9 +392,7 @@
       "Y": 8,
       "Z": 5
     },
-    "Flammable": true,
-    "Density": 1250.0,
-    "QualityLevel": 0
+    "Flammable": true
   },
   {
     "Id": "deco23",
@@ -454,9 +410,7 @@
       "Y": 3,
       "Z": 5
     },
-    "Flammable": false,
-    "Density": 500.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "deco24",
@@ -474,9 +428,7 @@
       "Y": 4,
       "Z": 5
     },
-    "Flammable": true,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": true
   },
   {
     "Id": "deco25",
@@ -493,9 +445,7 @@
       "Diameter": 7,
       "Depth": 5
     },
-    "Flammable": true,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": true
   },
   {
     "Id": "deco26",
@@ -511,9 +461,7 @@
       "Diameter": 1,
       "Depth": 1
     },
-    "Flammable": true,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": true
   },
   {
     "Id": "deco27",
@@ -531,9 +479,7 @@
       "Y": 3,
       "Z": 2
     },
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "deco28",
@@ -550,9 +496,7 @@
       "Diameter": 1,
       "Depth": 1
     },
-    "Flammable": true,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": true
   },
   {
     "Id": "deco29",
@@ -570,9 +514,7 @@
       "Y": 2,
       "Z": 2
     },
-    "Flammable": true,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": true
   },
   {
     "Id": "deco30",
@@ -590,9 +532,7 @@
       "Y": 2,
       "Z": 1
     },
-    "Flammable": true,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": true
   },
   {
     "Id": "deco31",
@@ -609,9 +549,7 @@
       "Diameter": 1,
       "Depth": 1
     },
-    "Flammable": true,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": true
   },
   {
     "Id": "deco32",
@@ -629,9 +567,7 @@
       "Y": 1,
       "Z": 1
     },
-    "Flammable": false,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "deco33",
@@ -649,9 +585,7 @@
       "Y": 1,
       "Z": 1
     },
-    "Flammable": false,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "deco34",
@@ -669,9 +603,7 @@
       "Y": 3,
       "Z": 1
     },
-    "Flammable": false,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "deco35",
@@ -689,9 +621,7 @@
       "Y": 2,
       "Z": 1
     },
-    "Flammable": false,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "deco36",
@@ -709,9 +639,7 @@
       "Y": 2,
       "Z": 1
     },
-    "Flammable": false,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "deco37",
@@ -729,9 +657,7 @@
       "Y": 2,
       "Z": 1
     },
-    "Flammable": false,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "deco38",
@@ -749,9 +675,7 @@
       "Y": 3,
       "Z": 1
     },
-    "Flammable": false,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "deco39",
@@ -769,9 +693,7 @@
       "Y": 2,
       "Z": 1
     },
-    "Flammable": false,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "deco40",
@@ -789,9 +711,7 @@
       "Y": 3,
       "Z": 1
     },
-    "Flammable": false,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "deco41",
@@ -809,9 +729,7 @@
       "Y": 3,
       "Z": 1
     },
-    "Flammable": false,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "deco42",
@@ -829,9 +747,7 @@
       "Y": 4,
       "Z": 1
     },
-    "Flammable": false,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "deco43",
@@ -849,9 +765,7 @@
       "Y": 3,
       "Z": 1
     },
-    "Flammable": false,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "deco44",
@@ -869,9 +783,7 @@
       "Y": 3,
       "Z": 2
     },
-    "Flammable": true,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": true
   },
   {
     "Id": "deco45",
@@ -889,9 +801,7 @@
       "Y": 2,
       "Z": 7
     },
-    "Flammable": true,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": true
   },
   {
     "Id": "deco46",
@@ -909,8 +819,6 @@
       "Y": 1,
       "Z": 2
     },
-    "Flammable": true,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": true
   }
 ]

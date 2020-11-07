@@ -3,6 +3,7 @@ class AppImage {
   static const String rating = 'rating/';
   static const String tile = 'tile/';
   static const String raid = 'raid/';
+  static const String drawerFolder = 'drawer/';
 
   static const String dark = 'dark/';
   static const String light = 'light/';
@@ -15,6 +16,13 @@ class AppImage {
   static const String chestGold = base + 'chestGold.png';
   static const String upgradeButton = base + 'upgradeButton.png';
   static const String componentKit = base + 'componentKit.png';
+
+  static const String whatIsNew = drawerFolder + 'whatIsNew.png';
+  static const String twitter = drawerFolder + 'twitter.png';
+  static const String github = drawerFolder + 'github.png';
+  static const String patreon = drawerFolder + 'patreon.png';
+
+  static const String buyMeACoffee = 'donation/' + 'buyMeACoffee.png';
 
   static String _darkLightFolder(bool isDark) => isDark ? dark : light;
   static String buoyancy(bool isDark) =>

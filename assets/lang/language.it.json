@@ -1,7 +1,9 @@
 {
   "title": "Assistant for Scrap Mechanic",
+  "ammoJson": "it/ammo.lang",
   "blocksJson": "it/blocks.lang",
   "buildingJson": "it/building.lang",
+  "componentsJson": "it/component.lang",
   "constructionJson": "it/construction.lang",
   "consumableJson": "it/consumable.lang",
   "containersJson": "it/containers.lang",

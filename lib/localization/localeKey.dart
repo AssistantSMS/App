@@ -1,6 +1,8 @@
 enum LocaleKey {
+  ammoJson,
   blocksJson,
   buildingJson,
+  componentsJson,
   constructionJson,
   consumableJson,
   containersJson,
@@ -152,4 +154,9 @@ enum LocaleKey {
   joinPatreon,
   foundIn,
   contributors,
+  whatIsNew,
+  loadMore,
+  pendingAppStoreRelease,
+  release,
+  current,
 }

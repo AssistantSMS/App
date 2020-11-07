@@ -14,9 +14,7 @@
       "Diameter": 2,
       "Depth": 2
     },
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "tools2",
@@ -33,9 +31,7 @@
       "Diameter": 2,
       "Depth": 2
     },
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "tools3",
@@ -52,8 +48,6 @@
       "Diameter": 2,
       "Depth": 2
     },
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": false
   }
 ]

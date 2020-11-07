@@ -4,7 +4,7 @@
     "Icon": "items/recipeCook1.png",
     "CraftingTime": 10,
     "Output": {
-      "Id": "consu8",
+      "Id": "consu7",
       "Quantity": 1
     },
     "Inputs": [
@@ -13,15 +13,15 @@
         "Quantity": 1
       },
       {
-        "Id": "consu11",
+        "Id": "consu10",
         "Quantity": 2
       },
       {
-        "Id": "plant18",
+        "Id": "ammo1",
         "Quantity": 2
       },
       {
-        "Id": "plant16",
+        "Id": "plant17",
         "Quantity": 1
       }
     ]
@@ -31,24 +31,24 @@
     "Icon": "items/recipeCook2.png",
     "CraftingTime": 10,
     "Output": {
-      "Id": "consu9",
+      "Id": "consu8",
       "Quantity": 1
     },
     "Inputs": [
       {
-        "Id": "plant14",
+        "Id": "plant15",
         "Quantity": 2
       },
       {
-        "Id": "plant15",
-        "Quantity": 1
-      },
-      {
-        "Id": "plant18",
-        "Quantity": 1
-      },
-      {
         "Id": "plant16",
+        "Quantity": 1
+      },
+      {
+        "Id": "ammo1",
+        "Quantity": 1
+      },
+      {
+        "Id": "plant17",
         "Quantity": 1
       }
     ]
@@ -58,7 +58,7 @@
     "Icon": "items/recipeCook3.png",
     "CraftingTime": 24,
     "Output": {
-      "Id": "consu10",
+      "Id": "consu9",
       "Quantity": 1
     },
     "Inputs": [
@@ -67,15 +67,15 @@
         "Quantity": 1
       },
       {
-        "Id": "consu11",
+        "Id": "consu10",
         "Quantity": 2
       },
       {
-        "Id": "plant15",
+        "Id": "plant16",
         "Quantity": 1
       },
       {
-        "Id": "plant16",
+        "Id": "plant17",
         "Quantity": 1
       }
     ]

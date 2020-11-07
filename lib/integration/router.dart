@@ -1,5 +1,6 @@
 import 'package:fluro/fluro.dart';
 import 'package:flutter/material.dart' hide Router;
+import 'package:scrapmechanic_kurtlourens_com/pages/whatIsNew/whatIsNewPage.dart';
 
 import '../constants/Routes.dart';
 import '../pages/about.dart';
@@ -81,6 +82,11 @@ class FluroRouter {
     router.define(
       Routes.contributors,
       handler: _basicHandlerFunc(() => ContributorListPage()),
+      transitionType: transition,
+    );
+    router.define(
+      Routes.whatIsNew,
+      handler: _basicHandlerFunc(() => WhatIsNewPage()),
       transitionType: transition,
     );
     router.define(

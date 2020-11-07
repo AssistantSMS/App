@@ -1,0 +1,20 @@
+[
+  {
+    "Id": "comp1",
+    "Icon": "items/comp1.png",
+    "Color": "df7f01",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 7,
+      "Friction": 3,
+      "Buoyancy": 8
+    },
+    "Box": {
+      "X": 2,
+      "Y": 1,
+      "Z": 2
+    },
+    "Flammable": false
+  }
+]

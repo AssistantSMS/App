@@ -14,9 +14,7 @@
       "Diameter": 3,
       "Depth": 1
     },
-    "Flammable": false,
-    "Density": 500.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "build2",
@@ -33,9 +31,7 @@
       "Diameter": 3,
       "Depth": 5
     },
-    "Flammable": false,
-    "Density": 500.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "build3",
@@ -53,9 +49,7 @@
       "Y": 3,
       "Z": 3
     },
-    "Flammable": false,
-    "Density": 500.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "build4",
@@ -73,9 +67,7 @@
       "Y": 1,
       "Z": 3
     },
-    "Flammable": false,
-    "Density": 500.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "build5",
@@ -92,9 +84,7 @@
       "Diameter": 3,
       "Depth": 3
     },
-    "Flammable": false,
-    "Density": 500.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "build6",
@@ -112,9 +102,7 @@
       "Y": 7,
       "Z": 3
     },
-    "Flammable": true,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": true
   },
   {
     "Id": "build7",
@@ -132,9 +120,7 @@
       "Y": 8,
       "Z": 1
     },
-    "Flammable": true,
-    "Density": 500.0,
-    "QualityLevel": 0
+    "Flammable": true
   },
   {
     "Id": "build8",
@@ -152,9 +138,7 @@
       "Y": 3,
       "Z": 2
     },
-    "Flammable": true,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": true
   },
   {
     "Id": "build9",
@@ -172,9 +156,7 @@
       "Y": 3,
       "Z": 1
     },
-    "Flammable": true,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": true
   },
   {
     "Id": "build10",
@@ -192,9 +174,7 @@
       "Y": 2,
       "Z": 2
     },
-    "Flammable": false,
-    "Density": 1250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "build11",
@@ -212,9 +192,7 @@
       "Y": 4,
       "Z": 3
     },
-    "Flammable": false,
-    "Density": 500.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "build12",
@@ -232,9 +210,7 @@
       "Y": 3,
       "Z": 1
     },
-    "Flammable": true,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": true
   },
   {
     "Id": "build13",
@@ -252,9 +228,7 @@
       "Y": 3,
       "Z": 3
     },
-    "Flammable": true,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": true
   },
   {
     "Id": "build14",
@@ -272,9 +246,7 @@
       "Y": 8,
       "Z": 1
     },
-    "Flammable": false,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "build15",
@@ -292,9 +264,7 @@
       "Y": 1,
       "Z": 1
     },
-    "Flammable": false,
-    "Density": 500.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "build16",
@@ -312,9 +282,7 @@
       "Y": 1,
       "Z": 4
     },
-    "Flammable": false,
-    "Density": 500.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "build17",
@@ -332,9 +300,7 @@
       "Y": 1,
       "Z": 4
     },
-    "Flammable": false,
-    "Density": 500.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "build18",
@@ -352,9 +318,7 @@
       "Y": 2,
       "Z": 1
     },
-    "Flammable": false,
-    "Density": 500.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "Id": "build19",
@@ -372,9 +336,7 @@
       "Y": 1,
       "Z": 3
     },
-    "Flammable": true,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": true
   },
   {
     "Id": "build20",
@@ -392,8 +354,6 @@
       "Y": 1,
       "Z": 3
     },
-    "Flammable": false,
-    "Density": 500.0,
-    "QualityLevel": 0
+    "Flammable": false
   }
 ]

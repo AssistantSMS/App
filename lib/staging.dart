@@ -11,7 +11,7 @@ Future main() async {
     donationsEnabled: false,
     isProduction: false,
     assistantAppsAppGuid: 'dfe0dbc7-8df4-47fb-a5a5-49af1937c4e2',
-    currentWhatIsNewGuid: '198b35e1-0713-44e6-9286-67c3ed1c6799',
+    currentWhatIsNewGuid: '47f1a804-2ade-4f3a-a91e-edf997f32af5',
   );
 
   debugDefaultTargetPlatformOverride = TargetPlatform.fuchsia;

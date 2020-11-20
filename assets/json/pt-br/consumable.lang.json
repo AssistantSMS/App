@@ -13,38 +13,34 @@
   },
   {
     "Id": "consu4",
-    "Title": "Kit de Componentes"
-  },
-  {
-    "Id": "consu5",
     "Title": "Munição Pigmentadora"
   },
   {
-    "Id": "consu6",
+    "Id": "consu5",
     "Title": "Bastão Fluorescente"
   },
   {
-    "Id": "consu7",
+    "Id": "consu6",
     "Title": "Sunshake"
   },
   {
-    "Id": "consu8",
+    "Id": "consu7",
     "Title": "Hambúrguer de Pizza"
   },
   {
-    "Id": "consu9",
+    "Id": "consu8",
     "Title": "Hambúrguer Vegetariano"
   },
   {
-    "Id": "consu10",
+    "Id": "consu9",
     "Title": "Baguete da Ressurreição"
   },
   {
-    "Id": "consu11",
+    "Id": "consu10",
     "Title": "Leite de Woc"
   },
   {
-    "Id": "consu12",
+    "Id": "consu11",
     "Title": "Saco de Terra"
   }
 ]

@@ -37,42 +37,38 @@
   },
   {
     "Id": "plant10",
-    "Title": "Banana"
+    "Title": "Semente de Algodão"
   },
   {
     "Id": "plant11",
-    "Title": "Mirtilo"
+    "Title": "Banana"
   },
   {
     "Id": "plant12",
-    "Title": "Laranja"
+    "Title": "Mirtilo"
   },
   {
     "Id": "plant13",
-    "Title": "Abacaxi"
+    "Title": "Laranja"
   },
   {
     "Id": "plant14",
-    "Title": "Cenoura"
+    "Title": "Abacaxi"
   },
   {
     "Id": "plant15",
-    "Title": "Beterraba"
+    "Title": "Cenoura"
   },
   {
     "Id": "plant16",
-    "Title": "Tomate"
+    "Title": "Beterraba"
   },
   {
     "Id": "plant17",
-    "Title": "Brócolis"
+    "Title": "Tomate"
   },
   {
     "Id": "plant18",
-    "Title": "Batata"
-  },
-  {
-    "Id": "plant19",
-    "Title": "Semente de Algodão"
+    "Title": "Brócolis"
   }
 ]

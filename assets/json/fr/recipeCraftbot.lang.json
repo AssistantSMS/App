@@ -229,297 +229,302 @@
   },
   {
     "Id": "recipeCraft52",
+    "Title": "Beacon",
+    "Description": "Emits a tracking signal that can be toggled in the Logbook."
+  },
+  {
+    "Id": "recipeCraft53",
     "Title": "Lit de réapparition",
     "Description": "Faites la sieste dans ce lit confortable. Votre mécano y réapparaîtra après un K.-O."
   },
   {
-    "Id": "recipeCraft53",
+    "Id": "recipeCraft54",
     "Title": "Frigo",
     "Description": "Conserve votre nourriture au frais."
   },
   {
-    "Id": "recipeCraft54",
+    "Id": "recipeCraft55",
     "Title": "Coffre",
     "Description": "Un coffre classique pour ranger vos objets."
   },
   {
-    "Id": "recipeCraft55",
+    "Id": "recipeCraft56",
     "Title": "Grand coffre",
     "Description": "Idéal pour ranger plein d'objets. Peut aussi fonctionner avec une pompe aspirante."
   },
   {
-    "Id": "recipeCraft56",
+    "Id": "recipeCraft57",
     "Title": "Pompe aspirante",
     "Description": "La pompe aspirante a plusieurs utilisations lorsqu'elle est connectée à un déclencheur. Elle aspire l'eau vers un conteneur à eau. Elle ramasse les plantes pour les mettre dans un coffre. Elle peut même tirer et placer des objets à partir d'un coffre."
   },
   {
-    "Id": "recipeCraft57",
+    "Id": "recipeCraft58",
     "Title": "Tuyau d'aspiration",
     "Description": "Utilisez-le avec la pompe aspirante pour que les objets se déplacent entre les tuyaux."
   },
   {
-    "Id": "recipeCraft58",
+    "Id": "recipeCraft59",
     "Title": "Coin de tuyau d'aspiration",
     "Description": "Utilisez-le avec la pompe aspirante pour que les objets se déplacent entre les tuyaux."
   },
   {
-    "Id": "recipeCraft59",
+    "Id": "recipeCraft60",
     "Title": "Conteneur à essence",
     "Description": "Permet de stocker plus d'essence et d'en charger dans les moteurs à essence et autres pièces interactives qui ont besoin d'essence lorsqu'elles sont connectées."
   },
   {
-    "Id": "recipeCraft60",
+    "Id": "recipeCraft61",
     "Title": "Conteneur à batteries",
     "Description": "Permet de stocker plus de batteries et de les charger dans les moteurs électriques et autres pièces interactives qui ont besoin de batteries lorsqu'elles sont connectées."
   },
   {
-    "Id": "recipeCraft61",
+    "Id": "recipeCraft62",
     "Title": "Conteneur à eau",
     "Description": "Pour remplir le conteneur à eau, connectez-le à une pompe aspirante située sous l'eau."
   },
   {
-    "Id": "recipeCraft62",
+    "Id": "recipeCraft63",
     "Title": "Conteneur à produits chimiques"
   },
   {
-    "Id": "recipeCraft63",
+    "Id": "recipeCraft64",
     "Title": "Canon à eau",
     "Description": "Connectez-le à un conteneur à eau avec un déclencheur pour arroser vos plantes plus efficacement."
   },
   {
-    "Id": "recipeCraft64",
+    "Id": "recipeCraft65",
     "Title": "Lame de scie",
     "Description": "Coupez plus rapidement des arbres avec la lame de scie. Placez-la sur un palier connecté à un moteur puis utilisez-là sur un arbre."
   },
   {
-    "Id": "recipeCraft65",
+    "Id": "recipeCraft66",
     "Title": "Perceuse",
     "Description": "Utilisez la perceuse sur les rochers carrés pour extraire de la pierre et du métal. Placez-la sur un palier connecté à un moteur puis utilisez-la sur un rocher carré."
   },
   {
-    "Id": "recipeCraft66",
+    "Id": "recipeCraft67",
     "Title": "Seau d'eau",
     "Description": "Remplissez-le d'eau pour arroser vos plantes."
   },
   {
-    "Id": "recipeCraft67",
+    "Id": "recipeCraft68",
     "Title": "Sac de terre",
     "Description": "À utiliser au sol pour y placer vos graines."
   },
   {
-    "Id": "recipeCraft68",
+    "Id": "recipeCraft69",
     "Title": "Engrais",
     "Description": "Fait pousser les plantes plus rapidement."
   },
   {
-    "Id": "recipeCraft69",
+    "Id": "recipeCraft70",
     "Title": "Essence",
     "Description": "Alimente les moteurs à essence et les propulseurs."
   },
   {
-    "Id": "recipeCraft70",
+    "Id": "recipeCraft71",
     "Title": "Batterie",
     "Description": "Alimente les pièces électriques."
   },
   {
-    "Id": "recipeCraft71",
+    "Id": "recipeCraft72",
     "Title": "Colle"
   },
   {
-    "Id": "recipeCraft72",
+    "Id": "recipeCraft73",
     "Title": "Eau",
     "Description": "Permet d'arroser les plantes, mais n'est malheureusement pas potable."
   },
   {
-    "Id": "recipeCraft73",
+    "Id": "recipeCraft74",
     "Title": "Produits chimiques"
   },
   {
-    "Id": "recipeCraft74",
+    "Id": "recipeCraft75",
     "Title": "Munition de peinture",
     "Description": "Chargez votre outil de peinture et colorez vos créations."
   },
   {
-    "Id": "recipeCraft75",
+    "Id": "recipeCraft76",
     "Title": "Bâton lumineux",
     "Description": "Jetez-les la nuit ou dans d'autres endroits obscurs pour mieux voir."
   },
   {
-    "Id": "recipeCraft76",
+    "Id": "recipeCraft77",
     "Title": "Petite bonbonne explosive",
     "Description": "Une bonbonne hautement explosive en cas de fortes collisions ou avec des lances-patates\nCette bonbonne a un petit rayon d'explosion."
   },
   {
-    "Id": "recipeCraft77",
+    "Id": "recipeCraft78",
     "Title": "Grande bonbonne explosive",
     "Description": "Une bonbonne hautement explosive en cas de fortes collisions ou avec des lances-patates\nCette bonbonne a un grand rayon d'explosion."
   },
   {
-    "Id": "recipeCraft78",
+    "Id": "recipeCraft79",
     "Title": "Roue"
   },
   {
-    "Id": "recipeCraft79",
+    "Id": "recipeCraft80",
     "Title": "Grande roue"
   },
   {
-    "Id": "recipeCraft80",
+    "Id": "recipeCraft81",
     "Title": "Petit tuyau court"
   },
   {
-    "Id": "recipeCraft81",
+    "Id": "recipeCraft82",
     "Title": "Petit tuyau long"
   },
   {
-    "Id": "recipeCraft82",
+    "Id": "recipeCraft83",
     "Title": "Petit coude de tuyau"
   },
   {
-    "Id": "recipeCraft83",
+    "Id": "recipeCraft84",
     "Title": "Petit coin de tuyau en T"
   },
   {
-    "Id": "recipeCraft84",
+    "Id": "recipeCraft85",
     "Title": "Petit coin de tuyau"
   },
   {
-    "Id": "recipeCraft85",
+    "Id": "recipeCraft86",
     "Title": "Petit tuyau à 4 côtés"
   },
   {
-    "Id": "recipeCraft86",
+    "Id": "recipeCraft87",
     "Title": "Petit tuyau à 4 côtés en T"
   },
   {
-    "Id": "recipeCraft87",
+    "Id": "recipeCraft88",
     "Title": "Petit tuyau à 5 côtés"
   },
   {
-    "Id": "recipeCraft88",
+    "Id": "recipeCraft89",
     "Title": "Petit tuyau à 6 côtés"
   },
   {
-    "Id": "recipeCraft89",
+    "Id": "recipeCraft90",
     "Title": "Tuyau court"
   },
   {
-    "Id": "recipeCraft90",
+    "Id": "recipeCraft91",
     "Title": "Tuyau long"
   },
   {
-    "Id": "recipeCraft91",
+    "Id": "recipeCraft92",
     "Title": "Coin de tuyau"
   },
   {
-    "Id": "recipeCraft92",
+    "Id": "recipeCraft93",
     "Title": "Raccord de tuyau"
   },
   {
-    "Id": "recipeCraft93",
+    "Id": "recipeCraft94",
     "Title": "Valve"
   },
   {
-    "Id": "recipeCraft94",
+    "Id": "recipeCraft95",
     "Title": "Poutre en I courte"
   },
   {
-    "Id": "recipeCraft95",
+    "Id": "recipeCraft96",
     "Title": "Poutre en I longue"
   },
   {
-    "Id": "recipeCraft96",
+    "Id": "recipeCraft97",
     "Title": "Coin de poutre en I"
   },
   {
-    "Id": "recipeCraft97",
+    "Id": "recipeCraft98",
     "Title": "Extrémité de poutre en I"
   },
   {
-    "Id": "recipeCraft98",
+    "Id": "recipeCraft99",
     "Title": "Support de poutre en I"
   },
   {
-    "Id": "recipeCraft99",
+    "Id": "recipeCraft100",
     "Title": "Papier toilette"
   },
   {
-    "Id": "recipeCraft100",
+    "Id": "recipeCraft101",
     "Title": "Évier"
   },
   {
-    "Id": "recipeCraft101",
+    "Id": "recipeCraft102",
     "Title": "Climatiseur"
   },
   {
-    "Id": "recipeCraft102",
+    "Id": "recipeCraft103",
     "Title": "Tasse"
   },
   {
-    "Id": "recipeCraft103",
+    "Id": "recipeCraft104",
     "Title": "Botte de mannequin"
   },
   {
-    "Id": "recipeCraft104",
+    "Id": "recipeCraft105",
     "Title": "Main de mannequin"
   },
   {
-    "Id": "recipeCraft105",
+    "Id": "recipeCraft106",
     "Title": "Figurine de bébé canard"
   },
   {
-    "Id": "recipeCraft106",
+    "Id": "recipeCraft107",
     "Title": "Plante en pot"
   },
   {
-    "Id": "recipeCraft107",
+    "Id": "recipeCraft108",
     "Title": "Petite plante en pot"
   },
   {
-    "Id": "recipeCraft108",
+    "Id": "recipeCraft109",
     "Title": "Pied de vigne en pot"
   },
   {
-    "Id": "recipeCraft109",
+    "Id": "recipeCraft110",
     "Title": "Grand pot"
   },
   {
-    "Id": "recipeCraft110",
+    "Id": "recipeCraft111",
     "Title": "Graine en pot"
   },
   {
-    "Id": "recipeCraft111",
+    "Id": "recipeCraft112",
     "Title": "Cactus fleuri en pot"
   },
   {
-    "Id": "recipeCraft112",
+    "Id": "recipeCraft113",
     "Title": "Cactus en pot"
   },
   {
-    "Id": "recipeCraft113",
+    "Id": "recipeCraft114",
     "Title": "Fleur bleue en pot"
   },
   {
-    "Id": "recipeCraft114",
+    "Id": "recipeCraft115",
     "Title": "Petite fenêtre rectangulaire"
   },
   {
-    "Id": "recipeCraft115",
+    "Id": "recipeCraft116",
     "Title": "Fenêtre carrée"
   },
   {
-    "Id": "recipeCraft116",
+    "Id": "recipeCraft117",
     "Title": "Grande fenêtre rectangulaire"
   },
   {
-    "Id": "recipeCraft117",
+    "Id": "recipeCraft118",
     "Title": "Grand pare-brise"
   },
   {
-    "Id": "recipeCraft118",
+    "Id": "recipeCraft119",
     "Title": "Petit pare-brise"
   },
   {
-    "Id": "recipeCraft119",
+    "Id": "recipeCraft120",
     "Title": "Cône de signalisation"
   }
 ]

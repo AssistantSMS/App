@@ -13,38 +13,34 @@
   },
   {
     "Id": "consu4",
-    "Title": "Zestaw komponentów"
-  },
-  {
-    "Id": "consu5",
     "Title": "Nabój do malowania"
   },
   {
-    "Id": "consu6",
+    "Id": "consu5",
     "Title": "Świetlik"
   },
   {
-    "Id": "consu7",
+    "Id": "consu6",
     "Title": "Sunshake"
   },
   {
-    "Id": "consu8",
+    "Id": "consu7",
     "Title": "Pizzoburger"
   },
   {
-    "Id": "consu9",
+    "Id": "consu8",
     "Title": "Wegeburger"
   },
   {
-    "Id": "consu10",
+    "Id": "consu9",
     "Title": "Ożywcza bagietka"
   },
   {
-    "Id": "consu11",
+    "Id": "consu10",
     "Title": "Mleko aworka"
   },
   {
-    "Id": "consu12",
+    "Id": "consu11",
     "Title": "Worek ziemi"
   }
 ]

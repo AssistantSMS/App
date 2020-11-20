@@ -51,7 +51,7 @@
     ]
   },
   {
-    "appId": "consu12",
+    "appId": "consu11",
     "chances": [
       {
         "min": 2,
@@ -80,7 +80,7 @@
     ]
   },
   {
-    "appId": "consu4",
+    "appId": "comp1",
     "chances": [
       {
         "min": 2,
@@ -160,23 +160,6 @@
     ]
   },
   {
-    "appId": "intera27",
-    "chances": [
-      {
-        "min": 1,
-        "max": 1,
-        "chance": 3,
-        "type": 0
-      },
-      {
-        "min": 1,
-        "max": 1,
-        "chance": 3,
-        "type": 1
-      }
-    ]
-  },
-  {
     "appId": "intera28",
     "chances": [
       {
@@ -194,18 +177,18 @@
     ]
   },
   {
-    "appId": "intera30",
+    "appId": "intera29",
     "chances": [
       {
         "min": 1,
         "max": 1,
-        "chance": 1,
+        "chance": 3,
         "type": 0
       },
       {
         "min": 1,
         "max": 1,
-        "chance": 1,
+        "chance": 3,
         "type": 1
       }
     ]
@@ -233,6 +216,23 @@
       {
         "min": 1,
         "max": 1,
+        "chance": 1,
+        "type": 0
+      },
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 1,
+        "type": 1
+      }
+    ]
+  },
+  {
+    "appId": "intera33",
+    "chances": [
+      {
+        "min": 1,
+        "max": 1,
         "chance": 3,
         "type": 0
       },
@@ -245,7 +245,7 @@
     ]
   },
   {
-    "appId": "intera33",
+    "appId": "intera34",
     "chances": [
       {
         "min": 1,
@@ -381,23 +381,6 @@
     ]
   },
   {
-    "appId": "plant14",
-    "chances": [
-      {
-        "min": 1,
-        "max": 1,
-        "chance": 2,
-        "type": 0
-      },
-      {
-        "min": 1,
-        "max": 3,
-        "chance": 2,
-        "type": 1
-      }
-    ]
-  },
-  {
     "appId": "plant15",
     "chances": [
       {
@@ -432,7 +415,7 @@
     ]
   },
   {
-    "appId": "plant10",
+    "appId": "plant17",
     "chances": [
       {
         "min": 1,
@@ -443,7 +426,7 @@
       {
         "min": 1,
         "max": 3,
-        "chance": 1,
+        "chance": 2,
         "type": 1
       }
     ]
@@ -483,7 +466,24 @@
     ]
   },
   {
-    "appId": "plant18",
+    "appId": "plant13",
+    "chances": [
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 2,
+        "type": 0
+      },
+      {
+        "min": 1,
+        "max": 3,
+        "chance": 1,
+        "type": 1
+      }
+    ]
+  },
+  {
+    "appId": "ammo1",
     "chances": [
       {
         "min": 3,
@@ -500,7 +500,7 @@
     ]
   },
   {
-    "appId": "consu7",
+    "appId": "consu6",
     "chances": [
       {
         "min": 1,
@@ -602,7 +602,7 @@
     ]
   },
   {
-    "appId": "consu5",
+    "appId": "consu4",
     "chances": [
       {
         "min": 5,
@@ -619,7 +619,7 @@
     ]
   },
   {
-    "appId": "consu6",
+    "appId": "consu5",
     "chances": [
       {
         "min": 1,
@@ -738,7 +738,7 @@
     ]
   },
   {
-    "appId": "intera15",
+    "appId": "intera16",
     "chances": [
       {
         "min": 1,
@@ -755,7 +755,7 @@
     ]
   },
   {
-    "appId": "consu10",
+    "appId": "consu9",
     "chances": [
       {
         "min": 1,

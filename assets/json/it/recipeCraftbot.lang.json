@@ -229,297 +229,302 @@
   },
   {
     "Id": "recipeCraft52",
+    "Title": "Beacon",
+    "Description": "Emits a tracking signal that can be toggled in the Logbook."
+  },
+  {
+    "Id": "recipeCraft53",
     "Title": "Respawn Bed",
     "Description": "Take a lovely nap in this comfy bed to respawn in it after your mechanic has been knocked out."
   },
   {
-    "Id": "recipeCraft53",
+    "Id": "recipeCraft54",
     "Title": "Fridge",
     "Description": "Keeps your food fresh."
   },
   {
-    "Id": "recipeCraft54",
+    "Id": "recipeCraft55",
     "Title": "Chest",
     "Description": "A simple chest to store your items."
   },
   {
-    "Id": "recipeCraft55",
+    "Id": "recipeCraft56",
     "Title": "Large Chest",
     "Description": "Great for storing a lot of items. Can also be used with a Vacuum Pump."
   },
   {
-    "Id": "recipeCraft56",
+    "Id": "recipeCraft57",
     "Title": "Vacuum Pump",
     "Description": "The Vaccum Pump has many uses when connected to a trigger. Suck up water in to a water container. Pick up plants in to a chest. It can even shoot and place items from a chest."
   },
   {
-    "Id": "recipeCraft57",
+    "Id": "recipeCraft58",
     "Title": "Vacuum Pipe",
     "Description": "Use it with the Vacuum Pump to make items travel through pipes."
   },
   {
-    "Id": "recipeCraft58",
+    "Id": "recipeCraft59",
     "Title": "Vacuum Pipe Corner",
     "Description": "Use it with the Vacuum Pump to make items travel through pipes."
   },
   {
-    "Id": "recipeCraft59",
+    "Id": "recipeCraft60",
     "Title": "Gas Container",
     "Description": "Can stores more gas and loads gas in to Gas Engines and other interactive parts that require Gas when connected."
   },
   {
-    "Id": "recipeCraft60",
+    "Id": "recipeCraft61",
     "Title": "Battery Container",
     "Description": "Can Store more batteries and loads batteries in to Electric Engines and other interactive parts that require batteries when connected."
   },
   {
-    "Id": "recipeCraft61",
+    "Id": "recipeCraft62",
     "Title": "Water Container",
     "Description": "Connect it to a Vacuum Pump that is under water to fil the Water Container with water."
   },
   {
-    "Id": "recipeCraft62",
+    "Id": "recipeCraft63",
     "Title": "Chemical Container"
   },
   {
-    "Id": "recipeCraft63",
+    "Id": "recipeCraft64",
     "Title": "Water Cannon",
     "Description": "Connect it to a Water container with a trigger to water your plants more efficiently."
   },
   {
-    "Id": "recipeCraft64",
+    "Id": "recipeCraft65",
     "Title": "Saw Blade",
     "Description": "Cut down trees faster with the Saw Blade. Put it on a bearing that is connected to a engine and drive it in to a tree."
   },
   {
-    "Id": "recipeCraft65",
+    "Id": "recipeCraft66",
     "Title": "Drill",
     "Description": "Use the Drill to mine square rocks for stone and metal. Put it on a bearing that is connected to a engine and drive it in to a square rock."
   },
   {
-    "Id": "recipeCraft66",
+    "Id": "recipeCraft67",
     "Title": "Water Bucket",
     "Description": "Fill it with water to water your plants."
   },
   {
-    "Id": "recipeCraft67",
+    "Id": "recipeCraft68",
     "Title": "Soil Bag",
     "Description": "Use them on the ground to place your seeds in."
   },
   {
-    "Id": "recipeCraft68",
+    "Id": "recipeCraft69",
     "Title": "Fertilizer",
     "Description": "Makes plants grow faster."
   },
   {
-    "Id": "recipeCraft69",
+    "Id": "recipeCraft70",
     "Title": "Gasoline",
     "Description": "Used to power gas engines and thrusters."
   },
   {
-    "Id": "recipeCraft70",
+    "Id": "recipeCraft71",
     "Title": "Battery",
     "Description": "Used to power electric parts."
   },
   {
-    "Id": "recipeCraft71",
+    "Id": "recipeCraft72",
     "Title": "Glue"
   },
   {
-    "Id": "recipeCraft72",
+    "Id": "recipeCraft73",
     "Title": "Water",
     "Description": "Great for watering plants, unfortunately not good for drinking."
   },
   {
-    "Id": "recipeCraft73",
+    "Id": "recipeCraft74",
     "Title": "Chemicals"
   },
   {
-    "Id": "recipeCraft74",
+    "Id": "recipeCraft75",
     "Title": "Paint Ammo",
     "Description": "Load your Paint Tool and give your creations some color."
   },
   {
-    "Id": "recipeCraft75",
+    "Id": "recipeCraft76",
     "Title": "Glowstick",
     "Description": "Throw them at night or other dark places to see things better."
   },
   {
-    "Id": "recipeCraft76",
+    "Id": "recipeCraft77",
     "Title": "Small Explosive Canister",
     "Description": "Highly explosive canister that can detonate by strong collisions or by Spud Guns. This canister has a small explosion radius."
   },
   {
-    "Id": "recipeCraft77",
+    "Id": "recipeCraft78",
     "Title": "Large Explosive Canister",
     "Description": "Highly explosive canister that can detonate by strong collisions or by Spud Guns. This canister has a large explosion radius."
   },
   {
-    "Id": "recipeCraft78",
+    "Id": "recipeCraft79",
     "Title": "Ruota"
   },
   {
-    "Id": "recipeCraft79",
+    "Id": "recipeCraft80",
     "Title": "Ruota Grande"
   },
   {
-    "Id": "recipeCraft80",
+    "Id": "recipeCraft81",
     "Title": "Tubo Piccolo Corto"
   },
   {
-    "Id": "recipeCraft81",
+    "Id": "recipeCraft82",
     "Title": "Tubo Piccolo Lungo"
   },
   {
-    "Id": "recipeCraft82",
+    "Id": "recipeCraft83",
     "Title": "Tubo Piccolo Piega"
   },
   {
-    "Id": "recipeCraft83",
+    "Id": "recipeCraft84",
     "Title": "Tubo Piccolo Raccordo"
   },
   {
-    "Id": "recipeCraft84",
+    "Id": "recipeCraft85",
     "Title": "Tubo Piccolo Angolo"
   },
   {
-    "Id": "recipeCraft85",
+    "Id": "recipeCraft86",
     "Title": "Tubo Piccolo Quattro Uscite"
   },
   {
-    "Id": "recipeCraft86",
+    "Id": "recipeCraft87",
     "Title": "Tubo Piccolo Quattro Uscite Raccordo"
   },
   {
-    "Id": "recipeCraft87",
+    "Id": "recipeCraft88",
     "Title": "Tubo Piccolo Cinque Uscite"
   },
   {
-    "Id": "recipeCraft88",
+    "Id": "recipeCraft89",
     "Title": "Tubo Piccolo Sei Uscite"
   },
   {
-    "Id": "recipeCraft89",
+    "Id": "recipeCraft90",
     "Title": "Tubo Corto"
   },
   {
-    "Id": "recipeCraft90",
+    "Id": "recipeCraft91",
     "Title": "Tubo Lungo"
   },
   {
-    "Id": "recipeCraft91",
+    "Id": "recipeCraft92",
     "Title": "Angolo Tubo"
   },
   {
-    "Id": "recipeCraft92",
+    "Id": "recipeCraft93",
     "Title": "Giunzione Tubo"
   },
   {
-    "Id": "recipeCraft93",
+    "Id": "recipeCraft94",
     "Title": "Valvola"
   },
   {
-    "Id": "recipeCraft94",
+    "Id": "recipeCraft95",
     "Title": "Trave Corta"
   },
   {
-    "Id": "recipeCraft95",
+    "Id": "recipeCraft96",
     "Title": "Trave Lunga"
   },
   {
-    "Id": "recipeCraft96",
+    "Id": "recipeCraft97",
     "Title": "Giunzione Trave"
   },
   {
-    "Id": "recipeCraft97",
+    "Id": "recipeCraft98",
     "Title": "Estremità Trave"
   },
   {
-    "Id": "recipeCraft98",
+    "Id": "recipeCraft99",
     "Title": "Sostenitore Trave"
   },
   {
-    "Id": "recipeCraft99",
+    "Id": "recipeCraft100",
     "Title": "Carta Igienica"
   },
   {
-    "Id": "recipeCraft100",
+    "Id": "recipeCraft101",
     "Title": "Lavandino"
   },
   {
-    "Id": "recipeCraft101",
+    "Id": "recipeCraft102",
     "Title": "Condizionatore"
   },
   {
-    "Id": "recipeCraft102",
+    "Id": "recipeCraft103",
     "Title": "Tazza"
   },
   {
-    "Id": "recipeCraft103",
+    "Id": "recipeCraft104",
     "Title": "Scarpa Manichino"
   },
   {
-    "Id": "recipeCraft104",
+    "Id": "recipeCraft105",
     "Title": "Mano di manichino"
   },
   {
-    "Id": "recipeCraft105",
+    "Id": "recipeCraft106",
     "Title": "Statua Paperella"
   },
   {
-    "Id": "recipeCraft106",
+    "Id": "recipeCraft107",
     "Title": "Pianta in Vaso"
   },
   {
-    "Id": "recipeCraft107",
+    "Id": "recipeCraft108",
     "Title": "Pianta Piccola in Vaso"
   },
   {
-    "Id": "recipeCraft108",
+    "Id": "recipeCraft109",
     "Title": "Pianta Rampicante in Vaso"
   },
   {
-    "Id": "recipeCraft109",
+    "Id": "recipeCraft110",
     "Title": "Vaso Grande"
   },
   {
-    "Id": "recipeCraft110",
+    "Id": "recipeCraft111",
     "Title": "Pianta Seminata in Vaso"
   },
   {
-    "Id": "recipeCraft111",
+    "Id": "recipeCraft112",
     "Title": "Cactus in Fiore in Vaso"
   },
   {
-    "Id": "recipeCraft112",
+    "Id": "recipeCraft113",
     "Title": "Cactus in Vaso"
   },
   {
-    "Id": "recipeCraft113",
+    "Id": "recipeCraft114",
     "Title": "Fiore Blu in Vaso"
   },
   {
-    "Id": "recipeCraft114",
+    "Id": "recipeCraft115",
     "Title": "Finestrino Rettangolare Piccolo"
   },
   {
-    "Id": "recipeCraft115",
+    "Id": "recipeCraft116",
     "Title": "Finestrino Quadrato"
   },
   {
-    "Id": "recipeCraft116",
+    "Id": "recipeCraft117",
     "Title": "Finestrino Rettangolare Grande"
   },
   {
-    "Id": "recipeCraft117",
+    "Id": "recipeCraft118",
     "Title": "Parabrezza Grande"
   },
   {
-    "Id": "recipeCraft118",
+    "Id": "recipeCraft119",
     "Title": "Parabrezza Piccolo"
   },
   {
-    "Id": "recipeCraft119",
+    "Id": "recipeCraft120",
     "Title": "Cono Stradale"
   }
 ]

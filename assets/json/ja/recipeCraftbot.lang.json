@@ -1,17 +1,17 @@
 [
   {
     "Id": "recipeCraft1",
-    "Title": "接続 ツール",
+    "Title": "接続​ツール",
     "Description": "メカニック​お気に入り​の​ツール​です。​例えば​ガス​エンジン​と​ベアリング、​スラスター​と​ドライバーズシート​など、​インタラクティブ​パーツ​を​接続​する​の​に​使い​ます。"
   },
   {
     "Id": "recipeCraft2",
-    "Title": "ペイント ツール",
+    "Title": "ペイント​ツール",
     "Description": "パーツ​や​ブロック​を​ペイント​し​て​製作​品​に​個性​を​加え、​さらに​は​美しい​アート​へ​と​昇華​さ​せ​ましょ​う！​マウス​の​左​ボタン​を​使っ​て​ペイント、​右​ボタン​で​削除​し​ます。​Q​を​押し​て、​カラー​セレクタ​-​を​開き​ます。​マウス​の​左​ボタン​を​押し​ながら​ドラッグ​する​だけ​で、​より​大きな​面積​を​ペイント​でき​ます。"
   },
   {
     "Id": "recipeCraft3",
-    "Title": "溶接 ツール",
+    "Title": "溶接​ツール",
     "Description": "製作​品​を​溶接​し​ます！​\n​溶接​ツール​を​選択​後、​自由​な​状態​の​製作​品​を​左​クリック​し、​次に​もう​一つ​の​製作​品​の​表面​を​左​クリック​し​て​両者​を​溶接​さ​せ​ます。​リフト​上​で​パーツ​を​結合​さ​せる​こと​も​でき​ます。​最初​の​パーツ​上​で​マウス​の​左​ボタン​を​押し、​溶接​する​パーツ​に​ドラッグ​し​ます。"
   },
   {
@@ -229,297 +229,302 @@
   },
   {
     "Id": "recipeCraft52",
+    "Title": "Beacon",
+    "Description": "Emits a tracking signal that can be toggled in the Logbook."
+  },
+  {
+    "Id": "recipeCraft53",
     "Title": "リスポーンベッド",
     "Description": "この​快適​な​ベッド​で​ぐっすり​眠っ​て​おく​と、​あなた​の​メカニック​が​倒さ​れ​た​とき​に、​ここ​で​リスポーン​する​こと​が​でき​ます。"
   },
   {
-    "Id": "recipeCraft53",
+    "Id": "recipeCraft54",
     "Title": "冷蔵庫",
     "Description": "食べ物​の​鮮度​を​保ち​ます。"
   },
   {
-    "Id": "recipeCraft54",
+    "Id": "recipeCraft55",
     "Title": "チェスト",
     "Description": "アイテム​を​保管​し​て​おける​簡素​な​チェスト​です。"
   },
   {
-    "Id": "recipeCraft55",
+    "Id": "recipeCraft56",
     "Title": "チェスト（大）",
     "Description": "大量​の​アイテム​を​保管​する​の​に​適し​て​い​ます。​真空​ポンプ​で​使う​こと​も​でき​ます。"
   },
   {
-    "Id": "recipeCraft56",
+    "Id": "recipeCraft57",
     "Title": "真空ポンプ",
     "Description": "真空​ポンプ​は、​トリガー​に​接続​する​と​様々​な​用途​で​使う​こと​が​でき​ます。​水​を​吸い取っ​て​水​コンテナ​に​入れ​ます。​植物​を​チェスト​に​入れ​ます。​アイテム​を​チェスト​から​撃ち​出し​たり​配置​し​たり​する​こと​も​でき​ます。"
   },
   {
-    "Id": "recipeCraft57",
+    "Id": "recipeCraft58",
     "Title": "真空パイプ",
     "Description": "真空​ポンプ​と​一緒​に​使う​と、​アイテム​に​パイプ​の​中​を​通ら​せる​こと​が​でき​ます。"
   },
   {
-    "Id": "recipeCraft58",
+    "Id": "recipeCraft59",
     "Title": "真空パイプ（コーナー）",
     "Description": "真空​ポンプ​と​一緒​に​使う​と、​アイテム​に​パイプ​の​中​を​通ら​せる​こと​が​でき​ます。"
   },
   {
-    "Id": "recipeCraft59",
+    "Id": "recipeCraft60",
     "Title": "ガスコンテナ",
     "Description": "ガス​を​保管​し、​ガス​エンジン​や、​接続​時​に​ガス​が​必要​な​その他​の​インタラクティブ​パーツ​に​ガス​を​入れる​こと​が​でき​ます。"
   },
   {
-    "Id": "recipeCraft60",
+    "Id": "recipeCraft61",
     "Title": "バッテリーコンテナ",
     "Description": "バッテリー​を​保管​し、​電気​エンジン​や、​接続​時​に​バッテリー​が​必要​な​その他​の​インタラクティブ​パーツ​に​バッテリー​を​入れる​こと​が​でき​ます。"
   },
   {
-    "Id": "recipeCraft61",
+    "Id": "recipeCraft62",
     "Title": "水コンテナ",
     "Description": "水​より​下​の​位置​に​ある​真空​ポンプ​に​接続​する​と、​水​コンテナ​が​水​で​いっぱい​に​なり​ます。"
   },
   {
-    "Id": "recipeCraft62",
+    "Id": "recipeCraft63",
     "Title": "ケミカルコンテナ"
   },
   {
-    "Id": "recipeCraft63",
+    "Id": "recipeCraft64",
     "Title": "放水砲",
     "Description": "トリガー​で​水​コンテナ​に​接続​する​と、​植物​に​効率​よく​水​を​やる​こと​が​でき​ます。"
   },
   {
-    "Id": "recipeCraft64",
+    "Id": "recipeCraft65",
     "Title": "ノコ刃",
     "Description": "ノコ​刃​が​あれ​ば、​木​を​すばやく​切り倒す​こと​が​でき​ます。​エンジン​に​接続​し​た​ベアリング​に​配置​し​て、​木​の​近く​で​動かし​ましょ​う。"
   },
   {
-    "Id": "recipeCraft65",
+    "Id": "recipeCraft66",
     "Title": "ドリル",
     "Description": "ドリル​を​使え​ば、​四角い​岩​を​掘っ​て​石​や​金属​を​得る​こと​が​でき​ます。​エンジン​に​接続​し​た​ベアリング​に​配置​し​て、​四角い​岩​の​近く​で​動かし​ましょ​う。"
   },
   {
-    "Id": "recipeCraft66",
+    "Id": "recipeCraft67",
     "Title": "水バケツ",
     "Description": "水​で​満たし​て​植物​に​水​を​やり​ます。"
   },
   {
-    "Id": "recipeCraft67",
+    "Id": "recipeCraft68",
     "Title": "土袋",
     "Description": "地面​で​使う​と​種​を​植え​られる​よう​に​なり​ます。"
   },
   {
-    "Id": "recipeCraft68",
+    "Id": "recipeCraft69",
     "Title": "肥料",
     "Description": "植物​の​生育​を​促進​し​ます。"
   },
   {
-    "Id": "recipeCraft69",
+    "Id": "recipeCraft70",
     "Title": "ガソリン",
     "Description": "ガス​エンジン​と​スラスター​に​パワー​を​供給​する​の​に​使い​ます。"
   },
   {
-    "Id": "recipeCraft70",
+    "Id": "recipeCraft71",
     "Title": "バッテリー",
     "Description": "電気​パーツ​に​パワー​を​供給​する​の​に​使い​ます。"
   },
   {
-    "Id": "recipeCraft71",
+    "Id": "recipeCraft72",
     "Title": "接着剤"
   },
   {
-    "Id": "recipeCraft72",
+    "Id": "recipeCraft73",
     "Title": "水",
     "Description": "植物​に​水​を​やる​の​に​適し​て​いる​ものの、​残念​ながら​飲用​で​は​あり​ませ​ん。"
   },
   {
-    "Id": "recipeCraft73",
+    "Id": "recipeCraft74",
     "Title": "ケミカル"
   },
   {
-    "Id": "recipeCraft74",
+    "Id": "recipeCraft75",
     "Title": "塗装弾薬",
     "Description": "塗装​具​に​装填​し、​作成​物​に​色​を​塗り​ます。"
   },
   {
-    "Id": "recipeCraft75",
+    "Id": "recipeCraft76",
     "Title": "サイリウム",
     "Description": "夜​や​暗い​場所​で​投げる​と​よく​見える​よう​に​なる。"
   },
   {
-    "Id": "recipeCraft76",
+    "Id": "recipeCraft77",
     "Title": "小型爆薬缶",
     "Description": "スパッドガン​で​強力​な​衝撃​を​与える​と​起爆​する​非常​に​爆発​性​の​高い​缶。​この​缶​の​爆破​範囲​は​小規模​です。"
   },
   {
-    "Id": "recipeCraft77",
+    "Id": "recipeCraft78",
     "Title": "大型爆薬缶",
     "Description": "スパッドガン​で​強力​な​衝撃​を​与える​と​起爆​する​非常​に​爆発​性​の​高い​缶。​この​缶​の​爆破​範囲​は​大​規模​です。"
   },
   {
-    "Id": "recipeCraft78",
+    "Id": "recipeCraft79",
     "Title": "ホイール"
   },
   {
-    "Id": "recipeCraft79",
+    "Id": "recipeCraft80",
     "Title": "ホイール（大）"
   },
   {
-    "Id": "recipeCraft80",
+    "Id": "recipeCraft81",
     "Title": "パイプ（小、短）"
   },
   {
-    "Id": "recipeCraft81",
+    "Id": "recipeCraft82",
     "Title": "パイプ（小、長）"
   },
   {
-    "Id": "recipeCraft82",
+    "Id": "recipeCraft83",
     "Title": "パイプ（小、曲がり）"
   },
   {
-    "Id": "recipeCraft83",
+    "Id": "recipeCraft84",
     "Title": "パイプ（小、T字）"
   },
   {
-    "Id": "recipeCraft84",
+    "Id": "recipeCraft85",
     "Title": "パイプ（小、コーナー）"
   },
   {
-    "Id": "recipeCraft85",
+    "Id": "recipeCraft86",
     "Title": "パイプ（小、四方向）"
   },
   {
-    "Id": "recipeCraft86",
+    "Id": "recipeCraft87",
     "Title": "パイプ（小、四方T）"
   },
   {
-    "Id": "recipeCraft87",
+    "Id": "recipeCraft88",
     "Title": "パイプ（小、五方向）"
   },
   {
-    "Id": "recipeCraft88",
+    "Id": "recipeCraft89",
     "Title": "パイプ（小、六方向）"
   },
   {
-    "Id": "recipeCraft89",
+    "Id": "recipeCraft90",
     "Title": "パイプ（短）"
   },
   {
-    "Id": "recipeCraft90",
+    "Id": "recipeCraft91",
     "Title": "パイプ（長）"
   },
   {
-    "Id": "recipeCraft91",
+    "Id": "recipeCraft92",
     "Title": "パイプ（コーナー）"
   },
   {
-    "Id": "recipeCraft92",
+    "Id": "recipeCraft93",
     "Title": "パイプ（接合部）"
   },
   {
-    "Id": "recipeCraft93",
+    "Id": "recipeCraft94",
     "Title": "バルブ"
   },
   {
-    "Id": "recipeCraft94",
+    "Id": "recipeCraft95",
     "Title": "I型鋼（短）"
   },
   {
-    "Id": "recipeCraft95",
+    "Id": "recipeCraft96",
     "Title": "I型鋼（長）"
   },
   {
-    "Id": "recipeCraft96",
+    "Id": "recipeCraft97",
     "Title": "I型鋼（コーナー）"
   },
   {
-    "Id": "recipeCraft97",
+    "Id": "recipeCraft98",
     "Title": "I型鋼（端部）"
   },
   {
-    "Id": "recipeCraft98",
+    "Id": "recipeCraft99",
     "Title": "I型鋼（ホルダー）"
   },
   {
-    "Id": "recipeCraft99",
+    "Id": "recipeCraft100",
     "Title": "トイレットペーパー"
   },
   {
-    "Id": "recipeCraft100",
+    "Id": "recipeCraft101",
     "Title": "シンク"
   },
   {
-    "Id": "recipeCraft101",
+    "Id": "recipeCraft102",
     "Title": "エアコン"
   },
   {
-    "Id": "recipeCraft102",
+    "Id": "recipeCraft103",
     "Title": "マグ"
   },
   {
-    "Id": "recipeCraft103",
+    "Id": "recipeCraft104",
     "Title": "マネキンの靴"
   },
   {
-    "Id": "recipeCraft104",
+    "Id": "recipeCraft105",
     "Title": "マネキンの手"
   },
   {
-    "Id": "recipeCraft105",
+    "Id": "recipeCraft106",
     "Title": "コガモの小象"
   },
   {
-    "Id": "recipeCraft106",
+    "Id": "recipeCraft107",
     "Title": "鉢植え"
   },
   {
-    "Id": "recipeCraft107",
+    "Id": "recipeCraft108",
     "Title": "鉢植え（小）"
   },
   {
-    "Id": "recipeCraft108",
+    "Id": "recipeCraft109",
     "Title": "鉢植え（蔓）"
   },
   {
-    "Id": "recipeCraft109",
+    "Id": "recipeCraft110",
     "Title": "鉢（大）"
   },
   {
-    "Id": "recipeCraft110",
+    "Id": "recipeCraft111",
     "Title": "鉢植え（種）"
   },
   {
-    "Id": "recipeCraft111",
+    "Id": "recipeCraft112",
     "Title": "鉢植え（花サボテン）"
   },
   {
-    "Id": "recipeCraft112",
+    "Id": "recipeCraft113",
     "Title": "鉢植え（サボテン）"
   },
   {
-    "Id": "recipeCraft113",
+    "Id": "recipeCraft114",
     "Title": "鉢植え（青い花）"
   },
   {
-    "Id": "recipeCraft114",
+    "Id": "recipeCraft115",
     "Title": "窓（小、長方形）"
   },
   {
-    "Id": "recipeCraft115",
+    "Id": "recipeCraft116",
     "Title": "窓（四角）"
   },
   {
-    "Id": "recipeCraft116",
+    "Id": "recipeCraft117",
     "Title": "窓（大、長方形）"
   },
   {
-    "Id": "recipeCraft117",
+    "Id": "recipeCraft118",
     "Title": "フロントガラス（大）"
   },
   {
-    "Id": "recipeCraft118",
+    "Id": "recipeCraft119",
     "Title": "フロントガラス（小）"
   },
   {
-    "Id": "recipeCraft119",
+    "Id": "recipeCraft120",
     "Title": "トラフィックコーン"
   }
 ]

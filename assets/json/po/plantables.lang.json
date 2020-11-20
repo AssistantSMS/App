@@ -37,42 +37,38 @@
   },
   {
     "Id": "plant10",
-    "Title": "Banan"
+    "Title": "Nasiono bawełny"
   },
   {
     "Id": "plant11",
-    "Title": "Borówka"
+    "Title": "Banan"
   },
   {
     "Id": "plant12",
-    "Title": "Pomarańcza"
+    "Title": "Borówka"
   },
   {
     "Id": "plant13",
-    "Title": "Ananas"
+    "Title": "Pomarańcza"
   },
   {
     "Id": "plant14",
-    "Title": "Marchewka"
+    "Title": "Ananas"
   },
   {
     "Id": "plant15",
-    "Title": "Burak"
+    "Title": "Marchewka"
   },
   {
     "Id": "plant16",
-    "Title": "Pomidor"
+    "Title": "Burak"
   },
   {
     "Id": "plant17",
-    "Title": "Brokuł"
+    "Title": "Pomidor"
   },
   {
     "Id": "plant18",
-    "Title": "Kartofel"
-  },
-  {
-    "Id": "plant19",
-    "Title": "Nasiono bawełny"
+    "Title": "Brokuł"
   }
 ]

@@ -13,38 +13,34 @@
   },
   {
     "Id": "consu4",
-    "Title": "Kit de componentes"
-  },
-  {
-    "Id": "consu5",
     "Title": "Munición de pintura"
   },
   {
-    "Id": "consu6",
+    "Id": "consu5",
     "Title": "Palo fluorescente"
   },
   {
-    "Id": "consu7",
+    "Id": "consu6",
     "Title": "Sunshake"
   },
   {
-    "Id": "consu8",
+    "Id": "consu7",
     "Title": "Hamburguesa de pizza"
   },
   {
-    "Id": "consu9",
+    "Id": "consu8",
     "Title": "Hamburguesa vegetal"
   },
   {
-    "Id": "consu10",
+    "Id": "consu9",
     "Title": "Baguete de resurrección"
   },
   {
-    "Id": "consu11",
+    "Id": "consu10",
     "Title": "Leche de woc"
   },
   {
-    "Id": "consu12",
+    "Id": "consu11",
     "Title": "Saco de tierra"
   }
 ]

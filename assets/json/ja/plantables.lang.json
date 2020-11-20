@@ -37,42 +37,38 @@
   },
   {
     "Id": "plant10",
-    "Title": "バナナ"
+    "Title": "綿の種"
   },
   {
     "Id": "plant11",
-    "Title": "ブルーベリー"
+    "Title": "バナナ"
   },
   {
     "Id": "plant12",
-    "Title": "オレンジ"
+    "Title": "ブルーベリー"
   },
   {
     "Id": "plant13",
-    "Title": "パイナップル"
+    "Title": "オレンジ"
   },
   {
     "Id": "plant14",
-    "Title": "ニンジン"
+    "Title": "パイナップル"
   },
   {
     "Id": "plant15",
-    "Title": "レッドビート"
+    "Title": "ニンジン"
   },
   {
     "Id": "plant16",
-    "Title": "トマト"
+    "Title": "レッドビート"
   },
   {
     "Id": "plant17",
-    "Title": "ブロッコリー"
+    "Title": "トマト"
   },
   {
     "Id": "plant18",
-    "Title": "ジャガイモ"
-  },
-  {
-    "Id": "plant19",
-    "Title": "綿の種"
+    "Title": "ブロッコリー"
   }
 ]

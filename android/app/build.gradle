@@ -46,7 +46,7 @@ android {
     defaultConfig {
         applicationId "com.kurtlourens.scrap_mechanic"
         minSdkVersion 21
-        targetSdkVersion 28
+        targetSdkVersion 29
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
         multiDexEnabled true

@@ -265,6 +265,36 @@
     "Description": "Torso"
   },
   {
+    "Id": "custTorM33",
+    "Title": "Logical T-Shirt",
+    "Description": "Torso"
+  },
+  {
+    "Id": "custTorM34",
+    "Title": "Woc Love T-Shirt",
+    "Description": "Torso"
+  },
+  {
+    "Id": "custTorM35",
+    "Title": "Pizza Burger T-Shirt",
+    "Description": "Torso"
+  },
+  {
+    "Id": "custTorM36",
+    "Title": "Carrot Pattern T-Shirt",
+    "Description": "Torso"
+  },
+  {
+    "Id": "custTorM37",
+    "Title": "Corn Pattern T-Shirt",
+    "Description": "Torso"
+  },
+  {
+    "Id": "custTorM38",
+    "Title": "Gas T-Shirt",
+    "Description": "Torso"
+  },
+  {
     "Id": "custGloM2",
     "Title": "Mechanic Gloves",
     "Description": "Gloves"

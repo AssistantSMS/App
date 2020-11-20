@@ -399,6 +399,54 @@
     "CustomisationSource": 1
   },
   {
+    "Id": "custTorM33",
+    "Icon": "items/custTorM33.png",
+    "Color": "",
+    "PhysicsMaterial": "",
+    "Flammable": false,
+    "CustomisationSource": 1
+  },
+  {
+    "Id": "custTorM34",
+    "Icon": "items/custTorM34.png",
+    "Color": "",
+    "PhysicsMaterial": "",
+    "Flammable": false,
+    "CustomisationSource": 1
+  },
+  {
+    "Id": "custTorM35",
+    "Icon": "items/custTorM35.png",
+    "Color": "",
+    "PhysicsMaterial": "",
+    "Flammable": false,
+    "CustomisationSource": 1
+  },
+  {
+    "Id": "custTorM36",
+    "Icon": "items/custTorM36.png",
+    "Color": "",
+    "PhysicsMaterial": "",
+    "Flammable": false,
+    "CustomisationSource": 1
+  },
+  {
+    "Id": "custTorM37",
+    "Icon": "items/custTorM37.png",
+    "Color": "",
+    "PhysicsMaterial": "",
+    "Flammable": false,
+    "CustomisationSource": 1
+  },
+  {
+    "Id": "custTorM38",
+    "Icon": "items/custTorM38.png",
+    "Color": "",
+    "PhysicsMaterial": "",
+    "Flammable": false,
+    "CustomisationSource": 1
+  },
+  {
     "Id": "custGloM2",
     "Icon": "items/custGloM2.png",
     "Color": "",

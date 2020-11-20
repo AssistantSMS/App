@@ -229,297 +229,302 @@
   },
   {
     "Id": "recipeCraft52",
+    "Title": "Beacon",
+    "Description": "Emits a tracking signal that can be toggled in the Logbook."
+  },
+  {
+    "Id": "recipeCraft53",
     "Title": "Leito de Ressurgimento",
     "Description": "Tire uma soneca gostosa nesta cama confortável para ressurgir nela após seu mecanista apagar."
   },
   {
-    "Id": "recipeCraft53",
+    "Id": "recipeCraft54",
     "Title": "Geladeira",
     "Description": "Mantém seus alimentos frescos."
   },
   {
-    "Id": "recipeCraft54",
+    "Id": "recipeCraft55",
     "Title": "Baú",
     "Description": "Um baú simples para armazenar seus itens."
   },
   {
-    "Id": "recipeCraft55",
+    "Id": "recipeCraft56",
     "Title": "Baú Grande",
     "Description": "Ótimo para armazenar vários itens. Pode ser usado com uma Bomba de Vácuo."
   },
   {
-    "Id": "recipeCraft56",
+    "Id": "recipeCraft57",
     "Title": "Bomba de Vácuo",
     "Description": "A bomba de vácuo tem várias utilidades ao ser conectada a um acionador. Suga água para um reservatório de água. Coloca plantas em um baú. Ela pode até mesmo disparar e posicionar itens a partir de um baú."
   },
   {
-    "Id": "recipeCraft57",
+    "Id": "recipeCraft58",
     "Title": "Cano de Vácuo",
     "Description": "Use com a bomba de vácuo para transportar itens por meio dos canos."
   },
   {
-    "Id": "recipeCraft58",
+    "Id": "recipeCraft59",
     "Title": "Cano de Vácuo Convergente",
     "Description": "Use com a bomba de vácuo para transportar itens por meio dos canos."
   },
   {
-    "Id": "recipeCraft59",
+    "Id": "recipeCraft60",
     "Title": "Contêiner de Gasolina",
     "Description": "Pode armazenar mais gasolina, além de alimentar motores de combustão e outras peças interativas que precisam de gasolina quando estão conectados."
   },
   {
-    "Id": "recipeCraft60",
+    "Id": "recipeCraft61",
     "Title": "Caixa de Bateria",
     "Description": "Pode armazenar mais baterias, além de carregar motores elétricos e outras peças interativas que precisam de bateria quando estão conectados."
   },
   {
-    "Id": "recipeCraft61",
+    "Id": "recipeCraft62",
     "Title": "Reservatório de Água",
     "Description": "Conecte-o a uma Bomba de Vácuo sob a água para encher o reservatório com água."
   },
   {
-    "Id": "recipeCraft62",
+    "Id": "recipeCraft63",
     "Title": "Contêiner Químico"
   },
   {
-    "Id": "recipeCraft63",
+    "Id": "recipeCraft64",
     "Title": "Canhão de Água",
     "Description": "Conecte a um reservatório de água com um acionador para regar as plantas com mais eficiência."
   },
   {
-    "Id": "recipeCraft64",
+    "Id": "recipeCraft65",
     "Title": "Serra",
     "Description": "Corte árvores mais rápido com a serra. Coloque em um rolamento conectado a um motor e dirija na direção de uma árvore."
   },
   {
-    "Id": "recipeCraft65",
+    "Id": "recipeCraft66",
     "Title": "Broca",
     "Description": "Use a broca para minerar rochas em busca de pedra e metal. Coloque em um rolamento conectado a um motor e dirija na direção de uma rocha quadrada."
   },
   {
-    "Id": "recipeCraft66",
+    "Id": "recipeCraft67",
     "Title": "Balde de Água",
     "Description": "Encha-o com água para regar suas plantas."
   },
   {
-    "Id": "recipeCraft67",
+    "Id": "recipeCraft68",
     "Title": "Saco de Terra",
     "Description": "Use no solo para colocar suas sementes."
   },
   {
-    "Id": "recipeCraft68",
+    "Id": "recipeCraft69",
     "Title": "Fertilizante",
     "Description": "Faz as plantas crescerem mais rápido."
   },
   {
-    "Id": "recipeCraft69",
+    "Id": "recipeCraft70",
     "Title": "Gasolina",
     "Description": "Usada para alimentar motores de combustão e propulsores."
   },
   {
-    "Id": "recipeCraft70",
+    "Id": "recipeCraft71",
     "Title": "Bateria",
     "Description": "Usada para alimentar peças elétricas."
   },
   {
-    "Id": "recipeCraft71",
+    "Id": "recipeCraft72",
     "Title": "Cola"
   },
   {
-    "Id": "recipeCraft72",
+    "Id": "recipeCraft73",
     "Title": "Água",
     "Description": "Ótima para regar as plantas. Infelizmente, não é ideal para beber."
   },
   {
-    "Id": "recipeCraft73",
+    "Id": "recipeCraft74",
     "Title": "Químicos"
   },
   {
-    "Id": "recipeCraft74",
+    "Id": "recipeCraft75",
     "Title": "Munição Pigmentadora",
     "Description": "Carregue o Pigmentador e dê cor às suas criações."
   },
   {
-    "Id": "recipeCraft75",
+    "Id": "recipeCraft76",
     "Title": "Bastão Fluorescente",
     "Description": "Use-os à noite ou em lugares escuros para ver melhor as coisas."
   },
   {
-    "Id": "recipeCraft76",
+    "Id": "recipeCraft77",
     "Title": "Botijão Explosivo Pequeno",
     "Description": "Um botijão altamente explosivo que pode ser detonado por colisões fortes ou por Batatarmas.\nEste botijão tem um curto alcance de explosão."
   },
   {
-    "Id": "recipeCraft77",
+    "Id": "recipeCraft78",
     "Title": "Botijão Explosivo Grande",
     "Description": "Um botijão altamente explosivo que pode ser detonado por colisões fortes ou por Batatarmas.\nEste botijão tem um grande alcance de explosão."
   },
   {
-    "Id": "recipeCraft78",
+    "Id": "recipeCraft79",
     "Title": "Roda"
   },
   {
-    "Id": "recipeCraft79",
+    "Id": "recipeCraft80",
     "Title": "Roda Grade"
   },
   {
-    "Id": "recipeCraft80",
+    "Id": "recipeCraft81",
     "Title": "Cano Pequeno Curto"
   },
   {
-    "Id": "recipeCraft81",
+    "Id": "recipeCraft82",
     "Title": "Cano Pequeno Longo"
   },
   {
-    "Id": "recipeCraft82",
+    "Id": "recipeCraft83",
     "Title": "Cano Pequeno Curvo"
   },
   {
-    "Id": "recipeCraft83",
+    "Id": "recipeCraft84",
     "Title": "Cano em Tê Pequeno"
   },
   {
-    "Id": "recipeCraft84",
+    "Id": "recipeCraft85",
     "Title": "Cano Pequeno Convergente"
   },
   {
-    "Id": "recipeCraft85",
+    "Id": "recipeCraft86",
     "Title": "Cruzeta de Cano Pequeno"
   },
   {
-    "Id": "recipeCraft86",
+    "Id": "recipeCraft87",
     "Title": "Cruzeta Cano em Tê Pequeno"
   },
   {
-    "Id": "recipeCraft87",
+    "Id": "recipeCraft88",
     "Title": "Cruzeta Quíntupla de Cano Pequeno"
   },
   {
-    "Id": "recipeCraft88",
+    "Id": "recipeCraft89",
     "Title": "Cruzeta Sêxtupla de Cano Pequeno"
   },
   {
-    "Id": "recipeCraft89",
+    "Id": "recipeCraft90",
     "Title": "Cano Curto"
   },
   {
-    "Id": "recipeCraft90",
+    "Id": "recipeCraft91",
     "Title": "Cano Longo"
   },
   {
-    "Id": "recipeCraft91",
+    "Id": "recipeCraft92",
     "Title": "Cano Convergente"
   },
   {
-    "Id": "recipeCraft92",
+    "Id": "recipeCraft93",
     "Title": "Junção de Cano"
   },
   {
-    "Id": "recipeCraft93",
+    "Id": "recipeCraft94",
     "Title": "Válvula"
   },
   {
-    "Id": "recipeCraft94",
+    "Id": "recipeCraft95",
     "Title": "Viga I Curta"
   },
   {
-    "Id": "recipeCraft95",
+    "Id": "recipeCraft96",
     "Title": "Viga I Longa"
   },
   {
-    "Id": "recipeCraft96",
+    "Id": "recipeCraft97",
     "Title": "Viga I Convergente"
   },
   {
-    "Id": "recipeCraft97",
+    "Id": "recipeCraft98",
     "Title": "Extremidade de Viga I"
   },
   {
-    "Id": "recipeCraft98",
+    "Id": "recipeCraft99",
     "Title": "Suporte de Viga I"
   },
   {
-    "Id": "recipeCraft99",
+    "Id": "recipeCraft100",
     "Title": "Papel Higiênico"
   },
   {
-    "Id": "recipeCraft100",
+    "Id": "recipeCraft101",
     "Title": "Pia"
   },
   {
-    "Id": "recipeCraft101",
+    "Id": "recipeCraft102",
     "Title": "Ar-condicionado"
   },
   {
-    "Id": "recipeCraft102",
+    "Id": "recipeCraft103",
     "Title": "Caneca"
   },
   {
-    "Id": "recipeCraft103",
+    "Id": "recipeCraft104",
     "Title": "Bota de Manequim"
   },
   {
-    "Id": "recipeCraft104",
+    "Id": "recipeCraft105",
     "Title": "Mão de Manequim"
   },
   {
-    "Id": "recipeCraft105",
+    "Id": "recipeCraft106",
     "Title": "Escultura de Patinho"
   },
   {
-    "Id": "recipeCraft106",
+    "Id": "recipeCraft107",
     "Title": "Vaso de Planta"
   },
   {
-    "Id": "recipeCraft107",
+    "Id": "recipeCraft108",
     "Title": "Vaso de Planta Pequeno"
   },
   {
-    "Id": "recipeCraft108",
+    "Id": "recipeCraft109",
     "Title": "Vaso de Videira"
   },
   {
-    "Id": "recipeCraft109",
+    "Id": "recipeCraft110",
     "Title": "Vaso Grande"
   },
   {
-    "Id": "recipeCraft110",
+    "Id": "recipeCraft111",
     "Title": "Vaso de Broto"
   },
   {
-    "Id": "recipeCraft111",
+    "Id": "recipeCraft112",
     "Title": "Vaso de Cacto Florido"
   },
   {
-    "Id": "recipeCraft112",
+    "Id": "recipeCraft113",
     "Title": "Vaso de Cacto"
   },
   {
-    "Id": "recipeCraft113",
+    "Id": "recipeCraft114",
     "Title": "Vaso de Flor Azul"
   },
   {
-    "Id": "recipeCraft114",
+    "Id": "recipeCraft115",
     "Title": "Janela Retangular Pequena"
   },
   {
-    "Id": "recipeCraft115",
+    "Id": "recipeCraft116",
     "Title": "Janela Quadrada"
   },
   {
-    "Id": "recipeCraft116",
+    "Id": "recipeCraft117",
     "Title": "Janela Retangular Grande"
   },
   {
-    "Id": "recipeCraft117",
+    "Id": "recipeCraft118",
     "Title": "Para-brisa Grande"
   },
   {
-    "Id": "recipeCraft118",
+    "Id": "recipeCraft119",
     "Title": "Para-brisa Pequeno"
   },
   {
-    "Id": "recipeCraft119",
+    "Id": "recipeCraft120",
     "Title": "Cone de Trânsito"
   }
 ]

@@ -37,42 +37,38 @@
   },
   {
     "Id": "plant10",
-    "Title": "바나나"
+    "Title": "목화 씨"
   },
   {
     "Id": "plant11",
-    "Title": "블루베리"
+    "Title": "바나나"
   },
   {
     "Id": "plant12",
-    "Title": "오렌지"
+    "Title": "블루베리"
   },
   {
     "Id": "plant13",
-    "Title": "파인애플"
+    "Title": "오렌지"
   },
   {
     "Id": "plant14",
-    "Title": "당근"
+    "Title": "파인애플"
   },
   {
     "Id": "plant15",
-    "Title": "비트"
+    "Title": "당근"
   },
   {
     "Id": "plant16",
-    "Title": "토마토"
+    "Title": "비트"
   },
   {
     "Id": "plant17",
-    "Title": "브로콜리"
+    "Title": "토마토"
   },
   {
     "Id": "plant18",
-    "Title": "감자"
-  },
-  {
-    "Id": "plant19",
-    "Title": "목화 씨"
+    "Title": "브로콜리"
   }
 ]

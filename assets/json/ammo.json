@@ -6,7 +6,7 @@
     "PhysicsMaterial": "Metal",
     "Ratings": {
       "Density": 2,
-      "Durability": 1,
+      "Durability": 2,
       "Friction": 4,
       "Buoyancy": 3
     },

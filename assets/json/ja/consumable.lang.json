@@ -13,38 +13,34 @@
   },
   {
     "Id": "consu4",
-    "Title": "構成キット"
-  },
-  {
-    "Id": "consu5",
     "Title": "塗装弾薬"
   },
   {
-    "Id": "consu6",
+    "Id": "consu5",
     "Title": "サイリウム"
   },
   {
-    "Id": "consu7",
+    "Id": "consu6",
     "Title": "サンシェイク"
   },
   {
-    "Id": "consu8",
+    "Id": "consu7",
     "Title": "ピザバーガー"
   },
   {
-    "Id": "consu9",
+    "Id": "consu8",
     "Title": "野菜バーガー"
   },
   {
-    "Id": "consu10",
+    "Id": "consu9",
     "Title": "蘇生パン"
   },
   {
-    "Id": "consu11",
+    "Id": "consu10",
     "Title": "ウォクミルク"
   },
   {
-    "Id": "consu12",
+    "Id": "consu11",
     "Title": "土袋"
   }
 ]

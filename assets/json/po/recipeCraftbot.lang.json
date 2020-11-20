@@ -229,297 +229,302 @@
   },
   {
     "Id": "recipeCraft52",
+    "Title": "Beacon",
+    "Description": "Emits a tracking signal that can be toggled in the Logbook."
+  },
+  {
+    "Id": "recipeCraft53",
     "Title": "Łóżko odrodzenia",
     "Description": "Czas na drzemkę w wygodnym łóżku! Gdy mechanik zostanie znokautowany, odrodzi się w tym miejscu."
   },
   {
-    "Id": "recipeCraft53",
+    "Id": "recipeCraft54",
     "Title": "Lodówka",
     "Description": "Utrzymuje jedzenie w świeżości."
   },
   {
-    "Id": "recipeCraft54",
+    "Id": "recipeCraft55",
     "Title": "Skrzynia",
     "Description": "Prosta skrzynia do przechowywania przedmiotów."
   },
   {
-    "Id": "recipeCraft55",
+    "Id": "recipeCraft56",
     "Title": "Duża skrzynia",
     "Description": "Świetna do przechowywania wielu przedmiotów. Może być także używana z pompą próżniową."
   },
   {
-    "Id": "recipeCraft56",
+    "Id": "recipeCraft57",
     "Title": "Pompa próżniowa",
     "Description": "Pompa próżniowa ma wiele zastosowań, gdy połączy się ją z włącznikiem. Odessij wodę i przelej ją do zbiornika. Podnieś rośliny i umieść je w skrzyni. Możesz nawet strzelać i umieszczać przedmioty ze skrzyni."
   },
   {
-    "Id": "recipeCraft57",
+    "Id": "recipeCraft58",
     "Title": "Rura ssąca",
     "Description": "Wykorzystaj w połączeniu z pompą próżniową, aby przenosić przedmioty przez rurę."
   },
   {
-    "Id": "recipeCraft58",
+    "Id": "recipeCraft59",
     "Title": "Narożnik rury ssącej",
     "Description": "Wykorzystaj w połączeniu z pompą próżniową, aby przenosić przedmioty przez rurę."
   },
   {
-    "Id": "recipeCraft59",
+    "Id": "recipeCraft60",
     "Title": "Zbiornik z benzyną",
     "Description": "Pozwala przechowywać więcej benzyny i doprowadzać ją do silników spalinowych i innych części interaktywnych, które wymagają benzyny po podłączeniu."
   },
   {
-    "Id": "recipeCraft60",
+    "Id": "recipeCraft61",
     "Title": "Pojemnik na akumulatory",
     "Description": "Pozwala przechowywać więcej akumulatorów i doprowadzać je do silników elektrycznych i innych części interaktywnych, które wymagają akumulatora po podłączeniu."
   },
   {
-    "Id": "recipeCraft61",
+    "Id": "recipeCraft62",
     "Title": "Zbiornik z wodą",
     "Description": "Połącz go z pompą próżniową znajdującą się pod wodą, aby napełnić zbiornik wodą."
   },
   {
-    "Id": "recipeCraft62",
+    "Id": "recipeCraft63",
     "Title": "Zbiornik z chemikaliami"
   },
   {
-    "Id": "recipeCraft63",
+    "Id": "recipeCraft64",
     "Title": "Działko wodne",
     "Description": "Połącz je ze zbiornikiem na wodę z włącznikiem, aby bardziej efektywnie podlewać rośliny."
   },
   {
-    "Id": "recipeCraft64",
+    "Id": "recipeCraft65",
     "Title": "Piła",
     "Description": "Piła pozwoli ci szybciej ścinać drzewa. Umieść na łożysku połączonym z silnikiem i wyrusz w kierunku drzewa."
   },
   {
-    "Id": "recipeCraft65",
+    "Id": "recipeCraft66",
     "Title": "Wiertło",
     "Description": "Użyj wiertła, aby wydobywać kwadratowe skały, które dostarczą ci kamienia i metalu. Umieść na łożysku połączonym z silnikiem i wyrusz w kierunku kwadratowej skały."
   },
   {
-    "Id": "recipeCraft66",
+    "Id": "recipeCraft67",
     "Title": "Wiadro z wodą",
     "Description": "Napełnij wodą, aby podlać rośliny."
   },
   {
-    "Id": "recipeCraft67",
+    "Id": "recipeCraft68",
     "Title": "Worek ziemi",
     "Description": "Użyj ziemi, by zasadzić w niej nasiona."
   },
   {
-    "Id": "recipeCraft68",
+    "Id": "recipeCraft69",
     "Title": "Nawóz",
     "Description": "Sprawia, że rośliny rosną szybciej"
   },
   {
-    "Id": "recipeCraft69",
+    "Id": "recipeCraft70",
     "Title": "Benzyna",
     "Description": "Używana do zasilania silników spalinowych i rakietowych."
   },
   {
-    "Id": "recipeCraft70",
+    "Id": "recipeCraft71",
     "Title": "Akumulator",
     "Description": "Używany do zasilania elektrycznych części"
   },
   {
-    "Id": "recipeCraft71",
+    "Id": "recipeCraft72",
     "Title": "Klej"
   },
   {
-    "Id": "recipeCraft72",
+    "Id": "recipeCraft73",
     "Title": "Woda",
     "Description": "Świetna do podlewania roślin, niestety nie nadaje się do picia."
   },
   {
-    "Id": "recipeCraft73",
+    "Id": "recipeCraft74",
     "Title": "Chemikalia"
   },
   {
-    "Id": "recipeCraft74",
+    "Id": "recipeCraft75",
     "Title": "Nabój do malowania",
     "Description": "Naładuj narzędzie do malowania i pokoloruj swoje konstrukcje."
   },
   {
-    "Id": "recipeCraft75",
+    "Id": "recipeCraft76",
     "Title": "Świetlik",
     "Description": "Rzucaj nimi w nocy lub w ciemnych miejscach, aby rozświetlić otoczenie."
   },
   {
-    "Id": "recipeCraft76",
+    "Id": "recipeCraft77",
     "Title": "Mały wybuchowy kanister",
     "Description": "Niezwykle wybuchowy kanister, który można zdetonować poprzez silne zderzenie lub za pomocą działka na kartofle\nTen kanister ma niewielkie pole rażenia."
   },
   {
-    "Id": "recipeCraft77",
+    "Id": "recipeCraft78",
     "Title": "Duży wybuchowy kanister",
     "Description": "Niezwykle wybuchowy kanister, który można zdetonować poprzez silne zderzenie lub za pomocą działka na kartofle\nTen kanister ma duże pole rażenia."
   },
   {
-    "Id": "recipeCraft78",
+    "Id": "recipeCraft79",
     "Title": "Koło"
   },
   {
-    "Id": "recipeCraft79",
+    "Id": "recipeCraft80",
     "Title": "Duże koło"
   },
   {
-    "Id": "recipeCraft80",
+    "Id": "recipeCraft81",
     "Title": "Mała krótka rura"
   },
   {
-    "Id": "recipeCraft81",
+    "Id": "recipeCraft82",
     "Title": "Mała długa rura"
   },
   {
-    "Id": "recipeCraft82",
+    "Id": "recipeCraft83",
     "Title": "Małe kolanko"
   },
   {
-    "Id": "recipeCraft83",
+    "Id": "recipeCraft84",
     "Title": "Mały trójnik"
   },
   {
-    "Id": "recipeCraft84",
+    "Id": "recipeCraft85",
     "Title": "Mały trójnik kątowy"
   },
   {
-    "Id": "recipeCraft85",
+    "Id": "recipeCraft86",
     "Title": "Mały czwórnik"
   },
   {
-    "Id": "recipeCraft86",
+    "Id": "recipeCraft87",
     "Title": "Mały czwórnik kątowy"
   },
   {
-    "Id": "recipeCraft87",
+    "Id": "recipeCraft88",
     "Title": "Mały piątnik"
   },
   {
-    "Id": "recipeCraft88",
+    "Id": "recipeCraft89",
     "Title": "Mały szóstnik"
   },
   {
-    "Id": "recipeCraft89",
+    "Id": "recipeCraft90",
     "Title": "Krótka rura"
   },
   {
-    "Id": "recipeCraft90",
+    "Id": "recipeCraft91",
     "Title": "Długa rura"
   },
   {
-    "Id": "recipeCraft91",
+    "Id": "recipeCraft92",
     "Title": "Kolanko"
   },
   {
-    "Id": "recipeCraft92",
+    "Id": "recipeCraft93",
     "Title": "Łącznik rur"
   },
   {
-    "Id": "recipeCraft93",
+    "Id": "recipeCraft94",
     "Title": "Zawór"
   },
   {
-    "Id": "recipeCraft94",
+    "Id": "recipeCraft95",
     "Title": "Krótki dwuteownik"
   },
   {
-    "Id": "recipeCraft95",
+    "Id": "recipeCraft96",
     "Title": "Długi dwuteownik"
   },
   {
-    "Id": "recipeCraft96",
+    "Id": "recipeCraft97",
     "Title": "Narożnik dwuteownika"
   },
   {
-    "Id": "recipeCraft97",
+    "Id": "recipeCraft98",
     "Title": "Końcówka dwuteownika"
   },
   {
-    "Id": "recipeCraft98",
+    "Id": "recipeCraft99",
     "Title": "Wspornik dwuteownika"
   },
   {
-    "Id": "recipeCraft99",
+    "Id": "recipeCraft100",
     "Title": "Papier toaletowy"
   },
   {
-    "Id": "recipeCraft100",
+    "Id": "recipeCraft101",
     "Title": "Zlew"
   },
   {
-    "Id": "recipeCraft101",
+    "Id": "recipeCraft102",
     "Title": "Klimatyzator"
   },
   {
-    "Id": "recipeCraft102",
+    "Id": "recipeCraft103",
     "Title": "Kubek"
   },
   {
-    "Id": "recipeCraft103",
+    "Id": "recipeCraft104",
     "Title": "But manekina"
   },
   {
-    "Id": "recipeCraft104",
+    "Id": "recipeCraft105",
     "Title": "Ręka manekina"
   },
   {
-    "Id": "recipeCraft105",
+    "Id": "recipeCraft106",
     "Title": "Figurka kaczuszki"
   },
   {
-    "Id": "recipeCraft106",
+    "Id": "recipeCraft107",
     "Title": "Roślina doniczkowa"
   },
   {
-    "Id": "recipeCraft107",
+    "Id": "recipeCraft108",
     "Title": "Mała roślina doniczkowa"
   },
   {
-    "Id": "recipeCraft108",
+    "Id": "recipeCraft109",
     "Title": "Winorośl doniczkowa"
   },
   {
-    "Id": "recipeCraft109",
+    "Id": "recipeCraft110",
     "Title": "Duża donica"
   },
   {
-    "Id": "recipeCraft110",
+    "Id": "recipeCraft111",
     "Title": "Roślina nasienna w donicy"
   },
   {
-    "Id": "recipeCraft111",
+    "Id": "recipeCraft112",
     "Title": "Kwitnący kaktus"
   },
   {
-    "Id": "recipeCraft112",
+    "Id": "recipeCraft113",
     "Title": "Kaktus w doniczce"
   },
   {
-    "Id": "recipeCraft113",
+    "Id": "recipeCraft114",
     "Title": "Niebieski kwiat doniczkowy"
   },
   {
-    "Id": "recipeCraft114",
+    "Id": "recipeCraft115",
     "Title": "Małe prostokątne okno"
   },
   {
-    "Id": "recipeCraft115",
+    "Id": "recipeCraft116",
     "Title": "Kwadratowe okno"
   },
   {
-    "Id": "recipeCraft116",
+    "Id": "recipeCraft117",
     "Title": "Duże prostokątne okno"
   },
   {
-    "Id": "recipeCraft117",
+    "Id": "recipeCraft118",
     "Title": "Duża przednia szyba"
   },
   {
-    "Id": "recipeCraft118",
+    "Id": "recipeCraft119",
     "Title": "Mała przednia szyba"
   },
   {
-    "Id": "recipeCraft119",
+    "Id": "recipeCraft120",
     "Title": "Pachołek drogowy"
   }
 ]

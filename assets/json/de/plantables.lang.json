@@ -37,42 +37,38 @@
   },
   {
     "Id": "plant10",
-    "Title": "Banane"
+    "Title": "Baumwollsamen"
   },
   {
     "Id": "plant11",
-    "Title": "Blaubeere"
+    "Title": "Banane"
   },
   {
     "Id": "plant12",
-    "Title": "Orange"
+    "Title": "Blaubeere"
   },
   {
     "Id": "plant13",
-    "Title": "Ananas"
+    "Title": "Orange"
   },
   {
     "Id": "plant14",
-    "Title": "Karotte"
+    "Title": "Ananas"
   },
   {
     "Id": "plant15",
-    "Title": "Rote Beete"
+    "Title": "Karotte"
   },
   {
     "Id": "plant16",
-    "Title": "Tomate"
+    "Title": "Rote Beete"
   },
   {
     "Id": "plant17",
-    "Title": "Brokkoli"
+    "Title": "Tomate"
   },
   {
     "Id": "plant18",
-    "Title": "Kartoffel"
-  },
-  {
-    "Id": "plant19",
-    "Title": "Baumwollsamen"
+    "Title": "Brokkoli"
   }
 ]

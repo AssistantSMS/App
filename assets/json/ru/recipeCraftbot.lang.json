@@ -229,297 +229,302 @@
   },
   {
     "Id": "recipeCraft52",
+    "Title": "Beacon",
+    "Description": "Emits a tracking signal that can be toggled in the Logbook."
+  },
+  {
+    "Id": "recipeCraft53",
     "Title": "Кровать для возрождения",
     "Description": "Здесь можно отдохнуть и восстановиться после нокаута."
   },
   {
-    "Id": "recipeCraft53",
+    "Id": "recipeCraft54",
     "Title": "Холодильник",
     "Description": "Сохраняет еду свежей."
   },
   {
-    "Id": "recipeCraft54",
+    "Id": "recipeCraft55",
     "Title": "Сундук",
     "Description": "Обычный сундук для хранения."
   },
   {
-    "Id": "recipeCraft55",
+    "Id": "recipeCraft56",
     "Title": "Большой сундук",
     "Description": "Здесь помещается множество вещей. Можно подсоединить вакуумный насос."
   },
   {
-    "Id": "recipeCraft56",
+    "Id": "recipeCraft57",
     "Title": "Вакуумный насос",
     "Description": "Если присоединить к триггеру, можно найти массу применений. Закачать воду в контейнер. Собрать растения в сундук. Насос может даже стрелять и разбрасывать предметы из сундука."
   },
   {
-    "Id": "recipeCraft57",
+    "Id": "recipeCraft58",
     "Title": "Вакуумная труба",
     "Description": "Присоедините к вакуумному насосу, и используйте для передачи жидкостей и предметов."
   },
   {
-    "Id": "recipeCraft58",
+    "Id": "recipeCraft59",
     "Title": "Вакуумная труба – угол",
     "Description": "Присоедините к вакуумному насосу, и используйте для передачи жидкостей и предметов."
   },
   {
-    "Id": "recipeCraft59",
+    "Id": "recipeCraft60",
     "Title": "Канистра с бензином",
     "Description": "Подсоединяйте канистры к двигателям и другим интерактивным элементам."
   },
   {
-    "Id": "recipeCraft60",
+    "Id": "recipeCraft61",
     "Title": "Контейнер для батарей",
     "Description": "Можно хранить больше батарей. Подсоединяйте к двигателям и другим интерактивным элементам."
   },
   {
-    "Id": "recipeCraft61",
+    "Id": "recipeCraft62",
     "Title": "Водяной бак",
     "Description": "Чтобы наполнить, подсоедините к подводному вакуумному насосу."
   },
   {
-    "Id": "recipeCraft62",
+    "Id": "recipeCraft63",
     "Title": "Контейнер с химикалиями"
   },
   {
-    "Id": "recipeCraft63",
+    "Id": "recipeCraft64",
     "Title": "Водяная пушка",
     "Description": "Присоедините к водяному баку триггером и поливайте растения еще эффективнее."
   },
   {
-    "Id": "recipeCraft64",
+    "Id": "recipeCraft65",
     "Title": "Лезвие пилы",
     "Description": "Позволяет быстрее валить деревья. Поставьте на подшипник, присоединенный к двигателю, и подвезите к дереву."
   },
   {
-    "Id": "recipeCraft65",
+    "Id": "recipeCraft66",
     "Title": "Бур",
     "Description": "Позволяет добывать металл и камень из квадратных камней. Поставьте на подшипник, присоединенный к двигателю, и подвезите к камню."
   },
   {
-    "Id": "recipeCraft66",
+    "Id": "recipeCraft67",
     "Title": "Ведро для воды",
     "Description": "Наполните его водой и полейте растения"
   },
   {
-    "Id": "recipeCraft67",
+    "Id": "recipeCraft68",
     "Title": "Мешок с землей",
     "Description": "Почва для семян. Используйте на полу."
   },
   {
-    "Id": "recipeCraft68",
+    "Id": "recipeCraft69",
     "Title": "Удобрение",
     "Description": "Заставляет растения расти быстрее."
   },
   {
-    "Id": "recipeCraft69",
+    "Id": "recipeCraft70",
     "Title": "Бензин",
     "Description": "Топливо для бензиновых и реактивных двигателей."
   },
   {
-    "Id": "recipeCraft70",
+    "Id": "recipeCraft71",
     "Title": "Батарея",
     "Description": "Питание для электроприборов."
   },
   {
-    "Id": "recipeCraft71",
+    "Id": "recipeCraft72",
     "Title": "Клей"
   },
   {
-    "Id": "recipeCraft72",
+    "Id": "recipeCraft73",
     "Title": "Вода",
     "Description": "Годится для полива, но, увы, пить ее нельзя."
   },
   {
-    "Id": "recipeCraft73",
+    "Id": "recipeCraft74",
     "Title": "Химикалии"
   },
   {
-    "Id": "recipeCraft74",
+    "Id": "recipeCraft75",
     "Title": "Краскозаряд",
     "Description": "Зарядите краскопульт и добавьте своим творениям цвета."
   },
   {
-    "Id": "recipeCraft75",
+    "Id": "recipeCraft76",
     "Title": "Химический фонарь",
     "Description": "Кидайте их в темные места или используйте ночью, чтобы больше увидеть."
   },
   {
-    "Id": "recipeCraft76",
+    "Id": "recipeCraft77",
     "Title": "Малая канистра взрывчатки",
     "Description": "Крайне взрывоопасная канистра. Детонирует при ударе и картофельном обстреле.\nМалый радиус взрыва."
   },
   {
-    "Id": "recipeCraft77",
+    "Id": "recipeCraft78",
     "Title": "Большая канистра взрывчатки",
     "Description": "Крайне взрывоопасная канистра. Детонирует при ударе и картофельном обстреле.\nБольшой радиус взрыва."
   },
   {
-    "Id": "recipeCraft78",
+    "Id": "recipeCraft79",
     "Title": "Колесо"
   },
   {
-    "Id": "recipeCraft79",
+    "Id": "recipeCraft80",
     "Title": "Большое колесо"
   },
   {
-    "Id": "recipeCraft80",
+    "Id": "recipeCraft81",
     "Title": "Малая труба – короткая"
   },
   {
-    "Id": "recipeCraft81",
+    "Id": "recipeCraft82",
     "Title": "Малая труба – длинная"
   },
   {
-    "Id": "recipeCraft82",
-    "Title": "Малая труба – угол"
-  },
-  {
     "Id": "recipeCraft83",
-    "Title": "Малая труба – Т-сочленение"
+    "Title": "Малая труба – угол"
   },
   {
     "Id": "recipeCraft84",
-    "Title": "Малая труба – угол"
+    "Title": "Малая труба – Т-сочленение"
   },
   {
     "Id": "recipeCraft85",
-    "Title": "Малая труба – крестовина"
+    "Title": "Малая труба – угол"
   },
   {
     "Id": "recipeCraft86",
-    "Title": "Малая труба – Т-крестовина"
+    "Title": "Малая труба – крестовина"
   },
   {
     "Id": "recipeCraft87",
-    "Title": "Малая труба – 5-конечное сочленение"
+    "Title": "Малая труба – Т-крестовина"
   },
   {
     "Id": "recipeCraft88",
-    "Title": "Малая труба – 6-конечное сочленение"
+    "Title": "Малая труба – 5-конечное сочленение"
   },
   {
     "Id": "recipeCraft89",
-    "Title": "Труба – короткая"
+    "Title": "Малая труба – 6-конечное сочленение"
   },
   {
     "Id": "recipeCraft90",
-    "Title": "Труба – длинная"
+    "Title": "Труба – короткая"
   },
   {
     "Id": "recipeCraft91",
-    "Title": "Труба – угол"
+    "Title": "Труба – длинная"
   },
   {
     "Id": "recipeCraft92",
-    "Title": "Труба – сочленение"
+    "Title": "Труба – угол"
   },
   {
     "Id": "recipeCraft93",
-    "Title": "Вентиль"
+    "Title": "Труба – сочленение"
   },
   {
     "Id": "recipeCraft94",
-    "Title": "Двутавр – короткий"
+    "Title": "Вентиль"
   },
   {
     "Id": "recipeCraft95",
-    "Title": "Двутавр – длинный"
+    "Title": "Двутавр – короткий"
   },
   {
     "Id": "recipeCraft96",
-    "Title": "Двутавр – угол"
+    "Title": "Двутавр – длинный"
   },
   {
     "Id": "recipeCraft97",
-    "Title": "Двутавр – наконечник"
+    "Title": "Двутавр – угол"
   },
   {
     "Id": "recipeCraft98",
-    "Title": "Двутавр – опора"
+    "Title": "Двутавр – наконечник"
   },
   {
     "Id": "recipeCraft99",
-    "Title": "Туалетная бумага"
+    "Title": "Двутавр – опора"
   },
   {
     "Id": "recipeCraft100",
-    "Title": "Раковина"
+    "Title": "Туалетная бумага"
   },
   {
     "Id": "recipeCraft101",
-    "Title": "Кондиционер"
+    "Title": "Раковина"
   },
   {
     "Id": "recipeCraft102",
-    "Title": "Кружка"
+    "Title": "Кондиционер"
   },
   {
     "Id": "recipeCraft103",
-    "Title": "Ботинок манекена"
+    "Title": "Кружка"
   },
   {
     "Id": "recipeCraft104",
-    "Title": "Рука манекена"
+    "Title": "Ботинок манекена"
   },
   {
     "Id": "recipeCraft105",
-    "Title": "Фигурка утенка"
+    "Title": "Рука манекена"
   },
   {
     "Id": "recipeCraft106",
-    "Title": "Растение в горшке"
+    "Title": "Фигурка утенка"
   },
   {
     "Id": "recipeCraft107",
-    "Title": "Малое растение в горшке"
+    "Title": "Растение в горшке"
   },
   {
     "Id": "recipeCraft108",
-    "Title": "Лоза в горшке"
+    "Title": "Малое растение в горшке"
   },
   {
     "Id": "recipeCraft109",
-    "Title": "Большой горшок"
+    "Title": "Лоза в горшке"
   },
   {
     "Id": "recipeCraft110",
-    "Title": "Саженец в горшке"
+    "Title": "Большой горшок"
   },
   {
     "Id": "recipeCraft111",
-    "Title": "Цветущий кактус в горшке"
+    "Title": "Саженец в горшке"
   },
   {
     "Id": "recipeCraft112",
-    "Title": "Кактус в горшке"
+    "Title": "Цветущий кактус в горшке"
   },
   {
     "Id": "recipeCraft113",
-    "Title": "Синий цветок в горшке"
+    "Title": "Кактус в горшке"
   },
   {
     "Id": "recipeCraft114",
-    "Title": "Малое прямоугольное окно"
+    "Title": "Синий цветок в горшке"
   },
   {
     "Id": "recipeCraft115",
-    "Title": "Квадратное окно"
+    "Title": "Малое прямоугольное окно"
   },
   {
     "Id": "recipeCraft116",
-    "Title": "Большое прямоугольное окно"
+    "Title": "Квадратное окно"
   },
   {
     "Id": "recipeCraft117",
-    "Title": "Большое ветровое стекло"
+    "Title": "Большое прямоугольное окно"
   },
   {
     "Id": "recipeCraft118",
-    "Title": "Малое ветровое стекло"
+    "Title": "Большое ветровое стекло"
   },
   {
     "Id": "recipeCraft119",
+    "Title": "Малое ветровое стекло"
+  },
+  {
+    "Id": "recipeCraft120",
     "Title": "Дорожный конус"
   }
 ]

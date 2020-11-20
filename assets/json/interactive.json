@@ -257,13 +257,13 @@
     "Color": "df7f01",
     "PhysicsMaterial": "Mechanical",
     "Ratings": {
-      "Density": 5,
+      "Density": 3,
       "Durability": 6,
       "Friction": 3,
       "Buoyancy": 2
     },
     "Box": {
-      "X": 4,
+      "X": 3,
       "Y": 8,
       "Z": 4
     },

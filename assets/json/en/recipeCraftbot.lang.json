@@ -229,7 +229,7 @@
   },
   {
     "Id": "recipeCraft52",
-    "Title": "Radio Beacon",
+    "Title": "Beacon",
     "Description": "Emits a tracking signal that can be toggled in the Logbook."
   },
   {

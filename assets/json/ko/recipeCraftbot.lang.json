@@ -229,297 +229,302 @@
   },
   {
     "Id": "recipeCraft52",
+    "Title": "Beacon",
+    "Description": "Emits a tracking signal that can be toggled in the Logbook."
+  },
+  {
+    "Id": "recipeCraft53",
     "Title": "부활 침대",
     "Description": "정비공이 쓰러진 후, 편안한 침대에서 단잠을 잠깐 자면 부활합니다."
   },
   {
-    "Id": "recipeCraft53",
+    "Id": "recipeCraft54",
     "Title": "냉장고",
     "Description": "음식을 신선하게 보관해줍니다."
   },
   {
-    "Id": "recipeCraft54",
+    "Id": "recipeCraft55",
     "Title": "상자",
     "Description": "아이템을 보관하는 간단한 상자입니다."
   },
   {
-    "Id": "recipeCraft55",
+    "Id": "recipeCraft56",
     "Title": "대형 상자",
     "Description": "많은 아이템을 보관하기에 좋습니다. 진공 펌프와 함께 사용 가능합니다."
   },
   {
-    "Id": "recipeCraft56",
+    "Id": "recipeCraft57",
     "Title": "진공 펌프",
     "Description": "진공 펌프는 트리거와 연결해 다양하게 활용할 수 있습니다. 물통에서는 물을 끌어올립니다. 상자에서는 식물을 집습니다. 상자에서 아이템을 쏘거나 배치할 수도 있습니다."
   },
   {
-    "Id": "recipeCraft57",
+    "Id": "recipeCraft58",
     "Title": "진공 파이프",
     "Description": "진공 펌프와 함께 사용해 파이프 사이에서 아이템을 옮기세요."
   },
   {
-    "Id": "recipeCraft58",
+    "Id": "recipeCraft59",
     "Title": "코너 진공 파이프",
     "Description": "진공 펌프와 함께 사용해 파이프 사이에서 아이템을 옮기세요."
   },
   {
-    "Id": "recipeCraft59",
+    "Id": "recipeCraft60",
     "Title": "가솔린 용기",
     "Description": "가솔린을 더 보관할 수 있으며, 가솔린 엔진 및 연결되었을 때 가솔린이 필요한 상호작용 부품에 가솔린을 채웁니다."
   },
   {
-    "Id": "recipeCraft60",
+    "Id": "recipeCraft61",
     "Title": "배터리 통",
     "Description": "배터리를 더 보관할 수 있으며, 전기 엔진 및 연결되었을 때 배터리가 필요한 상호작용 부품에 배터리를 채웁니다."
   },
   {
-    "Id": "recipeCraft61",
+    "Id": "recipeCraft62",
     "Title": "물통",
     "Description": "수중의 진공 펌프에 연결하면 물통에 물을 채울 수 있습니다."
   },
   {
-    "Id": "recipeCraft62",
+    "Id": "recipeCraft63",
     "Title": "화학물질 용기"
   },
   {
-    "Id": "recipeCraft63",
+    "Id": "recipeCraft64",
     "Title": "물대포",
     "Description": "트리거, 물통과 연결하고 식물에 더욱 효율적으로 물을 주세요."
   },
   {
-    "Id": "recipeCraft64",
+    "Id": "recipeCraft65",
     "Title": "톱날",
     "Description": "톱날이 있으면 나무를 빠르게 벨 수 있습니다. 엔진과 연결된 베어링에 놓고 나무로 운전해보세요."
   },
   {
-    "Id": "recipeCraft65",
+    "Id": "recipeCraft66",
     "Title": "드릴",
     "Description": "드릴을 사용해 사각형 바위에서 암석과 금속을 캐내세요. 엔진과 연결된 베어링에 놓고 사각형 바위으로 운전해보세요."
   },
   {
-    "Id": "recipeCraft66",
+    "Id": "recipeCraft67",
     "Title": "물 양동이",
     "Description": "물로 채워서 식물에게 물을 주세요."
   },
   {
-    "Id": "recipeCraft67",
+    "Id": "recipeCraft68",
     "Title": "흙 봉지",
     "Description": "땅에서 사용하면 씨를 심을 수 있습니다."
   },
   {
-    "Id": "recipeCraft68",
+    "Id": "recipeCraft69",
     "Title": "비료",
     "Description": "식물이 더 빠르게 자라도록 해줍니다."
   },
   {
-    "Id": "recipeCraft69",
+    "Id": "recipeCraft70",
     "Title": "가솔린",
     "Description": "가솔린 엔진과 추진기에 동력을 공급하는 데 사용합니다."
   },
   {
-    "Id": "recipeCraft70",
+    "Id": "recipeCraft71",
     "Title": "배터리",
     "Description": "전기 부품에 전력을 공급하는 데 사용합니다."
   },
   {
-    "Id": "recipeCraft71",
+    "Id": "recipeCraft72",
     "Title": "풀"
   },
   {
-    "Id": "recipeCraft72",
+    "Id": "recipeCraft73",
     "Title": "물",
     "Description": "식물에 주기는 좋습니다. 아쉽지만 마시기에는 적절하지 않네요."
   },
   {
-    "Id": "recipeCraft73",
+    "Id": "recipeCraft74",
     "Title": "화학물질"
   },
   {
-    "Id": "recipeCraft74",
+    "Id": "recipeCraft75",
     "Title": "도색용 총알",
     "Description": "도색 도구에 장전하고 창작물에 색을 입히세요."
   },
   {
-    "Id": "recipeCraft75",
+    "Id": "recipeCraft76",
     "Title": "야광 스틱",
     "Description": "밤이나 어두운 곳에 던지면 시야를 밝힐 수 있습니다."
   },
   {
-    "Id": "recipeCraft76",
+    "Id": "recipeCraft77",
     "Title": "소형 폭발성 통",
     "Description": "심하게 부딪치거나 장난감총으로 쏘면 펑 폭발하는 통입니다.\n폭발 범위가 좁습니다."
   },
   {
-    "Id": "recipeCraft77",
+    "Id": "recipeCraft78",
     "Title": "대형 폭발성 통",
     "Description": "심하게 부딪치거나 장난감총으로 쏘면 펑 폭발하는 통입니다.\n폭발 범위가 넓습니다."
   },
   {
-    "Id": "recipeCraft78",
+    "Id": "recipeCraft79",
     "Title": "바퀴"
   },
   {
-    "Id": "recipeCraft79",
+    "Id": "recipeCraft80",
     "Title": "대형 바퀴"
   },
   {
-    "Id": "recipeCraft80",
+    "Id": "recipeCraft81",
     "Title": "짧은 소형 파이프"
   },
   {
-    "Id": "recipeCraft81",
+    "Id": "recipeCraft82",
     "Title": "긴 소형 파이프"
   },
   {
-    "Id": "recipeCraft82",
+    "Id": "recipeCraft83",
     "Title": "곡선 소형 파이프"
   },
   {
-    "Id": "recipeCraft83",
+    "Id": "recipeCraft84",
     "Title": "T자 소형 파이프"
   },
   {
-    "Id": "recipeCraft84",
+    "Id": "recipeCraft85",
     "Title": "코너 소형 파이프"
   },
   {
-    "Id": "recipeCraft85",
+    "Id": "recipeCraft86",
     "Title": "4방향 소형 파이프"
   },
   {
-    "Id": "recipeCraft86",
+    "Id": "recipeCraft87",
     "Title": "4방향 T자 소형 파이프"
   },
   {
-    "Id": "recipeCraft87",
+    "Id": "recipeCraft88",
     "Title": "5방향 소형 파이프"
   },
   {
-    "Id": "recipeCraft88",
+    "Id": "recipeCraft89",
     "Title": "6방향 소형 파이프"
   },
   {
-    "Id": "recipeCraft89",
+    "Id": "recipeCraft90",
     "Title": "짧은 파이프"
   },
   {
-    "Id": "recipeCraft90",
+    "Id": "recipeCraft91",
     "Title": "긴 파이프"
   },
   {
-    "Id": "recipeCraft91",
+    "Id": "recipeCraft92",
     "Title": "코너 파이프"
   },
   {
-    "Id": "recipeCraft92",
+    "Id": "recipeCraft93",
     "Title": "연결부 파이프"
   },
   {
-    "Id": "recipeCraft93",
+    "Id": "recipeCraft94",
     "Title": "밸브"
   },
   {
-    "Id": "recipeCraft94",
+    "Id": "recipeCraft95",
     "Title": "짧은 I자형 대들보"
   },
   {
-    "Id": "recipeCraft95",
+    "Id": "recipeCraft96",
     "Title": "긴 I자형 대들보"
   },
   {
-    "Id": "recipeCraft96",
+    "Id": "recipeCraft97",
     "Title": "코너 I자형 대들보"
   },
   {
-    "Id": "recipeCraft97",
+    "Id": "recipeCraft98",
     "Title": "I자형 대들보 끝부분"
   },
   {
-    "Id": "recipeCraft98",
+    "Id": "recipeCraft99",
     "Title": "I자형 대들보 홀더"
   },
   {
-    "Id": "recipeCraft99",
+    "Id": "recipeCraft100",
     "Title": "휴지"
   },
   {
-    "Id": "recipeCraft100",
+    "Id": "recipeCraft101",
     "Title": "싱크대"
   },
   {
-    "Id": "recipeCraft101",
+    "Id": "recipeCraft102",
     "Title": "에어컨"
   },
   {
-    "Id": "recipeCraft102",
+    "Id": "recipeCraft103",
     "Title": "진흙"
   },
   {
-    "Id": "recipeCraft103",
+    "Id": "recipeCraft104",
     "Title": "마네킹 부츠"
   },
   {
-    "Id": "recipeCraft104",
+    "Id": "recipeCraft105",
     "Title": "마네킹 손"
   },
   {
-    "Id": "recipeCraft105",
+    "Id": "recipeCraft106",
     "Title": "작은 오리 인형"
   },
   {
-    "Id": "recipeCraft106",
+    "Id": "recipeCraft107",
     "Title": "화분 식물"
   },
   {
-    "Id": "recipeCraft107",
+    "Id": "recipeCraft108",
     "Title": "소형 화분 식물"
   },
   {
-    "Id": "recipeCraft108",
+    "Id": "recipeCraft109",
     "Title": "화분 덩굴식물"
   },
   {
-    "Id": "recipeCraft109",
+    "Id": "recipeCraft110",
     "Title": "대형 화분"
   },
   {
-    "Id": "recipeCraft110",
+    "Id": "recipeCraft111",
     "Title": "화분 종자식물"
   },
   {
-    "Id": "recipeCraft111",
+    "Id": "recipeCraft112",
     "Title": "화분 꽃 피는 선인장"
   },
   {
-    "Id": "recipeCraft112",
+    "Id": "recipeCraft113",
     "Title": "화분 선인장"
   },
   {
-    "Id": "recipeCraft113",
+    "Id": "recipeCraft114",
     "Title": "화분 푸른 꽃"
   },
   {
-    "Id": "recipeCraft114",
+    "Id": "recipeCraft115",
     "Title": "소형 직사각형 창문"
   },
   {
-    "Id": "recipeCraft115",
+    "Id": "recipeCraft116",
     "Title": "사각형 창문"
   },
   {
-    "Id": "recipeCraft116",
+    "Id": "recipeCraft117",
     "Title": "대형 직사각형 창문"
   },
   {
-    "Id": "recipeCraft117",
+    "Id": "recipeCraft118",
     "Title": "대형 바람막이 창"
   },
   {
-    "Id": "recipeCraft118",
+    "Id": "recipeCraft119",
     "Title": "소형 바람막이 창"
   },
   {
-    "Id": "recipeCraft119",
+    "Id": "recipeCraft120",
     "Title": "도로콘"
   }
 ]

@@ -1,2 +1,2 @@
-- Regen data for game version 0.4.8
-- Updated Brazilian Portuguese translation by Anderson Valle
+- Fix Raid calculator items
+- Added AssistantApps link

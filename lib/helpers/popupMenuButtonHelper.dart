@@ -16,6 +16,7 @@ Widget popupMenu(
   context, {
   Function onEdit,
   Function onDelete,
+  IconData customIcon = Icons.more_vert,
   List<PopupMenuActionItem> additionalItems,
 }) {
   List<PopupMenuActionItem> items = List<PopupMenuActionItem>();
@@ -39,10 +40,11 @@ Widget popupMenu(
   if (additionalItems != null && additionalItems.length > 0) {
     items.addAll(additionalItems);
   }
-  return popupMenuFromArray(items);
+  return popupMenuFromArray(items, customIcon);
 }
 
-Widget popupMenuFromArray(List<PopupMenuActionItem> items) {
+Widget popupMenuFromArray(
+    List<PopupMenuActionItem> items, IconData customIcon) {
   if (items == null || items.length == 0) return null;
   if (items.length == 1) {
     if (items[0].image != null) {
@@ -65,7 +67,7 @@ Widget popupMenuFromArray(List<PopupMenuActionItem> items) {
         logger.e(ex);
       }
     },
-    icon: Icon(Icons.more_vert),
+    icon: Icon(customIcon != null ? customIcon : Icons.more_vert),
     itemBuilder: (BuildContext context) {
       return items
           .map((pi) => PopupMenuItem<PopupMenuActionItem>(

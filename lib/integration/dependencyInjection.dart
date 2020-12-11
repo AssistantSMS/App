@@ -44,6 +44,7 @@ initDependencyInjection(EnvironmentSettings _env) {
   getIt.registerSingleton<IContributorApiRepository>(
     ContributorApiRepository(),
   );
+
   getIt.registerSingleton<IVersionApiRepository>(VersionApiRepository());
   getIt.registerSingleton<IDonatorApiRepository>(DonatorApiRepository());
 

@@ -21,6 +21,7 @@ class AppImage {
   static const String twitter = drawerFolder + 'twitter.png';
   static const String github = drawerFolder + 'github.png';
   static const String patreon = drawerFolder + 'patreon.png';
+  static const String assistantApps = drawerFolder + 'assistantApps.png';
 
   static const String buyMeACoffee = 'donation/' + 'buyMeACoffee.png';
 

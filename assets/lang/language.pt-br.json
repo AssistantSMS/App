@@ -153,5 +153,6 @@
   "whatIsNew": "What's New",
   "release": "Release {0}",
   "pendingAppStoreRelease": "Pending App Store approval",
-  "current": "Current"
+  "current": "Current",
+  "assistantApps": "AssistantApps"
 }

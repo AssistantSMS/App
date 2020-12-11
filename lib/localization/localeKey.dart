@@ -159,4 +159,5 @@ enum LocaleKey {
   pendingAppStoreRelease,
   release,
   current,
+  assistantApps,
 }

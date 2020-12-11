@@ -4,16 +4,16 @@ import '../contracts/raid/raidAttack.dart';
 import '../contracts/raid/raidSpawn.dart';
 
 class RaidHelper {
-  static const String carrotId = "plant14";
-  static const String tomatoId = "plant16";
-  static const String beetrootId = "plant15";
-  static const String bananaId = "plant10";
-  static const String berryId = "plant11";
-  static const String orangeId = "plant12";
-  static const String potatoId = "plant18";
-  static const String pineappleId = "plant13";
-  static const String broccoliId = "plant17";
-  static const String cottonId = "reso4";
+  static const String potatoId = "ammo1"; // plant9
+  static const String cottonId = "reso4"; // plant10
+  static const String bananaId = "plant11";
+  static const String berryId = "plant12";
+  static const String orangeId = "plant13";
+  static const String pineappleId = "plant14";
+  static const String carrotId = "plant15";
+  static const String beetrootId = "plant16";
+  static const String tomatoId = "plant17";
+  static const String broccoliId = "plant18";
 
   static const int highValue = 3;
 

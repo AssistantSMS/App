@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:package_info/package_info.dart';
 
+import '../components/adaptive/bottomModal.dart';
+import '../components/modalBottomSheet/assistantAppsModalBottomSheet.dart';
 import '../constants/AppImage.dart';
 import '../constants/ExternalUrls.dart';
 import '../constants/Routes.dart';
@@ -117,6 +119,20 @@ Future<List<Widget>> getDrawerItems(context,
       dense: true,
     ));
   }
+
+  widgets.add(_drawerItem(
+    context,
+    image: getListTileImage(context, AppImage.assistantApps),
+    key: LocaleKey.assistantApps,
+    onTap: () {
+      adaptiveBottomModalSheet(
+        context,
+        hasRoundedCorners: true,
+        builder: (BuildContext innerC) => AssistantAppsModalBottomSheet(),
+      );
+    },
+  ));
+  widgets.add(emptySpace3x());
 
   return widgets;
 }

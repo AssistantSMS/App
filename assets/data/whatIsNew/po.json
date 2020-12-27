@@ -1,0 +1,74 @@
+[
+  {
+    "guid": "47f1a804-2ade-4f3a-a91e-edf997f32af5",
+    "appGuid": "dfe0dbc7-8df4-47fb-a5a5-49af1937c4e2",
+    "markdown": "- Regen data for game version 0.4.8\n- Updated Brazilian Portuguese translation by Anderson Valle\n",
+    "buildName": "1.2.0",
+    "buildNumber": 32,
+    "platforms": [
+      0,
+      1
+    ],
+    "activeDate": "2020-11-21T20:00:00"
+  },
+  {
+    "guid": "198b35e1-0713-44e6-9286-67c3ed1c6799",
+    "appGuid": "dfe0dbc7-8df4-47fb-a5a5-49af1937c4e2",
+    "markdown": "- Added new items and data from experimental branch\n  - e.g. Radio Beacon\n- Added \"What is New\" page\n  - From this page you can see the details for each of the app's update\n- Display crafting recipe in \"Used in Recipe\" section\n- Fix Cookbot section",
+    "buildName": "1.1.10",
+    "buildNumber": 31,
+    "platforms": [
+      0,
+      1
+    ],
+    "activeDate": "2020-11-04T20:00:00"
+  },
+  {
+    "guid": "dca02138-9cf7-4347-b011-0cd33ccfc7f6",
+    "appGuid": "dfe0dbc7-8df4-47fb-a5a5-49af1937c4e2",
+    "markdown": "- Data fixes\n- Language Translation updates",
+    "buildName": "1.1.9",
+    "buildNumber": 30,
+    "platforms": [
+      0,
+      1
+    ],
+    "activeDate": "2020-09-29T20:00:00"
+  },
+  {
+    "guid": "81003b87-17e4-43ef-81eb-89fa4a53f60b",
+    "appGuid": "dfe0dbc7-8df4-47fb-a5a5-49af1937c4e2",
+    "markdown": "- Add link to Patreon on Patrons page\n- Add loot chance display",
+    "buildName": "1.1.8",
+    "buildNumber": 29,
+    "platforms": [
+      0,
+      1
+    ],
+    "activeDate": "2020-09-07T20:00:00"
+  },
+  {
+    "guid": "eea1a329-ba32-4390-a5c6-adb0d74ded6a",
+    "appGuid": "dfe0dbc7-8df4-47fb-a5a5-49af1937c4e2",
+    "markdown": "- Add Contributors page\n- Display which clothing container an article of clothing comes from\n- Add number of likes and dislikes to Steam News\n- Add Patreons page\n- Add Bottom navigation bar",
+    "buildName": "1.1.7",
+    "buildNumber": 28,
+    "platforms": [
+      0,
+      1
+    ],
+    "activeDate": "2020-08-08T20:00:00"
+  },
+  {
+    "guid": "4b32cc0c-5f0e-41f6-8dd3-c1a7f11db80a",
+    "appGuid": "dfe0dbc7-8df4-47fb-a5a5-49af1937c4e2",
+    "markdown": "- Filtering Cosmetics\n- Save raid configuration to device\n- Update contributors list\n",
+    "buildName": "1.1.6",
+    "buildNumber": 27,
+    "platforms": [
+      0,
+      1
+    ],
+    "activeDate": "2020-07-25T20:00:00"
+  }
+]

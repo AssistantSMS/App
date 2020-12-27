@@ -75,6 +75,7 @@ flutter:
   
   assets:
     - assets/data/ # Data files
+    - assets/data/whatIsNew/ # What Is New Data files
     - assets/lang/ # Languages
     
     # Images

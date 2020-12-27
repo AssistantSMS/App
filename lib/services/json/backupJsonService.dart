@@ -1,5 +1,7 @@
 import 'dart:convert';
 
+import 'package:scrapmechanic_kurtlourens_com/contracts/generated/AssistantApps/versionViewModel.dart';
+
 import '../../contracts/generated/AssistantApps/contributorViewModel.dart';
 import '../../contracts/generated/AssistantApps/donationViewModel.dart';
 import '../../contracts/generated/PatreonViewModel.dart';
@@ -80,10 +82,39 @@ class BackupJsonService extends BaseJsonService {
 
       return ResultWithValue<List<SteamNewsItem>>(true, backupItems, '');
     } catch (exception) {
-      logger
-          .e("SteamNewsBackupJsonService() Exception: ${exception.toString()}");
+      logger.e(
+          "BackupJsonService getSteamNews() Exception: ${exception.toString()}");
       return ResultWithValue<List<SteamNewsItem>>(
           false, List<SteamNewsItem>(), exception.toString());
+    }
+  }
+
+  Future<PaginationResultWithValue<List<VersionViewModel>>> getVersions(
+    context, {
+    String langCode = 'en',
+    int page = 1,
+    int pageSize = 20,
+  }) async {
+    try {
+      dynamic jsonString =
+          await this.getJsonFromAssets(context, 'data/whatIsNew/$langCode');
+      List responseJson = json.decode(jsonString);
+      List<VersionViewModel> backupItems =
+          responseJson.map((m) => VersionViewModel.fromJson(m)).toList();
+
+      int totalPages = backupItems.length ~/ pageSize;
+      List<VersionViewModel> filteredItems = backupItems
+          .skip((page - 1) * pageSize) //
+          .take(pageSize) //
+          .toList();
+
+      return PaginationResultWithValue<List<VersionViewModel>>(
+          true, filteredItems, page, totalPages, '');
+    } catch (exception) {
+      logger.e(
+          "BackupJsonService getVersions() Exception: ${exception.toString()}");
+      return PaginationResultWithValue<List<VersionViewModel>>(
+          false, List<VersionViewModel>(), 1, 1, exception.toString());
     }
   }
 }

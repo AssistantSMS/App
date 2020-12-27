@@ -1,1 +1,2 @@
 - Cart page tree view
+- Improved Steam News page

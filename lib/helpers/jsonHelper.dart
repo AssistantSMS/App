@@ -8,7 +8,7 @@ int readIntSafe(Map<dynamic, dynamic> json, String prop) {
   if (json == null) return 0;
   dynamic value = json[prop];
   if (value is int) return value;
-  return (value == null) ? 0.0 : int.tryParse(json[prop]);
+  return (value == null) ? 0 : int.tryParse(json[prop]);
 }
 
 double readDoubleSafe(Map<dynamic, dynamic> json, String prop) {

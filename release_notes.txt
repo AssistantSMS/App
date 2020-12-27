@@ -1,2 +1,3 @@
 - Cart page tree view
 - Improved Steam News page
+- Add backup data when device is offline or network request fails

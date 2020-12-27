@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../contracts/generated/ContributorViewModel.dart';
+import '../../contracts/generated/AssistantApps/contributorViewModel.dart';
 import '../../helpers/external.dart';
 import 'genericTilePresenter.dart';
 

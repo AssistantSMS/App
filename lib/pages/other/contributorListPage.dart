@@ -10,13 +10,15 @@ import '../../components/searchableList.dart';
 import '../../components/tilePresenters/contributorTilePresenter.dart';
 import '../../components/tilePresenters/donationTilePresenter.dart';
 import '../../constants/AnalyticsEvent.dart';
+import '../../constants/UIConstants.dart';
 import '../../contracts/generated/AssistantApps/donationViewModel.dart';
-import '../../contracts/generated/ContributorViewModel.dart';
+import '../../contracts/generated/AssistantApps/contributorViewModel.dart';
 import '../../helpers/analytics.dart';
 import '../../helpers/columnHelper.dart';
 import '../../integration/dependencyInjection.dart';
 import '../../localization/localeKey.dart';
 import '../../localization/translations.dart';
+import '../../services/json/backupJsonService.dart';
 
 class ContributorListPage extends StatefulWidget {
   const ContributorListPage({Key key}) : super(key: key);
@@ -70,14 +72,22 @@ class _ContributorsWidget extends State<ContributorListPage> {
                     (_, __) => false,
                     // backupListGetter: () => PatronsListBackupJsonService().getAll(context),
                     // backupListWarningMessage: LocaleKey.failedLatestDisplayingOld,
+                    backupListGetter: () =>
+                        BackupJsonService().getContributors(context),
                     minListForSearch: 20000,
                     useGridView: true,
                     gridViewColumnCalculator: steamNewsCustomColumnCount,
                   )
                 : LazyLoadSearchableList<DonationViewModel>(
                     (int page) => getDonatorApiRepo().getDonators(page: page),
-                    20,
+                    UIConstants.DonationsPageSize,
                     donationTilePresenter,
+                    backupListGetter: (int page) =>
+                        BackupJsonService().getDonations(
+                      context,
+                      page: page,
+                      pageSize: UIConstants.DonationsPageSize,
+                    ),
                     loadMoreItemWidget: smallLoadMorePageButton(context),
                   ),
           ),

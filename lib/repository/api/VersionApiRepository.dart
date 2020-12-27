@@ -66,8 +66,6 @@ class VersionApiRepository extends BaseApiRepository
   Future<PaginationResultWithValue<List<VersionViewModel>>> getHistory(
       String langCode, List<PlatformType> platforms,
       {int page = 1}) async {
-    return PaginationResultWithValue<List<VersionViewModel>>(
-        false, List<VersionViewModel>(), 0, 0, 'exception.toString()');
     VersionSearchViewModel body = VersionSearchViewModel(
       appGuid: getEnv().assistantAppsAppGuid,
       languageCode: langCode,

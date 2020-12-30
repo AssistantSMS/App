@@ -57,8 +57,15 @@ Widget steamNewsItemTilePresenter(
                       Row(
                         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                         children: [
-                          iconWithValueRow(Icons.thumb_up, news.upVotes),
-                          iconWithValueRow(Icons.thumb_down, news.downVotes),
+                          if (news.upVotes != null) ...[
+                            iconWithValueRow(Icons.thumb_up, news.upVotes)
+                          ],
+                          if (news.downVotes != null) ...[
+                            iconWithValueRow(Icons.thumb_down, news.downVotes)
+                          ],
+                          if (news.commentCount != null) ...[
+                            iconWithValueRow(Icons.comment, news.commentCount)
+                          ],
                         ],
                       ),
                     ],
@@ -81,7 +88,8 @@ Widget steamNewsItemTilePresenter(
         ),
         elevation: 5,
         // margin: EdgeInsets.only(top: 5, bottom: 5),
-        margin: EdgeInsets.all(10),
+        // margin: EdgeInsets.all(10),
+        margin: EdgeInsets.all(5),
       ),
       onTap: () => launchExternalURL(news.link),
     );

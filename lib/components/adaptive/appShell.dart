@@ -13,12 +13,8 @@ import '../../theme/themes.dart';
 
 class AppShell extends StatefulWidget {
   final newLocaleDelegate;
-  final changeBrightness;
-  final onLocaleChange;
 
   AppShell({
-    this.changeBrightness,
-    this.onLocaleChange,
     this.newLocaleDelegate,
   });
 

@@ -22,13 +22,6 @@ Future<List<Widget>> getDrawerItems(context,
   widgets.add(emptySpace1x());
   widgets.add(_drawerItem(
     context,
-    image: getCorrectlySizedImageFromIcon(context, Icons.help_outline,
-        colour: drawerIconColour),
-    key: LocaleKey.about,
-    navigateToNamed: Routes.about,
-  ));
-  widgets.add(_drawerItem(
-    context,
     image: getCorrectlySizedImageFromIcon(context, Icons.campaign,
         colour: drawerIconColour),
     key: LocaleKey.whatIsNew,
@@ -78,6 +71,14 @@ Future<List<Widget>> getDrawerItems(context,
     image: getCorrectlySizedImageFromIcon(context, Icons.email),
     key: LocaleKey.feedback,
     navigateToExternal: ExternalUrls.kurtLourensEmail,
+  ));
+
+  widgets.add(_drawerItem(
+    context,
+    image: getCorrectlySizedImageFromIcon(context, Icons.help_outline,
+        colour: drawerIconColour),
+    key: LocaleKey.about,
+    navigateToNamed: Routes.about,
   ));
 
   // widgets.add(_drawerItem(

@@ -73,7 +73,8 @@ class VersionApiRepository extends BaseApiRepository
       page: page,
     );
     try {
-      final response = await this.apiPost(ApiUrls.versionSearch, body.toRawJson());
+      final response =
+          await this.apiPost(ApiUrls.versionSearch, body.toRawJson());
       if (response.hasFailed) {
         return PaginationResultWithValue<List<VersionViewModel>>(
             false, List<VersionViewModel>(), 0, 0, response.errorMessage);

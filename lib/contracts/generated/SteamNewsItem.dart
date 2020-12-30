@@ -15,6 +15,7 @@ class SteamNewsItem {
   String shortDescription;
   int upVotes;
   int downVotes;
+  int commentCount;
 
   SteamNewsItem({
     this.name,
@@ -25,6 +26,7 @@ class SteamNewsItem {
     this.shortDescription,
     this.upVotes,
     this.downVotes,
+    this.commentCount,
   });
 
   List<SteamNewsItem> steamNewsItemFromJson(String str) =>
@@ -40,5 +42,6 @@ class SteamNewsItem {
         shortDescription: json["shortDescription"],
         upVotes: readIntSafe(json, "upVotes"),
         downVotes: readIntSafe(json, "downVotes"),
+        commentCount: readIntSafe(json, "commentCount"),
       );
 }

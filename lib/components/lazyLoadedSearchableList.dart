@@ -8,6 +8,8 @@ import 'loading.dart';
 class LazyLoadSearchableList<T> extends StatefulWidget {
   final Future<PaginationResultWithValue<List<T>>> Function(int page)
       listGetter;
+  final Future<PaginationResultWithValue<List<T>>> Function(int page)
+      backupListGetter;
   final int pageSize;
   final Widget Function(BuildContext context, T) listItemDisplayer;
   final String customKey;
@@ -21,6 +23,7 @@ class LazyLoadSearchableList<T> extends StatefulWidget {
     this.pageSize,
     this.listItemDisplayer, {
     this.customKey,
+    this.backupListGetter,
     this.hintText,
     this.loadingText,
     this.addFabPadding = false,
@@ -30,6 +33,7 @@ class LazyLoadSearchableList<T> extends StatefulWidget {
   _LazyLoadSearchableListWidget<T> createState() =>
       _LazyLoadSearchableListWidget<T>(
         listGetter,
+        backupListGetter,
         pageSize,
         listItemDisplayer,
         customKey,
@@ -44,6 +48,8 @@ class _LazyLoadSearchableListWidget<T>
   var _scrollController = ScrollController();
   final Future<PaginationResultWithValue<List<T>>> Function(int page)
       listGetter;
+  final Future<PaginationResultWithValue<List<T>>> Function(int page)
+      backupListGetter;
   List<int> fetchedPages = List<int>();
   int totalPages = 1;
   final int pageSize;
@@ -52,9 +58,11 @@ class _LazyLoadSearchableListWidget<T>
   final String hintText;
   final String loadingText;
   final bool addFabPadding;
+  // bool usingBackupGetter = false;
 
   _LazyLoadSearchableListWidget(
     this.listGetter,
+    this.backupListGetter,
     this.pageSize,
     this.listItemDisplayer,
     this.key,
@@ -67,6 +75,7 @@ class _LazyLoadSearchableListWidget<T>
     var pageToGet = (page ~/ this.pageSize) + 1;
     if (pageToGet < 1 || pageToGet > totalPages) return [];
     if (fetchedPages.contains(pageToGet)) return [];
+
     final temp = await listGetter(pageToGet);
     if (temp.isSuccess) {
       this.setState(() {
@@ -75,6 +84,17 @@ class _LazyLoadSearchableListWidget<T>
       });
       return temp.value;
     }
+
+    final tempBackup = await backupListGetter(pageToGet);
+    if (tempBackup.isSuccess) {
+      this.setState(() {
+        fetchedPages.add(tempBackup.currentPage);
+        totalPages = tempBackup.totalPages;
+        // usingBackupGetter = true;
+      });
+      return tempBackup.value;
+    }
+
     return [];
   }
 

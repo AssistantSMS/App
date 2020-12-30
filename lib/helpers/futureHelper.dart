@@ -168,26 +168,29 @@ Future<ResultWithValue<RecipeIngredientDetails>>
   var itemId = recipeIngredient.id;
   ResultWithValue<IGameItemJsonService> genRepo =
       getGameItemRepoFromId(context, itemId);
-  if (genRepo.hasFailed)
+  if (genRepo.hasFailed) {
     return ResultWithValue<RecipeIngredientDetails>(
-        false,
-        RecipeIngredientDetails(),
-        'genericItemFuture - unknown type of item $itemId');
+      false,
+      RecipeIngredientDetails(),
+      'genericItemFuture - unknown type of item $itemId',
+    );
+  }
 
   ResultWithValue<GameItem> itemResult =
       await genRepo.value.getById(context, itemId);
   if (itemResult.isSuccess) {
     LocaleKey langFile = getLangJsonFromItemId(itemResult.value.id);
     return ResultWithValue<RecipeIngredientDetails>(
-        true,
-        RecipeIngredientDetails(
-          id: itemResult.value.id,
-          icon: itemResult.value.icon,
-          title: itemResult.value.title,
-          quantity: recipeIngredient.quantity,
-          craftingStationName: getDisplayNameFromLangFileName(langFile),
-        ),
-        '');
+      true,
+      RecipeIngredientDetails(
+        id: itemResult.value.id,
+        icon: itemResult.value.icon,
+        title: itemResult.value.title,
+        quantity: recipeIngredient.quantity,
+        craftingStationName: getDisplayNameFromLangFileName(langFile),
+      ),
+      '',
+    );
   }
 
   return ResultWithValue(false, null, itemResult.errorMessage);
@@ -350,6 +353,28 @@ Future<List<RecipeIngredient>> getRequiredItems(
     rawMaterialsResult.addAll(requiredItems);
   }
   return rawMaterialsResult;
+}
+
+Future<List<RecipeIngredient>> getRequiredItemsSurfaceLevel(
+    context, RecipeIngredient requiredItem) async {
+  List<RecipeIngredient> tempRawMaterials = List<RecipeIngredient>();
+
+  for (LocaleKey repJson in allRecipeJsons()) {
+    IRecipeJsonService repo = getRecipeRepo(repJson);
+    if (repo == null) continue;
+    ResultWithValue<List<Recipe>> recipesToCreateXResult =
+        await repo.getByOutputId(context, requiredItem.id);
+    if (!recipesToCreateXResult.isSuccess ||
+        recipesToCreateXResult.value.length < 1) continue;
+
+    for (var recipe in recipesToCreateXResult.value[0].inputs) {
+      tempRawMaterials.add(
+        RecipeIngredient(
+            id: recipe.id, quantity: recipe.quantity * requiredItem.quantity),
+      );
+    }
+  }
+  return tempRawMaterials;
 }
 
 Future<ResultWithValue<List<LootChance>>> getLootChanceFuture(

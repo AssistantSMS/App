@@ -12,7 +12,7 @@ import '../../helpers/columnHelper.dart';
 import '../../integration/dependencyInjection.dart';
 import '../../localization/localeKey.dart';
 import '../../localization/translations.dart';
-import '../../services/json/steamNewsBackupJsonService.dart';
+import '../../services/json/backupJsonService.dart';
 
 class SteamNewsPage extends StatelessWidget {
   SteamNewsPage() {
@@ -32,7 +32,7 @@ class SteamNewsPage extends StatelessWidget {
         () => getSteamApiRepo().getSteamNews(),
         steamNewsItemTilePresenter,
         (_, __) => false,
-        backupListGetter: () => SteamNewsBackupJsonService().getAll(context),
+        backupListGetter: () => BackupJsonService().getSteamNews(context),
         backupListWarningMessage: LocaleKey.failedLatestDisplayingOld,
         minListForSearch: 20000,
         useGridView: true,

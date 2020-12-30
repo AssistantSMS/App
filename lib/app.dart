@@ -5,21 +5,16 @@ import 'package:redux/redux.dart';
 
 import 'components/adaptive/appShell.dart';
 import 'components/loading.dart';
-import 'constants/AnalyticsEvent.dart';
 import 'env/appRouter.dart';
 import 'env/environmentSettings.dart';
-import 'helpers/analytics.dart';
-import 'helpers/colourHelper.dart';
 import 'integration/dependencyInjection.dart';
 import 'integration/firebaseAnalytics.dart';
 import 'integration/logging.dart';
 import 'integration/router.dart';
-import 'integration/themeManager.dart';
-import 'localization/localization.dart';
 import 'localization/translationDelegate.dart';
 import 'state/createStore.dart';
 import 'state/modules/base/appState.dart';
-import 'state/modules/setting/actions.dart';
+import 'state/modules/base/appViewModel.dart';
 
 class MyApp extends StatefulWidget {
   final EnvironmentSettings _env;
@@ -53,7 +48,6 @@ class _MyAppState extends State<MyApp> {
     if (_newLocaleDelegate == null) {
       _newLocaleDelegate = TranslationsDelegate(newLocale: null);
     }
-    localization.onLocaleChanged = _onLocaleChange;
   }
 
   Future<AppState> initReduxState() async {
@@ -73,19 +67,6 @@ class _MyAppState extends State<MyApp> {
     return null;
   }
 
-  void _onLocaleChange(Locale locale) {
-    this.store.dispatch(ChangeLanguageAction(locale.languageCode));
-    setState(() {
-      _newLocaleDelegate = TranslationsDelegate(newLocale: locale);
-    });
-  }
-
-  void _changeBrightness(BuildContext context) {
-    bool isDark = getIsDark(context);
-    setBrightness(context, isDark);
-    trackEvent(isDark ? AnalyticsEvent.lightMode : AnalyticsEvent.darkMode);
-  }
-
   @override
   Widget build(BuildContext context) {
     if (store == null) {
@@ -99,10 +80,13 @@ class _MyAppState extends State<MyApp> {
 
     return StoreProvider(
       store: store,
-      child: AppShell(
-        newLocaleDelegate: _newLocaleDelegate,
-        changeBrightness: _changeBrightness,
-        onLocaleChange: _onLocaleChange,
+      child: StoreConnector<AppState, AppViewModel>(
+        converter: (store) => AppViewModel.fromStore(store),
+        builder: (_, viewModel) => AppShell(
+          newLocaleDelegate: TranslationsDelegate(
+            newLocale: Locale(viewModel.selectedLanguage),
+          ),
+        ),
       ),
     );
   }

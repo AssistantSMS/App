@@ -1,10 +1,15 @@
 import '../constants/IdPrefix.dart';
+import '../contracts/recipeIngredient/recipeIngredient.dart';
+import '../contracts/recipeIngredient/recipeIngredientDetail.dart';
+import '../contracts/recipeIngredient/recipeIngredientTreeDetails.dart';
 import '../contracts/results/resultWithValue.dart';
 import '../integration/dependencyInjection.dart';
 import '../integration/logging.dart';
 import '../localization/localeKey.dart';
 import '../services/interface/IGameItemJsonService.dart';
 import '../services/interface/IRecipeJsonService.dart';
+import 'futureHelper.dart';
+import 'repositoryHelper.dart';
 
 LocaleKey getLangJsonFromItemId(String itemId) {
   if (itemId.contains(IdPrefix.recipeCookBot))
@@ -84,4 +89,98 @@ ResultWithValue<IGameItemJsonService> getGameItemRepoFromId(
   logger.e('getGameItemRepoFromId - unknown type of item: $id');
   return ResultWithValue<IGameItemJsonService>(
       false, null, 'getGameItemRepoFromId - unknown type of item: $id');
+}
+
+Future<ResultWithValue<RecipeIngredientDetails>> recipeIngredientDetails(
+    context, RecipeIngredient recipeIngredient) async {
+  //
+  ResultWithValue<RecipeIngredientDetails> genericResult =
+      await getRecipeIngredientDetailsFuture(context, recipeIngredient);
+  if (genericResult.isSuccess) {
+    return ResultWithValue<RecipeIngredientDetails>(
+        true, genericResult.value, '');
+  }
+
+  return ResultWithValue<RecipeIngredientDetails>(
+      false,
+      RecipeIngredientDetails(),
+      'recipeIngredientDetails - unknown type of item: ${recipeIngredient.id}');
+}
+
+Future<List<RecipeIngredientDetails>> getRequiredItemDetailsSurfaceLevel(
+    context, RecipeIngredient recipeIngredient) async {
+  List<RecipeIngredientDetails> tempRequiredItems =
+      List<RecipeIngredientDetails>();
+
+  var ingredients = await getRequiredItemsSurfaceLevel(
+    context,
+    RecipeIngredient(
+      id: recipeIngredient.id,
+      quantity: recipeIngredient.quantity,
+    ),
+  );
+
+  for (var requiredItem in ingredients) {
+    ResultWithValue<IGameItemJsonService> genRepo =
+        getGameItemRepoFromId(context, requiredItem.id);
+    if (genRepo.hasFailed) continue;
+    var reqResult = await genRepo.value.getById(context, requiredItem.id);
+    if (reqResult.hasFailed) continue;
+    LocaleKey langFile = getLangJsonFromItemId(requiredItem.id);
+    tempRequiredItems.add(
+      RecipeIngredientDetails(
+        id: reqResult.value.id,
+        icon: reqResult.value.icon,
+        title: reqResult.value.title,
+        quantity: requiredItem.quantity,
+        craftingStationName: getDisplayNameFromLangFileName(langFile),
+      ),
+    );
+  }
+
+  return tempRequiredItems;
+}
+
+Future<List<RecipeIngredientTreeDetails>> getAllRecipeIngredientDetailsForTree(
+    context, RecipeIngredient ingredient) async {
+  List<RecipeIngredientTreeDetails> rawMaterials =
+      List<RecipeIngredientTreeDetails>();
+
+  List<RecipeIngredientDetails> requiredItemDetails =
+      await getRequiredItemDetailsSurfaceLevel(context, ingredient);
+
+  for (RecipeIngredientDetails requiredItemDetail in requiredItemDetails) {
+    rawMaterials.addAll(await getAllRequiredItemsForTree(
+      context,
+      [
+        RecipeIngredient(
+          id: requiredItemDetail.id,
+          quantity: requiredItemDetail.quantity,
+        )
+      ],
+    ));
+  }
+  return rawMaterials;
+}
+
+Future<List<RecipeIngredientTreeDetails>> getAllRequiredItemsForTree(
+    context, List<RecipeIngredient> requiredItems) async {
+  List<RecipeIngredientTreeDetails> rawMaterials =
+      List<RecipeIngredientTreeDetails>();
+  for (var reqItem in requiredItems) {
+    ResultWithValue<RecipeIngredientDetails> itemDetail =
+        await getRecipeIngredientDetailsFuture(context, reqItem);
+    if (itemDetail.hasFailed) continue;
+
+    RecipeIngredientTreeDetails itemTreeDetails =
+        RecipeIngredientTreeDetails.fromRequiredItemDetails(
+            itemDetail.value, 1);
+
+    itemTreeDetails.children = await getAllRecipeIngredientDetailsForTree(
+      context,
+      reqItem,
+    );
+    rawMaterials.add(itemTreeDetails);
+  }
+  return rawMaterials;
 }

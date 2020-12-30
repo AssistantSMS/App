@@ -1,4 +1,4 @@
-import '../../../contracts/generated/ContributorViewModel.dart';
+import '../../../contracts/generated/AssistantApps/contributorViewModel.dart';
 import '../../../contracts/results/resultWithValue.dart';
 
 class IContributorApiRepository {

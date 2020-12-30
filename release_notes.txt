@@ -1,2 +1,4 @@
-- Fix Raid calculator items
-- Added AssistantApps link
+- Cart page tree view
+- Improved Steam News page
+- Add backup data when device is offline or network request fails
+- Fix language change happening immediately

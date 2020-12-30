@@ -1,7 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:scrapmechanic_kurtlourens_com/constants/ExternalUrls.dart';
-import 'package:scrapmechanic_kurtlourens_com/contracts/results/resultWithValue.dart';
-import 'package:scrapmechanic_kurtlourens_com/services/json/patronsListBackupJsonService.dart';
 
 import '../../components/adaptive/appBarForSubPage.dart';
 import '../../components/adaptive/appScaffold.dart';
@@ -9,12 +6,15 @@ import '../../components/bottomNavbar.dart';
 import '../../components/searchableList.dart';
 import '../../components/tilePresenters/patreonTilePresenter.dart';
 import '../../constants/AnalyticsEvent.dart';
+import '../../constants/ExternalUrls.dart';
 import '../../contracts/generated/PatreonViewModel.dart';
+import '../../contracts/results/resultWithValue.dart';
 import '../../helpers/analytics.dart';
 import '../../helpers/columnHelper.dart';
 import '../../integration/dependencyInjection.dart';
 import '../../localization/localeKey.dart';
 import '../../localization/translations.dart';
+import '../../services/json/backupJsonService.dart';
 
 class PatronListPage extends StatelessWidget {
   PatronListPage() {
@@ -44,7 +44,7 @@ class PatronListPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     var apiFunc = getPatreonApiRepo().getPatrons();
-    var backupFunc = PatronsListBackupJsonService().getAll(context);
+    var backupFunc = BackupJsonService().getPatrons(context);
     return appScaffold(
       context,
       appBar: appBarForSubPageHelper(

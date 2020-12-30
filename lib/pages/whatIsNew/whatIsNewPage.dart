@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
+import 'package:scrapmechanic_kurtlourens_com/constants/UIConstants.dart';
+import 'package:scrapmechanic_kurtlourens_com/services/json/backupJsonService.dart';
 
 import '../../components/adaptive/appBarForSubPage.dart';
 import '../../components/adaptive/appScaffold.dart';
@@ -46,8 +48,14 @@ class _WhatIsNewWidget extends State<WhatIsNewPage> {
             platforms,
             page: page,
           ),
-          20,
+          UIConstants.VersionPageSize,
           versionTilePresenter(context, currentWhatIsNewGuid),
+          backupListGetter: (int page) => BackupJsonService().getVersions(
+            context,
+            langCode: viewModel.selectedLanguage,
+            page: page,
+            pageSize: UIConstants.VersionPageSize,
+          ),
           loadMoreItemWidget: smallLoadMorePageButton(context),
         ),
       ),

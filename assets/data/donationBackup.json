@@ -12,15 +12,15 @@
     "date": "2020-11-27T04:37:00"
   },
   {
-    "guid": "56f0cfc6-cde7-40a0-a0c6-3bccfbdc7e53",
-    "username": "Markus Freudenstein",
-    "type": "Paypal",
-    "date": "2020-11-21T18:00:00"
-  },
-  {
     "guid": "68670201-4176-4122-9f7f-c8330d2e8ca2",
     "username": "#onekawaii",
     "type": "BuyMeACoffee",
+    "date": "2020-11-21T18:00:00"
+  },
+  {
+    "guid": "56f0cfc6-cde7-40a0-a0c6-3bccfbdc7e53",
+    "username": "Markus Freudenstein",
+    "type": "Paypal",
     "date": "2020-11-21T18:00:00"
   },
   {
@@ -576,15 +576,15 @@
     "date": "2019-10-22T14:01:00"
   },
   {
-    "guid": "0356727d-fb69-4385-b795-2c9b54e907a5",
-    "username": "Shaun McGuire",
-    "type": "Paypal",
-    "date": "2019-10-20T14:01:00"
-  },
-  {
     "guid": "10cd4341-7f69-42d3-b0f2-acfdbfd8a41d",
     "username": "Peter Pawelek",
     "type": "BuyMeACoffee",
+    "date": "2019-10-20T14:01:00"
+  },
+  {
+    "guid": "0356727d-fb69-4385-b795-2c9b54e907a5",
+    "username": "Shaun McGuire",
+    "type": "Paypal",
     "date": "2019-10-20T14:01:00"
   },
   {

@@ -1,5 +1,17 @@
 [
   {
+    "guid": "3f951a3e-81c5-45f4-9361-e1d408df0da5",
+    "appGuid": "dfe0dbc7-8df4-47fb-a5a5-49af1937c4e2",
+    "markdown": "- Cart page tree view\n  - View the required items for each level\n- Improved Steam News page\n  - Improved stability\n  - Cleaned up information such as the descriptions\n  - Added number of comments\n- Add backup data when device is offline or network request fails\n  - Patrons, Downloads, WhatIsNew, etc\n- Fix language change happening immediately\n  - Fixed language not changing on selecting a new language",
+    "buildName": "1.3.0",
+    "buildNumber": 34,
+    "platforms": [
+      0,
+      1
+    ],
+    "activeDate": "2020-12-31T20:00:00"
+  },
+  {
     "guid": "47f1a804-2ade-4f3a-a91e-edf997f32af5",
     "appGuid": "dfe0dbc7-8df4-47fb-a5a5-49af1937c4e2",
     "markdown": "- Regen data for game version 0.4.8\n- Updated Brazilian Portuguese translation by Anderson Valle\n",

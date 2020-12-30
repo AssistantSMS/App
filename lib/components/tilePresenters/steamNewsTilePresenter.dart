@@ -57,9 +57,15 @@ Widget steamNewsItemTilePresenter(
                       Row(
                         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                         children: [
-                          iconWithValueRow(Icons.thumb_up, news.upVotes),
-                          iconWithValueRow(Icons.thumb_down, news.downVotes),
-                          iconWithValueRow(Icons.comment, news.commentCount),
+                          if (news.upVotes != null) ...[
+                            iconWithValueRow(Icons.thumb_up, news.upVotes)
+                          ],
+                          if (news.downVotes != null) ...[
+                            iconWithValueRow(Icons.thumb_down, news.downVotes)
+                          ],
+                          if (news.commentCount != null) ...[
+                            iconWithValueRow(Icons.comment, news.commentCount)
+                          ],
                         ],
                       ),
                     ],

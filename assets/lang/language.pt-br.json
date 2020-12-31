@@ -1,4 +1,6 @@
 {
+  "workbenchRecipeJson": "pt-br/recipeWorkbench.lang",
+  "hideOutRecipeJson": "pt-br/recipeHideout.lang",
   "ammoJson": "pt-br/ammo.lang",
   "blocksJson": "pt-br/blocks.lang",
   "buildingJson": "pt-br/building.lang",
@@ -36,8 +38,6 @@
   "dispenserRecipeJson": "pt-br/recipeDispenser.lang",
   "dressBotRecipeJson": "pt-br/recipeDressbot.lang",
   "refineryRecipeJson": "pt-br/recipeRefinery.lang",
-  "workbenchRecipeJson": "pt-br/recipeWorkbench.lang",
-  "hideOutRecipeJson": "pt-br/recipeHideout.lang",
   "title": "Assistant for Scrap Mechanic",
   "loading": "Carregando",
   "about": "Sobre",
@@ -84,6 +84,8 @@
   "privacyPolicy": "Política de Privacidade",
   "termsAndConditions": "Termos e Condições",
   "legal": "Legal",
+  "flatList": "Lista",
+  "tree": "Árvore",
   "patrons": "Patronos",
   "joinPatreon": "Junte-se ao Patreon",
   "failedLatestDisplayingOld": "Falha em conectar ao mais recente, mostrando dados antigos",
@@ -112,6 +114,7 @@
   "shareContent": "I am using the Assistant for Scrap Mechanic",
   "appLanguage": "Language",
   "donationDescrip": "For now all features of the app are available to you, there are no PayWalls. However I do want to give extra features to those who do donate or contribute, but I do not have any benefits at this moment. If you like this App please give me a review in the Play/App Store and donate if you can",
+  "loadMore": "Load More",
   "feedback": "Give Feedback",
   "usedInXToCreate": "Usando em {0} para criar:",
   "createXUsingY": "Criar {0} usando {1} com:",
@@ -155,5 +158,5 @@
   "showOwned": "Mostrar Adquiridos",
   "showNotOwned": "Mostrar não adquiridos",
   "foundIn": "Encontrado em",
-  "hashCode": "E977DEE50140A2C3B1D341260E2BE25B"
+  "hashCode": "4DD0E6B5426268C7E2F60AA31523392B"
 }

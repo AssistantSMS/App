@@ -40,11 +40,11 @@ class _GenericAllRequiredWidget extends State<GenericAllRequiredPage> {
     List<Widget> options = [
       getSegmentedControlWithIconOption(
         Icons.list,
-        Translations.get(context, LocaleKey.cart),
+        Translations.get(context, LocaleKey.flatList),
       ),
       getSegmentedControlWithIconOption(
         Icons.call_split,
-        Translations.get(context, LocaleKey.tradedFor),
+        Translations.get(context, LocaleKey.tree),
       )
     ];
     var segmentedWidget = Container(

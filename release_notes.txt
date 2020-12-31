@@ -2,3 +2,4 @@
 - Improved Steam News page
 - Add backup data when device is offline or network request fails
 - Fix language change happening immediately
+- Fixed localisation on detail Cart page

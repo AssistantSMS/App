@@ -84,6 +84,8 @@
   "privacyPolicy": "Datenschutz-Bestimmungen",
   "termsAndConditions": "allgemeine Geschäftsbedingungen",
   "legal": "Legal",
+  "flatList": "Liste",
+  "tree": "Baum",
   "patrons": "Sponsoren",
   "joinPatreon": "Werde Sponsor",
   "failedLatestDisplayingOld": "Laden der Daten fehlgeschlagen, zeige alte Daten",
@@ -112,6 +114,7 @@
   "shareContent": "I am using the Assistant for Scrap Mechanic",
   "appLanguage": "Language",
   "donationDescrip": "For now all features of the app are available to you, there are no PayWalls. However I do want to give extra features to those who do donate or contribute, but I do not have any benefits at this moment. If you like this App please give me a review in the Play/App Store and donate if you can",
+  "loadMore": "Load More",
   "feedback": "Give Feedback",
   "usedInXToCreate": "Benötigt {0} um herzustellen:",
   "createXUsingY": "Stelle {0} mit {1} her;",
@@ -155,5 +158,5 @@
   "showOwned": "Show owned",
   "showNotOwned": "Show not owned",
   "foundIn": "Found in",
-  "hashCode": "C781A882A0A7C5478080FFC94F2FCEFE"
+  "hashCode": "02D74D848D6E4C53245E2BED081E6699"
 }

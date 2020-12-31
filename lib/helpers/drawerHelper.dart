@@ -68,17 +68,17 @@ Future<List<Widget>> getDrawerItems(context,
 
   widgets.add(_drawerItem(
     context,
-    image: getCorrectlySizedImageFromIcon(context, Icons.email),
-    key: LocaleKey.feedback,
-    navigateToExternal: ExternalUrls.kurtLourensEmail,
-  ));
-
-  widgets.add(_drawerItem(
-    context,
     image: getCorrectlySizedImageFromIcon(context, Icons.help_outline,
         colour: drawerIconColour),
     key: LocaleKey.about,
     navigateToNamed: Routes.about,
+  ));
+
+  widgets.add(_drawerItem(
+    context,
+    image: getCorrectlySizedImageFromIcon(context, Icons.email),
+    key: LocaleKey.feedback,
+    navigateToExternal: ExternalUrls.kurtLourensEmail,
   ));
 
   // widgets.add(_drawerItem(

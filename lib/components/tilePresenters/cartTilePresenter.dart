@@ -1,8 +1,7 @@
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/cupertino.dart';
 
 import '../../contracts/recipeIngredient/recipeIngredientDetail.dart';
-import '../../helpers/navigationHelper.dart';
-import '../../helpers/popupMenuButtonHelper.dart';
 import '../../pages/gameItem/gameItemDetailPage.dart';
 import 'genericTilePresenter.dart';
 
@@ -15,7 +14,7 @@ Widget cartTilePresenter(BuildContext context,
       name: recipeIngredient.title,
       quantity: recipeIngredient.quantity,
       onTap: onTap ??
-          () async => await navigateAwayFromHomeAsync(
+          () async => await getNavigation().navigateAwayFromHomeAsync(
                 context,
                 navigateTo: (context) =>
                     GameItemDetailPage(recipeIngredient.id),

@@ -1,7 +1,6 @@
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 
-import '../../localization/localeKey.dart';
-import '../../localization/translations.dart';
 import 'genericTilePresenter.dart';
 
 Widget languageTilePresenter(
@@ -19,7 +18,7 @@ Widget languageTilePresenter(
     trailing: (trailingDisplay == null)
         ? null
         : Text(
-            Translations.get(context, trailingDisplay ?? LocaleKey.unknown),
+            getTranslations().fromKey(trailingDisplay ?? LocaleKey.unknown),
             maxLines: 1,
             overflow: TextOverflow.ellipsis,
             textAlign: TextAlign.end,

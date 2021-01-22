@@ -1,11 +1,9 @@
 import 'dart:convert';
 
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import './interface/ILocalStorageRepository.dart';
-import '../contracts/results/result.dart';
-import '../contracts/results/resultWithValue.dart';
-import '../integration/logging.dart';
 
 class LocalStorageRepository implements ILocalStorageRepository {
   @override
@@ -15,7 +13,7 @@ class LocalStorageRepository implements ILocalStorageRepository {
       await preferences.setString(key, stateString);
       return Result(true, '');
     } catch (exception) {
-      logger.e(exception, 'saveToStorage');
+      getLog().e('saveToStorage: ' + exception.toString());
       return Result(false, exception.toString());
     }
   }
@@ -34,7 +32,7 @@ class LocalStorageRepository implements ILocalStorageRepository {
           json.decode(stateString) as Map<String, dynamic>;
       return ResultWithValue<Map<String, dynamic>>(true, stateMap, '');
     } catch (exception) {
-      logger.e(exception, 'loadFromStorage');
+      getLog().e('loadFromStorage: ' + exception.toString());
       return ResultWithValue<Map<String, dynamic>>(
           false, null, exception.toString());
     }

@@ -1,5 +1,6 @@
-import '../../contracts/recipe/recipe.dart';
-import '../../contracts/results/resultWithValue.dart';
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
+
+import '../../../contracts/recipe/recipe.dart';
 
 class IRecipeJsonService {
   Future<ResultWithValue<List<Recipe>>> getAll(context) async {

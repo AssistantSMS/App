@@ -1,8 +1,7 @@
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 
 import '../integration/flash.dart';
-import '../localization/localeKey.dart';
-import '../localization/translations.dart';
 
 void initSnackbar(context) => FlashHelper.init(context);
 
@@ -10,12 +9,12 @@ void showSnackbar(context, LocaleKey lang,
     {Duration duration, Function onTap}) {
   FlashHelper.actionBar(
     context,
-    message: Translations.get(context, lang),
+    message: getTranslations().fromKey(lang),
     duration: duration,
     primaryAction: (context, controller, setState) {
       return FlatButton(
         child: Text(
-          Translations.get(context, LocaleKey.view),
+          getTranslations().fromKey(LocaleKey.view),
           style: TextStyle(color: Colors.white),
         ),
         onPressed: () {
@@ -38,7 +37,7 @@ void showSnackbar(context, LocaleKey lang,
 //         actionButton = FlatButton(
 //           onPressed: () => controller.dismiss(true),
 //           child: Text(
-//             Translations.get(context, LocaleKey.view),
+//             getTranslations().fromKey(LocaleKey.view),
 //             style: TextStyle(color: Colors.white),
 //           ),
 //         );
@@ -48,7 +47,7 @@ void showSnackbar(context, LocaleKey lang,
 //         backgroundColor: getSecondaryColour(context),
 //         onTap: () => controller.dismiss(),
 //         child: FlashBar(
-//           message: Text(Translations.get(context, lang)),
+//           message: Text(getTranslations().fromKey(lang)),
 //           primaryAction: actionButton,
 //         ),
 //       );

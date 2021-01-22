@@ -1,14 +1,12 @@
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 
 import '../../components/webSpecific/mousePointer.dart';
 import '../../constants/AppImage.dart';
 import '../../contracts/generated/SteamNewsItem.dart';
-import '../../helpers/colourHelper.dart';
 import '../../helpers/dateHelper.dart';
 import '../../helpers/deviceHelper.dart';
-import '../../helpers/external.dart';
 import '../common/icon.dart';
-import '../common/image.dart';
 
 Widget steamNewsItemTilePresenter(
         BuildContext context, SteamNewsItem news, int index) =>
@@ -51,7 +49,8 @@ Widget steamNewsItemTilePresenter(
                       Text(
                         news.shortDescription,
                         maxLines: 3,
-                        style: TextStyle(color: getCardTextColour(context)),
+                        style: TextStyle(
+                            color: getTheme().getCardTextColour(context)),
                       ),
                       customDivider(),
                       Row(
@@ -99,7 +98,7 @@ Widget steamNewsItemTilePresenter(
 //   String subTitle = (guideDetails.author ?? '???');
 //   if (guideDetails.minutes > 0) {
 //     subTitle += ' - ' +
-//         Translations.get(context, LocaleKey.minutes)
+//         getTranslations().fromKey(LocaleKey.minutes)
 //             .replaceAll('{0}', guideDetails.minutes.toString());
 //   }
 //   if (guideDetails.tags.length > 0) {

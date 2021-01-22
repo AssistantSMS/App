@@ -1,4 +1,4 @@
-import '../localization/localeKey.dart';
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 
 List<LocaleKey> getCraftBotPageLocales() => [LocaleKey.craftBotRecipeJson];
 List<LocaleKey> getCookBotPageLocales() => [LocaleKey.cookBotRecipeJson];

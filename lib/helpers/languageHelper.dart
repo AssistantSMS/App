@@ -1,19 +1,16 @@
 import 'dart:async';
 
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 
 import '../components/tilePresenters/languageTilePresenter.dart';
-import '../constants/SupportedLanguages.dart';
 import '../contracts/search/dropdownOption.dart';
-import '../localization/localeKey.dart';
-import '../localization/localizationMap.dart';
-import '../localization/translations.dart';
 import '../pages/dialog/optionsListPageDialog.dart';
 
 Future<String> langaugeSelectionPage(BuildContext context) async {
   var options = supportedLanguageMaps
       .map((l) => DropdownOption(
-            Translations.get(context, l.name),
+            getTranslations().fromKey(l.name),
             value: l.code,
           ))
       .toList();
@@ -22,7 +19,7 @@ Future<String> langaugeSelectionPage(BuildContext context) async {
     context,
     MaterialPageRoute(
       builder: (context) => OptionsListPageDialog(
-        Translations.get(context, LocaleKey.language),
+        getTranslations().fromKey(LocaleKey.language),
         options,
         minListForSearch: 100,
         customPresenter: (BuildContext innerC, DropdownOption opt, int) {

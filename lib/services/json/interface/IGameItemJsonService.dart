@@ -1,5 +1,6 @@
-import '../../contracts/gameItem/gameItem.dart';
-import '../../contracts/results/resultWithValue.dart';
+import 'package:assistantapps_flutter_common/contracts/results/resultWithValue.dart';
+
+import '../../../contracts/gameItem/gameItem.dart';
 
 class IGameItemJsonService {
   Future<ResultWithValue<List<GameItem>>> getAll(context) async {

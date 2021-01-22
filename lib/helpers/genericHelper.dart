@@ -1,12 +1,7 @@
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 
-import '../components/adaptive/button.dart';
-import '../components/common/image.dart';
 import '../constants/AppImage.dart';
-import '../integration/logging.dart';
-import '../localization/localeKey.dart';
-import '../localization/translations.dart';
-import 'colourHelper.dart';
 
 final int maxNumberOfRowsForRecipeCategory = 3;
 
@@ -34,17 +29,6 @@ Function genericItemImageOnTap(BuildContext context, String imagePath,
       if (disableZoom) return;
     };
 
-Widget genericItemName(String name, {maxLines = 3}) => Container(
-      child: Text(
-        name,
-        textAlign: TextAlign.center,
-        maxLines: maxLines,
-        overflow: TextOverflow.ellipsis,
-        style: TextStyle(fontSize: 20),
-      ),
-      margin: const EdgeInsets.all(4.0),
-    );
-
 Widget genericItemNameWithQuantity(context, String name, String quantity) =>
     Container(
       child: Row(
@@ -59,29 +43,8 @@ Widget genericItemNameWithQuantity(context, String name, String quantity) =>
             ),
             Chip(
                 label: Text('x $quantity'),
-                backgroundColor: getSecondaryColour(context))
+                backgroundColor: getTheme().getSecondaryColour(context))
           ]),
-      margin: const EdgeInsets.all(4.0),
-    );
-
-Widget genericItemGroup(String group) => Container(
-      child: Text(
-        group,
-        textAlign: TextAlign.center,
-        overflow: TextOverflow.ellipsis,
-        style: TextStyle(fontSize: 20),
-      ),
-      margin: const EdgeInsets.all(4.0),
-    );
-
-Widget genericItemDescription(String description, {TextStyle textStyle}) =>
-    Container(
-      child: Text(
-        description,
-        textAlign: TextAlign.center,
-        maxLines: 10,
-        style: textStyle,
-      ),
       margin: const EdgeInsets.all(4.0),
     );
 
@@ -158,7 +121,7 @@ List<Widget> genericItemWithOverflowButton<T>(context, List<T> itemArray,
 }
 
 Widget viewMoreButton(context, int numLeftOver, viewMoreOnPress) {
-  String viewMore = Translations.get(context, LocaleKey.viewXMore);
+  String viewMore = getTranslations().fromKey(LocaleKey.viewXMore);
   return Container(
     child: positiveButton(
       title: viewMore.replaceAll("{0}", numLeftOver.toString()),
@@ -170,46 +133,12 @@ Widget viewMoreButton(context, int numLeftOver, viewMoreOnPress) {
   );
 }
 
-Widget genericItemText(String text) => Container(
-      child: Text(
-        text,
-        textAlign: TextAlign.center,
-        overflow: TextOverflow.ellipsis,
-      ),
-      margin: const EdgeInsets.all(4.0),
-    );
-
-Widget genericEllipsesText(String text) => Text(
-      text,
-      maxLines: 1,
-      overflow: TextOverflow.ellipsis,
-    );
-
 Widget getListTileImage(context, String partialPath) => ConstrainedBox(
       constraints: BoxConstraints(
         maxWidth: 35,
         maxHeight: 35,
       ),
       child: localImage('${AppImage.base}$partialPath'),
-    );
-Widget getCorrectlySizedImageFromIcon(
-  context,
-  IconData icon, {
-  Color colour,
-  double maxSize = 35,
-}) =>
-    ConstrainedBox(
-      constraints: BoxConstraints(
-        maxWidth: maxSize,
-        maxHeight: maxSize,
-      ),
-      child: Center(
-        child: Icon(
-          icon,
-          color: colour ?? getSecondaryColour(context),
-          size: maxSize,
-        ),
-      ),
     );
 
 Widget genericChip(context, String title, {Color color, Function onTap}) =>
@@ -220,33 +149,12 @@ Widget genericChipWidget(context, Widget content,
   var child = Padding(
     child: Chip(
       label: content,
-      backgroundColor: color ?? getSecondaryColour(context),
+      backgroundColor: color ?? getTheme().getSecondaryColour(context),
     ),
     padding: EdgeInsets.only(left: 4),
   );
   return (onTap == null) ? child : GestureDetector(child: child, onTap: onTap);
 }
-
-Widget emptySpace(double multiplier) =>
-    Container(margin: EdgeInsets.all(multiplier * 4));
-Widget emptySpace1x() => emptySpace(1.0);
-Widget emptySpace2x() => emptySpace(2.0);
-Widget emptySpace3x() => emptySpace(3.0);
-Widget emptySpace8x() => emptySpace(8.0);
-Widget emptySpace10x() => emptySpace(10.0);
-
-List<T> getListFromJson<T>(dynamic obj, T Function(dynamic json) func) {
-  if (obj == null) return List<T>();
-  try {
-    return List<T>.from(obj.map((t) => func(t)));
-  } catch (exception) {
-    logger.e("getListFromJson - $exception");
-    return List<T>();
-  }
-}
-
-String simpleDate(DateTime dateTime) =>
-    "${dateTime.year.toString().padLeft(4, '0')}-${dateTime.month.toString().padLeft(2, '0')}-${dateTime.day.toString().padLeft(2, '0')}";
 
 Widget gridIconTilePresenter(BuildContext innerContext, String imageprefix,
         String imageAddress, Function(String icon) onTap) =>

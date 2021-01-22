@@ -1,19 +1,15 @@
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 
 import '../../components/adaptive/appBarForSubPage.dart';
 import '../../components/adaptive/appScaffold.dart';
 import '../../components/bottomNavbar.dart';
-import '../../components/responsiveStaggeredGrid.dart';
 import '../../components/tilePresenters/responsiveStaggeredGridTilePresenter.dart';
 import '../../constants/AnalyticsEvent.dart';
 import '../../constants/AppImage.dart';
 import '../../constants/StaggeredGridItemType.dart';
-import '../../contracts/misc/staggeredGridItem.dart';
 import '../../helpers/analytics.dart';
 import '../../helpers/listPageHelper.dart';
-import '../../helpers/navigationHelper.dart';
-import '../../localization/localeKey.dart';
-import '../../localization/translations.dart';
 import '../recipe/recipeListPage.dart';
 
 class OtherRecipesPage extends StatelessWidget {
@@ -28,7 +24,7 @@ class OtherRecipesPage extends StatelessWidget {
       appBar: appBarForSubPageHelper(
         context,
         showHomeAction: true,
-        title: Text(Translations.get(context, LocaleKey.other)),
+        title: Text(getTranslations().fromKey(LocaleKey.other)),
       ),
       builder: (scaffoldContext) => getBody(scaffoldContext),
       bottomNavigationBar: BottomNavbar(noRouteSelected: true),
@@ -44,7 +40,7 @@ class OtherRecipesPage extends StatelessWidget {
             context,
             AppImage.workshopTile,
             text: LocaleKey.workbench,
-            onTap: () async => await navigateAwayFromHomeAsync(
+            onTap: () async => await getNavigation().navigateAwayFromHomeAsync(
               context,
               navigateTo: (context) => RecipeListPage(
                 LocaleKey.workbench,
@@ -60,7 +56,7 @@ class OtherRecipesPage extends StatelessWidget {
             context,
             AppImage.refinerTile,
             text: LocaleKey.refiner,
-            onTap: () async => await navigateAwayFromHomeAsync(
+            onTap: () async => await getNavigation().navigateAwayFromHomeAsync(
               context,
               navigateTo: (context) => RecipeListPage(
                 LocaleKey.refiner,
@@ -76,7 +72,7 @@ class OtherRecipesPage extends StatelessWidget {
             context,
             AppImage.resourceTile,
             text: LocaleKey.dispenser,
-            onTap: () async => await navigateAwayFromHomeAsync(
+            onTap: () async => await getNavigation().navigateAwayFromHomeAsync(
               context,
               navigateTo: (context) => RecipeListPage(
                 LocaleKey.dispenser,
@@ -92,7 +88,7 @@ class OtherRecipesPage extends StatelessWidget {
             context,
             AppImage.cookingTile,
             text: LocaleKey.cookingBot,
-            onTap: () async => await navigateAwayFromHomeAsync(
+            onTap: () async => await getNavigation().navigateAwayFromHomeAsync(
               context,
               navigateTo: (context) => RecipeListPage(
                 LocaleKey.cookingBot,

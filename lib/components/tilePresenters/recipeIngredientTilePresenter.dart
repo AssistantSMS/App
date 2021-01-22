@@ -1,11 +1,9 @@
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 
 import '../../contracts/recipeIngredient/recipeIngredient.dart';
 import '../../contracts/recipeIngredient/recipeIngredientDetail.dart';
-import '../../contracts/results/resultWithValue.dart';
 import '../../helpers/futureHelper.dart';
-import '../../helpers/navigationHelper.dart';
-import '../../helpers/snapshotHelper.dart';
 import '../../pages/gameItem/gameItemDetailPage.dart';
 import 'genericTilePresenter.dart';
 
@@ -29,7 +27,8 @@ Widget recipeIngredientDetailTilePresenter(BuildContext context,
       context,
       recipeIngredient,
       index,
-      onTap: () async => await navigateAwayFromHomeAsync(context,
+      onTap: () async => await getNavigation().navigateAwayFromHomeAsync(
+          context,
           navigateTo: (context) => GameItemDetailPage(recipeIngredient.id)),
     );
 

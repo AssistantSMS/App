@@ -1,4 +1,4 @@
-import 'localeKey.dart';
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 
 List<LocaleKey> localesFromString = [
   LocaleKey.gearCount,

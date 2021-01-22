@@ -1,42 +1,11 @@
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-
-import '../../helpers/deviceHelper.dart';
-
-// Widget adaptiveCheckbox(BuildContext context,
-//         {@required bool value,
-//         @required Color activeColor,
-//         @required void Function(bool newValue) onChanged}) =>
-//     StoreConnector<AppState, SettingViewModel>(
-//       converter: (store) => SettingViewModel.fromStore(store),
-//       builder: (_, viewModel) =>
-//           (isApple && viewModel.showMaterialTheme == false)
-//               ? _iosCheckbox(context, value, activeColor, onChanged)
-//               : _androidCheckbox(context, value, activeColor, onChanged),
-//     );
 
 Widget adaptiveCheckbox(BuildContext context,
     {@required bool value,
     @required Color activeColor,
     @required void Function(bool newValue) onChanged}) {
-  if (isiOS) return _iosCheckbox(context, value, activeColor, onChanged);
-  return _androidCheckbox(context, value, activeColor, onChanged);
-}
-
-Widget _androidCheckbox(BuildContext context, bool value, Color activeColor,
-    Function(bool newVallue) onChanged) {
-  return Switch(
-    value: value,
-    activeColor: activeColor,
-    onChanged: onChanged,
-  );
-}
-
-Widget _iosCheckbox(BuildContext context, bool value, Color activeColor,
-    Function(bool newVallue) onChanged) {
-  return CupertinoSwitch(
-    value: value,
-    activeColor: activeColor,
-    onChanged: onChanged,
-  );
+  if (isiOS) return iosCheckbox(value, activeColor, onChanged);
+  return androidCheckbox(value, activeColor, onChanged);
 }

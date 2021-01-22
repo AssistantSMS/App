@@ -1,7 +1,6 @@
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 
-import '../../components/adaptive/listWithScrollbar.dart';
-import '../../components/adaptive/segmentedControl.dart';
 import '../../components/scaffoldTemplates/genericPageScaffold.dart';
 import '../../components/tilePresenters/recipeIngredientTilePresenter.dart';
 import '../../constants/AnalyticsEvent.dart';
@@ -11,11 +10,7 @@ import '../../contracts/recipeIngredient/recipeIngredientDetail.dart';
 import '../../contracts/recipeIngredient/recipeIngredientTreeDetails.dart';
 import '../../helpers/analytics.dart';
 import '../../helpers/futureHelper.dart';
-import '../../helpers/genericHelper.dart';
 import '../../helpers/itemsHelper.dart';
-import '../../helpers/snapshotHelper.dart';
-import '../../localization/localeKey.dart';
-import '../../localization/translations.dart';
 import 'genericPageAllRequiredTreeComponents.dart';
 
 class GenericAllRequiredPage extends StatefulWidget {
@@ -40,11 +35,11 @@ class _GenericAllRequiredWidget extends State<GenericAllRequiredPage> {
     List<Widget> options = [
       getSegmentedControlWithIconOption(
         Icons.list,
-        Translations.get(context, LocaleKey.flatList),
+        getTranslations().fromKey(LocaleKey.flatList),
       ),
       getSegmentedControlWithIconOption(
         Icons.call_split,
-        Translations.get(context, LocaleKey.tree),
+        getTranslations().fromKey(LocaleKey.tree),
       )
     ];
     var segmentedWidget = Container(
@@ -65,7 +60,7 @@ class _GenericAllRequiredWidget extends State<GenericAllRequiredPage> {
               AsyncSnapshot<List<RecipeIngredientDetails>> snapshot) {
             return genericPageScaffold<List<RecipeIngredientDetails>>(
               context,
-              Translations.get(context, LocaleKey.viewAllRequiredItems),
+              getTranslations().fromKey(LocaleKey.viewAllRequiredItems),
               snapshot,
               body: (BuildContext innerContext,
                       AsyncSnapshot<List<RecipeIngredientDetails>>
@@ -80,7 +75,7 @@ class _GenericAllRequiredWidget extends State<GenericAllRequiredPage> {
             AsyncSnapshot<List<RecipeIngredientTreeDetails>> snapshot) {
           return genericPageScaffold<List<RecipeIngredientTreeDetails>>(
             context,
-            Translations.get(context, LocaleKey.viewAllRequiredItems),
+            getTranslations().fromKey(LocaleKey.viewAllRequiredItems),
             snapshot,
             body: (BuildContext innerContext,
                     AsyncSnapshot<List<RecipeIngredientTreeDetails>>
@@ -113,7 +108,7 @@ class _GenericAllRequiredWidget extends State<GenericAllRequiredPage> {
       widgets.add(
         Container(
           child: Text(
-            Translations.get(context, LocaleKey.noItems),
+            getTranslations().fromKey(LocaleKey.noItems),
             textAlign: TextAlign.center,
             overflow: TextOverflow.ellipsis,
             style: TextStyle(fontSize: 20),
@@ -156,7 +151,7 @@ Widget getTreeBody(
     widgets.add(
       Container(
         child: Text(
-          Translations.get(context, LocaleKey.noItems),
+          getTranslations().fromKey(LocaleKey.noItems),
           textAlign: TextAlign.center,
           overflow: TextOverflow.ellipsis,
           style: TextStyle(fontSize: 20),

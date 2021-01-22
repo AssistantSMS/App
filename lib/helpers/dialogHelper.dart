@@ -1,9 +1,6 @@
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 import 'package:rflutter_alert/rflutter_alert.dart';
-
-import '../localization/localeKey.dart';
-import '../localization/translations.dart';
-import 'colourHelper.dart';
 
 void showSimpleDialog(context, String title, Widget content,
     {List<DialogButton> buttons}) {
@@ -13,7 +10,7 @@ void showSimpleDialog(context, String title, Widget content,
     closeFunction: () {},
     style: AlertStyle(
       titleStyle: TextStyle(
-        color: getIsDark(context) ? Colors.white : Colors.black,
+        color: getTheme().getIsDark(context) ? Colors.white : Colors.black,
       ),
     ),
     content: content,
@@ -36,9 +33,9 @@ void showSimpleHelpDialog(context, String title, String helpContent,
 
 Widget simpleDialogCloseButton(context, {Function onTap}) => DialogButton(
       child: Text(
-        Translations.get(context, LocaleKey.close),
+        getTranslations().fromKey(LocaleKey.close),
         style: TextStyle(
-          color: getIsDark(context) ? Colors.black : Colors.white,
+          color: getTheme().getIsDark(context) ? Colors.black : Colors.white,
         ),
       ),
       onPressed: () {
@@ -50,9 +47,9 @@ Widget simpleDialogCloseButton(context, {Function onTap}) => DialogButton(
 Widget simpleDialogPositiveButton(context, {LocaleKey title, Function onTap}) =>
     DialogButton(
       child: Text(
-        Translations.get(context, title ?? LocaleKey.apply),
+        getTranslations().fromKey(title ?? LocaleKey.apply),
         style: TextStyle(
-          color: getIsDark(context) ? Colors.black : Colors.white,
+          color: getTheme().getIsDark(context) ? Colors.black : Colors.white,
         ),
       ),
       onPressed: () {

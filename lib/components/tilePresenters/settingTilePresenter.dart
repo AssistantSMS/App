@@ -1,11 +1,7 @@
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 
-import '../../constants/SupportedLanguages.dart';
-import '../../helpers/colourHelper.dart';
-import '../../helpers/genericHelper.dart';
 import '../../helpers/languageHelper.dart';
-import '../../localization/localization.dart';
-import '../../localization/localizationMap.dart';
 import '../adaptive/checkbox.dart';
 import 'genericTilePresenter.dart';
 import 'languageTilePresenter.dart';
@@ -35,7 +31,7 @@ Widget boolSettingTilePresenter(BuildContext context, String name, bool value,
         trailing: adaptiveCheckbox(
           context,
           value: value,
-          activeColor: getSecondaryColour(context),
+          activeColor: getTheme().getSecondaryColour(context),
           onChanged: (bool unused) => tempOnChange(),
         ),
         onTap: tempOnChange),
@@ -51,7 +47,7 @@ Widget languageSettingTilePresenter(
     if (onChange == null) return;
 
     var temp = await langaugeSelectionPage(context);
-    if (temp != null) onChange(localization.getLocaleFromKey(temp));
+    if (temp != null) onChange(getTranslations().getLocaleFromKey(temp));
   };
   LocalizationMap currentLocal = supportedLanguageMaps.firstWhere(
     (LocalizationMap localizationMap) => localizationMap.code == value,

@@ -1,7 +1,7 @@
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
 
-import '../../components/adaptive/listWithScrollbar.dart';
 import '../../components/common/cachedFutureBuilder.dart';
 import '../../components/dialogs/quantityDialog.dart';
 import '../../components/loading.dart';
@@ -16,16 +16,10 @@ import '../../constants/Routes.dart';
 import '../../contracts/recipe/recipePageItem.dart';
 import '../../contracts/recipeIngredient/recipeIngredient.dart';
 import '../../contracts/recipeIngredient/recipeIngredientDetail.dart';
-import '../../contracts/results/resultWithValue.dart';
 import '../../helpers/analytics.dart';
-import '../../helpers/colourHelper.dart';
 import '../../helpers/deviceHelper.dart';
 import '../../helpers/futureHelper.dart';
 import '../../helpers/genericHelper.dart';
-import '../../helpers/navigationHelper.dart';
-import '../../helpers/snapshotHelper.dart';
-import '../../localization/localeKey.dart';
-import '../../localization/translations.dart';
 import '../../state/modules/base/appState.dart';
 import '../../state/modules/cart/cartItemState.dart';
 import '../../state/modules/gameItem/gameItemViewModel.dart';
@@ -46,7 +40,7 @@ class RecipeDetailPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    String loading = Translations.get(context, LocaleKey.loading);
+    String loading = getTranslations().fromKey(LocaleKey.loading);
     var loadingWidget = fullPageLoading(context, loadingText: loading);
     return CachedFutureBuilder<ResultWithValue<RecipePageItem>>(
       future: recipePageItemFuture(context, this.itemId),
@@ -106,7 +100,7 @@ class RecipeDetailPage extends StatelessWidget {
           updateDetailView: updateDetailView,
         ));
       } else {
-        await navigateAwayFromHomeAsync(
+        await getNavigation().navigateAwayFromHomeAsync(
           context,
           navigateToNamed: Routes.gameDetail,
           navigateToNamedParameters: {Routes.itemIdParam: recipeItem.output.id},
@@ -135,7 +129,7 @@ class RecipeDetailPage extends StatelessWidget {
     }
 
     if (!isTrade) {
-      var timeToCraft = Translations.get(context, LocaleKey.timeToCraft) +
+      var timeToCraft = getTranslations().fromKey(LocaleKey.timeToCraft) +
           ' ' +
           recipeItem.craftingTime.toString() +
           's';
@@ -150,7 +144,7 @@ class RecipeDetailPage extends StatelessWidget {
       localeKey = LocaleKey.tradedFor;
     }
     widgets.add(Text(
-      Translations.get(context, localeKey),
+      getTranslations().fromKey(localeKey),
       textAlign: TextAlign.center,
     ));
     for (var recipeIngIndex = 0;
@@ -168,15 +162,15 @@ class RecipeDetailPage extends StatelessWidget {
       ));
     }
 
-    var navigateToCart = () async =>
-        await navigateHomeAsync(context, navigateToNamed: Routes.cart);
+    var navigateToCart = () async => await getNavigation()
+        .navigateHomeAsync(context, navigateToNamed: Routes.cart);
 
     List<CartItemState> cartItems = viewModel.cartItems
         .where((CartItemState ci) => ci.itemId == recipeItem.output.id)
         .toList();
     if (cartItems != null && cartItems.length > 0) {
       widgets.add(emptySpace3x());
-      widgets.add(genericItemText(Translations.get(context, LocaleKey.cart)));
+      widgets.add(genericItemText(getTranslations().fromKey(LocaleKey.cart)));
       print(recipeItem.output.id);
       widgets.add(Card(
         child: GestureDetector(
@@ -196,7 +190,7 @@ class RecipeDetailPage extends StatelessWidget {
 
     widgets.add(emptySpace10x());
 
-    var fabColour = getSecondaryColour(context);
+    var fabColour = getTheme().getSecondaryColour(context);
     return Stack(
       children: [
         listWithScrollbar(
@@ -210,10 +204,10 @@ class RecipeDetailPage extends StatelessWidget {
           child: FloatingActionButton(
             child: Icon(Icons.shopping_cart),
             backgroundColor: fabColour,
-            foregroundColor: getForegroundTextColour(fabColour),
+            foregroundColor: getTheme().getForegroundTextColour(fabColour),
             onPressed: () {
               showQuantityDialog(context, controller,
-                  title: Translations.get(context, LocaleKey.quantity),
+                  title: getTranslations().fromKey(LocaleKey.quantity),
                   onSuccess: (String quantityString) {
                 int quantity = int.tryParse(quantityString);
                 if (quantity == null) return;

@@ -1,20 +1,14 @@
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 
 import '../components/adaptive/appBarForSubPage.dart';
 import '../components/adaptive/appScaffold.dart';
-import '../components/adaptive/button.dart';
-import '../components/adaptive/listWithScrollbar.dart';
 import '../components/bottomNavbar.dart';
 import '../constants/AnalyticsEvent.dart';
 import '../constants/AppPadding.dart';
-import '../constants/ExternalUrls.dart';
 import '../constants/Routes.dart';
 import '../helpers/analytics.dart';
 import '../helpers/deviceHelper.dart';
-import '../helpers/external.dart';
-import '../helpers/genericHelper.dart';
-import '../localization/localeKey.dart';
-import '../localization/translations.dart';
 
 class AboutPage extends StatelessWidget {
   AboutPage() {
@@ -28,7 +22,7 @@ class AboutPage extends StatelessWidget {
       appBar: appBarForSubPageHelper(
         context,
         showHomeAction: true,
-        title: Text(Translations.get(context, LocaleKey.about)),
+        title: Text(getTranslations().fromKey(LocaleKey.about)),
       ),
       body: getBody(context),
       bottomNavigationBar: BottomNavbar(currentRoute: Routes.about),
@@ -40,7 +34,7 @@ class AboutPage extends StatelessWidget {
 
     widgets.add(emptySpace2x());
 
-    widgets.add(Text(Translations.get(context, LocaleKey.aboutContent),
+    widgets.add(Text(getTranslations().fromKey(LocaleKey.aboutContent),
         textAlign: TextAlign.center,
         maxLines: 50,
         style: TextStyle(fontSize: 16)));
@@ -48,12 +42,12 @@ class AboutPage extends StatelessWidget {
     widgets.add(customDivider());
 
     widgets.add(genericItemDescription(
-      Translations.get(context, LocaleKey.fairUseDisclaimer),
+      getTranslations().fromKey(LocaleKey.fairUseDisclaimer),
     ));
-    
+
     widgets.add(emptySpace3x());
     widgets.add(positiveButton(
-      title: Translations.get(context, LocaleKey.kurtsBlog),
+      title: getTranslations().fromKey(LocaleKey.kurtsBlog),
       eventString: AnalyticsEvent.externalLinkPersonalBlog,
       onPress: () => launchExternalURL(ExternalUrls.personalBlog),
     ));

@@ -1,5 +1,6 @@
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
+
 import '../../../contracts/generated/SteamNewsItem.dart';
-import '../../../contracts/results/resultWithValue.dart';
 
 class ISteamApiRepository {
   Future<ResultWithValue<List<SteamNewsItem>>> getSteamNews() async =>

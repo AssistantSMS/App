@@ -1,12 +1,9 @@
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:badges/badges.dart';
 import 'package:flutter/material.dart';
 
 import '../../constants/AppImage.dart';
 import '../../helpers/analytics.dart';
-import '../../helpers/colourHelper.dart';
-import '../../localization/localeKey.dart';
-import '../../localization/translations.dart';
-import '../common/image.dart';
 
 ListTile genericListTileWithSubtitleAndImageCount(context,
     {@required Widget leadingImage,
@@ -24,7 +21,7 @@ ListTile genericListTileWithSubtitleAndImageCount(context,
       // ? leadingImage
       ? Badge(
           badgeContent: Text(leadingImageCount.toString()),
-          badgeColor: getSecondaryColour(context),
+          badgeColor: getTheme().getSecondaryColour(context),
           position: BadgePosition.bottomEnd(),
           child: leadingImage,
           padding: EdgeInsets.all(8),
@@ -110,7 +107,7 @@ ListTile genericListTile(context,
     Function onLongPress}) {
   Widget subtitle = (quantity != null && quantity > 0)
       ? Text(
-          "${Translations.get(context, LocaleKey.quantity)}: ${quantity.toString()}")
+          "${getTranslations().fromKey(LocaleKey.quantity)}: ${quantity.toString()}")
       : null;
   return genericListTileWithSubtitle(context,
       leadingImage: leadingImage,

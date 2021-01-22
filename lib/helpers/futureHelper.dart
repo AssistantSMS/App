@@ -1,3 +1,4 @@
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:dartx/dartx.dart';
 import 'package:flutter/material.dart';
 import 'package:package_info/package_info.dart';
@@ -10,15 +11,11 @@ import '../contracts/recipe/recipe.dart';
 import '../contracts/recipe/recipePageItem.dart';
 import '../contracts/recipeIngredient/recipeIngredient.dart';
 import '../contracts/recipeIngredient/recipeIngredientDetail.dart';
-import '../contracts/results/resultWithValue.dart';
 import '../contracts/usedInRecipe/usedInRecipe.dart';
 import '../integration/dependencyInjection.dart';
-import '../integration/logging.dart';
-import '../localization/localeKey.dart';
-import '../services/interface/IGameItemJsonService.dart';
-import '../services/interface/IRecipeJsonService.dart';
+import '../services/json/interface/IGameItemJsonService.dart';
+import '../services/json/interface/IRecipeJsonService.dart';
 import '../services/json/lootItemJsonService.dart';
-import 'deviceHelper.dart';
 import 'itemsHelper.dart';
 import 'repositoryHelper.dart';
 
@@ -87,7 +84,7 @@ Future<ResultWithValue<List<Recipe>>> getAllRecipeFromLocaleKeys(
   }
   await Future.wait(tasks);
 
-  logger.i('Number of Recipe items: ${results.length}');
+  getLog().i('Number of Recipe items: ${results.length}');
   var sorted = results.sortedBy((recipe) => recipe.title).toList();
 
   return ResultWithValue(results.length > 0, sorted, '');
@@ -156,7 +153,7 @@ Future<ResultWithValue<List<GameItem>>> getAllGameItemFromLocaleKeys(
   }
   await Future.wait(tasks);
 
-  logger.i('Number of GameItem items: ${results.length}');
+  getLog().i('Number of GameItem items: ${results.length}');
   var sorted = results.sortedBy((recipe) => recipe.title).toList();
 
   return ResultWithValue(results.length > 0, sorted, '');

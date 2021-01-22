@@ -1,4 +1,4 @@
-import '../contracts/results/resultWithValue.dart';
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 
 Future<ResultWithValue<List<T>>> Function() getSearchListFutureFromList<T>(
     List<T> list,

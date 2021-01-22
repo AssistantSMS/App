@@ -1,10 +1,7 @@
-import 'package:flutter/material.dart';
-import 'package:theme_mode_handler/theme_mode_handler.dart';
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:theme_mode_handler/theme_mode_manager_interface.dart';
 
-import '../contracts/results/resultWithValue.dart';
 import '../state/themeState.dart';
-import '../theme/themes.dart';
 import 'dependencyInjection.dart';
 
 class ThemeManager implements IThemeModeManager {
@@ -24,15 +21,4 @@ class ThemeManager implements IThemeModeManager {
     var result = await getStorageService().saveThemeState(ThemeState(value));
     return result.isSuccess;
   }
-}
-
-ThemeData getTheme(BuildContext context) =>
-    ((ThemeModeHandler.of(context)?.themeMode ?? ThemeMode.light) ==
-            ThemeMode.light)
-        ? getDynamicTheme(Brightness.light)
-        : getDynamicTheme(Brightness.dark);
-
-void setBrightness(BuildContext context, bool isDark) {
-  ThemeModeHandler.of(context)
-      .saveThemeMode(isDark ? ThemeMode.light : ThemeMode.dark);
 }

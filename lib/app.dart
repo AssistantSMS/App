@@ -1,3 +1,4 @@
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/foundation.dart' show kReleaseMode;
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
@@ -9,9 +10,7 @@ import 'env/appRouter.dart';
 import 'env/environmentSettings.dart';
 import 'integration/dependencyInjection.dart';
 import 'integration/firebaseAnalytics.dart';
-import 'integration/logging.dart';
 import 'integration/router.dart';
-import 'localization/translationDelegate.dart';
 import 'state/createStore.dart';
 import 'state/modules/base/appState.dart';
 import 'state/modules/base/appViewModel.dart';
@@ -36,7 +35,6 @@ class _MyAppState extends State<MyApp> {
   @override
   initState() {
     super.initState();
-    initLogger();
     initDependencyInjection(this._env);
     initReduxState();
     if (kReleaseMode) {
@@ -82,11 +80,12 @@ class _MyAppState extends State<MyApp> {
       store: store,
       child: StoreConnector<AppState, AppViewModel>(
         converter: (store) => AppViewModel.fromStore(store),
-        builder: (_, viewModel) => AppShell(
-          newLocaleDelegate: TranslationsDelegate(
-            newLocale: Locale(viewModel.selectedLanguage),
-          ),
-        ),
+        builder: (_, viewModel) => Center(),
+        // AppShell(
+        //   newLocaleDelegate: TranslationsDelegate(
+        //     newLocale: Locale(viewModel.selectedLanguage),
+        //   ),
+        // ),
       ),
     );
   }

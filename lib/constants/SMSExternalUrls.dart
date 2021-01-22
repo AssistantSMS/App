@@ -1,4 +1,4 @@
-class ExternalUrls {
+class SMSExternalUrls {
   static const String cvWebsite = 'https://kurtlourens.com?ref=assistantSMS';
   static const String personalBlog =
       'https://blog.kurtlourens.com?ref=assistantSMS';

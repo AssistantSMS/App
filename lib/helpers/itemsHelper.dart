@@ -1,13 +1,12 @@
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
+
 import '../constants/IdPrefix.dart';
 import '../contracts/recipeIngredient/recipeIngredient.dart';
 import '../contracts/recipeIngredient/recipeIngredientDetail.dart';
 import '../contracts/recipeIngredient/recipeIngredientTreeDetails.dart';
-import '../contracts/results/resultWithValue.dart';
 import '../integration/dependencyInjection.dart';
-import '../integration/logging.dart';
-import '../localization/localeKey.dart';
-import '../services/interface/IGameItemJsonService.dart';
-import '../services/interface/IRecipeJsonService.dart';
+import '../services/json/interface/IGameItemJsonService.dart';
+import '../services/json/interface/IRecipeJsonService.dart';
 import 'futureHelper.dart';
 import 'repositoryHelper.dart';
 
@@ -37,7 +36,7 @@ ResultWithValue<IRecipeJsonService> getRecipeRepoFromId(context, String id) {
     return ResultWithValue<IRecipeJsonService>(true, getRecipeRepo(key), '');
   }
 
-  logger.e('getRecipeRepoFromId - unknown type of item: $id');
+  getLog().e('getRecipeRepoFromId - unknown type of item: $id');
   return ResultWithValue<IRecipeJsonService>(
       false, null, 'getRecipeRepoFromId - unknown type of item: $id');
 }
@@ -86,7 +85,7 @@ ResultWithValue<IGameItemJsonService> getGameItemRepoFromId(
         true, getGameItemRepo(key), '');
   }
 
-  logger.e('getGameItemRepoFromId - unknown type of item: $id');
+  getLog().e('getGameItemRepoFromId - unknown type of item: $id');
   return ResultWithValue<IGameItemJsonService>(
       false, null, 'getGameItemRepoFromId - unknown type of item: $id');
 }

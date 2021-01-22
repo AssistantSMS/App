@@ -1,17 +1,13 @@
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 import '../components/adaptive/appBarForSubPage.dart';
 import '../components/adaptive/appScaffold.dart';
-import '../components/adaptive/listWithScrollbar.dart';
 import '../constants/AnalyticsEvent.dart';
-import '../constants/ExternalUrls.dart';
 import '../helpers/analytics.dart';
 import '../helpers/deviceHelper.dart';
-import '../helpers/external.dart';
 import '../helpers/genericHelper.dart';
-import '../localization/localeKey.dart';
-import '../localization/translations.dart';
 
 class DonationPage extends StatelessWidget {
   DonationPage() {
@@ -24,7 +20,7 @@ class DonationPage extends StatelessWidget {
     items.add(Container(
       key: Key('donationDescrip'),
       child: Text(
-        Translations.get(context, LocaleKey.donationDescrip),
+        getTranslations().fromKey(LocaleKey.donationDescrip),
         textAlign: TextAlign.center,
         style: TextStyle(fontSize: 16),
       ),
@@ -37,7 +33,7 @@ class DonationPage extends StatelessWidget {
     paymentOptions.add(ListTile(
       key: Key('buyMeACoffee'),
       leading: getListTileImage(context, 'donation/buyMeACoffee.png'),
-      title: Text(Translations.get(context, LocaleKey.buyMeACoffee),
+      title: Text(getTranslations().fromKey(LocaleKey.buyMeACoffee),
           style: TextStyle(fontSize: 20)),
       onTap: () {
         trackEvent(AnalyticsEvent.externalLinkBuyMeACoffee);
@@ -47,7 +43,7 @@ class DonationPage extends StatelessWidget {
     paymentOptions.add(ListTile(
       key: Key('patreon'),
       leading: getListTileImage(context, 'donation/patreon.png'),
-      title: Text(Translations.get(context, LocaleKey.patreon),
+      title: Text(getTranslations().fromKey(LocaleKey.patreon),
           style: TextStyle(fontSize: 20)),
       onTap: () {
         trackEvent(AnalyticsEvent.externalLinkPatreon);
@@ -57,7 +53,7 @@ class DonationPage extends StatelessWidget {
     paymentOptions.add(ListTile(
       key: Key('payPal'),
       leading: getListTileImage(context, 'donation/payPal.png'),
-      title: Text(Translations.get(context, LocaleKey.paypal),
+      title: Text(getTranslations().fromKey(LocaleKey.paypal),
           style: TextStyle(fontSize: 20)),
       onTap: () {
         trackEvent(AnalyticsEvent.externalLinkPayPal);
@@ -67,7 +63,7 @@ class DonationPage extends StatelessWidget {
     paymentOptions.add(ListTile(
       key: Key('openCollective'),
       leading: getListTileImage(context, 'donation/openCollective.png'),
-      title: Text(Translations.get(context, LocaleKey.openCollective),
+      title: Text(getTranslations().fromKey(LocaleKey.openCollective),
           style: TextStyle(fontSize: 20)),
       onTap: () {
         trackEvent(AnalyticsEvent.externalLinkOpenCollective);
@@ -80,7 +76,7 @@ class DonationPage extends StatelessWidget {
     } else {
       items.add(ListTile(
         key: Key(LocaleKey.noItems.toString()),
-        title: Text(Translations.get(context, LocaleKey.noItems),
+        title: Text(getTranslations().fromKey(LocaleKey.noItems),
             textAlign: TextAlign.center, style: TextStyle(fontSize: 20)),
       ));
     }
@@ -90,7 +86,7 @@ class DonationPage extends StatelessWidget {
       appBar: appBarForSubPageHelper(
         context,
         showHomeAction: true,
-        title: Text(Translations.get(context, LocaleKey.donation)),
+        title: Text(getTranslations().fromKey(LocaleKey.donation)),
       ),
       body: listWithScrollbar(
         shrinkWrap: true,

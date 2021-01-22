@@ -1,11 +1,8 @@
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 
-import '../../components/adaptive/listWithScrollbar.dart';
 import '../../components/tilePresenters/raidTilePresenter.dart';
-import '../../helpers/genericHelper.dart';
 import '../../helpers/raidHelper.dart';
-import '../../localization/localeKey.dart';
-import '../../localization/translations.dart';
 import '../../state/modules/raid/raidViewModel.dart';
 
 class RaidCalculatorResultComponent extends StatelessWidget {
@@ -25,11 +22,11 @@ class RaidCalculatorResultComponent extends StatelessWidget {
     if (spawns == null || spawns.length < 1) {
       widgets.add(emptySpace3x());
       widgets.add(
-          genericItemName(Translations.get(context, LocaleKey.yourFarmIsSafe)));
+          genericItemName(getTranslations().fromKey(LocaleKey.yourFarmIsSafe)));
     }
 
     for (int spawnIndex = 0; spawnIndex < spawns.length; spawnIndex++) {
-      var template = Translations.get(context, LocaleKey.attackersOnNightX);
+      var template = getTranslations().fromKey(LocaleKey.attackersOnNightX);
       widgets.add(genericItemGroup(
         template.replaceAll('{0}', (spawnIndex + 1).toString()),
       ));

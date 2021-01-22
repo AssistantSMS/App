@@ -1,4 +1,5 @@
-import '../../localization/localeKey.dart';
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
+
 import '../recipeIngredient/recipeIngredientDetail.dart';
 
 class CraftedUsing {

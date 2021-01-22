@@ -1,14 +1,8 @@
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 
-import '../../components/common/image.dart';
 import '../../components/tilePresenters/raidTilePresenter.dart';
-import '../../contracts/misc/popupMenuActionItem.dart';
-import '../../helpers/external.dart';
-import '../../helpers/genericHelper.dart';
-import '../../helpers/popupMenuButtonHelper.dart';
 import '../../helpers/raidHelper.dart';
-import '../../localization/localeKey.dart';
-import '../../localization/translations.dart';
 import '../../state/modules/raid/raidViewModel.dart';
 
 const greenyDevGithubImage =
@@ -37,7 +31,7 @@ class RaidCalcMobileInputScreen extends StatelessWidget {
           width: 50.0,
         ),
       ),
-      title: Text(Translations.get(context, LocaleKey.originalWorkByGreenyDev)),
+      title: Text(getTranslations().fromKey(LocaleKey.originalWorkByGreenyDev)),
       trailing: popupMenu(context, additionalItems: [
         PopupMenuActionItem(
           icon: Icons.open_in_new,

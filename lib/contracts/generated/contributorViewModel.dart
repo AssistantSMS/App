@@ -5,7 +5,7 @@
 
 import 'dart:convert';
 
-import '../../../helpers/jsonHelper.dart';
+import '../../helpers/jsonHelper.dart';
 
 class ContributorViewModel {
   String name;

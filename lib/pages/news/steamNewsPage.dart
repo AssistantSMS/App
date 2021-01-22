@@ -1,17 +1,15 @@
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart'
+    hide BackupJsonService;
 import 'package:flutter/material.dart';
 
 import '../../components/adaptive/appBarForSubPage.dart';
 import '../../components/adaptive/appScaffold.dart';
 import '../../components/bottomNavbar.dart';
-import '../../components/searchableList.dart';
 import '../../components/tilePresenters/steamNewsTilePresenter.dart';
 import '../../constants/AnalyticsEvent.dart';
 import '../../contracts/generated/SteamNewsItem.dart';
 import '../../helpers/analytics.dart';
-import '../../helpers/columnHelper.dart';
 import '../../integration/dependencyInjection.dart';
-import '../../localization/localeKey.dart';
-import '../../localization/translations.dart';
 import '../../services/json/backupJsonService.dart';
 
 class SteamNewsPage extends StatelessWidget {
@@ -26,12 +24,12 @@ class SteamNewsPage extends StatelessWidget {
       appBar: appBarForSubPageHelper(
         context,
         showHomeAction: true,
-        title: Text(Translations.get(context, LocaleKey.news)),
+        title: Text(getTranslations().fromKey(LocaleKey.news)),
       ),
       body: SearchableList<SteamNewsItem>(
         () => getSteamApiRepo().getSteamNews(),
-        steamNewsItemTilePresenter,
-        (_, __) => false,
+        listItemWithIndexDisplayer: steamNewsItemTilePresenter,
+        listItemSearch: (_, __) => false,
         backupListGetter: () => BackupJsonService().getSteamNews(context),
         backupListWarningMessage: LocaleKey.failedLatestDisplayingOld,
         minListForSearch: 20000,

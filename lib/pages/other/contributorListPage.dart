@@ -1,23 +1,15 @@
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart'
+    hide BackupJsonService;
 import 'package:flutter/material.dart';
 
 import '../../components/adaptive/appBarForSubPage.dart';
 import '../../components/adaptive/appScaffold.dart';
-import '../../components/adaptive/paginationControl.dart';
-import '../../components/adaptive/segmentedControl.dart';
 import '../../components/bottomNavbar.dart';
-import '../../components/lazyLoadedSearchableList.dart';
-import '../../components/searchableList.dart';
 import '../../components/tilePresenters/contributorTilePresenter.dart';
-import '../../components/tilePresenters/donationTilePresenter.dart';
 import '../../constants/AnalyticsEvent.dart';
-import '../../constants/UIConstants.dart';
-import '../../contracts/generated/AssistantApps/donationViewModel.dart';
-import '../../contracts/generated/AssistantApps/contributorViewModel.dart';
+import '../../contracts/generated/contributorViewModel.dart';
 import '../../helpers/analytics.dart';
-import '../../helpers/columnHelper.dart';
 import '../../integration/dependencyInjection.dart';
-import '../../localization/localeKey.dart';
-import '../../localization/translations.dart';
 import '../../services/json/backupJsonService.dart';
 
 class ContributorListPage extends StatefulWidget {
@@ -38,10 +30,10 @@ class _ContributorsWidget extends State<ContributorListPage> {
   Widget build(BuildContext context) {
     List<Widget> options = [
       getSegmentedControlOption(
-        Translations.get(context, LocaleKey.contributors),
+        getTranslations().fromKey(LocaleKey.contributors),
       ),
       getSegmentedControlOption(
-        Translations.get(context, LocaleKey.donation),
+        getTranslations().fromKey(LocaleKey.donation),
       )
     ];
 
@@ -50,7 +42,7 @@ class _ContributorsWidget extends State<ContributorListPage> {
       appBar: appBarForSubPageHelper(
         context,
         showHomeAction: true,
-        title: Text(Translations.get(context, LocaleKey.contributors)),
+        title: Text(getTranslations().fromKey(LocaleKey.contributors)),
       ),
       body: Column(
         children: <Widget>[
@@ -68,28 +60,15 @@ class _ContributorsWidget extends State<ContributorListPage> {
             child: currentSelection == 0
                 ? SearchableList<ContributorViewModel>(
                     () => getContributorApiRepo().getContributors(),
-                    contributorTilePresenter,
-                    (_, __) => false,
-                    // backupListGetter: () => PatronsListBackupJsonService().getAll(context),
-                    // backupListWarningMessage: LocaleKey.failedLatestDisplayingOld,
+                    listItemWithIndexDisplayer: contributorTilePresenter,
+                    listItemSearch: (_, __) => false,
                     backupListGetter: () =>
                         BackupJsonService().getContributors(context),
                     minListForSearch: 20000,
                     useGridView: true,
                     gridViewColumnCalculator: steamNewsCustomColumnCount,
                   )
-                : LazyLoadSearchableList<DonationViewModel>(
-                    (int page) => getDonatorApiRepo().getDonators(page: page),
-                    UIConstants.DonationsPageSize,
-                    donationTilePresenter,
-                    backupListGetter: (int page) =>
-                        BackupJsonService().getDonations(
-                      context,
-                      page: page,
-                      pageSize: UIConstants.DonationsPageSize,
-                    ),
-                    loadMoreItemWidget: smallLoadMorePageButton(context),
-                  ),
+                : DonatorsPageComponent(smallLoadMorePageButton(context)),
           ),
         ],
       ),

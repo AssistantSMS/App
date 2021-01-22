@@ -1,14 +1,11 @@
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
-
-import '../localization/localeKey.dart';
-import '../localization/translations.dart';
-import 'colourHelper.dart';
 
 Widget getTextSpanFromTemplateAndArray(
     BuildContext context, LocaleKey templateLocaleKey, List<String> variables) {
-  String template = Translations.get(context, templateLocaleKey);
+  String template = getTranslations().fromKey(templateLocaleKey);
   List<String> templateArray = template.split(new RegExp(r"\{.\}"));
-  Color secondaryColour = getSecondaryColour(context);
+  Color secondaryColour = getTheme().getSecondaryColour(context);
 
   List<TextSpan> textSpans = List<TextSpan>();
   for (int templateVariableIndex = 0;

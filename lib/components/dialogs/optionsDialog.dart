@@ -1,11 +1,9 @@
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 import 'package:rflutter_alert/rflutter_alert.dart';
 
 import '../../contracts/search/dropdownOption.dart';
-import '../../helpers/colourHelper.dart';
 import '../../helpers/dialogHelper.dart';
-import '../../localization/localeKey.dart';
-import '../../localization/translations.dart';
 import '../tilePresenters/genericTilePresenter.dart';
 
 void showOptionsDialog(context, String title, List<DropdownOption> options,
@@ -13,9 +11,9 @@ void showOptionsDialog(context, String title, List<DropdownOption> options,
   List<DialogButton> buttons = List<DialogButton>();
   buttons.add(DialogButton(
     child: Text(
-      Translations.get(context, LocaleKey.close),
+      getTranslations().fromKey(LocaleKey.close),
       style: TextStyle(
-        color: getIsDark(context) ? Colors.black : Colors.white,
+        color: getTheme().getIsDark(context) ? Colors.black : Colors.white,
       ),
     ),
     onPressed: () => Navigator.of(context).pop(),
@@ -28,7 +26,7 @@ void showOptionsDialog(context, String title, List<DropdownOption> options,
 
   showSimpleDialog(
     context,
-    title ?? Translations.get(context, LocaleKey.quantity),
+    title ?? getTranslations().fromKey(LocaleKey.quantity),
     Column(
       mainAxisAlignment: MainAxisAlignment.start,
       mainAxisSize: MainAxisSize.min,

@@ -1,12 +1,10 @@
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import '../../constants/Routes.dart';
 import '../../contracts/misc/actionItem.dart';
 import '../../helpers/deviceHelper.dart';
-import '../../helpers/navigationHelper.dart';
-import '../../localization/localeKey.dart';
-import '../../localization/translations.dart';
 import 'appBar.dart';
 
 class HomePageAppBar extends StatelessWidget
@@ -23,11 +21,11 @@ class HomePageAppBar extends StatelessWidget
 
   @override
   Widget build(BuildContext context) {
-    var title = Text(Translations.get(context, LocaleKey.title));
+    var title = Text(getTranslations().fromKey(LocaleKey.title));
     var actions = List<ActionItem>();
     actions.add(ActionItem(
       icon: Icons.settings,
-      onPressed: () async => await navigateAsync(
+      onPressed: () async => await getNavigation().navigateAsync(
         context,
         navigateToNamed: Routes.settings,
       ),
@@ -41,7 +39,7 @@ class HomePageAppBar extends StatelessWidget
     widgets.addAll(actionItemToAndroidAction(actions));
     return adaptiveAppBar(
       context,
-      Text(Translations.get(context, LocaleKey.title)),
+      Text(getTranslations().fromKey(LocaleKey.title)),
       widgets,
       bottom: this.bottom,
     );

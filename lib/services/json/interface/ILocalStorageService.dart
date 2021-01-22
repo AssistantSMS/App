@@ -1,7 +1,7 @@
-import '../../contracts/results/result.dart';
-import '../../contracts/results/resultWithValue.dart';
-import '../../state/modules/base/appState.dart';
-import '../../state/themeState.dart';
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
+
+import '../../../state/modules/base/appState.dart';
+import '../../../state/themeState.dart';
 
 class ILocalStorageService {
   Future<Result> saveAppState(AppState state) async =>

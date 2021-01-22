@@ -1,3 +1,4 @@
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:dotted_border/dotted_border.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -6,19 +7,11 @@ import '../../constants/AppImage.dart';
 import '../../contracts/raid/raidSpawn.dart';
 import '../../contracts/recipeIngredient/recipeIngredient.dart';
 import '../../contracts/recipeIngredient/recipeIngredientDetail.dart';
-import '../../contracts/results/resultWithValue.dart';
 import '../../contracts/search/dropdownOption.dart';
-import '../../helpers/colourHelper.dart';
 import '../../helpers/futureHelper.dart';
-import '../../helpers/navigationHelper.dart';
-import '../../helpers/popupMenuButtonHelper.dart';
 import '../../helpers/raidHelper.dart';
-import '../../helpers/snapshotHelper.dart';
-import '../../localization/localeKey.dart';
-import '../../localization/translations.dart';
 import '../../pages/dialog/optionsListPageDialog.dart';
 import '../../state/modules/raid/raidViewModel.dart';
-import '../common/image.dart';
 import '../dialogs/quantityDialog.dart';
 import '../loading.dart';
 import 'genericTilePresenter.dart';
@@ -140,7 +133,7 @@ Widget _raidAddPlantTileContent(
           radius: Radius.circular(12),
           padding: EdgeInsets.all(6),
           dashPattern: [8, 4],
-          color: getSecondaryColour(context),
+          color: getTheme().getSecondaryColour(context),
           child: ClipRRect(
             borderRadius: BorderRadius.all(Radius.circular(12)),
             child: Center(
@@ -150,12 +143,12 @@ Widget _raidAddPlantTileContent(
         ),
       ),
     ),
-    title: Text(Translations.get(context, LocaleKey.addPlantPlot)),
+    title: Text(getTranslations().fromKey(LocaleKey.addPlantPlot)),
     onTap: () async {
-      String tempPlantId = await navigateAsync(
+      String tempPlantId = await getNavigation().navigateAsync(
         context,
         navigateTo: (context) => OptionsListPageDialog(
-          Translations.get(context, LocaleKey.raidCalculator),
+          getTranslations().fromKey(LocaleKey.raidCalculator),
           options,
           customPresenter:
               (BuildContext innerC, DropdownOption dropOpt, int index) {
@@ -202,7 +195,7 @@ Widget raidDetailGridTilePresenter(
             child: TextField(
               controller: _controller,
               textAlign: TextAlign.center,
-              cursorColor: getSecondaryColour(context),
+              cursorColor: getTheme().getSecondaryColour(context),
               decoration: InputDecoration(
                 hintText: "# of ${details.title} plots",
               ),

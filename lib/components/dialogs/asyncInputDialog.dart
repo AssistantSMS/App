@@ -1,10 +1,7 @@
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:rflutter_alert/rflutter_alert.dart';
-
-import '../../helpers/colourHelper.dart';
-import '../../localization/localeKey.dart';
-import '../../localization/translations.dart';
 
 /*
 Future<String> asyncInputDialog(BuildContext context, String title,
@@ -36,7 +33,7 @@ Future<String> asyncInputDialog(BuildContext context, String title,
           actions: [
             FlatButton(
               child: Text(
-                Translations.get(context, LocaleKey.close),
+                getTranslations().fromKey(LocaleKey.close),
               ),
               onPressed: () {
                 Navigator.of(context).pop('');
@@ -44,7 +41,7 @@ Future<String> asyncInputDialog(BuildContext context, String title,
             ),
             FlatButton(
               child: Text(
-                Translations.get(context, LocaleKey.apply),
+                getTranslations().fromKey(LocaleKey.apply),
               ),
               onPressed: () {
                 Navigator.of(context).pop(output);
@@ -67,7 +64,7 @@ Future<String> asyncInputDialog(BuildContext context, String title,
     closeFunction: () {},
     style: AlertStyle(
       titleStyle: TextStyle(
-        color: getIsDark(context) ? Colors.white : Colors.black,
+        color: getTheme().getIsDark(context) ? Colors.white : Colors.black,
       ),
     ),
     content: Row(
@@ -86,11 +83,11 @@ Future<String> asyncInputDialog(BuildContext context, String title,
     ),
     buttons: [
       DialogButton(
-        child: Text(Translations.get(context, LocaleKey.close)),
+        child: Text(getTranslations().fromKey(LocaleKey.close)),
         onPressed: () => Navigator.of(context).pop(false),
       ),
       DialogButton(
-        child: Text(Translations.get(context, LocaleKey.apply)),
+        child: Text(getTranslations().fromKey(LocaleKey.apply)),
         onPressed: () => Navigator.of(context).pop(true),
       ),
     ],

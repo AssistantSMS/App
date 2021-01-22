@@ -1,5 +1,4 @@
-import '../../contracts/results/result.dart';
-import '../../contracts/results/resultWithValue.dart';
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 
 class ILocalStorageRepository {
   Future<Result> saveToStorage(String key, String stateJson) async =>

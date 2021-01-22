@@ -1,10 +1,9 @@
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 
 import '../constants/AppImage.dart';
-import '../helpers/colourHelper.dart';
 import '../helpers/drawerHelper.dart';
 import '../helpers/futureHelper.dart';
-import 'adaptive/listWithScrollbar.dart';
 
 class AppDrawer extends StatelessWidget {
   @override
@@ -19,8 +18,8 @@ class AppDrawer extends StatelessWidget {
               begin: Alignment.topLeft,
               end: Alignment.bottomRight,
               colors: [
-                getPrimaryColour(context),
-                getSecondaryColour(context),
+                getTheme().getPrimaryColour(context),
+                getTheme().getSecondaryColour(context),
               ],
             ),
           ),

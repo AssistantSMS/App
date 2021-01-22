@@ -1,8 +1,6 @@
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:share/share.dart';
 
-import '../localization/localeKey.dart';
-import '../localization/translations.dart';
-
 shareApp(context) {
-  Share.share(Translations.get(context, LocaleKey.shareContent));
+  Share.share(getTranslations().fromKey(LocaleKey.shareContent));
 }

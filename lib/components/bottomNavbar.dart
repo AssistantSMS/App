@@ -1,9 +1,8 @@
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:ff_navigation_bar/ff_navigation_bar.dart';
 import 'package:flutter/material.dart';
 
 import '../constants/Routes.dart';
-import '../helpers/colourHelper.dart';
-import '../helpers/navigationHelper.dart';
 
 class NavBarItem {
   String route;
@@ -60,9 +59,9 @@ class _BottomNavbarWidget extends State<BottomNavbar> {
 
   @override
   Widget build(BuildContext context) {
-    var secondaryColour = getSecondaryColour(context);
-    var foregroundColour = getH1Colour(context);
-    var backgroundColour = getBackgroundColour(context);
+    var secondaryColour = getTheme().getSecondaryColour(context);
+    var foregroundColour = getTheme().getH1Colour(context);
+    var backgroundColour = getTheme().getBackgroundColour(context);
     var theme = FFNavigationBarTheme(
       barBackgroundColor: backgroundColour,
       selectedItemBorderColor: backgroundColour,
@@ -73,13 +72,13 @@ class _BottomNavbarWidget extends State<BottomNavbar> {
       unselectedItemLabelColor: foregroundColour,
     );
     return FFNavigationBar(
-      key: Key('NavBar' + getIsDark(context).toString()),
+      key: Key('NavBar' + getTheme().getIsDark(context).toString()),
       theme: theme,
       selectedIndex: null,
       // selectedIndex: selectedIndex,
       onSelectTab: (index) {
         if (navBarItems[index] != null && navBarItems[index].route != null) {
-          navigateHomeAsync(
+          getNavigation().navigateHomeAsync(
             context,
             navigateToNamed: navBarItems[index].route,
           );

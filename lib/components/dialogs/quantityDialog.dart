@@ -1,29 +1,27 @@
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:rflutter_alert/rflutter_alert.dart';
 
-import '../../helpers/colourHelper.dart';
 import '../../helpers/dialogHelper.dart';
-import '../../localization/localeKey.dart';
-import '../../localization/translations.dart';
 
 void showQuantityDialog(context, TextEditingController controller,
     {String title, Function(String) onSuccess}) {
   List<DialogButton> buttons = List<DialogButton>();
   buttons.add(DialogButton(
     child: Text(
-      Translations.get(context, LocaleKey.close),
+      getTranslations().fromKey(LocaleKey.close),
       style: TextStyle(
-        color: getIsDark(context) ? Colors.black : Colors.white,
+        color: getTheme().getIsDark(context) ? Colors.black : Colors.white,
       ),
     ),
     onPressed: () => Navigator.of(context).pop(),
   ));
   buttons.add(DialogButton(
     child: Text(
-      Translations.get(context, LocaleKey.apply),
+      getTranslations().fromKey(LocaleKey.apply),
       style: TextStyle(
-        color: getIsDark(context) ? Colors.black : Colors.white,
+        color: getTheme().getIsDark(context) ? Colors.black : Colors.white,
       ),
     ),
     onPressed: () {
@@ -40,10 +38,10 @@ void showQuantityDialog(context, TextEditingController controller,
         label: Text(
           amount.toString(),
           style: TextStyle(
-            color: getIsDark(context) ? Colors.black : Colors.white,
+            color: getTheme().getIsDark(context) ? Colors.black : Colors.white,
           ),
         ),
-        backgroundColor: getSecondaryColour(context),
+        backgroundColor: getTheme().getSecondaryColour(context),
         onPressed: () => onControllerTextChange(
           controller,
           amount.toString(),
@@ -54,7 +52,7 @@ void showQuantityDialog(context, TextEditingController controller,
 
   showSimpleDialog(
     context,
-    title ?? Translations.get(context, LocaleKey.quantity),
+    title ?? getTranslations().fromKey(LocaleKey.quantity),
     Column(
       mainAxisAlignment: MainAxisAlignment.start,
       mainAxisSize: MainAxisSize.min,
@@ -63,7 +61,7 @@ void showQuantityDialog(context, TextEditingController controller,
           controller: controller,
           style: TextStyle(),
           autofocus: true,
-          cursorColor: getSecondaryColour(context),
+          cursorColor: getTheme().getSecondaryColour(context),
           keyboardType: TextInputType.number,
           inputFormatters: <TextInputFormatter>[
             FilteringTextInputFormatter.digitsOnly

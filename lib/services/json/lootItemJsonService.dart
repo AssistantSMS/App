@@ -1,8 +1,8 @@
 import 'dart:convert';
 
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
+
 import '../../contracts/generated/Loot.dart';
-import '../../contracts/results/resultWithValue.dart';
-import '../../integration/logging.dart';
 import '../BaseJsonService.dart';
 
 class LootItemJsonService extends BaseJsonService {
@@ -14,7 +14,7 @@ class LootItemJsonService extends BaseJsonService {
 
       return ResultWithValue<List<Loot>>(true, lootItems, '');
     } catch (exception) {
-      logger.e("LootItemJsonService() Exception: ${exception.toString()}");
+      getLog().e("LootItemJsonService() Exception: ${exception.toString()}");
       return ResultWithValue<List<Loot>>(
           false, List<Loot>(), exception.toString());
     }

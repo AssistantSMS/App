@@ -1,19 +1,16 @@
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 
 import '../../components/adaptive/appBarForSubPage.dart';
 import '../../components/adaptive/appScaffold.dart';
 import '../../components/bottomNavbar.dart';
-import '../../components/responsiveSearchableList.dart';
 import '../../components/tilePresenters/recipeTilePresenter.dart';
 import '../../constants/AnalyticsEvent.dart';
 import '../../constants/Routes.dart';
 import '../../contracts/recipe/recipe.dart';
 import '../../helpers/analytics.dart';
 import '../../helpers/futureHelper.dart';
-import '../../helpers/navigationHelper.dart';
 import '../../helpers/searchHelper.dart';
-import '../../localization/localeKey.dart';
-import '../../localization/translations.dart';
 import 'recipeDetailPage.dart';
 
 class RecipeListPage extends StatelessWidget {
@@ -29,7 +26,7 @@ class RecipeListPage extends StatelessWidget {
       context,
       appBar: appBarForSubPageHelper(
         context,
-        title: Text(Translations.get(context, name)),
+        title: Text(getTranslations().fromKey(name)),
         showHomeAction: true,
       ),
       body: ResponsiveListDetailView<Recipe>(
@@ -37,7 +34,7 @@ class RecipeListPage extends StatelessWidget {
         recipeTilePresenter,
         searchRecipe,
         listItemMobileOnTap: (BuildContext context, Recipe recipe) async {
-          return await navigateAwayFromHomeAsync(
+          return await getNavigation().navigateAwayFromHomeAsync(
             context,
             navigateToNamed: Routes.recipeDetail,
             navigateToNamedParameters: {Routes.itemIdParam: recipe.id},
@@ -51,7 +48,7 @@ class RecipeListPage extends StatelessWidget {
             updateDetailView: updateDetailView,
           );
         },
-        key: Key(Translations.of(context).currentLanguage),
+        key: Key(getTranslations().currentLanguage),
       ),
       bottomNavigationBar: BottomNavbar(noRouteSelected: true),
     );

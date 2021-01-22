@@ -1,15 +1,13 @@
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 
 import '../../components/adaptive/appBarForSubPage.dart';
 import '../../components/adaptive/appScaffold.dart';
 import '../../components/dialogs/asyncInputDialog.dart';
-import '../../components/searchableList.dart';
 import '../../components/tilePresenters/optionTilePresenter.dart';
 import '../../contracts/search/dropdownOption.dart';
 import '../../helpers/fabHelper.dart';
 import '../../helpers/searchListHelper.dart';
-import '../../localization/localeKey.dart';
-import '../../localization/translations.dart';
 
 class OptionsListPageDialog extends StatefulWidget {
   final String title;
@@ -60,7 +58,7 @@ class _OptionsListPageDialogWidget extends State<OptionsListPageDialog> {
       floatingActionButtonWidget = FloatingActionButton(
         onPressed: () async {
           var temp = await asyncInputDialog(
-              context, Translations.get(context, LocaleKey.addTag));
+              context, getTranslations().fromKey(LocaleKey.addTag));
           if (temp == '' ||
               temp == ' ' ||
               this.options.any((opt) => opt.value == temp)) {
@@ -99,8 +97,8 @@ class _OptionsListPageDialogWidget extends State<OptionsListPageDialog> {
       ),
       body: SearchableList<DropdownOption>(
         getSearchListFutureFromList(this.options),
-        presenter,
-        (DropdownOption option, String search) =>
+        listItemWithIndexDisplayer: presenter,
+        listItemSearch: (DropdownOption option, String search) =>
             option.title.toLowerCase().contains(search),
         minListForSearch: minListForSearch,
         key: Key('num Items: ${this.options.length.toString()}'),

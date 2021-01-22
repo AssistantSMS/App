@@ -19,9 +19,10 @@ dependencies:
     path: 'D:\Development\Projects\AssistantApps\assistantapps_flutter_common'
 
   # Firebase
-  firebase_core: 0.5.0
-  firebase_analytics: 6.0.0
-  firebase_analytics_web: ^0.1.1
+  firebase_core: 0.7.0
+  firebase_analytics: 7.0.1
+  firebase_analytics_web: 0.1.1
+
   # Redux
   flutter_redux: 0.6.0
   redux: 4.0.0+3
@@ -58,7 +59,11 @@ dependencies:
 dev_dependencies:
   flutter_launcher_icons: "^0.8.0"
   # flutter_test:
-  #   sdk: flutter
+  #   sdk: flutter  
+
+# dependency_overrides:
+#   intl: ^0.17.0-nullsafety.2
+#   firebase_core: 0.7.0
 
 flutter_icons:
   ios: true

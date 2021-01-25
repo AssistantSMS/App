@@ -34,12 +34,12 @@ class SteamNewsItem {
           json.decode(str).map((x) => SteamNewsItem.fromJson(x)));
 
   factory SteamNewsItem.fromJson(Map<String, dynamic> json) => SteamNewsItem(
-        name: json["name"],
-        date: DateTime.parse(json["date"]),
-        link: json["link"],
-        image: json["image"],
-        smallImage: json["smallImage"],
-        shortDescription: json["shortDescription"],
+        name: readStringSafe(json, 'name'),
+        date: readDateSafe(json, 'date'),
+        link: readStringSafe(json, 'link'),
+        image: readStringSafe(json, 'image'),
+        smallImage: readStringSafe(json, 'smallImage'),
+        shortDescription: readStringSafe(json, 'shortDescription'),
         upVotes: readIntSafe(json, "upVotes"),
         downVotes: readIntSafe(json, "downVotes"),
         commentCount: readIntSafe(json, "commentCount"),

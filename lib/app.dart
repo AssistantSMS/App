@@ -29,7 +29,7 @@ class _MyAppState extends State<MyApp> {
   TranslationsDelegate _newLocaleDelegate;
 
   _MyAppState(this._env) {
-    AppRouter.router = FluroRouter.configureRoutes();
+    AppRouter.router = CustomRouter.configureRoutes();
   }
 
   @override

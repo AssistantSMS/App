@@ -19,9 +19,9 @@ import '../pages/raid/raidCalculatorPage.dart';
 import '../pages/recipe/recipeDetailPage.dart';
 import '../pages/settings.dart';
 
-class FluroRouter {
-  static Router configureRoutes() {
-    final router = Router();
+class CustomRouter {
+  static FluroRouter configureRoutes() {
+    final router = FluroRouter();
 
     router.notFoundHandler = Handler(
       handlerFunc: (BuildContext context, Map<String, List<String>> params) =>

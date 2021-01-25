@@ -58,14 +58,13 @@ class _ContributorsWidget extends State<ContributorListPage> {
           Divider(),
           Expanded(
             child: currentSelection == 0
-                ? SearchableList<ContributorViewModel>(
+                ? SearchableGrid<ContributorViewModel>(
                     () => getContributorApiRepo().getContributors(),
-                    listItemWithIndexDisplayer: contributorTilePresenter,
-                    listItemSearch: (_, __) => false,
+                    gridItemWithIndexDisplayer: contributorTilePresenter,
+                    gridItemSearch: (_, __) => false,
                     backupListGetter: () =>
                         BackupJsonService().getContributors(context),
                     minListForSearch: 20000,
-                    useGridView: true,
                     gridViewColumnCalculator: steamNewsCustomColumnCount,
                   )
                 : DonatorsPageComponent(smallLoadMorePageButton(context)),

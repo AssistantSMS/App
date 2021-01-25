@@ -26,15 +26,18 @@ class SteamNewsPage extends StatelessWidget {
         showHomeAction: true,
         title: Text(getTranslations().fromKey(LocaleKey.news)),
       ),
-      body: SearchableList<SteamNewsItem>(
+      body: SearchableGrid<SteamNewsItem>(
         () => getSteamApiRepo().getSteamNews(),
-        listItemWithIndexDisplayer: steamNewsItemTilePresenter,
-        listItemSearch: (_, __) => false,
+        gridItemWithIndexDisplayer: steamNewsItemTilePresenter,
+        gridItemSearch: (_, __) => false,
         backupListGetter: () => BackupJsonService().getSteamNews(context),
         backupListWarningMessage: LocaleKey.failedLatestDisplayingOld,
-        minListForSearch: 20000,
-        useGridView: true,
         gridViewColumnCalculator: steamNewsCustomColumnCount,
+        //
+        // useGridView: true,
+        // gridItemWithIndexDisplayer: steamNewsItemTilePresenter,
+        //
+        minListForSearch: 20000,
       ),
       bottomNavigationBar: BottomNavbar(noRouteSelected: true),
     );

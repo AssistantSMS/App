@@ -80,12 +80,11 @@ class _MyAppState extends State<MyApp> {
       store: store,
       child: StoreConnector<AppState, AppViewModel>(
         converter: (store) => AppViewModel.fromStore(store),
-        builder: (_, viewModel) => Center(),
-        // AppShell(
-        //   newLocaleDelegate: TranslationsDelegate(
-        //     newLocale: Locale(viewModel.selectedLanguage),
-        //   ),
-        // ),
+        builder: (_, viewModel) => AppShell(
+          newLocaleDelegate: TranslationsDelegate(
+            newLocale: Locale(viewModel.selectedLanguage),
+          ),
+        ),
       ),
     );
   }

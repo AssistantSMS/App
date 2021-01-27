@@ -327,9 +327,13 @@ Future<List<RecipeIngredient>> getRequiredItems(
         recipesToCreateXResult.value.length < 1) continue;
 
     for (var recipe in recipesToCreateXResult.value[0].inputs) {
+      var out = recipesToCreateXResult.value[0].output;
+      int multiplier = (requiredItem.quantity / out.quantity).ceil();
+      if (multiplier < 1) {
+        multiplier = 1;
+      }
       tempRawMaterials.add(
-        RecipeIngredient(
-            id: recipe.id, quantity: recipe.quantity * requiredItem.quantity),
+        RecipeIngredient(id: recipe.id, quantity: recipe.quantity * multiplier),
       );
     }
   }
@@ -365,9 +369,13 @@ Future<List<RecipeIngredient>> getRequiredItemsSurfaceLevel(
         recipesToCreateXResult.value.length < 1) continue;
 
     for (var recipe in recipesToCreateXResult.value[0].inputs) {
+      var out = recipesToCreateXResult.value[0].output;
+      int multiplier = (requiredItem.quantity / out.quantity).ceil();
+      if (multiplier < 1) {
+        multiplier = 1;
+      }
       tempRawMaterials.add(
-        RecipeIngredient(
-            id: recipe.id, quantity: recipe.quantity * requiredItem.quantity),
+        RecipeIngredient(id: recipe.id, quantity: recipe.quantity * multiplier),
       );
     }
   }

@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
 
 import '../../components/bottomNavbar.dart';
-import '../../components/dialogs/quantityDialog.dart';
 import '../../components/tilePresenters/cartTilePresenter.dart';
 import '../../constants/AnalyticsEvent.dart';
 import '../../constants/AppPadding.dart';
@@ -11,7 +10,6 @@ import '../../constants/Routes.dart';
 import '../../contracts/gameItem/gameItem.dart';
 import '../../contracts/recipeIngredient/recipeIngredient.dart';
 import '../../contracts/recipeIngredient/recipeIngredientDetail.dart';
-import '../../helpers/dialogHelper.dart';
 import '../../helpers/itemsHelper.dart';
 import '../../state/modules/base/appState.dart';
 import '../../state/modules/cart/cartItemState.dart';
@@ -86,7 +84,8 @@ class CartPage extends StatelessWidget {
         onEdit: () {
           var controller =
               TextEditingController(text: cartDetail.quantity.toString());
-          showQuantityDialog(context, controller, onSuccess: (quantity) {
+          getDialog().showQuantityDialog(context, controller,
+              onSuccess: (quantity) {
             int intQuantity = int.tryParse(quantity);
             if (intQuantity == null) return;
             viewModel.editCartItem(cartDetail.id, intQuantity);
@@ -117,13 +116,13 @@ class CartPage extends StatelessWidget {
         child: negativeButton(
             title: getTranslations().fromKey(LocaleKey.deleteAll),
             onPress: () {
-              showSimpleDialog(
+              getDialog().showSimpleDialog(
                   context,
                   getTranslations().fromKey(LocaleKey.deleteAll),
                   Text(getTranslations().fromKey(LocaleKey.areYouSure)),
                   buttons: [
-                    simpleDialogCloseButton(context),
-                    simpleDialogPositiveButton(context,
+                    getDialog().simpleDialogCloseButton(context),
+                    getDialog().simpleDialogPositiveButton(context,
                         title: LocaleKey.yes,
                         onTap: () => viewModel.removeAllFromCart()),
                   ]);

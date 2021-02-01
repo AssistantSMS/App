@@ -22,7 +22,6 @@ import '../../helpers/deviceHelper.dart';
 import '../../helpers/textSpanHelper.dart';
 import '../../state/modules/cart/cartItemState.dart';
 import '../../state/modules/gameItem/gameItemViewModel.dart';
-import '../dialogs/quantityDialog.dart';
 import '../tilePresenters/cartTilePresenter.dart';
 import '../tilePresenters/recipeIngredientTilePresenter.dart';
 import '../tilePresenters/recipeTilePresenter.dart';
@@ -466,7 +465,8 @@ List<Widget> inCartWidget(
       onEdit: () {
         var controller =
             TextEditingController(text: cartItems[0].quantity.toString());
-        showQuantityDialog(context, controller, onSuccess: (quantity) {
+        getDialog().showQuantityDialog(context, controller,
+            onSuccess: (quantity) {
           int intQuantity = int.tryParse(quantity);
           if (intQuantity == null) return;
           viewModel.editCartItem(gameItem.id, intQuantity);

@@ -1,5 +1,6 @@
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart'
     hide AnalyticsService, LoggerService, ThemeService, NavigationService;
+import 'package:assistantapps_flutter_common/services/base/dialogService.dart';
 import 'package:get_it/get_it.dart';
 import 'package:scrapmechanic_kurtlourens_com/repository/api/SteamApiRepository.dart';
 import 'package:scrapmechanic_kurtlourens_com/repository/api/interface/IContributorApiRepository.dart';
@@ -13,10 +14,10 @@ import '../repository/api/ContributorApiRepository.dart';
 import '../repository/interface/ILocalStorageRepository.dart';
 import '../services/LocalStorageService.dart';
 import '../services/base/analyticsService.dart';
+import '../services/base/baseWidgetService.dart';
 import '../services/base/loggingService.dart';
 import '../services/base/navigationService.dart';
 import '../services/base/themeService.dart';
-import '../services/base/baseWidgetService.dart';
 import '../services/json/gameItemJsonService.dart';
 import '../services/json/interface/IGameItemJsonService.dart';
 import '../services/json/interface/ILocalStorageService.dart';
@@ -37,6 +38,7 @@ void initDependencyInjection(EnvironmentSettings _env) {
     path: PathService(),
     navigation: NavigationService(),
     baseWidget: BaseWidgetService(),
+    dialog: DialogService(),
   );
 
   getIt.registerFactoryParam<IRecipeJsonService, LocaleKey, String>(

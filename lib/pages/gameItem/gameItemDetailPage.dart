@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
 
 import '../../components/common/cachedFutureBuilder.dart';
-import '../../components/dialogs/quantityDialog.dart';
 import '../../components/loading.dart';
 import '../../components/scaffoldTemplates/genericPageScaffold.dart';
 import '../../components/scrapSpecific/itemDetailComponents.dart';
@@ -214,7 +213,7 @@ class GameItemDetailPage extends StatelessWidget {
             backgroundColor: fabColour,
             foregroundColor: getTheme().getForegroundTextColour(fabColour),
             onPressed: () {
-              showQuantityDialog(context, controller,
+              getDialog().showQuantityDialog(context, controller,
                   title: getTranslations().fromKey(LocaleKey.quantity),
                   onSuccess: (String quantityString) {
                 int quantity = int.tryParse(quantityString);

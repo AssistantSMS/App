@@ -10,7 +10,6 @@ import '../../contracts/recipeIngredient/recipeIngredientDetail.dart';
 import '../../helpers/futureHelper.dart';
 import '../../helpers/raidHelper.dart';
 import '../../state/modules/raid/raidViewModel.dart';
-import '../dialogs/quantityDialog.dart';
 import '../loading.dart';
 
 Widget raidGridTilePresenter(BuildContext context, String itemId, int quantity,
@@ -45,9 +44,9 @@ Widget raidTilePresenter(
       RecipeIngredientDetails plantDetail = snapshot.data.value;
       int plantQuantity = RaidHelper.getPlantQuantity(currentDetails, itemId);
 
-      var localOnEdit = () =>
-          showQuantityDialog(context, TextEditingController(),
-              onSuccess: (String quantityString) {
+      var localOnEdit = () => getDialog()
+              .showQuantityDialog(context, TextEditingController(),
+                  onSuccess: (String quantityString) {
             int quantity = int.tryParse(quantityString);
             if (quantity == null) return;
             if (onEdit == null) return;
@@ -169,7 +168,7 @@ Widget _raidAddPlantTileContent(
         ),
       );
       if (tempPlantId == null || tempPlantId.length <= 0) return;
-      showQuantityDialog(context, TextEditingController(),
+      getDialog().showQuantityDialog(context, TextEditingController(),
           onSuccess: (String quantityString) {
         int quantity = int.tryParse(quantityString);
         if (quantity == null) return;

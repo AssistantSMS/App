@@ -8,7 +8,6 @@ import '../../constants/AppPadding.dart';
 import '../../contracts/recipeIngredient/recipeIngredient.dart';
 import '../../contracts/recipeIngredient/recipeIngredientDetail.dart';
 import '../../contracts/recipeIngredient/recipeIngredientTreeDetails.dart';
-import '../../helpers/analytics.dart';
 import '../../helpers/futureHelper.dart';
 import '../../helpers/itemsHelper.dart';
 import 'genericPageAllRequiredTreeComponents.dart';
@@ -27,7 +26,7 @@ class _GenericAllRequiredWidget extends State<GenericAllRequiredPage> {
   int currentSelection = 0;
 
   _GenericAllRequiredWidget(this.requiredItems) {
-    trackEvent(AnalyticsEvent.genericAllRequiredPage);
+    getAnalytics().trackEvent(AnalyticsEvent.genericAllRequiredPage);
   }
 
   @override

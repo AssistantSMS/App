@@ -1,14 +1,12 @@
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart'
     hide BackupJsonService;
 import 'package:flutter/material.dart';
+import 'package:scrapmechanic_kurtlourens_com/helpers/columnHelper.dart';
 
-import '../../components/adaptive/appBarForSubPage.dart';
-import '../../components/adaptive/appScaffold.dart';
 import '../../components/bottomNavbar.dart';
 import '../../components/tilePresenters/contributorTilePresenter.dart';
 import '../../constants/AnalyticsEvent.dart';
 import '../../contracts/generated/contributorViewModel.dart';
-import '../../helpers/analytics.dart';
 import '../../integration/dependencyInjection.dart';
 import '../../services/json/backupJsonService.dart';
 
@@ -23,7 +21,7 @@ class _ContributorsWidget extends State<ContributorListPage> {
   int currentSelection = 0;
 
   _ContributorsWidget() {
-    trackEvent(AnalyticsEvent.contributorListPage);
+    getAnalytics().trackEvent(AnalyticsEvent.contributorListPage);
   }
 
   @override
@@ -37,9 +35,9 @@ class _ContributorsWidget extends State<ContributorListPage> {
       )
     ];
 
-    return appScaffold(
+    return getBaseWidget().appScaffold(
       context,
-      appBar: appBarForSubPageHelper(
+      appBar: getBaseWidget().appBarForSubPage(
         context,
         showHomeAction: true,
         title: Text(getTranslations().fromKey(LocaleKey.contributors)),

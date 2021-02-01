@@ -2,7 +2,7 @@ import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-Widget appScaffold(
+Widget adaptiveAppScaffold(
   BuildContext context, {
   @required Widget appBar,
   Widget body,

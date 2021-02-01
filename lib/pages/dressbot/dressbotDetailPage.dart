@@ -1,8 +1,6 @@
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
-import 'package:scrapmechanic_kurtlourens_com/contracts/enum/customisationSourceType.dart';
-import 'package:scrapmechanic_kurtlourens_com/helpers/deviceHelper.dart';
 
 import '../../components/common/cachedFutureBuilder.dart';
 import '../../components/loading.dart';
@@ -10,8 +8,9 @@ import '../../components/scaffoldTemplates/genericPageScaffold.dart';
 import '../../constants/AnalyticsEvent.dart';
 import '../../constants/AppImage.dart';
 import '../../constants/AppPadding.dart';
+import '../../contracts/enum/customisationSourceType.dart';
 import '../../contracts/gameItem/gameItemPageItem.dart';
-import '../../helpers/analytics.dart';
+import '../../helpers/deviceHelper.dart';
 import '../../helpers/futureHelper.dart';
 import '../../helpers/genericHelper.dart';
 import '../../state/modules/base/appState.dart';
@@ -27,7 +26,8 @@ class DressBotDetailPage extends StatelessWidget {
     this.isInDetailPane = false,
     this.updateDetailView,
   }) {
-    trackEvent('${AnalyticsEvent.itemDetailPage}: ${this.itemId}');
+    getAnalytics()
+        .trackEvent('${AnalyticsEvent.itemDetailPage}: ${this.itemId}');
   }
 
   @override

@@ -1,10 +1,8 @@
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 
-import '../../helpers/languageHelper.dart';
 import '../adaptive/checkbox.dart';
 import 'genericTilePresenter.dart';
-import 'languageTilePresenter.dart';
 
 Widget headingSettingTilePresenter(String name) {
   return ListTile(
@@ -46,7 +44,10 @@ Widget languageSettingTilePresenter(
   void Function() tempOnChange = () async {
     if (onChange == null) return;
 
-    var temp = await langaugeSelectionPage(context);
+    var temp = await getNavigation().navigateAsync(
+      context,
+      navigateTo: (context) => LanguageSelectionPageContent(),
+    );
     if (temp != null) onChange(getTranslations().getLocaleFromKey(temp));
   };
   LocalizationMap currentLocal = supportedLanguageMaps.firstWhere(

@@ -1,4 +1,3 @@
-import 'package:assistantapps_flutter_common/helpers/colourHelper.dart';
 import 'package:flutter/material.dart';
 import 'package:assistantapps_flutter_common/services/base/interface/IThemeService.dart';
 import 'package:scrapmechanic_kurtlourens_com/theme/themes.dart';
@@ -72,4 +71,11 @@ class ThemeService implements IThemeService {
   @override
   Color getForegroundTextColour(Color backgroundColor) =>
       useWhiteForeground(backgroundColor) ? Colors.white : Colors.black;
+
+  @override
+  Color fabForegroundColourSelector(BuildContext context) =>
+      getPrimaryColour(context);
+
+  @override
+  Color fabColourSelector(BuildContext context) => Colors.white;
 }

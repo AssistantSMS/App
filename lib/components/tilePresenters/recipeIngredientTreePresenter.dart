@@ -1,9 +1,9 @@
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
+import 'package:scrapmechanic_kurtlourens_com/constants/AppImage.dart';
 
 import '../../contracts/recipeIngredient/recipeIngredientTreeDetails.dart';
 import '../../pages/gameItem/gameItemDetailPage.dart';
-import 'genericTilePresenter.dart';
 
 Widget requiredItemTreeDetailsRowPresenter(
     BuildContext context, RecipeIngredientTreeDetails itemDetails, int cost) {
@@ -11,7 +11,7 @@ Widget requiredItemTreeDetailsRowPresenter(
     children: [
       if (itemDetails.icon != null) ...[
         SizedBox(
-          child: genericTileImage(itemDetails.icon, null),
+          child: genericTileImage(itemDetails.icon),
           height: 50,
           width: 50,
         ),

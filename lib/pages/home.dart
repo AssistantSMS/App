@@ -1,7 +1,6 @@
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 
-import '../components/adaptive/appScaffold.dart';
 import '../components/adaptive/homePageAppBar.dart';
 import '../components/bottomNavbar.dart';
 import '../components/drawer.dart';
@@ -10,19 +9,18 @@ import '../constants/AnalyticsEvent.dart';
 import '../constants/AppImage.dart';
 import '../constants/Routes.dart';
 import '../constants/StaggeredGridItemType.dart';
-import '../helpers/analytics.dart';
 import '../helpers/listPageHelper.dart';
 import 'gameItem/gameItemListPage.dart';
 import 'recipe/recipeListPage.dart';
 
 class HomePage extends StatelessWidget {
   HomePage() {
-    trackEvent(AnalyticsEvent.homePage);
+    getAnalytics().trackEvent(AnalyticsEvent.homePage);
   }
 
   @override
   Widget build(BuildContext context) {
-    return appScaffold(
+    return getBaseWidget().appScaffold(
       context,
       appBar: HomePageAppBar(),
       drawer: AppDrawer(),

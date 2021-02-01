@@ -9,10 +9,10 @@ import '../../env/appRouter.dart';
 import '../../integration/themeManager.dart';
 import '../../theme/themes.dart';
 
-class AppShell extends StatefulWidget {
+class AdaptiveAppShell extends StatefulWidget {
   final newLocaleDelegate;
 
-  AppShell({
+  AdaptiveAppShell({
     this.newLocaleDelegate,
   });
 
@@ -20,7 +20,8 @@ class AppShell extends StatefulWidget {
   _AppShellWidget createState() => _AppShellWidget();
 }
 
-class _AppShellWidget extends State<AppShell> with AfterLayoutMixin<AppShell> {
+class _AppShellWidget extends State<AdaptiveAppShell>
+    with AfterLayoutMixin<AdaptiveAppShell> {
   @override
   void afterFirstLayout(BuildContext context) {
     if (!isWeb) return;

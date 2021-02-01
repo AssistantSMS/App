@@ -3,7 +3,6 @@ import 'package:flutter/cupertino.dart';
 
 import '../../contracts/recipeIngredient/recipeIngredientDetail.dart';
 import '../../pages/gameItem/gameItemDetailPage.dart';
-import 'genericTilePresenter.dart';
 
 Widget cartTilePresenter(BuildContext context,
         RecipeIngredientDetails recipeIngredient, int index,

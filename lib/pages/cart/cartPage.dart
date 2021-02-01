@@ -2,8 +2,6 @@ import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
 
-import '../../components/adaptive/appBarForSubPage.dart';
-import '../../components/adaptive/appScaffold.dart';
 import '../../components/bottomNavbar.dart';
 import '../../components/dialogs/quantityDialog.dart';
 import '../../components/tilePresenters/cartTilePresenter.dart';
@@ -13,7 +11,6 @@ import '../../constants/Routes.dart';
 import '../../contracts/gameItem/gameItem.dart';
 import '../../contracts/recipeIngredient/recipeIngredient.dart';
 import '../../contracts/recipeIngredient/recipeIngredientDetail.dart';
-import '../../helpers/analytics.dart';
 import '../../helpers/dialogHelper.dart';
 import '../../helpers/itemsHelper.dart';
 import '../../state/modules/base/appState.dart';
@@ -24,14 +21,14 @@ import '../generic/genericPageAllRequired.dart';
 
 class CartPage extends StatelessWidget {
   CartPage() {
-    trackEvent(AnalyticsEvent.cartPage);
+    getAnalytics().trackEvent(AnalyticsEvent.cartPage);
   }
 
   @override
   Widget build(BuildContext context) {
-    return appScaffold(
+    return getBaseWidget().appScaffold(
       context,
-      appBar: appBarForSubPageHelper(
+      appBar: getBaseWidget().appBarForSubPage(
         context,
         showHomeAction: true,
         title: Text(getTranslations().fromKey(LocaleKey.cart)),

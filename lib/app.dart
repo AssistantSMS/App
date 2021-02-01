@@ -9,7 +9,6 @@ import 'components/loading.dart';
 import 'env/appRouter.dart';
 import 'env/environmentSettings.dart';
 import 'integration/dependencyInjection.dart';
-import 'integration/firebaseAnalytics.dart';
 import 'integration/router.dart';
 import 'state/createStore.dart';
 import 'state/modules/base/appState.dart';
@@ -30,16 +29,11 @@ class _MyAppState extends State<MyApp> {
 
   _MyAppState(this._env) {
     AppRouter.router = CustomRouter.configureRoutes();
-  }
-
-  @override
-  initState() {
-    super.initState();
     initDependencyInjection(this._env);
     initReduxState();
     if (kReleaseMode) {
       // initFirebaseAdMob();
-      initFirebaseAnalytics();
+      // initFirebaseAnalytics();
       // initFirebaseMessaging();
     }
 
@@ -80,7 +74,7 @@ class _MyAppState extends State<MyApp> {
       store: store,
       child: StoreConnector<AppState, AppViewModel>(
         converter: (store) => AppViewModel.fromStore(store),
-        builder: (_, viewModel) => AppShell(
+        builder: (_, viewModel) => AdaptiveAppShell(
           newLocaleDelegate: TranslationsDelegate(
             newLocale: Locale(viewModel.selectedLanguage),
           ),

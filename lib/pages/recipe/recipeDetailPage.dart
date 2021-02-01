@@ -16,7 +16,6 @@ import '../../constants/Routes.dart';
 import '../../contracts/recipe/recipePageItem.dart';
 import '../../contracts/recipeIngredient/recipeIngredient.dart';
 import '../../contracts/recipeIngredient/recipeIngredientDetail.dart';
-import '../../helpers/analytics.dart';
 import '../../helpers/deviceHelper.dart';
 import '../../helpers/futureHelper.dart';
 import '../../helpers/genericHelper.dart';
@@ -35,7 +34,8 @@ class RecipeDetailPage extends StatelessWidget {
     this.isInDetailPane = false,
     this.updateDetailView,
   }) {
-    trackEvent('${AnalyticsEvent.recipeDetailPage}: ${this.itemId}');
+    getAnalytics()
+        .trackEvent('${AnalyticsEvent.recipeDetailPage}: ${this.itemId}');
   }
 
   @override

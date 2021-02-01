@@ -15,7 +15,6 @@ import '../../contracts/craftingIngredient/craftedUsing.dart';
 import '../../contracts/gameItem/gameItemPageItem.dart';
 import '../../contracts/generated/LootChance.dart';
 import '../../contracts/usedInRecipe/usedInRecipe.dart';
-import '../../helpers/analytics.dart';
 import '../../helpers/futureHelper.dart';
 import '../../helpers/genericHelper.dart';
 import '../../state/modules/base/appState.dart';
@@ -33,7 +32,8 @@ class GameItemDetailPage extends StatelessWidget {
     this.isInDetailPane = false,
     this.updateDetailView,
   }) {
-    trackEvent('${AnalyticsEvent.itemDetailPage}: ${this.itemId}');
+    getAnalytics()
+        .trackEvent('${AnalyticsEvent.itemDetailPage}: ${this.itemId}');
   }
 
   @override

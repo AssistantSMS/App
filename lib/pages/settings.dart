@@ -2,35 +2,33 @@ import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
 import 'package:package_info/package_info.dart';
-import 'package:scrapmechanic_kurtlourens_com/components/bottomNavbar.dart';
 
-import '../components/adaptive/appBarForSubPage.dart';
-import '../components/adaptive/appScaffold.dart';
+import '../components/bottomNavbar.dart';
 import '../components/dialogs/prettyDialog.dart';
 import '../components/tilePresenters/settingTilePresenter.dart';
 import '../constants/AnalyticsEvent.dart';
 import '../constants/AppImage.dart';
-import '../helpers/analytics.dart';
 import '../helpers/futureHelper.dart';
 import '../state/modules/base/appState.dart';
 import '../state/modules/setting/settingViewModel.dart';
 
 class SettingsPage extends StatelessWidget {
   SettingsPage() {
-    trackEvent(AnalyticsEvent.settingsPage);
+    getAnalytics().trackEvent(AnalyticsEvent.settingsPage);
   }
 
   void _changeBrightness(BuildContext context) {
     bool isDark = getTheme().getIsDark(context);
     getTheme().setBrightness(context, isDark);
-    trackEvent(isDark ? AnalyticsEvent.lightMode : AnalyticsEvent.darkMode);
+    getAnalytics().trackEvent(
+        isDark ? AnalyticsEvent.lightMode : AnalyticsEvent.darkMode);
   }
 
   @override
   Widget build(BuildContext context) {
-    return appScaffold(
+    return getBaseWidget().appScaffold(
       context,
-      appBar: appBarForSubPageHelper(
+      appBar: getBaseWidget().appBarForSubPage(
         context,
         showHomeAction: true,
         title: Text(getTranslations().fromKey(LocaleKey.settings)),

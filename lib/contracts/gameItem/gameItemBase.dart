@@ -4,10 +4,10 @@
 
 import 'dart:convert';
 
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:scrapmechanic_kurtlourens_com/contracts/enum/customisationSourceType.dart';
 
 import './cylinder.dart';
-import '../../helpers/jsonHelper.dart';
 import '../rating/rating.dart';
 import 'box.dart';
 import 'feature.dart';

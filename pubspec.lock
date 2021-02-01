@@ -35,7 +35,7 @@ packages:
       path: "D:\\Development\\Projects\\AssistantApps\\assistantapps_flutter_common"
       relative: false
     source: path
-    version: "0.0.8"
+    version: "0.0.10"
   async:
     dependency: transitive
     description:
@@ -154,7 +154,7 @@ packages:
       name: enum_to_string
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.0.9"
+    version: "1.0.14"
   equatable:
     dependency: transitive
     description:
@@ -320,12 +320,12 @@ packages:
     source: sdk
     version: "0.0.0"
   flutter_markdown:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: flutter_markdown
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.4.1"
+    version: "0.5.2"
   flutter_redux:
     dependency: "direct main"
     description:
@@ -428,7 +428,7 @@ packages:
       name: markdown
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.1.8"
+    version: "3.0.0"
   matcher:
     dependency: transitive
     description:

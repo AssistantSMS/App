@@ -96,4 +96,9 @@ class NavigationService implements INavigationService {
       );
     }
   }
+
+  @override
+  Future pop<T extends Object>(BuildContext context, [T result]) async {
+    Navigator.of(context).pop(result);
+  }
 }

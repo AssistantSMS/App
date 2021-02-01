@@ -2,7 +2,6 @@ import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import '../../contracts/misc/actionItem.dart';
 import '../../helpers/deviceHelper.dart';
 import 'appBar.dart';
 import 'shortcutActionButton.dart';
@@ -38,7 +37,7 @@ class AppBarForSubPage extends StatelessWidget
     }
     actionWidgets.addAll(actionItemToAndroidAction(actions));
     return adaptiveAppBar(context, title, actionWidgets,
-        leading: this.showBackAction
+        leading: (this.showBackAction ?? false)
             ? IconButton(
                 icon: Icon(Icons.arrow_back),
                 onPressed: () async =>
@@ -51,16 +50,18 @@ class AppBarForSubPage extends StatelessWidget
   bool shouldFullyObstruct(BuildContext context) => true;
 }
 
-Widget appBarForSubPageHelper(context,
-    {Widget title,
-    List<ActionItem> actions,
-    bool showHomeAction = false,
-    bool showBackAction = true,
-    List<ActionItem> shortcutActions}) {
+Widget adaptiveAppBarForSubPageHelper(
+  context, {
+  Widget title,
+  List<ActionItem> actions,
+  List<ActionItem> shortcutActions,
+  bool showHomeAction = false,
+  bool showBackAction = true,
+}) {
   if (actions == null || actions.length == 0) {
     actions = List<ActionItem>();
   }
-  if (showHomeAction) {
+  if (showHomeAction ?? false) {
     actions.add(ActionItem(
         icon: Icons.home,
         onPressed: () async =>

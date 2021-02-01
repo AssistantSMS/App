@@ -2,9 +2,7 @@ import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 import 'package:rflutter_alert/rflutter_alert.dart';
 
-import '../../contracts/search/dropdownOption.dart';
 import '../../helpers/dialogHelper.dart';
-import '../tilePresenters/genericTilePresenter.dart';
 
 void showOptionsDialog(context, String title, List<DropdownOption> options,
     {String selectedValue = '', Function(String value) onSuccess}) {

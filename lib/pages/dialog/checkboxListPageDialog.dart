@@ -1,12 +1,8 @@
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 
-import '../../components/adaptive/appBarForSubPage.dart';
-import '../../components/adaptive/appScaffold.dart';
 import '../../components/adaptive/checkbox.dart';
 import '../../contracts/search/checkboxOption.dart';
-import '../../helpers/fabHelper.dart';
-import '../../helpers/searchListHelper.dart';
 
 class CheckboxListPageDialog extends StatefulWidget {
   final String title;
@@ -30,8 +26,8 @@ class _CheckboxListPageDialogWidget extends State<CheckboxListPageDialog> {
 
   @override
   Widget build(BuildContext context) {
-    return appScaffold(context,
-        appBar: appBarForSubPageHelper(
+    return getBaseWidget().appScaffold(context,
+        appBar: getBaseWidget().appBarForSubPage(
           context,
           title: Text(title),
         ),
@@ -67,8 +63,8 @@ class _CheckboxListPageDialogWidget extends State<CheckboxListPageDialog> {
           onPressed: () => Navigator.of(context).pop(options),
           heroTag: 'CheckboxListPageDialog',
           child: Icon(Icons.check),
-          foregroundColor: fabForegroundColourSelector(),
-          backgroundColor: fabColourSelector(context),
+          foregroundColor: getTheme().fabForegroundColourSelector(context),
+          backgroundColor: getTheme().fabColourSelector(context),
         ));
   }
 }

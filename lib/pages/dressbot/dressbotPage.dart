@@ -5,7 +5,6 @@ import 'package:flutter_redux/flutter_redux.dart';
 import '../../constants/AnalyticsEvent.dart';
 import '../../contracts/gameItem/gameItem.dart';
 import '../../contracts/search/checkboxOption.dart';
-import '../../helpers/analytics.dart';
 import '../../helpers/futureHelper.dart';
 import '../../state/modules/base/appState.dart';
 import '../../state/modules/cosmetic/cosmeticViewModel.dart';
@@ -21,7 +20,7 @@ class _DressBotWidget extends State<DressBotPage> {
   List<String> currentOwnedSelection;
 
   _DressBotWidget() {
-    trackEvent(AnalyticsEvent.dressBotPage);
+    getAnalytics().trackEvent(AnalyticsEvent.dressBotPage);
   }
 
   Future<ResultWithValue<List<GameItem>>> getCustomisationsFiltered(

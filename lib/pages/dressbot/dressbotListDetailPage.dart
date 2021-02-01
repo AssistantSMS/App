@@ -3,13 +3,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
 import 'package:grouped_checkbox/grouped_checkbox.dart';
 
-import '../../components/adaptive/appBarForSubPage.dart';
-import '../../components/adaptive/appScaffold.dart';
 import '../../components/bottomNavbar.dart';
 import '../../components/tilePresenters/gameItemTilePresenter.dart';
 import '../../constants/Routes.dart';
 import '../../contracts/gameItem/gameItem.dart';
-import '../../contracts/misc/actionItem.dart';
 import '../../contracts/search/checkboxOption.dart';
 import '../../helpers/searchHelper.dart';
 import '../../state/modules/base/appState.dart';
@@ -74,9 +71,9 @@ class DressBotListDetailPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return appScaffold(
+    return getBaseWidget().appScaffold(
       context,
-      appBar: appBarForSubPageHelper(context,
+      appBar: getBaseWidget().appBarForSubPage(context,
           title: Text(getTranslations().fromKey(LocaleKey.dressBot)),
           showHomeAction: true,
           actions: [

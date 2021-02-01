@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 
 import '../../components/tilePresenters/raidTilePresenter.dart';
 import '../../components/webSpecific/mousePointer.dart';
+import '../../helpers/columnHelper.dart';
 import '../../helpers/raidHelper.dart';
 import '../../state/modules/raid/raidViewModel.dart';
 

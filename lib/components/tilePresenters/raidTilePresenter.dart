@@ -7,14 +7,11 @@ import '../../constants/AppImage.dart';
 import '../../contracts/raid/raidSpawn.dart';
 import '../../contracts/recipeIngredient/recipeIngredient.dart';
 import '../../contracts/recipeIngredient/recipeIngredientDetail.dart';
-import '../../contracts/search/dropdownOption.dart';
 import '../../helpers/futureHelper.dart';
 import '../../helpers/raidHelper.dart';
-import '../../pages/dialog/optionsListPageDialog.dart';
 import '../../state/modules/raid/raidViewModel.dart';
 import '../dialogs/quantityDialog.dart';
 import '../loading.dart';
-import 'genericTilePresenter.dart';
 
 Widget raidGridTilePresenter(BuildContext context, String itemId, int quantity,
     void Function(String itemId, int quantity) onEdit) {
@@ -114,6 +111,24 @@ Widget raidAddPlantTilePresenter(
   );
 }
 
+Widget Function(BuildContext, DropdownOption, int) currentRaidPlantPresenter(
+    List<RecipeIngredientDetails> platsWithDetails) {
+  return (BuildContext innerC, DropdownOption dropOpt, int index) {
+    RecipeIngredientDetails currentPlantDetails = RecipeIngredientDetails();
+    for (RecipeIngredientDetails plantDetails in platsWithDetails) {
+      if (plantDetails.id == dropOpt.value) {
+        currentPlantDetails = plantDetails;
+      }
+    }
+    return raidPlantDetailTilePresenter(
+      innerC,
+      currentPlantDetails,
+      0,
+      onTap: () => Navigator.of(innerC).pop(currentPlantDetails.id),
+    );
+  };
+}
+
 Widget _raidAddPlantTileContent(
     BuildContext context,
     List<RecipeIngredientDetails> platsWithDetails,
@@ -150,22 +165,7 @@ Widget _raidAddPlantTileContent(
         navigateTo: (context) => OptionsListPageDialog(
           getTranslations().fromKey(LocaleKey.raidCalculator),
           options,
-          customPresenter:
-              (BuildContext innerC, DropdownOption dropOpt, int index) {
-            RecipeIngredientDetails currentPlantDetails =
-                RecipeIngredientDetails();
-            for (RecipeIngredientDetails plantDetails in platsWithDetails) {
-              if (plantDetails.id == dropOpt.value) {
-                currentPlantDetails = plantDetails;
-              }
-            }
-            return raidPlantDetailTilePresenter(
-              innerC,
-              currentPlantDetails,
-              0,
-              onTap: () => Navigator.of(context).pop(currentPlantDetails.id),
-            );
-          },
+          customPresenter: currentRaidPlantPresenter(platsWithDetails),
         ),
       );
       if (tempPlantId == null || tempPlantId.length <= 0) return;

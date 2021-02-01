@@ -4,6 +4,7 @@ import 'package:get_it/get_it.dart';
 import 'package:scrapmechanic_kurtlourens_com/repository/api/SteamApiRepository.dart';
 import 'package:scrapmechanic_kurtlourens_com/repository/api/interface/IContributorApiRepository.dart';
 import 'package:scrapmechanic_kurtlourens_com/repository/api/interface/ISteamApiRepository.dart';
+import 'package:scrapmechanic_kurtlourens_com/services/base/pathService.dart';
 
 import '../env/environmentSettings.dart';
 import '../helpers/repositoryHelper.dart';
@@ -15,6 +16,7 @@ import '../services/base/analyticsService.dart';
 import '../services/base/loggingService.dart';
 import '../services/base/navigationService.dart';
 import '../services/base/themeService.dart';
+import '../services/base/baseWidgetService.dart';
 import '../services/json/gameItemJsonService.dart';
 import '../services/json/interface/IGameItemJsonService.dart';
 import '../services/json/interface/ILocalStorageService.dart';
@@ -23,15 +25,19 @@ import '../services/json/recipeJsonService.dart';
 
 final getIt = GetIt.instance;
 
-initDependencyInjection(EnvironmentSettings _env) {
+void initDependencyInjection(EnvironmentSettings _env) {
   getIt.registerSingleton<EnvironmentSettings>(_env);
 
   // AssistantApps
-  initBaseDependencyInjection(_env.toAssistantApps(),
-      logger: LoggerService(),
-      analytics: AnalyticsService(),
-      theme: ThemeService(),
-      navigation: NavigationService());
+  initBaseDependencyInjection(
+    _env.toAssistantApps(),
+    logger: LoggerService(),
+    analytics: AnalyticsService(),
+    theme: ThemeService(),
+    path: PathService(),
+    navigation: NavigationService(),
+    baseWidget: BaseWidgetService(),
+  );
 
   getIt.registerFactoryParam<IRecipeJsonService, LocaleKey, String>(
     (LocaleKey key, String unused) =>

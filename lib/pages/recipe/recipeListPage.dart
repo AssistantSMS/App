@@ -1,14 +1,11 @@
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 
-import '../../components/adaptive/appBarForSubPage.dart';
-import '../../components/adaptive/appScaffold.dart';
 import '../../components/bottomNavbar.dart';
 import '../../components/tilePresenters/recipeTilePresenter.dart';
 import '../../constants/AnalyticsEvent.dart';
 import '../../constants/Routes.dart';
 import '../../contracts/recipe/recipe.dart';
-import '../../helpers/analytics.dart';
 import '../../helpers/futureHelper.dart';
 import '../../helpers/searchHelper.dart';
 import 'recipeDetailPage.dart';
@@ -17,14 +14,14 @@ class RecipeListPage extends StatelessWidget {
   final LocaleKey name;
   final List<LocaleKey> recipeLocales;
   RecipeListPage(this.name, this.recipeLocales) {
-    trackEvent(AnalyticsEvent.recipeListPage);
+    getAnalytics().trackEvent(AnalyticsEvent.recipeListPage);
   }
 
   @override
   Widget build(BuildContext context) {
-    return appScaffold(
+    return getBaseWidget().appScaffold(
       context,
-      appBar: appBarForSubPageHelper(
+      appBar: getBaseWidget().appBarForSubPage(
         context,
         title: Text(getTranslations().fromKey(name)),
         showHomeAction: true,

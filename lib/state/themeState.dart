@@ -1,4 +1,4 @@
-import '../helpers/jsonHelper.dart';
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 
 class ThemeState {
   final String themeMode;

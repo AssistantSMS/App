@@ -2,9 +2,6 @@ import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import '../../contracts/search/dropdownOption.dart';
-import '../../pages/dialog/optionsListPageDialog.dart';
-
 Widget languageChoiceButton(context, bool showAppleTheme, onLocaleChange) =>
     isiOS
         ? _appleLanguageChoiceButton(context, showAppleTheme, onLocaleChange)

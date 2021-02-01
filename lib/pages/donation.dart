@@ -2,16 +2,13 @@ import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
-import '../components/adaptive/appBarForSubPage.dart';
-import '../components/adaptive/appScaffold.dart';
 import '../constants/AnalyticsEvent.dart';
-import '../helpers/analytics.dart';
 import '../helpers/deviceHelper.dart';
 import '../helpers/genericHelper.dart';
 
 class DonationPage extends StatelessWidget {
   DonationPage() {
-    trackEvent(AnalyticsEvent.donationPage);
+    getAnalytics().trackEvent(AnalyticsEvent.donationPage);
   }
 
   @override
@@ -36,7 +33,7 @@ class DonationPage extends StatelessWidget {
       title: Text(getTranslations().fromKey(LocaleKey.buyMeACoffee),
           style: TextStyle(fontSize: 20)),
       onTap: () {
-        trackEvent(AnalyticsEvent.externalLinkBuyMeACoffee);
+        getAnalytics().trackEvent(AnalyticsEvent.externalLinkBuyMeACoffee);
         launchExternalURL(ExternalUrls.buyMeACoffee);
       },
     ));
@@ -46,7 +43,7 @@ class DonationPage extends StatelessWidget {
       title: Text(getTranslations().fromKey(LocaleKey.patreon),
           style: TextStyle(fontSize: 20)),
       onTap: () {
-        trackEvent(AnalyticsEvent.externalLinkPatreon);
+        getAnalytics().trackEvent(AnalyticsEvent.externalLinkPatreon);
         launchExternalURL(ExternalUrls.patreon);
       },
     ));
@@ -56,7 +53,7 @@ class DonationPage extends StatelessWidget {
       title: Text(getTranslations().fromKey(LocaleKey.paypal),
           style: TextStyle(fontSize: 20)),
       onTap: () {
-        trackEvent(AnalyticsEvent.externalLinkPayPal);
+        getAnalytics().trackEvent(AnalyticsEvent.externalLinkPayPal);
         launchExternalURL(ExternalUrls.payPal);
       },
     ));
@@ -66,7 +63,7 @@ class DonationPage extends StatelessWidget {
       title: Text(getTranslations().fromKey(LocaleKey.openCollective),
           style: TextStyle(fontSize: 20)),
       onTap: () {
-        trackEvent(AnalyticsEvent.externalLinkOpenCollective);
+        getAnalytics().trackEvent(AnalyticsEvent.externalLinkOpenCollective);
         launchExternalURL(ExternalUrls.openCollective);
       },
     ));
@@ -81,9 +78,9 @@ class DonationPage extends StatelessWidget {
       ));
     }
 
-    return appScaffold(
+    return getBaseWidget().appScaffold(
       context,
-      appBar: appBarForSubPageHelper(
+      appBar: getBaseWidget().appBarForSubPage(
         context,
         showHomeAction: true,
         title: Text(getTranslations().fromKey(LocaleKey.donation)),

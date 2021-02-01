@@ -5,7 +5,6 @@ import '../../contracts/recipe/recipe.dart';
 import '../../contracts/recipeIngredient/recipeIngredientDetail.dart';
 import '../../helpers/futureHelper.dart';
 import '../loading.dart';
-import 'genericTilePresenter.dart';
 
 Widget recipeTilePresenter(BuildContext context, Recipe recipe, int index,
     {bool showOutputQuantity = false}) {

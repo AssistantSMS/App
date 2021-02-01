@@ -5,7 +5,6 @@ import '../../contracts/recipeIngredient/recipeIngredient.dart';
 import '../../contracts/recipeIngredient/recipeIngredientDetail.dart';
 import '../../helpers/futureHelper.dart';
 import '../../pages/gameItem/gameItemDetailPage.dart';
-import 'genericTilePresenter.dart';
 
 Widget recipeIngredientTilePresenter(
     BuildContext context, RecipeIngredient recipeIngredient, int index) {

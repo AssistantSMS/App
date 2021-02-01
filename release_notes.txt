@@ -1,5 +1,5 @@
-- Cart page tree view
-- Improved Steam News page
-- Add backup data when device is offline or network request fails
-- Fix language change happening immediately
-- Fixed localisation on detail Cart page
+- Fix cart calculations for recipes that output more than 1 item
+- Improved language system
+- Improved Patreon page
+- Improved network image loading animations
+

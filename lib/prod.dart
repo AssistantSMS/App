@@ -10,7 +10,7 @@ Future main() async {
     donationsEnabled: false,
     isProduction: true,
     assistantAppsAppGuid: 'dfe0dbc7-8df4-47fb-a5a5-49af1937c4e2',
-    currentWhatIsNewGuid: '3f951a3e-81c5-45f4-9361-e1d408df0da5',
+    currentWhatIsNewGuid: '1a3deb9e-450d-482c-87ea-67ff6aa5e834',
   );
 
   runApp(MyApp(env));

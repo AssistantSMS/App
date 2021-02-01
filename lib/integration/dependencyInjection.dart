@@ -1,5 +1,4 @@
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
-import 'package:assistantapps_flutter_common/services/base/dialogService.dart';
 import 'package:get_it/get_it.dart';
 
 import '../env/environmentSettings.dart';
@@ -13,6 +12,7 @@ import '../repository/interface/ILocalStorageRepository.dart';
 import '../services/LocalStorageService.dart';
 import '../services/base/analyticsService.dart';
 import '../services/base/baseWidgetService.dart';
+import '../services/base/dialogService.dart';
 import '../services/base/loggingService.dart';
 import '../services/base/navigationService.dart';
 import '../services/base/pathService.dart';

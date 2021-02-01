@@ -1,3 +1,4 @@
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/foundation.dart' show kReleaseMode;
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
@@ -8,10 +9,7 @@ import 'components/loading.dart';
 import 'env/appRouter.dart';
 import 'env/environmentSettings.dart';
 import 'integration/dependencyInjection.dart';
-import 'integration/firebaseAnalytics.dart';
-import 'integration/logging.dart';
 import 'integration/router.dart';
-import 'localization/translationDelegate.dart';
 import 'state/createStore.dart';
 import 'state/modules/base/appState.dart';
 import 'state/modules/base/appViewModel.dart';
@@ -30,18 +28,12 @@ class _MyAppState extends State<MyApp> {
   TranslationsDelegate _newLocaleDelegate;
 
   _MyAppState(this._env) {
-    AppRouter.router = FluroRouter.configureRoutes();
-  }
-
-  @override
-  initState() {
-    super.initState();
-    initLogger();
+    AppRouter.router = CustomRouter.configureRoutes();
     initDependencyInjection(this._env);
     initReduxState();
     if (kReleaseMode) {
       // initFirebaseAdMob();
-      initFirebaseAnalytics();
+      // initFirebaseAnalytics();
       // initFirebaseMessaging();
     }
 
@@ -82,7 +74,7 @@ class _MyAppState extends State<MyApp> {
       store: store,
       child: StoreConnector<AppState, AppViewModel>(
         converter: (store) => AppViewModel.fromStore(store),
-        builder: (_, viewModel) => AppShell(
+        builder: (_, viewModel) => AdaptiveAppShell(
           newLocaleDelegate: TranslationsDelegate(
             newLocale: Locale(viewModel.selectedLanguage),
           ),

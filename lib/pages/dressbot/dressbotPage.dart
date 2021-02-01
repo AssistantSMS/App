@@ -1,14 +1,11 @@
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
 
 import '../../constants/AnalyticsEvent.dart';
 import '../../contracts/gameItem/gameItem.dart';
-import '../../contracts/results/resultWithValue.dart';
 import '../../contracts/search/checkboxOption.dart';
-import '../../helpers/analytics.dart';
 import '../../helpers/futureHelper.dart';
-import '../../localization/localeKey.dart';
-import '../../localization/translations.dart';
 import '../../state/modules/base/appState.dart';
 import '../../state/modules/cosmetic/cosmeticViewModel.dart';
 import 'dressbotListDetailPage.dart';
@@ -23,7 +20,7 @@ class _DressBotWidget extends State<DressBotPage> {
   List<String> currentOwnedSelection;
 
   _DressBotWidget() {
-    trackEvent(AnalyticsEvent.dressBotPage);
+    getAnalytics().trackEvent(AnalyticsEvent.dressBotPage);
   }
 
   Future<ResultWithValue<List<GameItem>>> getCustomisationsFiltered(
@@ -123,16 +120,16 @@ class _DressBotWidget extends State<DressBotPage> {
 
   @override
   Widget build(BuildContext context) {
-    String hatKey = Translations.get(context, LocaleKey.hat);
-    String hairKey = Translations.get(context, LocaleKey.hair);
-    String faceKey = Translations.get(context, LocaleKey.face);
-    String torsoKey = Translations.get(context, LocaleKey.torso);
-    String backpackKey = Translations.get(context, LocaleKey.backpack);
-    String glovesKey = Translations.get(context, LocaleKey.gloves);
-    String legsKey = Translations.get(context, LocaleKey.legs);
-    String shoesKey = Translations.get(context, LocaleKey.shoes);
-    String showOwnedKey = Translations.get(context, LocaleKey.showOwned);
-    String showNotOwnedKey = Translations.get(context, LocaleKey.showNotOwned);
+    String hatKey = getTranslations().fromKey(LocaleKey.hat);
+    String hairKey = getTranslations().fromKey(LocaleKey.hair);
+    String faceKey = getTranslations().fromKey(LocaleKey.face);
+    String torsoKey = getTranslations().fromKey(LocaleKey.torso);
+    String backpackKey = getTranslations().fromKey(LocaleKey.backpack);
+    String glovesKey = getTranslations().fromKey(LocaleKey.gloves);
+    String legsKey = getTranslations().fromKey(LocaleKey.legs);
+    String shoesKey = getTranslations().fromKey(LocaleKey.shoes);
+    String showOwnedKey = getTranslations().fromKey(LocaleKey.showOwned);
+    String showNotOwnedKey = getTranslations().fromKey(LocaleKey.showNotOwned);
 
     List<CheckboxOption> allItemList = List<CheckboxOption>();
     allItemList.add(getOption(hatKey));

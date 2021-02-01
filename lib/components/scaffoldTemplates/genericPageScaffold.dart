@@ -1,9 +1,6 @@
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 
-import '../../contracts/misc/actionItem.dart';
-import '../../helpers/navigationHelper.dart';
-import '../adaptive/appBarForSubPage.dart';
-import '../adaptive/appScaffold.dart';
 import '../bottomNavbar.dart';
 
 Widget genericPageScaffold<T>(
@@ -18,11 +15,11 @@ Widget genericPageScaffold<T>(
   List<ActionItem> actions = List<ActionItem>();
   actions.add(ActionItem(
     icon: Icons.home,
-    onPressed: () async => await navigateHomeAsync(context),
+    onPressed: () async => await getNavigation().navigateHomeAsync(context),
   ));
-  return appScaffold(
+  return getBaseWidget().appScaffold(
     context,
-    appBar: appBarForSubPageHelper(
+    appBar: getBaseWidget().appBarForSubPage(
       context,
       title: Text(title),
       actions: actions,

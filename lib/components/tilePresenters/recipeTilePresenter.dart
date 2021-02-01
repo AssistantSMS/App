@@ -1,11 +1,10 @@
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 
 import '../../contracts/recipe/recipe.dart';
 import '../../contracts/recipeIngredient/recipeIngredientDetail.dart';
-import '../../contracts/results/resultWithValue.dart';
 import '../../helpers/futureHelper.dart';
 import '../loading.dart';
-import 'genericTilePresenter.dart';
 
 Widget recipeTilePresenter(BuildContext context, Recipe recipe, int index,
     {bool showOutputQuantity = false}) {

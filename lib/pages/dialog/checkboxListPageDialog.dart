@@ -1,13 +1,8 @@
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 
-import '../../components/adaptive/appBarForSubPage.dart';
-import '../../components/adaptive/appScaffold.dart';
 import '../../components/adaptive/checkbox.dart';
-import '../../components/searchableList.dart';
 import '../../contracts/search/checkboxOption.dart';
-import '../../helpers/colourHelper.dart';
-import '../../helpers/fabHelper.dart';
-import '../../helpers/searchListHelper.dart';
 
 class CheckboxListPageDialog extends StatefulWidget {
   final String title;
@@ -31,20 +26,21 @@ class _CheckboxListPageDialogWidget extends State<CheckboxListPageDialog> {
 
   @override
   Widget build(BuildContext context) {
-    return appScaffold(context,
-        appBar: appBarForSubPageHelper(
+    return getBaseWidget().appScaffold(context,
+        appBar: getBaseWidget().appBarForSubPage(
           context,
           title: Text(title),
         ),
         body: SearchableList<CheckboxOption>(
           getSearchListFutureFromList(this.options),
-          (BuildContext context, CheckboxOption menuItem, int index) {
+          listItemWithIndexDisplayer:
+              (BuildContext context, CheckboxOption menuItem, int index) {
             return ListTile(
               title: Text(menuItem.title),
               trailing: adaptiveCheckbox(
                 context,
                 value: menuItem.value,
-                activeColor: getSecondaryColour(context),
+                activeColor: getTheme().getSecondaryColour(context),
                 onChanged: (bool newValue) {
                   this.setState(() {
                     this.options[index].value = newValue;
@@ -58,7 +54,7 @@ class _CheckboxListPageDialogWidget extends State<CheckboxListPageDialog> {
               },
             );
           },
-          (_, __) => false,
+          listItemSearch: (_, __) => false,
           addFabPadding: true,
           minListForSearch: 10000,
           key: Key('num Items: ${this.options.length.toString()}'),
@@ -67,8 +63,8 @@ class _CheckboxListPageDialogWidget extends State<CheckboxListPageDialog> {
           onPressed: () => Navigator.of(context).pop(options),
           heroTag: 'CheckboxListPageDialog',
           child: Icon(Icons.check),
-          foregroundColor: fabForegroundColourSelector(),
-          backgroundColor: fabColourSelector(context),
+          foregroundColor: getTheme().fabForegroundColourSelector(context),
+          backgroundColor: getTheme().fabColourSelector(context),
         ));
   }
 }

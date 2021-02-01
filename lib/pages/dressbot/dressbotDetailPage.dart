@@ -1,24 +1,18 @@
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
-import 'package:scrapmechanic_kurtlourens_com/contracts/enum/customisationSourceType.dart';
-import 'package:scrapmechanic_kurtlourens_com/helpers/deviceHelper.dart';
 
-import '../../components/adaptive/listWithScrollbar.dart';
 import '../../components/common/cachedFutureBuilder.dart';
 import '../../components/loading.dart';
 import '../../components/scaffoldTemplates/genericPageScaffold.dart';
 import '../../constants/AnalyticsEvent.dart';
 import '../../constants/AppImage.dart';
 import '../../constants/AppPadding.dart';
+import '../../contracts/enum/customisationSourceType.dart';
 import '../../contracts/gameItem/gameItemPageItem.dart';
-import '../../contracts/results/resultWithValue.dart';
-import '../../helpers/analytics.dart';
-import '../../helpers/colourHelper.dart';
+import '../../helpers/deviceHelper.dart';
 import '../../helpers/futureHelper.dart';
 import '../../helpers/genericHelper.dart';
-import '../../helpers/snapshotHelper.dart';
-import '../../localization/localeKey.dart';
-import '../../localization/translations.dart';
 import '../../state/modules/base/appState.dart';
 import '../../state/modules/cosmetic/cosmeticViewModel.dart';
 
@@ -32,12 +26,13 @@ class DressBotDetailPage extends StatelessWidget {
     this.isInDetailPane = false,
     this.updateDetailView,
   }) {
-    trackEvent('${AnalyticsEvent.itemDetailPage}: ${this.itemId}');
+    getAnalytics()
+        .trackEvent('${AnalyticsEvent.itemDetailPage}: ${this.itemId}');
   }
 
   @override
   Widget build(BuildContext context) {
-    String loading = Translations.get(context, LocaleKey.loading);
+    String loading = getTranslations().fromKey(LocaleKey.loading);
     var loadingWidget = fullPageLoading(context, loadingText: loading);
     return CachedFutureBuilder<ResultWithValue<GameItemPageItem>>(
       future: gameItemPageItemFuture(context, this.itemId),
@@ -94,9 +89,9 @@ class DressBotDetailPage extends StatelessWidget {
         ((viewModel?.owned ?? List<String>()).any((own) => own == gameItem.id));
     widgets.add(emptySpace1x());
     widgets.add(genericItemDescription(
-      Translations.get(context, isOwned ? LocaleKey.owned : LocaleKey.notOwned),
+      getTranslations().fromKey(isOwned ? LocaleKey.owned : LocaleKey.notOwned),
       textStyle: TextStyle(
-        color: getSecondaryColour(context),
+        color: getTheme().getSecondaryColour(context),
       ),
     ));
 
@@ -105,7 +100,7 @@ class DressBotDetailPage extends StatelessWidget {
       widgets.add(emptySpace1x());
       widgets.add(customDivider());
       widgets.add(genericItemDescription(
-        Translations.get(context, LocaleKey.foundIn),
+        getTranslations().fromKey(LocaleKey.foundIn),
       ));
       var image = AppImage.outfitCommon;
       switch (gameItem.customisationSource) {
@@ -132,18 +127,18 @@ class DressBotDetailPage extends StatelessWidget {
 
     widgets.add(emptySpace10x());
 
-    var fabColour = getSecondaryColour(context);
+    var fabColour = getTheme().getSecondaryColour(context);
     var fabWidget = isOwned
         ? FloatingActionButton(
             child: Icon(Icons.cancel),
             backgroundColor: fabColour,
-            foregroundColor: getForegroundTextColour(fabColour),
+            foregroundColor: getTheme().getForegroundTextColour(fabColour),
             onPressed: () => viewModel.removeFromOwned(gameItem.id),
           )
         : FloatingActionButton(
             child: Icon(Icons.check),
             backgroundColor: fabColour,
-            foregroundColor: getForegroundTextColour(fabColour),
+            foregroundColor: getTheme().getForegroundTextColour(fabColour),
             onPressed: () => viewModel.addToOwned(gameItem.id),
           );
     return Stack(

@@ -1,10 +1,8 @@
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:redux/redux.dart';
 
 import './middleware/localStorageMiddleware.dart';
-import '../contracts/results/resultWithValue.dart';
-import '../helpers/deviceHelper.dart';
 import '../integration/dependencyInjection.dart';
-import '../integration/logging.dart';
 import 'appReducer.dart';
 import 'modules/base/appState.dart';
 
@@ -19,7 +17,7 @@ Future<Store<AppState>> createStore() async {
           await getStorageService().loadAppState();
       if (stateResult.isSuccess) stateObj = stateResult.value;
     } catch (exception) {
-      logger.e(exception);
+      getLog().e(exception);
     }
     middlewares.add(LocalStorageMiddleware());
   }

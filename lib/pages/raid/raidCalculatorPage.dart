@@ -1,13 +1,10 @@
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:breakpoint/breakpoint.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
 
-import '../../components/adaptive/listWithScrollbar.dart';
 import '../../components/scaffoldTemplates/genericPageScaffold.dart';
-import '../../helpers/columnHelper.dart';
 import '../../helpers/deviceHelper.dart';
-import '../../localization/localeKey.dart';
-import '../../localization/translations.dart';
 import '../../state/modules/base/appState.dart';
 import '../../state/modules/raid/raidViewModel.dart';
 import 'raidCalculatorPage.desktop.dart';
@@ -47,7 +44,7 @@ class _RaidCalcInnerWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return genericPageScaffold(
       context,
-      Translations.get(context, LocaleKey.raidCalculator),
+      getTranslations().fromKey(LocaleKey.raidCalculator),
       null,
       body: (BuildContext innerContext, _) => BreakpointBuilder(
         builder: (BuildContext innerContext, Breakpoint breakpoint) {

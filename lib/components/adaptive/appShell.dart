@@ -1,20 +1,18 @@
 import 'package:after_layout/after_layout.dart';
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:theme_mode_handler/theme_mode_handler.dart';
 import 'package:universal_html/html.dart' as html;
 
 import '../../env/appRouter.dart';
-import '../../helpers/deviceHelper.dart';
-import '../../integration/logging.dart';
 import '../../integration/themeManager.dart';
-import '../../localization/localization.dart';
 import '../../theme/themes.dart';
 
-class AppShell extends StatefulWidget {
+class AdaptiveAppShell extends StatefulWidget {
   final newLocaleDelegate;
 
-  AppShell({
+  AdaptiveAppShell({
     this.newLocaleDelegate,
   });
 
@@ -22,7 +20,8 @@ class AppShell extends StatefulWidget {
   _AppShellWidget createState() => _AppShellWidget();
 }
 
-class _AppShellWidget extends State<AppShell> with AfterLayoutMixin<AppShell> {
+class _AppShellWidget extends State<AdaptiveAppShell>
+    with AfterLayoutMixin<AdaptiveAppShell> {
   @override
   void afterFirstLayout(BuildContext context) {
     if (!isWeb) return;
@@ -33,14 +32,14 @@ class _AppShellWidget extends State<AppShell> with AfterLayoutMixin<AppShell> {
 
   @override
   Widget build(BuildContext context) {
-    logger.i("main rebuild");
+    getLog().i("main rebuild");
 
     List<LocalizationsDelegate<dynamic>> localizationsDelegates = [
       widget.newLocaleDelegate,
       GlobalMaterialLocalizations.delegate, //provides localised strings
       GlobalWidgetsLocalizations.delegate, //provides RTL support
     ];
-    List<Locale> supportedLocales = localization.supportedLocales().toList();
+    List<Locale> supportedLangs = getTranslations().supportedLocales().toList();
 
     return ThemeModeHandler(
       key: Key('ThemeModeHandler'),
@@ -52,7 +51,7 @@ class _AppShellWidget extends State<AppShell> with AfterLayoutMixin<AppShell> {
         theme: getDynamicTheme(Brightness.light),
         onGenerateRoute: AppRouter.router.generator,
         localizationsDelegates: localizationsDelegates,
-        supportedLocales: supportedLocales,
+        supportedLocales: supportedLangs,
       ),
     );
   }

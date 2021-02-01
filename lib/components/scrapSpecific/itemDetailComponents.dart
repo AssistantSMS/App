@@ -1,11 +1,12 @@
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:enum_to_string/enum_to_string.dart';
 import 'package:flutter/material.dart';
 import 'package:step_progress_indicator/step_progress_indicator.dart';
 
-import '../../components/common/image.dart';
 import '../../components/customPaint/ratingOval.dart';
 import '../../components/webSpecific/mousePointer.dart';
 import '../../constants/AppImage.dart';
+import '../../constants/ItemDetail.dart';
 import '../../constants/Routes.dart';
 import '../../contracts/craftingIngredient/craftedUsing.dart';
 import '../../contracts/gameItem/box.dart';
@@ -16,20 +17,11 @@ import '../../contracts/gameItem/upgrade.dart';
 import '../../contracts/generated/LootChance.dart';
 import '../../contracts/recipe/recipe.dart';
 import '../../contracts/recipeIngredient/recipeIngredientDetail.dart';
-import '../../contracts/results/resultWithValue.dart';
 import '../../contracts/usedInRecipe/usedInRecipe.dart';
-import '../../helpers/colourHelper.dart';
 import '../../helpers/deviceHelper.dart';
-import '../../helpers/genericHelper.dart';
-import '../../helpers/navigationHelper.dart';
 import '../../helpers/textSpanHelper.dart';
-import '../../localization/localeKey.dart';
-import '../../localization/localesFromString.dart';
-import '../../localization/translations.dart';
 import '../../state/modules/cart/cartItemState.dart';
 import '../../state/modules/gameItem/gameItemViewModel.dart';
-import '../common/image.dart';
-import '../dialogs/quantityDialog.dart';
 import '../tilePresenters/cartTilePresenter.dart';
 import '../tilePresenters/recipeIngredientTilePresenter.dart';
 import '../tilePresenters/recipeTilePresenter.dart';
@@ -48,7 +40,7 @@ ResultWithValue<Widget> getRatingTableRows(
         false, null, 'rating is not worth displaying');
   }
 
-  var isDark = getIsDark(context);
+  var isDark = getTheme().getIsDark(context);
   if (gameItem.rating.density != null) {
     rows.add(TableRow(children: [
       headingLocaleKeyWithImage(
@@ -82,10 +74,11 @@ ResultWithValue<Widget> getRatingTableRows(
       headingLocaleKeyWithImage(
           context, AppImage.flammable(isDark), LocaleKey.flammable),
       Text(
-        Translations.get(
-            context, gameItem.flammable ? LocaleKey.yes : LocaleKey.no),
+        getTranslations()
+            .fromKey(gameItem.flammable ? LocaleKey.yes : LocaleKey.no),
         textAlign: TextAlign.center,
-        style: TextStyle(color: getPrimaryColour(context), fontSize: 16),
+        style: TextStyle(
+            color: getTheme().getPrimaryColour(context), fontSize: 16),
       ),
     ]));
   }
@@ -114,13 +107,13 @@ Widget headingLocaleKeyWithImage(
           // imageInvertColor: true, //getIsDark(context) == false,
         ),
       ),
-      headingText(context, Translations.get(context, key),
+      headingText(context, getTranslations().fromKey(key),
           textAlign: textAlign),
     ]);
 
 Widget headingLocaleKey(BuildContext context, LocaleKey key,
         {TextAlign textAlign}) =>
-    headingText(context, Translations.get(context, key), textAlign: textAlign);
+    headingText(context, getTranslations().fromKey(key), textAlign: textAlign);
 
 Widget headingText(BuildContext context, String text, {TextAlign textAlign}) =>
     Padding(
@@ -138,10 +131,10 @@ Widget rowValue(BuildContext context, int value) {
       size: 16,
       totalSteps: 10,
       currentStep: value,
-      selectedColor: getPrimaryColour(context),
+      selectedColor: getTheme().getPrimaryColour(context),
       unselectedColor: Colors.black,
       customStep: (index, color, size) {
-        return ratingOval(index < value, getPrimaryColour(context));
+        return ratingOval(index < value, getTheme().getPrimaryColour(context));
       },
     ),
   );
@@ -196,7 +189,7 @@ Widget cubeDimensionGrid(BuildContext context, Box box) {
 Widget cubeDimension(BuildContext context, Box box) {
   var textStyleDim = TextStyle(
     fontSize: 20,
-    color: getSecondaryColour(context),
+    color: getTheme().getSecondaryColour(context),
   );
   return Stack(
     children: [
@@ -229,7 +222,7 @@ Widget cubeDimension(BuildContext context, Box box) {
 Widget cylinderDimension(BuildContext context, Cylinder cylinder) {
   var textStyleDim = TextStyle(
     fontSize: 20,
-    color: getSecondaryColour(context),
+    color: getTheme().getSecondaryColour(context),
   );
   return Stack(
     children: [
@@ -365,7 +358,7 @@ Widget itemDetailFeaturesWidget(BuildContext context, List<Feature> features) {
         EnumToString.fromString(localesFromString, feature.localeKey);
     rows.add(TableRow(children: [
       Padding(
-        child: Text(Translations.get(context, locale) + ": "),
+        child: Text(getTranslations().fromKey(locale) + ": "),
         padding: EdgeInsets.all(4),
       ),
       Padding(child: Text(feature.value), padding: EdgeInsets.all(4)),
@@ -384,7 +377,7 @@ List<Widget> itemCraftingRecipesWidget(
     Future Function(String) navigateToGameItem) {
   List<Widget> widgets = List<Widget>();
   for (CraftedUsing craftingRecipe in craftingRecipes) {
-    var stationName = Translations.get(context, craftingRecipe.name);
+    var stationName = getTranslations().fromKey(craftingRecipe.name);
     widgets.add(emptySpace1x());
     widgets.add(customDivider());
     widgets.add(emptySpace1x());
@@ -424,7 +417,7 @@ List<Widget> itemUsedInRecipesWidget(
     widgets.add(emptySpace1x());
     widgets.add(customDivider());
     widgets.add(emptySpace1x());
-    var name = Translations.get(context, usedInRecipe.name);
+    var name = getTranslations().fromKey(usedInRecipe.name);
     widgets.add(getTextSpanFromTemplateAndArray(
         context, LocaleKey.usedInXToCreate, [name]));
     for (var recipeIndex = 0;
@@ -456,7 +449,7 @@ List<Widget> inCartWidget(
   if (cartItems == null || cartItems.length < 1) return widgets;
 
   widgets.add(emptySpace3x());
-  widgets.add(genericItemText(Translations.get(context, LocaleKey.cart)));
+  widgets.add(genericItemText(getTranslations().fromKey(LocaleKey.cart)));
   widgets.add(Card(
     child: cartTilePresenter(
       context,
@@ -467,12 +460,13 @@ List<Widget> inCartWidget(
         quantity: cartItems[0].quantity,
       ),
       0,
-      onTap: () async =>
-          await navigateHomeAsync(context, navigateToNamed: Routes.cart),
+      onTap: () async => await getNavigation()
+          .navigateHomeAsync(context, navigateToNamed: Routes.cart),
       onEdit: () {
         var controller =
             TextEditingController(text: cartItems[0].quantity.toString());
-        showQuantityDialog(context, controller, onSuccess: (quantity) {
+        getDialog().showQuantityDialog(context, controller,
+            onSuccess: (quantity) {
           int intQuantity = int.tryParse(quantity);
           if (intQuantity == null) return;
           viewModel.editCartItem(gameItem.id, intQuantity);

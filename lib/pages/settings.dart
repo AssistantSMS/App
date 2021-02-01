@@ -1,50 +1,37 @@
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
 import 'package:package_info/package_info.dart';
-import 'package:scrapmechanic_kurtlourens_com/components/bottomNavbar.dart';
-import 'package:scrapmechanic_kurtlourens_com/integration/themeManager.dart';
 
-import '../components/adaptive/appBarForSubPage.dart';
-import '../components/adaptive/appScaffold.dart';
-import '../components/adaptive/listWithScrollbar.dart';
+import '../components/bottomNavbar.dart';
 import '../components/dialogs/prettyDialog.dart';
 import '../components/tilePresenters/settingTilePresenter.dart';
 import '../constants/AnalyticsEvent.dart';
 import '../constants/AppImage.dart';
-import '../constants/ExternalUrls.dart';
-import '../constants/SupportedLanguages.dart';
-import '../contracts/results/resultWithValue.dart';
-import '../helpers/analytics.dart';
-import '../helpers/colourHelper.dart';
-import '../helpers/external.dart';
 import '../helpers/futureHelper.dart';
-import '../helpers/genericHelper.dart';
-import '../helpers/snapshotHelper.dart';
-import '../localization/localeKey.dart';
-import '../localization/localizationMap.dart';
-import '../localization/translations.dart';
 import '../state/modules/base/appState.dart';
 import '../state/modules/setting/settingViewModel.dart';
 
 class SettingsPage extends StatelessWidget {
   SettingsPage() {
-    trackEvent(AnalyticsEvent.settingsPage);
+    getAnalytics().trackEvent(AnalyticsEvent.settingsPage);
   }
 
   void _changeBrightness(BuildContext context) {
-    bool isDark = getIsDark(context);
-    setBrightness(context, isDark);
-    trackEvent(isDark ? AnalyticsEvent.lightMode : AnalyticsEvent.darkMode);
+    bool isDark = getTheme().getIsDark(context);
+    getTheme().setBrightness(context, isDark);
+    getAnalytics().trackEvent(
+        isDark ? AnalyticsEvent.lightMode : AnalyticsEvent.darkMode);
   }
 
   @override
   Widget build(BuildContext context) {
-    return appScaffold(
+    return getBaseWidget().appScaffold(
       context,
-      appBar: appBarForSubPageHelper(
+      appBar: getBaseWidget().appBarForSubPage(
         context,
         showHomeAction: true,
-        title: Text(Translations.get(context, LocaleKey.settings)),
+        title: Text(getTranslations().fromKey(LocaleKey.settings)),
       ),
       body: StoreConnector<AppState, SettingViewModel>(
         converter: (store) => SettingViewModel.fromStore(store),
@@ -58,11 +45,11 @@ class SettingsPage extends StatelessWidget {
     List<Widget> widgets = List<Widget>();
 
     widgets.add(headingSettingTilePresenter(
-        Translations.get(context, LocaleKey.general)));
+        getTranslations().fromKey(LocaleKey.general)));
 
     widgets.add(languageSettingTilePresenter(
       context,
-      Translations.get(context, LocaleKey.appLanguage),
+      getTranslations().fromKey(LocaleKey.appLanguage),
       viewModel.selectedLanguage,
       onChange: (Locale locale) {
         viewModel.changeLanguage(locale);
@@ -75,9 +62,10 @@ class SettingsPage extends StatelessWidget {
           prettyDialog(
             context,
             AppImage.translate,
-            Translations.get(context, LocaleKey.translation),
-            Translations.get(context, LocaleKey.translationIssue)
-                .replaceAll('{0}', Translations.get(context, newLocal.name)),
+            getTranslations().fromKey(LocaleKey.translation),
+            getTranslations()
+                .fromKey(LocaleKey.translationIssue)
+                .replaceAll('{0}', getTranslations().fromKey(newLocal.name)),
             onlyCancelButton: true,
           );
         }
@@ -86,25 +74,25 @@ class SettingsPage extends StatelessWidget {
 
     widgets.add(boolSettingTilePresenter(
       context,
-      Translations.get(context, LocaleKey.darkModeEnabled),
-      getIsDark(context),
+      getTranslations().fromKey(LocaleKey.darkModeEnabled),
+      getTheme().getIsDark(context),
       onChange: () => _changeBrightness(context),
     ));
 
     widgets.add(
-      headingSettingTilePresenter(Translations.get(context, LocaleKey.other)),
+      headingSettingTilePresenter(getTranslations().fromKey(LocaleKey.other)),
     );
 
     widgets.add(linkSettingTilePresenter(
       context,
-      Translations.get(context, LocaleKey.privacyPolicy),
+      getTranslations().fromKey(LocaleKey.privacyPolicy),
       icon: Icons.description,
       onTap: () => launchExternalURL(ExternalUrls.privacyPolicy),
     ));
 
     widgets.add(linkSettingTilePresenter(
       context,
-      Translations.get(context, LocaleKey.termsAndConditions),
+      getTranslations().fromKey(LocaleKey.termsAndConditions),
       icon: Icons.description,
       onTap: () => launchExternalURL(ExternalUrls.termsAndConditions),
     ));
@@ -118,12 +106,12 @@ class SettingsPage extends StatelessWidget {
             if (errorWidget != null) return errorWidget;
             return linkSettingTilePresenter(
               context,
-              Translations.get(context, LocaleKey.legal),
+              getTranslations().fromKey(LocaleKey.legal),
               icon: Icons.description,
               onTap: () => showAboutDialog(
                 context: context,
                 applicationLegalese:
-                    Translations.get(context, LocaleKey.fairUseDisclaimer),
+                    getTranslations().fromKey(LocaleKey.fairUseDisclaimer),
                 applicationVersion: snapshot?.data?.value?.version ?? 'v1.0',
               ),
             );

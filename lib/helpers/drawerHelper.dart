@@ -1,24 +1,17 @@
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 import 'package:package_info/package_info.dart';
 
-import '../components/adaptive/bottomModal.dart';
-import '../components/modalBottomSheet/assistantAppsModalBottomSheet.dart';
 import '../constants/AppImage.dart';
-import '../constants/ExternalUrls.dart';
+import '../constants/SMSExternalUrls.dart';
 import '../constants/Routes.dart';
-import '../contracts/results/resultWithValue.dart';
-import '../localization/localeKey.dart';
-import '../localization/translations.dart';
-import 'colourHelper.dart';
 import 'deviceHelper.dart';
-import 'external.dart';
 import 'genericHelper.dart';
-import 'navigationHelper.dart';
 
 Future<List<Widget>> getDrawerItems(context,
     Future<ResultWithValue<PackageInfo>> currentAppVersionFuture) async {
   List<Widget> widgets = List<Widget>();
-  Color drawerIconColour = getDarkModeSecondaryColour();
+  Color drawerIconColour = getTheme().getDarkModeSecondaryColour();
   widgets.add(emptySpace1x());
   widgets.add(_drawerItem(
     context,
@@ -55,13 +48,13 @@ Future<List<Widget>> getDrawerItems(context,
     context,
     image: getListTileImage(context, AppImage.twitter),
     key: LocaleKey.twitter,
-    navigateToExternal: ExternalUrls.twitter,
+    navigateToExternal: SMSExternalUrls.twitter,
   ));
   widgets.add(_drawerItem(
     context,
     image: getListTileImage(context, AppImage.github),
     key: LocaleKey.contribute,
-    navigateToExternal: ExternalUrls.githubOrganization,
+    navigateToExternal: SMSExternalUrls.githubOrganization,
   ));
 
   widgets.add(customDivider());
@@ -78,7 +71,7 @@ Future<List<Widget>> getDrawerItems(context,
     context,
     image: getCorrectlySizedImageFromIcon(context, Icons.email),
     key: LocaleKey.feedback,
-    navigateToExternal: ExternalUrls.kurtLourensEmail,
+    navigateToExternal: SMSExternalUrls.kurtLourensEmail,
   ));
 
   // widgets.add(_drawerItem(
@@ -104,7 +97,7 @@ Future<List<Widget>> getDrawerItems(context,
   if (packageInfoResult.isSuccess) {
     var versionText = packageInfoResult.value != null
         ? packageInfoResult.value.version
-        : Translations.get(context, LocaleKey.loading);
+        : getTranslations().fromKey(LocaleKey.loading);
     widgets.add(ListTile(
       key: Key('versionNumber'),
       leading: getCorrectlySizedImageFromIcon(context, Icons.code),
@@ -148,14 +141,20 @@ Widget _drawerItem(context,
   return ListTile(
     key: Key('$image-${key.toString()}'),
     leading: image,
-    title: Text(Translations.get(context, key)),
+    title: Text(getTranslations().fromKey(key)),
     dense: true,
     onTap: () async {
       Navigator.pop(context);
       if (navigateTo != null) {
-        await navigateHomeAsync(context, navigateTo: navigateTo);
+        await getNavigation().navigateHomeAsync(
+          context,
+          navigateTo: navigateTo,
+        );
       } else if (navigateToNamed != null) {
-        await navigateHomeAsync(context, navigateToNamed: navigateToNamed);
+        await getNavigation().navigateHomeAsync(
+          context,
+          navigateToNamed: navigateToNamed,
+        );
       } else if (navigateToExternal != null) {
         launchExternalURL(navigateToExternal);
       } else if (onTap != null) {

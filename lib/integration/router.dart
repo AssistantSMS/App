@@ -1,7 +1,10 @@
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:fluro/fluro.dart';
 import 'package:flutter/material.dart' hide Router;
-import 'package:scrapmechanic_kurtlourens_com/pages/whatIsNew/whatIsNewPage.dart';
+import 'package:flutter_redux/flutter_redux.dart';
 
+import '../components/bottomNavbar.dart';
+import '../constants/AnalyticsEvent.dart';
 import '../constants/Routes.dart';
 import '../pages/about.dart';
 import '../pages/cart/cartPage.dart';
@@ -14,21 +17,22 @@ import '../pages/news/steamNewsPage.dart';
 import '../pages/notFound.dart';
 import '../pages/other/contributorListPage.dart';
 import '../pages/other/otherRecipes.dart';
-import '../pages/other/patronListPage.dart';
 import '../pages/raid/raidCalculatorPage.dart';
 import '../pages/recipe/recipeDetailPage.dart';
 import '../pages/settings.dart';
+import '../state/modules/base/appState.dart';
+import '../state/modules/setting/whatIsNewSettingsViewModel.dart';
 
-class FluroRouter {
-  static Router configureRoutes() {
-    final router = Router();
+class CustomRouter {
+  static FluroRouter configureRoutes() {
+    final router = FluroRouter();
 
     router.notFoundHandler = Handler(
       handlerFunc: (BuildContext context, Map<String, List<String>> params) =>
           NotFoundPage(),
     );
 
-    TransitionType transition = TransitionType.material;
+    TransitionType transition = TransitionType.inFromRight;
     router.define(
       Routes.home,
       handler: _basicHandlerFunc(() => HomePage()),
@@ -76,7 +80,12 @@ class FluroRouter {
     );
     router.define(
       Routes.patronList,
-      handler: _basicHandlerFunc(() => PatronListPage()),
+      handler: _basicHandlerFunc(
+        () => PatronListPage(
+          AnalyticsEvent.patronListPage,
+          bottomNavigationBar: BottomNavbar(currentRoute: Routes.home),
+        ),
+      ),
       transitionType: transition,
     );
     router.define(
@@ -86,7 +95,15 @@ class FluroRouter {
     );
     router.define(
       Routes.whatIsNew,
-      handler: _basicHandlerFunc(() => WhatIsNewPage()),
+      handler: _basicHandlerFunc(
+        () => StoreConnector<AppState, WhatIsNewSettingsViewModel>(
+          converter: (store) => WhatIsNewSettingsViewModel.fromStore(store),
+          builder: (_, viewModel) => WhatIsNewPage(
+            AnalyticsEvent.whatIsNewPage,
+            selectedLanguage: viewModel.selectedLanguage,
+          ),
+        ),
+      ),
       transitionType: transition,
     );
     router.define(

@@ -1,12 +1,8 @@
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
 
-import '../../components/adaptive/appBarForSubPage.dart';
-import '../../components/adaptive/appScaffold.dart';
-import '../../components/adaptive/button.dart';
-import '../../components/adaptive/listWithScrollbar.dart';
 import '../../components/bottomNavbar.dart';
-import '../../components/dialogs/quantityDialog.dart';
 import '../../components/tilePresenters/cartTilePresenter.dart';
 import '../../constants/AnalyticsEvent.dart';
 import '../../constants/AppPadding.dart';
@@ -14,14 +10,7 @@ import '../../constants/Routes.dart';
 import '../../contracts/gameItem/gameItem.dart';
 import '../../contracts/recipeIngredient/recipeIngredient.dart';
 import '../../contracts/recipeIngredient/recipeIngredientDetail.dart';
-import '../../contracts/results/resultWithValue.dart';
-import '../../helpers/analytics.dart';
-import '../../helpers/dialogHelper.dart';
 import '../../helpers/itemsHelper.dart';
-import '../../helpers/navigationHelper.dart';
-import '../../helpers/snapshotHelper.dart';
-import '../../localization/localeKey.dart';
-import '../../localization/translations.dart';
 import '../../state/modules/base/appState.dart';
 import '../../state/modules/cart/cartItemState.dart';
 import '../../state/modules/cart/cartViewModel.dart';
@@ -30,17 +19,17 @@ import '../generic/genericPageAllRequired.dart';
 
 class CartPage extends StatelessWidget {
   CartPage() {
-    trackEvent(AnalyticsEvent.cartPage);
+    getAnalytics().trackEvent(AnalyticsEvent.cartPage);
   }
 
   @override
   Widget build(BuildContext context) {
-    return appScaffold(
+    return getBaseWidget().appScaffold(
       context,
-      appBar: appBarForSubPageHelper(
+      appBar: getBaseWidget().appBarForSubPage(
         context,
         showHomeAction: true,
-        title: Text(Translations.get(context, LocaleKey.cart)),
+        title: Text(getTranslations().fromKey(LocaleKey.cart)),
       ),
       body: StoreConnector<AppState, CartViewModel>(
         converter: (store) => CartViewModel.fromStore(store),
@@ -90,12 +79,13 @@ class CartPage extends StatelessWidget {
         context,
         cartDetail,
         ingDetailsIndex,
-        onTap: () async => await navigateAsync(context,
+        onTap: () async => await getNavigation().navigateAsync(context,
             navigateTo: (context) => GameItemDetailPage(cartDetail.id)),
         onEdit: () {
           var controller =
               TextEditingController(text: cartDetail.quantity.toString());
-          showQuantityDialog(context, controller, onSuccess: (quantity) {
+          getDialog().showQuantityDialog(context, controller,
+              onSuccess: (quantity) {
             int intQuantity = int.tryParse(quantity);
             if (intQuantity == null) return;
             viewModel.editCartItem(cartDetail.id, intQuantity);
@@ -115,8 +105,8 @@ class CartPage extends StatelessWidget {
     if (widgets.length > 0) {
       widgets.add(Container(
         child: positiveButton(
-          title: Translations.get(context, LocaleKey.viewAllRequiredItems),
-          onPress: () async => await navigateAsync(
+          title: getTranslations().fromKey(LocaleKey.viewAllRequiredItems),
+          onPress: () async => await getNavigation().navigateAsync(
             context,
             navigateTo: (context) => GenericAllRequiredPage(requiredItems),
           ),
@@ -124,15 +114,15 @@ class CartPage extends StatelessWidget {
       ));
       widgets.add(Container(
         child: negativeButton(
-            title: Translations.get(context, LocaleKey.deleteAll),
+            title: getTranslations().fromKey(LocaleKey.deleteAll),
             onPress: () {
-              showSimpleDialog(
+              getDialog().showSimpleDialog(
                   context,
-                  Translations.get(context, LocaleKey.deleteAll),
-                  Text(Translations.get(context, LocaleKey.areYouSure)),
+                  getTranslations().fromKey(LocaleKey.deleteAll),
+                  Text(getTranslations().fromKey(LocaleKey.areYouSure)),
                   buttons: [
-                    simpleDialogCloseButton(context),
-                    simpleDialogPositiveButton(context,
+                    getDialog().simpleDialogCloseButton(context),
+                    getDialog().simpleDialogPositiveButton(context,
                         title: LocaleKey.yes,
                         onTap: () => viewModel.removeAllFromCart()),
                   ]);
@@ -142,7 +132,7 @@ class CartPage extends StatelessWidget {
       widgets.add(
         Container(
           child: Text(
-            Translations.get(context, LocaleKey.noItems),
+            getTranslations().fromKey(LocaleKey.noItems),
             textAlign: TextAlign.center,
             overflow: TextOverflow.ellipsis,
             style: TextStyle(fontSize: 20),

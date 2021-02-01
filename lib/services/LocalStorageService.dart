@@ -1,14 +1,13 @@
 import 'dart:convert';
 
-import './interface/ILocalStorageService.dart';
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
+
 import '../constants/AppConfig.dart';
-import '../contracts/results/result.dart';
-import '../contracts/results/resultWithValue.dart';
 import '../integration/dependencyInjection.dart';
-import '../integration/logging.dart';
 import '../repository/interface/ILocalStorageRepository.dart';
 import '../state/modules/base/appState.dart';
 import '../state/themeState.dart';
+import 'json/interface/ILocalStorageService.dart';
 
 class LocalStorageService implements ILocalStorageService {
   ILocalStorageRepository _storageRepo;
@@ -36,7 +35,7 @@ class LocalStorageService implements ILocalStorageService {
       AppState result = AppState.fromJson(tempResult.value);
       return ResultWithValue<AppState>(true, result, '');
     } catch (exception) {
-      logger.e(exception, 'localStorageService - loadAppState');
+      getLog().e('localStorageService - loadAppState: ' + exception.toString());
       return ResultWithValue<AppState>(false, null, exception.errorMessage);
     }
   }

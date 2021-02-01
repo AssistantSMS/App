@@ -1,31 +1,26 @@
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 
-import '../components/adaptive/appScaffold.dart';
 import '../components/adaptive/homePageAppBar.dart';
 import '../components/bottomNavbar.dart';
 import '../components/drawer.dart';
-import '../components/responsiveStaggeredGrid.dart';
 import '../components/tilePresenters/responsiveStaggeredGridTilePresenter.dart';
 import '../constants/AnalyticsEvent.dart';
 import '../constants/AppImage.dart';
 import '../constants/Routes.dart';
 import '../constants/StaggeredGridItemType.dart';
-import '../contracts/misc/staggeredGridItem.dart';
-import '../helpers/analytics.dart';
 import '../helpers/listPageHelper.dart';
-import '../helpers/navigationHelper.dart';
-import '../localization/localeKey.dart';
 import 'gameItem/gameItemListPage.dart';
 import 'recipe/recipeListPage.dart';
 
 class HomePage extends StatelessWidget {
   HomePage() {
-    trackEvent(AnalyticsEvent.homePage);
+    getAnalytics().trackEvent(AnalyticsEvent.homePage);
   }
 
   @override
   Widget build(BuildContext context) {
-    return appScaffold(
+    return getBaseWidget().appScaffold(
       context,
       appBar: HomePageAppBar(),
       drawer: AppDrawer(),
@@ -43,7 +38,7 @@ class HomePage extends StatelessWidget {
             context,
             AppImage.craftTile,
             text: LocaleKey.craftBot,
-            onTap: () async => await navigateAwayFromHomeAsync(
+            onTap: () async => await getNavigation().navigateAwayFromHomeAsync(
               context,
               navigateTo: (context) => RecipeListPage(
                 LocaleKey.craftBot,
@@ -59,7 +54,7 @@ class HomePage extends StatelessWidget {
             context,
             AppImage.traderTile,
             text: LocaleKey.hideout,
-            onTap: () async => await navigateAwayFromHomeAsync(
+            onTap: () async => await getNavigation().navigateAwayFromHomeAsync(
               context,
               navigateTo: (context) => RecipeListPage(
                 LocaleKey.hideout,
@@ -75,7 +70,7 @@ class HomePage extends StatelessWidget {
             context,
             AppImage.block,
             text: LocaleKey.blocksAndItems,
-            onTap: () async => await navigateAwayFromHomeAsync(
+            onTap: () async => await getNavigation().navigateAwayFromHomeAsync(
               context,
               navigateTo: (context) => GameItemListPage(
                 LocaleKey.blocksAndItems,
@@ -91,7 +86,7 @@ class HomePage extends StatelessWidget {
             context,
             AppImage.workshopTile,
             text: LocaleKey.other,
-            onTap: () async => await navigateAwayFromHomeAsync(
+            onTap: () async => await getNavigation().navigateAwayFromHomeAsync(
               context,
               navigateToNamed: Routes.otherRecipes,
             ),
@@ -104,7 +99,7 @@ class HomePage extends StatelessWidget {
             context,
             AppImage.dressTile,
             text: LocaleKey.dressBot,
-            onTap: () async => await navigateAwayFromHomeAsync(
+            onTap: () async => await getNavigation().navigateAwayFromHomeAsync(
               context,
               navigateToNamed: Routes.dressbot,
             ),
@@ -117,7 +112,7 @@ class HomePage extends StatelessWidget {
             context,
             AppImage.raidTile,
             text: LocaleKey.raidCalculator,
-            onTap: () async => await navigateAwayFromHomeAsync(
+            onTap: () async => await getNavigation().navigateAwayFromHomeAsync(
               context,
               navigateToNamed: Routes.raidCalc,
             ),
@@ -130,7 +125,7 @@ class HomePage extends StatelessWidget {
             context,
             Icons.shopping_cart,
             text: LocaleKey.cart,
-            onTap: () async => await navigateAwayFromHomeAsync(
+            onTap: () async => await getNavigation().navigateAwayFromHomeAsync(
               context,
               navigateToNamed: Routes.cart,
             ),
@@ -143,7 +138,7 @@ class HomePage extends StatelessWidget {
             context,
             Icons.new_releases,
             text: LocaleKey.news,
-            onTap: () async => await navigateAwayFromHomeAsync(
+            onTap: () async => await getNavigation().navigateAwayFromHomeAsync(
               context,
               navigateToNamed: Routes.steamNews,
             ),

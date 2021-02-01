@@ -1,12 +1,11 @@
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
+
 import '../../contracts/gameItem/gameItem.dart';
 import '../../contracts/gameItem/gameItemBase.dart';
 import '../../contracts/gameItem/gameItemLang.dart';
-import '../../contracts/results/resultWithValue.dart';
-import '../../localization/localeKey.dart';
-import '../../localization/translations.dart';
 import '../../mapper/gameItemMapper.dart';
 import '../BaseJsonService.dart';
-import '../interface/IGameItemJsonService.dart';
+import './interface/IGameItemJsonService.dart';
 
 class GameItemJsonService extends BaseJsonService
     implements IGameItemJsonService {
@@ -16,7 +15,7 @@ class GameItemJsonService extends BaseJsonService
   //
   @override
   Future<ResultWithValue<List<GameItem>>> getAll(context) async {
-    String detailJson = Translations.get(context, detailsJsonLocale);
+    String detailJson = getTranslations().fromKey(detailsJsonLocale);
     try {
       List responseJson = await this.getListfromJson(context, baseJson);
       List responseDetailsJson =

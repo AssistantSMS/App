@@ -1,14 +1,6 @@
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-
-import '../../constants/SupportedLanguages.dart';
-import '../../contracts/search/dropdownOption.dart';
-import '../../helpers/colourHelper.dart';
-import '../../helpers/deviceHelper.dart';
-import '../../localization/localeKey.dart';
-import '../../localization/localization.dart';
-import '../../localization/translations.dart';
-import '../../pages/dialog/optionsListPageDialog.dart';
 
 Widget languageChoiceButton(context, bool showAppleTheme, onLocaleChange) =>
     isiOS
@@ -21,7 +13,7 @@ Widget _androidLanguageChoiceButton(context, onLocaleChange) {
     onPressed: () async {
       var options = supportedLanguageMaps
           .map((l) => DropdownOption(
-                Translations.get(context, l.name),
+                getTranslations().fromKey(l.name),
                 value: l.code,
               ))
           .toList();
@@ -29,20 +21,23 @@ Widget _androidLanguageChoiceButton(context, onLocaleChange) {
         context,
         MaterialPageRoute(
           builder: (context) => OptionsListPageDialog(
-            Translations.get(context, LocaleKey.appLanguage),
+            getTranslations().fromKey(LocaleKey.appLanguage),
             options,
             minListForSearch: 100,
           ),
         ),
       );
-      if (temp != null) onLocaleChange(localization.getLocaleFromKey(temp));
+      if (temp != null) {
+        onLocaleChange(getTranslations().getLocaleFromKey(temp));
+      }
     },
   );
 }
 
 Widget _appleLanguageChoiceButton(
     context, bool showAppleTheme, onLocaleChange) {
-  var color = showAppleTheme ? getPrimaryColour(context) : Colors.white;
+  var color =
+      showAppleTheme ? getTheme().getPrimaryColour(context) : Colors.white;
   return GestureDetector(
     child: Icon(
       Icons.language,
@@ -52,15 +47,15 @@ Widget _appleLanguageChoiceButton(
       showCupertinoModalPopup(
         context: context,
         builder: (BuildContext context) => CupertinoActionSheet(
-          title: Text(Translations.get(context, LocaleKey.language)),
+          title: Text(getTranslations().fromKey(LocaleKey.language)),
           actions: supportedLanguageMaps
               .map(
                 (choice) => CupertinoActionSheetAction(
-                  child: Text(Translations.get(context, choice.name)),
+                  child: Text(getTranslations().fromKey(choice.name)),
                   onPressed: () {
                     Navigator.of(context).pop();
                     return onLocaleChange(
-                      localization.getLocaleFromLocalMap(choice),
+                      getTranslations().getLocaleFromLocalMap(choice),
                     );
                   },
                 ),

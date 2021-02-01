@@ -1,5 +1,5 @@
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
-import '../../helpers/snapshotHelper.dart';
 
 class CachedFutureBuilder<T> extends StatefulWidget {
   final Future<T> future;

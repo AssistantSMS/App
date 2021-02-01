@@ -1,11 +1,10 @@
 import 'dart:async';
 import 'dart:collection';
 
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flash/flash.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-
-import '../helpers/colourHelper.dart';
 
 class _MessageItem<T> {
   final String message;
@@ -199,7 +198,7 @@ class FlashHelper {
           return Flash(
             controller: controller,
             horizontalDismissDirection: HorizontalDismissDirection.horizontal,
-            backgroundColor: getSecondaryColour(context),
+            backgroundColor: getTheme().getSecondaryColour(context),
             child: FlashBar(
               title: title == null
                   ? null

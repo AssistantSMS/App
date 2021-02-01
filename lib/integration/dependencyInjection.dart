@@ -1,31 +1,44 @@
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:get_it/get_it.dart';
 
 import '../env/environmentSettings.dart';
 import '../helpers/repositoryHelper.dart';
-import '../localization/localeKey.dart';
 import '../repository/LocalStorageRepository.dart';
 import '../repository/api/ContributorApiRepository.dart';
-import '../repository/api/DonatorApiRepository.dart';
-import '../repository/api/PatreonApiRepository.dart';
 import '../repository/api/SteamApiRepository.dart';
-import '../repository/api/VersionApiRepository.dart';
 import '../repository/api/interface/IContributorApiRepository.dart';
-import '../repository/api/interface/IDonatorApiRepository.dart';
-import '../repository/api/interface/IPatreonApiRepository.dart';
 import '../repository/api/interface/ISteamApiRepository.dart';
-import '../repository/api/interface/IVersionApiRepository.dart';
 import '../repository/interface/ILocalStorageRepository.dart';
 import '../services/LocalStorageService.dart';
-import '../services/interface/IGameItemJsonService.dart';
-import '../services/interface/ILocalStorageService.dart';
-import '../services/interface/IRecipeJsonService.dart';
+import '../services/base/analyticsService.dart';
+import '../services/base/baseWidgetService.dart';
+import '../services/base/dialogService.dart';
+import '../services/base/loggingService.dart';
+import '../services/base/navigationService.dart';
+import '../services/base/pathService.dart';
+import '../services/base/themeService.dart';
 import '../services/json/gameItemJsonService.dart';
+import '../services/json/interface/IGameItemJsonService.dart';
+import '../services/json/interface/ILocalStorageService.dart';
+import '../services/json/interface/IRecipeJsonService.dart';
 import '../services/json/recipeJsonService.dart';
 
 final getIt = GetIt.instance;
 
-initDependencyInjection(EnvironmentSettings _env) {
+void initDependencyInjection(EnvironmentSettings _env) {
   getIt.registerSingleton<EnvironmentSettings>(_env);
+
+  // AssistantApps
+  initBaseDependencyInjection(
+    _env.toAssistantApps(),
+    logger: LoggerService(),
+    analytics: AnalyticsService(),
+    theme: ThemeService(),
+    path: PathService(),
+    navigation: NavigationService(),
+    baseWidget: BaseWidgetService(),
+    dialog: DialogService(),
+  );
 
   getIt.registerFactoryParam<IRecipeJsonService, LocaleKey, String>(
     (LocaleKey key, String unused) =>
@@ -40,13 +53,9 @@ initDependencyInjection(EnvironmentSettings _env) {
   //Repository
   getIt.registerSingleton<ILocalStorageRepository>(LocalStorageRepository());
   getIt.registerSingleton<ISteamApiRepository>(SteamApiRepository());
-  getIt.registerSingleton<IPatreonApiRepository>(PatreonApiRepository());
   getIt.registerSingleton<IContributorApiRepository>(
     ContributorApiRepository(),
   );
-
-  getIt.registerSingleton<IVersionApiRepository>(VersionApiRepository());
-  getIt.registerSingleton<IDonatorApiRepository>(DonatorApiRepository());
 
   //Service
   getIt.registerSingleton<ILocalStorageService>(LocalStorageService());
@@ -63,11 +72,8 @@ IGameItemJsonService getGameItemRepo(LocaleKey key) =>
 //Repository
 ILocalStorageRepository getStorageRepo() => getIt<ILocalStorageRepository>();
 ISteamApiRepository getSteamApiRepo() => getIt<ISteamApiRepository>();
-IPatreonApiRepository getPatreonApiRepo() => getIt<IPatreonApiRepository>();
 IContributorApiRepository getContributorApiRepo() =>
     getIt<IContributorApiRepository>();
-IVersionApiRepository getVersionApiRepo() => getIt<IVersionApiRepository>();
-IDonatorApiRepository getDonatorApiRepo() => getIt<IDonatorApiRepository>();
 
 //Service
 ILocalStorageService getStorageService() => getIt<ILocalStorageService>();

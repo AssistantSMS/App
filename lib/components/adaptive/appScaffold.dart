@@ -1,9 +1,8 @@
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import '../../helpers/navigationHelper.dart';
-
-Widget appScaffold(
+Widget adaptiveAppScaffold(
   BuildContext context, {
   @required Widget appBar,
   Widget body,
@@ -21,7 +20,7 @@ Widget appScaffold(
       builder != null ? Builder(builder: (inner) => builder(inner)) : body;
 
   return WillPopScope(
-    onWillPop: () => navigateBackOrHomeAsync(context),
+    onWillPop: () => getNavigation().navigateBackOrHomeAsync(context),
     child: LayoutBuilder(
       builder: (_, constraints) {
         if (constraints.maxWidth >= _kDesktopBreakpoint) {

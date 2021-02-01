@@ -1,9 +1,7 @@
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
-import 'package:scrapmechanic_kurtlourens_com/localization/translations.dart';
 
-import '../../helpers/colourHelper.dart';
 import '../../helpers/genericHelper.dart';
-import '../../localization/localeKey.dart';
 
 Widget responsiveStaggeredGridTilePresenter(
         IconData icon, Color backgroundColor,
@@ -81,7 +79,7 @@ Widget responsiveStaggeredGridIconTilePresenter(
   //         ),
   //         Padding(
   //           child: Text(
-  //             Translations.get(context, text),
+  //             getTranslations().fromKey(text),
   //             textAlign: TextAlign.center,
   //             maxLines: 1,
   //             style: TextStyle(
@@ -107,7 +105,7 @@ Widget responsiveStaggeredGridBaseTilePresenter(
   // var backgroundColor = backgroundColor;
   // var backgroundColor =HexColor("4B7287");
   // var backgroundColor = HexColor("21536C");
-  var backgroundColor = getSecondaryColour(context);
+  var backgroundColor = getTheme().getSecondaryColour(context);
   List<Widget> children = List<Widget>();
   // children.add(Center(child: image));
   children.add(
@@ -120,12 +118,12 @@ Widget responsiveStaggeredGridBaseTilePresenter(
     children.add(Positioned(
       child: Padding(
         child: Text(
-          Translations.get(context, text),
+          getTranslations().fromKey(text),
           textAlign: TextAlign.center,
           maxLines: 1,
           overflow: TextOverflow.ellipsis,
           style: TextStyle(
-            color: getForegroundTextColour(backgroundColor),
+            color: getTheme().getForegroundTextColour(backgroundColor),
           ),
         ),
         padding: EdgeInsets.symmetric(horizontal: 2),

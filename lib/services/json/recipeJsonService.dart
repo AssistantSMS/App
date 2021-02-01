@@ -1,13 +1,11 @@
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
+
 import '../../contracts/recipe/recipe.dart';
 import '../../contracts/recipe/recipeBase.dart';
 import '../../contracts/recipe/recipeLang.dart';
-import '../../contracts/results/resultWithValue.dart';
-import '../../integration/logging.dart';
-import '../../localization/localeKey.dart';
-import '../../localization/translations.dart';
 import '../../mapper/recipeMapper.dart';
 import '../BaseJsonService.dart';
-import '../interface/IRecipeJsonService.dart';
+import './interface/IRecipeJsonService.dart';
 
 class RecipeJsonService extends BaseJsonService implements IRecipeJsonService {
   String baseJson;
@@ -16,7 +14,7 @@ class RecipeJsonService extends BaseJsonService implements IRecipeJsonService {
   //
   @override
   Future<ResultWithValue<List<Recipe>>> getAll(context) async {
-    String detailJson = Translations.get(context, detailsJsonLocale);
+    String detailJson = getTranslations().fromKey(detailsJsonLocale);
     try {
       List responseJson = await this.getListfromJson(context, baseJson);
       List responseDetailsJson =
@@ -29,7 +27,7 @@ class RecipeJsonService extends BaseJsonService implements IRecipeJsonService {
       return ResultWithValue<List<Recipe>>(
           true, mapRecipeItems(context, baseItems, detailedItems), '');
     } catch (exception) {
-      logger.e(
+      getLog().e(
           "RecipeJsonRepo($baseJson, $detailJson) Exception: ${exception.toString()}");
       return ResultWithValue<List<Recipe>>(
           false, List<Recipe>(), exception.toString());
@@ -47,7 +45,8 @@ class RecipeJsonService extends BaseJsonService implements IRecipeJsonService {
           allRecipesResult.value.firstWhere((r) => r.id == id);
       return ResultWithValue<Recipe>(true, selectedRecipe, '');
     } catch (exception) {
-      logger.e("RecipeJsonRepo($baseJson) Exception: ${exception.toString()}");
+      getLog()
+          .e("RecipeJsonRepo($baseJson) Exception: ${exception.toString()}");
       return ResultWithValue<Recipe>(false, Recipe(), exception.toString());
     }
   }
@@ -66,7 +65,8 @@ class RecipeJsonService extends BaseJsonService implements IRecipeJsonService {
           .toList();
       return ResultWithValue<List<Recipe>>(true, recipeInputs, '');
     } catch (exception) {
-      logger.e("RecipeJsonRepo($baseJson) Exception: ${exception.toString()}");
+      getLog()
+          .e("RecipeJsonRepo($baseJson) Exception: ${exception.toString()}");
       return ResultWithValue<List<Recipe>>(
           false, List<Recipe>(), exception.toString());
     }
@@ -88,7 +88,8 @@ class RecipeJsonService extends BaseJsonService implements IRecipeJsonService {
           .toList();
       return ResultWithValue<List<Recipe>>(true, recipeInputs, '');
     } catch (exception) {
-      logger.e("RecipeJsonRepo($baseJson) Exception: ${exception.toString()}");
+      getLog()
+          .e("RecipeJsonRepo($baseJson) Exception: ${exception.toString()}");
       return ResultWithValue<List<Recipe>>(
           false, List<Recipe>(), exception.toString());
     }

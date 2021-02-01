@@ -1,11 +1,10 @@
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
-
-import '../helpers/colourHelper.dart';
 
 Widget starRating(context, int currentRating,
     {double size = 32, Function(int) onTap}) {
   if (onTap == null) onTap = (int _) => {};
-  var colour = getSecondaryColour(context);
+  var colour = getTheme().getSecondaryColour(context);
   return Wrap(
     // alignment: WrapAlignment.center,
     children: List.generate(

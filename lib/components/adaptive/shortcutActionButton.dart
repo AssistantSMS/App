@@ -1,8 +1,7 @@
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import '../../contracts/misc/actionItem.dart';
-import '../../helpers/colourHelper.dart';
 import '../../helpers/deviceHelper.dart';
 
 Widget shortcutActionButton(context, List<ActionItem> actions) =>
@@ -15,7 +14,7 @@ Widget shortcutPresenter(context, ActionItem action) => Row(
         Text(
           action.text,
           style: TextStyle(
-            color: getIsDark(context) ? Colors.white : Colors.black,
+            color: getTheme().getIsDark(context) ? Colors.white : Colors.black,
           ),
         ),
       ],

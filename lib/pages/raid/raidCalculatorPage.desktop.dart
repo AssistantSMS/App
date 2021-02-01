@@ -1,14 +1,10 @@
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 
-import '../../components/adaptive/gridWithScrollbar.dart';
-import '../../components/common/image.dart';
 import '../../components/tilePresenters/raidTilePresenter.dart';
 import '../../components/webSpecific/mousePointer.dart';
 import '../../helpers/columnHelper.dart';
-import '../../helpers/external.dart';
 import '../../helpers/raidHelper.dart';
-import '../../localization/localeKey.dart';
-import '../../localization/translations.dart';
 import '../../state/modules/raid/raidViewModel.dart';
 
 const greenyDevGithubImage =
@@ -42,8 +38,8 @@ class RaidCalcDesktopInputScreen extends StatelessWidget {
                 networkImage(greenyDevGithubImage, height: 110),
                 Padding(
                   child: Text(
-                    Translations.get(
-                        context, LocaleKey.originalWorkByGreenyDev),
+                    getTranslations()
+                        .fromKey(LocaleKey.originalWorkByGreenyDev),
                     textAlign: TextAlign.center,
                   ),
                   padding: EdgeInsets.all(8),

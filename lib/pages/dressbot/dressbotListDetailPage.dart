@@ -1,22 +1,14 @@
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
 import 'package:grouped_checkbox/grouped_checkbox.dart';
 
-import '../../components/adaptive/appBarForSubPage.dart';
-import '../../components/adaptive/appScaffold.dart';
 import '../../components/bottomNavbar.dart';
-import '../../components/responsiveSearchableList.dart';
 import '../../components/tilePresenters/gameItemTilePresenter.dart';
 import '../../constants/Routes.dart';
 import '../../contracts/gameItem/gameItem.dart';
-import '../../contracts/misc/actionItem.dart';
-import '../../contracts/results/resultWithValue.dart';
 import '../../contracts/search/checkboxOption.dart';
-import '../../helpers/colourHelper.dart';
-import '../../helpers/navigationHelper.dart';
 import '../../helpers/searchHelper.dart';
-import '../../localization/localeKey.dart';
-import '../../localization/translations.dart';
 import '../../state/modules/base/appState.dart';
 import '../../state/modules/cosmetic/cosmeticViewModel.dart';
 import '../dialog/checkboxListPageDialog.dart';
@@ -79,19 +71,20 @@ class DressBotListDetailPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return appScaffold(
+    return getBaseWidget().appScaffold(
       context,
-      appBar: appBarForSubPageHelper(context,
-          title: Text(Translations.get(context, LocaleKey.dressBot)),
+      appBar: getBaseWidget().appBarForSubPage(context,
+          title: Text(getTranslations().fromKey(LocaleKey.dressBot)),
           showHomeAction: true,
           actions: [
             ActionItem(
               icon: Icons.sort,
               onPressed: () async {
-                List<CheckboxOption> newSelection = await navigateAsync(
+                List<CheckboxOption> newSelection =
+                    await getNavigation().navigateAsync(
                   context,
                   navigateTo: (context) => CheckboxListPageDialog(
-                    Translations.get(context, LocaleKey.dressBot),
+                    getTranslations().fromKey(LocaleKey.dressBot),
                     this.currentSelection ?? allItemList,
                   ),
                 );
@@ -132,13 +125,13 @@ class DressBotListDetailPage extends StatelessWidget {
                 onChanged: (itemList) => setOwnedSelection(itemList),
                 orientation: CheckboxOrientation.HORIZONTAL,
                 checkColor: Colors.white,
-                activeColor: getSecondaryColour(context),
+                activeColor: getTheme().getSecondaryColour(context),
               ),
               Divider(),
             ],
           ),
           listItemMobileOnTap: (BuildContext context, GameItem gameItem) async {
-            return await navigateAwayFromHomeAsync(
+            return await getNavigation().navigateAwayFromHomeAsync(
               context,
               navigateToNamed: Routes.cosmeticDetail,
               navigateToNamedParameters: {Routes.itemIdParam: gameItem.id},
@@ -176,6 +169,6 @@ class DressBotListDetailPage extends StatelessWidget {
     for (var item in ownedSelection ?? List<String>()) {
       temp += item;
     }
-    return Key("${Translations.of(context).currentLanguage}$temp");
+    return Key("${getTranslations().currentLanguage}$temp");
   }
 }

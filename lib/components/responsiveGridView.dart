@@ -1,6 +1,5 @@
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
-
-import '../helpers/colourHelper.dart';
 
 Widget responsiveGrid<T>(BuildContext context, List<T> items,
     Widget Function(BuildContext context, T item) gridItemPresenter) {
@@ -46,7 +45,9 @@ Widget responsiveSelectorGrid<T>(
     itemCount: items.length,
     itemBuilder: (BuildContext context, int index) => Container(
       child: gridItemPresenter(context, items[index]),
-      color: index == selectedIndex ? getSecondaryColour(context) : null,
+      color: index == selectedIndex
+          ? getTheme().getSecondaryColour(context)
+          : null,
     ),
   );
 }

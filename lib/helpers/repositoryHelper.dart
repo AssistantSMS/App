@@ -1,5 +1,6 @@
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
+
 import '../constants/BaseJson.dart';
-import '../localization/localeKey.dart';
 
 List<LocaleKey> allRecipeJsons() {
   return [

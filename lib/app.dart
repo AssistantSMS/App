@@ -5,7 +5,6 @@ import 'package:flutter_redux/flutter_redux.dart';
 import 'package:redux/redux.dart';
 
 import 'components/adaptive/appShell.dart';
-import 'components/loading.dart';
 import 'env/appRouter.dart';
 import 'env/environmentSettings.dart';
 import 'integration/dependencyInjection.dart';

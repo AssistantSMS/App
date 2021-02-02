@@ -1,7 +1,6 @@
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:scrapmechanic_kurtlourens_com/constants/AppImage.dart';
 
 import '../../components/loading.dart';
 

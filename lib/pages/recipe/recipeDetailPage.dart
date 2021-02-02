@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
 
 import '../../components/common/cachedFutureBuilder.dart';
-import '../../components/loading.dart';
 import '../../components/scaffoldTemplates/genericPageScaffold.dart';
 import '../../components/tilePresenters/recipeIngredientTilePresenter.dart';
 import '../../components/webSpecific/mousePointer.dart';
@@ -40,7 +39,10 @@ class RecipeDetailPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     String loading = getTranslations().fromKey(LocaleKey.loading);
-    var loadingWidget = fullPageLoading(context, loadingText: loading);
+    var loadingWidget = getLoading().fullPageLoading(
+      context,
+      loadingText: loading,
+    );
     return CachedFutureBuilder<ResultWithValue<RecipePageItem>>(
       future: recipePageItemFuture(context, this.itemId),
       whileLoading: isInDetailPane

@@ -13,6 +13,7 @@ import '../services/LocalStorageService.dart';
 import '../services/base/analyticsService.dart';
 import '../services/base/baseWidgetService.dart';
 import '../services/base/dialogService.dart';
+import '../services/base/loadingWidgetService.dart';
 import '../services/base/loggingService.dart';
 import '../services/base/navigationService.dart';
 import '../services/base/pathService.dart';
@@ -38,6 +39,7 @@ void initDependencyInjection(EnvironmentSettings _env) {
     navigation: NavigationService(),
     baseWidget: BaseWidgetService(),
     dialog: DialogService(),
+    loading: LoadingWidgetService(),
   );
 
   getIt.registerFactoryParam<IRecipeJsonService, LocaleKey, String>(

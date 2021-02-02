@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 import '../../contracts/recipe/recipe.dart';
 import '../../contracts/recipeIngredient/recipeIngredientDetail.dart';
 import '../../helpers/futureHelper.dart';
-import '../loading.dart';
 
 Widget recipeTilePresenter(BuildContext context, Recipe recipe, int index,
     {bool showOutputQuantity = false}) {
@@ -41,7 +40,7 @@ Widget recipeTileWithIngDetailsPresenter(
       builder: (BuildContext context,
           AsyncSnapshot<ResultWithValue<List<RecipeIngredientDetails>>>
               snapshot) {
-        var subtitle = smallLoadingIndicator();
+        var subtitle = getLoading().smallLoadingIndicator();
         if (snapshot.connectionState == ConnectionState.none ||
             (snapshot.connectionState == ConnectionState.done &&
                 snapshot.hasError) ||

@@ -65,7 +65,7 @@ class _MyAppState extends State<MyApp> {
       return MaterialApp(
         home: Scaffold(
           backgroundColor: Colors.black,
-          body: unconnectedFullPageLoading(context),
+          body: Center(child: getLoading().loadingIndicator()),
         ),
       );
     }

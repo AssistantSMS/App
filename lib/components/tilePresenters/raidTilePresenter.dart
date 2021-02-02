@@ -10,7 +10,6 @@ import '../../contracts/recipeIngredient/recipeIngredientDetail.dart';
 import '../../helpers/futureHelper.dart';
 import '../../helpers/raidHelper.dart';
 import '../../state/modules/raid/raidViewModel.dart';
-import '../loading.dart';
 
 Widget raidGridTilePresenter(BuildContext context, String itemId, int quantity,
     void Function(String itemId, int quantity) onEdit) {
@@ -102,7 +101,7 @@ Widget raidAddPlantTilePresenter(
       Widget errorWidget = asyncSnapshotHandler(
         context,
         snapshot,
-        loader: () => listTileLoading(context),
+        loader: () => getLoading().smallLoadingTile(context),
       );
       if (errorWidget != null) return errorWidget;
       return _raidAddPlantTileContent(context, snapshot.data.value, onEdit);

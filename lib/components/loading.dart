@@ -1,58 +1,7 @@
-import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import '../constants/AppImage.dart';
-
-Widget smallLoadingIndicator() => CustomSpinner();
-// Widget smallLoadingIndicator() => isiOS ? CupertinoActivityIndicator() : CircularProgressIndicator();
-
-Widget listTileLoading(context, {String loadingText}) => ListTile(
-      leading: localImage(AppImage.customLoading),
-      title: Text(loadingText ?? getTranslations().fromKey(LocaleKey.loading)),
-    );
-
-Widget smallLoadingTile(BuildContext context, {String loadingText}) => ListTile(
-      leading: smallLoadingIndicator(),
-      title: Text(loadingText ?? getTranslations().fromKey(LocaleKey.loading)),
-    );
-
-Widget fullPageLoading(context, {String loadingText}) => Container(
-      child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        crossAxisAlignment: CrossAxisAlignment.center,
-        children: <Widget>[
-          Row(children: <Widget>[
-            smallLoadingIndicator(),
-          ], mainAxisAlignment: MainAxisAlignment.center),
-          Row(children: <Widget>[
-            Container(
-              margin: EdgeInsets.all(12),
-            )
-          ], mainAxisAlignment: MainAxisAlignment.center),
-          Row(children: <Widget>[
-            Text(loadingText ?? getTranslations().fromKey(LocaleKey.loading))
-          ], mainAxisAlignment: MainAxisAlignment.center),
-        ],
-      ),
-    );
-
-Widget unconnectedFullPageLoading(context) => Container(
-      child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        crossAxisAlignment: CrossAxisAlignment.center,
-        children: <Widget>[
-          Row(children: <Widget>[
-            CustomSpinner(),
-          ], mainAxisAlignment: MainAxisAlignment.center),
-          Row(children: <Widget>[
-            Container(
-              margin: EdgeInsets.all(12),
-            )
-          ], mainAxisAlignment: MainAxisAlignment.center),
-        ],
-      ),
-    );
 
 class CustomSpinner extends StatefulWidget {
   final double height;

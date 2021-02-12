@@ -21,7 +21,7 @@ class RecipeIngredientTreeDetails extends RecipeIngredientDetails {
       title: req.title,
       cost: cost,
       quantity: req.quantity,
-      children: List<RecipeIngredientTreeDetails>(),
+      children: List.empty(growable: true),
     );
   }
 

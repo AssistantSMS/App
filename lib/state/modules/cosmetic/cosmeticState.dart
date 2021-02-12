@@ -7,7 +7,7 @@ class CosmeticState {
 
   factory CosmeticState.initial() {
     return CosmeticState(
-      owned: List<String>(),
+      owned: List.empty(growable: true),
     );
   }
 
@@ -15,7 +15,7 @@ class CosmeticState {
     List<String> owned,
   }) {
     return CosmeticState(
-      owned: owned ?? List<String>(),
+      owned: owned ?? List.empty(growable: true),
     );
   }
 
@@ -23,7 +23,7 @@ class CosmeticState {
     try {
       owned = List<String>.from(json["owned"]);
     } catch (exception) {
-      owned = List<String>();
+      owned = List.empty(growable: true);
     }
   }
 

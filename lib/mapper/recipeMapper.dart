@@ -4,7 +4,7 @@ import '../contracts/recipe/recipeLang.dart';
 
 List<Recipe> mapRecipeItems(
     context, List<RecipeBase> baseItems, List<RecipeLang> details) {
-  List<Recipe> result = List<Recipe>();
+  List<Recipe> result = List.empty(growable: true);
 
   for (var baseIndex = 0; baseIndex < baseItems.length; baseIndex++) {
     var base = baseItems[baseIndex];

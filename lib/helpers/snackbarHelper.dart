@@ -12,7 +12,7 @@ void showSnackbar(context, LocaleKey lang,
     message: getTranslations().fromKey(lang),
     duration: duration,
     primaryAction: (context, controller, setState) {
-      return FlatButton(
+      return TextButton(
         child: Text(
           getTranslations().fromKey(LocaleKey.view),
           style: TextStyle(color: Colors.white),

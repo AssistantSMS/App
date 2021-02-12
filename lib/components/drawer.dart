@@ -11,7 +11,7 @@ class AppDrawer extends StatelessWidget {
     return FutureBuilder<List<Widget>>(
       future: getDrawerItems(context, currentAppVersion()),
       builder: (BuildContext context, AsyncSnapshot<List<Widget>> snapshot) {
-        List<Widget> widgets = List<Widget>();
+        List<Widget> widgets = List.empty(growable: true);
         widgets.add(DrawerHeader(
           decoration: BoxDecoration(
             gradient: LinearGradient(

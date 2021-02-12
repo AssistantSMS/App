@@ -54,7 +54,7 @@ Future<ResultWithValue<RecipePageItem>> recipePageItemFuture(
     List<RecipeIngredientDetails> ingredientDetails =
         ingredientDetailsResult.isSuccess
             ? ingredientDetailsResult.value
-            : List<RecipeIngredientDetails>();
+            : List.empty(growable: true);
     return ResultWithValue<RecipePageItem>(
         true,
         RecipePageItem(
@@ -69,13 +69,13 @@ Future<ResultWithValue<RecipePageItem>> recipePageItemFuture(
 
 Future<ResultWithValue<List<Recipe>>> getAllRecipeFromLocaleKeys(
     dynamic context, List<LocaleKey> repoJsonStrings) async {
-  List<Recipe> results = List<Recipe>();
+  List<Recipe> results = List.empty(growable: true);
   var onFinishTask = (ResultWithValue<List<Recipe>> result) {
     if (result.hasFailed) return;
     results.addAll(result.value);
   };
   List<Future<ResultWithValue<List<Recipe>>>> tasks =
-      List<Future<ResultWithValue<List<Recipe>>>>();
+      List.empty(growable: true);
   for (var repJson in repoJsonStrings) {
     var repo = getRecipeRepo(repJson);
     if (repo == null) continue;
@@ -112,16 +112,16 @@ Future<ResultWithValue<GameItemPageItem>> gameItemPageItemFuture(
   if (itemResult.isSuccess) {
     ResultWithValue<List<UsedInRecipe>> useInResult = await usedInRecipesTask;
     List<UsedInRecipe> usedInRecipes =
-        useInResult.isSuccess ? useInResult.value : List<UsedInRecipe>();
+        useInResult.isSuccess ? useInResult.value : List.empty(growable: true);
     ResultWithValue<List<CraftedUsing>> craftingRecipesResult =
         await craftingRecipesTask;
     List<CraftedUsing> craftingRecipes = craftingRecipesResult.isSuccess
         ? craftingRecipesResult.value
-        : List<CraftedUsing>();
+        : List.empty(growable: true);
     ResultWithValue<List<LootChance>> lootChancesResult = await lootChanceTask;
     List<LootChance> lootChances = lootChancesResult.isSuccess
         ? lootChancesResult.value
-        : List<LootChance>();
+        : List.empty(growable: true);
     return ResultWithValue<GameItemPageItem>(
         true,
         GameItemPageItem(
@@ -138,13 +138,13 @@ Future<ResultWithValue<GameItemPageItem>> gameItemPageItemFuture(
 
 Future<ResultWithValue<List<GameItem>>> getAllGameItemFromLocaleKeys(
     dynamic context, List<LocaleKey> repoJsonStrings) async {
-  List<GameItem> results = List<GameItem>();
+  List<GameItem> results = List.empty(growable: true);
   var onFinishTask = (ResultWithValue<List<GameItem>> result) {
     if (result.hasFailed) return;
     results.addAll(result.value);
   };
   List<Future<ResultWithValue<List<GameItem>>>> tasks =
-      List<Future<ResultWithValue<List<GameItem>>>>();
+      List.empty(growable: true);
   for (var repJson in repoJsonStrings) {
     var repo = getGameItemRepo(repJson);
     if (repo == null) continue;
@@ -196,10 +196,10 @@ Future<ResultWithValue<RecipeIngredientDetails>>
 Future<ResultWithValue<List<RecipeIngredientDetails>>>
     recipeIngredientDetailsFuture(
         context, List<RecipeIngredient> inputs) async {
-  List<RecipeIngredientDetails> results = List<RecipeIngredientDetails>();
+  List<RecipeIngredientDetails> results = List.empty(growable: true);
 
   List<Future<ResultWithValue<RecipeIngredientDetails>>> tasks =
-      List<Future<ResultWithValue<RecipeIngredientDetails>>>();
+      List.empty(growable: true);
   var onFinishTask = (ResultWithValue<RecipeIngredientDetails> ingResult) {
     if (ingResult.hasFailed || ingResult.value == null) return;
     results.add(ingResult.value);
@@ -219,7 +219,7 @@ Future<ResultWithValue<List<RecipeIngredientDetails>>>
 
 Future<ResultWithValue<List<CraftedUsing>>> craftingRecipesFuture(
     context, String itemId) async {
-  List<CraftedUsing> results = List<CraftedUsing>();
+  List<CraftedUsing> results = List.empty(growable: true);
 
   for (LocaleKey repJson in allRecipeJsons()) {
     IRecipeJsonService repo = getRecipeRepo(repJson);
@@ -229,7 +229,7 @@ Future<ResultWithValue<List<CraftedUsing>>> craftingRecipesFuture(
     if (!getOutput.isSuccess) continue;
     for (Recipe recipe in getOutput.value) {
       List<Future<ResultWithValue<RecipeIngredientDetails>>> ingDetailsTask =
-          List<Future<ResultWithValue<RecipeIngredientDetails>>>();
+          List.empty(growable: true);
       for (var recipeIng in recipe.inputs) {
         ingDetailsTask.add(
           getRecipeIngredientDetailsFuture(context, recipeIng),
@@ -255,7 +255,7 @@ Future<ResultWithValue<List<CraftedUsing>>> craftingRecipesFuture(
 
 Future<ResultWithValue<List<UsedInRecipe>>> usedInRecipesFuture(
     context, String itemId) async {
-  List<UsedInRecipe> results = List<UsedInRecipe>();
+  List<UsedInRecipe> results = List.empty(growable: true);
   var onFinishTask =
       (LocaleKey langJsonPath, ResultWithValue<List<Recipe>> result) {
     if (result.hasFailed || result.value == null || result.value.length == 0)
@@ -265,7 +265,7 @@ Future<ResultWithValue<List<UsedInRecipe>>> usedInRecipesFuture(
     );
   };
   List<Future<ResultWithValue<List<Recipe>>>> tasks =
-      List<Future<ResultWithValue<List<Recipe>>>>();
+      List.empty(growable: true);
   for (LocaleKey repJson in allRecipeJsons()) {
     IRecipeJsonService repo = getRecipeRepo(repJson);
     if (repo == null) continue;
@@ -284,7 +284,7 @@ Future<ResultWithValue<List<UsedInRecipe>>> usedInRecipesFuture(
 
 Future<List<RecipeIngredientDetails>> getAllRequiredItemsForMultiple(
     context, List<RecipeIngredient> requiredItems) async {
-  List<RecipeIngredient> allRequiredItems = List<RecipeIngredient>();
+  List<RecipeIngredient> allRequiredItems = List.empty(growable: true);
   for (var requiredItem in requiredItems) {
     allRequiredItems.addAll(await getRequiredItems(context, requiredItem));
   }
@@ -308,7 +308,7 @@ Future<List<RecipeIngredientDetails>> getAllRequiredItemsForMultiple(
   ResultWithValue<List<RecipeIngredientDetails>> detailsResult =
       await recipeIngredientDetailsFuture(context, uniqueRequiredItems);
   if (!detailsResult.isSuccess) {
-    return List<RecipeIngredientDetails>();
+    return List.empty(growable: true);
   }
 
   return detailsResult.value.sortedBy((rd) => rd.quantity);
@@ -316,7 +316,7 @@ Future<List<RecipeIngredientDetails>> getAllRequiredItemsForMultiple(
 
 Future<List<RecipeIngredient>> getRequiredItems(
     context, RecipeIngredient requiredItem) async {
-  List<RecipeIngredient> tempRawMaterials = List<RecipeIngredient>();
+  List<RecipeIngredient> tempRawMaterials = List.empty(growable: true);
 
   for (LocaleKey repJson in allRecipeJsons()) {
     IRecipeJsonService repo = getRecipeRepo(repJson);
@@ -338,7 +338,7 @@ Future<List<RecipeIngredient>> getRequiredItems(
     }
   }
 
-  var rawMaterialsResult = List<RecipeIngredient>();
+  var rawMaterialsResult = List.empty(growable: true);
 
   if (tempRawMaterials != null && tempRawMaterials.length == 0) {
     rawMaterialsResult.add(requiredItem);
@@ -358,7 +358,7 @@ Future<List<RecipeIngredient>> getRequiredItems(
 
 Future<List<RecipeIngredient>> getRequiredItemsSurfaceLevel(
     context, RecipeIngredient requiredItem) async {
-  List<RecipeIngredient> tempRawMaterials = List<RecipeIngredient>();
+  List<RecipeIngredient> tempRawMaterials = List.empty(growable: true);
 
   for (LocaleKey repJson in allRecipeJsons()) {
     IRecipeJsonService repo = getRecipeRepo(repJson);
@@ -388,7 +388,7 @@ Future<ResultWithValue<List<LootChance>>> getLootChanceFuture(
   var appLootResult = await service.getById(context, itemId);
   if (!appLootResult.isSuccess)
     return ResultWithValue(
-        false, List<LootChance>(), appLootResult.errorMessage);
+        false, List.empty(growable: true), appLootResult.errorMessage);
   var chances = appLootResult.value.chances;
   return ResultWithValue(chances.length > 0, chances, '');
 }

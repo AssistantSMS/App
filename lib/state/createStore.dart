@@ -8,8 +8,7 @@ import 'modules/base/appState.dart';
 
 Future<Store<AppState>> createStore() async {
   List<void Function(Store<AppState>, dynamic, void Function(dynamic))>
-      middlewares =
-      List<void Function(Store<AppState>, dynamic, void Function(dynamic))>();
+      middlewares = List.empty(growable: true);
   AppState stateObj = AppState.initial();
   if (isAndroid || isiOS || isWeb) {
     try {

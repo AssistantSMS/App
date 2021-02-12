@@ -9,7 +9,6 @@ import '../../constants/AppImage.dart';
 import '../../constants/AppPadding.dart';
 import '../../contracts/enum/customisationSourceType.dart';
 import '../../contracts/gameItem/gameItemPageItem.dart';
-import '../../helpers/deviceHelper.dart';
 import '../../helpers/futureHelper.dart';
 import '../../helpers/genericHelper.dart';
 import '../../state/modules/base/appState.dart';
@@ -75,7 +74,7 @@ class DressBotDetailPage extends StatelessWidget {
 
     var gameItem = snapshot?.data?.value?.gameItem;
 
-    List<Widget> widgets = List<Widget>();
+    List<Widget> widgets = List.empty(growable: true);
 
     if (gameItem.icon != null) {
       widgets.add(genericItemImage(
@@ -87,8 +86,8 @@ class DressBotDetailPage extends StatelessWidget {
     widgets.add(emptySpace1x());
     widgets.add(genericItemName(gameItem.title));
 
-    var isOwned =
-        ((viewModel?.owned ?? List<String>()).any((own) => own == gameItem.id));
+    var isOwned = ((viewModel?.owned ?? List.empty(growable: true))
+        .any((own) => own == gameItem.id));
     widgets.add(emptySpace1x());
     widgets.add(genericItemDescription(
       getTranslations().fromKey(isOwned ? LocaleKey.owned : LocaleKey.notOwned),

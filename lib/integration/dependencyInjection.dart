@@ -5,9 +5,7 @@ import '../env/environmentSettings.dart';
 import '../helpers/repositoryHelper.dart';
 import '../repository/LocalStorageRepository.dart';
 import '../repository/api/ContributorApiRepository.dart';
-import '../repository/api/SteamApiRepository.dart';
 import '../repository/api/interface/IContributorApiRepository.dart';
-import '../repository/api/interface/ISteamApiRepository.dart';
 import '../repository/interface/ILocalStorageRepository.dart';
 import '../services/LocalStorageService.dart';
 import '../services/base/analyticsService.dart';
@@ -54,7 +52,6 @@ void initDependencyInjection(EnvironmentSettings _env) {
 
   //Repository
   getIt.registerSingleton<ILocalStorageRepository>(LocalStorageRepository());
-  getIt.registerSingleton<ISteamApiRepository>(SteamApiRepository());
   getIt.registerSingleton<IContributorApiRepository>(
     ContributorApiRepository(),
   );
@@ -73,7 +70,6 @@ IGameItemJsonService getGameItemRepo(LocaleKey key) =>
 
 //Repository
 ILocalStorageRepository getStorageRepo() => getIt<ILocalStorageRepository>();
-ISteamApiRepository getSteamApiRepo() => getIt<ISteamApiRepository>();
 IContributorApiRepository getContributorApiRepo() =>
     getIt<IContributorApiRepository>();
 

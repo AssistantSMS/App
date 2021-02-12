@@ -4,7 +4,7 @@ import '../contracts/gameItem/gameItemLang.dart';
 
 List<GameItem> mapGameItemItems(
     context, List<GameItemBase> baseItems, List<GameItemLang> details) {
-  List<GameItem> result = List<GameItem>();
+  List<GameItem> result = List.empty(growable: true);
 
   for (var baseIndex = 0; baseIndex < baseItems.length; baseIndex++) {
     var base = baseItems[baseIndex];

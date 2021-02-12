@@ -5,12 +5,10 @@ import 'package:package_info/package_info.dart';
 import '../constants/AppImage.dart';
 import '../constants/SMSExternalUrls.dart';
 import '../constants/Routes.dart';
-import 'deviceHelper.dart';
-import 'genericHelper.dart';
 
 Future<List<Widget>> getDrawerItems(context,
     Future<ResultWithValue<PackageInfo>> currentAppVersionFuture) async {
-  List<Widget> widgets = List<Widget>();
+  List<Widget> widgets = List.empty(growable: true);
   Color drawerIconColour = getTheme().getDarkModeSecondaryColour();
   widgets.add(emptySpace1x());
   widgets.add(_drawerItem(
@@ -29,14 +27,14 @@ Future<List<Widget>> getDrawerItems(context,
   ));
   widgets.add(_drawerItem(
     context,
-    image: getListTileImage(context, AppImage.patreon),
+    image: getListTileImage(AppImage.patreon),
     key: LocaleKey.patrons,
     navigateToNamed: Routes.patronList,
   ));
   if (!isiOS) {
     widgets.add(_drawerItem(
       context,
-      image: getListTileImage(context, AppImage.buyMeACoffee),
+      image: getListTileImage(AppImage.buyMeACoffee),
       key: LocaleKey.donation,
       navigateToNamed: Routes.donation,
     ));
@@ -46,13 +44,13 @@ Future<List<Widget>> getDrawerItems(context,
 
   widgets.add(_drawerItem(
     context,
-    image: getListTileImage(context, AppImage.twitter),
+    image: getListTileImage(AppImage.twitter),
     key: LocaleKey.twitter,
     navigateToExternal: SMSExternalUrls.twitter,
   ));
   widgets.add(_drawerItem(
     context,
-    image: getListTileImage(context, AppImage.github),
+    image: getListTileImage(AppImage.github),
     key: LocaleKey.contribute,
     navigateToExternal: SMSExternalUrls.githubOrganization,
   ));
@@ -83,7 +81,7 @@ Future<List<Widget>> getDrawerItems(context,
   // ));
   // widgets.add(_drawerItem(
   //   context,
-  //   image: getListTileImage(context, 'drawer/twitter.png'),
+  //   image: getListTileImage('drawer/twitter.png'),
   //   key: LocaleKey.social,
   //   navigateToNamed: Routes.socialLinks,
   // ));
@@ -116,7 +114,7 @@ Future<List<Widget>> getDrawerItems(context,
 
   widgets.add(_drawerItem(
     context,
-    image: getListTileImage(context, AppImage.assistantApps),
+    image: getListTileImage(AppImage.assistantApps),
     key: LocaleKey.assistantApps,
     onTap: () {
       adaptiveBottomModalSheet(

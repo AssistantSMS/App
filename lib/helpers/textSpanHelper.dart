@@ -7,7 +7,7 @@ Widget getTextSpanFromTemplateAndArray(
   List<String> templateArray = template.split(new RegExp(r"\{.\}"));
   Color secondaryColour = getTheme().getSecondaryColour(context);
 
-  List<TextSpan> textSpans = List<TextSpan>();
+  List<TextSpan> textSpans = List.empty(growable: true);
   for (int templateVariableIndex = 0;
       templateVariableIndex < templateArray.length;
       templateVariableIndex++) {

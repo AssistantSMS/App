@@ -88,7 +88,7 @@ Widget raidAddPlantTilePresenter(
     void Function(String itemId, int quantity) onEdit) {
   var currentPlants = RaidHelper.getPlantsWithQuantity(currentDetails);
 
-  List<RecipeIngredient> inputs = List<RecipeIngredient>();
+  List<RecipeIngredient> inputs = List.empty(growable: true);
   for (var plantId in RaidHelper.plants) {
     if (currentPlants.contains(plantId)) continue;
     inputs.add(RecipeIngredient(id: plantId, quantity: 0));
@@ -131,7 +131,7 @@ Widget _raidAddPlantTileContent(
     BuildContext context,
     List<RecipeIngredientDetails> platsWithDetails,
     void Function(String itemId, int quantity) onEdit) {
-  List<DropdownOption> options = List<DropdownOption>();
+  List<DropdownOption> options = List.empty(growable: true);
   for (var plantDetails in platsWithDetails) {
     options.add(DropdownOption(plantDetails.title, value: plantDetails.id));
   }
@@ -217,7 +217,7 @@ Widget raidDetailGridTilePresenter(
 
 Widget raidAttackerTilePresenter(
     BuildContext context, RaidSpawn spawn, bool isMobileView) {
-  List<Widget> rowWidgets = List<Widget>();
+  List<Widget> rowWidgets = List.empty(growable: true);
   if (spawn.totebot > 0) {
     rowWidgets.add(
       Row(children: [

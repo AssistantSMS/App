@@ -46,7 +46,7 @@ class CartPage extends StatelessWidget {
 
   Future<List<RecipeIngredientDetails>> cartItemsFuture(
       context, CartViewModel viewModel) async {
-    List<RecipeIngredientDetails> reqItems = List<RecipeIngredientDetails>();
+    List<RecipeIngredientDetails> reqItems = List.empty(growable: true);
     for (CartItemState cartItem in viewModel.craftingItems) {
       var genRepo = getGameItemRepoFromId(context, cartItem.itemId);
       if (genRepo.hasFailed) continue;
@@ -69,8 +69,8 @@ class CartPage extends StatelessWidget {
     Widget errorWidget = asyncSnapshotHandler(context, snapshot);
     if (errorWidget != null) return errorWidget;
 
-    List<Widget> widgets = List<Widget>();
-    List<RecipeIngredient> requiredItems = List<RecipeIngredient>();
+    List<Widget> widgets = List.empty(growable: true);
+    List<RecipeIngredient> requiredItems = List.empty(growable: true);
     for (var ingDetailsIndex = 0;
         ingDetailsIndex < snapshot.data.length;
         ingDetailsIndex++) {

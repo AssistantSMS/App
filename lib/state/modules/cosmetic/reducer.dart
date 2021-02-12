@@ -30,5 +30,5 @@ CosmeticState _removeCraftingFromCart(
 
 CosmeticState _removeAllCraftingFromCart(
     CosmeticState state, RemoveAllCosmeticAction action) {
-  return state.copyWith(owned: List<String>());
+  return state.copyWith(owned: List.empty(growable: true));
 }

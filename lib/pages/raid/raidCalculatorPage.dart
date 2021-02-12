@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
 
 import '../../components/scaffoldTemplates/genericPageScaffold.dart';
-import '../../helpers/deviceHelper.dart';
 import '../../state/modules/base/appState.dart';
 import '../../state/modules/raid/raidViewModel.dart';
 import 'raidCalculatorPage.desktop.dart';
@@ -58,7 +57,7 @@ class _RaidCalcInnerWidget extends StatelessWidget {
 
   Widget getBody(
       BuildContext context, RaidViewModel viewModel, bool showMobileView) {
-    List<Widget> columnWidgets = List<Widget>();
+    List<Widget> columnWidgets = List.empty(growable: true);
 
     if (showMobileView) {
       columnWidgets.add(RaidCalcMobileInputScreen(viewModel));

@@ -12,7 +12,7 @@ class CartState {
 
   factory CartState.initial() {
     return CartState(
-      items: List<CartItemState>(),
+      items: List.empty(growable: true),
     );
   }
 

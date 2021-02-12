@@ -15,7 +15,7 @@ final cartReducer = combineReducers<CartState>([
 
 CartState _addCraftingToCart(CartState state, AddCraftingToCartAction action) {
   bool addedNewItem = false;
-  List<CartItemState> newItems = List<CartItemState>();
+  List<CartItemState> newItems = List.empty(growable: true);
   for (var craftingIndex = 0;
       craftingIndex < state.items.length;
       craftingIndex++) {
@@ -40,7 +40,7 @@ CartState _addCraftingToCart(CartState state, AddCraftingToCartAction action) {
 
 CartState _editCraftingItemInCart(
     CartState state, EditCraftingToCartAction action) {
-  List<CartItemState> newItems = List<CartItemState>();
+  List<CartItemState> newItems = List.empty(growable: true);
   for (var craftingIndex = 0;
       craftingIndex < state.items.length;
       craftingIndex++) {
@@ -67,5 +67,5 @@ CartState _removeCraftingFromCart(
 
 CartState _removeAllCraftingFromCart(
     CartState state, RemoveAllCraftingFromCartAction action) {
-  return state.copyWith(items: List<CartItemState>());
+  return state.copyWith(items: List.empty(growable: true));
 }

@@ -14,7 +14,6 @@ import '../../constants/Routes.dart';
 import '../../contracts/recipe/recipePageItem.dart';
 import '../../contracts/recipeIngredient/recipeIngredient.dart';
 import '../../contracts/recipeIngredient/recipeIngredientDetail.dart';
-import '../../helpers/deviceHelper.dart';
 import '../../helpers/futureHelper.dart';
 import '../../helpers/genericHelper.dart';
 import '../../state/modules/base/appState.dart';
@@ -84,9 +83,9 @@ class RecipeDetailPage extends StatelessWidget {
     var recipeItem = snapshot?.data?.value?.recipe;
     var isTrade = recipeItem.id.contains(IdPrefix.recipeHideOut);
 
-    List<Widget> widgets = List<Widget>();
+    List<Widget> widgets = List.empty(growable: true);
 
-    List<Widget> stackWidgets = List<Widget>();
+    List<Widget> stackWidgets = List.empty(growable: true);
     stackWidgets.add(genericItemImage(
       context,
       '${AppImage.base}${recipeItem.icon}',

@@ -93,7 +93,7 @@ class _GenericAllRequiredWidget extends State<GenericAllRequiredPage> {
     Widget errorWidget = asyncSnapshotHandler(context, snapshot);
     if (errorWidget != null) return errorWidget;
 
-    List<Widget> widgets = List<Widget>();
+    List<Widget> widgets = List.empty(growable: true);
     widgets.add(segmentedWidget);
     if (snapshot.data.length > 0) {
       for (var ingDetailIndex = 0;
@@ -134,7 +134,7 @@ Widget getTreeBody(
   Widget errorWidget = asyncSnapshotHandler(context, snapshot);
   if (errorWidget != null) return errorWidget;
 
-  List<Widget> widgets = List<Widget>();
+  List<Widget> widgets = List.empty(growable: true);
   widgets.add(segmentedWidget);
 
   if (snapshot.data.length > 0) {

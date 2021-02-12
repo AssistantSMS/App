@@ -3,8 +3,6 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 import '../constants/AnalyticsEvent.dart';
-import '../helpers/deviceHelper.dart';
-import '../helpers/genericHelper.dart';
 
 class DonationPage extends StatelessWidget {
   DonationPage() {
@@ -13,7 +11,7 @@ class DonationPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    List<Widget> items = List<Widget>();
+    List<Widget> items = List.empty(growable: true);
     items.add(Container(
       key: Key('donationDescrip'),
       child: Text(
@@ -25,11 +23,11 @@ class DonationPage extends StatelessWidget {
     ));
     items.add(customDivider());
 
-    List<Widget> paymentOptions = List<Widget>();
+    List<Widget> paymentOptions = List.empty(growable: true);
 
     paymentOptions.add(ListTile(
       key: Key('buyMeACoffee'),
-      leading: getListTileImage(context, 'donation/buyMeACoffee.png'),
+      leading: getListTileImage('donation/buyMeACoffee.png'),
       title: Text(getTranslations().fromKey(LocaleKey.buyMeACoffee),
           style: TextStyle(fontSize: 20)),
       onTap: () {
@@ -39,7 +37,7 @@ class DonationPage extends StatelessWidget {
     ));
     paymentOptions.add(ListTile(
       key: Key('patreon'),
-      leading: getListTileImage(context, 'donation/patreon.png'),
+      leading: getListTileImage('donation/patreon.png'),
       title: Text(getTranslations().fromKey(LocaleKey.patreon),
           style: TextStyle(fontSize: 20)),
       onTap: () {
@@ -49,7 +47,7 @@ class DonationPage extends StatelessWidget {
     ));
     paymentOptions.add(ListTile(
       key: Key('payPal'),
-      leading: getListTileImage(context, 'donation/payPal.png'),
+      leading: getListTileImage('donation/payPal.png'),
       title: Text(getTranslations().fromKey(LocaleKey.paypal),
           style: TextStyle(fontSize: 20)),
       onTap: () {
@@ -59,7 +57,7 @@ class DonationPage extends StatelessWidget {
     ));
     paymentOptions.add(ListTile(
       key: Key('openCollective'),
-      leading: getListTileImage(context, 'donation/openCollective.png'),
+      leading: getListTileImage('donation/openCollective.png'),
       title: Text(getTranslations().fromKey(LocaleKey.openCollective),
           style: TextStyle(fontSize: 20)),
       onTap: () {

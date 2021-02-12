@@ -13,7 +13,7 @@ class RaidCalculatorResultComponent extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    List<Widget> widgets = List<Widget>();
+    List<Widget> widgets = List.empty(growable: true);
 
     var cropValue = RaidHelper.getCropValue(details);
     var highCount = RaidHelper.getHighCount(details);

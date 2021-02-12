@@ -2,7 +2,6 @@ import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import '../../helpers/deviceHelper.dart';
 import 'appBar.dart';
 import 'shortcutActionButton.dart';
 
@@ -31,7 +30,7 @@ class AppBarForSubPage extends StatelessWidget
 
   Widget _appBarForAndroid(context, Widget title, List<ActionItem> actions,
       List<ActionItem> shortcutActions) {
-    List<Widget> actionWidgets = List<Widget>();
+    List<Widget> actionWidgets = List.empty(growable: true);
     if (shortcutActions != null && shortcutActions.length > 0) {
       actionWidgets.add(shortcutActionButton(context, shortcutActions));
     }
@@ -59,7 +58,7 @@ Widget adaptiveAppBarForSubPageHelper(
   bool showBackAction = true,
 }) {
   if (actions == null || actions.length == 0) {
-    actions = List<ActionItem>();
+    actions = List.empty(growable: true);
   }
   if (showHomeAction ?? false) {
     actions.add(ActionItem(

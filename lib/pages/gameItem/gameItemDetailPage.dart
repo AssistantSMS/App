@@ -81,7 +81,7 @@ class GameItemDetailPage extends StatelessWidget {
 
     var gameItem = snapshot?.data?.value?.gameItem;
 
-    List<Widget> widgets = List<Widget>();
+    List<Widget> widgets = List.empty(growable: true);
 
     if (gameItem.icon != null) {
       widgets.add(genericItemImage(
@@ -95,7 +95,7 @@ class GameItemDetailPage extends StatelessWidget {
 
     widgets.add(emptySpace1x());
 
-    List<Widget> rowWidgets = List<Widget>();
+    List<Widget> rowWidgets = List.empty(growable: true);
 
     if (gameItem.rating != null) {
       ResultWithValue<Widget> tableResult =

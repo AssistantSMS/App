@@ -5,7 +5,6 @@ import '../components/bottomNavbar.dart';
 import '../constants/AnalyticsEvent.dart';
 import '../constants/AppPadding.dart';
 import '../constants/Routes.dart';
-import '../helpers/deviceHelper.dart';
 
 class AboutPage extends StatelessWidget {
   AboutPage() {
@@ -27,7 +26,7 @@ class AboutPage extends StatelessWidget {
   }
 
   Widget getBody(BuildContext context) {
-    List<Widget> widgets = List<Widget>();
+    List<Widget> widgets = List.empty(growable: true);
 
     widgets.add(emptySpace2x());
 

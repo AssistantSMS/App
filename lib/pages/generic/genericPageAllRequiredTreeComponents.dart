@@ -6,7 +6,7 @@ import '../../contracts/recipeIngredient/recipeIngredientTreeDetails.dart';
 import '../../helpers/sortHelper.dart';
 
 TreeView getTree(context, List<RecipeIngredientTreeDetails> node) {
-  List<TreeNode> parents = List<TreeNode>();
+  List<TreeNode> parents = List.empty(growable: true);
   // TreeController controller = TreeController(allNodesExpanded: false);
   for (RecipeIngredientTreeDetails child in node) {
     parents.add(TreeNode(
@@ -25,7 +25,7 @@ TreeView getTree(context, List<RecipeIngredientTreeDetails> node) {
 }
 
 TreeNode mapChildren(BuildContext context, RecipeIngredientTreeDetails node) {
-  List<TreeNode> children = List<TreeNode>();
+  List<TreeNode> children = List.empty(growable: true);
 
   for (RecipeIngredientTreeDetails child in node.children) {
     var childList = child.children;

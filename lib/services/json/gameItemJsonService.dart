@@ -31,7 +31,7 @@ class GameItemJsonService extends BaseJsonService
       print(
           "GameItemJsonService($baseJson, $detailJson) Exception: ${exception.toString()}");
       return ResultWithValue<List<GameItem>>(
-          false, List<GameItem>(), exception.toString());
+          false, List.empty(growable: true), exception.toString());
     }
   }
 

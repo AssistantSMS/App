@@ -16,7 +16,7 @@ class LootItemJsonService extends BaseJsonService {
     } catch (exception) {
       getLog().e("LootItemJsonService() Exception: ${exception.toString()}");
       return ResultWithValue<List<Loot>>(
-          false, List<Loot>(), exception.toString());
+          false, List.empty(growable: true), exception.toString());
     }
   }
 

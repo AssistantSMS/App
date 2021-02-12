@@ -163,7 +163,7 @@ class RaidHelper {
   }
 
   static List<RaidSpawn> getRaidSpawns(double cropValue, int highCount) {
-    List<RaidSpawn> spawns = List<RaidSpawn>();
+    List<RaidSpawn> spawns = List.empty(growable: true);
     for (var raidAttack in raidAttackDetails) {
       if (cropValue >= raidAttack.minValue &&
           highCount >= raidAttack.minHighCount) {
@@ -175,7 +175,7 @@ class RaidHelper {
   }
 
   static List<String> getPlantsWithQuantity(RaidViewModel details) {
-    List<String> plantIds = List<String>();
+    List<String> plantIds = List.empty(growable: true);
 
     if (details.carrot > 0) plantIds.add(carrotId);
     if (details.tomato > 0) plantIds.add(tomatoId);

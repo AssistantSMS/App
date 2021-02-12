@@ -1,7 +1,9 @@
-import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart'
+    hide BackupJsonService;
 import 'package:fluro/fluro.dart';
 import 'package:flutter/material.dart' hide Router;
 import 'package:flutter_redux/flutter_redux.dart';
+import 'package:scrapmechanic_kurtlourens_com/services/json/backupJsonService.dart';
 
 import '../components/bottomNavbar.dart';
 import '../constants/AnalyticsEvent.dart';
@@ -13,7 +15,6 @@ import '../pages/dressbot/dressbotDetailPage.dart';
 import '../pages/dressbot/dressbotPage.dart';
 import '../pages/gameItem/gameItemDetailPage.dart';
 import '../pages/home.dart';
-import '../pages/news/steamNewsPage.dart';
 import '../pages/notFound.dart';
 import '../pages/other/contributorListPage.dart';
 import '../pages/other/otherRecipes.dart';
@@ -60,7 +61,15 @@ class CustomRouter {
     );
     router.define(
       Routes.steamNews,
-      handler: _basicHandlerFunc(() => SteamNewsPage()),
+      handler: _basicHandlerFunc(
+        () => SteamNewsPage(
+          AnalyticsEvent.steamNewsPage,
+          AssistantAppType.SMS,
+          bottomNavigationBar: BottomNavbar(noRouteSelected: true),
+          backupFunc: (backupFuncContext) =>
+              BackupJsonService().getSteamNews(backupFuncContext),
+        ),
+      ),
       transitionType: transition,
     );
     router.define(

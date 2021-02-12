@@ -65,7 +65,7 @@ class DialogService implements IDialogService {
 
   void showOptionsDialog(context, String title, List<DropdownOption> options,
       {String selectedValue = '', Function(String value) onSuccess}) {
-    List<DialogButton> buttons = List<DialogButton>();
+    List<DialogButton> buttons = List.empty(growable: true);
     buttons.add(DialogButton(
       child: Text(
         getTranslations().fromKey(LocaleKey.close),
@@ -109,7 +109,7 @@ class DialogService implements IDialogService {
         ..selection = TextSelection.collapsed(offset: 0);
     }
 
-    List<DialogButton> buttons = List<DialogButton>();
+    List<DialogButton> buttons = List.empty(growable: true);
     buttons.add(DialogButton(
       child: Text(
         getTranslations().fromKey(LocaleKey.close),
@@ -133,7 +133,7 @@ class DialogService implements IDialogService {
     ));
 
     List<int> amounts = [1, 2, 3, 5, 10, 25];
-    List<InputChip> inputs = List<InputChip>();
+    List<InputChip> inputs = List.empty(growable: true);
     for (var amount in amounts) {
       inputs.add(
         InputChip(
@@ -181,7 +181,7 @@ class DialogService implements IDialogService {
 
   void showStarDialog(context, String title,
       {int currentRating = 0, Function(int) onSuccess}) {
-    List<DialogButton> buttons = List<DialogButton>();
+    List<DialogButton> buttons = List.empty(growable: true);
     buttons.add(DialogButton(
       child: Text(
         getTranslations().fromKey(LocaleKey.close),

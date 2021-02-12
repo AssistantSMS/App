@@ -18,7 +18,6 @@ import '../../contracts/generated/LootChance.dart';
 import '../../contracts/recipe/recipe.dart';
 import '../../contracts/recipeIngredient/recipeIngredientDetail.dart';
 import '../../contracts/usedInRecipe/usedInRecipe.dart';
-import '../../helpers/deviceHelper.dart';
 import '../../helpers/textSpanHelper.dart';
 import '../../state/modules/cart/cartItemState.dart';
 import '../../state/modules/gameItem/gameItemViewModel.dart';
@@ -28,7 +27,7 @@ import '../tilePresenters/recipeTilePresenter.dart';
 
 ResultWithValue<Widget> getRatingTableRows(
     BuildContext context, GameItem gameItem) {
-  List<TableRow> rows = List<TableRow>();
+  List<TableRow> rows = List.empty(growable: true);
   if (gameItem.rating == null) {
     return ResultWithValue<Table>(false, null, 'rating is null');
   }
@@ -324,7 +323,7 @@ Widget itemDetailCylinderWidget(BuildContext context, Cylinder cylinder) {
 
 Widget itemDetailLootChancesWidget(List<LootChance> lootChances) {
   const double chestIconSize = 40;
-  List<Widget> rows = List<Widget>();
+  List<Widget> rows = List.empty(growable: true);
   for (var lootChance in lootChances) {
     var imagePath = lootChance.type == 0 ? AppImage.chest : AppImage.chestGold;
     var quantityString = "${lootChance.min} to ${lootChance.max}";
@@ -352,7 +351,7 @@ Widget itemDetailLootChancesWidget(List<LootChance> lootChances) {
 }
 
 Widget itemDetailFeaturesWidget(BuildContext context, List<Feature> features) {
-  List<TableRow> rows = List<TableRow>();
+  List<TableRow> rows = List.empty(growable: true);
   for (Feature feature in features) {
     LocaleKey locale =
         EnumToString.fromString(localesFromString, feature.localeKey);
@@ -375,7 +374,7 @@ List<Widget> itemCraftingRecipesWidget(
     List<CraftedUsing> craftingRecipes,
     String title,
     Future Function(String) navigateToGameItem) {
-  List<Widget> widgets = List<Widget>();
+  List<Widget> widgets = List.empty(growable: true);
   for (CraftedUsing craftingRecipe in craftingRecipes) {
     var stationName = getTranslations().fromKey(craftingRecipe.name);
     widgets.add(emptySpace1x());
@@ -412,7 +411,7 @@ List<Widget> itemUsedInRecipesWidget(
     List<UsedInRecipe> usedInRecipes,
     bool isInDetailPane,
     Future Function(String) navigateToRecipeItem) {
-  List<Widget> widgets = List<Widget>();
+  List<Widget> widgets = List.empty(growable: true);
   for (UsedInRecipe usedInRecipe in usedInRecipes) {
     widgets.add(emptySpace1x());
     widgets.add(customDivider());
@@ -445,7 +444,7 @@ List<Widget> inCartWidget(
   List<CartItemState> cartItems,
   GameItemViewModel viewModel,
 ) {
-  List<Widget> widgets = List<Widget>();
+  List<Widget> widgets = List.empty(growable: true);
   if (cartItems == null || cartItems.length < 1) return widgets;
 
   widgets.add(emptySpace3x());

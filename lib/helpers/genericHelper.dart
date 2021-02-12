@@ -1,8 +1,6 @@
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 
-import '../constants/AppImage.dart';
-
 final int maxNumberOfRowsForRecipeCategory = 3;
 
 Widget genericItemImage(BuildContext context, String imagePath,
@@ -105,7 +103,7 @@ List<Widget> genericItemWithOverflowButton<T>(context, List<T> itemArray,
   int numRecords = itemArray.length > maxNumberOfRowsForRecipeCategory
       ? maxNumberOfRowsForRecipeCategory
       : itemArray.length;
-  List<Widget> widgets = List<Widget>();
+  List<Widget> widgets = List.empty(growable: true);
   for (var itemIndex = 0; itemIndex < numRecords; itemIndex++) {
     widgets.add(Card(
       child: presenter(context, itemArray[itemIndex]),
@@ -132,14 +130,6 @@ Widget viewMoreButton(context, int numLeftOver, viewMoreOnPress) {
     ),
   );
 }
-
-Widget getListTileImage(context, String partialPath) => ConstrainedBox(
-      constraints: BoxConstraints(
-        maxWidth: 35,
-        maxHeight: 35,
-      ),
-      child: localImage('${AppImage.base}$partialPath'),
-    );
 
 Widget genericChip(context, String title, {Color color, Function onTap}) =>
     genericChipWidget(context, Text(title), color: color, onTap: onTap);

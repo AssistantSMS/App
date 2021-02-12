@@ -3,7 +3,6 @@ import 'dart:convert';
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:scrapmechanic_kurtlourens_com/constants/JsonFile.dart';
 
-import '../../contracts/generated/SteamNewsItem.dart';
 import '../../contracts/generated/contributorViewModel.dart';
 import '../BaseJsonService.dart';
 
@@ -22,24 +21,26 @@ class BackupJsonService extends BaseJsonService {
       getLog()
           .e("BackupJsonService getContributors() Ex: ${exception.toString()}");
       return ResultWithValue<List<ContributorViewModel>>(
-          false, List<ContributorViewModel>(), exception.toString());
+          false, List.empty(growable: true), exception.toString());
     }
   }
 
-  Future<ResultWithValue<List<SteamNewsItem>>> getSteamNews(context) async {
+  Future<ResultWithValue<List<SteamNewsItemViewModel>>> getSteamNews(
+      context) async {
     try {
       dynamic jsonString =
           await this.getJsonFromAssets(context, JsonFile.steamNewsBackup);
       List responseJson = json.decode(jsonString);
-      List<SteamNewsItem> backupItems =
-          responseJson.map((m) => SteamNewsItem.fromJson(m)).toList();
+      List<SteamNewsItemViewModel> backupItems =
+          responseJson.map((m) => SteamNewsItemViewModel.fromJson(m)).toList();
 
-      return ResultWithValue<List<SteamNewsItem>>(true, backupItems, '');
+      return ResultWithValue<List<SteamNewsItemViewModel>>(
+          true, backupItems, '');
     } catch (exception) {
       getLog().e(
           "BackupJsonService getSteamNews() Exception: ${exception.toString()}");
-      return ResultWithValue<List<SteamNewsItem>>(
-          false, List<SteamNewsItem>(), exception.toString());
+      return ResultWithValue<List<SteamNewsItemViewModel>>(
+          false, List.empty(growable: true), exception.toString());
     }
   }
 
@@ -68,7 +69,7 @@ class BackupJsonService extends BaseJsonService {
       getLog().e(
           "BackupJsonService getVersions() Exception: ${exception.toString()}");
       return PaginationResultWithValue<List<VersionViewModel>>(
-          false, List<VersionViewModel>(), 1, 1, exception.toString());
+          false, List.empty(growable: true), 1, 1, exception.toString());
     }
   }
 }

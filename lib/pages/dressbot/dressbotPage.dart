@@ -44,7 +44,7 @@ class _DressBotWidget extends State<DressBotPage> {
     if (baseItems.hasFailed) return baseItems;
 
     if (selection == null) {
-      List<GameItem> filtered = List<GameItem>();
+      List<GameItem> filtered = List.empty(growable: true);
       for (var baseItem in baseItems.value) {
         var isOwned = owned.any((o) => o == baseItem.id);
         if (isOwned && showOwned == false) {
@@ -58,7 +58,7 @@ class _DressBotWidget extends State<DressBotPage> {
       return ResultWithValue<List<GameItem>>(true, filtered, '');
     }
 
-    List<GameItem> filtered = List<GameItem>();
+    List<GameItem> filtered = List.empty(growable: true);
     for (var baseItem in baseItems.value) {
       var isOwned = owned.any((o) => o == baseItem.id);
       if (isOwned && showOwned == false) {
@@ -131,7 +131,7 @@ class _DressBotWidget extends State<DressBotPage> {
     String showOwnedKey = getTranslations().fromKey(LocaleKey.showOwned);
     String showNotOwnedKey = getTranslations().fromKey(LocaleKey.showNotOwned);
 
-    List<CheckboxOption> allItemList = List<CheckboxOption>();
+    List<CheckboxOption> allItemList = List.empty(growable: true);
     allItemList.add(getOption(hatKey));
     allItemList.add(getOption(hairKey));
     allItemList.add(getOption(faceKey));
@@ -141,12 +141,12 @@ class _DressBotWidget extends State<DressBotPage> {
     allItemList.add(getOption(legsKey));
     allItemList.add(getOption(shoesKey));
 
-    List<String> ownedOptionList = List<String>();
+    List<String> ownedOptionList = List.empty(growable: true);
     ownedOptionList.add(showOwnedKey);
     ownedOptionList.add(showNotOwnedKey);
 
     List<CheckboxOption> select =
-        this.currentSelection ?? List<CheckboxOption>();
+        this.currentSelection ?? List.empty(growable: true);
     bool showHat = select
         .firstWhere((s) => s.title == hatKey,
             orElse: () => CheckboxOption(hatKey))

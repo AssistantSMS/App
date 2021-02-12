@@ -12,7 +12,7 @@ Widget genericPageScaffold<T>(
   List<ActionItem> shortcutActions,
   Widget floatingActionButton,
 }) {
-  List<ActionItem> actions = List<ActionItem>();
+  List<ActionItem> actions = List.empty(growable: true);
   actions.add(ActionItem(
     icon: Icons.home,
     onPressed: () async => await getNavigation().navigateHomeAsync(context),

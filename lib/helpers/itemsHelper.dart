@@ -108,8 +108,7 @@ Future<ResultWithValue<RecipeIngredientDetails>> recipeIngredientDetails(
 
 Future<List<RecipeIngredientDetails>> getRequiredItemDetailsSurfaceLevel(
     context, RecipeIngredient recipeIngredient) async {
-  List<RecipeIngredientDetails> tempRequiredItems =
-      List<RecipeIngredientDetails>();
+  List<RecipeIngredientDetails> tempRequiredItems = List.empty(growable: true);
 
   var ingredients = await getRequiredItemsSurfaceLevel(
     context,
@@ -142,8 +141,7 @@ Future<List<RecipeIngredientDetails>> getRequiredItemDetailsSurfaceLevel(
 
 Future<List<RecipeIngredientTreeDetails>> getAllRecipeIngredientDetailsForTree(
     context, RecipeIngredient ingredient) async {
-  List<RecipeIngredientTreeDetails> rawMaterials =
-      List<RecipeIngredientTreeDetails>();
+  List<RecipeIngredientTreeDetails> rawMaterials = List.empty(growable: true);
 
   List<RecipeIngredientDetails> requiredItemDetails =
       await getRequiredItemDetailsSurfaceLevel(context, ingredient);
@@ -164,8 +162,7 @@ Future<List<RecipeIngredientTreeDetails>> getAllRecipeIngredientDetailsForTree(
 
 Future<List<RecipeIngredientTreeDetails>> getAllRequiredItemsForTree(
     context, List<RecipeIngredient> requiredItems) async {
-  List<RecipeIngredientTreeDetails> rawMaterials =
-      List<RecipeIngredientTreeDetails>();
+  List<RecipeIngredientTreeDetails> rawMaterials = List.empty(growable: true);
   for (var reqItem in requiredItems) {
     ResultWithValue<RecipeIngredientDetails> itemDetail =
         await getRecipeIngredientDetailsFuture(context, reqItem);

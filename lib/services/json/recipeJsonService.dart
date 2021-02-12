@@ -30,7 +30,7 @@ class RecipeJsonService extends BaseJsonService implements IRecipeJsonService {
       getLog().e(
           "RecipeJsonRepo($baseJson, $detailJson) Exception: ${exception.toString()}");
       return ResultWithValue<List<Recipe>>(
-          false, List<Recipe>(), exception.toString());
+          false, List.empty(growable: true), exception.toString());
     }
   }
 
@@ -57,7 +57,7 @@ class RecipeJsonService extends BaseJsonService implements IRecipeJsonService {
     ResultWithValue<List<Recipe>> allRecipesResult = await this.getAll(context);
     if (allRecipesResult.hasFailed) {
       return ResultWithValue(
-          false, List<Recipe>(), allRecipesResult.errorMessage);
+          false, List.empty(growable: true), allRecipesResult.errorMessage);
     }
     try {
       var recipeInputs = allRecipesResult.value
@@ -68,7 +68,7 @@ class RecipeJsonService extends BaseJsonService implements IRecipeJsonService {
       getLog()
           .e("RecipeJsonRepo($baseJson) Exception: ${exception.toString()}");
       return ResultWithValue<List<Recipe>>(
-          false, List<Recipe>(), exception.toString());
+          false, List.empty(growable: true), exception.toString());
     }
   }
 
@@ -78,7 +78,7 @@ class RecipeJsonService extends BaseJsonService implements IRecipeJsonService {
     ResultWithValue<List<Recipe>> allRecipesResult = await this.getAll(context);
     if (allRecipesResult.hasFailed) {
       return ResultWithValue(
-          false, List<Recipe>(), allRecipesResult.errorMessage);
+          false, List.empty(growable: true), allRecipesResult.errorMessage);
     }
     try {
       var recipeInputs = allRecipesResult.value
@@ -91,7 +91,7 @@ class RecipeJsonService extends BaseJsonService implements IRecipeJsonService {
       getLog()
           .e("RecipeJsonRepo($baseJson) Exception: ${exception.toString()}");
       return ResultWithValue<List<Recipe>>(
-          false, List<Recipe>(), exception.toString());
+          false, List.empty(growable: true), exception.toString());
     }
   }
 }

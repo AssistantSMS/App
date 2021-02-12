@@ -160,13 +160,13 @@ class DressBotListDetailPage extends StatelessWidget {
   Key _getKeyFromSelection(BuildContext context, List<CheckboxOption> list,
       List<String> owned, List<String> ownedSelection) {
     String temp = '';
-    for (var item in list ?? List<CheckboxOption>()) {
+    for (var item in list ?? List.empty(growable: true)) {
       temp += item.title + (item.value ? '1' : '0');
     }
-    for (var item in owned ?? List<String>()) {
+    for (var item in owned ?? List.empty(growable: true)) {
       temp += item;
     }
-    for (var item in ownedSelection ?? List<String>()) {
+    for (var item in ownedSelection ?? List.empty(growable: true)) {
       temp += item;
     }
     return Key("${getTranslations().currentLanguage}$temp");

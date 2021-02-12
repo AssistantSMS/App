@@ -13,7 +13,7 @@ class ContributorApiRepository extends BaseGithubApiRepository
       final response = await this.getFile('contributors.json');
       if (response.hasFailed) {
         return ResultWithValue<List<ContributorViewModel>>(
-            false, List<ContributorViewModel>(), response.errorMessage);
+            false, List.empty(growable: true), response.errorMessage);
       }
       final List newsList = json.decode(response.value);
       var contributors =
@@ -22,7 +22,7 @@ class ContributorApiRepository extends BaseGithubApiRepository
     } catch (exception) {
       getLog().e("getContributors Api Exception: ${exception.toString()}");
       return ResultWithValue<List<ContributorViewModel>>(
-          false, List<ContributorViewModel>(), exception.toString());
+          false, List.empty(growable: true), exception.toString());
     }
   }
 }

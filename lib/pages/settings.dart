@@ -42,7 +42,7 @@ class SettingsPage extends StatelessWidget {
   }
 
   Widget getBody(BuildContext context, SettingViewModel viewModel) {
-    List<Widget> widgets = List<Widget>();
+    List<Widget> widgets = List.empty(growable: true);
 
     widgets.add(headingSettingTilePresenter(
         getTranslations().fromKey(LocaleKey.general)));

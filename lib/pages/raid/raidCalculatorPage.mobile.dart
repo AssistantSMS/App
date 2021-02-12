@@ -19,7 +19,7 @@ class RaidCalcMobileInputScreen extends StatelessWidget {
     var currentPlants = RaidHelper.getPlantsWithQuantity(currentDetails);
     bool hasAllPlants = currentPlants.length >= RaidHelper.plants.length;
 
-    List<Widget> columnWidgets = List<Widget>();
+    List<Widget> columnWidgets = List.empty(growable: true);
     var onGreenyPress = () => launchExternalURL(greenyDevTool);
     columnWidgets.add(ListTile(
       leading: Padding(

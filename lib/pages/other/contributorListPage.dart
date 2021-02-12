@@ -1,7 +1,6 @@
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart'
     hide BackupJsonService;
 import 'package:flutter/material.dart';
-import 'package:scrapmechanic_kurtlourens_com/helpers/columnHelper.dart';
 
 import '../../components/bottomNavbar.dart';
 import '../../components/tilePresenters/contributorTilePresenter.dart';
@@ -63,7 +62,7 @@ class _ContributorsWidget extends State<ContributorListPage> {
                     backupListGetter: () =>
                         BackupJsonService().getContributors(context),
                     minListForSearch: 20000,
-                    gridViewColumnCalculator: steamNewsCustomColumnCount,
+                    gridViewColumnCalculator: contributorsCustomColumnCount,
                   )
                 : DonatorsPageComponent(smallLoadMorePageButton(context)),
           ),

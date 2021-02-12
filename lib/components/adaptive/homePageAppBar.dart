@@ -3,7 +3,6 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import '../../constants/Routes.dart';
-import '../../helpers/deviceHelper.dart';
 import 'appBar.dart';
 
 class HomePageAppBar extends StatelessWidget
@@ -20,8 +19,8 @@ class HomePageAppBar extends StatelessWidget
 
   @override
   Widget build(BuildContext context) {
-    var title = Text(getTranslations().fromKey(LocaleKey.title));
-    var actions = List<ActionItem>();
+    Widget title = Text(getTranslations().fromKey(LocaleKey.title));
+    List<ActionItem> actions = List.empty(growable: true);
     actions.add(ActionItem(
       icon: Icons.settings,
       onPressed: () async => await getNavigation().navigateAsync(
@@ -34,7 +33,7 @@ class HomePageAppBar extends StatelessWidget
 
   Widget _androidAppBarActions(
       context, Widget title, List<ActionItem> actions) {
-    List<Widget> widgets = List<Widget>();
+    List<Widget> widgets = List.empty(growable: true);
     widgets.addAll(actionItemToAndroidAction(actions));
     return adaptiveAppBar(
       context,

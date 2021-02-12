@@ -4,7 +4,8 @@ import '../../../contracts/gameItem/gameItem.dart';
 
 class IGameItemJsonService {
   Future<ResultWithValue<List<GameItem>>> getAll(context) async {
-    return ResultWithValue<List<GameItem>>(false, List<GameItem>(), '');
+    return ResultWithValue<List<GameItem>>(
+        false, List.empty(growable: true), '');
   }
 
   Future<ResultWithValue<GameItem>> getById(context, String id) async {
@@ -13,6 +14,6 @@ class IGameItemJsonService {
 
   // Future<ResultWithValue<List<Recipe>>> getByInputsId(
   //     context, String id) async {
-  //   return ResultWithValue<List<Recipe>>(false, List<Recipe>(), '');
+  //   return ResultWithValue<List<Recipe>>(false, List.empty(growable: true), '');
   // }
 }

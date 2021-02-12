@@ -106,7 +106,7 @@ Widget responsiveStaggeredGridBaseTilePresenter(
   // var backgroundColor =HexColor("4B7287");
   // var backgroundColor = HexColor("21536C");
   var backgroundColor = getTheme().getSecondaryColour(context);
-  List<Widget> children = List<Widget>();
+  List<Widget> children = List.empty(growable: true);
   // children.add(Center(child: image));
   children.add(
     Padding(

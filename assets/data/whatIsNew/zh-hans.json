@@ -1,5 +1,17 @@
 [
   {
+    "guid": "1a3deb9e-450d-482c-87ea-67ff6aa5e834",
+    "appGuid": "dfe0dbc7-8df4-47fb-a5a5-49af1937c4e2",
+    "markdown": "- Fix cart calculations for recipes that output more than 1 item\n- Improved language system\n- Improved Patreon page\n- Improved network image loading animations",
+    "buildName": "1.4.1",
+    "buildNumber": 36,
+    "platforms": [
+      0,
+      1
+    ],
+    "activeDate": "2021-02-04T20:00:00"
+  },
+  {
     "guid": "3f951a3e-81c5-45f4-9361-e1d408df0da5",
     "appGuid": "dfe0dbc7-8df4-47fb-a5a5-49af1937c4e2",
     "markdown": "- Cart page tree view\n  - View the required items for each level\n- Improved Steam News page\n  - Improved stability\n  - Cleaned up information such as the descriptions\n  - Added number of comments\n- Add backup data when device is offline or network request fails\n  - Patrons, Downloads, WhatIsNew, etc\n- Fix language change happening immediately\n  - Fixed language not changing on selecting a new language",

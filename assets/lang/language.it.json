@@ -48,7 +48,7 @@
   "patreon": "Patreon",
   "paypal": "PayPal",
   "searchItems": "Cerca Oggetti",
-  "other": "Other",
+  "other": "Altro",
   "craftedUsing": "Costruito usando",
   "noItems": "Nessun Oggetto",
   "close": "Chiudi",
@@ -81,7 +81,7 @@
   "addTag": "Aggiungi Tag",
   "areYouSure": "Sei Sicuro?",
   "openCollective": "Mostra Collezionabili",
-  "privacyPolicy": "Privacy Policy",
+  "privacyPolicy": "Politica sulla Riservatezza",
   "termsAndConditions": "Termini e Condizioni",
   "legal": "Legale",
   "flatList": "Lista piatta",
@@ -114,12 +114,12 @@
   "shareContent": "I am using the Assistant for Scrap Mechanic",
   "appLanguage": "Language",
   "donationDescrip": "For now all features of the app are available to you, there are no PayWalls. However I do want to give extra features to those who do donate or contribute, but I do not have any benefits at this moment. If you like this App please give me a review in the Play/App Store and donate if you can",
-  "loadMore": "Load More",
   "feedback": "Give Feedback",
   "usedInXToCreate": "Used in {0} to create:",
   "createXUsingY": "Create {0} using the {1} with:",
   "timeToCraft": "Time to craft:",
   "contribute": "Contribute",
+  "steamNews": "Steam News",
   "addedToCart": "Added to Cart",
   "view": "View",
   "viewAllRequiredItems": "View All Required Items",
@@ -158,5 +158,5 @@
   "showOwned": "Show owned",
   "showNotOwned": "Show not owned",
   "foundIn": "Found in",
-  "hashCode": "31059503A11BD3E55BCD2FA675B49357"
+  "hashCode": "F7F3451BDB3AEC0635DE7E9F5EF6FBBA"
 }

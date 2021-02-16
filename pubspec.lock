@@ -32,10 +32,12 @@ packages:
   assistantapps_flutter_common:
     dependency: "direct main"
     description:
-      path: "D:\\Development\\Projects\\AssistantApps\\assistantapps_flutter_common"
-      relative: false
-    source: path
-    version: "0.0.12"
+      path: "."
+      ref: HEAD
+      resolved-ref: "0e6918e3a889560ba6a2724779ea554323670977"
+      url: "https://github.com/AssistantApps/Flutter.Common.git"
+    source: git
+    version: "0.0.15"
   async:
     dependency: transitive
     description:

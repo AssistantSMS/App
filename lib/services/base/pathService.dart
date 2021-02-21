@@ -4,6 +4,12 @@ import 'package:flutter/material.dart';
 import '../../constants/AppImage.dart';
 
 class PathService implements IPathService {
-  String imageAssetPathPrefix() => 'assets/img';
-  Widget steamNewsDefaultImage() => localImage(AppImage.steamNewsDefault);
+  @override
+  String get imageAssetPathPrefix => 'assets/img';
+
+  @override
+  Widget get steamNewsDefaultImage => localImage(AppImage.steamNewsDefault);
+
+  @override
+  String get defaultProfilePic => throw UnimplementedError();
 }

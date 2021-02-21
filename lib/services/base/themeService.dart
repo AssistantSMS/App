@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:assistantapps_flutter_common/services/base/interface/IThemeService.dart';
+import 'package:scrapmechanic_kurtlourens_com/constants/Fonts.dart';
 import 'package:scrapmechanic_kurtlourens_com/theme/themes.dart';
 import 'package:theme_mode_handler/theme_mode_handler.dart';
 
@@ -20,7 +21,8 @@ class ThemeService implements IThemeService {
       getTheme(context)?.accentColor ?? Colors.teal[200];
 
   @override
-  Color getDarkModeSecondaryColour() => darkTheme('Roboto').accentColor;
+  Color getDarkModeSecondaryColour() =>
+      darkTheme(defaultFontFamily).accentColor;
 
   @override
   bool getIsDark(BuildContext context) =>
@@ -28,13 +30,13 @@ class ThemeService implements IThemeService {
 
   @override
   Color getBackgroundColour(BuildContext context) => getIsDark(context)
-      ? darkTheme('Roboto').backgroundColor
-      : lightTheme('Roboto').backgroundColor;
+      ? darkTheme(defaultFontFamily).backgroundColor
+      : lightTheme(defaultFontFamily).backgroundColor;
 
   @override
   Color getScaffoldBackgroundColour(BuildContext context) => getIsDark(context)
-      ? darkTheme('Roboto').scaffoldBackgroundColor
-      : lightTheme('Roboto').scaffoldBackgroundColor;
+      ? darkTheme(defaultFontFamily).scaffoldBackgroundColor
+      : lightTheme(defaultFontFamily).scaffoldBackgroundColor;
 
   @override
   Color getH1Colour(BuildContext context) {
@@ -63,6 +65,13 @@ class ThemeService implements IThemeService {
   @override
   Color getCardTextColour(BuildContext context) =>
       getIsDark(context) ? Colors.white54 : Colors.black54;
+
+  @override
+  Color getCardBackgroundColour(BuildContext context) =>
+      getTheme(context).cardTheme.color;
+
+  @override
+  void setFontFamily(BuildContext context, String fontFamily) {}
 
   @override
   bool useWhiteForeground(Color backgroundColor) =>

@@ -1,9 +1,10 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
+import '../constants/Fonts.dart';
+
 ThemeData getDynamicTheme(Brightness brightness) {
-  // String fontFamily = useNMSFont ? 'nms' : 'Roboto';
-  String fontFamily = 'Roboto';
+  String fontFamily = defaultFontFamily;
   return brightness == Brightness.dark
       ? darkTheme(fontFamily)
       : lightTheme(fontFamily);

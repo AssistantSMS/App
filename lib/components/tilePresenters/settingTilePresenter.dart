@@ -26,7 +26,6 @@ Widget boolSettingTilePresenter(BuildContext context, String name, bool value,
         leadingImage: null,
         name: name,
         trailing: adaptiveCheckbox(
-          context,
           value: value,
           activeColor: getTheme().getSecondaryColour(context),
           onChanged: (bool unused) => tempOnChange(),

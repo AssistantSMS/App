@@ -37,7 +37,6 @@ class _CheckboxListPageDialogWidget extends State<CheckboxListPageDialog> {
             return ListTile(
               title: Text(menuItem.title),
               trailing: adaptiveCheckbox(
-                context,
                 value: menuItem.value,
                 activeColor: getTheme().getSecondaryColour(context),
                 onChanged: (bool newValue) {

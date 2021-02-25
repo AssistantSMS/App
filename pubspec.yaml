@@ -1,7 +1,7 @@
 name: scrapmechanic_kurtlourens_com
 description: A companion app for Scrap Mechanic.
 publish_to: 'none'
-version: 1.4.1+37
+version: 1.4.2+38
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
@@ -15,8 +15,8 @@ dependencies:
 
   # AssistantApps
   assistantapps_flutter_common: 
-    # git: https://github.com/AssistantApps/Flutter.Common.git
-    path: 'C:\Development\Projects\AssistantApps\assistantapps_flutter_common'
+    git: https://github.com/AssistantApps/Flutter.Common.git
+    # path: 'C:\Development\Projects\AssistantApps\assistantapps_flutter_common'
 
   # Firebase
   firebase_core: 0.7.0
@@ -59,8 +59,8 @@ dev_dependencies:
   # flutter_test:
   #   sdk: flutter  
 
-# dependency_overrides:
-#   intl: ^0.17.0-nullsafety.2
+dependency_overrides:
+  intl: ^0.17.0-nullsafety.2
 #   firebase_core: 0.7.0
 
 flutter_icons:

@@ -1,7 +1,6 @@
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
-import 'package:package_info/package_info.dart';
 
 import '../components/bottomNavbar.dart';
 import '../components/dialogs/prettyDialog.dart';
@@ -96,7 +95,9 @@ class SettingsPage extends StatelessWidget {
       onTap: () => launchExternalURL(ExternalUrls.termsAndConditions),
     ));
 
-    widgets.add(legalTilePresenter());
+    widgets.add(
+      legalTilePresenter(description: LocaleKey.fairUseDisclaimer),
+    );
 
     widgets.add(emptySpace3x());
 

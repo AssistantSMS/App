@@ -1,7 +1,6 @@
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:dartx/dartx.dart';
 import 'package:flutter/material.dart';
-import 'package:package_info/package_info.dart';
 
 import '../contracts/craftingIngredient/craftedUsing.dart';
 import '../contracts/gameItem/gameItem.dart';

@@ -1,7 +1,5 @@
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
-import 'package:assistantapps_flutter_common/components/tilePresenters/versionTilePresenter.dart';
 import 'package:flutter/material.dart';
-import 'package:package_info/package_info.dart';
 
 import '../constants/AppImage.dart';
 import '../constants/SMSExternalUrls.dart';

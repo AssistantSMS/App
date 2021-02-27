@@ -82,8 +82,8 @@
   "areYouSure": "Вы уверены?",
   "openCollective": "Open Collective",
   "privacyPolicy": "Политика конфиденциальности",
-  "termsAndConditions": "Условия",
-  "legal": "Законно",
+  "termsAndConditions": "Условия использования",
+  "legal": "Правовые аспекты",
   "flatList": "Список",
   "tree": "Дерево",
   "patrons": "Patrons",
@@ -93,6 +93,8 @@
   "notOwned": "Не принадлежит",
   "release": "Релиз {0}",
   "pendingAppStoreRelease": "Pending App Store approval",
+  "appVersion": "Версия приложения: {0}",
+  "gameVersion": "Версия игры: {0}",
   "assistantApps": "AssistantApps",
   "japanese": "Japanese",
   "korean": "Korean",
@@ -158,5 +160,5 @@
   "showOwned": "Show owned",
   "showNotOwned": "Show not owned",
   "foundIn": "Found in",
-  "hashCode": "C36E796A02EFB49C3DDB3FF891E93A13"
+  "hashCode": "1A3C7DF36F6FC203052B3F4052BB9053"
 }

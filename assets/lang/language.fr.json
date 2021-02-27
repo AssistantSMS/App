@@ -93,6 +93,8 @@
   "notOwned": "Non acheté",
   "release": "Version {0}",
   "pendingAppStoreRelease": "En attente de l'approbation de l'App Store",
+  "appVersion": "Version de l'appli: {0}",
+  "gameVersion": "Version de Jeu: {0}",
   "assistantApps": "AssistantApps",
   "japanese": "Japanese",
   "korean": "Korean",
@@ -158,5 +160,5 @@
   "showOwned": "Show owned",
   "showNotOwned": "Show not owned",
   "foundIn": "Found in",
-  "hashCode": "4D3C5F3A45068FD1C24C8EA0702A1303"
+  "hashCode": "A0942B3416671E1367CD19EAFBB5103B"
 }

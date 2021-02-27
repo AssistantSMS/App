@@ -64,24 +64,3 @@ Widget languageSettingTilePresenter(
     margin: const EdgeInsets.all(0.0),
   );
 }
-
-Widget linkSettingTilePresenter(
-  BuildContext context,
-  String name, {
-  IconData icon,
-  Function() onTap,
-}) {
-  //
-  void Function() tempOnTap = () {
-    if (onTap != null) onTap();
-  };
-
-  return Card(
-    child: genericListTileWithSubtitleAndImageCount(context,
-        leadingImage:
-            icon != null ? getCorrectlySizedImageFromIcon(context, icon) : null,
-        title: name,
-        onTap: tempOnTap),
-    margin: const EdgeInsets.all(0.0),
-  );
-}

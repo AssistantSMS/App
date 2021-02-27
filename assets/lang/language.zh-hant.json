@@ -47,7 +47,7 @@
   "buyMeACoffee": "Buy me a Coffee",
   "patreon": "Patreon",
   "paypal": "PayPal",
-  "searchItems": "Search Items",
+  "searchItems": "搜索項目",
   "other": "Other",
   "craftedUsing": "Crafted using",
   "noItems": "No Items",
@@ -160,5 +160,5 @@
   "showOwned": "Show owned",
   "showNotOwned": "Show not owned",
   "foundIn": "Found in",
-  "hashCode": "A2065B11D573629D0F909A279408594F"
+  "hashCode": "F90B28E75A48342CB0CDB31BFE432315"
 }

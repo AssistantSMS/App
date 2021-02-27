@@ -7,9 +7,10 @@
     "buildNumber": 36,
     "platforms": [
       0,
-      1
+      1,
+      2
     ],
-    "activeDate": "2021-02-04T20:00:00"
+    "activeDate": "2021-02-04T18:00:00Z"
   },
   {
     "guid": "3f951a3e-81c5-45f4-9361-e1d408df0da5",
@@ -19,9 +20,10 @@
     "buildNumber": 34,
     "platforms": [
       0,
-      1
+      1,
+      2
     ],
-    "activeDate": "2020-12-31T20:00:00"
+    "activeDate": "2020-12-31T18:00:00Z"
   },
   {
     "guid": "47f1a804-2ade-4f3a-a91e-edf997f32af5",
@@ -31,9 +33,10 @@
     "buildNumber": 32,
     "platforms": [
       0,
-      1
+      1,
+      2
     ],
-    "activeDate": "2020-11-21T20:00:00"
+    "activeDate": "2020-11-21T18:00:00Z"
   },
   {
     "guid": "198b35e1-0713-44e6-9286-67c3ed1c6799",
@@ -43,9 +46,10 @@
     "buildNumber": 31,
     "platforms": [
       0,
-      1
+      1,
+      2
     ],
-    "activeDate": "2020-11-04T20:00:00"
+    "activeDate": "2020-11-04T18:00:00Z"
   },
   {
     "guid": "dca02138-9cf7-4347-b011-0cd33ccfc7f6",
@@ -55,9 +59,10 @@
     "buildNumber": 30,
     "platforms": [
       0,
-      1
+      1,
+      2
     ],
-    "activeDate": "2020-09-29T20:00:00"
+    "activeDate": "2020-09-29T18:00:00Z"
   },
   {
     "guid": "81003b87-17e4-43ef-81eb-89fa4a53f60b",
@@ -67,9 +72,10 @@
     "buildNumber": 29,
     "platforms": [
       0,
-      1
+      1,
+      2
     ],
-    "activeDate": "2020-09-07T20:00:00"
+    "activeDate": "2020-09-07T18:00:00Z"
   },
   {
     "guid": "eea1a329-ba32-4390-a5c6-adb0d74ded6a",
@@ -79,9 +85,10 @@
     "buildNumber": 28,
     "platforms": [
       0,
-      1
+      1,
+      2
     ],
-    "activeDate": "2020-08-08T20:00:00"
+    "activeDate": "2020-08-08T18:00:00Z"
   },
   {
     "guid": "4b32cc0c-5f0e-41f6-8dd3-c1a7f11db80a",
@@ -91,8 +98,9 @@
     "buildNumber": 27,
     "platforms": [
       0,
-      1
+      1,
+      2
     ],
-    "activeDate": "2020-07-25T20:00:00"
+    "activeDate": "2020-07-25T18:00:00Z"
   }
 ]

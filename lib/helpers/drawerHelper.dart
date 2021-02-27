@@ -1,4 +1,5 @@
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
+import 'package:assistantapps_flutter_common/components/tilePresenters/versionTilePresenter.dart';
 import 'package:flutter/material.dart';
 import 'package:package_info/package_info.dart';
 
@@ -6,8 +7,7 @@ import '../constants/AppImage.dart';
 import '../constants/SMSExternalUrls.dart';
 import '../constants/Routes.dart';
 
-Future<List<Widget>> getDrawerItems(context,
-    Future<ResultWithValue<PackageInfo>> currentAppVersionFuture) async {
+List<Widget> getDrawerItems(context) {
   List<Widget> widgets = List.empty(growable: true);
   Color drawerIconColour = getTheme().getDarkModeSecondaryColour();
   widgets.add(emptySpace1x());
@@ -72,45 +72,8 @@ Future<List<Widget>> getDrawerItems(context,
     navigateToExternal: SMSExternalUrls.kurtLourensEmail,
   ));
 
-  // widgets.add(_drawerItem(
-  //   context,
-  //   image: getCorrectlySizedImageFromIcon(context, Icons.feedback,
-  //       colour: drawerIconColour),
-  //   key: LocaleKey.feedback,
-  //   navigateToNamed: Routes.feedback,
-  // ));
-  // widgets.add(_drawerItem(
-  //   context,
-  //   image: getListTileImage('drawer/twitter.png'),
-  //   key: LocaleKey.social,
-  //   navigateToNamed: Routes.socialLinks,
-  // ));
-
-  ResultWithValue<PackageInfo> packageInfoResult =
-      await currentAppVersionFuture;
-
-  String appVersion = 'App Version ';
-  Widget gameVersion = Text('Game Version: 0.4.8');
   widgets.add(customDivider());
-  if (packageInfoResult.isSuccess) {
-    var versionText = packageInfoResult.value != null
-        ? packageInfoResult.value.version
-        : getTranslations().fromKey(LocaleKey.loading);
-    widgets.add(ListTile(
-      key: Key('versionNumber'),
-      leading: getCorrectlySizedImageFromIcon(context, Icons.code),
-      title: Text('$appVersion $versionText'),
-      subtitle: gameVersion,
-      dense: true,
-    ));
-  } else {
-    widgets.add(ListTile(
-      key: Key('versionNumber'),
-      leading: getCorrectlySizedImageFromIcon(context, Icons.code),
-      title: gameVersion,
-      dense: true,
-    ));
-  }
+  widgets.add(packageVersionTile('0.4.8'));
 
   widgets.add(_drawerItem(
     context,

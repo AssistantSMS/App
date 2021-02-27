@@ -19,21 +19,6 @@ import '../services/json/lootItemJsonService.dart';
 import 'itemsHelper.dart';
 import 'repositoryHelper.dart';
 
-Future<ResultWithValue<PackageInfo>> currentAppVersion() async {
-  bool hasPackageInfo = isAndroid || isiOS;
-  if (!hasPackageInfo) {
-    return ResultWithValue<PackageInfo>(
-        false, PackageInfo(), 'platform not supported');
-  }
-  try {
-    var packInfo = await PackageInfo.fromPlatform();
-    return ResultWithValue<PackageInfo>(true, packInfo, '');
-  } catch (exception) {
-    return ResultWithValue<PackageInfo>(
-        false, PackageInfo(), exception.toString());
-  }
-}
-
 Future<ResultWithValue<RecipePageItem>> recipePageItemFuture(
     context, String itemId) async {
   if (itemId == null)

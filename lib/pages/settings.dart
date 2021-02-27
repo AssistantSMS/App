@@ -8,7 +8,6 @@ import '../components/dialogs/prettyDialog.dart';
 import '../components/tilePresenters/settingTilePresenter.dart';
 import '../constants/AnalyticsEvent.dart';
 import '../constants/AppImage.dart';
-import '../helpers/futureHelper.dart';
 import '../state/modules/base/appState.dart';
 import '../state/modules/setting/settingViewModel.dart';
 
@@ -97,26 +96,7 @@ class SettingsPage extends StatelessWidget {
       onTap: () => launchExternalURL(ExternalUrls.termsAndConditions),
     ));
 
-    widgets.add(
-      FutureBuilder<ResultWithValue<PackageInfo>>(
-          future: currentAppVersion(),
-          builder: (BuildContext context,
-              AsyncSnapshot<ResultWithValue<PackageInfo>> snapshot) {
-            Widget errorWidget = asyncSnapshotHandler(context, snapshot);
-            if (errorWidget != null) return errorWidget;
-            return linkSettingTilePresenter(
-              context,
-              getTranslations().fromKey(LocaleKey.legal),
-              icon: Icons.description,
-              onTap: () => showAboutDialog(
-                context: context,
-                applicationLegalese:
-                    getTranslations().fromKey(LocaleKey.fairUseDisclaimer),
-                applicationVersion: snapshot?.data?.value?.version ?? 'v1.0',
-              ),
-            );
-          }),
-    );
+    widgets.add(legalTilePresenter());
 
     widgets.add(emptySpace3x());
 

@@ -142,7 +142,7 @@ Widget _drawerItem(context,
     title: Text(getTranslations().fromKey(key)),
     dense: true,
     onTap: () async {
-      Navigator.pop(context);
+      // Navigator.pop(context);
       if (navigateTo != null) {
         await getNavigation().navigateHomeAsync(
           context,

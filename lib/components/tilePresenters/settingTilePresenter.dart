@@ -1,8 +1,6 @@
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 
-import 'genericTilePresenter.dart';
-
 Widget headingSettingTilePresenter(String name) {
   return ListTile(
     title: Text(

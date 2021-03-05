@@ -1,5 +1,5 @@
-- Fix cart calculations for recipes that output more than 1 item
-- Improved language system
-- Improved Patreon page
-- Improved network image loading animations
-
+- Fix cart delete all
+- Fix Drawer menu display bug
+- Improve steam news page
+  - Fix placeholder steam image
+- Fix loading icon on iOS

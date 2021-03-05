@@ -18,7 +18,7 @@ class DialogService implements IDialogService {
         ),
       ),
       content: content,
-      buttons: buttons as List<DialogButton>,
+      buttons: buttons.map((e) => e as DialogButton).toList(),
     ).show();
   }
 

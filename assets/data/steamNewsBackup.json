@@ -1,14 +1,25 @@
 [
   {
+    "name": "Creative mode update test 0.5.0 (Updated March 5)",
+    "date": "2021-03-04T21:09:34Z",
+    "link": "https://store.steampowered.com/news/app/387990/view/3052849588812174115",
+    "image": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/clans/11471984/603024a52737dc0483b07166d8ea40652c91e337.png",
+    "shortDescription": "Hi Mechanics!\nLast few week we’ve been hard at work on the Creative mode update that we mentioned in our latest devblog. It contains a lot of new things that we need help testing out to make sure it runs well.\nSome of these things are updated terr...",
+    "videoLink": "",
+    "upVotes": 1256,
+    "downVotes": 11,
+    "commentCount": 142
+  },
+  {
     "name": "Devblog 21 is here!",
     "date": "2021-02-23T18:23:21Z",
     "link": "https://store.steampowered.com/news/app/387990/view/3057351918255325052",
     "image": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/clans/11471984/2b4bc93ffcb93c5d257077f3216d400f533c9546.png",
     "shortDescription": "Calling all mechanics!\nNew devblog, coming through! This time, we want to focus on a few things that are coming up in the not-too-distant future and also show a few new things that are in the works for the next survival chapter.\n\n\n\nCablebot\nWatch ...",
     "videoLink": "",
-    "upVotes": 2844,
-    "downVotes": 19,
-    "commentCount": 333
+    "upVotes": 3613,
+    "downVotes": 20,
+    "commentCount": 434
   },
   {
     "name": "Devblog 20 is here!",
@@ -17,9 +28,9 @@
     "image": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/clans/11471984/d0cdf95f53c1351df0e0bc8ec0a36faca818a6a6.png",
     "shortDescription": "Calling all Mechanics!\n2020 is coming to a close and we’re here to end it on a good note with a special devblog! Here are some of the things we’ve been working on since the release of Scrap Mechanic’s Survival Mode earlier this year.\nTo start, we ...",
     "videoLink": "",
-    "upVotes": 6030,
+    "upVotes": 6197,
     "downVotes": 30,
-    "commentCount": 634
+    "commentCount": 645
   },
   {
     "name": "Update 0.4.8 is here!",
@@ -28,9 +39,9 @@
     "image": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/clans/11471984/bda97b90fe5c260fc431c0b350d5d841b4e07999.png",
     "shortDescription": "Hi Mechanics!\nWe are excited to finally drop this update!\nThis update will lay out some of the groundwork for the upcoming new survival chapter that we are working on right now. In this update we did a ton of bug fixes and improvements. We also ad...",
     "videoLink": "",
-    "upVotes": 3845,
-    "downVotes": 24,
-    "commentCount": 338
+    "upVotes": 3931,
+    "downVotes": 25,
+    "commentCount": 339
   },
   {
     "name": "Patch 0.4.8 Test! (Updated November 11)",
@@ -39,7 +50,7 @@
     "image": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/clans/11471984/603024a52737dc0483b07166d8ea40652c91e337.png",
     "shortDescription": "Hi Mechanics!\nThis test turned in to a pretty long one as you might have noticed. We ended up doing a lot of small fixes. But also because we wanted to add a few more things for testing before we drop it.\nToday the 30th of October we finally added...",
     "videoLink": "",
-    "upVotes": 1731,
+    "upVotes": 1750,
     "downVotes": 31,
     "commentCount": 319
   },
@@ -50,7 +61,7 @@
     "image": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/clans/11471984/01459a509dc273d3bb90923b30eeb2e98eed2880.png",
     "shortDescription": "Hi Mechanics!\nWe are back with a new update! Thanks for helping us test it out!\nThis time we’ve been focusing on making sure the languages are fixed and updated. \nThey unfortunately didn’t make it on time for the survival release, but they are bac...",
     "videoLink": "",
-    "upVotes": 2572,
+    "upVotes": 2602,
     "downVotes": 71,
     "commentCount": 261
   },
@@ -61,7 +72,7 @@
     "image": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/clans/11471984/603024a52737dc0483b07166d8ea40652c91e337.png",
     "shortDescription": "Hi Mechanics!\nWe are back with a new update! \nThis time we’ve been focusing on making sure the languages are fixed and updated. \nThey unfortunately didn’t make it on time for the survival release, but they are back in Scrap Mechanic now!\nHere are ...",
     "videoLink": "",
-    "upVotes": 1455,
+    "upVotes": 1476,
     "downVotes": 30,
     "commentCount": 167
   },
@@ -72,7 +83,7 @@
     "image": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/clans/11471984/603024a52737dc0483b07166d8ea40652c91e337.png",
     "shortDescription": "Hi Mechanics!\nIt’s time to move all the things we tested into the game!\nThanks for all the amazing feedback! Here are some of the new things in this update. Cotton plants can now be planted on your farm. You can trade for Cotton seeds at the Farme...",
     "videoLink": "",
-    "upVotes": 1517,
+    "upVotes": 1527,
     "downVotes": 27,
     "commentCount": 196
   },
@@ -83,8 +94,8 @@
     "image": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/clans/11471984/603024a52737dc0483b07166d8ea40652c91e337.png",
     "shortDescription": "Updated June 23\nHi Mechanics!\nWe updated the test again with some changes to the network code.\nFixed an issue that could cause network lag for clients\r\n\nUpdated June 19\nHi Mechanics!\nWe have updated the test with some more stuff!\nIn the updated ve...",
     "videoLink": "",
-    "upVotes": 1705,
-    "downVotes": 37,
+    "upVotes": 1713,
+    "downVotes": 38,
     "commentCount": 429
   },
   {
@@ -94,19 +105,8 @@
     "image": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/clans/11471984/4202830a91f07ea2fe297437d712e0c60822231b.png",
     "shortDescription": "Hi Mechanics!\nGood news! Challenge Mode is finally back!\nFor all new Mechanics - Challenge mode puts your creativity to the test in the Master Mechanic Trials, a fun set of challenges all mechanics must take before they’re officially dispatched to...",
     "videoLink": "https://www.youtube.com/watch?v=bGMGSkqjSqQ",
-    "upVotes": 2210,
+    "upVotes": 2235,
     "downVotes": 39,
     "commentCount": 614
-  },
-  {
-    "name": "Patch Notes 0.4.4",
-    "date": "2020-05-26T15:22:41Z",
-    "link": "https://store.steampowered.com/news/app/387990/view/2211776355833733229",
-    "image": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/clans/11471984/603024a52737dc0483b07166d8ea40652c91e337.png",
-    "shortDescription": "Hi Mechanics!\nWe are back with a bunch more important improvements. This time we have made a lot more fixing in the raid department. We have found ways to optimize them more so they don’t trigger lag when a lot of bots come at once. This fix shoul...",
-    "videoLink": "",
-    "upVotes": 1940,
-    "downVotes": 53,
-    "commentCount": 275
   }
 ]

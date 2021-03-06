@@ -1,5 +1,11 @@
 [
   {
+    "guid": "51f464d9-97f2-46f0-910e-9ce6208f3141",
+    "username": "Beat Locher",
+    "type": "Paypal",
+    "date": "2021-03-01T21:30:00Z"
+  },
+  {
     "guid": "f15f7d32-0029-44a8-9904-bbc366af7ee8",
     "username": "Przemek Borkowicz",
     "type": "Paypal",
@@ -708,8 +714,8 @@
     "date": "2019-10-01T12:01:00Z"
   },
   {
-    "guid": "a167e1a3-83af-49fe-a73e-b38aa5e9f04e",
-    "username": "Rob",
+    "guid": "080e2663-13ee-4266-a88c-fa32230e4203",
+    "username": "Xbox: Kalvak",
     "type": "BuyMeACoffee",
     "date": "2019-09-23T12:01:00Z"
   },

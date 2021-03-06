@@ -56,7 +56,7 @@
   {
     "Id": "harv4",
     "Icon": "items/harv4.png",
-    "Color": "dfdfdf",
+    "Color": "e75b0f",
     "PhysicsMaterial": "Metal",
     "Ratings": {
       "Density": 6,

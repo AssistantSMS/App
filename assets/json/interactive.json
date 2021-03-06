@@ -200,24 +200,6 @@
   {
     "Id": "intera12",
     "Icon": "items/intera12.png",
-    "Color": "3e9ffe",
-    "PhysicsMaterial": "Mechanical",
-    "Ratings": {
-      "Density": 5,
-      "Durability": 5,
-      "Friction": 4,
-      "Buoyancy": 2
-    },
-    "Box": {
-      "X": 3,
-      "Y": 3,
-      "Z": 4
-    },
-    "Flammable": false
-  },
-  {
-    "Id": "intera13",
-    "Icon": "items/intera13.png",
     "Color": "df7f01",
     "PhysicsMaterial": "Mechanical",
     "Ratings": {
@@ -234,8 +216,8 @@
     "Flammable": false
   },
   {
-    "Id": "intera14",
-    "Icon": "items/intera14.png",
+    "Id": "intera13",
+    "Icon": "items/intera13.png",
     "Color": "3e9ffe",
     "PhysicsMaterial": "Metal",
     "Ratings": {
@@ -252,26 +234,8 @@
     "Flammable": true
   },
   {
-    "Id": "intera15",
-    "Icon": "items/intera15.png",
-    "Color": "df7f01",
-    "PhysicsMaterial": "Mechanical",
-    "Ratings": {
-      "Density": 3,
-      "Durability": 6,
-      "Friction": 3,
-      "Buoyancy": 2
-    },
-    "Box": {
-      "X": 3,
-      "Y": 8,
-      "Z": 4
-    },
-    "Flammable": false
-  },
-  {
-    "Id": "intera16",
-    "Icon": "items/intera16.png",
+    "Id": "intera14",
+    "Icon": "items/intera14.png",
     "Color": "df7f01",
     "PhysicsMaterial": "Mechanical",
     "Ratings": {
@@ -287,8 +251,8 @@
     "Flammable": false
   },
   {
-    "Id": "intera17",
-    "Icon": "items/intera17.png",
+    "Id": "intera15",
+    "Icon": "items/intera15.png",
     "Color": "df7f01",
     "PhysicsMaterial": "Mechanical",
     "Ratings": {
@@ -304,8 +268,8 @@
     "Flammable": false
   },
   {
-    "Id": "intera18",
-    "Icon": "items/intera18.png",
+    "Id": "intera16",
+    "Icon": "items/intera16.png",
     "Color": "df7f01",
     "PhysicsMaterial": "Mechanical",
     "Ratings": {
@@ -321,8 +285,8 @@
     "Flammable": false
   },
   {
-    "Id": "intera19",
-    "Icon": "items/intera19.png",
+    "Id": "intera17",
+    "Icon": "items/intera17.png",
     "Color": "df7f01",
     "PhysicsMaterial": "Mechanical",
     "Ratings": {
@@ -339,8 +303,8 @@
     "Flammable": false
   },
   {
-    "Id": "intera20",
-    "Icon": "items/intera20.png",
+    "Id": "intera18",
+    "Icon": "items/intera18.png",
     "Color": "df7f01",
     "PhysicsMaterial": "Mechanical",
     "Ratings": {
@@ -357,8 +321,8 @@
     "Flammable": false
   },
   {
-    "Id": "intera21",
-    "Icon": "items/intera21.png",
+    "Id": "intera19",
+    "Icon": "items/intera19.png",
     "Color": "df7f01",
     "PhysicsMaterial": "Mechanical",
     "Ratings": {
@@ -375,8 +339,8 @@
     "Flammable": false
   },
   {
-    "Id": "intera22",
-    "Icon": "items/intera22.png",
+    "Id": "intera20",
+    "Icon": "items/intera20.png",
     "Color": "df7f01",
     "PhysicsMaterial": "Mechanical",
     "Ratings": {
@@ -393,8 +357,8 @@
     "Flammable": false
   },
   {
-    "Id": "intera23",
-    "Icon": "items/intera23.png",
+    "Id": "intera21",
+    "Icon": "items/intera21.png",
     "Color": "3e9ffe",
     "PhysicsMaterial": "Mechanical",
     "Ratings": {
@@ -406,6 +370,42 @@
     "Box": {
       "X": 3,
       "Y": 4,
+      "Z": 3
+    },
+    "Flammable": false
+  },
+  {
+    "Id": "intera22",
+    "Icon": "items/intera22.png",
+    "Color": "df7f01",
+    "PhysicsMaterial": "Mechanical",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 0,
+      "Buoyancy": 0
+    },
+    "Box": {
+      "X": 2,
+      "Y": 2,
+      "Z": 2
+    },
+    "Flammable": false
+  },
+  {
+    "Id": "intera23",
+    "Icon": "items/intera23.png",
+    "Color": "df7f01",
+    "PhysicsMaterial": "Mechanical",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 0,
+      "Buoyancy": 0
+    },
+    "Box": {
+      "X": 2,
+      "Y": 2,
       "Z": 3
     },
     "Flammable": false
@@ -424,7 +424,7 @@
     "Box": {
       "X": 2,
       "Y": 2,
-      "Z": 2
+      "Z": 4
     },
     "Flammable": false
   },
@@ -441,8 +441,8 @@
     },
     "Box": {
       "X": 2,
-      "Y": 2,
-      "Z": 3
+      "Y": 1,
+      "Z": 1
     },
     "Flammable": false
   },
@@ -452,17 +452,17 @@
     "Color": "df7f01",
     "PhysicsMaterial": "Mechanical",
     "Ratings": {
-      "Density": 0,
-      "Durability": 0,
-      "Friction": 0,
-      "Buoyancy": 0
+      "Density": 2,
+      "Durability": 3,
+      "Friction": 5,
+      "Buoyancy": 2
     },
     "Box": {
-      "X": 2,
-      "Y": 2,
-      "Z": 4
+      "X": 1,
+      "Y": 1,
+      "Z": 1
     },
-    "Flammable": false
+    "Flammable": true
   },
   {
     "Id": "intera27",
@@ -470,17 +470,17 @@
     "Color": "df7f01",
     "PhysicsMaterial": "Mechanical",
     "Ratings": {
-      "Density": 0,
-      "Durability": 0,
-      "Friction": 0,
-      "Buoyancy": 0
+      "Density": 2,
+      "Durability": 3,
+      "Friction": 5,
+      "Buoyancy": 2
     },
     "Box": {
-      "X": 2,
+      "X": 1,
       "Y": 1,
       "Z": 1
     },
-    "Flammable": false
+    "Flammable": true
   },
   {
     "Id": "intera28",
@@ -488,42 +488,6 @@
     "Color": "df7f01",
     "PhysicsMaterial": "Mechanical",
     "Ratings": {
-      "Density": 2,
-      "Durability": 3,
-      "Friction": 5,
-      "Buoyancy": 2
-    },
-    "Box": {
-      "X": 1,
-      "Y": 1,
-      "Z": 1
-    },
-    "Flammable": true
-  },
-  {
-    "Id": "intera29",
-    "Icon": "items/intera29.png",
-    "Color": "df7f01",
-    "PhysicsMaterial": "Mechanical",
-    "Ratings": {
-      "Density": 2,
-      "Durability": 3,
-      "Friction": 5,
-      "Buoyancy": 2
-    },
-    "Box": {
-      "X": 1,
-      "Y": 1,
-      "Z": 1
-    },
-    "Flammable": true
-  },
-  {
-    "Id": "intera30",
-    "Icon": "items/intera30.png",
-    "Color": "df7f01",
-    "PhysicsMaterial": "Mechanical",
-    "Ratings": {
       "Density": 0,
       "Durability": 0,
       "Friction": 0,
@@ -537,8 +501,8 @@
     "Flammable": false
   },
   {
-    "Id": "intera31",
-    "Icon": "items/intera31.png",
+    "Id": "intera29",
+    "Icon": "items/intera29.png",
     "Color": "df7f01",
     "PhysicsMaterial": "Mechanical",
     "Ratings": {
@@ -555,8 +519,8 @@
     "Flammable": true
   },
   {
-    "Id": "intera32",
-    "Icon": "items/intera32.png",
+    "Id": "intera30",
+    "Icon": "items/intera30.png",
     "Color": "df7f01",
     "PhysicsMaterial": "Mechanical",
     "Ratings": {
@@ -573,8 +537,8 @@
     "Flammable": true
   },
   {
-    "Id": "intera33",
-    "Icon": "items/intera33.png",
+    "Id": "intera31",
+    "Icon": "items/intera31.png",
     "Color": "df7f01",
     "PhysicsMaterial": "Mechanical",
     "Ratings": {
@@ -591,8 +555,8 @@
     "Flammable": false
   },
   {
-    "Id": "intera34",
-    "Icon": "items/intera34.png",
+    "Id": "intera32",
+    "Icon": "items/intera32.png",
     "Color": "df7f01",
     "PhysicsMaterial": "Mechanical",
     "Ratings": {
@@ -609,8 +573,8 @@
     "Flammable": false
   },
   {
-    "Id": "intera35",
-    "Icon": "items/intera35.png",
+    "Id": "intera33",
+    "Icon": "items/intera33.png",
     "Color": "1a538c",
     "PhysicsMaterial": "Mechanical",
     "Ratings": {
@@ -627,9 +591,45 @@
     "Flammable": false
   },
   {
+    "Id": "intera34",
+    "Icon": "items/intera34.png",
+    "Color": "a9831c",
+    "PhysicsMaterial": "Mechanical",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 4,
+      "Friction": 4,
+      "Buoyancy": 6
+    },
+    "Box": {
+      "X": 2,
+      "Y": 2,
+      "Z": 2
+    },
+    "Flammable": false
+  },
+  {
+    "Id": "intera35",
+    "Icon": "items/intera35.png",
+    "Color": "7f2418",
+    "PhysicsMaterial": "Mechanical",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 4,
+      "Friction": 4,
+      "Buoyancy": 6
+    },
+    "Box": {
+      "X": 2,
+      "Y": 2,
+      "Z": 2
+    },
+    "Flammable": false
+  },
+  {
     "Id": "intera36",
     "Icon": "items/intera36.png",
-    "Color": "a9831c",
+    "Color": "49642d",
     "PhysicsMaterial": "Mechanical",
     "Ratings": {
       "Density": 4,
@@ -647,42 +647,6 @@
   {
     "Id": "intera37",
     "Icon": "items/intera37.png",
-    "Color": "7f2418",
-    "PhysicsMaterial": "Mechanical",
-    "Ratings": {
-      "Density": 4,
-      "Durability": 4,
-      "Friction": 4,
-      "Buoyancy": 6
-    },
-    "Box": {
-      "X": 2,
-      "Y": 2,
-      "Z": 2
-    },
-    "Flammable": false
-  },
-  {
-    "Id": "intera38",
-    "Icon": "items/intera38.png",
-    "Color": "49642d",
-    "PhysicsMaterial": "Mechanical",
-    "Ratings": {
-      "Density": 4,
-      "Durability": 4,
-      "Friction": 4,
-      "Buoyancy": 6
-    },
-    "Box": {
-      "X": 2,
-      "Y": 2,
-      "Z": 2
-    },
-    "Flammable": false
-  },
-  {
-    "Id": "intera39",
-    "Icon": "items/intera39.png",
     "Color": "3e9ffe",
     "PhysicsMaterial": "Mechanical",
     "Ratings": {
@@ -699,8 +663,8 @@
     "Flammable": false
   },
   {
-    "Id": "intera40",
-    "Icon": "items/intera40.png",
+    "Id": "intera38",
+    "Icon": "items/intera38.png",
     "Color": "df7f01",
     "PhysicsMaterial": "Mechanical",
     "Ratings": {
@@ -717,8 +681,8 @@
     "Flammable": false
   },
   {
-    "Id": "intera41",
-    "Icon": "items/intera41.png",
+    "Id": "intera39",
+    "Icon": "items/intera39.png",
     "Color": "304352",
     "PhysicsMaterial": "Mechanical",
     "Ratings": {
@@ -735,8 +699,8 @@
     "Flammable": true
   },
   {
-    "Id": "intera42",
-    "Icon": "items/intera42.png",
+    "Id": "intera40",
+    "Icon": "items/intera40.png",
     "Color": "df7f01",
     "PhysicsMaterial": "Mechanical",
     "Ratings": {
@@ -753,8 +717,8 @@
     "Flammable": false
   },
   {
-    "Id": "intera43",
-    "Icon": "items/intera43.png",
+    "Id": "intera41",
+    "Icon": "items/intera41.png",
     "Color": "cb0a00",
     "PhysicsMaterial": "Mechanical",
     "Ratings": {
@@ -771,8 +735,8 @@
     "Flammable": true
   },
   {
-    "Id": "intera44",
-    "Icon": "items/intera44.png",
+    "Id": "intera42",
+    "Icon": "items/intera42.png",
     "Color": "cb0a00",
     "PhysicsMaterial": "Mechanical",
     "Ratings": {

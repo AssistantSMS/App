@@ -51,7 +51,7 @@
     ]
   },
   {
-    "appId": "consu11",
+    "appId": "consu10",
     "chances": [
       {
         "min": 2,
@@ -160,7 +160,24 @@
     ]
   },
   {
-    "appId": "intera28",
+    "appId": "intera26",
+    "chances": [
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 3,
+        "type": 0
+      },
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 3,
+        "type": 1
+      }
+    ]
+  },
+  {
+    "appId": "intera27",
     "chances": [
       {
         "min": 1,
@@ -182,13 +199,30 @@
       {
         "min": 1,
         "max": 1,
-        "chance": 3,
+        "chance": 1,
         "type": 0
       },
       {
         "min": 1,
         "max": 1,
-        "chance": 3,
+        "chance": 1,
+        "type": 1
+      }
+    ]
+  },
+  {
+    "appId": "intera30",
+    "chances": [
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 1,
+        "type": 0
+      },
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 1,
         "type": 1
       }
     ]
@@ -199,53 +233,19 @@
       {
         "min": 1,
         "max": 1,
-        "chance": 1,
+        "chance": 3,
         "type": 0
       },
       {
         "min": 1,
         "max": 1,
-        "chance": 1,
+        "chance": 3,
         "type": 1
       }
     ]
   },
   {
     "appId": "intera32",
-    "chances": [
-      {
-        "min": 1,
-        "max": 1,
-        "chance": 1,
-        "type": 0
-      },
-      {
-        "min": 1,
-        "max": 1,
-        "chance": 1,
-        "type": 1
-      }
-    ]
-  },
-  {
-    "appId": "intera33",
-    "chances": [
-      {
-        "min": 1,
-        "max": 1,
-        "chance": 3,
-        "type": 0
-      },
-      {
-        "min": 1,
-        "max": 1,
-        "chance": 3,
-        "type": 1
-      }
-    ]
-  },
-  {
-    "appId": "intera34",
     "chances": [
       {
         "min": 1,
@@ -483,7 +483,7 @@
     ]
   },
   {
-    "appId": "ammo1",
+    "appId": "fuel4",
     "chances": [
       {
         "min": 3,
@@ -500,7 +500,7 @@
     ]
   },
   {
-    "appId": "consu6",
+    "appId": "consu5",
     "chances": [
       {
         "min": 1,
@@ -551,7 +551,7 @@
     ]
   },
   {
-    "appId": "consu1",
+    "appId": "fuel3",
     "chances": [
       {
         "min": 2,
@@ -568,7 +568,7 @@
     ]
   },
   {
-    "appId": "consu3",
+    "appId": "consu2",
     "chances": [
       {
         "min": 2,
@@ -585,7 +585,7 @@
     ]
   },
   {
-    "appId": "consu2",
+    "appId": "consu1",
     "chances": [
       {
         "min": 2,
@@ -602,7 +602,7 @@
     ]
   },
   {
-    "appId": "consu4",
+    "appId": "consu3",
     "chances": [
       {
         "min": 5,
@@ -619,7 +619,7 @@
     ]
   },
   {
-    "appId": "consu5",
+    "appId": "consu4",
     "chances": [
       {
         "min": 1,
@@ -738,7 +738,7 @@
     ]
   },
   {
-    "appId": "intera16",
+    "appId": "intera14",
     "chances": [
       {
         "min": 1,
@@ -755,7 +755,7 @@
     ]
   },
   {
-    "appId": "consu9",
+    "appId": "consu8",
     "chances": [
       {
         "min": 1,

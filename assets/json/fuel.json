@@ -34,5 +34,41 @@
       "Z": 2
     },
     "Flammable": true
+  },
+  {
+    "Id": "fuel3",
+    "Icon": "unknown.png",
+    "Color": "3e9ffe",
+    "PhysicsMaterial": "Fruit",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 2,
+      "Friction": 4,
+      "Buoyancy": 7
+    },
+    "Box": {
+      "X": 2,
+      "Y": 2,
+      "Z": 2
+    },
+    "Flammable": false
+  },
+  {
+    "Id": "fuel4",
+    "Icon": "unknown.png",
+    "Color": "505c30",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 2,
+      "Friction": 4,
+      "Buoyancy": 3
+    },
+    "Box": {
+      "X": 2,
+      "Y": 2,
+      "Z": 2
+    },
+    "Flammable": true
   }
 ]

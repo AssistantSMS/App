@@ -121,7 +121,7 @@
   "createXUsingY": "Create {0} using the {1} with:",
   "timeToCraft": "Time to craft:",
   "contribute": "Contribute",
-  "steamNews": "Steam News",
+  "steamNews": "Noticias de Steam",
   "addedToCart": "Added to Cart",
   "view": "View",
   "viewAllRequiredItems": "View All Required Items",
@@ -160,5 +160,5 @@
   "showOwned": "Show owned",
   "showNotOwned": "Show not owned",
   "foundIn": "Found in",
-  "hashCode": "3B257E83872C050120E218171E44ADC1"
+  "hashCode": "06D4E6C282BE43E4F504BCB0C98E830D"
 }

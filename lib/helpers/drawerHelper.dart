@@ -71,7 +71,7 @@ List<Widget> getDrawerItems(context) {
   ));
 
   widgets.add(customDivider());
-  widgets.add(packageVersionTile('0.4.8'));
+  widgets.add(packageVersionTile('0.5.0'));
 
   widgets.add(_drawerItem(
     context,

@@ -1,5 +1,17 @@
 [
   {
+    "guid": "5b1de370-50de-4d95-a4b1-5627a302d22a",
+    "appGuid": "dfe0dbc7-8df4-47fb-a5a5-49af1937c4e2",
+    "markdown": "- Fix cart delete all\n- Fix Drawer menu display bug\n- Improve steam news page\n  - Fix placeholder steam image\n- Fix loading icon on iOS",
+    "buildName": "1.4.5",
+    "buildNumber": 39,
+    "platforms": [
+      0,
+      1
+    ],
+    "activeDate": "2021-03-06T21:59:00Z"
+  },
+  {
     "guid": "1a3deb9e-450d-482c-87ea-67ff6aa5e834",
     "appGuid": "dfe0dbc7-8df4-47fb-a5a5-49af1937c4e2",
     "markdown": "- Fix cart calculations for recipes that output more than 1 item\n- Improved language system\n- Improved Patreon page\n- Improved network image loading animations",

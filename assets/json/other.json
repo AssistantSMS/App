@@ -98,5 +98,25 @@
     "Id": "other20",
     "Icon": "items/other20.png",
     "Flammable": false
+  },
+  {
+    "Id": "other21",
+    "Icon": "unknown.png",
+    "Flammable": false
+  },
+  {
+    "Id": "other22",
+    "Icon": "unknown.png",
+    "Flammable": false
+  },
+  {
+    "Id": "other23",
+    "Icon": "unknown.png",
+    "Flammable": false
+  },
+  {
+    "Id": "other24",
+    "Icon": "unknown.png",
+    "Flammable": false
   }
 ]

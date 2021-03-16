@@ -295,7 +295,7 @@ Future<List<RecipeIngredientDetails>> getAllRequiredItemsForMultiple(
     return List.empty(growable: true);
   }
 
-  return detailsResult.value.sortedBy((rd) => rd.quantity);
+  return detailsResult.value.sortedBy((rd) => rd.quantity).toList();
 }
 
 Future<List<RecipeIngredient>> getRequiredItems(
@@ -322,7 +322,7 @@ Future<List<RecipeIngredient>> getRequiredItems(
     }
   }
 
-  var rawMaterialsResult = List.empty(growable: true);
+  List<RecipeIngredient> rawMaterialsResult = List.empty(growable: true);
 
   if (tempRawMaterials != null && tempRawMaterials.length == 0) {
     rawMaterialsResult.add(requiredItem);

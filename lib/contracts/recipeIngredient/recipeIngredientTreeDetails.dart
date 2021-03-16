@@ -15,13 +15,14 @@ class RecipeIngredientTreeDetails extends RecipeIngredientDetails {
 
   factory RecipeIngredientTreeDetails.fromRequiredItemDetails(
       RecipeIngredientDetails req, int cost) {
+    List<RecipeIngredientTreeDetails> children = List.empty(growable: true);
     return RecipeIngredientTreeDetails(
       id: req.id,
       icon: req.icon,
       title: req.title,
       cost: cost,
       quantity: req.quantity,
-      children: List.empty(growable: true),
+      children: children,
     );
   }
 

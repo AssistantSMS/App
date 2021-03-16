@@ -41,7 +41,7 @@ class _GenericAllRequiredWidget extends State<GenericAllRequiredPage> {
         getTranslations().fromKey(LocaleKey.tree),
       )
     ];
-    var segmentedWidget = Container(
+    Widget segmentedWidget = Container(
       child: adaptiveSegmentedControl(context,
           controlItems: options,
           currentSelection: currentSelection, onSegmentChosen: (index) {
@@ -96,10 +96,10 @@ class _GenericAllRequiredWidget extends State<GenericAllRequiredPage> {
     List<Widget> widgets = List.empty(growable: true);
     widgets.add(segmentedWidget);
     if (snapshot.data.length > 0) {
-      for (var ingDetailIndex = 0;
+      for (int ingDetailIndex = 0;
           ingDetailIndex < snapshot.data.length;
           ingDetailIndex++) {
-        var indDetails = snapshot.data[ingDetailIndex];
+        RecipeIngredientDetails indDetails = snapshot.data[ingDetailIndex];
         widgets.add(recipeIngredientDetailTilePresenter(
             context, indDetails, ingDetailIndex));
       }

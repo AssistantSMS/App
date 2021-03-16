@@ -3,3 +3,4 @@
 - Improve steam news page
   - Fix placeholder steam image
 - Fix loading icon on iOS
+- Fix Cart not loading on some devices

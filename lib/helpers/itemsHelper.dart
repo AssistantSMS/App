@@ -1,4 +1,5 @@
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
+import 'package:scrapmechanic_kurtlourens_com/contracts/gameItem/gameItem.dart';
 
 import '../constants/IdPrefix.dart';
 import '../contracts/recipeIngredient/recipeIngredient.dart';
@@ -110,7 +111,7 @@ Future<List<RecipeIngredientDetails>> getRequiredItemDetailsSurfaceLevel(
     context, RecipeIngredient recipeIngredient) async {
   List<RecipeIngredientDetails> tempRequiredItems = List.empty(growable: true);
 
-  var ingredients = await getRequiredItemsSurfaceLevel(
+  List<RecipeIngredient> ingredients = await getRequiredItemsSurfaceLevel(
     context,
     RecipeIngredient(
       id: recipeIngredient.id,
@@ -118,11 +119,12 @@ Future<List<RecipeIngredientDetails>> getRequiredItemDetailsSurfaceLevel(
     ),
   );
 
-  for (var requiredItem in ingredients) {
+  for (RecipeIngredient requiredItem in ingredients) {
     ResultWithValue<IGameItemJsonService> genRepo =
         getGameItemRepoFromId(context, requiredItem.id);
     if (genRepo.hasFailed) continue;
-    var reqResult = await genRepo.value.getById(context, requiredItem.id);
+    ResultWithValue<GameItem> reqResult =
+        await genRepo.value.getById(context, requiredItem.id);
     if (reqResult.hasFailed) continue;
     LocaleKey langFile = getLangJsonFromItemId(requiredItem.id);
     tempRequiredItems.add(
@@ -163,7 +165,7 @@ Future<List<RecipeIngredientTreeDetails>> getAllRecipeIngredientDetailsForTree(
 Future<List<RecipeIngredientTreeDetails>> getAllRequiredItemsForTree(
     context, List<RecipeIngredient> requiredItems) async {
   List<RecipeIngredientTreeDetails> rawMaterials = List.empty(growable: true);
-  for (var reqItem in requiredItems) {
+  for (RecipeIngredient reqItem in requiredItems) {
     ResultWithValue<RecipeIngredientDetails> itemDetail =
         await getRecipeIngredientDetailsFuture(context, reqItem);
     if (itemDetail.hasFailed) continue;

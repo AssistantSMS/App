@@ -1,107 +1,107 @@
 [
   {
     "Id": "deco1",
-    "Title": "Produce Billboard"
+    "Title": "Cartellone produzione"
   },
   {
     "Id": "deco2",
-    "Title": "Berry Billboard"
+    "Title": "Cartellone bacche"
   },
   {
     "Id": "deco3",
-    "Title": "Sickle-Down Billboard"
+    "Title": "Cartellone pioggia di falcetti"
   },
   {
     "Id": "deco4",
-    "Title": "Warehouse Sign"
+    "Title": "Cartello Magazzino"
   },
   {
     "Id": "deco5",
-    "Title": "Elevator Sign"
+    "Title": "Cartello Ascensore"
   },
   {
     "Id": "deco6",
-    "Title": "Storage Sign"
+    "Title": "Cartello Locale di sgombero"
   },
   {
     "Id": "deco7",
-    "Title": "Packing Sign"
+    "Title": "Cartello Imballaggio"
   },
   {
     "Id": "deco8",
-    "Title": "Office Sign"
+    "Title": "Cartello Ufficio"
   },
   {
     "Id": "deco9",
-    "Title": "Utility Sign"
+    "Title": "Cartello Locale tecnico"
   },
   {
     "Id": "deco10",
-    "Title": "Man Sign"
+    "Title": "Cartello uomo"
   },
   {
     "Id": "deco11",
-    "Title": "Woman Sign"
+    "Title": "Cartello donna"
   },
   {
     "Id": "deco12",
-    "Title": "Recycling Bin"
+    "Title": "Cestino della raccolta differenziata"
   },
   {
     "Id": "deco13",
-    "Title": "Paper Stack"
+    "Title": "Pila di carta"
   },
   {
     "Id": "deco14",
-    "Title": "Old Restroom Mirror"
+    "Title": "Vecchio specchio di toilette"
   },
   {
     "Id": "deco15",
-    "Title": "Traffic Sign"
+    "Title": "Segnale stradale"
   },
   {
     "Id": "deco16",
-    "Title": "Metallic Tube"
+    "Title": "Tubo metallico"
   },
   {
     "Id": "deco17",
-    "Title": "Road Sign Base"
+    "Title": "Base per cartello stradale"
   },
   {
     "Id": "deco18",
-    "Title": "Cash Register"
+    "Title": "Registro di cassa"
   },
   {
     "Id": "deco19",
-    "Title": "Open Sign"
+    "Title": "Cartello Aperto"
   },
   {
     "Id": "deco20",
-    "Title": "Old Fruit Stand"
+    "Title": "Cesta di frutta vecchia"
   },
   {
     "Id": "deco21",
-    "Title": "Stacked Crates"
+    "Title": "Casse impilate"
   },
   {
     "Id": "deco22",
-    "Title": "Sunshake Vending Machine"
+    "Title": "Distributore di Sunshake"
   },
   {
     "Id": "deco23",
-    "Title": "Udder Decoration"
+    "Title": "Decorazione a mammella"
   },
   {
     "Id": "deco24",
-    "Title": "Haystack"
+    "Title": "Pagliaio"
   },
   {
     "Id": "deco25",
-    "Title": "Hay Bale"
+    "Title": "Balla di fieno"
   },
   {
     "Id": "deco26",
-    "Title": "Carta Igienica"
+    "Title": "Carta igienica"
   },
   {
     "Id": "deco27",
@@ -113,7 +113,7 @@
   },
   {
     "Id": "deco29",
-    "Title": "Scarpa Manichino"
+    "Title": "Scarpa di manichino"
   },
   {
     "Id": "deco30",
@@ -121,7 +121,7 @@
   },
   {
     "Id": "deco31",
-    "Title": "Statua Paperella"
+    "Title": "Statuetta di paperella"
   },
   {
     "Id": "deco32",
@@ -129,15 +129,15 @@
   },
   {
     "Id": "deco33",
-    "Title": "Bullone"
+    "Title": "Dado"
   },
   {
     "Id": "deco34",
-    "Title": "Simbolo Teschio"
+    "Title": "Simbolo teschio"
   },
   {
     "Id": "deco35",
-    "Title": "Cartello Zona di Costruzione"
+    "Title": "Cartello Zona cantiere"
   },
   {
     "Id": "deco36",
@@ -153,27 +153,27 @@
   },
   {
     "Id": "deco39",
-    "Title": "Cartello Attenzione ai Farmbot"
+    "Title": "Cartello pericolo Robofattori"
   },
   {
     "Id": "deco40",
-    "Title": "Cartello Benvenuti"
+    "Title": "Cartello Benvenuto"
   },
   {
     "Id": "deco41",
-    "Title": "Cartello Vietato Entrare"
+    "Title": "Cartello Vietato entrare"
   },
   {
     "Id": "deco42",
-    "Title": "Cartello Caduta Oggetti"
+    "Title": "Cartello Caduta oggetti"
   },
   {
     "Id": "deco43",
-    "Title": "Cartello Freccia"
+    "Title": "Freccia"
   },
   {
     "Id": "deco44",
-    "Title": "Cono Stradale"
+    "Title": "Cono stradale"
   },
   {
     "Id": "deco45",

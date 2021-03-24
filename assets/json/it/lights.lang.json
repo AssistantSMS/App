@@ -1,34 +1,34 @@
 [
   {
     "Id": "light1",
-    "Title": "Warehouse Wall Light"
+    "Title": "Luce da parete di magazzino"
   },
   {
     "Id": "light2",
-    "Title": "Packing Lamp"
+    "Title": "Lampada di imballaggio"
   },
   {
     "Id": "light3",
-    "Title": "Warehouse Fluorescent Light"
+    "Title": "Luce fluorescente di magazzino"
   },
   {
     "Id": "light4",
-    "Title": "Warehouse Square Light"
+    "Title": "Luce quadrata di magazzino"
   },
   {
     "Id": "light5",
-    "Title": "Warehouse Spotlight"
+    "Title": "Riflettore di magazzino"
   },
   {
     "Id": "light6",
-    "Title": "Warehouse Spot Small"
+    "Title": "Riflettore di magazzino piccolo"
   },
   {
     "Id": "light7",
-    "Title": "Luce"
+    "Title": "Faro"
   },
   {
     "Id": "light8",
-    "Title": "Faro regolabile"
+    "Title": "Riflettore di magazzino"
   }
 ]

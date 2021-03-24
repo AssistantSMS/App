@@ -1,62 +1,62 @@
 [
   {
     "Id": "surv1",
-    "Title": "Warehouse Key"
+    "Title": "Chiave elettronica di magazzino"
   },
   {
     "Id": "surv2",
-    "Title": "Key Reader"
+    "Title": "Lettore di chiavi elettroniche"
   },
   {
     "Id": "surv10",
-    "Title": "Elevator Button"
+    "Title": "Pulsante di ascensore"
   },
   {
     "Id": "surv11",
-    "Title": "Call Button"
+    "Title": "Pulsante Chiama"
   },
   {
     "Id": "surv13",
-    "Title": "Emergency Banana Box"
+    "Title": "Scatola di banane di emergenza"
   },
   {
     "Id": "surv14",
-    "Title": "Elevator Lamp"
+    "Title": "Luce di ascensore"
   },
   {
     "Id": "surv19",
-    "Title": "Mini Craftbot"
+    "Title": "Roboartigiano mini"
   },
   {
     "Id": "surv20",
-    "Title": "Capsule Door"
+    "Title": "Porta di capsula"
   },
   {
     "Id": "surv21",
-    "Title": "Master Battery Socket"
+    "Title": "Presa di batteria principale"
   },
   {
     "Id": "surv22",
-    "Title": "Master Battery"
+    "Title": "Batteria principale"
   },
   {
     "Id": "surv25",
-    "Title": "Ship Terminal"
+    "Title": "Terminale di astronave"
   },
   {
     "Id": "surv26",
-    "Title": "Caged Farmer"
+    "Title": "Fattore in gabbia"
   },
   {
     "Id": "surv28",
-    "Title": "Hideout Button"
+    "Title": "Pulsante Nascondiglio"
   },
   {
     "Id": "surv30",
-    "Title": "K.O. Bag"
+    "Title": "Sacca KO"
   },
   {
     "Id": "surv31",
-    "Title": "Ruin Chest"
+    "Title": "Cassa delle rovine"
   }
 ]

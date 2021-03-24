@@ -1,130 +1,130 @@
 [
   {
     "Id": "spaceship1",
-    "Title": "Ship Light"
+    "Title": "Luce di astronave"
   },
   {
     "Id": "spaceship2",
-    "Title": "Handle"
+    "Title": "Maniglia"
   },
   {
     "Id": "spaceship3",
-    "Title": "Ship Floor Tile"
+    "Title": "Piastrella di pavimento di astronave"
   },
   {
     "Id": "spaceship4",
-    "Title": "Ship Ventilation"
+    "Title": "Aerazione di astronave"
   },
   {
     "Id": "spaceship5",
-    "Title": "Ship Compartment"
+    "Title": "Scompartimento di astronave"
   },
   {
     "Id": "spaceship6",
-    "Title": "Ship Dual fan"
+    "Title": "Ventilatore doppio di astronave"
   },
   {
     "Id": "spaceship7",
-    "Title": "Warehouse Brick Lamp"
+    "Title": "Lampada di magazzino di mattoni"
   },
   {
     "Id": "spaceship8",
-    "Title": "Net frame"
+    "Title": "Telaio a rete"
   },
   {
     "Id": "spaceship9",
-    "Title": "Net frame hatch"
+    "Title": "Portello di telaio a rete"
   },
   {
     "Id": "spaceship10",
-    "Title": "Ship Shelf"
+    "Title": "Mensola di astronave"
   },
   {
     "Id": "spaceship11",
-    "Title": "Calendar"
+    "Title": "Calendario"
   },
   {
     "Id": "spaceship13",
-    "Title": "Broken Microwave"
+    "Title": "Microonde rotto"
   },
   {
     "Id": "spaceship14",
-    "Title": "Crane Wheel"
+    "Title": "Ruota di gru"
   },
   {
     "Id": "spaceship15",
-    "Title": "Ship Wall Panel Large"
+    "Title": "Pannello di parete di astronave grande"
   },
   {
     "Id": "spaceship30",
-    "Title": "Ship Wall Panel Small"
+    "Title": "Pannello di parete di astronave piccolo"
   },
   {
     "Id": "spaceship31",
-    "Title": "Ship Wall Panel Medium"
+    "Title": "Pannello di parete di astronave medio"
   },
   {
     "Id": "spaceship32",
-    "Title": "Ship Wall Panel Large"
+    "Title": "Pannello di parete di astronave grande"
   },
   {
     "Id": "spaceship33",
-    "Title": "Ship Wiring Short"
+    "Title": "Cablaggio di astronave corto"
   },
   {
     "Id": "spaceship34",
-    "Title": "Ship Wiring Long"
+    "Title": "Cablaggio di astronave lungo"
   },
   {
     "Id": "spaceship35",
-    "Title": "Ship Wiring End"
+    "Title": "Estremità di cablaggio di astronave"
   },
   {
     "Id": "spaceship36",
-    "Title": "Ship Floor Mold"
+    "Title": "Battiscopa di astronave"
   },
   {
     "Id": "spaceship37",
-    "Title": "Large Ship Floor Mold"
+    "Title": "Battiscopa di astronave grande"
   },
   {
     "Id": "spaceship38",
-    "Title": "Ship Opening Floor Mold"
+    "Title": "Battiscopa di apertura di astronave"
   },
   {
     "Id": "spaceship39",
-    "Title": "Small Ship Corner Floor Mold"
+    "Title": "Battiscopa di astronave angolato piccolo"
   },
   {
     "Id": "spaceship40",
-    "Title": "Large Ship Corner Floor Mold"
+    "Title": "Battiscopa di astronave angolato grande"
   },
   {
     "Id": "spaceship41",
-    "Title": "Diagonal Ship Floor Mold"
+    "Title": "Battiscopa di astronave piccolo diagonale"
   },
   {
     "Id": "spaceship42",
-    "Title": "Ship Blinds"
+    "Title": "Tendine di astronave"
   },
   {
     "Id": "spaceship43",
-    "Title": "Ship Ceiling Ventilation"
+    "Title": "Aerazione a soffitto di astronave"
   },
   {
     "Id": "spaceship44",
-    "Title": "Ship Ventilation Panel"
+    "Title": "Pannello di aerazione di astronave"
   },
   {
     "Id": "spaceship46",
-    "Title": "Master Battery Info Board"
+    "Title": "Pannello informazioni batteria principale"
   },
   {
     "Id": "spaceship47",
-    "Title": "Cartello d'uscita"
+    "Title": "Cartello Uscita"
   },
   {
     "Id": "spaceship48",
-    "Title": "Portellone di navicella di manutenzione"
+    "Title": "Porta di astronave di manutenzione"
   }
 ]

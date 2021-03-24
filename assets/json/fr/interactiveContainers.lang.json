@@ -1,22 +1,14 @@
 [
   {
     "Id": "interc1",
-    "Title": "Conteneur à eau"
-  },
-  {
-    "Id": "interc2",
     "Title": "Conteneur à engrais"
   },
   {
-    "Id": "interc3",
-    "Title": "Conteneur à munitions de patates"
-  },
-  {
-    "Id": "interc4",
+    "Id": "interc2",
     "Title": "Conteneur à graines"
   },
   {
-    "Id": "interc5",
+    "Id": "interc3",
     "Title": "Conteneur à produits chimiques"
   }
 ]

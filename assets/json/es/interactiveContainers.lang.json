@@ -1,22 +1,14 @@
 [
   {
     "Id": "interc1",
-    "Title": "Contenedor de agua"
-  },
-  {
-    "Id": "interc2",
     "Title": "Contenedor de fertilizante"
   },
   {
-    "Id": "interc3",
-    "Title": "Contenedor de munición de patatas"
-  },
-  {
-    "Id": "interc4",
+    "Id": "interc2",
     "Title": "Contenedor de semillas"
   },
   {
-    "Id": "interc5",
+    "Id": "interc3",
     "Title": "Contenedor químico"
   }
 ]

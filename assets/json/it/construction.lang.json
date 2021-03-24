@@ -1,82 +1,82 @@
 [
   {
     "Id": "constr1",
-    "Title": "Hollow Concrete"
+    "Title": "Foratino"
   },
   {
     "Id": "constr2",
-    "Title": "Broken Concrete Small"
+    "Title": "Cemento rotto piccolo"
   },
   {
     "Id": "constr3",
-    "Title": "Broken Concrete Medium"
+    "Title": "Cemento rotto medio"
   },
   {
     "Id": "constr4",
-    "Title": "Broken Concrete Large"
+    "Title": "Cemento rotto grande"
   },
   {
     "Id": "constr5",
-    "Title": "Barrier Stand"
+    "Title": "Supporto di barriera"
   },
   {
     "Id": "constr6",
-    "Title": "Cement Mix"
+    "Title": "Betoniera"
   },
   {
     "Id": "constr7",
-    "Title": "Concrete Block Mould"
+    "Title": "Stampo per blocco di cemento"
   },
   {
     "Id": "constr8",
-    "Title": "Carpet Roll"
+    "Title": "Rotolo di moquette"
   },
   {
     "Id": "constr9",
-    "Title": "Carpet Spool Holder"
+    "Title": "Sostegno per bobina di moquette"
   },
   {
     "Id": "constr10",
-    "Title": "Scaffold Plastic Wall"
+    "Title": "Parete in plastica di impalcatura"
   },
   {
     "Id": "constr11",
-    "Title": "Scaffold Ledger"
+    "Title": "Base di impalcatura"
   },
   {
     "Id": "constr12",
-    "Title": "Scaffold Frame"
+    "Title": "Telaio di impalcatura"
   },
   {
     "Id": "constr13",
-    "Title": "Scaffold Plank"
+    "Title": "Asse di impalcatura"
   },
   {
     "Id": "constr14",
-    "Title": "Construction Pallet"
+    "Title": "Pallet da costruzione"
   },
   {
     "Id": "constr15",
-    "Title": "Scaffold Pallet Ramp"
+    "Title": "Rampa di pallet di impalcatura"
   },
   {
     "Id": "constr16",
-    "Title": "Sound Isolation Small "
+    "Title": "Fonoisolamento piccolo "
   },
   {
     "Id": "constr17",
-    "Title": "Sound Isolation Large"
+    "Title": "Fonoisolamento grande"
   },
   {
     "Id": "constr18",
-    "Title": "Work Light"
+    "Title": "Luce di lavoro"
   },
   {
     "Id": "constr19",
-    "Title": "Paint Bucket"
+    "Title": "Barattolo di vernice"
   },
   {
     "Id": "constr20",
-    "Title": "Scaffolding Step"
+    "Title": "Gradino di impalcatura"
   }
 ]

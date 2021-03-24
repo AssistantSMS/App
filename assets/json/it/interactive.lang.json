@@ -1,178 +1,158 @@
 [
   {
     "Id": "intera1",
-    "Title": "Fridge"
+    "Title": "Frigorifero"
   },
   {
     "Id": "intera2",
-    "Title": "Locker"
+    "Title": "Armadietto"
   },
   {
     "Id": "intera3",
-    "Title": "File Cabinet"
+    "Title": "Schedario"
   },
   {
     "Id": "intera4",
-    "Title": "Chest"
+    "Title": "Cassa"
   },
   {
     "Id": "intera5",
-    "Title": "Large Chest"
+    "Title": "Protettore: Antidistruzione"
   },
   {
     "Id": "intera6",
-    "Title": "Protector: Anti-Destruction"
+    "Title": "Codificatore: Anticollegamento"
   },
   {
     "Id": "intera7",
-    "Title": "Encryptor: Anti-Connection"
+    "Title": "Sedile del water sporco"
   },
   {
     "Id": "intera8",
-    "Title": "Oily Toilet Seat"
+    "Title": "Robosarto"
   },
   {
     "Id": "intera9",
-    "Title": "Resource Collector"
+    "Title": "Sparapatate montabile"
   },
   {
     "Id": "intera10",
-    "Title": "Refinebot"
+    "Title": "Letto di rigenerazione"
   },
   {
     "Id": "intera11",
-    "Title": "Dressbot"
+    "Title": "Cuscinetti"
   },
   {
     "Id": "intera12",
-    "Title": "Water Cannon"
-  },
-  {
-    "Id": "intera13",
-    "Title": "Mountable Spud Gun"
-  },
-  {
-    "Id": "intera14",
-    "Title": "Respawn Bed"
-  },
-  {
-    "Id": "intera15",
-    "Title": "Beacon"
-  },
-  {
-    "Id": "intera16",
-    "Title": "Cuscinetto"
-  },
-  {
-    "Id": "intera17",
     "Title": "Sospensioni Sportive"
   },
   {
-    "Id": "intera18",
+    "Id": "intera13",
     "Title": "Sospensioni Fuoristrada"
   },
   {
-    "Id": "intera19",
+    "Id": "intera14",
     "Title": "Sedile di Guida"
   },
   {
-    "Id": "intera20",
+    "Id": "intera15",
     "Title": "Sedile"
   },
   {
-    "Id": "intera21",
+    "Id": "intera16",
     "Title": "Sellino di Guida"
   },
   {
-    "Id": "intera22",
+    "Id": "intera17",
     "Title": "Sellino"
   },
   {
-    "Id": "intera23",
-    "Title": "WC"
+    "Id": "intera18",
+    "Title": "Gabinetto"
   },
   {
-    "Id": "intera24",
+    "Id": "intera19",
     "Title": "Motore a Gas"
   },
   {
-    "Id": "intera25",
+    "Id": "intera20",
     "Title": "Motore Elettrico"
   },
   {
-    "Id": "intera26",
+    "Id": "intera21",
     "Title": "Propulsore"
   },
   {
-    "Id": "intera27",
+    "Id": "intera22",
     "Title": "Unità di controllo"
   },
   {
-    "Id": "intera28",
+    "Id": "intera23",
     "Title": "Interruttore"
   },
   {
-    "Id": "intera29",
+    "Id": "intera24",
     "Title": "Pulsante"
   },
   {
-    "Id": "intera30",
+    "Id": "intera25",
     "Title": "Sensore"
   },
   {
-    "Id": "intera31",
+    "Id": "intera26",
     "Title": "Radio"
   },
   {
-    "Id": "intera32",
-    "Title": "Clacson"
+    "Id": "intera27",
+    "Title": "Trombetta"
   },
   {
-    "Id": "intera33",
-    "Title": "Porta Logica"
+    "Id": "intera28",
+    "Title": "Porta logica"
   },
   {
-    "Id": "intera34",
+    "Id": "intera29",
     "Title": "Timer"
   },
   {
+    "Id": "intera30",
+    "Title": "Testa Robotrasportatore: Basso"
+  },
+  {
+    "Id": "intera31",
+    "Title": "Testa Robotrasportatore: Percussione"
+  },
+  {
+    "Id": "intera32",
+    "Title": "Testa Robotrasportatore: Voce sintetizzata"
+  },
+  {
+    "Id": "intera33",
+    "Title": "Testa Robotrasportatore: Bip"
+  },
+  {
+    "Id": "intera34",
+    "Title": "Vasca da bagno"
+  },
+  {
     "Id": "intera35",
-    "Title": "Testa Totebot: Basso"
-  },
-  {
-    "Id": "intera36",
-    "Title": "Testa Totebot: Percussioni"
-  },
-  {
-    "Id": "intera37",
-    "Title": "Testa Totebot: Sintetizzatore Vocale"
-  },
-  {
-    "Id": "intera38",
-    "Title": "Testa Totebot: Bip"
-  },
-  {
-    "Id": "intera39",
-    "Title": "Vasca"
-  },
-  {
-    "Id": "intera40",
     "Title": "Pistone"
   },
   {
-    "Id": "intera41",
+    "Id": "intera36",
     "Title": "Montatura squalo di Raft"
   },
   {
-    "Id": "intera42",
+    "Id": "intera37",
     "Title": "Spara-patate assemblabile"
   },
   {
-    "Id": "intera43",
-    "Title": "Small Explosive Canister"
+    "Id": "intera38",
+    "Title": "Piccolo barattolo di esplosivo"
   },
   {
-    "Id": "intera44",
-    "Title": "Large Explosive Canister"
+    "Id": "intera39",
+    "Title": "Grosso barattolo di esplosivo"
   }
 ]

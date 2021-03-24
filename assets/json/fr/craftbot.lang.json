@@ -1,10 +1,6 @@
 [
   {
     "Id": "craftb1",
-    "Title": "Cuisibot"
-  },
-  {
-    "Id": "craftb2",
     "Title": "Fabribot"
   }
 ]

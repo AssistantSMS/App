@@ -1,23 +1,23 @@
 [
   {
     "Id": "veh1",
-    "Title": "Concave Wedge"
+    "Title": "Cuneo concavo"
   },
   {
     "Id": "veh2",
-    "Title": "License Plate"
+    "Title": "Targa"
   },
   {
     "Id": "veh3",
-    "Title": "Metallic Tube Straight"
+    "Title": "Tubo metallico dritto"
   },
   {
     "Id": "veh4",
-    "Title": "Metallic Tube Bend"
+    "Title": "Tubo metallico curvo"
   },
   {
     "Id": "veh5",
-    "Title": "Rounded Frame Corner"
+    "Title": "Telaio arrotondato angolato"
   },
   {
     "Id": "veh6",
@@ -25,6 +25,6 @@
   },
   {
     "Id": "veh7",
-    "Title": "Ruota Grande"
+    "Title": "Grossa ruota"
   }
 ]

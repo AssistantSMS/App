@@ -13,70 +13,102 @@
   },
   {
     "Id": "other4",
-    "Title": "Pompa próżniowa"
+    "Title": "Beacon"
   },
   {
     "Id": "other5",
-    "Title": "Rura ssąca"
+    "Title": "Duża skrzynia"
   },
   {
     "Id": "other6",
-    "Title": "Narożnik rury ssącej"
+    "Title": "Pompa próżniowa"
   },
   {
     "Id": "other7",
-    "Title": "Zbiornik z benzyną"
+    "Title": "Rura ssąca"
   },
   {
     "Id": "other8",
-    "Title": "Pojemnik na akumulatory"
+    "Title": "Narożnik rury ssącej"
   },
   {
     "Id": "other9",
-    "Title": "Roślina doniczkowa"
+    "Title": "Zbiornik z benzyną"
   },
   {
     "Id": "other10",
-    "Title": "Mała roślina doniczkowa"
+    "Title": "Pojemnik na akumulatory"
   },
   {
     "Id": "other11",
-    "Title": "Winorośl doniczkowa"
+    "Title": "Zbiornik z wodą"
   },
   {
     "Id": "other12",
-    "Title": "Duża donica"
+    "Title": "Działko wodne"
   },
   {
     "Id": "other13",
-    "Title": "Roślina nasienna w donicy"
+    "Title": "Roślina doniczkowa"
   },
   {
     "Id": "other14",
-    "Title": "Kwitnący kaktus"
+    "Title": "Mała roślina doniczkowa"
   },
   {
     "Id": "other15",
-    "Title": "Kaktus w doniczce"
+    "Title": "Winorośl doniczkowa"
   },
   {
     "Id": "other16",
-    "Title": "Niebieski kwiat doniczkowy"
+    "Title": "Duża donica"
   },
   {
     "Id": "other17",
-    "Title": "Działko na kartofle"
+    "Title": "Roślina nasienna w donicy"
   },
   {
     "Id": "other18",
-    "Title": "Strzelba na kartofle"
+    "Title": "Kwitnący kaktus"
   },
   {
     "Id": "other19",
-    "Title": "Karabin kartoflany"
+    "Title": "Kaktus w doniczce"
   },
   {
     "Id": "other20",
+    "Title": "Niebieski kwiat doniczkowy"
+  },
+  {
+    "Id": "other21",
+    "Title": "Rafinobot"
+  },
+  {
+    "Id": "other22",
+    "Title": "Kolektor zasobów"
+  },
+  {
+    "Id": "other23",
+    "Title": "Kukbot"
+  },
+  {
+    "Id": "other24",
+    "Title": "Pojemnik na ziemniaczaną amunicję"
+  },
+  {
+    "Id": "other25",
+    "Title": "Działko na kartofle"
+  },
+  {
+    "Id": "other26",
+    "Title": "Strzelba na kartofle"
+  },
+  {
+    "Id": "other27",
+    "Title": "Karabin kartoflany"
+  },
+  {
+    "Id": "other28",
     "Title": "Łącznik"
   }
 ]

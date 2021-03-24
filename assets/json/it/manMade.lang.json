@@ -1,38 +1,38 @@
 [
   {
     "Id": "man1",
-    "Title": "Shack Wall"
+    "Title": "Parete di baracca"
   },
   {
     "Id": "man2",
-    "Title": "Shack Half Wall"
+    "Title": "Mezza parete di baracca"
   },
   {
     "Id": "man3",
-    "Title": "Shack Shade Sails"
+    "Title": "Coperture a vela di baracca"
   },
   {
     "Id": "man4",
-    "Title": "Shack Awning"
+    "Title": "Tendone di baracca"
   },
   {
     "Id": "man5",
-    "Title": "Shack Roof"
+    "Title": "Tetto di baracca"
   },
   {
     "Id": "man6",
-    "Title": "Shack Light"
+    "Title": "Luce di baracca"
   },
   {
     "Id": "man7",
-    "Title": "Fresh Neon Sign"
+    "Title": "Insegna neon Fresco"
   },
   {
     "Id": "man8",
-    "Title": "Hard Work Sign"
+    "Title": "Cartello Duro lavoro"
   },
   {
     "Id": "man9",
-    "Title": "Sale Sign"
+    "Title": "Cartello In vendita"
   }
 ]

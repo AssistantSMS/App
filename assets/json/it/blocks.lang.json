@@ -1,167 +1,167 @@
 [
   {
     "Id": "blk1",
-    "Title": "Scrap Wood Block"
+    "Title": "Blocco di legno di scarto"
   },
   {
     "Id": "blk2",
-    "Title": "Wood Block 2"
+    "Title": "Blocco di legno 2"
   },
   {
     "Id": "blk3",
-    "Title": "Wood Block 3"
+    "Title": "Blocco di legno 3"
   },
   {
     "Id": "blk4",
-    "Title": "Scrap Metal Block"
+    "Title": "Blocco di rottami metallici"
   },
   {
     "Id": "blk5",
-    "Title": "Metal Block 2"
+    "Title": "Blocco di metallo 2"
   },
   {
     "Id": "blk6",
-    "Title": "Metal Block 3"
+    "Title": "Blocco di metallo 3"
   },
   {
     "Id": "blk7",
-    "Title": "Scrap Stone Block"
+    "Title": "Blocco di pietra di scarto"
   },
   {
     "Id": "blk8",
-    "Title": "Concrete Block 2"
+    "Title": "Blocco di cemento 2"
   },
   {
     "Id": "blk9",
-    "Title": "Concrete Block 3"
+    "Title": "Blocco di cemento 3"
   },
   {
     "Id": "blk10",
-    "Title": "Cracked Concrete Block"
+    "Title": "Blocco di cemento crepato"
   },
   {
     "Id": "blk11",
-    "Title": "Concrete Slab Block"
+    "Title": "Blocco lastra di cemento"
   },
   {
     "Id": "blk12",
-    "Title": "Rusted Metal Block"
+    "Title": "Blocco di metallo arrugginito"
   },
   {
     "Id": "blk13",
-    "Title": "Extruded Metal Block"
+    "Title": "Blocco di metallo estruso"
   },
   {
     "Id": "blk14",
-    "Title": "Bubble Plastic Block"
+    "Title": "Blocco di pluriball"
   },
   {
     "Id": "blk15",
-    "Title": "Plastic Block"
+    "Title": "Blocco di plastica"
   },
   {
     "Id": "blk16",
-    "Title": "Insulation Block"
+    "Title": "Blocco isolante"
   },
   {
     "Id": "blk17",
-    "Title": "Plaster Block"
+    "Title": "Blocco di malta"
   },
   {
     "Id": "blk18",
-    "Title": "Carpet Block"
+    "Title": "Blocco di moquette"
   },
   {
     "Id": "blk19",
-    "Title": "Painted Wall Block"
+    "Title": "Blocco di parete verniciata"
   },
   {
     "Id": "blk20",
-    "Title": "Net Block"
+    "Title": "Blocco di rete"
   },
   {
     "Id": "blk21",
-    "Title": "Solid Net Block"
+    "Title": "Blocco di rete solida"
   },
   {
     "Id": "blk22",
-    "Title": "Punched Steel Block"
+    "Title": "Blocco di acciaio perforato"
   },
   {
     "Id": "blk23",
-    "Title": "Striped Net Block"
+    "Title": "Blocco di rete a strisce"
   },
   {
     "Id": "blk24",
-    "Title": "Square Mesh Block"
+    "Title": "Blocco a maglie quadrate"
   },
   {
     "Id": "blk25",
-    "Title": "Restroom Block"
+    "Title": "Blocco di toilette"
   },
   {
     "Id": "blk26",
-    "Title": "Diamond Plate Block"
+    "Title": "Blocco di lamiera bugnata"
   },
   {
     "Id": "blk27",
-    "Title": "Aluminum Block"
+    "Title": "Blocco d’alluminio"
   },
   {
     "Id": "blk28",
-    "Title": "Worn Metal Block"
+    "Title": "Blocco di metallo consumato"
   },
   {
     "Id": "blk29",
-    "Title": "Spaceship Floor Block"
+    "Title": "Blocco di pavimento d’astronave"
   },
   {
     "Id": "blk30",
-    "Title": "Sand Block"
+    "Title": "Blocco di sabbia"
   },
   {
     "Id": "blk31",
-    "Title": "Armored Glass Block"
+    "Title": "Blocco di vetro temprato"
   },
   {
     "Id": "blk32",
-    "Title": "Blocco di Cemento"
+    "Title": "Blocco di cemento 1"
   },
   {
     "Id": "blk33",
-    "Title": "Blocco di Legno"
+    "Title": "Blocco di legno 1"
   },
   {
     "Id": "blk34",
-    "Title": "Blocco di Metallo"
+    "Title": "Blocco di metallo 1"
   },
   {
     "Id": "blk35",
-    "Title": "Blocco Barriera"
+    "Title": "Blocco a barriera"
   },
   {
     "Id": "blk36",
-    "Title": "Blocco Mattonella"
+    "Title": "Blocco di mattonelle"
   },
   {
     "Id": "blk37",
-    "Title": "Blocco Mattone"
+    "Title": "Blocco di mattoni"
   },
   {
     "Id": "blk38",
-    "Title": "Blocco di Vetro"
+    "Title": "Blocco di vetro"
   },
   {
     "Id": "blk39",
-    "Title": "Blocco di Vetro"
+    "Title": "Blocco di mattonelle di vetro"
   },
   {
     "Id": "blk40",
-    "Title": "Blocco Luce Tracciato"
+    "Title": "Blocco percorso di luce"
   },
   {
     "Id": "blk41",
-    "Title": "Blocco di navicella di manutenzione"
+    "Title": "Blocco di astronave"
   },
   {
     "Id": "blk42",

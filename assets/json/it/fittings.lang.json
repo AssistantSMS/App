@@ -1,131 +1,131 @@
 [
   {
     "Id": "fitt1",
-    "Title": "Large Pipe Mount"
+    "Title": "Montatura tubo grande"
   },
   {
     "Id": "fitt2",
-    "Title": "Holder Support Leg Base"
+    "Title": "Base di gamba di supporto di sostegno"
   },
   {
     "Id": "fitt3",
-    "Title": "Holder Support Leg"
+    "Title": "Gamba di supporto di sostegno"
   },
   {
     "Id": "fitt4",
-    "Title": "Holder Support Bend"
+    "Title": "Curva di supporto di sostegno"
   },
   {
     "Id": "fitt5",
-    "Title": "Large Pipe Extension"
+    "Title": "Estensione di tubo grande"
   },
   {
     "Id": "fitt6",
-    "Title": "Large Pipe Cap"
+    "Title": "Tappo di tubo grande"
   },
   {
     "Id": "fitt7",
-    "Title": "Large Pipe Compressor"
+    "Title": "Compressore di tubo grande"
   },
   {
     "Id": "fitt8",
-    "Title": "Power Station"
+    "Title": "Centrale elettrica"
   },
   {
     "Id": "fitt9",
-    "Title": "Giant Pipe"
+    "Title": "Tubo gigante"
   },
   {
     "Id": "fitt10",
-    "Title": "Giant Pipe Glass Straight"
+    "Title": "Tubo gigante di vetro dritto"
   },
   {
     "Id": "fitt11",
-    "Title": "Giant Pipe Corner"
+    "Title": "Tubo gigante angolato"
   },
   {
     "Id": "fitt12",
-    "Title": "Giant Pipe Glass Corner"
+    "Title": "Tubo gigante di vetro angolato"
   },
   {
     "Id": "fitt13",
-    "Title": "Giant Pipe Tee"
+    "Title": "Tubo gigante a T"
   },
   {
     "Id": "fitt14",
-    "Title": "Giant Pipe Bracer"
+    "Title": "Rinforzo di tubo gigante"
   },
   {
     "Id": "fitt15",
-    "Title": "Giant Pipe Holder"
+    "Title": "Sostegno di tubo gigante"
   },
   {
     "Id": "fitt16",
-    "Title": "Warehouse Ventilation Short"
+    "Title": "Aerazione di magazzino corta"
   },
   {
     "Id": "fitt17",
-    "Title": "Warehouse Ventilation Long"
+    "Title": "Aerazione di magazzino lunga"
   },
   {
     "Id": "fitt18",
-    "Title": "Warehouse Ventilation Corner"
+    "Title": "Aerazione di magazzino angolata"
   },
   {
     "Id": "fitt19",
-    "Title": "Warehouse Ventilation Tee"
+    "Title": "Aerazione di magazzino a T"
   },
   {
     "Id": "fitt20",
-    "Title": "Warehouse Ventilation Mount"
+    "Title": "Montaggio di aerazione di magazzino"
   },
   {
     "Id": "fitt21",
-    "Title": "Warehouse Ventilation Drum"
+    "Title": "Tamburo aerazione di magazzino"
   },
   {
     "Id": "fitt22",
-    "Title": "Generator Pipe Short"
+    "Title": "Tubo di generatore corto"
   },
   {
     "Id": "fitt23",
-    "Title": "Generator Pipe Long"
+    "Title": "Tubo di generatore lungo"
   },
   {
     "Id": "fitt24",
-    "Title": "Generator Pipe Corner"
+    "Title": "Tubo di generatore angolato"
   },
   {
     "Id": "fitt25",
-    "Title": "Generator Pipe Tee"
+    "Title": "Tubo di generatore a T"
   },
   {
     "Id": "fitt26",
-    "Title": "Generator Pipe Four Way"
+    "Title": "Tubo di generatore a 4 raccordi"
   },
   {
     "Id": "fitt27",
-    "Title": "Duct Short"
+    "Title": "Condotto corto"
   },
   {
     "Id": "fitt28",
-    "Title": "Condotto Lungo"
+    "Title": "Condotto lungo"
   },
   {
     "Id": "fitt29",
-    "Title": "Angolo Condotto"
+    "Title": "Condotto angolato"
   },
   {
     "Id": "fitt30",
-    "Title": "Giunzione Condotto"
+    "Title": "Condotto di giunzione"
   },
   {
     "Id": "fitt31",
-    "Title": "Supporto Condotto"
+    "Title": "Sostegno di condotto"
   },
   {
     "Id": "fitt32",
-    "Title": "Estremità Condotto"
+    "Title": "Estremità di condotto"
   },
   {
     "Id": "fitt33",
@@ -133,19 +133,19 @@
   },
   {
     "Id": "fitt34",
-    "Title": "Tubo Corto"
+    "Title": "Tubo corto"
   },
   {
     "Id": "fitt35",
-    "Title": "Tubo Lungo"
+    "Title": "Tubo lungo"
   },
   {
     "Id": "fitt36",
-    "Title": "Angolo Tubo"
+    "Title": "Tubo angolato"
   },
   {
     "Id": "fitt37",
-    "Title": "Giunzione Tubo"
+    "Title": "Tubo di giunzione"
   },
   {
     "Id": "fitt38",
@@ -153,94 +153,94 @@
   },
   {
     "Id": "fitt39",
-    "Title": "Tubo Largo Corto"
+    "Title": "Tubo grande corto"
   },
   {
     "Id": "fitt40",
-    "Title": "Tubo Largo Lungo"
+    "Title": "Tubo grande lungo"
   },
   {
     "Id": "fitt41",
-    "Title": "Angolo Tubo Largo"
+    "Title": "Tubo grande angolato"
   },
   {
     "Id": "fitt42",
-    "Title": "Giunzione Tubo Largo"
+    "Title": "Tubo grande di giunzione"
   },
   {
     "Id": "fitt43",
-    "Title": "Cavi Corti"
+    "Title": "Cavi corti"
   },
   {
     "Id": "fitt44",
-    "Title": "Cavi Lunghi"
+    "Title": "Cavi lunghi"
   },
   {
     "Id": "fitt45",
-    "Title": "Curva Cavi"
+    "Title": "Cavi curvi"
   },
   {
     "Id": "fitt46",
-    "Title": "Curva Cavi Convessi"
+    "Title": "Cavi con curva convessa"
   },
   {
     "Id": "fitt47",
-    "Title": "Curva Cavi Concavi"
+    "Title": "Cavi con curva concava"
   },
   {
     "Id": "fitt48",
-    "Title": "Scatola Fusibili"
+    "Title": "Scatola dei fusibili"
   },
   {
     "Id": "fitt49",
-    "Title": "Tubi Corti"
+    "Title": "Tubatura corta"
   },
   {
     "Id": "fitt50",
-    "Title": "Tubi Lunghi"
+    "Title": "Tubatura lunga"
   },
   {
     "Id": "fitt51",
-    "Title": "Angolo Tubi"
+    "Title": "Tubatura angolata"
   },
   {
     "Id": "fitt52",
-    "Title": "Giunzione Tubi"
+    "Title": "Tubatura di giunzione"
   },
   {
     "Id": "fitt53",
-    "Title": "Tubo Piccolo Corto"
+    "Title": "Tubo piccolo corto"
   },
   {
     "Id": "fitt54",
-    "Title": "Tubo Piccolo Lungo"
+    "Title": "Tubo piccolo lungo"
   },
   {
     "Id": "fitt55",
-    "Title": "Tubo Piccolo Piega"
+    "Title": "Tubo piccolo curvo"
   },
   {
     "Id": "fitt56",
-    "Title": "Tubo Piccolo Raccordo"
+    "Title": "Tubo piccolo a T"
   },
   {
     "Id": "fitt57",
-    "Title": "Tubo Piccolo Angolo"
+    "Title": "Tubo piccolo angolato"
   },
   {
     "Id": "fitt58",
-    "Title": "Tubo Piccolo Quattro Uscite"
+    "Title": "Tubo piccolo a 4 raccordi"
   },
   {
     "Id": "fitt59",
-    "Title": "Tubo Piccolo Quattro Uscite Raccordo"
+    "Title": "Tubo piccolo a T a 4 raccordi"
   },
   {
     "Id": "fitt60",
-    "Title": "Tubo Piccolo Cinque Uscite"
+    "Title": "Tubo piccolo a 5 raccordi"
   },
   {
     "Id": "fitt61",
-    "Title": "Tubo Piccolo Sei Uscite"
+    "Title": "Tubo piccolo a 6 raccordi"
   }
 ]

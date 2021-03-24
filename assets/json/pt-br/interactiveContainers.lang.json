@@ -1,22 +1,14 @@
 [
   {
     "Id": "interc1",
-    "Title": "Reservatório de Água"
-  },
-  {
-    "Id": "interc2",
     "Title": "Caixa de Fertilizante"
   },
   {
-    "Id": "interc3",
-    "Title": "Caixa de Munição de Batatas"
-  },
-  {
-    "Id": "interc4",
+    "Id": "interc2",
     "Title": "Caixa de Sementes"
   },
   {
-    "Id": "interc5",
+    "Id": "interc3",
     "Title": "Contêiner Químico"
   }
 ]

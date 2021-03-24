@@ -1,22 +1,14 @@
 [
   {
     "Id": "interc1",
-    "Title": "Wasserbehälter"
-  },
-  {
-    "Id": "interc2",
     "Title": "Düngemittelbehälter"
   },
   {
-    "Id": "interc3",
-    "Title": "Behälter für Kartoffelmunition"
-  },
-  {
-    "Id": "interc4",
+    "Id": "interc2",
     "Title": "Samenbehälter"
   },
   {
-    "Id": "interc5",
+    "Id": "interc3",
     "Title": "Behälter für Chemikalien"
   }
 ]

@@ -13,70 +13,102 @@
   },
   {
     "Id": "other4",
-    "Title": "Vacuum Pump"
+    "Title": "Beacon"
   },
   {
     "Id": "other5",
-    "Title": "Vacuum Pipe"
+    "Title": "Grossa cassa"
   },
   {
     "Id": "other6",
-    "Title": "Vacuum Pipe Corner"
+    "Title": "Pompa a vuoto"
   },
   {
     "Id": "other7",
-    "Title": "Gas Container"
+    "Title": "Tubo sottovuoto"
   },
   {
     "Id": "other8",
-    "Title": "Battery Container"
+    "Title": "Tubo sottovuoto angolato"
   },
   {
     "Id": "other9",
-    "Title": "Pianta in Vaso"
+    "Title": "Serbatoio di benzina"
   },
   {
     "Id": "other10",
-    "Title": "Pianta Piccola in Vaso"
+    "Title": "Alloggiamento per batterie"
   },
   {
     "Id": "other11",
-    "Title": "Pianta Rampicante in Vaso"
+    "Title": "Serbatoio d’acqua"
   },
   {
     "Id": "other12",
-    "Title": "Vaso Grande"
+    "Title": "Irrigatore a cannone"
   },
   {
     "Id": "other13",
-    "Title": "Pianta Seminata in Vaso"
+    "Title": "Pianta in vaso"
   },
   {
     "Id": "other14",
-    "Title": "Cactus in Fiore in Vaso"
+    "Title": "Pianta in vaso piccola"
   },
   {
     "Id": "other15",
-    "Title": "Cactus in Vaso"
+    "Title": "Pianta rampicante in vaso"
   },
   {
     "Id": "other16",
-    "Title": "Fiore Blu in Vaso"
+    "Title": "Vaso grande"
   },
   {
     "Id": "other17",
-    "Title": "Spud Gun"
+    "Title": "Pianta da seme in vaso"
   },
   {
     "Id": "other18",
-    "Title": "Spud Shotgun"
+    "Title": "Cactus in fiore in vaso"
   },
   {
     "Id": "other19",
-    "Title": "Spudling Gun"
+    "Title": "Cactus in vaso"
   },
   {
     "Id": "other20",
+    "Title": "Fiore blu in vaso"
+  },
+  {
+    "Id": "other21",
+    "Title": "Roboraffinatore"
+  },
+  {
+    "Id": "other22",
+    "Title": "Raccoglitore di risorse"
+  },
+  {
+    "Id": "other23",
+    "Title": "Robochef"
+  },
+  {
+    "Id": "other24",
+    "Title": "Contenitore di munizioni tuberose"
+  },
+  {
+    "Id": "other25",
+    "Title": "Sparapatate"
+  },
+  {
+    "Id": "other26",
+    "Title": "Fucile sparapatate"
+  },
+  {
+    "Id": "other27",
+    "Title": "Mitragliatrice sparapatate"
+  },
+  {
+    "Id": "other28",
     "Title": "Connettore"
   }
 ]

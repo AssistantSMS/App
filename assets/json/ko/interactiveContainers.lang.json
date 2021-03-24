@@ -1,22 +1,14 @@
 [
   {
     "Id": "interc1",
-    "Title": "물통"
-  },
-  {
-    "Id": "interc2",
     "Title": "비료 용기"
   },
   {
-    "Id": "interc3",
-    "Title": "감자총알통"
-  },
-  {
-    "Id": "interc4",
+    "Id": "interc2",
     "Title": "씨앗통"
   },
   {
-    "Id": "interc5",
+    "Id": "interc3",
     "Title": "화학물질 용기"
   }
 ]

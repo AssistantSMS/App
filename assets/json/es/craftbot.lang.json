@@ -1,10 +1,6 @@
 [
   {
     "Id": "craftb1",
-    "Title": "Robot de cocina"
-  },
-  {
-    "Id": "craftb2",
     "Title": "Robot artesano"
   }
 ]

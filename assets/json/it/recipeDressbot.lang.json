@@ -1,17 +1,17 @@
 [
   {
     "Id": "recipeDress1",
-    "Title": "Garment Box (Common)",
-    "Description": "Use it in a Dressbot to make new clothes."
+    "Title": "Scatola di vestiti (comune)",
+    "Description": "Utilizzala all’interno di un Robosarto per confezionare nuovi indumenti."
   },
   {
     "Id": "recipeDress2",
-    "Title": "Garment Box (Rare)",
-    "Description": "Use it in a Dressbot to make new clothes."
+    "Title": "Scatola di vestiti (rara)",
+    "Description": "Utilizzala all’interno di un Robosarto per confezionare nuovi indumenti."
   },
   {
     "Id": "recipeDress3",
-    "Title": "Garment Box (Epic)",
-    "Description": "Use it in a Dressbot to make new clothes."
+    "Title": "Scatola di vestiti (leggendaria)",
+    "Description": "Utilizzala all’interno di un Robosarto per confezionare nuovi indumenti."
   }
 ]

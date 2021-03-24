@@ -13,70 +13,102 @@
   },
   {
     "Id": "other4",
-    "Title": "Vacuum Pump"
+    "Title": "Beacon"
   },
   {
     "Id": "other5",
-    "Title": "Vacuum Pipe"
+    "Title": "Large Chest"
   },
   {
     "Id": "other6",
-    "Title": "Vacuum Pipe Corner"
+    "Title": "Vacuum Pump"
   },
   {
     "Id": "other7",
-    "Title": "Gas Container"
+    "Title": "Vacuum Pipe"
   },
   {
     "Id": "other8",
-    "Title": "Battery Container"
+    "Title": "Vacuum Pipe Corner"
   },
   {
     "Id": "other9",
-    "Title": "Potted Plant"
+    "Title": "Gas Container"
   },
   {
     "Id": "other10",
-    "Title": "Small Potted Plant"
+    "Title": "Battery Container"
   },
   {
     "Id": "other11",
-    "Title": "Potted Vine Plant"
+    "Title": "Water Container"
   },
   {
     "Id": "other12",
-    "Title": "Big Pot"
+    "Title": "Water Cannon"
   },
   {
     "Id": "other13",
-    "Title": "Potted Seed Plant"
+    "Title": "Potted Plant"
   },
   {
     "Id": "other14",
-    "Title": "Potted Blooming Cactus"
+    "Title": "Small Potted Plant"
   },
   {
     "Id": "other15",
-    "Title": "Potted Cactus"
+    "Title": "Potted Vine Plant"
   },
   {
     "Id": "other16",
-    "Title": "Potted Blue Flower"
+    "Title": "Big Pot"
   },
   {
     "Id": "other17",
-    "Title": "Spud Gun"
+    "Title": "Potted Seed Plant"
   },
   {
     "Id": "other18",
-    "Title": "Spud Shotgun"
+    "Title": "Potted Blooming Cactus"
   },
   {
     "Id": "other19",
-    "Title": "Spudling Gun"
+    "Title": "Potted Cactus"
   },
   {
     "Id": "other20",
+    "Title": "Potted Blue Flower"
+  },
+  {
+    "Id": "other21",
+    "Title": "Refinebot"
+  },
+  {
+    "Id": "other22",
+    "Title": "Resource Collector"
+  },
+  {
+    "Id": "other23",
+    "Title": "Cookbot"
+  },
+  {
+    "Id": "other24",
+    "Title": "Potato Ammo Container"
+  },
+  {
+    "Id": "other25",
+    "Title": "Spud Gun"
+  },
+  {
+    "Id": "other26",
+    "Title": "Spud Shotgun"
+  },
+  {
+    "Id": "other27",
+    "Title": "Spudling Gun"
+  },
+  {
+    "Id": "other28",
     "Title": "Connect Tool"
   }
 ]

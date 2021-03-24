@@ -1,46 +1,46 @@
 [
   {
     "Id": "reso1",
-    "Title": "Ember"
+    "Title": "Brace"
   },
   {
     "Id": "reso2",
-    "Title": "Beeswax"
+    "Title": "Cera d’api"
   },
   {
     "Id": "reso3",
-    "Title": "Glue Clam"
+    "Title": "Vongola collosa"
   },
   {
     "Id": "reso4",
-    "Title": "Cotton"
+    "Title": "Cotone"
   },
   {
     "Id": "reso5",
-    "Title": "Corn"
+    "Title": "Mais"
   },
   {
     "Id": "reso6",
-    "Title": "Circuit Board"
+    "Title": "Scheda elettronica"
   },
   {
     "Id": "reso7",
-    "Title": "Woc Steak"
+    "Title": "Bistecca di woc"
   },
   {
     "Id": "reso8",
-    "Title": "Glow"
+    "Title": "Bagliore"
   },
   {
     "Id": "reso9",
-    "Title": "Pigment Flower"
+    "Title": "Fiore pigmento"
   },
   {
     "Id": "reso10",
-    "Title": "Glue"
+    "Title": "Colla"
   },
   {
     "Id": "reso11",
-    "Title": "Crude Oil"
+    "Title": "Petrolio greggio"
   }
 ]

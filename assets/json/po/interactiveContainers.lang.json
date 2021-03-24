@@ -1,22 +1,14 @@
 [
   {
     "Id": "interc1",
-    "Title": "Zbiornik z wodą"
-  },
-  {
-    "Id": "interc2",
     "Title": "Zbiornik z nawozem"
   },
   {
-    "Id": "interc3",
-    "Title": "Pojemnik na ziemniaczaną amunicję"
-  },
-  {
-    "Id": "interc4",
+    "Id": "interc2",
     "Title": "Pojemnik na nasiona"
   },
   {
-    "Id": "interc5",
+    "Id": "interc3",
     "Title": "Zbiornik z chemikaliami"
   }
 ]

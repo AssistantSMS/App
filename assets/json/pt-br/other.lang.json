@@ -13,70 +13,102 @@
   },
   {
     "Id": "other4",
-    "Title": "Bomba de Vácuo"
+    "Title": "Beacon"
   },
   {
     "Id": "other5",
-    "Title": "Cano de Vácuo"
+    "Title": "Baú Grande"
   },
   {
     "Id": "other6",
-    "Title": "Cano de Vácuo Convergente"
+    "Title": "Bomba de Vácuo"
   },
   {
     "Id": "other7",
-    "Title": "Contêiner de Gasolina"
+    "Title": "Cano de Vácuo"
   },
   {
     "Id": "other8",
-    "Title": "Caixa de Bateria"
+    "Title": "Cano de Vácuo Convergente"
   },
   {
     "Id": "other9",
-    "Title": "Vaso de Planta"
+    "Title": "Contêiner de Gasolina"
   },
   {
     "Id": "other10",
-    "Title": "Vaso de Planta Pequeno"
+    "Title": "Caixa de Bateria"
   },
   {
     "Id": "other11",
-    "Title": "Vaso de Videira"
+    "Title": "Reservatório de Água"
   },
   {
     "Id": "other12",
-    "Title": "Vaso Grande"
+    "Title": "Canhão de Água"
   },
   {
     "Id": "other13",
-    "Title": "Vaso de Broto"
+    "Title": "Vaso de Planta"
   },
   {
     "Id": "other14",
-    "Title": "Vaso de Cacto Florido"
+    "Title": "Vaso de Planta Pequeno"
   },
   {
     "Id": "other15",
-    "Title": "Vaso de Cacto"
+    "Title": "Vaso de Videira"
   },
   {
     "Id": "other16",
-    "Title": "Vaso de Flor Azul"
+    "Title": "Vaso Grande"
   },
   {
     "Id": "other17",
-    "Title": "Batatarma"
+    "Title": "Vaso de Broto"
   },
   {
     "Id": "other18",
-    "Title": "Batatarma de Cano Duplo"
+    "Title": "Vaso de Cacto Florido"
   },
   {
     "Id": "other19",
-    "Title": "Batatalhadora"
+    "Title": "Vaso de Cacto"
   },
   {
     "Id": "other20",
+    "Title": "Vaso de Flor Azul"
+  },
+  {
+    "Id": "other21",
+    "Title": "Robô Refinador"
+  },
+  {
+    "Id": "other22",
+    "Title": "Coletor de Recursos"
+  },
+  {
+    "Id": "other23",
+    "Title": "Robô Cozinheiro"
+  },
+  {
+    "Id": "other24",
+    "Title": "Caixa de Munição de Batatas"
+  },
+  {
+    "Id": "other25",
+    "Title": "Batatarma"
+  },
+  {
+    "Id": "other26",
+    "Title": "Batatarma de Cano Duplo"
+  },
+  {
+    "Id": "other27",
+    "Title": "Batatalhadora"
+  },
+  {
+    "Id": "other28",
     "Title": "Ferramenta de Conexão"
   }
 ]

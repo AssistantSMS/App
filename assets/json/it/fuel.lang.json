@@ -1,10 +1,18 @@
 [
   {
     "Id": "fuel1",
-    "Title": "Gasoline"
+    "Title": "Carburante"
   },
   {
     "Id": "fuel2",
-    "Title": "Battery"
+    "Title": "Batteria"
+  },
+  {
+    "Id": "fuel3",
+    "Title": "Acqua"
+  },
+  {
+    "Id": "fuel4",
+    "Title": "Patata"
   }
 ]

@@ -13,70 +13,102 @@
   },
   {
     "Id": "other4",
-    "Title": "Bomba de vacío"
+    "Title": "Beacon"
   },
   {
     "Id": "other5",
-    "Title": "Tubería de bomba"
+    "Title": "Cofre grande"
   },
   {
     "Id": "other6",
-    "Title": "Esquina de tubería de bomba"
+    "Title": "Bomba de vacío"
   },
   {
     "Id": "other7",
-    "Title": "Contenedor de gasolina"
+    "Title": "Tubería de bomba"
   },
   {
     "Id": "other8",
-    "Title": "Contenedor de batería"
+    "Title": "Esquina de tubería de bomba"
   },
   {
     "Id": "other9",
-    "Title": "Maceta"
+    "Title": "Contenedor de gasolina"
   },
   {
     "Id": "other10",
-    "Title": "Maceta pequeña"
+    "Title": "Contenedor de batería"
   },
   {
     "Id": "other11",
-    "Title": "Maceta de vid"
+    "Title": "Contenedor de agua"
   },
   {
     "Id": "other12",
-    "Title": "Maceta grande"
+    "Title": "Cañón de agua"
   },
   {
     "Id": "other13",
-    "Title": "Semilla en maceta"
+    "Title": "Maceta"
   },
   {
     "Id": "other14",
-    "Title": "Maceta de cactus floreciente"
+    "Title": "Maceta pequeña"
   },
   {
     "Id": "other15",
-    "Title": "Maceta de cactus"
+    "Title": "Maceta de vid"
   },
   {
     "Id": "other16",
-    "Title": "Maceta de flor azul"
+    "Title": "Maceta grande"
   },
   {
     "Id": "other17",
-    "Title": "Lanzapapas"
+    "Title": "Semilla en maceta"
   },
   {
     "Id": "other18",
-    "Title": "Escopeta lanzapapas"
+    "Title": "Maceta de cactus floreciente"
   },
   {
     "Id": "other19",
-    "Title": "Papatralleta"
+    "Title": "Maceta de cactus"
   },
   {
     "Id": "other20",
+    "Title": "Maceta de flor azul"
+  },
+  {
+    "Id": "other21",
+    "Title": "Procesabot"
+  },
+  {
+    "Id": "other22",
+    "Title": "Recogedor de recursos"
+  },
+  {
+    "Id": "other23",
+    "Title": "Robot de cocina"
+  },
+  {
+    "Id": "other24",
+    "Title": "Contenedor de munición de patatas"
+  },
+  {
+    "Id": "other25",
+    "Title": "Lanzapapas"
+  },
+  {
+    "Id": "other26",
+    "Title": "Escopeta lanzapapas"
+  },
+  {
+    "Id": "other27",
+    "Title": "Papatralleta"
+  },
+  {
+    "Id": "other28",
     "Title": "Herramienta de Conexión"
   }
 ]

@@ -13,70 +13,102 @@
   },
   {
     "Id": "other4",
-    "Title": "Vakuumpumpe"
+    "Title": "Beacon"
   },
   {
     "Id": "other5",
-    "Title": "Vakuumrohr"
+    "Title": "Große Truhe"
   },
   {
     "Id": "other6",
-    "Title": "Vakuumrohr (Eckteil)"
+    "Title": "Vakuumpumpe"
   },
   {
     "Id": "other7",
-    "Title": "Benzinbehälter"
+    "Title": "Vakuumrohr"
   },
   {
     "Id": "other8",
-    "Title": "Batteriebehälter"
+    "Title": "Vakuumrohr (Eckteil)"
   },
   {
     "Id": "other9",
-    "Title": "Eingetopfte Pflanze"
+    "Title": "Benzinbehälter"
   },
   {
     "Id": "other10",
-    "Title": "Eingetopfte kleine Pflanze"
+    "Title": "Batteriebehälter"
   },
   {
     "Id": "other11",
-    "Title": "Eingetopfter Weinstock"
+    "Title": "Wasserbehälter"
   },
   {
     "Id": "other12",
-    "Title": "Großer Topf"
+    "Title": "Wasserkanone"
   },
   {
     "Id": "other13",
-    "Title": "Eingetopfte Samenpflanze"
+    "Title": "Eingetopfte Pflanze"
   },
   {
     "Id": "other14",
-    "Title": "Eingetopfter blühender Kaktus"
+    "Title": "Eingetopfte kleine Pflanze"
   },
   {
     "Id": "other15",
-    "Title": "Eingetopfter Kaktus"
+    "Title": "Eingetopfter Weinstock"
   },
   {
     "Id": "other16",
-    "Title": "Eingetopfte blaue Blume"
+    "Title": "Großer Topf"
   },
   {
     "Id": "other17",
-    "Title": "Knollenkanone"
+    "Title": "Eingetopfte Samenpflanze"
   },
   {
     "Id": "other18",
-    "Title": "Knollenflinte"
+    "Title": "Eingetopfter blühender Kaktus"
   },
   {
     "Id": "other19",
-    "Title": "Knollen-Maschinengewehr"
+    "Title": "Eingetopfter Kaktus"
   },
   {
     "Id": "other20",
+    "Title": "Eingetopfte blaue Blume"
+  },
+  {
+    "Id": "other21",
+    "Title": "Veredelungsbot"
+  },
+  {
+    "Id": "other22",
+    "Title": "Ressourcensammler"
+  },
+  {
+    "Id": "other23",
+    "Title": "Kochbot"
+  },
+  {
+    "Id": "other24",
+    "Title": "Behälter für Kartoffelmunition"
+  },
+  {
+    "Id": "other25",
+    "Title": "Knollenkanone"
+  },
+  {
+    "Id": "other26",
+    "Title": "Knollenflinte"
+  },
+  {
+    "Id": "other27",
+    "Title": "Knollen-Maschinengewehr"
+  },
+  {
+    "Id": "other28",
     "Title": "Verbindungswerkzeug"
   }
 ]

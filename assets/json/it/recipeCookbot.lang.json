@@ -1,17 +1,17 @@
 [
   {
     "Id": "recipeCook1",
-    "Title": "Pizza Burger",
-    "Description": "A mechanics favorite food. Fills up all your meters to the max."
+    "Title": "Pizza burger",
+    "Description": "La pietanza preferita di qualsiasi meccanico. Riempie le tue barre al massimo."
   },
   {
     "Id": "recipeCook2",
-    "Title": "Veggie Burger",
-    "Description": "A vegetarian alternative. Fills up all your meters to the max."
+    "Title": "Hamburger vegetariano",
+    "Description": "Alternativa vegetariana. Riempie le tue barre al massimo."
   },
   {
     "Id": "recipeCook3",
-    "Title": "Revival Baguette",
-    "Description": "Feed your fallen friends to get them back on their feet and back in action."
+    "Title": "Baguette di rianimazione",
+    "Description": "Usala per rimettere in sesto i tuoi amici a terra e farli tornare in azione."
   }
 ]

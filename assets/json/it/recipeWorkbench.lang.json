@@ -1,28 +1,28 @@
 [
   {
     "Id": "recipeWorkbench1",
-    "Title": "Scrap Gas Engine",
-    "Description": "An engine with uneven speed and adjustable power, ideally suited to powering vehicles. Can be connected to a driver's seat or trigger. This Engine is not upgradable."
+    "Title": "Motori a benzina di scarto",
+    "Description": "Un motore a velocità irregolare con potenza regolabile, idealmente adatto per alimentare i veicoli. Può essere collegato a un sedile di guida o a un attivatore. Questo motore non può essere migliorato."
   },
   {
     "Id": "recipeWorkbench2",
-    "Title": "Scrap Driver's Seat",
-    "Description": "Makes bearings turn left and right. Can be connected to an engine to control the direction of travel. Can also be connected to triggers that can be activated from the seat. This Drive's Seat is not upgradable."
+    "Title": "Sedile di guida di scarto",
+    "Description": "Permette ai cuscinetti di girare lateralmente. Può essere collegata a un motore per controllare la direzione di guida. Può anche essere collegato agli attivatori che possono essere attivati dal sedile stesso. Questo sedile di guida non può essere migliorato."
   },
   {
     "Id": "recipeWorkbench3",
-    "Title": "Scrap Seat",
-    "Description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. This Seat is not upgradable."
+    "Title": "Sedile di scarto",
+    "Description": "Si usa per non dover stare in piedi. Siediti pure e rilassati, oppure aggiungila al tuo veicolo in modo che i tuoi amici possano accompagnarti. Questo sedile non può essere migliorato."
   },
   {
     "Id": "recipeWorkbench4",
-    "Title": "Scrap Wheel",
-    "Description": "Not perfectly round."
+    "Title": "Ruota di scarto",
+    "Description": "Non è perfettamente tonda."
   },
   {
     "Id": "recipeWorkbench5",
-    "Title": "Cuscinetto",
-    "Description": "Tutto quello che metti sui cuscinetti ruoterà. I cuscinetti possono essere anche collegati a un motore o al sedile di guida per essere controllati in modi diversi."
+    "Title": "Cuscinetti",
+    "Description": "Tutto ciò che viene collegato ai cuscinetti ruoterà. Inoltre, è possibile collegare i cuscinetti a un motore o a un sedile di guida per controllarli in vari modi."
   },
   {
     "Id": "recipeWorkbench6",
@@ -31,12 +31,12 @@
   {
     "Id": "recipeWorkbench7",
     "Title": "Interruttore",
-    "Description": "Spegni o accendi quanto ti pare. L'interruttore attiva qualunque cosa a cui è collegato, rendendolo indispensabile per spegnere o accendere in un solo clic. Può attivare un motore, un propulsore, l'unità di controllo e altro."
+    "Description": "Commutazione illimitata su richiesta. L’interruttore attiva qualsiasi oggetto a cui sia collegato, il che lo rende indispensabile per accendere o spegnere qualsiasi cosa con un solo tocco. Può attivare un motore, un propulsore, un’unità di controllo e altro."
   },
   {
     "Id": "recipeWorkbench8",
     "Title": "Pulsante",
-    "Description": "Fa funzionare le cose. Il pulsante attiva le cose finché rimane premuto."
+    "Description": "Attiva cose varie, finché rimane premuto."
   },
   {
     "Id": "recipeWorkbench9",

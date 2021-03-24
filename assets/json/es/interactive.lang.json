@@ -17,162 +17,142 @@
   },
   {
     "Id": "intera5",
-    "Title": "Cofre grande"
-  },
-  {
-    "Id": "intera6",
     "Title": "Protector: antidestrucción"
   },
   {
-    "Id": "intera7",
+    "Id": "intera6",
     "Title": "Codificador: anticonexión"
   },
   {
-    "Id": "intera8",
+    "Id": "intera7",
     "Title": "Asiento de retrete grasiento"
   },
   {
-    "Id": "intera9",
-    "Title": "Recogedor de recursos"
-  },
-  {
-    "Id": "intera10",
-    "Title": "Procesabot"
-  },
-  {
-    "Id": "intera11",
+    "Id": "intera8",
     "Title": "Sastrebot"
   },
   {
-    "Id": "intera12",
-    "Title": "Cañón de agua"
-  },
-  {
-    "Id": "intera13",
+    "Id": "intera9",
     "Title": "Lanzapapas portátil"
   },
   {
-    "Id": "intera14",
+    "Id": "intera10",
     "Title": "Cama de reaparición"
   },
   {
-    "Id": "intera15",
-    "Title": "Beacon"
-  },
-  {
-    "Id": "intera16",
+    "Id": "intera11",
     "Title": "Cojinete"
   },
   {
-    "Id": "intera17",
+    "Id": "intera12",
     "Title": "Suspensión Deportiva"
   },
   {
-    "Id": "intera18",
+    "Id": "intera13",
     "Title": "Suspensión \nTodoterreno"
   },
   {
-    "Id": "intera19",
+    "Id": "intera14",
     "Title": "Asiento De Conductor"
   },
   {
-    "Id": "intera20",
+    "Id": "intera15",
     "Title": "Asiento"
   },
   {
-    "Id": "intera21",
+    "Id": "intera16",
     "Title": "Sillin de Conductor"
   },
   {
-    "Id": "intera22",
+    "Id": "intera17",
     "Title": "Sillin"
   },
   {
-    "Id": "intera23",
+    "Id": "intera18",
     "Title": "Retrete"
   },
   {
-    "Id": "intera24",
+    "Id": "intera19",
     "Title": "Motor De Gas"
   },
   {
-    "Id": "intera25",
+    "Id": "intera20",
     "Title": "Motor Eléctrico"
   },
   {
-    "Id": "intera26",
+    "Id": "intera21",
     "Title": "Propulsor"
   },
   {
-    "Id": "intera27",
+    "Id": "intera22",
     "Title": "Controlador"
   },
   {
-    "Id": "intera28",
+    "Id": "intera23",
     "Title": "Interruptor"
   },
   {
-    "Id": "intera29",
+    "Id": "intera24",
     "Title": "Botón"
   },
   {
-    "Id": "intera30",
+    "Id": "intera25",
     "Title": "Sensor"
   },
   {
-    "Id": "intera31",
+    "Id": "intera26",
     "Title": "Radio"
   },
   {
-    "Id": "intera32",
+    "Id": "intera27",
     "Title": "Claxon"
   },
   {
-    "Id": "intera33",
+    "Id": "intera28",
     "Title": "Puerta lógica"
   },
   {
-    "Id": "intera34",
+    "Id": "intera29",
     "Title": "Temporizador"
   },
   {
-    "Id": "intera35",
+    "Id": "intera30",
     "Title": "Cabeza de transportabot: bajo"
   },
   {
-    "Id": "intera36",
+    "Id": "intera31",
     "Title": "Cabeza de transportabot: percusión"
   },
   {
-    "Id": "intera37",
+    "Id": "intera32",
     "Title": "Cabeza de transportabot: voz sintetizada"
   },
   {
-    "Id": "intera38",
+    "Id": "intera33",
     "Title": "Cabeza de transportabot: blip"
   },
   {
-    "Id": "intera39",
+    "Id": "intera34",
     "Title": "Bañera"
   },
   {
-    "Id": "intera40",
+    "Id": "intera35",
     "Title": "Pistón"
   },
   {
-    "Id": "intera41",
+    "Id": "intera36",
     "Title": "Tiburón de Raft enmarcado"
   },
   {
-    "Id": "intera42",
+    "Id": "intera37",
     "Title": "Disparapapas montable"
   },
   {
-    "Id": "intera43",
+    "Id": "intera38",
     "Title": "Bote explosivo pequeño"
   },
   {
-    "Id": "intera44",
+    "Id": "intera39",
     "Title": "Bote explosivo grande"
   }
 ]

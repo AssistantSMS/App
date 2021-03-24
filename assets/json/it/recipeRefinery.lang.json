@@ -1,22 +1,22 @@
 [
   {
     "Id": "recipeRef1",
-    "Title": "Scrap Wood"
+    "Title": "Legno di scarto"
   },
   {
     "Id": "recipeRef2",
-    "Title": "Wood"
+    "Title": "Legno"
   },
   {
     "Id": "recipeRef3",
-    "Title": "Scrap Metal"
+    "Title": "Rottami metallici"
   },
   {
     "Id": "recipeRef4",
-    "Title": "Metal"
+    "Title": "Metallo"
   },
   {
     "Id": "recipeRef5",
-    "Title": "Scrap Stone"
+    "Title": "Pietra di scarto"
   }
 ]

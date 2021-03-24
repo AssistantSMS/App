@@ -1,86 +1,86 @@
 [
   {
     "Id": "cont1",
-    "Title": "Hay Crate"
+    "Title": "Cassa di fieno"
   },
   {
     "Id": "cont2",
-    "Title": "Stone Crate"
+    "Title": "Cassa di pietra"
   },
   {
     "Id": "cont3",
-    "Title": "Tree Crate"
+    "Title": "Cassa con pezzi di albero"
   },
   {
     "Id": "cont4",
-    "Title": "Unfolded Banana Box"
+    "Title": "Scatola di banane non piegata"
   },
   {
     "Id": "cont5",
-    "Title": "Unfolded Onion Box"
+    "Title": "Scatola di cipolle non piegata"
   },
   {
     "Id": "cont6",
-    "Title": "Unfolded Grow Box"
+    "Title": "Scatola di coltivazione non piegata"
   },
   {
     "Id": "cont7",
-    "Title": "Main Humidifier"
+    "Title": "Umidificatore principale"
   },
   {
     "Id": "cont8",
-    "Title": "Warehouse Crate"
+    "Title": "Cassa di magazzino"
   },
   {
     "Id": "cont9",
-    "Title": "Blueberry Juice Cylinder"
+    "Title": "Contenitore di succo di mirtillo"
   },
   {
     "Id": "cont10",
-    "Title": "Tomato Juice Cylinder"
+    "Title": "Contenitore di succo di pomodoro"
   },
   {
     "Id": "cont11",
-    "Title": "Cassa di Legno"
+    "Title": "Cassa di legno"
   },
   {
     "Id": "cont12",
-    "Title": "Scatola Verdure"
+    "Title": "Scatola di verdure"
   },
   {
     "Id": "cont13",
-    "Title": "Scatola Cetrioli"
+    "Title": "Scatola di cetrioli"
   },
   {
     "Id": "cont14",
-    "Title": "Scatola Carote"
+    "Title": "Scatola di carote"
   },
   {
     "Id": "cont15",
-    "Title": "Scatola Banane"
+    "Title": "Scatola di banane"
   },
   {
     "Id": "cont16",
-    "Title": "Scatola Frutta"
+    "Title": "Scatola di frutta"
   },
   {
     "Id": "cont17",
-    "Title": "Scatola Cipolle"
+    "Title": "Scatola di cipolle"
   },
   {
     "Id": "cont18",
-    "Title": "Scatola Barbabietole"
+    "Title": "Scatola di barbabietole"
   },
   {
     "Id": "cont19",
-    "Title": "Scatola Arance"
+    "Title": "Scatola di arance"
   },
   {
     "Id": "cont20",
-    "Title": "Contenitore Piante"
+    "Title": "Contenitore di piante"
   },
   {
     "Id": "cont21",
-    "Title": "Contenitore Piante Aperto"
+    "Title": "Apri contenitore di piante"
   }
 ]

@@ -1,27 +1,27 @@
 [
   {
     "Id": "recipeDisp1",
-    "Title": "Craftbot",
-    "Description": "The Craftbot will help you craft everything from new blocks to useful interactive parts. A mechanics best friend."
+    "Title": "Roboartigiano",
+    "Description": "Il Roboartigiano ti aiuterà a creare di tutto, da nuovi blocchi a utili parti interattive. Il miglior amico di ogni meccanico."
   },
   {
     "Id": "recipeDisp2",
-    "Title": "Refinebot",
-    "Description": "Let the Refinebot help you out and refine all your collected logs. Put them in by hand or by placing a Resource Collector with logs next to it."
+    "Title": "Roboraffinatore",
+    "Description": "Lascia che il Roboraffinatore ti aiuti a raffinare tutti i tronchi raccolti. Inseriscili tu oppure posiziona vicino al robot un Raccoglitore di risorse che contiene tronchi."
   },
   {
     "Id": "recipeDisp3",
-    "Title": "Resource Collector",
-    "Description": "Perfect for collecting and stacking logs. When full, place it next to a refinebot to turn logs in to blocks."
+    "Title": "Raccoglitore di risorse",
+    "Description": "Perfetto per raccogliere e accatastare tronchi. Quando è pieno, posizionalo vicino a un Roboraffinatore per trasformare i tronchi in blocchi."
   },
   {
     "Id": "recipeDisp4",
-    "Title": "Cookbot",
-    "Description": "Cooks delicious food that will fill up your health bar or revive fallen friends."
+    "Title": "Robochef",
+    "Description": "Cucina del cibo delizioso con cui riempire la tua barra della salute o rianimare gli amici a terra."
   },
   {
     "Id": "recipeDisp5",
-    "Title": "Dressbot",
-    "Description": "Use the Dressbot to make new clothes for your Mechanic. Just add your garment boxes and the right amount of cotton. You can also customise your look by using the blue wardrobe."
+    "Title": "Robosarto",
+    "Description": "Usa il Robosarto per confezionare nuovi vestiti per il tuo meccanico. Ti basta aggiungere le scatole di vestiti e la giusta quantità di cotone. Puoi anche personalizzare il tuo aspetto utilizzando l’armadio blu."
   }
 ]

@@ -6,5 +6,13 @@
   {
     "Id": "fuel2",
     "Title": "Bateria"
+  },
+  {
+    "Id": "fuel3",
+    "Title": "Água"
+  },
+  {
+    "Id": "fuel4",
+    "Title": "Batata"
   }
 ]

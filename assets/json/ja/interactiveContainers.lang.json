@@ -1,22 +1,14 @@
 [
   {
     "Id": "interc1",
-    "Title": "水コンテナ"
-  },
-  {
-    "Id": "interc2",
     "Title": "肥料コンテナ"
   },
   {
-    "Id": "interc3",
-    "Title": "ジャガイモ弾薬コンテナ"
-  },
-  {
-    "Id": "interc4",
+    "Id": "interc2",
     "Title": "種コンテナ"
   },
   {
-    "Id": "interc5",
+    "Id": "interc3",
     "Title": "ケミカルコンテナ"
   }
 ]

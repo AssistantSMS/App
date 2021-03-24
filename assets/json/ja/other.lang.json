@@ -13,70 +13,102 @@
   },
   {
     "Id": "other4",
-    "Title": "真空ポンプ"
+    "Title": "Beacon"
   },
   {
     "Id": "other5",
-    "Title": "真空パイプ"
+    "Title": "チェスト（大）"
   },
   {
     "Id": "other6",
-    "Title": "真空パイプ（コーナー）"
+    "Title": "真空ポンプ"
   },
   {
     "Id": "other7",
-    "Title": "ガスコンテナ"
+    "Title": "真空パイプ"
   },
   {
     "Id": "other8",
-    "Title": "バッテリーコンテナ"
+    "Title": "真空パイプ（コーナー）"
   },
   {
     "Id": "other9",
-    "Title": "鉢植え"
+    "Title": "ガスコンテナ"
   },
   {
     "Id": "other10",
-    "Title": "鉢植え（小）"
+    "Title": "バッテリーコンテナ"
   },
   {
     "Id": "other11",
-    "Title": "鉢植え（蔓）"
+    "Title": "水コンテナ"
   },
   {
     "Id": "other12",
-    "Title": "鉢（大）"
+    "Title": "放水砲"
   },
   {
     "Id": "other13",
-    "Title": "鉢植え（種）"
+    "Title": "鉢植え"
   },
   {
     "Id": "other14",
-    "Title": "鉢植え（花サボテン）"
+    "Title": "鉢植え（小）"
   },
   {
     "Id": "other15",
-    "Title": "鉢植え（サボテン）"
+    "Title": "鉢植え（蔓）"
   },
   {
     "Id": "other16",
-    "Title": "鉢植え（青い花）"
+    "Title": "鉢（大）"
   },
   {
     "Id": "other17",
-    "Title": "スパッドガン"
+    "Title": "鉢植え（種）"
   },
   {
     "Id": "other18",
-    "Title": "スパッドショットガン"
+    "Title": "鉢植え（花サボテン）"
   },
   {
     "Id": "other19",
-    "Title": "スパッドリングガン"
+    "Title": "鉢植え（サボテン）"
   },
   {
     "Id": "other20",
+    "Title": "鉢植え（青い花）"
+  },
+  {
+    "Id": "other21",
+    "Title": "精製ボット"
+  },
+  {
+    "Id": "other22",
+    "Title": "リソースコレクター"
+  },
+  {
+    "Id": "other23",
+    "Title": "クックボット"
+  },
+  {
+    "Id": "other24",
+    "Title": "ジャガイモ弾薬コンテナ"
+  },
+  {
+    "Id": "other25",
+    "Title": "スパッドガン"
+  },
+  {
+    "Id": "other26",
+    "Title": "スパッドショットガン"
+  },
+  {
+    "Id": "other27",
+    "Title": "スパッドリングガン"
+  },
+  {
+    "Id": "other28",
     "Title": "接続​ツール"
   }
 ]

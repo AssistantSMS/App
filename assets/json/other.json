@@ -101,22 +101,42 @@
   },
   {
     "Id": "other21",
-    "Icon": "unknown.png",
+    "Icon": "items/other21.png",
     "Flammable": false
   },
   {
     "Id": "other22",
-    "Icon": "unknown.png",
+    "Icon": "items/other22.png",
     "Flammable": false
   },
   {
     "Id": "other23",
-    "Icon": "unknown.png",
+    "Icon": "items/other23.png",
     "Flammable": false
   },
   {
     "Id": "other24",
-    "Icon": "unknown.png",
+    "Icon": "items/other24.png",
+    "Flammable": false
+  },
+  {
+    "Id": "other25",
+    "Icon": "items/other25.png",
+    "Flammable": false
+  },
+  {
+    "Id": "other26",
+    "Icon": "items/other26.png",
+    "Flammable": false
+  },
+  {
+    "Id": "other27",
+    "Icon": "items/other27.png",
+    "Flammable": false
+  },
+  {
+    "Id": "other28",
+    "Icon": "items/other28.png",
     "Flammable": false
   }
 ]

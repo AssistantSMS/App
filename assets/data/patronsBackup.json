@@ -1,5 +1,11 @@
 [
   {
+    "name": "Richie J",
+    "imageUrl": "https://cdn.assistantapps.com/patreon/4C5941E123A2D5264E115CDFF4357ABD.png",
+    "thumbnailUrl": "https://cdn.assistantapps.com/patreon/4C5941E123A2D5264E115CDFF4357ABD.png",
+    "url": "https://assistantapps.com"
+  },
+  {
     "name": "the_farlander",
     "imageUrl": "https://cdn.assistantapps.com/patreon/34A68793132CFBBF63B69BBAEE5E1501.png",
     "thumbnailUrl": "https://cdn.assistantapps.com/patreon/34A68793132CFBBF63B69BBAEE5E1501.png",
@@ -51,12 +57,6 @@
     "name": "Richard ",
     "imageUrl": "https://cdn.assistantapps.com/patreon/9377BC9DE96967FEFAAD2CB0ED71499E.png",
     "thumbnailUrl": "https://cdn.assistantapps.com/patreon/9377BC9DE96967FEFAAD2CB0ED71499E.png",
-    "url": "https://assistantapps.com"
-  },
-  {
-    "name": "Jon Craig",
-    "imageUrl": "https://cdn.assistantapps.com/patreon/9168D2A12A91D83A79FAA2A951DE3A7D.png",
-    "thumbnailUrl": "https://cdn.assistantapps.com/patreon/9168D2A12A91D83A79FAA2A951DE3A7D.png",
     "url": "https://assistantapps.com"
   },
   {
@@ -159,6 +159,12 @@
     "name": "Joseph P Wilds Jr",
     "imageUrl": "https://cdn.assistantapps.com/patreon/027933CD4E70749BACE9AD1AEBDD762B.png",
     "thumbnailUrl": "https://cdn.assistantapps.com/patreon/027933CD4E70749BACE9AD1AEBDD762B.png",
+    "url": "https://assistantapps.com"
+  },
+  {
+    "name": "Adolfo Carreon",
+    "imageUrl": "https://cdn.assistantapps.com/patreon/B187E2298E939BD31EF1FED980AB602A.png",
+    "thumbnailUrl": "https://cdn.assistantapps.com/patreon/B187E2298E939BD31EF1FED980AB602A.png",
     "url": "https://assistantapps.com"
   },
   {

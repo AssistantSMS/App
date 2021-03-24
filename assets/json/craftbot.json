@@ -11,24 +11,6 @@
       "Buoyancy": 1
     },
     "Box": {
-      "X": 3,
-      "Y": 6,
-      "Z": 4
-    },
-    "Flammable": false
-  },
-  {
-    "Id": "craftb2",
-    "Icon": "items/craftb2.png",
-    "Color": "df7f01",
-    "PhysicsMaterial": "Metal",
-    "Ratings": {
-      "Density": 7,
-      "Durability": 7,
-      "Friction": 6,
-      "Buoyancy": 1
-    },
-    "Box": {
       "X": 10,
       "Y": 8,
       "Z": 9

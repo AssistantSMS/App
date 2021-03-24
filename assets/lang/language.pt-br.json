@@ -50,7 +50,7 @@
   "searchItems": "Pesquise Itens",
   "other": "Outros",
   "craftedUsing": "Construa utilizando:",
-  "noItems": "Não há itens",
+  "noItems": "Sem Itens",
   "close": "Fechar",
   "apply": "Aplicar",
   "edit": "Editar",
@@ -62,7 +62,7 @@
   "settings": "Configurações",
   "language": "Language",
   "darkModeEnabled": "Modo Escuro",
-  "news": "Novidades",
+  "news": "Notícias",
   "twitter": "Twitter",
   "contributors": "Contribuidores",
   "english": "Inglês",
@@ -74,7 +74,7 @@
   "russian": "Russo",
   "spanish": "Espanhol",
   "general": "Geral",
-  "whatIsNew": "O que há de novo!",
+  "whatIsNew": "Novidades",
   "yes": "Sim",
   "no": "Não",
   "current": "Atual",
@@ -160,5 +160,5 @@
   "showOwned": "Mostrar Adquiridos",
   "showNotOwned": "Mostrar não adquiridos",
   "foundIn": "Encontrado em",
-  "hashCode": "5275F4D3EC44A02198D402D49013AB69"
+  "hashCode": "6C8C01DFFAED27AAE0D5E7B50F8DB56C"
 }

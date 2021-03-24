@@ -37,7 +37,7 @@
   },
   {
     "Id": "fuel3",
-    "Icon": "unknown.png",
+    "Icon": "items/fuel3.png",
     "Color": "3e9ffe",
     "PhysicsMaterial": "Fruit",
     "Ratings": {
@@ -55,7 +55,7 @@
   },
   {
     "Id": "fuel4",
-    "Icon": "unknown.png",
+    "Icon": "items/fuel4.png",
     "Color": "505c30",
     "PhysicsMaterial": "Metal",
     "Ratings": {

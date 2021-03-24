@@ -4,7 +4,7 @@
     "Icon": "items/recipeDisp1.png",
     "CraftingTime": 8,
     "Output": {
-      "Id": "craftb2",
+      "Id": "craftb1",
       "Quantity": 1
     },
     "Inputs": [
@@ -27,7 +27,7 @@
     "Icon": "items/recipeDisp2.png",
     "CraftingTime": 8,
     "Output": {
-      "Id": "intera10",
+      "Id": "other21",
       "Quantity": 1
     },
     "Inputs": [
@@ -50,7 +50,7 @@
     "Icon": "items/recipeDisp3.png",
     "CraftingTime": 8,
     "Output": {
-      "Id": "intera9",
+      "Id": "other22",
       "Quantity": 1
     },
     "Inputs": [
@@ -65,7 +65,7 @@
     "Icon": "items/recipeDisp4.png",
     "CraftingTime": 8,
     "Output": {
-      "Id": "craftb1",
+      "Id": "other23",
       "Quantity": 1
     },
     "Inputs": [
@@ -88,7 +88,7 @@
     "Icon": "items/recipeDisp5.png",
     "CraftingTime": 8,
     "Output": {
-      "Id": "intera11",
+      "Id": "intera8",
       "Quantity": 1
     },
     "Inputs": [

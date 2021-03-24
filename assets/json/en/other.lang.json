@@ -17,82 +17,98 @@
   },
   {
     "Id": "other5",
-    "Title": "Vacuum Pump"
+    "Title": "Large Chest"
   },
   {
     "Id": "other6",
-    "Title": "Vacuum Pipe"
+    "Title": "Vacuum Pump"
   },
   {
     "Id": "other7",
-    "Title": "Vacuum Pipe Corner"
+    "Title": "Vacuum Pipe"
   },
   {
     "Id": "other8",
-    "Title": "Gas Container"
+    "Title": "Vacuum Pipe Corner"
   },
   {
     "Id": "other9",
-    "Title": "Battery Container"
+    "Title": "Gas Container"
   },
   {
     "Id": "other10",
-    "Title": "Water Container"
+    "Title": "Battery Container"
   },
   {
     "Id": "other11",
-    "Title": "Water Cannon"
+    "Title": "Water Container"
   },
   {
     "Id": "other12",
-    "Title": "Potted Plant"
+    "Title": "Water Cannon"
   },
   {
     "Id": "other13",
-    "Title": "Small Potted Plant"
+    "Title": "Potted Plant"
   },
   {
     "Id": "other14",
-    "Title": "Potted Vine Plant"
+    "Title": "Small Potted Plant"
   },
   {
     "Id": "other15",
-    "Title": "Big Pot"
+    "Title": "Potted Vine Plant"
   },
   {
     "Id": "other16",
-    "Title": "Potted Seed Plant"
+    "Title": "Big Pot"
   },
   {
     "Id": "other17",
-    "Title": "Potted Blooming Cactus"
+    "Title": "Potted Seed Plant"
   },
   {
     "Id": "other18",
-    "Title": "Potted Cactus"
+    "Title": "Potted Blooming Cactus"
   },
   {
     "Id": "other19",
-    "Title": "Potted Blue Flower"
+    "Title": "Potted Cactus"
   },
   {
     "Id": "other20",
-    "Title": "Potato Ammo Container"
+    "Title": "Potted Blue Flower"
   },
   {
     "Id": "other21",
-    "Title": "Spud Gun"
+    "Title": "Refinebot"
   },
   {
     "Id": "other22",
-    "Title": "Spud Shotgun"
+    "Title": "Resource Collector"
   },
   {
     "Id": "other23",
-    "Title": "Spudling Gun"
+    "Title": "Cookbot"
   },
   {
     "Id": "other24",
+    "Title": "Potato Ammo Container"
+  },
+  {
+    "Id": "other25",
+    "Title": "Spud Gun"
+  },
+  {
+    "Id": "other26",
+    "Title": "Spud Shotgun"
+  },
+  {
+    "Id": "other27",
+    "Title": "Spudling Gun"
+  },
+  {
+    "Id": "other28",
     "Title": "Connect Tool"
   }
 ]

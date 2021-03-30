@@ -17,98 +17,86 @@
   },
   {
     "Id": "other5",
-    "Title": "Large Chest"
-  },
-  {
-    "Id": "other6",
     "Title": "Vacuum Pump"
   },
   {
-    "Id": "other7",
+    "Id": "other6",
     "Title": "Vacuum Pipe"
   },
   {
-    "Id": "other8",
+    "Id": "other7",
     "Title": "Vacuum Pipe Corner"
   },
   {
-    "Id": "other9",
+    "Id": "other8",
     "Title": "Gas Container"
   },
   {
-    "Id": "other10",
+    "Id": "other9",
     "Title": "Battery Container"
   },
   {
-    "Id": "other11",
+    "Id": "other10",
     "Title": "Water Container"
   },
   {
-    "Id": "other12",
+    "Id": "other11",
     "Title": "Water Cannon"
   },
   {
-    "Id": "other13",
+    "Id": "other12",
     "Title": "Potted Plant"
   },
   {
-    "Id": "other14",
+    "Id": "other13",
     "Title": "Small Potted Plant"
   },
   {
-    "Id": "other15",
+    "Id": "other14",
     "Title": "Potted Vine Plant"
   },
   {
-    "Id": "other16",
+    "Id": "other15",
     "Title": "Big Pot"
   },
   {
-    "Id": "other17",
+    "Id": "other16",
     "Title": "Potted Seed Plant"
   },
   {
-    "Id": "other18",
+    "Id": "other17",
     "Title": "Potted Blooming Cactus"
   },
   {
-    "Id": "other19",
+    "Id": "other18",
     "Title": "Potted Cactus"
   },
   {
-    "Id": "other20",
+    "Id": "other19",
     "Title": "Potted Blue Flower"
   },
   {
-    "Id": "other21",
-    "Title": "Refinebot"
-  },
-  {
-    "Id": "other22",
-    "Title": "Resource Collector"
-  },
-  {
-    "Id": "other23",
+    "Id": "other20",
     "Title": "Cookbot"
   },
   {
-    "Id": "other24",
+    "Id": "other21",
     "Title": "Potato Ammo Container"
   },
   {
-    "Id": "other25",
+    "Id": "other22",
     "Title": "Spud Gun"
   },
   {
-    "Id": "other26",
+    "Id": "other23",
     "Title": "Spud Shotgun"
   },
   {
-    "Id": "other27",
+    "Id": "other24",
     "Title": "Spudling Gun"
   },
   {
-    "Id": "other28",
+    "Id": "other25",
     "Title": "Connect Tool"
   }
 ]

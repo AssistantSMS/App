@@ -38,6 +38,9 @@
   "refineryRecipeJson": "de/recipeRefinery.lang",
   "workbenchRecipeJson": "de/recipeWorkbench.lang",
   "hideOutRecipeJson": "de/recipeHideout.lang",
+  "interactiveSharedJson": "de/interactiveShared.lang",
+  "consumSharedJson": "de/consumableShared.lang",
+  "bucketsJson": "de/bucket.lang",
   "title": "Assistant für Scrap Mechanic",
   "loading": "Lädt",
   "about": "Über",
@@ -160,5 +163,5 @@
   "showOwned": "Zeige meine",
   "showNotOwned": "Zeige meine nicht ",
   "foundIn": "Zu finden in",
-  "hashCode": "06A341896045E340FD2E8E25A2339BE1"
+  "hashCode": "DA8BBE51006D19833968DB83635B8B92"
 }

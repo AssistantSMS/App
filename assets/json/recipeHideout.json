@@ -4,7 +4,7 @@
     "Icon": "items/recipeHideout1.png",
     "CraftingTime": 0,
     "Output": {
-      "Id": "consu10",
+      "Id": "consu7",
       "Quantity": 5
     },
     "Inputs": [
@@ -143,7 +143,7 @@
     "Icon": "items/recipeHideout10.png",
     "CraftingTime": 32,
     "Output": {
-      "Id": "other24",
+      "Id": "other21",
       "Quantity": 1
     },
     "Inputs": [
@@ -162,7 +162,7 @@
     "Icon": "items/recipeHideout11.png",
     "CraftingTime": 0,
     "Output": {
-      "Id": "other25",
+      "Id": "other22",
       "Quantity": 1
     },
     "Inputs": [
@@ -185,7 +185,7 @@
     "Icon": "items/recipeHideout12.png",
     "CraftingTime": 0,
     "Output": {
-      "Id": "other26",
+      "Id": "other23",
       "Quantity": 1
     },
     "Inputs": [
@@ -204,7 +204,7 @@
     "Icon": "items/recipeHideout13.png",
     "CraftingTime": 0,
     "Output": {
-      "Id": "other27",
+      "Id": "other24",
       "Quantity": 1
     },
     "Inputs": [

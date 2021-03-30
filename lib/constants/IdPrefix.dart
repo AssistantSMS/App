@@ -1,10 +1,12 @@
 class IdPrefix {
   static const String ammo = "ammo";
   static const String blocks = "blk";
+  static const String buckets = "bckt";
   static const String building = "build";
   static const String components = "comp";
   static const String construction = "constr";
   static const String consumable = "consu";
+  static const String consumableShared = "conshared";
   static const String containers = "cont";
   static const String craftbot = "craftb";
   static const String customisation = "cust";
@@ -14,6 +16,7 @@ class IdPrefix {
   static const String harvest = "harv";
   static const String industrial = "indus";
   static const String interactive = "intera";
+  static const String interactiveShared = "inters";
   static const String interactiveUpgradable = "interu";
   static const String interactiveContainer = "interc";
   static const String light = "light";

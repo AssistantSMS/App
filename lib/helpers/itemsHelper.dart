@@ -48,10 +48,12 @@ ResultWithValue<IGameItemJsonService> getGameItemRepoFromId(
 
   if (id.contains(IdPrefix.ammo)) key = LocaleKey.ammoJson;
   if (id.contains(IdPrefix.blocks)) key = LocaleKey.blocksJson;
+  if (id.contains(IdPrefix.buckets)) key = LocaleKey.bucketsJson;
   if (id.contains(IdPrefix.building)) key = LocaleKey.buildingJson;
   if (id.contains(IdPrefix.components)) key = LocaleKey.componentsJson;
   if (id.contains(IdPrefix.construction)) key = LocaleKey.constructionJson;
   if (id.contains(IdPrefix.consumable)) key = LocaleKey.consumableJson;
+  if (id.contains(IdPrefix.consumableShared)) key = LocaleKey.consumSharedJson;
   if (id.contains(IdPrefix.containers)) key = LocaleKey.containersJson;
   if (id.contains(IdPrefix.craftbot)) key = LocaleKey.craftbotJson;
   if (id.contains(IdPrefix.customisation)) key = LocaleKey.customisationJson;
@@ -61,6 +63,8 @@ ResultWithValue<IGameItemJsonService> getGameItemRepoFromId(
   if (id.contains(IdPrefix.harvest)) key = LocaleKey.harvestJson;
   if (id.contains(IdPrefix.industrial)) key = LocaleKey.industrialJson;
   if (id.contains(IdPrefix.interactive)) key = LocaleKey.interactiveJson;
+  if (id.contains(IdPrefix.interactiveShared))
+    key = LocaleKey.interactiveSharedJson;
   if (id.contains(IdPrefix.interactiveUpgradable))
     key = LocaleKey.interactiveUpgradableJson;
   if (id.contains(IdPrefix.interactiveContainer))

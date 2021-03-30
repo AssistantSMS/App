@@ -27,7 +27,7 @@
     "Icon": "items/recipeDisp2.png",
     "CraftingTime": 8,
     "Output": {
-      "Id": "other21",
+      "Id": "inters2",
       "Quantity": 1
     },
     "Inputs": [
@@ -50,7 +50,7 @@
     "Icon": "items/recipeDisp3.png",
     "CraftingTime": 8,
     "Output": {
-      "Id": "other22",
+      "Id": "inters3",
       "Quantity": 1
     },
     "Inputs": [
@@ -65,7 +65,7 @@
     "Icon": "items/recipeDisp4.png",
     "CraftingTime": 8,
     "Output": {
-      "Id": "other23",
+      "Id": "other20",
       "Quantity": 1
     },
     "Inputs": [

@@ -1,8 +1,80 @@
 [
   {
-    "Id": "consu1",
-    "Icon": "items/consu1.png",
-    "Color": "a5ca11",
+    "Id": "consshare1",
+    "Icon": "unknown.png",
+    "Color": "981e11",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 2,
+      "Friction": 4,
+      "Buoyancy": 7
+    },
+    "Box": {
+      "X": 2,
+      "Y": 2,
+      "Z": 2
+    },
+    "Flammable": true
+  },
+  {
+    "Id": "consshare2",
+    "Icon": "unknown.png",
+    "Color": "f1a400",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 2,
+      "Friction": 4,
+      "Buoyancy": 7
+    },
+    "Box": {
+      "X": 2,
+      "Y": 2,
+      "Z": 2
+    },
+    "Flammable": true
+  },
+  {
+    "Id": "consshare3",
+    "Icon": "unknown.png",
+    "Color": "3e9ffe",
+    "PhysicsMaterial": "Fruit",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 2,
+      "Friction": 4,
+      "Buoyancy": 7
+    },
+    "Box": {
+      "X": 2,
+      "Y": 2,
+      "Z": 2
+    },
+    "Flammable": false
+  },
+  {
+    "Id": "consshare4",
+    "Icon": "unknown.png",
+    "Color": "505c30",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 2,
+      "Friction": 4,
+      "Buoyancy": 3
+    },
+    "Box": {
+      "X": 2,
+      "Y": 2,
+      "Z": 2
+    },
+    "Flammable": true
+  },
+  {
+    "Id": "consshare5",
+    "Icon": "unknown.png",
+    "Color": "495975",
     "PhysicsMaterial": "Fruit",
     "Ratings": {
       "Density": 2,
@@ -18,13 +90,13 @@
     "Flammable": true
   },
   {
-    "Id": "consu2",
-    "Icon": "items/consu2.png",
-    "Color": "fe878c",
-    "PhysicsMaterial": "Fruit",
+    "Id": "consshare6",
+    "Icon": "unknown.png",
+    "Color": "1c8687",
+    "PhysicsMaterial": "Plastic",
     "Ratings": {
       "Density": 2,
-      "Durability": 1,
+      "Durability": 2,
       "Friction": 4,
       "Buoyancy": 7
     },
@@ -35,91 +107,19 @@
     "Flammable": true
   },
   {
-    "Id": "consu3",
-    "Icon": "items/consu3.png",
-    "Color": "3e9ffe",
-    "PhysicsMaterial": "Fruit",
-    "Ratings": {
-      "Density": 2,
-      "Durability": 1,
-      "Friction": 4,
-      "Buoyancy": 7
-    },
-    "Box": {
-      "X": 2,
-      "Y": 2,
-      "Z": 2
-    },
-    "Flammable": true
-  },
-  {
-    "Id": "consu4",
-    "Icon": "items/consu4.png",
+    "Id": "consshare7",
+    "Icon": "unknown.png",
     "Color": "ccffcc",
-    "PhysicsMaterial": "Fruit",
-    "Ratings": {
-      "Density": 2,
-      "Durability": 1,
-      "Friction": 4,
-      "Buoyancy": 7
-    },
-    "Box": {
-      "X": 2,
-      "Y": 2,
-      "Z": 2
-    },
-    "Flammable": true
-  },
-  {
-    "Id": "consu5",
-    "Icon": "items/consu5.png",
-    "Color": "3e9ffe",
-    "PhysicsMaterial": "Fruit",
-    "Ratings": {
-      "Density": 2,
-      "Durability": 1,
-      "Friction": 4,
-      "Buoyancy": 7
-    },
-    "Box": {
-      "X": 1,
-      "Y": 2,
-      "Z": 6
-    },
-    "Flammable": true
-  },
-  {
-    "Id": "consu6",
-    "Icon": "items/consu6.png",
-    "Color": "ffffff",
-    "PhysicsMaterial": "Fruit",
-    "Ratings": {
-      "Density": 2,
-      "Durability": 1,
-      "Friction": 4,
-      "Buoyancy": 7
-    },
-    "Cylinder": {
-      "Diameter": 1,
-      "Depth": 2
-    },
-    "Flammable": true
-  },
-  {
-    "Id": "consu7",
-    "Icon": "items/consu7.png",
-    "Color": "3a9c51",
-    "PhysicsMaterial": "Sand",
+    "PhysicsMaterial": "Metal",
     "Ratings": {
       "Density": 2,
       "Durability": 2,
       "Friction": 4,
       "Buoyancy": 7
     },
-    "Box": {
-      "X": 3,
-      "Y": 1,
-      "Z": 5
+    "Cylinder": {
+      "Diameter": 1,
+      "Depth": 1
     },
     "Flammable": true
   }

@@ -4,7 +4,7 @@
     "Icon": "items/recipeCook1.png",
     "CraftingTime": 10,
     "Output": {
-      "Id": "consu6",
+      "Id": "consu3",
       "Quantity": 1
     },
     "Inputs": [
@@ -13,11 +13,11 @@
         "Quantity": 1
       },
       {
-        "Id": "consu9",
+        "Id": "consu6",
         "Quantity": 2
       },
       {
-        "Id": "fuel4",
+        "Id": "consshare4",
         "Quantity": 2
       },
       {
@@ -31,7 +31,7 @@
     "Icon": "items/recipeCook2.png",
     "CraftingTime": 10,
     "Output": {
-      "Id": "consu7",
+      "Id": "consu4",
       "Quantity": 1
     },
     "Inputs": [
@@ -44,7 +44,7 @@
         "Quantity": 1
       },
       {
-        "Id": "fuel4",
+        "Id": "consshare4",
         "Quantity": 1
       },
       {
@@ -58,7 +58,7 @@
     "Icon": "items/recipeCook3.png",
     "CraftingTime": 24,
     "Output": {
-      "Id": "consu8",
+      "Id": "consu5",
       "Quantity": 1
     },
     "Inputs": [
@@ -67,7 +67,7 @@
         "Quantity": 1
       },
       {
-        "Id": "consu9",
+        "Id": "consu6",
         "Quantity": 2
       },
       {

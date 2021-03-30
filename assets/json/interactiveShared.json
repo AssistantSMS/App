@@ -1,0 +1,56 @@
+[
+  {
+    "Id": "inters1",
+    "Icon": "items/inters1.png",
+    "Color": "df7f01",
+    "PhysicsMaterial": "Mechanical",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 6,
+      "Friction": 4,
+      "Buoyancy": 6
+    },
+    "Box": {
+      "X": 5,
+      "Y": 3,
+      "Z": 4
+    },
+    "Flammable": false
+  },
+  {
+    "Id": "inters2",
+    "Icon": "items/inters2.png",
+    "Color": "df7f01",
+    "PhysicsMaterial": "Mechanical",
+    "Ratings": {
+      "Density": 7,
+      "Durability": 7,
+      "Friction": 6,
+      "Buoyancy": 1
+    },
+    "Box": {
+      "X": 10,
+      "Y": 11,
+      "Z": 6
+    },
+    "Flammable": false
+  },
+  {
+    "Id": "inters3",
+    "Icon": "items/inters3.png",
+    "Color": "df7f01",
+    "PhysicsMaterial": "Mechanical",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 5,
+      "Friction": 6,
+      "Buoyancy": 3
+    },
+    "Box": {
+      "X": 6,
+      "Y": 8,
+      "Z": 6
+    },
+    "Flammable": true
+  }
+]

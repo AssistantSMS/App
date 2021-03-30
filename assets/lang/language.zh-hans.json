@@ -38,6 +38,9 @@
   "refineryRecipeJson": "zh-hans/recipeRefinery.lang",
   "workbenchRecipeJson": "zh-hans/recipeWorkbench.lang",
   "hideOutRecipeJson": "zh-hans/recipeHideout.lang",
+  "interactiveSharedJson": "zh-hans/interactiveShared.lang",
+  "consumSharedJson": "zh-hans/consumableShared.lang",
+  "bucketsJson": "zh-hans/bucket.lang",
   "title": "Assistant for Scrap Mechanic",
   "loading": "加载中",
   "about": "关于",
@@ -160,5 +163,5 @@
   "showOwned": "Show owned",
   "showNotOwned": "Show not owned",
   "foundIn": "Found in",
-  "hashCode": "587AD22EDC30DEB5A161A0B1DE1BA235"
+  "hashCode": "0918DB39B220B2B07443D819524063E6"
 }

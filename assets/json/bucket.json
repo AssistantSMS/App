@@ -1,0 +1,53 @@
+[
+  {
+    "Id": "bckt1",
+    "Icon": "items/bckt1.png",
+    "Color": "0b9ade",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 0,
+      "Buoyancy": 0
+    },
+    "Cylinder": {
+      "Diameter": 2,
+      "Depth": 2
+    },
+    "Flammable": false
+  },
+  {
+    "Id": "bckt2",
+    "Icon": "items/bckt2.png",
+    "Color": "0b9ade",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 0,
+      "Buoyancy": 0
+    },
+    "Cylinder": {
+      "Diameter": 2,
+      "Depth": 2
+    },
+    "Flammable": false
+  },
+  {
+    "Id": "bckt3",
+    "Icon": "items/bckt3.png",
+    "Color": "0b9ade",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 0,
+      "Buoyancy": 0
+    },
+    "Cylinder": {
+      "Diameter": 2,
+      "Depth": 2
+    },
+    "Flammable": false
+  }
+]

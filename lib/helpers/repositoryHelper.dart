@@ -40,6 +40,8 @@ String getBaseFileName(LocaleKey detailsJson) {
       return BaseJson.ammo;
     case LocaleKey.blocksJson:
       return BaseJson.blocks;
+    case LocaleKey.bucketsJson:
+      return BaseJson.buckets;
     case LocaleKey.buildingJson:
       return BaseJson.building;
     case LocaleKey.componentsJson:
@@ -48,6 +50,8 @@ String getBaseFileName(LocaleKey detailsJson) {
       return BaseJson.construction;
     case LocaleKey.consumableJson:
       return BaseJson.consumable;
+    case LocaleKey.consumSharedJson:
+      return BaseJson.consumableShared;
     case LocaleKey.containersJson:
       return BaseJson.containers;
     case LocaleKey.craftbotJson:
@@ -66,6 +70,8 @@ String getBaseFileName(LocaleKey detailsJson) {
       return BaseJson.industrial;
     case LocaleKey.interactiveJson:
       return BaseJson.interactive;
+    case LocaleKey.interactiveSharedJson:
+      return BaseJson.interactiveShared;
     case LocaleKey.interactiveUpgradableJson:
       return BaseJson.interactiveUpgradable;
     case LocaleKey.interactiveContainerJson:

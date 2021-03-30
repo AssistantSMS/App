@@ -17,98 +17,86 @@
   },
   {
     "Id": "other5",
-    "Title": "Große Truhe"
-  },
-  {
-    "Id": "other6",
     "Title": "Vakuumpumpe"
   },
   {
-    "Id": "other7",
+    "Id": "other6",
     "Title": "Vakuumrohr"
   },
   {
-    "Id": "other8",
+    "Id": "other7",
     "Title": "Vakuumrohr (Eckteil)"
   },
   {
-    "Id": "other9",
+    "Id": "other8",
     "Title": "Benzinbehälter"
   },
   {
-    "Id": "other10",
+    "Id": "other9",
     "Title": "Batteriebehälter"
   },
   {
-    "Id": "other11",
+    "Id": "other10",
     "Title": "Wasserbehälter"
   },
   {
-    "Id": "other12",
+    "Id": "other11",
     "Title": "Wasserkanone"
   },
   {
-    "Id": "other13",
+    "Id": "other12",
     "Title": "Eingetopfte Pflanze"
   },
   {
-    "Id": "other14",
+    "Id": "other13",
     "Title": "Eingetopfte kleine Pflanze"
   },
   {
-    "Id": "other15",
+    "Id": "other14",
     "Title": "Eingetopfter Weinstock"
   },
   {
-    "Id": "other16",
+    "Id": "other15",
     "Title": "Großer Topf"
   },
   {
-    "Id": "other17",
+    "Id": "other16",
     "Title": "Eingetopfte Samenpflanze"
   },
   {
-    "Id": "other18",
+    "Id": "other17",
     "Title": "Eingetopfter blühender Kaktus"
   },
   {
-    "Id": "other19",
+    "Id": "other18",
     "Title": "Eingetopfter Kaktus"
   },
   {
-    "Id": "other20",
+    "Id": "other19",
     "Title": "Eingetopfte blaue Blume"
   },
   {
-    "Id": "other21",
-    "Title": "Veredelungsbot"
-  },
-  {
-    "Id": "other22",
-    "Title": "Ressourcensammler"
-  },
-  {
-    "Id": "other23",
+    "Id": "other20",
     "Title": "Kochbot"
   },
   {
-    "Id": "other24",
+    "Id": "other21",
     "Title": "Behälter für Kartoffelmunition"
   },
   {
-    "Id": "other25",
+    "Id": "other22",
     "Title": "Knollenkanone"
   },
   {
-    "Id": "other26",
+    "Id": "other23",
     "Title": "Knollenflinte"
   },
   {
-    "Id": "other27",
+    "Id": "other24",
     "Title": "Knollen-Maschinengewehr"
   },
   {
-    "Id": "other28",
+    "Id": "other25",
     "Title": "Verbindungswerkzeug"
   }
 ]

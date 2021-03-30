@@ -5,38 +5,26 @@
   },
   {
     "Id": "consu2",
-    "Title": "Химикалии"
-  },
-  {
-    "Id": "consu3",
-    "Title": "Краскозаряд"
-  },
-  {
-    "Id": "consu4",
-    "Title": "Химический фонарь"
-  },
-  {
-    "Id": "consu5",
     "Title": "Саншейк"
   },
   {
-    "Id": "consu6",
+    "Id": "consu3",
     "Title": "Пиццебургер"
   },
   {
-    "Id": "consu7",
+    "Id": "consu4",
     "Title": "Веганский бургер"
   },
   {
-    "Id": "consu8",
+    "Id": "consu5",
     "Title": "Батон-реаниматор"
   },
   {
-    "Id": "consu9",
+    "Id": "consu6",
     "Title": "Молоко воков"
   },
   {
-    "Id": "consu10",
+    "Id": "consu7",
     "Title": "Мешок с землей"
   }
 ]

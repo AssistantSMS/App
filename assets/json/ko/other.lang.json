@@ -17,98 +17,86 @@
   },
   {
     "Id": "other5",
-    "Title": "대형 상자"
-  },
-  {
-    "Id": "other6",
     "Title": "진공 펌프"
   },
   {
-    "Id": "other7",
+    "Id": "other6",
     "Title": "진공 파이프"
   },
   {
-    "Id": "other8",
+    "Id": "other7",
     "Title": "코너 진공 파이프"
   },
   {
-    "Id": "other9",
+    "Id": "other8",
     "Title": "가솔린 용기"
   },
   {
-    "Id": "other10",
+    "Id": "other9",
     "Title": "배터리 통"
   },
   {
-    "Id": "other11",
+    "Id": "other10",
     "Title": "물통"
   },
   {
-    "Id": "other12",
+    "Id": "other11",
     "Title": "물대포"
   },
   {
-    "Id": "other13",
+    "Id": "other12",
     "Title": "화분 식물"
   },
   {
-    "Id": "other14",
+    "Id": "other13",
     "Title": "소형 화분 식물"
   },
   {
-    "Id": "other15",
+    "Id": "other14",
     "Title": "화분 덩굴식물"
   },
   {
-    "Id": "other16",
+    "Id": "other15",
     "Title": "대형 화분"
   },
   {
-    "Id": "other17",
+    "Id": "other16",
     "Title": "화분 종자식물"
   },
   {
-    "Id": "other18",
+    "Id": "other17",
     "Title": "화분 꽃 피는 선인장"
   },
   {
-    "Id": "other19",
+    "Id": "other18",
     "Title": "화분 선인장"
   },
   {
-    "Id": "other20",
+    "Id": "other19",
     "Title": "화분 푸른 꽃"
   },
   {
-    "Id": "other21",
-    "Title": "리파인봇"
-  },
-  {
-    "Id": "other22",
-    "Title": "자원 수집기"
-  },
-  {
-    "Id": "other23",
+    "Id": "other20",
     "Title": "쿡봇"
   },
   {
-    "Id": "other24",
+    "Id": "other21",
     "Title": "감자총알통"
   },
   {
-    "Id": "other25",
+    "Id": "other22",
     "Title": "장난감총"
   },
   {
-    "Id": "other26",
+    "Id": "other23",
     "Title": "장난감 산탄총"
   },
   {
-    "Id": "other27",
+    "Id": "other24",
     "Title": "감자총"
   },
   {
-    "Id": "other28",
+    "Id": "other25",
     "Title": "연결용 도구"
   }
 ]

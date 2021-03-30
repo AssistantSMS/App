@@ -17,98 +17,86 @@
   },
   {
     "Id": "other5",
-    "Title": "Cofre grande"
-  },
-  {
-    "Id": "other6",
     "Title": "Bomba de vacío"
   },
   {
-    "Id": "other7",
+    "Id": "other6",
     "Title": "Tubería de bomba"
   },
   {
-    "Id": "other8",
+    "Id": "other7",
     "Title": "Esquina de tubería de bomba"
   },
   {
-    "Id": "other9",
+    "Id": "other8",
     "Title": "Contenedor de gasolina"
   },
   {
-    "Id": "other10",
+    "Id": "other9",
     "Title": "Contenedor de batería"
   },
   {
-    "Id": "other11",
+    "Id": "other10",
     "Title": "Contenedor de agua"
   },
   {
-    "Id": "other12",
+    "Id": "other11",
     "Title": "Cañón de agua"
   },
   {
-    "Id": "other13",
+    "Id": "other12",
     "Title": "Maceta"
   },
   {
-    "Id": "other14",
+    "Id": "other13",
     "Title": "Maceta pequeña"
   },
   {
-    "Id": "other15",
+    "Id": "other14",
     "Title": "Maceta de vid"
   },
   {
-    "Id": "other16",
+    "Id": "other15",
     "Title": "Maceta grande"
   },
   {
-    "Id": "other17",
+    "Id": "other16",
     "Title": "Semilla en maceta"
   },
   {
-    "Id": "other18",
+    "Id": "other17",
     "Title": "Maceta de cactus floreciente"
   },
   {
-    "Id": "other19",
+    "Id": "other18",
     "Title": "Maceta de cactus"
   },
   {
-    "Id": "other20",
+    "Id": "other19",
     "Title": "Maceta de flor azul"
   },
   {
-    "Id": "other21",
-    "Title": "Procesabot"
-  },
-  {
-    "Id": "other22",
-    "Title": "Recogedor de recursos"
-  },
-  {
-    "Id": "other23",
+    "Id": "other20",
     "Title": "Robot de cocina"
   },
   {
-    "Id": "other24",
+    "Id": "other21",
     "Title": "Contenedor de munición de patatas"
   },
   {
-    "Id": "other25",
+    "Id": "other22",
     "Title": "Lanzapapas"
   },
   {
-    "Id": "other26",
+    "Id": "other23",
     "Title": "Escopeta lanzapapas"
   },
   {
-    "Id": "other27",
+    "Id": "other24",
     "Title": "Papatralleta"
   },
   {
-    "Id": "other28",
+    "Id": "other25",
     "Title": "Herramienta de Conexión"
   }
 ]

@@ -17,98 +17,86 @@
   },
   {
     "Id": "other5",
-    "Title": "チェスト（大）"
-  },
-  {
-    "Id": "other6",
     "Title": "真空ポンプ"
   },
   {
-    "Id": "other7",
+    "Id": "other6",
     "Title": "真空パイプ"
   },
   {
-    "Id": "other8",
+    "Id": "other7",
     "Title": "真空パイプ（コーナー）"
   },
   {
-    "Id": "other9",
+    "Id": "other8",
     "Title": "ガスコンテナ"
   },
   {
-    "Id": "other10",
+    "Id": "other9",
     "Title": "バッテリーコンテナ"
   },
   {
-    "Id": "other11",
+    "Id": "other10",
     "Title": "水コンテナ"
   },
   {
-    "Id": "other12",
+    "Id": "other11",
     "Title": "放水砲"
   },
   {
-    "Id": "other13",
+    "Id": "other12",
     "Title": "鉢植え"
   },
   {
-    "Id": "other14",
+    "Id": "other13",
     "Title": "鉢植え（小）"
   },
   {
-    "Id": "other15",
+    "Id": "other14",
     "Title": "鉢植え（蔓）"
   },
   {
-    "Id": "other16",
+    "Id": "other15",
     "Title": "鉢（大）"
   },
   {
-    "Id": "other17",
+    "Id": "other16",
     "Title": "鉢植え（種）"
   },
   {
-    "Id": "other18",
+    "Id": "other17",
     "Title": "鉢植え（花サボテン）"
   },
   {
-    "Id": "other19",
+    "Id": "other18",
     "Title": "鉢植え（サボテン）"
   },
   {
-    "Id": "other20",
+    "Id": "other19",
     "Title": "鉢植え（青い花）"
   },
   {
-    "Id": "other21",
-    "Title": "精製ボット"
-  },
-  {
-    "Id": "other22",
-    "Title": "リソースコレクター"
-  },
-  {
-    "Id": "other23",
+    "Id": "other20",
     "Title": "クックボット"
   },
   {
-    "Id": "other24",
+    "Id": "other21",
     "Title": "ジャガイモ弾薬コンテナ"
   },
   {
-    "Id": "other25",
+    "Id": "other22",
     "Title": "スパッドガン"
   },
   {
-    "Id": "other26",
+    "Id": "other23",
     "Title": "スパッドショットガン"
   },
   {
-    "Id": "other27",
+    "Id": "other24",
     "Title": "スパッドリングガン"
   },
   {
-    "Id": "other28",
+    "Id": "other25",
     "Title": "接続​ツール"
   }
 ]

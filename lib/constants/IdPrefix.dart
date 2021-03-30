@@ -6,7 +6,7 @@ class IdPrefix {
   static const String components = "comp";
   static const String construction = "constr";
   static const String consumable = "consu";
-  static const String consumableShared = "conshared";
+  static const String consumableShared = "consshare";
   static const String containers = "cont";
   static const String craftbot = "craftb";
   static const String customisation = "cust";

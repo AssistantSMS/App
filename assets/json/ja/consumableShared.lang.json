@@ -1,0 +1,30 @@
+[
+  {
+    "Id": "consshare1",
+    "Title": "ガソリン"
+  },
+  {
+    "Id": "consshare2",
+    "Title": "バッテリー"
+  },
+  {
+    "Id": "consshare3",
+    "Title": "水"
+  },
+  {
+    "Id": "consshare4",
+    "Title": "ジャガイモ"
+  },
+  {
+    "Id": "consshare5",
+    "Title": "ケミカル"
+  },
+  {
+    "Id": "consshare6",
+    "Title": "塗装弾薬"
+  },
+  {
+    "Id": "consshare7",
+    "Title": "サイリウム"
+  }
+]

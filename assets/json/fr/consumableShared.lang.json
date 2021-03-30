@@ -1,0 +1,30 @@
+[
+  {
+    "Id": "consshare1",
+    "Title": "Essence"
+  },
+  {
+    "Id": "consshare2",
+    "Title": "Batterie"
+  },
+  {
+    "Id": "consshare3",
+    "Title": "Eau"
+  },
+  {
+    "Id": "consshare4",
+    "Title": "Patate"
+  },
+  {
+    "Id": "consshare5",
+    "Title": "Produits chimiques"
+  },
+  {
+    "Id": "consshare6",
+    "Title": "Munition de peinture"
+  },
+  {
+    "Id": "consshare7",
+    "Title": "Bâton lumineux"
+  }
+]

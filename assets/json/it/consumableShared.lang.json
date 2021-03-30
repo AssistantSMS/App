@@ -1,0 +1,30 @@
+[
+  {
+    "Id": "consshare1",
+    "Title": "Carburante"
+  },
+  {
+    "Id": "consshare2",
+    "Title": "Batteria"
+  },
+  {
+    "Id": "consshare3",
+    "Title": "Acqua"
+  },
+  {
+    "Id": "consshare4",
+    "Title": "Patata"
+  },
+  {
+    "Id": "consshare5",
+    "Title": "Sostanze chimiche"
+  },
+  {
+    "Id": "consshare6",
+    "Title": "Munizioni per pennello"
+  },
+  {
+    "Id": "consshare7",
+    "Title": "Barre fluorescenti"
+  }
+]

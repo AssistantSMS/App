@@ -1,0 +1,30 @@
+[
+  {
+    "Id": "consshare1",
+    "Title": "Бензин"
+  },
+  {
+    "Id": "consshare2",
+    "Title": "Батарея"
+  },
+  {
+    "Id": "consshare3",
+    "Title": "Вода"
+  },
+  {
+    "Id": "consshare4",
+    "Title": "Картошка"
+  },
+  {
+    "Id": "consshare5",
+    "Title": "Химикалии"
+  },
+  {
+    "Id": "consshare6",
+    "Title": "Краскозаряд"
+  },
+  {
+    "Id": "consshare7",
+    "Title": "Химический фонарь"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "Id": "consshare1",
+    "Title": "Benzin"
+  },
+  {
+    "Id": "consshare2",
+    "Title": "Batterie"
+  },
+  {
+    "Id": "consshare3",
+    "Title": "Wasser"
+  },
+  {
+    "Id": "consshare4",
+    "Title": "Kartoffel"
+  },
+  {
+    "Id": "consshare5",
+    "Title": "Chemikalien"
+  },
+  {
+    "Id": "consshare6",
+    "Title": "Farbmunition"
+  },
+  {
+    "Id": "consshare7",
+    "Title": "Knicklicht"
+  }
+]

@@ -17,98 +17,86 @@
   },
   {
     "Id": "other5",
-    "Title": "Grossa cassa"
-  },
-  {
-    "Id": "other6",
     "Title": "Pompa a vuoto"
   },
   {
-    "Id": "other7",
+    "Id": "other6",
     "Title": "Tubo sottovuoto"
   },
   {
-    "Id": "other8",
+    "Id": "other7",
     "Title": "Tubo sottovuoto angolato"
   },
   {
-    "Id": "other9",
+    "Id": "other8",
     "Title": "Serbatoio di benzina"
   },
   {
-    "Id": "other10",
+    "Id": "other9",
     "Title": "Alloggiamento per batterie"
   },
   {
-    "Id": "other11",
+    "Id": "other10",
     "Title": "Serbatoio d’acqua"
   },
   {
-    "Id": "other12",
+    "Id": "other11",
     "Title": "Irrigatore a cannone"
   },
   {
-    "Id": "other13",
+    "Id": "other12",
     "Title": "Pianta in vaso"
   },
   {
-    "Id": "other14",
+    "Id": "other13",
     "Title": "Pianta in vaso piccola"
   },
   {
-    "Id": "other15",
+    "Id": "other14",
     "Title": "Pianta rampicante in vaso"
   },
   {
-    "Id": "other16",
+    "Id": "other15",
     "Title": "Vaso grande"
   },
   {
-    "Id": "other17",
+    "Id": "other16",
     "Title": "Pianta da seme in vaso"
   },
   {
-    "Id": "other18",
+    "Id": "other17",
     "Title": "Cactus in fiore in vaso"
   },
   {
-    "Id": "other19",
+    "Id": "other18",
     "Title": "Cactus in vaso"
   },
   {
-    "Id": "other20",
+    "Id": "other19",
     "Title": "Fiore blu in vaso"
   },
   {
-    "Id": "other21",
-    "Title": "Roboraffinatore"
-  },
-  {
-    "Id": "other22",
-    "Title": "Raccoglitore di risorse"
-  },
-  {
-    "Id": "other23",
+    "Id": "other20",
     "Title": "Robochef"
   },
   {
-    "Id": "other24",
+    "Id": "other21",
     "Title": "Contenitore di munizioni tuberose"
   },
   {
-    "Id": "other25",
+    "Id": "other22",
     "Title": "Sparapatate"
   },
   {
-    "Id": "other26",
+    "Id": "other23",
     "Title": "Fucile sparapatate"
   },
   {
-    "Id": "other27",
+    "Id": "other24",
     "Title": "Mitragliatrice sparapatate"
   },
   {
-    "Id": "other28",
+    "Id": "other25",
     "Title": "Connettore"
   }
 ]

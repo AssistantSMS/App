@@ -4,7 +4,7 @@ import '../contracts/raid/raidAttack.dart';
 import '../contracts/raid/raidSpawn.dart';
 
 class RaidHelper {
-  static const String potatoId = "ammo1"; // plant9
+  static const String potatoId = "consshare4"; // plant9
   static const String cottonId = "reso4"; // plant10
   static const String bananaId = "plant11";
   static const String berryId = "plant12";

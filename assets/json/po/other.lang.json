@@ -17,98 +17,86 @@
   },
   {
     "Id": "other5",
-    "Title": "Duża skrzynia"
-  },
-  {
-    "Id": "other6",
     "Title": "Pompa próżniowa"
   },
   {
-    "Id": "other7",
+    "Id": "other6",
     "Title": "Rura ssąca"
   },
   {
-    "Id": "other8",
+    "Id": "other7",
     "Title": "Narożnik rury ssącej"
   },
   {
-    "Id": "other9",
+    "Id": "other8",
     "Title": "Zbiornik z benzyną"
   },
   {
-    "Id": "other10",
+    "Id": "other9",
     "Title": "Pojemnik na akumulatory"
   },
   {
-    "Id": "other11",
+    "Id": "other10",
     "Title": "Zbiornik z wodą"
   },
   {
-    "Id": "other12",
+    "Id": "other11",
     "Title": "Działko wodne"
   },
   {
-    "Id": "other13",
+    "Id": "other12",
     "Title": "Roślina doniczkowa"
   },
   {
-    "Id": "other14",
+    "Id": "other13",
     "Title": "Mała roślina doniczkowa"
   },
   {
-    "Id": "other15",
+    "Id": "other14",
     "Title": "Winorośl doniczkowa"
   },
   {
-    "Id": "other16",
+    "Id": "other15",
     "Title": "Duża donica"
   },
   {
-    "Id": "other17",
+    "Id": "other16",
     "Title": "Roślina nasienna w donicy"
   },
   {
-    "Id": "other18",
+    "Id": "other17",
     "Title": "Kwitnący kaktus"
   },
   {
-    "Id": "other19",
+    "Id": "other18",
     "Title": "Kaktus w doniczce"
   },
   {
-    "Id": "other20",
+    "Id": "other19",
     "Title": "Niebieski kwiat doniczkowy"
   },
   {
-    "Id": "other21",
-    "Title": "Rafinobot"
-  },
-  {
-    "Id": "other22",
-    "Title": "Kolektor zasobów"
-  },
-  {
-    "Id": "other23",
+    "Id": "other20",
     "Title": "Kukbot"
   },
   {
-    "Id": "other24",
+    "Id": "other21",
     "Title": "Pojemnik na ziemniaczaną amunicję"
   },
   {
-    "Id": "other25",
+    "Id": "other22",
     "Title": "Działko na kartofle"
   },
   {
-    "Id": "other26",
+    "Id": "other23",
     "Title": "Strzelba na kartofle"
   },
   {
-    "Id": "other27",
+    "Id": "other24",
     "Title": "Karabin kartoflany"
   },
   {
-    "Id": "other28",
+    "Id": "other25",
     "Title": "Łącznik"
   }
 ]

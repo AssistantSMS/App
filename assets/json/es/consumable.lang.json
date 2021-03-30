@@ -5,38 +5,26 @@
   },
   {
     "Id": "consu2",
-    "Title": "Químicos"
-  },
-  {
-    "Id": "consu3",
-    "Title": "Munición de pintura"
-  },
-  {
-    "Id": "consu4",
-    "Title": "Palo fluorescente"
-  },
-  {
-    "Id": "consu5",
     "Title": "Sunshake"
   },
   {
-    "Id": "consu6",
+    "Id": "consu3",
     "Title": "Hamburguesa de pizza"
   },
   {
-    "Id": "consu7",
+    "Id": "consu4",
     "Title": "Hamburguesa vegetal"
   },
   {
-    "Id": "consu8",
+    "Id": "consu5",
     "Title": "Baguete de resurrección"
   },
   {
-    "Id": "consu9",
+    "Id": "consu6",
     "Title": "Leche de woc"
   },
   {
-    "Id": "consu10",
+    "Id": "consu7",
     "Title": "Saco de tierra"
   }
 ]

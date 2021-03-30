@@ -1,0 +1,30 @@
+[
+  {
+    "Id": "consshare1",
+    "Title": "Gasolina"
+  },
+  {
+    "Id": "consshare2",
+    "Title": "Bateria"
+  },
+  {
+    "Id": "consshare3",
+    "Title": "Água"
+  },
+  {
+    "Id": "consshare4",
+    "Title": "Batata"
+  },
+  {
+    "Id": "consshare5",
+    "Title": "Químicos"
+  },
+  {
+    "Id": "consshare6",
+    "Title": "Munição Pigmentadora"
+  },
+  {
+    "Id": "consshare7",
+    "Title": "Bastão Fluorescente"
+  }
+]

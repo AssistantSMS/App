@@ -17,98 +17,86 @@
   },
   {
     "Id": "other5",
-    "Title": "Grand coffre"
-  },
-  {
-    "Id": "other6",
     "Title": "Pompe aspirante"
   },
   {
-    "Id": "other7",
+    "Id": "other6",
     "Title": "Tuyau d'aspiration"
   },
   {
-    "Id": "other8",
+    "Id": "other7",
     "Title": "Coin de tuyau d'aspiration"
   },
   {
-    "Id": "other9",
+    "Id": "other8",
     "Title": "Conteneur à essence"
   },
   {
-    "Id": "other10",
+    "Id": "other9",
     "Title": "Conteneur à batteries"
   },
   {
-    "Id": "other11",
+    "Id": "other10",
     "Title": "Conteneur à eau"
   },
   {
-    "Id": "other12",
+    "Id": "other11",
     "Title": "Canon à eau"
   },
   {
-    "Id": "other13",
+    "Id": "other12",
     "Title": "Plante en pot"
   },
   {
-    "Id": "other14",
+    "Id": "other13",
     "Title": "Petite plante en pot"
   },
   {
-    "Id": "other15",
+    "Id": "other14",
     "Title": "Pied de vigne en pot"
   },
   {
-    "Id": "other16",
+    "Id": "other15",
     "Title": "Grand pot"
   },
   {
-    "Id": "other17",
+    "Id": "other16",
     "Title": "Graine en pot"
   },
   {
-    "Id": "other18",
+    "Id": "other17",
     "Title": "Cactus fleuri en pot"
   },
   {
-    "Id": "other19",
+    "Id": "other18",
     "Title": "Cactus en pot"
   },
   {
-    "Id": "other20",
+    "Id": "other19",
     "Title": "Fleur bleue en pot"
   },
   {
-    "Id": "other21",
-    "Title": "Raffinebot"
-  },
-  {
-    "Id": "other22",
-    "Title": "Collecteur de ressources"
-  },
-  {
-    "Id": "other23",
+    "Id": "other20",
     "Title": "Cuisibot"
   },
   {
-    "Id": "other24",
+    "Id": "other21",
     "Title": "Conteneur à munitions de patates"
   },
   {
-    "Id": "other25",
+    "Id": "other22",
     "Title": "Lance-patates"
   },
   {
-    "Id": "other26",
+    "Id": "other23",
     "Title": "Fusil à pompe lance-patates"
   },
   {
-    "Id": "other27",
+    "Id": "other24",
     "Title": "Fusil lance-patates"
   },
   {
-    "Id": "other28",
+    "Id": "other25",
     "Title": "Outil de connexion"
   }
 ]

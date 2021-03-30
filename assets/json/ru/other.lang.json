@@ -17,98 +17,86 @@
   },
   {
     "Id": "other5",
-    "Title": "Большой сундук"
-  },
-  {
-    "Id": "other6",
     "Title": "Вакуумный насос"
   },
   {
-    "Id": "other7",
+    "Id": "other6",
     "Title": "Вакуумная труба"
   },
   {
-    "Id": "other8",
+    "Id": "other7",
     "Title": "Вакуумная труба – угол"
   },
   {
-    "Id": "other9",
+    "Id": "other8",
     "Title": "Канистра с бензином"
   },
   {
-    "Id": "other10",
+    "Id": "other9",
     "Title": "Контейнер для батарей"
   },
   {
-    "Id": "other11",
+    "Id": "other10",
     "Title": "Водяной бак"
   },
   {
-    "Id": "other12",
+    "Id": "other11",
     "Title": "Водяная пушка"
   },
   {
-    "Id": "other13",
+    "Id": "other12",
     "Title": "Растение в горшке"
   },
   {
-    "Id": "other14",
+    "Id": "other13",
     "Title": "Малое растение в горшке"
   },
   {
-    "Id": "other15",
+    "Id": "other14",
     "Title": "Лоза в горшке"
   },
   {
-    "Id": "other16",
+    "Id": "other15",
     "Title": "Большой горшок"
   },
   {
-    "Id": "other17",
+    "Id": "other16",
     "Title": "Саженец в горшке"
   },
   {
-    "Id": "other18",
+    "Id": "other17",
     "Title": "Цветущий кактус в горшке"
   },
   {
-    "Id": "other19",
+    "Id": "other18",
     "Title": "Кактус в горшке"
   },
   {
-    "Id": "other20",
+    "Id": "other19",
     "Title": "Синий цветок в горшке"
   },
   {
-    "Id": "other21",
-    "Title": "Бот-очиститель"
-  },
-  {
-    "Id": "other22",
-    "Title": "Сборщик ресурсов"
-  },
-  {
-    "Id": "other23",
+    "Id": "other20",
     "Title": "Бот-повар"
   },
   {
-    "Id": "other24",
+    "Id": "other21",
     "Title": "Контейнер с картошкозапасом"
   },
   {
-    "Id": "other25",
+    "Id": "other22",
     "Title": "Бульбострел"
   },
   {
-    "Id": "other26",
+    "Id": "other23",
     "Title": "Фривольвер"
   },
   {
-    "Id": "other27",
+    "Id": "other24",
     "Title": "Бульбомет"
   },
   {
-    "Id": "other28",
+    "Id": "other25",
     "Title": "Соединитель"
   }
 ]

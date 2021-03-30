@@ -17,98 +17,86 @@
   },
   {
     "Id": "other5",
-    "Title": "Baú Grande"
-  },
-  {
-    "Id": "other6",
     "Title": "Bomba de Vácuo"
   },
   {
-    "Id": "other7",
+    "Id": "other6",
     "Title": "Cano de Vácuo"
   },
   {
-    "Id": "other8",
+    "Id": "other7",
     "Title": "Cano de Vácuo Convergente"
   },
   {
-    "Id": "other9",
+    "Id": "other8",
     "Title": "Contêiner de Gasolina"
   },
   {
-    "Id": "other10",
+    "Id": "other9",
     "Title": "Caixa de Bateria"
   },
   {
-    "Id": "other11",
+    "Id": "other10",
     "Title": "Reservatório de Água"
   },
   {
-    "Id": "other12",
+    "Id": "other11",
     "Title": "Canhão de Água"
   },
   {
-    "Id": "other13",
+    "Id": "other12",
     "Title": "Vaso de Planta"
   },
   {
-    "Id": "other14",
+    "Id": "other13",
     "Title": "Vaso de Planta Pequeno"
   },
   {
-    "Id": "other15",
+    "Id": "other14",
     "Title": "Vaso de Videira"
   },
   {
-    "Id": "other16",
+    "Id": "other15",
     "Title": "Vaso Grande"
   },
   {
-    "Id": "other17",
+    "Id": "other16",
     "Title": "Vaso de Broto"
   },
   {
-    "Id": "other18",
+    "Id": "other17",
     "Title": "Vaso de Cacto Florido"
   },
   {
-    "Id": "other19",
+    "Id": "other18",
     "Title": "Vaso de Cacto"
   },
   {
-    "Id": "other20",
+    "Id": "other19",
     "Title": "Vaso de Flor Azul"
   },
   {
-    "Id": "other21",
-    "Title": "Robô Refinador"
-  },
-  {
-    "Id": "other22",
-    "Title": "Coletor de Recursos"
-  },
-  {
-    "Id": "other23",
+    "Id": "other20",
     "Title": "Robô Cozinheiro"
   },
   {
-    "Id": "other24",
+    "Id": "other21",
     "Title": "Caixa de Munição de Batatas"
   },
   {
-    "Id": "other25",
+    "Id": "other22",
     "Title": "Batatarma"
   },
   {
-    "Id": "other26",
+    "Id": "other23",
     "Title": "Batatarma de Cano Duplo"
   },
   {
-    "Id": "other27",
+    "Id": "other24",
     "Title": "Batatalhadora"
   },
   {
-    "Id": "other28",
+    "Id": "other25",
     "Title": "Ferramenta de Conexão"
   }
 ]

@@ -1,18 +1,1 @@
-[
-  {
-    "Id": "fuel1",
-    "Title": "Benzin"
-  },
-  {
-    "Id": "fuel2",
-    "Title": "Batterie"
-  },
-  {
-    "Id": "fuel3",
-    "Title": "Wasser"
-  },
-  {
-    "Id": "fuel4",
-    "Title": "Kartoffel"
-  }
-]
+[]

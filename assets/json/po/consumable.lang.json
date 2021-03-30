@@ -5,38 +5,26 @@
   },
   {
     "Id": "consu2",
-    "Title": "Chemikalia"
-  },
-  {
-    "Id": "consu3",
-    "Title": "Nabój do malowania"
-  },
-  {
-    "Id": "consu4",
-    "Title": "Świetlik"
-  },
-  {
-    "Id": "consu5",
     "Title": "Sunshake"
   },
   {
-    "Id": "consu6",
+    "Id": "consu3",
     "Title": "Pizzoburger"
   },
   {
-    "Id": "consu7",
+    "Id": "consu4",
     "Title": "Wegeburger"
   },
   {
-    "Id": "consu8",
+    "Id": "consu5",
     "Title": "Ożywcza bagietka"
   },
   {
-    "Id": "consu9",
+    "Id": "consu6",
     "Title": "Mleko aworka"
   },
   {
-    "Id": "consu10",
+    "Id": "consu7",
     "Title": "Worek ziemi"
   }
 ]

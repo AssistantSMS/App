@@ -1,0 +1,237 @@
+[
+  {
+    "AppId": "char1",
+    "AttackHitChances": [
+      {
+        "Type": "Break",
+        "HitChances": [
+          {
+            "Chance": 53.73,
+            "QualityLevel": 1
+          },
+          {
+            "Chance": 26.87,
+            "QualityLevel": 2
+          },
+          {
+            "Chance": 10.75,
+            "QualityLevel": 3
+          },
+          {
+            "Chance": 5.37,
+            "QualityLevel": 4
+          },
+          {
+            "Chance": 2.69,
+            "QualityLevel": 5
+          },
+          {
+            "Chance": 0.54,
+            "QualityLevel": 6
+          },
+          {
+            "Chance": 0.05,
+            "QualityLevel": 7
+          }
+        ]
+      },
+      {
+        "Type": "Swipe",
+        "HitChances": [
+          {
+            "Chance": 53.73,
+            "QualityLevel": 1
+          },
+          {
+            "Chance": 26.87,
+            "QualityLevel": 2
+          },
+          {
+            "Chance": 10.75,
+            "QualityLevel": 3
+          },
+          {
+            "Chance": 5.37,
+            "QualityLevel": 4
+          },
+          {
+            "Chance": 2.69,
+            "QualityLevel": 5
+          },
+          {
+            "Chance": 0.54,
+            "QualityLevel": 6
+          },
+          {
+            "Chance": 0.05,
+            "QualityLevel": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "AppId": "char2",
+    "AttackHitChances": [
+      {
+        "Type": "Break",
+        "HitChances": [
+          {
+            "Chance": 42.44,
+            "QualityLevel": 1
+          },
+          {
+            "Chance": 25.47,
+            "QualityLevel": 2
+          },
+          {
+            "Chance": 14.86,
+            "QualityLevel": 3
+          },
+          {
+            "Chance": 10.61,
+            "QualityLevel": 4
+          },
+          {
+            "Chance": 5.31,
+            "QualityLevel": 5
+          },
+          {
+            "Chance": 1.06,
+            "QualityLevel": 6
+          },
+          {
+            "Chance": 0.21,
+            "QualityLevel": 7
+          },
+          {
+            "Chance": 0.04,
+            "QualityLevel": 8
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "AppId": "char5",
+    "AttackHitChances": [
+      {
+        "Type": "Break",
+        "HitChances": [
+          {
+            "Chance": 25.45,
+            "QualityLevel": 1
+          },
+          {
+            "Chance": 25.45,
+            "QualityLevel": 2
+          },
+          {
+            "Chance": 25.45,
+            "QualityLevel": 3
+          },
+          {
+            "Chance": 12.72,
+            "QualityLevel": 4
+          },
+          {
+            "Chance": 6.36,
+            "QualityLevel": 5
+          },
+          {
+            "Chance": 2.54,
+            "QualityLevel": 6
+          },
+          {
+            "Chance": 1.27,
+            "QualityLevel": 7
+          },
+          {
+            "Chance": 0.51,
+            "QualityLevel": 8
+          },
+          {
+            "Chance": 0.25,
+            "QualityLevel": 9
+          }
+        ]
+      },
+      {
+        "Type": "Swipe",
+        "HitChances": [
+          {
+            "Chance": 26.18,
+            "QualityLevel": 1
+          },
+          {
+            "Chance": 26.18,
+            "QualityLevel": 2
+          },
+          {
+            "Chance": 26.18,
+            "QualityLevel": 3
+          },
+          {
+            "Chance": 13.09,
+            "QualityLevel": 4
+          },
+          {
+            "Chance": 4.71,
+            "QualityLevel": 5
+          },
+          {
+            "Chance": 2.62,
+            "QualityLevel": 6
+          },
+          {
+            "Chance": 0.52,
+            "QualityLevel": 7
+          },
+          {
+            "Chance": 0.26,
+            "QualityLevel": 8
+          },
+          {
+            "Chance": 0.26,
+            "QualityLevel": 9
+          }
+        ]
+      },
+      {
+        "Type": "Step",
+        "HitChances": [
+          {
+            "Chance": 51.28,
+            "QualityLevel": 1
+          },
+          {
+            "Chance": 25.64,
+            "QualityLevel": 2
+          },
+          {
+            "Chance": 12.82,
+            "QualityLevel": 3
+          },
+          {
+            "Chance": 10.26,
+            "QualityLevel": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "AppId": "other25",
+    "AttackHitChances": [
+      {
+        "Type": "Break",
+        "HitChances": [
+          {
+            "Chance": 100.0,
+            "QualityLevel": 1
+          }
+        ]
+      }
+    ]
+  }
+]

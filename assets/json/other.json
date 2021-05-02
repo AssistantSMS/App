@@ -123,5 +123,15 @@
     "Id": "other25",
     "Icon": "items/other25.png",
     "Flammable": false
+  },
+  {
+    "Id": "other26",
+    "Icon": "items/other26.png",
+    "Flammable": false
+  },
+  {
+    "Id": "other27",
+    "Icon": "items/other27.png",
+    "Flammable": false
   }
 ]

@@ -41,6 +41,7 @@
   "interactiveSharedJson": "de/interactiveShared.lang",
   "consumSharedJson": "de/consumableShared.lang",
   "bucketsJson": "de/bucket.lang",
+  "characterObjectJson": "de/characterObject.lang",
   "title": "Assistant für Scrap Mechanic",
   "loading": "Lädt",
   "about": "Über",
@@ -163,5 +164,5 @@
   "showOwned": "Zeige meine",
   "showNotOwned": "Zeige meine nicht ",
   "foundIn": "Zu finden in",
-  "hashCode": "DA8BBE51006D19833968DB83635B8B92"
+  "hashCode": "AA6FE56E8F23CCBDEF1F758965BCBBFD"
 }

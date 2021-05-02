@@ -15,8 +15,8 @@ dependencies:
 
   # AssistantApps
   assistantapps_flutter_common: 
-    git: https://github.com/AssistantApps/Flutter.Common.git
-    # path: 'C:\Development\Projects\AssistantApps\assistantapps_flutter_common'
+    # git: https://github.com/AssistantApps/Flutter.Common.git
+    path: 'C:\Development\Projects\AssistantApps\assistantapps_flutter_common'
 
   # Firebase
   firebase_core: 0.7.0
@@ -38,7 +38,6 @@ dependencies:
   dotted_border: ^1.0.7
   grouped_checkbox: ^1.0.0
   ff_navigation_bar: ^0.1.5
-  pagination_view: ^1.0.4
   flutter_simple_treeview: ^2.0.2
   # Base
   get_it: ^5.0.6

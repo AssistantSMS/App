@@ -41,6 +41,7 @@
   "interactiveSharedJson": "zh-hans/interactiveShared.lang",
   "consumSharedJson": "zh-hans/consumableShared.lang",
   "bucketsJson": "zh-hans/bucket.lang",
+  "characterObjectJson": "zh-hans/characterObject.lang",
   "title": "Assistant for Scrap Mechanic",
   "loading": "加载中",
   "about": "关于",
@@ -163,5 +164,5 @@
   "showOwned": "Show owned",
   "showNotOwned": "Show not owned",
   "foundIn": "Found in",
-  "hashCode": "0918DB39B220B2B07443D819524063E6"
+  "hashCode": "F97EF0B88A173D17F6C18F6699BF763D"
 }

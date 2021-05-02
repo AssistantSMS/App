@@ -41,6 +41,7 @@
   "interactiveSharedJson": "zh-hant/interactiveShared.lang",
   "consumSharedJson": "zh-hant/consumableShared.lang",
   "bucketsJson": "zh-hant/bucket.lang",
+  "characterObjectJson": "zh-hant/characterObject.lang",
   "title": "Assistant for Scrap Mechanic",
   "loading": "Loading",
   "about": "About",
@@ -163,5 +164,5 @@
   "showOwned": "Show owned",
   "showNotOwned": "Show not owned",
   "foundIn": "Found in",
-  "hashCode": "81424092C682F69AB0677EDDCCF975AD"
+  "hashCode": "3D6F2B54FD931D40D3FAC0B673270F7A"
 }

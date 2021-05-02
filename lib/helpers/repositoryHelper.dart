@@ -44,6 +44,8 @@ String getBaseFileName(LocaleKey detailsJson) {
       return BaseJson.buckets;
     case LocaleKey.buildingJson:
       return BaseJson.building;
+    case LocaleKey.characterObjectJson:
+      return BaseJson.characterObject;
     case LocaleKey.componentsJson:
       return BaseJson.components;
     case LocaleKey.constructionJson:

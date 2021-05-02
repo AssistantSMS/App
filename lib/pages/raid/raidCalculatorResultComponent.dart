@@ -39,9 +39,17 @@ class RaidCalculatorResultComponent extends StatelessWidget {
     }
     widgets.add(emptySpace8x());
 
+    if (showMobileView) {
+      return Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: widgets,
+      );
+    }
+
     return listWithScrollbar(
-        shrinkWrap: true,
-        itemCount: widgets.length,
-        itemBuilder: (context, index) => widgets[index]);
+      shrinkWrap: true,
+      itemCount: widgets.length,
+      itemBuilder: (context, index) => widgets[index],
+    );
   }
 }

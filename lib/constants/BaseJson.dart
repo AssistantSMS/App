@@ -3,6 +3,7 @@ class BaseJson {
   static const String blocks = 'blocks';
   static const String building = 'building';
   static const String buckets = 'bucket';
+  static const String characterObject = 'characterObject';
   static const String components = 'component';
   static const String construction = 'construction';
   static const String consumable = 'consumable';

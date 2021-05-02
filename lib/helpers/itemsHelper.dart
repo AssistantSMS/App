@@ -50,6 +50,7 @@ ResultWithValue<IGameItemJsonService> getGameItemRepoFromId(
   if (id.contains(IdPrefix.blocks)) key = LocaleKey.blocksJson;
   if (id.contains(IdPrefix.buckets)) key = LocaleKey.bucketsJson;
   if (id.contains(IdPrefix.building)) key = LocaleKey.buildingJson;
+  if (id.contains(IdPrefix.charObject)) key = LocaleKey.characterObjectJson;
   if (id.contains(IdPrefix.components)) key = LocaleKey.componentsJson;
   if (id.contains(IdPrefix.construction)) key = LocaleKey.constructionJson;
   if (id.contains(IdPrefix.consumable)) key = LocaleKey.consumableJson;

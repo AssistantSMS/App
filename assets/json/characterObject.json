@@ -1,0 +1,121 @@
+[
+  {
+    "Id": "char1",
+    "Icon": "items/char1.png",
+    "Color": "49642d",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 10,
+      "Friction": 3,
+      "Buoyancy": 8
+    },
+    "Cylinder": {
+      "Diameter": 7,
+      "Depth": 6
+    },
+    "Flammable": true
+  },
+  {
+    "Id": "char2",
+    "Icon": "items/char2.png",
+    "Color": "e75b0f",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 10,
+      "Friction": 3,
+      "Buoyancy": 8
+    },
+    "Cylinder": {
+      "Diameter": 9,
+      "Depth": 9
+    },
+    "Flammable": true
+  },
+  {
+    "Id": "char3",
+    "Icon": "items/char3.png",
+    "Color": "035cff",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 10,
+      "Friction": 3,
+      "Buoyancy": 8
+    },
+    "Cylinder": {
+      "Diameter": 6,
+      "Depth": 9
+    },
+    "Flammable": true
+  },
+  {
+    "Id": "char4",
+    "Icon": "items/char4.png",
+    "Color": "ec1919",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 10,
+      "Friction": 3,
+      "Buoyancy": 8
+    },
+    "Cylinder": {
+      "Diameter": 6,
+      "Depth": 9
+    },
+    "Flammable": true
+  },
+  {
+    "Id": "char5",
+    "Icon": "items/char5.png",
+    "Color": "c52c18",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 10,
+      "Friction": 3,
+      "Buoyancy": 8
+    },
+    "Cylinder": {
+      "Diameter": 19,
+      "Depth": 14
+    },
+    "Flammable": true
+  },
+  {
+    "Id": "char6",
+    "Icon": "items/char6.png",
+    "Color": "92f00f",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 10,
+      "Friction": 3,
+      "Buoyancy": 8
+    },
+    "Cylinder": {
+      "Diameter": 3,
+      "Depth": 3
+    },
+    "Flammable": true
+  },
+  {
+    "Id": "char7",
+    "Icon": "items/char7.png",
+    "Color": "f088b3",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 10,
+      "Friction": 3,
+      "Buoyancy": 8
+    },
+    "Cylinder": {
+      "Diameter": 11,
+      "Depth": 9
+    },
+    "Flammable": true
+  }
+]

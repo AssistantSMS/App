@@ -1,14 +1,25 @@
 [
   {
+    "name": "Update 0.5.1",
+    "date": "2021-03-31T19:19:34Z",
+    "link": "https://store.steampowered.com/news/app/387990/view/3020201029275584116",
+    "image": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/clans/11471984/603024a52737dc0483b07166d8ea40652c91e337.png",
+    "shortDescription": "Hi Mechanics!\nThe Creative Mode update is finally out and we are already looking into some additional fixes.\nToday we took care of a few reported crashes and some other issues.\nBug fixes\nFixed an issue where world builder worlds from previous vers...",
+    "videoLink": "",
+    "upVotes": 1094,
+    "downVotes": 27,
+    "commentCount": 104
+  },
+  {
     "name": "Creative mode update 0.5.0",
     "date": "2021-03-30T17:12:08Z",
     "link": "https://store.steampowered.com/news/app/387990/view/3023578094370986650",
     "image": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/clans/11471984/72ee9f1120482909ed3611d67d70393d13730e74.png",
     "shortDescription": "Hi Mechanics! \nCreative mode Update 050 is finally here!\nNew creative mode worlds\nWelcome to the new and updated creative mode! Not only did we make it look better to go hand in hand with the survival world but we also finally added water to the c...",
     "videoLink": "",
-    "upVotes": 194,
-    "downVotes": 1,
-    "commentCount": 30
+    "upVotes": 1837,
+    "downVotes": 26,
+    "commentCount": 215
   },
   {
     "name": "Creative mode update test 0.5.0 (Updated March 30)",
@@ -17,8 +28,8 @@
     "image": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/clans/11471984/603024a52737dc0483b07166d8ea40652c91e337.png",
     "shortDescription": "Updated March 30\nBug fixes\nFixed camera issues in the World Builder\r\n\n--------------------------------------------------------\nUpdated March 26\nBug fixes\nPlayers that had issues starting the game in the test branch should now be able to start\n\r\nGa...",
     "videoLink": "",
-    "upVotes": 2831,
-    "downVotes": 50,
+    "upVotes": 2966,
+    "downVotes": 53,
     "commentCount": 387
   },
   {
@@ -28,9 +39,9 @@
     "image": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/clans/11471984/2b4bc93ffcb93c5d257077f3216d400f533c9546.png",
     "shortDescription": "Calling all mechanics!\nNew devblog, coming through! This time, we want to focus on a few things that are coming up in the not-too-distant future and also show a few new things that are in the works for the next survival chapter.\n\n\n\nCablebot\nWatch ...",
     "videoLink": "",
-    "upVotes": 4618,
+    "upVotes": 4925,
     "downVotes": 31,
-    "commentCount": 501
+    "commentCount": 516
   },
   {
     "name": "Devblog 20 is here!",
@@ -39,9 +50,9 @@
     "image": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/clans/11471984/d0cdf95f53c1351df0e0bc8ec0a36faca818a6a6.png",
     "shortDescription": "Calling all Mechanics!\n2020 is coming to a close and we’re here to end it on a good note with a special devblog! Here are some of the things we’ve been working on since the release of Scrap Mechanic’s Survival Mode earlier this year.\nTo start, we ...",
     "videoLink": "",
-    "upVotes": 6453,
-    "downVotes": 33,
-    "commentCount": 657
+    "upVotes": 6583,
+    "downVotes": 34,
+    "commentCount": 665
   },
   {
     "name": "Update 0.4.8 is here!",
@@ -50,9 +61,9 @@
     "image": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/clans/11471984/bda97b90fe5c260fc431c0b350d5d841b4e07999.png",
     "shortDescription": "Hi Mechanics!\nWe are excited to finally drop this update!\nThis update will lay out some of the groundwork for the upcoming new survival chapter that we are working on right now. In this update we did a ton of bug fixes and improvements. We also ad...",
     "videoLink": "",
-    "upVotes": 4070,
+    "upVotes": 4167,
     "downVotes": 27,
-    "commentCount": 340
+    "commentCount": 341
   },
   {
     "name": "Patch 0.4.8 Test! (Updated November 11)",
@@ -61,8 +72,8 @@
     "image": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/clans/11471984/603024a52737dc0483b07166d8ea40652c91e337.png",
     "shortDescription": "Hi Mechanics!\nThis test turned in to a pretty long one as you might have noticed. We ended up doing a lot of small fixes. But also because we wanted to add a few more things for testing before we drop it.\nToday the 30th of October we finally added...",
     "videoLink": "",
-    "upVotes": 1794,
-    "downVotes": 32,
+    "upVotes": 1829,
+    "downVotes": 33,
     "commentCount": 319
   },
   {
@@ -72,7 +83,7 @@
     "image": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/clans/11471984/01459a509dc273d3bb90923b30eeb2e98eed2880.png",
     "shortDescription": "Hi Mechanics!\nWe are back with a new update! Thanks for helping us test it out!\nThis time we’ve been focusing on making sure the languages are fixed and updated. \nThey unfortunately didn’t make it on time for the survival release, but they are bac...",
     "videoLink": "",
-    "upVotes": 2671,
+    "upVotes": 2722,
     "downVotes": 72,
     "commentCount": 262
   },
@@ -83,8 +94,8 @@
     "image": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/clans/11471984/603024a52737dc0483b07166d8ea40652c91e337.png",
     "shortDescription": "Hi Mechanics!\nWe are back with a new update! \nThis time we’ve been focusing on making sure the languages are fixed and updated. \nThey unfortunately didn’t make it on time for the survival release, but they are back in Scrap Mechanic now!\nHere are ...",
     "videoLink": "",
-    "upVotes": 1520,
-    "downVotes": 31,
+    "upVotes": 1568,
+    "downVotes": 30,
     "commentCount": 167
   },
   {
@@ -94,19 +105,8 @@
     "image": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/clans/11471984/603024a52737dc0483b07166d8ea40652c91e337.png",
     "shortDescription": "Hi Mechanics!\nIt’s time to move all the things we tested into the game!\nThanks for all the amazing feedback! Here are some of the new things in this update. Cotton plants can now be planted on your farm. You can trade for Cotton seeds at the Farme...",
     "videoLink": "",
-    "upVotes": 1550,
+    "upVotes": 1572,
     "downVotes": 28,
     "commentCount": 196
-  },
-  {
-    "name": "Update 0.4.6 Test! (Updated June 23)",
-    "date": "2020-06-12T18:14:45Z",
-    "link": "https://store.steampowered.com/news/app/387990/view/2408810742519848814",
-    "image": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/clans/11471984/603024a52737dc0483b07166d8ea40652c91e337.png",
-    "shortDescription": "Updated June 23\nHi Mechanics!\nWe updated the test again with some changes to the network code.\nFixed an issue that could cause network lag for clients\r\n\nUpdated June 19\nHi Mechanics!\nWe have updated the test with some more stuff!\nIn the updated ve...",
-    "videoLink": "",
-    "upVotes": 1730,
-    "downVotes": 38,
-    "commentCount": 429
   }
 ]

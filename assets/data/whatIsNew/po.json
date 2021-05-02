@@ -1,5 +1,18 @@
 [
   {
+    "guid": "a67cbaba-3a36-4263-9d7e-7768b0f5654f",
+    "appGuid": "dfe0dbc7-8df4-47fb-a5a5-49af1937c4e2",
+    "markdown": "- Regenerate data from 0.5.0 Game Files\n- Fix Raid Calculator not displaying Potatoes\n- Updated languages",
+    "buildName": "1.5.0",
+    "buildNumber": 41,
+    "platforms": [
+      0,
+      1,
+      2
+    ],
+    "activeDate": "2021-03-31T20:00:00Z"
+  },
+  {
     "guid": "5d5c3980-9bf3-42c5-91ec-4ba188878644",
     "appGuid": "dfe0dbc7-8df4-47fb-a5a5-49af1937c4e2",
     "markdown": "- Fix Cart (View all RequiredItems) not loading on some devices",

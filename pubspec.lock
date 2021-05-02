@@ -32,11 +32,9 @@ packages:
   assistantapps_flutter_common:
     dependency: "direct main"
     description:
-      path: "."
-      ref: HEAD
-      resolved-ref: "16446ce50e7fbe77c17dc71d57aaaf8890d9b0bc"
-      url: "https://github.com/AssistantApps/Flutter.Common.git"
-    source: git
+      path: "C:\\Development\\Projects\\AssistantApps\\assistantapps_flutter_common"
+      relative: false
+    source: path
     version: "0.0.21"
   async:
     dependency: transitive
@@ -523,7 +521,7 @@ packages:
     source: hosted
     version: "0.2.0"
   pagination_view:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: pagination_view
       url: "https://pub.dartlang.org"

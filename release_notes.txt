@@ -1,6 +1,2 @@
-- Fix cart delete all
-- Fix Drawer menu display bug
-- Improve steam news page
-  - Fix placeholder steam image
-- Fix loading icon on iOS
-- Fix Cart not loading on some devices
+- Added Capsule items
+- Fix scrolling on Raid Calculator

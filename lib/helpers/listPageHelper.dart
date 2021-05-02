@@ -7,6 +7,7 @@ List<LocaleKey> getBlocksAndItemsPageLocales() => [
       LocaleKey.blocksJson,
       LocaleKey.bucketsJson,
       LocaleKey.buildingJson,
+      LocaleKey.characterObjectJson,
       LocaleKey.componentsJson,
       LocaleKey.constructionJson,
       LocaleKey.consumableJson,

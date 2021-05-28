@@ -32,9 +32,11 @@ packages:
   assistantapps_flutter_common:
     dependency: "direct main"
     description:
-      path: "C:\\Development\\Projects\\AssistantApps\\assistantapps_flutter_common"
-      relative: false
-    source: path
+      path: "."
+      ref: HEAD
+      resolved-ref: "40a07b0b3a78176eb1d74b47ab80c08e6fd0a6ef"
+      url: "https://github.com/AssistantApps/Flutter.Common.git"
+    source: git
     version: "0.0.21"
   async:
     dependency: transitive
@@ -43,13 +45,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.4.2"
-  badges:
-    dependency: "direct main"
-    description:
-      name: badges
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "1.1.6"
   bloc:
     dependency: transitive
     description:

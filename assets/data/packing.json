@@ -1,0 +1,114 @@
+[
+  {
+    "Id": "packing1",
+    "CraftingTime": 0,
+    "Output": {
+      "Id": "pack3",
+      "Quantity": 1
+    },
+    "Inputs": [
+      {
+        "Id": "plant18",
+        "Quantity": 10
+      }
+    ]
+  },
+  {
+    "Id": "packing2",
+    "CraftingTime": 0,
+    "Output": {
+      "Id": "pack6",
+      "Quantity": 1
+    },
+    "Inputs": [
+      {
+        "Id": "plant15",
+        "Quantity": 10
+      }
+    ]
+  },
+  {
+    "Id": "packing3",
+    "CraftingTime": 0,
+    "Output": {
+      "Id": "pack7",
+      "Quantity": 1
+    },
+    "Inputs": [
+      {
+        "Id": "plant16",
+        "Quantity": 10
+      }
+    ]
+  },
+  {
+    "Id": "packing4",
+    "CraftingTime": 0,
+    "Output": {
+      "Id": "pack8",
+      "Quantity": 1
+    },
+    "Inputs": [
+      {
+        "Id": "plant17",
+        "Quantity": 10
+      }
+    ]
+  },
+  {
+    "Id": "packing5",
+    "CraftingTime": 0,
+    "Output": {
+      "Id": "pack1",
+      "Quantity": 1
+    },
+    "Inputs": [
+      {
+        "Id": "plant11",
+        "Quantity": 10
+      }
+    ]
+  },
+  {
+    "Id": "packing6",
+    "CraftingTime": 0,
+    "Output": {
+      "Id": "pack2",
+      "Quantity": 1
+    },
+    "Inputs": [
+      {
+        "Id": "plant12",
+        "Quantity": 10
+      }
+    ]
+  },
+  {
+    "Id": "packing7",
+    "CraftingTime": 0,
+    "Output": {
+      "Id": "pack4",
+      "Quantity": 1
+    },
+    "Inputs": [
+      {
+        "Id": "plant13",
+        "Quantity": 10
+      }
+    ]
+  },
+  {
+    "Id": "packing8",
+    "CraftingTime": 0,
+    "Output": {
+      "Id": "pack5",
+      "Quantity": 1
+    },
+    "Inputs": [
+      {
+        "Id": "plant14",
+        "Quantity": 10
+      }
+    ]
+  }
+]

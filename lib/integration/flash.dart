@@ -54,7 +54,6 @@ class FlashHelper {
             alignment: const Alignment(0, 0.5),
             margin: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
             borderRadius: const BorderRadius.all(Radius.circular(8.0)),
-            enableDrag: false,
             backgroundColor: Colors.black87,
             child: DefaultTextStyle(
               style: const TextStyle(fontSize: 16.0, color: Colors.white),
@@ -115,9 +114,9 @@ class FlashHelper {
             title: title == null
                 ? null
                 : Text(title, style: _titleStyle(context, Colors.white)),
-            message: Text(message, style: _contentStyle(context, Colors.white)),
+            content: Text(message, style: _contentStyle(context, Colors.white)),
             icon: Icon(Icons.info_outline, color: Colors.green[300]),
-            leftBarIndicatorColor: Colors.green[300],
+            indicatorColor: Colors.green[300],
           ),
         );
       },
@@ -142,9 +141,9 @@ class FlashHelper {
             title: title == null
                 ? null
                 : Text(title, style: _titleStyle(context, Colors.white)),
-            message: Text(message, style: _contentStyle(context, Colors.white)),
+            content: Text(message, style: _contentStyle(context, Colors.white)),
             icon: Icon(Icons.check_circle, color: Colors.blue[300]),
-            leftBarIndicatorColor: Colors.blue[300],
+            indicatorColor: Colors.blue[300],
           ),
         );
       },
@@ -171,11 +170,11 @@ class FlashHelper {
               title: title == null
                   ? null
                   : Text(title, style: _titleStyle(context, Colors.white)),
-              message:
+              content:
                   Text(message, style: _contentStyle(context, Colors.white)),
               primaryAction: primaryAction?.call(context, controller, setState),
               icon: Icon(Icons.warning, color: Colors.red[300]),
-              leftBarIndicatorColor: Colors.red[300],
+              indicatorColor: Colors.red[300],
             ),
           );
         });
@@ -203,7 +202,7 @@ class FlashHelper {
               title: title == null
                   ? null
                   : Text(title, style: _titleStyle(context, Colors.white)),
-              message:
+              content:
                   Text(message, style: _contentStyle(context, Colors.white)),
               primaryAction: primaryAction?.call(context, controller, setState),
             ),
@@ -236,7 +235,7 @@ class FlashHelper {
                 title: title == null
                     ? null
                     : Text(title, style: _titleStyle(context)),
-                message:
+                content:
                     Text(message, style: _contentStyle(context, messageColor)),
                 actions: <Widget>[
                   if (negativeAction != null)
@@ -275,7 +274,7 @@ class FlashHelper {
                   style: _titleStyle(context),
                   child: titleBuilder?.call(context, controller, setState),
                 ),
-                message: DefaultTextStyle(
+                content: DefaultTextStyle(
                   style: _contentStyle(context),
                   child: messageBuilder.call(context, controller, setState),
                 ),
@@ -299,7 +298,7 @@ class FlashHelper {
   }) {
     var controller = FlashController<T>(
       context,
-      (context, FlashController<T> controller) {
+      builder: (context, FlashController<T> controller) {
         return Flash.dialog(
           controller: controller,
           barrierDismissible: false,
@@ -343,7 +342,7 @@ class FlashHelper {
             title: title == null
                 ? null
                 : Text(title, style: TextStyle(fontSize: 24.0)),
-            message: Column(
+            content: Column(
               children: [
                 if (message != null) Text(message),
                 Form(
@@ -354,7 +353,7 @@ class FlashHelper {
                 ),
               ],
             ),
-            leftBarIndicatorColor: theme.primaryColor,
+            indicatorColor: theme.primaryColor,
             primaryAction: IconButton(
               onPressed: () {
                 var message = editingController.text;

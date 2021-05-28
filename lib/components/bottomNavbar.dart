@@ -1,13 +1,14 @@
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
-import 'package:ff_navigation_bar/ff_navigation_bar.dart';
+import 'package:custom_navigation_bar/custom_navigation_bar.dart';
 import 'package:flutter/material.dart';
 
 import '../constants/Routes.dart';
 
 class NavBarItem {
+  IconData icon;
+  String title;
   String route;
-  FFNavigationBarItem child;
-  NavBarItem(this.child, this.route);
+  NavBarItem(this.icon, this.title, this.route);
 }
 
 class BottomNavbar extends StatefulWidget {
@@ -20,74 +21,58 @@ class BottomNavbar extends StatefulWidget {
 }
 
 class _BottomNavbarWidget extends State<BottomNavbar> {
+  int currentRouteIndex = 1;
   final String currentRoute;
   final bool noRouteSelected;
-  static List<NavBarItem> navBarItems = [
-    NavBarItem(
-      FFNavigationBarItem(
-        iconData: Icons.help_outline,
-        label: 'About',
-      ),
-      Routes.about,
-    ),
-    NavBarItem(
-      FFNavigationBarItem(
-        iconData: Icons.home,
-        label: 'Home',
-      ),
-      Routes.home,
-    ),
-    NavBarItem(
-      FFNavigationBarItem(
-        iconData: Icons.shopping_cart,
-        label: 'Cart',
-      ),
-      Routes.cart,
-    ),
+  final List<NavBarItem> items = [
+    NavBarItem(Icons.help_outline, 'About', Routes.about),
+    NavBarItem(Icons.home, 'Home', Routes.home),
+    NavBarItem(Icons.shopping_cart, 'Cart', Routes.cart),
   ];
-  int selectedIndex = ((navBarItems.length - 1) / 2).floor();
+
   _BottomNavbarWidget(this.currentRoute, this.noRouteSelected) {
-    if (noRouteSelected) {
-      selectedIndex = null;
-      return;
-    }
-    if (navBarItems.any((navItem) => navItem.route == this.currentRoute)) {
-      selectedIndex = navBarItems
-          .indexWhere((navItem) => navItem.route == this.currentRoute);
+    int index = items.indexWhere((item) => item.route == this.currentRoute);
+    if (index >= 0) {
+      currentRouteIndex = index;
     }
   }
 
   @override
   Widget build(BuildContext context) {
-    var secondaryColour = getTheme().getSecondaryColour(context);
-    var foregroundColour = getTheme().getH1Colour(context);
-    var backgroundColour = getTheme().getBackgroundColour(context);
-    var theme = FFNavigationBarTheme(
-      barBackgroundColor: backgroundColour,
-      selectedItemBorderColor: backgroundColour,
-      selectedItemIconColor: foregroundColour,
-      selectedItemBackgroundColor: secondaryColour,
-      selectedItemLabelColor: foregroundColour,
-      unselectedItemIconColor: foregroundColour,
-      unselectedItemLabelColor: foregroundColour,
-    );
-    return FFNavigationBar(
-      key: Key('NavBar' + getTheme().getIsDark(context).toString()),
-      theme: theme,
-      selectedIndex: null,
-      // selectedIndex: selectedIndex,
-      onSelectTab: (index) {
-        if (navBarItems[index] != null && navBarItems[index].route != null) {
-          getNavigation().navigateHomeAsync(
-            context,
-            navigateToNamed: navBarItems[index].route,
-          );
-        }
-        setState(() {
-          selectedIndex = index;
+    Color unSelectedColour = Colors.white70;
+    Color selectedColour = getTheme().getSecondaryColour(context);
+    Color backgroundColour = getTheme().getBackgroundColour(context);
+    return CustomNavigationBar(
+      items: items.map((nav) {
+        Widget normalTitle = Text(nav.title);
+        Widget highlightedTitle = Text(
+          nav.title,
+          style: TextStyle(color: selectedColour),
+        );
+        return CustomNavigationBarItem(
+          icon: Icon(nav.icon),
+          title: normalTitle,
+          selectedTitle: this.noRouteSelected ? normalTitle : highlightedTitle,
+        );
+      }).toList(),
+      currentIndex: currentRouteIndex,
+      unSelectedColor: unSelectedColour,
+      selectedColor: this.noRouteSelected ? unSelectedColour : selectedColour,
+      backgroundColor: backgroundColour,
+      onTap: (int i) {
+        this.setState(() {
+          currentRouteIndex = i;
         });
+        String route = items[i].route;
+        if (route == Routes.home) {
+          getNavigation().navigateHomeAsync(context);
+          return;
+        }
+        getNavigation().navigateAwayFromHomeAsync(
+          context,
+          navigateToNamed: items[i].route,
+        );
       },
-      items: navBarItems.map((nb) => nb.child).toList(),
     );
   }
 }

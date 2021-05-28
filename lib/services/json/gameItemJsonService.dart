@@ -4,7 +4,6 @@ import '../../contracts/gameItem/gameItem.dart';
 import '../../contracts/gameItem/gameItemBase.dart';
 import '../../contracts/gameItem/gameItemLang.dart';
 import '../../mapper/gameItemMapper.dart';
-import '../BaseJsonService.dart';
 import './interface/IGameItemJsonService.dart';
 
 class GameItemJsonService extends BaseJsonService

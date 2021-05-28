@@ -4,7 +4,6 @@ import '../../contracts/recipe/recipe.dart';
 import '../../contracts/recipe/recipeBase.dart';
 import '../../contracts/recipe/recipeLang.dart';
 import '../../mapper/recipeMapper.dart';
-import '../BaseJsonService.dart';
 import './interface/IRecipeJsonService.dart';
 
 class RecipeJsonService extends BaseJsonService implements IRecipeJsonService {

@@ -30,10 +30,12 @@ class AboutPage extends StatelessWidget {
 
     widgets.add(emptySpace2x());
 
-    widgets.add(Text(getTranslations().fromKey(LocaleKey.aboutContent),
-        textAlign: TextAlign.center,
-        maxLines: 50,
-        style: TextStyle(fontSize: 16)));
+    widgets.add(Text(
+      getTranslations().fromKey(LocaleKey.aboutContent),
+      textAlign: TextAlign.center,
+      maxLines: 50,
+      style: TextStyle(fontSize: 16),
+    ));
 
     widgets.add(customDivider());
 

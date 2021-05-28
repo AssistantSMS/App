@@ -4,7 +4,6 @@ import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:scrapmechanic_kurtlourens_com/constants/JsonFile.dart';
 
 import '../../contracts/generated/contributorViewModel.dart';
-import '../BaseJsonService.dart';
 
 class BackupJsonService extends BaseJsonService {
   Future<ResultWithValue<List<ContributorViewModel>>> getContributors(

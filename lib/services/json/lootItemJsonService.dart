@@ -3,7 +3,6 @@ import 'dart:convert';
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 
 import '../../contracts/generated/Loot.dart';
-import '../BaseJsonService.dart';
 
 class LootItemJsonService extends BaseJsonService {
   Future<ResultWithValue<List<Loot>>> getAll(context) async {

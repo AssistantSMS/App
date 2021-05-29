@@ -32,7 +32,12 @@
       "Diameter": 1,
       "Depth": 1
     },
-    "Flammable": true
+    "Flammable": true,
+    "Edible": {
+      "HpGain": 10,
+      "FoodGain": 25,
+      "WaterGain": 35
+    }
   },
   {
     "Id": "consu3",
@@ -50,7 +55,12 @@
       "Y": 2,
       "Z": 2
     },
-    "Flammable": true
+    "Flammable": true,
+    "Edible": {
+      "HpGain": 100,
+      "FoodGain": 100,
+      "WaterGain": 100
+    }
   },
   {
     "Id": "consu4",
@@ -68,7 +78,12 @@
       "Y": 2,
       "Z": 2
     },
-    "Flammable": true
+    "Flammable": true,
+    "Edible": {
+      "HpGain": 100,
+      "FoodGain": 100,
+      "WaterGain": 100
+    }
   },
   {
     "Id": "consu5",
@@ -103,7 +118,12 @@
       "Diameter": 1,
       "Depth": 2
     },
-    "Flammable": true
+    "Flammable": true,
+    "Edible": {
+      "HpGain": 0,
+      "FoodGain": 10,
+      "WaterGain": 40
+    }
   },
   {
     "Id": "consu7",

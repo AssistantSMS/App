@@ -12,6 +12,7 @@ import '../rating/rating.dart';
 import 'box.dart';
 import 'feature.dart';
 import 'upgrade.dart';
+import 'edible.dart';
 
 class GameItemBase {
   GameItemBase({
@@ -25,6 +26,7 @@ class GameItemBase {
     this.flammable,
     this.features,
     this.upgrade,
+    this.edible,
     this.customisationSource,
   });
 
@@ -37,6 +39,7 @@ class GameItemBase {
   Cylinder cylinder;
   bool flammable;
   Upgrade upgrade;
+  Edible edible;
   List<Feature> features;
   CustomisationSourceType customisationSource;
 
@@ -56,6 +59,7 @@ class GameItemBase {
             : Cylinder.fromJson(json["Cylinder"]),
         upgrade:
             json["Upgrade"] == null ? null : Upgrade.fromJson(json["Upgrade"]),
+        edible: json["Edible"] == null ? null : Edible.fromJson(json["Edible"]),
         features: json["Features"] == null
             ? null
             : List<Feature>.from(

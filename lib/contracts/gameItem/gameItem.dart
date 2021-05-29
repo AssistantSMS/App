@@ -6,6 +6,7 @@ import '../enum/customisationSourceType.dart';
 import '../rating/rating.dart';
 import 'box.dart';
 import 'cylinder.dart';
+import 'edible.dart';
 import 'feature.dart';
 import 'gameItemBase.dart';
 import 'gameItemLang.dart';
@@ -24,6 +25,7 @@ class GameItem {
     this.flammable,
     this.features,
     this.upgrade,
+    this.edible,
     this.customisationSource,
   });
 
@@ -37,6 +39,7 @@ class GameItem {
   Cylinder cylinder;
   bool flammable;
   Upgrade upgrade;
+  Edible edible;
   List<Feature> features;
   CustomisationSourceType customisationSource;
 
@@ -53,6 +56,7 @@ class GameItem {
         flammable: baseItem.flammable,
         features: baseItem.features,
         upgrade: baseItem.upgrade,
+        edible: baseItem.edible,
         customisationSource: baseItem.customisationSource,
       );
 }

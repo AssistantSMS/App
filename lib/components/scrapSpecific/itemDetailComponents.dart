@@ -39,7 +39,7 @@ ResultWithValue<Widget> getRatingTableRows(
         false, null, 'rating is not worth displaying');
   }
 
-  var isDark = getTheme().getIsDark(context);
+  bool isDark = getTheme().getIsDark(context);
   if (gameItem.rating.density != null) {
     rows.add(TableRow(children: [
       headingLocaleKeyWithImage(
@@ -65,7 +65,7 @@ ResultWithValue<Widget> getRatingTableRows(
     rows.add(TableRow(children: [
       headingLocaleKeyWithImage(
           context, AppImage.buoyancy(isDark), LocaleKey.buoyancy),
-      rowValue(context, gameItem.rating.buoyancy)
+      rowValue(context, gameItem.rating.buoyancy),
     ]));
   }
   if (gameItem.flammable != null) {
@@ -80,6 +80,50 @@ ResultWithValue<Widget> getRatingTableRows(
             color: getTheme().getPrimaryColour(context), fontSize: 16),
       ),
     ]));
+  }
+  if (gameItem.edible != null) {
+    List<TableRow> edibles = List.empty(growable: true);
+    if (gameItem.edible.hpGain != null && gameItem.edible.hpGain > 0) {
+      edibles.add(TableRow(children: [
+        headingLocaleKeyWithImage(
+            context, AppImage.health(isDark), LocaleKey.flammable),
+        Text(
+          gameItem.edible.hpGain.toString(),
+          textAlign: TextAlign.center,
+          style: TextStyle(
+              color: getTheme().getPrimaryColour(context), fontSize: 16),
+        ),
+      ]));
+    }
+    if (gameItem.edible.foodGain != null && gameItem.edible.foodGain > 0) {
+      edibles.add(TableRow(children: [
+        headingLocaleKeyWithImage(
+            context, AppImage.food(isDark), LocaleKey.flammable),
+        Text(
+          gameItem.edible.foodGain.toString(),
+          textAlign: TextAlign.center,
+          style: TextStyle(
+              color: getTheme().getPrimaryColour(context), fontSize: 16),
+        ),
+      ]));
+    }
+    if (gameItem.edible.waterGain != null && gameItem.edible.waterGain > 0) {
+      edibles.add(TableRow(children: [
+        headingLocaleKeyWithImage(
+            context, AppImage.water(isDark), LocaleKey.flammable),
+        Text(
+          gameItem.edible.waterGain.toString(),
+          textAlign: TextAlign.center,
+          style: TextStyle(
+              color: getTheme().getPrimaryColour(context), fontSize: 16),
+        ),
+      ]));
+    }
+
+    if (edibles.length > 0) {
+      rows.add(TableRow(children: [customDivider(), customDivider()]));
+      rows.addAll(edibles);
+    }
   }
 
   var child = Padding(

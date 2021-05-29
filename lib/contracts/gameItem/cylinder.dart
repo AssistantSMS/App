@@ -1,5 +1,7 @@
 import 'dart:convert';
 
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
+
 class Cylinder {
   Cylinder({
     this.diameter,
@@ -13,7 +15,7 @@ class Cylinder {
       Cylinder.fromJson(json.decode(str));
 
   factory Cylinder.fromJson(Map<String, dynamic> json) => Cylinder(
-        diameter: json["Diameter"],
-        depth: json["Depth"],
+        diameter: readIntSafe(json, 'Diameter'),
+        depth: readIntSafe(json, 'Depth'),
       );
 }

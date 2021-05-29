@@ -195,7 +195,12 @@
       "Y": 1,
       "Z": 3
     },
-    "Flammable": true
+    "Flammable": true,
+    "Edible": {
+      "HpGain": 0,
+      "FoodGain": 40,
+      "WaterGain": 15
+    }
   },
   {
     "Id": "plant12",
@@ -213,7 +218,12 @@
       "Y": 1,
       "Z": 1
     },
-    "Flammable": true
+    "Flammable": true,
+    "Edible": {
+      "HpGain": 0,
+      "FoodGain": 30,
+      "WaterGain": 30
+    }
   },
   {
     "Id": "plant13",
@@ -231,7 +241,12 @@
       "Y": 2,
       "Z": 2
     },
-    "Flammable": true
+    "Flammable": true,
+    "Edible": {
+      "HpGain": 0,
+      "FoodGain": 15,
+      "WaterGain": 40
+    }
   },
   {
     "Id": "plant14",
@@ -249,7 +264,12 @@
       "Y": 3,
       "Z": 2
     },
-    "Flammable": true
+    "Flammable": true,
+    "Edible": {
+      "HpGain": 0,
+      "FoodGain": 20,
+      "WaterGain": 50
+    }
   },
   {
     "Id": "plant15",
@@ -267,7 +287,12 @@
       "Y": 1,
       "Z": 1
     },
-    "Flammable": true
+    "Flammable": true,
+    "Edible": {
+      "HpGain": 0,
+      "FoodGain": 30,
+      "WaterGain": 10
+    }
   },
   {
     "Id": "plant16",
@@ -285,7 +310,12 @@
       "Y": 2,
       "Z": 2
     },
-    "Flammable": true
+    "Flammable": true,
+    "Edible": {
+      "HpGain": 0,
+      "FoodGain": 20,
+      "WaterGain": 20
+    }
   },
   {
     "Id": "plant17",
@@ -303,7 +333,12 @@
       "Y": 2,
       "Z": 2
     },
-    "Flammable": true
+    "Flammable": true,
+    "Edible": {
+      "HpGain": 0,
+      "FoodGain": 10,
+      "WaterGain": 30
+    }
   },
   {
     "Id": "plant18",
@@ -321,6 +356,11 @@
       "Y": 2,
       "Z": 2
     },
-    "Flammable": true
+    "Flammable": true,
+    "Edible": {
+      "HpGain": 0,
+      "FoodGain": 50,
+      "WaterGain": 20
+    }
   }
 ]

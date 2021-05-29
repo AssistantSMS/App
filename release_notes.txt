@@ -1,2 +1,4 @@
 - Added Capsule items
 - Fix scrolling on Raid Calculator
+- Add edible stats 
+- Fix upgrade item relationships

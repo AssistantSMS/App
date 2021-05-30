@@ -66,6 +66,7 @@
   "settings": "Settings",
   "language": "Language",
   "darkModeEnabled": "Dark mode",
+  "allItems": "All Items",
   "news": "News",
   "twitter": "Twitter",
   "contributors": "Contributors",
@@ -168,5 +169,6 @@
   "thirst": "Thirst",
   "packingStation": "Packing Station",
   "foundIn": "Found in",
-  "hashCode": "5E288688A093E60823F0592E95E9A4EF"
+  "home": "Home",
+  "hashCode": "469B94C24D32EC320427832767180FC7"
 }

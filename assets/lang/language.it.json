@@ -66,6 +66,7 @@
   "settings": "Settaggi",
   "language": "Language",
   "darkModeEnabled": "Modalità Nero",
+  "allItems": "Tutti gli oggetti",
   "news": "Novità",
   "twitter": "Twitter",
   "contributors": "Contributori",
@@ -168,5 +169,6 @@
   "thirst": "Thirst",
   "packingStation": "Packing Station",
   "foundIn": "Found in",
-  "hashCode": "87E41CC6320C6855D97956E52A022D69"
+  "home": "Home",
+  "hashCode": "E6FD1418F771658A53B4ED69322EC6F3"
 }

@@ -66,6 +66,7 @@
   "settings": "Настройки",
   "language": "Language",
   "darkModeEnabled": "Тёмная тема",
+  "allItems": "Все предметы",
   "news": "Новости",
   "twitter": "Twitter",
   "contributors": "Помощники",
@@ -168,5 +169,6 @@
   "thirst": "Thirst",
   "packingStation": "Packing Station",
   "foundIn": "Found in",
-  "hashCode": "1209216B5B5C0B587FEF6A5DEF0C7F80"
+  "home": "Home",
+  "hashCode": "2429E4FFF2970230DF8782D5C1949C97"
 }

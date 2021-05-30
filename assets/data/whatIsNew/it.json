@@ -1,5 +1,18 @@
 [
   {
+    "guid": "8f0fe9ab-95d9-4029-aef1-f61cd0a1fda8",
+    "appGuid": "dfe0dbc7-8df4-47fb-a5a5-49af1937c4e2",
+    "markdown": "- Added Capsule items\n- Fix scrolling on Raid Calculator\n- Add edible stats \n- Add Packing recipes\n- Fix upgrade item relationships",
+    "buildName": "1.6.0",
+    "buildNumber": 42,
+    "platforms": [
+      0,
+      1,
+      2
+    ],
+    "activeDate": "2021-05-30T20:00:00Z"
+  },
+  {
     "guid": "a67cbaba-3a36-4263-9d7e-7768b0f5654f",
     "appGuid": "dfe0dbc7-8df4-47fb-a5a5-49af1937c4e2",
     "markdown": "- Regenerate data from 0.5.0 Game Files\n- Fix Raid Calculator not displaying Potatoes\n- Updated languages",

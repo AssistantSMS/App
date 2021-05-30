@@ -66,6 +66,7 @@
   "settings": "Instellingen",
   "language": "Language",
   "darkModeEnabled": "donkere modus",
+  "allItems": "alle spullen",
   "news": "nieuws",
   "twitter": "Twitter",
   "contributors": "medewerkers",
@@ -168,5 +169,6 @@
   "thirst": "Thirst",
   "packingStation": "Packing Station",
   "foundIn": "Found in",
-  "hashCode": "2AF90D57C7C6DAC2FB0DB32025676B9B"
+  "home": "Home",
+  "hashCode": "ACDF3EB8CA95F1DBFEA63CF5EB9DD160"
 }

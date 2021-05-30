@@ -19,8 +19,8 @@ dependencies:
     # path: 'C:\Development\Projects\AssistantApps\assistantapps_flutter_common'
 
   # Firebase
-  firebase_core: 1.1.0
-  firebase_analytics: 8.0.2
+  firebase_core: 1.2.0
+  firebase_analytics: 8.1.0
   firebase_analytics_web: 0.3.0+1
 
   # Redux

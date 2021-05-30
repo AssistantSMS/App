@@ -1,5 +1,6 @@
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
+import 'package:scrapmechanic_kurtlourens_com/constants/Routes.dart';
 
 import '../../contracts/recipe/recipe.dart';
 import '../../contracts/recipeIngredient/recipeIngredientDetail.dart';
@@ -30,10 +31,10 @@ Widget recipeTileWithIngDetailsPresenter(
     BuildContext context, Recipe recipe, int index,
     {bool showOutputQuantity = false}) {
   var outputQuantity = recipe?.output?.quantity ?? 0;
-  String nameSuffix = '';
-  if (showOutputQuantity && outputQuantity > 0) {
-    nameSuffix = ' x$outputQuantity';
-  }
+  // String nameSuffix = '';
+  // if (showOutputQuantity && outputQuantity > 0) {
+  //   nameSuffix = ' x$outputQuantity';
+  // }
 
   return FutureBuilder<ResultWithValue<List<RecipeIngredientDetails>>>(
       future: recipeIngredientDetailsFuture(context, recipe.inputs),
@@ -67,11 +68,18 @@ Widget recipeTileWithIngDetailsPresenter(
           );
         }
 
-        return genericListTileWithSubtitle(
+        return genericListTileWithSubtitleAndImageCount(
           context,
-          leadingImage: recipe.icon,
-          name: "${recipe.title} $nameSuffix",
+          leadingImage: genericTileImage(recipe.icon),
+          title: recipe.title,
+          leadingImageCount: outputQuantity,
+          // name: "${recipe.title} $nameSuffix",
           subtitle: subtitle,
+          onTap: () => getNavigation().navigateAwayFromHomeAsync(
+            context,
+            navigateToNamed: Routes.recipeDetail,
+            navigateToNamedParameters: {Routes.itemIdParam: recipe.id},
+          ),
         );
       });
 }

@@ -1,14 +1,14 @@
 [
   {
-    "name": "Adhdsnow",
-    "imageUrl": "https://cdn.assistantapps.com/patreon/C7010153F7C1E6BBFDC2DA87C718AF92.png",
-    "thumbnailUrl": "https://cdn.assistantapps.com/patreon/C7010153F7C1E6BBFDC2DA87C718AF92.png",
-    "url": "https://assistantapps.com"
-  },
-  {
     "name": "the_farlander",
     "imageUrl": "https://cdn.assistantapps.com/patreon/34A68793132CFBBF63B69BBAEE5E1501.png",
     "thumbnailUrl": "https://cdn.assistantapps.com/patreon/34A68793132CFBBF63B69BBAEE5E1501.png",
+    "url": "https://assistantapps.com"
+  },
+  {
+    "name": "Adhdsnow",
+    "imageUrl": "https://cdn.assistantapps.com/patreon/C7010153F7C1E6BBFDC2DA87C718AF92.png",
+    "thumbnailUrl": "https://cdn.assistantapps.com/patreon/C7010153F7C1E6BBFDC2DA87C718AF92.png",
     "url": "https://assistantapps.com"
   },
   {
@@ -24,6 +24,12 @@
     "url": "https://assistantapps.com"
   },
   {
+    "name": "Total Pipec",
+    "imageUrl": "https://cdn.assistantapps.com/patreon/C7822699D6EA43AF12E2488015E49C3A.png",
+    "thumbnailUrl": "https://cdn.assistantapps.com/patreon/C7822699D6EA43AF12E2488015E49C3A.png",
+    "url": "https://assistantapps.com"
+  },
+  {
     "name": "Josh Goodall",
     "imageUrl": "https://cdn.assistantapps.com/patreon/7A4B566FDC15C707F001B142F835BAA5.png",
     "thumbnailUrl": "https://cdn.assistantapps.com/patreon/7A4B566FDC15C707F001B142F835BAA5.png",
@@ -33,12 +39,6 @@
     "name": "chrisagiddings",
     "imageUrl": "https://cdn.assistantapps.com/patreon/AD2DB07A3A0A976AAC85AA5B0FF4E898.png",
     "thumbnailUrl": "https://cdn.assistantapps.com/patreon/AD2DB07A3A0A976AAC85AA5B0FF4E898.png",
-    "url": "https://assistantapps.com"
-  },
-  {
-    "name": "Total Pipec",
-    "imageUrl": "https://cdn.assistantapps.com/patreon/C7822699D6EA43AF12E2488015E49C3A.png",
-    "thumbnailUrl": "https://cdn.assistantapps.com/patreon/C7822699D6EA43AF12E2488015E49C3A.png",
     "url": "https://assistantapps.com"
   },
   {
@@ -84,6 +84,12 @@
     "url": "https://assistantapps.com"
   },
   {
+    "name": "Doobs",
+    "imageUrl": "https://cdn.assistantapps.com/patreon/C29444C0F1A2AE6FAC7050E9E9F72127.png",
+    "thumbnailUrl": "https://cdn.assistantapps.com/patreon/C29444C0F1A2AE6FAC7050E9E9F72127.png",
+    "url": "https://assistantapps.com"
+  },
+  {
     "name": "cyberpunk2350",
     "imageUrl": "https://cdn.assistantapps.com/patreon/2710524A9D208523926238EA123749E9.png",
     "thumbnailUrl": "https://cdn.assistantapps.com/patreon/2710524A9D208523926238EA123749E9.png",
@@ -105,12 +111,6 @@
     "name": "Jeremy Stubbs",
     "imageUrl": "https://cdn.assistantapps.com/patreon/48E027329F4EFA0232AEBB8FE9ADAA20.png",
     "thumbnailUrl": "https://cdn.assistantapps.com/patreon/48E027329F4EFA0232AEBB8FE9ADAA20.png",
-    "url": "https://assistantapps.com"
-  },
-  {
-    "name": "Doobs",
-    "imageUrl": "https://cdn.assistantapps.com/patreon/C29444C0F1A2AE6FAC7050E9E9F72127.png",
-    "thumbnailUrl": "https://cdn.assistantapps.com/patreon/C29444C0F1A2AE6FAC7050E9E9F72127.png",
     "url": "https://assistantapps.com"
   },
   {
@@ -147,6 +147,24 @@
     "name": "Michael Bayha",
     "imageUrl": "https://cdn.assistantapps.com/patreon/3455491CEBDDE766535EC3FD101F5E49.png",
     "thumbnailUrl": "https://cdn.assistantapps.com/patreon/3455491CEBDDE766535EC3FD101F5E49.png",
+    "url": "https://assistantapps.com"
+  },
+  {
+    "name": "Havok's Gaming Realm",
+    "imageUrl": "https://cdn.assistantapps.com/patreon/04F7794719E8CD05A4CD546D4B82C063.png",
+    "thumbnailUrl": "https://cdn.assistantapps.com/patreon/04F7794719E8CD05A4CD546D4B82C063.png",
+    "url": "https://assistantapps.com"
+  },
+  {
+    "name": "christopher perkins",
+    "imageUrl": "https://cdn.assistantapps.com/patreon/FA9FE210914BA3B97BA99F05F233924D.png",
+    "thumbnailUrl": "https://cdn.assistantapps.com/patreon/FA9FE210914BA3B97BA99F05F233924D.png",
+    "url": "https://assistantapps.com"
+  },
+  {
+    "name": "David Peak",
+    "imageUrl": "https://cdn.assistantapps.com/patreon/AFA3F203725DBBC1E45C83BB120A86A4.png",
+    "thumbnailUrl": "https://cdn.assistantapps.com/patreon/AFA3F203725DBBC1E45C83BB120A86A4.png",
     "url": "https://assistantapps.com"
   }
 ]

@@ -1,6 +1,9 @@
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:dartx/dartx.dart';
 import 'package:flutter/material.dart';
+import 'package:scrapmechanic_kurtlourens_com/contracts/packing/packedUsing.dart';
+import 'package:scrapmechanic_kurtlourens_com/contracts/recipe/recipeBase.dart';
+import 'package:scrapmechanic_kurtlourens_com/contracts/recipe/recipeLang.dart';
 
 import '../contracts/craftingIngredient/craftedUsing.dart';
 import '../contracts/gameItem/gameItem.dart';
@@ -84,6 +87,8 @@ Future<ResultWithValue<GameItemPageItem>> gameItemPageItemFuture(
   var craftingRecipesTask = craftingRecipesFuture(context, itemId);
   var usedInRecipesTask = usedInRecipesFuture(context, itemId);
   var lootChanceTask = getLootChanceFuture(context, itemId);
+  var packingInputTask = packingRecipesFuture(context, itemId);
+  var packingOutputTask = usedInPackingRecipesFuture(context, itemId);
 
   ResultWithValue<IGameItemJsonService> genRepo =
       getGameItemRepoFromId(context, itemId);
@@ -106,6 +111,17 @@ Future<ResultWithValue<GameItemPageItem>> gameItemPageItemFuture(
     List<LootChance> lootChances = lootChancesResult.isSuccess
         ? lootChancesResult.value
         : List.empty(growable: true);
+    ResultWithValue<List<PackedUsing>> packingInputResult =
+        await packingInputTask;
+    List<PackedUsing> packingInputs = packingInputResult.isSuccess
+        ? packingInputResult.value
+        : List.empty(growable: true);
+    ResultWithValue<List<PackedUsing>> packingOutputResult =
+        await packingOutputTask;
+    List<PackedUsing> packingOutputs = packingOutputResult.isSuccess
+        ? packingOutputResult.value
+        : List.empty(growable: true);
+
     return ResultWithValue<GameItemPageItem>(
         true,
         GameItemPageItem(
@@ -113,6 +129,8 @@ Future<ResultWithValue<GameItemPageItem>> gameItemPageItemFuture(
           usedInRecipes: usedInRecipes,
           craftingRecipes: craftingRecipes,
           lootChances: lootChances,
+          packingInputs: packingInputs,
+          packingOutputs: packingOutputs,
         ),
         '');
   }
@@ -375,4 +393,84 @@ Future<ResultWithValue<List<LootChance>>> getLootChanceFuture(
         false, List.empty(growable: true), appLootResult.errorMessage);
   var chances = appLootResult.value.chances;
   return ResultWithValue(chances.length > 0, chances, '');
+}
+
+Future<ResultWithValue<List<PackedUsing>>> packingRecipesFuture(
+    context, String itemId) async {
+  //
+  ResultWithValue<List<RecipeBase>> usedInPacking =
+      await getPackingService().getByOutput(context, itemId);
+  if (usedInPacking.hasFailed)
+    return ResultWithValue<List<PackedUsing>>(
+        false, null, usedInPacking.errorMessage);
+
+  List<PackedUsing> results = List.empty(growable: true);
+
+  for (RecipeBase usedInPack in usedInPacking.value) {
+    ResultWithValue<RecipeIngredientDetails> outputDetail =
+        await getRecipeIngredientDetailsFuture(
+      context,
+      RecipeIngredient(
+        id: usedInPack.output.id,
+        quantity: usedInPack.output.quantity,
+      ),
+    );
+    if (outputDetail.hasFailed) continue;
+
+    ResultWithValue<List<RecipeIngredientDetails>> inputsDetail =
+        await recipeIngredientDetailsFuture(
+      context,
+      usedInPack.inputs
+          .map((inp) => RecipeIngredient(id: inp.id, quantity: inp.quantity))
+          .toList(),
+    );
+    if (inputsDetail.hasFailed) continue;
+
+    results.add(PackedUsing(
+      LocaleKey.craftedUsing,
+      outputDetail.value,
+      inputsDetail.value,
+    ));
+  }
+
+  return ResultWithValue(results.length > 0, results, '');
+}
+
+Future<ResultWithValue<List<PackedUsing>>> usedInPackingRecipesFuture(
+    context, String itemId) async {
+  //
+  ResultWithValue<List<RecipeBase>> usedInPacking =
+      await getPackingService().getByInput(context, itemId);
+  if (usedInPacking.hasFailed)
+    return ResultWithValue<List<PackedUsing>>(
+        false, null, usedInPacking.errorMessage);
+
+  List<PackedUsing> results = List.empty(growable: true);
+
+  for (RecipeBase usedInPack in usedInPacking.value) {
+    ResultWithValue<RecipeIngredientDetails> outputDetail =
+        await getRecipeIngredientDetailsFuture(
+      context,
+      RecipeIngredient(
+        id: usedInPack.output.id,
+        quantity: usedInPack.output.quantity,
+      ),
+    );
+    if (outputDetail.hasFailed) continue;
+
+    List<RecipeIngredient> inputs = usedInPack.inputs
+        .map((inp) => RecipeIngredient(id: inp.id, quantity: inp.quantity))
+        .toList();
+    ResultWithValue<List<RecipeIngredientDetails>> inputsDetail =
+        await recipeIngredientDetailsFuture(context, inputs);
+    if (inputsDetail.hasFailed) continue;
+
+    results.add(PackedUsing(
+      LocaleKey.craftedUsing,
+      outputDetail.value,
+      inputsDetail.value,
+    ));
+  }
+
+  return ResultWithValue(results.length > 0, results, '');
 }

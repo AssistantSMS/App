@@ -45,7 +45,7 @@
   "title": "Assistant for Scrap Mechanic",
   "loading": "Загрузка",
   "about": "О приложении",
-  "aboutContent": "Why did I bother to build this? \\r\\nI had really been enjoying playing around with Flutter and had decided to set up a template for a future project I had in mind. It was going to be a website and mobile app with one code base written in Flutter. I got the project working but it felt pointless since the game I was writing it for was only going to be released in a year, so I decided to test my template skills on Scrap Mechanic, to see how long it would take me to get a working app and website\\r\\n\\r\\nP.S. I also have a blog, Inside my Mind - by Kurt Lourens. I havent been making use of it as much as I could have, but I have some articles😋.",
+  "aboutContent": "Why did I bother to build this?\nI had really been enjoying playing around with Flutter and had decided to set up a template for a future project I had in mind. It was going to be a website and mobile app with one code base written in Flutter. I got the project working but it felt pointless since the game I was writing it for was only going to be released in a year, so I decided to test my template skills on Scrap Mechanic, to see how long it would take me to get a working app and website\n\nP.S. I also have a blog, Inside my Mind - by Kurt Lourens. I havent been making use of it as much as I could have, but I have some articles😋.",
   "kurtsBlog": "Блог Курта",
   "donation": "Донат",
   "buyMeACoffee": "Купите мне кофе",
@@ -163,6 +163,10 @@
   "shoes": "Shoes",
   "showOwned": "Show owned",
   "showNotOwned": "Show not owned",
+  "health": "Health restored",
+  "hunger": "Hunger",
+  "thirst": "Thirst",
+  "packingStation": "Packing Station",
   "foundIn": "Found in",
-  "hashCode": "6E0ED5B32DAD4B5A97ACF91FA885E46F"
+  "hashCode": "1209216B5B5C0B587FEF6A5DEF0C7F80"
 }

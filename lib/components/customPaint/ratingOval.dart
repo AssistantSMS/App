@@ -27,7 +27,7 @@ class RatingOvalPainter extends CustomPainter {
         ],
       );
     } else {
-      paint.color = Colors.black;
+      paint.color = Colors.black45;
     }
 
     canvas.drawRRect(

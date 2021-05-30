@@ -1,6 +1,9 @@
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
+import 'package:scrapmechanic_kurtlourens_com/contracts/gameItem/gameItem.dart';
+import 'package:scrapmechanic_kurtlourens_com/contracts/packing/packedUsing.dart';
+import 'package:scrapmechanic_kurtlourens_com/contracts/recipe/recipeBase.dart';
 
 import '../../components/common/cachedFutureBuilder.dart';
 import '../../components/scaffoldTemplates/genericPageScaffold.dart';
@@ -79,7 +82,7 @@ class GameItemDetailPage extends StatelessWidget {
     });
     if (errorWidget != null) return errorWidget;
 
-    var gameItem = snapshot?.data?.value?.gameItem;
+    GameItem gameItem = snapshot?.data?.value?.gameItem;
 
     List<Widget> widgets = List.empty(growable: true);
 
@@ -112,7 +115,8 @@ class GameItemDetailPage extends StatelessWidget {
       }
     }
 
-    var navigateToGameItem = (String gameItemId) async {
+    Future Function(String gameItemId) navigateToGameItem =
+        (String gameItemId) async {
       if (isInDetailPane && updateDetailView != null) {
         updateDetailView(GameItemDetailPage(
           gameItemId,
@@ -128,7 +132,8 @@ class GameItemDetailPage extends StatelessWidget {
       }
     };
 
-    var navigateToRecipeItem = (String recipeItemId) async {
+    Future Function(String recipeItemId) navigateToRecipeItem =
+        (String recipeItemId) async {
       if (isInDetailPane && updateDetailView != null) {
         updateDetailView(RecipeDetailPage(
           recipeItemId,
@@ -191,6 +196,27 @@ class GameItemDetailPage extends StatelessWidget {
       isInDetailPane,
       navigateToRecipeItem,
     ));
+
+    List<PackedUsing> usedInPacking =
+        snapshot?.data?.value?.packingInputs ?? [];
+    if (usedInPacking.length > 0) {
+      widgets.addAll(itemUsedInPackingRecipesWidget(
+        context,
+        LocaleKey.createXUsingY,
+        usedInPacking,
+        (_) => Future.value(),
+      ));
+    }
+
+    List<PackedUsing> packedUsing = snapshot?.data?.value?.packingOutputs ?? [];
+    if (packedUsing.length > 0) {
+      widgets.addAll(itemUsedInPackingRecipesWidget(
+        context,
+        LocaleKey.createXUsingY,
+        packedUsing,
+        navigateToGameItem,
+      ));
+    }
 
     List<CartItemState> cartItems = viewModel.cartItems
         .where((CartItemState ci) => ci.itemId == gameItem.id)

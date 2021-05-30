@@ -26,18 +26,50 @@ Widget recipeIngredientDetailTilePresenter(BuildContext context,
       context,
       recipeIngredient,
       index,
-      onTap: () async => await getNavigation().navigateAwayFromHomeAsync(
+      onTap: (_) async => await getNavigation().navigateAwayFromHomeAsync(
           context,
           navigateTo: (context) => GameItemDetailPage(recipeIngredient.id)),
     );
 
 Widget recipeIngredientDetailCustomOnTapTilePresenter(BuildContext context,
         RecipeIngredientDetails recipeIngredient, int index,
-        {Function() onTap}) =>
+        {Function(String id) onTap}) =>
     genericListTile(
       context,
       leadingImage: recipeIngredient.icon,
       name: recipeIngredient.title,
       quantity: recipeIngredient.quantity,
-      onTap: onTap,
+      onTap: () => onTap(recipeIngredient.id),
     );
+
+Widget packingRecipeTilePresenter(BuildContext context,
+    RecipeIngredientDetails output, List<RecipeIngredientDetails> inputs,
+    {Function() onTap}) {
+  int startIndex = 0;
+  String listTileTitle = '';
+  for (var rowIndex = 0; rowIndex < inputs.length; rowIndex++) {
+    listTileTitle += recipeIngredientDetailsInputsToString(
+        rowIndex, startIndex, inputs[rowIndex]);
+  }
+
+  var subtitle = Text(
+    listTileTitle,
+    maxLines: 1,
+    overflow: TextOverflow.ellipsis,
+  );
+  return genericListTileWithSubtitleAndImageCount(
+    context,
+    title: output.title,
+    leadingImage: localImage(output.icon),
+    leadingImageCount: (output.quantity > 1) ? output.quantity : 0,
+    subtitle: subtitle,
+    onTap: onTap,
+  );
+}
+
+String recipeIngredientDetailsInputsToString(
+        int rowIndex, int startIndex, RecipeIngredientDetails row) =>
+    (rowIndex > startIndex ? ' + ' : '') +
+    row.quantity.toString() +
+    'x ' +
+    row.title;

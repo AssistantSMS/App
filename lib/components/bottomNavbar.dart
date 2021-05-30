@@ -40,7 +40,8 @@ class _BottomNavbarWidget extends State<BottomNavbar> {
   @override
   Widget build(BuildContext context) {
     Color unSelectedColour = Colors.white70;
-    Color selectedColour = getTheme().getSecondaryColour(context);
+    // Color selectedColour = getTheme().getSecondaryColour(context);
+    Color selectedColour = Colors.white70;
     Color backgroundColour = getTheme().getBackgroundColour(context);
     return CustomNavigationBar(
       items: items.map((nav) {

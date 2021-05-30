@@ -163,6 +163,10 @@
   "shoes": "Schuhe",
   "showOwned": "Zeige meine",
   "showNotOwned": "Zeige meine nicht ",
+  "health": "Health restored",
+  "hunger": "Hunger",
+  "thirst": "Thirst",
+  "packingStation": "Packing Station",
   "foundIn": "Zu finden in",
-  "hashCode": "AA6FE56E8F23CCBDEF1F758965BCBBFD"
+  "hashCode": "9885A1429A90606B2EEDBA48DC2D4E08"
 }

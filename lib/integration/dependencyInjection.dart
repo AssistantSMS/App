@@ -1,5 +1,6 @@
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:get_it/get_it.dart';
+import 'package:scrapmechanic_kurtlourens_com/services/json/packingJsonService.dart';
 
 import '../env/environmentSettings.dart';
 import '../helpers/repositoryHelper.dart';
@@ -57,6 +58,7 @@ void initDependencyInjection(EnvironmentSettings _env) {
   );
 
   //Service
+  getIt.registerSingleton<PackingJsonService>(PackingJsonService());
   getIt.registerSingleton<ILocalStorageService>(LocalStorageService());
 }
 
@@ -74,4 +76,5 @@ IContributorApiRepository getContributorApiRepo() =>
     getIt<IContributorApiRepository>();
 
 //Service
+PackingJsonService getPackingService() => getIt<PackingJsonService>();
 ILocalStorageService getStorageService() => getIt<ILocalStorageService>();

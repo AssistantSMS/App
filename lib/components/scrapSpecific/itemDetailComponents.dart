@@ -1,6 +1,7 @@
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:enum_to_string/enum_to_string.dart';
 import 'package:flutter/material.dart';
+import 'package:scrapmechanic_kurtlourens_com/contracts/packing/packedUsing.dart';
 import 'package:step_progress_indicator/step_progress_indicator.dart';
 
 import '../../components/customPaint/ratingOval.dart';
@@ -86,9 +87,9 @@ ResultWithValue<Widget> getRatingTableRows(
     if (gameItem.edible.hpGain != null && gameItem.edible.hpGain > 0) {
       edibles.add(TableRow(children: [
         headingLocaleKeyWithImage(
-            context, AppImage.health(isDark), LocaleKey.flammable),
+            context, AppImage.health(isDark), LocaleKey.health),
         Text(
-          gameItem.edible.hpGain.toString(),
+          gameItem.edible.hpGain.toString() + '%',
           textAlign: TextAlign.center,
           style: TextStyle(
               color: getTheme().getPrimaryColour(context), fontSize: 16),
@@ -98,9 +99,9 @@ ResultWithValue<Widget> getRatingTableRows(
     if (gameItem.edible.foodGain != null && gameItem.edible.foodGain > 0) {
       edibles.add(TableRow(children: [
         headingLocaleKeyWithImage(
-            context, AppImage.food(isDark), LocaleKey.flammable),
+            context, AppImage.food(isDark), LocaleKey.hunger),
         Text(
-          gameItem.edible.foodGain.toString(),
+          gameItem.edible.foodGain.toString() + '%',
           textAlign: TextAlign.center,
           style: TextStyle(
               color: getTheme().getPrimaryColour(context), fontSize: 16),
@@ -110,9 +111,9 @@ ResultWithValue<Widget> getRatingTableRows(
     if (gameItem.edible.waterGain != null && gameItem.edible.waterGain > 0) {
       edibles.add(TableRow(children: [
         headingLocaleKeyWithImage(
-            context, AppImage.water(isDark), LocaleKey.flammable),
+            context, AppImage.water(isDark), LocaleKey.thirst),
         Text(
-          gameItem.edible.waterGain.toString(),
+          gameItem.edible.waterGain.toString() + '%',
           textAlign: TextAlign.center,
           style: TextStyle(
               color: getTheme().getPrimaryColour(context), fontSize: 16),
@@ -442,7 +443,7 @@ List<Widget> itemCraftingRecipesWidget(
           context,
           ingDetails,
           ingDetailsIndex,
-          onTap: () => navigateToGameItem(ingDetails.id),
+          onTap: (_) => navigateToGameItem(ingDetails.id),
         ),
       ));
     }
@@ -521,5 +522,36 @@ List<Widget> inCartWidget(
     ),
     margin: const EdgeInsets.all(0.0),
   ));
+  return widgets;
+}
+
+List<Widget> itemUsedInPackingRecipesWidget(
+    BuildContext context,
+    LocaleKey template,
+    List<PackedUsing> packingRecipes,
+    Future Function(String) navigateToGameItem) {
+  List<Widget> widgets = List.empty(growable: true);
+  for (PackedUsing packingRecipe in packingRecipes) {
+    RecipeIngredientDetails ingDetails = packingRecipe.outputDetails;
+    var title = ingDetails.title;
+    var stationName = getTranslations().fromKey(LocaleKey.packingStation);
+    widgets.add(emptySpace1x());
+    widgets.add(customDivider());
+    widgets.add(emptySpace1x());
+    widgets.add(getTextSpanFromTemplateAndArray(
+      context,
+      template,
+      [title, stationName],
+    ));
+
+    widgets.add(Card(
+      child: packingRecipeTilePresenter(
+        context,
+        ingDetails,
+        packingRecipe.ingredientDetails,
+        onTap: () => navigateToGameItem(ingDetails.id),
+      ),
+    ));
+  }
   return widgets;
 }

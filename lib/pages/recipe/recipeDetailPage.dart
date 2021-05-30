@@ -92,10 +92,10 @@ class RecipeDetailPage extends StatelessWidget {
       name: recipeItem.title,
     ));
 
-    var navigateToGameItem = () async {
+    Future Function(String id) navigateToGameItem = (String id) async {
       if (isInDetailPane && updateDetailView != null) {
         updateDetailView(GameItemDetailPage(
-          recipeItem.output.id,
+          id,
           isInDetailPane: isInDetailPane,
           updateDetailView: updateDetailView,
         ));
@@ -103,7 +103,7 @@ class RecipeDetailPage extends StatelessWidget {
         await getNavigation().navigateAwayFromHomeAsync(
           context,
           navigateToNamed: Routes.gameDetail,
-          navigateToNamedParameters: {Routes.itemIdParam: recipeItem.output.id},
+          navigateToNamedParameters: {Routes.itemIdParam: id},
         );
       }
     };
@@ -112,7 +112,7 @@ class RecipeDetailPage extends StatelessWidget {
       stackWidgets.add(Positioned(
         child: GestureDetector(
           child: Icon(Icons.info_outline, size: 40),
-          onTap: navigateToGameItem,
+          onTap: () => navigateToGameItem(recipeItem.output.id),
         ).showPointerOnHover,
         top: 12,
         right: 4,

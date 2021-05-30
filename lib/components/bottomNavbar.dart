@@ -1,8 +1,6 @@
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:custom_navigation_bar/custom_navigation_bar.dart';
 import 'package:flutter/material.dart';
-import 'package:scrapmechanic_kurtlourens_com/constants/AppImage.dart';
-import 'package:scrapmechanic_kurtlourens_com/helpers/genericHelper.dart';
 
 import '../constants/Routes.dart';
 import '../helpers/listPageHelper.dart';

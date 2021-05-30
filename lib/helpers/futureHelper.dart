@@ -1,15 +1,14 @@
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:dartx/dartx.dart';
 import 'package:flutter/material.dart';
-import 'package:scrapmechanic_kurtlourens_com/contracts/packing/packedUsing.dart';
-import 'package:scrapmechanic_kurtlourens_com/contracts/recipe/recipeBase.dart';
-import 'package:scrapmechanic_kurtlourens_com/contracts/recipe/recipeLang.dart';
 
 import '../contracts/craftingIngredient/craftedUsing.dart';
 import '../contracts/gameItem/gameItem.dart';
 import '../contracts/gameItem/gameItemPageItem.dart';
 import '../contracts/generated/LootChance.dart';
+import '../contracts/packing/packedUsing.dart';
 import '../contracts/recipe/recipe.dart';
+import '../contracts/recipe/recipeBase.dart';
 import '../contracts/recipe/recipePageItem.dart';
 import '../contracts/recipeIngredient/recipeIngredient.dart';
 import '../contracts/recipeIngredient/recipeIngredientDetail.dart';

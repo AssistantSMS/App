@@ -25,6 +25,7 @@ class _CheckboxListPageDialogWidget extends State<CheckboxListPageDialog> {
 
   @override
   Widget build(BuildContext context) {
+    Color fabColour = getTheme().getSecondaryColour(context);
     return getBaseWidget().appScaffold(context,
         appBar: getBaseWidget().appBarForSubPage(
           context,
@@ -61,8 +62,8 @@ class _CheckboxListPageDialogWidget extends State<CheckboxListPageDialog> {
           onPressed: () => Navigator.of(context).pop(options),
           heroTag: 'CheckboxListPageDialog',
           child: Icon(Icons.check),
-          foregroundColor: getTheme().fabForegroundColourSelector(context),
-          backgroundColor: getTheme().fabColourSelector(context),
+          backgroundColor: getTheme().getSecondaryColour(context),
+          foregroundColor: getTheme().getForegroundTextColour(fabColour),
         ));
   }
 }

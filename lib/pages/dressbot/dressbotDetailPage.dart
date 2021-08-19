@@ -11,6 +11,7 @@ import '../../contracts/enum/customisationSourceType.dart';
 import '../../contracts/gameItem/gameItemPageItem.dart';
 import '../../helpers/futureHelper.dart';
 import '../../helpers/genericHelper.dart';
+import '../../mapper/gameItemMapper.dart';
 import '../../state/modules/base/appState.dart';
 import '../../state/modules/cosmetic/cosmeticViewModel.dart';
 
@@ -103,24 +104,9 @@ class DressBotDetailPage extends StatelessWidget {
       widgets.add(genericItemDescription(
         getTranslations().fromKey(LocaleKey.foundIn),
       ));
-      var image = AppImage.outfitCommon;
-      switch (gameItem.customisationSource) {
-        case CustomisationSourceType.common:
-          image = AppImage.outfitCommon;
-          break;
-        case CustomisationSourceType.rare:
-          image = AppImage.outfitRare;
-          break;
-        case CustomisationSourceType.epic:
-          image = AppImage.outfitEpic;
-          break;
-        default:
-          image = AppImage.outfitCommon;
-          break;
-      }
       widgets.add(genericItemImage(
         context,
-        image,
+        getDressBotImage(gameItem.customisationSource),
         height: 50,
         disableZoom: true,
       ));

@@ -1,3 +1,5 @@
+import '../constants/AppImage.dart';
+import '../contracts/enum/customisationSourceType.dart';
 import '../contracts/gameItem/gameItem.dart';
 import '../contracts/gameItem/gameItemBase.dart';
 import '../contracts/gameItem/gameItemLang.dart';
@@ -24,4 +26,21 @@ List<GameItem> mapGameItemItems(
   }
 
   return result;
+}
+
+String getDressBotImage(CustomisationSourceType customisationSource) {
+  switch (customisationSource) {
+    case CustomisationSourceType.common:
+      return AppImage.outfitCommon;
+      break;
+    case CustomisationSourceType.rare:
+      return AppImage.outfitRare;
+      break;
+    case CustomisationSourceType.epic:
+      return AppImage.outfitEpic;
+      break;
+    default:
+      return AppImage.outfitCommon;
+      break;
+  }
 }

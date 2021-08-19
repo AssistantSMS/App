@@ -4,7 +4,7 @@ import 'package:flutter_redux/flutter_redux.dart';
 import 'package:grouped_checkbox/grouped_checkbox.dart';
 
 import '../../components/bottomNavbar.dart';
-import '../../components/tilePresenters/gameItemTilePresenter.dart';
+import '../../components/tilePresenters/dressBotItemTilePresenter.dart';
 import '../../constants/Routes.dart';
 import '../../contracts/gameItem/gameItem.dart';
 import '../../contracts/search/checkboxOption.dart';
@@ -115,7 +115,7 @@ class DressBotListDetailPage extends StatelessWidget {
             showOwned: showOwned,
             showNotOwned: showNotOwned,
           ),
-          gameItemTilePresenter,
+          dressBotItemTilePresenter,
           searchGameItem,
           firstListItemWidget: Column(
             children: [

@@ -2,6 +2,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 import 'app.dart';
+import 'env.dart';
 import 'env/environmentSettings.dart';
 
 Future main() async {

@@ -1,0 +1,1 @@
+base64 -w 0 ./env.dart > encodedEnv.txt

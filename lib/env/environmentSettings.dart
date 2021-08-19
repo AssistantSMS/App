@@ -8,6 +8,7 @@ class EnvironmentSettings {
   bool isProduction;
   String assistantAppsAppGuid;
   String currentWhatIsNewGuid;
+  String patreonOAuthClientId;
 
   EnvironmentSettings({
     @required this.scrapAssistantApiUrl,
@@ -16,6 +17,7 @@ class EnvironmentSettings {
     @required this.isProduction,
     @required this.assistantAppsAppGuid,
     @required this.currentWhatIsNewGuid,
+    @required this.patreonOAuthClientId,
   });
 
   AssistantAppsEnvironmentSettings toAssistantApps() =>
@@ -23,5 +25,6 @@ class EnvironmentSettings {
         assistantAppsAppGuid: this.assistantAppsAppGuid,
         currentWhatIsNewGuid: this.currentWhatIsNewGuid,
         isProduction: this.isProduction,
+        patreonOAuthClientId: this.patreonOAuthClientId,
       );
 }

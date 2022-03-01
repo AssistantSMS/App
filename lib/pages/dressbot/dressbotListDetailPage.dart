@@ -1,7 +1,6 @@
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
-import 'package:grouped_checkbox/grouped_checkbox.dart';
 
 import '../../components/bottomNavbar.dart';
 import '../../components/tilePresenters/dressBotItemTilePresenter.dart';
@@ -119,24 +118,23 @@ class DressBotListDetailPage extends StatelessWidget {
           searchGameItem,
           firstListItemWidget: Column(
             children: [
-              GroupedCheckbox(
-                itemList: ownedOptionList,
-                checkedItemList: currentOwnedSelection ?? ownedOptionList,
+              adaptiveCheckboxGroup(
+                context,
+                allItemList: ownedOptionList,
+                //allItemList: allItemList.map((e) => e.title).toList(),
+                selectedItems: currentOwnedSelection ?? ownedOptionList,
                 onChanged: (itemList) => setOwnedSelection(itemList),
-                orientation: CheckboxOrientation.HORIZONTAL,
-                checkColor: Colors.white,
                 activeColor: getTheme().getSecondaryColour(context),
               ),
-              Divider(),
+              customDivider(),
             ],
           ),
-          listItemMobileOnTap: (BuildContext context, GameItem gameItem) async {
-            return await getNavigation().navigateAwayFromHomeAsync(
-              context,
-              navigateToNamed: Routes.cosmeticDetail,
-              navigateToNamedParameters: {Routes.itemIdParam: gameItem.id},
-            );
-          },
+          listItemMobileOnTap: (BuildContext context, GameItem gameItem) =>
+              getNavigation().navigateAwayFromHomeAsync(
+            context,
+            navigateToNamed: Routes.cosmeticDetail,
+            navigateToNamedParameters: {Routes.itemIdParam: gameItem.id},
+          ),
           listItemDesktopOnTap: (BuildContext context, GameItem recipe,
               void Function(Widget) updateDetailView) {
             return DressBotDetailPage(
@@ -153,7 +151,7 @@ class DressBotListDetailPage extends StatelessWidget {
           ),
         ),
       ),
-      bottomNavigationBar: BottomNavbar(noRouteSelected: true),
+      bottomNavigationBar: const BottomNavbar(),
     );
   }
 

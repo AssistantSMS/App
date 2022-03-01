@@ -25,7 +25,7 @@ class HomePage extends StatelessWidget {
       appBar: HomePageAppBar(),
       drawer: AppDrawer(),
       builder: (scaffoldContext) => getBody(scaffoldContext),
-      bottomNavigationBar: BottomNavbar(currentRoute: Routes.home),
+      bottomNavigationBar: const BottomNavbar(currentRoute: Routes.home),
     );
   }
 

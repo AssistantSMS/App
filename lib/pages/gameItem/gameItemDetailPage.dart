@@ -1,6 +1,7 @@
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
+import '../../components/common/positioned.dart';
 import '../../contracts/gameItem/gameItem.dart';
 import '../../contracts/packing/packedUsing.dart';
 
@@ -232,11 +233,9 @@ class GameItemDetailPage extends StatelessWidget {
           itemCount: widgets.length,
           itemBuilder: (context, index) => widgets[index],
         ),
-        Positioned(
-          bottom: 16,
-          right: 16,
-          child: FloatingActionButton(
-            child: Icon(Icons.add_shopping_cart_rounded),
+        fabPositioned(
+          FloatingActionButton(
+            child: const Icon(Icons.add_shopping_cart_rounded),
             backgroundColor: fabColour,
             foregroundColor: getTheme().getForegroundTextColour(fabColour),
             onPressed: () {
@@ -256,7 +255,7 @@ class GameItemDetailPage extends StatelessWidget {
               });
             },
           ),
-        )
+        ),
       ],
     );
   }

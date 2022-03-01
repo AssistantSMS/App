@@ -39,12 +39,13 @@ class _AppShellWidget extends State<AdaptiveAppShell>
       GlobalMaterialLocalizations.delegate, //provides localised strings
       GlobalWidgetsLocalizations.delegate, //provides RTL support
     ];
-    List<Locale> supportedLangs = getTranslations().supportedLocales().toList();
+    List<Locale> supportedLangs = getLanguage().supportedLocales();
 
     return ThemeModeHandler(
-      key: Key('ThemeModeHandler'),
+      key: const Key('ThemeModeHandler'),
       manager: ThemeManager(),
       builder: (ThemeMode themeMode) => MaterialApp(
+        key: Key(themeMode.name),
         title: 'Assistant for Scrap Mechanic',
         themeMode: themeMode,
         darkTheme: getDynamicTheme(Brightness.dark),

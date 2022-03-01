@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
 
 import '../../components/common/cachedFutureBuilder.dart';
+import '../../components/common/positioned.dart';
 import '../../components/scaffoldTemplates/genericPageScaffold.dart';
 import '../../components/tilePresenters/recipeIngredientTilePresenter.dart';
 import '../../components/webSpecific/mousePointer.dart';
@@ -28,11 +29,11 @@ class RecipeDetailPage extends StatelessWidget {
 
   RecipeDetailPage(
     this.itemId, {
+    Key key,
     this.isInDetailPane = false,
     this.updateDetailView,
-  }) {
-    getAnalytics()
-        .trackEvent('${AnalyticsEvent.recipeDetailPage}: ${this.itemId}');
+  }) : super(key: key) {
+    getAnalytics().trackEvent('${AnalyticsEvent.recipeDetailPage}: $itemId');
   }
 
   @override
@@ -43,7 +44,7 @@ class RecipeDetailPage extends StatelessWidget {
       loadingText: loading,
     );
     return CachedFutureBuilder<ResultWithValue<RecipePageItem>>(
-      future: recipePageItemFuture(context, this.itemId),
+      future: recipePageItemFuture(context, itemId),
       whileLoading: isInDetailPane
           ? loadingWidget
           : genericPageScaffold(context, loading, null,
@@ -92,7 +93,8 @@ class RecipeDetailPage extends StatelessWidget {
       name: recipeItem.title,
     ));
 
-    Future Function(String id) navigateToGameItem = (String id) async {
+    Future Function(String id) navigateToGameItem;
+    navigateToGameItem = (String id) async {
       if (isInDetailPane && updateDetailView != null) {
         updateDetailView(GameItemDetailPage(
           id,
@@ -111,7 +113,7 @@ class RecipeDetailPage extends StatelessWidget {
     if (recipeItem?.output?.id != null) {
       stackWidgets.add(Positioned(
         child: GestureDetector(
-          child: Icon(Icons.info_outline, size: 40),
+          child: const Icon(Icons.info_outline, size: 40),
           onTap: () => navigateToGameItem(recipeItem.output.id),
         ).showPointerOnHover,
         top: 12,
@@ -124,7 +126,7 @@ class RecipeDetailPage extends StatelessWidget {
         ? ' x${recipeItem.output.quantity}'
         : '';
     widgets.add(genericItemName(recipeItem.title + quantitySuffix));
-    if (recipeItem.description != null && recipeItem.description.length > 0) {
+    if (recipeItem.description != null && recipeItem.description.isNotEmpty) {
       widgets.add(genericItemDescription(recipeItem.description));
     }
 
@@ -162,13 +164,14 @@ class RecipeDetailPage extends StatelessWidget {
       ));
     }
 
-    var navigateToCart = () async => await getNavigation()
+    Future<bool> Function() navigateToCart;
+    navigateToCart = () async => await getNavigation()
         .navigateHomeAsync(context, navigateToNamed: Routes.cart);
 
     List<CartItemState> cartItems = viewModel.cartItems
         .where((CartItemState ci) => ci.itemId == recipeItem.output.id)
         .toList();
-    if (cartItems != null && cartItems.length > 0) {
+    if (cartItems != null && cartItems.isNotEmpty) {
       widgets.add(emptySpace3x());
       widgets.add(genericItemText(getTranslations().fromKey(LocaleKey.cart)));
       widgets.add(Card(
@@ -197,11 +200,9 @@ class RecipeDetailPage extends StatelessWidget {
           itemCount: widgets.length,
           itemBuilder: (context, index) => widgets[index],
         ),
-        Positioned(
-          bottom: 16,
-          right: 16,
-          child: FloatingActionButton(
-            child: Icon(Icons.shopping_cart),
+        fabPositioned(
+          FloatingActionButton(
+            child: const Icon(Icons.shopping_cart),
             backgroundColor: fabColour,
             foregroundColor: getTheme().getForegroundTextColour(fabColour),
             onPressed: () {
@@ -220,7 +221,7 @@ class RecipeDetailPage extends StatelessWidget {
               });
             },
           ),
-        )
+        ),
       ],
     );
   }

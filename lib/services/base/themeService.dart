@@ -6,11 +6,13 @@ import 'package:theme_mode_handler/theme_mode_handler.dart';
 
 class ThemeService implements IThemeService {
   @override
-  ThemeData getTheme(BuildContext context) =>
-      ((ThemeModeHandler.of(context)?.themeMode ?? ThemeMode.light) ==
-              ThemeMode.light)
-          ? getDynamicTheme(Brightness.light)
-          : getDynamicTheme(Brightness.dark);
+  ThemeData getTheme(BuildContext context) {
+    print('getTheme: ' + ThemeModeHandler.of(context)?.themeMode.toString());
+    return ((ThemeModeHandler.of(context)?.themeMode ?? ThemeMode.light) ==
+            ThemeMode.light)
+        ? getDynamicTheme(Brightness.light)
+        : getDynamicTheme(Brightness.dark);
+  }
 
   @override
   Color getPrimaryColour(BuildContext context) =>
@@ -18,11 +20,11 @@ class ThemeService implements IThemeService {
 
   @override
   Color getSecondaryColour(BuildContext context) =>
-      getTheme(context)?.accentColor ?? Colors.teal[200];
+      getTheme(context)?.colorScheme?.secondary ?? Colors.teal[200];
 
   @override
   Color getDarkModeSecondaryColour() =>
-      darkTheme(defaultFontFamily).accentColor;
+      darkTheme(defaultFontFamily).colorScheme.secondary;
 
   @override
   bool getIsDark(BuildContext context) =>
@@ -41,8 +43,9 @@ class ThemeService implements IThemeService {
   @override
   Color getH1Colour(BuildContext context) {
     var textColour = getTheme(context).textTheme.headline1.color;
-    if (textColour == null)
+    if (textColour == null) {
       return getIsDark(context) ? Colors.white : Colors.black;
+    }
     return textColour;
   }
 
@@ -57,10 +60,10 @@ class ThemeService implements IThemeService {
   }
 
   @override
-  Color getAndroidColour() => Color(0);
+  Color getAndroidColour() => const Color(0);
 
   @override
-  Color getIosColour() => Color(0);
+  Color getIosColour() => const Color(0);
 
   @override
   Color getCardTextColour(BuildContext context) =>

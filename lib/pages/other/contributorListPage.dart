@@ -52,7 +52,7 @@ class _ContributorsWidget extends State<ContributorListPage> {
               });
             }),
           ),
-          Divider(),
+          customDivider(),
           Expanded(
             child: currentSelection == 0
                 ? SearchableGrid<ContributorViewModel>(
@@ -68,7 +68,7 @@ class _ContributorsWidget extends State<ContributorListPage> {
           ),
         ],
       ),
-      bottomNavigationBar: BottomNavbar(noRouteSelected: true),
+      bottomNavigationBar: const BottomNavbar(),
     );
   }
 }

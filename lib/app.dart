@@ -15,10 +15,11 @@ import 'state/modules/base/appViewModel.dart';
 
 class MyApp extends StatefulWidget {
   final EnvironmentSettings _env;
-  MyApp(this._env);
+  const MyApp(this._env, {Key key}) : super(key: key);
 
   @override
-  _MyAppState createState() => _MyAppState(this._env);
+  // ignore: no_logic_in_create_state
+  _MyAppState createState() => _MyAppState(_env);
 }
 
 class _MyAppState extends State<MyApp> {
@@ -28,7 +29,7 @@ class _MyAppState extends State<MyApp> {
 
   _MyAppState(this._env) {
     AppRouter.router = CustomRouter.configureRoutes();
-    initDependencyInjection(this._env);
+    initDependencyInjection(_env);
     initReduxState();
     if (kReleaseMode) {
       // initFirebaseAdMob();
@@ -36,9 +37,7 @@ class _MyAppState extends State<MyApp> {
       // initFirebaseMessaging();
     }
 
-    if (_newLocaleDelegate == null) {
-      _newLocaleDelegate = TranslationsDelegate(newLocale: null);
-    }
+    _newLocaleDelegate ??= const TranslationsDelegate(newLocale: null);
   }
 
   Future<AppState> initReduxState() async {

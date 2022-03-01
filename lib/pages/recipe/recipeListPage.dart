@@ -13,7 +13,7 @@ import 'recipeDetailPage.dart';
 class RecipeListPage extends StatelessWidget {
   final LocaleKey name;
   final List<LocaleKey> recipeLocales;
-  RecipeListPage(this.name, this.recipeLocales) {
+  RecipeListPage(this.name, this.recipeLocales, {Key key}) : super(key: key) {
     getAnalytics().trackEvent(AnalyticsEvent.recipeListPage);
   }
 
@@ -30,13 +30,12 @@ class RecipeListPage extends StatelessWidget {
         () => getAllRecipeFromLocaleKeys(context, recipeLocales),
         recipeTilePresenter,
         searchRecipe,
-        listItemMobileOnTap: (BuildContext context, Recipe recipe) async {
-          return await getNavigation().navigateAwayFromHomeAsync(
-            context,
-            navigateToNamed: Routes.recipeDetail,
-            navigateToNamedParameters: {Routes.itemIdParam: recipe.id},
-          );
-        },
+        listItemMobileOnTap: (BuildContext context, Recipe recipe) =>
+            getNavigation().navigateAwayFromHomeAsync(
+          context,
+          navigateToNamed: Routes.recipeDetail,
+          navigateToNamedParameters: {Routes.itemIdParam: recipe.id},
+        ),
         listItemDesktopOnTap: (BuildContext context, Recipe recipe,
             void Function(Widget) updateDetailView) {
           return RecipeDetailPage(
@@ -47,7 +46,7 @@ class RecipeListPage extends StatelessWidget {
         },
         key: Key(getTranslations().currentLanguage),
       ),
-      bottomNavigationBar: BottomNavbar(noRouteSelected: true),
+      bottomNavigationBar: const BottomNavbar(),
     );
   }
 }

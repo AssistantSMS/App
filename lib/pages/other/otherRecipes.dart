@@ -24,7 +24,7 @@ class OtherRecipesPage extends StatelessWidget {
         title: Text(getTranslations().fromKey(LocaleKey.other)),
       ),
       builder: (scaffoldContext) => getBody(scaffoldContext),
-      bottomNavigationBar: BottomNavbar(noRouteSelected: true),
+      bottomNavigationBar: const BottomNavbar(),
     );
   }
 

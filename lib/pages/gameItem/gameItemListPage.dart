@@ -13,7 +13,8 @@ import 'gameItemDetailPage.dart';
 class GameItemListPage extends StatelessWidget {
   final LocaleKey name;
   final List<LocaleKey> gameItemLocales;
-  GameItemListPage(this.name, this.gameItemLocales) {
+  GameItemListPage(this.name, this.gameItemLocales, {Key key})
+      : super(key: key) {
     getAnalytics().trackEvent(AnalyticsEvent.itemListPage);
   }
 
@@ -30,13 +31,12 @@ class GameItemListPage extends StatelessWidget {
         () => getAllGameItemFromLocaleKeys(context, gameItemLocales),
         gameItemTilePresenter,
         searchGameItem,
-        listItemMobileOnTap: (BuildContext context, GameItem gameItem) async {
-          return await getNavigation().navigateAwayFromHomeAsync(
-            context,
-            navigateToNamed: Routes.gameDetail,
-            navigateToNamedParameters: {Routes.itemIdParam: gameItem.id},
-          );
-        },
+        listItemMobileOnTap: (BuildContext context, GameItem gameItem) =>
+            getNavigation().navigateAwayFromHomeAsync(
+          context,
+          navigateToNamed: Routes.gameDetail,
+          navigateToNamedParameters: {Routes.itemIdParam: gameItem.id},
+        ),
         listItemDesktopOnTap: (BuildContext context, GameItem recipe,
             void Function(Widget) updateDetailView) {
           return GameItemDetailPage(
@@ -47,7 +47,7 @@ class GameItemListPage extends StatelessWidget {
         },
         key: Key(getTranslations().currentLanguage),
       ),
-      bottomNavigationBar: BottomNavbar(noRouteSelected: true),
+      bottomNavigationBar: const BottomNavbar(currentRoute: Routes.allItems),
     );
   }
 }

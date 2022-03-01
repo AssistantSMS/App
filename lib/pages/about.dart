@@ -7,7 +7,7 @@ import '../constants/AppPadding.dart';
 import '../constants/Routes.dart';
 
 class AboutPage extends StatelessWidget {
-  AboutPage() {
+  AboutPage({Key key}) : super(key: key) {
     getAnalytics().trackEvent(AnalyticsEvent.aboutPage);
   }
 
@@ -21,7 +21,7 @@ class AboutPage extends StatelessWidget {
         title: Text(getTranslations().fromKey(LocaleKey.about)),
       ),
       body: getBody(context),
-      bottomNavigationBar: BottomNavbar(currentRoute: Routes.about),
+      bottomNavigationBar: const BottomNavbar(currentRoute: Routes.about),
     );
   }
 
@@ -34,7 +34,7 @@ class AboutPage extends StatelessWidget {
       getTranslations().fromKey(LocaleKey.aboutContent),
       textAlign: TextAlign.center,
       maxLines: 50,
-      style: TextStyle(fontSize: 16),
+      style: const TextStyle(fontSize: 16),
     ));
 
     widgets.add(customDivider());

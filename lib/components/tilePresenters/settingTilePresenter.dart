@@ -6,7 +6,7 @@ Widget headingSettingTilePresenter(String name) {
     title: Text(
       name,
       maxLines: 1,
-      style: TextStyle(fontSize: 24),
+      style: const TextStyle(fontSize: 24),
       overflow: TextOverflow.ellipsis,
     ),
   );
@@ -15,11 +15,12 @@ Widget headingSettingTilePresenter(String name) {
 Widget boolSettingTilePresenter(BuildContext context, String name, bool value,
     {Function() onChange}) {
   //
-  void Function() tempOnChange = () {
+  void Function() tempOnChange;
+  tempOnChange = () {
     if (onChange != null) onChange();
   };
 
-  return Card(
+  return flatCard(
     child: genericListTile(context,
         leadingImage: null,
         name: name,
@@ -29,7 +30,6 @@ Widget boolSettingTilePresenter(BuildContext context, String name, bool value,
           onChanged: (bool unused) => tempOnChange(),
         ),
         onTap: tempOnChange),
-    margin: const EdgeInsets.all(0.0),
   );
 }
 
@@ -37,7 +37,8 @@ Widget languageSettingTilePresenter(
     BuildContext context, String name, String value,
     {Function(Locale locale) onChange}) {
   //
-  void Function() tempOnChange = () async {
+  void Function() tempOnChange;
+  tempOnChange = () async {
     if (onChange == null) return;
 
     var temp = await getNavigation().navigateAsync(
@@ -46,12 +47,10 @@ Widget languageSettingTilePresenter(
     );
     if (temp != null) onChange(getTranslations().getLocaleFromKey(temp));
   };
-  LocalizationMap currentLocal = supportedLanguageMaps.firstWhere(
-    (LocalizationMap localizationMap) => localizationMap.code == value,
-    orElse: () => supportedLanguageMaps[0],
-  );
+  LocalizationMap currentLocal =
+      getTranslations().getCurrentLocalizationMap(context, value);
 
-  return Card(
+  return flatCard(
     child: languageTilePresenter(
       context,
       name,
@@ -59,6 +58,5 @@ Widget languageSettingTilePresenter(
       trailingDisplay: currentLocal.name,
       onTap: tempOnChange,
     ),
-    margin: const EdgeInsets.all(0.0),
   );
 }

@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
 
 import '../../components/common/cachedFutureBuilder.dart';
+import '../../components/common/positioned.dart';
 import '../../components/scaffoldTemplates/genericPageScaffold.dart';
 import '../../constants/AnalyticsEvent.dart';
 import '../../constants/AppImage.dart';
@@ -117,13 +118,13 @@ class DressBotDetailPage extends StatelessWidget {
     var fabColour = getTheme().getSecondaryColour(context);
     var fabWidget = isOwned
         ? FloatingActionButton(
-            child: Icon(Icons.cancel),
+            child: const Icon(Icons.cancel),
             backgroundColor: fabColour,
             foregroundColor: getTheme().getForegroundTextColour(fabColour),
             onPressed: () => viewModel.removeFromOwned(gameItem.id),
           )
         : FloatingActionButton(
-            child: Icon(Icons.check),
+            child: const Icon(Icons.check),
             backgroundColor: fabColour,
             foregroundColor: getTheme().getForegroundTextColour(fabColour),
             onPressed: () => viewModel.addToOwned(gameItem.id),
@@ -136,11 +137,7 @@ class DressBotDetailPage extends StatelessWidget {
           itemCount: widgets.length,
           itemBuilder: (context, index) => widgets[index],
         ),
-        Positioned(
-          bottom: 16,
-          right: 16,
-          child: fabWidget,
-        )
+        fabPositioned(fabWidget)
       ],
     );
   }

@@ -20,6 +20,7 @@ class Routes {
   static const String patronList = '/patrons';
   static const String contributors = '/contributors';
   static const String whatIsNew = '/whatIsNew';
+  static const String allItems = '/allItems';
 
   static const String itemIdParam = 'itemId';
   static const String gameDetail = '/item/:$itemIdParam';

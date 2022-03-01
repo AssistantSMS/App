@@ -6,6 +6,7 @@ import '../../components/adaptive/appBarForSubPage.dart';
 import '../../components/adaptive/appScaffold.dart';
 
 class BaseWidgetService implements IBaseWidgetService {
+  @override
   Widget appScaffold(
     BuildContext context, {
     @required Widget appBar,
@@ -27,11 +28,13 @@ class BaseWidgetService implements IBaseWidgetService {
         floatingActionButtonLocation: floatingActionButtonLocation,
       );
 
+  @override
   Widget appBar(BuildContext context, Widget title, List<Widget> actions,
           {Widget leading, PreferredSizeWidget bottom}) =>
       adaptiveAppBar(context, title, actions, leading: leading, bottom: bottom);
 
-  Widget appBarForSubPage(
+  @override
+  PreferredSizeWidget appBarForSubPage(
     BuildContext context, {
     Widget title,
     List<ActionItem> actions,

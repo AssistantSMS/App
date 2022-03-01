@@ -49,14 +49,12 @@ class AppBarForSubPage extends StatelessWidget
   bool shouldFullyObstruct(BuildContext context) => true;
 }
 
-Widget adaptiveAppBarForSubPageHelper(
-  context, {
-  Widget title,
-  List<ActionItem> actions,
-  List<ActionItem> shortcutActions,
-  bool showHomeAction = false,
-  bool showBackAction = true,
-}) {
+Widget adaptiveAppBarForSubPageHelper(context,
+    {Widget title,
+    List<ActionItem> actions,
+    bool showHomeAction = false,
+    bool showBackAction = true,
+    List<ActionItem> shortcutActions}) {
   if (actions == null || actions.length == 0) {
     actions = List.empty(growable: true);
   }

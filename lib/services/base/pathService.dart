@@ -12,4 +12,7 @@ class PathService implements IPathService {
 
   @override
   String get defaultProfilePic => throw UnimplementedError();
+
+  @override
+  String get unknownImagePath => AppImage.customLoading;
 }

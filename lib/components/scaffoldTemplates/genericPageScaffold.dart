@@ -26,7 +26,7 @@ Widget genericPageScaffold<T>(
       shortcutActions: shortcutActions,
     ),
     body: body(context, snapshot),
-    bottomNavigationBar: BottomNavbar(noRouteSelected: true),
+    bottomNavigationBar: const BottomNavbar(),
     floatingActionButton: floatingActionButton,
   );
 }

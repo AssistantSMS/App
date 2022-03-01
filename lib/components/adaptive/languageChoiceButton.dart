@@ -11,7 +11,8 @@ Widget _androidLanguageChoiceButton(context, onLocaleChange) {
   return IconButton(
     icon: Icon(Icons.language, color: Colors.white),
     onPressed: () async {
-      var options = supportedLanguageMaps
+      var options = getLanguage()
+          .getLocalizationMaps()
           .map((l) => DropdownOption(
                 getTranslations().fromKey(l.name),
                 value: l.code,
@@ -48,7 +49,8 @@ Widget _appleLanguageChoiceButton(
         context: context,
         builder: (BuildContext context) => CupertinoActionSheet(
           title: Text(getTranslations().fromKey(LocaleKey.language)),
-          actions: supportedLanguageMaps
+          actions: getLanguage()
+              .getLocalizationMaps()
               .map(
                 (choice) => CupertinoActionSheetAction(
                   child: Text(getTranslations().fromKey(choice.name)),

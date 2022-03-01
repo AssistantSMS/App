@@ -11,13 +11,13 @@ import '../state/modules/base/appState.dart';
 import '../state/modules/setting/settingViewModel.dart';
 
 class SettingsPage extends StatelessWidget {
-  SettingsPage() {
+  SettingsPage({Key key}) : super(key: key) {
     getAnalytics().trackEvent(AnalyticsEvent.settingsPage);
   }
 
   void _changeBrightness(BuildContext context) {
     bool isDark = getTheme().getIsDark(context);
-    getTheme().setBrightness(context, isDark);
+    getTheme().setBrightness(context, !isDark);
     getAnalytics().trackEvent(
         isDark ? AnalyticsEvent.lightMode : AnalyticsEvent.darkMode);
   }
@@ -35,7 +35,7 @@ class SettingsPage extends StatelessWidget {
         converter: (store) => SettingViewModel.fromStore(store),
         builder: (_, viewModel) => getBody(context, viewModel),
       ),
-      bottomNavigationBar: BottomNavbar(noRouteSelected: true),
+      bottomNavigationBar: const BottomNavbar(),
     );
   }
 
@@ -51,11 +51,8 @@ class SettingsPage extends StatelessWidget {
       viewModel.selectedLanguage,
       onChange: (Locale locale) {
         viewModel.changeLanguage(locale);
-        LocalizationMap newLocal = supportedLanguageMaps.firstWhere(
-          (LocalizationMap localizationMap) =>
-              localizationMap.code == locale.languageCode,
-          orElse: () => supportedLanguageMaps[0],
-        );
+        LocalizationMap newLocal = getTranslations()
+            .getCurrentLocalizationMap(context, locale.languageCode);
         if (newLocal.code == 'it' || newLocal.code == 'zh-hans') {
           prettyDialog(
             context,

@@ -1,5 +1,4 @@
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 Widget adaptiveAppScaffold(
@@ -12,10 +11,9 @@ Widget adaptiveAppScaffold(
   Widget floatingActionButton,
   FloatingActionButtonLocation floatingActionButtonLocation,
 }) {
-  final _kTabletBreakpoint = 720.0;
-  final _kDesktopBreakpoint = 1440.0;
-  final _drawerWidth = 304.0;
-  var deviceAppBar = appBar != null ? appBar : null;
+  const _kTabletBreakpoint = 720.0;
+  const _kDesktopBreakpoint = 1440.0;
+  const _drawerWidth = 304.0;
   var customBody =
       builder != null ? Builder(builder: (inner) => builder(inner)) : body;
 
@@ -31,7 +29,7 @@ Widget adaptiveAppScaffold(
                   if (drawer != null) ...[SafeArea(child: drawer)],
                   Expanded(
                     child: Scaffold(
-                      appBar: deviceAppBar,
+                      appBar: appBar,
                       body: customBody,
                       floatingActionButton: floatingActionButton,
                       floatingActionButtonLocation:
@@ -53,7 +51,7 @@ Widget adaptiveAppScaffold(
         if (constraints.maxWidth >= _kTabletBreakpoint) {
           return Scaffold(
             drawer: (drawer != null) ? SafeArea(child: drawer) : null,
-            appBar: deviceAppBar,
+            appBar: appBar,
             body: SafeArea(
               right: false,
               bottom: false,
@@ -78,7 +76,7 @@ Widget adaptiveAppScaffold(
         }
         return Scaffold(
           key: Key('homeScaffold-${constraints.maxWidth}'),
-          appBar: deviceAppBar,
+          appBar: appBar,
           body: customBody,
           drawer: drawer,
           bottomNavigationBar: bottomNavigationBar,

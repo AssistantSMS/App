@@ -8,7 +8,7 @@ import 'package:scrapmechanic_kurtlourens_com/services/json/backupJsonService.da
 import '../components/bottomNavbar.dart';
 import '../constants/AnalyticsEvent.dart';
 import '../constants/Routes.dart';
-import '../pages/about.dart';
+// import '../pages/about.dart';
 import '../pages/cart/cartPage.dart';
 import '../pages/donation.dart';
 import '../pages/dressbot/dressbotDetailPage.dart';
@@ -33,7 +33,7 @@ class CustomRouter {
           NotFoundPage(),
     );
 
-    TransitionType transition = TransitionType.inFromRight;
+    TransitionType transition = TransitionType.material;
     router.define(
       Routes.home,
       handler: _basicHandlerFunc(() => HomePage()),
@@ -65,7 +65,7 @@ class CustomRouter {
         () => SteamNewsPage(
           AnalyticsEvent.steamNewsPage,
           AssistantAppType.SMS,
-          bottomNavigationBar: BottomNavbar(noRouteSelected: true),
+          bottomNavigationBar: const BottomNavbar(),
           backupFunc: (backupFuncContext) =>
               BackupJsonService().getSteamNews(backupFuncContext),
         ),
@@ -79,7 +79,7 @@ class CustomRouter {
     );
     router.define(
       Routes.raidCalc,
-      handler: _basicHandlerFunc(() => RaidCalcPage()),
+      handler: _basicHandlerFunc(() => const RaidCalcPage()),
       transitionType: transition,
     );
     router.define(
@@ -92,14 +92,14 @@ class CustomRouter {
       handler: _basicHandlerFunc(
         () => PatronListPage(
           AnalyticsEvent.patronListPage,
-          bottomNavigationBar: BottomNavbar(currentRoute: Routes.home),
+          bottomNavigationBar: const BottomNavbar(currentRoute: Routes.home),
         ),
       ),
       transitionType: transition,
     );
     router.define(
       Routes.contributors,
-      handler: _basicHandlerFunc(() => ContributorListPage()),
+      handler: _basicHandlerFunc(() => const ContributorListPage()),
       transitionType: transition,
     );
     router.define(

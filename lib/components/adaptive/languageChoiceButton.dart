@@ -40,7 +40,7 @@ Widget _appleLanguageChoiceButton(
   var color =
       showAppleTheme ? getTheme().getPrimaryColour(context) : Colors.white;
   return GestureDetector(
-    child: const Icon(
+    child: Icon(
       Icons.language,
       color: color,
     ),

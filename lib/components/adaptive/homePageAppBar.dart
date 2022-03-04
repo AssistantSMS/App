@@ -23,7 +23,7 @@ class HomePageAppBar extends StatelessWidget
     Widget title = Text(getTranslations().fromKey(LocaleKey.title));
     List<ActionItem> actions = List.empty(growable: true);
     actions.add(ActionItem(
-      icon: const Icons.settings,
+      icon: Icons.settings,
       onPressed: () async => await getNavigation().navigateAsync(
         context,
         navigateToNamed: Routes.settings,

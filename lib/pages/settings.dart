@@ -15,9 +15,9 @@ class SettingsPage extends StatelessWidget {
     getAnalytics().trackEvent(AnalyticsEvent.settingsPage);
   }
 
-  void _changeBrightness(BuildContext context) {
-    bool isDark = getTheme().getIsDark(context);
-    getTheme().setBrightness(context, !isDark);
+  void _changeBrightness(BuildContext ctx) {
+    bool isDark = getTheme().getIsDark(ctx);
+    getTheme().setBrightness(ctx, !isDark);
     getAnalytics().trackEvent(
         isDark ? AnalyticsEvent.lightMode : AnalyticsEvent.darkMode);
   }

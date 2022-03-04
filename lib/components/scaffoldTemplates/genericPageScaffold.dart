@@ -14,7 +14,7 @@ Widget genericPageScaffold<T>(
 }) {
   List<ActionItem> actions = List.empty(growable: true);
   actions.add(ActionItem(
-    icon: const Icons.home,
+    icon: Icons.home,
     onPressed: () async => await getNavigation().navigateHomeAsync(context),
   ));
   return getBaseWidget().appScaffold(

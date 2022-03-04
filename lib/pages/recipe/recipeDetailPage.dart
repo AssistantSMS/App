@@ -1,6 +1,8 @@
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
+import 'package:avatar_glow/avatar_glow.dart';
 import 'package:flutter_redux/flutter_redux.dart';
+import 'package:scrapmechanic_kurtlourens_com/contracts/recipe/recipe.dart';
 
 import '../../components/common/cachedFutureBuilder.dart';
 import '../../components/common/positioned.dart';
@@ -81,8 +83,8 @@ class RecipeDetailPage extends StatelessWidget {
     });
     if (errorWidget != null) return errorWidget;
 
-    var recipeItem = snapshot?.data?.value?.recipe;
-    var isTrade = recipeItem.id.contains(IdPrefix.recipeHideOut);
+    Recipe recipeItem = snapshot?.data?.value?.recipe;
+    bool isTrade = recipeItem.id.contains(IdPrefix.recipeHideOut);
 
     List<Widget> widgets = List.empty(growable: true);
 
@@ -112,12 +114,16 @@ class RecipeDetailPage extends StatelessWidget {
 
     if (recipeItem?.output?.id != null) {
       stackWidgets.add(Positioned(
-        child: GestureDetector(
-          child: const Icon(Icons.info_outline, size: 40),
-          onTap: () => navigateToGameItem(recipeItem.output.id),
-        ).showPointerOnHover,
-        top: 12,
-        right: 4,
+        child: AvatarGlow(
+          glowColor: getTheme().getSecondaryColour(context),
+          endRadius: 30.0,
+          child: GestureDetector(
+            child: const Icon(Icons.info, size: 40),
+            onTap: () => navigateToGameItem(recipeItem.output.id),
+          ).showPointerOnHover,
+        ),
+        top: 4,
+        right: 0,
       ));
     }
     widgets.add(Stack(children: stackWidgets));

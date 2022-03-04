@@ -46,7 +46,7 @@ class DressBotListDetailPage extends StatelessWidget {
   final bool showOwned;
   final bool showNotOwned;
 
-  DressBotListDetailPage(
+  const DressBotListDetailPage(
     this.allItemList,
     this.currentSelection,
     this.getCustomisationsFiltered,
@@ -63,8 +63,9 @@ class DressBotListDetailPage extends StatelessWidget {
     this.showLegs,
     this.showShoes,
     this.showOwned,
-    this.showNotOwned,
-  );
+    this.showNotOwned, {
+    Key key,
+  }) : super(key: key);
 
   CheckboxOption getOption(String text) => CheckboxOption(text, value: true);
 
@@ -84,14 +85,11 @@ class DressBotListDetailPage extends StatelessWidget {
                   context,
                   navigateTo: (context) => CheckboxListPageDialog(
                     getTranslations().fromKey(LocaleKey.dressBot),
-                    this.currentSelection ?? allItemList,
+                    currentSelection ?? allItemList,
                   ),
                 );
                 if (newSelection == null ||
                     newSelection.length != allItemList.length) return;
-                for (var select in newSelection) {
-                  print(select.title + ': ' + select.value.toString());
-                }
                 setSelection(newSelection);
               },
             )
@@ -101,7 +99,7 @@ class DressBotListDetailPage extends StatelessWidget {
         builder: (_, viewModel) => ResponsiveListDetailView<GameItem>(
           () => getCustomisationsFiltered(
             context,
-            this.currentSelection,
+            currentSelection,
             viewModel.owned,
             showHat: showHat,
             showHair: showHair,

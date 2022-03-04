@@ -7,7 +7,7 @@ Widget shortcutActionButton(context, List<ActionItem> actions) =>
 Widget shortcutPresenter(context, ActionItem action) => Row(
       children: [
         action.image ?? Icon(action.icon),
-        SizedBox(width: 10),
+        const SizedBox(width: 10),
         Text(
           action.text,
           style: TextStyle(
@@ -25,7 +25,7 @@ Widget _androidShortcutActionButton(context, List<ActionItem> actions) {
     onSelected: (Function func) {
       if (func != null) func();
     },
-    icon: Icon(Icons.link),
+    icon: const Icon(Icons.link),
     itemBuilder: (BuildContext context) => actions
         .map((action) => PopupMenuItem<Function>(
               value: action.onPressed,

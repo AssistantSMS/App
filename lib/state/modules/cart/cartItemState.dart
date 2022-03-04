@@ -6,13 +6,13 @@ class CartItemState {
   final String itemId;
   final int quantity;
 
-  CartItemState({
+  const CartItemState({
     this.itemId,
     this.quantity,
   });
 
   factory CartItemState.initial() {
-    return CartItemState(
+    return const CartItemState(
       itemId: '',
       quantity: 0,
     );

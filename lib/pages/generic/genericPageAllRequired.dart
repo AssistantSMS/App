@@ -1,3 +1,5 @@
+// ignore_for_file: no_logic_in_create_state
+
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 
@@ -14,11 +16,11 @@ import 'genericPageAllRequiredTreeComponents.dart';
 
 class GenericAllRequiredPage extends StatefulWidget {
   final List<RecipeIngredient> requiredItems;
-  GenericAllRequiredPage(this.requiredItems);
+  const GenericAllRequiredPage(this.requiredItems, {Key key}) : super(key: key);
 
   @override
   _GenericAllRequiredWidget createState() =>
-      _GenericAllRequiredWidget(this.requiredItems);
+      _GenericAllRequiredWidget(requiredItems);
 }
 
 class _GenericAllRequiredWidget extends State<GenericAllRequiredPage> {
@@ -49,7 +51,7 @@ class _GenericAllRequiredWidget extends State<GenericAllRequiredPage> {
           currentSelection = index;
         });
       }),
-      margin: EdgeInsets.all(8),
+      margin: const EdgeInsets.all(8),
     );
 
     if (currentSelection == 0) {
@@ -95,7 +97,7 @@ class _GenericAllRequiredWidget extends State<GenericAllRequiredPage> {
 
     List<Widget> widgets = List.empty(growable: true);
     widgets.add(segmentedWidget);
-    if (snapshot.data.length > 0) {
+    if (snapshot.data.isNotEmpty) {
       for (int ingDetailIndex = 0;
           ingDetailIndex < snapshot.data.length;
           ingDetailIndex++) {
@@ -110,9 +112,9 @@ class _GenericAllRequiredWidget extends State<GenericAllRequiredPage> {
             getTranslations().fromKey(LocaleKey.noItems),
             textAlign: TextAlign.center,
             overflow: TextOverflow.ellipsis,
-            style: TextStyle(fontSize: 20),
+            style: const TextStyle(fontSize: 20),
           ),
-          margin: EdgeInsets.only(top: 30),
+          margin: const EdgeInsets.only(top: 30),
         ),
       );
     }
@@ -137,7 +139,7 @@ Widget getTreeBody(
   List<Widget> widgets = List.empty(growable: true);
   widgets.add(segmentedWidget);
 
-  if (snapshot.data.length > 0) {
+  if (snapshot.data.isNotEmpty) {
     widgets.add(Expanded(
       child: ListView(
         shrinkWrap: true,
@@ -153,9 +155,9 @@ Widget getTreeBody(
           getTranslations().fromKey(LocaleKey.noItems),
           textAlign: TextAlign.center,
           overflow: TextOverflow.ellipsis,
-          style: TextStyle(fontSize: 20),
+          style: const TextStyle(fontSize: 20),
         ),
-        margin: EdgeInsets.only(top: 30),
+        margin: const EdgeInsets.only(top: 30),
       ),
     );
   }

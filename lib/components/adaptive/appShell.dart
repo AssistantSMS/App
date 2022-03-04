@@ -10,11 +10,12 @@ import '../../integration/themeManager.dart';
 import '../../theme/themes.dart';
 
 class AdaptiveAppShell extends StatefulWidget {
-  final newLocaleDelegate;
+  final TranslationsDelegate newLocaleDelegate;
 
-  AdaptiveAppShell({
+  const AdaptiveAppShell({
+    Key key,
     this.newLocaleDelegate,
-  });
+  }) : super(key: key);
 
   @override
   _AppShellWidget createState() => _AppShellWidget();

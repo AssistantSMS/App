@@ -16,9 +16,8 @@ class GameItemJsonService extends BaseJsonService
   Future<ResultWithValue<List<GameItem>>> getAll(context) async {
     String detailJson = getTranslations().fromKey(detailsJsonLocale);
     try {
-      List responseJson = await this.getListfromJson(context, baseJson);
-      List responseDetailsJson =
-          await this.getListfromJson(context, detailJson);
+      List responseJson = await getListfromJson(context, baseJson);
+      List responseDetailsJson = await getListfromJson(context, detailJson);
       List<GameItemBase> baseItems =
           responseJson.map((m) => GameItemBase.fromJson(m)).toList();
       List<GameItemLang> detailedItems =
@@ -27,7 +26,7 @@ class GameItemJsonService extends BaseJsonService
       return ResultWithValue<List<GameItem>>(
           true, mapGameItemItems(context, baseItems, detailedItems), '');
     } catch (exception) {
-      print(
+      getLog().e(
           "GameItemJsonService($baseJson, $detailJson) Exception: ${exception.toString()}");
       return ResultWithValue<List<GameItem>>(
           false, List.empty(growable: true), exception.toString());
@@ -37,7 +36,7 @@ class GameItemJsonService extends BaseJsonService
   @override
   Future<ResultWithValue<GameItem>> getById(context, String id) async {
     ResultWithValue<List<GameItem>> allGenericItemsResult =
-        await this.getAll(context);
+        await getAll(context);
     if (allGenericItemsResult.hasFailed) {
       return ResultWithValue(
           false, GameItem(), allGenericItemsResult.errorMessage);
@@ -47,7 +46,7 @@ class GameItemJsonService extends BaseJsonService
           allGenericItemsResult.value.firstWhere((r) => r.id == id);
       return ResultWithValue<GameItem>(true, selectedGeneric, '');
     } catch (exception) {
-      print(
+      getLog().e(
           "GameItemJsonService($baseJson) Exception: ${exception.toString()}");
       return ResultWithValue<GameItem>(false, GameItem(), exception.toString());
     }

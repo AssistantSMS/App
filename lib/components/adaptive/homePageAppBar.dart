@@ -7,22 +7,23 @@ import 'appBar.dart';
 
 class HomePageAppBar extends StatelessWidget
     implements PreferredSizeWidget, ObstructingPreferredSizeWidget {
-  final preferredSize;
-  final bottom;
-  final backgroundColor;
-  static final kMinInteractiveDimensionCupertino = 44.0;
+  @override
+  final Size preferredSize;
+  final dynamic bottom;
+  final Color backgroundColor;
+  static const double kMinInteractiveDimensionCupertino = 44.0;
 
-  HomePageAppBar({this.bottom, this.backgroundColor})
+  HomePageAppBar({Key key, this.bottom, this.backgroundColor})
       : preferredSize = Size.fromHeight(
             kToolbarHeight + (bottom?.preferredSize?.height ?? 0.0)),
-        super();
+        super(key: key);
 
   @override
   Widget build(BuildContext context) {
     Widget title = Text(getTranslations().fromKey(LocaleKey.title));
     List<ActionItem> actions = List.empty(growable: true);
     actions.add(ActionItem(
-      icon: Icons.settings,
+      icon: const Icons.settings,
       onPressed: () async => await getNavigation().navigateAsync(
         context,
         navigateToNamed: Routes.settings,
@@ -39,7 +40,7 @@ class HomePageAppBar extends StatelessWidget
       context,
       Text(getTranslations().fromKey(LocaleKey.title)),
       widgets,
-      bottom: this.bottom,
+      bottom: bottom,
     );
   }
 

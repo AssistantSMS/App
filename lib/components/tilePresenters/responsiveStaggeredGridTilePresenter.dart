@@ -20,8 +20,9 @@ Widget responsiveStaggeredGridTilePresenter(
               color: iconColor ?? Colors.white,
             ),
             (text != null)
-                ? Padding(child: Text('test'), padding: EdgeInsets.only(top: 4))
-                : Container(width: 0, height: 0),
+                ? const Padding(
+                    child: Text('test'), padding: EdgeInsets.only(top: 4))
+                : const SizedBox(width: 0, height: 0),
           ],
         ),
       ),
@@ -30,7 +31,8 @@ Widget responsiveStaggeredGridTilePresenter(
 Widget responsiveStaggeredGridImageTilePresenter(
     BuildContext context, String imgPath,
     {Color iconColor, LocaleKey text, Function() onTap}) {
-  var safeOnTap = () {
+  void Function() safeOnTap;
+  safeOnTap = () {
     if (onTap != null) onTap();
   };
   return responsiveStaggeredGridBaseTilePresenter(
@@ -45,7 +47,8 @@ Widget responsiveStaggeredGridImageTilePresenter(
 Widget responsiveStaggeredGridIconTilePresenter(
     BuildContext context, IconData icon,
     {Color iconColor, LocaleKey text, double height, Function() onTap}) {
-  var safeOnTap = () {
+  void Function() safeOnTap;
+  safeOnTap = () {
     if (onTap != null) onTap();
   };
   return responsiveStaggeredGridBaseTilePresenter(
@@ -86,7 +89,7 @@ Widget responsiveStaggeredGridIconTilePresenter(
   //               color: getForegroundTextColour(backgroundColor),
   //             ),
   //           ),
-  //           padding: EdgeInsets.only(left: 8, top: 4, right: 8),
+  //           padding: const EdgeInsets.only(left: 8, top: 4, right: 8),
   //         )
   //       ],
   //       mainAxisAlignment: MainAxisAlignment.center,
@@ -98,7 +101,8 @@ Widget responsiveStaggeredGridIconTilePresenter(
 Widget responsiveStaggeredGridBaseTilePresenter(
     BuildContext context, Widget image,
     {Color iconColor, LocaleKey text, Function() onTap}) {
-  var safeOnTap = () {
+  void Function() safeOnTap;
+  safeOnTap = () {
     if (onTap != null) onTap();
   };
 
@@ -111,7 +115,7 @@ Widget responsiveStaggeredGridBaseTilePresenter(
   children.add(
     Padding(
       child: image,
-      padding: EdgeInsets.only(left: 8, top: 8, right: 8, bottom: 24),
+      padding: const EdgeInsets.only(left: 8, top: 8, right: 8, bottom: 24),
     ),
   );
   if (text != null) {
@@ -126,7 +130,7 @@ Widget responsiveStaggeredGridBaseTilePresenter(
             color: getTheme().getForegroundTextColour(backgroundColor),
           ),
         ),
-        padding: EdgeInsets.symmetric(horizontal: 2),
+        padding: const EdgeInsets.symmetric(horizontal: 2),
       ),
       bottom: 4,
       left: 4,

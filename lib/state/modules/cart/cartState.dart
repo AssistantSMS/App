@@ -6,7 +6,7 @@ import 'cartItemState.dart';
 class CartState {
   final List<CartItemState> items;
 
-  CartState({
+  const CartState({
     this.items,
   });
 

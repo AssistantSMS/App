@@ -15,9 +15,8 @@ class RecipeJsonService extends BaseJsonService implements IRecipeJsonService {
   Future<ResultWithValue<List<Recipe>>> getAll(context) async {
     String detailJson = getTranslations().fromKey(detailsJsonLocale);
     try {
-      List responseJson = await this.getListfromJson(context, baseJson);
-      List responseDetailsJson =
-          await this.getListfromJson(context, detailJson);
+      List responseJson = await getListfromJson(context, baseJson);
+      List responseDetailsJson = await getListfromJson(context, detailJson);
       List<RecipeBase> baseItems =
           responseJson.map((m) => RecipeBase.fromJson(m)).toList();
       List<RecipeLang> detailedItems =
@@ -35,7 +34,7 @@ class RecipeJsonService extends BaseJsonService implements IRecipeJsonService {
 
   @override
   Future<ResultWithValue<Recipe>> getById(context, String id) async {
-    ResultWithValue<List<Recipe>> allRecipesResult = await this.getAll(context);
+    ResultWithValue<List<Recipe>> allRecipesResult = await getAll(context);
     if (allRecipesResult.hasFailed) {
       return ResultWithValue(false, Recipe(), allRecipesResult.errorMessage);
     }
@@ -53,7 +52,7 @@ class RecipeJsonService extends BaseJsonService implements IRecipeJsonService {
   @override
   Future<ResultWithValue<List<Recipe>>> getByInputsId(
       context, String id) async {
-    ResultWithValue<List<Recipe>> allRecipesResult = await this.getAll(context);
+    ResultWithValue<List<Recipe>> allRecipesResult = await getAll(context);
     if (allRecipesResult.hasFailed) {
       return ResultWithValue(
           false, List.empty(growable: true), allRecipesResult.errorMessage);
@@ -74,7 +73,7 @@ class RecipeJsonService extends BaseJsonService implements IRecipeJsonService {
   @override
   Future<ResultWithValue<List<Recipe>>> getByOutputId(
       context, String id) async {
-    ResultWithValue<List<Recipe>> allRecipesResult = await this.getAll(context);
+    ResultWithValue<List<Recipe>> allRecipesResult = await getAll(context);
     if (allRecipesResult.hasFailed) {
       return ResultWithValue(
           false, List.empty(growable: true), allRecipesResult.errorMessage);

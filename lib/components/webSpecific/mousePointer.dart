@@ -4,8 +4,9 @@ import 'package:flutter/material.dart';
 import 'package:universal_html/html.dart' as html;
 
 class MousePointer extends MouseRegion {
-  MousePointer({@required Widget child})
+  const MousePointer({Key key, @required Widget child})
       : super(
+          key: key,
           child: child,
           onHover: _mouseOnHover,
           onExit: _mouseOnExit,
@@ -16,7 +17,7 @@ class MousePointer extends MouseRegion {
 
   static dynamic getClickableArea() {
     var tagList = html.window.document.getElementsByTagName('flt-glass-pane');
-    if (tagList.length < 1) return null;
+    if (tagList.isEmpty) return null;
     return tagList[0];
   }
 

@@ -4,7 +4,7 @@ publish_to: 'none'
 version: 1.6.1+43
 
 environment:
-  sdk: ">=2.7.0 <3.0.0"
+  sdk: '>=2.7.0 <3.0.0'
 
 dependencies:
   flutter:
@@ -30,7 +30,7 @@ dependencies:
   # UI
   country_icons: 2.0.2
   floating_bottom_navigation_bar: ^1.5.2
-  dotted_border: 2.0.0+2  
+  dotted_border: 2.0.0+2
   flutter_simple_treeview: 3.0.1
   flutter_staggered_grid_view: 0.4.1 # Big migration
   giffy_dialog: 1.8.0
@@ -54,7 +54,7 @@ dependencies:
 dev_dependencies:
   flutter_launcher_icons: 0.9.0
   # flutter_test:
-  #   sdk: flutter  
+  #   sdk: flutter
 
 # dependency_overrides:
 #   intl: ^0.17.0-nullsafety.2
@@ -63,20 +63,20 @@ dev_dependencies:
 flutter_icons:
   ios: true
   android: true
-  image_path: "assets/img/fullSizeIcon.png"
-  adaptive_icon_background: "assets/img/fullSizeIconAdaptiveBg.png"
-  adaptive_icon_foreground: "assets/img/fullSizeIconAdaptiveFg.png"
+  image_path: 'assets/img/fullSizeIcon.png'
+  adaptive_icon_background: 'assets/img/fullSizeIconAdaptiveBg.png'
+  adaptive_icon_foreground: 'assets/img/fullSizeIconAdaptiveFg.png'
 
 flutter:
   uses-material-design: true
-  
+
   assets:
     - assets/data/ # Data files
     - assets/data/whatIsNew/ # What Is New Data files
     - assets/lang/ # Languages
-    
+
     # Images
-    - assets/img/ 
+    - assets/img/
     - assets/img/donation/
     - assets/img/drawer/
     - assets/img/items/
@@ -86,7 +86,7 @@ flutter:
     - assets/img/tile/
 
     # Base Json Items
-    - assets/json/ 
+    - assets/json/
     - assets/json/de/
     - assets/json/en/
     - assets/json/es/

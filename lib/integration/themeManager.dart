@@ -9,7 +9,6 @@ class ThemeManager implements IThemeModeManager {
   Future<String> loadThemeMode() async {
     ResultWithValue<ThemeState> themeResult =
         await getStorageService().loadThemeState();
-    print('loadThemeMode: ' + themeResult.value.themeMode.toString());
     var defaultThemeMode = 'ThemeMode.dark';
     if (themeResult.isSuccess) {
       return themeResult?.value?.themeMode ?? defaultThemeMode;
@@ -19,7 +18,6 @@ class ThemeManager implements IThemeModeManager {
 
   @override
   Future<bool> saveThemeMode(String value) async {
-    print('saveThemeMode: ' + value);
     var result = await getStorageService().saveThemeState(ThemeState(value));
     return result.isSuccess;
   }

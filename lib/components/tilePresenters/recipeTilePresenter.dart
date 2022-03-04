@@ -46,11 +46,11 @@ Widget recipeTileWithIngDetailsPresenter(
             (snapshot.connectionState == ConnectionState.done &&
                 snapshot.hasError) ||
             (snapshot.hasData && snapshot.data.hasFailed)) {
-          subtitle = Text('Error');
+          subtitle = const Text('Error');
         }
         if (snapshot.hasData) {
           String listTileTitle = '';
-          if (recipe.inputs.length > 0) {
+          if (recipe.inputs.isNotEmpty) {
             var rows = snapshot.data.value;
             rows.sort((RecipeIngredientDetails a, RecipeIngredientDetails b) =>
                 (b.id == recipe.output.id) ? 1 : -1);

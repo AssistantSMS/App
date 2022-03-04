@@ -30,11 +30,11 @@ class GameItemDetailPage extends StatelessWidget {
 
   GameItemDetailPage(
     this.itemId, {
+    Key key,
     this.isInDetailPane = false,
     this.updateDetailView,
-  }) {
-    getAnalytics()
-        .trackEvent('${AnalyticsEvent.itemDetailPage}: ${this.itemId}');
+  }) : super(key: key) {
+    getAnalytics().trackEvent('${AnalyticsEvent.itemDetailPage}: $itemId');
   }
 
   @override
@@ -45,7 +45,7 @@ class GameItemDetailPage extends StatelessWidget {
       loadingText: loading,
     );
     return CachedFutureBuilder<ResultWithValue<GameItemPageItem>>(
-      future: gameItemPageItemFuture(context, this.itemId),
+      future: gameItemPageItemFuture(context, itemId),
       whileLoading: isInDetailPane
           ? loadingWidget
           : genericPageScaffold(context, loading, null,
@@ -107,16 +107,16 @@ class GameItemDetailPage extends StatelessWidget {
         // widgets.add(tableResult.value);
         rowWidgets.add(Card(
           child: Container(
-            constraints: BoxConstraints(maxWidth: 450),
-            padding: EdgeInsets.all(10),
+            constraints: const BoxConstraints(maxWidth: 450),
+            padding: const EdgeInsets.all(10),
             child: tableResult.value,
           ),
         ));
       }
     }
 
-    Future Function(String gameItemId) navigateToGameItem =
-        (String gameItemId) async {
+    Future Function(String gameItemId) navigateToGameItem;
+    navigateToGameItem = (String gameItemId) async {
       if (isInDetailPane && updateDetailView != null) {
         updateDetailView(GameItemDetailPage(
           gameItemId,
@@ -132,8 +132,8 @@ class GameItemDetailPage extends StatelessWidget {
       }
     };
 
-    Future Function(String recipeItemId) navigateToRecipeItem =
-        (String recipeItemId) async {
+    Future Function(String recipeItemId) navigateToRecipeItem;
+    navigateToRecipeItem = (String recipeItemId) async {
       if (isInDetailPane && updateDetailView != null) {
         updateDetailView(RecipeDetailPage(
           recipeItemId,
@@ -164,11 +164,11 @@ class GameItemDetailPage extends StatelessWidget {
     }
 
     List<LootChance> lootChances = snapshot?.data?.value?.lootChances ?? [];
-    if (lootChances != null && lootChances.length > 0) {
+    if (lootChances != null && lootChances.isNotEmpty) {
       rowWidgets.add(itemDetailLootChancesWidget(lootChances));
     }
 
-    if (gameItem.features != null && gameItem.features.length > 0) {
+    if (gameItem.features != null && gameItem.features.isNotEmpty) {
       rowWidgets.add(itemDetailFeaturesWidget(context, gameItem.features));
     }
 
@@ -199,7 +199,7 @@ class GameItemDetailPage extends StatelessWidget {
 
     List<PackedUsing> usedInPacking =
         snapshot?.data?.value?.packingInputs ?? [];
-    if (usedInPacking.length > 0) {
+    if (usedInPacking.isNotEmpty) {
       widgets.addAll(itemUsedInPackingRecipesWidget(
         context,
         LocaleKey.createXUsingY,
@@ -209,7 +209,7 @@ class GameItemDetailPage extends StatelessWidget {
     }
 
     List<PackedUsing> packedUsing = snapshot?.data?.value?.packingOutputs ?? [];
-    if (packedUsing.length > 0) {
+    if (packedUsing.isNotEmpty) {
       widgets.addAll(itemUsedInPackingRecipesWidget(
         context,
         LocaleKey.createXUsingY,

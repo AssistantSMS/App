@@ -18,7 +18,7 @@ import '../gameItem/gameItemDetailPage.dart';
 import '../generic/genericPageAllRequired.dart';
 
 class CartPage extends StatelessWidget {
-  CartPage() {
+  CartPage({Key key}) : super(key: key) {
     getAnalytics().trackEvent(AnalyticsEvent.cartPage);
   }
 
@@ -40,7 +40,7 @@ class CartPage extends StatelessWidget {
               getBody(context, viewModel, snapshot),
         ),
       ),
-      bottomNavigationBar: BottomNavbar(currentRoute: Routes.cart),
+      bottomNavigationBar: const BottomNavbar(currentRoute: Routes.cart),
     );
   }
 
@@ -53,13 +53,14 @@ class CartPage extends StatelessWidget {
 
       ResultWithValue<GameItem> itemResult =
           await genRepo.value.getById(context, cartItem.itemId);
-      if (itemResult.isSuccess)
+      if (itemResult.isSuccess) {
         reqItems.add(RecipeIngredientDetails(
           id: itemResult.value.id,
           icon: itemResult.value.icon,
           title: itemResult.value.title,
           quantity: cartItem.quantity,
         ));
+      }
     }
     return reqItems;
   }
@@ -102,7 +103,7 @@ class CartPage extends StatelessWidget {
       ));
     }
 
-    if (widgets.length > 0) {
+    if (widgets.isNotEmpty) {
       widgets.add(Container(
         child: positiveButton(
           title: getTranslations().fromKey(LocaleKey.viewAllRequiredItems),
@@ -135,9 +136,9 @@ class CartPage extends StatelessWidget {
             getTranslations().fromKey(LocaleKey.noItems),
             textAlign: TextAlign.center,
             overflow: TextOverflow.ellipsis,
-            style: TextStyle(fontSize: 20),
+            style: const TextStyle(fontSize: 20),
           ),
-          margin: EdgeInsets.only(top: 30),
+          margin: const EdgeInsets.only(top: 30),
         ),
       );
     }

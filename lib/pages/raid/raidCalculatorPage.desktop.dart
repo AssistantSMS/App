@@ -14,7 +14,8 @@ const greenyDevTool = 'https://scrapmechanic.greeny.dev/?ref=AssistantSMS';
 
 class RaidCalcDesktopInputScreen extends StatelessWidget {
   final RaidViewModel currentDetails;
-  RaidCalcDesktopInputScreen(this.currentDetails);
+  const RaidCalcDesktopInputScreen(this.currentDetails, {Key key})
+      : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -42,7 +43,7 @@ class RaidCalcDesktopInputScreen extends StatelessWidget {
                         .fromKey(LocaleKey.originalWorkByGreenyDev),
                     textAlign: TextAlign.center,
                   ),
-                  padding: EdgeInsets.all(8),
+                  padding: const EdgeInsets.all(8),
                 ),
               ],
             ),

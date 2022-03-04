@@ -12,20 +12,27 @@ import 'futureHelper.dart';
 import 'repositoryHelper.dart';
 
 LocaleKey getLangJsonFromItemId(String itemId) {
-  if (itemId.contains(IdPrefix.recipeCookBot))
+  if (itemId.contains(IdPrefix.recipeCookBot)) {
     return LocaleKey.cookBotRecipeJson;
-  if (itemId.contains(IdPrefix.recipeCraftBot))
+  }
+  if (itemId.contains(IdPrefix.recipeCraftBot)) {
     return LocaleKey.craftBotRecipeJson;
-  if (itemId.contains(IdPrefix.recipeDispenser))
+  }
+  if (itemId.contains(IdPrefix.recipeDispenser)) {
     return LocaleKey.dispenserRecipeJson;
-  if (itemId.contains(IdPrefix.recipeDressBot))
+  }
+  if (itemId.contains(IdPrefix.recipeDressBot)) {
     return LocaleKey.dressBotRecipeJson;
-  if (itemId.contains(IdPrefix.recipeHideOut))
+  }
+  if (itemId.contains(IdPrefix.recipeHideOut)) {
     return LocaleKey.hideOutRecipeJson;
-  if (itemId.contains(IdPrefix.recipeRefinery))
+  }
+  if (itemId.contains(IdPrefix.recipeRefinery)) {
     return LocaleKey.refineryRecipeJson;
-  if (itemId.contains(IdPrefix.recipeWorkbench))
+  }
+  if (itemId.contains(IdPrefix.recipeWorkbench)) {
     return LocaleKey.workbenchRecipeJson;
+  }
 
   return LocaleKey.unknown;
 }
@@ -64,12 +71,15 @@ ResultWithValue<IGameItemJsonService> getGameItemRepoFromId(
   if (id.contains(IdPrefix.harvest)) key = LocaleKey.harvestJson;
   if (id.contains(IdPrefix.industrial)) key = LocaleKey.industrialJson;
   if (id.contains(IdPrefix.interactive)) key = LocaleKey.interactiveJson;
-  if (id.contains(IdPrefix.interactiveShared))
+  if (id.contains(IdPrefix.interactiveShared)) {
     key = LocaleKey.interactiveSharedJson;
-  if (id.contains(IdPrefix.interactiveUpgradable))
+  }
+  if (id.contains(IdPrefix.interactiveUpgradable)) {
     key = LocaleKey.interactiveUpgradableJson;
-  if (id.contains(IdPrefix.interactiveContainer))
+  }
+  if (id.contains(IdPrefix.interactiveContainer)) {
     key = LocaleKey.interactiveContainerJson;
+  }
   if (id.contains(IdPrefix.light)) key = LocaleKey.lightJson;
   if (id.contains(IdPrefix.manMade)) key = LocaleKey.manMadeJson;
   if (id.contains(IdPrefix.other)) key = LocaleKey.otherJson;

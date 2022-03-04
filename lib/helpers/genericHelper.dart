@@ -1,7 +1,7 @@
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 
-final int maxNumberOfRowsForRecipeCategory = 3;
+const int maxNumberOfRowsForRecipeCategory = 3;
 
 Widget genericItemImage(BuildContext context, String imagePath,
         {bool disableZoom = false,
@@ -37,7 +37,7 @@ Widget genericItemNameWithQuantity(context, String name, String quantity) =>
               name + '   ',
               textAlign: TextAlign.center,
               overflow: TextOverflow.ellipsis,
-              style: TextStyle(fontSize: 20),
+              style: const TextStyle(fontSize: 20),
             ),
             Chip(
                 label: Text('x $quantity'),
@@ -76,7 +76,7 @@ Widget genericItemWithListWidgets(Widget first, Widget second,
       child: Wrap(alignment: WrapAlignment.center, children: [
         first,
         addSpace
-            ? Padding(padding: EdgeInsets.only(left: 5), child: second)
+            ? Padding(padding: const EdgeInsets.only(left: 5), child: second)
             : second,
       ]),
       margin: const EdgeInsets.all(4.0),
@@ -86,7 +86,7 @@ Widget genericIconWithText(IconData icon, String text, {Function onTap}) => Row(
       children: [
         GestureDetector(
           child: Padding(
-            padding: EdgeInsets.only(right: 4),
+            padding: const EdgeInsets.only(right: 4),
             child: Icon(icon),
           ),
           onTap: () {
@@ -141,7 +141,7 @@ Widget genericChipWidget(context, Widget content,
       label: content,
       backgroundColor: color ?? getTheme().getSecondaryColour(context),
     ),
-    padding: EdgeInsets.only(left: 4),
+    padding: const EdgeInsets.only(left: 4),
   );
   return (onTap == null) ? child : GestureDetector(child: child, onTap: onTap);
 }

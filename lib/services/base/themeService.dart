@@ -7,7 +7,6 @@ import 'package:theme_mode_handler/theme_mode_handler.dart';
 class ThemeService implements IThemeService {
   @override
   ThemeData getTheme(BuildContext context) {
-    print('getTheme: ' + ThemeModeHandler.of(context)?.themeMode.toString());
     return ((ThemeModeHandler.of(context)?.themeMode ?? ThemeMode.light) ==
             ThemeMode.light)
         ? getDynamicTheme(Brightness.light)
@@ -60,10 +59,10 @@ class ThemeService implements IThemeService {
   }
 
   @override
-  Color getAndroidColour() => const Color(0);
+  Color getAndroidColour() => const Color(0x00000000);
 
   @override
-  Color getIosColour() => const Color(0);
+  Color getIosColour() => const Color(0x00000000);
 
   @override
   Color getCardTextColour(BuildContext context) =>

@@ -7,7 +7,7 @@ import '../../contracts/generated/Loot.dart';
 class LootItemJsonService extends BaseJsonService {
   Future<ResultWithValue<List<Loot>>> getAll(context) async {
     try {
-      dynamic jsonString = await this.getJsonFromAssets(context, 'data/loot');
+      dynamic jsonString = await getJsonFromAssets(context, 'data/loot');
       List responseJson = json.decode(jsonString);
       List<Loot> lootItems = responseJson.map((m) => Loot.fromJson(m)).toList();
 
@@ -20,8 +20,7 @@ class LootItemJsonService extends BaseJsonService {
   }
 
   Future<ResultWithValue<Loot>> getById(context, String appId) async {
-    ResultWithValue<List<Loot>> allGenericItemsResult =
-        await this.getAll(context);
+    ResultWithValue<List<Loot>> allGenericItemsResult = await getAll(context);
     if (allGenericItemsResult.hasFailed) {
       return ResultWithValue(false, Loot(), allGenericItemsResult.errorMessage);
     }

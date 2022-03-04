@@ -21,7 +21,7 @@ class AppImage {
   static const String patreon = drawerFolder + 'patreon.png';
   static const String assistantApps = drawerFolder + 'assistantApps.png';
 
-  static const String buyMeACoffee = 'donation/' + 'buyMeACoffee.png';
+  static const String buyMeACoffee = 'donation/buyMeACoffee.png';
 
   static const String dark = 'dark/';
   static const String light = 'light/';

@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import '../constants/AnalyticsEvent.dart';
 
 class DonationPage extends StatelessWidget {
-  DonationPage() {
+  DonationPage({Key key}) : super(key: key) {
     getAnalytics().trackEvent(AnalyticsEvent.donationPage);
   }
 
@@ -12,11 +12,11 @@ class DonationPage extends StatelessWidget {
   Widget build(BuildContext context) {
     List<Widget> items = List.empty(growable: true);
     items.add(Container(
-      key: Key('donationDescrip'),
+      key: const Key('donationDescrip'),
       child: Text(
         getTranslations().fromKey(LocaleKey.donationDescrip),
         textAlign: TextAlign.center,
-        style: TextStyle(fontSize: 16),
+        style: const TextStyle(fontSize: 16),
       ),
       margin: const EdgeInsets.all(4.0),
     ));
@@ -25,53 +25,53 @@ class DonationPage extends StatelessWidget {
     List<Widget> paymentOptions = List.empty(growable: true);
 
     paymentOptions.add(ListTile(
-      key: Key('buyMeACoffee'),
+      key: const Key('buyMeACoffee'),
       leading: getListTileImage('donation/buyMeACoffee.png'),
       title: Text(getTranslations().fromKey(LocaleKey.buyMeACoffee),
-          style: TextStyle(fontSize: 20)),
+          style: const TextStyle(fontSize: 20)),
       onTap: () {
         getAnalytics().trackEvent(AnalyticsEvent.externalLinkBuyMeACoffee);
         launchExternalURL(ExternalUrls.buyMeACoffee);
       },
     ));
     paymentOptions.add(ListTile(
-      key: Key('patreon'),
+      key: const Key('patreon'),
       leading: getListTileImage('donation/patreon.png'),
       title: Text(getTranslations().fromKey(LocaleKey.patreon),
-          style: TextStyle(fontSize: 20)),
+          style: const TextStyle(fontSize: 20)),
       onTap: () {
         getAnalytics().trackEvent(AnalyticsEvent.externalLinkPatreon);
         launchExternalURL(ExternalUrls.patreon);
       },
     ));
     paymentOptions.add(ListTile(
-      key: Key('payPal'),
+      key: const Key('payPal'),
       leading: getListTileImage('donation/payPal.png'),
       title: Text(getTranslations().fromKey(LocaleKey.paypal),
-          style: TextStyle(fontSize: 20)),
+          style: const TextStyle(fontSize: 20)),
       onTap: () {
         getAnalytics().trackEvent(AnalyticsEvent.externalLinkPayPal);
         launchExternalURL(ExternalUrls.payPal);
       },
     ));
     paymentOptions.add(ListTile(
-      key: Key('openCollective'),
+      key: const Key('openCollective'),
       leading: getListTileImage('donation/openCollective.png'),
       title: Text(getTranslations().fromKey(LocaleKey.openCollective),
-          style: TextStyle(fontSize: 20)),
+          style: const TextStyle(fontSize: 20)),
       onTap: () {
         getAnalytics().trackEvent(AnalyticsEvent.externalLinkOpenCollective);
         launchExternalURL(ExternalUrls.openCollective);
       },
     ));
 
-    if (paymentOptions.length > 0) {
+    if (paymentOptions.isNotEmpty) {
       items.addAll(paymentOptions);
     } else {
       items.add(ListTile(
         key: Key(LocaleKey.noItems.toString()),
         title: Text(getTranslations().fromKey(LocaleKey.noItems),
-            textAlign: TextAlign.center, style: TextStyle(fontSize: 20)),
+            textAlign: TextAlign.center, style: const TextStyle(fontSize: 20)),
       ));
     }
 
@@ -85,7 +85,7 @@ class DonationPage extends StatelessWidget {
       body: listWithScrollbar(
         shrinkWrap: true,
         itemCount: items.length,
-        padding: EdgeInsets.all(12),
+        padding: const EdgeInsets.all(12),
         itemBuilder: (context, index) => items[index],
       ),
     );

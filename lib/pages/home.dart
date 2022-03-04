@@ -14,7 +14,7 @@ import 'gameItem/gameItemListPage.dart';
 import 'recipe/recipeListPage.dart';
 
 class HomePage extends StatelessWidget {
-  HomePage() {
+  HomePage({Key key}) : super(key: key) {
     getAnalytics().trackEvent(AnalyticsEvent.homePage);
   }
 
@@ -23,7 +23,7 @@ class HomePage extends StatelessWidget {
     return getBaseWidget().appScaffold(
       context,
       appBar: HomePageAppBar(),
-      drawer: AppDrawer(),
+      drawer: const AppDrawer(),
       builder: (scaffoldContext) => getBody(scaffoldContext),
       bottomNavigationBar: const BottomNavbar(currentRoute: Routes.home),
     );

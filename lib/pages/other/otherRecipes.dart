@@ -10,7 +10,7 @@ import '../../helpers/listPageHelper.dart';
 import '../recipe/recipeListPage.dart';
 
 class OtherRecipesPage extends StatelessWidget {
-  OtherRecipesPage() {
+  OtherRecipesPage({Key key}) : super(key: key) {
     getAnalytics().trackEvent(AnalyticsEvent.homePage);
   }
 

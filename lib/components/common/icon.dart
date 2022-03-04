@@ -5,7 +5,7 @@ Widget iconWithValueRow(IconData icon, int value) {
     children: [
       Icon(icon),
       Padding(
-        padding: EdgeInsets.only(left: 4),
+        padding: const EdgeInsets.only(left: 4),
         child: Text(value.toString()),
       )
     ],

@@ -1,3 +1,5 @@
+// ignore_for_file: no_logic_in_create_state
+
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 
@@ -6,7 +8,7 @@ class CachedFutureBuilder<T> extends StatefulWidget {
   final Widget whileLoading;
   final Widget Function(AsyncSnapshot<T> data) whenDoneLoading;
 
-  CachedFutureBuilder({
+  const CachedFutureBuilder({
     Key key,
     @required this.future,
     @required this.whileLoading,
@@ -15,9 +17,9 @@ class CachedFutureBuilder<T> extends StatefulWidget {
 
   @override
   _CachedFutureBuilderWidget<T> createState() => _CachedFutureBuilderWidget<T>(
-        this.future,
-        this.whileLoading,
-        this.whenDoneLoading,
+        future,
+        whileLoading,
+        whenDoneLoading,
       );
 }
 

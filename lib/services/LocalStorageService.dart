@@ -29,8 +29,9 @@ class LocalStorageService implements ILocalStorageService {
     ResultWithValue<Map<String, dynamic>> tempResult =
         await _storageRepo.loadFromStorage(AppConfig.appStateKey);
 
-    if (!tempResult.isSuccess)
+    if (!tempResult.isSuccess) {
       return ResultWithValue<AppState>(false, null, tempResult.errorMessage);
+    }
     try {
       AppState result = AppState.fromJson(tempResult.value);
       return ResultWithValue<AppState>(true, result, '');
@@ -53,8 +54,9 @@ class LocalStorageService implements ILocalStorageService {
     ResultWithValue<Map<String, dynamic>> tempResult =
         await _storageRepo.loadFromStorage(AppConfig.themeKey);
 
-    if (!tempResult.isSuccess)
+    if (!tempResult.isSuccess) {
       return ResultWithValue<ThemeState>(false, null, tempResult.errorMessage);
+    }
     try {
       ThemeState result = ThemeState.fromJson(tempResult.value);
       return ResultWithValue<ThemeState>(true, result, '');

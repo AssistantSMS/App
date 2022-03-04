@@ -37,7 +37,7 @@ class _RaidCalcWidget extends State<RaidCalcPage> {
 class _RaidCalcInnerWidget extends StatelessWidget {
   final Widget desktopInputScreen;
   final RaidViewModel viewModel;
-  _RaidCalcInnerWidget(this.viewModel, this.desktopInputScreen);
+  const _RaidCalcInnerWidget(this.viewModel, this.desktopInputScreen);
 
   @override
   Widget build(BuildContext context) {

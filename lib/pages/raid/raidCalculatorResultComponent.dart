@@ -9,7 +9,9 @@ class RaidCalculatorResultComponent extends StatelessWidget {
   final RaidViewModel details;
   final bool showMobileView;
 
-  RaidCalculatorResultComponent(this.details, this.showMobileView);
+  const RaidCalculatorResultComponent(this.details, this.showMobileView,
+      {Key key})
+      : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -19,7 +21,7 @@ class RaidCalculatorResultComponent extends StatelessWidget {
     var highCount = RaidHelper.getHighCount(details);
     var spawns = RaidHelper.getRaidSpawns(cropValue, highCount);
 
-    if (spawns == null || spawns.length < 1) {
+    if (spawns == null || spawns.isEmpty) {
       widgets.add(emptySpace3x());
       widgets.add(
           genericItemName(getTranslations().fromKey(LocaleKey.yourFarmIsSafe)));

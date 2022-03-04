@@ -121,19 +121,22 @@ ResultWithValue<Widget> getRatingTableRows(
       ]));
     }
 
-    if (edibles.length > 0) {
+    if (edibles.isNotEmpty) {
       rows.add(TableRow(children: [customDivider(), customDivider()]));
       rows.addAll(edibles);
     }
   }
 
   var child = Padding(
-    padding: EdgeInsets.only(top: 8, left: 8, right: 8),
+    padding: const EdgeInsets.only(top: 8, left: 8, right: 8),
     child: Table(
       children: rows,
       // border: TableBorder.all(),
       defaultVerticalAlignment: TableCellVerticalAlignment.middle,
-      columnWidths: {0: FractionColumnWidth(.5), 1: FractionColumnWidth(.5)},
+      columnWidths: const {
+        0: FractionColumnWidth(.5),
+        1: FractionColumnWidth(.5)
+      },
     ),
   );
   return ResultWithValue<Widget>(true, child, '');
@@ -144,7 +147,7 @@ Widget headingLocaleKeyWithImage(
         {TextAlign textAlign}) =>
     Row(children: [
       Padding(
-        padding: EdgeInsets.only(right: 4),
+        padding: const EdgeInsets.only(right: 4),
         child: localImage(
           imagePath,
           height: 16,
@@ -163,10 +166,10 @@ Widget headingText(BuildContext context, String text, {TextAlign textAlign}) =>
     Padding(
       child: Text(
         text,
-        style: TextStyle(fontSize: 16),
+        style: const TextStyle(fontSize: 16),
         textAlign: textAlign,
       ),
-      padding: EdgeInsets.only(top: 2, bottom: 4),
+      padding: const EdgeInsets.only(top: 2, bottom: 4),
     );
 
 Widget rowValue(BuildContext context, int value) {
@@ -187,7 +190,7 @@ Widget rowValue(BuildContext context, int value) {
 Widget rowText(BuildContext context, String text) {
   return Padding(
     child: Text(text),
-    padding: EdgeInsets.only(top: 2, bottom: 4),
+    padding: const EdgeInsets.only(top: 2, bottom: 4),
   );
 }
 
@@ -195,7 +198,7 @@ Widget rowInt(
     BuildContext context, int quantity, String suffix, String suffixPural) {
   return Padding(
     child: Text(quantity.toString() + (quantity == 1 ? suffix : suffixPural)),
-    padding: EdgeInsets.only(top: 2, bottom: 4),
+    padding: const EdgeInsets.only(top: 2, bottom: 4),
   );
 }
 
@@ -203,7 +206,7 @@ Widget cubeDimensionGrid(BuildContext context, Box box) {
   String suffix = "";
   String suffixPural = "";
   return Padding(
-    padding: EdgeInsets.only(top: 8, left: 8, right: 8),
+    padding: const EdgeInsets.only(top: 8, left: 8, right: 8),
     child: Table(
       children: [
         TableRow(children: [
@@ -225,7 +228,10 @@ Widget cubeDimensionGrid(BuildContext context, Box box) {
       ],
       // border: TableBorder.all(),
       defaultVerticalAlignment: TableCellVerticalAlignment.middle,
-      columnWidths: {0: FractionColumnWidth(.5), 1: FractionColumnWidth(.5)},
+      columnWidths: const {
+        0: FractionColumnWidth(.5),
+        1: FractionColumnWidth(.5)
+      },
     ),
   );
 }
@@ -239,7 +245,7 @@ Widget cubeDimension(BuildContext context, Box box) {
     children: [
       Padding(
         child: localImage(AppImage.dimensionsCube),
-        padding: EdgeInsets.all(24),
+        padding: const EdgeInsets.all(24),
       ),
       Positioned(
         child: Row(
@@ -272,7 +278,7 @@ Widget cylinderDimension(BuildContext context, Cylinder cylinder) {
     children: [
       Padding(
         child: localImage(AppImage.dimensionsCylinder),
-        padding: EdgeInsets.all(24),
+        padding: const EdgeInsets.all(24),
       ),
       Positioned(
         child: Text(
@@ -298,7 +304,7 @@ Widget paddedCardWithMaxSize(Widget child,
     {double maxWidth = 450, EdgeInsetsGeometry padding}) {
   var container = Container(
     constraints: BoxConstraints(maxWidth: maxWidth),
-    padding: EdgeInsets.all(10),
+    padding: const EdgeInsets.all(10),
     child: child,
   );
   return (padding == null)
@@ -327,14 +333,16 @@ Widget itemDetailUpgradeWidget(
                   children: [
                     localImage(AppImage.componentKit, height: 20),
                     Container(width: 10),
-                    Text(upgrade.cost.toString(),
-                        style: TextStyle(fontSize: 20)),
+                    Text(
+                      upgrade.cost.toString(),
+                      style: const TextStyle(fontSize: 20),
+                    ),
                   ],
                 ),
               ),
             ),
           ]),
-          padding: EdgeInsets.all(18),
+          padding: const EdgeInsets.all(18),
         ),
       ),
     ),
@@ -350,7 +358,7 @@ Widget itemDetailBoxWidget(BuildContext context, Box box) {
         height: 120,
       ),
     ),
-    padding: EdgeInsets.only(bottom: 12),
+    padding: const EdgeInsets.only(bottom: 12),
   );
 }
 
@@ -362,7 +370,7 @@ Widget itemDetailCylinderWidget(BuildContext context, Cylinder cylinder) {
         height: 120,
       ),
     ),
-    padding: EdgeInsets.only(bottom: 12),
+    padding: const EdgeInsets.only(bottom: 12),
   );
 }
 
@@ -380,7 +388,7 @@ Widget itemDetailLootChancesWidget(List<LootChance> lootChances) {
       crossAxisAlignment: CrossAxisAlignment.center,
       children: [
         localImage(imagePath, height: chestIconSize),
-        Container(width: 10, height: chestIconSize),
+        const SizedBox(width: 10, height: chestIconSize),
         Text(
           "${lootChance.chance}% chance of dropping $quantityString",
         ),
@@ -403,14 +411,14 @@ Widget itemDetailFeaturesWidget(BuildContext context, List<Feature> features) {
     rows.add(TableRow(children: [
       Padding(
         child: Text(getTranslations().fromKey(locale) + ": "),
-        padding: EdgeInsets.all(4),
+        padding: const EdgeInsets.all(4),
       ),
-      Padding(child: Text(feature.value), padding: EdgeInsets.all(4)),
+      Padding(child: Text(feature.value), padding: const EdgeInsets.all(4)),
     ]));
   }
   return paddedCardWithMaxSize(Padding(
     child: Table(children: rows),
-    padding: EdgeInsets.all(8),
+    padding: const EdgeInsets.all(8),
   ));
 }
 
@@ -490,7 +498,7 @@ List<Widget> inCartWidget(
   GameItemViewModel viewModel,
 ) {
   List<Widget> widgets = List.empty(growable: true);
-  if (cartItems == null || cartItems.length < 1) return widgets;
+  if (cartItems == null || cartItems.isEmpty) return widgets;
 
   widgets.add(emptySpace3x());
   widgets.add(genericItemText(getTranslations().fromKey(LocaleKey.cart)));

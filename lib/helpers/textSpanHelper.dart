@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 Widget getTextSpanFromTemplateAndArray(
     BuildContext context, LocaleKey templateLocaleKey, List<String> variables) {
   String template = getTranslations().fromKey(templateLocaleKey);
-  List<String> templateArray = template.split(new RegExp(r"\{.\}"));
+  List<String> templateArray = template.split(RegExp(r"\{.\}"));
   Color secondaryColour = getTheme().getSecondaryColour(context);
 
   List<TextSpan> textSpans = List.empty(growable: true);

@@ -11,6 +11,8 @@ import '../../state/modules/cosmetic/cosmeticViewModel.dart';
 import 'dressbotListDetailPage.dart';
 
 class DressBotPage extends StatefulWidget {
+  const DressBotPage({Key key}) : super(key: key);
+
   @override
   _DressBotWidget createState() => _DressBotWidget();
 }
@@ -107,14 +109,14 @@ class _DressBotWidget extends State<DressBotPage> {
   CheckboxOption getOption(String text) => CheckboxOption(text, value: true);
 
   void setSelection(List<CheckboxOption> newSelection) {
-    this.setState(() {
-      this.currentSelection = newSelection;
+    setState(() {
+      currentSelection = newSelection;
     });
   }
 
   void setOwnedSelection(List<String> newSelection) {
-    this.setState(() {
-      this.currentOwnedSelection = newSelection;
+    setState(() {
+      currentOwnedSelection = newSelection;
     });
   }
 
@@ -146,7 +148,7 @@ class _DressBotWidget extends State<DressBotPage> {
     ownedOptionList.add(showNotOwnedKey);
 
     List<CheckboxOption> select =
-        this.currentSelection ?? List.empty(growable: true);
+        currentSelection ?? List.empty(growable: true);
     bool showHat = select
         .firstWhere((s) => s.title == hatKey,
             orElse: () => CheckboxOption(hatKey))
@@ -181,7 +183,7 @@ class _DressBotWidget extends State<DressBotPage> {
         .value;
 
     List<String> selectOwned =
-        this.currentOwnedSelection ?? [showOwnedKey, showNotOwnedKey];
+        currentOwnedSelection ?? [showOwnedKey, showNotOwnedKey];
     bool showOwned = selectOwned.contains(showOwnedKey);
     bool showNotOwned = selectOwned.contains(showNotOwnedKey);
 

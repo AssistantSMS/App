@@ -16,7 +16,7 @@ Widget requiredItemTreeDetailsRowPresenter(
         ),
       ],
       Padding(
-        padding: EdgeInsets.only(left: 8),
+        padding: const EdgeInsets.only(left: 8),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
@@ -36,7 +36,8 @@ Widget requiredItemTreeDetailsRowPresenter(
     ],
   );
   if (itemDetails.id == null) return rowWidget;
-  var onTapFunc = () async => await getNavigation().navigateAsync(
+  Future Function() onTapFunc;
+  onTapFunc = () async => await getNavigation().navigateAsync(
         context,
         navigateTo: (context) => GameItemDetailPage(itemDetails.id),
       );

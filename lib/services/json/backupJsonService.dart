@@ -10,7 +10,7 @@ class BackupJsonService extends BaseJsonService {
       context) async {
     try {
       dynamic jsonString =
-          await this.getJsonFromAssets(context, JsonFile.contributorBackup);
+          await getJsonFromAssets(context, JsonFile.contributorBackup);
       List responseJson = json.decode(jsonString);
       List<ContributorViewModel> backupItems =
           responseJson.map((m) => ContributorViewModel.fromJson(m)).toList();
@@ -28,7 +28,7 @@ class BackupJsonService extends BaseJsonService {
       context) async {
     try {
       dynamic jsonString =
-          await this.getJsonFromAssets(context, JsonFile.steamNewsBackup);
+          await getJsonFromAssets(context, JsonFile.steamNewsBackup);
       List responseJson = json.decode(jsonString);
       List<SteamNewsItemViewModel> backupItems =
           responseJson.map((m) => SteamNewsItemViewModel.fromJson(m)).toList();
@@ -50,8 +50,8 @@ class BackupJsonService extends BaseJsonService {
     int pageSize = 20,
   }) async {
     try {
-      dynamic jsonString = await this
-          .getJsonFromAssets(context, '${JsonFile.whatIsNewBackup}$langCode');
+      dynamic jsonString = await getJsonFromAssets(
+          context, '${JsonFile.whatIsNewBackup}$langCode');
       List responseJson = json.decode(jsonString);
       List<VersionViewModel> backupItems =
           responseJson.map((m) => VersionViewModel.fromJson(m)).toList();

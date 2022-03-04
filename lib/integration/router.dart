@@ -30,7 +30,7 @@ class CustomRouter {
 
     router.notFoundHandler = Handler(
       handlerFunc: (BuildContext context, Map<String, List<String>> params) =>
-          NotFoundPage(),
+          const NotFoundPage(),
     );
 
     TransitionType transition = TransitionType.material;
@@ -84,7 +84,7 @@ class CustomRouter {
     );
     router.define(
       Routes.dressbot,
-      handler: _basicHandlerFunc(() => DressBotPage()),
+      handler: _basicHandlerFunc(() => const DressBotPage()),
       transitionType: transition,
     );
     router.define(

@@ -7,11 +7,12 @@ class CustomSpinner extends StatefulWidget {
   final double height;
   final double width;
   final Duration spinDuration;
-  CustomSpinner({
+  const CustomSpinner({
+    Key key,
     this.height = 50.0,
     this.width = 50.0,
     this.spinDuration = const Duration(seconds: 2),
-  });
+  }) : super(key: key);
 
   @override
   _CustomSpinnerWidget createState() => _CustomSpinnerWidget();
@@ -43,7 +44,7 @@ class _CustomSpinnerWidget extends State<CustomSpinner>
     return RotationTransition(
       turns: Tween(begin: 0.0, end: 1.0).animate(_controller),
       child: SizedBox(
-        child: Image(
+        child: const Image(
           image: AssetImage(AppImage.customLoading),
         ),
         height: widget.height,

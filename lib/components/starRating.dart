@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 
 Widget starRating(context, int currentRating,
     {double size = 32, Function(int) onTap}) {
-  if (onTap == null) onTap = (int _) => {};
+  onTap ??= (int _) => {};
   var colour = getTheme().getSecondaryColour(context);
   return Wrap(
     // alignment: WrapAlignment.center,

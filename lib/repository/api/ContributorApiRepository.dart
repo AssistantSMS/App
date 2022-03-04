@@ -8,9 +8,10 @@ import 'interface/IContributorApiRepository.dart';
 
 class ContributorApiRepository extends BaseGithubApiRepository
     implements IContributorApiRepository {
+  @override
   Future<ResultWithValue<List<ContributorViewModel>>> getContributors() async {
     try {
-      final response = await this.getFile('contributors.json');
+      final response = await getFile('contributors.json');
       if (response.hasFailed) {
         return ResultWithValue<List<ContributorViewModel>>(
             false, List.empty(growable: true), response.errorMessage);

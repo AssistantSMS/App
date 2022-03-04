@@ -9,7 +9,7 @@ Widget languageChoiceButton(context, bool showAppleTheme, onLocaleChange) =>
 
 Widget _androidLanguageChoiceButton(context, onLocaleChange) {
   return IconButton(
-    icon: Icon(Icons.language, color: Colors.white),
+    icon: const Icon(Icons.language, color: Colors.white),
     onPressed: () async {
       var options = getLanguage()
           .getLocalizationMaps()
@@ -40,7 +40,7 @@ Widget _appleLanguageChoiceButton(
   var color =
       showAppleTheme ? getTheme().getPrimaryColour(context) : Colors.white;
   return GestureDetector(
-    child: Icon(
+    child: const Icon(
       Icons.language,
       color: color,
     ),
@@ -56,7 +56,7 @@ Widget _appleLanguageChoiceButton(
                   child: Text(getTranslations().fromKey(choice.name)),
                   onPressed: () {
                     Navigator.of(context).pop();
-                    return onLocaleChange(
+                    onLocaleChange(
                       getTranslations().getLocaleFromLocalMap(choice),
                     );
                   },

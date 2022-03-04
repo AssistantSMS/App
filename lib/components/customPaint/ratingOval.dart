@@ -37,7 +37,7 @@ class RatingOvalPainter extends CustomPainter {
           width: 10,
           height: size.height,
         ),
-        Radius.circular(12),
+        const Radius.circular(12),
       ),
       paint,
     );

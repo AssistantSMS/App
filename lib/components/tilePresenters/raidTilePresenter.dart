@@ -43,7 +43,8 @@ Widget raidTilePresenter(
       RecipeIngredientDetails plantDetail = snapshot.data.value;
       int plantQuantity = RaidHelper.getPlantQuantity(currentDetails, itemId);
 
-      var localOnEdit = () => getDialog()
+      void Function() localOnEdit;
+      localOnEdit = () => getDialog()
               .showQuantityDialog(context, TextEditingController(),
                   onSuccess: (String quantityString) {
             int quantity = int.tryParse(quantityString);
@@ -140,14 +141,14 @@ Widget _raidAddPlantTileContent(
       width: 55,
       height: 55,
       child: Padding(
-        padding: EdgeInsets.all(4),
+        padding: const EdgeInsets.all(4),
         child: DottedBorder(
           borderType: BorderType.RRect,
-          radius: Radius.circular(12),
-          padding: EdgeInsets.all(6),
-          dashPattern: [8, 4],
+          radius: const Radius.circular(12),
+          padding: const EdgeInsets.all(6),
+          dashPattern: const [8, 4],
           color: getTheme().getSecondaryColour(context),
-          child: ClipRRect(
+          child: const ClipRRect(
             borderRadius: BorderRadius.all(Radius.circular(12)),
             child: Center(
               child: Icon(Icons.add),
@@ -166,7 +167,7 @@ Widget _raidAddPlantTileContent(
           customPresenter: currentRaidPlantPresenter(platsWithDetails),
         ),
       );
-      if (tempPlantId == null || tempPlantId.length <= 0) return;
+      if (tempPlantId == null || tempPlantId.isEmpty) return;
       getDialog().showQuantityDialog(context, TextEditingController(),
           onSuccess: (String quantityString) {
         int quantity = int.tryParse(quantityString);
@@ -203,11 +204,11 @@ Widget raidDetailGridTilePresenter(
               ],
               onChanged: (String text) {
                 int intQuantity = int.tryParse(text);
-                if (intQuantity == null) intQuantity = 0;
+                intQuantity ??= 0;
                 onEdit(details.id, intQuantity);
               },
             ),
-            padding: EdgeInsets.all(8),
+            padding: const EdgeInsets.all(8),
           ),
         ],
       ),
@@ -267,6 +268,6 @@ Widget getRaidAttackerImg(String path, bool isMobileView) => localImage(
 Widget getRaidAttackerCount(int quantity) => Center(
       child: Text(
         ' x$quantity',
-        style: TextStyle(fontSize: 24),
+        style: const TextStyle(fontSize: 24),
       ),
     );

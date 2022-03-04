@@ -5,13 +5,14 @@ import '../../contracts/generated/contributorViewModel.dart';
 
 Widget contributorTilePresenter(
     BuildContext context, ContributorViewModel contributor, int index) {
-  var onTap = () => launchExternalURL(contributor.link);
+  Future<void> Function() onTap;
+  onTap = () => launchExternalURL(contributor.link);
   return genericListTileWithNetworkImage(
     context,
     name: contributor.name,
     imageUrl: contributor.imageUrl,
     subtitle: Text(contributor.description),
     onTap: onTap,
-    trailing: IconButton(icon: Icon(Icons.exit_to_app), onPressed: onTap),
+    trailing: IconButton(icon: const Icon(Icons.exit_to_app), onPressed: onTap),
   );
 }

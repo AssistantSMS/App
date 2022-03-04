@@ -1,3 +1,5 @@
+// ignore_for_file: constant_identifier_names
+
 class UIConstants {
   static const int ReleaseNotesDescripNumLines = 3;
   static const String DateFormat = 'yyyy-MM-dd';

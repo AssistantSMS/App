@@ -22,9 +22,9 @@ class EnvironmentSettings {
 
   AssistantAppsEnvironmentSettings toAssistantApps() =>
       AssistantAppsEnvironmentSettings(
-        assistantAppsAppGuid: this.assistantAppsAppGuid,
-        currentWhatIsNewGuid: this.currentWhatIsNewGuid,
-        isProduction: this.isProduction,
-        patreonOAuthClientId: this.patreonOAuthClientId,
+        assistantAppsAppGuid: assistantAppsAppGuid,
+        currentWhatIsNewGuid: currentWhatIsNewGuid,
+        isProduction: isProduction,
+        patreonOAuthClientId: patreonOAuthClientId,
       );
 }

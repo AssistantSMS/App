@@ -13,6 +13,6 @@ class BaseGithubApiRepository extends BaseApiService {
 
   Future<ResultWithValue<String>> getFile(String filename,
       {Map<String, String> headers}) async {
-    return await this.webGet('$_repoBaseUrl/$filename', headers: headers);
+    return await webGet('$_repoBaseUrl/$filename', headers: headers);
   }
 }

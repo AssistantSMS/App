@@ -5,6 +5,8 @@ import '../constants/AppImage.dart';
 import '../helpers/drawerHelper.dart';
 
 class AppDrawer extends StatelessWidget {
+  const AppDrawer({Key key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     List<Widget> widgets = List.empty(growable: true);
@@ -19,7 +21,7 @@ class AppDrawer extends StatelessWidget {
           ],
         ),
       ),
-      child: Padding(
+      child: const Padding(
         child: Image(image: AssetImage(AppImage.drawer)),
         padding: EdgeInsets.all(8),
       ),

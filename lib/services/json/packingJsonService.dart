@@ -7,8 +7,7 @@ import '../../contracts/recipe/recipeBase.dart';
 class PackingJsonService extends BaseJsonService {
   Future<ResultWithValue<List<RecipeBase>>> getAll(context) async {
     try {
-      dynamic jsonString =
-          await this.getJsonFromAssets(context, 'data/packing');
+      dynamic jsonString = await getJsonFromAssets(context, 'data/packing');
       List responseJson = json.decode(jsonString);
       List<RecipeBase> packingItems =
           responseJson.map((m) => RecipeBase.fromJson(m)).toList();
@@ -24,7 +23,7 @@ class PackingJsonService extends BaseJsonService {
   Future<ResultWithValue<List<RecipeBase>>> getByOutput(
       context, String appId) async {
     ResultWithValue<List<RecipeBase>> allPackingItemsResult =
-        await this.getAll(context);
+        await getAll(context);
     if (allPackingItemsResult.hasFailed) {
       return ResultWithValue(
           false, List.empty(), allPackingItemsResult.errorMessage);
@@ -43,7 +42,7 @@ class PackingJsonService extends BaseJsonService {
   Future<ResultWithValue<List<RecipeBase>>> getByInput(
       context, String appId) async {
     ResultWithValue<List<RecipeBase>> allPackingItemsResult =
-        await this.getAll(context);
+        await getAll(context);
     if (allPackingItemsResult.hasFailed) {
       return ResultWithValue(
           false, List.empty(), allPackingItemsResult.errorMessage);

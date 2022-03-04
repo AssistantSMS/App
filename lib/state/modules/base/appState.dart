@@ -12,7 +12,7 @@ class AppState {
   final RaidState raidState;
   final CosmeticState cosmeticState;
 
-  AppState({
+  const AppState({
     this.settingState,
     this.cartState,
     this.raidState,

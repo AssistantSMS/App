@@ -5,12 +5,12 @@ import 'package:meta/meta.dart';
 class SettingState {
   final String selectedLanguage;
 
-  SettingState({
+  const SettingState({
     this.selectedLanguage,
   });
 
   factory SettingState.initial() {
-    return SettingState(
+    return const SettingState(
       selectedLanguage: null,
     );
   }

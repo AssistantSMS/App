@@ -6,12 +6,13 @@ class CurrencyText extends StatelessWidget {
   final TextAlign textAlign;
   final TextOverflow overflow;
 
-  CurrencyText(
+  const CurrencyText(
     this.numberString, {
+    Key key,
     this.style,
     this.textAlign,
     this.overflow,
-  });
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -19,12 +20,12 @@ class CurrencyText extends StatelessWidget {
     String tempResult = '';
 
     String tempDecimalNumberString = '.0';
-    String tempNumberString = this.numberString;
-    int decimalIndex = this.numberString.indexOf('.');
+    String tempNumberString = numberString;
+    int decimalIndex = numberString.indexOf('.');
     if (decimalIndex > 0) {
-      tempNumberString = this.numberString.substring(0, decimalIndex);
+      tempNumberString = numberString.substring(0, decimalIndex);
       tempDecimalNumberString =
-          this.numberString.substring(decimalIndex, this.numberString.length);
+          numberString.substring(decimalIndex, numberString.length);
     }
 
     for (int index = 0; index < tempNumberString.length; index++) {

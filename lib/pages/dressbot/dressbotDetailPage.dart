@@ -23,11 +23,11 @@ class DressBotDetailPage extends StatelessWidget {
 
   DressBotDetailPage(
     this.itemId, {
+    Key key,
     this.isInDetailPane = false,
     this.updateDetailView,
-  }) {
-    getAnalytics()
-        .trackEvent('${AnalyticsEvent.itemDetailPage}: ${this.itemId}');
+  }) : super(key: key) {
+    getAnalytics().trackEvent('${AnalyticsEvent.itemDetailPage}: $itemId');
   }
 
   @override
@@ -38,7 +38,7 @@ class DressBotDetailPage extends StatelessWidget {
       loadingText: loading,
     );
     return CachedFutureBuilder<ResultWithValue<GameItemPageItem>>(
-      future: gameItemPageItemFuture(context, this.itemId),
+      future: gameItemPageItemFuture(context, itemId),
       whileLoading: isInDetailPane
           ? loadingWidget
           : genericPageScaffold(context, loading, null,

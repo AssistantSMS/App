@@ -1,7 +1,7 @@
 name: scrapmechanic_kurtlourens_com
 description: A companion app for Scrap Mechanic.
 publish_to: 'none'
-version: 1.6.1+43
+version: 1.7.0+44
 
 environment:
   sdk: '>=2.7.0 <3.0.0'
@@ -28,6 +28,7 @@ dependencies:
   redux: 5.0.0
 
   # UI
+  avatar_glow: 2.0.2
   country_icons: 2.0.2
   floating_bottom_navigation_bar: ^1.5.2
   dotted_border: 2.0.0+2

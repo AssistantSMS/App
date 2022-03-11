@@ -63,12 +63,11 @@ Future<ResultWithValue<List<Recipe>>> getAllRecipeFromLocaleKeys(
     if (result.hasFailed) return;
     results.addAll(result.value);
   };
-  List<Future<ResultWithValue<List<Recipe>>>> tasks =
-      List.empty(growable: true);
-  for (var repJson in repoJsonStrings) {
-    var repo = getRecipeRepo(repJson);
+  List<Future<void>> tasks = List.empty(growable: true);
+  for (LocaleKey repJson in repoJsonStrings) {
+    IRecipeJsonService repo = getRecipeRepo(repJson);
     if (repo == null) continue;
-    var getAllTask = repo.getAll(context).then(onFinishTask);
+    Future<void> getAllTask = repo.getAll(context).then(onFinishTask);
     tasks.add(getAllTask);
   }
   await Future.wait(tasks);
@@ -149,12 +148,11 @@ Future<ResultWithValue<List<GameItem>>> getAllGameItemFromLocaleKeys(
     if (result.hasFailed) return;
     results.addAll(result.value);
   };
-  List<Future<ResultWithValue<List<GameItem>>>> tasks =
-      List.empty(growable: true);
-  for (var repJson in repoJsonStrings) {
-    var repo = getGameItemRepo(repJson);
+  List<Future<void>> tasks = List.empty(growable: true);
+  for (LocaleKey repJson in repoJsonStrings) {
+    IGameItemJsonService repo = getGameItemRepo(repJson);
     if (repo == null) continue;
-    var getAllTask = repo.getAll(context).then(onFinishTask);
+    Future<void> getAllTask = repo.getAll(context).then(onFinishTask);
     tasks.add(getAllTask);
   }
   await Future.wait(tasks);
@@ -204,8 +202,7 @@ Future<ResultWithValue<List<RecipeIngredientDetails>>>
         context, List<RecipeIngredient> inputs) async {
   List<RecipeIngredientDetails> results = List.empty(growable: true);
 
-  List<Future<ResultWithValue<RecipeIngredientDetails>>> tasks =
-      List.empty(growable: true);
+  List<Future<void>> tasks = List.empty(growable: true);
   void Function(ResultWithValue<RecipeIngredientDetails> ingResult)
       onFinishTask;
   onFinishTask = (ResultWithValue<RecipeIngredientDetails> ingResult) {
@@ -238,7 +235,7 @@ Future<ResultWithValue<List<CraftedUsing>>> craftingRecipesFuture(
     for (Recipe recipe in getOutput.value) {
       List<Future<ResultWithValue<RecipeIngredientDetails>>> ingDetailsTask =
           List.empty(growable: true);
-      for (var recipeIng in recipe.inputs) {
+      for (RecipeIngredient recipeIng in recipe.inputs) {
         ingDetailsTask.add(
           getRecipeIngredientDetailsFuture(context, recipeIng),
         );
@@ -275,12 +272,11 @@ Future<ResultWithValue<List<UsedInRecipe>>> usedInRecipesFuture(
       UsedInRecipe(getDisplayNameFromLangFileName(langJsonPath), result.value),
     );
   };
-  List<Future<ResultWithValue<List<Recipe>>>> tasks =
-      List.empty(growable: true);
+  List<Future<void>> tasks = List.empty(growable: true);
   for (LocaleKey repJson in allRecipeJsons()) {
     IRecipeJsonService repo = getRecipeRepo(repJson);
     if (repo == null) continue;
-    var getAllTask = repo.getByInputsId(context, itemId).then(
+    Future<void> getAllTask = repo.getByInputsId(context, itemId).then(
           (ResultWithValue<List<Recipe>> result) =>
               onFinishTask(repJson, result),
         );
@@ -296,12 +292,12 @@ Future<ResultWithValue<List<UsedInRecipe>>> usedInRecipesFuture(
 Future<List<RecipeIngredientDetails>> getAllRequiredItemsForMultiple(
     context, List<RecipeIngredient> requiredItems) async {
   List<RecipeIngredient> allRequiredItems = List.empty(growable: true);
-  for (var requiredItem in requiredItems) {
+  for (RecipeIngredient requiredItem in requiredItems) {
     allRequiredItems.addAll(await getRequiredItems(context, requiredItem));
   }
 
   Map<String, RecipeIngredient> rawMaterialMap = <String, RecipeIngredient>{};
-  for (var reqItem in allRequiredItems) {
+  for (RecipeIngredient reqItem in allRequiredItems) {
     if (rawMaterialMap.containsKey(reqItem.id)) {
       rawMaterialMap.update(
           reqItem.id,
@@ -336,8 +332,8 @@ Future<List<RecipeIngredient>> getRequiredItems(
     if (!recipesToCreateXResult.isSuccess ||
         recipesToCreateXResult.value.isEmpty) continue;
 
-    for (var recipe in recipesToCreateXResult.value[0].inputs) {
-      var out = recipesToCreateXResult.value[0].output;
+    for (RecipeIngredient recipe in recipesToCreateXResult.value[0].inputs) {
+      RecipeIngredient out = recipesToCreateXResult.value[0].output;
       int multiplier = (requiredItem.quantity / out.quantity).ceil();
       if (multiplier < 1) {
         multiplier = 1;
@@ -355,10 +351,10 @@ Future<List<RecipeIngredient>> getRequiredItems(
     return rawMaterialsResult;
   }
 
-  for (var requiredIndex = 0;
+  for (int requiredIndex = 0;
       requiredIndex < tempRawMaterials.length;
       requiredIndex++) {
-    var rawMaterial = tempRawMaterials[requiredIndex];
+    RecipeIngredient rawMaterial = tempRawMaterials[requiredIndex];
     List<RecipeIngredient> requiredItems =
         await getRequiredItems(context, rawMaterial);
     rawMaterialsResult.addAll(requiredItems);
@@ -378,8 +374,8 @@ Future<List<RecipeIngredient>> getRequiredItemsSurfaceLevel(
     if (!recipesToCreateXResult.isSuccess ||
         recipesToCreateXResult.value.isEmpty) continue;
 
-    for (var recipe in recipesToCreateXResult.value[0].inputs) {
-      var out = recipesToCreateXResult.value[0].output;
+    for (RecipeIngredient recipe in recipesToCreateXResult.value[0].inputs) {
+      RecipeIngredient out = recipesToCreateXResult.value[0].output;
       int multiplier = (requiredItem.quantity / out.quantity).ceil();
       if (multiplier < 1) {
         multiplier = 1;

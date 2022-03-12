@@ -101,7 +101,7 @@
   "appVersion": "Version de l'appli: {0}",
   "gameVersion": "Version de Jeu: {0}",
   "assistantApps": "AssistantApps",
-  "japanese": "Japanese",
+  "japanese": "Japon",
   "korean": "Korean",
   "chinese": "Chinese",
   "fairUseDisclaimer": "Fair Use Disclaimer: This app contains copyrighted material the use of which has not been specifically authorized by the copyright owner, Axolot Games AB. I am making the content of the game available in order to improve the the player's experience when playing Scrap Mechanic. I believe this constitutes a 'fair use' of any such copyrighted material as provided for in section 107 of the US Copyright Law.\n\rAny of the trademarks or similar rights that are mentioned or used in any page are the property of their respective owners. Unless otherwise stated, Assistant For Scrap Mechanic is neither endorsed nor affiliated with any of the holders of any such rights, and as such cannot grant any rights to use any otherwise protected materials. \r\nCopyright 2020, Assistant for Scrap Mechanic",
@@ -170,5 +170,5 @@
   "packingStation": "Packing Station",
   "foundIn": "Found in",
   "home": "Home",
-  "hashCode": "DBA710961CBCB8E5CD7BD069947C9DBF"
+  "hashCode": "B45BF1744C9F3857B32E160ECD727140"
 }

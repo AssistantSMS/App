@@ -101,7 +101,7 @@
   "appVersion": "Versão do App: {0}",
   "gameVersion": "Versão do Jogo: {0}",
   "assistantApps": "AssistantApps",
-  "japanese": "Japanese",
+  "japanese": "Japonês",
   "korean": "Coreano",
   "chinese": "Chinês",
   "fairUseDisclaimer": "Isenção de responsabilidade de uso legítimo: este aplicativo contém material protegido por direitos autorais, cujo uso não foi especificamente autorizado pelo proprietário dos direitos autorais, Axolot Games AB. Estou disponibilizando o conteúdo do jogo para melhorar a experiência do jogador ao jogar o Scrap Mechanic. Acredito que isso constitui um 'uso legítimo' de qualquer material protegido por direitos autorais, conforme previsto na seção 107 da Lei de Direitos Autorais dos Estados Unidos. \r\nQualquer uma das marcas registradas ou direitos semelhantes mencionados ou usados em qualquer página são propriedade de seus respectivos os Proprietários. Salvo disposição em contrário, Assistente para o Scrap Mechanic não é endossado nem afiliado a qualquer um dos titulares de tais direitos e, como tal, não pode conceder quaisquer direitos de uso de quaisquer materiais protegidos de outra forma. \r\nCopyright 2020, Assistente para Scrap Mechanic",
@@ -170,5 +170,5 @@
   "packingStation": "Packing Station",
   "foundIn": "Encontrado em",
   "home": "Home",
-  "hashCode": "EC68BAA12C0C251C31CE706E58898FB9"
+  "hashCode": "A7D2876BE40165D0F97453B79841724D"
 }

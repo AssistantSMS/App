@@ -16,14 +16,24 @@ steps:
     channel: 'stable'
     version: 'latest'
 
-- task: CmdLine@2
+- task: DownloadSecureFile@1
   inputs:
-    script: '$(FlutterToolPath)/flutter config --enable-web'
+    secureFile: 'assistantSMS.env.dart'
+
+- task: Bash@3
+  inputs:
+    targetType: 'inline'
+    script: 'mv ./assistantSMS.env.dart ./lib/env.dart'
 
 - task: FlutterCommand@0
   inputs:
     projectDirectory: '.'
-    arguments: 'build web -t lib/prod.dart --release'''
+    arguments: 'config --enable-web'
+
+- task: FlutterCommand@0
+  inputs:
+    projectDirectory: '.'
+    arguments: 'build web -t lib/prod.dart --release'
 
 - task: PublishBuildArtifacts@1
   inputs:

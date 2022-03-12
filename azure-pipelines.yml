@@ -20,14 +20,10 @@ steps:
   inputs:
     script: '$(FlutterToolPath)/flutter config --enable-web'
 
-- task: FlutterBuild@0
+- task: FlutterCommand@0
   inputs:
-    target: 'apk'
     projectDirectory: '.'
-    apkTargetPlatform: 'custom'
-    customApkTargetPlatform: 'web'
-    entryPoint: 'lib/prod.dart'
-    dartDefine: '--release'
+    arguments: 'build web -t lib/prod.dart --release'''
 
 - task: PublishBuildArtifacts@1
   inputs:

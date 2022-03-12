@@ -10,9 +10,11 @@ pool:
   vmImage: 'windows-2019'
 
 steps:
-- task: DownloadSecureFile@1
+- task: SecureFiles@1
   inputs:
-    secureFile: 'assistantSMS.env.dart'
+    secureFileName: 'assistantSMS.env.dart'
+    outputDirectory: '$(System.DefaultWorkingDirectory)'
+    removeSecureFile: true
 
 - task: Bash@3
   inputs:

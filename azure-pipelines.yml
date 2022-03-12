@@ -10,12 +10,6 @@ pool:
   vmImage: 'windows-2019'
 
 steps:
-- task: FlutterInstall@0
-  inputs:
-    mode: 'auto'
-    channel: 'stable'
-    version: 'latest'
-
 - task: DownloadSecureFile@1
   inputs:
     secureFile: 'assistantSMS.env.dart'
@@ -23,7 +17,18 @@ steps:
 - task: Bash@3
   inputs:
     targetType: 'inline'
+    script: 'ls'
+
+- task: Bash@3
+  inputs:
+    targetType: 'inline'
     script: 'mv ./assistantSMS.env.dart ./lib/env.dart'
+
+- task: FlutterInstall@0
+  inputs:
+    mode: 'auto'
+    channel: 'stable'
+    version: 'latest'
 
 - task: FlutterCommand@0
   inputs:

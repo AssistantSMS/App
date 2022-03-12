@@ -12,6 +12,7 @@ pool:
 steps:
 - task: FlutterInstall@0
   inputs:
+    mode: 'auto'
     channel: 'stable'
     version: 'latest'
 
@@ -19,9 +20,14 @@ steps:
   inputs:
     script: '$(FlutterToolPath)/flutter config --enable-web'
 
-- task: CmdLine@2
+- task: FlutterBuild@0
   inputs:
-    script: '$(FlutterToolPath)/flutter build web -t lib/prod.dart --release'
+    target: 'apk'
+    projectDirectory: '.'
+    apkTargetPlatform: 'custom'
+    customApkTargetPlatform: 'web'
+    entryPoint: 'lib/prod.dart'
+    dartDefine: '--release'
 
 - task: PublishBuildArtifacts@1
   inputs:

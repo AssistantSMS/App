@@ -1,1 +1,4 @@
 - Display which DressBot box an item comes from
+- Package updates
+- Navbar upgrade
+- Add developer details button

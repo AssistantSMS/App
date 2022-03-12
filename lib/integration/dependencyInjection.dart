@@ -17,6 +17,7 @@ import '../services/base/loggingService.dart';
 import '../services/base/navigationService.dart';
 import '../services/base/pathService.dart';
 import '../services/base/themeService.dart';
+import '../services/json/devDetailJsonService.dart';
 import '../services/json/gameItemJsonService.dart';
 import '../services/json/interface/IGameItemJsonService.dart';
 import '../services/json/interface/ILocalStorageService.dart';
@@ -59,6 +60,7 @@ void initDependencyInjection(EnvironmentSettings _env) {
 
   //Service
   getIt.registerSingleton<PackingJsonService>(PackingJsonService());
+  getIt.registerSingleton<DevDetailJsonService>(DevDetailJsonService());
   getIt.registerSingleton<ILocalStorageService>(LocalStorageService());
 }
 
@@ -77,4 +79,5 @@ IContributorApiRepository getContributorApiRepo() =>
 
 //Service
 PackingJsonService getPackingService() => getIt<PackingJsonService>();
+DevDetailJsonService getDevDetailService() => getIt<DevDetailJsonService>();
 ILocalStorageService getStorageService() => getIt<ILocalStorageService>();

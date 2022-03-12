@@ -1,4 +1,5 @@
 import '../craftingIngredient/craftedUsing.dart';
+import '../devDetail.dart';
 import '../generated/LootChance.dart';
 import '../packing/packedUsing.dart';
 import '../usedInRecipe/usedInRecipe.dart';
@@ -11,6 +12,7 @@ class GameItemPageItem {
   final List<LootChance> lootChances;
   final List<PackedUsing> packingOutputs;
   final List<PackedUsing> packingInputs;
+  final List<DevDetail> devDetails;
 
   GameItemPageItem({
     this.gameItem,
@@ -19,5 +21,6 @@ class GameItemPageItem {
     this.lootChances,
     this.packingInputs,
     this.packingOutputs,
+    this.devDetails,
   });
 }

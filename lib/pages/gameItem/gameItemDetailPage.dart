@@ -1,20 +1,23 @@
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
+import 'package:avatar_glow/avatar_glow.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
-import '../../components/common/positioned.dart';
-import '../../contracts/gameItem/gameItem.dart';
-import '../../contracts/packing/packedUsing.dart';
 
 import '../../components/common/cachedFutureBuilder.dart';
+import '../../components/common/positioned.dart';
+import '../../components/modalBottomSheet/devDetailModalBottomSheet.dart';
 import '../../components/scaffoldTemplates/genericPageScaffold.dart';
 import '../../components/scrapSpecific/itemDetailComponents.dart';
+import '../../components/webSpecific/mousePointer.dart';
 import '../../constants/AnalyticsEvent.dart';
 import '../../constants/AppImage.dart';
 import '../../constants/AppPadding.dart';
 import '../../constants/Routes.dart';
 import '../../contracts/craftingIngredient/craftedUsing.dart';
+import '../../contracts/gameItem/gameItem.dart';
 import '../../contracts/gameItem/gameItemPageItem.dart';
 import '../../contracts/generated/LootChance.dart';
+import '../../contracts/packing/packedUsing.dart';
 import '../../contracts/usedInRecipe/usedInRecipe.dart';
 import '../../helpers/futureHelper.dart';
 import '../../helpers/genericHelper.dart';
@@ -52,7 +55,8 @@ class GameItemDetailPage extends StatelessWidget {
               body: (_, __) => loadingWidget, showShortcutLinks: true),
       whenDoneLoading:
           (AsyncSnapshot<ResultWithValue<GameItemPageItem>> snapshot) {
-        var bodyWidget = StoreConnector<AppState, GameItemViewModel>(
+        StoreConnector<AppState, GameItemViewModel> bodyWidget =
+            StoreConnector<AppState, GameItemViewModel>(
           converter: (store) => GameItemViewModel.fromStore(store),
           builder: (_, viewModel) => getBody(context, viewModel, snapshot),
         );
@@ -82,17 +86,39 @@ class GameItemDetailPage extends StatelessWidget {
     });
     if (errorWidget != null) return errorWidget;
 
-    GameItem gameItem = snapshot?.data?.value?.gameItem;
+    GameItemPageItem gameItemPage = snapshot?.data?.value;
+    GameItem gameItem = gameItemPage?.gameItem;
 
     List<Widget> widgets = List.empty(growable: true);
+    List<Widget> stackWidgets = List.empty(growable: true);
 
     if (gameItem.icon != null) {
-      widgets.add(genericItemImage(
+      stackWidgets.add(genericItemImage(
         context,
         '${AppImage.base}${gameItem.icon}',
         name: gameItem.title,
       ));
     }
+
+    if (gameItemPage.devDetails?.isNotEmpty == true) {
+      stackWidgets.add(Positioned(
+        child: GestureDetector(
+          child: const Icon(Icons.code_sharp, size: 40),
+          onTap: () {
+            adaptiveBottomModalSheet(
+              context,
+              hasRoundedCorners: true,
+              builder: (BuildContext innerContext) =>
+                  DevDetailBottomSheet(gameItemPage.devDetails),
+            );
+          },
+        ).showPointerOnHover,
+        top: 4,
+        right: 0,
+      ));
+    }
+    widgets.add(emptySpace1x());
+    widgets.add(Stack(children: stackWidgets));
     widgets.add(emptySpace1x());
     widgets.add(genericItemName(gameItem.title));
 
@@ -245,13 +271,15 @@ class GameItemDetailPage extends StatelessWidget {
                 int quantity = int.tryParse(quantityString);
                 if (quantity == null) return;
                 viewModel.addToCart(gameItem.id, quantity);
-                // showSnackbar(
-                //   context,
-                //   LocaleKey.addedToCart,
-                //   duration: AppDuration.snackBarAddToCart,
-                //   onTap: () async => await navigateHomeAsync(context,
-                //       navigateToNamed: Routes.cart),
-                // );
+                getSnackbar().showSnackbar(
+                  context,
+                  LocaleKey.addedToCart,
+                  onPositiveText: getTranslations().fromKey(LocaleKey.cart),
+                  onPositive: () => getNavigation().navigateAwayFromHomeAsync(
+                    context,
+                    navigateToNamed: Routes.cart,
+                  ),
+                );
               });
             },
           ),

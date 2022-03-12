@@ -3,6 +3,7 @@ import 'package:dartx/dartx.dart';
 import 'package:flutter/material.dart';
 
 import '../contracts/craftingIngredient/craftedUsing.dart';
+import '../contracts/devDetail.dart';
 import '../contracts/gameItem/gameItem.dart';
 import '../contracts/gameItem/gameItemPageItem.dart';
 import '../contracts/generated/LootChance.dart';
@@ -85,11 +86,18 @@ Future<ResultWithValue<GameItemPageItem>> gameItemPageItemFuture(
         'gameItemPageItemFuture - unknown type of item $itemId');
   }
 
-  var craftingRecipesTask = craftingRecipesFuture(context, itemId);
-  var usedInRecipesTask = usedInRecipesFuture(context, itemId);
-  var lootChanceTask = getLootChanceFuture(context, itemId);
-  var packingInputTask = packingRecipesFuture(context, itemId);
-  var packingOutputTask = usedInPackingRecipesFuture(context, itemId);
+  Future<ResultWithValue<List<CraftedUsing>>> craftingRecipesTask =
+      craftingRecipesFuture(context, itemId);
+  Future<ResultWithValue<List<UsedInRecipe>>> usedInRecipesTask =
+      usedInRecipesFuture(context, itemId);
+  Future<ResultWithValue<List<LootChance>>> lootChanceTask =
+      getLootChanceFuture(context, itemId);
+  Future<ResultWithValue<List<PackedUsing>>> packingInputTask =
+      packingRecipesFuture(context, itemId);
+  Future<ResultWithValue<List<PackedUsing>>> packingOutputTask =
+      usedInPackingRecipesFuture(context, itemId);
+  Future<ResultWithValue<List<DevDetail>>> devDetailsTask =
+      getDevDetailsFuture(context, itemId);
 
   ResultWithValue<IGameItemJsonService> genRepo =
       getGameItemRepoFromId(context, itemId);
@@ -103,26 +111,28 @@ Future<ResultWithValue<GameItemPageItem>> gameItemPageItemFuture(
   if (itemResult.isSuccess) {
     ResultWithValue<List<UsedInRecipe>> useInResult = await usedInRecipesTask;
     List<UsedInRecipe> usedInRecipes =
-        useInResult.isSuccess ? useInResult.value : List.empty(growable: true);
+        useInResult.isSuccess ? useInResult.value : List.empty();
     ResultWithValue<List<CraftedUsing>> craftingRecipesResult =
         await craftingRecipesTask;
     List<CraftedUsing> craftingRecipes = craftingRecipesResult.isSuccess
         ? craftingRecipesResult.value
-        : List.empty(growable: true);
+        : List.empty();
     ResultWithValue<List<LootChance>> lootChancesResult = await lootChanceTask;
-    List<LootChance> lootChances = lootChancesResult.isSuccess
-        ? lootChancesResult.value
-        : List.empty(growable: true);
+    List<LootChance> lootChances =
+        lootChancesResult.isSuccess ? lootChancesResult.value : List.empty();
     ResultWithValue<List<PackedUsing>> packingInputResult =
         await packingInputTask;
-    List<PackedUsing> packingInputs = packingInputResult.isSuccess
-        ? packingInputResult.value
-        : List.empty(growable: true);
+    List<PackedUsing> packingInputs =
+        packingInputResult.isSuccess ? packingInputResult.value : List.empty();
     ResultWithValue<List<PackedUsing>> packingOutputResult =
         await packingOutputTask;
     List<PackedUsing> packingOutputs = packingOutputResult.isSuccess
         ? packingOutputResult.value
-        : List.empty(growable: true);
+        : List.empty();
+    ResultWithValue<List<DevDetail>> devDetailsResult = await devDetailsTask;
+    List<DevDetail> devDetails = devDetailsResult.isSuccess //
+        ? devDetailsResult.value
+        : List.empty();
 
     return ResultWithValue<GameItemPageItem>(
         true,
@@ -133,6 +143,7 @@ Future<ResultWithValue<GameItemPageItem>> gameItemPageItemFuture(
           lootChances: lootChances,
           packingInputs: packingInputs,
           packingOutputs: packingOutputs,
+          devDetails: devDetails,
         ),
         '');
   }
@@ -480,4 +491,17 @@ Future<ResultWithValue<List<PackedUsing>>> usedInPackingRecipesFuture(
   }
 
   return ResultWithValue(results.isNotEmpty, results, '');
+}
+
+Future<ResultWithValue<List<DevDetail>>> getDevDetailsFuture(
+    context, String itemId) async {
+  //
+  ResultWithValue<DevDetailFile> devDet =
+      await getDevDetailService().getById(context, itemId);
+  if (devDet.hasFailed) {
+    return ResultWithValue<List<DevDetail>>(
+        false, List.empty(), devDet.errorMessage);
+  }
+
+  return ResultWithValue(true, devDet.value.details, '');
 }

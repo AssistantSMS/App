@@ -41,7 +41,7 @@ class _MyAppState extends State<MyApp> {
   }
 
   Future<AppState> initReduxState() async {
-    var tempStore = await createStore();
+    Store<AppState> tempStore = await createStore();
     setState(() {
       store = tempStore;
     });

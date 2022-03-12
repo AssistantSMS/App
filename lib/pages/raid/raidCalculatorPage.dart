@@ -29,7 +29,9 @@ class _RaidCalcWidget extends State<RaidCalcPage> {
     return StoreConnector<AppState, RaidViewModel>(
       converter: (store) => RaidViewModel.fromStore(store),
       builder: (_, viewModel) => _RaidCalcInnerWidget(
-          viewModel, RaidCalcDesktopInputScreen(viewModel)),
+        viewModel,
+        RaidCalcDesktopInputScreen(viewModel),
+      ),
     );
   }
 }
@@ -47,8 +49,11 @@ class _RaidCalcInnerWidget extends StatelessWidget {
       null,
       body: (BuildContext innerContext, _) => BreakpointBuilder(
         builder: (BuildContext innerContext, Breakpoint breakpoint) {
-          var showMobileView = isMobileScreenWidth(breakpoint);
-          return getBody(innerContext, viewModel, showMobileView);
+          return getBody(
+            innerContext,
+            viewModel,
+            true, //isMobileScreenWidth(breakpoint),
+          );
         },
       ),
       showShortcutLinks: true,

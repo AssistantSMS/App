@@ -774,7 +774,7 @@
     "IsCreative": false,
     "Upgrade": {
       "LocaleKey": "level2",
-      "TargetId": "interu17",
+      "TargetId": "interu27",
       "Cost": 1
     },
     "Features": [
@@ -802,6 +802,11 @@
     },
     "Flammable": false,
     "IsCreative": false,
+    "Upgrade": {
+      "LocaleKey": "level3",
+      "TargetId": "interu28",
+      "Cost": 2
+    },
     "Features": [
       {
         "LocaleKey": "maxConnections",
@@ -827,6 +832,11 @@
     },
     "Flammable": true,
     "IsCreative": false,
+    "Upgrade": {
+      "LocaleKey": "level4",
+      "TargetId": "interu29",
+      "Cost": 3
+    },
     "Features": [
       {
         "LocaleKey": "maxConnections",
@@ -852,6 +862,11 @@
     },
     "Flammable": false,
     "IsCreative": false,
+    "Upgrade": {
+      "LocaleKey": "level5",
+      "TargetId": "interu30",
+      "Cost": 5
+    },
     "Features": [
       {
         "LocaleKey": "maxConnections",

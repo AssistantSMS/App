@@ -19,7 +19,11 @@
         "Value": "Plastic"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "1"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -44,7 +48,11 @@
         "Value": "Plastic"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "1"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -69,7 +77,11 @@
         "Value": "Plastic"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "1"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -98,8 +110,12 @@
         "Value": "Wood"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -127,7 +143,11 @@
         "Value": "Rock"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -156,7 +176,11 @@
         "Value": "Rock"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -185,7 +209,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -214,7 +242,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -243,8 +275,12 @@
         "Value": "Plastic"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -272,7 +308,11 @@
         "Value": "Plastic"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -301,8 +341,12 @@
         "Value": "Plastic"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -330,7 +374,11 @@
         "Value": "Rock"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -359,8 +407,12 @@
         "Value": "Grass"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -388,7 +440,11 @@
         "Value": "Grass"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -417,8 +473,12 @@
         "Value": "Wood"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -446,7 +506,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -475,7 +539,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -504,7 +572,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -533,7 +605,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -562,7 +638,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -591,7 +671,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -620,7 +704,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -649,7 +737,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -678,7 +770,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -707,7 +803,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -736,8 +836,12 @@
         "Value": "Wood"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -765,7 +869,11 @@
         "Value": "Sand"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -794,7 +902,11 @@
         "Value": "Glass"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -823,7 +935,11 @@
         "Value": "Rock"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -852,8 +968,12 @@
         "Value": "Wood"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -881,7 +1001,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -910,8 +1034,12 @@
         "Value": "Plastic"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -939,7 +1067,11 @@
         "Value": "Rock"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -968,7 +1100,11 @@
         "Value": "Rock"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -997,7 +1133,11 @@
         "Value": "Glass"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -1026,7 +1166,11 @@
         "Value": "Glass"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -1055,8 +1199,12 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -1084,7 +1232,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -1113,7 +1265,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -1142,8 +1298,12 @@
         "Value": "Cardboard"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -1171,7 +1331,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -1200,7 +1364,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -1229,7 +1397,11 @@
         "Value": "Rock"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -1258,7 +1430,11 @@
         "Value": "Rock"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -1287,7 +1463,11 @@
         "Value": "Rock"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -1312,7 +1492,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -1337,7 +1521,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -1362,7 +1550,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -1387,8 +1579,12 @@
         "Value": "Plastic"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -1412,8 +1608,12 @@
         "Value": "Plastic"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -1437,7 +1637,11 @@
         "Value": "Plastic"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -1462,7 +1666,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "10"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -1487,7 +1695,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -1512,7 +1724,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -1537,7 +1753,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -1562,8 +1782,12 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -1587,7 +1811,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -1612,7 +1840,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -1637,7 +1869,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -1662,7 +1898,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -1687,7 +1927,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -1712,8 +1956,12 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -1737,8 +1985,12 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -1762,8 +2014,12 @@
         "Value": "Plastic"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -1787,8 +2043,12 @@
         "Value": "Plastic"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -1812,8 +2072,12 @@
         "Value": "Plastic"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -1837,8 +2101,12 @@
         "Value": "Plastic"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -1862,8 +2130,12 @@
         "Value": "Plastic"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -1887,8 +2159,12 @@
         "Value": "Plastic"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -1912,8 +2188,12 @@
         "Value": "Plastic"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -1937,8 +2217,12 @@
         "Value": "Plastic"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -1962,8 +2246,12 @@
         "Value": "Plastic"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -1987,7 +2275,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "10"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -2012,8 +2304,12 @@
         "Value": "Plastic"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "20"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -2037,8 +2333,12 @@
         "Value": "Plastic"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "20"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -2062,7 +2362,11 @@
         "Value": "Fruit"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "20"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -2087,8 +2391,12 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "50"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -2112,8 +2420,12 @@
         "Value": "Fruit"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "20"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -2137,8 +2449,12 @@
         "Value": "Plastic"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "50"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -2162,8 +2478,12 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "20"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -2187,7 +2507,11 @@
         "Value": "Rock"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -2212,8 +2536,12 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -2237,7 +2565,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -2262,7 +2594,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -2287,8 +2623,12 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -2312,8 +2652,12 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -2337,7 +2681,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -2362,7 +2710,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -2387,7 +2739,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -2412,7 +2768,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -2437,8 +2797,12 @@
         "Value": "Plastic"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -2462,7 +2826,11 @@
         "Value": "Rock"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -2487,7 +2855,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -2512,7 +2884,11 @@
         "Value": "Rock"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -2537,7 +2913,11 @@
         "Value": "Rock"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -2562,7 +2942,11 @@
         "Value": "Rock"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -2587,7 +2971,11 @@
         "Value": "Rock"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -2612,8 +3000,12 @@
         "Value": "Wood"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -2633,8 +3025,12 @@
         "Value": "368085"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -2654,7 +3050,11 @@
         "Value": "ebb100"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -2679,8 +3079,12 @@
         "Value": "Fruit"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "20"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -2704,8 +3108,12 @@
         "Value": "Fruit"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "5"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -2729,8 +3137,12 @@
         "Value": "Fruit"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "5"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -2754,8 +3166,12 @@
         "Value": "Fruit"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "5"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -2779,8 +3195,12 @@
         "Value": "Fruit"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "5"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -2804,8 +3224,12 @@
         "Value": "Fruit"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "5"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -2829,8 +3253,12 @@
         "Value": "Sand"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "5"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -2854,7 +3282,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -2879,7 +3311,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -2904,8 +3340,12 @@
         "Value": "Wood"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -2929,8 +3369,12 @@
         "Value": "Wood"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -2954,8 +3398,12 @@
         "Value": "Wood"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -2979,8 +3427,12 @@
         "Value": "Wood"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -3004,8 +3456,12 @@
         "Value": "Wood"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -3029,8 +3485,12 @@
         "Value": "Plastic"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -3054,8 +3514,12 @@
         "Value": "Wood"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -3079,8 +3543,12 @@
         "Value": "Wood"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -3104,8 +3572,12 @@
         "Value": "Wood"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -3129,7 +3601,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -3154,8 +3630,12 @@
         "Value": "Wood"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -3179,8 +3659,12 @@
         "Value": "Wood"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -3204,7 +3688,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -3229,7 +3717,11 @@
         "Value": "Wood"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -3254,8 +3746,12 @@
         "Value": "Wood"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -3279,8 +3775,12 @@
         "Value": "Wood"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -3304,7 +3804,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -3329,8 +3833,12 @@
         "Value": "Wood"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -3354,7 +3862,11 @@
         "Value": "Wood"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -3379,7 +3891,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -3404,7 +3920,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -3429,7 +3949,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -3454,7 +3978,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -3479,7 +4007,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -3504,7 +4036,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -3529,7 +4065,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -3554,7 +4094,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -3579,7 +4123,11 @@
         "Value": "Plastic"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -3604,8 +4152,12 @@
         "Value": "Cardboard"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -3629,7 +4181,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -3654,7 +4210,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -3679,7 +4239,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "10"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -3704,7 +4268,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -3729,8 +4297,12 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -3754,8 +4326,12 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -3779,7 +4355,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -3804,7 +4384,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -3829,8 +4413,12 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -3854,8 +4442,12 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -3879,7 +4471,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -3904,8 +4500,12 @@
         "Value": "Wood"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -3929,8 +4529,12 @@
         "Value": "Wood"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -3950,8 +4554,12 @@
         "Value": "e44949"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -3975,7 +4583,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -4000,8 +4612,12 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -4025,8 +4641,12 @@
         "Value": "Plastic"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -4050,7 +4670,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -4075,8 +4699,12 @@
         "Value": "Plastic"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -4100,8 +4728,12 @@
         "Value": "Plastic"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -4125,7 +4757,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "10"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -4150,7 +4786,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "10"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -4175,7 +4815,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -4200,7 +4844,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -4225,7 +4873,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -4250,7 +4902,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -4275,7 +4931,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -4300,7 +4960,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -4325,7 +4989,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -4350,7 +5018,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -4375,7 +5047,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -4400,7 +5076,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -4425,7 +5105,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -4450,8 +5134,12 @@
         "Value": "Plastic"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -4475,8 +5163,12 @@
         "Value": "Plastic"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -4500,8 +5192,12 @@
         "Value": "Plastic"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -4525,7 +5221,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -4550,7 +5250,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -4575,7 +5279,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -4600,7 +5308,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -4625,7 +5337,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -4650,7 +5366,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -4675,7 +5395,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -4700,7 +5424,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -4725,7 +5453,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -4750,7 +5482,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -4775,7 +5511,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -4800,7 +5540,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -4825,7 +5569,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -4850,7 +5598,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -4875,7 +5627,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -4900,7 +5656,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -4925,7 +5685,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "10"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -4950,7 +5714,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -4975,7 +5743,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -5000,7 +5772,11 @@
         "Value": "Plastic"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "10"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -5025,7 +5801,11 @@
         "Value": "Plastic"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "10"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -5050,7 +5830,11 @@
         "Value": "Plastic"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "10"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -5075,7 +5859,11 @@
         "Value": "Plastic"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "10"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -5100,7 +5888,11 @@
         "Value": "Plastic"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "10"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -5125,7 +5917,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "10"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -5150,7 +5946,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "10"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -5175,7 +5975,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "10"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -5200,7 +6004,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "10"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -5225,7 +6033,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "10"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -5250,7 +6062,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "10"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -5275,7 +6091,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "10"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -5300,8 +6120,12 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -5325,7 +6149,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "10"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -5350,7 +6178,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "10"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -5375,7 +6207,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "10"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -5400,7 +6236,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "10"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -5425,7 +6265,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "10"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -5450,7 +6294,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -5475,7 +6323,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "10"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -5500,7 +6352,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -5525,7 +6381,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -5550,7 +6410,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -5575,8 +6439,12 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -5600,8 +6468,12 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -5625,8 +6497,12 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -5650,8 +6526,12 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -5675,8 +6555,12 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -5700,7 +6584,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -5725,8 +6613,12 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -5750,7 +6642,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -5775,8 +6671,12 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -5800,8 +6700,12 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -5825,8 +6729,12 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -5850,7 +6758,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "10"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -5875,7 +6787,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "10"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -5900,7 +6816,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "10"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -5925,7 +6845,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "10"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -5950,7 +6874,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "10"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -5975,7 +6903,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "10"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -6000,7 +6932,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "10"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -6025,7 +6961,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -6050,7 +6990,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "10"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -6075,7 +7019,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "10"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -6100,7 +7048,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -6125,7 +7077,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -6150,7 +7106,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -6175,7 +7135,11 @@
         "Value": "Rock"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -6200,8 +7164,12 @@
         "Value": "Wood"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -6225,8 +7193,12 @@
         "Value": "Wood"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -6250,7 +7222,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -6275,7 +7251,11 @@
         "Value": "Rock"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -6300,7 +7280,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -6325,7 +7309,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "10"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -6350,7 +7338,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -6375,7 +7367,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -6400,7 +7396,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -6425,7 +7425,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -6450,7 +7454,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -6475,7 +7483,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -6500,7 +7512,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -6525,7 +7541,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -6550,7 +7570,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -6575,7 +7599,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -6600,7 +7628,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -6625,7 +7657,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -6650,7 +7686,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -6675,7 +7715,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -6700,7 +7744,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -6725,7 +7773,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -6750,7 +7802,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -6775,7 +7831,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -6800,7 +7860,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -6825,7 +7889,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -6850,7 +7918,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -6875,7 +7947,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -6900,7 +7976,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -6925,7 +8005,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -6950,7 +8034,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -6975,7 +8063,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -7000,7 +8092,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -7025,7 +8121,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -7050,7 +8150,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -7075,7 +8179,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -7100,7 +8208,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -7125,7 +8237,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -7150,7 +8266,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -7175,7 +8295,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -7200,7 +8324,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -7225,7 +8353,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -7250,7 +8382,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -7275,7 +8411,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -7300,7 +8440,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -7325,7 +8469,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -7350,7 +8498,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -7375,7 +8527,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -7400,7 +8556,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -7425,7 +8585,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -7450,7 +8614,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -7475,7 +8643,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -7500,7 +8672,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -7525,7 +8701,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "10"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -7550,7 +8730,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -7575,7 +8759,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -7600,7 +8788,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -7625,7 +8817,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -7650,7 +8846,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -7675,7 +8875,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -7700,7 +8904,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -7725,7 +8933,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -7750,7 +8962,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -7775,7 +8991,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -7800,7 +9020,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -7825,7 +9049,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -7850,7 +9078,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -7875,7 +9107,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "10"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -7900,7 +9136,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -7925,7 +9165,11 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -7950,8 +9194,12 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -7975,7 +9223,11 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "10"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -8000,8 +9252,12 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
-        "Value": "False"
+        "Name": "StackSize",
+        "Value": "5"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "True"
       }
     ]
   },
@@ -8025,8 +9281,12 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
-        "Value": "False"
+        "Name": "StackSize",
+        "Value": "5"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "True"
       }
     ]
   },
@@ -8050,8 +9310,12 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
-        "Value": "False"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "True"
       }
     ]
   },
@@ -8075,8 +9339,12 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
-        "Value": "False"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "True"
       }
     ]
   },
@@ -8100,8 +9368,12 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
-        "Value": "False"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "True"
       }
     ]
   },
@@ -8125,8 +9397,12 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
-        "Value": "False"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "True"
       }
     ]
   },
@@ -8150,7 +9426,11 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -8175,8 +9455,12 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
-        "Value": "False"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "True"
       }
     ]
   },
@@ -8200,7 +9484,11 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -8225,8 +9513,12 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
-        "Value": "False"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "True"
       }
     ]
   },
@@ -8250,8 +9542,12 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
-        "Value": "False"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "True"
       }
     ]
   },
@@ -8275,8 +9571,12 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
-        "Value": "False"
+        "Name": "StackSize",
+        "Value": "5"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "True"
       }
     ]
   },
@@ -8300,8 +9600,12 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "10"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -8325,8 +9629,12 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "10"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -8350,8 +9658,12 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
-        "Value": "False"
+        "Name": "StackSize",
+        "Value": "10"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "True"
       }
     ]
   },
@@ -8375,8 +9687,12 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -8400,8 +9716,12 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "10"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -8425,7 +9745,11 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "10"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -8450,7 +9774,11 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "5"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -8475,7 +9803,11 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -8500,7 +9832,11 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -8525,7 +9861,11 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -8550,7 +9890,11 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -8575,7 +9919,11 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -8600,7 +9948,11 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -8625,8 +9977,12 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
-        "Value": "False"
+        "Name": "StackSize",
+        "Value": "10"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "True"
       }
     ]
   },
@@ -8650,8 +10006,12 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -8675,8 +10035,12 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
-        "Value": "False"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "True"
       }
     ]
   },
@@ -8700,8 +10064,12 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -8725,8 +10093,12 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -8750,7 +10122,11 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -8775,7 +10151,11 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -8800,7 +10180,11 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -8825,8 +10209,12 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -8850,7 +10238,11 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -8875,7 +10267,11 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -8900,7 +10296,11 @@
         "Value": "Plastic"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -8925,7 +10325,11 @@
         "Value": "Wood"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -8950,7 +10354,11 @@
         "Value": "Wood"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -8975,7 +10383,11 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -9000,7 +10412,11 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -9025,8 +10441,12 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -9050,8 +10470,12 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -9075,7 +10499,11 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -9100,8 +10528,12 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -9125,8 +10557,12 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -9150,8 +10586,12 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -9175,7 +10615,11 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -9200,7 +10644,11 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -9225,8 +10673,12 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -9250,8 +10702,12 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -9275,8 +10731,12 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -9300,7 +10760,11 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -9325,8 +10789,12 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -9350,7 +10818,11 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -9375,8 +10847,12 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -9400,8 +10876,12 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -9425,8 +10905,12 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -9450,8 +10934,12 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -9475,7 +10963,11 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -9500,7 +10992,11 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -9525,7 +11021,11 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -9550,8 +11050,12 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -9575,7 +11079,11 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -9600,8 +11108,12 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -9625,7 +11137,11 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -9650,8 +11166,12 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -9675,8 +11195,12 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -9700,8 +11224,12 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -9725,7 +11253,11 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -9750,7 +11282,11 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -9775,8 +11311,12 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -9800,8 +11340,12 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -9825,8 +11369,12 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -9850,7 +11398,11 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -9875,7 +11427,11 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -9900,7 +11456,11 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -9925,8 +11485,12 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -9950,8 +11514,12 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -9975,8 +11543,12 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -10000,7 +11572,11 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -10025,7 +11601,11 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -10050,8 +11630,12 @@
         "Value": "Plastic"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -10075,8 +11659,12 @@
         "Value": "Plastic"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -10100,8 +11688,12 @@
         "Value": "Plastic"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -10125,7 +11717,11 @@
         "Value": "Plastic"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -10150,7 +11746,11 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -10175,7 +11775,11 @@
         "Value": "Plastic"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -10200,8 +11804,12 @@
         "Value": "Plastic"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -10225,8 +11833,12 @@
         "Value": "Plastic"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -10250,8 +11862,12 @@
         "Value": "Plastic"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -10275,7 +11891,11 @@
         "Value": "Plastic"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -10300,7 +11920,11 @@
         "Value": "Plastic"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -10325,8 +11949,12 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -10350,7 +11978,11 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -10375,8 +12007,12 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -10400,7 +12036,11 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -10425,7 +12065,11 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -10450,7 +12094,11 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -10475,8 +12123,12 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -10500,8 +12152,12 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -10525,7 +12181,11 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -10550,7 +12210,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -10575,7 +12239,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -10600,7 +12268,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -10625,7 +12297,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -10650,7 +12326,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -10675,7 +12355,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -10700,8 +12384,12 @@
         "Value": "Plastic"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -10725,8 +12413,12 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -10750,8 +12442,12 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -10775,8 +12471,12 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -10800,8 +12500,12 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -10825,8 +12529,12 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -10850,7 +12558,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -10875,8 +12587,12 @@
         "Value": "Plastic"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -10900,8 +12616,12 @@
         "Value": "Wood"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -10925,8 +12645,12 @@
         "Value": "Plastic"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -10950,8 +12674,12 @@
         "Value": "Plastic"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -10966,7 +12694,11 @@
         "Value": "8c7efc37-cd7c-4262-976e-39585f8527bf"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -10982,7 +12714,11 @@
         "Value": "ea10d1af-b97a-46fb-8895-dfd1becb53bb"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -10998,7 +12734,11 @@
         "Value": "69559e81-50fa-40ae-afa2-a22c1a49eb54"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -11014,7 +12754,11 @@
         "Value": "df3734e2-f04b-443f-b568-fe5b076646c7"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -11030,7 +12774,11 @@
         "Value": "89f6c762-c0ed-44ad-b3f1-a60dbdd889c5"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -11046,7 +12794,11 @@
         "Value": "cec1d36c-b48a-43d2-9667-5e53b62dd4c5"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -11062,7 +12814,11 @@
         "Value": "7826f497-426b-42cb-a857-0d784f3ab2f3"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -11078,7 +12834,11 @@
         "Value": "c4609540-bc32-4c3f-83b8-3b6926878012"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -11094,7 +12854,11 @@
         "Value": "d1421af8-6f80-4413-8099-2c6b217fb929"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -11110,7 +12874,11 @@
         "Value": "bc575e0c-d1aa-438e-9f3d-0a80f4ea915f"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -11126,7 +12894,11 @@
         "Value": "bb443a05-b5b9-4fad-90fc-5e04aa90fd8f"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -11142,7 +12914,11 @@
         "Value": "c60b9627-fc2b-4319-97c5-05921cb976c6"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -11158,7 +12934,11 @@
         "Value": "2af00456-b22e-4743-b338-a91934aba7c5"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -11174,7 +12954,11 @@
         "Value": "096d4daf-639e-4947-a1a6-1890eaa94464"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -11190,7 +12974,11 @@
         "Value": "c5ea0c2f-185b-48d6-b4df-45c386a575cc"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -11206,7 +12994,11 @@
         "Value": "f6250bf4-9726-406f-a29a-945c06e460e5"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -11222,7 +13014,11 @@
         "Value": "9fde0601-c2ba-4c70-8d5c-2a7a9fdd122b"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -11238,7 +13034,11 @@
         "Value": "bb641a4f-e391-441c-bc6d-0ae21a069476"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -11254,7 +13054,11 @@
         "Value": "8f190ce2-3a59-423e-8483-a7aa67bd5bc0"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -11270,7 +13074,11 @@
         "Value": "3384010e-bc1c-42bb-83ef-dbc78a1f9636"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -11286,7 +13094,11 @@
         "Value": "fdb8b8be-96e7-4de0-85c7-d2f42e4f33ce"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -11302,7 +13114,11 @@
         "Value": "a5985971-1f95-4373-a5d9-4ce0a3e74851"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -11318,7 +13134,11 @@
         "Value": "97f449b6-c948-448b-b8b3-4448e3f6b956"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -11334,7 +13154,11 @@
         "Value": "9b8f2abd-265c-4750-b8b9-fe6cb564633c"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -11350,7 +13174,11 @@
         "Value": "5939f460-ab6c-48f2-9d07-a66845ce8cf2"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -11366,7 +13194,11 @@
         "Value": "056e5ff1-f030-40df-946a-b830bf494c92"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -11382,7 +13214,11 @@
         "Value": "da4833fd-f981-4e08-a9f7-48e630a7c146"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -11407,7 +13243,11 @@
         "Value": "Plastic"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -11432,7 +13272,11 @@
         "Value": "Plastic"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -11457,7 +13301,11 @@
         "Value": "Plastic"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -11482,7 +13330,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "65535"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -11507,7 +13359,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "65535"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -11532,7 +13388,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "65535"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -11557,7 +13417,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "65535"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -11582,7 +13446,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "65535"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -11607,7 +13475,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "65535"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -11632,7 +13504,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "65535"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -11657,7 +13533,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "65535"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -11682,7 +13562,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -11707,8 +13591,12 @@
         "Value": "Plastic"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "20"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -11732,8 +13620,12 @@
         "Value": "Plastic"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "20"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -11757,8 +13649,12 @@
         "Value": "Fruit"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "10"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -11782,8 +13678,12 @@
         "Value": "Fruit"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "10"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -11807,8 +13707,12 @@
         "Value": "Fruit"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "10"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -11832,8 +13736,12 @@
         "Value": "Fruit"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "10"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -11857,8 +13765,12 @@
         "Value": "Fruit"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "10"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -11882,8 +13794,12 @@
         "Value": "Fruit"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "10"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -11907,8 +13823,12 @@
         "Value": "Fruit"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "10"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -11932,8 +13852,12 @@
         "Value": "Fruit"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "10"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -11957,8 +13881,12 @@
         "Value": "Plastic"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "20"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -11982,8 +13910,12 @@
         "Value": "Plastic"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "20"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -12007,8 +13939,12 @@
         "Value": "Plastic"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "20"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -12032,8 +13968,12 @@
         "Value": "Plastic"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "20"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -12057,8 +13997,12 @@
         "Value": "Plastic"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "20"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -12082,8 +14026,12 @@
         "Value": "Plastic"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "20"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -12107,8 +14055,12 @@
         "Value": "Plastic"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "20"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -12132,8 +14084,12 @@
         "Value": "Plastic"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "20"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -12157,7 +14113,11 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -12182,7 +14142,11 @@
         "Value": "Mechanical"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -12207,8 +14171,12 @@
         "Value": "Wood"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "10"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -12232,8 +14200,12 @@
         "Value": "Plastic"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "10"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -12257,8 +14229,12 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "20"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -12282,8 +14258,12 @@
         "Value": "Plastic"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "10"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -12307,7 +14287,11 @@
         "Value": "Stone"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "10"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -12332,8 +14316,12 @@
         "Value": "Plastic"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "20"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -12357,8 +14345,12 @@
         "Value": "Fruit"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "10"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -12382,7 +14374,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "10"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -12407,8 +14403,12 @@
         "Value": "Plastic"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "10"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -12432,8 +14432,12 @@
         "Value": "Plastic"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "10"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -12457,8 +14461,12 @@
         "Value": "Plastic"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "20"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -12482,8 +14490,12 @@
         "Value": "wood"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -12507,8 +14519,12 @@
         "Value": "Wood"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -12532,8 +14548,12 @@
         "Value": "Wood"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -12557,8 +14577,12 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -12582,7 +14606,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -12607,7 +14635,11 @@
         "Value": "Plastic"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -12632,8 +14664,12 @@
         "Value": "Plastic"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -12657,8 +14693,12 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -12682,8 +14722,12 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -12707,7 +14751,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -12732,7 +14780,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -12757,7 +14809,11 @@
         "Value": "Plastic"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "10"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -12782,7 +14838,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -12807,7 +14867,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -12832,7 +14896,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -12857,7 +14925,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -12882,7 +14954,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -12907,7 +14983,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -12932,7 +15012,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -12957,7 +15041,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -12982,7 +15070,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -13007,7 +15099,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -13032,7 +15128,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -13057,7 +15157,11 @@
         "Value": "Plastic"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -13082,7 +15186,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -13107,7 +15215,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -13132,7 +15244,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -13157,7 +15273,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -13182,7 +15302,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -13207,7 +15331,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -13232,7 +15360,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -13257,7 +15389,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -13282,7 +15418,11 @@
         "Value": "Plastic"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -13307,7 +15447,11 @@
         "Value": "Plastic"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -13332,7 +15476,11 @@
         "Value": "Plastic"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -13357,7 +15505,11 @@
         "Value": "Plastic"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -13382,7 +15534,11 @@
         "Value": "Plastic"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -13407,7 +15563,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "1"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -13432,7 +15592,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -13457,7 +15621,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -13482,7 +15650,11 @@
         "Value": "Glass"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -13507,7 +15679,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -13532,7 +15708,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -13557,7 +15737,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -13582,7 +15766,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -13607,7 +15795,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -13632,7 +15824,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "1"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -13657,7 +15853,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -13682,7 +15882,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "65535"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -13707,7 +15911,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -13732,7 +15940,11 @@
         "Value": "Plastic"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -13757,7 +15969,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -13782,7 +15998,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -13807,7 +16027,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -13832,7 +16056,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "10"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -13857,7 +16085,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "10"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -13882,7 +16114,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -13907,8 +16143,12 @@
         "Value": "Plastic"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -13932,7 +16172,11 @@
         "Value": "Plastic"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -13957,7 +16201,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -13982,7 +16230,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -14007,7 +16259,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -14032,7 +16288,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -14057,7 +16317,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -14082,7 +16346,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -14107,7 +16375,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -14132,7 +16404,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -14157,7 +16433,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -14182,7 +16462,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -14207,7 +16491,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -14232,7 +16520,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -14257,7 +16549,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -14282,7 +16578,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -14307,7 +16607,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -14332,7 +16636,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -14357,7 +16665,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -14382,7 +16694,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -14407,7 +16723,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "10"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -14432,7 +16752,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -14457,7 +16781,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -14482,7 +16810,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -14507,7 +16839,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -14532,7 +16868,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -14557,8 +16897,12 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
-        "Value": "True"
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
       }
     ]
   },
@@ -14582,7 +16926,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -14607,7 +16955,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -14632,7 +16984,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -14657,7 +17013,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -14682,7 +17042,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -14707,7 +17071,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -14732,7 +17100,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -14757,7 +17129,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -14782,7 +17158,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -14807,7 +17187,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -14832,7 +17216,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -14857,7 +17245,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -14882,7 +17274,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -14907,7 +17303,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -14928,7 +17328,11 @@
         "Value": "9f1515"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -14953,7 +17357,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -14978,7 +17386,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -15003,7 +17415,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -15028,7 +17444,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]
@@ -15053,7 +17473,11 @@
         "Value": "Metal"
       },
       {
-        "Name": "Flammable",
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
         "Value": "False"
       }
     ]

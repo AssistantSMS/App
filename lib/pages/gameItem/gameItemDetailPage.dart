@@ -271,15 +271,15 @@ class GameItemDetailPage extends StatelessWidget {
                 int quantity = int.tryParse(quantityString);
                 if (quantity == null) return;
                 viewModel.addToCart(gameItem.id, quantity);
-                getSnackbar().showSnackbar(
-                  context,
-                  LocaleKey.addedToCart,
-                  onPositiveText: getTranslations().fromKey(LocaleKey.cart),
-                  onPositive: () => getNavigation().navigateAwayFromHomeAsync(
-                    context,
-                    navigateToNamed: Routes.cart,
-                  ),
-                );
+                // getSnackbar().showSnackbar(
+                //   context,
+                //   LocaleKey.addedToCart,
+                //   onPositiveText: getTranslations().fromKey(LocaleKey.cart),
+                //   onPositive: () => getNavigation().navigateAwayFromHomeAsync(
+                //     context,
+                //     navigateToNamed: Routes.cart,
+                //   ),
+                // );
               });
             },
           ),

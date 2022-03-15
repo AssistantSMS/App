@@ -198,7 +198,7 @@ class RecipeDetailPage extends StatelessWidget {
 
     widgets.add(emptySpace10x());
 
-    var fabColour = getTheme().getSecondaryColour(context);
+    Color fabColour = getTheme().getSecondaryColour(context);
     return Stack(
       children: [
         listWithScrollbar(
@@ -218,11 +218,14 @@ class RecipeDetailPage extends StatelessWidget {
                 int quantity = int.tryParse(quantityString);
                 if (quantity == null) return;
                 viewModel.addToCart(recipeItem.output.id, quantity);
-                // showSnackbar(
+                // getSnackbar().showSnackbar(
                 //   context,
                 //   LocaleKey.addedToCart,
-                //   duration: AppDuration.snackBarAddToCart,
-                //   onTap: navigateToCart,
+                //   onPositiveText: getTranslations().fromKey(LocaleKey.cart),
+                //   onPositive: () => getNavigation().navigateAwayFromHomeAsync(
+                //     context,
+                //     navigateToNamed: Routes.cart,
+                //   ),
                 // );
               });
             },

@@ -97,6 +97,14 @@
   },
   {
     "Id": "other25",
-    "Title": "Connettore"
+    "Title": "Martello"
+  },
+  {
+    "Id": "other26",
+    "Title": "Piattaforma"
+  },
+  {
+    "Id": "other27",
+    "Title": "Manuale"
   }
 ]

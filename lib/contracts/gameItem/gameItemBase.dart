@@ -24,6 +24,7 @@ class GameItemBase {
     this.box,
     this.cylinder,
     this.flammable,
+    this.isCreative,
     this.features,
     this.upgrade,
     this.edible,
@@ -38,6 +39,7 @@ class GameItemBase {
   Box box;
   Cylinder cylinder;
   bool flammable;
+  bool isCreative;
   Upgrade upgrade;
   Edible edible;
   List<Feature> features;
@@ -65,6 +67,7 @@ class GameItemBase {
             : List<Feature>.from(
                 json["Features"].map((x) => Feature.fromJson(x))),
         flammable: readBoolSafe(json, "Flammable"),
+        isCreative: readBoolSafe(json, "IsCreative"),
         customisationSource: CustomisationSourceType
             .values[(json["CustomisationSource"] as int ?? 0)],
       );

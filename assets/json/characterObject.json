@@ -14,7 +14,8 @@
       "Diameter": 7,
       "Depth": 6
     },
-    "Flammable": true
+    "Flammable": true,
+    "IsCreative": false
   },
   {
     "Id": "char2",
@@ -31,7 +32,8 @@
       "Diameter": 9,
       "Depth": 9
     },
-    "Flammable": true
+    "Flammable": true,
+    "IsCreative": false
   },
   {
     "Id": "char3",
@@ -48,7 +50,8 @@
       "Diameter": 6,
       "Depth": 9
     },
-    "Flammable": true
+    "Flammable": true,
+    "IsCreative": false
   },
   {
     "Id": "char4",
@@ -65,7 +68,8 @@
       "Diameter": 6,
       "Depth": 9
     },
-    "Flammable": true
+    "Flammable": true,
+    "IsCreative": false
   },
   {
     "Id": "char5",
@@ -82,7 +86,8 @@
       "Diameter": 19,
       "Depth": 14
     },
-    "Flammable": true
+    "Flammable": true,
+    "IsCreative": false
   },
   {
     "Id": "char6",
@@ -99,7 +104,8 @@
       "Diameter": 3,
       "Depth": 3
     },
-    "Flammable": true
+    "Flammable": true,
+    "IsCreative": false
   },
   {
     "Id": "char7",
@@ -116,6 +122,7 @@
       "Diameter": 11,
       "Depth": 9
     },
-    "Flammable": true
+    "Flammable": true,
+    "IsCreative": false
   }
 ]

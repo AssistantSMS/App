@@ -15,7 +15,8 @@
       "Y": 3,
       "Z": 1
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "out2",
@@ -33,7 +34,8 @@
       "Y": 3,
       "Z": 1
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "out3",
@@ -51,6 +53,7 @@
       "Y": 3,
       "Z": 1
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   }
 ]

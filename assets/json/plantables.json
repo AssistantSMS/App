@@ -15,7 +15,8 @@
       "Y": 2,
       "Z": 2
     },
-    "Flammable": true
+    "Flammable": true,
+    "IsCreative": false
   },
   {
     "Id": "plant2",
@@ -33,7 +34,8 @@
       "Y": 2,
       "Z": 2
     },
-    "Flammable": true
+    "Flammable": true,
+    "IsCreative": false
   },
   {
     "Id": "plant3",
@@ -51,7 +53,8 @@
       "Y": 2,
       "Z": 2
     },
-    "Flammable": true
+    "Flammable": true,
+    "IsCreative": false
   },
   {
     "Id": "plant4",
@@ -69,7 +72,8 @@
       "Y": 2,
       "Z": 2
     },
-    "Flammable": true
+    "Flammable": true,
+    "IsCreative": false
   },
   {
     "Id": "plant5",
@@ -87,7 +91,8 @@
       "Y": 2,
       "Z": 2
     },
-    "Flammable": true
+    "Flammable": true,
+    "IsCreative": false
   },
   {
     "Id": "plant6",
@@ -105,7 +110,8 @@
       "Y": 2,
       "Z": 2
     },
-    "Flammable": true
+    "Flammable": true,
+    "IsCreative": false
   },
   {
     "Id": "plant7",
@@ -123,7 +129,8 @@
       "Y": 2,
       "Z": 2
     },
-    "Flammable": true
+    "Flammable": true,
+    "IsCreative": false
   },
   {
     "Id": "plant8",
@@ -141,7 +148,8 @@
       "Y": 2,
       "Z": 2
     },
-    "Flammable": true
+    "Flammable": true,
+    "IsCreative": false
   },
   {
     "Id": "plant9",
@@ -159,7 +167,8 @@
       "Y": 2,
       "Z": 2
     },
-    "Flammable": true
+    "Flammable": true,
+    "IsCreative": false
   },
   {
     "Id": "plant10",
@@ -177,7 +186,8 @@
       "Y": 2,
       "Z": 2
     },
-    "Flammable": true
+    "Flammable": true,
+    "IsCreative": false
   },
   {
     "Id": "plant11",
@@ -196,11 +206,7 @@
       "Z": 3
     },
     "Flammable": true,
-    "Edible": {
-      "HpGain": 0,
-      "FoodGain": 40,
-      "WaterGain": 15
-    }
+    "IsCreative": false
   },
   {
     "Id": "plant12",
@@ -219,11 +225,7 @@
       "Z": 1
     },
     "Flammable": true,
-    "Edible": {
-      "HpGain": 0,
-      "FoodGain": 30,
-      "WaterGain": 30
-    }
+    "IsCreative": false
   },
   {
     "Id": "plant13",
@@ -242,11 +244,7 @@
       "Z": 2
     },
     "Flammable": true,
-    "Edible": {
-      "HpGain": 0,
-      "FoodGain": 15,
-      "WaterGain": 40
-    }
+    "IsCreative": false
   },
   {
     "Id": "plant14",
@@ -265,11 +263,7 @@
       "Z": 2
     },
     "Flammable": true,
-    "Edible": {
-      "HpGain": 0,
-      "FoodGain": 20,
-      "WaterGain": 50
-    }
+    "IsCreative": false
   },
   {
     "Id": "plant15",
@@ -288,11 +282,7 @@
       "Z": 1
     },
     "Flammable": true,
-    "Edible": {
-      "HpGain": 0,
-      "FoodGain": 30,
-      "WaterGain": 10
-    }
+    "IsCreative": false
   },
   {
     "Id": "plant16",
@@ -311,11 +301,7 @@
       "Z": 2
     },
     "Flammable": true,
-    "Edible": {
-      "HpGain": 0,
-      "FoodGain": 20,
-      "WaterGain": 20
-    }
+    "IsCreative": false
   },
   {
     "Id": "plant17",
@@ -334,11 +320,7 @@
       "Z": 2
     },
     "Flammable": true,
-    "Edible": {
-      "HpGain": 0,
-      "FoodGain": 10,
-      "WaterGain": 30
-    }
+    "IsCreative": false
   },
   {
     "Id": "plant18",
@@ -357,10 +339,6 @@
       "Z": 2
     },
     "Flammable": true,
-    "Edible": {
-      "HpGain": 0,
-      "FoodGain": 50,
-      "WaterGain": 20
-    }
+    "IsCreative": false
   }
 ]

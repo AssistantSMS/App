@@ -15,7 +15,8 @@
       "Y": 3,
       "Z": 1
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "fitt2",
@@ -33,7 +34,8 @@
       "Y": 1,
       "Z": 1
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "fitt3",
@@ -51,7 +53,8 @@
       "Y": 1,
       "Z": 1
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "fitt4",
@@ -69,7 +72,8 @@
       "Y": 1,
       "Z": 1
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "fitt5",
@@ -87,7 +91,8 @@
       "Y": 3,
       "Z": 3
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "fitt6",
@@ -104,7 +109,8 @@
       "Diameter": 3,
       "Depth": 1
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "fitt7",
@@ -122,7 +128,8 @@
       "Y": 5,
       "Z": 8
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "fitt8",
@@ -140,7 +147,8 @@
       "Y": 7,
       "Z": 2
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "fitt9",
@@ -157,7 +165,8 @@
       "Diameter": 7,
       "Depth": 8
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "fitt10",
@@ -174,7 +183,8 @@
       "Diameter": 7,
       "Depth": 8
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "fitt11",
@@ -192,7 +202,8 @@
       "Y": 7,
       "Z": 7
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "fitt12",
@@ -210,7 +221,8 @@
       "Y": 7,
       "Z": 7
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "fitt13",
@@ -228,7 +240,8 @@
       "Y": 7,
       "Z": 7
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "fitt14",
@@ -245,7 +258,8 @@
       "Diameter": 7,
       "Depth": 1
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "fitt15",
@@ -263,7 +277,8 @@
       "Y": 2,
       "Z": 8
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "fitt16",
@@ -281,7 +296,8 @@
       "Y": 3,
       "Z": 3
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "fitt17",
@@ -299,7 +315,8 @@
       "Y": 3,
       "Z": 6
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "fitt18",
@@ -317,7 +334,8 @@
       "Y": 3,
       "Z": 3
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "fitt19",
@@ -335,7 +353,8 @@
       "Y": 3,
       "Z": 3
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "fitt20",
@@ -353,7 +372,8 @@
       "Y": 3,
       "Z": 1
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "fitt21",
@@ -371,7 +391,8 @@
       "Y": 6,
       "Z": 5
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "fitt22",
@@ -388,7 +409,8 @@
       "Diameter": 1,
       "Depth": 1
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "fitt23",
@@ -405,7 +427,8 @@
       "Diameter": 1,
       "Depth": 3
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "fitt24",
@@ -423,7 +446,8 @@
       "Y": 1,
       "Z": 1
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "fitt25",
@@ -441,7 +465,8 @@
       "Y": 1,
       "Z": 1
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "fitt26",
@@ -459,7 +484,8 @@
       "Y": 1,
       "Z": 1
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "fitt27",
@@ -477,7 +503,8 @@
       "Y": 1,
       "Z": 1
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "fitt28",
@@ -495,7 +522,8 @@
       "Y": 2,
       "Z": 1
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "fitt29",
@@ -513,7 +541,8 @@
       "Y": 1,
       "Z": 1
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "fitt30",
@@ -531,7 +560,8 @@
       "Y": 1,
       "Z": 1
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "fitt31",
@@ -549,7 +579,8 @@
       "Y": 1,
       "Z": 1
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "fitt32",
@@ -567,7 +598,8 @@
       "Y": 1,
       "Z": 1
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "fitt33",
@@ -585,7 +617,8 @@
       "Y": 3,
       "Z": 2
     },
-    "Flammable": true
+    "Flammable": true,
+    "IsCreative": false
   },
   {
     "Id": "fitt34",
@@ -602,7 +635,8 @@
       "Diameter": 1,
       "Depth": 1
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "fitt35",
@@ -619,7 +653,8 @@
       "Diameter": 1,
       "Depth": 3
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "fitt36",
@@ -637,7 +672,8 @@
       "Y": 1,
       "Z": 1
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "fitt37",
@@ -655,7 +691,8 @@
       "Y": 1,
       "Z": 1
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "fitt38",
@@ -672,7 +709,8 @@
       "Diameter": 1,
       "Depth": 1
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "fitt39",
@@ -689,7 +727,8 @@
       "Diameter": 3,
       "Depth": 3
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "fitt40",
@@ -706,7 +745,8 @@
       "Diameter": 3,
       "Depth": 6
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "fitt41",
@@ -724,7 +764,8 @@
       "Y": 3,
       "Z": 3
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "fitt42",
@@ -742,7 +783,8 @@
       "Y": 3,
       "Z": 3
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "fitt43",
@@ -760,7 +802,8 @@
       "Y": 1,
       "Z": 1
     },
-    "Flammable": true
+    "Flammable": true,
+    "IsCreative": false
   },
   {
     "Id": "fitt44",
@@ -778,7 +821,8 @@
       "Y": 5,
       "Z": 1
     },
-    "Flammable": true
+    "Flammable": true,
+    "IsCreative": false
   },
   {
     "Id": "fitt45",
@@ -796,7 +840,8 @@
       "Y": 3,
       "Z": 1
     },
-    "Flammable": true
+    "Flammable": true,
+    "IsCreative": false
   },
   {
     "Id": "fitt46",
@@ -814,7 +859,8 @@
       "Y": 1,
       "Z": 1
     },
-    "Flammable": true
+    "Flammable": true,
+    "IsCreative": false
   },
   {
     "Id": "fitt47",
@@ -832,7 +878,8 @@
       "Y": 1,
       "Z": 1
     },
-    "Flammable": true
+    "Flammable": true,
+    "IsCreative": false
   },
   {
     "Id": "fitt48",
@@ -850,7 +897,8 @@
       "Y": 4,
       "Z": 1
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "fitt49",
@@ -868,7 +916,8 @@
       "Y": 2,
       "Z": 2
     },
-    "Flammable": true
+    "Flammable": true,
+    "IsCreative": false
   },
   {
     "Id": "fitt50",
@@ -886,7 +935,8 @@
       "Y": 4,
       "Z": 2
     },
-    "Flammable": true
+    "Flammable": true,
+    "IsCreative": false
   },
   {
     "Id": "fitt51",
@@ -904,7 +954,8 @@
       "Y": 2,
       "Z": 2
     },
-    "Flammable": true
+    "Flammable": true,
+    "IsCreative": false
   },
   {
     "Id": "fitt52",
@@ -922,7 +973,8 @@
       "Y": 2,
       "Z": 2
     },
-    "Flammable": true
+    "Flammable": true,
+    "IsCreative": false
   },
   {
     "Id": "fitt53",
@@ -940,7 +992,8 @@
       "Y": 1,
       "Z": 1
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "fitt54",
@@ -958,7 +1011,8 @@
       "Y": 1,
       "Z": 1
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "fitt55",
@@ -976,7 +1030,8 @@
       "Y": 1,
       "Z": 1
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "fitt56",
@@ -994,7 +1049,8 @@
       "Y": 1,
       "Z": 1
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "fitt57",
@@ -1012,7 +1068,8 @@
       "Y": 1,
       "Z": 1
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "fitt58",
@@ -1030,7 +1087,8 @@
       "Y": 1,
       "Z": 1
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "fitt59",
@@ -1048,7 +1106,8 @@
       "Y": 1,
       "Z": 1
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "fitt60",
@@ -1066,7 +1125,8 @@
       "Y": 1,
       "Z": 1
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "fitt61",
@@ -1084,6 +1144,7 @@
       "Y": 1,
       "Z": 1
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   }
 ]

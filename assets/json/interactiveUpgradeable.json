@@ -15,6 +15,7 @@
       "Depth": 2
     },
     "Flammable": true,
+    "IsCreative": false,
     "Upgrade": {
       "LocaleKey": "level2",
       "TargetId": "interu2",
@@ -43,6 +44,7 @@
       "Depth": 2
     },
     "Flammable": true,
+    "IsCreative": false,
     "Upgrade": {
       "LocaleKey": "level3",
       "TargetId": "interu3",
@@ -71,6 +73,7 @@
       "Depth": 2
     },
     "Flammable": true,
+    "IsCreative": false,
     "Upgrade": {
       "LocaleKey": "level4",
       "TargetId": "interu4",
@@ -99,6 +102,7 @@
       "Depth": 2
     },
     "Flammable": false,
+    "IsCreative": false,
     "Upgrade": {
       "LocaleKey": "level5",
       "TargetId": "interu5",
@@ -127,6 +131,7 @@
       "Depth": 2
     },
     "Flammable": false,
+    "IsCreative": false,
     "Features": [
       {
         "LocaleKey": "stiffness",
@@ -150,6 +155,7 @@
       "Depth": 3
     },
     "Flammable": false,
+    "IsCreative": false,
     "Upgrade": {
       "LocaleKey": "level2",
       "TargetId": "interu7",
@@ -178,6 +184,7 @@
       "Depth": 3
     },
     "Flammable": true,
+    "IsCreative": false,
     "Upgrade": {
       "LocaleKey": "level3",
       "TargetId": "interu8",
@@ -206,6 +213,7 @@
       "Depth": 3
     },
     "Flammable": true,
+    "IsCreative": false,
     "Upgrade": {
       "LocaleKey": "level4",
       "TargetId": "interu9",
@@ -234,6 +242,7 @@
       "Depth": 3
     },
     "Flammable": false,
+    "IsCreative": false,
     "Upgrade": {
       "LocaleKey": "level5",
       "TargetId": "interu10",
@@ -262,6 +271,7 @@
       "Depth": 3
     },
     "Flammable": false,
+    "IsCreative": false,
     "Features": [
       {
         "LocaleKey": "stiffness",
@@ -286,6 +296,7 @@
       "Z": 6
     },
     "Flammable": true,
+    "IsCreative": false,
     "Upgrade": {
       "LocaleKey": "level2",
       "TargetId": "interu12",
@@ -319,6 +330,7 @@
       "Z": 6
     },
     "Flammable": true,
+    "IsCreative": false,
     "Upgrade": {
       "LocaleKey": "level3",
       "TargetId": "interu13",
@@ -352,6 +364,7 @@
       "Z": 6
     },
     "Flammable": true,
+    "IsCreative": false,
     "Upgrade": {
       "LocaleKey": "level4",
       "TargetId": "interu14",
@@ -385,6 +398,7 @@
       "Z": 6
     },
     "Flammable": false,
+    "IsCreative": false,
     "Upgrade": {
       "LocaleKey": "level5",
       "TargetId": "interu15",
@@ -418,6 +432,7 @@
       "Z": 6
     },
     "Flammable": false,
+    "IsCreative": false,
     "Features": [
       {
         "LocaleKey": "maxConnections",
@@ -446,6 +461,7 @@
       "Z": 5
     },
     "Flammable": true,
+    "IsCreative": false,
     "Upgrade": {
       "LocaleKey": "level2",
       "TargetId": "interu17",
@@ -479,6 +495,7 @@
       "Z": 5
     },
     "Flammable": true,
+    "IsCreative": false,
     "Upgrade": {
       "LocaleKey": "level3",
       "TargetId": "interu18",
@@ -512,6 +529,7 @@
       "Z": 5
     },
     "Flammable": true,
+    "IsCreative": false,
     "Upgrade": {
       "LocaleKey": "level4",
       "TargetId": "interu19",
@@ -545,6 +563,7 @@
       "Z": 5
     },
     "Flammable": false,
+    "IsCreative": false,
     "Upgrade": {
       "LocaleKey": "level5",
       "TargetId": "interu20",
@@ -578,6 +597,7 @@
       "Z": 5
     },
     "Flammable": false,
+    "IsCreative": false,
     "Features": [
       {
         "LocaleKey": "maxConnections",
@@ -606,6 +626,7 @@
       "Z": 4
     },
     "Flammable": true,
+    "IsCreative": false,
     "Upgrade": {
       "LocaleKey": "level2",
       "TargetId": "interu22",
@@ -635,6 +656,7 @@
       "Z": 4
     },
     "Flammable": true,
+    "IsCreative": false,
     "Upgrade": {
       "LocaleKey": "level3",
       "TargetId": "interu23",
@@ -664,6 +686,7 @@
       "Z": 4
     },
     "Flammable": true,
+    "IsCreative": false,
     "Upgrade": {
       "LocaleKey": "level4",
       "TargetId": "interu24",
@@ -693,6 +716,7 @@
       "Z": 4
     },
     "Flammable": true,
+    "IsCreative": false,
     "Upgrade": {
       "LocaleKey": "level5",
       "TargetId": "interu25",
@@ -722,6 +746,7 @@
       "Z": 4
     },
     "Flammable": false,
+    "IsCreative": false,
     "Features": [
       {
         "LocaleKey": "maxConnections",
@@ -746,9 +771,10 @@
       "Z": 3
     },
     "Flammable": false,
+    "IsCreative": false,
     "Upgrade": {
       "LocaleKey": "level2",
-      "TargetId": "interu27",
+      "TargetId": "interu17",
       "Cost": 1
     },
     "Features": [
@@ -775,11 +801,7 @@
       "Z": 3
     },
     "Flammable": false,
-    "Upgrade": {
-      "LocaleKey": "level3",
-      "TargetId": "interu28",
-      "Cost": 2
-    },
+    "IsCreative": false,
     "Features": [
       {
         "LocaleKey": "maxConnections",
@@ -804,11 +826,7 @@
       "Z": 3
     },
     "Flammable": true,
-    "Upgrade": {
-      "LocaleKey": "level4",
-      "TargetId": "interu29",
-      "Cost": 3
-    },
+    "IsCreative": false,
     "Features": [
       {
         "LocaleKey": "maxConnections",
@@ -833,11 +851,7 @@
       "Z": 3
     },
     "Flammable": false,
-    "Upgrade": {
-      "LocaleKey": "level5",
-      "TargetId": "interu30",
-      "Cost": 5
-    },
+    "IsCreative": false,
     "Features": [
       {
         "LocaleKey": "maxConnections",
@@ -862,6 +876,7 @@
       "Z": 3
     },
     "Flammable": false,
+    "IsCreative": false,
     "Features": [
       {
         "LocaleKey": "maxConnections",
@@ -886,6 +901,7 @@
       "Z": 2
     },
     "Flammable": true,
+    "IsCreative": false,
     "Upgrade": {
       "LocaleKey": "level2",
       "TargetId": "interu32",
@@ -927,6 +943,7 @@
       "Z": 2
     },
     "Flammable": true,
+    "IsCreative": false,
     "Upgrade": {
       "LocaleKey": "level3",
       "TargetId": "interu33",
@@ -968,6 +985,7 @@
       "Z": 2
     },
     "Flammable": true,
+    "IsCreative": false,
     "Upgrade": {
       "LocaleKey": "level4",
       "TargetId": "interu34",
@@ -1009,6 +1027,7 @@
       "Z": 2
     },
     "Flammable": false,
+    "IsCreative": false,
     "Upgrade": {
       "LocaleKey": "level5",
       "TargetId": "interu35",
@@ -1050,6 +1069,7 @@
       "Z": 2
     },
     "Flammable": false,
+    "IsCreative": false,
     "Features": [
       {
         "LocaleKey": "gearCount",
@@ -1086,6 +1106,7 @@
       "Z": 3
     },
     "Flammable": true,
+    "IsCreative": false,
     "Upgrade": {
       "LocaleKey": "level2",
       "TargetId": "interu37",
@@ -1127,6 +1148,7 @@
       "Z": 3
     },
     "Flammable": true,
+    "IsCreative": false,
     "Upgrade": {
       "LocaleKey": "level3",
       "TargetId": "interu38",
@@ -1168,6 +1190,7 @@
       "Z": 3
     },
     "Flammable": true,
+    "IsCreative": false,
     "Upgrade": {
       "LocaleKey": "level4",
       "TargetId": "interu39",
@@ -1209,6 +1232,7 @@
       "Z": 3
     },
     "Flammable": false,
+    "IsCreative": false,
     "Upgrade": {
       "LocaleKey": "level5",
       "TargetId": "interu40",
@@ -1250,6 +1274,7 @@
       "Z": 3
     },
     "Flammable": false,
+    "IsCreative": false,
     "Features": [
       {
         "LocaleKey": "gearCount",
@@ -1286,6 +1311,7 @@
       "Z": 4
     },
     "Flammable": true,
+    "IsCreative": false,
     "Upgrade": {
       "LocaleKey": "level2",
       "TargetId": "interu42",
@@ -1319,6 +1345,7 @@
       "Z": 4
     },
     "Flammable": true,
+    "IsCreative": false,
     "Upgrade": {
       "LocaleKey": "level3",
       "TargetId": "interu43",
@@ -1352,6 +1379,7 @@
       "Z": 4
     },
     "Flammable": true,
+    "IsCreative": false,
     "Upgrade": {
       "LocaleKey": "level4",
       "TargetId": "interu44",
@@ -1385,6 +1413,7 @@
       "Z": 4
     },
     "Flammable": false,
+    "IsCreative": false,
     "Upgrade": {
       "LocaleKey": "level5",
       "TargetId": "interu45",
@@ -1418,6 +1447,7 @@
       "Z": 4
     },
     "Flammable": false,
+    "IsCreative": false,
     "Features": [
       {
         "LocaleKey": "efficiency",
@@ -1446,6 +1476,7 @@
       "Z": 1
     },
     "Flammable": true,
+    "IsCreative": false,
     "Upgrade": {
       "LocaleKey": "level2",
       "TargetId": "interu47",
@@ -1479,6 +1510,7 @@
       "Z": 1
     },
     "Flammable": true,
+    "IsCreative": false,
     "Upgrade": {
       "LocaleKey": "level3",
       "TargetId": "interu48",
@@ -1512,6 +1544,7 @@
       "Z": 1
     },
     "Flammable": true,
+    "IsCreative": false,
     "Upgrade": {
       "LocaleKey": "level4",
       "TargetId": "interu49",
@@ -1545,6 +1578,7 @@
       "Z": 1
     },
     "Flammable": false,
+    "IsCreative": false,
     "Upgrade": {
       "LocaleKey": "level5",
       "TargetId": "interu50",
@@ -1578,6 +1612,7 @@
       "Z": 1
     },
     "Flammable": false,
+    "IsCreative": false,
     "Features": [
       {
         "LocaleKey": "maxConnections",
@@ -1606,6 +1641,7 @@
       "Z": 1
     },
     "Flammable": true,
+    "IsCreative": false,
     "Upgrade": {
       "LocaleKey": "level2",
       "TargetId": "interu52",
@@ -1639,6 +1675,7 @@
       "Z": 1
     },
     "Flammable": true,
+    "IsCreative": false,
     "Upgrade": {
       "LocaleKey": "level3",
       "TargetId": "interu53",
@@ -1672,6 +1709,7 @@
       "Z": 1
     },
     "Flammable": true,
+    "IsCreative": false,
     "Upgrade": {
       "LocaleKey": "level4",
       "TargetId": "interu54",
@@ -1705,6 +1743,7 @@
       "Z": 1
     },
     "Flammable": false,
+    "IsCreative": false,
     "Upgrade": {
       "LocaleKey": "level5",
       "TargetId": "interu55",
@@ -1738,6 +1777,7 @@
       "Z": 1
     },
     "Flammable": false,
+    "IsCreative": false,
     "Features": [
       {
         "LocaleKey": "range",
@@ -1766,6 +1806,7 @@
       "Z": 1
     },
     "Flammable": true,
+    "IsCreative": false,
     "Upgrade": {
       "LocaleKey": "level2",
       "TargetId": "interu57",
@@ -1803,6 +1844,7 @@
       "Z": 1
     },
     "Flammable": false,
+    "IsCreative": false,
     "Upgrade": {
       "LocaleKey": "level3",
       "TargetId": "interu58",
@@ -1840,6 +1882,7 @@
       "Z": 1
     },
     "Flammable": true,
+    "IsCreative": false,
     "Upgrade": {
       "LocaleKey": "level4",
       "TargetId": "interu59",
@@ -1877,6 +1920,7 @@
       "Z": 1
     },
     "Flammable": false,
+    "IsCreative": false,
     "Upgrade": {
       "LocaleKey": "level5",
       "TargetId": "interu60",
@@ -1914,6 +1958,7 @@
       "Z": 1
     },
     "Flammable": false,
+    "IsCreative": false,
     "Features": [
       {
         "LocaleKey": "range",

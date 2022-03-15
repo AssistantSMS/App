@@ -14,7 +14,8 @@
       "Diameter": 2,
       "Depth": 2
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "bckt2",
@@ -31,7 +32,8 @@
       "Diameter": 2,
       "Depth": 2
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "bckt3",
@@ -48,6 +50,7 @@
       "Diameter": 2,
       "Depth": 2
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   }
 ]

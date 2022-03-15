@@ -14,7 +14,8 @@
       "Diameter": 3,
       "Depth": 1
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "build2",
@@ -31,7 +32,8 @@
       "Diameter": 3,
       "Depth": 5
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "build3",
@@ -49,7 +51,8 @@
       "Y": 3,
       "Z": 3
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "build4",
@@ -67,7 +70,8 @@
       "Y": 1,
       "Z": 3
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "build5",
@@ -84,7 +88,8 @@
       "Diameter": 3,
       "Depth": 3
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "build6",
@@ -102,7 +107,8 @@
       "Y": 7,
       "Z": 3
     },
-    "Flammable": true
+    "Flammable": true,
+    "IsCreative": false
   },
   {
     "Id": "build7",
@@ -120,7 +126,8 @@
       "Y": 8,
       "Z": 1
     },
-    "Flammable": true
+    "Flammable": true,
+    "IsCreative": false
   },
   {
     "Id": "build8",
@@ -138,7 +145,8 @@
       "Y": 3,
       "Z": 2
     },
-    "Flammable": true
+    "Flammable": true,
+    "IsCreative": false
   },
   {
     "Id": "build9",
@@ -156,7 +164,8 @@
       "Y": 3,
       "Z": 1
     },
-    "Flammable": true
+    "Flammable": true,
+    "IsCreative": false
   },
   {
     "Id": "build10",
@@ -174,7 +183,8 @@
       "Y": 2,
       "Z": 2
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "build11",
@@ -192,7 +202,8 @@
       "Y": 4,
       "Z": 3
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "build12",
@@ -210,7 +221,8 @@
       "Y": 3,
       "Z": 1
     },
-    "Flammable": true
+    "Flammable": true,
+    "IsCreative": false
   },
   {
     "Id": "build13",
@@ -228,7 +240,8 @@
       "Y": 3,
       "Z": 3
     },
-    "Flammable": true
+    "Flammable": true,
+    "IsCreative": false
   },
   {
     "Id": "build14",
@@ -246,7 +259,8 @@
       "Y": 8,
       "Z": 1
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "build15",
@@ -264,7 +278,8 @@
       "Y": 1,
       "Z": 1
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "build16",
@@ -282,7 +297,8 @@
       "Y": 1,
       "Z": 4
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "build17",
@@ -300,7 +316,8 @@
       "Y": 1,
       "Z": 4
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "build18",
@@ -318,7 +335,8 @@
       "Y": 2,
       "Z": 1
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "build19",
@@ -336,7 +354,8 @@
       "Y": 1,
       "Z": 3
     },
-    "Flammable": true
+    "Flammable": true,
+    "IsCreative": false
   },
   {
     "Id": "build20",
@@ -354,6 +373,7 @@
       "Y": 1,
       "Z": 3
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   }
 ]

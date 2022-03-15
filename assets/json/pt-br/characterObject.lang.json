@@ -1,0 +1,30 @@
+[
+  {
+    "Id": "char1",
+    "Title": "Cápsula de Robô Transportador Verde"
+  },
+  {
+    "Id": "char2",
+    "Title": "Cápsula de Robô Forquilhador"
+  },
+  {
+    "Id": "char3",
+    "Title": "Cápsula de Robô Empacotador"
+  },
+  {
+    "Id": "char4",
+    "Title": "Cápsula de Robô Empacotador Vermelho"
+  },
+  {
+    "Id": "char5",
+    "Title": "Cápsula de Robô Agricultor"
+  },
+  {
+    "Id": "char6",
+    "Title": "Cápsula de Glowb"
+  },
+  {
+    "Id": "char7",
+    "Title": "Cápsula de Woc"
+  }
+]

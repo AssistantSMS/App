@@ -15,7 +15,8 @@
       "Y": 2,
       "Z": 2
     },
-    "Flammable": true
+    "Flammable": true,
+    "IsCreative": false
   },
   {
     "Id": "consu2",
@@ -33,11 +34,7 @@
       "Depth": 1
     },
     "Flammable": true,
-    "Edible": {
-      "HpGain": 10,
-      "FoodGain": 25,
-      "WaterGain": 35
-    }
+    "IsCreative": false
   },
   {
     "Id": "consu3",
@@ -56,11 +53,7 @@
       "Z": 2
     },
     "Flammable": true,
-    "Edible": {
-      "HpGain": 100,
-      "FoodGain": 100,
-      "WaterGain": 100
-    }
+    "IsCreative": false
   },
   {
     "Id": "consu4",
@@ -79,11 +72,7 @@
       "Z": 2
     },
     "Flammable": true,
-    "Edible": {
-      "HpGain": 100,
-      "FoodGain": 100,
-      "WaterGain": 100
-    }
+    "IsCreative": false
   },
   {
     "Id": "consu5",
@@ -101,7 +90,8 @@
       "Y": 2,
       "Z": 6
     },
-    "Flammable": true
+    "Flammable": true,
+    "IsCreative": false
   },
   {
     "Id": "consu6",
@@ -119,11 +109,7 @@
       "Depth": 2
     },
     "Flammable": true,
-    "Edible": {
-      "HpGain": 0,
-      "FoodGain": 10,
-      "WaterGain": 40
-    }
+    "IsCreative": false
   },
   {
     "Id": "consu7",
@@ -141,6 +127,7 @@
       "Y": 1,
       "Z": 5
     },
-    "Flammable": true
+    "Flammable": true,
+    "IsCreative": false
   }
 ]

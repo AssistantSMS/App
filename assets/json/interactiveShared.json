@@ -15,7 +15,8 @@
       "Y": 3,
       "Z": 4
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "inters2",
@@ -33,7 +34,8 @@
       "Y": 11,
       "Z": 6
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "inters3",
@@ -51,6 +53,7 @@
       "Y": 8,
       "Z": 6
     },
-    "Flammable": true
+    "Flammable": true,
+    "IsCreative": false
   }
 ]

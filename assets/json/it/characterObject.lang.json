@@ -1,0 +1,30 @@
+[
+  {
+    "Id": "char1",
+    "Title": "Capsula Robotrasportatore Verde"
+  },
+  {
+    "Id": "char2",
+    "Title": "Capsula Robofienaiolo"
+  },
+  {
+    "Id": "char3",
+    "Title": "Capsula Robonastratore"
+  },
+  {
+    "Id": "char4",
+    "Title": "Capsula Robonastratore Rosso"
+  },
+  {
+    "Id": "char5",
+    "Title": "Capsula Robofattore"
+  },
+  {
+    "Id": "char6",
+    "Title": "Capsula Glowb"
+  },
+  {
+    "Id": "char7",
+    "Title": "Capsula Woc"
+  }
+]

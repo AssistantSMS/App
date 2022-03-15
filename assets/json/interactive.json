@@ -15,7 +15,8 @@
       "Y": 3,
       "Z": 2
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "intera2",
@@ -33,7 +34,8 @@
       "Y": 7,
       "Z": 2
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "intera3",
@@ -51,7 +53,8 @@
       "Y": 2,
       "Z": 3
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "intera4",
@@ -69,7 +72,8 @@
       "Y": 2,
       "Z": 3
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "intera5",
@@ -87,7 +91,8 @@
       "Y": 4,
       "Z": 1
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "intera6",
@@ -105,7 +110,8 @@
       "Y": 4,
       "Z": 1
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "intera7",
@@ -123,7 +129,8 @@
       "Y": 2,
       "Z": 3
     },
-    "Flammable": true
+    "Flammable": true,
+    "IsCreative": false
   },
   {
     "Id": "intera8",
@@ -141,7 +148,8 @@
       "Y": 8,
       "Z": 5
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "intera9",
@@ -159,7 +167,8 @@
       "Y": 1,
       "Z": 4
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "intera10",
@@ -177,7 +186,8 @@
       "Y": 1,
       "Z": 7
     },
-    "Flammable": true
+    "Flammable": true,
+    "IsCreative": false
   },
   {
     "Id": "intera11",
@@ -194,7 +204,8 @@
       "Diameter": 1,
       "Depth": 1
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "intera12",
@@ -211,7 +222,8 @@
       "Diameter": 1,
       "Depth": 2
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": true
   },
   {
     "Id": "intera13",
@@ -228,7 +240,8 @@
       "Diameter": 1,
       "Depth": 3
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": true
   },
   {
     "Id": "intera14",
@@ -246,7 +259,8 @@
       "Y": 4,
       "Z": 6
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": true
   },
   {
     "Id": "intera15",
@@ -264,7 +278,8 @@
       "Y": 4,
       "Z": 4
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": true
   },
   {
     "Id": "intera16",
@@ -282,7 +297,8 @@
       "Y": 4,
       "Z": 5
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": true
   },
   {
     "Id": "intera17",
@@ -300,7 +316,8 @@
       "Y": 4,
       "Z": 3
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": true
   },
   {
     "Id": "intera18",
@@ -318,7 +335,8 @@
       "Y": 4,
       "Z": 3
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "intera19",
@@ -336,7 +354,8 @@
       "Y": 2,
       "Z": 2
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": true
   },
   {
     "Id": "intera20",
@@ -354,7 +373,8 @@
       "Y": 2,
       "Z": 3
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": true
   },
   {
     "Id": "intera21",
@@ -372,7 +392,8 @@
       "Y": 2,
       "Z": 4
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": true
   },
   {
     "Id": "intera22",
@@ -390,7 +411,8 @@
       "Y": 1,
       "Z": 1
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": true
   },
   {
     "Id": "intera23",
@@ -408,7 +430,8 @@
       "Y": 1,
       "Z": 1
     },
-    "Flammable": true
+    "Flammable": true,
+    "IsCreative": false
   },
   {
     "Id": "intera24",
@@ -426,7 +449,8 @@
       "Y": 1,
       "Z": 1
     },
-    "Flammable": true
+    "Flammable": true,
+    "IsCreative": false
   },
   {
     "Id": "intera25",
@@ -444,7 +468,8 @@
       "Y": 1,
       "Z": 1
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": true
   },
   {
     "Id": "intera26",
@@ -462,7 +487,8 @@
       "Y": 2,
       "Z": 1
     },
-    "Flammable": true
+    "Flammable": true,
+    "IsCreative": false
   },
   {
     "Id": "intera27",
@@ -480,7 +506,8 @@
       "Y": 1,
       "Z": 1
     },
-    "Flammable": true
+    "Flammable": true,
+    "IsCreative": false
   },
   {
     "Id": "intera28",
@@ -498,7 +525,8 @@
       "Y": 1,
       "Z": 1
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "intera29",
@@ -516,7 +544,8 @@
       "Y": 2,
       "Z": 1
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "intera30",
@@ -534,7 +563,8 @@
       "Y": 2,
       "Z": 2
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "intera31",
@@ -552,7 +582,8 @@
       "Y": 2,
       "Z": 2
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "intera32",
@@ -570,7 +601,8 @@
       "Y": 2,
       "Z": 2
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "intera33",
@@ -588,7 +620,8 @@
       "Y": 2,
       "Z": 2
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "intera34",
@@ -606,7 +639,8 @@
       "Y": 3,
       "Z": 7
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "intera35",
@@ -624,7 +658,8 @@
       "Y": 1,
       "Z": 1
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": true
   },
   {
     "Id": "intera36",
@@ -642,7 +677,8 @@
       "Y": 4,
       "Z": 2
     },
-    "Flammable": true
+    "Flammable": true,
+    "IsCreative": false
   },
   {
     "Id": "intera37",
@@ -660,7 +696,8 @@
       "Y": 1,
       "Z": 4
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": true
   },
   {
     "Id": "intera38",
@@ -678,7 +715,8 @@
       "Y": 2,
       "Z": 2
     },
-    "Flammable": true
+    "Flammable": true,
+    "IsCreative": false
   },
   {
     "Id": "intera39",
@@ -696,6 +734,7 @@
       "Y": 4,
       "Z": 3
     },
-    "Flammable": true
+    "Flammable": true,
+    "IsCreative": false
   }
 ]

@@ -15,7 +15,8 @@
       "Y": 2,
       "Z": 1
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "surv2",
@@ -33,7 +34,8 @@
       "Y": 6,
       "Z": 5
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "surv10",
@@ -51,7 +53,8 @@
       "Y": 3,
       "Z": 1
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "surv11",
@@ -69,7 +72,8 @@
       "Y": 2,
       "Z": 1
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "surv13",
@@ -87,7 +91,8 @@
       "Y": 4,
       "Z": 1
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "surv14",
@@ -105,7 +110,8 @@
       "Y": 1,
       "Z": 2
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "surv19",
@@ -123,7 +129,8 @@
       "Y": 11,
       "Z": 3
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "surv20",
@@ -141,7 +148,8 @@
       "Y": 10,
       "Z": 1
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "surv21",
@@ -159,7 +167,8 @@
       "Y": 12,
       "Z": 2
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "surv22",
@@ -176,7 +185,8 @@
       "Diameter": 2,
       "Depth": 4
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "surv25",
@@ -194,7 +204,8 @@
       "Y": 6,
       "Z": 3
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "surv26",
@@ -207,7 +218,8 @@
       "Friction": 3,
       "Buoyancy": 8
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "surv28",
@@ -225,7 +237,8 @@
       "Y": 6,
       "Z": 4
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "surv30",
@@ -242,7 +255,8 @@
       "Diameter": 2,
       "Depth": 4
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "surv31",
@@ -260,6 +274,7 @@
       "Y": 9,
       "Z": 10
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   }
 ]

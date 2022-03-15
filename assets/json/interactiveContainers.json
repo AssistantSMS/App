@@ -15,7 +15,8 @@
       "Y": 3,
       "Z": 3
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "interc2",
@@ -33,7 +34,8 @@
       "Y": 3,
       "Z": 3
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "interc3",
@@ -51,6 +53,7 @@
       "Y": 3,
       "Z": 3
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   }
 ]

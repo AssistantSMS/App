@@ -1,0 +1,30 @@
+[
+  {
+    "Id": "char1",
+    "Title": "Capsule de Totebot vert"
+  },
+  {
+    "Id": "char2",
+    "Title": "Capsule de Haybot"
+  },
+  {
+    "Id": "char3",
+    "Title": "Capsule de Tapebot"
+  },
+  {
+    "Id": "char4",
+    "Title": "Capsule de Tapebot rouge"
+  },
+  {
+    "Id": "char5",
+    "Title": "Capsule de Farmbot"
+  },
+  {
+    "Id": "char6",
+    "Title": "Capsule de Glowb"
+  },
+  {
+    "Id": "char7",
+    "Title": "Capsule de Woc"
+  }
+]

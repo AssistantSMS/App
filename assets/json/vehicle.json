@@ -15,7 +15,8 @@
       "Y": 1,
       "Z": 1
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "veh2",
@@ -33,7 +34,8 @@
       "Y": 1,
       "Z": 1
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "veh3",
@@ -50,7 +52,8 @@
       "Diameter": 1,
       "Depth": 2
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "veh4",
@@ -68,7 +71,8 @@
       "Y": 2,
       "Z": 2
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "veh5",
@@ -86,7 +90,8 @@
       "Y": 1,
       "Z": 1
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "veh6",
@@ -103,7 +108,8 @@
       "Diameter": 3,
       "Depth": 1
     },
-    "Flammable": true
+    "Flammable": true,
+    "IsCreative": false
   },
   {
     "Id": "veh7",
@@ -120,6 +126,7 @@
       "Diameter": 5,
       "Depth": 2
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   }
 ]

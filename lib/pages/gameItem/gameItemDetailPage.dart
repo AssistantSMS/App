@@ -1,5 +1,4 @@
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
-import 'package:avatar_glow/avatar_glow.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
 
@@ -271,15 +270,15 @@ class GameItemDetailPage extends StatelessWidget {
                 int quantity = int.tryParse(quantityString);
                 if (quantity == null) return;
                 viewModel.addToCart(gameItem.id, quantity);
-                getSnackbar().showSnackbar(
-                  context,
-                  LocaleKey.addedToCart,
-                  onPositiveText: getTranslations().fromKey(LocaleKey.cart),
-                  onPositive: () => getNavigation().navigateAwayFromHomeAsync(
-                    context,
-                    navigateToNamed: Routes.cart,
-                  ),
-                );
+                // getSnackbar().showSnackbar(
+                //   context,
+                //   LocaleKey.addedToCart,
+                //   onPositiveText: getTranslations().fromKey(LocaleKey.cart),
+                //   onPositive: () => getNavigation().navigateAwayFromHomeAsync(
+                //     context,
+                //     navigateToNamed: Routes.cart,
+                //   ),
+                // );
               });
             },
           ),

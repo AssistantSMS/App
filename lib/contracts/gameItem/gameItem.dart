@@ -23,6 +23,7 @@ class GameItem {
     this.box,
     this.cylinder,
     this.flammable,
+    this.isCreative,
     this.features,
     this.upgrade,
     this.edible,
@@ -37,6 +38,7 @@ class GameItem {
   Rating rating;
   Box box;
   Cylinder cylinder;
+  bool isCreative;
   bool flammable;
   Upgrade upgrade;
   Edible edible;
@@ -54,6 +56,7 @@ class GameItem {
         box: baseItem.box,
         cylinder: baseItem.cylinder,
         flammable: baseItem.flammable,
+        isCreative: baseItem.isCreative,
         features: baseItem.features,
         upgrade: baseItem.upgrade,
         edible: baseItem.edible,

@@ -1,0 +1,30 @@
+[
+  {
+    "Id": "char1",
+    "Title": "Cápsula de transportabot verde"
+  },
+  {
+    "Id": "char2",
+    "Title": "Cápsula de horquetabot"
+  },
+  {
+    "Id": "char3",
+    "Title": "Cápsula de cintabot"
+  },
+  {
+    "Id": "char4",
+    "Title": "Cápsula de cintabot rojo"
+  },
+  {
+    "Id": "char5",
+    "Title": "Cápsula de agribot"
+  },
+  {
+    "Id": "char6",
+    "Title": "Cápsula de lumibicho"
+  },
+  {
+    "Id": "char7",
+    "Title": "Cápsula de woc"
+  }
+]

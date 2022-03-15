@@ -1,0 +1,30 @@
+[
+  {
+    "Id": "char1",
+    "Title": "Zielona kapsuła Totebota"
+  },
+  {
+    "Id": "char2",
+    "Title": "Kapsuła Haybota"
+  },
+  {
+    "Id": "char3",
+    "Title": "Kapsuła Tapebota"
+  },
+  {
+    "Id": "char4",
+    "Title": "Czerwona kapsuła Tapebota"
+  },
+  {
+    "Id": "char5",
+    "Title": "Kapsuła Farmbota"
+  },
+  {
+    "Id": "char6",
+    "Title": "Kapsuła świetlika"
+  },
+  {
+    "Id": "char7",
+    "Title": "Kapsuła aworka"
+  }
+]

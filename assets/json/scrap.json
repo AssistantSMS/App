@@ -16,6 +16,7 @@
       "Z": 6
     },
     "Flammable": true,
+    "IsCreative": false,
     "Features": [
       {
         "LocaleKey": "maxConnections",
@@ -39,7 +40,8 @@
       "Y": 4,
       "Z": 4
     },
-    "Flammable": true
+    "Flammable": true,
+    "IsCreative": false
   },
   {
     "Id": "scrap3",
@@ -57,7 +59,8 @@
       "Y": 3,
       "Z": 1
     },
-    "Flammable": true
+    "Flammable": true,
+    "IsCreative": false
   },
   {
     "Id": "scrap4",
@@ -76,6 +79,7 @@
       "Z": 2
     },
     "Flammable": true,
+    "IsCreative": false,
     "Features": [
       {
         "LocaleKey": "gearCount",

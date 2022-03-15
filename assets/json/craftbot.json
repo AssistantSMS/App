@@ -15,6 +15,7 @@
       "Y": 8,
       "Z": 9
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   }
 ]

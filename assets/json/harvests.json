@@ -15,7 +15,8 @@
       "Y": 8,
       "Z": 1
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "harv2",
@@ -33,7 +34,8 @@
       "Y": 8,
       "Z": 1
     },
-    "Flammable": true
+    "Flammable": true,
+    "IsCreative": false
   },
   {
     "Id": "harv3",
@@ -51,7 +53,8 @@
       "Y": 8,
       "Z": 1
     },
-    "Flammable": true
+    "Flammable": true,
+    "IsCreative": false
   },
   {
     "Id": "harv4",
@@ -69,7 +72,8 @@
       "Y": 8,
       "Z": 1
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "harv5",
@@ -87,6 +91,7 @@
       "Y": 8,
       "Z": 1
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   }
 ]

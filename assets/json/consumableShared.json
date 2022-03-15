@@ -15,7 +15,8 @@
       "Y": 2,
       "Z": 2
     },
-    "Flammable": true
+    "Flammable": true,
+    "IsCreative": false
   },
   {
     "Id": "consshare2",
@@ -33,7 +34,8 @@
       "Y": 2,
       "Z": 2
     },
-    "Flammable": true
+    "Flammable": true,
+    "IsCreative": false
   },
   {
     "Id": "consshare3",
@@ -51,7 +53,8 @@
       "Y": 2,
       "Z": 2
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "consshare4",
@@ -69,7 +72,8 @@
       "Y": 2,
       "Z": 2
     },
-    "Flammable": true
+    "Flammable": true,
+    "IsCreative": false
   },
   {
     "Id": "consshare5",
@@ -87,7 +91,8 @@
       "Y": 2,
       "Z": 2
     },
-    "Flammable": true
+    "Flammable": true,
+    "IsCreative": false
   },
   {
     "Id": "consshare6",
@@ -104,7 +109,8 @@
       "Diameter": 1,
       "Depth": 1
     },
-    "Flammable": true
+    "Flammable": true,
+    "IsCreative": false
   },
   {
     "Id": "consshare7",
@@ -121,6 +127,7 @@
       "Diameter": 1,
       "Depth": 1
     },
-    "Flammable": true
+    "Flammable": true,
+    "IsCreative": false
   }
 ]

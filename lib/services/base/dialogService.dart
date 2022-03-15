@@ -46,7 +46,7 @@ class DialogService implements IDialogService {
           ),
         ),
         onPressed: () {
-          Navigator.of(context).pop();
+          getNavigation().pop(context);
           if (onTap != null) onTap();
         },
       );
@@ -62,7 +62,7 @@ class DialogService implements IDialogService {
           ),
         ),
         onPressed: () {
-          Navigator.of(context).pop();
+          getNavigation().pop(context);
           if (onTap != null) onTap();
         },
       );
@@ -78,13 +78,13 @@ class DialogService implements IDialogService {
           color: getTheme().getIsDark(context) ? Colors.black : Colors.white,
         ),
       ),
-      onPressed: () => Navigator.of(context).pop(),
+      onPressed: () => getNavigation().pop(context),
     ));
 
     void Function(String value) tempOnChange;
     tempOnChange = (String value) {
       if (onSuccess != null) onSuccess(value);
-      Navigator.of(context).pop();
+      getNavigation().pop(context);
     };
 
     showSimpleDialog(
@@ -124,7 +124,7 @@ class DialogService implements IDialogService {
           color: getTheme().getIsDark(context) ? Colors.black : Colors.white,
         ),
       ),
-      onPressed: () => Navigator.of(context).pop(),
+      onPressed: () => getNavigation().pop(context),
     ));
     buttons.add(DialogButton(
       child: Text(
@@ -135,7 +135,7 @@ class DialogService implements IDialogService {
       ),
       onPressed: () {
         onSuccess(controller.text);
-        Navigator.of(context).pop();
+        getNavigation().pop(context);
       },
     ));
 
@@ -177,9 +177,7 @@ class DialogService implements IDialogService {
               FilteringTextInputFormatter.digitsOnly
             ],
           ),
-          Row(
-              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-              children: inputs)
+          Wrap(alignment: WrapAlignment.spaceEvenly, children: inputs),
         ],
       ),
       buttons: buttons,
@@ -197,7 +195,7 @@ class DialogService implements IDialogService {
           color: getTheme().getIsDark(context) ? Colors.black : Colors.white,
         ),
       ),
-      onPressed: () => Navigator.of(context).pop(),
+      onPressed: () => getNavigation().pop(context),
     ));
 
     showSimpleDialog(
@@ -209,7 +207,7 @@ class DialogService implements IDialogService {
         children: <Widget>[
           starRating(context, currentRating, size: 64, onTap: (int value) {
             onSuccess(value);
-            Navigator.of(context).pop();
+            getNavigation().pop(context);
           })
         ],
       ),

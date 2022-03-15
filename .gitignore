@@ -46,3 +46,4 @@ android/assistantScrapMechanic.jks
 /android/releaseKey.properties
 /android/app/google-services.json
 /lib/env.dart
+ios/build/*

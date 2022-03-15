@@ -15,7 +15,8 @@
       "Y": 1,
       "Z": 2
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "constr2",
@@ -33,7 +34,8 @@
       "Y": 2,
       "Z": 1
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "constr3",
@@ -51,7 +53,8 @@
       "Y": 3,
       "Z": 1
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "constr4",
@@ -69,7 +72,8 @@
       "Y": 2,
       "Z": 1
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "constr5",
@@ -87,7 +91,8 @@
       "Y": 5,
       "Z": 2
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "constr6",
@@ -104,7 +109,8 @@
       "Diameter": 5,
       "Depth": 3
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "constr7",
@@ -122,7 +128,8 @@
       "Y": 2,
       "Z": 6
     },
-    "Flammable": true
+    "Flammable": true,
+    "IsCreative": false
   },
   {
     "Id": "constr8",
@@ -138,7 +145,8 @@
       "Diameter": 2,
       "Depth": 8
     },
-    "Flammable": true
+    "Flammable": true,
+    "IsCreative": false
   },
   {
     "Id": "constr9",
@@ -155,7 +163,8 @@
       "Y": 4,
       "Z": 1
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "constr10",
@@ -173,7 +182,8 @@
       "Y": 6,
       "Z": 1
     },
-    "Flammable": true
+    "Flammable": true,
+    "IsCreative": false
   },
   {
     "Id": "constr11",
@@ -191,7 +201,8 @@
       "Y": 8,
       "Z": 1
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "constr12",
@@ -209,7 +220,8 @@
       "Y": 1,
       "Z": 1
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "constr13",
@@ -227,7 +239,8 @@
       "Y": 6,
       "Z": 1
     },
-    "Flammable": true
+    "Flammable": true,
+    "IsCreative": false
   },
   {
     "Id": "constr14",
@@ -245,7 +258,8 @@
       "Y": 1,
       "Z": 8
     },
-    "Flammable": true
+    "Flammable": true,
+    "IsCreative": false
   },
   {
     "Id": "constr15",
@@ -263,7 +277,8 @@
       "Y": 1,
       "Z": 2
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "constr16",
@@ -281,7 +296,8 @@
       "Y": 1,
       "Z": 6
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "constr17",
@@ -299,7 +315,8 @@
       "Y": 1,
       "Z": 6
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "constr18",
@@ -317,7 +334,8 @@
       "Y": 4,
       "Z": 3
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "Id": "constr19",
@@ -334,7 +352,8 @@
       "Diameter": 2,
       "Depth": 2
     },
-    "Flammable": true
+    "Flammable": true,
+    "IsCreative": false
   },
   {
     "Id": "constr20",
@@ -352,6 +371,7 @@
       "Y": 1,
       "Z": 1
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   }
 ]

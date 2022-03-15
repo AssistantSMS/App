@@ -1,0 +1,30 @@
+[
+  {
+    "Id": "char1",
+    "Title": "Grüne Musikbot-Kapsel"
+  },
+  {
+    "Id": "char2",
+    "Title": "Heubot-Kapsel"
+  },
+  {
+    "Id": "char3",
+    "Title": "Tapebot-Kapsel"
+  },
+  {
+    "Id": "char4",
+    "Title": "Rote Tapebot-Kapsel"
+  },
+  {
+    "Id": "char5",
+    "Title": "Farmbot-Kapsel"
+  },
+  {
+    "Id": "char6",
+    "Title": "Glühwurm-Kapsel"
+  },
+  {
+    "Id": "char7",
+    "Title": "Woc-Kapsel"
+  }
+]

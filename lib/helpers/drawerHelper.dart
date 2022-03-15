@@ -81,7 +81,9 @@ List<Widget> getDrawerItems(context) {
       adaptiveBottomModalSheet(
         context,
         hasRoundedCorners: true,
-        builder: (BuildContext innerC) => AssistantAppsModalBottomSheet(),
+        builder: (BuildContext innerC) => AssistantAppsModalBottomSheet(
+          appType: AssistantAppType.SMS,
+        ),
       );
     },
   ));

@@ -46,7 +46,8 @@ dependencies:
 
   # Misc
   breakpoint: 1.2.0
-  logger: 1.1.0
+  talker: 0.8.0
+  talker_flutter: 0.8.0
   shared_preferences: 2.0.13
   shared_preferences_web: 2.0.3
   shared_preferences_windows: 2.1.0

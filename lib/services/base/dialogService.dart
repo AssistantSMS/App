@@ -177,9 +177,7 @@ class DialogService implements IDialogService {
               FilteringTextInputFormatter.digitsOnly
             ],
           ),
-          Row(
-              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-              children: inputs)
+          Wrap(alignment: WrapAlignment.spaceEvenly, children: inputs),
         ],
       ),
       buttons: buttons,

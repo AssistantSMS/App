@@ -12,7 +12,7 @@ Widget gameItemTilePresenter(
   );
 
   if (gameItem.isCreative) {
-    return wrapInNewBanner(context, LocaleKey.craftable, tile);
+    return wrapInNewBanner(context, LocaleKey.creative, tile);
   }
 
   return tile;

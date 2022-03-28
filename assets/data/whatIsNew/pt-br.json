@@ -1,5 +1,16 @@
 [
   {
+    "guid": "8e27db59-4601-4952-80e9-3abe8cecf6cf",
+    "appGuid": "dfe0dbc7-8df4-47fb-a5a5-49af1937c4e2",
+    "markdown": "- Display which DressBot box an item comes from\n- Package updates\n- Navbar upgrade\n- Add developer details button",
+    "buildName": "1.7.1",
+    "buildNumber": 45,
+    "platforms": [
+      0
+    ],
+    "activeDate": "2022-03-20T18:00:00Z"
+  },
+  {
     "guid": "8f0fe9ab-95d9-4029-aef1-f61cd0a1fda8",
     "appGuid": "dfe0dbc7-8df4-47fb-a5a5-49af1937c4e2",
     "markdown": "- Added Capsule items\n- Fix scrolling on Raid Calculator\n- Add edible stats \n- Add Packing recipes\n- Fix upgrade item relationships",

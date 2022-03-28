@@ -2,3 +2,4 @@
 - Package updates
 - Navbar upgrade
 - Add developer details button
+- Fix creative item banners

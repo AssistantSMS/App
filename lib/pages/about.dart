@@ -45,11 +45,13 @@ class AboutPage extends StatelessWidget {
 
     widgets.add(emptySpace3x());
     widgets.add(positiveButton(
+      context,
       title: getTranslations().fromKey(LocaleKey.kurtsBlog),
       eventString: AnalyticsEvent.externalLinkPersonalBlog,
       onPress: () => launchExternalURL(ExternalUrls.personalBlog),
     ));
     widgets.add(positiveButton(
+      context,
       title: "Kurt Lourens",
       eventString: AnalyticsEvent.externalLinkCVWebsite,
       onPress: () => launchExternalURL(ExternalUrls.cvWebsite),

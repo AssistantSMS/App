@@ -13,7 +13,6 @@ import '../services/base/analyticsService.dart';
 import '../services/base/baseWidgetService.dart';
 import '../services/base/dialogService.dart';
 import '../services/base/loadingWidgetService.dart';
-import '../services/base/loggingService.dart';
 import '../services/base/navigationService.dart';
 import '../services/base/pathService.dart';
 import '../services/base/themeService.dart';
@@ -32,7 +31,6 @@ void initDependencyInjection(EnvironmentSettings _env) {
   // AssistantApps
   initBaseDependencyInjection(
     _env.toAssistantApps(),
-    logger: LoggerService(),
     analytics: AnalyticsService(),
     theme: ThemeService(),
     path: PathService(),

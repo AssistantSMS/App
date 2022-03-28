@@ -4,7 +4,6 @@ import 'package:flutter_redux/flutter_redux.dart';
 
 import '../components/bottomNavbar.dart';
 import '../components/dialogs/prettyDialog.dart';
-import '../components/modalBottomSheet/logsModalBottomSheet.dart';
 import '../components/tilePresenters/settingTilePresenter.dart';
 import '../constants/AnalyticsEvent.dart';
 import '../constants/AppImage.dart';
@@ -79,16 +78,7 @@ class SettingsPage extends StatelessWidget {
       headingSettingTilePresenter(getTranslations().fromKey(LocaleKey.other)),
     );
 
-    widgets.add(linkSettingTilePresenter(
-      context,
-      'Logs',
-      icon: Icons.code,
-      onTap: () => adaptiveBottomModalSheet(
-        context,
-        hasRoundedCorners: true,
-        builder: (BuildContext innerContext) => const LogsModalBottomSheet(),
-      ),
-    ));
+    widgets.add(logTilePresenter(context));
 
     widgets.add(linkSettingTilePresenter(
       context,

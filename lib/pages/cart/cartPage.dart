@@ -106,6 +106,7 @@ class CartPage extends StatelessWidget {
     if (widgets.isNotEmpty) {
       widgets.add(Container(
         child: positiveButton(
+          context,
           title: getTranslations().fromKey(LocaleKey.viewAllRequiredItems),
           onPress: () async => await getNavigation().navigateAsync(
             context,

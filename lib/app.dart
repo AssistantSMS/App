@@ -23,13 +23,12 @@ class AssistantSMS extends StatefulWidget {
 }
 
 class _AssistantSMSState extends State<AssistantSMS> {
-  final EnvironmentSettings _env;
   Store<AppState> store;
   TranslationsDelegate _newLocaleDelegate;
 
-  _AssistantSMSState(this._env) {
+  _AssistantSMSState(EnvironmentSettings env) {
     AppRouter.router = CustomRouter.configureRoutes();
-    initDependencyInjection(_env);
+    initDependencyInjection(env);
     initReduxState();
     if (kReleaseMode) {
       // initFirebaseAdMob();
@@ -73,9 +72,7 @@ class _AssistantSMSState extends State<AssistantSMS> {
       child: StoreConnector<AppState, AppViewModel>(
         converter: (store) => AppViewModel.fromStore(store),
         builder: (_, viewModel) => AdaptiveAppShell(
-          newLocaleDelegate: TranslationsDelegate(
-            newLocale: Locale(viewModel.selectedLanguage),
-          ),
+          newLocaleDelegate: _newLocaleDelegate,
         ),
       ),
     );

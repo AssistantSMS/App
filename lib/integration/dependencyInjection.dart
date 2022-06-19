@@ -5,7 +5,6 @@ import '../env/environmentSettings.dart';
 import '../helpers/repositoryHelper.dart';
 import '../repository/api/ContributorApiRepository.dart';
 import '../repository/api/interface/IContributorApiRepository.dart';
-import '../repository/interface/ILocalStorageRepository.dart';
 import '../services/base/analyticsService.dart';
 import '../services/base/baseWidgetService.dart';
 import '../services/base/dialogService.dart';
@@ -16,7 +15,6 @@ import '../services/base/themeService.dart';
 import '../services/json/devDetailJsonService.dart';
 import '../services/json/gameItemJsonService.dart';
 import '../services/json/interface/IGameItemJsonService.dart';
-import '../services/json/interface/ILocalStorageService.dart';
 import '../services/json/interface/IRecipeJsonService.dart';
 import '../services/json/packingJsonService.dart';
 import '../services/json/recipeJsonService.dart';
@@ -67,11 +65,9 @@ IGameItemJsonService getGameItemRepo(LocaleKey key) =>
     getIt<IGameItemJsonService>(param1: key, param2: 'di');
 
 //Repository
-ILocalStorageRepository getStorageRepo() => getIt<ILocalStorageRepository>();
 IContributorApiRepository getContributorApiRepo() =>
     getIt<IContributorApiRepository>();
 
 //Service
 PackingJsonService getPackingService() => getIt<PackingJsonService>();
 DevDetailJsonService getDevDetailService() => getIt<DevDetailJsonService>();
-ILocalStorageService getStorageService() => getIt<ILocalStorageService>();

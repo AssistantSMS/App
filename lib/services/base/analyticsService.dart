@@ -6,6 +6,8 @@ import 'package:flutter/foundation.dart';
 class AnalyticsService implements IAnalyticsService {
   FirebaseAnalytics analytics;
   AnalyticsService() {
+    if (isWindows) return;
+
     Firebase.initializeApp().then((_) {
       analytics = FirebaseAnalytics.instance;
     });

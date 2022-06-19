@@ -266,7 +266,7 @@ class GameItemDetailPage extends StatelessWidget {
             onPressed: () {
               getDialog().showQuantityDialog(context, controller,
                   title: getTranslations().fromKey(LocaleKey.quantity),
-                  onSuccess: (String quantityString) {
+                  onSuccess: (BuildContext dialogCtx, String quantityString) {
                 int quantity = int.tryParse(quantityString);
                 if (quantity == null) return;
                 viewModel.addToCart(gameItem.id, quantity);

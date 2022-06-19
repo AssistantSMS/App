@@ -1,12 +1,12 @@
 import 'package:after_layout/after_layout.dart';
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
+import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:theme_mode_handler/theme_mode_handler.dart';
+import 'package:adaptive_theme/adaptive_theme.dart';
 import 'package:universal_html/html.dart' as html;
 
 import '../../env/appRouter.dart';
-import '../../integration/themeManager.dart';
 import '../../theme/themes.dart';
 
 class AdaptiveAppShell extends StatefulWidget {
@@ -42,15 +42,31 @@ class _AppShellWidget extends State<AdaptiveAppShell>
     ];
     List<Locale> supportedLangs = getLanguage().supportedLocales();
 
-    return ThemeModeHandler(
-      key: const Key('ThemeModeHandler'),
-      manager: ThemeManager(),
-      builder: (ThemeMode themeMode) => MaterialApp(
-        key: Key(themeMode.name),
+    ScrollBehavior scrollBehavior;
+    if (isWindows) {
+      scrollBehavior = const MaterialScrollBehavior().copyWith(
+        dragDevices: {
+          PointerDeviceKind.mouse,
+          PointerDeviceKind.touch,
+          PointerDeviceKind.stylus,
+          PointerDeviceKind.unknown
+        },
+      );
+    }
+
+    return AdaptiveTheme(
+      initial: AdaptiveThemeMode.dark,
+      light: getDynamicTheme(
+        Brightness.light,
+      ),
+      dark: getDynamicTheme(
+        Brightness.dark,
+      ),
+      builder: (ThemeData theme, ThemeData darkTheme) => MaterialApp(
         title: 'Assistant for Scrap Mechanic',
-        themeMode: themeMode,
+        scrollBehavior: scrollBehavior,
         darkTheme: getDynamicTheme(Brightness.dark),
-        theme: getDynamicTheme(Brightness.light),
+        theme: theme,
         onGenerateRoute: AppRouter.router.generator,
         localizationsDelegates: localizationsDelegates,
         supportedLocales: supportedLangs,

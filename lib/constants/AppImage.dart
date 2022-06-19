@@ -1,6 +1,7 @@
 class AppImage {
   static const String imageAssetPathPrefix = 'assets/img';
   static const String base = '$imageAssetPathPrefix/';
+  static const String unknown = base + 'unknown.png';
   static const String rating = 'rating/';
   static const String tile = 'tile/';
   static const String raid = 'raid/';

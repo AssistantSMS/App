@@ -4,11 +4,19 @@ import 'package:flutter/material.dart';
 import '../../contracts/gameItem/gameItem.dart';
 
 Widget gameItemTilePresenter(
-    BuildContext context, GameItem gameItem, int index) {
+  BuildContext context,
+  GameItem gameItem,
+  int index,
+) {
+  String title = gameItem.title;
+  if (gameItem.title.isEmpty) {
+    title = getTranslations().fromKey(LocaleKey.unknown);
+  }
+
   ListTile tile = genericListTile(
     context,
     leadingImage: gameItem.icon,
-    name: gameItem.title,
+    name: title,
   );
 
   if (gameItem.isCreative) {

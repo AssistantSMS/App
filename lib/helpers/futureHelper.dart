@@ -169,7 +169,11 @@ Future<ResultWithValue<List<GameItem>>> getAllGameItemFromLocaleKeys(
   await Future.wait(tasks);
 
   getLog().i('Number of GameItem items: ${results.length}');
-  var sorted = results.sortedBy((recipe) => recipe.title).toList();
+  List<GameItem> sorted = results
+      .sortedBy((recipe) => (recipe.title.isNotEmpty)
+          ? recipe.title
+          : getTranslations().fromKey(LocaleKey.unknown))
+      .toList();
 
   return ResultWithValue(results.isNotEmpty, sorted, '');
 }

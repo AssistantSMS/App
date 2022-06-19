@@ -1308,6 +1308,113 @@
     ]
   },
   {
+    "AppId": "blk43",
+    "Details": [
+      {
+        "Name": "GameName",
+        "Value": "blk_challenge01"
+      },
+      {
+        "Name": "Uuid",
+        "Value": "491b1d4f-3a00-403e-b64f-f9eb7bda7683"
+      },
+      {
+        "Name": "Color",
+        "Value": "606469"
+      },
+      {
+        "Name": "Tiling",
+        "Value": "16"
+      },
+      {
+        "Name": "PhysicsMaterial",
+        "Value": "Metal"
+      },
+      {
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "Density",
+        "Value": "250,0"
+      }
+    ]
+  },
+  {
+    "AppId": "blk44",
+    "Details": [
+      {
+        "Name": "GameName",
+        "Value": "blk_challenge02"
+      },
+      {
+        "Name": "Uuid",
+        "Value": "cad3a585-2686-40e2-8eb1-02f5df20a021"
+      },
+      {
+        "Name": "Color",
+        "Value": "303235"
+      },
+      {
+        "Name": "Tiling",
+        "Value": "16"
+      },
+      {
+        "Name": "PhysicsMaterial",
+        "Value": "Metal"
+      },
+      {
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "Density",
+        "Value": "250,0"
+      }
+    ]
+  },
+  {
+    "AppId": "blk45",
+    "Details": [
+      {
+        "Name": "GameName",
+        "Value": "blk_challengeglass"
+      },
+      {
+        "Name": "Uuid",
+        "Value": "17baf3ba-0b40-4eef-9823-119059d5c12d"
+      },
+      {
+        "Name": "Color",
+        "Value": "e4f8ff"
+      },
+      {
+        "Name": "Tiling",
+        "Value": "8"
+      },
+      {
+        "Name": "PhysicsMaterial",
+        "Value": "Glass"
+      },
+      {
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
+      }
+    ]
+  },
+  {
     "AppId": "blk5",
     "Details": [
       {
@@ -9208,6 +9315,39 @@
     "Details": [
       {
         "Name": "GameName",
+        "Value": "obj_interactive_builderguideblock"
+      },
+      {
+        "Name": "Uuid",
+        "Value": "e83a22c5-8783-413f-a199-46bc30ca8dac"
+      },
+      {
+        "Name": "Color",
+        "Value": "ca372d00"
+      },
+      {
+        "Name": "PhysicsMaterial",
+        "Value": "Metal"
+      },
+      {
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "Density",
+        "Value": "500,0"
+      }
+    ]
+  },
+  {
+    "AppId": "intera12",
+    "Details": [
+      {
+        "Name": "GameName",
         "Value": "jnt_bearing"
       },
       {
@@ -9233,7 +9373,7 @@
     ]
   },
   {
-    "AppId": "intera12",
+    "AppId": "intera13",
     "Details": [
       {
         "Name": "GameName",
@@ -9262,7 +9402,7 @@
     ]
   },
   {
-    "AppId": "intera13",
+    "AppId": "intera14",
     "Details": [
       {
         "Name": "GameName",
@@ -9291,7 +9431,7 @@
     ]
   },
   {
-    "AppId": "intera14",
+    "AppId": "intera15",
     "Details": [
       {
         "Name": "GameName",
@@ -9320,7 +9460,7 @@
     ]
   },
   {
-    "AppId": "intera15",
+    "AppId": "intera16",
     "Details": [
       {
         "Name": "GameName",
@@ -9349,7 +9489,7 @@
     ]
   },
   {
-    "AppId": "intera16",
+    "AppId": "intera17",
     "Details": [
       {
         "Name": "GameName",
@@ -9378,7 +9518,7 @@
     ]
   },
   {
-    "AppId": "intera17",
+    "AppId": "intera18",
     "Details": [
       {
         "Name": "GameName",
@@ -9403,11 +9543,15 @@
       {
         "Name": "IsCreative",
         "Value": "True"
+      },
+      {
+        "Name": "Density",
+        "Value": "250,0"
       }
     ]
   },
   {
-    "AppId": "intera18",
+    "AppId": "intera19",
     "Details": [
       {
         "Name": "GameName",
@@ -9432,35 +9576,6 @@
       {
         "Name": "IsCreative",
         "Value": "False"
-      }
-    ]
-  },
-  {
-    "AppId": "intera19",
-    "Details": [
-      {
-        "Name": "GameName",
-        "Value": "obj_interactive_gasengine_creative"
-      },
-      {
-        "Name": "Uuid",
-        "Value": "d5e36413-b3c1-4636-8447-3410c352ec7b"
-      },
-      {
-        "Name": "Color",
-        "Value": "df7f01"
-      },
-      {
-        "Name": "PhysicsMaterial",
-        "Value": "Mechanical"
-      },
-      {
-        "Name": "StackSize",
-        "Value": "0"
-      },
-      {
-        "Name": "IsCreative",
-        "Value": "True"
       }
     ]
   },
@@ -9498,6 +9613,39 @@
     "Details": [
       {
         "Name": "GameName",
+        "Value": "obj_interactive_gasengine_creative"
+      },
+      {
+        "Name": "Uuid",
+        "Value": "d5e36413-b3c1-4636-8447-3410c352ec7b"
+      },
+      {
+        "Name": "Color",
+        "Value": "df7f01"
+      },
+      {
+        "Name": "PhysicsMaterial",
+        "Value": "Mechanical"
+      },
+      {
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "True"
+      },
+      {
+        "Name": "Density",
+        "Value": "1250,0"
+      }
+    ]
+  },
+  {
+    "AppId": "intera21",
+    "Details": [
+      {
+        "Name": "GameName",
         "Value": "obj_interactive_electricengine_creative"
       },
       {
@@ -9519,11 +9667,15 @@
       {
         "Name": "IsCreative",
         "Value": "True"
+      },
+      {
+        "Name": "Density",
+        "Value": "1250,0"
       }
     ]
   },
   {
-    "AppId": "intera21",
+    "AppId": "intera22",
     "Details": [
       {
         "Name": "GameName",
@@ -9548,11 +9700,15 @@
       {
         "Name": "IsCreative",
         "Value": "True"
+      },
+      {
+        "Name": "Density",
+        "Value": "250,0"
       }
     ]
   },
   {
-    "AppId": "intera22",
+    "AppId": "intera23",
     "Details": [
       {
         "Name": "GameName",
@@ -9577,11 +9733,15 @@
       {
         "Name": "IsCreative",
         "Value": "True"
+      },
+      {
+        "Name": "Density",
+        "Value": "250,0"
       }
     ]
   },
   {
-    "AppId": "intera23",
+    "AppId": "intera24",
     "Details": [
       {
         "Name": "GameName",
@@ -9610,7 +9770,7 @@
     ]
   },
   {
-    "AppId": "intera24",
+    "AppId": "intera25",
     "Details": [
       {
         "Name": "GameName",
@@ -9639,7 +9799,7 @@
     ]
   },
   {
-    "AppId": "intera25",
+    "AppId": "intera26",
     "Details": [
       {
         "Name": "GameName",
@@ -9664,11 +9824,15 @@
       {
         "Name": "IsCreative",
         "Value": "True"
+      },
+      {
+        "Name": "Density",
+        "Value": "250,0"
       }
     ]
   },
   {
-    "AppId": "intera26",
+    "AppId": "intera27",
     "Details": [
       {
         "Name": "GameName",
@@ -9697,7 +9861,7 @@
     ]
   },
   {
-    "AppId": "intera27",
+    "AppId": "intera28",
     "Details": [
       {
         "Name": "GameName",
@@ -9726,7 +9890,7 @@
     ]
   },
   {
-    "AppId": "intera28",
+    "AppId": "intera29",
     "Details": [
       {
         "Name": "GameName",
@@ -9747,35 +9911,6 @@
       {
         "Name": "StackSize",
         "Value": "10"
-      },
-      {
-        "Name": "IsCreative",
-        "Value": "False"
-      }
-    ]
-  },
-  {
-    "AppId": "intera29",
-    "Details": [
-      {
-        "Name": "GameName",
-        "Value": "obj_interactive_timer"
-      },
-      {
-        "Name": "Uuid",
-        "Value": "8f7fd0e7-c46e-4944-a414-7ce2437bb30f"
-      },
-      {
-        "Name": "Color",
-        "Value": "df7f01"
-      },
-      {
-        "Name": "PhysicsMaterial",
-        "Value": "Mechanical"
-      },
-      {
-        "Name": "StackSize",
-        "Value": "5"
       },
       {
         "Name": "IsCreative",
@@ -9817,6 +9952,35 @@
     "Details": [
       {
         "Name": "GameName",
+        "Value": "obj_interactive_timer"
+      },
+      {
+        "Name": "Uuid",
+        "Value": "8f7fd0e7-c46e-4944-a414-7ce2437bb30f"
+      },
+      {
+        "Name": "Color",
+        "Value": "df7f01"
+      },
+      {
+        "Name": "PhysicsMaterial",
+        "Value": "Mechanical"
+      },
+      {
+        "Name": "StackSize",
+        "Value": "5"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
+      }
+    ]
+  },
+  {
+    "AppId": "intera31",
+    "Details": [
+      {
+        "Name": "GameName",
         "Value": "obj_interactive_robotbasshead"
       },
       {
@@ -9842,7 +10006,7 @@
     ]
   },
   {
-    "AppId": "intera31",
+    "AppId": "intera32",
     "Details": [
       {
         "Name": "GameName",
@@ -9871,7 +10035,7 @@
     ]
   },
   {
-    "AppId": "intera32",
+    "AppId": "intera33",
     "Details": [
       {
         "Name": "GameName",
@@ -9883,7 +10047,7 @@
       },
       {
         "Name": "Color",
-        "Value": "7f2418"
+        "Value": "cb0a00"
       },
       {
         "Name": "PhysicsMaterial",
@@ -9900,7 +10064,7 @@
     ]
   },
   {
-    "AppId": "intera33",
+    "AppId": "intera34",
     "Details": [
       {
         "Name": "GameName",
@@ -9929,7 +10093,7 @@
     ]
   },
   {
-    "AppId": "intera34",
+    "AppId": "intera35",
     "Details": [
       {
         "Name": "GameName",
@@ -9958,7 +10122,7 @@
     ]
   },
   {
-    "AppId": "intera35",
+    "AppId": "intera36",
     "Details": [
       {
         "Name": "GameName",
@@ -9987,7 +10151,7 @@
     ]
   },
   {
-    "AppId": "intera36",
+    "AppId": "intera37",
     "Details": [
       {
         "Name": "GameName",
@@ -10016,7 +10180,7 @@
     ]
   },
   {
-    "AppId": "intera37",
+    "AppId": "intera38",
     "Details": [
       {
         "Name": "GameName",
@@ -10041,35 +10205,10 @@
       {
         "Name": "IsCreative",
         "Value": "True"
-      }
-    ]
-  },
-  {
-    "AppId": "intera38",
-    "Details": [
-      {
-        "Name": "GameName",
-        "Value": "obj_interactive_propanetank_small"
       },
       {
-        "Name": "Uuid",
-        "Value": "8d3b98de-c981-4f05-abfe-d22ee4781d33"
-      },
-      {
-        "Name": "Color",
-        "Value": "cb0a00"
-      },
-      {
-        "Name": "PhysicsMaterial",
-        "Value": "Mechanical"
-      },
-      {
-        "Name": "StackSize",
-        "Value": "0"
-      },
-      {
-        "Name": "IsCreative",
-        "Value": "False"
+        "Name": "Density",
+        "Value": "1250,0"
       }
     ]
   },
@@ -10078,11 +10217,11 @@
     "Details": [
       {
         "Name": "GameName",
-        "Value": "obj_interactive_propanetank_large"
+        "Value": "obj_interactive_propanetank_small"
       },
       {
         "Name": "Uuid",
-        "Value": "24001201-40dd-4950-b99f-17d878a9e07b"
+        "Value": "8d3b98de-c981-4f05-abfe-d22ee4781d33"
       },
       {
         "Name": "Color",
@@ -10132,6 +10271,324 @@
     ]
   },
   {
+    "AppId": "intera40",
+    "Details": [
+      {
+        "Name": "GameName",
+        "Value": "obj_interactive_propanetank_large"
+      },
+      {
+        "Name": "Uuid",
+        "Value": "24001201-40dd-4950-b99f-17d878a9e07b"
+      },
+      {
+        "Name": "Color",
+        "Value": "cb0a00"
+      },
+      {
+        "Name": "PhysicsMaterial",
+        "Value": "Mechanical"
+      },
+      {
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
+      }
+    ]
+  },
+  {
+    "AppId": "intera41",
+    "Details": [
+      {
+        "Name": "GameName",
+        "Value": "obj_challenge_interactive_challengechest"
+      },
+      {
+        "Name": "Uuid",
+        "Value": "b3402155-e8a3-452d-b6fb-55c8d4e4e681"
+      },
+      {
+        "Name": "Color",
+        "Value": "df7f01"
+      },
+      {
+        "Name": "PhysicsMaterial",
+        "Value": "Metal"
+      },
+      {
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "Density",
+        "Value": "1250,0"
+      }
+    ]
+  },
+  {
+    "AppId": "intera42",
+    "Details": [
+      {
+        "Name": "GameName",
+        "Value": "obj_challenge_interactive_startposition"
+      },
+      {
+        "Name": "Uuid",
+        "Value": "b5858089-b1f8-4d13-a485-fdaa204d9c6b"
+      },
+      {
+        "Name": "Color",
+        "Value": "4e9be3"
+      },
+      {
+        "Name": "PhysicsMaterial",
+        "Value": "Metal"
+      },
+      {
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "Density",
+        "Value": "1250,0"
+      }
+    ]
+  },
+  {
+    "AppId": "intera43",
+    "Details": [
+      {
+        "Name": "GameName",
+        "Value": "obj_challenge_interactive_ballspawner"
+      },
+      {
+        "Name": "Uuid",
+        "Value": "af130ba7-f0ed-4a5a-97f8-be78b54e972b"
+      },
+      {
+        "Name": "Color",
+        "Value": "9f2600"
+      },
+      {
+        "Name": "PhysicsMaterial",
+        "Value": "Metal"
+      },
+      {
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "Density",
+        "Value": "1250,0"
+      }
+    ]
+  },
+  {
+    "AppId": "intera44",
+    "Details": [
+      {
+        "Name": "GameName",
+        "Value": "obj_challenge_interactive_explosivespawner"
+      },
+      {
+        "Name": "Uuid",
+        "Value": "fa9de66b-fd92-4d67-bf68-6584937b736d"
+      },
+      {
+        "Name": "Color",
+        "Value": "cb0a00"
+      },
+      {
+        "Name": "PhysicsMaterial",
+        "Value": "Metal"
+      },
+      {
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "Density",
+        "Value": "1250,0"
+      }
+    ]
+  },
+  {
+    "AppId": "intera45",
+    "Details": [
+      {
+        "Name": "GameName",
+        "Value": "obj_challenge_interactive_goal"
+      },
+      {
+        "Name": "Uuid",
+        "Value": "7bbf53fd-2b5e-4717-9b9c-ba8962b611e1"
+      },
+      {
+        "Name": "Color",
+        "Value": "df7f01"
+      },
+      {
+        "Name": "PhysicsMaterial",
+        "Value": "Metal"
+      },
+      {
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "Density",
+        "Value": "1250,0"
+      }
+    ]
+  },
+  {
+    "AppId": "intera46",
+    "Details": [
+      {
+        "Name": "GameName",
+        "Value": "obj_challenge_interactive_buildarea"
+      },
+      {
+        "Name": "Uuid",
+        "Value": "0a224575-1943-4fec-bc54-bf531018fd03"
+      },
+      {
+        "Name": "Color",
+        "Value": "4e9be3"
+      },
+      {
+        "Name": "PhysicsMaterial",
+        "Value": "Metal"
+      },
+      {
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "Density",
+        "Value": "1250,0"
+      }
+    ]
+  },
+  {
+    "AppId": "intera47",
+    "Details": [
+      {
+        "Name": "GameName",
+        "Value": "obj_challenge_interactive_ball"
+      },
+      {
+        "Name": "Uuid",
+        "Value": "88a73e45-6740-4a60-b3cc-fbe4e010eb9f"
+      },
+      {
+        "Name": "Color",
+        "Value": "9f2600"
+      },
+      {
+        "Name": "PhysicsMaterial",
+        "Value": "Metal"
+      },
+      {
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
+      }
+    ]
+  },
+  {
+    "AppId": "intera48",
+    "Details": [
+      {
+        "Name": "GameName",
+        "Value": "obj_challenge_interactive_ballsocket"
+      },
+      {
+        "Name": "Uuid",
+        "Value": "badc4d45-1b75-4528-9451-a46270189190"
+      },
+      {
+        "Name": "Color",
+        "Value": "9f2600"
+      },
+      {
+        "Name": "PhysicsMaterial",
+        "Value": "Metal"
+      },
+      {
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "Density",
+        "Value": "500,0"
+      }
+    ]
+  },
+  {
+    "AppId": "intera49",
+    "Details": [
+      {
+        "Name": "GameName",
+        "Value": "obj_challenge_interactive_bigpiston"
+      },
+      {
+        "Name": "Uuid",
+        "Value": "dff53b11-2d8d-4044-ad51-59321f117f8e"
+      },
+      {
+        "Name": "Color",
+        "Value": "df7f01"
+      },
+      {
+        "Name": "PhysicsMaterial",
+        "Value": "Metal"
+      },
+      {
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
+      }
+    ]
+  },
+  {
     "AppId": "intera5",
     "Details": [
       {
@@ -10161,6 +10618,336 @@
     ]
   },
   {
+    "AppId": "intera50",
+    "Details": [
+      {
+        "Name": "GameName",
+        "Value": "obj_challenge_interactive_trigger"
+      },
+      {
+        "Name": "Uuid",
+        "Value": "8684ad89-94ad-4f46-b50e-c1aff63893f4"
+      },
+      {
+        "Name": "Color",
+        "Value": "9f2600"
+      },
+      {
+        "Name": "PhysicsMaterial",
+        "Value": "Metal"
+      },
+      {
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "Density",
+        "Value": "500,0"
+      }
+    ]
+  },
+  {
+    "AppId": "intera51",
+    "Details": [
+      {
+        "Name": "GameName",
+        "Value": "obj_challenge_interactive_light"
+      },
+      {
+        "Name": "Uuid",
+        "Value": "5929670a-fe70-40a7-83e4-45cf179b0aef"
+      },
+      {
+        "Name": "Color",
+        "Value": "4a4a4a"
+      },
+      {
+        "Name": "PhysicsMaterial",
+        "Value": "Metal"
+      },
+      {
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "Density",
+        "Value": "500,0"
+      }
+    ]
+  },
+  {
+    "AppId": "intera52",
+    "Details": [
+      {
+        "Name": "GameName",
+        "Value": "obj_challenge_interactive_arrow_light"
+      },
+      {
+        "Name": "Uuid",
+        "Value": "9b9e4547-0846-42da-b812-9f1a5b22e52f"
+      },
+      {
+        "Name": "Color",
+        "Value": "3cff34"
+      },
+      {
+        "Name": "PhysicsMaterial",
+        "Value": "Metal"
+      },
+      {
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "Density",
+        "Value": "500,0"
+      }
+    ]
+  },
+  {
+    "AppId": "intera53",
+    "Details": [
+      {
+        "Name": "GameName",
+        "Value": "obj_challenge_interactive_starter_block"
+      },
+      {
+        "Name": "Uuid",
+        "Value": "4a9929e9-aa85-4791-89c2-f8799920793f"
+      },
+      {
+        "Name": "Color",
+        "Value": "123456"
+      },
+      {
+        "Name": "PhysicsMaterial",
+        "Value": "Metal"
+      },
+      {
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "Density",
+        "Value": "500,0"
+      }
+    ]
+  },
+  {
+    "AppId": "intera54",
+    "Details": [
+      {
+        "Name": "GameName",
+        "Value": "obj_challenge_interactive_finishblock"
+      },
+      {
+        "Name": "Uuid",
+        "Value": "3da9c71f-9900-48a2-be66-8d1c80f88ac8"
+      },
+      {
+        "Name": "Color",
+        "Value": "4b4b4b"
+      },
+      {
+        "Name": "PhysicsMaterial",
+        "Value": "Metal"
+      },
+      {
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "Density",
+        "Value": "500,0"
+      }
+    ]
+  },
+  {
+    "AppId": "intera55",
+    "Details": [
+      {
+        "Name": "GameName",
+        "Value": "obj_challenge_interactive_celebrationbot"
+      },
+      {
+        "Name": "Uuid",
+        "Value": "945d6152-fc82-48ec-a113-3896c14e8c5f"
+      },
+      {
+        "Name": "Color",
+        "Value": "808080"
+      },
+      {
+        "Name": "PhysicsMaterial",
+        "Value": "Metal"
+      },
+      {
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "Density",
+        "Value": "500,0"
+      }
+    ]
+  },
+  {
+    "AppId": "intera56",
+    "Details": [
+      {
+        "Name": "GameName",
+        "Value": "obj_challenge_celebrationbotleg"
+      },
+      {
+        "Name": "Uuid",
+        "Value": "18c148a4-fa2f-4948-95fd-809316f38584"
+      },
+      {
+        "Name": "Color",
+        "Value": "df7f01"
+      },
+      {
+        "Name": "PhysicsMaterial",
+        "Value": "Metal"
+      },
+      {
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "Density",
+        "Value": "1250,0"
+      }
+    ]
+  },
+  {
+    "AppId": "intera57",
+    "Details": [
+      {
+        "Name": "GameName",
+        "Value": "obj_challenge_interactive_soundcube"
+      },
+      {
+        "Name": "Uuid",
+        "Value": "474b6aa3-b22f-4509-85b9-b5e281ff05f5"
+      },
+      {
+        "Name": "Color",
+        "Value": "9f2600"
+      },
+      {
+        "Name": "PhysicsMaterial",
+        "Value": "Metal"
+      },
+      {
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "Density",
+        "Value": "1250,0"
+      }
+    ]
+  },
+  {
+    "AppId": "intera58",
+    "Details": [
+      {
+        "Name": "GameName",
+        "Value": "obj_challenge_interactive_ballspawnfront"
+      },
+      {
+        "Name": "Uuid",
+        "Value": "8ec1120b-b272-44e8-9ad2-5b1998cb2477"
+      },
+      {
+        "Name": "Color",
+        "Value": "9f2600"
+      },
+      {
+        "Name": "PhysicsMaterial",
+        "Value": "Metal"
+      },
+      {
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "Density",
+        "Value": "250,0"
+      }
+    ]
+  },
+  {
+    "AppId": "intera59",
+    "Details": [
+      {
+        "Name": "GameName",
+        "Value": "obj_challenge_interactive_ballspawnside"
+      },
+      {
+        "Name": "Uuid",
+        "Value": "2855df9b-8684-44ae-aaa8-8df0f96dbef6"
+      },
+      {
+        "Name": "Color",
+        "Value": "9f2600"
+      },
+      {
+        "Name": "PhysicsMaterial",
+        "Value": "Metal"
+      },
+      {
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "Density",
+        "Value": "250,0"
+      }
+    ]
+  },
+  {
     "AppId": "intera6",
     "Details": [
       {
@@ -10178,6 +10965,163 @@
       {
         "Name": "PhysicsMaterial",
         "Value": "Mechanical"
+      },
+      {
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
+      }
+    ]
+  },
+  {
+    "AppId": "intera60",
+    "Details": [
+      {
+        "Name": "GameName",
+        "Value": "obj_challenge_interactive_mapinspector"
+      },
+      {
+        "Name": "Uuid",
+        "Value": "6ca42dd6-0f2f-4abe-9aee-e1acb2bfcf40"
+      },
+      {
+        "Name": "Color",
+        "Value": "9f2600"
+      },
+      {
+        "Name": "PhysicsMaterial",
+        "Value": "Metal"
+      },
+      {
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "Density",
+        "Value": "1250,0"
+      }
+    ]
+  },
+  {
+    "AppId": "intera61",
+    "Details": [
+      {
+        "Name": "GameName",
+        "Value": "obj_challenge_interactive_observerbot"
+      },
+      {
+        "Name": "Uuid",
+        "Value": "fc3b1e92-1e81-45cf-9cbc-7ddb85604ff6"
+      },
+      {
+        "Name": "Color",
+        "Value": "745540"
+      },
+      {
+        "Name": "PhysicsMaterial",
+        "Value": "Metal"
+      },
+      {
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "Density",
+        "Value": "250,0"
+      }
+    ]
+  },
+  {
+    "AppId": "intera62",
+    "Details": [
+      {
+        "Name": "GameName",
+        "Value": "obj_challenge_interactive_popupaudience"
+      },
+      {
+        "Name": "Uuid",
+        "Value": "dcbab714-d981-4998-9b90-5332e36d3632"
+      },
+      {
+        "Name": "Color",
+        "Value": "808080"
+      },
+      {
+        "Name": "PhysicsMaterial",
+        "Value": "Metal"
+      },
+      {
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "Density",
+        "Value": "1250,0"
+      }
+    ]
+  },
+  {
+    "AppId": "intera63",
+    "Details": [
+      {
+        "Name": "GameName",
+        "Value": "obj_interactive_characterspawner"
+      },
+      {
+        "Name": "Uuid",
+        "Value": "61b85d08-4087-4d7c-9ddb-64caeb60e447"
+      },
+      {
+        "Name": "Color",
+        "Value": "df7f01"
+      },
+      {
+        "Name": "PhysicsMaterial",
+        "Value": "Mechanical"
+      },
+      {
+        "Name": "StackSize",
+        "Value": "0"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
+      }
+    ]
+  },
+  {
+    "AppId": "intera64",
+    "Details": [
+      {
+        "Name": "GameName",
+        "Value": "obj_challenge_interactive_smallgoal"
+      },
+      {
+        "Name": "Uuid",
+        "Value": "90109b86-3dcf-44b3-a8e1-28c37122d5a7"
+      },
+      {
+        "Name": "Color",
+        "Value": "a71a1a"
+      },
+      {
+        "Name": "PhysicsMaterial",
+        "Value": "Metal"
       },
       {
         "Name": "StackSize",
@@ -13642,7 +14586,7 @@
       },
       {
         "Name": "Color",
-        "Value": "e9c410"
+        "Value": "f0c909"
       },
       {
         "Name": "PhysicsMaterial",
@@ -13671,7 +14615,7 @@
       },
       {
         "Name": "Color",
-        "Value": "e9c410"
+        "Value": "032ea8"
       },
       {
         "Name": "PhysicsMaterial",
@@ -13700,7 +14644,7 @@
       },
       {
         "Name": "Color",
-        "Value": "e9c410"
+        "Value": "ffad1f"
       },
       {
         "Name": "PhysicsMaterial",
@@ -13729,7 +14673,7 @@
       },
       {
         "Name": "Color",
-        "Value": "e3ae20"
+        "Value": "e9ec0e"
       },
       {
         "Name": "PhysicsMaterial",
@@ -13758,7 +14702,7 @@
       },
       {
         "Name": "Color",
-        "Value": "a64102"
+        "Value": "ef650b"
       },
       {
         "Name": "PhysicsMaterial",
@@ -13816,7 +14760,7 @@
       },
       {
         "Name": "Color",
-        "Value": "a6274d"
+        "Value": "f80600"
       },
       {
         "Name": "PhysicsMaterial",
@@ -13845,7 +14789,7 @@
       },
       {
         "Name": "Color",
-        "Value": "a6274d"
+        "Value": "31880b"
       },
       {
         "Name": "PhysicsMaterial",
@@ -15076,6 +16020,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "Density",
+        "Value": "200,0"
       }
     ]
   },
@@ -15105,6 +16053,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "Density",
+        "Value": "200,0"
       }
     ]
   },
@@ -15134,6 +16086,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "Density",
+        "Value": "200,0"
       }
     ]
   },
@@ -15192,6 +16148,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "Density",
+        "Value": "200,0"
       }
     ]
   },
@@ -15221,6 +16181,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "Density",
+        "Value": "200,0"
       }
     ]
   },
@@ -15337,6 +16301,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "Density",
+        "Value": "200,0"
       }
     ]
   },
@@ -16439,6 +17407,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "Density",
+        "Value": "250,0"
       }
     ]
   },
@@ -16961,6 +17933,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "Density",
+        "Value": "250,0"
       }
     ]
   },
@@ -17280,6 +18256,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "Density",
+        "Value": "500,0"
       }
     ]
   },
@@ -17309,6 +18289,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "Density",
+        "Value": "500,0"
       }
     ]
   },

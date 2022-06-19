@@ -1,16 +1,13 @@
+import 'package:adaptive_theme/adaptive_theme.dart';
 import 'package:flutter/material.dart';
 import 'package:assistantapps_flutter_common/services/base/interface/IThemeService.dart';
 import 'package:scrapmechanic_kurtlourens_com/constants/Fonts.dart';
 import 'package:scrapmechanic_kurtlourens_com/theme/themes.dart';
-import 'package:theme_mode_handler/theme_mode_handler.dart';
 
 class ThemeService implements IThemeService {
   @override
   ThemeData getTheme(BuildContext context) {
-    return ((ThemeModeHandler.of(context)?.themeMode ?? ThemeMode.light) ==
-            ThemeMode.light)
-        ? getDynamicTheme(Brightness.light)
-        : getDynamicTheme(Brightness.dark);
+    return AdaptiveTheme.of(context).theme;
   }
 
   @override
@@ -54,8 +51,8 @@ class ThemeService implements IThemeService {
 
   @override
   void setBrightness(BuildContext context, bool isDark) {
-    ThemeModeHandler.of(context)
-        .saveThemeMode(isDark ? ThemeMode.light : ThemeMode.dark);
+    AdaptiveTheme.of(context)?.setThemeMode(
+        isDark ? AdaptiveThemeMode.light : AdaptiveThemeMode.dark);
   }
 
   @override

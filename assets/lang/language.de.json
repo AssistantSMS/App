@@ -60,7 +60,7 @@
   "edit": "Bearbeiten",
   "delete": "Löschen",
   "deleteAll": "Alles löschen",
-  "cart": "Liste",
+  "cart": "Einkaufswagen",
   "quantity": "Anzahl",
   "unknown": "Unbekannt",
   "settings": "Einstellungen",
@@ -164,12 +164,12 @@
   "shoes": "Schuhe",
   "showOwned": "Zeige meine",
   "showNotOwned": "Zeige meine nicht ",
-  "health": "Health restored",
+  "health": "Gesundheit",
   "hunger": "Hunger",
   "thirst": "Durst",
-  "packingStation": "Packing Station",
+  "packingStation": "Packstation",
   "foundIn": "Zu finden in",
   "home": "Home",
-  "creative": "Creative",
-  "hashCode": "8F690BD04C3AC2567F871198625FF316"
+  "creative": "Kreativ",
+  "hashCode": "4ECD2AB83BD0C2F70ABB883742E19D9F"
 }

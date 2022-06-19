@@ -60,10 +60,10 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     if (store == null) {
-      return MaterialApp(
+      return const MaterialApp(
         home: Scaffold(
           backgroundColor: Colors.black,
-          body: Center(child: getLoading().loadingIndicator()),
+          body: Center(child: Text('Something went wrong')),
         ),
       );
     }

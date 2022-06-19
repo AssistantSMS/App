@@ -554,7 +554,7 @@
     "Icon": "items/recipeCraft31.png",
     "CraftingTime": 12,
     "Output": {
-      "Id": "intera11",
+      "Id": "intera12",
       "Quantity": 1
     },
     "Inputs": [
@@ -569,7 +569,7 @@
     "Icon": "items/recipeCraft32.png",
     "CraftingTime": 12,
     "Output": {
-      "Id": "intera23",
+      "Id": "intera24",
       "Quantity": 1
     },
     "Inputs": [
@@ -588,7 +588,7 @@
     "Icon": "items/recipeCraft33.png",
     "CraftingTime": 12,
     "Output": {
-      "Id": "intera24",
+      "Id": "intera25",
       "Quantity": 1
     },
     "Inputs": [
@@ -853,7 +853,7 @@
     "Icon": "items/recipeCraft44.png",
     "CraftingTime": 2,
     "Output": {
-      "Id": "intera18",
+      "Id": "intera19",
       "Quantity": 1
     },
     "Inputs": [
@@ -918,7 +918,7 @@
     "Icon": "items/recipeCraft47.png",
     "CraftingTime": 17,
     "Output": {
-      "Id": "intera28",
+      "Id": "intera29",
       "Quantity": 1
     },
     "Inputs": [
@@ -941,7 +941,7 @@
     "Icon": "items/recipeCraft48.png",
     "CraftingTime": 42,
     "Output": {
-      "Id": "intera29",
+      "Id": "intera30",
       "Quantity": 1
     },
     "Inputs": [
@@ -964,7 +964,7 @@
     "Icon": "items/recipeCraft49.png",
     "CraftingTime": 42,
     "Output": {
-      "Id": "intera26",
+      "Id": "intera27",
       "Quantity": 1
     },
     "Inputs": [
@@ -991,7 +991,7 @@
     "Icon": "items/recipeCraft50.png",
     "CraftingTime": 42,
     "Output": {
-      "Id": "intera27",
+      "Id": "intera28",
       "Quantity": 1
     },
     "Inputs": [
@@ -1050,7 +1050,7 @@
         "Quantity": 10
       },
       {
-        "Id": "intera26",
+        "Id": "intera27",
         "Quantity": 1
       },
       {
@@ -1580,7 +1580,7 @@
     "Icon": "items/recipeCraft77.png",
     "CraftingTime": 17,
     "Output": {
-      "Id": "intera38",
+      "Id": "intera39",
       "Quantity": 1
     },
     "Inputs": [
@@ -1603,7 +1603,7 @@
     "Icon": "items/recipeCraft78.png",
     "CraftingTime": 17,
     "Output": {
-      "Id": "intera39",
+      "Id": "intera40",
       "Quantity": 1
     },
     "Inputs": [

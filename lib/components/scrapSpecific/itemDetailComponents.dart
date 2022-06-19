@@ -517,12 +517,15 @@ List<Widget> inCartWidget(
       onEdit: () {
         var controller =
             TextEditingController(text: cartItems[0].quantity.toString());
-        getDialog().showQuantityDialog(context, controller,
-            onSuccess: (quantity) {
-          int intQuantity = int.tryParse(quantity);
-          if (intQuantity == null) return;
-          viewModel.editCartItem(gameItem.id, intQuantity);
-        });
+        getDialog().showQuantityDialog(
+          context,
+          controller,
+          onSuccess: (BuildContext dialogCtx, String quantity) {
+            int intQuantity = int.tryParse(quantity);
+            if (intQuantity == null) return;
+            viewModel.editCartItem(gameItem.id, intQuantity);
+          },
+        );
       },
       onDelete: () {
         viewModel.removeFromCart(gameItem.id);

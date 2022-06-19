@@ -13,21 +13,21 @@ import 'state/createStore.dart';
 import 'state/modules/base/appState.dart';
 import 'state/modules/base/appViewModel.dart';
 
-class MyApp extends StatefulWidget {
+class AssistantSMS extends StatefulWidget {
   final EnvironmentSettings _env;
-  const MyApp(this._env, {Key key}) : super(key: key);
+  const AssistantSMS(this._env, {Key key}) : super(key: key);
 
   @override
   // ignore: no_logic_in_create_state
-  _MyAppState createState() => _MyAppState(_env);
+  _AssistantSMSState createState() => _AssistantSMSState(_env);
 }
 
-class _MyAppState extends State<MyApp> {
+class _AssistantSMSState extends State<AssistantSMS> {
   final EnvironmentSettings _env;
   Store<AppState> store;
   TranslationsDelegate _newLocaleDelegate;
 
-  _MyAppState(this._env) {
+  _AssistantSMSState(this._env) {
     AppRouter.router = CustomRouter.configureRoutes();
     initDependencyInjection(_env);
     initReduxState();

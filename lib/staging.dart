@@ -17,5 +17,5 @@ Future main() async {
   );
 
   debugDefaultTargetPlatformOverride = TargetPlatform.fuchsia;
-  runApp(MyApp(env));
+  runApp(AssistantSMS(env));
 }

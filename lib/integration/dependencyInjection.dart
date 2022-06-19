@@ -1,6 +1,5 @@
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:get_it/get_it.dart';
-import 'package:scrapmechanic_kurtlourens_com/services/json/packingJsonService.dart';
 
 import '../env/environmentSettings.dart';
 import '../helpers/repositoryHelper.dart';
@@ -9,6 +8,7 @@ import '../repository/api/interface/IContributorApiRepository.dart';
 import '../repository/interface/ILocalStorageRepository.dart';
 import '../services/base/analyticsService.dart';
 import '../services/base/baseWidgetService.dart';
+import '../services/base/dialogService.dart';
 import '../services/base/loadingWidgetService.dart';
 import '../services/base/navigationService.dart';
 import '../services/base/pathService.dart';
@@ -18,6 +18,7 @@ import '../services/json/gameItemJsonService.dart';
 import '../services/json/interface/IGameItemJsonService.dart';
 import '../services/json/interface/ILocalStorageService.dart';
 import '../services/json/interface/IRecipeJsonService.dart';
+import '../services/json/packingJsonService.dart';
 import '../services/json/recipeJsonService.dart';
 
 final getIt = GetIt.instance;
@@ -33,6 +34,7 @@ void initDependencyInjection(EnvironmentSettings _env) {
     path: PathService(),
     navigation: NavigationService(),
     baseWidget: BaseWidgetService(),
+    dialog: DialogService(),
     loading: LoadingWidgetService(),
   );
 

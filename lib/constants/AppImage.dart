@@ -66,4 +66,6 @@ class AppImage {
   static const String haybot = base + raid + 'haybot.png';
   static const String tapebot = base + raid + 'tapebot.png';
   static const String farmbot = base + raid + 'farmbot.png';
+
+  static const String assistantSMSWindowIcon = 'window_icon.png';
 }

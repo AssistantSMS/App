@@ -15,5 +15,5 @@ Future main() async {
     patreonOAuthClientId: patreonOAuthClientId,
   );
 
-  runApp(MyApp(env));
+  runApp(AssistantSMS(env));
 }

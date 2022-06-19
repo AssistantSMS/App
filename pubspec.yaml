@@ -30,6 +30,7 @@ dependencies:
   # UI
   adaptive_theme: 3.0.0
   avatar_glow: 2.0.2
+  bitsdojo_window: 0.1.2
   country_icons: 2.0.2
   floating_bottom_navigation_bar: 1.5.2
   dotted_border: 2.0.0+2
@@ -64,6 +65,18 @@ flutter_icons:
   image_path: 'assets/img/fullSizeIcon.png'
   adaptive_icon_background: 'assets/img/fullSizeIconAdaptiveBg.png'
   adaptive_icon_foreground: 'assets/img/fullSizeIconAdaptiveFg.png'
+
+# flutter pub run msix:create
+msix_config: # https://pub.dev/documentation/msix/latest/
+  display_name: Assistant for Scrap Mechanic
+  publisher_display_name: AssistantApps
+  msix_version: 1.111.2.0
+  identity_name:
+  publisher: C
+  logo_path: './assets/images/fullSizeIcon.png'
+  languages: en
+  capabilities: internetClient
+  store: true
 
 flutter:
   uses-material-design: true

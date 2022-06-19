@@ -8,6 +8,7 @@ import 'package:universal_html/html.dart' as html;
 
 import '../../env/appRouter.dart';
 import '../../theme/themes.dart';
+import 'windowsTitleBar.dart';
 
 class AdaptiveAppShell extends StatefulWidget {
   final TranslationsDelegate newLocaleDelegate;
@@ -35,6 +36,19 @@ class _AppShellWidget extends State<AdaptiveAppShell>
   Widget build(BuildContext context) {
     getLog().i("main rebuild");
 
+    return AdaptiveTheme(
+      initial: AdaptiveThemeMode.dark,
+      light: getDynamicTheme(
+        Brightness.light,
+      ),
+      dark: getDynamicTheme(
+        Brightness.dark,
+      ),
+      builder: appRenderer,
+    );
+  }
+
+  Widget appRenderer(ThemeData theme, ThemeData darkTheme) {
     List<LocalizationsDelegate<dynamic>> localizationsDelegates = [
       widget.newLocaleDelegate,
       GlobalMaterialLocalizations.delegate, //provides localised strings
@@ -54,22 +68,25 @@ class _AppShellWidget extends State<AdaptiveAppShell>
       );
     }
 
-    return AdaptiveTheme(
-      initial: AdaptiveThemeMode.dark,
-      light: getDynamicTheme(
-        Brightness.light,
-      ),
-      dark: getDynamicTheme(
-        Brightness.dark,
-      ),
-      builder: (ThemeData theme, ThemeData darkTheme) => MaterialApp(
-        title: 'Assistant for Scrap Mechanic',
-        scrollBehavior: scrollBehavior,
-        darkTheme: getDynamicTheme(Brightness.dark),
-        theme: theme,
-        onGenerateRoute: AppRouter.router.generator,
-        localizationsDelegates: localizationsDelegates,
-        supportedLocales: supportedLangs,
+    MaterialApp matApp = MaterialApp(
+      title: 'Assistant for Scrap Mechanic',
+      scrollBehavior: scrollBehavior,
+      darkTheme: getDynamicTheme(Brightness.dark),
+      theme: theme,
+      onGenerateRoute: AppRouter.router.generator,
+      localizationsDelegates: localizationsDelegates,
+      supportedLocales: supportedLangs,
+    );
+
+    if (!isWindows) return matApp;
+
+    return MaterialApp(
+      theme: theme,
+      darkTheme: darkTheme,
+      debugShowCheckedModeBanner: false,
+      home: Scaffold(
+        appBar: WindowsTitleBar('Assistant for Scrap Mechanic'),
+        body: matApp,
       ),
     );
   }

@@ -1,8 +1,6 @@
-- Display which DressBot box an item comes from
-- Package updates
-- Navbar upgrade
-- Add developer details button
 - Fix creative item banners
+- Added items from challenge mode
+- Display if item is from creative or challenge mode 
 
 _Submitted to App Stores 2022-07-05_
 

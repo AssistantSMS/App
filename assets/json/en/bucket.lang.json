@@ -1,14 +1,17 @@
 [
   {
     "Id": "bckt1",
-    "Title": "Water Bucket"
+    "Title": "Water Bucket",
+    "Description": "Fill it with water to water your plants."
   },
   {
     "Id": "bckt2",
-    "Title": "Water Bucket"
+    "Title": "Water Bucket",
+    "Description": "Bucket with water."
   },
   {
     "Id": "bckt3",
-    "Title": "Chemical Bucket"
+    "Title": "Chemical Bucket",
+    "Description": "Bucket with chemical waste."
   }
 ]

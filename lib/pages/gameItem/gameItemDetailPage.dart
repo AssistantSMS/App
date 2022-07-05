@@ -120,6 +120,18 @@ class GameItemDetailPage extends StatelessWidget {
     widgets.add(Stack(children: stackWidgets));
     widgets.add(emptySpace1x());
     widgets.add(genericItemName(gameItem.title));
+    widgets.add(genericItemDescription(gameItem.description));
+    widgets.add(emptySpace1x());
+
+    if (gameItem.isChallenge) {
+      widgets.add(getModeChip(context, 'Challenge')); // TODO translate
+    }
+    if (gameItem.isCreative) {
+      widgets.add(getModeChip(
+        context,
+        getTranslations().fromKey(LocaleKey.creative),
+      ));
+    }
 
     widgets.add(emptySpace1x());
 

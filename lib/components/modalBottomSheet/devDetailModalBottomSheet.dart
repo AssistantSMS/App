@@ -1,5 +1,6 @@
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 import '../../constants/AppAnimation.dart';
 import '../../constants/Modal.dart';
@@ -28,9 +29,21 @@ class _DevDetailBottomSheetWidget extends State<DevDetailBottomSheet> {
           textStyle: const TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
         );
     Widget Function(String) bodyFunc;
-    bodyFunc = (String text) => genericItemDescription(
-          text,
-          textStyle: const TextStyle(fontSize: 16, fontWeight: FontWeight.w100),
+    bodyFunc = (String text) => Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            genericItemDescription(
+              text,
+              textStyle:
+                  const TextStyle(fontSize: 16, fontWeight: FontWeight.w100),
+            ),
+            IconButton(
+              icon: const Icon(Icons.copy),
+              onPressed: () {
+                Clipboard.setData(ClipboardData(text: text));
+              },
+            )
+          ],
         );
 
     List<Widget Function()> widgets = [

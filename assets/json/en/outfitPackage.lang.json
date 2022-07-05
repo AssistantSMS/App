@@ -1,14 +1,17 @@
 [
   {
     "Id": "out1",
-    "Title": "Garment Box (Common)"
+    "Title": "Garment Box (Common)",
+    "Description": "Use it in a Dressbot to make new clothes."
   },
   {
     "Id": "out2",
-    "Title": "Garment Box (Rare)"
+    "Title": "Garment Box (Rare)",
+    "Description": "Use it in a Dressbot to make new clothes."
   },
   {
     "Id": "out3",
-    "Title": "Garment Box (Epic)"
+    "Title": "Garment Box (Epic)",
+    "Description": "Use it in a Dressbot to make new clothes."
   }
 ]

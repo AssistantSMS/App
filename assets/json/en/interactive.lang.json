@@ -1,7 +1,8 @@
 [
   {
     "Id": "intera1",
-    "Title": "Fridge"
+    "Title": "Fridge",
+    "Description": "Keeps your food fresh."
   },
   {
     "Id": "intera2",
@@ -13,15 +14,18 @@
   },
   {
     "Id": "intera4",
-    "Title": "Chest"
+    "Title": "Chest",
+    "Description": "A simple chest to store your items."
   },
   {
     "Id": "intera5",
-    "Title": "Protector: Anti-Destruction"
+    "Title": "Protector: Anti-Destruction",
+    "Description": "Helps protecting your creation from damage. Connect it to a Battery container."
   },
   {
     "Id": "intera6",
-    "Title": "Encryptor: Anti-Connection"
+    "Title": "Encryptor: Anti-Connection",
+    "Description": "Hides the connections on your creations from other mechanics. Connect it to a Battery container."
   },
   {
     "Id": "intera7",
@@ -29,195 +33,243 @@
   },
   {
     "Id": "intera8",
-    "Title": "Dressbot"
+    "Title": "Dressbot",
+    "Description": "Use the Dressbot to make new clothes for your Mechanic. Just add your garment boxes and the right amount of cotton. You can also customise your look by using the blue wardrobe."
   },
   {
     "Id": "intera9",
-    "Title": "Mountable Spud Gun"
+    "Title": "Mountable Spud Gun",
+    "Description": "Connect it to a Ammo container with a trigger to shoot."
   },
   {
     "Id": "intera10",
-    "Title": "Respawn Bed"
+    "Title": "Respawn Bed",
+    "Description": "Take a lovely nap in this comfy bed to respawn in it after your mechanic has been knocked out."
   },
   {
     "Id": "intera11",
-    "Title": ""
+    "Title": "",
+    "Description": ""
   },
   {
     "Id": "intera12",
-    "Title": "Bearing"
+    "Title": "Bearing",
+    "Description": "Everything you place on the bearing will revolve. Bearings can also be connected to an engine or the driver's seat to be controlled in different ways."
   },
   {
     "Id": "intera13",
-    "Title": "Sport Suspension"
+    "Title": "Sport Suspension",
+    "Description": "Adds bounce and stability. Great for vehicles to prevent them from easily tipping over. This suspension is small, but has a firmer bounce."
   },
   {
     "Id": "intera14",
-    "Title": "Off-Road Suspension"
+    "Title": "Off-Road Suspension",
+    "Description": "Adds bounce and stability. Great for vehicles to prevent them from easily tipping over. This suspension has a lot of bounce, making it ideal for off-road vehicles."
   },
   {
     "Id": "intera15",
-    "Title": "Driver's Seat"
+    "Title": "Driver's Seat",
+    "Description": "Makes bearings turn left and right. Can be connected to an engine to control the direction of travel. Can also be connected to triggers that can be activated from the seat."
   },
   {
     "Id": "intera16",
-    "Title": "Seat"
+    "Title": "Seat",
+    "Description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. Can be connected to triggers which can activate other interactive parts from the seat."
   },
   {
     "Id": "intera17",
-    "Title": "Driver's Saddle"
+    "Title": "Driver's Saddle",
+    "Description": "Makes bearings turn left and right. Can be connected to an engine to control the direction of travel. Can also be connected to triggers that can be activated from the saddle."
   },
   {
     "Id": "intera18",
-    "Title": "Saddle"
+    "Title": "Saddle",
+    "Description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. Can be connected to triggers which can activate other interactive parts from the saddle."
   },
   {
     "Id": "intera19",
-    "Title": "Toilet"
+    "Title": "Toilet",
+    "Description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. Can be connected to triggers which can activate other interactive parts from the toilet. Don't forget to flush!"
   },
   {
     "Id": "intera20",
-    "Title": "Gas Engine"
+    "Title": "Gas Engine",
+    "Description": "An engine with fixed speed and adjustable power, ideally suited to powering vehicles. Can be connected to a driver's seat or triggers."
   },
   {
     "Id": "intera21",
-    "Title": "Electric Engine"
+    "Title": "Electric Engine",
+    "Description": "Powers bearings. An engine with fixed power and adjustable speed. A slow engine with a lot of strength. Can be connected to a driver's seat or triggers."
   },
   {
     "Id": "intera22",
-    "Title": "Thruster"
+    "Title": "Thruster",
+    "Description": "Enough of these can make things fly. Needs to be connected to a trigger or the driver's seat in order to activate."
   },
   {
     "Id": "intera23",
-    "Title": "Controller"
+    "Title": "Controller",
+    "Description": "Allows bearings to rotate in sequence. Perfect for building transforming creations. Needs to be connected to bearings. Activated by connecting a trigger or driver's seat to the controller."
   },
   {
     "Id": "intera24",
-    "Title": "Switch"
+    "Title": "Switch",
+    "Description": "Unlimited toggling on demand. The Switch activates whatever it's connected to, making it indispensible when you want to turn things on and off with a single push. It can activate an engine, a thruster, the controller and more."
   },
   {
     "Id": "intera25",
-    "Title": "Button"
+    "Title": "Button",
+    "Description": "Activates stuff. The button activates as long as it remains pressed."
   },
   {
     "Id": "intera26",
-    "Title": "Sensor"
+    "Title": "Sensor",
+    "Description": "It detects, it activates! The sensor activates when detecting any kind of surface that comes into its view, and has a reach of ten blocks. It can activate an engine, a thruster, the controller and more."
   },
   {
     "Id": "intera27",
-    "Title": "Radio"
+    "Title": "Radio",
+    "Description": "All hits, all the time. Those beastly bots have hijacked and are now transmitting classic selections from their deeply unusual taste in music. Activate it by interacting with it or by connecting it to a trigger."
   },
   {
     "Id": "intera28",
-    "Title": "Horn"
+    "Title": "Horn",
+    "Description": "Add it to your vehicle or use it as a door bell. Honk at your friends to avoid accidents. Set the pitch and connect it to a trigger to activate it."
   },
   {
     "Id": "intera29",
-    "Title": "Logic Gate"
+    "Title": "Logic Gate",
+    "Description": "The Logic Gate is a powerful block that allows you to build basic logical functions. By pressing E on the block, the mechanic can choose between different logic gate types. The logic gate can be connected to other logic gates, triggers, timers and more. Great for making advanced creations."
   },
   {
     "Id": "intera30",
-    "Title": "Timer"
+    "Title": "Timer",
+    "Description": "The Timer allows you delay the interaction between two interactive parts. For example, between a switch and a controller. It goes great with Logic Gates."
   },
   {
     "Id": "intera31",
-    "Title": "Totebot Head: Bass"
+    "Title": "Totebot Head: Bass",
+    "Description": "This robot head is broken. But the sound generator inside seems to still be working. Creative mechanics can probably find a way to make music with this."
   },
   {
     "Id": "intera32",
-    "Title": "Totebot Head: Percussion"
+    "Title": "Totebot Head: Percussion",
+    "Description": "This robot head is broken. But the sound generator inside seems to still be working. Creative mechanics can probably find a way to make music with this."
   },
   {
     "Id": "intera33",
-    "Title": "Totebot Head: Synth Voice"
+    "Title": "Totebot Head: Synth Voice",
+    "Description": "This robot head is broken. But the sound generator inside seems to still be working. Creative mechanics can probably find a way to make music with this."
   },
   {
     "Id": "intera34",
-    "Title": "Totebot Head: Blip"
+    "Title": "Totebot Head: Blip",
+    "Description": "This robot head is broken. But the sound generator inside seems to still be working. Creative mechanics can probably find a way to make music with this."
   },
   {
     "Id": "intera35",
-    "Title": "Bathtub"
+    "Title": "Bathtub",
+    "Description": "Used for maximum relaxation. Sit down and relax or add it to your vehicle to stay nice and clean on the go. Can be connected to triggers which can activate other interactive parts from the bathtub."
   },
   {
     "Id": "intera36",
-    "Title": "Piston"
+    "Title": "Piston",
+    "Description": "Extends and contracts! Connect it to a trigger to activate. The piston can also be connected to a controller to make it extend and contract in a sequence. Perfect for creating impressive creations."
   },
   {
     "Id": "intera37",
-    "Title": "Raft Shark Mount"
+    "Title": "Raft Shark Mount",
+    "Description": "A plastic shark mount prop from the survival game Raft. It seems to have some mechanical joints inside. Maybe it can bite?"
   },
   {
     "Id": "intera38",
-    "Title": "Mountable Spud Gun"
+    "Title": "Mountable Spud Gun",
+    "Description": "The potato shooting mountable spud gun is great for protecting your creations. Connect it to a trigger that is connected to a seat to shoot while seated."
   },
   {
     "Id": "intera39",
-    "Title": "Small Explosive Canister"
+    "Title": "Small Explosive Canister",
+    "Description": "Highly explosive canister that can detonate by strong collisions or by Spud Guns. This canister has a small explosion radius."
   },
   {
     "Id": "intera40",
-    "Title": "Large Explosive Canister"
+    "Title": "Large Explosive Canister",
+    "Description": "Highly explosive canister that can detonate by strong collisions or by Spud Guns. This canister has a large explosion radius."
   },
   {
     "Id": "intera41",
-    "Title": "Challenge Chest"
+    "Title": "Challenge Chest",
+    "Description": "Fill with the items you want the player to build with in your challenge."
   },
   {
     "Id": "intera42",
-    "Title": "Player Start"
+    "Title": "Player Start",
+    "Description": "Players will start on these when playing the challenge."
   },
   {
     "Id": "intera43",
-    "Title": "Ball Spawner"
+    "Title": "Ball Spawner",
+    "Description": "Spawns a ball when the challenge starts. Connect to a trigger to control the spawning. A new one will spawn if the ball falls off the edge."
   },
   {
     "Id": "intera44",
-    "Title": "Explosive Canister Spawner"
+    "Title": "Explosive Canister Spawner",
+    "Description": "Spawns an explosive canister when the challenge starts. Connect to a trigger to control the spawning. A new one will spawn if the canister is destroyed."
   },
   {
     "Id": "intera45",
-    "Title": "Goal Platform"
+    "Title": "Goal Platform",
+    "Description": "Bringing your creation over this Goal Platform wins the challenge. Connect an input to set a win condition. Connect outputs to trigger celebration events."
   },
   {
     "Id": "intera46",
-    "Title": "Build Platform"
+    "Title": "Build Platform",
+    "Description": "As long as the challenge has not started the player can build their creation here."
   },
   {
     "Id": "intera47",
-    "Title": "Ball"
+    "Title": "Ball",
+    "Description": "It's spherical!"
   },
   {
     "Id": "intera48",
-    "Title": "Ball Socket"
+    "Title": "Ball Socket",
+    "Description": "Bring a ball of matching color into the socket to activate."
   },
   {
     "Id": "intera49",
-    "Title": "Big Piston"
+    "Title": "Big Piston",
+    "Description": "A really long and powerful piston useful for moving large doors and platforms in challenges."
   },
   {
     "Id": "intera50",
-    "Title": "Big Sensor"
+    "Title": "Big Sensor",
+    "Description": "Senses creations and players in front of it. 64 block range. Senses through walls."
   },
   {
     "Id": "intera51",
-    "Title": "On / Off Light Block"
+    "Title": "On / Off Light Block",
+    "Description": "Used to communicate challenge logic to the player."
   },
   {
     "Id": "intera52",
-    "Title": "Arrow Light Block"
+    "Title": "Arrow Light Block",
+    "Description": "Connect in a series to light up a path."
   },
   {
     "Id": "intera53",
-    "Title": "Challenge Starter"
+    "Title": "Challenge Starter",
+    "Description": "The Challenge Starter allows you to create challenges that does not require a creation to trigger the goal. Needs to be connected to a trigger to start the challenge."
   },
   {
     "Id": "intera54",
-    "Title": "Goal Block"
+    "Title": "Goal Block",
+    "Description": "This block will finish a challenge when triggered. It's useful if you want your challenge to end with a switch, sensor or button activation."
   },
   {
     "Id": "intera55",
-    "Title": "Celebrationbot"
+    "Title": "Celebrationbot",
+    "Description": "Connect to a trigger and activate to start the celebration!"
   },
   {
     "Id": "intera56",
@@ -225,34 +277,42 @@
   },
   {
     "Id": "intera57",
-    "Title": "Confirmation Sound Cube"
+    "Title": "Confirmation Sound Cube",
+    "Description": "Makes a sound when triggered."
   },
   {
     "Id": "intera58",
-    "Title": "Ball Spawner Frame One"
+    "Title": "Ball Spawner Frame One",
+    "Description": "A frame with an arrow that lights up when triggered."
   },
   {
     "Id": "intera59",
-    "Title": "Ball Spawner Frame Two"
+    "Title": "Ball Spawner Frame Two",
+    "Description": "A frame with an arrow that lights up when triggered."
   },
   {
     "Id": "intera60",
-    "Title": "Map Computer"
+    "Title": "Map Computer",
+    "Description": "Gives an overview of the challenge."
   },
   {
     "Id": "intera61",
-    "Title": "Observerbot"
+    "Title": "Observerbot",
+    "Description": "Takes notes whenever the player builds something."
   },
   {
     "Id": "intera62",
-    "Title": "Pop-up Audience"
+    "Title": "Pop-up Audience",
+    "Description": "They love you!\nPerfect for celebrating the completion of a challenge."
   },
   {
     "Id": "intera63",
-    "Title": "Character Spawner"
+    "Title": "Character Spawner",
+    "Description": "The Character Spawner lets you spawn characters from Survival mode in your challenges. Connect it to a trigger or the Challenge starter to spawn the selected character."
   },
   {
     "Id": "intera64",
-    "Title": "Small Goal Platform"
+    "Title": "Small Goal Platform",
+    "Description": "Bringing your creation over this Goal Platform wins the challenge. Connect an input to set a win condition. Connect outputs to trigger celebration events."
   }
 ]

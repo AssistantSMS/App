@@ -25,6 +25,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -54,6 +58,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -82,6 +90,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -116,6 +128,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -148,6 +164,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -182,6 +202,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -214,6 +238,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -248,6 +276,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -280,6 +312,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -314,6 +350,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -346,6 +386,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -380,6 +424,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -412,6 +460,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -446,6 +498,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -478,6 +534,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -512,6 +572,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -544,6 +608,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -578,6 +646,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -610,6 +682,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -644,6 +720,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -676,6 +756,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -710,6 +794,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -742,6 +830,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -776,6 +868,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -808,6 +904,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -842,6 +942,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -874,6 +978,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -908,6 +1016,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -940,6 +1052,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -974,6 +1090,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -1006,6 +1126,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -1040,6 +1164,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -1072,6 +1200,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -1106,6 +1238,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -1138,6 +1274,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -1172,6 +1312,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -1204,6 +1348,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -1238,6 +1386,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -1270,6 +1422,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -1304,6 +1460,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -1336,6 +1496,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       },
       {
@@ -1376,6 +1540,10 @@
         "Value": "False"
       },
       {
+        "Name": "IsChallenge",
+        "Value": "False"
+      },
+      {
         "Name": "Density",
         "Value": "250,0"
       }
@@ -1411,6 +1579,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -1443,6 +1615,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -1477,6 +1653,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -1509,6 +1689,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -1543,6 +1727,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -1576,6 +1764,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -1604,6 +1796,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -1634,6 +1830,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -1662,6 +1862,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -1692,6 +1896,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -1720,6 +1928,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -1750,6 +1962,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -1778,6 +1994,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -1808,6 +2028,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -1836,6 +2060,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -1866,6 +2094,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -1894,6 +2126,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -1924,6 +2160,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -1952,6 +2192,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -1982,6 +2226,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -2010,6 +2258,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -2040,6 +2292,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -2068,6 +2324,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -2098,6 +2358,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -2126,6 +2390,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -2156,6 +2424,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -2184,6 +2456,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -2214,6 +2490,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -2242,6 +2522,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -2272,6 +2556,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -2300,6 +2588,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -2330,6 +2622,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -2358,6 +2654,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -2388,6 +2688,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -2416,6 +2720,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -2446,6 +2754,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -2474,6 +2786,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -2504,6 +2820,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -2532,6 +2852,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -2562,6 +2886,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -2590,6 +2918,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -2620,6 +2952,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -2648,6 +2984,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -2678,6 +3018,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -2706,6 +3050,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -2736,6 +3084,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -2764,6 +3116,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -2794,6 +3150,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -2822,6 +3182,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -2852,6 +3216,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -2880,6 +3248,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -2910,6 +3282,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -2938,6 +3314,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -2968,6 +3348,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -2996,6 +3380,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -3026,6 +3414,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -3054,6 +3446,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -3084,6 +3480,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -3113,6 +3513,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -3138,6 +3542,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -3162,6 +3570,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -3192,6 +3604,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -3220,6 +3636,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -3250,6 +3670,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -3278,6 +3702,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -3308,6 +3736,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -3336,6 +3768,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -3366,6 +3802,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -3394,6 +3834,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -3424,6 +3868,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -3452,6 +3900,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -3482,6 +3934,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -3510,6 +3966,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -3540,6 +4000,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -3568,6 +4032,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -3598,6 +4066,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -3626,6 +4098,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -3656,6 +4132,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -3684,6 +4164,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -3714,6 +4198,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -3742,6 +4230,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -3772,6 +4264,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -3800,6 +4296,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -3830,6 +4330,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -3858,6 +4362,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -3888,6 +4396,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -3916,6 +4428,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -3946,6 +4462,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -3974,6 +4494,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -4004,6 +4528,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -4032,6 +4560,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -4062,6 +4594,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -4090,6 +4626,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -4120,6 +4660,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -4148,6 +4692,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -4178,6 +4726,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -4206,6 +4758,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -4236,6 +4792,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -4264,6 +4824,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -4294,6 +4858,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -4322,6 +4890,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -4352,6 +4924,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -4380,6 +4956,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -4410,6 +4990,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -4438,6 +5022,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -4468,6 +5056,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -4496,6 +5088,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -4526,6 +5122,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -4554,6 +5154,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -4584,6 +5188,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -4612,6 +5220,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -4642,6 +5254,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -4666,6 +5282,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -4696,6 +5316,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -4724,6 +5348,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -4754,6 +5382,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -4782,6 +5414,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -4812,6 +5448,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -4840,6 +5480,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -4870,6 +5514,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -4898,6 +5546,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -4928,6 +5580,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -4956,6 +5612,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -4986,6 +5646,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -5014,6 +5678,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -5044,6 +5712,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -5072,6 +5744,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -5102,6 +5778,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -5130,6 +5810,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -5160,6 +5844,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -5188,6 +5876,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -5218,6 +5910,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -5246,6 +5942,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -5276,6 +5976,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -5304,6 +6008,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -5334,6 +6042,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -5362,6 +6074,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -5392,6 +6108,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -5420,6 +6140,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -5450,6 +6174,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -5478,6 +6206,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -5508,6 +6240,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -5536,6 +6272,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -5566,6 +6306,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -5594,6 +6338,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -5624,6 +6372,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -5652,6 +6404,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -5682,6 +6438,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -5710,6 +6470,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -5740,6 +6504,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -5768,6 +6536,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -5798,6 +6570,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -5826,6 +6602,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -5856,6 +6636,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -5884,6 +6668,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -5914,6 +6702,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -5942,6 +6734,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -5972,6 +6768,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -6000,6 +6800,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -6030,6 +6834,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -6058,6 +6866,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -6088,6 +6900,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -6116,6 +6932,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -6146,6 +6966,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -6174,6 +6998,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -6204,6 +7032,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -6232,6 +7064,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -6262,6 +7098,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -6290,6 +7130,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -6320,6 +7164,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -6348,6 +7196,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -6378,6 +7230,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -6406,6 +7262,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -6436,6 +7296,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -6464,6 +7328,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -6494,6 +7362,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -6522,6 +7394,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -6552,6 +7428,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -6580,6 +7460,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -6610,6 +7494,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -6638,6 +7526,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -6668,6 +7560,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -6696,6 +7592,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -6726,6 +7626,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -6754,6 +7658,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -6784,6 +7692,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -6812,6 +7724,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -6842,6 +7758,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -6870,6 +7790,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -6900,6 +7824,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -6928,6 +7856,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -6958,6 +7890,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -6986,6 +7922,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -7016,6 +7956,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -7044,6 +7988,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -7074,6 +8022,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -7102,6 +8054,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -7132,6 +8088,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -7160,6 +8120,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -7190,6 +8154,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -7218,6 +8186,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -7248,6 +8220,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -7276,6 +8252,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -7306,6 +8286,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -7334,6 +8318,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -7364,6 +8352,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -7392,6 +8384,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -7422,6 +8418,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -7450,6 +8450,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -7480,6 +8484,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -7508,6 +8516,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -7538,6 +8550,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -7566,6 +8582,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -7596,6 +8616,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -7624,6 +8648,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -7654,6 +8682,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -7682,6 +8714,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -7712,6 +8748,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -7740,6 +8780,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -7770,6 +8814,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -7798,6 +8846,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -7828,6 +8880,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -7856,6 +8912,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -7886,6 +8946,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -7914,6 +8978,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -7944,6 +9012,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -7972,6 +9044,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -8002,6 +9078,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -8030,6 +9110,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -8060,6 +9144,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -8088,6 +9176,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -8118,6 +9210,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -8146,6 +9242,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -8176,6 +9276,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -8204,6 +9308,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -8234,6 +9342,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -8262,6 +9374,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -8292,6 +9408,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -8320,6 +9440,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -8350,6 +9474,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -8378,6 +9506,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -8408,6 +9540,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -8436,6 +9572,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -8466,6 +9606,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -8494,6 +9638,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -8524,6 +9672,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -8552,6 +9704,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -8582,6 +9738,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -8610,6 +9770,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -8640,6 +9804,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -8668,6 +9836,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -8698,6 +9870,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -8726,6 +9902,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -8756,6 +9936,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -8784,6 +9968,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -8814,6 +10002,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -8842,6 +10034,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -8872,6 +10068,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -8900,6 +10100,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -8930,6 +10134,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -8958,6 +10166,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -8988,6 +10200,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -9016,6 +10232,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -9046,6 +10266,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -9074,6 +10298,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -9104,6 +10332,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -9132,6 +10364,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -9162,6 +10398,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -9190,6 +10430,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -9220,6 +10464,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -9248,6 +10496,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -9278,6 +10530,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -9307,6 +10563,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -9335,6 +10595,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       },
       {
@@ -9369,6 +10633,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -9398,6 +10666,10 @@
       {
         "Name": "IsCreative",
         "Value": "True"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -9427,6 +10699,10 @@
       {
         "Name": "IsCreative",
         "Value": "True"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -9456,6 +10732,10 @@
       {
         "Name": "IsCreative",
         "Value": "True"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -9485,6 +10765,10 @@
       {
         "Name": "IsCreative",
         "Value": "True"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -9514,6 +10798,10 @@
       {
         "Name": "IsCreative",
         "Value": "True"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -9543,6 +10831,10 @@
       {
         "Name": "IsCreative",
         "Value": "True"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       },
       {
         "Name": "Density",
@@ -9576,6 +10868,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -9604,6 +10900,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -9634,6 +10934,10 @@
       {
         "Name": "IsCreative",
         "Value": "True"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       },
       {
         "Name": "Density",
@@ -9669,6 +10973,10 @@
         "Value": "True"
       },
       {
+        "Name": "IsChallenge",
+        "Value": "False"
+      },
+      {
         "Name": "Density",
         "Value": "1250,0"
       }
@@ -9700,6 +11008,10 @@
       {
         "Name": "IsCreative",
         "Value": "True"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       },
       {
         "Name": "Density",
@@ -9735,6 +11047,10 @@
         "Value": "True"
       },
       {
+        "Name": "IsChallenge",
+        "Value": "False"
+      },
+      {
         "Name": "Density",
         "Value": "250,0"
       }
@@ -9766,6 +11082,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -9794,6 +11114,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -9824,6 +11148,10 @@
       {
         "Name": "IsCreative",
         "Value": "True"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       },
       {
         "Name": "Density",
@@ -9857,6 +11185,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -9885,6 +11217,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -9915,6 +11251,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -9943,6 +11283,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -9973,6 +11317,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -10001,6 +11349,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -10031,6 +11383,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -10059,6 +11415,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -10089,6 +11449,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -10117,6 +11481,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -10147,6 +11515,10 @@
       {
         "Name": "IsCreative",
         "Value": "True"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -10175,6 +11547,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -10205,6 +11581,10 @@
       {
         "Name": "IsCreative",
         "Value": "True"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       },
       {
         "Name": "Density",
@@ -10238,6 +11618,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -10266,6 +11650,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -10296,6 +11684,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -10325,6 +11717,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "True"
       },
       {
         "Name": "Density",
@@ -10360,6 +11756,10 @@
         "Value": "False"
       },
       {
+        "Name": "IsChallenge",
+        "Value": "True"
+      },
+      {
         "Name": "Density",
         "Value": "1250,0"
       }
@@ -10391,6 +11791,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "True"
       },
       {
         "Name": "Density",
@@ -10426,6 +11830,10 @@
         "Value": "False"
       },
       {
+        "Name": "IsChallenge",
+        "Value": "True"
+      },
+      {
         "Name": "Density",
         "Value": "1250,0"
       }
@@ -10457,6 +11865,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "True"
       },
       {
         "Name": "Density",
@@ -10492,6 +11904,10 @@
         "Value": "False"
       },
       {
+        "Name": "IsChallenge",
+        "Value": "True"
+      },
+      {
         "Name": "Density",
         "Value": "1250,0"
       }
@@ -10523,6 +11939,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "True"
       }
     ]
   },
@@ -10552,6 +11972,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "True"
       },
       {
         "Name": "Density",
@@ -10585,6 +12009,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "True"
       }
     ]
   },
@@ -10613,6 +12041,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -10643,6 +12075,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "True"
       },
       {
         "Name": "Density",
@@ -10678,6 +12114,10 @@
         "Value": "False"
       },
       {
+        "Name": "IsChallenge",
+        "Value": "True"
+      },
+      {
         "Name": "Density",
         "Value": "500,0"
       }
@@ -10709,6 +12149,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "True"
       },
       {
         "Name": "Density",
@@ -10744,6 +12188,10 @@
         "Value": "False"
       },
       {
+        "Name": "IsChallenge",
+        "Value": "True"
+      },
+      {
         "Name": "Density",
         "Value": "500,0"
       }
@@ -10775,6 +12223,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "True"
       },
       {
         "Name": "Density",
@@ -10810,6 +12262,10 @@
         "Value": "False"
       },
       {
+        "Name": "IsChallenge",
+        "Value": "True"
+      },
+      {
         "Name": "Density",
         "Value": "500,0"
       }
@@ -10841,6 +12297,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "True"
       },
       {
         "Name": "Density",
@@ -10876,6 +12336,10 @@
         "Value": "False"
       },
       {
+        "Name": "IsChallenge",
+        "Value": "True"
+      },
+      {
         "Name": "Density",
         "Value": "1250,0"
       }
@@ -10907,6 +12371,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "True"
       },
       {
         "Name": "Density",
@@ -10942,6 +12410,10 @@
         "Value": "False"
       },
       {
+        "Name": "IsChallenge",
+        "Value": "True"
+      },
+      {
         "Name": "Density",
         "Value": "250,0"
       }
@@ -10973,6 +12445,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -11002,6 +12478,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "True"
       },
       {
         "Name": "Density",
@@ -11037,6 +12517,10 @@
         "Value": "False"
       },
       {
+        "Name": "IsChallenge",
+        "Value": "True"
+      },
+      {
         "Name": "Density",
         "Value": "250,0"
       }
@@ -11070,6 +12554,10 @@
         "Value": "False"
       },
       {
+        "Name": "IsChallenge",
+        "Value": "True"
+      },
+      {
         "Name": "Density",
         "Value": "1250,0"
       }
@@ -11101,6 +12589,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "True"
       }
     ]
   },
@@ -11130,6 +12622,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "True"
       }
     ]
   },
@@ -11158,6 +12654,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -11188,6 +12688,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -11216,6 +12720,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -11246,6 +12754,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -11274,6 +12786,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -11304,6 +12820,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -11332,6 +12852,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -11362,6 +12886,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -11390,6 +12918,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -11420,6 +12952,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -11448,6 +12984,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -11478,6 +13018,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -11506,6 +13050,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -11536,6 +13084,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -11564,6 +13116,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -11594,6 +13150,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -11622,6 +13182,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -11652,6 +13216,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -11680,6 +13248,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -11710,6 +13282,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -11738,6 +13314,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -11768,6 +13348,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -11796,6 +13380,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -11826,6 +13414,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -11854,6 +13446,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -11884,6 +13480,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -11912,6 +13512,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -11942,6 +13546,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -11970,6 +13578,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -12000,6 +13612,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -12028,6 +13644,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -12058,6 +13678,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -12086,6 +13710,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -12116,6 +13744,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -12144,6 +13776,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -12174,6 +13810,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -12202,6 +13842,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -12232,6 +13876,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -12260,6 +13908,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -12290,6 +13942,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -12318,6 +13974,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -12348,6 +14008,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -12376,6 +14040,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -12406,6 +14074,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -12434,6 +14106,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -12464,6 +14140,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -12492,6 +14172,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -12522,6 +14206,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -12550,6 +14238,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -12580,6 +14272,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -12608,6 +14304,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -12638,6 +14338,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -12666,6 +14370,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -12696,6 +14404,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -12724,6 +14436,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -12754,6 +14470,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -12782,6 +14502,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -12812,6 +14536,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -12840,6 +14568,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -12870,6 +14602,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -12898,6 +14634,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -12928,6 +14668,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -12956,6 +14700,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -12986,6 +14734,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -13014,6 +14766,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -13044,6 +14800,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -13072,6 +14832,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -13102,6 +14866,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -13130,6 +14898,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -13160,6 +14932,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -13188,6 +14964,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -13218,6 +14998,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -13246,6 +15030,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -13276,6 +15064,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -13304,6 +15096,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -13334,6 +15130,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -13362,6 +15162,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -13392,6 +15196,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -13420,6 +15228,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -13450,6 +15262,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -13478,6 +15294,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -13508,6 +15328,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -13536,6 +15360,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -13566,6 +15394,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -13594,6 +15426,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -13624,6 +15460,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -13643,6 +15483,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -13664,6 +15508,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -13683,6 +15531,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -13704,6 +15556,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -13723,6 +15579,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -13744,6 +15604,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -13763,6 +15627,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -13784,6 +15652,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -13803,6 +15675,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -13824,6 +15700,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -13843,6 +15723,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -13864,6 +15748,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -13883,6 +15771,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -13904,6 +15796,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -13923,6 +15819,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -13944,6 +15844,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -13963,6 +15867,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -13984,6 +15892,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -14003,6 +15915,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -14024,6 +15940,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -14043,6 +15963,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -14064,6 +15988,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -14083,6 +16011,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -14104,6 +16036,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -14123,6 +16059,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -14144,6 +16084,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -14163,6 +16107,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -14193,6 +16141,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -14221,6 +16173,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -14251,6 +16207,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -14279,6 +16239,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -14309,6 +16273,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -14337,6 +16305,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -14367,6 +16339,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -14395,6 +16371,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -14425,6 +16405,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -14453,6 +16437,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -14483,6 +16471,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -14511,6 +16503,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -14541,6 +16537,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -14569,6 +16569,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -14599,6 +16603,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -14627,6 +16635,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -14657,6 +16669,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -14685,6 +16701,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -14715,6 +16735,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -14743,6 +16767,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -14773,6 +16801,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -14801,6 +16833,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -14831,6 +16867,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -14859,6 +16899,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -14889,6 +16933,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -14917,6 +16965,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -14947,6 +16999,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -14975,6 +17031,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -15005,6 +17065,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -15033,6 +17097,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -15063,6 +17131,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -15091,6 +17163,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -15121,6 +17197,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -15149,6 +17229,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -15179,6 +17263,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -15207,6 +17295,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -15237,6 +17329,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -15265,6 +17361,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -15295,6 +17395,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -15323,6 +17427,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -15353,6 +17461,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -15381,6 +17493,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -15411,6 +17527,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -15439,6 +17559,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -15469,6 +17593,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -15497,6 +17625,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -15527,6 +17659,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -15555,6 +17691,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -15585,6 +17725,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -15613,6 +17757,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -15643,6 +17791,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -15671,6 +17823,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -15701,6 +17857,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -15729,6 +17889,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -15759,6 +17923,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -15787,6 +17955,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -15817,6 +17989,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -15845,6 +18021,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -15875,6 +18055,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -15903,6 +18087,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -15933,6 +18121,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -15961,6 +18153,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -15991,6 +18187,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -16019,6 +18219,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       },
       {
@@ -16055,6 +18259,10 @@
         "Value": "False"
       },
       {
+        "Name": "IsChallenge",
+        "Value": "False"
+      },
+      {
         "Name": "Density",
         "Value": "200,0"
       }
@@ -16085,6 +18293,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       },
       {
@@ -16119,6 +18331,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -16147,6 +18363,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       },
       {
@@ -16183,6 +18403,10 @@
         "Value": "False"
       },
       {
+        "Name": "IsChallenge",
+        "Value": "False"
+      },
+      {
         "Name": "Density",
         "Value": "200,0"
       }
@@ -16214,6 +18438,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -16242,6 +18470,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -16272,6 +18504,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -16300,6 +18536,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       },
       {
@@ -16334,6 +18574,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -16362,6 +18606,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -16392,6 +18640,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -16420,6 +18672,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -16450,6 +18706,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -16478,6 +18738,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -16508,6 +18772,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -16536,6 +18804,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -16566,6 +18838,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -16594,6 +18870,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -16624,6 +18904,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -16652,6 +18936,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -16682,6 +18970,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -16710,6 +19002,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -16740,6 +19036,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -16768,6 +19068,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -16798,6 +19102,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -16826,6 +19134,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -16856,6 +19168,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -16884,6 +19200,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -16914,6 +19234,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -16942,6 +19266,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -16972,6 +19300,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -17000,6 +19332,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -17030,6 +19366,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -17058,6 +19398,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -17088,6 +19432,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -17116,6 +19464,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -17146,6 +19498,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -17174,6 +19530,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -17204,6 +19564,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -17232,6 +19596,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -17262,6 +19630,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -17290,6 +19662,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -17320,6 +19696,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -17348,6 +19728,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -17378,6 +19762,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -17406,6 +19794,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       },
       {
@@ -17440,6 +19832,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -17468,6 +19864,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -17498,6 +19898,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -17526,6 +19930,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -17556,6 +19964,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -17584,6 +19996,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -17614,6 +20030,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -17642,6 +20062,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -17672,6 +20096,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -17700,6 +20128,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -17730,6 +20162,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -17758,6 +20194,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -17788,6 +20228,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -17816,6 +20260,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -17846,6 +20294,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -17874,6 +20326,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -17904,6 +20360,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -17932,6 +20392,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       },
       {
@@ -17966,6 +20430,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -17994,6 +20462,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -18024,6 +20496,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -18052,6 +20528,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -18082,6 +20562,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -18110,6 +20594,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -18140,6 +20628,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -18168,6 +20660,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -18198,6 +20694,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -18227,6 +20727,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -18255,6 +20759,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       },
       {
@@ -18291,6 +20799,10 @@
         "Value": "False"
       },
       {
+        "Name": "IsChallenge",
+        "Value": "False"
+      },
+      {
         "Name": "Density",
         "Value": "500,0"
       }
@@ -18317,6 +20829,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -18347,6 +20863,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -18375,6 +20895,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]
@@ -18405,6 +20929,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -18434,6 +20962,10 @@
       {
         "Name": "IsCreative",
         "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
       }
     ]
   },
@@ -18462,6 +20994,10 @@
       },
       {
         "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
         "Value": "False"
       }
     ]

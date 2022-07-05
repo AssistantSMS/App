@@ -566,3 +566,13 @@ List<Widget> itemUsedInPackingRecipesWidget(
   }
   return widgets;
 }
+
+Widget getModeChip(BuildContext context, String text) {
+  return Chip(
+    elevation: 2,
+    padding: const EdgeInsets.all(8),
+    backgroundColor: getTheme().getSecondaryColour(context),
+    shadowColor: Colors.black,
+    label: Text(text + ' mode'),
+  );
+}

@@ -13,15 +13,22 @@ Widget gameItemTilePresenter(
     title = getTranslations().fromKey(LocaleKey.unknown);
   }
 
-  ListTile tile = genericListTile(
+  Widget trailing;
+  TextStyle trailingTextStyle = TextStyle(color: Colors.grey[500]);
+  if (gameItem.isChallenge) {
+    trailing = Text('Challenge', style: trailingTextStyle); // TODO translate
+  }
+  if (gameItem.isCreative) {
+    trailing = Text(
+      getTranslations().fromKey(LocaleKey.creative),
+      style: trailingTextStyle,
+    );
+  }
+
+  return genericListTile(
     context,
     leadingImage: gameItem.icon,
     name: title,
+    trailing: trailing,
   );
-
-  if (gameItem.isCreative) {
-    return wrapInNewBanner(context, LocaleKey.creative, tile);
-  }
-
-  return tile;
 }

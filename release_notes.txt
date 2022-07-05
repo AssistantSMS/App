@@ -3,3 +3,8 @@
 - Navbar upgrade
 - Add developer details button
 - Fix creative item banners
+
+_Submitted to App Stores 2022-07-05_
+
+For more details on this update please visit the "What is New" page in the Apps or on the website
+

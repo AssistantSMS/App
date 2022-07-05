@@ -41,7 +41,9 @@ class CustomRouter {
     );
     router.define(
       Routes.about,
-      handler: _basicHandlerFunc(() => AboutPage()),
+      handler: _basicHandlerFunc(() => AboutPage(
+            key: const Key('about'),
+          )),
       transitionType: transition,
     );
     router.define(

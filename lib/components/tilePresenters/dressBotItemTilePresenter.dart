@@ -6,19 +6,26 @@ import '../../helpers/genericHelper.dart';
 import '../../mapper/gameItemMapper.dart';
 
 Widget dressBotItemTilePresenter(
-        BuildContext context, GameItem gameItem, int index) =>
-    genericListTile(
-      context,
-      leadingImage: gameItem.icon,
-      name: gameItem.title,
-      trailing: SizedBox(
-        child: genericItemImage(
-          context,
-          getDressBotImage(gameItem.customisationSource),
-          height: 50,
-          disableZoom: true,
-        ),
-        height: 50,
-        width: 50,
-      ),
-    );
+  BuildContext context,
+  GameItem gameItem,
+  int index,
+) {
+  String dressBotPckgImg = getDressBotImage(gameItem.customisationSource);
+  return genericListTile(
+    context,
+    leadingImage: gameItem.icon,
+    name: gameItem.title,
+    trailing: (dressBotPckgImg.isNotEmpty)
+        ? SizedBox(
+            child: genericItemImage(
+              context,
+              dressBotPckgImg,
+              height: 50,
+              disableZoom: true,
+            ),
+            height: 50,
+            width: 50,
+          )
+        : null,
+  );
+}

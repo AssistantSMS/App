@@ -5,7 +5,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custFacF1",
@@ -13,7 +14,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custFacM2",
@@ -21,7 +23,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custFacF2",
@@ -29,7 +32,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custFacM3",
@@ -37,7 +41,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custFacF3",
@@ -45,7 +50,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custFacM4",
@@ -53,7 +59,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custFacF4",
@@ -61,7 +68,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custFacM5",
@@ -69,7 +77,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custFacF5",
@@ -77,7 +86,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custFacM6",
@@ -85,7 +95,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custFacF6",
@@ -93,7 +104,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custFacM7",
@@ -101,7 +113,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custFacF7",
@@ -109,7 +122,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custFacM8",
@@ -117,7 +131,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custFacF8",
@@ -125,7 +140,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custFacM9",
@@ -133,7 +149,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custFacF9",
@@ -141,7 +158,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custFacM10",
@@ -149,7 +167,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custFacF10",
@@ -157,7 +176,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custFacM11",
@@ -165,7 +185,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custFacF11",
@@ -173,7 +194,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custTorM2",
@@ -182,6 +204,7 @@
     "PhysicsMaterial": "",
     "Flammable": false,
     "IsCreative": false,
+    "IsChallenge": false,
     "CustomisationSource": 1
   },
   {
@@ -190,7 +213,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custTorM4",
@@ -198,7 +222,9 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false,
+    "CustomisationSource": 2
   },
   {
     "Id": "custTorM5",
@@ -207,6 +233,7 @@
     "PhysicsMaterial": "",
     "Flammable": false,
     "IsCreative": false,
+    "IsChallenge": false,
     "CustomisationSource": 2
   },
   {
@@ -216,6 +243,7 @@
     "PhysicsMaterial": "",
     "Flammable": false,
     "IsCreative": false,
+    "IsChallenge": false,
     "CustomisationSource": 3
   },
   {
@@ -225,6 +253,7 @@
     "PhysicsMaterial": "",
     "Flammable": false,
     "IsCreative": false,
+    "IsChallenge": false,
     "CustomisationSource": 2
   },
   {
@@ -234,6 +263,7 @@
     "PhysicsMaterial": "",
     "Flammable": false,
     "IsCreative": false,
+    "IsChallenge": false,
     "CustomisationSource": 1
   },
   {
@@ -242,7 +272,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custTorM10",
@@ -251,6 +282,7 @@
     "PhysicsMaterial": "",
     "Flammable": false,
     "IsCreative": false,
+    "IsChallenge": false,
     "CustomisationSource": 1
   },
   {
@@ -260,6 +292,7 @@
     "PhysicsMaterial": "",
     "Flammable": false,
     "IsCreative": false,
+    "IsChallenge": false,
     "CustomisationSource": 2
   },
   {
@@ -269,6 +302,7 @@
     "PhysicsMaterial": "",
     "Flammable": false,
     "IsCreative": false,
+    "IsChallenge": false,
     "CustomisationSource": 1
   },
   {
@@ -278,6 +312,7 @@
     "PhysicsMaterial": "",
     "Flammable": false,
     "IsCreative": false,
+    "IsChallenge": false,
     "CustomisationSource": 1
   },
   {
@@ -287,6 +322,7 @@
     "PhysicsMaterial": "",
     "Flammable": false,
     "IsCreative": false,
+    "IsChallenge": false,
     "CustomisationSource": 1
   },
   {
@@ -296,7 +332,7 @@
     "PhysicsMaterial": "",
     "Flammable": false,
     "IsCreative": false,
-    "CustomisationSource": 2
+    "IsChallenge": false
   },
   {
     "Id": "custTorM16",
@@ -305,7 +341,8 @@
     "PhysicsMaterial": "",
     "Flammable": false,
     "IsCreative": false,
-    "CustomisationSource": 1
+    "IsChallenge": false,
+    "CustomisationSource": 2
   },
   {
     "Id": "custTorM17",
@@ -314,6 +351,7 @@
     "PhysicsMaterial": "",
     "Flammable": false,
     "IsCreative": false,
+    "IsChallenge": false,
     "CustomisationSource": 1
   },
   {
@@ -323,6 +361,7 @@
     "PhysicsMaterial": "",
     "Flammable": false,
     "IsCreative": false,
+    "IsChallenge": false,
     "CustomisationSource": 1
   },
   {
@@ -332,6 +371,7 @@
     "PhysicsMaterial": "",
     "Flammable": false,
     "IsCreative": false,
+    "IsChallenge": false,
     "CustomisationSource": 1
   },
   {
@@ -341,6 +381,7 @@
     "PhysicsMaterial": "",
     "Flammable": false,
     "IsCreative": false,
+    "IsChallenge": false,
     "CustomisationSource": 1
   },
   {
@@ -350,6 +391,7 @@
     "PhysicsMaterial": "",
     "Flammable": false,
     "IsCreative": false,
+    "IsChallenge": false,
     "CustomisationSource": 1
   },
   {
@@ -359,6 +401,7 @@
     "PhysicsMaterial": "",
     "Flammable": false,
     "IsCreative": false,
+    "IsChallenge": false,
     "CustomisationSource": 1
   },
   {
@@ -368,6 +411,7 @@
     "PhysicsMaterial": "",
     "Flammable": false,
     "IsCreative": false,
+    "IsChallenge": false,
     "CustomisationSource": 1
   },
   {
@@ -377,6 +421,7 @@
     "PhysicsMaterial": "",
     "Flammable": false,
     "IsCreative": false,
+    "IsChallenge": false,
     "CustomisationSource": 1
   },
   {
@@ -386,6 +431,7 @@
     "PhysicsMaterial": "",
     "Flammable": false,
     "IsCreative": false,
+    "IsChallenge": false,
     "CustomisationSource": 1
   },
   {
@@ -395,6 +441,7 @@
     "PhysicsMaterial": "",
     "Flammable": false,
     "IsCreative": false,
+    "IsChallenge": false,
     "CustomisationSource": 1
   },
   {
@@ -404,6 +451,7 @@
     "PhysicsMaterial": "",
     "Flammable": false,
     "IsCreative": false,
+    "IsChallenge": false,
     "CustomisationSource": 1
   },
   {
@@ -413,6 +461,7 @@
     "PhysicsMaterial": "",
     "Flammable": false,
     "IsCreative": false,
+    "IsChallenge": false,
     "CustomisationSource": 1
   },
   {
@@ -422,6 +471,7 @@
     "PhysicsMaterial": "",
     "Flammable": false,
     "IsCreative": false,
+    "IsChallenge": false,
     "CustomisationSource": 1
   },
   {
@@ -431,6 +481,7 @@
     "PhysicsMaterial": "",
     "Flammable": false,
     "IsCreative": false,
+    "IsChallenge": false,
     "CustomisationSource": 1
   },
   {
@@ -440,6 +491,7 @@
     "PhysicsMaterial": "",
     "Flammable": false,
     "IsCreative": false,
+    "IsChallenge": false,
     "CustomisationSource": 1
   },
   {
@@ -449,6 +501,7 @@
     "PhysicsMaterial": "",
     "Flammable": false,
     "IsCreative": false,
+    "IsChallenge": false,
     "CustomisationSource": 1
   },
   {
@@ -458,6 +511,7 @@
     "PhysicsMaterial": "",
     "Flammable": false,
     "IsCreative": false,
+    "IsChallenge": false,
     "CustomisationSource": 1
   },
   {
@@ -467,6 +521,7 @@
     "PhysicsMaterial": "",
     "Flammable": false,
     "IsCreative": false,
+    "IsChallenge": false,
     "CustomisationSource": 1
   },
   {
@@ -476,6 +531,7 @@
     "PhysicsMaterial": "",
     "Flammable": false,
     "IsCreative": false,
+    "IsChallenge": false,
     "CustomisationSource": 1
   },
   {
@@ -485,6 +541,7 @@
     "PhysicsMaterial": "",
     "Flammable": false,
     "IsCreative": false,
+    "IsChallenge": false,
     "CustomisationSource": 1
   },
   {
@@ -494,6 +551,7 @@
     "PhysicsMaterial": "",
     "Flammable": false,
     "IsCreative": false,
+    "IsChallenge": false,
     "CustomisationSource": 1
   },
   {
@@ -503,6 +561,17 @@
     "PhysicsMaterial": "",
     "Flammable": false,
     "IsCreative": false,
+    "IsChallenge": false,
+    "CustomisationSource": 1
+  },
+  {
+    "Id": "custTorM39",
+    "Icon": "items/custTorM39.png",
+    "Color": "",
+    "PhysicsMaterial": "",
+    "Flammable": false,
+    "IsCreative": false,
+    "IsChallenge": false,
     "CustomisationSource": 1
   },
   {
@@ -512,6 +581,7 @@
     "PhysicsMaterial": "",
     "Flammable": false,
     "IsCreative": false,
+    "IsChallenge": false,
     "CustomisationSource": 1
   },
   {
@@ -520,7 +590,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custGloM4",
@@ -528,7 +599,9 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false,
+    "CustomisationSource": 2
   },
   {
     "Id": "custGloM5",
@@ -537,6 +610,7 @@
     "PhysicsMaterial": "",
     "Flammable": false,
     "IsCreative": false,
+    "IsChallenge": false,
     "CustomisationSource": 1
   },
   {
@@ -546,6 +620,7 @@
     "PhysicsMaterial": "",
     "Flammable": false,
     "IsCreative": false,
+    "IsChallenge": false,
     "CustomisationSource": 1
   },
   {
@@ -555,6 +630,7 @@
     "PhysicsMaterial": "",
     "Flammable": false,
     "IsCreative": false,
+    "IsChallenge": false,
     "CustomisationSource": 1
   },
   {
@@ -564,6 +640,7 @@
     "PhysicsMaterial": "",
     "Flammable": false,
     "IsCreative": false,
+    "IsChallenge": false,
     "CustomisationSource": 1
   },
   {
@@ -572,7 +649,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custGloM10",
@@ -581,6 +659,7 @@
     "PhysicsMaterial": "",
     "Flammable": false,
     "IsCreative": false,
+    "IsChallenge": false,
     "CustomisationSource": 1
   },
   {
@@ -590,6 +669,7 @@
     "PhysicsMaterial": "",
     "Flammable": false,
     "IsCreative": false,
+    "IsChallenge": false,
     "CustomisationSource": 1
   },
   {
@@ -599,6 +679,7 @@
     "PhysicsMaterial": "",
     "Flammable": false,
     "IsCreative": false,
+    "IsChallenge": false,
     "CustomisationSource": 2
   },
   {
@@ -608,6 +689,7 @@
     "PhysicsMaterial": "",
     "Flammable": false,
     "IsCreative": false,
+    "IsChallenge": false,
     "CustomisationSource": 1
   },
   {
@@ -617,7 +699,17 @@
     "PhysicsMaterial": "",
     "Flammable": false,
     "IsCreative": false,
+    "IsChallenge": false,
     "CustomisationSource": 1
+  },
+  {
+    "Id": "custGloM15",
+    "Icon": "items/custGloM15.png",
+    "Color": "",
+    "PhysicsMaterial": "",
+    "Flammable": false,
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custShoM2",
@@ -626,6 +718,7 @@
     "PhysicsMaterial": "",
     "Flammable": false,
     "IsCreative": false,
+    "IsChallenge": false,
     "CustomisationSource": 1
   },
   {
@@ -634,7 +727,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custShoM4",
@@ -642,7 +736,9 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false,
+    "CustomisationSource": 2
   },
   {
     "Id": "custShoM5",
@@ -651,6 +747,7 @@
     "PhysicsMaterial": "",
     "Flammable": false,
     "IsCreative": false,
+    "IsChallenge": false,
     "CustomisationSource": 1
   },
   {
@@ -660,6 +757,7 @@
     "PhysicsMaterial": "",
     "Flammable": false,
     "IsCreative": false,
+    "IsChallenge": false,
     "CustomisationSource": 1
   },
   {
@@ -669,6 +767,7 @@
     "PhysicsMaterial": "",
     "Flammable": false,
     "IsCreative": false,
+    "IsChallenge": false,
     "CustomisationSource": 1
   },
   {
@@ -678,6 +777,7 @@
     "PhysicsMaterial": "",
     "Flammable": false,
     "IsCreative": false,
+    "IsChallenge": false,
     "CustomisationSource": 1
   },
   {
@@ -686,7 +786,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custShoM10",
@@ -695,6 +796,7 @@
     "PhysicsMaterial": "",
     "Flammable": false,
     "IsCreative": false,
+    "IsChallenge": false,
     "CustomisationSource": 1
   },
   {
@@ -704,6 +806,7 @@
     "PhysicsMaterial": "",
     "Flammable": false,
     "IsCreative": false,
+    "IsChallenge": false,
     "CustomisationSource": 1
   },
   {
@@ -713,6 +816,7 @@
     "PhysicsMaterial": "",
     "Flammable": false,
     "IsCreative": false,
+    "IsChallenge": false,
     "CustomisationSource": 1
   },
   {
@@ -722,6 +826,7 @@
     "PhysicsMaterial": "",
     "Flammable": false,
     "IsCreative": false,
+    "IsChallenge": false,
     "CustomisationSource": 1
   },
   {
@@ -731,7 +836,17 @@
     "PhysicsMaterial": "",
     "Flammable": false,
     "IsCreative": false,
+    "IsChallenge": false,
     "CustomisationSource": 1
+  },
+  {
+    "Id": "custShoM15",
+    "Icon": "items/custShoM15.png",
+    "Color": "",
+    "PhysicsMaterial": "",
+    "Flammable": false,
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custLegM2",
@@ -740,6 +855,7 @@
     "PhysicsMaterial": "",
     "Flammable": false,
     "IsCreative": false,
+    "IsChallenge": false,
     "CustomisationSource": 1
   },
   {
@@ -748,7 +864,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custLegM4",
@@ -756,7 +873,9 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false,
+    "CustomisationSource": 2
   },
   {
     "Id": "custLegM5",
@@ -765,6 +884,7 @@
     "PhysicsMaterial": "",
     "Flammable": false,
     "IsCreative": false,
+    "IsChallenge": false,
     "CustomisationSource": 3
   },
   {
@@ -774,6 +894,7 @@
     "PhysicsMaterial": "",
     "Flammable": false,
     "IsCreative": false,
+    "IsChallenge": false,
     "CustomisationSource": 2
   },
   {
@@ -783,6 +904,7 @@
     "PhysicsMaterial": "",
     "Flammable": false,
     "IsCreative": false,
+    "IsChallenge": false,
     "CustomisationSource": 1
   },
   {
@@ -792,6 +914,7 @@
     "PhysicsMaterial": "",
     "Flammable": false,
     "IsCreative": false,
+    "IsChallenge": false,
     "CustomisationSource": 1
   },
   {
@@ -800,7 +923,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custLegM10",
@@ -809,6 +933,7 @@
     "PhysicsMaterial": "",
     "Flammable": false,
     "IsCreative": false,
+    "IsChallenge": false,
     "CustomisationSource": 2
   },
   {
@@ -818,6 +943,7 @@
     "PhysicsMaterial": "",
     "Flammable": false,
     "IsCreative": false,
+    "IsChallenge": false,
     "CustomisationSource": 1
   },
   {
@@ -827,6 +953,7 @@
     "PhysicsMaterial": "",
     "Flammable": false,
     "IsCreative": false,
+    "IsChallenge": false,
     "CustomisationSource": 2
   },
   {
@@ -836,6 +963,7 @@
     "PhysicsMaterial": "",
     "Flammable": false,
     "IsCreative": false,
+    "IsChallenge": false,
     "CustomisationSource": 1
   },
   {
@@ -845,7 +973,17 @@
     "PhysicsMaterial": "",
     "Flammable": false,
     "IsCreative": false,
+    "IsChallenge": false,
     "CustomisationSource": 2
+  },
+  {
+    "Id": "custLegM15",
+    "Icon": "items/custLegM15.png",
+    "Color": "",
+    "PhysicsMaterial": "",
+    "Flammable": false,
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custFacM1",
@@ -853,7 +991,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custFacF1",
@@ -861,7 +1000,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custFacM2",
@@ -869,7 +1009,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custFacF2",
@@ -877,7 +1018,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custFacM3",
@@ -885,7 +1027,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custFacF3",
@@ -893,7 +1036,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custFacM4",
@@ -901,7 +1045,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custFacF4",
@@ -909,7 +1054,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custFacM5",
@@ -917,7 +1063,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custFacF5",
@@ -925,7 +1072,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custFacM6",
@@ -933,7 +1081,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custFacF6",
@@ -941,7 +1090,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custFacM7",
@@ -949,7 +1099,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custFacF7",
@@ -957,7 +1108,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custFacM8",
@@ -965,7 +1117,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custFacF8",
@@ -973,7 +1126,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custFacM9",
@@ -981,7 +1135,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custFacF9",
@@ -989,7 +1144,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custFacM10",
@@ -997,7 +1153,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custFacF10",
@@ -1005,7 +1162,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custFacM11",
@@ -1013,7 +1171,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custFacF11",
@@ -1021,7 +1180,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custFacM12",
@@ -1029,7 +1189,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custFacF12",
@@ -1037,7 +1198,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custFacM13",
@@ -1045,7 +1207,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custFacF13",
@@ -1053,7 +1216,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custFacM14",
@@ -1061,7 +1225,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custFacF14",
@@ -1069,7 +1234,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custHaiM2",
@@ -1077,7 +1243,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custHaiF2",
@@ -1085,7 +1252,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custHaiM3",
@@ -1093,7 +1261,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custHaiF3",
@@ -1101,7 +1270,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custHaiM4",
@@ -1109,7 +1279,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custHaiF4",
@@ -1117,7 +1288,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custHaiM5",
@@ -1125,7 +1297,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custHaiF5",
@@ -1133,7 +1306,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custHaiM6",
@@ -1141,7 +1315,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custHaiF6",
@@ -1149,7 +1324,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custHaiM7",
@@ -1157,7 +1333,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custHaiF7",
@@ -1165,7 +1342,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custHaiM8",
@@ -1173,7 +1351,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custHaiF8",
@@ -1181,7 +1360,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custHaiM9",
@@ -1189,7 +1369,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custHaiF9",
@@ -1197,7 +1378,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custHaiM10",
@@ -1205,7 +1387,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custHaiF10",
@@ -1213,7 +1396,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custHaiM11",
@@ -1221,7 +1405,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custHaiF11",
@@ -1229,7 +1414,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custHaiM12",
@@ -1237,7 +1423,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custHaiF12",
@@ -1245,7 +1432,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custHaiM13",
@@ -1253,7 +1441,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custHaiF13",
@@ -1261,7 +1450,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custHaiM14",
@@ -1269,7 +1459,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custHaiF14",
@@ -1277,7 +1468,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custHatM1",
@@ -1285,7 +1477,9 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false,
+    "CustomisationSource": 2
   },
   {
     "Id": "custHatM2",
@@ -1294,6 +1488,7 @@
     "PhysicsMaterial": "",
     "Flammable": false,
     "IsCreative": false,
+    "IsChallenge": false,
     "CustomisationSource": 2
   },
   {
@@ -1303,6 +1498,7 @@
     "PhysicsMaterial": "",
     "Flammable": false,
     "IsCreative": false,
+    "IsChallenge": false,
     "CustomisationSource": 2
   },
   {
@@ -1312,6 +1508,7 @@
     "PhysicsMaterial": "",
     "Flammable": false,
     "IsCreative": false,
+    "IsChallenge": false,
     "CustomisationSource": 3
   },
   {
@@ -1321,6 +1518,7 @@
     "PhysicsMaterial": "",
     "Flammable": false,
     "IsCreative": false,
+    "IsChallenge": false,
     "CustomisationSource": 2
   },
   {
@@ -1329,7 +1527,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custHatM7",
@@ -1338,6 +1537,7 @@
     "PhysicsMaterial": "",
     "Flammable": false,
     "IsCreative": false,
+    "IsChallenge": false,
     "CustomisationSource": 2
   },
   {
@@ -1347,6 +1547,7 @@
     "PhysicsMaterial": "",
     "Flammable": false,
     "IsCreative": false,
+    "IsChallenge": false,
     "CustomisationSource": 3
   },
   {
@@ -1356,6 +1557,7 @@
     "PhysicsMaterial": "",
     "Flammable": false,
     "IsCreative": false,
+    "IsChallenge": false,
     "CustomisationSource": 1
   },
   {
@@ -1365,6 +1567,7 @@
     "PhysicsMaterial": "",
     "Flammable": false,
     "IsCreative": false,
+    "IsChallenge": false,
     "CustomisationSource": 2
   },
   {
@@ -1374,7 +1577,17 @@
     "PhysicsMaterial": "",
     "Flammable": false,
     "IsCreative": false,
+    "IsChallenge": false,
     "CustomisationSource": 2
+  },
+  {
+    "Id": "custHatM12",
+    "Icon": "items/custHatM12.png",
+    "Color": "",
+    "PhysicsMaterial": "",
+    "Flammable": false,
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custBacM1",
@@ -1383,6 +1596,7 @@
     "PhysicsMaterial": "",
     "Flammable": false,
     "IsCreative": false,
+    "IsChallenge": false,
     "CustomisationSource": 1
   },
   {
@@ -1391,7 +1605,8 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "custBacM3",
@@ -1399,7 +1614,9 @@
     "Color": "",
     "PhysicsMaterial": "",
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false,
+    "CustomisationSource": 3
   },
   {
     "Id": "custBacM4",
@@ -1408,6 +1625,7 @@
     "PhysicsMaterial": "",
     "Flammable": false,
     "IsCreative": false,
+    "IsChallenge": false,
     "CustomisationSource": 1
   },
   {
@@ -1417,6 +1635,7 @@
     "PhysicsMaterial": "",
     "Flammable": false,
     "IsCreative": false,
+    "IsChallenge": false,
     "CustomisationSource": 1
   },
   {
@@ -1426,6 +1645,7 @@
     "PhysicsMaterial": "",
     "Flammable": false,
     "IsCreative": false,
+    "IsChallenge": false,
     "CustomisationSource": 2
   },
   {
@@ -1435,6 +1655,7 @@
     "PhysicsMaterial": "",
     "Flammable": false,
     "IsCreative": false,
+    "IsChallenge": false,
     "CustomisationSource": 1
   },
   {
@@ -1444,6 +1665,7 @@
     "PhysicsMaterial": "",
     "Flammable": false,
     "IsCreative": false,
+    "IsChallenge": false,
     "CustomisationSource": 3
   },
   {
@@ -1453,6 +1675,7 @@
     "PhysicsMaterial": "",
     "Flammable": false,
     "IsCreative": false,
+    "IsChallenge": false,
     "CustomisationSource": 2
   },
   {
@@ -1462,6 +1685,7 @@
     "PhysicsMaterial": "",
     "Flammable": false,
     "IsCreative": false,
+    "IsChallenge": false,
     "CustomisationSource": 3
   },
   {
@@ -1471,6 +1695,16 @@
     "PhysicsMaterial": "",
     "Flammable": false,
     "IsCreative": false,
+    "IsChallenge": false,
     "CustomisationSource": 1
+  },
+  {
+    "Id": "custBacM12",
+    "Icon": "items/custBacM12.png",
+    "Color": "",
+    "PhysicsMaterial": "",
+    "Flammable": false,
+    "IsCreative": false,
+    "IsChallenge": false
   }
 ]

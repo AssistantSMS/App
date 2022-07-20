@@ -160,23 +160,6 @@
     ]
   },
   {
-    "appId": "intera23",
-    "chances": [
-      {
-        "min": 1,
-        "max": 1,
-        "chance": 3,
-        "type": 0
-      },
-      {
-        "min": 1,
-        "max": 1,
-        "chance": 3,
-        "type": 1
-      }
-    ]
-  },
-  {
     "appId": "intera24",
     "chances": [
       {
@@ -194,18 +177,18 @@
     ]
   },
   {
-    "appId": "intera26",
+    "appId": "intera25",
     "chances": [
       {
         "min": 1,
         "max": 1,
-        "chance": 1,
+        "chance": 3,
         "type": 0
       },
       {
         "min": 1,
         "max": 1,
-        "chance": 1,
+        "chance": 3,
         "type": 1
       }
     ]
@@ -233,6 +216,23 @@
       {
         "min": 1,
         "max": 1,
+        "chance": 1,
+        "type": 0
+      },
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 1,
+        "type": 1
+      }
+    ]
+  },
+  {
+    "appId": "intera29",
+    "chances": [
+      {
+        "min": 1,
+        "max": 1,
         "chance": 3,
         "type": 0
       },
@@ -245,7 +245,7 @@
     ]
   },
   {
-    "appId": "intera29",
+    "appId": "intera30",
     "chances": [
       {
         "min": 1,
@@ -738,7 +738,7 @@
     ]
   },
   {
-    "appId": "intera11",
+    "appId": "intera12",
     "chances": [
       {
         "min": 1,

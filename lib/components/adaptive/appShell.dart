@@ -1,13 +1,14 @@
 import 'package:after_layout/after_layout.dart';
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
+import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:theme_mode_handler/theme_mode_handler.dart';
+import 'package:adaptive_theme/adaptive_theme.dart';
 import 'package:universal_html/html.dart' as html;
 
 import '../../env/appRouter.dart';
-import '../../integration/themeManager.dart';
 import '../../theme/themes.dart';
+import 'windowsTitleBar.dart';
 
 class AdaptiveAppShell extends StatefulWidget {
   final TranslationsDelegate newLocaleDelegate;
@@ -35,6 +36,19 @@ class _AppShellWidget extends State<AdaptiveAppShell>
   Widget build(BuildContext context) {
     getLog().i("main rebuild");
 
+    return AdaptiveTheme(
+      initial: AdaptiveThemeMode.dark,
+      light: getDynamicTheme(
+        Brightness.light,
+      ),
+      dark: getDynamicTheme(
+        Brightness.dark,
+      ),
+      builder: appRenderer,
+    );
+  }
+
+  Widget appRenderer(ThemeData theme, ThemeData darkTheme) {
     List<LocalizationsDelegate<dynamic>> localizationsDelegates = [
       widget.newLocaleDelegate,
       GlobalMaterialLocalizations.delegate, //provides localised strings
@@ -42,18 +56,37 @@ class _AppShellWidget extends State<AdaptiveAppShell>
     ];
     List<Locale> supportedLangs = getLanguage().supportedLocales();
 
-    return ThemeModeHandler(
-      key: const Key('ThemeModeHandler'),
-      manager: ThemeManager(),
-      builder: (ThemeMode themeMode) => MaterialApp(
-        key: Key(themeMode.name),
-        title: 'Assistant for Scrap Mechanic',
-        themeMode: themeMode,
-        darkTheme: getDynamicTheme(Brightness.dark),
-        theme: getDynamicTheme(Brightness.light),
-        onGenerateRoute: AppRouter.router.generator,
-        localizationsDelegates: localizationsDelegates,
-        supportedLocales: supportedLangs,
+    ScrollBehavior scrollBehavior;
+    if (isWindows) {
+      scrollBehavior = const MaterialScrollBehavior().copyWith(
+        dragDevices: {
+          PointerDeviceKind.mouse,
+          PointerDeviceKind.touch,
+          PointerDeviceKind.stylus,
+          PointerDeviceKind.unknown
+        },
+      );
+    }
+
+    MaterialApp matApp = MaterialApp(
+      title: 'Assistant for Scrap Mechanic',
+      scrollBehavior: scrollBehavior,
+      darkTheme: getDynamicTheme(Brightness.dark),
+      theme: theme,
+      onGenerateRoute: AppRouter.router.generator,
+      localizationsDelegates: localizationsDelegates,
+      supportedLocales: supportedLangs,
+    );
+
+    if (!isWindows) return matApp;
+
+    return MaterialApp(
+      theme: theme,
+      darkTheme: darkTheme,
+      debugShowCheckedModeBanner: false,
+      home: Scaffold(
+        appBar: WindowsTitleBar('Assistant for Scrap Mechanic'),
+        body: matApp,
       ),
     );
   }

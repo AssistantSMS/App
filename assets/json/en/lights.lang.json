@@ -25,10 +25,12 @@
   },
   {
     "Id": "light7",
-    "Title": "Headlight"
+    "Title": "Headlight",
+    "Description": "Let there be visibility! Connect to a trigger to turn on and off. Adjustable beam range."
   },
   {
     "Id": "light8",
-    "Title": "Warehouse Spotlight"
+    "Title": "Warehouse Spotlight",
+    "Description": "Let there be visibility! Connect to a trigger to turn on and off. Adjustable beam range."
   }
 ]

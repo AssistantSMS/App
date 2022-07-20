@@ -1,18 +1,22 @@
 [
   {
     "Id": "scrap1",
-    "Title": "Scrap Driver's Seat"
+    "Title": "Scrap Driver's Seat",
+    "Description": "Makes bearings turn left and right. Can be connected to an engine to control the direction of travel. Can also be connected to triggers that can be activated from the seat. This Drive's Seat is not upgradable."
   },
   {
     "Id": "scrap2",
-    "Title": "Scrap Seat"
+    "Title": "Scrap Seat",
+    "Description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. This Seat is not upgradable."
   },
   {
     "Id": "scrap3",
-    "Title": "Scrap Wheel"
+    "Title": "Scrap Wheel",
+    "Description": "Not perfectly round."
   },
   {
     "Id": "scrap4",
-    "Title": "Scrap Gas Engine"
+    "Title": "Scrap Gas Engine",
+    "Description": "An engine with uneven speed and adjustable power, ideally suited to powering vehicles. Can be connected to a driver's seat or trigger. This Engine is not upgradable."
   }
 ]

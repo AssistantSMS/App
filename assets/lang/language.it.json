@@ -63,9 +63,9 @@
   "cart": "Carrello",
   "quantity": "Quantità",
   "unknown": "Sconosciuto",
-  "settings": "Settaggi",
+  "settings": "Impostazioni",
   "language": "Language",
-  "darkModeEnabled": "Modalità Nero",
+  "darkModeEnabled": "Modalità Notte",
   "allItems": "Tutti gli oggetti",
   "news": "Novità",
   "twitter": "Twitter",
@@ -170,5 +170,6 @@
   "packingStation": "Packing Station",
   "foundIn": "Found in",
   "home": "Home",
-  "hashCode": "FDDC3CC77D72101F62BCD28547BA2C43"
+  "creative": "Creative",
+  "hashCode": "D894C454B14D7F5F9D1AEBA424F21E18"
 }

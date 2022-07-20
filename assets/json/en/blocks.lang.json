@@ -166,5 +166,17 @@
   {
     "Id": "blk42",
     "Title": "Cardboard Block"
+  },
+  {
+    "Id": "blk43",
+    "Title": "Challenge Block One"
+  },
+  {
+    "Id": "blk44",
+    "Title": "Challenge Block Two"
+  },
+  {
+    "Id": "blk45",
+    "Title": "Challenge Glass"
   }
 ]

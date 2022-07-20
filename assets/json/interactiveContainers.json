@@ -16,7 +16,8 @@
       "Z": 3
     },
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "interc2",
@@ -35,7 +36,8 @@
       "Z": 3
     },
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "interc3",
@@ -54,6 +56,7 @@
       "Z": 3
     },
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   }
 ]

@@ -16,7 +16,8 @@
       "Z": 2
     },
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "constr2",
@@ -35,7 +36,8 @@
       "Z": 1
     },
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "constr3",
@@ -54,7 +56,8 @@
       "Z": 1
     },
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "constr4",
@@ -73,7 +76,8 @@
       "Z": 1
     },
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "constr5",
@@ -92,7 +96,8 @@
       "Z": 2
     },
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "constr6",
@@ -110,7 +115,8 @@
       "Depth": 3
     },
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "constr7",
@@ -129,7 +135,8 @@
       "Z": 6
     },
     "Flammable": true,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "constr8",
@@ -146,7 +153,8 @@
       "Depth": 8
     },
     "Flammable": true,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "constr9",
@@ -164,7 +172,8 @@
       "Z": 1
     },
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "constr10",
@@ -183,7 +192,8 @@
       "Z": 1
     },
     "Flammable": true,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "constr11",
@@ -202,7 +212,8 @@
       "Z": 1
     },
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "constr12",
@@ -221,7 +232,8 @@
       "Z": 1
     },
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "constr13",
@@ -240,7 +252,8 @@
       "Z": 1
     },
     "Flammable": true,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "constr14",
@@ -259,7 +272,8 @@
       "Z": 8
     },
     "Flammable": true,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "constr15",
@@ -278,7 +292,8 @@
       "Z": 2
     },
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "constr16",
@@ -297,7 +312,8 @@
       "Z": 6
     },
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "constr17",
@@ -316,7 +332,8 @@
       "Z": 6
     },
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "constr18",
@@ -335,7 +352,8 @@
       "Z": 3
     },
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "constr19",
@@ -353,7 +371,8 @@
       "Depth": 2
     },
     "Flammable": true,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "constr20",
@@ -372,6 +391,7 @@
       "Z": 1
     },
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   }
 ]

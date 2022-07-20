@@ -86,7 +86,7 @@ class CartPage extends StatelessWidget {
           var controller =
               TextEditingController(text: cartDetail.quantity.toString());
           getDialog().showQuantityDialog(context, controller,
-              onSuccess: (quantity) {
+              onSuccess: (BuildContext dialogCtx, String quantity) {
             int intQuantity = int.tryParse(quantity);
             if (intQuantity == null) return;
             viewModel.editCartItem(cartDetail.id, intQuantity);
@@ -106,6 +106,7 @@ class CartPage extends StatelessWidget {
     if (widgets.isNotEmpty) {
       widgets.add(Container(
         child: positiveButton(
+          context,
           title: getTranslations().fromKey(LocaleKey.viewAllRequiredItems),
           onPress: () async => await getNavigation().navigateAsync(
             context,
@@ -118,15 +119,18 @@ class CartPage extends StatelessWidget {
             title: getTranslations().fromKey(LocaleKey.deleteAll),
             onPress: () {
               getDialog().showSimpleDialog(
-                  context,
-                  getTranslations().fromKey(LocaleKey.deleteAll),
-                  Text(getTranslations().fromKey(LocaleKey.areYouSure)),
-                  buttons: [
-                    getDialog().simpleDialogCloseButton(context),
-                    getDialog().simpleDialogPositiveButton(context,
-                        title: LocaleKey.yes,
-                        onTap: () => viewModel.removeAllFromCart()),
-                  ]);
+                context,
+                getTranslations().fromKey(LocaleKey.deleteAll),
+                Text(getTranslations().fromKey(LocaleKey.areYouSure)),
+                buttonBuilder: (BuildContext dialogCtx) => [
+                  getDialog().simpleDialogCloseButton(dialogCtx),
+                  getDialog().simpleDialogPositiveButton(
+                    dialogCtx,
+                    title: LocaleKey.yes,
+                    onTap: () => viewModel.removeAllFromCart(),
+                  ),
+                ],
+              );
             }),
       ));
     } else {

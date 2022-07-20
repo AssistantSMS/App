@@ -16,7 +16,8 @@
       "Z": 1
     },
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "harv2",
@@ -35,7 +36,8 @@
       "Z": 1
     },
     "Flammable": true,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "harv3",
@@ -54,7 +56,8 @@
       "Z": 1
     },
     "Flammable": true,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "harv4",
@@ -73,7 +76,8 @@
       "Z": 1
     },
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "harv5",
@@ -92,6 +96,7 @@
       "Z": 1
     },
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   }
 ]

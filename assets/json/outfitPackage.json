@@ -16,7 +16,8 @@
       "Z": 1
     },
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "out2",
@@ -35,7 +36,8 @@
       "Z": 1
     },
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "out3",
@@ -54,6 +56,7 @@
       "Z": 1
     },
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   }
 ]

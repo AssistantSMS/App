@@ -1,29 +1,28 @@
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:redux/redux.dart';
 
-import './middleware/localStorageMiddleware.dart';
-import '../integration/dependencyInjection.dart';
+import '../constants/AppConfig.dart';
 import 'appReducer.dart';
+import 'middleware/localStorageMiddleware.dart';
 import 'modules/base/appState.dart';
 
 Future<Store<AppState>> createStore() async {
-  List<void Function(Store<AppState>, dynamic, void Function(dynamic))>
-      middlewares = List.empty(growable: true);
   AppState stateObj = AppState.initial();
-  if (isAndroid || isiOS || isWeb) {
-    try {
-      ResultWithValue<AppState> stateResult =
-          await getStorageService().loadAppState();
-      if (stateResult.isSuccess) stateObj = stateResult.value;
-    } catch (exception) {
-      getLog().e(exception);
+  try {
+    ResultWithValue<Map<String, dynamic>> tempResult =
+        await getStorageRepo().loadFromStorage(AppConfig.appStateKey);
+    if (tempResult.isSuccess) {
+      stateObj = AppState.fromJson(tempResult.value);
     }
-    middlewares.add(LocalStorageMiddleware());
+  } catch (exception) {
+    getLog().e(exception);
   }
 
   return Store(
     appReducer,
     initialState: stateObj,
-    middleware: middlewares,
+    middleware: [
+      LocalStorageMiddleware(),
+    ],
   );
 }

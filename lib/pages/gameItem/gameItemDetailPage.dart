@@ -120,6 +120,20 @@ class GameItemDetailPage extends StatelessWidget {
     widgets.add(Stack(children: stackWidgets));
     widgets.add(emptySpace1x());
     widgets.add(genericItemName(gameItem.title));
+    if (gameItem.description != null && gameItem.description.isNotEmpty) {
+      widgets.add(genericItemDescription(gameItem.description));
+    }
+    widgets.add(emptySpace1x());
+
+    if (gameItem.isChallenge) {
+      widgets.add(getModeChip(context, 'Challenge')); // TODO translate
+    }
+    if (gameItem.isCreative) {
+      widgets.add(getModeChip(
+        context,
+        getTranslations().fromKey(LocaleKey.creative),
+      ));
+    }
 
     widgets.add(emptySpace1x());
 
@@ -266,7 +280,7 @@ class GameItemDetailPage extends StatelessWidget {
             onPressed: () {
               getDialog().showQuantityDialog(context, controller,
                   title: getTranslations().fromKey(LocaleKey.quantity),
-                  onSuccess: (String quantityString) {
+                  onSuccess: (BuildContext dialogCtx, String quantityString) {
                 int quantity = int.tryParse(quantityString);
                 if (quantity == null) return;
                 viewModel.addToCart(gameItem.id, quantity);

@@ -1,6 +1,7 @@
 class AppImage {
   static const String imageAssetPathPrefix = 'assets/img';
   static const String base = '$imageAssetPathPrefix/';
+  static const String unknown = base + 'unknown.png';
   static const String rating = 'rating/';
   static const String tile = 'tile/';
   static const String raid = 'raid/';
@@ -65,4 +66,6 @@ class AppImage {
   static const String haybot = base + raid + 'haybot.png';
   static const String tapebot = base + raid + 'tapebot.png';
   static const String farmbot = base + raid + 'farmbot.png';
+
+  static const String assistantSMSWindowIcon = 'window_icon.png';
 }

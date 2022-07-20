@@ -16,7 +16,8 @@
       "Z": 1
     },
     "Flammable": true,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "man2",
@@ -35,7 +36,8 @@
       "Z": 1
     },
     "Flammable": true,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "man3",
@@ -54,7 +56,8 @@
       "Z": 8
     },
     "Flammable": true,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "man4",
@@ -73,7 +76,8 @@
       "Z": 8
     },
     "Flammable": true,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "man5",
@@ -92,7 +96,8 @@
       "Z": 8
     },
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "man6",
@@ -111,7 +116,8 @@
       "Z": 2
     },
     "Flammable": true,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "man7",
@@ -130,7 +136,8 @@
       "Z": 1
     },
     "Flammable": true,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "man8",
@@ -149,7 +156,8 @@
       "Z": 1
     },
     "Flammable": true,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "man9",
@@ -168,6 +176,7 @@
       "Z": 1
     },
     "Flammable": true,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   }
 ]

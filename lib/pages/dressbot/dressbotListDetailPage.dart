@@ -73,27 +73,29 @@ class DressBotListDetailPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return getBaseWidget().appScaffold(
       context,
-      appBar: getBaseWidget().appBarForSubPage(context,
-          title: Text(getTranslations().fromKey(LocaleKey.dressBot)),
-          showHomeAction: true,
-          actions: [
-            ActionItem(
-              icon: Icons.sort,
-              onPressed: () async {
-                List<CheckboxOption> newSelection =
-                    await getNavigation().navigateAsync(
-                  context,
-                  navigateTo: (context) => CheckboxListPageDialog(
-                    getTranslations().fromKey(LocaleKey.dressBot),
-                    currentSelection ?? allItemList,
-                  ),
-                );
-                if (newSelection == null ||
-                    newSelection.length != allItemList.length) return;
-                setSelection(newSelection);
-              },
-            )
-          ]),
+      appBar: getBaseWidget().appBarForSubPage(
+        context,
+        title: Text(getTranslations().fromKey(LocaleKey.dressBot)),
+        showHomeAction: true,
+        actions: [
+          ActionItem(
+            icon: Icons.sort,
+            onPressed: () async {
+              List<CheckboxOption> newSelection =
+                  await getNavigation().navigateAsync(
+                context,
+                navigateTo: (context) => CheckboxListPageDialog(
+                  getTranslations().fromKey(LocaleKey.dressBot),
+                  currentSelection ?? allItemList,
+                ),
+              );
+              if (newSelection == null ||
+                  newSelection.length != allItemList.length) return;
+              setSelection(newSelection);
+            },
+          )
+        ],
+      ),
       body: StoreConnector<AppState, CosmeticViewModel>(
         converter: (store) => CosmeticViewModel.fromStore(store),
         builder: (_, viewModel) => ResponsiveListDetailView<GameItem>(
@@ -116,6 +118,7 @@ class DressBotListDetailPage extends StatelessWidget {
           searchGameItem,
           firstListItemWidget: Column(
             children: [
+              emptySpace1x(),
               adaptiveCheckboxGroup(
                 context,
                 allItemList: ownedOptionList,

@@ -16,7 +16,8 @@
       "Z": 8
     },
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "spaceship2",
@@ -35,7 +36,8 @@
       "Z": 1
     },
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "spaceship3",
@@ -54,7 +56,8 @@
       "Z": 4
     },
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "spaceship4",
@@ -73,7 +76,8 @@
       "Z": 1
     },
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "spaceship5",
@@ -92,7 +96,8 @@
       "Z": 1
     },
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "spaceship6",
@@ -111,7 +116,8 @@
       "Z": 1
     },
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "spaceship7",
@@ -130,7 +136,8 @@
       "Z": 1
     },
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "spaceship8",
@@ -149,7 +156,8 @@
       "Z": 1
     },
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "spaceship9",
@@ -168,7 +176,8 @@
       "Z": 1
     },
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "spaceship10",
@@ -187,7 +196,8 @@
       "Z": 1
     },
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "spaceship11",
@@ -206,7 +216,8 @@
       "Z": 1
     },
     "Flammable": true,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "spaceship13",
@@ -225,7 +236,8 @@
       "Z": 2
     },
     "Flammable": true,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "spaceship14",
@@ -243,7 +255,8 @@
       "Depth": 1
     },
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "spaceship15",
@@ -262,7 +275,8 @@
       "Z": 1
     },
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "spaceship30",
@@ -281,7 +295,8 @@
       "Z": 1
     },
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "spaceship31",
@@ -300,7 +315,8 @@
       "Z": 1
     },
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "spaceship32",
@@ -319,7 +335,8 @@
       "Z": 1
     },
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "spaceship33",
@@ -338,7 +355,8 @@
       "Z": 5
     },
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "spaceship34",
@@ -357,7 +375,8 @@
       "Z": 5
     },
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "spaceship35",
@@ -376,7 +395,8 @@
       "Z": 5
     },
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "spaceship36",
@@ -395,7 +415,8 @@
       "Z": 2
     },
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "spaceship37",
@@ -414,7 +435,8 @@
       "Z": 2
     },
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "spaceship38",
@@ -433,7 +455,8 @@
       "Z": 2
     },
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "spaceship39",
@@ -452,7 +475,8 @@
       "Z": 1
     },
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "spaceship40",
@@ -471,7 +495,8 @@
       "Z": 2
     },
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "spaceship41",
@@ -490,7 +515,8 @@
       "Z": 3
     },
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "spaceship42",
@@ -509,7 +535,8 @@
       "Z": 1
     },
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "spaceship43",
@@ -528,7 +555,8 @@
       "Z": 6
     },
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "spaceship44",
@@ -547,7 +575,8 @@
       "Z": 6
     },
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "spaceship46",
@@ -566,7 +595,8 @@
       "Z": 1
     },
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "spaceship47",
@@ -585,7 +615,8 @@
       "Z": 1
     },
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "spaceship48",
@@ -604,6 +635,7 @@
       "Z": 1
     },
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   }
 ]

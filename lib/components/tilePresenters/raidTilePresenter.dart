@@ -44,14 +44,16 @@ Widget raidTilePresenter(
       int plantQuantity = RaidHelper.getPlantQuantity(currentDetails, itemId);
 
       void Function() localOnEdit;
-      localOnEdit = () => getDialog()
-              .showQuantityDialog(context, TextEditingController(),
-                  onSuccess: (String quantityString) {
-            int quantity = int.tryParse(quantityString);
-            if (quantity == null) return;
-            if (onEdit == null) return;
-            onEdit(plantDetail.id, quantity);
-          });
+      localOnEdit = () => getDialog().showQuantityDialog(
+            context,
+            TextEditingController(),
+            onSuccess: (BuildContext dialogCtx, String quantityString) {
+              int quantity = int.tryParse(quantityString);
+              if (quantity == null) return;
+              if (onEdit == null) return;
+              onEdit(plantDetail.id, quantity);
+            },
+          );
 
       return raidPlantDetailTilePresenter(
         context,
@@ -169,7 +171,7 @@ Widget _raidAddPlantTileContent(
       );
       if (tempPlantId == null || tempPlantId.isEmpty) return;
       getDialog().showQuantityDialog(context, TextEditingController(),
-          onSuccess: (String quantityString) {
+          onSuccess: (BuildContext dialogCtx, String quantityString) {
         int quantity = int.tryParse(quantityString);
         if (quantity == null) return;
         if (onEdit == null) return;

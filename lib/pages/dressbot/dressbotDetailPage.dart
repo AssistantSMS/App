@@ -105,18 +105,22 @@ class DressBotDetailPage extends StatelessWidget {
       widgets.add(genericItemDescription(
         getTranslations().fromKey(LocaleKey.foundIn),
       ));
-      widgets.add(genericItemImage(
-        context,
-        getDressBotImage(gameItem.customisationSource),
-        height: 50,
-        disableZoom: true,
-      ));
+
+      String dressBotPckgImg = getDressBotImage(gameItem.customisationSource);
+      if (dressBotPckgImg.isNotEmpty) {
+        widgets.add(genericItemImage(
+          context,
+          dressBotPckgImg,
+          height: 50,
+          disableZoom: true,
+        ));
+      }
     }
 
     widgets.add(emptySpace10x());
 
-    var fabColour = getTheme().getSecondaryColour(context);
-    var fabWidget = isOwned
+    Color fabColour = getTheme().getSecondaryColour(context);
+    FloatingActionButton fabWidget = isOwned
         ? FloatingActionButton(
             child: const Icon(Icons.cancel),
             backgroundColor: fabColour,

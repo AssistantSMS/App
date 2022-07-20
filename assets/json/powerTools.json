@@ -15,7 +15,8 @@
       "Depth": 1
     },
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "powertool2",
@@ -34,6 +35,7 @@
       "Z": 3
     },
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   }
 ]

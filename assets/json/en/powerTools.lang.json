@@ -1,10 +1,12 @@
 [
   {
     "Id": "powertool1",
-    "Title": "Saw Blade"
+    "Title": "Saw Blade",
+    "Description": "Cut down trees faster with the Saw Blade. Put it on a bearing that is connected to a engine and drive it in to a tree."
   },
   {
     "Id": "powertool2",
-    "Title": "Drill"
+    "Title": "Drill",
+    "Description": "Use the Drill to mine square rocks for stone and metal. Put it on a bearing that is connected to a engine and drive it in to a square rock."
   }
 ]

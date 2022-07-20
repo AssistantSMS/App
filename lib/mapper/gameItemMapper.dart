@@ -40,7 +40,7 @@ String getDressBotImage(CustomisationSourceType customisationSource) {
       return AppImage.outfitEpic;
       break;
     default:
-      return AppImage.outfitCommon;
+      return '';
       break;
   }
 }

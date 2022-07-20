@@ -16,7 +16,8 @@
       "Z": 1
     },
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "veh2",
@@ -35,7 +36,8 @@
       "Z": 1
     },
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "veh3",
@@ -53,7 +55,8 @@
       "Depth": 2
     },
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "veh4",
@@ -72,7 +75,8 @@
       "Z": 2
     },
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "veh5",
@@ -91,7 +95,8 @@
       "Z": 1
     },
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "veh6",
@@ -109,7 +114,8 @@
       "Depth": 1
     },
     "Flammable": true,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "veh7",
@@ -127,6 +133,7 @@
       "Depth": 2
     },
     "Flammable": false,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   }
 ]

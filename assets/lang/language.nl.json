@@ -89,8 +89,8 @@
   "privacyPolicy": "Privacy beleid",
   "termsAndConditions": "Voorwaarden",
   "legal": "Wettelijk",
-  "flatList": "List",
-  "tree": "Tree",
+  "flatList": "Lijst",
+  "tree": "Boom",
   "patrons": "Patrons",
   "joinPatreon": "Join Patreon",
   "failedLatestDisplayingOld": "Failed to fetch latest, curently displaying old data",
@@ -170,5 +170,6 @@
   "packingStation": "Packing Station",
   "foundIn": "Found in",
   "home": "Home",
-  "hashCode": "1A9EB4EE7C5176ECC1AECA3D5EE4BF5F"
+  "creative": "Creative",
+  "hashCode": "CFFA26A8B3A0B9EE51A2E371218F0835"
 }

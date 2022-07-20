@@ -52,13 +52,13 @@
   "patreon": "Patreon",
   "paypal": "PayPal",
   "searchItems": "Procurar Item",
-  "other": "Other",
+  "other": "Outro",
   "craftedUsing": "Craftado Usando",
   "noItems": "Nenhum item",
   "close": "Fechar",
   "apply": "Aplicar",
   "edit": "Editar",
-  "delete": "Delete",
+  "delete": "Apagar",
   "deleteAll": "Deletar Tudo",
   "cart": "Carrinho",
   "quantity": "Quantidade",
@@ -170,5 +170,6 @@
   "packingStation": "Packing Station",
   "foundIn": "Found in",
   "home": "Home",
-  "hashCode": "95EC40DAECA09789E98810F0108B5145"
+  "creative": "Creative",
+  "hashCode": "E4E48878A38168FA34DD9C4E8EBCF8CB"
 }

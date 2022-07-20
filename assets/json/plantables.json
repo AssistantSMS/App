@@ -16,7 +16,8 @@
       "Z": 2
     },
     "Flammable": true,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "plant2",
@@ -35,7 +36,8 @@
       "Z": 2
     },
     "Flammable": true,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "plant3",
@@ -54,7 +56,8 @@
       "Z": 2
     },
     "Flammable": true,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "plant4",
@@ -73,7 +76,8 @@
       "Z": 2
     },
     "Flammable": true,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "plant5",
@@ -92,7 +96,8 @@
       "Z": 2
     },
     "Flammable": true,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "plant6",
@@ -111,7 +116,8 @@
       "Z": 2
     },
     "Flammable": true,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "plant7",
@@ -130,7 +136,8 @@
       "Z": 2
     },
     "Flammable": true,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "plant8",
@@ -149,7 +156,8 @@
       "Z": 2
     },
     "Flammable": true,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "plant9",
@@ -168,7 +176,8 @@
       "Z": 2
     },
     "Flammable": true,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "plant10",
@@ -187,12 +196,13 @@
       "Z": 2
     },
     "Flammable": true,
-    "IsCreative": false
+    "IsCreative": false,
+    "IsChallenge": false
   },
   {
     "Id": "plant11",
     "Icon": "items/plant11.png",
-    "Color": "e9c410",
+    "Color": "f0c909",
     "PhysicsMaterial": "Fruit",
     "Ratings": {
       "Density": 1,
@@ -207,6 +217,7 @@
     },
     "Flammable": true,
     "IsCreative": false,
+    "IsChallenge": false,
     "Edible": {
       "HpGain": 0,
       "FoodGain": 40,
@@ -216,7 +227,7 @@
   {
     "Id": "plant12",
     "Icon": "items/plant12.png",
-    "Color": "e9c410",
+    "Color": "032ea8",
     "PhysicsMaterial": "Fruit",
     "Ratings": {
       "Density": 1,
@@ -231,6 +242,7 @@
     },
     "Flammable": true,
     "IsCreative": false,
+    "IsChallenge": false,
     "Edible": {
       "HpGain": 0,
       "FoodGain": 30,
@@ -240,7 +252,7 @@
   {
     "Id": "plant13",
     "Icon": "items/plant13.png",
-    "Color": "e9c410",
+    "Color": "ffad1f",
     "PhysicsMaterial": "Fruit",
     "Ratings": {
       "Density": 1,
@@ -255,6 +267,7 @@
     },
     "Flammable": true,
     "IsCreative": false,
+    "IsChallenge": false,
     "Edible": {
       "HpGain": 0,
       "FoodGain": 15,
@@ -264,7 +277,7 @@
   {
     "Id": "plant14",
     "Icon": "items/plant14.png",
-    "Color": "e3ae20",
+    "Color": "e9ec0e",
     "PhysicsMaterial": "Fruit",
     "Ratings": {
       "Density": 1,
@@ -279,6 +292,7 @@
     },
     "Flammable": true,
     "IsCreative": false,
+    "IsChallenge": false,
     "Edible": {
       "HpGain": 0,
       "FoodGain": 20,
@@ -288,7 +302,7 @@
   {
     "Id": "plant15",
     "Icon": "items/plant15.png",
-    "Color": "a64102",
+    "Color": "ef650b",
     "PhysicsMaterial": "Fruit",
     "Ratings": {
       "Density": 1,
@@ -303,6 +317,7 @@
     },
     "Flammable": true,
     "IsCreative": false,
+    "IsChallenge": false,
     "Edible": {
       "HpGain": 0,
       "FoodGain": 30,
@@ -327,6 +342,7 @@
     },
     "Flammable": true,
     "IsCreative": false,
+    "IsChallenge": false,
     "Edible": {
       "HpGain": 0,
       "FoodGain": 20,
@@ -336,7 +352,7 @@
   {
     "Id": "plant17",
     "Icon": "items/plant17.png",
-    "Color": "a6274d",
+    "Color": "f80600",
     "PhysicsMaterial": "Fruit",
     "Ratings": {
       "Density": 1,
@@ -351,6 +367,7 @@
     },
     "Flammable": true,
     "IsCreative": false,
+    "IsChallenge": false,
     "Edible": {
       "HpGain": 0,
       "FoodGain": 10,
@@ -360,7 +377,7 @@
   {
     "Id": "plant18",
     "Icon": "items/plant18.png",
-    "Color": "a6274d",
+    "Color": "31880b",
     "PhysicsMaterial": "Fruit",
     "Ratings": {
       "Density": 1,
@@ -375,6 +392,7 @@
     },
     "Flammable": true,
     "IsCreative": false,
+    "IsChallenge": false,
     "Edible": {
       "HpGain": 0,
       "FoodGain": 50,

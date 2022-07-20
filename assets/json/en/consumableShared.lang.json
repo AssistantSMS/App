@@ -1,19 +1,23 @@
 [
   {
     "Id": "consshare1",
-    "Title": "Gasoline"
+    "Title": "Gasoline",
+    "Description": "Used to power gas engines and thrusters."
   },
   {
     "Id": "consshare2",
-    "Title": "Battery"
+    "Title": "Battery",
+    "Description": "Used to power electric parts."
   },
   {
     "Id": "consshare3",
-    "Title": "Water"
+    "Title": "Water",
+    "Description": "Great for watering plants, unfortunately not good for drinking."
   },
   {
     "Id": "consshare4",
-    "Title": "Potato"
+    "Title": "Potato",
+    "Description": "A starchy Potato. Can also be used as ammo for spud guns and mountable spud guns."
   },
   {
     "Id": "consshare5",
@@ -21,10 +25,12 @@
   },
   {
     "Id": "consshare6",
-    "Title": "Paint Ammo"
+    "Title": "Paint Ammo",
+    "Description": "Load your Paint Tool and give your creations some color."
   },
   {
     "Id": "consshare7",
-    "Title": "Glowstick"
+    "Title": "Glowstick",
+    "Description": "Throw them at night or other dark places to see things better."
   }
 ]

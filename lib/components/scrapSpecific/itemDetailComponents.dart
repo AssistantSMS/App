@@ -517,12 +517,15 @@ List<Widget> inCartWidget(
       onEdit: () {
         var controller =
             TextEditingController(text: cartItems[0].quantity.toString());
-        getDialog().showQuantityDialog(context, controller,
-            onSuccess: (quantity) {
-          int intQuantity = int.tryParse(quantity);
-          if (intQuantity == null) return;
-          viewModel.editCartItem(gameItem.id, intQuantity);
-        });
+        getDialog().showQuantityDialog(
+          context,
+          controller,
+          onSuccess: (BuildContext dialogCtx, String quantity) {
+            int intQuantity = int.tryParse(quantity);
+            if (intQuantity == null) return;
+            viewModel.editCartItem(gameItem.id, intQuantity);
+          },
+        );
       },
       onDelete: () {
         viewModel.removeFromCart(gameItem.id);
@@ -562,4 +565,14 @@ List<Widget> itemUsedInPackingRecipesWidget(
     ));
   }
   return widgets;
+}
+
+Widget getModeChip(BuildContext context, String text) {
+  return Chip(
+    elevation: 2,
+    padding: const EdgeInsets.all(8),
+    backgroundColor: getTheme().getSecondaryColour(context),
+    shadowColor: Colors.black,
+    label: Text(text + ' mode'),
+  );
 }

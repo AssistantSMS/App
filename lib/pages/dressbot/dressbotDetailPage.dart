@@ -119,8 +119,8 @@ class DressBotDetailPage extends StatelessWidget {
 
     widgets.add(emptySpace10x());
 
-    var fabColour = getTheme().getSecondaryColour(context);
-    var fabWidget = isOwned
+    Color fabColour = getTheme().getSecondaryColour(context);
+    FloatingActionButton fabWidget = isOwned
         ? FloatingActionButton(
             child: const Icon(Icons.cancel),
             backgroundColor: fabColour,

@@ -13,7 +13,6 @@ Widget adaptiveAppScaffold(
 }) {
   const _kTabletBreakpoint = 720.0;
   const _kDesktopBreakpoint = 1440.0;
-  const _drawerWidth = 304.0;
   var customBody =
       builder != null ? Builder(builder: (inner) => builder(inner)) : body;
 
@@ -38,13 +37,6 @@ Widget adaptiveAppScaffold(
                   ),
                 ],
               ),
-              if (floatingActionButton != null) ...[
-                Positioned(
-                  top: 100.0,
-                  left: _drawerWidth - 30,
-                  child: floatingActionButton,
-                )
-              ],
             ],
           );
         }

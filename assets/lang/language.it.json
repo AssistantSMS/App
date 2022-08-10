@@ -91,7 +91,7 @@
   "legal": "Legale",
   "flatList": "Lista piatta",
   "tree": "Albero",
-  "patrons": "Patroni",
+  "patrons": "Sostenitori su Patreon",
   "joinPatreon": "Unisciti a Patreon",
   "failedLatestDisplayingOld": "Impossibile recuperare ultimi dati, visualizzando precedenti",
   "owned": "Di proprietà",
@@ -162,7 +162,7 @@
   "gloves": "Gloves",
   "legs": "Legs",
   "shoes": "Shoes",
-  "showOwned": "Show owned",
+  "showOwned": "Mostra posseduti",
   "showNotOwned": "Show not owned",
   "health": "Health restored",
   "hunger": "Hunger",
@@ -171,5 +171,5 @@
   "foundIn": "Found in",
   "home": "Home",
   "creative": "Creative",
-  "hashCode": "D894C454B14D7F5F9D1AEBA424F21E18"
+  "hashCode": "0FD8CC015AC3E4B55B86F3C687629D46"
 }

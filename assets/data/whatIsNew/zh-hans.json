@@ -1,14 +1,31 @@
 [
   {
+    "guid": "3a97995f-e1ae-4369-9c2a-2c7af3355763",
+    "appGuid": "dfe0dbc7-8df4-47fb-a5a5-49af1937c4e2",
+    "markdown": "- Fix creative item banners\n- Added items from challenge mode\n- Display if item is from creative or challenge mode \n\n_Submitted to App Stores 2022-07-20_\n\n",
+    "buildName": "1.8.0",
+    "buildNumber": 50,
+    "platforms": [
+      0,
+      1,
+      2,
+      4
+    ],
+    "activeDate": "2022-07-21T20:00:00Z"
+  },
+  {
     "guid": "8e27db59-4601-4952-80e9-3abe8cecf6cf",
     "appGuid": "dfe0dbc7-8df4-47fb-a5a5-49af1937c4e2",
     "markdown": "- Display which DressBot box an item comes from\n- Package updates\n- Navbar upgrade\n- Add developer details button",
     "buildName": "1.7.1",
     "buildNumber": 45,
     "platforms": [
-      0
+      0,
+      1,
+      2,
+      4
     ],
-    "activeDate": "2022-03-20T18:00:00Z"
+    "activeDate": "2022-03-20T16:00:00Z"
   },
   {
     "guid": "8f0fe9ab-95d9-4029-aef1-f61cd0a1fda8",

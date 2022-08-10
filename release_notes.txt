@@ -1,4 +1,5 @@
 - Fix language selection screen
+- Updated translations
 
 _Submitted to App Stores 2022-08-_
 

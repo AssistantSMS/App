@@ -53,12 +53,10 @@ packages:
   assistantapps_flutter_common:
     dependency: "direct main"
     description:
-      path: "."
-      ref: HEAD
-      resolved-ref: "403ed326b0769913e19c0862368378722f622174"
-      url: "https://github.com/AssistantApps/Flutter.Common.git"
-    source: git
-    version: "0.1.63"
+      path: "C:\\Development\\Projects\\AssistantApps\\assistantapps_flutter_common"
+      relative: false
+    source: path
+    version: "0.1.69"
   async:
     dependency: transitive
     description:
@@ -255,13 +253,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.0.1"
-  dio:
-    dependency: transitive
-    description:
-      name: dio
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "4.0.6"
   disk_space:
     dependency: transitive
     description:
@@ -1259,23 +1250,21 @@ packages:
       name: talker
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.11.0"
+    version: "1.1.0"
   talker_flutter:
     dependency: transitive
     description:
-      path: "packages/talker_flutter"
-      ref: master
-      resolved-ref: "2d5951e894a78b6d797dab3d54ce378903319528"
-      url: "https://github.com/AssistantApps/talker.git"
-    source: git
-    version: "0.11.0"
+      name: talker_flutter
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.4.2"
   talker_logger:
     dependency: transitive
     description:
       name: talker_logger
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.11.1"
+    version: "1.1.0+1"
   term_glyph:
     dependency: transitive
     description:

@@ -24,7 +24,6 @@ class AssistantSMS extends StatefulWidget {
 
 class _AssistantSMSState extends State<AssistantSMS> {
   Store<AppState> store;
-  TranslationsDelegate _newLocaleDelegate;
 
   _AssistantSMSState(EnvironmentSettings env) {
     AppRouter.router = CustomRouter.configureRoutes();
@@ -35,8 +34,6 @@ class _AssistantSMSState extends State<AssistantSMS> {
       // initFirebaseAnalytics();
       // initFirebaseMessaging();
     }
-
-    _newLocaleDelegate ??= const TranslationsDelegate(newLocale: null);
   }
 
   Future<AppState> initReduxState() async {
@@ -48,9 +45,6 @@ class _AssistantSMSState extends State<AssistantSMS> {
         tempStore.state != null &&
         tempStore.state.settingState != null &&
         tempStore.state.settingState.selectedLanguage != null) {
-      _newLocaleDelegate = TranslationsDelegate(
-        newLocale: Locale(tempStore.state.settingState.selectedLanguage),
-      );
       return tempStore.state;
     }
     return null;
@@ -72,7 +66,10 @@ class _AssistantSMSState extends State<AssistantSMS> {
       child: StoreConnector<AppState, AppViewModel>(
         converter: (store) => AppViewModel.fromStore(store),
         builder: (_, viewModel) => AdaptiveAppShell(
-          newLocaleDelegate: _newLocaleDelegate,
+          key: Key(viewModel.selectedLanguage),
+          newLocaleDelegate: TranslationsDelegate(
+            newLocale: Locale(viewModel.selectedLanguage),
+          ),
         ),
       ),
     );

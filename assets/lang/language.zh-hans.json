@@ -162,7 +162,7 @@
   "gloves": "Gloves",
   "legs": "Legs",
   "shoes": "Shoes",
-  "showOwned": "Show owned",
+  "showOwned": "显示已拥有的",
   "showNotOwned": "Show not owned",
   "health": "Health restored",
   "hunger": "Hunger",
@@ -171,5 +171,5 @@
   "foundIn": "Found in",
   "home": "Home",
   "creative": "Creative",
-  "hashCode": "EC3C0A4122873BFE535B226FDD5ABCB3"
+  "hashCode": "0D63D1E3ADEC6BE675C816B567CA4104"
 }

@@ -162,7 +162,7 @@
   "gloves": "Перчатки",
   "legs": "Ноги",
   "shoes": "Ботинки",
-  "showOwned": "Show owned",
+  "showOwned": "Показать имеющиеся",
   "showNotOwned": "Show not owned",
   "health": "Восстановление здоровья ",
   "hunger": "Насыщаемость",
@@ -171,5 +171,5 @@
   "foundIn": "Found in",
   "home": "Домой",
   "creative": "Творческий режим",
-  "hashCode": "BA970D4228A1EDE0B65EF212AC603232"
+  "hashCode": "F096519D0DC5C7B96874BBE516CD95B3"
 }

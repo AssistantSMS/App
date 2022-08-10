@@ -8,7 +8,7 @@ class BaseGithubApiRepository extends BaseApiService {
 
   static String getBaseUrl(String repoUrl) {
     return repoUrl ??
-        'https://raw.githubusercontent.com/AssistantSMS/App/master/';
+        'https://raw.githubusercontent.com/AssistantSMS/App/master';
   }
 
   Future<ResultWithValue<String>> getFile(String filename,

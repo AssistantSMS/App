@@ -1,8 +1,7 @@
-- Fix creative item banners
-- Added items from challenge mode
-- Display if item is from creative or challenge mode 
+- Fix language selection screen
+- Updated translations
 
-_Submitted to App Stores 2022-07-20_
+_Submitted to App Stores 2022-08-_
 
 For more details on this update please visit the "What is New" page in the Apps or on the website
 

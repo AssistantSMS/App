@@ -38,12 +38,8 @@ class _AppShellWidget extends State<AdaptiveAppShell>
 
     return AdaptiveTheme(
       initial: AdaptiveThemeMode.dark,
-      light: getDynamicTheme(
-        Brightness.light,
-      ),
-      dark: getDynamicTheme(
-        Brightness.dark,
-      ),
+      light: getDynamicTheme(Brightness.dark),
+      dark: getDynamicTheme(Brightness.dark),
       builder: appRenderer,
     );
   }

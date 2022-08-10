@@ -8,6 +8,7 @@ import '../repository/api/interface/IContributorApiRepository.dart';
 import '../services/base/analyticsService.dart';
 import '../services/base/baseWidgetService.dart';
 import '../services/base/dialogService.dart';
+import '../services/base/languageService.dart';
 import '../services/base/loadingWidgetService.dart';
 import '../services/base/navigationService.dart';
 import '../services/base/pathService.dart';
@@ -34,6 +35,7 @@ void initDependencyInjection(EnvironmentSettings _env) {
     baseWidget: BaseWidgetService(),
     dialog: DialogService(),
     loading: LoadingWidgetService(),
+    language: LanguageService(),
   );
 
   getIt.registerFactoryParam<IRecipeJsonService, LocaleKey, String>(

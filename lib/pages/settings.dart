@@ -15,13 +15,6 @@ class SettingsPage extends StatelessWidget {
     getAnalytics().trackEvent(AnalyticsEvent.settingsPage);
   }
 
-  void _changeBrightness(BuildContext ctx) {
-    bool isDark = getTheme().getIsDark(ctx);
-    getTheme().setBrightness(ctx, !isDark);
-    getAnalytics().trackEvent(
-        isDark ? AnalyticsEvent.lightMode : AnalyticsEvent.darkMode);
-  }
-
   @override
   Widget build(BuildContext context) {
     return getBaseWidget().appScaffold(
@@ -50,7 +43,6 @@ class SettingsPage extends StatelessWidget {
       getTranslations().fromKey(LocaleKey.appLanguage),
       viewModel.selectedLanguage,
       onChange: (Locale locale) {
-        viewModel.changeLanguage(locale);
         LocalizationMap newLocal = getTranslations()
             .getCurrentLocalizationMap(context, locale.languageCode);
         if (newLocal.code == 'it' || newLocal.code == 'zh-hans') {
@@ -62,16 +54,12 @@ class SettingsPage extends StatelessWidget {
                 .fromKey(LocaleKey.translationIssue)
                 .replaceAll('{0}', getTranslations().fromKey(newLocal.name)),
             onlyCancelButton: true,
+            onCancel: () => viewModel.changeLanguage(locale),
           );
+        } else {
+          viewModel.changeLanguage(locale);
         }
       },
-    ));
-
-    widgets.add(boolSettingTilePresenter(
-      context,
-      getTranslations().fromKey(LocaleKey.darkModeEnabled),
-      getTheme().getIsDark(context),
-      onChange: () => _changeBrightness(context),
     ));
 
     widgets.add(

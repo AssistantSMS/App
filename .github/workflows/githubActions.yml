@@ -24,5 +24,6 @@ jobs:
           cd lib
           touch env.dart
           echo $ENV_DART >> env.dart
+          ls
       
       - uses: bluefireteam/flutter-gh-pages@v7

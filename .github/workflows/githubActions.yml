@@ -16,7 +16,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: subosito/flutter-action@v1
-      
+
       - name: Write env file
         env:
           ENV_DART: ${{ secrets.ENV_DART }}
@@ -25,5 +25,15 @@ jobs:
           touch env.dart
           echo $ENV_DART >> env.dart
           ls
-      
-      - uses: bluefireteam/flutter-gh-pages@v7
+
+      - name: Enable web
+        run: flutter config --enable-web
+
+      - name: Enable web
+        run: flutter build web -t lib/prod.dart --release'
+
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4.3.4
+        with:
+          folder: build/web # The folder the action should deploy.
+

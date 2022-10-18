@@ -21,6 +21,7 @@ jobs:
         env:
           ENV_DART: ${{ secrets.ENV_DART }}
         run: |
+          echo $ENV_DART
           cd lib
           touch env.dart
           echo $ENV_DART >> env.dart

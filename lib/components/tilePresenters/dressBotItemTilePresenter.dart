@@ -8,8 +8,9 @@ import '../../mapper/gameItemMapper.dart';
 Widget dressBotItemTilePresenter(
   BuildContext context,
   GameItem gameItem,
-  int index,
-) {
+  int index, {
+  void Function() onTap,
+}) {
   String dressBotPckgImg = getDressBotImage(gameItem.customisationSource);
   return genericListTile(
     context,
@@ -27,5 +28,6 @@ Widget dressBotItemTilePresenter(
             width: 50,
           )
         : null,
+    onTap: onTap,
   );
 }

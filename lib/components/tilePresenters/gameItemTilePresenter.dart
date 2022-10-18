@@ -6,8 +6,9 @@ import '../../contracts/gameItem/gameItem.dart';
 Widget gameItemTilePresenter(
   BuildContext context,
   GameItem gameItem,
-  int index,
-) {
+  int index, {
+  void Function() onTap,
+}) {
   String title = gameItem.title;
   if (gameItem.title.isEmpty) {
     title = getTranslations().fromKey(LocaleKey.unknown);
@@ -30,5 +31,6 @@ Widget gameItemTilePresenter(
     leadingImage: gameItem.icon,
     name: title,
     trailing: trailing,
+    onTap: onTap,
   );
 }

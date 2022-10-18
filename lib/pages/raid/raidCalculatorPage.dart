@@ -61,7 +61,10 @@ class _RaidCalcInnerWidget extends StatelessWidget {
   }
 
   Widget getBody(
-      BuildContext context, RaidViewModel viewModel, bool showMobileView) {
+    BuildContext context,
+    RaidViewModel viewModel,
+    bool showMobileView,
+  ) {
     List<Widget> columnWidgets = List.empty(growable: true);
 
     if (showMobileView) {
@@ -73,7 +76,8 @@ class _RaidCalcInnerWidget extends StatelessWidget {
     columnWidgets.add(RaidCalculatorResultComponent(viewModel, showMobileView));
 
     return listWithScrollbar(
-        itemCount: columnWidgets.length,
-        itemBuilder: (context, index) => columnWidgets[index]);
+      itemCount: columnWidgets.length,
+      itemBuilder: (context, index) => columnWidgets[index],
+    );
   }
 }

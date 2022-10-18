@@ -7,7 +7,7 @@ import '../../contracts/recipeIngredient/recipeIngredientDetail.dart';
 import '../../helpers/futureHelper.dart';
 
 Widget recipeTilePresenter(BuildContext context, Recipe recipe, int index,
-    {bool showOutputQuantity = false}) {
+    {void Function() onTap, bool showOutputQuantity = false}) {
   var outputQuantity = recipe?.output?.quantity ?? 0;
   String nameSuffix = '';
   if (showOutputQuantity && outputQuantity > 0) {
@@ -17,6 +17,7 @@ Widget recipeTilePresenter(BuildContext context, Recipe recipe, int index,
     context,
     leadingImage: recipe.icon,
     name: "${recipe.title} $nameSuffix",
+    onTap: onTap,
   );
 }
 

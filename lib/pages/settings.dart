@@ -32,29 +32,29 @@ class SettingsPage extends StatelessWidget {
     );
   }
 
-  Widget getBody(BuildContext context, SettingViewModel viewModel) {
+  Widget getBody(BuildContext localCtx, SettingViewModel viewModel) {
     List<Widget> widgets = List.empty(growable: true);
 
     widgets.add(headingSettingTilePresenter(
         getTranslations().fromKey(LocaleKey.general)));
 
     widgets.add(languageSettingTilePresenter(
-      context,
+      localCtx,
       getTranslations().fromKey(LocaleKey.appLanguage),
       viewModel.selectedLanguage,
       onChange: (Locale locale) {
         LocalizationMap newLocal = getTranslations()
-            .getCurrentLocalizationMap(context, locale.languageCode);
+            .getCurrentLocalizationMap(localCtx, locale.languageCode);
         if (newLocal.code == 'it' || newLocal.code == 'zh-hans') {
           prettyDialog(
-            context,
+            localCtx,
             AppImage.translate,
             getTranslations().fromKey(LocaleKey.translation),
             getTranslations()
                 .fromKey(LocaleKey.translationIssue)
                 .replaceAll('{0}', getTranslations().fromKey(newLocal.name)),
             onlyCancelButton: true,
-            onCancel: () => viewModel.changeLanguage(locale),
+            onSuccess: () => viewModel.changeLanguage(locale),
           );
         } else {
           viewModel.changeLanguage(locale);
@@ -66,17 +66,17 @@ class SettingsPage extends StatelessWidget {
       headingSettingTilePresenter(getTranslations().fromKey(LocaleKey.other)),
     );
 
-    widgets.add(logTilePresenter(context));
+    widgets.add(logTilePresenter(localCtx));
 
     widgets.add(linkSettingTilePresenter(
-      context,
+      localCtx,
       getTranslations().fromKey(LocaleKey.privacyPolicy),
       icon: Icons.description,
       onTap: () => launchExternalURL(ExternalUrls.privacyPolicy),
     ));
 
     widgets.add(linkSettingTilePresenter(
-      context,
+      localCtx,
       getTranslations().fromKey(LocaleKey.termsAndConditions),
       icon: Icons.description,
       onTap: () => launchExternalURL(ExternalUrls.termsAndConditions),

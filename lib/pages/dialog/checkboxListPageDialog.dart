@@ -36,8 +36,12 @@ class _CheckboxListPageDialogWidget extends State<CheckboxListPageDialog> {
         ),
         body: SearchableList<CheckboxOption>(
           getSearchListFutureFromList(options),
-          listItemWithIndexDisplayer:
-              (BuildContext context, CheckboxOption menuItem, int index) {
+          listItemWithIndexDisplayer: (
+            BuildContext context,
+            CheckboxOption menuItem,
+            int index, {
+            void Function() onTap,
+          }) {
             return ListTile(
               title: Text(menuItem.title),
               trailing: adaptiveCheckbox(

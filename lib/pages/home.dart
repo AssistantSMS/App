@@ -8,7 +8,6 @@ import '../components/tilePresenters/responsiveStaggeredGridTilePresenter.dart';
 import '../constants/AnalyticsEvent.dart';
 import '../constants/AppImage.dart';
 import '../constants/Routes.dart';
-import '../constants/StaggeredGridItemType.dart';
 import '../helpers/listPageHelper.dart';
 import 'gameItem/gameItemListPage.dart';
 import 'recipe/recipeListPage.dart';
@@ -31,10 +30,11 @@ class HomePage extends StatelessWidget {
 
   Widget getBody(BuildContext context) {
     return responsiveStaggeredGrid(
-      [
-        StaggeredGridItem(
-          childBuilder: (BuildContext childContext) =>
-              responsiveStaggeredGridImageTilePresenter(
+      items: [
+        StaggeredGridTileItem(
+          2,
+          2,
+          responsiveStaggeredGridImageTilePresenter(
             context,
             AppImage.craftTile,
             text: LocaleKey.craftBot,
@@ -46,11 +46,11 @@ class HomePage extends StatelessWidget {
               ),
             ),
           ),
-          gridItemType: StaggeredGridItemType.medSquare,
         ),
-        StaggeredGridItem(
-          childBuilder: (BuildContext childContext) =>
-              responsiveStaggeredGridImageTilePresenter(
+        StaggeredGridTileItem(
+          2,
+          1,
+          responsiveStaggeredGridImageTilePresenter(
             context,
             AppImage.traderTile,
             text: LocaleKey.hideout,
@@ -62,11 +62,11 @@ class HomePage extends StatelessWidget {
               ),
             ),
           ),
-          gridItemType: StaggeredGridItemType.smallRectLandscape,
         ),
-        StaggeredGridItem(
-          childBuilder: (BuildContext childContext) =>
-              responsiveStaggeredGridImageTilePresenter(
+        StaggeredGridTileItem(
+          2,
+          2,
+          responsiveStaggeredGridImageTilePresenter(
             context,
             AppImage.block,
             text: LocaleKey.blocksAndItems,
@@ -78,11 +78,11 @@ class HomePage extends StatelessWidget {
               ),
             ),
           ),
-          gridItemType: StaggeredGridItemType.medSquare,
         ),
-        StaggeredGridItem(
-          childBuilder: (BuildContext childContext) =>
-              responsiveStaggeredGridImageTilePresenter(
+        StaggeredGridTileItem(
+          2,
+          1,
+          responsiveStaggeredGridImageTilePresenter(
             context,
             AppImage.workshopTile,
             text: LocaleKey.other,
@@ -91,11 +91,11 @@ class HomePage extends StatelessWidget {
               navigateToNamed: Routes.otherRecipes,
             ),
           ),
-          gridItemType: StaggeredGridItemType.smallRectLandscape,
         ),
-        StaggeredGridItem(
-          childBuilder: (BuildContext childContext) =>
-              responsiveStaggeredGridImageTilePresenter(
+        StaggeredGridTileItem(
+          2,
+          1,
+          responsiveStaggeredGridImageTilePresenter(
             context,
             AppImage.dressTile,
             text: LocaleKey.dressBot,
@@ -104,11 +104,11 @@ class HomePage extends StatelessWidget {
               navigateToNamed: Routes.dressbot,
             ),
           ),
-          gridItemType: StaggeredGridItemType.smallRectLandscape,
         ),
-        StaggeredGridItem(
-          childBuilder: (BuildContext childContext) =>
-              responsiveStaggeredGridImageTilePresenter(
+        StaggeredGridTileItem(
+          2,
+          1,
+          responsiveStaggeredGridImageTilePresenter(
             context,
             AppImage.raidTile,
             text: LocaleKey.raidCalculator,
@@ -117,11 +117,11 @@ class HomePage extends StatelessWidget {
               navigateToNamed: Routes.raidCalc,
             ),
           ),
-          gridItemType: StaggeredGridItemType.smallRectLandscape,
         ),
-        StaggeredGridItem(
-          childBuilder: (BuildContext childContext) =>
-              responsiveStaggeredGridIconTilePresenter(
+        StaggeredGridTileItem(
+          2,
+          1,
+          responsiveStaggeredGridIconTilePresenter(
             context,
             Icons.shopping_cart,
             text: LocaleKey.cart,
@@ -130,11 +130,11 @@ class HomePage extends StatelessWidget {
               navigateToNamed: Routes.cart,
             ),
           ),
-          gridItemType: StaggeredGridItemType.smallRectLandscape,
         ),
-        StaggeredGridItem(
-          childBuilder: (BuildContext childContext) =>
-              responsiveStaggeredGridIconTilePresenter(
+        StaggeredGridTileItem(
+          2,
+          1,
+          responsiveStaggeredGridIconTilePresenter(
             context,
             Icons.new_releases,
             text: LocaleKey.news,
@@ -143,7 +143,6 @@ class HomePage extends StatelessWidget {
               navigateToNamed: Routes.steamNews,
             ),
           ),
-          gridItemType: StaggeredGridItemType.smallRectLandscape,
         ),
       ],
     );

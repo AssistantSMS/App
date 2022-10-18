@@ -11,8 +11,12 @@ import '../../helpers/futureHelper.dart';
 import '../../helpers/raidHelper.dart';
 import '../../state/modules/raid/raidViewModel.dart';
 
-Widget raidGridTilePresenter(BuildContext context, String itemId, int quantity,
-    void Function(String itemId, int quantity) onEdit) {
+Widget raidGridTilePresenter(
+  BuildContext context,
+  String itemId,
+  int quantity,
+  void Function(String itemId, int quantity) onEdit,
+) {
   return FutureBuilder<ResultWithValue<RecipeIngredientDetails>>(
     future: getRecipeIngredientDetailsFuture(
         context, RecipeIngredient(id: itemId, quantity: quantity)),
@@ -89,7 +93,7 @@ Widget raidAddPlantTilePresenter(
     BuildContext context,
     RaidViewModel currentDetails,
     void Function(String itemId, int quantity) onEdit) {
-  var currentPlants = RaidHelper.getPlantsWithQuantity(currentDetails);
+  List<String> currentPlants = RaidHelper.getPlantsWithQuantity(currentDetails);
 
   List<RecipeIngredient> inputs = List.empty(growable: true);
   for (var plantId in RaidHelper.plants) {
@@ -112,9 +116,14 @@ Widget raidAddPlantTilePresenter(
   );
 }
 
-Widget Function(BuildContext, DropdownOption, int) currentRaidPlantPresenter(
-    List<RecipeIngredientDetails> platsWithDetails) {
-  return (BuildContext innerC, DropdownOption dropOpt, int index) {
+Widget Function(BuildContext, DropdownOption, int, {void Function() onTap})
+    currentRaidPlantPresenter(List<RecipeIngredientDetails> platsWithDetails) {
+  return (
+    BuildContext innerC,
+    DropdownOption dropOpt,
+    int index, {
+    void Function() onTap,
+  }) {
     RecipeIngredientDetails currentPlantDetails = RecipeIngredientDetails();
     for (RecipeIngredientDetails plantDetails in platsWithDetails) {
       if (plantDetails.id == dropOpt.value) {

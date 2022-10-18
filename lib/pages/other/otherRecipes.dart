@@ -5,7 +5,6 @@ import '../../components/bottomNavbar.dart';
 import '../../components/tilePresenters/responsiveStaggeredGridTilePresenter.dart';
 import '../../constants/AnalyticsEvent.dart';
 import '../../constants/AppImage.dart';
-import '../../constants/StaggeredGridItemType.dart';
 import '../../helpers/listPageHelper.dart';
 import '../recipe/recipeListPage.dart';
 
@@ -30,10 +29,11 @@ class OtherRecipesPage extends StatelessWidget {
 
   Widget getBody(BuildContext context) {
     return responsiveStaggeredGrid(
-      [
-        StaggeredGridItem(
-          childBuilder: (BuildContext childContext) =>
-              responsiveStaggeredGridImageTilePresenter(
+      items: [
+        StaggeredGridTileItem(
+          2,
+          2,
+          responsiveStaggeredGridImageTilePresenter(
             context,
             AppImage.workshopTile,
             text: LocaleKey.workbench,
@@ -45,11 +45,11 @@ class OtherRecipesPage extends StatelessWidget {
               ),
             ),
           ),
-          gridItemType: StaggeredGridItemType.medSquare,
         ),
-        StaggeredGridItem(
-          childBuilder: (BuildContext childContext) =>
-              responsiveStaggeredGridImageTilePresenter(
+        StaggeredGridTileItem(
+          2,
+          2,
+          responsiveStaggeredGridImageTilePresenter(
             context,
             AppImage.refinerTile,
             text: LocaleKey.refiner,
@@ -61,11 +61,11 @@ class OtherRecipesPage extends StatelessWidget {
               ),
             ),
           ),
-          gridItemType: StaggeredGridItemType.medSquare,
         ),
-        StaggeredGridItem(
-          childBuilder: (BuildContext childContext) =>
-              responsiveStaggeredGridImageTilePresenter(
+        StaggeredGridTileItem(
+          2,
+          2,
+          responsiveStaggeredGridImageTilePresenter(
             context,
             AppImage.resourceTile,
             text: LocaleKey.dispenser,
@@ -77,11 +77,11 @@ class OtherRecipesPage extends StatelessWidget {
               ),
             ),
           ),
-          gridItemType: StaggeredGridItemType.medSquare,
         ),
-        StaggeredGridItem(
-          childBuilder: (BuildContext childContext) =>
-              responsiveStaggeredGridImageTilePresenter(
+        StaggeredGridTileItem(
+          2,
+          2,
+          responsiveStaggeredGridImageTilePresenter(
             context,
             AppImage.cookingTile,
             text: LocaleKey.cookingBot,
@@ -93,7 +93,6 @@ class OtherRecipesPage extends StatelessWidget {
               ),
             ),
           ),
-          gridItemType: StaggeredGridItemType.medSquare,
         ),
       ],
     );

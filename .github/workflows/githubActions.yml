@@ -17,11 +17,25 @@ jobs:
       - uses: actions/checkout@v3
       - uses: subosito/flutter-action@v1
 
+      - name: list dir files
+        run: |
+          cd lib
+          ls
+
+      - name: Create env file
+        run: |
+          touch lib/env.dart
+
+      - name: list dir files
+        run: |
+          cd lib
+          ls
+
       - name: Write env file
         env:
           ENV_DART: ${{ secrets.ENV_DART }}
         run: |
-          $ENV_DART >> lib/env.dart
+          $ENV_DART > lib/env.dart
 
       - name: list dir files
         run: |

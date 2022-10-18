@@ -30,7 +30,7 @@ jobs:
         run: flutter config --enable-web
 
       - name: Enable web
-        run: flutter build web -t lib/prod.dart --release'
+        run: flutter build web -t lib/prod.dart --release
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4.3.4

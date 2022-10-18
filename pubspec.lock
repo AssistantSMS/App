@@ -53,9 +53,11 @@ packages:
   assistantapps_flutter_common:
     dependency: "direct main"
     description:
-      path: "C:\\Development\\Projects\\AssistantApps\\assistantapps_flutter_common"
-      relative: false
-    source: path
+      path: "."
+      ref: HEAD
+      resolved-ref: "837ae19d5e921cb67dcd6c200d5c5405707ad2e2"
+      url: "https://github.com/AssistantApps/Flutter.Common.git"
+    source: git
     version: "0.1.69"
   async:
     dependency: transitive

@@ -21,7 +21,16 @@ jobs:
         env:
           ENV_DART: ${{ secrets.ENV_DART }}
         run: |
-          ren lib/env.dart.template lib/env.dart
+          echo "$ENV_DART" >> ./lib/env.dart
+
+      - name: list dir files
+        run: |
+          cd li
+
+      # I give up on writing the env variable to a file :(
+      - name: Write env file
+        run: |
+          ren ./lib/env.dart.template ./lib/env.dart
 
       - name: list dir files
         run: |

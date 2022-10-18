@@ -57,7 +57,7 @@ dev_dependencies:
 #   intl: ^0.17.0-nullsafety.2
 # #   firebase_core: 0.7.0
 
-flutter_icons:
+flutter_icons: ## flutter pub run flutter_launcher_icons:main
   ios: true
   android: true
   image_path: 'assets/img/fullSizeIcon.png'

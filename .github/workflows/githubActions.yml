@@ -15,7 +15,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-      - uses: subosito/flutter-action@v1
 
       - name: Write env file
         env:
@@ -25,7 +24,8 @@ jobs:
 
       - name: list dir files
         run: |
-          cd li
+          cd lib
+          ls
 
       # I give up on writing the env variable to a file :(
       - name: Write env file
@@ -36,14 +36,3 @@ jobs:
         run: |
           cd lib
           ls
-
-      - name: Enable web
-        run: flutter config --enable-web
-
-      - name: Build release version
-        run: flutter build web -t lib/prod.dart --release
-
-      - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@v4.3.4
-        with:
-          folder: build/web # The folder the action should deploy.

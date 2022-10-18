@@ -21,7 +21,7 @@ jobs:
         env:
           ENV_DART: ${{ secrets.ENV_DART }}
         run: |
-          %ENV_DART% >> lib/env.dart
+          $ENV_DART >> lib/env.dart
 
       - name: list dir files
         run: |

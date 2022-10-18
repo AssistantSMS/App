@@ -20,7 +20,8 @@ jobs:
       - name: Write env file
         env:
           ENV_DART: ${{ secrets.ENV_DART }}
-        run: %ENV_DART% >> lib/env.dart
+        run: |
+          %ENV_DART% >> lib/env.dart
 
       - name: list dir files
         run: |

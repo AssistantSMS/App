@@ -1,7 +1,7 @@
 name: scrapmechanic_kurtlourens_com
 description: A companion app for Scrap Mechanic.
 publish_to: 'none'
-version: 1.9.0+52
+version: 1.9.1+53
 
 environment:
   sdk: '>=2.7.0 <3.0.0'

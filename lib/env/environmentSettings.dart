@@ -1,5 +1,4 @@
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
-import 'package:flutter/material.dart';
 
 class EnvironmentSettings {
   String scrapAssistantApiUrl;
@@ -11,13 +10,13 @@ class EnvironmentSettings {
   String patreonOAuthClientId;
 
   EnvironmentSettings({
-    @required this.scrapAssistantApiUrl,
-    @required this.assistantAppsApiUrl,
-    @required this.donationsEnabled,
-    @required this.isProduction,
-    @required this.assistantAppsAppGuid,
-    @required this.currentWhatIsNewGuid,
-    @required this.patreonOAuthClientId,
+    required this.scrapAssistantApiUrl,
+    required this.assistantAppsApiUrl,
+    required this.donationsEnabled,
+    required this.isProduction,
+    required this.assistantAppsAppGuid,
+    required this.currentWhatIsNewGuid,
+    required this.patreonOAuthClientId,
   });
 
   AssistantAppsEnvironmentSettings toAssistantApps() =>

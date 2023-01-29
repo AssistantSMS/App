@@ -4,8 +4,10 @@ import 'package:flutter/material.dart';
 import 'package:universal_html/html.dart' as html;
 
 class MousePointer extends MouseRegion {
-  const MousePointer({Key key, @required Widget child})
-      : super(
+  const MousePointer({
+    Key? key,
+    required Widget child,
+  }) : super(
           key: key,
           child: child,
           onHover: _mouseOnHover,

@@ -6,10 +6,8 @@ import '../../helpers/genericHelper.dart';
 import '../../mapper/gameItemMapper.dart';
 
 Widget dressBotItemTilePresenter(
-  BuildContext context,
-  GameItem gameItem,
-  int index,
-) {
+    BuildContext context, GameItem gameItem, int index,
+    {void Function()? onTap}) {
   String dressBotPckgImg = getDressBotImage(gameItem.customisationSource);
   return genericListTile(
     context,

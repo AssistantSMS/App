@@ -5,16 +5,17 @@ import '../../contracts/recipeIngredient/recipeIngredientTreeDetails.dart';
 import '../../pages/gameItem/gameItemDetailPage.dart';
 
 Widget requiredItemTreeDetailsRowPresenter(
-    BuildContext context, RecipeIngredientTreeDetails itemDetails, int cost) {
+  BuildContext context,
+  RecipeIngredientTreeDetails itemDetails,
+  int cost,
+) {
   var rowWidget = Row(
     children: [
-      if (itemDetails.icon != null) ...[
-        SizedBox(
-          child: genericTileImage(itemDetails.icon),
-          height: 50,
-          width: 50,
-        ),
-      ],
+      SizedBox(
+        child: genericTileImage(itemDetails.icon),
+        height: 50,
+        width: 50,
+      ),
       Padding(
         padding: const EdgeInsets.only(left: 8),
         child: Column(
@@ -22,7 +23,7 @@ Widget requiredItemTreeDetailsRowPresenter(
           children: [
             Text(itemDetails.title, maxLines: 2),
             Container(height: 4),
-            if (itemDetails.quantity != null && itemDetails.quantity > 0) ...[
+            if (itemDetails.quantity > 0) ...[
               Text(
                 "${getTranslations().fromKey(LocaleKey.quantity)}: ${itemDetails.quantity.toString()}",
                 style: _subtitleTextStyle(getTheme().getTheme(context)),
@@ -35,9 +36,8 @@ Widget requiredItemTreeDetailsRowPresenter(
       ),
     ],
   );
-  if (itemDetails.id == null) return rowWidget;
-  Future Function() onTapFunc;
-  onTapFunc = () async => await getNavigation().navigateAsync(
+
+  onTapFunc() async => await getNavigation().navigateAsync(
         context,
         navigateTo: (context) => GameItemDetailPage(itemDetails.id),
       );
@@ -48,8 +48,8 @@ Widget requiredItemTreeDetailsRowPresenter(
   );
 }
 
-TextStyle _subtitleTextStyle(ThemeData theme) {
-  final TextStyle style = theme.textTheme.bodyText2;
-  final Color color = theme.textTheme.caption.color;
-  return style.copyWith(color: color);
+TextStyle? _subtitleTextStyle(ThemeData theme) {
+  final TextStyle? style = theme.textTheme.bodySmall;
+  final Color? color = theme.textTheme.bodySmall?.color;
+  return style?.copyWith(color: color);
 }

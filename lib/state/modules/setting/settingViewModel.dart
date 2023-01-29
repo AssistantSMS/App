@@ -10,8 +10,8 @@ class SettingViewModel {
   final Function(Locale) changeLanguage;
 
   SettingViewModel({
-    this.selectedLanguage,
-    this.changeLanguage,
+    required this.selectedLanguage,
+    required this.changeLanguage,
   });
 
   static SettingViewModel fromStore(Store<AppState> store) => SettingViewModel(

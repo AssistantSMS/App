@@ -9,9 +9,11 @@ class RaidCalculatorResultComponent extends StatelessWidget {
   final RaidViewModel details;
   final bool showMobileView;
 
-  const RaidCalculatorResultComponent(this.details, this.showMobileView,
-      {Key key})
-      : super(key: key);
+  const RaidCalculatorResultComponent(
+    this.details,
+    this.showMobileView, {
+    Key? key,
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -21,15 +23,15 @@ class RaidCalculatorResultComponent extends StatelessWidget {
     var highCount = RaidHelper.getHighCount(details);
     var spawns = RaidHelper.getRaidSpawns(cropValue, highCount);
 
-    if (spawns == null || spawns.isEmpty) {
-      widgets.add(emptySpace3x());
+    if (spawns.isEmpty) {
+      widgets.add(const EmptySpace3x());
       widgets.add(
-          genericItemName(getTranslations().fromKey(LocaleKey.yourFarmIsSafe)));
+          GenericItemName(getTranslations().fromKey(LocaleKey.yourFarmIsSafe)));
     }
 
     for (int spawnIndex = 0; spawnIndex < spawns.length; spawnIndex++) {
       var template = getTranslations().fromKey(LocaleKey.attackersOnNightX);
-      widgets.add(genericItemGroup(
+      widgets.add(GenericItemGroup(
         template.replaceAll('{0}', (spawnIndex + 1).toString()),
       ));
       widgets.add(raidAttackerTilePresenter(
@@ -37,9 +39,9 @@ class RaidCalculatorResultComponent extends StatelessWidget {
         spawns[spawnIndex],
         showMobileView,
       ));
-      widgets.add(emptySpace2x());
+      widgets.add(const EmptySpace2x());
     }
-    widgets.add(emptySpace8x());
+    widgets.add(const EmptySpace8x());
 
     if (showMobileView) {
       return Column(

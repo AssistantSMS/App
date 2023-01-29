@@ -28,7 +28,10 @@ class RecipeJsonService extends BaseJsonService implements IRecipeJsonService {
       getLog().e(
           "RecipeJsonRepo($baseJson, $detailJson) Exception: ${exception.toString()}");
       return ResultWithValue<List<Recipe>>(
-          false, List.empty(growable: true), exception.toString());
+        false,
+        List.empty(growable: true),
+        exception.toString(),
+      );
     }
   }
 
@@ -36,7 +39,11 @@ class RecipeJsonService extends BaseJsonService implements IRecipeJsonService {
   Future<ResultWithValue<Recipe>> getById(context, String id) async {
     ResultWithValue<List<Recipe>> allRecipesResult = await getAll(context);
     if (allRecipesResult.hasFailed) {
-      return ResultWithValue(false, Recipe(), allRecipesResult.errorMessage);
+      return ResultWithValue(
+        false,
+        Recipe.initial(),
+        allRecipesResult.errorMessage,
+      );
     }
     try {
       Recipe selectedRecipe =
@@ -45,17 +52,26 @@ class RecipeJsonService extends BaseJsonService implements IRecipeJsonService {
     } catch (exception) {
       getLog()
           .e("RecipeJsonRepo($baseJson) Exception: ${exception.toString()}");
-      return ResultWithValue<Recipe>(false, Recipe(), exception.toString());
+      return ResultWithValue<Recipe>(
+        false,
+        Recipe.initial(),
+        exception.toString(),
+      );
     }
   }
 
   @override
   Future<ResultWithValue<List<Recipe>>> getByInputsId(
-      context, String id) async {
+    context,
+    String id,
+  ) async {
     ResultWithValue<List<Recipe>> allRecipesResult = await getAll(context);
     if (allRecipesResult.hasFailed) {
       return ResultWithValue(
-          false, List.empty(growable: true), allRecipesResult.errorMessage);
+        false,
+        List.empty(growable: true),
+        allRecipesResult.errorMessage,
+      );
     }
     try {
       var recipeInputs = allRecipesResult.value
@@ -66,22 +82,29 @@ class RecipeJsonService extends BaseJsonService implements IRecipeJsonService {
       getLog()
           .e("RecipeJsonRepo($baseJson) Exception: ${exception.toString()}");
       return ResultWithValue<List<Recipe>>(
-          false, List.empty(growable: true), exception.toString());
+        false,
+        List.empty(growable: true),
+        exception.toString(),
+      );
     }
   }
 
   @override
   Future<ResultWithValue<List<Recipe>>> getByOutputId(
-      context, String id) async {
+    context,
+    String id,
+  ) async {
     ResultWithValue<List<Recipe>> allRecipesResult = await getAll(context);
     if (allRecipesResult.hasFailed) {
       return ResultWithValue(
-          false, List.empty(growable: true), allRecipesResult.errorMessage);
+        false,
+        List.empty(growable: true),
+        allRecipesResult.errorMessage,
+      );
     }
     try {
-      var recipeInputs = allRecipesResult.value
-          .where((r) =>
-              r.output != null && r.output.id != null && r.output.id != '')
+      List<Recipe> recipeInputs = allRecipesResult.value
+          .where((r) => r.output.id != '')
           .where((r) => r.output.id == id)
           .toList();
       return ResultWithValue<List<Recipe>>(true, recipeInputs, '');
@@ -89,7 +112,10 @@ class RecipeJsonService extends BaseJsonService implements IRecipeJsonService {
       getLog()
           .e("RecipeJsonRepo($baseJson) Exception: ${exception.toString()}");
       return ResultWithValue<List<Recipe>>(
-          false, List.empty(growable: true), exception.toString());
+        false,
+        List.empty(growable: true),
+        exception.toString(),
+      );
     }
   }
 }

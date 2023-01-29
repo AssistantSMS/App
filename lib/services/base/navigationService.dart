@@ -20,10 +20,12 @@ class NavigationService implements INavigationService {
   }
 
   @override
-  Future<bool> navigateHomeAsync(context,
-      {Function navigateTo,
-      String navigateToNamed,
-      bool pushReplacement}) async {
+  Future<bool> navigateHomeAsync(
+    context, {
+    Widget Function(BuildContext)? navigateTo,
+    String? navigateToNamed,
+    bool? pushReplacement,
+  }) async {
     Navigator.popUntil(context, (r) => !Navigator.canPop(context));
 
     if (navigateTo != null) {
@@ -48,9 +50,9 @@ class NavigationService implements INavigationService {
   @override
   Future navigateAwayFromHomeAsync(
     context, {
-    Function navigateTo,
-    String navigateToNamed,
-    Map<String, String> navigateToNamedParameters,
+    Widget Function(BuildContext)? navigateTo,
+    String? navigateToNamed,
+    Map<String, String>? navigateToNamedParameters,
   }) async {
     if (navigateTo != null) {
       if (Navigator.canPop(context)) {
@@ -67,9 +69,10 @@ class NavigationService implements INavigationService {
       }
     } else {
       // Navigator.pushReplacementNamed(
-      String routeWithQueryParams = navigateToNamed;
-      for (var paramKey in navigateToNamedParameters?.keys ?? []) {
-        var value = navigateToNamedParameters[paramKey];
+      String routeWithQueryParams = navigateToNamed ?? '';
+      var paramKeys = navigateToNamedParameters?.keys ?? [];
+      for (var paramKey in paramKeys) {
+        var value = navigateToNamedParameters![paramKey];
         routeWithQueryParams =
             routeWithQueryParams.replaceAll('/:$paramKey', '/$value');
       }
@@ -82,23 +85,37 @@ class NavigationService implements INavigationService {
   }
 
   @override
-  Future<T> navigateAsync<T extends Object>(context,
-      {Function navigateTo, String navigateToNamed}) async {
+  Future<T?> navigateAsync<T extends Object>(
+    context, {
+    Widget Function(BuildContext)? navigateTo,
+    String? navigateToNamed,
+  }) async {
     if (navigateTo != null) {
       return await Navigator.push(
         context,
         MaterialPageRoute(builder: navigateTo),
       );
-    } else {
-      return await Navigator.pushNamed(
+    } else if (navigateToNamed != null) {
+      return await Navigator.pushNamed<dynamic>(
         context,
         navigateToNamed,
       );
     }
+    return null;
   }
 
   @override
-  Future pop<T extends Object>(BuildContext context, [T result]) async {
+  Future pop<T extends Object>(BuildContext context, [T? result]) async {
     Navigator.of(context).pop(result);
+  }
+
+  @override
+  Future popUntil(BuildContext context, List<String> routes) async {
+    getLog().i('navigationService - pop');
+    Navigator.of(context).popUntil((Route<dynamic> route) {
+      return !route.willHandlePopInternally &&
+          route is ModalRoute &&
+          (routes.contains(route.settings.name));
+    });
   }
 }

@@ -37,7 +37,7 @@ LocaleKey getLangJsonFromItemId(String itemId) {
   return LocaleKey.unknown;
 }
 
-ResultWithValue<IRecipeJsonService> getRecipeRepoFromId(context, String id) {
+ResultWithValue<IRecipeJsonService?> getRecipeRepoFromId(context, String id) {
   LocaleKey key = getLangJsonFromItemId(id);
 
   if (key != LocaleKey.unknown) {
@@ -45,11 +45,11 @@ ResultWithValue<IRecipeJsonService> getRecipeRepoFromId(context, String id) {
   }
 
   getLog().e('getRecipeRepoFromId - unknown type of item: $id');
-  return ResultWithValue<IRecipeJsonService>(
+  return ResultWithValue<IRecipeJsonService?>(
       false, null, 'getRecipeRepoFromId - unknown type of item: $id');
 }
 
-ResultWithValue<IGameItemJsonService> getGameItemRepoFromId(
+ResultWithValue<IGameItemJsonService?> getGameItemRepoFromId(
     context, String id) {
   LocaleKey key = LocaleKey.title;
 
@@ -97,12 +97,12 @@ ResultWithValue<IGameItemJsonService> getGameItemRepoFromId(
   if (id.contains(IdPrefix.warehouse)) key = LocaleKey.warehouseJson;
 
   if (key != LocaleKey.title) {
-    return ResultWithValue<IGameItemJsonService>(
+    return ResultWithValue<IGameItemJsonService?>(
         true, getGameItemRepo(key), '');
   }
 
   getLog().e('getGameItemRepoFromId - unknown type of item: $id');
-  return ResultWithValue<IGameItemJsonService>(
+  return ResultWithValue<IGameItemJsonService?>(
       false, null, 'getGameItemRepoFromId - unknown type of item: $id');
 }
 
@@ -117,9 +117,10 @@ Future<ResultWithValue<RecipeIngredientDetails>> recipeIngredientDetails(
   }
 
   return ResultWithValue<RecipeIngredientDetails>(
-      false,
-      RecipeIngredientDetails(),
-      'recipeIngredientDetails - unknown type of item: ${recipeIngredient.id}');
+    false,
+    RecipeIngredientDetails.initial(),
+    'recipeIngredientDetails - unknown type of item: ${recipeIngredient.id}',
+  );
 }
 
 Future<List<RecipeIngredientDetails>> getRequiredItemDetailsSurfaceLevel(
@@ -135,11 +136,12 @@ Future<List<RecipeIngredientDetails>> getRequiredItemDetailsSurfaceLevel(
   );
 
   for (RecipeIngredient requiredItem in ingredients) {
-    ResultWithValue<IGameItemJsonService> genRepo =
+    ResultWithValue<IGameItemJsonService?> genRepo =
         getGameItemRepoFromId(context, requiredItem.id);
-    if (genRepo.hasFailed) continue;
+    if (genRepo.hasFailed || genRepo.value == null) continue;
+
     ResultWithValue<GameItem> reqResult =
-        await genRepo.value.getById(context, requiredItem.id);
+        await genRepo.value!.getById(context, requiredItem.id);
     if (reqResult.hasFailed) continue;
     LocaleKey langFile = getLangJsonFromItemId(requiredItem.id);
     tempRequiredItems.add(

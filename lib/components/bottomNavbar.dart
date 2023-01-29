@@ -12,32 +12,43 @@ class NavBarItem {
   IconData icon;
   LocaleKey title;
   String route;
-  Function onTap;
-  NavBarItem(this.icon, this.title, {this.route, this.onTap});
+  void Function(BuildContext)? onTap;
+
+  NavBarItem(
+    this.icon,
+    this.title, {
+    required this.route,
+    this.onTap,
+  });
 }
 
 class BottomNavbar extends StatefulWidget {
-  final String currentRoute;
-  const BottomNavbar({Key key, this.currentRoute}) : super(key: key);
+  final String? currentRoute;
+
+  const BottomNavbar({
+    Key? key,
+    this.currentRoute,
+  }) : super(key: key);
+
   @override
-  _BottomNavbarWidget createState() => _BottomNavbarWidget(currentRoute);
+  createState() => _BottomNavbarWidget();
 }
 
 class _BottomNavbarWidget extends State<BottomNavbar>
     with SingleTickerProviderStateMixin {
   int currentRouteIndex = -1;
-  final String currentRoute;
 
-  _BottomNavbarWidget(this.currentRoute) {
+  _BottomNavbarWidget() {
     List<NavBarItem> items = getItems(null);
-    int index = items
-        .indexWhere((item) => item.route != null && item.route == currentRoute);
+    int index = items.indexWhere(
+      (item) => item.route == widget.currentRoute,
+    );
     if (index >= 0) {
       currentRouteIndex = index;
     }
   }
 
-  List<NavBarItem> getItems(BuildContext itemContext) {
+  List<NavBarItem> getItems(BuildContext? itemContext) {
     return [
       NavBarItem(
         Icons.list,
@@ -96,7 +107,7 @@ class _BottomNavbarWidget extends State<BottomNavbar>
         // });
         NavBarItem selectedItem = items[i];
         if (selectedItem.onTap != null) {
-          selectedItem.onTap(context);
+          selectedItem.onTap!(context);
           return;
         }
         String route = selectedItem.route;

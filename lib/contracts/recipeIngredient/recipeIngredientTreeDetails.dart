@@ -4,13 +4,19 @@ class RecipeIngredientTreeDetails extends RecipeIngredientDetails {
   int cost;
   List<RecipeIngredientTreeDetails> children;
 
-  RecipeIngredientTreeDetails(
-      {id, icon, title, this.cost, quantity, this.children}) {
-    this.id = id;
-    this.title = title;
-    this.icon = icon;
-    this.quantity = quantity;
-  }
+  RecipeIngredientTreeDetails({
+    id,
+    icon,
+    title,
+    quantity,
+    required this.cost,
+    required this.children,
+  }) : super(
+          id: id,
+          title: title,
+          icon: icon,
+          quantity: quantity,
+        );
 
   factory RecipeIngredientTreeDetails.fromRequiredItemDetails(
       RecipeIngredientDetails req, int cost) {

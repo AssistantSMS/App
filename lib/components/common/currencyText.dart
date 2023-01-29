@@ -8,10 +8,10 @@ class CurrencyText extends StatelessWidget {
 
   const CurrencyText(
     this.numberString, {
-    Key key,
-    this.style,
-    this.textAlign,
-    this.overflow,
+    Key? key,
+    required this.style,
+    required this.textAlign,
+    required this.overflow,
   }) : super(key: key);
 
   @override

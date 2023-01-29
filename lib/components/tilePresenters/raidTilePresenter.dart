@@ -18,9 +18,9 @@ Widget raidGridTilePresenter(BuildContext context, String itemId, int quantity,
         context, RecipeIngredient(id: itemId, quantity: quantity)),
     builder: (BuildContext context,
         AsyncSnapshot<ResultWithValue<RecipeIngredientDetails>> snapshot) {
-      Widget errorWidget = asyncSnapshotHandler(context, snapshot);
+      Widget? errorWidget = asyncSnapshotHandler(context, snapshot);
       if (errorWidget != null) return errorWidget;
-      return raidDetailGridTilePresenter(context, snapshot.data.value, onEdit);
+      return raidDetailGridTilePresenter(context, snapshot.data!.value, onEdit);
     },
   );
 }
@@ -29,18 +29,18 @@ Widget raidTilePresenter(
   BuildContext context,
   String itemId,
   RaidViewModel currentDetails, {
-  void Function(String itemId, int quantity) onEdit,
-  void Function(String itemId) onDelete,
+  void Function(String itemId, int quantity)? onEdit,
+  required void Function(String itemId) onDelete,
 }) {
   return FutureBuilder<ResultWithValue<RecipeIngredientDetails>>(
     future:
         getRecipeIngredientDetailsFuture(context, RecipeIngredient(id: itemId)),
     builder: (BuildContext context,
         AsyncSnapshot<ResultWithValue<RecipeIngredientDetails>> snapshot) {
-      Widget errorWidget = asyncSnapshotHandler(context, snapshot);
+      Widget? errorWidget = asyncSnapshotHandler(context, snapshot);
       if (errorWidget != null) return errorWidget;
 
-      RecipeIngredientDetails plantDetail = snapshot.data.value;
+      RecipeIngredientDetails plantDetail = snapshot.data!.value;
       int plantQuantity = RaidHelper.getPlantQuantity(currentDetails, itemId);
 
       void Function() localOnEdit;
@@ -48,7 +48,7 @@ Widget raidTilePresenter(
             context,
             TextEditingController(),
             onSuccess: (BuildContext dialogCtx, String quantityString) {
-              int quantity = int.tryParse(quantityString);
+              int? quantity = int.tryParse(quantityString);
               if (quantity == null) return;
               if (onEdit == null) return;
               onEdit(plantDetail.id, quantity);
@@ -69,16 +69,16 @@ Widget raidTilePresenter(
 
 Widget raidPlantDetailTilePresenter(
   BuildContext context,
-  RecipeIngredientDetails plantDetail,
+  RecipeIngredientDetails? plantDetail,
   int plantQuantity, {
-  void Function() onTap,
-  void Function() onEdit,
-  void Function() onDelete,
+  void Function()? onTap,
+  void Function()? onEdit,
+  void Function()? onDelete,
 }) {
   return genericListTile(
     context,
-    leadingImage: plantDetail.icon,
-    name: plantDetail.title,
+    leadingImage: plantDetail?.icon,
+    name: plantDetail?.title ?? getTranslations().fromKey(LocaleKey.unknown),
     quantity: plantQuantity,
     onTap: onTap,
     trailing: popupMenu(context, onEdit: onEdit, onDelete: onDelete),
@@ -101,21 +101,30 @@ Widget raidAddPlantTilePresenter(
     builder: (BuildContext context,
         AsyncSnapshot<ResultWithValue<List<RecipeIngredientDetails>>>
             snapshot) {
-      Widget errorWidget = asyncSnapshotHandler(
+      Widget? errorWidget = asyncSnapshotHandler(
         context,
         snapshot,
         loader: () => getLoading().smallLoadingTile(context),
       );
       if (errorWidget != null) return errorWidget;
-      return _raidAddPlantTileContent(context, snapshot.data.value, onEdit);
+      return _raidAddPlantTileContent(context, snapshot.data!.value, onEdit);
     },
   );
 }
 
-Widget Function(BuildContext, DropdownOption, int) currentRaidPlantPresenter(
-    List<RecipeIngredientDetails> platsWithDetails) {
-  return (BuildContext innerC, DropdownOption dropOpt, int index) {
-    RecipeIngredientDetails currentPlantDetails = RecipeIngredientDetails();
+Widget Function(
+  BuildContext,
+  DropdownOption,
+  int, {
+  void Function()? onTap,
+}) currentRaidPlantPresenter(List<RecipeIngredientDetails> platsWithDetails) {
+  return (
+    BuildContext innerC,
+    DropdownOption dropOpt,
+    int index, {
+    void Function()? onTap,
+  }) {
+    RecipeIngredientDetails? currentPlantDetails;
     for (RecipeIngredientDetails plantDetails in platsWithDetails) {
       if (plantDetails.id == dropOpt.value) {
         currentPlantDetails = plantDetails;
@@ -125,15 +134,16 @@ Widget Function(BuildContext, DropdownOption, int) currentRaidPlantPresenter(
       innerC,
       currentPlantDetails,
       0,
-      onTap: () => Navigator.of(innerC).pop(currentPlantDetails.id),
+      onTap: () => getNavigation().pop(innerC, currentPlantDetails?.id ?? ''),
     );
   };
 }
 
 Widget _raidAddPlantTileContent(
-    BuildContext context,
-    List<RecipeIngredientDetails> platsWithDetails,
-    void Function(String itemId, int quantity) onEdit) {
+  BuildContext context,
+  List<RecipeIngredientDetails> platsWithDetails,
+  void Function(String itemId, int quantity)? onEdit,
+) {
   List<DropdownOption> options = List.empty(growable: true);
   for (var plantDetails in platsWithDetails) {
     options.add(DropdownOption(plantDetails.title, value: plantDetails.id));
@@ -161,7 +171,7 @@ Widget _raidAddPlantTileContent(
     ),
     title: Text(getTranslations().fromKey(LocaleKey.addPlantPlot)),
     onTap: () async {
-      String tempPlantId = await getNavigation().navigateAsync(
+      String? tempPlantId = await getNavigation().navigateAsync(
         context,
         navigateTo: (context) => OptionsListPageDialog(
           getTranslations().fromKey(LocaleKey.raidCalculator),
@@ -172,7 +182,7 @@ Widget _raidAddPlantTileContent(
       if (tempPlantId == null || tempPlantId.isEmpty) return;
       getDialog().showQuantityDialog(context, TextEditingController(),
           onSuccess: (BuildContext dialogCtx, String quantityString) {
-        int quantity = int.tryParse(quantityString);
+        int? quantity = int.tryParse(quantityString);
         if (quantity == null) return;
         if (onEdit == null) return;
         onEdit(tempPlantId, quantity);
@@ -191,7 +201,7 @@ Widget raidDetailGridTilePresenter(
     child: Card(
       child: Column(
         children: [
-          localImage('${AppImage.base}${details.icon}'),
+          LocalImage(imagePath: '${AppImage.base}${details.icon}'),
           Padding(
             child: TextField(
               controller: _controller,
@@ -205,7 +215,7 @@ Widget raidDetailGridTilePresenter(
                 FilteringTextInputFormatter.digitsOnly
               ],
               onChanged: (String text) {
-                int intQuantity = int.tryParse(text);
+                int? intQuantity = int.tryParse(text);
                 intQuantity ??= 0;
                 onEdit(details.id, intQuantity);
               },
@@ -263,8 +273,8 @@ Widget raidAttackerTilePresenter(
   );
 }
 
-Widget getRaidAttackerImg(String path, bool isMobileView) => localImage(
-      path,
+Widget getRaidAttackerImg(String path, bool isMobileView) => LocalImage(
+      imagePath: path,
       height: isMobileView ? 75 : 100,
     );
 Widget getRaidAttackerCount(int quantity) => Center(

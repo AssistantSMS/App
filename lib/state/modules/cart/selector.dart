@@ -1,5 +1,4 @@
 import '../base/appState.dart';
 import 'cartItemState.dart';
 
-List<CartItemState> getCartItems(AppState state) =>
-    state?.cartState?.items ?? List.empty(growable: true);
+List<CartItemState> getCartItems(AppState state) => state.cartState.items;

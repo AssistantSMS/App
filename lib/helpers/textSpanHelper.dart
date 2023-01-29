@@ -22,7 +22,7 @@ Widget getTextSpanFromTemplateAndArray(
 
   return RichText(
     text: TextSpan(
-      style: Theme.of(context).textTheme.subtitle1,
+      style: getTheme().getTheme(context).textTheme.titleMedium,
       children: textSpans,
     ),
     textAlign: TextAlign.center,

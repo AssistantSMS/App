@@ -8,7 +8,7 @@ class IRecipeJsonService {
   }
 
   Future<ResultWithValue<Recipe>> getById(context, String id) async {
-    return ResultWithValue<Recipe>(false, Recipe(), '');
+    return ResultWithValue<Recipe>(false, Recipe.initial(), '');
   }
 
   Future<ResultWithValue<List<Recipe>>> getByInputsId(

@@ -15,11 +15,11 @@ class ContributorViewModel {
   int sortRank;
 
   ContributorViewModel({
-    this.name,
-    this.link,
-    this.imageUrl,
-    this.description,
-    this.sortRank,
+    required this.name,
+    required this.link,
+    required this.imageUrl,
+    required this.description,
+    required this.sortRank,
   });
 
   factory ContributorViewModel.fromRawJson(String str) =>

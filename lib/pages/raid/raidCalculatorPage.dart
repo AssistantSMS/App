@@ -16,7 +16,7 @@ const greenyDevGithubLink = 'https://github.com/greeny/?ref=AssistantSMS';
 const greenyDevTool = 'https://scrapmechanic.greeny.dev/?ref=AssistantSMS';
 
 class RaidCalcPage extends StatefulWidget {
-  const RaidCalcPage({Key key}) : super(key: key);
+  const RaidCalcPage({Key? key}) : super(key: key);
 
   @override
   _RaidCalcWidget createState() => _RaidCalcWidget();

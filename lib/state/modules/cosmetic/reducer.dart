@@ -1,3 +1,4 @@
+import 'package:dartx/dartx.dart';
 import 'package:redux/redux.dart';
 
 import 'actions.dart';
@@ -22,7 +23,8 @@ CosmeticState _addCraftingToCart(
 
 CosmeticState _removeCraftingFromCart(
     CosmeticState state, RemoveCosmeticAction action) {
-  var itemToDelete = state.owned.firstWhere((ci) => ci == action.itemId);
+  String? itemToDelete = state.owned //
+      .firstOrNullWhere((ci) => ci == action.itemId);
   if (itemToDelete == null) return state;
 
   return state.copyWith(owned: List.from(state.owned)..remove(itemToDelete));

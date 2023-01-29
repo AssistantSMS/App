@@ -8,11 +8,12 @@ class ILocalStorageService {
       Result(false, 'Not Implemented');
 
   Future<ResultWithValue<AppState>> loadAppState() async =>
-      ResultWithValue<AppState>(false, null, 'Not Implemented');
+      ResultWithValue<AppState>(false, AppState.initial(), 'Not Implemented');
 
   Future<Result> saveThemeState(ThemeState state) async =>
       Result(false, 'Not Implemented');
 
   Future<ResultWithValue<ThemeState>> loadThemeState() async =>
-      ResultWithValue<ThemeState>(false, null, 'Not Implemented');
+      ResultWithValue<ThemeState>(
+          false, ThemeState('failed'), 'Not Implemented');
 }

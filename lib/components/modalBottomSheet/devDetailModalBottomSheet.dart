@@ -8,23 +8,21 @@ import '../../contracts/devDetail.dart';
 
 class DevDetailBottomSheet extends StatefulWidget {
   final List<DevDetail> details;
-  const DevDetailBottomSheet(this.details, {Key key}) : super(key: key);
+  const DevDetailBottomSheet(
+    this.details, {
+    Key? key,
+  }) : super(key: key);
 
   @override
-  _DevDetailBottomSheetWidget createState() =>
-      // ignore: no_logic_in_create_state
-      _DevDetailBottomSheetWidget(details);
+  createState() => _DevDetailBottomSheetWidget();
 }
 
 class _DevDetailBottomSheetWidget extends State<DevDetailBottomSheet> {
-  final List<DevDetail> details;
-
-  _DevDetailBottomSheetWidget(this.details);
-
+  //
   @override
   Widget build(BuildContext context) {
     Widget Function(String) titleFunc;
-    titleFunc = (String text) => genericItemDescription(
+    titleFunc = (String text) => GenericItemDescription(
           text,
           textStyle: const TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
         );
@@ -32,7 +30,7 @@ class _DevDetailBottomSheetWidget extends State<DevDetailBottomSheet> {
     bodyFunc = (String text) => Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            genericItemDescription(
+            GenericItemDescription(
               text,
               textStyle:
                   const TextStyle(fontSize: 16, fontWeight: FontWeight.w100),
@@ -47,11 +45,11 @@ class _DevDetailBottomSheetWidget extends State<DevDetailBottomSheet> {
         );
 
     List<Widget Function()> widgets = [
-      () => emptySpace2x(),
+      () => const EmptySpace2x(),
     ];
 
-    for (DevDetail prop in details) {
-      if (prop.value == null || prop.value.isEmpty) continue;
+    for (DevDetail prop in widget.details) {
+      if (prop.value.isEmpty) continue;
       widgets.add(() => titleFunc(prop.name));
       widgets.add(() => bodyFunc(prop.value));
       // widgets.addAll([
@@ -60,7 +58,7 @@ class _DevDetailBottomSheetWidget extends State<DevDetailBottomSheet> {
       // ]);
       widgets.add(() => customDivider());
     }
-    widgets.add(() => emptySpace8x());
+    widgets.add(() => const EmptySpace8x());
 
     return AnimatedSize(
       duration: AppAnimation.modal,

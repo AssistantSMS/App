@@ -4,9 +4,14 @@ import 'package:flutter/cupertino.dart';
 import '../../contracts/recipeIngredient/recipeIngredientDetail.dart';
 import '../../pages/gameItem/gameItemDetailPage.dart';
 
-Widget cartTilePresenter(BuildContext context,
-        RecipeIngredientDetails recipeIngredient, int index,
-        {Function onTap, Function onEdit, Function onDelete}) =>
+Widget cartTilePresenter(
+  BuildContext context,
+  RecipeIngredientDetails recipeIngredient,
+  int index, {
+  void Function()? onTap,
+  void Function()? onEdit,
+  void Function()? onDelete,
+}) =>
     genericListTile(
       context,
       leadingImage: recipeIngredient.icon,

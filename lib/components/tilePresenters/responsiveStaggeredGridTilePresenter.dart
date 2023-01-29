@@ -4,8 +4,12 @@ import 'package:flutter/material.dart';
 import '../../helpers/genericHelper.dart';
 
 Widget responsiveStaggeredGridTilePresenter(
-        IconData icon, Color backgroundColor,
-        {Color iconColor, String text, Function() onTap}) =>
+  IconData icon,
+  Color backgroundColor, {
+  Color? iconColor,
+  String? text,
+  void Function()? onTap,
+}) =>
     Card(
       color: backgroundColor,
       child: InkWell(
@@ -29,8 +33,12 @@ Widget responsiveStaggeredGridTilePresenter(
     );
 
 Widget responsiveStaggeredGridImageTilePresenter(
-    BuildContext context, String imgPath,
-    {Color iconColor, LocaleKey text, Function() onTap}) {
+  BuildContext context,
+  String imgPath, {
+  Color? iconColor,
+  LocaleKey? text,
+  void Function()? onTap,
+}) {
   void Function() safeOnTap;
   safeOnTap = () {
     if (onTap != null) onTap();
@@ -45,8 +53,13 @@ Widget responsiveStaggeredGridImageTilePresenter(
 }
 
 Widget responsiveStaggeredGridIconTilePresenter(
-    BuildContext context, IconData icon,
-    {Color iconColor, LocaleKey text, double height, Function() onTap}) {
+  BuildContext context,
+  IconData icon, {
+  Color? iconColor,
+  LocaleKey? text,
+  double? height,
+  void Function()? onTap,
+}) {
   void Function() safeOnTap;
   safeOnTap = () {
     if (onTap != null) onTap();
@@ -54,12 +67,12 @@ Widget responsiveStaggeredGridIconTilePresenter(
   return responsiveStaggeredGridBaseTilePresenter(
     context,
     Center(
-        child: getCorrectlySizedImageFromIcon(
-      context,
-      icon,
-      maxSize: 45,
-      colour: Colors.white,
-    )),
+      child: CorrectlySizedImageFromIcon(
+        icon: icon,
+        maxSize: 45,
+        colour: Colors.white,
+      ),
+    ),
     iconColor: iconColor,
     text: text,
     onTap: safeOnTap,
@@ -99,8 +112,12 @@ Widget responsiveStaggeredGridIconTilePresenter(
 }
 
 Widget responsiveStaggeredGridBaseTilePresenter(
-    BuildContext context, Widget image,
-    {Color iconColor, LocaleKey text, Function() onTap}) {
+  BuildContext context,
+  Widget image, {
+  Color? iconColor,
+  LocaleKey? text,
+  void Function()? onTap,
+}) {
   void Function() safeOnTap;
   safeOnTap = () {
     if (onTap != null) onTap();

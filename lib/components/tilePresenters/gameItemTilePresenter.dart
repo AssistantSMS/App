@@ -6,14 +6,15 @@ import '../../contracts/gameItem/gameItem.dart';
 Widget gameItemTilePresenter(
   BuildContext context,
   GameItem gameItem,
-  int index,
-) {
+  int index, {
+  void Function()? onTap,
+}) {
   String title = gameItem.title;
   if (gameItem.title.isEmpty) {
     title = getTranslations().fromKey(LocaleKey.unknown);
   }
 
-  Widget trailing;
+  Widget? trailing;
   TextStyle trailingTextStyle = TextStyle(color: Colors.grey[500]);
   if (gameItem.isChallenge) {
     trailing = Text('Challenge', style: trailingTextStyle); // TODO translate

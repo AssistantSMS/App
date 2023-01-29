@@ -2,16 +2,21 @@
 //
 //     final appDevDetailFile = appDevDetailFileFromMap(jsonString);
 
+import 'dart:convert';
+
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 
 class DevDetailFile {
-  DevDetailFile({
-    this.appId,
-    this.details,
-  });
-
   final String appId;
   final List<DevDetail> details;
+
+  DevDetailFile({
+    required this.appId,
+    required this.details,
+  });
+
+  factory DevDetailFile.fromRawJson(String str) =>
+      DevDetailFile.fromJson(json.decode(str));
 
   factory DevDetailFile.fromJson(Map<String, dynamic> json) => DevDetailFile(
         appId: readStringSafe(json, 'AppId'),
@@ -20,13 +25,13 @@ class DevDetailFile {
 }
 
 class DevDetail {
-  DevDetail({
-    this.name,
-    this.value,
-  });
-
   final String name;
   final String value;
+
+  DevDetail({
+    required this.name,
+    required this.value,
+  });
 
   factory DevDetail.fromJson(Map<String, dynamic> json) => DevDetail(
         name: readStringSafe(json, 'Name'),

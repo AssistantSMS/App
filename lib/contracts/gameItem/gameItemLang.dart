@@ -7,15 +7,15 @@ import 'dart:convert';
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 
 class GameItemLang {
-  GameItemLang({
-    this.id,
-    this.title,
-    this.description,
-  });
-
   String id;
   String title;
   String description;
+
+  GameItemLang({
+    required this.id,
+    required this.title,
+    required this.description,
+  });
 
   factory GameItemLang.fromRawJson(String str) =>
       GameItemLang.fromJson(json.decode(str));

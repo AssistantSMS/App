@@ -4,18 +4,20 @@ import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:adaptive_theme/adaptive_theme.dart';
+import 'package:scrapmechanic_kurtlourens_com/constants/Routes.dart';
 import 'package:universal_html/html.dart' as html;
 
-import '../../env/appRouter.dart';
+import '../../constants/AppImage.dart';
+import '../../env/appVersionNum.dart';
+import '../../integration/router.dart';
 import '../../theme/themes.dart';
-import 'windowsTitleBar.dart';
 
 class AdaptiveAppShell extends StatefulWidget {
   final TranslationsDelegate newLocaleDelegate;
 
   const AdaptiveAppShell({
-    Key key,
-    this.newLocaleDelegate,
+    Key? key,
+    required this.newLocaleDelegate,
   }) : super(key: key);
 
   @override
@@ -24,6 +26,7 @@ class AdaptiveAppShell extends StatefulWidget {
 
 class _AppShellWidget extends State<AdaptiveAppShell>
     with AfterLayoutMixin<AdaptiveAppShell> {
+  //
   @override
   void afterFirstLayout(BuildContext context) {
     if (!isWeb) return;
@@ -52,7 +55,7 @@ class _AppShellWidget extends State<AdaptiveAppShell>
     ];
     List<Locale> supportedLangs = getLanguage().supportedLocales();
 
-    ScrollBehavior scrollBehavior;
+    ScrollBehavior? scrollBehavior;
     if (isWindows) {
       scrollBehavior = const MaterialScrollBehavior().copyWith(
         dragDevices: {
@@ -64,12 +67,32 @@ class _AppShellWidget extends State<AdaptiveAppShell>
       );
     }
 
-    MaterialApp matApp = MaterialApp(
+    // Widget matApp = FeedbackWrapper(
+    //   options: FeedbackOptions(
+    //     buildNumber: appsBuildNum.toString(),
+    //     buildVersion: appsBuildName,
+    //     buildCommit: appsCommit,
+    //     // TODO Supply these details
+    //     currentLang: 'en', //introViewModel.currentLanguage,
+    //     isPatron: false, //introViewModel.isPatron,
+    //   ),
+    //   child: MaterialApp(
+    //     title: 'Assistant for Scrap Mechanic',
+    //     scrollBehavior: scrollBehavior,
+    //     darkTheme: getDynamicTheme(Brightness.dark),
+    //     theme: theme,
+    //     onGenerateRoute: CustomRouter.configureRoutes().generator,
+    //     localizationsDelegates: localizationsDelegates,
+    //     supportedLocales: supportedLangs,
+    //   ),
+    // );
+
+    Widget matApp = MaterialApp(
       title: 'Assistant for Scrap Mechanic',
       scrollBehavior: scrollBehavior,
       darkTheme: getDynamicTheme(Brightness.dark),
       theme: theme,
-      onGenerateRoute: AppRouter.router.generator,
+      onGenerateRoute: CustomRouter.configureRoutes().generator,
       localizationsDelegates: localizationsDelegates,
       supportedLocales: supportedLangs,
     );
@@ -81,7 +104,10 @@ class _AppShellWidget extends State<AdaptiveAppShell>
       darkTheme: darkTheme,
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        appBar: WindowsTitleBar('Assistant for Scrap Mechanic'),
+        appBar: WindowTitleBar(
+          title: 'Assistant for Scrap Mechanic',
+          iconPath: AppImage.assistantSMSWindowIcon,
+        ),
         body: matApp,
       ),
     );

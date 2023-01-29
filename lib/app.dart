@@ -1,33 +1,32 @@
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
+import 'package:fluro/fluro.dart';
 import 'package:flutter/foundation.dart' show kReleaseMode;
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
 import 'package:redux/redux.dart';
 
 import 'components/adaptive/appShell.dart';
-import 'env/appRouter.dart';
 import 'env/environmentSettings.dart';
 import 'integration/dependencyInjection.dart';
-import 'integration/router.dart';
 import 'state/createStore.dart';
 import 'state/modules/base/appState.dart';
 import 'state/modules/base/appViewModel.dart';
 
 class AssistantSMS extends StatefulWidget {
   final EnvironmentSettings _env;
-  const AssistantSMS(this._env, {Key key}) : super(key: key);
+  const AssistantSMS(this._env, {Key? key}) : super(key: key);
 
   @override
   // ignore: no_logic_in_create_state
-  _AssistantSMSState createState() => _AssistantSMSState(_env);
+  createState() => _AssistantSMSState(_env);
 }
 
 class _AssistantSMSState extends State<AssistantSMS> {
-  Store<AppState> store;
+  final EnvironmentSettings _env;
+  Store<AppState>? store;
 
-  _AssistantSMSState(EnvironmentSettings env) {
-    AppRouter.router = CustomRouter.configureRoutes();
-    initDependencyInjection(env);
+  _AssistantSMSState(this._env) {
+    initDependencyInjection(_env);
     initReduxState();
     if (kReleaseMode) {
       // initFirebaseAdMob();
@@ -41,13 +40,8 @@ class _AssistantSMSState extends State<AssistantSMS> {
     setState(() {
       store = tempStore;
     });
-    if (tempStore != null &&
-        tempStore.state != null &&
-        tempStore.state.settingState != null &&
-        tempStore.state.settingState.selectedLanguage != null) {
-      return tempStore.state;
-    }
-    return null;
+
+    return tempStore.state;
   }
 
   @override
@@ -62,7 +56,7 @@ class _AssistantSMSState extends State<AssistantSMS> {
     }
 
     return StoreProvider(
-      store: store,
+      store: store!,
       child: StoreConnector<AppState, AppViewModel>(
         converter: (store) => AppViewModel.fromStore(store),
         builder: (_, viewModel) => AdaptiveAppShell(

@@ -1,18 +1,28 @@
-import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
+import 'package:flutter/material.dart';
 
-class StaggeredGridItemType {
-  static StaggeredTile smallSquare = const StaggeredTile.count(1, 1);
-  static StaggeredTile smallRectLandscape = const StaggeredTile.count(2, 1);
-  static StaggeredTile smallRectPortrait = const StaggeredTile.count(1, 2);
-  static StaggeredTile smallRectLandscapeLong = const StaggeredTile.count(3, 1);
-  static StaggeredTile smallRectLandscapeXLong =
-      const StaggeredTile.count(4, 1);
+class StaggeredGridSize {
+  static Size smallSquare = const Size(1, 1);
+  static Size smallRectLandscape = const Size(2, 1);
+  static Size smallRectPortrait = const Size(1, 2);
+  static Size smallRectLandscapeLong = const Size(3, 1);
+  static Size smallRectLandscapeXLong = const Size(4, 1);
 
-  static StaggeredTile medSquare = const StaggeredTile.count(2, 2);
-  static StaggeredTile medRectLandscape = const StaggeredTile.count(3, 2);
-  static StaggeredTile medRectPortrait = const StaggeredTile.count(2, 3);
+  static Size medSquare = const Size(2, 2);
+  static Size medRectLandscape = const Size(3, 2);
+  static Size medRectPortrait = const Size(2, 3);
 
-  static StaggeredTile largeSquare = const StaggeredTile.count(3, 3);
-  static StaggeredTile largeRectLandscape = const StaggeredTile.count(4, 3);
-  static StaggeredTile largeRectPortrait = const StaggeredTile.count(3, 4);
+  static Size largeSquare = const Size(3, 3);
+  static Size largeRectLandscape = const Size(4, 3);
+  static Size largeRectPortrait = const Size(3, 4);
 }
+
+StaggeredGridTileItem createStaggeredGridItem({
+  required Widget child,
+  required Size gridItemSize,
+}) =>
+    StaggeredGridTileItem(
+      gridItemSize.width.toInt(),
+      gridItemSize.height.toInt(),
+      child,
+    );

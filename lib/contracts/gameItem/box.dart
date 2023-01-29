@@ -3,15 +3,15 @@ import 'dart:convert';
 import 'package:assistantapps_flutter_common/helpers/jsonHelper.dart';
 
 class Box {
-  Box({
-    this.x,
-    this.y,
-    this.z,
-  });
-
   int x;
   int y;
   int z;
+
+  Box({
+    required this.x,
+    required this.y,
+    required this.z,
+  });
 
   factory Box.fromRawJson(String str) => Box.fromJson(json.decode(str));
 

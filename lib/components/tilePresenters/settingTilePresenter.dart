@@ -12,19 +12,23 @@ Widget headingSettingTilePresenter(String name) {
   );
 }
 
-Widget boolSettingTilePresenter(BuildContext context, String name, bool value,
-    {Function() onChange}) {
+Widget boolSettingTilePresenter(
+  BuildContext context,
+  String name,
+  bool value, {
+  void Function()? onChange,
+}) {
   //
   void Function() tempOnChange;
   tempOnChange = () {
     if (onChange != null) onChange();
   };
 
-  return flatCard(
+  return FlatCard(
     child: genericListTile(context,
         leadingImage: null,
         name: name,
-        trailing: adaptiveCheckbox(
+        trailing: AdaptiveCheckbox(
           value: value,
           activeColor: getTheme().getSecondaryColour(context),
           onChanged: (bool unused) => tempOnChange(),
@@ -34,23 +38,26 @@ Widget boolSettingTilePresenter(BuildContext context, String name, bool value,
 }
 
 Widget languageSettingTilePresenter(
-    BuildContext context, String name, String value,
-    {Function(Locale locale) onChange}) {
+  BuildContext context,
+  String name,
+  String value, {
+  Function(Locale locale)? onChange,
+}) {
   //
-  void Function() tempOnChange;
-  tempOnChange = () async {
+  tempOnChange() async {
     if (onChange == null) return;
 
-    var temp = await getNavigation().navigateAsync(
+    String? temp = await getNavigation().navigateAsync(
       context,
-      navigateTo: (context) => LanguageSelectionPageContent(),
+      navigateTo: (context) => const LanguageSelectionPageContent(),
     );
     if (temp != null) onChange(getTranslations().getLocaleFromKey(temp));
-  };
+  }
+
   LocalizationMap currentLocal =
       getTranslations().getCurrentLocalizationMap(context, value);
 
-  return flatCard(
+  return FlatCard(
     child: languageTilePresenter(
       context,
       name,

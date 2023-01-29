@@ -6,9 +6,14 @@ import '../../contracts/recipe/recipe.dart';
 import '../../contracts/recipeIngredient/recipeIngredientDetail.dart';
 import '../../helpers/futureHelper.dart';
 
-Widget recipeTilePresenter(BuildContext context, Recipe recipe, int index,
-    {bool showOutputQuantity = false}) {
-  var outputQuantity = recipe?.output?.quantity ?? 0;
+Widget recipeTilePresenter(
+  BuildContext context,
+  Recipe recipe,
+  int index, {
+  bool showOutputQuantity = false,
+  void Function()? onTap,
+}) {
+  var outputQuantity = recipe.output.quantity;
   String nameSuffix = '';
   if (showOutputQuantity && outputQuantity > 0) {
     nameSuffix = ' x$outputQuantity';
@@ -20,38 +25,25 @@ Widget recipeTilePresenter(BuildContext context, Recipe recipe, int index,
   );
 }
 
-// genericListTileWithSubtitleAndImageCount(
-//   context,
-//   leadingImage: genericTileImage(recipe.icon, null),
-//   title: recipe.title,
-//   leadingImageCount: recipe?.output?.quantity ?? 0,
-// );
-
 Widget recipeTileWithIngDetailsPresenter(
     BuildContext context, Recipe recipe, int index,
     {bool showOutputQuantity = false}) {
-  var outputQuantity = recipe?.output?.quantity ?? 0;
-  // String nameSuffix = '';
-  // if (showOutputQuantity && outputQuantity > 0) {
-  //   nameSuffix = ' x$outputQuantity';
-  // }
+  var outputQuantity = recipe.output.quantity;
 
   return FutureBuilder<ResultWithValue<List<RecipeIngredientDetails>>>(
       future: recipeIngredientDetailsFuture(context, recipe.inputs),
-      builder: (BuildContext context,
-          AsyncSnapshot<ResultWithValue<List<RecipeIngredientDetails>>>
-              snapshot) {
+      builder: (BuildContext context, snapshot) {
         var subtitle = getLoading().smallLoadingIndicator();
         if (snapshot.connectionState == ConnectionState.none ||
             (snapshot.connectionState == ConnectionState.done &&
                 snapshot.hasError) ||
-            (snapshot.hasData && snapshot.data.hasFailed)) {
+            (snapshot.hasData && snapshot.data!.hasFailed)) {
           subtitle = const Text('Error');
         }
         if (snapshot.hasData) {
           String listTileTitle = '';
           if (recipe.inputs.isNotEmpty) {
-            var rows = snapshot.data.value;
+            var rows = snapshot.data!.value;
             rows.sort((RecipeIngredientDetails a, RecipeIngredientDetails b) =>
                 (b.id == recipe.output.id) ? 1 : -1);
             int startIndex = 0;

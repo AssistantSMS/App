@@ -1,17 +1,17 @@
 import 'dart:convert';
 
 class LootChance {
-  LootChance({
-    this.min,
-    this.max,
-    this.chance,
-    this.type,
-  });
-
   int min;
   int max;
   int chance;
   int type;
+
+  LootChance({
+    required this.min,
+    required this.max,
+    required this.chance,
+    required this.type,
+  });
 
   factory LootChance.fromRawJson(String str) =>
       LootChance.fromJson(json.decode(str));

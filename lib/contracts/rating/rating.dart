@@ -3,17 +3,17 @@ import 'dart:convert';
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 
 class Rating {
-  Rating({
-    this.density,
-    this.durability,
-    this.friction,
-    this.buoyancy,
-  });
+  int? density;
+  int? durability;
+  int? friction;
+  int? buoyancy;
 
-  int density;
-  int durability;
-  int friction;
-  int buoyancy;
+  Rating({
+    required this.density,
+    required this.durability,
+    required this.friction,
+    required this.buoyancy,
+  });
 
   factory Rating.fromRawJson(String str) => Rating.fromJson(json.decode(str));
 

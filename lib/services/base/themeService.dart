@@ -1,8 +1,9 @@
 import 'package:adaptive_theme/adaptive_theme.dart';
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
-import 'package:assistantapps_flutter_common/services/base/interface/IThemeService.dart';
-import 'package:scrapmechanic_kurtlourens_com/constants/Fonts.dart';
-import 'package:scrapmechanic_kurtlourens_com/theme/themes.dart';
+
+import '../../constants/Fonts.dart';
+import '../../theme/themes.dart';
 
 class ThemeService implements IThemeService {
   @override
@@ -12,11 +13,11 @@ class ThemeService implements IThemeService {
 
   @override
   Color getPrimaryColour(BuildContext context) =>
-      getTheme(context)?.primaryColor ?? Colors.indigo[500];
+      getTheme(context).primaryColor;
 
   @override
   Color getSecondaryColour(BuildContext context) =>
-      getTheme(context)?.colorScheme?.secondary ?? Colors.teal[200];
+      getTheme(context).colorScheme.secondary;
 
   @override
   Color getDarkModeSecondaryColour() =>
@@ -24,12 +25,12 @@ class ThemeService implements IThemeService {
 
   @override
   bool getIsDark(BuildContext context) =>
-      getTheme(context)?.brightness == Brightness.dark;
+      getTheme(context).brightness == Brightness.dark;
 
   @override
   Color getBackgroundColour(BuildContext context) => getIsDark(context)
-      ? darkTheme(defaultFontFamily).backgroundColor
-      : lightTheme(defaultFontFamily).backgroundColor;
+      ? darkTheme(defaultFontFamily).colorScheme.background
+      : lightTheme(defaultFontFamily).colorScheme.background;
 
   @override
   Color getScaffoldBackgroundColour(BuildContext context) => getIsDark(context)
@@ -38,7 +39,7 @@ class ThemeService implements IThemeService {
 
   @override
   Color getH1Colour(BuildContext context) {
-    var textColour = getTheme(context).textTheme.headline1.color;
+    var textColour = getTheme(context).textTheme.displayLarge?.color;
     if (textColour == null) {
       return getIsDark(context) ? Colors.white : Colors.black;
     }
@@ -51,7 +52,7 @@ class ThemeService implements IThemeService {
 
   @override
   void setBrightness(BuildContext context, bool isDark) {
-    AdaptiveTheme.of(context)?.setThemeMode(
+    AdaptiveTheme.of(context).setThemeMode(
         isDark ? AdaptiveThemeMode.light : AdaptiveThemeMode.dark);
   }
 
@@ -67,7 +68,7 @@ class ThemeService implements IThemeService {
 
   @override
   Color getCardBackgroundColour(BuildContext context) =>
-      getTheme(context).cardTheme.color;
+      lighten(getDynamicTheme(Brightness.dark).colorScheme.background, 0.25);
 
   @override
   void setFontFamily(BuildContext context, String fontFamily) {}

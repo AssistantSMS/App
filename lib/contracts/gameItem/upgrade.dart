@@ -5,15 +5,15 @@
 import 'dart:convert';
 
 class Upgrade {
-  Upgrade({
-    this.localeKey,
-    this.targetId,
-    this.cost,
-  });
-
   String localeKey;
   String targetId;
   int cost;
+
+  Upgrade({
+    required this.localeKey,
+    required this.targetId,
+    required this.cost,
+  });
 
   factory Upgrade.fromRawJson(String str) => Upgrade.fromJson(json.decode(str));
   factory Upgrade.fromJson(Map<String, dynamic> json) => Upgrade(

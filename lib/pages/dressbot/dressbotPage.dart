@@ -11,15 +11,15 @@ import '../../state/modules/cosmetic/cosmeticViewModel.dart';
 import 'dressbotListDetailPage.dart';
 
 class DressBotPage extends StatefulWidget {
-  const DressBotPage({Key key}) : super(key: key);
+  const DressBotPage({Key? key}) : super(key: key);
 
   @override
   _DressBotWidget createState() => _DressBotWidget();
 }
 
 class _DressBotWidget extends State<DressBotPage> {
-  List<CheckboxOption> currentSelection;
-  List<String> currentOwnedSelection;
+  List<CheckboxOption>? currentSelection;
+  List<String>? currentOwnedSelection;
 
   _DressBotWidget() {
     getAnalytics().trackEvent(AnalyticsEvent.dressBotPage);
@@ -27,7 +27,7 @@ class _DressBotWidget extends State<DressBotPage> {
 
   Future<ResultWithValue<List<GameItem>>> getCustomisationsFiltered(
     dynamic context,
-    List<CheckboxOption> selection,
+    List<CheckboxOption>? selection,
     List<String> owned, {
     bool showHat = false,
     bool showHair = false,
@@ -191,11 +191,11 @@ class _DressBotWidget extends State<DressBotPage> {
       converter: (store) => CosmeticViewModel.fromStore(store),
       builder: (_, viewModel) => DressBotListDetailPage(
         allItemList,
-        currentSelection,
+        currentSelection ?? List.empty(),
         getCustomisationsFiltered,
         setSelection,
         ownedOptionList,
-        currentOwnedSelection,
+        currentOwnedSelection ?? List.empty(),
         setOwnedSelection,
         showHat,
         showHair,

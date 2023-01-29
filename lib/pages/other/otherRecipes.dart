@@ -10,7 +10,7 @@ import '../../helpers/listPageHelper.dart';
 import '../recipe/recipeListPage.dart';
 
 class OtherRecipesPage extends StatelessWidget {
-  OtherRecipesPage({Key key}) : super(key: key) {
+  OtherRecipesPage({Key? key}) : super(key: key) {
     getAnalytics().trackEvent(AnalyticsEvent.homePage);
   }
 
@@ -28,72 +28,68 @@ class OtherRecipesPage extends StatelessWidget {
     );
   }
 
-  Widget getBody(BuildContext context) {
-    return responsiveStaggeredGrid(
-      [
-        StaggeredGridItem(
-          childBuilder: (BuildContext childContext) =>
-              responsiveStaggeredGridImageTilePresenter(
-            context,
+  Widget getBody(BuildContext bodyCtx) {
+    return ResponsiveStaggeredGrid(
+      items: [
+        createStaggeredGridItem(
+          child: responsiveStaggeredGridImageTilePresenter(
+            bodyCtx,
             AppImage.workshopTile,
             text: LocaleKey.workbench,
             onTap: () async => await getNavigation().navigateAwayFromHomeAsync(
-              context,
+              bodyCtx,
               navigateTo: (context) => RecipeListPage(
                 LocaleKey.workbench,
                 getWorkbenchPageLocales(),
               ),
             ),
           ),
-          gridItemType: StaggeredGridItemType.medSquare,
+          gridItemSize: StaggeredGridSize.medSquare,
         ),
-        StaggeredGridItem(
-          childBuilder: (BuildContext childContext) =>
-              responsiveStaggeredGridImageTilePresenter(
-            context,
+        createStaggeredGridItem(
+          child: responsiveStaggeredGridImageTilePresenter(
+            bodyCtx,
             AppImage.refinerTile,
             text: LocaleKey.refiner,
             onTap: () async => await getNavigation().navigateAwayFromHomeAsync(
-              context,
+              bodyCtx,
               navigateTo: (context) => RecipeListPage(
                 LocaleKey.refiner,
                 getRefinerPageLocales(),
               ),
             ),
           ),
-          gridItemType: StaggeredGridItemType.medSquare,
+          gridItemSize: StaggeredGridSize.medSquare,
         ),
-        StaggeredGridItem(
-          childBuilder: (BuildContext childContext) =>
-              responsiveStaggeredGridImageTilePresenter(
-            context,
+        createStaggeredGridItem(
+          child: responsiveStaggeredGridImageTilePresenter(
+            bodyCtx,
             AppImage.resourceTile,
             text: LocaleKey.dispenser,
             onTap: () async => await getNavigation().navigateAwayFromHomeAsync(
-              context,
+              bodyCtx,
               navigateTo: (context) => RecipeListPage(
                 LocaleKey.dispenser,
                 getDispensorPageLocales(),
               ),
             ),
           ),
-          gridItemType: StaggeredGridItemType.medSquare,
+          gridItemSize: StaggeredGridSize.medSquare,
         ),
-        StaggeredGridItem(
-          childBuilder: (BuildContext childContext) =>
-              responsiveStaggeredGridImageTilePresenter(
-            context,
+        createStaggeredGridItem(
+          child: responsiveStaggeredGridImageTilePresenter(
+            bodyCtx,
             AppImage.cookingTile,
             text: LocaleKey.cookingBot,
             onTap: () async => await getNavigation().navigateAwayFromHomeAsync(
-              context,
+              bodyCtx,
               navigateTo: (context) => RecipeListPage(
                 LocaleKey.cookingBot,
                 getCookBotPageLocales(),
               ),
             ),
           ),
-          gridItemType: StaggeredGridItemType.medSquare,
+          gridItemSize: StaggeredGridSize.medSquare,
         ),
       ],
     );

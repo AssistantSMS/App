@@ -2,7 +2,7 @@ class CosmeticState {
   List<String> owned;
 
   CosmeticState({
-    this.owned,
+    required this.owned,
   });
 
   factory CosmeticState.initial() {
@@ -12,18 +12,22 @@ class CosmeticState {
   }
 
   CosmeticState copyWith({
-    List<String> owned,
+    List<String>? owned,
   }) {
     return CosmeticState(
       owned: owned ?? List.empty(growable: true),
     );
   }
 
-  CosmeticState.fromJson(Map<String, dynamic> json) {
+  static CosmeticState fromJson(Map<String, dynamic> json) {
     try {
-      owned = List<String>.from(json["owned"]);
+      return CosmeticState(
+        owned: List<String>.from(json["owned"]),
+      );
     } catch (exception) {
-      owned = List.empty(growable: true);
+      return CosmeticState(
+        owned: List.empty(growable: true),
+      );
     }
   }
 

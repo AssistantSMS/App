@@ -39,7 +39,10 @@ class GameItemJsonService extends BaseJsonService
         await getAll(context);
     if (allGenericItemsResult.hasFailed) {
       return ResultWithValue(
-          false, GameItem(), allGenericItemsResult.errorMessage);
+        false,
+        GameItem.initial(),
+        allGenericItemsResult.errorMessage,
+      );
     }
     try {
       GameItem selectedGeneric =
@@ -48,7 +51,11 @@ class GameItemJsonService extends BaseJsonService
     } catch (exception) {
       getLog().e(
           "GameItemJsonService($baseJson) Exception: ${exception.toString()}");
-      return ResultWithValue<GameItem>(false, GameItem(), exception.toString());
+      return ResultWithValue<GameItem>(
+        false,
+        GameItem.initial(),
+        exception.toString(),
+      );
     }
   }
 }

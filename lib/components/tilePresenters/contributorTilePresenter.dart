@@ -4,7 +4,11 @@ import 'package:flutter/material.dart';
 import '../../contracts/generated/contributorViewModel.dart';
 
 Widget contributorTilePresenter(
-    BuildContext context, ContributorViewModel contributor, int index) {
+  BuildContext context,
+  ContributorViewModel contributor,
+  int index, {
+  void Function()? onTap,
+}) {
   Future<void> Function() onTap;
   onTap = () => launchExternalURL(contributor.link);
   return genericListTileWithNetworkImage(

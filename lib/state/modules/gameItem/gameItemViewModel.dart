@@ -13,10 +13,10 @@ class GameItemViewModel {
   Function(String id) removeFromCart;
 
   GameItemViewModel({
-    this.cartItems,
-    this.addToCart,
-    this.editCartItem,
-    this.removeFromCart,
+    required this.cartItems,
+    required this.addToCart,
+    required this.editCartItem,
+    required this.removeFromCart,
   });
 
   static GameItemViewModel fromStore(Store<AppState> store) {

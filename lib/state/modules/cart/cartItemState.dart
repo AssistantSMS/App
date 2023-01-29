@@ -7,8 +7,8 @@ class CartItemState {
   final int quantity;
 
   const CartItemState({
-    this.itemId,
-    this.quantity,
+    required this.itemId,
+    required this.quantity,
   });
 
   factory CartItemState.initial() {
@@ -19,8 +19,8 @@ class CartItemState {
   }
 
   CartItemState copyWith({
-    String itemId,
-    int quantity,
+    String? itemId,
+    int? quantity,
   }) {
     return CartItemState(
       itemId: itemId ?? this.itemId,

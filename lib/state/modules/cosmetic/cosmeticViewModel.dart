@@ -12,10 +12,10 @@ class CosmeticViewModel {
   Function() removeAll;
 
   CosmeticViewModel({
-    this.owned,
-    this.addToOwned,
-    this.removeFromOwned,
-    this.removeAll,
+    required this.owned,
+    required this.addToOwned,
+    required this.removeFromOwned,
+    required this.removeAll,
   });
 
   static CosmeticViewModel fromStore(Store<AppState> store) {

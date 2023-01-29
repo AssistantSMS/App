@@ -5,19 +5,26 @@
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 
 class RecipeIngredientDetails {
+  String id;
+  String? icon;
+  String title;
+  int quantity;
+  String? description;
+  LocaleKey? craftingStationName;
+
   RecipeIngredientDetails({
-    this.id,
-    this.icon,
-    this.title,
+    required this.id,
+    required this.icon,
+    required this.title,
+    required this.quantity,
     this.description,
-    this.quantity,
     this.craftingStationName,
   });
 
-  String id;
-  String icon;
-  String title;
-  String description;
-  int quantity;
-  LocaleKey craftingStationName;
+  factory RecipeIngredientDetails.initial() => RecipeIngredientDetails(
+        id: '',
+        icon: '',
+        title: '',
+        quantity: 0,
+      );
 }

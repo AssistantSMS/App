@@ -3,26 +3,39 @@ import 'package:flutter/material.dart';
 
 const int maxNumberOfRowsForRecipeCategory = 3;
 
-Widget genericItemImage(BuildContext context, String imagePath,
-        {bool disableZoom = false,
-        double height = 100,
-        String name = 'Zoom',
-        bool hdAvailable = false,
-        Function onTap}) =>
+Widget genericItemImage(
+  BuildContext context,
+  String imagePath, {
+  bool disableZoom = false,
+  double height = 100,
+  String name = 'Zoom',
+  bool hdAvailable = false,
+  void Function()? onTap,
+}) =>
     Center(
       child: GestureDetector(
         child: Container(
-          child: localImage(imagePath, height: height),
+          child: LocalImage(imagePath: imagePath, height: height),
           margin: const EdgeInsets.all(4.0),
         ),
         onTap: onTap ??
             genericItemImageOnTap(
-                context, imagePath, disableZoom, name, hdAvailable),
+              context,
+              imagePath,
+              disableZoom,
+              name,
+              hdAvailable,
+            ),
       ),
     );
 
-Function genericItemImageOnTap(BuildContext context, String imagePath,
-        bool disableZoom, String name, bool hdAvailable) =>
+void Function() genericItemImageOnTap(
+  BuildContext context,
+  String imagePath,
+  bool disableZoom,
+  String name,
+  bool hdAvailable,
+) =>
     () async {
       if (disableZoom) return;
     };
@@ -30,24 +43,29 @@ Function genericItemImageOnTap(BuildContext context, String imagePath,
 Widget genericItemNameWithQuantity(context, String name, String quantity) =>
     Container(
       child: Row(
-          crossAxisAlignment: CrossAxisAlignment.center,
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            Text(
-              name + '   ',
-              textAlign: TextAlign.center,
-              overflow: TextOverflow.ellipsis,
-              style: const TextStyle(fontSize: 20),
-            ),
-            Chip(
-                label: Text('x $quantity'),
-                backgroundColor: getTheme().getSecondaryColour(context))
-          ]),
+        crossAxisAlignment: CrossAxisAlignment.center,
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: <Widget>[
+          Text(
+            name + '   ',
+            textAlign: TextAlign.center,
+            overflow: TextOverflow.ellipsis,
+            style: const TextStyle(fontSize: 20),
+          ),
+          getBaseWidget().appChip(
+            label: Text('x $quantity'),
+            backgroundColor: getTheme().getSecondaryColour(context),
+          ),
+        ],
+      ),
       margin: const EdgeInsets.all(4.0),
     );
 
-Widget genericItemIntCurrency(String currency, String imageUrl,
-        {Color colour}) =>
+Widget genericItemIntCurrency(
+  String currency,
+  String imageUrl, {
+  Color? colour,
+}) =>
     genericItemWithListWidgets(
         Text(
           currency,
@@ -55,10 +73,14 @@ Widget genericItemIntCurrency(String currency, String imageUrl,
           overflow: TextOverflow.ellipsis,
           style: TextStyle(color: colour),
         ),
-        localImage(imageUrl, height: 20));
+        LocalImage(imagePath: imageUrl, height: 20));
 
-Widget genericItemTextWithIcon(String text, IconData icon,
-        {Color colour, bool addSpace = true}) =>
+Widget genericItemTextWithIcon(
+  String text,
+  IconData icon, {
+  Color? colour,
+  bool addSpace = true,
+}) =>
     genericItemWithListWidgets(
       Text(
         text,
@@ -82,7 +104,12 @@ Widget genericItemWithListWidgets(Widget first, Widget second,
       margin: const EdgeInsets.all(4.0),
     );
 
-Widget genericIconWithText(IconData icon, String text, {Function onTap}) => Row(
+Widget genericIconWithText(
+  IconData icon,
+  String text, {
+  void Function()? onTap,
+}) =>
+    Row(
       children: [
         GestureDetector(
           child: Padding(
@@ -97,9 +124,12 @@ Widget genericIconWithText(IconData icon, String text, {Function onTap}) => Row(
       ],
     );
 
-List<Widget> genericItemWithOverflowButton<T>(context, List<T> itemArray,
-    Widget Function(BuildContext context, T item) presenter,
-    {Function viewMoreOnPress}) {
+List<Widget> genericItemWithOverflowButton<T>(
+  context,
+  List<T> itemArray,
+  Widget Function(BuildContext context, T item) presenter, {
+  void Function()? viewMoreOnPress,
+}) {
   int numRecords = itemArray.length > maxNumberOfRowsForRecipeCategory
       ? maxNumberOfRowsForRecipeCategory
       : itemArray.length;
@@ -120,25 +150,31 @@ List<Widget> genericItemWithOverflowButton<T>(context, List<T> itemArray,
 
 Widget viewMoreButton(context, int numLeftOver, viewMoreOnPress) {
   String viewMore = getTranslations().fromKey(LocaleKey.viewXMore);
-  return Container(
-    child: positiveButton(
-      context,
-      title: viewMore.replaceAll("{0}", numLeftOver.toString()),
-      onPress: () {
-        if (viewMoreOnPress == null) return;
-        viewMoreOnPress();
-      },
-    ),
+  return PositiveButton(
+    title: viewMore.replaceAll("{0}", numLeftOver.toString()),
+    onTap: () {
+      if (viewMoreOnPress == null) return;
+      viewMoreOnPress();
+    },
   );
 }
 
-Widget genericChip(context, String title, {Color color, Function onTap}) =>
+Widget genericChip(
+  context,
+  String title, {
+  Color? color,
+  void Function()? onTap,
+}) =>
     genericChipWidget(context, Text(title), color: color, onTap: onTap);
 
-Widget genericChipWidget(context, Widget content,
-    {Color color, Function onTap}) {
-  var child = Padding(
-    child: Chip(
+Widget genericChipWidget(
+  context,
+  Widget content, {
+  Color? color,
+  void Function()? onTap,
+}) {
+  Padding child = Padding(
+    child: getBaseWidget().appChip(
       label: content,
       backgroundColor: color ?? getTheme().getSecondaryColour(context),
     ),
@@ -147,8 +183,12 @@ Widget genericChipWidget(context, Widget content,
   return (onTap == null) ? child : GestureDetector(child: child, onTap: onTap);
 }
 
-Widget gridIconTilePresenter(BuildContext innerContext, String imageprefix,
-        String imageAddress, Function(String icon) onTap) =>
+Widget gridIconTilePresenter(
+  BuildContext innerContext,
+  String imageprefix,
+  String imageAddress,
+  Function(String icon) onTap,
+) =>
     genericItemImage(
       innerContext,
       '$imageprefix$imageAddress',

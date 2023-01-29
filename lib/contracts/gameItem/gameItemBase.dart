@@ -15,37 +15,37 @@ import 'upgrade.dart';
 import 'edible.dart';
 
 class GameItemBase {
-  GameItemBase({
-    this.id,
-    this.icon,
-    this.color,
-    this.physicsMaterial,
-    this.rating,
-    this.box,
-    this.cylinder,
-    this.flammable,
-    this.isCreative,
-    this.isChallenge,
-    this.features,
-    this.upgrade,
-    this.edible,
-    this.customisationSource,
-  });
-
   String id;
   String icon;
   String color;
   String physicsMaterial;
-  Rating rating;
-  Box box;
-  Cylinder cylinder;
-  bool flammable;
+  Rating? rating;
+  Box? box;
+  Cylinder? cylinder;
   bool isCreative;
   bool isChallenge;
-  Upgrade upgrade;
-  Edible edible;
+  bool? flammable;
+  Upgrade? upgrade;
+  Edible? edible;
   List<Feature> features;
   CustomisationSourceType customisationSource;
+
+  GameItemBase({
+    required this.id,
+    required this.icon,
+    required this.color,
+    required this.physicsMaterial,
+    required this.rating,
+    required this.box,
+    required this.cylinder,
+    required this.flammable,
+    required this.isCreative,
+    required this.isChallenge,
+    required this.features,
+    required this.upgrade,
+    required this.edible,
+    required this.customisationSource,
+  });
 
   factory GameItemBase.fromRawJson(String str) =>
       GameItemBase.fromJson(json.decode(str));
@@ -64,14 +64,11 @@ class GameItemBase {
         upgrade:
             json["Upgrade"] == null ? null : Upgrade.fromJson(json["Upgrade"]),
         edible: json["Edible"] == null ? null : Edible.fromJson(json["Edible"]),
-        features: json["Features"] == null
-            ? null
-            : List<Feature>.from(
-                json["Features"].map((x) => Feature.fromJson(x))),
+        features: readListSafe(json, 'Features', (x) => Feature.fromJson(x)),
         flammable: readBoolSafe(json, "Flammable"),
         isCreative: readBoolSafe(json, "IsCreative"),
         isChallenge: readBoolSafe(json, "IsChallenge"),
         customisationSource: CustomisationSourceType
-            .values[(json["CustomisationSource"] as int ?? 0)],
+            .values[readIntSafe(json, 'CustomisationSource')],
       );
 }

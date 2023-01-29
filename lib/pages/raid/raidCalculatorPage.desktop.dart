@@ -14,8 +14,11 @@ const greenyDevTool = 'https://scrapmechanic.greeny.dev/?ref=AssistantSMS';
 
 class RaidCalcDesktopInputScreen extends StatelessWidget {
   final RaidViewModel currentDetails;
-  const RaidCalcDesktopInputScreen(this.currentDetails, {Key key})
-      : super(key: key);
+
+  const RaidCalcDesktopInputScreen(
+    this.currentDetails, {
+    Key? key,
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -36,7 +39,10 @@ class RaidCalcDesktopInputScreen extends StatelessWidget {
           child: Card(
             child: Column(
               children: [
-                networkImage(greenyDevGithubImage, height: 110),
+                const ImageFromNetwork(
+                  imageUrl: greenyDevGithubImage,
+                  height: 110,
+                ),
                 Padding(
                   child: Text(
                     getTranslations()
@@ -61,7 +67,6 @@ class RaidCalcDesktopInputScreen extends StatelessWidget {
       quantity,
     );
 
-    if (temp == null) return;
     currentDetails.editRaidItem(
       carrot: temp.carrot,
       tomato: temp.tomato,

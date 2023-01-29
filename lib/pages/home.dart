@@ -8,13 +8,13 @@ import '../components/tilePresenters/responsiveStaggeredGridTilePresenter.dart';
 import '../constants/AnalyticsEvent.dart';
 import '../constants/AppImage.dart';
 import '../constants/Routes.dart';
-import '../constants/StaggeredGridItemType.dart';
+import '../../constants/StaggeredGridItemType.dart';
 import '../helpers/listPageHelper.dart';
 import 'gameItem/gameItemListPage.dart';
 import 'recipe/recipeListPage.dart';
 
 class HomePage extends StatelessWidget {
-  HomePage({Key key}) : super(key: key) {
+  HomePage({Key? key}) : super(key: key) {
     getAnalytics().trackEvent(AnalyticsEvent.homePage);
   }
 
@@ -29,121 +29,113 @@ class HomePage extends StatelessWidget {
     );
   }
 
-  Widget getBody(BuildContext context) {
-    return responsiveStaggeredGrid(
-      [
-        StaggeredGridItem(
-          childBuilder: (BuildContext childContext) =>
-              responsiveStaggeredGridImageTilePresenter(
-            context,
+  Widget getBody(BuildContext bodyCtx) {
+    return ResponsiveStaggeredGrid(
+      items: [
+        createStaggeredGridItem(
+          child: responsiveStaggeredGridImageTilePresenter(
+            bodyCtx,
             AppImage.craftTile,
             text: LocaleKey.craftBot,
             onTap: () async => await getNavigation().navigateAwayFromHomeAsync(
-              context,
+              bodyCtx,
               navigateTo: (context) => RecipeListPage(
                 LocaleKey.craftBot,
                 getCraftBotPageLocales(),
               ),
             ),
           ),
-          gridItemType: StaggeredGridItemType.medSquare,
+          gridItemSize: StaggeredGridSize.medSquare,
         ),
-        StaggeredGridItem(
-          childBuilder: (BuildContext childContext) =>
-              responsiveStaggeredGridImageTilePresenter(
-            context,
+        createStaggeredGridItem(
+          child: responsiveStaggeredGridImageTilePresenter(
+            bodyCtx,
             AppImage.traderTile,
             text: LocaleKey.hideout,
             onTap: () async => await getNavigation().navigateAwayFromHomeAsync(
-              context,
+              bodyCtx,
               navigateTo: (context) => RecipeListPage(
                 LocaleKey.hideout,
                 getHideoutPageLocales(),
               ),
             ),
           ),
-          gridItemType: StaggeredGridItemType.smallRectLandscape,
+          gridItemSize: StaggeredGridSize.smallRectLandscape,
         ),
-        StaggeredGridItem(
-          childBuilder: (BuildContext childContext) =>
-              responsiveStaggeredGridImageTilePresenter(
-            context,
+        createStaggeredGridItem(
+          child: responsiveStaggeredGridImageTilePresenter(
+            bodyCtx,
             AppImage.block,
             text: LocaleKey.blocksAndItems,
             onTap: () async => await getNavigation().navigateAwayFromHomeAsync(
-              context,
+              bodyCtx,
               navigateTo: (context) => GameItemListPage(
                 LocaleKey.blocksAndItems,
                 getBlocksAndItemsPageLocales(),
               ),
             ),
           ),
-          gridItemType: StaggeredGridItemType.medSquare,
+          gridItemSize: StaggeredGridSize.medSquare,
         ),
-        StaggeredGridItem(
-          childBuilder: (BuildContext childContext) =>
-              responsiveStaggeredGridImageTilePresenter(
-            context,
+        createStaggeredGridItem(
+          child: responsiveStaggeredGridImageTilePresenter(
+            bodyCtx,
             AppImage.workshopTile,
             text: LocaleKey.other,
             onTap: () async => await getNavigation().navigateAwayFromHomeAsync(
-              context,
+              bodyCtx,
               navigateToNamed: Routes.otherRecipes,
             ),
           ),
-          gridItemType: StaggeredGridItemType.smallRectLandscape,
+          gridItemSize: StaggeredGridSize.smallRectLandscape,
         ),
-        StaggeredGridItem(
-          childBuilder: (BuildContext childContext) =>
-              responsiveStaggeredGridImageTilePresenter(
-            context,
+        createStaggeredGridItem(
+          child: responsiveStaggeredGridImageTilePresenter(
+            bodyCtx,
             AppImage.dressTile,
             text: LocaleKey.dressBot,
             onTap: () async => await getNavigation().navigateAwayFromHomeAsync(
-              context,
+              bodyCtx,
               navigateToNamed: Routes.dressbot,
             ),
           ),
-          gridItemType: StaggeredGridItemType.smallRectLandscape,
+          gridItemSize: StaggeredGridSize.smallRectLandscape,
         ),
-        StaggeredGridItem(
-          childBuilder: (BuildContext childContext) =>
-              responsiveStaggeredGridImageTilePresenter(
-            context,
+        createStaggeredGridItem(
+          child: responsiveStaggeredGridImageTilePresenter(
+            bodyCtx,
             AppImage.raidTile,
             text: LocaleKey.raidCalculator,
             onTap: () async => await getNavigation().navigateAwayFromHomeAsync(
-              context,
+              bodyCtx,
               navigateToNamed: Routes.raidCalc,
             ),
           ),
-          gridItemType: StaggeredGridItemType.smallRectLandscape,
+          gridItemSize: StaggeredGridSize.smallRectLandscape,
         ),
-        StaggeredGridItem(
-          childBuilder: (BuildContext childContext) =>
-              responsiveStaggeredGridIconTilePresenter(
-            context,
+        createStaggeredGridItem(
+          child: responsiveStaggeredGridIconTilePresenter(
+            bodyCtx,
             Icons.shopping_cart,
             text: LocaleKey.cart,
             onTap: () async => await getNavigation().navigateAwayFromHomeAsync(
-              context,
+              bodyCtx,
               navigateToNamed: Routes.cart,
             ),
           ),
-          gridItemType: StaggeredGridItemType.smallRectLandscape,
+          gridItemSize: StaggeredGridSize.smallRectLandscape,
         ),
-        StaggeredGridItem(
-          childBuilder: (BuildContext childContext) =>
-              responsiveStaggeredGridIconTilePresenter(
-            context,
+        createStaggeredGridItem(
+          child: responsiveStaggeredGridIconTilePresenter(
+            bodyCtx,
             Icons.new_releases,
             text: LocaleKey.news,
             onTap: () async => await getNavigation().navigateAwayFromHomeAsync(
-              context,
+              bodyCtx,
               navigateToNamed: Routes.steamNews,
             ),
           ),
-          gridItemType: StaggeredGridItemType.smallRectLandscape,
+          gridItemSize: StaggeredGridSize.smallRectLandscape,
         ),
       ],
     );

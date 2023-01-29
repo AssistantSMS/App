@@ -29,7 +29,7 @@ class CustomRouter {
     final router = FluroRouter();
 
     router.notFoundHandler = Handler(
-      handlerFunc: (BuildContext context, Map<String, List<String>> params) =>
+      handlerFunc: (BuildContext? context, Map<String, List<String>> params) =>
           const NotFoundPage(),
     );
 
@@ -41,9 +41,7 @@ class CustomRouter {
     );
     router.define(
       Routes.about,
-      handler: _basicHandlerFunc(() => AboutPage(
-            key: const Key('about'),
-          )),
+      handler: _basicHandlerFunc(() => const AboutPage(key: Key('about'))),
       transitionType: transition,
     );
     router.define(
@@ -66,7 +64,7 @@ class CustomRouter {
       handler: _basicHandlerFunc(
         () => SteamNewsPage(
           AnalyticsEvent.steamNewsPage,
-          AssistantAppType.SMS,
+          AssistantAppType.sms,
           bottomNavigationBar: const BottomNavbar(),
           backupFunc: (backupFuncContext) =>
               BackupJsonService().getSteamNews(backupFuncContext),
@@ -143,15 +141,17 @@ class CustomRouter {
   }
 
   static Handler _basicHandlerFunc(Widget Function() generateRoute) => Handler(
-        handlerFunc: (BuildContext context, Map<String, List<String>> params) =>
-            generateRoute(),
+        handlerFunc:
+            (BuildContext? context, Map<String, List<String>> params) =>
+                generateRoute(),
       );
 
   static Handler _itemListPageHandler(
       Widget Function(String itemId) generateRoute) {
     return Handler(
-      handlerFunc: (BuildContext context, Map<String, List<String>> params) {
-        String id = params[Routes.itemIdParam][0];
+      handlerFunc: (BuildContext? context, Map<String, List<String>> params) {
+        List<String> specificParamList = params[Routes.itemIdParam]!;
+        String id = specificParamList.first;
         return generateRoute(id);
       },
     );

@@ -55,7 +55,7 @@ Widget _appleLanguageChoiceButton(
                 (choice) => CupertinoActionSheetAction(
                   child: Text(getTranslations().fromKey(choice.name)),
                   onPressed: () {
-                    Navigator.of(context).pop();
+                    getNavigation().pop(context);
                     onLocaleChange(
                       getTranslations().getLocaleFromLocalMap(choice),
                     );

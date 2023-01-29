@@ -7,10 +7,11 @@ Widget genericPageScaffold<T>(
   context,
   String title,
   snapshot, {
-  Widget Function(BuildContext context, AsyncSnapshot<T> snapshot) body,
+  required Widget Function(BuildContext context, AsyncSnapshot<T> snapshot)
+      body,
   bool showShortcutLinks = false,
-  List<ActionItem> shortcutActions,
-  Widget floatingActionButton,
+  List<ActionItem>? shortcutActions,
+  Widget? floatingActionButton,
 }) {
   List<ActionItem> actions = List.empty(growable: true);
   actions.add(ActionItem(

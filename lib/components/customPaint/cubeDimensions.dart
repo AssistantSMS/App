@@ -1,16 +1,18 @@
 import 'package:flutter/material.dart';
 
-Widget cubeDimension() {
-  return CustomPaint(
-    size: Size.infinite,
-    painter: CubeDimensionPainter(color: Colors.red),
-  );
-}
+// Widget cubeDimension() {
+//   return CustomPaint(
+//     size: Size.infinite,
+//     painter: CubeDimensionPainter(color: Colors.red),
+//   );
+// }
 
 class CubeDimensionPainter extends CustomPainter {
-  CubeDimensionPainter({@required this.color});
-
   final Color color;
+
+  CubeDimensionPainter({
+    required this.color,
+  });
 
   @override
   void paint(Canvas canvas, Size size) {

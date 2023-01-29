@@ -11,7 +11,7 @@ import '../state/modules/base/appState.dart';
 import '../state/modules/setting/settingViewModel.dart';
 
 class SettingsPage extends StatelessWidget {
-  SettingsPage({Key key}) : super(key: key) {
+  SettingsPage({Key? key}) : super(key: key) {
     getAnalytics().trackEvent(AnalyticsEvent.settingsPage);
   }
 
@@ -54,7 +54,7 @@ class SettingsPage extends StatelessWidget {
                 .fromKey(LocaleKey.translationIssue)
                 .replaceAll('{0}', getTranslations().fromKey(newLocal.name)),
             onlyCancelButton: true,
-            onCancel: () => viewModel.changeLanguage(locale),
+            onCancel: (_) => viewModel.changeLanguage(locale),
           );
         } else {
           viewModel.changeLanguage(locale);
@@ -86,7 +86,7 @@ class SettingsPage extends StatelessWidget {
       legalTilePresenter(description: LocaleKey.fairUseDisclaimer),
     );
 
-    widgets.add(emptySpace3x());
+    widgets.add(const EmptySpace3x());
 
     return listWithScrollbar(
         itemCount: widgets.length,

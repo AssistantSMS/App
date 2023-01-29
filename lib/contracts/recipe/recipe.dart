@@ -3,16 +3,6 @@ import 'recipeBase.dart';
 import 'recipeLang.dart';
 
 class Recipe {
-  Recipe({
-    this.id,
-    this.icon,
-    this.title,
-    this.description,
-    this.craftingTime,
-    this.output,
-    this.inputs,
-  });
-
   String id;
   String icon;
   String title;
@@ -20,6 +10,26 @@ class Recipe {
   String description;
   RecipeIngredient output;
   List<RecipeIngredient> inputs;
+
+  Recipe({
+    required this.id,
+    required this.icon,
+    required this.title,
+    required this.description,
+    required this.craftingTime,
+    required this.output,
+    required this.inputs,
+  });
+
+  factory Recipe.initial() => Recipe(
+        id: '',
+        icon: '',
+        title: '',
+        description: '',
+        craftingTime: 0,
+        output: RecipeIngredient.initial(),
+        inputs: List.empty(),
+      );
 
   factory Recipe.fromBaseAndLang(RecipeBase baseItem, RecipeLang lang) =>
       Recipe(

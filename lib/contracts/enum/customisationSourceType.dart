@@ -1,4 +1,4 @@
-import 'enumBase.dart';
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 
 enum CustomisationSourceType {
   unknown,

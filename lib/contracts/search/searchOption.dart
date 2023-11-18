@@ -11,10 +11,10 @@ class SearchOption {
   dynamic actualValue;
 
   SearchOption({
-    this.title,
-    this.image,
-    this.type,
-    this.hidden,
+    required this.title,
+    required this.image,
+    required this.type,
+    required this.hidden,
     this.value = '',
     this.actualValue,
   });

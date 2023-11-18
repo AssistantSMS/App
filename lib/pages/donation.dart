@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import '../constants/AnalyticsEvent.dart';
 
 class DonationPage extends StatelessWidget {
-  DonationPage({Key key}) : super(key: key) {
+  DonationPage({Key? key}) : super(key: key) {
     getAnalytics().trackEvent(AnalyticsEvent.donationPage);
   }
 
@@ -26,7 +26,7 @@ class DonationPage extends StatelessWidget {
 
     paymentOptions.add(ListTile(
       key: const Key('buyMeACoffee'),
-      leading: getListTileImage('donation/buyMeACoffee.png'),
+      leading: const ListTileImage(partialPath: 'donation/buyMeACoffee.png'),
       title: Text(getTranslations().fromKey(LocaleKey.buyMeACoffee),
           style: const TextStyle(fontSize: 20)),
       onTap: () {
@@ -36,7 +36,7 @@ class DonationPage extends StatelessWidget {
     ));
     paymentOptions.add(ListTile(
       key: const Key('patreon'),
-      leading: getListTileImage('donation/patreon.png'),
+      leading: const ListTileImage(partialPath: 'donation/patreon.png'),
       title: Text(getTranslations().fromKey(LocaleKey.patreon),
           style: const TextStyle(fontSize: 20)),
       onTap: () {
@@ -46,7 +46,7 @@ class DonationPage extends StatelessWidget {
     ));
     paymentOptions.add(ListTile(
       key: const Key('payPal'),
-      leading: getListTileImage('donation/payPal.png'),
+      leading: const ListTileImage(partialPath: 'donation/payPal.png'),
       title: Text(getTranslations().fromKey(LocaleKey.paypal),
           style: const TextStyle(fontSize: 20)),
       onTap: () {
@@ -56,7 +56,7 @@ class DonationPage extends StatelessWidget {
     ));
     paymentOptions.add(ListTile(
       key: const Key('openCollective'),
-      leading: getListTileImage('donation/openCollective.png'),
+      leading: const ListTileImage(partialPath: 'donation/openCollective.png'),
       title: Text(getTranslations().fromKey(LocaleKey.openCollective),
           style: const TextStyle(fontSize: 20)),
       onTap: () {

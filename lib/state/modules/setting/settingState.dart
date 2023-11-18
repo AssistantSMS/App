@@ -6,17 +6,17 @@ class SettingState {
   final String selectedLanguage;
 
   const SettingState({
-    this.selectedLanguage,
+    required this.selectedLanguage,
   });
 
   factory SettingState.initial() {
     return const SettingState(
-      selectedLanguage: null,
+      selectedLanguage: 'en',
     );
   }
 
   SettingState copyWith({
-    String selectedLanguage,
+    String? selectedLanguage,
   }) {
     return SettingState(
       selectedLanguage: selectedLanguage ?? this.selectedLanguage,

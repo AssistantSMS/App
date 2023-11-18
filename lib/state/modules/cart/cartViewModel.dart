@@ -7,20 +7,19 @@ import 'selector.dart';
 
 class CartViewModel {
   List<CartItemState> craftingItems;
-  final bool displayGenericItemColour;
 
   Function(String itemId, int quantity) addToCart;
   Function(String itemId, int quantity) editCartItem;
   Function(String id) removeFromCart;
   Function() removeAllFromCart;
 
-  CartViewModel(
-      {this.craftingItems,
-      this.displayGenericItemColour,
-      this.addToCart,
-      this.editCartItem,
-      this.removeAllFromCart,
-      this.removeFromCart});
+  CartViewModel({
+    required this.craftingItems,
+    required this.addToCart,
+    required this.editCartItem,
+    required this.removeAllFromCart,
+    required this.removeFromCart,
+  });
 
   static CartViewModel fromStore(Store<AppState> store) {
     return CartViewModel(

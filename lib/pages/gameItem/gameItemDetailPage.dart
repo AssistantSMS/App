@@ -2,7 +2,6 @@ import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
 
-import '../../components/common/cachedFutureBuilder.dart';
 import '../../components/common/positioned.dart';
 import '../../components/modalBottomSheet/devDetailModalBottomSheet.dart';
 import '../../components/scaffoldTemplates/genericPageScaffold.dart';
@@ -28,11 +27,11 @@ import '../recipe/recipeDetailPage.dart';
 class GameItemDetailPage extends StatelessWidget {
   final String itemId;
   final bool isInDetailPane;
-  final void Function(Widget newDetailView) updateDetailView;
+  final void Function(Widget newDetailView)? updateDetailView;
 
   GameItemDetailPage(
     this.itemId, {
-    Key key,
+    Key? key,
     this.isInDetailPane = false,
     this.updateDetailView,
   }) : super(key: key) {
@@ -48,24 +47,31 @@ class GameItemDetailPage extends StatelessWidget {
     );
     return CachedFutureBuilder<ResultWithValue<GameItemPageItem>>(
       future: gameItemPageItemFuture(context, itemId),
-      whileLoading: isInDetailPane
+      whileLoading: () => isInDetailPane
           ? loadingWidget
           : genericPageScaffold(context, loading, null,
               body: (_, __) => loadingWidget, showShortcutLinks: true),
-      whenDoneLoading:
-          (AsyncSnapshot<ResultWithValue<GameItemPageItem>> snapshot) {
+      whenDoneLoading: (ResultWithValue<GameItemPageItem> result) {
         StoreConnector<AppState, GameItemViewModel> bodyWidget =
             StoreConnector<AppState, GameItemViewModel>(
           converter: (store) => GameItemViewModel.fromStore(store),
-          builder: (_, viewModel) => getBody(context, viewModel, snapshot),
+          builder: (_, viewModel) => getBody(context, viewModel, result),
         );
         if (isInDetailPane) return bodyWidget;
-        return genericPageScaffold<ResultWithValue<GameItemPageItem>>(
+        return getBaseWidget().appScaffold(
           context,
-          snapshot?.data?.value?.gameItem?.title ?? loading,
-          snapshot,
-          body: (_, __) => bodyWidget,
-          showShortcutLinks: true,
+          appBar: getBaseWidget().appBarForSubPage(
+            context,
+            title: Text(result.value.gameItem.title),
+            actions: [
+              ActionItem(
+                icon: Icons.home,
+                onPressed: () async =>
+                    await getNavigation().navigateHomeAsync(context),
+              )
+            ],
+          ),
+          body: bodyWidget,
         );
       },
     );
@@ -74,19 +80,12 @@ class GameItemDetailPage extends StatelessWidget {
   Widget getBody(
     BuildContext context,
     GameItemViewModel viewModel,
-    AsyncSnapshot<ResultWithValue<GameItemPageItem>> snapshot,
+    ResultWithValue<GameItemPageItem> result,
   ) {
     TextEditingController controller = TextEditingController();
-    Widget errorWidget = asyncSnapshotHandler(context, snapshot,
-        isValidFunction: (ResultWithValue<GameItemPageItem> gameItemResult) {
-      if (!gameItemResult.isSuccess) return false;
-      if (gameItemResult.value == null) return false;
-      return true;
-    });
-    if (errorWidget != null) return errorWidget;
 
-    GameItemPageItem gameItemPage = snapshot?.data?.value;
-    GameItem gameItem = gameItemPage?.gameItem;
+    GameItemPageItem gameItemPage = result.value;
+    GameItem gameItem = gameItemPage.gameItem;
 
     List<Widget> widgets = List.empty(growable: true);
     List<Widget> stackWidgets = List.empty(growable: true);
@@ -99,7 +98,7 @@ class GameItemDetailPage extends StatelessWidget {
       ));
     }
 
-    if (gameItemPage.devDetails?.isNotEmpty == true) {
+    if (gameItemPage.devDetails.isNotEmpty == true) {
       stackWidgets.add(Positioned(
         child: GestureDetector(
           child: const Icon(Icons.code_sharp, size: 40),
@@ -116,14 +115,14 @@ class GameItemDetailPage extends StatelessWidget {
         right: 0,
       ));
     }
-    widgets.add(emptySpace1x());
+    widgets.add(const EmptySpace1x());
     widgets.add(Stack(children: stackWidgets));
-    widgets.add(emptySpace1x());
-    widgets.add(genericItemName(gameItem.title));
-    if (gameItem.description != null && gameItem.description.isNotEmpty) {
-      widgets.add(genericItemDescription(gameItem.description));
+    widgets.add(const EmptySpace1x());
+    widgets.add(GenericItemName(gameItem.title));
+    if (gameItem.description.isNotEmpty) {
+      widgets.add(GenericItemDescription(gameItem.description));
     }
-    widgets.add(emptySpace1x());
+    widgets.add(const EmptySpace1x());
 
     if (gameItem.isChallenge) {
       widgets.add(getModeChip(context, 'Challenge')); // TODO translate
@@ -135,7 +134,7 @@ class GameItemDetailPage extends StatelessWidget {
       ));
     }
 
-    widgets.add(emptySpace1x());
+    widgets.add(const EmptySpace1x());
 
     List<Widget> rowWidgets = List.empty(growable: true);
 
@@ -157,7 +156,7 @@ class GameItemDetailPage extends StatelessWidget {
     Future Function(String gameItemId) navigateToGameItem;
     navigateToGameItem = (String gameItemId) async {
       if (isInDetailPane && updateDetailView != null) {
-        updateDetailView(GameItemDetailPage(
+        updateDetailView!(GameItemDetailPage(
           gameItemId,
           isInDetailPane: isInDetailPane,
           updateDetailView: updateDetailView,
@@ -174,10 +173,10 @@ class GameItemDetailPage extends StatelessWidget {
     Future Function(String recipeItemId) navigateToRecipeItem;
     navigateToRecipeItem = (String recipeItemId) async {
       if (isInDetailPane && updateDetailView != null) {
-        updateDetailView(RecipeDetailPage(
+        updateDetailView!(RecipeDetailPage(
           recipeItemId,
           isInDetailPane: isInDetailPane,
-          updateDetailView: updateDetailView,
+          updateDetailView: updateDetailView!,
         ));
       } else {
         await getNavigation().navigateAwayFromHomeAsync(
@@ -190,24 +189,24 @@ class GameItemDetailPage extends StatelessWidget {
 
     if (gameItem.upgrade != null) {
       rowWidgets.add(
-        itemDetailUpgradeWidget(gameItem.upgrade, navigateToGameItem),
+        itemDetailUpgradeWidget(gameItem.upgrade!, navigateToGameItem),
       );
     }
 
     if (gameItem.box != null) {
-      rowWidgets.add(itemDetailBoxWidget(context, gameItem.box));
+      rowWidgets.add(itemDetailBoxWidget(context, gameItem.box!));
     }
 
     if (gameItem.cylinder != null) {
-      rowWidgets.add(itemDetailCylinderWidget(context, gameItem.cylinder));
+      rowWidgets.add(itemDetailCylinderWidget(context, gameItem.cylinder!));
     }
 
-    List<LootChance> lootChances = snapshot?.data?.value?.lootChances ?? [];
-    if (lootChances != null && lootChances.isNotEmpty) {
+    List<LootChance> lootChances = result.value.lootChances;
+    if (lootChances.isNotEmpty) {
       rowWidgets.add(itemDetailLootChancesWidget(lootChances));
     }
 
-    if (gameItem.features != null && gameItem.features.isNotEmpty) {
+    if (gameItem.features.isNotEmpty) {
       rowWidgets.add(itemDetailFeaturesWidget(context, gameItem.features));
     }
 
@@ -218,8 +217,7 @@ class GameItemDetailPage extends StatelessWidget {
       ),
     );
 
-    List<CraftedUsing> craftingRecipes =
-        snapshot?.data?.value?.craftingRecipes ?? [];
+    List<CraftedUsing> craftingRecipes = result.value.craftingRecipes;
     widgets.addAll(itemCraftingRecipesWidget(
       context,
       craftingRecipes,
@@ -227,8 +225,7 @@ class GameItemDetailPage extends StatelessWidget {
       navigateToGameItem,
     ));
 
-    List<UsedInRecipe> usedInRecipes =
-        snapshot?.data?.value?.usedInRecipes ?? [];
+    List<UsedInRecipe> usedInRecipes = result.value.usedInRecipes;
     widgets.addAll(itemUsedInRecipesWidget(
       context,
       usedInRecipes,
@@ -236,8 +233,7 @@ class GameItemDetailPage extends StatelessWidget {
       navigateToRecipeItem,
     ));
 
-    List<PackedUsing> usedInPacking =
-        snapshot?.data?.value?.packingInputs ?? [];
+    List<PackedUsing> usedInPacking = result.value.packingInputs;
     if (usedInPacking.isNotEmpty) {
       widgets.addAll(itemUsedInPackingRecipesWidget(
         context,
@@ -247,7 +243,7 @@ class GameItemDetailPage extends StatelessWidget {
       ));
     }
 
-    List<PackedUsing> packedUsing = snapshot?.data?.value?.packingOutputs ?? [];
+    List<PackedUsing> packedUsing = result.value.packingOutputs;
     if (packedUsing.isNotEmpty) {
       widgets.addAll(itemUsedInPackingRecipesWidget(
         context,
@@ -262,7 +258,7 @@ class GameItemDetailPage extends StatelessWidget {
         .toList();
     widgets.addAll(inCartWidget(context, gameItem, cartItems, viewModel));
 
-    widgets.add(emptySpace10x());
+    widgets.add(const EmptySpace10x());
 
     var fabColour = getTheme().getSecondaryColour(context);
     return Stack(
@@ -281,7 +277,7 @@ class GameItemDetailPage extends StatelessWidget {
               getDialog().showQuantityDialog(context, controller,
                   title: getTranslations().fromKey(LocaleKey.quantity),
                   onSuccess: (BuildContext dialogCtx, String quantityString) {
-                int quantity = int.tryParse(quantityString);
+                int? quantity = int.tryParse(quantityString);
                 if (quantity == null) return;
                 viewModel.addToCart(gameItem.id, quantity);
                 // getSnackbar().showSnackbar(

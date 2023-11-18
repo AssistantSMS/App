@@ -15,12 +15,22 @@ class GameItemPageItem {
   final List<DevDetail> devDetails;
 
   GameItemPageItem({
-    this.gameItem,
-    this.craftingRecipes,
-    this.usedInRecipes,
-    this.lootChances,
-    this.packingInputs,
-    this.packingOutputs,
-    this.devDetails,
+    required this.gameItem,
+    required this.craftingRecipes,
+    required this.usedInRecipes,
+    required this.lootChances,
+    required this.packingInputs,
+    required this.packingOutputs,
+    required this.devDetails,
   });
+
+  factory GameItemPageItem.initial() => GameItemPageItem(
+        gameItem: GameItem.initial(),
+        craftingRecipes: List.empty(),
+        usedInRecipes: List.empty(),
+        lootChances: List.empty(),
+        packingInputs: List.empty(),
+        packingOutputs: List.empty(),
+        devDetails: List.empty(),
+      );
 }

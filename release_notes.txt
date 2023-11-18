@@ -1,7 +1,7 @@
-- Fix language selection screen
+- Update dependencies
 - Updated translations
 
-_Submitted to App Stores 2022-08-_
+_Submitted to App Stores 2023-11-18_
 
 For more details on this update please visit the "What is New" page in the Apps or on the website
 

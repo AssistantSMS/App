@@ -1,3 +1,4 @@
+import 'package:dartx/dartx.dart';
 import 'package:redux/redux.dart';
 
 import 'actions.dart';
@@ -58,8 +59,8 @@ CartState _editCraftingItemInCart(
 
 CartState _removeCraftingFromCart(
     CartState state, RemoveCraftingFromCartAction action) {
-  CartItemState oldCardItem =
-      state.items.firstWhere((ci) => ci.itemId == action.id);
+  CartItemState? oldCardItem = state.items //
+      .firstOrNullWhere((ci) => ci.itemId == action.id);
   if (oldCardItem == null) return state;
 
   return state.copyWith(items: List.from(state.items)..remove(oldCardItem));

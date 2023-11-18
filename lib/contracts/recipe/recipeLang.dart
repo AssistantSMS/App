@@ -11,15 +11,15 @@ String recipeLangToJson(List<RecipeLang> data) =>
     json.encode(List<dynamic>.from(data.map((x) => x.toJson())));
 
 class RecipeLang {
-  RecipeLang({
-    this.id,
-    this.title,
-    this.description,
-  });
-
   String id;
   String title;
   String description;
+
+  RecipeLang({
+    required this.id,
+    required this.title,
+    required this.description,
+  });
 
   factory RecipeLang.fromJson(Map<String, dynamic> json) => RecipeLang(
         id: json["Id"],

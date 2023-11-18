@@ -15,19 +15,19 @@ String recipeBaseToJson(List<RecipeBase> data) =>
     json.encode(List<dynamic>.from(data.map((x) => x.toJson())));
 
 class RecipeBase {
-  RecipeBase({
-    this.id,
-    this.icon,
-    this.craftingTime,
-    this.output,
-    this.inputs,
-  });
-
   String id;
   String icon;
   int craftingTime;
   RecipeIngredient output;
   List<RecipeIngredient> inputs;
+
+  RecipeBase({
+    required this.id,
+    required this.icon,
+    required this.craftingTime,
+    required this.output,
+    required this.inputs,
+  });
 
   factory RecipeBase.fromJson(Map<String, dynamic> json) => RecipeBase(
         id: readStringSafe(json, "Id"),

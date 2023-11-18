@@ -8,7 +8,7 @@ class LoadingWidgetService implements ILoadingWidgetService {
   Widget smallLoadingIndicator() => const CustomSpinner();
 
   @override
-  Widget smallLoadingTile(BuildContext context, {String loadingText}) =>
+  Widget smallLoadingTile(BuildContext context, {String? loadingText}) =>
       ListTile(
         leading: smallLoadingIndicator(),
         title:
@@ -23,7 +23,7 @@ class LoadingWidgetService implements ILoadingWidgetService {
       );
 
   @override
-  Widget fullPageLoading(BuildContext context, {String loadingText}) => Column(
+  Widget fullPageLoading(BuildContext context, {String? loadingText}) => Column(
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.center,
         children: <Widget>[
@@ -42,11 +42,11 @@ class LoadingWidgetService implements ILoadingWidgetService {
       );
 
   @override
-  Widget customErrorWidget(BuildContext context, {String text}) {
+  Widget customErrorWidget(BuildContext context, {String? text}) {
     return Center(
       child: Column(
         children: [
-          // localImage(AppImage.error, width: 500, padding: const EdgeInsets.all(8)),
+          // LocalImage(imagePath:AppImage.error, width: 500, padding: const EdgeInsets.all(8)),
           Text(
             text ?? getTranslations().fromKey(LocaleKey.somethingWentWrong),
             style: const TextStyle(fontSize: 30),

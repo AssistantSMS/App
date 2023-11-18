@@ -1,7 +1,9 @@
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:enum_to_string/enum_to_string.dart';
 import 'package:flutter/material.dart';
+import 'package:scrapmechanic_kurtlourens_com/contracts/gameItem/edible.dart';
 import 'package:scrapmechanic_kurtlourens_com/contracts/packing/packedUsing.dart';
+import 'package:scrapmechanic_kurtlourens_com/contracts/rating/rating.dart';
 import 'package:step_progress_indicator/step_progress_indicator.dart';
 
 import '../../components/customPaint/ratingOval.dart';
@@ -27,46 +29,52 @@ import '../tilePresenters/recipeIngredientTilePresenter.dart';
 import '../tilePresenters/recipeTilePresenter.dart';
 
 ResultWithValue<Widget> getRatingTableRows(
-    BuildContext context, GameItem gameItem) {
+  BuildContext context,
+  GameItem gameItem,
+) {
   List<TableRow> rows = List.empty(growable: true);
   if (gameItem.rating == null) {
-    return ResultWithValue<Table>(false, null, 'rating is null');
+    return ResultWithValue<Table>(false, Table(), 'rating is null');
   }
-  if (gameItem.rating.buoyancy == 0 &&
-      gameItem.rating.density == 0 &&
-      gameItem.rating.durability == 0 &&
-      gameItem.rating.friction == 0) {
+  Rating rating = gameItem.rating!;
+  if (rating.buoyancy == 0 &&
+      rating.density == 0 &&
+      rating.durability == 0 &&
+      rating.friction == 0) {
     return ResultWithValue<Table>(
-        false, null, 'rating is not worth displaying');
+      false,
+      Table(),
+      'rating is not worth displaying',
+    );
   }
 
   bool isDark = getTheme().getIsDark(context);
-  if (gameItem.rating.density != null) {
+  if (rating.density != null) {
     rows.add(TableRow(children: [
       headingLocaleKeyWithImage(
           context, AppImage.weight(isDark), LocaleKey.density),
-      rowValue(context, gameItem.rating.density)
+      rowValue(context, rating.density!),
     ]));
   }
-  if (gameItem.rating.durability != null) {
+  if (rating.durability != null) {
     rows.add(TableRow(children: [
       headingLocaleKeyWithImage(
           context, AppImage.durability(isDark), LocaleKey.durability),
-      rowValue(context, gameItem.rating.durability)
+      rowValue(context, rating.durability!),
     ]));
   }
-  if (gameItem.rating.friction != null) {
+  if (rating.friction != null) {
     rows.add(TableRow(children: [
       headingLocaleKeyWithImage(
           context, AppImage.friction(isDark), LocaleKey.friction),
-      rowValue(context, gameItem.rating.friction)
+      rowValue(context, rating.friction!),
     ]));
   }
-  if (gameItem.rating.buoyancy != null) {
+  if (rating.buoyancy != null) {
     rows.add(TableRow(children: [
       headingLocaleKeyWithImage(
           context, AppImage.buoyancy(isDark), LocaleKey.buoyancy),
-      rowValue(context, gameItem.rating.buoyancy),
+      rowValue(context, rating.buoyancy!),
     ]));
   }
   if (gameItem.flammable != null) {
@@ -75,7 +83,7 @@ ResultWithValue<Widget> getRatingTableRows(
           context, AppImage.flammable(isDark), LocaleKey.flammable),
       Text(
         getTranslations()
-            .fromKey(gameItem.flammable ? LocaleKey.yes : LocaleKey.no),
+            .fromKey(gameItem.flammable! ? LocaleKey.yes : LocaleKey.no),
         textAlign: TextAlign.center,
         style: TextStyle(
             color: getTheme().getPrimaryColour(context), fontSize: 16),
@@ -83,37 +91,38 @@ ResultWithValue<Widget> getRatingTableRows(
     ]));
   }
   if (gameItem.edible != null) {
+    Edible edible = gameItem.edible!;
     List<TableRow> edibles = List.empty(growable: true);
-    if (gameItem.edible.hpGain != null && gameItem.edible.hpGain > 0) {
+    if (edible.hpGain > 0) {
       edibles.add(TableRow(children: [
         headingLocaleKeyWithImage(
             context, AppImage.health(isDark), LocaleKey.health),
         Text(
-          gameItem.edible.hpGain.toString() + '%',
+          edible.hpGain.toString() + '%',
           textAlign: TextAlign.center,
           style: TextStyle(
               color: getTheme().getPrimaryColour(context), fontSize: 16),
         ),
       ]));
     }
-    if (gameItem.edible.foodGain != null && gameItem.edible.foodGain > 0) {
+    if (edible.foodGain > 0) {
       edibles.add(TableRow(children: [
         headingLocaleKeyWithImage(
             context, AppImage.food(isDark), LocaleKey.hunger),
         Text(
-          gameItem.edible.foodGain.toString() + '%',
+          edible.foodGain.toString() + '%',
           textAlign: TextAlign.center,
           style: TextStyle(
               color: getTheme().getPrimaryColour(context), fontSize: 16),
         ),
       ]));
     }
-    if (gameItem.edible.waterGain != null && gameItem.edible.waterGain > 0) {
+    if (edible.waterGain > 0) {
       edibles.add(TableRow(children: [
         headingLocaleKeyWithImage(
             context, AppImage.water(isDark), LocaleKey.thirst),
         Text(
-          gameItem.edible.waterGain.toString() + '%',
+          edible.waterGain.toString() + '%',
           textAlign: TextAlign.center,
           style: TextStyle(
               color: getTheme().getPrimaryColour(context), fontSize: 16),
@@ -143,13 +152,16 @@ ResultWithValue<Widget> getRatingTableRows(
 }
 
 Widget headingLocaleKeyWithImage(
-        BuildContext context, String imagePath, LocaleKey key,
-        {TextAlign textAlign}) =>
+  BuildContext context,
+  String imagePath,
+  LocaleKey key, {
+  TextAlign? textAlign,
+}) =>
     Row(children: [
       Padding(
         padding: const EdgeInsets.only(right: 4),
-        child: localImage(
-          imagePath,
+        child: LocalImage(
+          imagePath: imagePath,
           height: 16,
           // imageInvertColor: true, //getIsDark(context) == false,
         ),
@@ -158,11 +170,22 @@ Widget headingLocaleKeyWithImage(
           textAlign: textAlign),
     ]);
 
-Widget headingLocaleKey(BuildContext context, LocaleKey key,
-        {TextAlign textAlign}) =>
-    headingText(context, getTranslations().fromKey(key), textAlign: textAlign);
+Widget headingLocaleKey(
+  BuildContext context,
+  LocaleKey key, {
+  TextAlign? textAlign,
+}) =>
+    headingText(
+      context,
+      getTranslations().fromKey(key),
+      textAlign: textAlign,
+    );
 
-Widget headingText(BuildContext context, String text, {TextAlign textAlign}) =>
+Widget headingText(
+  BuildContext context,
+  String text, {
+  TextAlign? textAlign,
+}) =>
     Padding(
       child: Text(
         text,
@@ -181,7 +204,13 @@ Widget rowValue(BuildContext context, int value) {
       selectedColor: getTheme().getPrimaryColour(context),
       unselectedColor: Colors.black,
       customStep: (index, color, size) {
-        return ratingOval(index < value, getTheme().getPrimaryColour(context));
+        return CustomPaint(
+          size: Size.infinite,
+          painter: RatingOvalPainter(
+            index < value,
+            getTheme().getPrimaryColour(context),
+          ),
+        );
       },
     ),
   );
@@ -243,9 +272,9 @@ Widget cubeDimension(BuildContext context, Box box) {
   );
   return Stack(
     children: [
-      Padding(
-        child: localImage(AppImage.dimensionsCube),
-        padding: const EdgeInsets.all(24),
+      const Padding(
+        child: LocalImage(imagePath: AppImage.dimensionsCube),
+        padding: EdgeInsets.all(24),
       ),
       Positioned(
         child: Row(
@@ -276,9 +305,9 @@ Widget cylinderDimension(BuildContext context, Cylinder cylinder) {
   );
   return Stack(
     children: [
-      Padding(
-        child: localImage(AppImage.dimensionsCylinder),
-        padding: const EdgeInsets.all(24),
+      const Padding(
+        child: LocalImage(imagePath: AppImage.dimensionsCylinder),
+        padding: EdgeInsets.all(24),
       ),
       Positioned(
         child: Text(
@@ -300,8 +329,11 @@ Widget cylinderDimension(BuildContext context, Cylinder cylinder) {
   );
 }
 
-Widget paddedCardWithMaxSize(Widget child,
-    {double maxWidth = 450, EdgeInsetsGeometry padding}) {
+Widget paddedCardWithMaxSize(
+  Widget child, {
+  double maxWidth = 450,
+  EdgeInsetsGeometry? padding,
+}) {
   var container = Container(
     constraints: BoxConstraints(maxWidth: maxWidth),
     padding: const EdgeInsets.all(10),
@@ -318,20 +350,23 @@ Widget paddedCardWithMaxSize(Widget child,
 }
 
 Widget itemDetailUpgradeWidget(
-    Upgrade upgrade, Future Function(String) navigateToGameItem) {
+  Upgrade upgrade,
+  Future Function(String) navigateToGameItem,
+) {
   return GestureDetector(
     child: paddedCardWithMaxSize(
       Center(
         child: Padding(
           child: Stack(children: [
-            localImage(AppImage.upgradeButton, height: 100),
+            const LocalImage(imagePath: AppImage.upgradeButton, height: 100),
             Positioned.fill(
               child: Align(
                 alignment: Alignment.center,
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    localImage(AppImage.componentKit, height: 20),
+                    const LocalImage(
+                        imagePath: AppImage.componentKit, height: 20),
                     Container(width: 10),
                     Text(
                       upgrade.cost.toString(),
@@ -387,7 +422,7 @@ Widget itemDetailLootChancesWidget(List<LootChance> lootChances) {
       mainAxisAlignment: MainAxisAlignment.center,
       crossAxisAlignment: CrossAxisAlignment.center,
       children: [
-        localImage(imagePath, height: chestIconSize),
+        LocalImage(imagePath: imagePath, height: chestIconSize),
         const SizedBox(width: 10, height: chestIconSize),
         Text(
           "${lootChance.chance}% chance of dropping $quantityString",
@@ -406,8 +441,12 @@ Widget itemDetailLootChancesWidget(List<LootChance> lootChances) {
 Widget itemDetailFeaturesWidget(BuildContext context, List<Feature> features) {
   List<TableRow> rows = List.empty(growable: true);
   for (Feature feature in features) {
-    LocaleKey locale =
-        EnumToString.fromString(localesFromString, feature.localeKey);
+    LocaleKey locale = EnumToString.fromString(
+          localesFromString,
+          feature.localeKey,
+        ) ??
+        LocaleKey.unknown;
+    //
     rows.add(TableRow(children: [
       Padding(
         child: Text(getTranslations().fromKey(locale) + ": "),
@@ -430,9 +469,9 @@ List<Widget> itemCraftingRecipesWidget(
   List<Widget> widgets = List.empty(growable: true);
   for (CraftedUsing craftingRecipe in craftingRecipes) {
     var stationName = getTranslations().fromKey(craftingRecipe.name);
-    widgets.add(emptySpace1x());
+    widgets.add(const EmptySpace1x());
     widgets.add(customDivider());
-    widgets.add(emptySpace1x());
+    widgets.add(const EmptySpace1x());
     var templateLocale = (craftingRecipe.name == LocaleKey.hideout)
         ? LocaleKey.getXByTradingY
         : LocaleKey.createXUsingY;
@@ -466,9 +505,9 @@ List<Widget> itemUsedInRecipesWidget(
     Future Function(String) navigateToRecipeItem) {
   List<Widget> widgets = List.empty(growable: true);
   for (UsedInRecipe usedInRecipe in usedInRecipes) {
-    widgets.add(emptySpace1x());
+    widgets.add(const EmptySpace1x());
     widgets.add(customDivider());
-    widgets.add(emptySpace1x());
+    widgets.add(const EmptySpace1x());
     var name = getTranslations().fromKey(usedInRecipe.name);
     widgets.add(getTextSpanFromTemplateAndArray(
         context, LocaleKey.usedInXToCreate, [name]));
@@ -498,10 +537,10 @@ List<Widget> inCartWidget(
   GameItemViewModel viewModel,
 ) {
   List<Widget> widgets = List.empty(growable: true);
-  if (cartItems == null || cartItems.isEmpty) return widgets;
+  if (cartItems.isEmpty) return widgets;
 
-  widgets.add(emptySpace3x());
-  widgets.add(genericItemText(getTranslations().fromKey(LocaleKey.cart)));
+  widgets.add(const EmptySpace3x());
+  widgets.add(GenericItemText(getTranslations().fromKey(LocaleKey.cart)));
   widgets.add(Card(
     child: cartTilePresenter(
       context,
@@ -521,7 +560,7 @@ List<Widget> inCartWidget(
           context,
           controller,
           onSuccess: (BuildContext dialogCtx, String quantity) {
-            int intQuantity = int.tryParse(quantity);
+            int? intQuantity = int.tryParse(quantity);
             if (intQuantity == null) return;
             viewModel.editCartItem(gameItem.id, intQuantity);
           },
@@ -546,9 +585,9 @@ List<Widget> itemUsedInPackingRecipesWidget(
     RecipeIngredientDetails ingDetails = packingRecipe.outputDetails;
     var title = ingDetails.title;
     var stationName = getTranslations().fromKey(LocaleKey.packingStation);
-    widgets.add(emptySpace1x());
+    widgets.add(const EmptySpace1x());
     widgets.add(customDivider());
-    widgets.add(emptySpace1x());
+    widgets.add(const EmptySpace1x());
     widgets.add(getTextSpanFromTemplateAndArray(
       context,
       template,
@@ -568,7 +607,7 @@ List<Widget> itemUsedInPackingRecipesWidget(
 }
 
 Widget getModeChip(BuildContext context, String text) {
-  return Chip(
+  return getBaseWidget().appChip(
     elevation: 2,
     padding: const EdgeInsets.all(8),
     backgroundColor: getTheme().getSecondaryColour(context),

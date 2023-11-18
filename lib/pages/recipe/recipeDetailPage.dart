@@ -1,10 +1,8 @@
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
-import 'package:flutter/material.dart';
 import 'package:avatar_glow/avatar_glow.dart';
+import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
-import 'package:scrapmechanic_kurtlourens_com/contracts/recipe/recipe.dart';
 
-import '../../components/common/cachedFutureBuilder.dart';
 import '../../components/common/positioned.dart';
 import '../../components/scaffoldTemplates/genericPageScaffold.dart';
 import '../../components/tilePresenters/recipeIngredientTilePresenter.dart';
@@ -14,6 +12,7 @@ import '../../constants/AppImage.dart';
 import '../../constants/AppPadding.dart';
 import '../../constants/IdPrefix.dart';
 import '../../constants/Routes.dart';
+import '../../contracts/recipe/recipe.dart';
 import '../../contracts/recipe/recipePageItem.dart';
 import '../../contracts/recipeIngredient/recipeIngredient.dart';
 import '../../contracts/recipeIngredient/recipeIngredientDetail.dart';
@@ -27,11 +26,11 @@ import '../gameItem/gameItemDetailPage.dart';
 class RecipeDetailPage extends StatelessWidget {
   final String itemId;
   final bool isInDetailPane;
-  final void Function(Widget newDetailView) updateDetailView;
+  final void Function(Widget newDetailView)? updateDetailView;
 
   RecipeDetailPage(
     this.itemId, {
-    Key key,
+    Key? key,
     this.isInDetailPane = false,
     this.updateDetailView,
   }) : super(key: key) {
@@ -47,21 +46,20 @@ class RecipeDetailPage extends StatelessWidget {
     );
     return CachedFutureBuilder<ResultWithValue<RecipePageItem>>(
       future: recipePageItemFuture(context, itemId),
-      whileLoading: isInDetailPane
+      whileLoading: () => isInDetailPane
           ? loadingWidget
           : genericPageScaffold(context, loading, null,
               body: (_, __) => loadingWidget, showShortcutLinks: true),
-      whenDoneLoading:
-          (AsyncSnapshot<ResultWithValue<RecipePageItem>> snapshot) {
+      whenDoneLoading: (ResultWithValue<RecipePageItem> result) {
         var bodyWidget = StoreConnector<AppState, GameItemViewModel>(
           converter: (store) => GameItemViewModel.fromStore(store),
-          builder: (_, viewModel) => getBody(context, viewModel, snapshot),
+          builder: (_, viewModel) => getBody(context, viewModel, result),
         );
         if (isInDetailPane) return bodyWidget;
         return genericPageScaffold<ResultWithValue<RecipePageItem>>(
           context,
-          (snapshot?.data?.value?.recipe?.title ?? loading) + ' recipe',
-          snapshot,
+          (result.value.recipe.title) + ' recipe',
+          result,
           body: (_, __) => bodyWidget,
           showShortcutLinks: true,
         );
@@ -69,21 +67,13 @@ class RecipeDetailPage extends StatelessWidget {
     );
   }
 
-  Widget getBody(BuildContext context, GameItemViewModel viewModel,
-      AsyncSnapshot<ResultWithValue<RecipePageItem>> snapshot) {
+  Widget getBody(
+    BuildContext context,
+    GameItemViewModel viewModel,
+    ResultWithValue<RecipePageItem> result,
+  ) {
     TextEditingController controller = TextEditingController();
-    Widget errorWidget = asyncSnapshotHandler(context, snapshot,
-        isValidFunction: (ResultWithValue<RecipePageItem> itemResult) {
-      if (!itemResult.isSuccess) return false;
-      if (itemResult.value == null) return false;
-      if (itemResult.value.recipe == null) return false;
-      if (itemResult.value.recipe.icon == null) return false;
-
-      return true;
-    });
-    if (errorWidget != null) return errorWidget;
-
-    Recipe recipeItem = snapshot?.data?.value?.recipe;
+    Recipe recipeItem = result.value.recipe;
     bool isTrade = recipeItem.id.contains(IdPrefix.recipeHideOut);
 
     List<Widget> widgets = List.empty(growable: true);
@@ -98,7 +88,7 @@ class RecipeDetailPage extends StatelessWidget {
     Future Function(String id) navigateToGameItem;
     navigateToGameItem = (String id) async {
       if (isInDetailPane && updateDetailView != null) {
-        updateDetailView(GameItemDetailPage(
+        updateDetailView!(GameItemDetailPage(
           id,
           isInDetailPane: isInDetailPane,
           updateDetailView: updateDetailView,
@@ -112,28 +102,25 @@ class RecipeDetailPage extends StatelessWidget {
       }
     };
 
-    if (recipeItem?.output?.id != null) {
-      stackWidgets.add(Positioned(
-        child: AvatarGlow(
-          glowColor: getTheme().getSecondaryColour(context),
-          endRadius: 30.0,
-          child: GestureDetector(
-            child: const Icon(Icons.info, size: 40),
-            onTap: () => navigateToGameItem(recipeItem.output.id),
-          ).showPointerOnHover,
-        ),
-        top: 4,
-        right: 0,
-      ));
-    }
+    stackWidgets.add(Positioned(
+      child: AvatarGlow(
+        glowColor: getTheme().getSecondaryColour(context),
+        endRadius: 30.0,
+        child: GestureDetector(
+          child: const Icon(Icons.info, size: 40),
+          onTap: () => navigateToGameItem(recipeItem.output.id),
+        ).showPointerOnHover,
+      ),
+      top: 4,
+      right: 0,
+    ));
+
     widgets.add(Stack(children: stackWidgets));
-    widgets.add(emptySpace1x());
-    var quantitySuffix = recipeItem?.output?.quantity?.toString() != null
-        ? ' x${recipeItem.output.quantity}'
-        : '';
-    widgets.add(genericItemName(recipeItem.title + quantitySuffix));
-    if (recipeItem.description != null && recipeItem.description.isNotEmpty) {
-      widgets.add(genericItemDescription(recipeItem.description));
+    widgets.add(const EmptySpace1x());
+    var quantitySuffix = ' x${recipeItem.output.quantity}';
+    widgets.add(GenericItemName(recipeItem.title + quantitySuffix));
+    if (recipeItem.description.isNotEmpty) {
+      widgets.add(GenericItemDescription(recipeItem.description));
     }
 
     if (!isTrade) {
@@ -141,11 +128,11 @@ class RecipeDetailPage extends StatelessWidget {
           ' ' +
           recipeItem.craftingTime.toString() +
           's';
-      widgets.add(genericItemDescription(timeToCraft));
+      widgets.add(GenericItemDescription(timeToCraft));
     }
 
     widgets.add(customDivider());
-    widgets.add(emptySpace1x());
+    widgets.add(const EmptySpace1x());
 
     LocaleKey localeKey = LocaleKey.craftedUsing;
     if (isTrade) {
@@ -159,7 +146,7 @@ class RecipeDetailPage extends StatelessWidget {
         recipeIngIndex < recipeItem.inputs.length;
         recipeIngIndex++) {
       RecipeIngredientDetails recipeIng =
-          snapshot?.data?.value?.ingredientDetails[recipeIngIndex];
+          result.value.ingredientDetails[recipeIngIndex];
       widgets.add(Card(
         child: recipeIngredientDetailCustomOnTapTilePresenter(
           context,
@@ -170,16 +157,15 @@ class RecipeDetailPage extends StatelessWidget {
       ));
     }
 
-    Future<bool> Function() navigateToCart;
-    navigateToCart = () async => await getNavigation()
+    navigateToCart() async => await getNavigation()
         .navigateHomeAsync(context, navigateToNamed: Routes.cart);
 
     List<CartItemState> cartItems = viewModel.cartItems
         .where((CartItemState ci) => ci.itemId == recipeItem.output.id)
         .toList();
-    if (cartItems != null && cartItems.isNotEmpty) {
-      widgets.add(emptySpace3x());
-      widgets.add(genericItemText(getTranslations().fromKey(LocaleKey.cart)));
+    if (cartItems.isNotEmpty) {
+      widgets.add(const EmptySpace3x());
+      widgets.add(GenericItemText(getTranslations().fromKey(LocaleKey.cart)));
       widgets.add(Card(
         child: GestureDetector(
           child: recipeIngredientTilePresenter(
@@ -196,7 +182,7 @@ class RecipeDetailPage extends StatelessWidget {
       ));
     }
 
-    widgets.add(emptySpace10x());
+    widgets.add(const EmptySpace10x());
 
     Color fabColour = getTheme().getSecondaryColour(context);
     return Stack(
@@ -215,7 +201,7 @@ class RecipeDetailPage extends StatelessWidget {
               getDialog().showQuantityDialog(context, controller,
                   title: getTranslations().fromKey(LocaleKey.quantity),
                   onSuccess: (BuildContext dialogCtx, String quantityString) {
-                int quantity = int.tryParse(quantityString);
+                int? quantity = int.tryParse(quantityString);
                 if (quantity == null) return;
                 viewModel.addToCart(recipeItem.output.id, quantity);
                 // getSnackbar().showSnackbar(

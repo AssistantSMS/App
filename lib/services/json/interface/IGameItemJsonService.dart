@@ -9,7 +9,7 @@ class IGameItemJsonService {
   }
 
   Future<ResultWithValue<GameItem>> getById(context, String id) async {
-    return ResultWithValue<GameItem>(false, GameItem(), '');
+    return ResultWithValue<GameItem>(false, GameItem.initial(), '');
   }
 
   // Future<ResultWithValue<List<Recipe>>> getByInputsId(

@@ -1,16 +1,16 @@
 import '../base/persistToStorage.dart';
 
 class EditRaidAction extends PersistToStorage {
-  final int carrot;
-  final int tomato;
-  final int beetroot;
-  final int banana;
-  final int berry;
-  final int orange;
-  final int potato;
-  final int pineapple;
-  final int broccoli;
-  final int cotton;
+  final int? carrot;
+  final int? tomato;
+  final int? beetroot;
+  final int? banana;
+  final int? berry;
+  final int? orange;
+  final int? potato;
+  final int? pineapple;
+  final int? broccoli;
+  final int? cotton;
   EditRaidAction(
     this.carrot,
     this.tomato,

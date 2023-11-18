@@ -1,13 +1,6 @@
 import 'package:flutter/material.dart';
 import 'dart:ui' as ui;
 
-Widget ratingOval(bool isActive, Color endColour) {
-  return CustomPaint(
-    size: Size.infinite,
-    painter: RatingOvalPainter(isActive, endColour),
-  );
-}
-
 class RatingOvalPainter extends CustomPainter {
   RatingOvalPainter(this.isActive, this.endColour);
 

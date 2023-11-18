@@ -1,8 +1,8 @@
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
+import 'package:scrapmechanic_kurtlourens_com/contracts/gameItem/gameItem.dart';
 
-import '../../components/common/cachedFutureBuilder.dart';
 import '../../components/common/positioned.dart';
 import '../../components/scaffoldTemplates/genericPageScaffold.dart';
 import '../../constants/AnalyticsEvent.dart';
@@ -19,11 +19,11 @@ import '../../state/modules/cosmetic/cosmeticViewModel.dart';
 class DressBotDetailPage extends StatelessWidget {
   final String itemId;
   final bool isInDetailPane;
-  final void Function(Widget newDetailView) updateDetailView;
+  final void Function(Widget newDetailView)? updateDetailView;
 
   DressBotDetailPage(
     this.itemId, {
-    Key key,
+    Key? key,
     this.isInDetailPane = false,
     this.updateDetailView,
   }) : super(key: key) {
@@ -39,23 +39,35 @@ class DressBotDetailPage extends StatelessWidget {
     );
     return CachedFutureBuilder<ResultWithValue<GameItemPageItem>>(
       future: gameItemPageItemFuture(context, itemId),
-      whileLoading: isInDetailPane
+      whileLoading: () => isInDetailPane
           ? loadingWidget
-          : genericPageScaffold(context, loading, null,
-              body: (_, __) => loadingWidget, showShortcutLinks: true),
-      whenDoneLoading:
-          (AsyncSnapshot<ResultWithValue<GameItemPageItem>> snapshot) {
+          : genericPageScaffold(
+              context,
+              loading,
+              null,
+              body: (_, __) => loadingWidget,
+              showShortcutLinks: true,
+            ),
+      whenDoneLoading: (ResultWithValue<GameItemPageItem> result) {
         var bodyWidget = StoreConnector<AppState, CosmeticViewModel>(
           converter: (store) => CosmeticViewModel.fromStore(store),
-          builder: (_, viewModel) => getBody(context, viewModel, snapshot),
+          builder: (_, viewModel) => getBody(context, viewModel, result),
         );
         if (isInDetailPane) return bodyWidget;
-        return genericPageScaffold<ResultWithValue<GameItemPageItem>>(
+        return getBaseWidget().appScaffold(
           context,
-          snapshot?.data?.value?.gameItem?.title ?? loading,
-          snapshot,
-          body: (_, __) => bodyWidget,
-          showShortcutLinks: true,
+          appBar: getBaseWidget().appBarForSubPage(
+            context,
+            title: Text(result.value.gameItem.title),
+            actions: [
+              ActionItem(
+                icon: Icons.home,
+                onPressed: () async =>
+                    await getNavigation().navigateHomeAsync(context),
+              )
+            ],
+          ),
+          body: bodyWidget,
         );
       },
     );
@@ -64,18 +76,9 @@ class DressBotDetailPage extends StatelessWidget {
   Widget getBody(
     BuildContext context,
     CosmeticViewModel viewModel,
-    AsyncSnapshot<ResultWithValue<GameItemPageItem>> snapshot,
+    ResultWithValue<GameItemPageItem> result,
   ) {
-    Widget errorWidget = asyncSnapshotHandler(context, snapshot,
-        isValidFunction: (ResultWithValue<GameItemPageItem> gameItemResult) {
-      if (!gameItemResult.isSuccess) return false;
-      if (gameItemResult.value == null) return false;
-      return true;
-    });
-    if (errorWidget != null) return errorWidget;
-
-    var gameItem = snapshot?.data?.value?.gameItem;
-
+    GameItem gameItem = result.value.gameItem;
     List<Widget> widgets = List.empty(growable: true);
 
     if (gameItem.icon != null) {
@@ -85,24 +88,22 @@ class DressBotDetailPage extends StatelessWidget {
         name: gameItem.title,
       ));
     }
-    widgets.add(emptySpace1x());
-    widgets.add(genericItemName(gameItem.title));
+    widgets.add(const EmptySpace1x());
+    widgets.add(GenericItemName(gameItem.title));
 
-    var isOwned = ((viewModel?.owned ?? List.empty(growable: true))
-        .any((own) => own == gameItem.id));
-    widgets.add(emptySpace1x());
-    widgets.add(genericItemDescription(
+    var isOwned = ((viewModel.owned).any((own) => own == gameItem.id));
+    widgets.add(const EmptySpace1x());
+    widgets.add(GenericItemDescription(
       getTranslations().fromKey(isOwned ? LocaleKey.owned : LocaleKey.notOwned),
       textStyle: TextStyle(
         color: getTheme().getSecondaryColour(context),
       ),
     ));
 
-    if (gameItem.customisationSource != null &&
-        gameItem.customisationSource != CustomisationSourceType.unknown) {
-      widgets.add(emptySpace1x());
+    if (gameItem.customisationSource != CustomisationSourceType.unknown) {
+      widgets.add(const EmptySpace1x());
       widgets.add(customDivider());
-      widgets.add(genericItemDescription(
+      widgets.add(GenericItemDescription(
         getTranslations().fromKey(LocaleKey.foundIn),
       ));
 
@@ -117,7 +118,7 @@ class DressBotDetailPage extends StatelessWidget {
       }
     }
 
-    widgets.add(emptySpace10x());
+    widgets.add(const EmptySpace10x());
 
     Color fabColour = getTheme().getSecondaryColour(context);
     FloatingActionButton fabWidget = isOwned

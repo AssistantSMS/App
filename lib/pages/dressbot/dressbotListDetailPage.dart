@@ -64,7 +64,7 @@ class DressBotListDetailPage extends StatelessWidget {
     this.showShoes,
     this.showOwned,
     this.showNotOwned, {
-    Key key,
+    Key? key,
   }) : super(key: key);
 
   CheckboxOption getOption(String text) => CheckboxOption(text, value: true);
@@ -81,12 +81,12 @@ class DressBotListDetailPage extends StatelessWidget {
           ActionItem(
             icon: Icons.sort,
             onPressed: () async {
-              List<CheckboxOption> newSelection =
+              List<CheckboxOption>? newSelection =
                   await getNavigation().navigateAsync(
                 context,
                 navigateTo: (context) => CheckboxListPageDialog(
                   getTranslations().fromKey(LocaleKey.dressBot),
-                  currentSelection ?? allItemList,
+                  currentSelection,
                 ),
               );
               if (newSelection == null ||
@@ -118,12 +118,11 @@ class DressBotListDetailPage extends StatelessWidget {
           searchGameItem,
           firstListItemWidget: Column(
             children: [
-              emptySpace1x(),
-              adaptiveCheckboxGroup(
-                context,
+              const EmptySpace1x(),
+              AdaptiveCheckboxGroup(
                 allItemList: ownedOptionList,
                 //allItemList: allItemList.map((e) => e.title).toList(),
-                selectedItems: currentOwnedSelection ?? ownedOptionList,
+                selectedItems: currentOwnedSelection,
                 onChanged: (itemList) => setOwnedSelection(itemList),
                 activeColor: getTheme().getSecondaryColour(context),
               ),
@@ -156,16 +155,20 @@ class DressBotListDetailPage extends StatelessWidget {
     );
   }
 
-  Key _getKeyFromSelection(BuildContext context, List<CheckboxOption> list,
-      List<String> owned, List<String> ownedSelection) {
+  Key _getKeyFromSelection(
+    BuildContext context,
+    List<CheckboxOption> list,
+    List<String> owned,
+    List<String> ownedSelection,
+  ) {
     String temp = '';
-    for (var item in list ?? List.empty(growable: true)) {
+    for (var item in list) {
       temp += item.title + (item.value ? '1' : '0');
     }
-    for (var item in owned ?? List.empty(growable: true)) {
+    for (var item in owned) {
       temp += item;
     }
-    for (var item in ownedSelection ?? List.empty(growable: true)) {
+    for (var item in ownedSelection) {
       temp += item;
     }
     return Key("${getTranslations().currentLanguage}$temp");

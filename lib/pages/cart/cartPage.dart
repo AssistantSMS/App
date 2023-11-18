@@ -18,7 +18,7 @@ import '../gameItem/gameItemDetailPage.dart';
 import '../generic/genericPageAllRequired.dart';
 
 class CartPage extends StatelessWidget {
-  CartPage({Key key}) : super(key: key) {
+  CartPage({Key? key}) : super(key: key) {
     getAnalytics().trackEvent(AnalyticsEvent.cartPage);
   }
 
@@ -49,10 +49,10 @@ class CartPage extends StatelessWidget {
     List<RecipeIngredientDetails> reqItems = List.empty(growable: true);
     for (CartItemState cartItem in viewModel.craftingItems) {
       var genRepo = getGameItemRepoFromId(context, cartItem.itemId);
-      if (genRepo.hasFailed) continue;
+      if (genRepo.hasFailed || genRepo.value == null) continue;
 
       ResultWithValue<GameItem> itemResult =
-          await genRepo.value.getById(context, cartItem.itemId);
+          await genRepo.value!.getById(context, cartItem.itemId);
       if (itemResult.isSuccess) {
         reqItems.add(RecipeIngredientDetails(
           id: itemResult.value.id,
@@ -67,15 +67,17 @@ class CartPage extends StatelessWidget {
 
   Widget getBody(BuildContext context, CartViewModel viewModel,
       AsyncSnapshot<List<RecipeIngredientDetails>> snapshot) {
-    Widget errorWidget = asyncSnapshotHandler(context, snapshot);
+    Widget? errorWidget = asyncSnapshotHandler(context, snapshot);
     if (errorWidget != null) return errorWidget;
 
     List<Widget> widgets = List.empty(growable: true);
     List<RecipeIngredient> requiredItems = List.empty(growable: true);
-    for (var ingDetailsIndex = 0;
-        ingDetailsIndex < snapshot.data.length;
+    List<RecipeIngredientDetails> recipes = snapshot.data ?? List.empty();
+
+    for (int ingDetailsIndex = 0;
+        ingDetailsIndex < recipes.length;
         ingDetailsIndex++) {
-      RecipeIngredientDetails cartDetail = snapshot.data[ingDetailsIndex];
+      RecipeIngredientDetails cartDetail = recipes[ingDetailsIndex];
       widgets.add(cartTilePresenter(
         context,
         cartDetail,
@@ -87,7 +89,7 @@ class CartPage extends StatelessWidget {
               TextEditingController(text: cartDetail.quantity.toString());
           getDialog().showQuantityDialog(context, controller,
               onSuccess: (BuildContext dialogCtx, String quantity) {
-            int intQuantity = int.tryParse(quantity);
+            int? intQuantity = int.tryParse(quantity);
             if (intQuantity == null) return;
             viewModel.editCartItem(cartDetail.id, intQuantity);
           });
@@ -104,34 +106,30 @@ class CartPage extends StatelessWidget {
     }
 
     if (widgets.isNotEmpty) {
-      widgets.add(Container(
-        child: positiveButton(
+      widgets.add(PositiveButton(
+        title: getTranslations().fromKey(LocaleKey.viewAllRequiredItems),
+        onTap: () async => await getNavigation().navigateAsync(
           context,
-          title: getTranslations().fromKey(LocaleKey.viewAllRequiredItems),
-          onPress: () async => await getNavigation().navigateAsync(
-            context,
-            navigateTo: (context) => GenericAllRequiredPage(requiredItems),
-          ),
+          navigateTo: (context) => GenericAllRequiredPage(requiredItems),
         ),
       ));
-      widgets.add(Container(
-        child: negativeButton(
-            title: getTranslations().fromKey(LocaleKey.deleteAll),
-            onPress: () {
-              getDialog().showSimpleDialog(
-                context,
-                getTranslations().fromKey(LocaleKey.deleteAll),
-                Text(getTranslations().fromKey(LocaleKey.areYouSure)),
-                buttonBuilder: (BuildContext dialogCtx) => [
-                  getDialog().simpleDialogCloseButton(dialogCtx),
-                  getDialog().simpleDialogPositiveButton(
-                    dialogCtx,
-                    title: LocaleKey.yes,
-                    onTap: () => viewModel.removeAllFromCart(),
-                  ),
-                ],
-              );
-            }),
+      widgets.add(NegativeButton(
+        title: getTranslations().fromKey(LocaleKey.deleteAll),
+        onTap: () {
+          getDialog().showSimpleDialog(
+            context,
+            getTranslations().fromKey(LocaleKey.deleteAll),
+            Text(getTranslations().fromKey(LocaleKey.areYouSure)),
+            buttonBuilder: (BuildContext dialogCtx) => [
+              getDialog().simpleDialogCloseButton(dialogCtx),
+              getDialog().simpleDialogPositiveButton(
+                dialogCtx,
+                title: LocaleKey.yes,
+                onTap: () => viewModel.removeAllFromCart(),
+              ),
+            ],
+          );
+        },
       ));
     } else {
       widgets.add(

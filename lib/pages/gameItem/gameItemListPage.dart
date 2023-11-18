@@ -13,8 +13,12 @@ import 'gameItemDetailPage.dart';
 class GameItemListPage extends StatelessWidget {
   final LocaleKey name;
   final List<LocaleKey> gameItemLocales;
-  GameItemListPage(this.name, this.gameItemLocales, {Key key})
-      : super(key: key) {
+
+  GameItemListPage(
+    this.name,
+    this.gameItemLocales, {
+    Key? key,
+  }) : super(key: key) {
     getAnalytics().trackEvent(AnalyticsEvent.itemListPage);
   }
 

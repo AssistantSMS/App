@@ -3,13 +3,13 @@ import 'dart:convert';
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 
 class Cylinder {
-  Cylinder({
-    this.diameter,
-    this.depth,
-  });
-
   int diameter;
   int depth;
+
+  Cylinder({
+    required this.diameter,
+    required this.depth,
+  });
 
   factory Cylinder.fromRawJson(String str) =>
       Cylinder.fromJson(json.decode(str));

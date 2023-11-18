@@ -5,5 +5,5 @@ import '../../../contracts/generated/contributorViewModel.dart';
 class IContributorApiRepository {
   Future<ResultWithValue<List<ContributorViewModel>>> getContributors() async =>
       ResultWithValue<List<ContributorViewModel>>(
-          false, null, 'Not Implemented');
+          false, List.empty(), 'Not Implemented');
 }

@@ -13,10 +13,10 @@ class AppState {
   final CosmeticState cosmeticState;
 
   const AppState({
-    this.settingState,
-    this.cartState,
-    this.raidState,
-    this.cosmeticState,
+    required this.settingState,
+    required this.cartState,
+    required this.raidState,
+    required this.cosmeticState,
   });
 
   factory AppState.initial() {

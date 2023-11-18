@@ -8,12 +8,13 @@ import '../components/tilePresenters/responsiveStaggeredGridTilePresenter.dart';
 import '../constants/AnalyticsEvent.dart';
 import '../constants/AppImage.dart';
 import '../constants/Routes.dart';
+import '../../constants/StaggeredGridItemType.dart';
 import '../helpers/listPageHelper.dart';
 import 'gameItem/gameItemListPage.dart';
 import 'recipe/recipeListPage.dart';
 
 class HomePage extends StatelessWidget {
-  HomePage({Key key}) : super(key: key) {
+  HomePage({Key? key}) : super(key: key) {
     getAnalytics().trackEvent(AnalyticsEvent.homePage);
   }
 
@@ -28,121 +29,113 @@ class HomePage extends StatelessWidget {
     );
   }
 
-  Widget getBody(BuildContext context) {
-    return responsiveStaggeredGrid(
+  Widget getBody(BuildContext bodyCtx) {
+    return ResponsiveStaggeredGrid(
       items: [
-        StaggeredGridTileItem(
-          2,
-          2,
-          responsiveStaggeredGridImageTilePresenter(
-            context,
+        createStaggeredGridItem(
+          child: responsiveStaggeredGridImageTilePresenter(
+            bodyCtx,
             AppImage.craftTile,
             text: LocaleKey.craftBot,
             onTap: () async => await getNavigation().navigateAwayFromHomeAsync(
-              context,
+              bodyCtx,
               navigateTo: (context) => RecipeListPage(
                 LocaleKey.craftBot,
                 getCraftBotPageLocales(),
               ),
             ),
           ),
+          gridItemSize: StaggeredGridSize.medSquare,
         ),
-        StaggeredGridTileItem(
-          2,
-          1,
-          responsiveStaggeredGridImageTilePresenter(
-            context,
+        createStaggeredGridItem(
+          child: responsiveStaggeredGridImageTilePresenter(
+            bodyCtx,
             AppImage.traderTile,
             text: LocaleKey.hideout,
             onTap: () async => await getNavigation().navigateAwayFromHomeAsync(
-              context,
+              bodyCtx,
               navigateTo: (context) => RecipeListPage(
                 LocaleKey.hideout,
                 getHideoutPageLocales(),
               ),
             ),
           ),
+          gridItemSize: StaggeredGridSize.smallRectLandscape,
         ),
-        StaggeredGridTileItem(
-          2,
-          2,
-          responsiveStaggeredGridImageTilePresenter(
-            context,
+        createStaggeredGridItem(
+          child: responsiveStaggeredGridImageTilePresenter(
+            bodyCtx,
             AppImage.block,
             text: LocaleKey.blocksAndItems,
             onTap: () async => await getNavigation().navigateAwayFromHomeAsync(
-              context,
+              bodyCtx,
               navigateTo: (context) => GameItemListPage(
                 LocaleKey.blocksAndItems,
                 getBlocksAndItemsPageLocales(),
               ),
             ),
           ),
+          gridItemSize: StaggeredGridSize.medSquare,
         ),
-        StaggeredGridTileItem(
-          2,
-          1,
-          responsiveStaggeredGridImageTilePresenter(
-            context,
+        createStaggeredGridItem(
+          child: responsiveStaggeredGridImageTilePresenter(
+            bodyCtx,
             AppImage.workshopTile,
             text: LocaleKey.other,
             onTap: () async => await getNavigation().navigateAwayFromHomeAsync(
-              context,
+              bodyCtx,
               navigateToNamed: Routes.otherRecipes,
             ),
           ),
+          gridItemSize: StaggeredGridSize.smallRectLandscape,
         ),
-        StaggeredGridTileItem(
-          2,
-          1,
-          responsiveStaggeredGridImageTilePresenter(
-            context,
+        createStaggeredGridItem(
+          child: responsiveStaggeredGridImageTilePresenter(
+            bodyCtx,
             AppImage.dressTile,
             text: LocaleKey.dressBot,
             onTap: () async => await getNavigation().navigateAwayFromHomeAsync(
-              context,
+              bodyCtx,
               navigateToNamed: Routes.dressbot,
             ),
           ),
+          gridItemSize: StaggeredGridSize.smallRectLandscape,
         ),
-        StaggeredGridTileItem(
-          2,
-          1,
-          responsiveStaggeredGridImageTilePresenter(
-            context,
+        createStaggeredGridItem(
+          child: responsiveStaggeredGridImageTilePresenter(
+            bodyCtx,
             AppImage.raidTile,
             text: LocaleKey.raidCalculator,
             onTap: () async => await getNavigation().navigateAwayFromHomeAsync(
-              context,
+              bodyCtx,
               navigateToNamed: Routes.raidCalc,
             ),
           ),
+          gridItemSize: StaggeredGridSize.smallRectLandscape,
         ),
-        StaggeredGridTileItem(
-          2,
-          1,
-          responsiveStaggeredGridIconTilePresenter(
-            context,
+        createStaggeredGridItem(
+          child: responsiveStaggeredGridIconTilePresenter(
+            bodyCtx,
             Icons.shopping_cart,
             text: LocaleKey.cart,
             onTap: () async => await getNavigation().navigateAwayFromHomeAsync(
-              context,
+              bodyCtx,
               navigateToNamed: Routes.cart,
             ),
           ),
+          gridItemSize: StaggeredGridSize.smallRectLandscape,
         ),
-        StaggeredGridTileItem(
-          2,
-          1,
-          responsiveStaggeredGridIconTilePresenter(
-            context,
+        createStaggeredGridItem(
+          child: responsiveStaggeredGridIconTilePresenter(
+            bodyCtx,
             Icons.new_releases,
             text: LocaleKey.news,
             onTap: () async => await getNavigation().navigateAwayFromHomeAsync(
-              context,
+              bodyCtx,
               navigateToNamed: Routes.steamNews,
             ),
           ),
+          gridItemSize: StaggeredGridSize.smallRectLandscape,
         ),
       ],
     );

@@ -8,7 +8,8 @@ class PathService implements IPathService {
   String get imageAssetPathPrefix => 'assets/img';
 
   @override
-  Widget get steamNewsDefaultImage => localImage(AppImage.steamNewsDefault);
+  Widget get steamNewsDefaultImage =>
+      const LocalImage(imagePath: AppImage.steamNewsDefault);
 
   @override
   String get defaultProfilePic => throw UnimplementedError();

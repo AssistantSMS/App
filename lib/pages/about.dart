@@ -7,7 +7,7 @@ import '../constants/AppPadding.dart';
 import '../constants/Routes.dart';
 
 class AboutPage extends StatelessWidget {
-  AboutPage({Key key}) : super(key: key) {
+  AboutPage({Key? key}) : super(key: key) {
     getAnalytics().trackEvent(AnalyticsEvent.aboutPage);
   }
 
@@ -28,7 +28,7 @@ class AboutPage extends StatelessWidget {
   Widget getBody(BuildContext context) {
     List<Widget> widgets = List.empty(growable: true);
 
-    widgets.add(emptySpace2x());
+    widgets.add(const EmptySpace2x());
 
     widgets.add(Text(
       getTranslations().fromKey(LocaleKey.aboutContent),
@@ -39,25 +39,23 @@ class AboutPage extends StatelessWidget {
 
     widgets.add(customDivider());
 
-    widgets.add(genericItemDescription(
+    widgets.add(GenericItemDescription(
       getTranslations().fromKey(LocaleKey.fairUseDisclaimer),
     ));
 
-    widgets.add(emptySpace3x());
-    widgets.add(positiveButton(
-      context,
+    widgets.add(const EmptySpace3x());
+    widgets.add(PositiveButton(
       title: getTranslations().fromKey(LocaleKey.kurtsBlog),
       eventString: AnalyticsEvent.externalLinkPersonalBlog,
-      onPress: () => launchExternalURL(ExternalUrls.personalBlog),
+      onTap: () => launchExternalURL(ExternalUrls.personalBlog),
     ));
-    widgets.add(positiveButton(
-      context,
+    widgets.add(PositiveButton(
       title: "Kurt Lourens",
       eventString: AnalyticsEvent.externalLinkCVWebsite,
-      onPress: () => launchExternalURL(ExternalUrls.cvWebsite),
+      onTap: () => launchExternalURL(ExternalUrls.cvWebsite),
     ));
 
-    widgets.add(emptySpace3x());
+    widgets.add(const EmptySpace3x());
 
     return listWithScrollbar(
         padding: AppPadding.listSidePadding,

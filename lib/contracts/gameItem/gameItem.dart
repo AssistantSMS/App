@@ -13,41 +13,41 @@ import 'gameItemLang.dart';
 import 'upgrade.dart';
 
 class GameItem {
-  GameItem({
-    this.id,
-    this.title,
-    this.description,
-    this.icon,
-    this.color,
-    this.physicsMaterial,
-    this.rating,
-    this.box,
-    this.cylinder,
-    this.flammable,
-    this.isCreative,
-    this.isChallenge,
-    this.features,
-    this.upgrade,
-    this.edible,
-    this.customisationSource,
-  });
-
   String id;
   String title;
   String description;
-  String icon;
+  String? icon;
   String color;
   String physicsMaterial;
-  Rating rating;
-  Box box;
-  Cylinder cylinder;
+  Rating? rating;
+  Box? box;
+  Cylinder? cylinder;
   bool isCreative;
   bool isChallenge;
-  bool flammable;
-  Upgrade upgrade;
-  Edible edible;
+  bool? flammable;
+  Upgrade? upgrade;
+  Edible? edible;
   List<Feature> features;
   CustomisationSourceType customisationSource;
+
+  GameItem({
+    required this.id,
+    required this.title,
+    required this.description,
+    required this.icon,
+    required this.color,
+    required this.physicsMaterial,
+    this.rating,
+    this.box,
+    this.cylinder,
+    required this.isCreative,
+    required this.isChallenge,
+    this.flammable,
+    this.upgrade,
+    this.edible,
+    required this.features,
+    required this.customisationSource,
+  });
 
   factory GameItem.fromBaseAndLang(GameItemBase baseItem, GameItemLang lang) =>
       GameItem(
@@ -67,5 +67,18 @@ class GameItem {
         upgrade: baseItem.upgrade,
         edible: baseItem.edible,
         customisationSource: baseItem.customisationSource,
+      );
+
+  factory GameItem.initial() => GameItem(
+        id: '',
+        title: '',
+        description: '',
+        icon: '',
+        color: '',
+        physicsMaterial: '',
+        isCreative: false,
+        isChallenge: false,
+        features: List.empty(),
+        customisationSource: CustomisationSourceType.unknown,
       );
 }

@@ -39,16 +39,16 @@ class RaidState {
   }
 
   RaidState copyWith({
-    int carrot,
-    int tomato,
-    int beetroot,
-    int banana,
-    int berry,
-    int orange,
-    int potato,
-    int pineapple,
-    int broccoli,
-    int cotton,
+    int? carrot,
+    int? tomato,
+    int? beetroot,
+    int? banana,
+    int? berry,
+    int? orange,
+    int? potato,
+    int? pineapple,
+    int? broccoli,
+    int? cotton,
   }) {
     return RaidState(
       carrot: carrot ?? this.carrot,
@@ -64,30 +64,22 @@ class RaidState {
     );
   }
 
-  RaidState.fromJson(Map<String, dynamic> json) {
+  static RaidState fromJson(Map<String, dynamic> json) {
     try {
-      carrot = json['carrot'];
-      tomato = json['tomato'];
-      beetroot = json['beetroot'];
-      banana = json['banana'];
-      berry = json['berry'];
-      orange = json['orange'];
-      potato = json['potato'];
-      pineapple = json['pineapple'];
-      broccoli = json['broccoli'];
-      cotton = json['cotton'];
+      return RaidState(
+        carrot: json['carrot'] ?? 0,
+        tomato: json['tomato'] ?? 0,
+        beetroot: json['beetroot'] ?? 0,
+        banana: json['banana'] ?? 0,
+        berry: json['berry'] ?? 0,
+        orange: json['orange'] ?? 0,
+        potato: json['potato'] ?? 0,
+        pineapple: json['pineapple'] ?? 0,
+        broccoli: json['broccoli'] ?? 0,
+        cotton: json['cotton'] ?? 0,
+      );
     } catch (exception) {
-      var raid = RaidState.initial();
-      carrot = raid.carrot;
-      tomato = raid.tomato;
-      beetroot = raid.beetroot;
-      banana = raid.banana;
-      berry = raid.berry;
-      orange = raid.orange;
-      potato = raid.potato;
-      pineapple = raid.pineapple;
-      broccoli = raid.broccoli;
-      cotton = raid.cotton;
+      return RaidState.initial();
     }
   }
 

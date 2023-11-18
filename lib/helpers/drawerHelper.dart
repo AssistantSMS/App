@@ -8,31 +8,35 @@ import '../constants/Routes.dart';
 List<Widget> getDrawerItems(context) {
   List<Widget> widgets = List.empty(growable: true);
   Color drawerIconColour = getTheme().getDarkModeSecondaryColour();
-  widgets.add(emptySpace1x());
+  widgets.add(const EmptySpace1x());
   widgets.add(_drawerItem(
     context,
-    image: getCorrectlySizedImageFromIcon(context, Icons.campaign,
-        colour: drawerIconColour),
+    image: CorrectlySizedImageFromIcon(
+      icon: Icons.campaign,
+      colour: drawerIconColour,
+    ),
     key: LocaleKey.whatIsNew,
     navigateToNamed: Routes.whatIsNew,
   ));
   widgets.add(_drawerItem(
     context,
-    image: getCorrectlySizedImageFromIcon(context, Icons.people,
-        colour: drawerIconColour),
+    image: CorrectlySizedImageFromIcon(
+      icon: Icons.people,
+      colour: drawerIconColour,
+    ),
     key: LocaleKey.contributors,
     navigateToNamed: Routes.contributors,
   ));
   widgets.add(_drawerItem(
     context,
-    image: getListTileImage(AppImage.patreon),
+    image: const ListTileImage(partialPath: AppImage.patreon),
     key: LocaleKey.patrons,
     navigateToNamed: Routes.patronList,
   ));
   if (!isiOS) {
     widgets.add(_drawerItem(
       context,
-      image: getListTileImage(AppImage.buyMeACoffee),
+      image: const ListTileImage(partialPath: AppImage.buyMeACoffee),
       key: LocaleKey.donation,
       navigateToNamed: Routes.donation,
     ));
@@ -42,13 +46,13 @@ List<Widget> getDrawerItems(context) {
 
   widgets.add(_drawerItem(
     context,
-    image: getListTileImage(AppImage.twitter),
+    image: const ListTileImage(partialPath: AppImage.twitter),
     key: LocaleKey.twitter,
     navigateToExternal: SMSExternalUrls.twitter,
   ));
   widgets.add(_drawerItem(
     context,
-    image: getListTileImage(AppImage.github),
+    image: const ListTileImage(partialPath: AppImage.github),
     key: LocaleKey.contribute,
     navigateToExternal: SMSExternalUrls.githubOrganization,
   ));
@@ -57,15 +61,17 @@ List<Widget> getDrawerItems(context) {
 
   widgets.add(_drawerItem(
     context,
-    image: getCorrectlySizedImageFromIcon(context, Icons.help_outline,
-        colour: drawerIconColour),
+    image: CorrectlySizedImageFromIcon(
+      icon: Icons.help_outline,
+      colour: drawerIconColour,
+    ),
     key: LocaleKey.about,
     navigateToNamed: Routes.about,
   ));
 
   widgets.add(_drawerItem(
     context,
-    image: getCorrectlySizedImageFromIcon(context, Icons.email),
+    image: const CorrectlySizedImageFromIcon(icon: Icons.email),
     key: LocaleKey.feedback,
     navigateToExternal: SMSExternalUrls.kurtLourensEmail,
   ));
@@ -75,30 +81,32 @@ List<Widget> getDrawerItems(context) {
 
   widgets.add(_drawerItem(
     context,
-    image: getListTileImage(AppImage.assistantApps),
+    image: const ListTileImage(partialPath: AppImage.assistantApps),
     key: LocaleKey.assistantApps,
     onTap: () {
       adaptiveBottomModalSheet(
         context,
         hasRoundedCorners: true,
-        builder: (BuildContext innerC) => AssistantAppsModalBottomSheet(
-          appType: AssistantAppType.SMS,
+        builder: (BuildContext innerC) => const AssistantAppsModalBottomSheet(
+          appType: AssistantAppType.sms,
         ),
       );
     },
   ));
-  widgets.add(emptySpace3x());
+  widgets.add(const EmptySpace3x());
 
   return widgets;
 }
 
-Widget _drawerItem(context,
-    {@required Widget image,
-    @required LocaleKey key,
-    Function navigateTo,
-    String navigateToNamed,
-    String navigateToExternal,
-    Function onTap}) {
+Widget _drawerItem(
+  context, {
+  required Widget image,
+  required LocaleKey key,
+  Widget Function(BuildContext)? navigateTo,
+  String? navigateToNamed,
+  String? navigateToExternal,
+  void Function()? onTap,
+}) {
   return ListTile(
     key: Key('$image-${key.toString()}'),
     leading: image,

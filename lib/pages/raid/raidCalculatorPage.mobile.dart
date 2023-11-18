@@ -12,8 +12,11 @@ const greenyDevTool = 'https://scrapmechanic.greeny.dev/?ref=AssistantSMS';
 
 class RaidCalcMobileInputScreen extends StatelessWidget {
   final RaidViewModel currentDetails;
-  const RaidCalcMobileInputScreen(this.currentDetails, {Key key})
-      : super(key: key);
+
+  const RaidCalcMobileInputScreen(
+    this.currentDetails, {
+    Key? key,
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -24,10 +27,10 @@ class RaidCalcMobileInputScreen extends StatelessWidget {
     Future<void> Function() onGreenyPress;
     onGreenyPress = () => launchExternalURL(greenyDevTool);
     columnWidgets.add(ListTile(
-      leading: Padding(
-        padding: const EdgeInsets.only(right: 6),
-        child: networkImage(
-          greenyDevGithubImage,
+      leading: const Padding(
+        padding: EdgeInsets.only(right: 6),
+        child: ImageFromNetwork(
+          imageUrl: greenyDevGithubImage,
           boxfit: BoxFit.contain,
           height: 50.0,
           width: 50.0,
@@ -62,7 +65,7 @@ class RaidCalcMobileInputScreen extends StatelessWidget {
         currentDetails,
         _setFarmQuantity,
       ));
-      columnWidgets.add(emptySpace1x());
+      columnWidgets.add(const EmptySpace1x());
     }
 
     return Column(children: columnWidgets);
@@ -75,7 +78,6 @@ class RaidCalcMobileInputScreen extends StatelessWidget {
       quantity,
     );
 
-    if (temp == null) return;
     currentDetails.editRaidItem(
       carrot: temp.carrot,
       tomato: temp.tomato,

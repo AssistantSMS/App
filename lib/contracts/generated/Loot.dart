@@ -7,13 +7,13 @@ import 'dart:convert';
 import 'LootChance.dart';
 
 class Loot {
-  Loot({
-    this.appId,
-    this.chances,
-  });
-
   String appId;
   List<LootChance> chances;
+
+  Loot({
+    required this.appId,
+    required this.chances,
+  });
 
   factory Loot.fromRawJson(String str) => Loot.fromJson(json.decode(str));
   factory Loot.fromJson(Map<String, dynamic> json) => Loot(

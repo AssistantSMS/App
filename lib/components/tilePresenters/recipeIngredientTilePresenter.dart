@@ -1,4 +1,5 @@
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
+import 'package:assistantapps_flutter_common/constants/AppImage.dart';
 import 'package:flutter/material.dart';
 
 import '../../contracts/recipeIngredient/recipeIngredient.dart';
@@ -12,16 +13,22 @@ Widget recipeIngredientTilePresenter(
     future: getRecipeIngredientDetailsFuture(context, recipeIngredient),
     builder: (BuildContext context,
         AsyncSnapshot<ResultWithValue<RecipeIngredientDetails>> snapshot) {
-      Widget errorWidget = asyncSnapshotHandler(context, snapshot);
+      Widget? errorWidget = asyncSnapshotHandler(context, snapshot);
       if (errorWidget != null) return errorWidget;
       return recipeIngredientDetailTilePresenter(
-          context, snapshot.data.value, index);
+        context,
+        snapshot.data!.value,
+        index,
+      );
     },
   );
 }
 
-Widget recipeIngredientDetailTilePresenter(BuildContext context,
-        RecipeIngredientDetails recipeIngredient, int index) =>
+Widget recipeIngredientDetailTilePresenter(
+  BuildContext context,
+  RecipeIngredientDetails recipeIngredient,
+  int index,
+) =>
     recipeIngredientDetailCustomOnTapTilePresenter(
       context,
       recipeIngredient,
@@ -31,9 +38,12 @@ Widget recipeIngredientDetailTilePresenter(BuildContext context,
           navigateTo: (context) => GameItemDetailPage(recipeIngredient.id)),
     );
 
-Widget recipeIngredientDetailCustomOnTapTilePresenter(BuildContext context,
-        RecipeIngredientDetails recipeIngredient, int index,
-        {Function(String id) onTap}) =>
+Widget recipeIngredientDetailCustomOnTapTilePresenter(
+  BuildContext context,
+  RecipeIngredientDetails recipeIngredient,
+  int index, {
+  required Function(String id) onTap,
+}) =>
     genericListTile(
       context,
       leadingImage: recipeIngredient.icon,
@@ -42,9 +52,12 @@ Widget recipeIngredientDetailCustomOnTapTilePresenter(BuildContext context,
       onTap: () => onTap(recipeIngredient.id),
     );
 
-Widget packingRecipeTilePresenter(BuildContext context,
-    RecipeIngredientDetails output, List<RecipeIngredientDetails> inputs,
-    {Function() onTap}) {
+Widget packingRecipeTilePresenter(
+  BuildContext context,
+  RecipeIngredientDetails output,
+  List<RecipeIngredientDetails> inputs, {
+  void Function()? onTap,
+}) {
   int startIndex = 0;
   String listTileTitle = '';
   for (var rowIndex = 0; rowIndex < inputs.length; rowIndex++) {
@@ -60,7 +73,7 @@ Widget packingRecipeTilePresenter(BuildContext context,
   return genericListTileWithSubtitleAndImageCount(
     context,
     title: output.title,
-    leadingImage: localImage(output.icon),
+    leadingImage: LocalImage(imagePath: output.icon ?? AppImage.unknown),
     leadingImageCount: (output.quantity > 1) ? output.quantity : 0,
     subtitle: subtitle,
     onTap: onTap,

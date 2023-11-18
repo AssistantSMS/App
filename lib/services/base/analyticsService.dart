@@ -4,7 +4,9 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/foundation.dart';
 
 class AnalyticsService implements IAnalyticsService {
-  FirebaseAnalytics analytics;
+  final analyticsKey = '[Analytics]:';
+  FirebaseAnalytics? analytics;
+
   AnalyticsService() {
     if (isWindows) return;
 
@@ -17,7 +19,7 @@ class AnalyticsService implements IAnalyticsService {
   void trackEvent(String key, {dynamic data}) {
     if (kReleaseMode) {
       try {
-        analytics.logEvent(name: key);
+        analytics?.logEvent(name: key);
       } catch (ex) {
         getLog().e("[Analytics]: $key----");
       }

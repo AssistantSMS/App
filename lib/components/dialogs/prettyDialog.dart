@@ -2,27 +2,53 @@ import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 
 void prettyDialog(
-  BuildContext context,
+  BuildContext dialogCtx,
   String appImage,
   String title,
   String description, {
   bool onlyCancelButton = false,
-  Function() onCancel,
-  Function() onSuccess,
+  String? okButtonText,
+  Color? buttonOkColor,
+  String? cancelButtonText,
+  void Function(BuildContext)? onCancel,
+  void Function(BuildContext)? onSuccess,
 }) {
+  String? localCancelButtonText = cancelButtonText;
+  localCancelButtonText ??= onlyCancelButton
+      ? getTranslations().fromKey(LocaleKey.noticeAccept)
+      : getTranslations().fromKey(LocaleKey.close);
+
+  List<Widget> buttons = List.empty(growable: true);
+  if (onlyCancelButton == false) {
+    buttons.add(
+      PositiveButton(
+        title: getTranslations().fromKey(LocaleKey.noticeAccept),
+        onTap: () {
+          if (onSuccess != null) onSuccess(dialogCtx);
+          getNavigation().pop(dialogCtx);
+        },
+      ),
+    );
+  }
+
+  buttons.add(
+    PositiveButton(
+      title: localCancelButtonText,
+      onTap: onCancel == null ? null : () => onCancel(dialogCtx),
+    ),
+  );
+
   getDialog().showSimpleDialog(
-    context,
+    dialogCtx,
     '',
     Column(
       mainAxisSize: MainAxisSize.min,
       children: [
-        localImage(appImage),
-        if (title != null) ...[
-          emptySpace1x(),
-          genericItemText(title),
-          emptySpace1x(),
-        ],
-        genericItemDescription(description),
+        LocalImage(imagePath: appImage),
+        const EmptySpace1x(),
+        GenericItemText(title),
+        const EmptySpace1x(),
+        GenericItemDescription(description),
       ],
     ),
     buttonBuilder: (BuildContext localCtx) => [
@@ -30,12 +56,14 @@ void prettyDialog(
         localCtx,
         title: LocaleKey.ok,
         onTap: () {
-          if (onSuccess != null) onSuccess();
+          if (onSuccess != null) onSuccess(dialogCtx);
         },
       ),
       getDialog().simpleDialogCloseButton(
         localCtx,
-        onTap: onCancel,
+        onTap: () {
+          if (onCancel != null) onCancel(dialogCtx);
+        },
       ),
     ],
   );

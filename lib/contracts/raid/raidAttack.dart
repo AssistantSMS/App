@@ -6,8 +6,8 @@ class RaidAttack {
   List<RaidSpawn> spawns;
 
   RaidAttack({
-    this.minValue,
-    this.minHighCount,
-    this.spawns,
+    required this.minValue,
+    required this.minHighCount,
+    required this.spawns,
   });
 }

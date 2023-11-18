@@ -7,7 +7,7 @@ class CartState {
   final List<CartItemState> items;
 
   const CartState({
-    this.items,
+    required this.items,
   });
 
   factory CartState.initial() {
@@ -17,7 +17,7 @@ class CartState {
   }
 
   CartState copyWith({
-    List<CartItemState> items,
+    List<CartItemState>? items,
   }) {
     return CartState(
       items: items ?? this.items,
@@ -26,7 +26,8 @@ class CartState {
 
   CartState.fromJson(Map<String, dynamic> json)
       : items = List<CartItemState>.from(
-            json["items"].map((x) => CartItemState.fromJson(x)));
+          json["items"].map((x) => CartItemState.fromJson(x)),
+        );
 
   Map<String, dynamic> toJson() => {
         'items': items,

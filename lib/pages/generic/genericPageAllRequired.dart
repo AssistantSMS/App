@@ -16,7 +16,10 @@ import 'genericPageAllRequiredTreeComponents.dart';
 
 class GenericAllRequiredPage extends StatefulWidget {
   final List<RecipeIngredient> requiredItems;
-  const GenericAllRequiredPage(this.requiredItems, {Key key}) : super(key: key);
+  const GenericAllRequiredPage(
+    this.requiredItems, {
+    Key? key,
+  }) : super(key: key);
 
   @override
   _GenericAllRequiredWidget createState() =>
@@ -34,23 +37,25 @@ class _GenericAllRequiredWidget extends State<GenericAllRequiredPage> {
   @override
   Widget build(BuildContext context) {
     List<Widget> options = [
-      getSegmentedControlWithIconOption(
-        Icons.list,
-        getTranslations().fromKey(LocaleKey.flatList),
+      SegmentedControlWithIconOption(
+        icon: Icons.list,
+        text: getTranslations().fromKey(LocaleKey.flatList),
       ),
-      getSegmentedControlWithIconOption(
-        Icons.call_split,
-        getTranslations().fromKey(LocaleKey.tree),
+      SegmentedControlWithIconOption(
+        icon: Icons.call_split,
+        text: getTranslations().fromKey(LocaleKey.tree),
       )
     ];
     Widget segmentedWidget = Container(
-      child: adaptiveSegmentedControl(context,
-          controlItems: options,
-          currentSelection: currentSelection, onSegmentChosen: (index) {
-        setState(() {
-          currentSelection = index;
-        });
-      }),
+      child: AdaptiveSegmentedControl(
+        controlItems: options,
+        currentSelection: currentSelection,
+        onSegmentChosen: (index) {
+          setState(() {
+            currentSelection = index;
+          });
+        },
+      ),
       margin: const EdgeInsets.all(8),
     );
 
@@ -89,19 +94,22 @@ class _GenericAllRequiredWidget extends State<GenericAllRequiredPage> {
   }
 
   Widget getFlatListBody(
-      BuildContext context,
-      AsyncSnapshot<List<RecipeIngredientDetails>> snapshot,
-      Widget segmentedWidget) {
-    Widget errorWidget = asyncSnapshotHandler(context, snapshot);
+    BuildContext context,
+    AsyncSnapshot<List<RecipeIngredientDetails>> snapshot,
+    Widget segmentedWidget,
+  ) {
+    Widget? errorWidget = asyncSnapshotHandler(context, snapshot);
     if (errorWidget != null) return errorWidget;
 
     List<Widget> widgets = List.empty(growable: true);
     widgets.add(segmentedWidget);
-    if (snapshot.data.isNotEmpty) {
+    List<RecipeIngredientDetails> recipes = snapshot.data!;
+
+    if (recipes.isNotEmpty) {
       for (int ingDetailIndex = 0;
-          ingDetailIndex < snapshot.data.length;
+          ingDetailIndex < recipes.length;
           ingDetailIndex++) {
-        RecipeIngredientDetails indDetails = snapshot.data[ingDetailIndex];
+        RecipeIngredientDetails indDetails = recipes[ingDetailIndex];
         widgets.add(recipeIngredientDetailTilePresenter(
             context, indDetails, ingDetailIndex));
       }
@@ -119,7 +127,7 @@ class _GenericAllRequiredWidget extends State<GenericAllRequiredPage> {
       );
     }
 
-    widgets.add(emptySpace8x());
+    widgets.add(const EmptySpace8x());
 
     return listWithScrollbar(
       padding: AppPadding.listSidePadding,
@@ -133,18 +141,19 @@ Widget getTreeBody(
     BuildContext context,
     AsyncSnapshot<List<RecipeIngredientTreeDetails>> snapshot,
     Widget segmentedWidget) {
-  Widget errorWidget = asyncSnapshotHandler(context, snapshot);
+  Widget? errorWidget = asyncSnapshotHandler(context, snapshot);
   if (errorWidget != null) return errorWidget;
 
   List<Widget> widgets = List.empty(growable: true);
   widgets.add(segmentedWidget);
+  List<RecipeIngredientTreeDetails> recipes = snapshot.data!;
 
-  if (snapshot.data.isNotEmpty) {
+  if (recipes.isNotEmpty) {
     widgets.add(Expanded(
       child: ListView(
         shrinkWrap: true,
         children: [
-          getTree(context, snapshot.data),
+          getTree(context, recipes),
         ],
       ),
     ));

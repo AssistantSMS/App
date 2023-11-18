@@ -24,7 +24,11 @@ class DevDetailJsonService extends BaseJsonService {
   Future<ResultWithValue<DevDetailFile>> getById(context, String appId) async {
     ResultWithValue<List<DevDetailFile>> allItems = await getAll(context);
     if (allItems.hasFailed) {
-      return ResultWithValue(false, DevDetailFile(), allItems.errorMessage);
+      return ResultWithValue(
+        false,
+        DevDetailFile.fromRawJson('{}'),
+        allItems.errorMessage,
+      );
     }
     try {
       DevDetailFile selectedItem =
@@ -34,7 +38,10 @@ class DevDetailJsonService extends BaseJsonService {
       getLog().e(
           "DevDetailJsonService() getById Exception: ${exception.toString()}");
       return ResultWithValue<DevDetailFile>(
-          false, DevDetailFile(), exception.toString());
+        false,
+        DevDetailFile.fromRawJson('{}'),
+        exception.toString(),
+      );
     }
   }
 }

@@ -116,16 +116,16 @@ class RaidHelper {
   }
 
   static int getPlantQuantity(RaidViewModel details, String itemId) {
-    if (itemId == RaidHelper.carrotId) return details.carrot ?? 0;
-    if (itemId == RaidHelper.tomatoId) return details.tomato ?? 0;
-    if (itemId == RaidHelper.beetrootId) return details.beetroot ?? 0;
-    if (itemId == RaidHelper.bananaId) return details.banana ?? 0;
-    if (itemId == RaidHelper.berryId) return details.berry ?? 0;
-    if (itemId == RaidHelper.orangeId) return details.orange ?? 0;
-    if (itemId == RaidHelper.potatoId) return details.potato ?? 0;
-    if (itemId == RaidHelper.pineappleId) return details.pineapple ?? 0;
-    if (itemId == RaidHelper.broccoliId) return details.broccoli ?? 0;
-    if (itemId == RaidHelper.cottonId) return details.cotton ?? 0;
+    if (itemId == RaidHelper.carrotId) return details.carrot;
+    if (itemId == RaidHelper.tomatoId) return details.tomato;
+    if (itemId == RaidHelper.beetrootId) return details.beetroot;
+    if (itemId == RaidHelper.bananaId) return details.banana;
+    if (itemId == RaidHelper.berryId) return details.berry;
+    if (itemId == RaidHelper.orangeId) return details.orange;
+    if (itemId == RaidHelper.potatoId) return details.potato;
+    if (itemId == RaidHelper.pineappleId) return details.pineapple;
+    if (itemId == RaidHelper.broccoliId) return details.broccoli;
+    if (itemId == RaidHelper.cottonId) return details.cotton;
 
     return 0;
   }
@@ -133,11 +133,11 @@ class RaidHelper {
   static double getCropValue(RaidViewModel details) {
     double cropValue = 0;
     for (var plantId in plants) {
-      double plantWeight = plantsWeights[plantId];
+      double? plantWeight = plantsWeights[plantId];
       if (plantWeight == null) continue;
 
       int plantQuantity = getPlantQuantity(details, plantId);
-      if (plantQuantity == null || plantQuantity == 0) continue;
+      if (plantQuantity == 0) continue;
 
       cropValue += plantWeight * plantQuantity;
     }
@@ -147,12 +147,12 @@ class RaidHelper {
 
   static int getHighCount(RaidViewModel details) {
     int highCount = 0;
-    for (var plantId in plants) {
-      double plantWeight = plantsWeights[plantId];
+    for (String plantId in plants) {
+      double? plantWeight = plantsWeights[plantId];
       if (plantWeight == null) continue;
 
       int plantQuantity = getPlantQuantity(details, plantId);
-      if (plantQuantity == null || plantQuantity == 0) continue;
+      if (plantQuantity == 0) continue;
 
       if (plantWeight >= highValue) {
         highCount += plantQuantity;

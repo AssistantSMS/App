@@ -10,7 +10,7 @@ import '../../integration/dependencyInjection.dart';
 import '../../services/json/backupJsonService.dart';
 
 class ContributorListPage extends StatefulWidget {
-  const ContributorListPage({Key key}) : super(key: key);
+  const ContributorListPage({Key? key}) : super(key: key);
 
   @override
   _ContributorsWidget createState() => _ContributorsWidget();
@@ -26,10 +26,10 @@ class _ContributorsWidget extends State<ContributorListPage> {
   @override
   Widget build(BuildContext context) {
     List<Widget> options = [
-      getSegmentedControlOption(
+      SegmentedControlOption(
         getTranslations().fromKey(LocaleKey.contributors),
       ),
-      getSegmentedControlOption(
+      SegmentedControlOption(
         getTranslations().fromKey(LocaleKey.donation),
       )
     ];
@@ -42,15 +42,15 @@ class _ContributorsWidget extends State<ContributorListPage> {
         title: Text(getTranslations().fromKey(LocaleKey.contributors)),
       ),
       body: Column(
-        children: <Widget>[
-          Container(
-            child: adaptiveSegmentedControl(context,
-                controlItems: options,
-                currentSelection: currentSelection, onSegmentChosen: (index) {
+        children: [
+          AdaptiveSegmentedControl(
+            controlItems: options,
+            currentSelection: currentSelection,
+            onSegmentChosen: (index) {
               setState(() {
                 currentSelection = index;
               });
-            }),
+            },
           ),
           customDivider(),
           Expanded(
@@ -64,7 +64,9 @@ class _ContributorsWidget extends State<ContributorListPage> {
                     minListForSearch: 20000,
                     gridViewColumnCalculator: contributorsCustomColumnCount,
                   )
-                : DonatorsPageComponent(smallLoadMorePageButton(context)),
+                : const DonatorsPageComponent(
+                    SmallLoadMorePageButton(),
+                  ),
           ),
         ],
       ),

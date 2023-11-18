@@ -22,14 +22,22 @@ class LootItemJsonService extends BaseJsonService {
   Future<ResultWithValue<Loot>> getById(context, String appId) async {
     ResultWithValue<List<Loot>> allGenericItemsResult = await getAll(context);
     if (allGenericItemsResult.hasFailed) {
-      return ResultWithValue(false, Loot(), allGenericItemsResult.errorMessage);
+      return ResultWithValue(
+        false,
+        Loot.fromRawJson('{}'),
+        allGenericItemsResult.errorMessage,
+      );
     }
     try {
       Loot selectedGeneric =
           allGenericItemsResult.value.firstWhere((r) => r.appId == appId);
       return ResultWithValue<Loot>(true, selectedGeneric, '');
     } catch (exception) {
-      return ResultWithValue<Loot>(false, Loot(), exception.toString());
+      return ResultWithValue<Loot>(
+        false,
+        Loot.fromRawJson('{}'),
+        exception.toString(),
+      );
     }
   }
 }

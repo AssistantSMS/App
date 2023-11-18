@@ -7,7 +7,7 @@ class AppViewModel {
   final String selectedLanguage;
 
   AppViewModel({
-    this.selectedLanguage,
+    required this.selectedLanguage,
   });
 
   static AppViewModel fromStore(Store<AppState> store) {

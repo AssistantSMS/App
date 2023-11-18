@@ -8,19 +8,19 @@ class CustomSpinner extends StatefulWidget {
   final double width;
   final Duration spinDuration;
   const CustomSpinner({
-    Key key,
+    Key? key,
     this.height = 50.0,
     this.width = 50.0,
     this.spinDuration = const Duration(seconds: 2),
   }) : super(key: key);
 
   @override
-  _CustomSpinnerWidget createState() => _CustomSpinnerWidget();
+  createState() => _CustomSpinnerWidget();
 }
 
 class _CustomSpinnerWidget extends State<CustomSpinner>
     with TickerProviderStateMixin {
-  AnimationController _controller;
+  late AnimationController _controller;
 
   @override
   void initState() {

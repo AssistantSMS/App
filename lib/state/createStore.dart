@@ -15,7 +15,7 @@ Future<Store<AppState>> createStore() async {
       stateObj = AppState.fromJson(tempResult.value);
     }
   } catch (exception) {
-    getLog().e(exception);
+    getLog().e(exception.toString());
   }
 
   return Store(

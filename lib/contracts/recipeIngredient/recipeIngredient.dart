@@ -14,13 +14,13 @@ String recipeIngredientToJson(List<RecipeIngredient> data) =>
     json.encode(List<dynamic>.from(data.map((x) => x.toJson())));
 
 class RecipeIngredient {
-  RecipeIngredient({
-    this.id,
-    this.quantity,
-  });
-
   String id;
   int quantity;
+
+  RecipeIngredient({
+    required this.id,
+    this.quantity = 0,
+  });
 
   factory RecipeIngredient.fromJson(Map<String, dynamic> json) {
     try {
@@ -35,6 +35,11 @@ class RecipeIngredient {
       );
     }
   }
+
+  factory RecipeIngredient.initial() => RecipeIngredient(
+        id: '',
+        quantity: 0,
+      );
 
   Map<String, dynamic> toJson() => {
         "Id": id,

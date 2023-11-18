@@ -1,14 +1,12 @@
+import 'package:adaptive_theme/adaptive_theme.dart';
 import 'package:after_layout/after_layout.dart';
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:adaptive_theme/adaptive_theme.dart';
-import 'package:scrapmechanic_kurtlourens_com/constants/Routes.dart';
 import 'package:universal_html/html.dart' as html;
 
 import '../../constants/AppImage.dart';
-import '../../env/appVersionNum.dart';
 import '../../integration/router.dart';
 import '../../theme/themes.dart';
 

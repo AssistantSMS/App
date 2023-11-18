@@ -7,7 +7,10 @@ import '../../contracts/recipe/recipeBase.dart';
 class PackingJsonService extends BaseJsonService {
   Future<ResultWithValue<List<RecipeBase>>> getAll(context) async {
     try {
-      dynamic jsonString = await getJsonFromAssets(context, 'data/packing');
+      dynamic jsonString = await getJsonFromAssets(
+        context,
+        'data/packing.json',
+      );
       List responseJson = json.decode(jsonString);
       List<RecipeBase> packingItems =
           responseJson.map((m) => RecipeBase.fromJson(m)).toList();

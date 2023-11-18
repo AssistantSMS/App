@@ -1,5 +1,7 @@
 import 'dart:convert';
 
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
+
 class LootChance {
   int min;
   int max;
@@ -16,9 +18,9 @@ class LootChance {
   factory LootChance.fromRawJson(String str) =>
       LootChance.fromJson(json.decode(str));
   factory LootChance.fromJson(Map<String, dynamic> json) => LootChance(
-        min: json["min"],
-        max: json["max"],
-        chance: json["chance"],
-        type: json["type"],
+        min: readIntSafe(json, 'min'),
+        max: readIntSafe(json, 'max'),
+        chance: readIntSafe(json, 'chance'),
+        type: readIntSafe(json, 'type'),
       );
 }

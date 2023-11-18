@@ -101,4 +101,29 @@ class BaseWidgetService implements IBaseWidgetService {
         onChanged: onChanged,
         activeColor: activeColor,
       );
+
+  @override
+  Widget basicBadge({
+    Key? key,
+    required String text,
+    required Widget? child,
+    Color? textColour,
+  }) =>
+      BasicBadge(
+        key: key,
+        text: text,
+        textColour: textColour ?? Colors.black,
+        child: child,
+      );
+
+  @override
+  int tabletBreakpoint() => 800;
+
+  @override
+  int desktopBreakpoint() => 1440;
+
+  @override
+  Widget customDivider() => isWeb
+      ? Divider(thickness: .5, color: Colors.grey[800])
+      : Divider(color: Colors.grey[800]);
 }

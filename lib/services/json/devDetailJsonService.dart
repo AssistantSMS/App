@@ -7,7 +7,10 @@ import '../../contracts/devDetail.dart';
 class DevDetailJsonService extends BaseJsonService {
   Future<ResultWithValue<List<DevDetailFile>>> getAll(context) async {
     try {
-      dynamic jsonString = await getJsonFromAssets(context, 'data/devDetail');
+      dynamic jsonString = await getJsonFromAssets(
+        context,
+        'data/devDetail.json',
+      );
       List responseJson = json.decode(jsonString);
       List<DevDetailFile> packingItems =
           responseJson.map((m) => DevDetailFile.fromJson(m)).toList();

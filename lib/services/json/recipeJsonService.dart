@@ -15,8 +15,14 @@ class RecipeJsonService extends BaseJsonService implements IRecipeJsonService {
   Future<ResultWithValue<List<Recipe>>> getAll(context) async {
     String detailJson = getTranslations().fromKey(detailsJsonLocale);
     try {
-      List responseJson = await getListfromJson(context, baseJson);
-      List responseDetailsJson = await getListfromJson(context, detailJson);
+      List responseJson = await getListfromJson(
+        context,
+        '$baseJson.json',
+      );
+      List responseDetailsJson = await getListfromJson(
+        context,
+        '$detailJson.json',
+      );
       List<RecipeBase> baseItems =
           responseJson.map((m) => RecipeBase.fromJson(m)).toList();
       List<RecipeLang> detailedItems =

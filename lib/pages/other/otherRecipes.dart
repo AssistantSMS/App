@@ -5,6 +5,7 @@ import '../../components/bottomNavbar.dart';
 import '../../components/tilePresenters/responsiveStaggeredGridTilePresenter.dart';
 import '../../constants/AnalyticsEvent.dart';
 import '../../constants/AppImage.dart';
+import '../../constants/StaggeredGridItemType.dart';
 import '../../helpers/listPageHelper.dart';
 import '../recipe/recipeListPage.dart';
 

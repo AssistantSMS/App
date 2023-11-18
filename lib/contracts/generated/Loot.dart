@@ -4,6 +4,8 @@
 
 import 'dart:convert';
 
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
+
 import 'LootChance.dart';
 
 class Loot {
@@ -17,8 +19,11 @@ class Loot {
 
   factory Loot.fromRawJson(String str) => Loot.fromJson(json.decode(str));
   factory Loot.fromJson(Map<String, dynamic> json) => Loot(
-        appId: json["appId"],
-        chances: List<LootChance>.from(
-            json["chances"].map((x) => LootChance.fromJson(x))),
+        appId: readStringSafe(json, 'appId'),
+        chances: readListSafe(
+          json,
+          'chances',
+          (x) => LootChance.fromJson(x),
+        ),
       );
 }

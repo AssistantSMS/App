@@ -16,8 +16,11 @@ class GameItemJsonService extends BaseJsonService
   Future<ResultWithValue<List<GameItem>>> getAll(context) async {
     String detailJson = getTranslations().fromKey(detailsJsonLocale);
     try {
-      List responseJson = await getListfromJson(context, baseJson);
-      List responseDetailsJson = await getListfromJson(context, detailJson);
+      List responseJson = await getListfromJson(context, '$baseJson.json');
+      List responseDetailsJson = await getListfromJson(
+        context,
+        '$detailJson.json',
+      );
       List<GameItemBase> baseItems =
           responseJson.map((m) => GameItemBase.fromJson(m)).toList();
       List<GameItemLang> detailedItems =

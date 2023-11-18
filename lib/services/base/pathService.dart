@@ -4,8 +4,14 @@ import 'package:flutter/material.dart';
 import '../../constants/AppImage.dart';
 
 class PathService implements IPathService {
+  final String imageAssetPath;
+
+  PathService({
+    this.imageAssetPath = 'assets/img',
+  });
+
   @override
-  String get imageAssetPathPrefix => 'assets/img';
+  String get imageAssetPathPrefix => imageAssetPath;
 
   @override
   Widget get steamNewsDefaultImage =>
@@ -19,4 +25,13 @@ class PathService implements IPathService {
 
   @override
   String get defaultGuideImage => AppImage.unknown;
+
+  @override
+  String ofImage(String imagePartialPath) {
+    if (imagePartialPath.contains(imageAssetPath)) {
+      return imagePartialPath;
+    }
+
+    return '$imageAssetPath/$imagePartialPath';
+  }
 }

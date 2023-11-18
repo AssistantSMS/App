@@ -1,4 +1,4 @@
-import 'package:assistantapps_flutter_common/contracts/results/resultWithValue.dart';
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 
 import '../../../contracts/gameItem/gameItem.dart';
 

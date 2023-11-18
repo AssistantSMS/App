@@ -51,7 +51,7 @@ class BackupJsonService extends BaseJsonService {
   }) async {
     try {
       dynamic jsonString = await getJsonFromAssets(
-          context, '${JsonFile.whatIsNewBackup}$langCode');
+          context, '${JsonFile.whatIsNewBackup}$langCode.json');
       List responseJson = json.decode(jsonString);
       List<VersionViewModel> backupItems =
           responseJson.map((m) => VersionViewModel.fromJson(m)).toList();

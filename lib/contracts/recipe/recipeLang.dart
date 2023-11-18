@@ -4,6 +4,8 @@
 
 import 'dart:convert';
 
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
+
 List<RecipeLang> recipeLangFromJson(String str) =>
     List<RecipeLang>.from(json.decode(str).map((x) => RecipeLang.fromJson(x)));
 
@@ -22,9 +24,9 @@ class RecipeLang {
   });
 
   factory RecipeLang.fromJson(Map<String, dynamic> json) => RecipeLang(
-        id: json["Id"],
-        title: json["Title"],
-        description: json["Description"],
+        id: readStringSafe(json, 'Id'),
+        title: readStringSafe(json, 'Title'),
+        description: readStringSafe(json, 'Description'),
       );
 
   Map<String, dynamic> toJson() => {

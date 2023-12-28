@@ -1,10 +1,10 @@
 name: scrapmechanic_kurtlourens_com
 description: A companion app for Scrap Mechanic.
 publish_to: 'none'
-version: 1.10.0+54
+version: 1.10.0+54 # dart scripts\version_num_script.dart
 
 environment:
-  sdk: '>=2.15.1 <3.0.0'
+  sdk: '>=3.2.0 <4.0.0'
   flutter: '>=1.17.0'
 
 dependencies:
@@ -19,43 +19,37 @@ dependencies:
     git: https://github.com/AssistantApps/Flutter.Common.git
     # path: 'C:\Development\Projects\AssistantApps\assistantapps_flutter_common'
 
-  # Firebase
+  # Trouble makers
   firebase_core: 2.4.1
   firebase_analytics: 10.1.0
   firebase_analytics_web: 0.5.1+8
 
-  # Redux
-  flutter_redux: 0.10.0
-  redux: 5.0.0
-
   # UI
-  adaptive_theme: 3.1.1
-  avatar_glow: 2.0.2
+  adaptive_theme: 3.4.1
+  avatar_glow: 3.0.1
   bitsdojo_window: 0.1.5
-  country_icons: 2.0.2
-  floating_bottom_navigation_bar: 1.5.2
-  dotted_border: 2.0.0+3
-  flutter_simple_treeview: 3.0.2
-  rflutter_alert: 2.0.4
-  step_progress_indicator: 1.0.2
-
-  # Base
-  get_it: 7.6.0
-  fluro: 2.0.4
-  dartx: 1.1.0
-
-  # Misc
   breakpoint: 1.2.0
-  universal_html: 2.0.8
+  country_icons: 2.0.2
+  dartx: 1.1.0
+  dotted_border: 2.1.0
+  floating_bottom_navigation_bar: 1.5.2
+  fluro: 2.0.5
+  flutter_redux: 0.10.0
+  flutter_simple_treeview: 3.0.2
+  get_it: 7.6.4
+  redux: 5.0.0
+  rflutter_alert: 2.0.7
+  step_progress_indicator: 1.0.2
+  universal_html: 2.2.4
 
 dev_dependencies:
   flutter_launcher_icons: 0.11.0
-  # flutter_test:
-  #   sdk: flutter
+  pubspec_parse: 1.2.3
+  git: 2.2.1
 
 dependency_overrides:
+  http: 1.1.2
   intl: 0.18.0
-
 
 flutter_icons: ## flutter pub run flutter_launcher_icons:main
   ios: true
@@ -68,9 +62,9 @@ flutter_icons: ## flutter pub run flutter_launcher_icons:main
 msix_config: # https://pub.dev/documentation/msix/latest/
   display_name: Assistant for Scrap Mechanic
   publisher_display_name: AssistantApps
-  msix_version: 1.111.2.0
+  msix_version: 1.10.0.0
   identity_name:
-  publisher: C
+  publisher: 
   logo_path: './assets/images/fullSizeIcon.png'
   languages: en
   capabilities: internetClient

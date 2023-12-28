@@ -105,7 +105,7 @@ class RecipeDetailPage extends StatelessWidget {
     stackWidgets.add(Positioned(
       child: AvatarGlow(
         glowColor: getTheme().getSecondaryColour(context),
-        endRadius: 30.0,
+        glowRadiusFactor: 0.2,
         child: GestureDetector(
           child: const Icon(Icons.info, size: 40),
           onTap: () => navigateToGameItem(recipeItem.output.id),

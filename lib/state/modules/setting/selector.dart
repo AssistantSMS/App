@@ -5,3 +5,5 @@ String getSelectedLanguage(AppState state) {
   if (langCode.isNotEmpty) return langCode;
   return 'en';
 }
+
+bool getIsPatron(AppState state) => state.settingState.isPatron;

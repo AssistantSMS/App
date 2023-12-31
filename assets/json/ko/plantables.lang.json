@@ -41,34 +41,42 @@
   },
   {
     "Id": "plant11",
-    "Title": "바나나"
+    "Title": "바나나",
+    "Description": "신선한 바나나입니다."
   },
   {
     "Id": "plant12",
-    "Title": "블루베리"
+    "Title": "블루베리",
+    "Description": "달콤한 블루베리입니다."
   },
   {
     "Id": "plant13",
-    "Title": "오렌지"
+    "Title": "오렌지",
+    "Description": "과즙 가득한 오렌지입니다."
   },
   {
     "Id": "plant14",
-    "Title": "파인애플"
+    "Title": "파인애플",
+    "Description": "과즙 가득한 파인애플입니다."
   },
   {
     "Id": "plant15",
-    "Title": "당근"
+    "Title": "당근",
+    "Description": "영양 만점 당근입니다."
   },
   {
     "Id": "plant16",
-    "Title": "비트"
+    "Title": "비트",
+    "Description": "영양 만점 비트입니다."
   },
   {
     "Id": "plant17",
-    "Title": "토마토"
+    "Title": "토마토",
+    "Description": "과즙 가득한 토마토입니다."
   },
   {
     "Id": "plant18",
-    "Title": "브로콜리"
+    "Title": "브로콜리",
+    "Description": "영양 만점 브로콜리입니다."
   }
 ]

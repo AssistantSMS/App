@@ -1,14 +1,17 @@
 [
   {
     "Id": "out1",
-    "Title": "Caja de prendas (común)"
+    "Title": "Caja de prendas (común)",
+    "Description": "Úsala con un sastrebot para hacer ropa nueva."
   },
   {
     "Id": "out2",
-    "Title": "Caja de prendas (rara)"
+    "Title": "Caja de prendas (rara)",
+    "Description": "Úsala con un sastrebot para hacer ropa nueva."
   },
   {
     "Id": "out3",
-    "Title": "Caja de prendas (épica)"
+    "Title": "Caja de prendas (épica)",
+    "Description": "Úsala con un sastrebot para hacer ropa nueva."
   }
 ]

@@ -41,34 +41,42 @@
   },
   {
     "Id": "plant11",
-    "Title": "Banana"
+    "Title": "Banana",
+    "Description": "Uma banana novinha."
   },
   {
     "Id": "plant12",
-    "Title": "Mirtilo"
+    "Title": "Mirtilo",
+    "Description": "Um mirtilo docinho."
   },
   {
     "Id": "plant13",
-    "Title": "Laranja"
+    "Title": "Laranja",
+    "Description": "Uma laranja suculenta."
   },
   {
     "Id": "plant14",
-    "Title": "Abacaxi"
+    "Title": "Abacaxi",
+    "Description": "Um abacaxi suculento."
   },
   {
     "Id": "plant15",
-    "Title": "Cenoura"
+    "Title": "Cenoura",
+    "Description": "Uma cenoura nutritiva."
   },
   {
     "Id": "plant16",
-    "Title": "Beterraba"
+    "Title": "Beterraba",
+    "Description": "Uma beterraba nutritiva."
   },
   {
     "Id": "plant17",
-    "Title": "Tomate"
+    "Title": "Tomate",
+    "Description": "Um tomate suculento."
   },
   {
     "Id": "plant18",
-    "Title": "Brócolis"
+    "Title": "Brócolis",
+    "Description": "Um brócolis nutritivo."
   }
 ]

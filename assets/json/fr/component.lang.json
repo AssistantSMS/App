@@ -1,6 +1,7 @@
 [
   {
     "Id": "comp1",
-    "Title": "Kit de composants"
+    "Title": "Kit de composants",
+    "Description": "Permet d'améliorer les pièces interactives et de débloquer des robots à la station de mécanique."
   }
 ]

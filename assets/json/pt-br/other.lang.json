@@ -1,47 +1,58 @@
 [
   {
     "Id": "other1",
-    "Title": "Ferramenta de Conexão"
+    "Title": "Ferramenta de Conexão",
+    "Description": "A favorita de todos os mecânicos. Conecta partes interativas, como por exemplo: um motor a combustão a rolamentos ou um propulsor a um assento de operador."
   },
   {
     "Id": "other2",
-    "Title": "Ferramenta de Pintura"
+    "Title": "Ferramenta de Pintura",
+    "Description": "Pinte qualquer peça ou bloco para personalizar suas criações ou até criar lindas obras de arte! Pinte com o botão esquerdo do mouse e apague com o direito. Pressione ‘Q’ para abrir o seletor de cores. Se quiser pintar superfícies maiores, é só segurar o botão esquerdo e arrastar o mouse."
   },
   {
     "Id": "other3",
-    "Title": "Ferramenta de Solda"
+    "Title": "Ferramenta de Solda",
+    "Description": "Funda suas criações!\nSelecione a Ferramenta de Solda e clique com o botão esquerdo em uma criação solta e depois na superfície de outra criação para soldá-las juntas. Você também pode soldar peças na plataforma que estejam se tocando. Segure o botão esquerdo na primeira peça e arraste-a até a outra que você quer soldar."
   },
   {
     "Id": "other4",
-    "Title": "Beacon"
+    "Title": "Beacon",
+    "Description": "Emits a tracking signal that can be toggled in the Logbook."
   },
   {
     "Id": "other5",
-    "Title": "Bomba de Vácuo"
+    "Title": "Bomba de Vácuo",
+    "Description": "A bomba de vácuo tem várias utilidades ao ser conectada a um acionador. Suga água para um reservatório de água. Coloca plantas em um baú. Ela pode até mesmo disparar e posicionar itens a partir de um baú."
   },
   {
     "Id": "other6",
-    "Title": "Cano de Vácuo"
+    "Title": "Cano de Vácuo",
+    "Description": "Use com a bomba de vácuo para transportar itens por meio dos canos."
   },
   {
     "Id": "other7",
-    "Title": "Cano de Vácuo Convergente"
+    "Title": "Cano de Vácuo Convergente",
+    "Description": "Use com a bomba de vácuo para transportar itens por meio dos canos."
   },
   {
     "Id": "other8",
-    "Title": "Contêiner de Gasolina"
+    "Title": "Contêiner de Gasolina",
+    "Description": "Pode armazenar mais gasolina, além de alimentar motores de combustão e outras peças interativas que precisam de gasolina quando estão conectados."
   },
   {
     "Id": "other9",
-    "Title": "Caixa de Bateria"
+    "Title": "Caixa de Bateria",
+    "Description": "Pode armazenar mais baterias, além de carregar motores elétricos e outras peças interativas que precisam de bateria quando estão conectados."
   },
   {
     "Id": "other10",
-    "Title": "Reservatório de Água"
+    "Title": "Reservatório de Água",
+    "Description": "Conecte-o a uma Bomba de Vácuo sob a água para encher o reservatório com água."
   },
   {
     "Id": "other11",
-    "Title": "Canhão de Água"
+    "Title": "Canhão de Água",
+    "Description": "Conecte a um reservatório de água com um acionador para regar as plantas com mais eficiência."
   },
   {
     "Id": "other12",
@@ -77,34 +88,42 @@
   },
   {
     "Id": "other20",
-    "Title": "Robô Cozinheiro"
+    "Title": "Robô Cozinheiro",
+    "Description": "Cozinha alimentos deliciosos que enchem sua barra de vida ou revivem amigos abatidos."
   },
   {
     "Id": "other21",
-    "Title": "Caixa de Munição de Batatas"
+    "Title": "Caixa de Munição de Batatas",
+    "Description": "Conecte-a a uma Batatarma Portátil com um acionador para disparar projéteis de batata."
   },
   {
     "Id": "other22",
-    "Title": "Batatarma"
+    "Title": "Batatarma",
+    "Description": "Batatarma com um único projétil de batata."
   },
   {
     "Id": "other23",
-    "Title": "Batatarma de Cano Duplo"
+    "Title": "Batatarma de Cano Duplo",
+    "Description": "Dispara batatas fritas escaldantes que se espalham."
   },
   {
     "Id": "other24",
-    "Title": "Batatalhadora"
+    "Title": "Batatalhadora",
+    "Description": "Dispara batatas em rápida sucessão. Usa muita munição de batata."
   },
   {
     "Id": "other25",
-    "Title": "Marreta"
+    "Title": "Marreta",
+    "Description": "Esta poderosa marreta permite que você bata em itens soltos para empurrá-los."
   },
   {
     "Id": "other26",
-    "Title": "Ascensor"
+    "Title": "Ascensor",
+    "Description": "Construa no ascensor para fazer construções que podem ser movidas livremente e que não serão fixas ao solo. Pode subir ou descer, além de levantar criações que capotaram."
   },
   {
     "Id": "other27",
-    "Title": "Manual"
+    "Title": "Manual",
+    "Description": "Contém todas as informações que você precisa saber para construir máquinas incríveis e se tornar um verdadeiro Scrap Mechanic."
   }
 ]

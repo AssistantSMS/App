@@ -1,18 +1,22 @@
 [
   {
     "Id": "scrap1",
-    "Title": "Siège conducteur abîmé"
+    "Title": "Siège conducteur abîmé",
+    "Description": "Fait tourner les paliers à gauche et à droite. Peut être connecté à un moteur pour contrôler la direction. Il peut également être connecté à des déclencheurs activables à partir du siège. Ce siège conducteur n'est pas améliorable."
   },
   {
     "Id": "scrap2",
-    "Title": "Siège abîmé"
+    "Title": "Siège abîmé",
+    "Description": "À utiliser pour ne pas rester debout. Asseyez-vous et détendez-vous, ou ajoutez-les à votre véhicule pour que vos amis vous accompagnent. Ce siège n'est pas améliorable."
   },
   {
     "Id": "scrap3",
-    "Title": "Roue abîmé"
+    "Title": "Roue abîmé",
+    "Description": "Il n'est pas totalement rond."
   },
   {
     "Id": "scrap4",
-    "Title": "Moteur à essence abîmé"
+    "Title": "Moteur à essence abîmé",
+    "Description": "Un moteur avec une vitesse inégale et une puissance ajustable, idéal pour faire avancer les véhicules. Vous pouvez le connecter à un siège conducteur ou un déclencheur. Ce moteur n'est pas améliorable."
   }
 ]

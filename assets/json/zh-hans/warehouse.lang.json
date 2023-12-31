@@ -177,6 +177,7 @@
   },
   {
     "Id": "ware45",
-    "Title": "Master Switch"
+    "Title": "Master Switch",
+    "Description": "Unlimited toggling on demand. The Switch activates whatever it's connected to, making it indispensible when you want to turn things on and off with a single push. It can activate an engine, a thruster, the controller and more."
   }
 ]

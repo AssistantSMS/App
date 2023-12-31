@@ -166,5 +166,17 @@
   {
     "Id": "blk42",
     "Title": "Blocco di cartone"
+  },
+  {
+    "Id": "blk43",
+    "Title": "Blocco di sfida uno"
+  },
+  {
+    "Id": "blk44",
+    "Title": "Blocco di sfida due"
+  },
+  {
+    "Id": "blk45",
+    "Title": "Vetro della sfida"
   }
 ]

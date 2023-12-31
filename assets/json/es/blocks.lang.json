@@ -166,5 +166,17 @@
   {
     "Id": "blk42",
     "Title": "Bloque de cartón"
+  },
+  {
+    "Id": "blk43",
+    "Title": "Desafío de bloques 1"
+  },
+  {
+    "Id": "blk44",
+    "Title": "Desafío de bloques 2"
+  },
+  {
+    "Id": "blk45",
+    "Title": "Cristal de desafío"
   }
 ]

@@ -1,11 +1,13 @@
 [
   {
     "Id": "interc1",
-    "Title": "Conteneur à engrais"
+    "Title": "Conteneur à engrais",
+    "Description": "Placez l'engrais et connectez-le à une pompe aspirante avec un déclencheur pour tirer de l'engrais sur les plantes."
   },
   {
     "Id": "interc2",
-    "Title": "Conteneur à graines"
+    "Title": "Conteneur à graines",
+    "Description": "Placez les graines et connectez-le à une pompe aspirante avec un déclencheur pour tirer des graines dans la terre."
   },
   {
     "Id": "interc3",

@@ -1,10 +1,12 @@
 [
   {
     "Id": "powertool1",
-    "Title": "Piła"
+    "Title": "Piła",
+    "Description": "Piła pozwoli ci szybciej ścinać drzewa. Umieść na łożysku połączonym z silnikiem i wyrusz w kierunku drzewa."
   },
   {
     "Id": "powertool2",
-    "Title": "Wiertło"
+    "Title": "Wiertło",
+    "Description": "Użyj wiertła, aby wydobywać kwadratowe skały, które dostarczą ci kamienia i metalu. Umieść na łożysku połączonym z silnikiem i wyrusz w kierunku kwadratowej skały."
   }
 ]

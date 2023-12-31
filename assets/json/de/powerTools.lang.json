@@ -1,10 +1,12 @@
 [
   {
     "Id": "powertool1",
-    "Title": "Sägeblatt"
+    "Title": "Sägeblatt",
+    "Description": "Fälle Bäume schneller mit dem Sägeblatt. Platziere es auf einem Lager, das mit einem Motor verbunden ist, und treibe es in einen Baumstamm."
   },
   {
     "Id": "powertool2",
-    "Title": "Bohrer"
+    "Title": "Bohrer",
+    "Description": "Mit dem Bohrer baust du quadratische Felsen für Steine und Metall ab. Platziere ihn auf einem Lager, das mit einem Motor verbunden ist, und treibe ihn in einen quadratischen Fels."
   }
 ]

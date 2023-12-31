@@ -1,6 +1,7 @@
 [
   {
     "Id": "comp1",
-    "Title": "Kit di componenti"
+    "Title": "Kit di componenti",
+    "Description": "Utilizzalo per migliorare le parti interattive e sbloccare i robot nella Stazione meccanica."
   }
 ]

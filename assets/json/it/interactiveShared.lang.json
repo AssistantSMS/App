@@ -1,14 +1,17 @@
 [
   {
     "Id": "inters1",
-    "Title": "Grossa cassa"
+    "Title": "Grossa cassa",
+    "Description": "Ideale per conservare un sacco di cose. Può essere usata anche con una pompa a vuoto."
   },
   {
     "Id": "inters2",
-    "Title": "Roboraffinatore"
+    "Title": "Roboraffinatore",
+    "Description": "Lascia che il Roboraffinatore ti aiuti a raffinare tutti i tronchi raccolti. Inseriscili tu oppure posiziona vicino al robot un Raccoglitore di risorse che contiene tronchi."
   },
   {
     "Id": "inters3",
-    "Title": "Raccoglitore di risorse"
+    "Title": "Raccoglitore di risorse",
+    "Description": "Perfetto per raccogliere e accatastare tronchi. Quando è pieno, posizionalo vicino a un Roboraffinatore per trasformare i tronchi in blocchi."
   }
 ]

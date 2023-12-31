@@ -1,11 +1,13 @@
 [
   {
     "Id": "interc1",
-    "Title": "Contenitore di fertilizzante"
+    "Title": "Contenitore di fertilizzante",
+    "Description": "Prepara il fertilizzante e collegalo a una pompa a vuoto con un attivatore per spruzzare il fertilizzante sulle piante."
   },
   {
     "Id": "interc2",
-    "Title": "Contenitore di semi"
+    "Title": "Contenitore di semi",
+    "Description": "Aggiungi dei semi e collegalo a una pompa a vuoto con un attivatore per spargere i semi nel terreno."
   },
   {
     "Id": "interc3",

@@ -1,11 +1,13 @@
 [
   {
     "Id": "interc1",
-    "Title": "Zbiornik z nawozem"
+    "Title": "Zbiornik z nawozem",
+    "Description": "Ustaw zbiornik i połącz go z pompą próżniową za pomocą włącznika, aby rozprowadzać nawóz na rośliny."
   },
   {
     "Id": "interc2",
-    "Title": "Pojemnik na nasiona"
+    "Title": "Pojemnik na nasiona",
+    "Description": "Ustaw pojemnik i połącz go z pompą próżniową za pomocą włącznika, aby strzelać nasionami w ziemię."
   },
   {
     "Id": "interc3",

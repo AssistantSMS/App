@@ -166,5 +166,17 @@
   {
     "Id": "blk42",
     "Title": "Pappkartonblock"
+  },
+  {
+    "Id": "blk43",
+    "Title": "Herausforderungsblock Eins"
+  },
+  {
+    "Id": "blk44",
+    "Title": "Herausforderungsblock Zwei"
+  },
+  {
+    "Id": "blk45",
+    "Title": "Herausforderungsglas"
   }
 ]

@@ -1,19 +1,23 @@
 [
   {
     "Id": "consshare1",
-    "Title": "Essence"
+    "Title": "Essence",
+    "Description": "Alimente les moteurs à essence et les propulseurs."
   },
   {
     "Id": "consshare2",
-    "Title": "Batterie"
+    "Title": "Batterie",
+    "Description": "Alimente les pièces électriques."
   },
   {
     "Id": "consshare3",
-    "Title": "Eau"
+    "Title": "Eau",
+    "Description": "Permet d'arroser les plantes, mais n'est malheureusement pas potable."
   },
   {
     "Id": "consshare4",
-    "Title": "Patate"
+    "Title": "Patate",
+    "Description": "Une patate riche en amidon. Vous pouvez aussi l'utiliser en tant que munition pour les lance-patates et les lance-patates montables."
   },
   {
     "Id": "consshare5",
@@ -21,10 +25,12 @@
   },
   {
     "Id": "consshare6",
-    "Title": "Munition de peinture"
+    "Title": "Munition de peinture",
+    "Description": "Chargez votre outil de peinture et colorez vos créations."
   },
   {
     "Id": "consshare7",
-    "Title": "Bâton lumineux"
+    "Title": "Bâton lumineux",
+    "Description": "Jetez-les la nuit ou dans d'autres endroits obscurs pour mieux voir."
   }
 ]

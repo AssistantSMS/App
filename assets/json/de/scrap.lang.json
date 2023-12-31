@@ -1,18 +1,22 @@
 [
   {
     "Id": "scrap1",
-    "Title": "Schrott-Fahrersitz"
+    "Title": "Schrott-Fahrersitz",
+    "Description": "Sorgt dafür, dass sich Lager nach links und rechts drehen. Kann mit einem Motor verbunden werden, damit du die Fahrtrichtung kontrollieren kannst. Kann an Auslöser angeschlossen werden, die auch vom Sitz aus aktiviert werden können. Dieser Fahrersitz kann nicht hochgerüstet werden."
   },
   {
     "Id": "scrap2",
-    "Title": "Schrott-Sitz"
+    "Title": "Schrott-Sitz",
+    "Description": "Damit du nicht stehen musst. Setz dich und entspann dich. Oder bau ihn in dein Fahrzeug ein, damit deine Freunde mitkommen können. Dieser Sitz kann nicht hochgerüstet werden."
   },
   {
     "Id": "scrap3",
-    "Title": "Schrott-Reifen"
+    "Title": "Schrott-Reifen",
+    "Description": "Nicht ganz rund."
   },
   {
     "Id": "scrap4",
-    "Title": "Schrott-Benzinmotor"
+    "Title": "Schrott-Benzinmotor",
+    "Description": "Ein Motor mit ungleichmäßiger Drehzahl und einstellbarer Leistung, ideal für das Antreiben von Fahrzeugen geeignet. Kann mit einem Fahrersitz oder Auslöser verbunden werden. Dieser Motor kann nicht hochgerüstet werden."
   }
 ]

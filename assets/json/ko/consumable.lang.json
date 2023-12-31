@@ -1,23 +1,28 @@
 [
   {
     "Id": "consu1",
-    "Title": "비료"
+    "Title": "비료",
+    "Description": "식물이 더 빠르게 자라도록 해줍니다."
   },
   {
     "Id": "consu2",
-    "Title": "선셰이크"
+    "Title": "선셰이크",
+    "Description": "정비공은 목이 마를 때 차가운 선셰이크 마시기를 좋아합니다."
   },
   {
     "Id": "consu3",
-    "Title": "피자 버거"
+    "Title": "피자 버거",
+    "Description": "정비공은 먹길 좋아하죠. 모든 수치를 최대치로 채워줍니다."
   },
   {
     "Id": "consu4",
-    "Title": "야채 버거"
+    "Title": "야채 버거",
+    "Description": "채식주의자를 위한 대체 식품. 모든 수치를 최대치로 채워줍니다."
   },
   {
     "Id": "consu5",
-    "Title": "부활 바게트"
+    "Title": "부활 바게트",
+    "Description": "쓰러진 친구에게 먹이면 친구가 다시 부활합니다."
   },
   {
     "Id": "consu6",
@@ -25,6 +30,7 @@
   },
   {
     "Id": "consu7",
-    "Title": "흙 봉지"
+    "Title": "흙 봉지",
+    "Description": "땅에서 사용하면 씨를 심을 수 있습니다."
   }
 ]

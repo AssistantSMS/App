@@ -25,10 +25,12 @@
   },
   {
     "Id": "light7",
-    "Title": "Faro"
+    "Title": "Faro",
+    "Description": "¡Hágase la visibilidad! Conéctalo a un disparador para encenderlo y apagarlo. Rango de foco ajustable."
   },
   {
     "Id": "light8",
-    "Title": "Foco de almacén"
+    "Title": "Foco de almacén",
+    "Description": "¡Hágase la visibilidad! Conéctalo a un disparador para encenderlo y apagarlo. Rango de foco ajustable."
   }
 ]

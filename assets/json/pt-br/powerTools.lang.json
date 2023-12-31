@@ -1,10 +1,12 @@
 [
   {
     "Id": "powertool1",
-    "Title": "Serra"
+    "Title": "Serra",
+    "Description": "Corte árvores mais rápido com a serra. Coloque em um rolamento conectado a um motor e dirija na direção de uma árvore."
   },
   {
     "Id": "powertool2",
-    "Title": "Broca"
+    "Title": "Broca",
+    "Description": "Use a broca para minerar rochas em busca de pedra e metal. Coloque em um rolamento conectado a um motor e dirija na direção de uma rocha quadrada."
   }
 ]

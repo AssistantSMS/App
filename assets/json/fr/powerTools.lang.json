@@ -1,10 +1,12 @@
 [
   {
     "Id": "powertool1",
-    "Title": "Lame de scie"
+    "Title": "Lame de scie",
+    "Description": "Coupez plus rapidement des arbres avec la lame de scie. Placez-la sur un palier connecté à un moteur puis utilisez-là sur un arbre."
   },
   {
     "Id": "powertool2",
-    "Title": "Perceuse"
+    "Title": "Perceuse",
+    "Description": "Utilisez la perceuse sur les rochers carrés pour extraire de la pierre et du métal. Placez-la sur un palier connecté à un moteur puis utilisez-la sur un rocher carré."
   }
 ]

@@ -1,47 +1,58 @@
 [
   {
     "Id": "other1",
-    "Title": "Connettore"
+    "Title": "Connettore",
+    "Description": "Il migliore amico di ogni meccanico! Usalo per agganciare parti interattive, per esempio: un motore a gas ai cuscinetti o un propulsore a un sedile di guida."
   },
   {
     "Id": "other2",
-    "Title": "Pennello"
+    "Title": "Pennello",
+    "Description": "Dipingi parti o blocchi per personalizzare le tue creazioni! Dipingi con il pulsante sinistro del mouse e cancella con quello destro. Premi Q per scegliere il colore. Devi solo tenere premuto il pulsante sinistro del mouse e trascinare per dipingere superfici più grandi."
   },
   {
     "Id": "other3",
-    "Title": "Saldatore"
+    "Title": "Saldatore",
+    "Description": "Unisci le tue creazioni!\nSeleziona il Saldatore e clicca col pulsante sinistro del mouse su una creazione libera, poi clicca con il tasto sinistro del mouse sulla superficie di un'altra creazione per unirle. Puoi anche unire parti che si toccano sulla piattaforma. Tieni premuto il pulsante sinistro del mouse sulla prima parte e trascinala verso quella a cui vuoi unirla."
   },
   {
     "Id": "other4",
-    "Title": "Beacon"
+    "Title": "Beacon",
+    "Description": "Emits a tracking signal that can be toggled in the Logbook."
   },
   {
     "Id": "other5",
-    "Title": "Pompa a vuoto"
+    "Title": "Pompa a vuoto",
+    "Description": "La pompa a vuoto ha numerose applicazioni quando è collegata a un attivatore: risucchia l’acqua e la versa in un serbatoio, raccoglie le piante e le colloca in una cassa e può anche spargere e posizionare gli oggetti presenti in una cassa."
   },
   {
     "Id": "other6",
-    "Title": "Tubo sottovuoto"
+    "Title": "Tubo sottovuoto",
+    "Description": "Usalo con la pompa a vuoto per far viaggiare gli oggetti attraverso i tubi."
   },
   {
     "Id": "other7",
-    "Title": "Tubo sottovuoto angolato"
+    "Title": "Tubo sottovuoto angolato",
+    "Description": "Usalo con la pompa a vuoto per far viaggiare gli oggetti attraverso i tubi."
   },
   {
     "Id": "other8",
-    "Title": "Serbatoio di benzina"
+    "Title": "Serbatoio di benzina",
+    "Description": "Può contenere e caricare più gas nei motori a benzina e altre parti interattive che una volta collegate richiedono un’alimentazione a carburante."
   },
   {
     "Id": "other9",
-    "Title": "Alloggiamento per batterie"
+    "Title": "Alloggiamento per batterie",
+    "Description": "Può ospitare e caricare più batterie contemporaneamente all’interno di motori elettrici e altri parti interattive che una volta collegate richiedono di essere alimentate elettricamente."
   },
   {
     "Id": "other10",
-    "Title": "Serbatoio d’acqua"
+    "Title": "Serbatoio d’acqua",
+    "Description": "Collegalo a una pompa a vuoto sott’acqua per riempire d’acqua il serbatoio."
   },
   {
     "Id": "other11",
-    "Title": "Irrigatore a cannone"
+    "Title": "Irrigatore a cannone",
+    "Description": "Collegalo a un serbatoio d’acqua con un attivatore per innaffiare le coltivazioni con maggior efficienza."
   },
   {
     "Id": "other12",
@@ -77,34 +88,42 @@
   },
   {
     "Id": "other20",
-    "Title": "Robochef"
+    "Title": "Robochef",
+    "Description": "Cucina del cibo delizioso con cui riempire la tua barra della salute o rianimare gli amici a terra."
   },
   {
     "Id": "other21",
-    "Title": "Contenitore di munizioni tuberose"
+    "Title": "Contenitore di munizioni tuberose",
+    "Description": "Collegalo a una sparapatate montabile con un attivatore per sparare colpi di patata."
   },
   {
     "Id": "other22",
-    "Title": "Sparapatate"
+    "Title": "Sparapatate",
+    "Description": "Sparapatate a patata singola."
   },
   {
     "Id": "other23",
-    "Title": "Fucile sparapatate"
+    "Title": "Fucile sparapatate",
+    "Description": "Spara un ventaglio di sfrigolanti patatine fritte."
   },
   {
     "Id": "other24",
-    "Title": "Mitragliatrice sparapatate"
+    "Title": "Mitragliatrice sparapatate",
+    "Description": "Spara patate in rapida sequenza. Usa un sacco di munizioni tuberose."
   },
   {
     "Id": "other25",
-    "Title": "Martello"
+    "Title": "Martello",
+    "Description": "Con questo potente martello puoi muovere oggetti liberi colpendoli."
   },
   {
     "Id": "other26",
-    "Title": "Piattaforma"
+    "Title": "Piattaforma",
+    "Description": "Costruisci sulla piattaforma per creare costruzioni in grado di muoversi liberamente che non verranno ancorate al terreno. Può essere alzata, abbassata e utilizzata per sollevare le creazioni che si sono ribaltate."
   },
   {
     "Id": "other27",
-    "Title": "Manuale"
+    "Title": "Manuale",
+    "Description": "Contiene tutte le informazioni di cui hai bisogno per imparare a costruire fantastiche macchine e diventare un vero Scrap Mechanic."
   }
 ]

@@ -166,5 +166,17 @@
   {
     "Id": "blk42",
     "Title": "Bloc de carton"
+  },
+  {
+    "Id": "blk43",
+    "Title": "Bloc défi 1"
+  },
+  {
+    "Id": "blk44",
+    "Title": "Bloc défi 2"
+  },
+  {
+    "Id": "blk45",
+    "Title": "Bloc de verre défi"
   }
 ]

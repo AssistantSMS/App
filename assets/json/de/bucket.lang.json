@@ -1,14 +1,17 @@
 [
   {
     "Id": "bckt1",
-    "Title": "Wassereimer"
+    "Title": "Wassereimer",
+    "Description": "Füll ihn mit Wasser und gieß deine Pflanzen."
   },
   {
     "Id": "bckt2",
-    "Title": "Wassereimer"
+    "Title": "Wassereimer",
+    "Description": "Eimer mit Wasser."
   },
   {
     "Id": "bckt3",
-    "Title": "Chemikalieneimer"
+    "Title": "Chemikalieneimer",
+    "Description": "Eimer mit chemischem Abfall."
   }
 ]

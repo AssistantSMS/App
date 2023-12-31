@@ -1,14 +1,17 @@
 [
   {
     "Id": "out1",
-    "Title": "Boîte à vêtements (ordinaire)"
+    "Title": "Boîte à vêtements (ordinaire)",
+    "Description": "Utilisez-la dans le Tenuebot pour créer de nouveaux habits."
   },
   {
     "Id": "out2",
-    "Title": "Boîte à vêtements (rare)"
+    "Title": "Boîte à vêtements (rare)",
+    "Description": "Utilisez-la dans le Tenuebot pour créer de nouveaux habits."
   },
   {
     "Id": "out3",
-    "Title": "Boîte à vêtements (épique)"
+    "Title": "Boîte à vêtements (épique)",
+    "Description": "Utilisez-la dans le Tenuebot pour créer de nouveaux habits."
   }
 ]

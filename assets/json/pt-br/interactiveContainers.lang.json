@@ -1,11 +1,13 @@
 [
   {
     "Id": "interc1",
-    "Title": "Caixa de Fertilizante"
+    "Title": "Caixa de Fertilizante",
+    "Description": "Coloque fertilizante e conecte a uma Bomba de Vácuo com um acionador para lançar fertilizante nas plantas."
   },
   {
     "Id": "interc2",
-    "Title": "Caixa de Sementes"
+    "Title": "Caixa de Sementes",
+    "Description": "Coloque sementes e conecte a uma Bomba de Vácuo com um acionador para lançar sementes no solo."
   },
   {
     "Id": "interc3",

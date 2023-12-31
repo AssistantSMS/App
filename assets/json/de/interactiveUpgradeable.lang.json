@@ -1,242 +1,302 @@
 [
   {
     "Id": "interu1",
-    "Title": "Sportfahrwerk 1"
+    "Title": "Sportfahrwerk 1",
+    "Description": "Für Stoßdämpfung und bessere Stabilität. Eignet sich hervorragend für Fahrzeuge, die sich leicht überschlagen. Dieses Fahrwerk ist klein, hat aber eine härtere Federung."
   },
   {
     "Id": "interu2",
-    "Title": "Sportfahrwerk 2"
+    "Title": "Sportfahrwerk 2",
+    "Description": "Für Stoßdämpfung und bessere Stabilität. Eignet sich hervorragend für Fahrzeuge, die sich leicht überschlagen. Dieses Fahrwerk ist klein, hat aber eine härtere Federung."
   },
   {
     "Id": "interu3",
-    "Title": "Sportfahrwerk 3"
+    "Title": "Sportfahrwerk 3",
+    "Description": "Für Stoßdämpfung und bessere Stabilität. Eignet sich hervorragend für Fahrzeuge, die sich leicht überschlagen. Dieses Fahrwerk ist klein, hat aber eine härtere Federung."
   },
   {
     "Id": "interu4",
-    "Title": "Sportfahrwerk 4"
+    "Title": "Sportfahrwerk 4",
+    "Description": "Für Stoßdämpfung und bessere Stabilität. Eignet sich hervorragend für Fahrzeuge, die sich leicht überschlagen. Dieses Fahrwerk ist klein, hat aber eine härtere Federung."
   },
   {
     "Id": "interu5",
-    "Title": "Sportfahrwerk 5"
+    "Title": "Sportfahrwerk 5",
+    "Description": "Für Stoßdämpfung und bessere Stabilität. Eignet sich hervorragend für Fahrzeuge, die sich leicht überschlagen. Dieses Fahrwerk ist klein, hat aber eine härtere Federung."
   },
   {
     "Id": "interu6",
-    "Title": "Offroad-Fahrwerk 1"
+    "Title": "Offroad-Fahrwerk 1",
+    "Description": "Für Stoßdämpfung und bessere Stabilität. Eignet sich hervorragend für Fahrzeuge, die sich leicht überschlagen. Dieses Fahrwerk hat eine gute Federung, wodurch es sich ideal für Geländefahrzeuge eignet."
   },
   {
     "Id": "interu7",
-    "Title": "Offroad-Fahrwerk 2"
+    "Title": "Offroad-Fahrwerk 2",
+    "Description": "Für Stoßdämpfung und bessere Stabilität. Eignet sich hervorragend für Fahrzeuge, die sich leicht überschlagen. Dieses Fahrwerk hat eine gute Federung, wodurch es sich ideal für Geländefahrzeuge eignet."
   },
   {
     "Id": "interu8",
-    "Title": "Offroad-Fahrwerk 3"
+    "Title": "Offroad-Fahrwerk 3",
+    "Description": "Für Stoßdämpfung und bessere Stabilität. Eignet sich hervorragend für Fahrzeuge, die sich leicht überschlagen. Dieses Fahrwerk hat eine gute Federung, wodurch es sich ideal für Geländefahrzeuge eignet."
   },
   {
     "Id": "interu9",
-    "Title": "Offroad-Fahrwerk 4"
+    "Title": "Offroad-Fahrwerk 4",
+    "Description": "Für Stoßdämpfung und bessere Stabilität. Eignet sich hervorragend für Fahrzeuge, die sich leicht überschlagen. Dieses Fahrwerk hat eine gute Federung, wodurch es sich ideal für Geländefahrzeuge eignet."
   },
   {
     "Id": "interu10",
-    "Title": "Offroad-Fahrwerk 5"
+    "Title": "Offroad-Fahrwerk 5",
+    "Description": "Für Stoßdämpfung und bessere Stabilität. Eignet sich hervorragend für Fahrzeuge, die sich leicht überschlagen. Dieses Fahrwerk hat eine gute Federung, wodurch es sich ideal für Geländefahrzeuge eignet."
   },
   {
     "Id": "interu11",
-    "Title": "Fahrersitz 1"
+    "Title": "Fahrersitz 1",
+    "Description": "Sorgt dafür, dass sich Lager nach links und rechts drehen. Kann mit einem Motor verbunden werden, damit du die Fahrtrichtung kontrollieren kannst. Kann an Auslöser angeschlossen werden, die auch vom Sitz aus aktiviert werden können. Auf Stufe 5 werden Einstellungen für die Steuerung freigeschaltet. Drücke dazu mit dem Verbindungswerkzeug (E) auf einem verbundenen Lager."
   },
   {
     "Id": "interu12",
-    "Title": "Fahrersitz 2"
+    "Title": "Fahrersitz 2",
+    "Description": "Sorgt dafür, dass sich Lager nach links und rechts drehen. Kann mit einem Motor verbunden werden, damit du die Fahrtrichtung kontrollieren kannst. Kann an Auslöser angeschlossen werden, die auch vom Sitz aus aktiviert werden können. Auf Stufe 5 werden Einstellungen für die Steuerung freigeschaltet. Drücke dazu mit dem Verbindungswerkzeug (E) auf einem verbundenen Lager."
   },
   {
     "Id": "interu13",
-    "Title": "Fahrersitz 3"
+    "Title": "Fahrersitz 3",
+    "Description": "Sorgt dafür, dass sich Lager nach links und rechts drehen. Kann mit einem Motor verbunden werden, damit du die Fahrtrichtung kontrollieren kannst. Kann an Auslöser angeschlossen werden, die auch vom Sitz aus aktiviert werden können. Auf Stufe 5 werden Einstellungen für die Steuerung freigeschaltet. Drücke dazu mit dem Verbindungswerkzeug (E) auf einem verbundenen Lager."
   },
   {
     "Id": "interu14",
-    "Title": "Fahrersitz 4"
+    "Title": "Fahrersitz 4",
+    "Description": "Sorgt dafür, dass sich Lager nach links und rechts drehen. Kann mit einem Motor verbunden werden, damit du die Fahrtrichtung kontrollieren kannst. Kann an Auslöser angeschlossen werden, die auch vom Sitz aus aktiviert werden können. Auf Stufe 5 werden Einstellungen für die Steuerung freigeschaltet. Drücke dazu mit dem Verbindungswerkzeug (E) auf einem verbundenen Lager."
   },
   {
     "Id": "interu15",
-    "Title": "Fahrersitz 5"
+    "Title": "Fahrersitz 5",
+    "Description": "Sorgt dafür, dass sich Lager nach links und rechts drehen. Kann mit einem Motor verbunden werden, damit du die Fahrtrichtung kontrollieren kannst. Kann an Auslöser angeschlossen werden, die auch vom Sitz aus aktiviert werden können. Auf Stufe 5 werden Einstellungen für die Steuerung freigeschaltet. Drücke dazu mit dem Verbindungswerkzeug (E) auf einem verbundenen Lager."
   },
   {
     "Id": "interu16",
-    "Title": "Fahrersattel 1"
+    "Title": "Fahrersattel 1",
+    "Description": "Sorgt dafür, dass sich Lager nach links und rechts drehen. Kann mit einem Motor verbunden werden, damit du die Fahrtrichtung kontrollieren kannst. Kann an Auslöser angeschlossen werden, die auch vom Sattel aus aktiviert werden können. Auf Stufe 5 werden Einstellungen für die Steuerung freigeschaltet. Drücke dazu mit dem Verbindungswerkzeug (E) auf einem verbundenen Lager."
   },
   {
     "Id": "interu17",
-    "Title": "Fahrersattel 2"
+    "Title": "Fahrersattel 2",
+    "Description": "Sorgt dafür, dass sich Lager nach links und rechts drehen. Kann mit einem Motor verbunden werden, damit du die Fahrtrichtung kontrollieren kannst. Kann an Auslöser angeschlossen werden, die auch vom Sattel aus aktiviert werden können. Auf Stufe 5 werden Einstellungen für die Steuerung freigeschaltet. Drücke dazu mit dem Verbindungswerkzeug (E) auf einem verbundenen Lager."
   },
   {
     "Id": "interu18",
-    "Title": "Fahrersattel 3"
+    "Title": "Fahrersattel 3",
+    "Description": "Sorgt dafür, dass sich Lager nach links und rechts drehen. Kann mit einem Motor verbunden werden, damit du die Fahrtrichtung kontrollieren kannst. Kann an Auslöser angeschlossen werden, die auch vom Sattel aus aktiviert werden können. Auf Stufe 5 werden Einstellungen für die Steuerung freigeschaltet. Drücke dazu mit dem Verbindungswerkzeug (E) auf einem verbundenen Lager."
   },
   {
     "Id": "interu19",
-    "Title": "Fahrersattel 4"
+    "Title": "Fahrersattel 4",
+    "Description": "Sorgt dafür, dass sich Lager nach links und rechts drehen. Kann mit einem Motor verbunden werden, damit du die Fahrtrichtung kontrollieren kannst. Kann an Auslöser angeschlossen werden, die auch vom Sattel aus aktiviert werden können. Auf Stufe 5 werden Einstellungen für die Steuerung freigeschaltet. Drücke dazu mit dem Verbindungswerkzeug (E) auf einem verbundenen Lager."
   },
   {
     "Id": "interu20",
-    "Title": "Fahrersattel 5"
+    "Title": "Fahrersattel 5",
+    "Description": "Sorgt dafür, dass sich Lager nach links und rechts drehen. Kann mit einem Motor verbunden werden, damit du die Fahrtrichtung kontrollieren kannst. Kann an Auslöser angeschlossen werden, die auch vom Sattel aus aktiviert werden können. Auf Stufe 5 werden Einstellungen für die Steuerung freigeschaltet. Drücke dazu mit dem Verbindungswerkzeug (E) auf einem verbundenen Lager."
   },
   {
     "Id": "interu21",
-    "Title": "Sitz 1"
+    "Title": "Sitz 1",
+    "Description": "Damit du nicht stehen musst. Setz dich und entspann dich. Oder bau ihn in dein Fahrzeug ein, damit deine Freunde mitkommen können. Kann mit Auslösern verbunden werden, die andere interaktive Bauteile vom Sitz aus aktivieren können."
   },
   {
     "Id": "interu22",
-    "Title": "Sitz 2"
+    "Title": "Sitz 2",
+    "Description": "Damit du nicht stehen musst. Setz dich und entspann dich. Oder bau ihn in dein Fahrzeug ein, damit deine Freunde mitkommen können. Kann mit Auslösern verbunden werden, die andere interaktive Bauteile vom Sitz aus aktivieren können."
   },
   {
     "Id": "interu23",
-    "Title": "Sitz 3"
+    "Title": "Sitz 3",
+    "Description": "Damit du nicht stehen musst. Setz dich und entspann dich. Oder bau ihn in dein Fahrzeug ein, damit deine Freunde mitkommen können. Kann mit Auslösern verbunden werden, die andere interaktive Bauteile vom Sitz aus aktivieren können."
   },
   {
     "Id": "interu24",
-    "Title": "Sitz 4"
+    "Title": "Sitz 4",
+    "Description": "Damit du nicht stehen musst. Setz dich und entspann dich. Oder bau ihn in dein Fahrzeug ein, damit deine Freunde mitkommen können. Kann mit Auslösern verbunden werden, die andere interaktive Bauteile vom Sitz aus aktivieren können."
   },
   {
     "Id": "interu25",
-    "Title": "Sitz 5"
+    "Title": "Sitz 5",
+    "Description": "Damit du nicht stehen musst. Setz dich und entspann dich. Oder bau ihn in dein Fahrzeug ein, damit deine Freunde mitkommen können. Kann mit Auslösern verbunden werden, die andere interaktive Bauteile vom Sitz aus aktivieren können."
   },
   {
     "Id": "interu26",
-    "Title": "Sattel 1"
+    "Title": "Sattel 1",
+    "Description": "Damit du nicht stehen musst. Setz dich und entspann dich. Oder bau ihn in dein Fahrzeug ein, damit deine Freunde mitkommen können. Kann mit Auslösern verbunden werden, die andere interaktive Bauteile vom Sattel aus aktivieren können."
   },
   {
     "Id": "interu27",
-    "Title": "Sattel 2"
+    "Title": "Sattel 2",
+    "Description": "Damit du nicht stehen musst. Setz dich und entspann dich. Oder bau ihn in dein Fahrzeug ein, damit deine Freunde mitkommen können. Kann mit Auslösern verbunden werden, die andere interaktive Bauteile vom Sattel aus aktivieren können."
   },
   {
     "Id": "interu28",
-    "Title": "Sattel 3"
+    "Title": "Sattel 3",
+    "Description": "Damit du nicht stehen musst. Setz dich und entspann dich. Oder bau ihn in dein Fahrzeug ein, damit deine Freunde mitkommen können. Kann mit Auslösern verbunden werden, die andere interaktive Bauteile vom Sattel aus aktivieren können."
   },
   {
     "Id": "interu29",
-    "Title": "Sattel 4"
+    "Title": "Sattel 4",
+    "Description": "Damit du nicht stehen musst. Setz dich und entspann dich. Oder bau ihn in dein Fahrzeug ein, damit deine Freunde mitkommen können. Kann mit Auslösern verbunden werden, die andere interaktive Bauteile vom Sattel aus aktivieren können."
   },
   {
     "Id": "interu30",
-    "Title": "Sattel 5"
+    "Title": "Sattel 5",
+    "Description": "Damit du nicht stehen musst. Setz dich und entspann dich. Oder bau ihn in dein Fahrzeug ein, damit deine Freunde mitkommen können. Kann mit Auslösern verbunden werden, die andere interaktive Bauteile vom Sattel aus aktivieren können."
   },
   {
     "Id": "interu31",
-    "Title": "Benzinmotor 1"
+    "Title": "Benzinmotor 1",
+    "Description": "Ein Motor mit konstanter Drehzahl und einstellbarer Leistung, ideal für das Antreiben von Fahrzeugen geeignet. Kann mit einem Fahrersitz oder Auslöser verbunden werden. Rüste ihn hoch für mehr Verbindungspunkte und weniger Benzinverbrauch."
   },
   {
     "Id": "interu32",
-    "Title": "Benzinmotor 2"
+    "Title": "Benzinmotor 2",
+    "Description": "Ein Motor mit konstanter Drehzahl und einstellbarer Leistung, ideal für das Antreiben von Fahrzeugen geeignet. Kann mit einem Fahrersitz oder Auslöser verbunden werden. Rüste ihn hoch für mehr Verbindungspunkte und weniger Benzinverbrauch."
   },
   {
     "Id": "interu33",
-    "Title": "Benzinmotor 3"
+    "Title": "Benzinmotor 3",
+    "Description": "Ein Motor mit konstanter Drehzahl und einstellbarer Leistung, ideal für das Antreiben von Fahrzeugen geeignet. Kann mit einem Fahrersitz oder Auslöser verbunden werden. Rüste ihn hoch für mehr Verbindungspunkte und weniger Benzinverbrauch."
   },
   {
     "Id": "interu34",
-    "Title": "Benzinmotor 4"
+    "Title": "Benzinmotor 4",
+    "Description": "Ein Motor mit konstanter Drehzahl und einstellbarer Leistung, ideal für das Antreiben von Fahrzeugen geeignet. Kann mit einem Fahrersitz oder Auslöser verbunden werden. Rüste ihn hoch für mehr Verbindungspunkte und weniger Benzinverbrauch."
   },
   {
     "Id": "interu35",
-    "Title": "Benzinmotor 5"
+    "Title": "Benzinmotor 5",
+    "Description": "Ein Motor mit konstanter Drehzahl und einstellbarer Leistung, ideal für das Antreiben von Fahrzeugen geeignet. Kann mit einem Fahrersitz oder Auslöser verbunden werden. Rüste ihn hoch für mehr Verbindungspunkte und weniger Benzinverbrauch."
   },
   {
     "Id": "interu36",
-    "Title": "Elektromotor 1"
+    "Title": "Elektromotor 1",
+    "Description": "Treibt Lager an. Ein Motor mit konstanter Leistung und einstellbarer Drehzahl. Ein schwacher Motor mit einstellbarer Drehzahl. Kann mit einem Fahrersitz oder Auslösern verbunden werden. Rüste ihn hoch für mehr Verbindungspunkte und weniger Batteriebedarf."
   },
   {
     "Id": "interu37",
-    "Title": "Elektromotor 2"
+    "Title": "Elektromotor 2",
+    "Description": "Treibt Lager an. Ein Motor mit konstanter Leistung und einstellbarer Drehzahl. Ein schwacher Motor mit einstellbarer Drehzahl. Kann mit einem Fahrersitz oder Auslösern verbunden werden. Rüste ihn hoch für mehr Verbindungspunkte und weniger Batteriebedarf."
   },
   {
     "Id": "interu38",
-    "Title": "Elektromotor 3"
+    "Title": "Elektromotor 3",
+    "Description": "Treibt Lager an. Ein Motor mit konstanter Leistung und einstellbarer Drehzahl. Ein schwacher Motor mit einstellbarer Drehzahl. Kann mit einem Fahrersitz oder Auslösern verbunden werden. Rüste ihn hoch für mehr Verbindungspunkte und weniger Batteriebedarf."
   },
   {
     "Id": "interu39",
-    "Title": "Elektromotor 4"
+    "Title": "Elektromotor 4",
+    "Description": "Treibt Lager an. Ein Motor mit konstanter Leistung und einstellbarer Drehzahl. Ein schwacher Motor mit einstellbarer Drehzahl. Kann mit einem Fahrersitz oder Auslösern verbunden werden. Rüste ihn hoch für mehr Verbindungspunkte und weniger Batteriebedarf."
   },
   {
     "Id": "interu40",
-    "Title": "Elektromotor 5"
+    "Title": "Elektromotor 5",
+    "Description": "Treibt Lager an. Ein Motor mit konstanter Leistung und einstellbarer Drehzahl. Ein schwacher Motor mit einstellbarer Drehzahl. Kann mit einem Fahrersitz oder Auslösern verbunden werden. Rüste ihn hoch für mehr Verbindungspunkte und weniger Batteriebedarf."
   },
   {
     "Id": "interu41",
-    "Title": "Schubdüse 1"
+    "Title": "Schubdüse 1",
+    "Description": "Bau genug davon zusammen und bring damit Sachen zum Fliegen. Muss mit einem Auslöser oder dem Fahrersitz verbunden werden, damit sie aktiviert wird. Rüste sie hoch für weniger Benzinverbrauch."
   },
   {
     "Id": "interu42",
-    "Title": "Schubdüse 2"
+    "Title": "Schubdüse 2",
+    "Description": "Bau genug davon zusammen und bring damit Sachen zum Fliegen. Muss mit einem Auslöser oder dem Fahrersitz verbunden werden, damit sie aktiviert wird. Rüste sie hoch für weniger Benzinverbrauch."
   },
   {
     "Id": "interu43",
-    "Title": "Schubdüse 3"
+    "Title": "Schubdüse 3",
+    "Description": "Bau genug davon zusammen und bring damit Sachen zum Fliegen. Muss mit einem Auslöser oder dem Fahrersitz verbunden werden, damit sie aktiviert wird. Rüste sie hoch für weniger Benzinverbrauch."
   },
   {
     "Id": "interu44",
-    "Title": "Schubdüse 4"
+    "Title": "Schubdüse 4",
+    "Description": "Bau genug davon zusammen und bring damit Sachen zum Fliegen. Muss mit einem Auslöser oder dem Fahrersitz verbunden werden, damit sie aktiviert wird. Rüste sie hoch für weniger Benzinverbrauch."
   },
   {
     "Id": "interu45",
-    "Title": "Schubdüse 5"
+    "Title": "Schubdüse 5",
+    "Description": "Bau genug davon zusammen und bring damit Sachen zum Fliegen. Muss mit einem Auslöser oder dem Fahrersitz verbunden werden, damit sie aktiviert wird. Rüste sie hoch für weniger Benzinverbrauch."
   },
   {
     "Id": "interu46",
-    "Title": "Steuereinheit 1"
+    "Title": "Steuereinheit 1",
+    "Description": "Sorgt dafür, dass die Lager der Reihe nach rotieren. Sie eignet sich perfekt, um wandelbare Konstruktionen zu bauen. Muss mit Lagern verbunden sein. Wird aktiviert, wenn du einen Auslöser oder den Fahrersitz mit der Steuereinheit verbindest."
   },
   {
     "Id": "interu47",
-    "Title": "Steuereinheit 2"
+    "Title": "Steuereinheit 2",
+    "Description": "Sorgt dafür, dass die Lager der Reihe nach rotieren. Sie eignet sich perfekt, um wandelbare Konstruktionen zu bauen. Muss mit Lagern verbunden sein. Wird aktiviert, wenn du einen Auslöser oder den Fahrersitz mit der Steuereinheit verbindest."
   },
   {
     "Id": "interu48",
-    "Title": "Steuereinheit 3"
+    "Title": "Steuereinheit 3",
+    "Description": "Sorgt dafür, dass die Lager der Reihe nach rotieren. Sie eignet sich perfekt, um wandelbare Konstruktionen zu bauen. Muss mit Lagern verbunden sein. Wird aktiviert, wenn du einen Auslöser oder den Fahrersitz mit der Steuereinheit verbindest."
   },
   {
     "Id": "interu49",
-    "Title": "Steuereinheit 4"
+    "Title": "Steuereinheit 4",
+    "Description": "Sorgt dafür, dass die Lager der Reihe nach rotieren. Sie eignet sich perfekt, um wandelbare Konstruktionen zu bauen. Muss mit Lagern verbunden sein. Wird aktiviert, wenn du einen Auslöser oder den Fahrersitz mit der Steuereinheit verbindest."
   },
   {
     "Id": "interu50",
-    "Title": "Steuereinheit 5"
+    "Title": "Steuereinheit 5",
+    "Description": "Sorgt dafür, dass die Lager der Reihe nach rotieren. Sie eignet sich perfekt, um wandelbare Konstruktionen zu bauen. Muss mit Lagern verbunden sein. Wird aktiviert, wenn du einen Auslöser oder den Fahrersitz mit der Steuereinheit verbindest."
   },
   {
     "Id": "interu51",
-    "Title": "Sensor 1"
+    "Title": "Sensor 1",
+    "Description": "Wenn er etwas erkennt, aktiviert er etwas! Der Sensor wird aktiviert, wenn er eine beliebige Oberfläche im Sichtbereich erkennt. Er hat eine Reichweite von zehn Blöcken. Er kann einen Motor, eine Schubdüse, die Steuereinheit und noch viel mehr aktivieren."
   },
   {
     "Id": "interu52",
-    "Title": "Sensor 2"
+    "Title": "Sensor 2",
+    "Description": "Wenn er etwas erkennt, aktiviert er etwas! Der Sensor wird aktiviert, wenn er eine beliebige Oberfläche im Sichtbereich erkennt. Er hat eine Reichweite von zehn Blöcken. Er kann einen Motor, eine Schubdüse, die Steuereinheit und noch viel mehr aktivieren."
   },
   {
     "Id": "interu53",
-    "Title": "Sensor 3"
+    "Title": "Sensor 3",
+    "Description": "Wenn er etwas erkennt, aktiviert er etwas! Der Sensor wird aktiviert, wenn er eine beliebige Oberfläche im Sichtbereich erkennt. Er hat eine Reichweite von zehn Blöcken. Er kann einen Motor, eine Schubdüse, die Steuereinheit und noch viel mehr aktivieren."
   },
   {
     "Id": "interu54",
-    "Title": "Sensor 4"
+    "Title": "Sensor 4",
+    "Description": "Wenn er etwas erkennt, aktiviert er etwas! Der Sensor wird aktiviert, wenn er eine beliebige Oberfläche im Sichtbereich erkennt. Er hat eine Reichweite von zehn Blöcken. Er kann einen Motor, eine Schubdüse, die Steuereinheit und noch viel mehr aktivieren."
   },
   {
     "Id": "interu55",
-    "Title": "Sensor 5"
+    "Title": "Sensor 5",
+    "Description": "Wenn er etwas erkennt, aktiviert er etwas! Der Sensor wird aktiviert, wenn er eine beliebige Oberfläche im Sichtbereich erkennt. Er hat eine Reichweite von zehn Blöcken. Er kann einen Motor, eine Schubdüse, die Steuereinheit und noch viel mehr aktivieren."
   },
   {
     "Id": "interu56",
-    "Title": "Kolben 1"
+    "Title": "Kolben 1",
+    "Description": "Fährt ein und aus! Verbinde ihn mit einem Auslöser, um ihn zu aktivieren. Du kannst den Kolben auch mit einer Steuereinheit verbinden, damit er sich in einer Sequenz ein- und ausfährt. Damit kannst du eindrucksvolle Konstruktionen bauen."
   },
   {
     "Id": "interu57",
-    "Title": "Kolben 2"
+    "Title": "Kolben 2",
+    "Description": "Fährt ein und aus! Verbinde ihn mit einem Auslöser, um ihn zu aktivieren. Du kannst den Kolben auch mit einer Steuereinheit verbinden, damit er sich in einer Sequenz ein- und ausfährt. Damit kannst du eindrucksvolle Konstruktionen bauen."
   },
   {
     "Id": "interu58",
-    "Title": "Kolben 3"
+    "Title": "Kolben 3",
+    "Description": "Fährt ein und aus! Verbinde ihn mit einem Auslöser, um ihn zu aktivieren. Du kannst den Kolben auch mit einer Steuereinheit verbinden, damit er sich in einer Sequenz ein- und ausfährt. Damit kannst du eindrucksvolle Konstruktionen bauen."
   },
   {
     "Id": "interu59",
-    "Title": "Kolben 4"
+    "Title": "Kolben 4",
+    "Description": "Fährt ein und aus! Verbinde ihn mit einem Auslöser, um ihn zu aktivieren. Du kannst den Kolben auch mit einer Steuereinheit verbinden, damit er sich in einer Sequenz ein- und ausfährt. Damit kannst du eindrucksvolle Konstruktionen bauen."
   },
   {
     "Id": "interu60",
-    "Title": "Kolben 5"
+    "Title": "Kolben 5",
+    "Description": "Fährt ein und aus! Verbinde ihn mit einem Auslöser, um ihn zu aktivieren. Du kannst den Kolben auch mit einer Steuereinheit verbinden, damit er sich in einer Sequenz ein- und ausfährt. Damit kannst du eindrucksvolle Konstruktionen bauen."
   }
 ]

@@ -1,47 +1,58 @@
 [
   {
     "Id": "other1",
-    "Title": "Outil de connexion"
+    "Title": "Outil de connexion",
+    "Description": "Le meilleur ami des mécanos ! Utilisé pour accrocher les pièces interactives entre elles, par exemple : un moteur à essence à un palier ou un propulseur à un siège conducteur."
   },
   {
     "Id": "other2",
-    "Title": "Outil de peinture"
+    "Title": "Outil de peinture",
+    "Description": "Peignez n'importe quel bloc ou pièce pour personnaliser vos créactions ou simplement pour le plaisir de faire de l'art ! Peignez en utilisant le bouton gauche de la souris et supprimez avec le droit. Appuyez sur Q pour ouvrir la palette de couleurs. Si vous souhaitez peindre des grandes surfaces, il suffit simplement de maintenir le bouton gauche appuyé et de faire glisser la souris."
   },
   {
     "Id": "other3",
-    "Title": "Outil de soudage"
+    "Title": "Outil de soudage",
+    "Description": "Soudez vos créations ensembles !\nChoisissez l'outil de soudage et appuyez sur le bouton gauche de la souris sur une création libre, appuyez de nouveau sur le bouton gauche de la souris en visant la surface d'une autre création pour les souder l'une à l'autre. Vous pouvez également joindre des pièces qui se touchent sur le cric. Maintenez appuyé le bouton gauche de la souris sur la première pièce et faites glisser la souris vers la pièce que vous souhaitez souder."
   },
   {
     "Id": "other4",
-    "Title": "Beacon"
+    "Title": "Beacon",
+    "Description": "Emits a tracking signal that can be toggled in the Logbook."
   },
   {
     "Id": "other5",
-    "Title": "Pompe aspirante"
+    "Title": "Pompe aspirante",
+    "Description": "La pompe aspirante a plusieurs utilisations lorsqu'elle est connectée à un déclencheur. Elle aspire l'eau vers un conteneur à eau. Elle ramasse les plantes pour les mettre dans un coffre. Elle peut même tirer et placer des objets à partir d'un coffre."
   },
   {
     "Id": "other6",
-    "Title": "Tuyau d'aspiration"
+    "Title": "Tuyau d'aspiration",
+    "Description": "Utilisez-le avec la pompe aspirante pour que les objets se déplacent entre les tuyaux."
   },
   {
     "Id": "other7",
-    "Title": "Coin de tuyau d'aspiration"
+    "Title": "Coin de tuyau d'aspiration",
+    "Description": "Utilisez-le avec la pompe aspirante pour que les objets se déplacent entre les tuyaux."
   },
   {
     "Id": "other8",
-    "Title": "Conteneur à essence"
+    "Title": "Conteneur à essence",
+    "Description": "Permet de stocker plus d'essence et d'en charger dans les moteurs à essence et autres pièces interactives qui ont besoin d'essence lorsqu'elles sont connectées."
   },
   {
     "Id": "other9",
-    "Title": "Conteneur à batteries"
+    "Title": "Conteneur à batteries",
+    "Description": "Permet de stocker plus de batteries et de les charger dans les moteurs électriques et autres pièces interactives qui ont besoin de batteries lorsqu'elles sont connectées."
   },
   {
     "Id": "other10",
-    "Title": "Conteneur à eau"
+    "Title": "Conteneur à eau",
+    "Description": "Pour remplir le conteneur à eau, connectez-le à une pompe aspirante située sous l'eau."
   },
   {
     "Id": "other11",
-    "Title": "Canon à eau"
+    "Title": "Canon à eau",
+    "Description": "Connectez-le à un conteneur à eau avec un déclencheur pour arroser vos plantes plus efficacement."
   },
   {
     "Id": "other12",
@@ -77,34 +88,42 @@
   },
   {
     "Id": "other20",
-    "Title": "Cuisibot"
+    "Title": "Cuisibot",
+    "Description": "Cuisine de délicieux plats qui rempliront votre barre de santé ou réanimeront vos amis."
   },
   {
     "Id": "other21",
-    "Title": "Conteneur à munitions de patates"
+    "Title": "Conteneur à munitions de patates",
+    "Description": "Connectez-le à un lance-patates montable avec un déclencheur pour tirer des munitions de patates."
   },
   {
     "Id": "other22",
-    "Title": "Lance-patates"
+    "Title": "Lance-patates",
+    "Description": "Un lance-patates qui tire une seule patate."
   },
   {
     "Id": "other23",
-    "Title": "Fusil à pompe lance-patates"
+    "Title": "Fusil à pompe lance-patates",
+    "Description": "Tire un jet de frites chaudes crépitantes."
   },
   {
     "Id": "other24",
-    "Title": "Fusil lance-patates"
+    "Title": "Fusil lance-patates",
+    "Description": "Tire des patates en rafale. Utilise beaucoup de munitions de patates."
   },
   {
     "Id": "other25",
-    "Title": "Masse"
+    "Title": "Masse",
+    "Description": "Cette puissante masse vous permet de pousser des objets en les frappant."
   },
   {
     "Id": "other26",
-    "Title": "Cric"
+    "Title": "Cric",
+    "Description": "Construisez sur le cric pour créer des constructions libres qui ne sont pas fixées au sol. Vous pouvez le rehausser ou le baisser, et remettre en place les créations qui sont tombées."
   },
   {
     "Id": "other27",
-    "Title": "Manuel"
+    "Title": "Manuel",
+    "Description": "Contient toutes les informations nécessaires pour apprendre comment construire des superbes machines et devenir un vrai mécano."
   }
 ]

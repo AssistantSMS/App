@@ -1,47 +1,58 @@
 [
   {
     "Id": "other1",
-    "Title": "Verbindungswerkzeug"
+    "Title": "Verbindungswerkzeug",
+    "Description": "Das Lieblingswerkzeug eines jeden Mechanikers. Verbindet interaktive Teile miteinander, wie einen Gasmotor mit Lagern oder eine Schubdüse mit einem Fahrersitz."
   },
   {
     "Id": "other2",
-    "Title": "Zeichenwerkzeug"
+    "Title": "Zeichenwerkzeug",
+    "Description": "Verschönere deine Konstruktionen mit Farbe, um sie individuell zu gestalten oder erschaffe einfach Kunst! Mit der linken Maustaste kannst du Farbe auftragen und mit der rechten wieder entfernen. Drücke „Q“, um die Farbauswahl zu öffnen. Halte einfach die linke Maustaste gedrückt und ziehe sie, um größere Flächen auszufüllen."
   },
   {
     "Id": "other3",
-    "Title": "Schweißwerkzeug"
+    "Title": "Schweißwerkzeug",
+    "Description": "Schweiße deine Konstruktionen zusammen! Wähle das Schweißgerät aus, klicke mit der linken Maustaste auf das lose Teil und anschließend auf ein anderes Teil, um beide zusammenzuschweißen. Außerdem kannst du damit Kontaktstücke auf der Hebevorrichtung verbinden. Zeige auf das erste Teil, halte die linke Maustaste gedrückt und ziehe es auf das zweite Teil, um beide zusammenzuschweißen."
   },
   {
     "Id": "other4",
-    "Title": "Beacon"
+    "Title": "Beacon",
+    "Description": "Emits a tracking signal that can be toggled in the Logbook."
   },
   {
     "Id": "other5",
-    "Title": "Vakuumpumpe"
+    "Title": "Vakuumpumpe",
+    "Description": "Die Vakuumpumpe kann auf viele Arten verwendet werden, wenn sie mit einem Auslöser verbunden ist. Sauge Wasser in einen Wasserbehälter. Hebe Pflanzen in eine Truhe. Es kann sogar Gegenstände aus einer Truhe schießen und platzieren."
   },
   {
     "Id": "other6",
-    "Title": "Vakuumrohr"
+    "Title": "Vakuumrohr",
+    "Description": "Zusammen mit der Vakuumpumpe verwenden, um Gegenstände durch Rohre zu transportieren."
   },
   {
     "Id": "other7",
-    "Title": "Vakuumrohr (Eckteil)"
+    "Title": "Vakuumrohr (Eckteil)",
+    "Description": "Zusammen mit der Vakuumpumpe verwenden, um Gegenstände durch Rohre zu transportieren."
   },
   {
     "Id": "other8",
-    "Title": "Benzinbehälter"
+    "Title": "Benzinbehälter",
+    "Description": "Zur Aufbewahrung von Benzin. Gibt Benzin an Benzinmotoren und andere interaktive Teile ab, die Benzin benötigen."
   },
   {
     "Id": "other9",
-    "Title": "Batteriebehälter"
+    "Title": "Batteriebehälter",
+    "Description": "Zur Aufbewahrung von Batterien. Gibt Batterien an Elektromotoren und andere interaktive Teile ab, die Batterien benötigen."
   },
   {
     "Id": "other10",
-    "Title": "Wasserbehälter"
+    "Title": "Wasserbehälter",
+    "Description": "Schließ den Wasserbehälter an eine Vakuumpumpe unter Wasser an, um ihn mit Wasser zu füllen."
   },
   {
     "Id": "other11",
-    "Title": "Wasserkanone"
+    "Title": "Wasserkanone",
+    "Description": "Verbinde sie mit einem Wasserbehälter mit Auslöser, um deine Pflanzen effektiver zu gießen."
   },
   {
     "Id": "other12",
@@ -77,34 +88,42 @@
   },
   {
     "Id": "other20",
-    "Title": "Kochbot"
+    "Title": "Kochbot",
+    "Description": "Kocht köstliche Gerichte, die deine Gesundheit auffüllen oder deine Freunde wiederbeleben."
   },
   {
     "Id": "other21",
-    "Title": "Behälter für Kartoffelmunition"
+    "Title": "Behälter für Kartoffelmunition",
+    "Description": "Verbinde den Behälter mit einer montierbaren Knollenkanone mit Auslöser, um mit Kartoffelmunition zu schießen."
   },
   {
     "Id": "other22",
-    "Title": "Knollenkanone"
+    "Title": "Knollenkanone",
+    "Description": "Die Knollenkanone schießt eine einzige Kartoffel."
   },
   {
     "Id": "other23",
-    "Title": "Knollenflinte"
+    "Title": "Knollenflinte",
+    "Description": "Schießt gestreut zischend heiße Pommes."
   },
   {
     "Id": "other24",
-    "Title": "Knollen-Maschinengewehr"
+    "Title": "Knollen-Maschinengewehr",
+    "Description": "Schießt Kartoffeln im Schnellfeuer. Braucht viel Kartoffelmunition."
   },
   {
     "Id": "other25",
-    "Title": "Vorschlaghammer"
+    "Title": "Vorschlaghammer",
+    "Description": "Dieser mächtige Vorschlaghammer bewegt lose Gegenstände, wenn man sie damit haut."
   },
   {
     "Id": "other26",
-    "Title": "Hebevorrichtung"
+    "Title": "Hebevorrichtung",
+    "Description": "Baue auf der Hebevorrichtung frei bewegliche Konstruktionen, die nicht am Boden verankert sind. Kann nach oben und unten bewegt werden und kopfstehende Konstruktionen wieder aufrichten."
   },
   {
     "Id": "other27",
-    "Title": "Handbuch"
+    "Title": "Handbuch",
+    "Description": "Enhält alle wichtigen Informationen, die du brauchst, um wirklich beeindruckende Maschinen zu bauen und ein wahrer Scrap-Mechaniker zu werden."
   }
 ]

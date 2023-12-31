@@ -32,4 +32,6 @@ class AnalyticsEvent {
   static const String externalLinkkofi = 'Ko-fi';
   static const String externalLinkBat = 'BraveRewards';
   static const String externalLinkOpenCollective = 'OpenCollective';
+  //user_events
+  static const String patreonOAuthLogin = 'Patreon_OAuth_Login';
 }

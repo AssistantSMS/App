@@ -1,14 +1,17 @@
 [
   {
     "Id": "inters1",
-    "Title": "Große Truhe"
+    "Title": "Große Truhe",
+    "Description": "Großartig zum Aufbewahren vieler Gegenstände. Kann zusammen mit einer Vakuumpumpe verwendet werden."
   },
   {
     "Id": "inters2",
-    "Title": "Veredelungsbot"
+    "Title": "Veredelungsbot",
+    "Description": "Der Veredelungsbot hilft dir und veredelt alle deine gesammelten Klötze. Du kannst sie per Hand zugeben oder einen Ressourcensammler mit Klötzen daneben platzieren."
   },
   {
     "Id": "inters3",
-    "Title": "Ressourcensammler"
+    "Title": "Ressourcensammler",
+    "Description": "Perfekt zum Sammeln und Stapeln von Klötzen. Er ist voll? Stell ihn neben den Veredelungsbot, der aus den Klötzen Blocks macht."
   }
 ]

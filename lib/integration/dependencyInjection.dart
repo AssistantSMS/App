@@ -1,7 +1,7 @@
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:get_it/get_it.dart';
 
-import '../env/environmentSettings.dart';
+import '../env/environment_settings.dart';
 import '../helpers/repositoryHelper.dart';
 import '../repository/api/ContributorApiRepository.dart';
 import '../repository/api/interface/IContributorApiRepository.dart';

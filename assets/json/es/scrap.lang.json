@@ -1,18 +1,22 @@
 [
   {
     "Id": "scrap1",
-    "Title": "Asiento de conductor de chatarra"
+    "Title": "Asiento de conductor de chatarra",
+    "Description": "Hace que los cojinetes giren a derecha e izquierda. Se puede conectar a un motor para controlar la dirección del trayecto. También se puede conectar a disparadores que se podrán activar desde el asiento. Este asiento de conductor no se puede mejorar."
   },
   {
     "Id": "scrap2",
-    "Title": "Asiento de chatarra"
+    "Title": "Asiento de chatarra",
+    "Description": "Se usa para no ir de pie. Siéntate y relájate o añádelo a tu vehículo para que tus amigos puedan ir contigo. Este asiento no se puede mejorar."
   },
   {
     "Id": "scrap3",
-    "Title": "Rueda de chatarra"
+    "Title": "Rueda de chatarra",
+    "Description": "No es del todo redonda."
   },
   {
     "Id": "scrap4",
-    "Title": "Motor de gasolina de chatarra"
+    "Title": "Motor de gasolina de chatarra",
+    "Description": "Un motor de velocidad desigual y potencia ajustable, ideal para alimentar vehículos. Se puede conectar a un asiento de conductor o a un disparador. Este motor no se puede mejorar."
   }
 ]

@@ -1,23 +1,28 @@
 [
   {
     "Id": "consu1",
-    "Title": "Fertilizer"
+    "Title": "Fertilizer",
+    "Description": "Makes plants grow faster."
   },
   {
     "Id": "consu2",
-    "Title": "Sunshake"
+    "Title": "Sunshake",
+    "Description": "Mechanics love a cold sunshake when thirsty."
   },
   {
     "Id": "consu3",
-    "Title": "Pizza Burger"
+    "Title": "Pizza Burger",
+    "Description": "A mechanics favorite food. Fills up all your meters to the max."
   },
   {
     "Id": "consu4",
-    "Title": "Veggie Burger"
+    "Title": "Veggie Burger",
+    "Description": "A vegetarian alternative. Fills up all your meters to the max."
   },
   {
     "Id": "consu5",
-    "Title": "Revival Baguette"
+    "Title": "Revival Baguette",
+    "Description": "Feed your fallen friends to get them back on their feet and back in action."
   },
   {
     "Id": "consu6",
@@ -25,6 +30,7 @@
   },
   {
     "Id": "consu7",
-    "Title": "Soil Bag"
+    "Title": "Soil Bag",
+    "Description": "Use them on the ground to place your seeds in."
   }
 ]

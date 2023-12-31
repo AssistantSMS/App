@@ -177,6 +177,7 @@
   },
   {
     "Id": "ware45",
-    "Title": "Interruptor Principal"
+    "Title": "Interruptor Principal",
+    "Description": "Alterne sem moderação. O interruptor ativa o que estiver conectado a ele, tornando-se indispensável para ligar e desligar as coisas ao usar uma única vez. Ele pode ativar um motor, um propulsor, o controlador e muito mais."
   }
 ]

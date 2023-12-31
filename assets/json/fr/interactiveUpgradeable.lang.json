@@ -1,242 +1,302 @@
 [
   {
     "Id": "interu1",
-    "Title": "Suspension de sport 1"
+    "Title": "Suspension de sport 1",
+    "Description": "Renforce l'absorption des chocs et fournit plus de stabilité. Empêche les véhicules de se retourner facilement. Cette suspension est petite, mais le rebond est plus solide."
   },
   {
     "Id": "interu2",
-    "Title": "Suspension de sport 2"
+    "Title": "Suspension de sport 2",
+    "Description": "Renforce l'absorption des chocs et fournit plus de stabilité. Empêche les véhicules de se retourner facilement. Cette suspension est petite, mais le rebond est plus solide."
   },
   {
     "Id": "interu3",
-    "Title": "Suspension de sport 3"
+    "Title": "Suspension de sport 3",
+    "Description": "Renforce l'absorption des chocs et fournit plus de stabilité. Empêche les véhicules de se retourner facilement. Cette suspension est petite, mais le rebond est plus solide."
   },
   {
     "Id": "interu4",
-    "Title": "Suspension de sport 4"
+    "Title": "Suspension de sport 4",
+    "Description": "Renforce l'absorption des chocs et fournit plus de stabilité. Empêche les véhicules de se retourner facilement. Cette suspension est petite, mais le rebond est plus solide."
   },
   {
     "Id": "interu5",
-    "Title": "Suspension de sport 5"
+    "Title": "Suspension de sport 5",
+    "Description": "Renforce l'absorption des chocs et fournit plus de stabilité. Empêche les véhicules de se retourner facilement. Cette suspension est petite, mais le rebond est plus solide."
   },
   {
     "Id": "interu6",
-    "Title": "Suspension tout-terrain 1"
+    "Title": "Suspension tout-terrain 1",
+    "Description": "Renforce l'absorption des chocs et fournit plus de stabilité. Empêche les véhicules de se retourner facilement. Cette suspension a beaucoup de rebond, elle est donc idéale pour les véhicules tout-terrain."
   },
   {
     "Id": "interu7",
-    "Title": "Suspension tout-terrain 2"
+    "Title": "Suspension tout-terrain 2",
+    "Description": "Renforce l'absorption des chocs et fournit plus de stabilité. Empêche les véhicules de se retourner facilement. Cette suspension a beaucoup de rebond, elle est donc idéale pour les véhicules tout-terrain."
   },
   {
     "Id": "interu8",
-    "Title": "Suspension tout-terrain 3"
+    "Title": "Suspension tout-terrain 3",
+    "Description": "Renforce l'absorption des chocs et fournit plus de stabilité. Empêche les véhicules de se retourner facilement. Cette suspension a beaucoup de rebond, elle est donc idéale pour les véhicules tout-terrain."
   },
   {
     "Id": "interu9",
-    "Title": "Suspension tout-terrain 4"
+    "Title": "Suspension tout-terrain 4",
+    "Description": "Renforce l'absorption des chocs et fournit plus de stabilité. Empêche les véhicules de se retourner facilement. Cette suspension a beaucoup de rebond, elle est donc idéale pour les véhicules tout-terrain."
   },
   {
     "Id": "interu10",
-    "Title": "Suspension tout-terrain 5"
+    "Title": "Suspension tout-terrain 5",
+    "Description": "Renforce l'absorption des chocs et fournit plus de stabilité. Empêche les véhicules de se retourner facilement. Cette suspension a beaucoup de rebond, elle est donc idéale pour les véhicules tout-terrain."
   },
   {
     "Id": "interu11",
-    "Title": "Siège conducteur 1"
+    "Title": "Siège conducteur 1",
+    "Description": "Fait tourner les paliers à gauche et à droite. Peut être connecté à un moteur pour contrôler la direction. Il peut également être connecté à des déclencheurs activables à partir du siège. Le siège conducteur de niv. 5 débloque les options de direction si vous appuyez sur (E) sur les paliers connectés avec l'outil de connexion."
   },
   {
     "Id": "interu12",
-    "Title": "Siège conducteur 2"
+    "Title": "Siège conducteur 2",
+    "Description": "Fait tourner les paliers à gauche et à droite. Peut être connecté à un moteur pour contrôler la direction. Il peut également être connecté à des déclencheurs activables à partir du siège. Le siège conducteur de niv. 5 débloque les options de direction si vous appuyez sur (E) sur les paliers connectés avec l'outil de connexion."
   },
   {
     "Id": "interu13",
-    "Title": "Siège conducteur 3"
+    "Title": "Siège conducteur 3",
+    "Description": "Fait tourner les paliers à gauche et à droite. Peut être connecté à un moteur pour contrôler la direction. Il peut également être connecté à des déclencheurs activables à partir du siège. Le siège conducteur de niv. 5 débloque les options de direction si vous appuyez sur (E) sur les paliers connectés avec l'outil de connexion."
   },
   {
     "Id": "interu14",
-    "Title": "Siège conducteur 4"
+    "Title": "Siège conducteur 4",
+    "Description": "Fait tourner les paliers à gauche et à droite. Peut être connecté à un moteur pour contrôler la direction. Il peut également être connecté à des déclencheurs activables à partir du siège. Le siège conducteur de niv. 5 débloque les options de direction si vous appuyez sur (E) sur les paliers connectés avec l'outil de connexion."
   },
   {
     "Id": "interu15",
-    "Title": "Siège conducteur 5"
+    "Title": "Siège conducteur 5",
+    "Description": "Fait tourner les paliers à gauche et à droite. Peut être connecté à un moteur pour contrôler la direction. Il peut également être connecté à des déclencheurs activables à partir du siège. Le siège conducteur de niv. 5 débloque les options de direction si vous appuyez sur (E) sur les paliers connectés avec l'outil de connexion."
   },
   {
     "Id": "interu16",
-    "Title": "Selle conducteur 1"
+    "Title": "Selle conducteur 1",
+    "Description": "Fait tourner les paliers à gauche et à droite. Peut être connecté à un moteur pour contrôler la direction. Elle peut également être connectée à des déclencheurs activables de la selle. La selle conducteur de niv. 5 débloque les options de direction si vous appuyez sur (E) sur les paliers connectés avec l'outil de connexion."
   },
   {
     "Id": "interu17",
-    "Title": "Selle conducteur 2"
+    "Title": "Selle conducteur 2",
+    "Description": "Fait tourner les paliers à gauche et à droite. Peut être connecté à un moteur pour contrôler la direction. Elle peut également être connectée à des déclencheurs activables de la selle. La selle conducteur de niv. 5 débloque les options de direction si vous appuyez sur (E) sur les paliers connectés avec l'outil de connexion."
   },
   {
     "Id": "interu18",
-    "Title": "Selle conducteur 3"
+    "Title": "Selle conducteur 3",
+    "Description": "Fait tourner les paliers à gauche et à droite. Peut être connecté à un moteur pour contrôler la direction. Elle peut également être connectée à des déclencheurs activables de la selle. La selle conducteur de niv. 5 débloque les options de direction si vous appuyez sur (E) sur les paliers connectés avec l'outil de connexion."
   },
   {
     "Id": "interu19",
-    "Title": "Selle conducteur 4"
+    "Title": "Selle conducteur 4",
+    "Description": "Fait tourner les paliers à gauche et à droite. Peut être connecté à un moteur pour contrôler la direction. Elle peut également être connectée à des déclencheurs activables de la selle. La selle conducteur de niv. 5 débloque les options de direction si vous appuyez sur (E) sur les paliers connectés avec l'outil de connexion."
   },
   {
     "Id": "interu20",
-    "Title": "Selle conducteur 5"
+    "Title": "Selle conducteur 5",
+    "Description": "Fait tourner les paliers à gauche et à droite. Peut être connecté à un moteur pour contrôler la direction. Elle peut également être connectée à des déclencheurs activables de la selle. La selle conducteur de niv. 5 débloque les options de direction si vous appuyez sur (E) sur les paliers connectés avec l'outil de connexion."
   },
   {
     "Id": "interu21",
-    "Title": "Siège 1"
+    "Title": "Siège 1",
+    "Description": "À utiliser pour ne pas rester debout. Asseyez-vous et détendez-vous, ou ajoutez-les à votre véhicule pour que vos amis vous accompagnent. Vous pouvez le connecter à des déclencheurs qui activeront d'autres pièces interactives du siège."
   },
   {
     "Id": "interu22",
-    "Title": "Siège 2"
+    "Title": "Siège 2",
+    "Description": "À utiliser pour ne pas rester debout. Asseyez-vous et détendez-vous, ou ajoutez-les à votre véhicule pour que vos amis vous accompagnent. Vous pouvez le connecter à des déclencheurs qui activeront d'autres pièces interactives du siège."
   },
   {
     "Id": "interu23",
-    "Title": "Siège 3"
+    "Title": "Siège 3",
+    "Description": "À utiliser pour ne pas rester debout. Asseyez-vous et détendez-vous, ou ajoutez-les à votre véhicule pour que vos amis vous accompagnent. Vous pouvez le connecter à des déclencheurs qui activeront d'autres pièces interactives du siège."
   },
   {
     "Id": "interu24",
-    "Title": "Siège 4"
+    "Title": "Siège 4",
+    "Description": "À utiliser pour ne pas rester debout. Asseyez-vous et détendez-vous, ou ajoutez-les à votre véhicule pour que vos amis vous accompagnent. Vous pouvez le connecter à des déclencheurs qui activeront d'autres pièces interactives du siège."
   },
   {
     "Id": "interu25",
-    "Title": "Siège 5"
+    "Title": "Siège 5",
+    "Description": "À utiliser pour ne pas rester debout. Asseyez-vous et détendez-vous, ou ajoutez-les à votre véhicule pour que vos amis vous accompagnent. Vous pouvez le connecter à des déclencheurs qui activeront d'autres pièces interactives du siège."
   },
   {
     "Id": "interu26",
-    "Title": "Selle 1"
+    "Title": "Selle 1",
+    "Description": "À utiliser pour ne pas rester debout. Asseyez-vous et détendez-vous, ou ajoutez-les à votre véhicule pour que vos amis vous accompagnent. Vous pouvez la connecter à des déclencheurs qui activeront d'autres pièces interactives de la selle."
   },
   {
     "Id": "interu27",
-    "Title": "Selle 2"
+    "Title": "Selle 2",
+    "Description": "À utiliser pour ne pas rester debout. Asseyez-vous et détendez-vous, ou ajoutez-les à votre véhicule pour que vos amis vous accompagnent. Vous pouvez la connecter à des déclencheurs qui activeront d'autres pièces interactives de la selle."
   },
   {
     "Id": "interu28",
-    "Title": "Selle 3"
+    "Title": "Selle 3",
+    "Description": "À utiliser pour ne pas rester debout. Asseyez-vous et détendez-vous, ou ajoutez-les à votre véhicule pour que vos amis vous accompagnent. Vous pouvez la connecter à des déclencheurs qui activeront d'autres pièces interactives de la selle."
   },
   {
     "Id": "interu29",
-    "Title": "Selle 4"
+    "Title": "Selle 4",
+    "Description": "À utiliser pour ne pas rester debout. Asseyez-vous et détendez-vous, ou ajoutez-les à votre véhicule pour que vos amis vous accompagnent. Vous pouvez la connecter à des déclencheurs qui activeront d'autres pièces interactives de la selle."
   },
   {
     "Id": "interu30",
-    "Title": "Selle 5"
+    "Title": "Selle 5",
+    "Description": "À utiliser pour ne pas rester debout. Asseyez-vous et détendez-vous, ou ajoutez-les à votre véhicule pour que vos amis vous accompagnent. Vous pouvez la connecter à des déclencheurs qui activeront d'autres pièces interactives de la selle."
   },
   {
     "Id": "interu31",
-    "Title": "Moteur à essence 1"
+    "Title": "Moteur à essence 1",
+    "Description": "Un moteur avec une vitesse fixe et une puissance ajustable, idéal pour faire avancer les véhicules. Vous pouvez le connecter à un siège conducteur ou un déclencheur. Améliorez-le pour plus de points de connexion et une plus faible consommation d'essence."
   },
   {
     "Id": "interu32",
-    "Title": "Moteur à essence 2"
+    "Title": "Moteur à essence 2",
+    "Description": "Un moteur avec une vitesse fixe et une puissance ajustable, idéal pour faire avancer les véhicules. Vous pouvez le connecter à un siège conducteur ou un déclencheur. Améliorez-le pour plus de points de connexion et une plus faible consommation d'essence."
   },
   {
     "Id": "interu33",
-    "Title": "Moteur à essence 3"
+    "Title": "Moteur à essence 3",
+    "Description": "Un moteur avec une vitesse fixe et une puissance ajustable, idéal pour faire avancer les véhicules. Vous pouvez le connecter à un siège conducteur ou un déclencheur. Améliorez-le pour plus de points de connexion et une plus faible consommation d'essence."
   },
   {
     "Id": "interu34",
-    "Title": "Moteur à essence 4"
+    "Title": "Moteur à essence 4",
+    "Description": "Un moteur avec une vitesse fixe et une puissance ajustable, idéal pour faire avancer les véhicules. Vous pouvez le connecter à un siège conducteur ou un déclencheur. Améliorez-le pour plus de points de connexion et une plus faible consommation d'essence."
   },
   {
     "Id": "interu35",
-    "Title": "Moteur à essence 5"
+    "Title": "Moteur à essence 5",
+    "Description": "Un moteur avec une vitesse fixe et une puissance ajustable, idéal pour faire avancer les véhicules. Vous pouvez le connecter à un siège conducteur ou un déclencheur. Améliorez-le pour plus de points de connexion et une plus faible consommation d'essence."
   },
   {
     "Id": "interu36",
-    "Title": "Moteur électrique 1"
+    "Title": "Moteur électrique 1",
+    "Description": "Alimente les paliers. Un moteur avec une puissance fixe et une vitesse ajustable. Un moteur faible avec une vitesse ajustable. Vous pouvez le connecter à un siège conducteur ou un déclencheur. Améliorez-le pour plus de points de connexion et une plus faible consommation de batteries."
   },
   {
     "Id": "interu37",
-    "Title": "Moteur électrique 2"
+    "Title": "Moteur électrique 2",
+    "Description": "Alimente les paliers. Un moteur avec une puissance fixe et une vitesse ajustable. Un moteur faible avec une vitesse ajustable. Vous pouvez le connecter à un siège conducteur ou un déclencheur. Améliorez-le pour plus de points de connexion et une plus faible consommation de batteries."
   },
   {
     "Id": "interu38",
-    "Title": "Moteur électrique 3"
+    "Title": "Moteur électrique 3",
+    "Description": "Alimente les paliers. Un moteur avec une puissance fixe et une vitesse ajustable. Un moteur faible avec une vitesse ajustable. Vous pouvez le connecter à un siège conducteur ou un déclencheur. Améliorez-le pour plus de points de connexion et une plus faible consommation de batteries."
   },
   {
     "Id": "interu39",
-    "Title": "Moteur électrique 4"
+    "Title": "Moteur électrique 4",
+    "Description": "Alimente les paliers. Un moteur avec une puissance fixe et une vitesse ajustable. Un moteur faible avec une vitesse ajustable. Vous pouvez le connecter à un siège conducteur ou un déclencheur. Améliorez-le pour plus de points de connexion et une plus faible consommation de batteries."
   },
   {
     "Id": "interu40",
-    "Title": "Moteur électrique 5"
+    "Title": "Moteur électrique 5",
+    "Description": "Alimente les paliers. Un moteur avec une puissance fixe et une vitesse ajustable. Un moteur faible avec une vitesse ajustable. Vous pouvez le connecter à un siège conducteur ou un déclencheur. Améliorez-le pour plus de points de connexion et une plus faible consommation de batteries."
   },
   {
     "Id": "interu41",
-    "Title": "Propulseur 1"
+    "Title": "Propulseur 1",
+    "Description": "Plusieurs propulseurs peuvent faire voler des objets. Pour l'activer, vous devez le connecter à un siège conducteur ou un déclencheur. Améliorez-le pour une plus faible consommation d'essence."
   },
   {
     "Id": "interu42",
-    "Title": "Propulseur 2"
+    "Title": "Propulseur 2",
+    "Description": "Plusieurs propulseurs peuvent faire voler des objets. Pour l'activer, vous devez le connecter à un siège conducteur ou un déclencheur. Améliorez-le pour une plus faible consommation d'essence."
   },
   {
     "Id": "interu43",
-    "Title": "Propulseur 3"
+    "Title": "Propulseur 3",
+    "Description": "Plusieurs propulseurs peuvent faire voler des objets. Pour l'activer, vous devez le connecter à un siège conducteur ou un déclencheur. Améliorez-le pour une plus faible consommation d'essence."
   },
   {
     "Id": "interu44",
-    "Title": "Propulseur 4"
+    "Title": "Propulseur 4",
+    "Description": "Plusieurs propulseurs peuvent faire voler des objets. Pour l'activer, vous devez le connecter à un siège conducteur ou un déclencheur. Améliorez-le pour une plus faible consommation d'essence."
   },
   {
     "Id": "interu45",
-    "Title": "Propulseur 5"
+    "Title": "Propulseur 5",
+    "Description": "Plusieurs propulseurs peuvent faire voler des objets. Pour l'activer, vous devez le connecter à un siège conducteur ou un déclencheur. Améliorez-le pour une plus faible consommation d'essence."
   },
   {
     "Id": "interu46",
-    "Title": "Contrôleur 1"
+    "Title": "Contrôleur 1",
+    "Description": "Permet de faire tourner les paliers en séquence. Idéal pour construire des créations qui se transforment. Vous devez les connecter à des paliers. Pour l'activer, vous devez le connecter à un siège conducteur ou un déclencheur."
   },
   {
     "Id": "interu47",
-    "Title": "Contrôleur 2"
+    "Title": "Contrôleur 2",
+    "Description": "Permet de faire tourner les paliers en séquence. Idéal pour construire des créations qui se transforment. Vous devez les connecter à des paliers. Pour l'activer, vous devez le connecter à un siège conducteur ou un déclencheur."
   },
   {
     "Id": "interu48",
-    "Title": "Contrôleur 3"
+    "Title": "Contrôleur 3",
+    "Description": "Permet de faire tourner les paliers en séquence. Idéal pour construire des créations qui se transforment. Vous devez les connecter à des paliers. Pour l'activer, vous devez le connecter à un siège conducteur ou un déclencheur."
   },
   {
     "Id": "interu49",
-    "Title": "Contrôleur 4"
+    "Title": "Contrôleur 4",
+    "Description": "Permet de faire tourner les paliers en séquence. Idéal pour construire des créations qui se transforment. Vous devez les connecter à des paliers. Pour l'activer, vous devez le connecter à un siège conducteur ou un déclencheur."
   },
   {
     "Id": "interu50",
-    "Title": "Contrôleur 5"
+    "Title": "Contrôleur 5",
+    "Description": "Permet de faire tourner les paliers en séquence. Idéal pour construire des créations qui se transforment. Vous devez les connecter à des paliers. Pour l'activer, vous devez le connecter à un siège conducteur ou un déclencheur."
   },
   {
     "Id": "interu51",
-    "Title": "Capteur 1"
+    "Title": "Capteur 1",
+    "Description": "Il détecte et s'active ! Le capteur s'active lorsqu'il détecte une surface dans son champ de vision, avec une portée de 10 blocs. Il peut activer un moteur, un propulseur, le contrôleur et plus encore."
   },
   {
     "Id": "interu52",
-    "Title": "Capteur 2"
+    "Title": "Capteur 2",
+    "Description": "Il détecte et s'active ! Le capteur s'active lorsqu'il détecte une surface dans son champ de vision, avec une portée de 10 blocs. Il peut activer un moteur, un propulseur, le contrôleur et plus encore."
   },
   {
     "Id": "interu53",
-    "Title": "Capteur 3"
+    "Title": "Capteur 3",
+    "Description": "Il détecte et s'active ! Le capteur s'active lorsqu'il détecte une surface dans son champ de vision, avec une portée de 10 blocs. Il peut activer un moteur, un propulseur, le contrôleur et plus encore."
   },
   {
     "Id": "interu54",
-    "Title": "Capteur 4"
+    "Title": "Capteur 4",
+    "Description": "Il détecte et s'active ! Le capteur s'active lorsqu'il détecte une surface dans son champ de vision, avec une portée de 10 blocs. Il peut activer un moteur, un propulseur, le contrôleur et plus encore."
   },
   {
     "Id": "interu55",
-    "Title": "Capteur 5"
+    "Title": "Capteur 5",
+    "Description": "Il détecte et s'active ! Le capteur s'active lorsqu'il détecte une surface dans son champ de vision, avec une portée de 10 blocs. Il peut activer un moteur, un propulseur, le contrôleur et plus encore."
   },
   {
     "Id": "interu56",
-    "Title": "Piston 1"
+    "Title": "Piston 1",
+    "Description": "Il s'étend et se rétracte ! Pour l'activer, connectez-le à un déclencheur. Le piston peut aussi être connecté à un contrôleur pour qu'il s'étende et se rétracte en séquence. Parfait pour concevoir d'impressionnantes créations."
   },
   {
     "Id": "interu57",
-    "Title": "Piston 2"
+    "Title": "Piston 2",
+    "Description": "Il s'étend et se rétracte ! Pour l'activer, connectez-le à un déclencheur. Le piston peut aussi être connecté à un contrôleur pour qu'il s'étende et se rétracte en séquence. Parfait pour concevoir d'impressionnantes créations."
   },
   {
     "Id": "interu58",
-    "Title": "Piston 3"
+    "Title": "Piston 3",
+    "Description": "Il s'étend et se rétracte ! Pour l'activer, connectez-le à un déclencheur. Le piston peut aussi être connecté à un contrôleur pour qu'il s'étende et se rétracte en séquence. Parfait pour concevoir d'impressionnantes créations."
   },
   {
     "Id": "interu59",
-    "Title": "Piston 4"
+    "Title": "Piston 4",
+    "Description": "Il s'étend et se rétracte ! Pour l'activer, connectez-le à un déclencheur. Le piston peut aussi être connecté à un contrôleur pour qu'il s'étende et se rétracte en séquence. Parfait pour concevoir d'impressionnantes créations."
   },
   {
     "Id": "interu60",
-    "Title": "Piston 5"
+    "Title": "Piston 5",
+    "Description": "Il s'étend et se rétracte ! Pour l'activer, connectez-le à un déclencheur. Le piston peut aussi être connecté à un contrôleur pour qu'il s'étende et se rétracte en séquence. Parfait pour concevoir d'impressionnantes créations."
   }
 ]

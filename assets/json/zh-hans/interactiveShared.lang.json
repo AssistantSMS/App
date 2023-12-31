@@ -1,14 +1,17 @@
 [
   {
     "Id": "inters1",
-    "Title": "Large Chest"
+    "Title": "Large Chest",
+    "Description": "Great for storing a lot of items. Can also be used with a Vacuum Pump."
   },
   {
     "Id": "inters2",
-    "Title": "Refinebot"
+    "Title": "Refinebot",
+    "Description": "Let the Refinebot help you out and refine all your collected logs. Put them in by hand or by placing a Resource Collector with logs next to it."
   },
   {
     "Id": "inters3",
-    "Title": "Resource Collector"
+    "Title": "Resource Collector",
+    "Description": "Perfect for collecting and stacking logs. When full, place it next to a refinebot to turn logs in to blocks."
   }
 ]

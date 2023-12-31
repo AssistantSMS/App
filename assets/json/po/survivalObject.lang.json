@@ -1,7 +1,8 @@
 [
   {
     "Id": "surv1",
-    "Title": "Klucz do magazynu"
+    "Title": "Klucz do magazynu",
+    "Description": "Pozwala aktywować windę do magazynu."
   },
   {
     "Id": "surv2",
@@ -37,7 +38,8 @@
   },
   {
     "Id": "surv22",
-    "Title": "Główny akumulator"
+    "Title": "Główny akumulator",
+    "Description": "Dostarcza energię dużym statkom kosmicznym i stacjom."
   },
   {
     "Id": "surv25",

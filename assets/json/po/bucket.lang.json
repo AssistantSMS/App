@@ -1,14 +1,17 @@
 [
   {
     "Id": "bckt1",
-    "Title": "Wiadro z wodą"
+    "Title": "Wiadro z wodą",
+    "Description": "Napełnij wodą, aby podlać rośliny."
   },
   {
     "Id": "bckt2",
-    "Title": "Wiadro z wodą"
+    "Title": "Wiadro z wodą",
+    "Description": "Wiadro wypełnione wodą."
   },
   {
     "Id": "bckt3",
-    "Title": "Wiadro z chemikaliami"
+    "Title": "Wiadro z chemikaliami",
+    "Description": "Wiadro wypełnione toksycznymi odpadami."
   }
 ]

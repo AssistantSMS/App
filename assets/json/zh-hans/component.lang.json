@@ -1,6 +1,7 @@
 [
   {
     "Id": "comp1",
-    "Title": "Component Kit"
+    "Title": "Component Kit",
+    "Description": "Use to upgrade interactive parts and unlock bots in the Mechanic Station."
   }
 ]

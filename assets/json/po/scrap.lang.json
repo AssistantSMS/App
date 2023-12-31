@@ -1,18 +1,22 @@
 [
   {
     "Id": "scrap1",
-    "Title": "Fotel kierowcy z odzysku"
+    "Title": "Fotel kierowcy z odzysku",
+    "Description": "Sprawia, że łożyska obracają się w lewo i w prawo. Podłączony do silnika umożliwia sterowanie kierunkiem jazdy. Może być połączony z włącznikami uruchamianymi z fotela. Ten fotel kierowcy nie może zostać ulepszony."
   },
   {
     "Id": "scrap2",
-    "Title": "Fotel z odzysku"
+    "Title": "Fotel z odzysku",
+    "Description": "Przydatny, kiedy nogi chcą odpocząć. Usiądź i odpoczywaj albo zamontuj go w swoim pojeździe, by zachęcić przyjaciół do wspólnej przejażdżki. Tego fotela nie można ulepszyć."
   },
   {
     "Id": "scrap3",
-    "Title": "Koło z odzysku"
+    "Title": "Koło z odzysku",
+    "Description": "Idealnie okrągłe to ono nie jest."
   },
   {
     "Id": "scrap4",
-    "Title": "Silnik spalinowy z odzysku"
+    "Title": "Silnik spalinowy z odzysku",
+    "Description": "Silnik pracujący ze zmienną prędkością i regulowaną mocą. Idealnie nadaje się do napędzania pojazdów. Może być połączony z fotelem kierowcy lub włącznikiem. Ten silnik nie może zostać ulepszony."
   }
 ]

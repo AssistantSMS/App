@@ -1,11 +1,13 @@
 [
   {
     "Id": "interc1",
-    "Title": "Fertilizer Container"
+    "Title": "Fertilizer Container",
+    "Description": "Place fertilizer and connect it to a Vacuum Pump with a trigger to shoot fertilizer on to plants."
   },
   {
     "Id": "interc2",
-    "Title": "Seed Container"
+    "Title": "Seed Container",
+    "Description": "Place Seeds and connect it to a Vacuum Pump with a trigger to shoot seeds in to soil."
   },
   {
     "Id": "interc3",

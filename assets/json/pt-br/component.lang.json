@@ -1,6 +1,7 @@
 [
   {
     "Id": "comp1",
-    "Title": "Kit de Componentes"
+    "Title": "Kit de Componentes",
+    "Description": "Use para melhorar peças interativas e liberar robôs na Oficina Mecânica."
   }
 ]

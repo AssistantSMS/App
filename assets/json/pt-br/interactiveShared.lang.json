@@ -1,14 +1,17 @@
 [
   {
     "Id": "inters1",
-    "Title": "Baú Grande"
+    "Title": "Baú Grande",
+    "Description": "Ótimo para armazenar vários itens. Pode ser usado com uma Bomba de Vácuo."
   },
   {
     "Id": "inters2",
-    "Title": "Robô Refinador"
+    "Title": "Robô Refinador",
+    "Description": "Deixe que o Robô Refinador ajude você e refine todos os recursos coletados. Coloque-os manualmente ou posicionando um Coletor de Recursos com recursos perto dele."
   },
   {
     "Id": "inters3",
-    "Title": "Coletor de Recursos"
+    "Title": "Coletor de Recursos",
+    "Description": "É perfeito para coletar e acumular recursos. Ao encher, coloque-o perto de um Robô Refinador para transformar tudo em blocos."
   }
 ]

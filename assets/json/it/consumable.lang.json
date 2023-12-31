@@ -1,23 +1,28 @@
 [
   {
     "Id": "consu1",
-    "Title": "Fertilizzante"
+    "Title": "Fertilizzante",
+    "Description": "Fa crescere le coltivazioni più rapidamente."
   },
   {
     "Id": "consu2",
-    "Title": "Sunshake"
+    "Title": "Sunshake",
+    "Description": "I meccanici adorano bere un fresco Sunshake quando hanno sete."
   },
   {
     "Id": "consu3",
-    "Title": "Pizza burger"
+    "Title": "Pizza burger",
+    "Description": "La pietanza preferita di qualsiasi meccanico. Riempie le tue barre al massimo."
   },
   {
     "Id": "consu4",
-    "Title": "Hamburger vegetariano"
+    "Title": "Hamburger vegetariano",
+    "Description": "Alternativa vegetariana. Riempie le tue barre al massimo."
   },
   {
     "Id": "consu5",
-    "Title": "Baguette di rianimazione"
+    "Title": "Baguette di rianimazione",
+    "Description": "Usala per rimettere in sesto i tuoi amici a terra e farli tornare in azione."
   },
   {
     "Id": "consu6",
@@ -25,6 +30,7 @@
   },
   {
     "Id": "consu7",
-    "Title": "Sacca di terriccio"
+    "Title": "Sacca di terriccio",
+    "Description": "Usalo per terra per piantare i semi."
   }
 ]

@@ -1,30 +1,37 @@
 [
   {
     "Id": "char1",
-    "Title": "Grüne Musikbot-Kapsel"
+    "Title": "Grüne Musikbot-Kapsel",
+    "Description": "Schieße auf die Kapsel oder schlage sie, um einen sehr wütenden Bot freizulassen. Male Bots in verschiedenen Farben an, so dass sie sich gegenseitig bekämpfen, anstatt dich anzugreifen."
   },
   {
     "Id": "char2",
-    "Title": "Heubot-Kapsel"
+    "Title": "Heubot-Kapsel",
+    "Description": "Schieße auf die Kapsel oder schlage sie, um einen sehr wütenden Bot freizulassen. Male Bots in verschiedenen Farben an, so dass sie sich gegenseitig bekämpfen, anstatt dich anzugreifen."
   },
   {
     "Id": "char3",
-    "Title": "Tapebot-Kapsel"
+    "Title": "Tapebot-Kapsel",
+    "Description": "Schieße auf die Kapsel oder schlage sie, um einen sehr wütenden Bot freizulassen. Male Bots in verschiedenen Farben an, so dass sie sich gegenseitig bekämpfen, anstatt dich anzugreifen."
   },
   {
     "Id": "char4",
-    "Title": "Rote Tapebot-Kapsel"
+    "Title": "Rote Tapebot-Kapsel",
+    "Description": "Schieße auf die Kapsel oder schlage sie, um einen sehr wütenden Bot freizulassen. Male Bots in verschiedenen Farben an, so dass sie sich gegenseitig bekämpfen, anstatt dich anzugreifen."
   },
   {
     "Id": "char5",
-    "Title": "Farmbot-Kapsel"
+    "Title": "Farmbot-Kapsel",
+    "Description": "Schieße auf die Kapsel oder schlage sie, um einen sehr wütenden Bot freizulassen. Male Bots in verschiedenen Farben an, so dass sie sich gegenseitig bekämpfen, anstatt dich anzugreifen."
   },
   {
     "Id": "char6",
-    "Title": "Glühwurm-Kapsel"
+    "Title": "Glühwurm-Kapsel",
+    "Description": "Schieße auf die Kapsel oder schlage sie, um einen freundlichen Glühwurm freizulassen."
   },
   {
     "Id": "char7",
-    "Title": "Woc-Kapsel"
+    "Title": "Woc-Kapsel",
+    "Description": "Schieße auf die Kapsel oder schlage sie, um einen freundlichen Woc freizulassen."
   }
 ]

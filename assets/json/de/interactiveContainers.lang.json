@@ -1,11 +1,13 @@
 [
   {
     "Id": "interc1",
-    "Title": "Düngemittelbehälter"
+    "Title": "Düngemittelbehälter",
+    "Description": "Platziere das Düngemittel und verbinde es mit einer Vakuumpumpe samt Auslöser. So schießt du Düngemittel auf deine Pflanzen."
   },
   {
     "Id": "interc2",
-    "Title": "Samenbehälter"
+    "Title": "Samenbehälter",
+    "Description": "Platziere die Samen und verbinde sie mit einer Vakuumpumpe samt Auslöser. So schießt du Samen auf den Boden."
   },
   {
     "Id": "interc3",

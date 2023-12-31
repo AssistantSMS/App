@@ -1,19 +1,23 @@
 [
   {
     "Id": "consshare1",
-    "Title": "Gasolina"
+    "Title": "Gasolina",
+    "Description": "Usada para alimentar motores de combustão e propulsores."
   },
   {
     "Id": "consshare2",
-    "Title": "Bateria"
+    "Title": "Bateria",
+    "Description": "Usada para alimentar peças elétricas."
   },
   {
     "Id": "consshare3",
-    "Title": "Água"
+    "Title": "Água",
+    "Description": "Ótima para regar as plantas. Infelizmente, não é ideal para beber."
   },
   {
     "Id": "consshare4",
-    "Title": "Batata"
+    "Title": "Batata",
+    "Description": "Uma batata rica em amido. Também pode ser usada como munição para batatarmas e batatarmas portáteis."
   },
   {
     "Id": "consshare5",
@@ -21,10 +25,12 @@
   },
   {
     "Id": "consshare6",
-    "Title": "Munição Pigmentadora"
+    "Title": "Munição Pigmentadora",
+    "Description": "Carregue o Pigmentador e dê cor às suas criações."
   },
   {
     "Id": "consshare7",
-    "Title": "Bastão Fluorescente"
+    "Title": "Bastão Fluorescente",
+    "Description": "Use-os à noite ou em lugares escuros para ver melhor as coisas."
   }
 ]

@@ -1,19 +1,23 @@
 [
   {
     "Id": "consshare1",
-    "Title": "가솔린"
+    "Title": "가솔린",
+    "Description": "가솔린 엔진과 추진기에 동력을 공급하는 데 사용합니다."
   },
   {
     "Id": "consshare2",
-    "Title": "배터리"
+    "Title": "배터리",
+    "Description": "전기 부품에 전력을 공급하는 데 사용합니다."
   },
   {
     "Id": "consshare3",
-    "Title": "물"
+    "Title": "물",
+    "Description": "식물에 주기는 좋습니다. 아쉽지만 마시기에는 적절하지 않네요."
   },
   {
     "Id": "consshare4",
-    "Title": "감자"
+    "Title": "감자",
+    "Description": "탄수화물 많은 감자입니다. 장난감총과 마운트 가능 장난감총에서 총알로도 쓰입니다."
   },
   {
     "Id": "consshare5",
@@ -21,10 +25,12 @@
   },
   {
     "Id": "consshare6",
-    "Title": "도색용 총알"
+    "Title": "도색용 총알",
+    "Description": "도색 도구에 장전하고 창작물에 색을 입히세요."
   },
   {
     "Id": "consshare7",
-    "Title": "야광 스틱"
+    "Title": "야광 스틱",
+    "Description": "밤이나 어두운 곳에 던지면 시야를 밝힐 수 있습니다."
   }
 ]

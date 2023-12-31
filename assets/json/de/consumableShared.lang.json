@@ -1,19 +1,23 @@
 [
   {
     "Id": "consshare1",
-    "Title": "Benzin"
+    "Title": "Benzin",
+    "Description": "Treibt Benzinmotoren und Schubdüsen an."
   },
   {
     "Id": "consshare2",
-    "Title": "Batterie"
+    "Title": "Batterie",
+    "Description": "Treibt elektrische Teile an."
   },
   {
     "Id": "consshare3",
-    "Title": "Wasser"
+    "Title": "Wasser",
+    "Description": "Großartig zum Gießen, leider ungeeignet zum Trinken."
   },
   {
     "Id": "consshare4",
-    "Title": "Kartoffel"
+    "Title": "Kartoffel",
+    "Description": "Eine stärkehaltige Kartoffel. Kann auch als Munition für Knollenkanonen und montierbare Knollenkanonen verwendet werden."
   },
   {
     "Id": "consshare5",
@@ -21,10 +25,12 @@
   },
   {
     "Id": "consshare6",
-    "Title": "Farbmunition"
+    "Title": "Farbmunition",
+    "Description": "Lade dein Zeichenwerkzeug und gib deinen Konstruktionen etwas Farbe."
   },
   {
     "Id": "consshare7",
-    "Title": "Knicklicht"
+    "Title": "Knicklicht",
+    "Description": "Wirf es in der Nacht oder an dunklen Orten, damit du besser sehen kannst."
   }
 ]

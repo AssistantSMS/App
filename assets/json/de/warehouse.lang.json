@@ -177,6 +177,7 @@
   },
   {
     "Id": "ware45",
-    "Title": "Master-Schalter"
+    "Title": "Master-Schalter",
+    "Description": "Unbegrenztes Schalten nach Bedarf. Der Schalter aktiviert alles, womit er verbunden ist. So kannst du Sachen mit Leichtigkeit auf einmal an- und abschalten. Er kann einen Motor, eine Schubdüse, die Steuereinheit und noch viel mehr aktivieren."
   }
 ]

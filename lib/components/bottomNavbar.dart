@@ -31,17 +31,17 @@ class BottomNavbar extends StatefulWidget {
   }) : super(key: key);
 
   @override
-  createState() => _BottomNavbarWidget();
+  createState() => _BottomNavbarWidget(currentRoute);
 }
 
 class _BottomNavbarWidget extends State<BottomNavbar>
     with SingleTickerProviderStateMixin {
   int currentRouteIndex = -1;
 
-  _BottomNavbarWidget() {
+  _BottomNavbarWidget(String? initialRoute) {
     List<NavBarItem> items = getItems(null);
     int index = items.indexWhere(
-      (item) => item.route == widget.currentRoute,
+      (item) => item.route == initialRoute,
     );
     if (index >= 0) {
       currentRouteIndex = index;
@@ -81,7 +81,7 @@ class _BottomNavbarWidget extends State<BottomNavbar>
     Color unSelectedColour = Colors.white38;
     Color selectedColour = Colors.white;
     Color selectedBgColour = getTheme().getSecondaryColour(context);
-    Color backgroundColour = getTheme().getBackgroundColour(context);
+    Color backgroundColour = Colors.white10;
     List<NavBarItem> items = getItems(context);
     return FloatingNavbar(
       items: items
@@ -94,10 +94,8 @@ class _BottomNavbarWidget extends State<BottomNavbar>
           .toList(),
       backgroundColor: backgroundColour,
       selectedItemColor: selectedColour,
-      unselectedItemColor:
-          (currentRouteIndex == -1) ? selectedColour : unSelectedColour,
-      selectedBackgroundColor:
-          (currentRouteIndex == -1) ? backgroundColour : selectedBgColour,
+      unselectedItemColor: unSelectedColour,
+      selectedBackgroundColor: selectedBgColour,
       currentIndex: currentRouteIndex,
       // onTap: (index) => setState(() => _bottomNavIndex = index),
       onTap: (int i) {

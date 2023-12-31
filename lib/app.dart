@@ -1,12 +1,11 @@
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
-import 'package:fluro/fluro.dart';
 import 'package:flutter/foundation.dart' show kReleaseMode;
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
 import 'package:redux/redux.dart';
 
 import 'components/adaptive/appShell.dart';
-import 'env/environmentSettings.dart';
+import 'env/environment_settings.dart';
 import 'integration/dependencyInjection.dart';
 import 'state/createStore.dart';
 import 'state/modules/base/appState.dart';

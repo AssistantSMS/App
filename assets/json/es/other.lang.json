@@ -1,47 +1,58 @@
 [
   {
     "Id": "other1",
-    "Title": "Herramienta de Conexión"
+    "Title": "Herramienta de Conexión",
+    "Description": "La Herramienta favorita de todos los mecánicos. Conecta partes interactivas juntas, por ejemplo: un motor de gas a los cojinetes o un propulsor de un asiento de conductor"
   },
   {
     "Id": "other2",
-    "Title": "Herramienta de Pintura"
+    "Title": "Herramienta de Pintura",
+    "Description": "¡Pinta cualquier parte o bloque para personalizar tus creaciones o incluso crear arte precioso! Pinta usando el botón izquierdo del ratón y elimina con el derecho. Pulsa 'Q' para abrir el selector de color. Sólo tiene que mantener pulsado el botón izquierdo del ratón y arrastrar si quieres pintar grandes superficies."
   },
   {
     "Id": "other3",
-    "Title": "Herramienta de Soldadura"
+    "Title": "Herramienta de Soldadura",
+    "Description": "¡Suelda juntas tus creaciones!\nSelecciona la Herramienta de Soldadura y haz click izquierdo en una creación suelta, entonces haz click izquierdo en la superficie de otra creación para soldarlas juntas. También puedes unir partes adyacentes en el elevador. Mantén pulsado el botón izquierdo del ratón en la primera parte y arrastra a la parte que deseas unir."
   },
   {
     "Id": "other4",
-    "Title": "Beacon"
+    "Title": "Beacon",
+    "Description": "Emits a tracking signal that can be toggled in the Logbook."
   },
   {
     "Id": "other5",
-    "Title": "Bomba de vacío"
+    "Title": "Bomba de vacío",
+    "Description": "Cuando se conecta a un disparador, la bomba de vacío tiene muchos usos: bombear agua a un contenedor de agua, recoger plantas para meterlas en un cofre e incluso puede disparar y lanzar objetos desde un cofre."
   },
   {
     "Id": "other6",
-    "Title": "Tubería de bomba"
+    "Title": "Tubería de bomba",
+    "Description": "Úsala con la bomba de vacío para que los objetos se transporten por las tuberías."
   },
   {
     "Id": "other7",
-    "Title": "Esquina de tubería de bomba"
+    "Title": "Esquina de tubería de bomba",
+    "Description": "Úsala con la bomba de vacío para que los objetos se transporten por las tuberías."
   },
   {
     "Id": "other8",
-    "Title": "Contenedor de gasolina"
+    "Title": "Contenedor de gasolina",
+    "Description": "Al conectarse, las latas guardan y cargan más gasolina en los motores de gasolina y en otras piezas interactivas que la requieren."
   },
   {
     "Id": "other9",
-    "Title": "Contenedor de batería"
+    "Title": "Contenedor de batería",
+    "Description": "Al conectarse, las latas guardan y cargan más batería en los motores eléctricos y en otras piezas interactivas que la requieren."
   },
   {
     "Id": "other10",
-    "Title": "Contenedor de agua"
+    "Title": "Contenedor de agua",
+    "Description": "Conéctalo a una bomba de vacío subacuática para llenar de agua el contenedor."
   },
   {
     "Id": "other11",
-    "Title": "Cañón de agua"
+    "Title": "Cañón de agua",
+    "Description": "Conéctalo a un contendedor de agua con un disparador para regar las plantas de forma más eficiente."
   },
   {
     "Id": "other12",
@@ -77,34 +88,42 @@
   },
   {
     "Id": "other20",
-    "Title": "Robot de cocina"
+    "Title": "Robot de cocina",
+    "Description": "Cocina deliciosa comida para llenar tu barra de vida o revivir a los amigos caídos."
   },
   {
     "Id": "other21",
-    "Title": "Contenedor de munición de patatas"
+    "Title": "Contenedor de munición de patatas",
+    "Description": "Conéctalo a un lanzapapas con un disparador para lanzar munición de patatas."
   },
   {
     "Id": "other22",
-    "Title": "Lanzapapas"
+    "Title": "Lanzapapas",
+    "Description": "Lanzapapas con un único disparo de patata."
   },
   {
     "Id": "other23",
-    "Title": "Escopeta lanzapapas"
+    "Title": "Escopeta lanzapapas",
+    "Description": "Dispara una salva de patatas fritas calientes."
   },
   {
     "Id": "other24",
-    "Title": "Papatralleta"
+    "Title": "Papatralleta",
+    "Description": "Dispara patatas rápidamente. Usa mucha munición de patata."
   },
   {
     "Id": "other25",
-    "Title": "Almádena"
+    "Title": "Almádena",
+    "Description": "Este poderoso martillo te permitirá empujar los objetos sueltos golpeandolos."
   },
   {
     "Id": "other26",
-    "Title": "Elevador"
+    "Title": "Elevador",
+    "Description": "Construye sobre el elevador para crear construcciones móviles que no queden sujetas al suelo. Se puede subir y bajar, también se puede dar la vuelta a las creaciones que se te hayan puesto bocabajo."
   },
   {
     "Id": "other27",
-    "Title": "Manual"
+    "Title": "Manual",
+    "Description": "Contiene toda la información que necesitas para aprender a construir máquinas asombrosas y convertirse en un verdadero mecánico."
   }
 ]

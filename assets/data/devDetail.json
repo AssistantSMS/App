@@ -1504,7 +1504,7 @@
       },
       {
         "Name": "Density",
-        "Value": "250,0"
+        "Value": "250.0"
       }
     ]
   },
@@ -1545,7 +1545,7 @@
       },
       {
         "Name": "Density",
-        "Value": "250,0"
+        "Value": "250.0"
       }
     ]
   },
@@ -10603,7 +10603,7 @@
       },
       {
         "Name": "Density",
-        "Value": "500,0"
+        "Value": "500.0"
       }
     ]
   },
@@ -10838,7 +10838,7 @@
       },
       {
         "Name": "Density",
-        "Value": "250,0"
+        "Value": "250.0"
       }
     ]
   },
@@ -10941,7 +10941,7 @@
       },
       {
         "Name": "Density",
-        "Value": "1250,0"
+        "Value": "1250.0"
       }
     ]
   },
@@ -10978,7 +10978,7 @@
       },
       {
         "Name": "Density",
-        "Value": "1250,0"
+        "Value": "1250.0"
       }
     ]
   },
@@ -11015,7 +11015,7 @@
       },
       {
         "Name": "Density",
-        "Value": "250,0"
+        "Value": "250.0"
       }
     ]
   },
@@ -11052,7 +11052,7 @@
       },
       {
         "Name": "Density",
-        "Value": "250,0"
+        "Value": "250.0"
       }
     ]
   },
@@ -11155,7 +11155,7 @@
       },
       {
         "Name": "Density",
-        "Value": "250,0"
+        "Value": "250.0"
       }
     ]
   },
@@ -11588,7 +11588,7 @@
       },
       {
         "Name": "Density",
-        "Value": "1250,0"
+        "Value": "1250.0"
       }
     ]
   },
@@ -11724,7 +11724,7 @@
       },
       {
         "Name": "Density",
-        "Value": "1250,0"
+        "Value": "1250.0"
       }
     ]
   },
@@ -11761,7 +11761,7 @@
       },
       {
         "Name": "Density",
-        "Value": "1250,0"
+        "Value": "1250.0"
       }
     ]
   },
@@ -11798,7 +11798,7 @@
       },
       {
         "Name": "Density",
-        "Value": "1250,0"
+        "Value": "1250.0"
       }
     ]
   },
@@ -11835,7 +11835,7 @@
       },
       {
         "Name": "Density",
-        "Value": "1250,0"
+        "Value": "1250.0"
       }
     ]
   },
@@ -11872,7 +11872,7 @@
       },
       {
         "Name": "Density",
-        "Value": "1250,0"
+        "Value": "1250.0"
       }
     ]
   },
@@ -11909,7 +11909,7 @@
       },
       {
         "Name": "Density",
-        "Value": "1250,0"
+        "Value": "1250.0"
       }
     ]
   },
@@ -11979,7 +11979,7 @@
       },
       {
         "Name": "Density",
-        "Value": "500,0"
+        "Value": "500.0"
       }
     ]
   },
@@ -12082,7 +12082,7 @@
       },
       {
         "Name": "Density",
-        "Value": "500,0"
+        "Value": "500.0"
       }
     ]
   },
@@ -12119,7 +12119,7 @@
       },
       {
         "Name": "Density",
-        "Value": "500,0"
+        "Value": "500.0"
       }
     ]
   },
@@ -12156,7 +12156,7 @@
       },
       {
         "Name": "Density",
-        "Value": "500,0"
+        "Value": "500.0"
       }
     ]
   },
@@ -12193,7 +12193,7 @@
       },
       {
         "Name": "Density",
-        "Value": "500,0"
+        "Value": "500.0"
       }
     ]
   },
@@ -12230,7 +12230,7 @@
       },
       {
         "Name": "Density",
-        "Value": "500,0"
+        "Value": "500.0"
       }
     ]
   },
@@ -12267,7 +12267,7 @@
       },
       {
         "Name": "Density",
-        "Value": "500,0"
+        "Value": "500.0"
       }
     ]
   },
@@ -12304,7 +12304,7 @@
       },
       {
         "Name": "Density",
-        "Value": "1250,0"
+        "Value": "1250.0"
       }
     ]
   },
@@ -12341,7 +12341,7 @@
       },
       {
         "Name": "Density",
-        "Value": "1250,0"
+        "Value": "1250.0"
       }
     ]
   },
@@ -12378,7 +12378,7 @@
       },
       {
         "Name": "Density",
-        "Value": "250,0"
+        "Value": "250.0"
       }
     ]
   },
@@ -12415,7 +12415,7 @@
       },
       {
         "Name": "Density",
-        "Value": "250,0"
+        "Value": "250.0"
       }
     ]
   },
@@ -12485,7 +12485,7 @@
       },
       {
         "Name": "Density",
-        "Value": "1250,0"
+        "Value": "1250.0"
       }
     ]
   },
@@ -12522,7 +12522,7 @@
       },
       {
         "Name": "Density",
-        "Value": "250,0"
+        "Value": "250.0"
       }
     ]
   },
@@ -12559,7 +12559,7 @@
       },
       {
         "Name": "Density",
-        "Value": "1250,0"
+        "Value": "1250.0"
       }
     ]
   },
@@ -18227,7 +18227,7 @@
       },
       {
         "Name": "Density",
-        "Value": "200,0"
+        "Value": "200.0"
       }
     ]
   },
@@ -18264,7 +18264,7 @@
       },
       {
         "Name": "Density",
-        "Value": "200,0"
+        "Value": "200.0"
       }
     ]
   },
@@ -18301,7 +18301,7 @@
       },
       {
         "Name": "Density",
-        "Value": "200,0"
+        "Value": "200.0"
       }
     ]
   },
@@ -18371,7 +18371,7 @@
       },
       {
         "Name": "Density",
-        "Value": "200,0"
+        "Value": "200.0"
       }
     ]
   },
@@ -18408,7 +18408,7 @@
       },
       {
         "Name": "Density",
-        "Value": "200,0"
+        "Value": "200.0"
       }
     ]
   },
@@ -18544,7 +18544,7 @@
       },
       {
         "Name": "Density",
-        "Value": "200,0"
+        "Value": "200.0"
       }
     ]
   },
@@ -19275,6 +19275,39 @@
     ]
   },
   {
+    "AppId": "tools1",
+    "Details": [
+      {
+        "Name": "GameName",
+        "Value": "obj_tool_sledgehammer"
+      },
+      {
+        "Name": "Uuid",
+        "Value": "cf41bd2d-8bd3-432b-8a92-a36eda7e7740"
+      },
+      {
+        "Name": "Color",
+        "Value": "ffffff"
+      },
+      {
+        "Name": "PhysicsMaterial",
+        "Value": "Plastic"
+      },
+      {
+        "Name": "StackSize",
+        "Value": "1"
+      },
+      {
+        "Name": "IsCreative",
+        "Value": "False"
+      },
+      {
+        "Name": "IsChallenge",
+        "Value": "False"
+      }
+    ]
+  },
+  {
     "AppId": "veh1",
     "Details": [
       {
@@ -19802,7 +19835,7 @@
       },
       {
         "Name": "Density",
-        "Value": "250,0"
+        "Value": "250.0"
       }
     ]
   },
@@ -20400,7 +20433,7 @@
       },
       {
         "Name": "Density",
-        "Value": "250,0"
+        "Value": "250.0"
       }
     ]
   },
@@ -20767,7 +20800,7 @@
       },
       {
         "Name": "Density",
-        "Value": "500,0"
+        "Value": "500.0"
       }
     ]
   },
@@ -20804,7 +20837,7 @@
       },
       {
         "Name": "Density",
-        "Value": "500,0"
+        "Value": "500.0"
       }
     ]
   },

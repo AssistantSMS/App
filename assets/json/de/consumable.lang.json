@@ -1,23 +1,28 @@
 [
   {
     "Id": "consu1",
-    "Title": "Düngemittel"
+    "Title": "Düngemittel",
+    "Description": "Lässt Pflanzen schneller wachsen."
   },
   {
     "Id": "consu2",
-    "Title": "Sonnenshake"
+    "Title": "Sonnenshake",
+    "Description": "Mechaniker trinken gerne einen kalten Sonnenshake, wenn sie durstig sind."
   },
   {
     "Id": "consu3",
-    "Title": "Pizza-Burger"
+    "Title": "Pizza-Burger",
+    "Description": "Das Lieblingsessen eines Mechanikers. Füllt alle deine Anzeigen bis zum Maximum auf."
   },
   {
     "Id": "consu4",
-    "Title": "Veggie-Burger"
+    "Title": "Veggie-Burger",
+    "Description": "Eine vegetarische Alternative. Füllt alle deine Anzeigen bis zum Maximum auf."
   },
   {
     "Id": "consu5",
-    "Title": "Wiederbelebungsbaguette"
+    "Title": "Wiederbelebungsbaguette",
+    "Description": "Füttere gefallene Freunde und hole sie zurück ins Geschehen!"
   },
   {
     "Id": "consu6",
@@ -25,6 +30,7 @@
   },
   {
     "Id": "consu7",
-    "Title": "Sack Erde"
+    "Title": "Sack Erde",
+    "Description": "Platziere die Erde auf dem Boden, damit du Samen anpflanzen kannst."
   }
 ]

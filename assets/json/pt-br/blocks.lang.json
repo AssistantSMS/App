@@ -166,5 +166,17 @@
   {
     "Id": "blk42",
     "Title": "Bloco de Papelão"
+  },
+  {
+    "Id": "blk43",
+    "Title": "Bloco de Desafio 1"
+  },
+  {
+    "Id": "blk44",
+    "Title": "Bloco de Desafio 2"
+  },
+  {
+    "Id": "blk45",
+    "Title": "Vidro de Desafio"
   }
 ]

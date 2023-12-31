@@ -166,5 +166,17 @@
   {
     "Id": "blk42",
     "Title": "Blok kartonowy"
+  },
+  {
+    "Id": "blk43",
+    "Title": "Blok 1 – wyzwanie"
+  },
+  {
+    "Id": "blk44",
+    "Title": "Blok 2 – wyzwanie"
+  },
+  {
+    "Id": "blk45",
+    "Title": "Szkło – wyzwanie"
   }
 ]

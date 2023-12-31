@@ -41,34 +41,42 @@
   },
   {
     "Id": "plant11",
-    "Title": "Banane"
+    "Title": "Banane",
+    "Description": "Une banane fraîche."
   },
   {
     "Id": "plant12",
-    "Title": "Myrtille"
+    "Title": "Myrtille",
+    "Description": "Une myrtille sucrée."
   },
   {
     "Id": "plant13",
-    "Title": "Orange"
+    "Title": "Orange",
+    "Description": "Une orange juteuse."
   },
   {
     "Id": "plant14",
-    "Title": "Ananas"
+    "Title": "Ananas",
+    "Description": "Un ananas juteux."
   },
   {
     "Id": "plant15",
-    "Title": "Carotte"
+    "Title": "Carotte",
+    "Description": "Une carotte nourrissante."
   },
   {
     "Id": "plant16",
-    "Title": "Betterave"
+    "Title": "Betterave",
+    "Description": "Une betterave nourrissante."
   },
   {
     "Id": "plant17",
-    "Title": "Tomate"
+    "Title": "Tomate",
+    "Description": "Une tomate juteuse."
   },
   {
     "Id": "plant18",
-    "Title": "Brocoli"
+    "Title": "Brocoli",
+    "Description": "Un brocoli nourrissant."
   }
 ]

@@ -25,10 +25,12 @@
   },
   {
     "Id": "light7",
-    "Title": "Światło przednie"
+    "Title": "Światło przednie",
+    "Description": "I stała się jasność! Połącz z włącznikiem, aby móc włączać i wyłączać. Możliwość dostosowania zasięgu."
   },
   {
     "Id": "light8",
-    "Title": "Światło punktowe do magazynu"
+    "Title": "Światło punktowe do magazynu",
+    "Description": "I stała się jasność! Połącz z włącznikiem, aby móc włączać i wyłączać. Możliwość dostosowania zasięgu."
   }
 ]

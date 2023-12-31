@@ -60,7 +60,7 @@
   "edit": "Bearbeiten",
   "delete": "Löschen",
   "deleteAll": "Alles löschen",
-  "cart": "Einkaufswagen",
+  "cart": "Liste",
   "quantity": "Anzahl",
   "unknown": "Unbekannt",
   "settings": "Einstellungen",
@@ -87,7 +87,7 @@
   "areYouSure": "Sind Sie sicher?",
   "openCollective": "Öffentlich Sammelbar",
   "privacyPolicy": "Datenschutz-Bestimmungen",
-  "termsAndConditions": "allgemeine Geschäftsbedingungen",
+  "termsAndConditions": "Allgemeine Geschäftsbedingungen",
   "legal": "Rechtliches",
   "flatList": "Liste",
   "tree": "Baum",
@@ -100,6 +100,7 @@
   "pendingAppStoreRelease": "App Store Zulassung ausstehend",
   "appVersion": "Version der App: {0}",
   "gameVersion": "Spiel Version: {0}",
+  "patreonAccess": "Patreon Zugang",
   "assistantApps": "AssistantApps",
   "japanese": "Japanisch",
   "korean": "Koreanisch",
@@ -171,5 +172,5 @@
   "foundIn": "Zu finden in",
   "home": "Home",
   "creative": "Kreativ",
-  "hashCode": "550D87B92395642787AAA5A851AD709E"
+  "hashCode": "E524F18E7DF944CDE018A44AFE718AE5"
 }

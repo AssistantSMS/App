@@ -1,30 +1,37 @@
 [
   {
     "Id": "char1",
-    "Title": "Cápsula de transportabot verde"
+    "Title": "Cápsula de transportabot verde",
+    "Description": "Cápsula de transportabot verde Dispara o golpea la cápsula para liberar a un robot muy enfadado. Pinta los robots de colores distintos para que puedan atacarse entre ellos en lugar de ir a por ti."
   },
   {
     "Id": "char2",
-    "Title": "Cápsula de horquetabot"
+    "Title": "Cápsula de horquetabot",
+    "Description": "Cápsula de transportabot verde Dispara o golpea la cápsula para liberar a un robot muy enfadado. Pinta los robots de colores distintos para que puedan atacarse entre ellos en lugar de ir a por ti."
   },
   {
     "Id": "char3",
-    "Title": "Cápsula de cintabot"
+    "Title": "Cápsula de cintabot",
+    "Description": "Cápsula de transportabot verde Dispara o golpea la cápsula para liberar a un robot muy enfadado. Pinta los robots de colores distintos para que puedan atacarse entre ellos en lugar de ir a por ti."
   },
   {
     "Id": "char4",
-    "Title": "Cápsula de cintabot rojo"
+    "Title": "Cápsula de cintabot rojo",
+    "Description": "Cápsula de transportabot verde Dispara o golpea la cápsula para liberar a un robot muy enfadado. Pinta los robots de colores distintos para que puedan atacarse entre ellos en lugar de ir a por ti."
   },
   {
     "Id": "char5",
-    "Title": "Cápsula de agribot"
+    "Title": "Cápsula de agribot",
+    "Description": "Cápsula de transportabot verde Dispara o golpea la cápsula para liberar a un robot muy enfadado. Pinta los robots de colores distintos para que puedan atacarse entre ellos en lugar de ir a por ti."
   },
   {
     "Id": "char6",
-    "Title": "Cápsula de lumibicho"
+    "Title": "Cápsula de lumibicho",
+    "Description": "Dispara o golpea la cápsula para liberar a un lumibicho aliado."
   },
   {
     "Id": "char7",
-    "Title": "Cápsula de woc"
+    "Title": "Cápsula de woc",
+    "Description": "Dispara o golpea la cápsula para liberar a un woc aliado."
   }
 ]

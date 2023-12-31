@@ -1,19 +1,23 @@
 [
   {
     "Id": "consshare1",
-    "Title": "Gasolina"
+    "Title": "Gasolina",
+    "Description": "Se usa para alimentar los motores de gasolina y los propulsores."
   },
   {
     "Id": "consshare2",
-    "Title": "Batería"
+    "Title": "Batería",
+    "Description": "Se usa para alimentar las piezas eléctricas."
   },
   {
     "Id": "consshare3",
-    "Title": "Agua"
+    "Title": "Agua",
+    "Description": "Ideal para regar las plantas, aunque, por desgracia, no se puede beber."
   },
   {
     "Id": "consshare4",
-    "Title": "Patata"
+    "Title": "Patata",
+    "Description": "Una dura patata. También se puede usar como munición para los lanzapapas y los lanzapapas portátiles."
   },
   {
     "Id": "consshare5",
@@ -21,10 +25,12 @@
   },
   {
     "Id": "consshare6",
-    "Title": "Munición de pintura"
+    "Title": "Munición de pintura",
+    "Description": "Carga tu herramienta de pintura y da algo de color a tus creaciones."
   },
   {
     "Id": "consshare7",
-    "Title": "Palo fluorescente"
+    "Title": "Palo fluorescente",
+    "Description": "Úsalo por la noche o en lugares oscuros para ver mejor."
   }
 ]

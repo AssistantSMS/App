@@ -1,11 +1,13 @@
 [
   {
     "Id": "interc1",
-    "Title": "Contenedor de fertilizante"
+    "Title": "Contenedor de fertilizante",
+    "Description": "Ponle fertilizante y conéctalo a una bomba de vacío con un disparador para lanzar fertilizante a la plantas."
   },
   {
     "Id": "interc2",
-    "Title": "Contenedor de semillas"
+    "Title": "Contenedor de semillas",
+    "Description": "Ponle semillas y conéctalo a una bomba de vacío con un disparador para lanzar semillas al suelo."
   },
   {
     "Id": "interc3",

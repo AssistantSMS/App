@@ -1,14 +1,17 @@
 [
   {
     "Id": "out1",
-    "Title": "Scatola di vestiti (comune)"
+    "Title": "Scatola di vestiti (comune)",
+    "Description": "Utilizzala all’interno di un Robosarto per confezionare nuovi indumenti."
   },
   {
     "Id": "out2",
-    "Title": "Scatola di vestiti (rara)"
+    "Title": "Scatola di vestiti (rara)",
+    "Description": "Utilizzala all’interno di un Robosarto per confezionare nuovi indumenti."
   },
   {
     "Id": "out3",
-    "Title": "Scatola di vestiti (leggendaria)"
+    "Title": "Scatola di vestiti (leggendaria)",
+    "Description": "Utilizzala all’interno di un Robosarto per confezionare nuovi indumenti."
   }
 ]

@@ -1,30 +1,37 @@
 [
   {
     "Id": "char1",
-    "Title": "Capsule de Totebot vert"
+    "Title": "Capsule de Totebot vert",
+    "Description": "Frappez ou tirez sur une capsule pour libérer un bot très énervé. Peignez les bots de différentes couleurs afin qu'ils s'en prennent à d'autres bots au lieu de vous attaquer."
   },
   {
     "Id": "char2",
-    "Title": "Capsule de Haybot"
+    "Title": "Capsule de Haybot",
+    "Description": "Frappez ou tirez sur une capsule pour libérer un bot très énervé. Peignez les bots de différentes couleurs afin qu'ils s'en prennent à d'autres bots au lieu de vous attaquer."
   },
   {
     "Id": "char3",
-    "Title": "Capsule de Tapebot"
+    "Title": "Capsule de Tapebot",
+    "Description": "Frappez ou tirez sur une capsule pour libérer un bot très énervé. Peignez les bots de différentes couleurs afin qu'ils s'en prennent à d'autres bots au lieu de vous attaquer."
   },
   {
     "Id": "char4",
-    "Title": "Capsule de Tapebot rouge"
+    "Title": "Capsule de Tapebot rouge",
+    "Description": "Frappez ou tirez sur une capsule pour libérer un bot très énervé. Peignez les bots de différentes couleurs afin qu'ils s'en prennent à d'autres bots au lieu de vous attaquer."
   },
   {
     "Id": "char5",
-    "Title": "Capsule de Farmbot"
+    "Title": "Capsule de Farmbot",
+    "Description": "Frappez ou tirez sur une capsule pour libérer un bot très énervé. Peignez les bots de différentes couleurs afin qu'ils s'en prennent à d'autres bots au lieu de vous attaquer."
   },
   {
     "Id": "char6",
-    "Title": "Capsule de Glowb"
+    "Title": "Capsule de Glowb",
+    "Description": "Frappez ou tirez sur une capsule pour libérer un gentil Glowb."
   },
   {
     "Id": "char7",
-    "Title": "Capsule de Woc"
+    "Title": "Capsule de Woc",
+    "Description": "Frappez ou tirez sur une capsule pour libérer une gentille Woc."
   }
 ]

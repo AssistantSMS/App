@@ -1,242 +1,302 @@
 [
   {
     "Id": "interu1",
-    "Title": "Sospensione sportiva 1"
+    "Title": "Sospensione sportiva 1",
+    "Description": "Aggiunge ammortizzazione e fornisce stabilità. Ideale per impedire ai veicoli di ribaltarsi con facilità. Questa sospensione è piccola, ma restituisce vibrazioni rigide."
   },
   {
     "Id": "interu2",
-    "Title": "Sospensione sportiva 2"
+    "Title": "Sospensione sportiva 2",
+    "Description": "Aggiunge ammortizzazione e fornisce stabilità. Ideale per impedire ai veicoli di ribaltarsi con facilità. Questa sospensione è piccola, ma restituisce vibrazioni rigide."
   },
   {
     "Id": "interu3",
-    "Title": "Sospensione sportiva 3"
+    "Title": "Sospensione sportiva 3",
+    "Description": "Aggiunge ammortizzazione e fornisce stabilità. Ideale per impedire ai veicoli di ribaltarsi con facilità. Questa sospensione è piccola, ma restituisce vibrazioni rigide."
   },
   {
     "Id": "interu4",
-    "Title": "Sospensione sportiva 4"
+    "Title": "Sospensione sportiva 4",
+    "Description": "Aggiunge ammortizzazione e fornisce stabilità. Ideale per impedire ai veicoli di ribaltarsi con facilità. Questa sospensione è piccola, ma restituisce vibrazioni rigide."
   },
   {
     "Id": "interu5",
-    "Title": "Sospensione sportiva 5"
+    "Title": "Sospensione sportiva 5",
+    "Description": "Aggiunge ammortizzazione e fornisce stabilità. Ideale per impedire ai veicoli di ribaltarsi con facilità. Questa sospensione è piccola, ma restituisce vibrazioni rigide."
   },
   {
     "Id": "interu6",
-    "Title": "Sospensione fuoristrada 1"
+    "Title": "Sospensione fuoristrada 1",
+    "Description": "Aggiunge ammortizzazione e fornisce stabilità. Ideale per impedire ai veicoli di ribaltarsi con facilità. Questa sospensione è in grado di oscillare molto, il che la rende adatta per i veicoli fuoristrada."
   },
   {
     "Id": "interu7",
-    "Title": "Sospensione fuoristrada 2"
+    "Title": "Sospensione fuoristrada 2",
+    "Description": "Aggiunge ammortizzazione e fornisce stabilità. Ideale per impedire ai veicoli di ribaltarsi con facilità. Questa sospensione è in grado di oscillare molto, il che la rende adatta per i veicoli fuoristrada."
   },
   {
     "Id": "interu8",
-    "Title": "Sospensione fuoristrada 3"
+    "Title": "Sospensione fuoristrada 3",
+    "Description": "Aggiunge ammortizzazione e fornisce stabilità. Ideale per impedire ai veicoli di ribaltarsi con facilità. Questa sospensione è in grado di oscillare molto, il che la rende adatta per i veicoli fuoristrada."
   },
   {
     "Id": "interu9",
-    "Title": "Sospensione fuoristrada 4"
+    "Title": "Sospensione fuoristrada 4",
+    "Description": "Aggiunge ammortizzazione e fornisce stabilità. Ideale per impedire ai veicoli di ribaltarsi con facilità. Questa sospensione è in grado di oscillare molto, il che la rende adatta per i veicoli fuoristrada."
   },
   {
     "Id": "interu10",
-    "Title": "Sospensione fuoristrada 5"
+    "Title": "Sospensione fuoristrada 5",
+    "Description": "Aggiunge ammortizzazione e fornisce stabilità. Ideale per impedire ai veicoli di ribaltarsi con facilità. Questa sospensione è in grado di oscillare molto, il che la rende adatta per i veicoli fuoristrada."
   },
   {
     "Id": "interu11",
-    "Title": "Sedile di guida 1"
+    "Title": "Sedile di guida 1",
+    "Description": "Permette ai cuscinetti di girare lateralmente. Può essere collegato a un motore per controllare la direzione di guida. Può anche essere collegato agli attivatori che possono essere attivati dal sedile stesso. Il sedile di guida di liv. 5 sblocca le impostazioni di sterzata premendo (E) e collegando i cuscinetti con il connettore."
   },
   {
     "Id": "interu12",
-    "Title": "Sedile di guida 2"
+    "Title": "Sedile di guida 2",
+    "Description": "Permette ai cuscinetti di girare lateralmente. Può essere collegato a un motore per controllare la direzione di guida. Può anche essere collegato agli attivatori che possono essere attivati dal sedile stesso. Il sedile di guida di liv. 5 sblocca le impostazioni di sterzata premendo (E) e collegando i cuscinetti con il connettore."
   },
   {
     "Id": "interu13",
-    "Title": "Sedile di guida 3"
+    "Title": "Sedile di guida 3",
+    "Description": "Permette ai cuscinetti di girare lateralmente. Può essere collegato a un motore per controllare la direzione di guida. Può anche essere collegato agli attivatori che possono essere attivati dal sedile stesso. Il sedile di guida di liv. 5 sblocca le impostazioni di sterzata premendo (E) e collegando i cuscinetti con il connettore."
   },
   {
     "Id": "interu14",
-    "Title": "Sedile di guida 4"
+    "Title": "Sedile di guida 4",
+    "Description": "Permette ai cuscinetti di girare lateralmente. Può essere collegato a un motore per controllare la direzione di guida. Può anche essere collegato agli attivatori che possono essere attivati dal sedile stesso. Il sedile di guida di liv. 5 sblocca le impostazioni di sterzata premendo (E) e collegando i cuscinetti con il connettore."
   },
   {
     "Id": "interu15",
-    "Title": "Sedile di guida 5"
+    "Title": "Sedile di guida 5",
+    "Description": "Permette ai cuscinetti di girare lateralmente. Può essere collegato a un motore per controllare la direzione di guida. Può anche essere collegato agli attivatori che possono essere attivati dal sedile stesso. Il sedile di guida di liv. 5 sblocca le impostazioni di sterzata premendo (E) e collegando i cuscinetti con il connettore."
   },
   {
     "Id": "interu16",
-    "Title": "Sella di guida 1"
+    "Title": "Sella di guida 1",
+    "Description": "Permette ai cuscinetti di girare lateralmente. Può essere collegata a un motore per controllare la direzione di guida. Può anche essere collegata agli attivatori che possono essere attivati dalla sella. La sella di guida di liv. 5 sblocca le impostazioni di sterzata premendo (E) e collegando i cuscinetti con il connettore."
   },
   {
     "Id": "interu17",
-    "Title": "Sella di guida 2"
+    "Title": "Sella di guida 2",
+    "Description": "Permette ai cuscinetti di girare lateralmente. Può essere collegata a un motore per controllare la direzione di guida. Può anche essere collegata agli attivatori che possono essere attivati dalla sella. La sella di guida di liv. 5 sblocca le impostazioni di sterzata premendo (E) e collegando i cuscinetti con il connettore."
   },
   {
     "Id": "interu18",
-    "Title": "Sella di guida 3"
+    "Title": "Sella di guida 3",
+    "Description": "Permette ai cuscinetti di girare lateralmente. Può essere collegata a un motore per controllare la direzione di guida. Può anche essere collegata agli attivatori che possono essere attivati dalla sella. La sella di guida di liv. 5 sblocca le impostazioni di sterzata premendo (E) e collegando i cuscinetti con il connettore."
   },
   {
     "Id": "interu19",
-    "Title": "Sella di guida 4"
+    "Title": "Sella di guida 4",
+    "Description": "Permette ai cuscinetti di girare lateralmente. Può essere collegata a un motore per controllare la direzione di guida. Può anche essere collegata agli attivatori che possono essere attivati dalla sella. La sella di guida di liv. 5 sblocca le impostazioni di sterzata premendo (E) e collegando i cuscinetti con il connettore."
   },
   {
     "Id": "interu20",
-    "Title": "Sella di guida 5"
+    "Title": "Sella di guida 5",
+    "Description": "Permette ai cuscinetti di girare lateralmente. Può essere collegata a un motore per controllare la direzione di guida. Può anche essere collegata agli attivatori che possono essere attivati dalla sella. La sella di guida di liv. 5 sblocca le impostazioni di sterzata premendo (E) e collegando i cuscinetti con il connettore."
   },
   {
     "Id": "interu21",
-    "Title": "Sedile 1"
+    "Title": "Sedile 1",
+    "Description": "Si usa per non dover stare in piedi. Siediti pure e rilassati, oppure aggiungilo al tuo veicolo in modo che i tuoi amici possano accompagnarti. Può essere collegato agli attivatori che possono attivare altre parti interattive dal sedile."
   },
   {
     "Id": "interu22",
-    "Title": "Sedile 2"
+    "Title": "Sedile 2",
+    "Description": "Si usa per non dover stare in piedi. Siediti pure e rilassati, oppure aggiungilo al tuo veicolo in modo che i tuoi amici possano accompagnarti. Può essere collegato agli attivatori che possono attivare altre parti interattive dal sedile."
   },
   {
     "Id": "interu23",
-    "Title": "Sedile 3"
+    "Title": "Sedile 3",
+    "Description": "Si usa per non dover stare in piedi. Siediti pure e rilassati, oppure aggiungilo al tuo veicolo in modo che i tuoi amici possano accompagnarti. Può essere collegato agli attivatori che possono attivare altre parti interattive dal sedile."
   },
   {
     "Id": "interu24",
-    "Title": "Sedile 4"
+    "Title": "Sedile 4",
+    "Description": "Si usa per non dover stare in piedi. Siediti pure e rilassati, oppure aggiungilo al tuo veicolo in modo che i tuoi amici possano accompagnarti. Può essere collegato agli attivatori che possono attivare altre parti interattive dal sedile."
   },
   {
     "Id": "interu25",
-    "Title": "Sedile 5"
+    "Title": "Sedile 5",
+    "Description": "Si usa per non dover stare in piedi. Siediti pure e rilassati, oppure aggiungilo al tuo veicolo in modo che i tuoi amici possano accompagnarti. Può essere collegato agli attivatori che possono attivare altre parti interattive dal sedile."
   },
   {
     "Id": "interu26",
-    "Title": "Sella 1"
+    "Title": "Sella 1",
+    "Description": "Si usa per non dover stare in piedi. Siediti pure e rilassati, oppure aggiungila al tuo veicolo in modo che i tuoi amici possano accompagnarti. Può essere collegata agli attivatori che possono attivare altre parti interattive dalla sella."
   },
   {
     "Id": "interu27",
-    "Title": "Sella 2"
+    "Title": "Sella 2",
+    "Description": "Si usa per non dover stare in piedi. Siediti pure e rilassati, oppure aggiungila al tuo veicolo in modo che i tuoi amici possano accompagnarti. Può essere collegata agli attivatori che possono attivare altre parti interattive dalla sella."
   },
   {
     "Id": "interu28",
-    "Title": "Sella 3"
+    "Title": "Sella 3",
+    "Description": "Si usa per non dover stare in piedi. Siediti pure e rilassati, oppure aggiungila al tuo veicolo in modo che i tuoi amici possano accompagnarti. Può essere collegata agli attivatori che possono attivare altre parti interattive dalla sella."
   },
   {
     "Id": "interu29",
-    "Title": "Sella 4"
+    "Title": "Sella 4",
+    "Description": "Si usa per non dover stare in piedi. Siediti pure e rilassati, oppure aggiungila al tuo veicolo in modo che i tuoi amici possano accompagnarti. Può essere collegata agli attivatori che possono attivare altre parti interattive dalla sella."
   },
   {
     "Id": "interu30",
-    "Title": "Sella 5"
+    "Title": "Sella 5",
+    "Description": "Si usa per non dover stare in piedi. Siediti pure e rilassati, oppure aggiungila al tuo veicolo in modo che i tuoi amici possano accompagnarti. Può essere collegata agli attivatori che possono attivare altre parti interattive dalla sella."
   },
   {
     "Id": "interu31",
-    "Title": "Motore a benzina 1"
+    "Title": "Motore a benzina 1",
+    "Description": "Un motore a velocità fissa con potenza regolabile, idealmente adatto per alimentare i veicoli. Può essere collegato a un sedile di guida o a un attivatore. Miglioralo per ulteriori punti di connessione e un minor consumo di carburante."
   },
   {
     "Id": "interu32",
-    "Title": "Motore a benzina 2"
+    "Title": "Motore a benzina 2",
+    "Description": "Un motore a velocità fissa con potenza regolabile, idealmente adatto per alimentare i veicoli. Può essere collegato a un sedile di guida o a un attivatore. Miglioralo per ulteriori punti di connessione e un minor consumo di carburante."
   },
   {
     "Id": "interu33",
-    "Title": "Motore a benzina 3"
+    "Title": "Motore a benzina 3",
+    "Description": "Un motore a velocità fissa con potenza regolabile, idealmente adatto per alimentare i veicoli. Può essere collegato a un sedile di guida o a un attivatore. Miglioralo per ulteriori punti di connessione e un minor consumo di carburante."
   },
   {
     "Id": "interu34",
-    "Title": "Motore a benzina 4"
+    "Title": "Motore a benzina 4",
+    "Description": "Un motore a velocità fissa con potenza regolabile, idealmente adatto per alimentare i veicoli. Può essere collegato a un sedile di guida o a un attivatore. Miglioralo per ulteriori punti di connessione e un minor consumo di carburante."
   },
   {
     "Id": "interu35",
-    "Title": "Motore a benzina 5"
+    "Title": "Motore a benzina 5",
+    "Description": "Un motore a velocità fissa con potenza regolabile, idealmente adatto per alimentare i veicoli. Può essere collegato a un sedile di guida o a un attivatore. Miglioralo per ulteriori punti di connessione e un minor consumo di carburante."
   },
   {
     "Id": "interu36",
-    "Title": "Motore elettrico 1"
+    "Title": "Motore elettrico 1",
+    "Description": "Alimenta i cuscinetti. Un motore a potenza fissa con velocità regolabile. Motore debole con velocità regolabile. Può essere collegato a un sedile di guida o a un attivatore. Miglioralo per ulteriori punti di collegamento e un minor consumo di batteria."
   },
   {
     "Id": "interu37",
-    "Title": "Motore elettrico 2"
+    "Title": "Motore elettrico 2",
+    "Description": "Alimenta i cuscinetti. Un motore a potenza fissa con velocità regolabile. Motore debole con velocità regolabile. Può essere collegato a un sedile di guida o a un attivatore. Miglioralo per ulteriori punti di collegamento e un minor consumo di batteria."
   },
   {
     "Id": "interu38",
-    "Title": "Motore elettrico 3"
+    "Title": "Motore elettrico 3",
+    "Description": "Alimenta i cuscinetti. Un motore a potenza fissa con velocità regolabile. Motore debole con velocità regolabile. Può essere collegato a un sedile di guida o a un attivatore. Miglioralo per ulteriori punti di collegamento e un minor consumo di batteria."
   },
   {
     "Id": "interu39",
-    "Title": "Motore elettrico 4"
+    "Title": "Motore elettrico 4",
+    "Description": "Alimenta i cuscinetti. Un motore a potenza fissa con velocità regolabile. Motore debole con velocità regolabile. Può essere collegato a un sedile di guida o a un attivatore. Miglioralo per ulteriori punti di collegamento e un minor consumo di batteria."
   },
   {
     "Id": "interu40",
-    "Title": "Motore elettrico 5"
+    "Title": "Motore elettrico 5",
+    "Description": "Alimenta i cuscinetti. Un motore a potenza fissa con velocità regolabile. Motore debole con velocità regolabile. Può essere collegato a un sedile di guida o a un attivatore. Miglioralo per ulteriori punti di collegamento e un minor consumo di batteria."
   },
   {
     "Id": "interu41",
-    "Title": "Propulsore 1"
+    "Title": "Propulsore 1",
+    "Description": "Ne bastano un po’ per far spiccare il volo. Deve essere collegato a un attivatore o a un sedile di guida per attivarsi. Miglioralo per un minor consumo di carburante."
   },
   {
     "Id": "interu42",
-    "Title": "Propulsore 2"
+    "Title": "Propulsore 2",
+    "Description": "Ne bastano un po’ per far spiccare il volo. Deve essere collegato a un attivatore o a un sedile di guida per attivarsi. Miglioralo per un minor consumo di carburante."
   },
   {
     "Id": "interu43",
-    "Title": "Propulsore 3"
+    "Title": "Propulsore 3",
+    "Description": "Ne bastano un po’ per far spiccare il volo. Deve essere collegato a un attivatore o a un sedile di guida per attivarsi. Miglioralo per un minor consumo di carburante."
   },
   {
     "Id": "interu44",
-    "Title": "Propulsore 4"
+    "Title": "Propulsore 4",
+    "Description": "Ne bastano un po’ per far spiccare il volo. Deve essere collegato a un attivatore o a un sedile di guida per attivarsi. Miglioralo per un minor consumo di carburante."
   },
   {
     "Id": "interu45",
-    "Title": "Propulsore 5"
+    "Title": "Propulsore 5",
+    "Description": "Ne bastano un po’ per far spiccare il volo. Deve essere collegato a un attivatore o a un sedile di guida per attivarsi. Miglioralo per un minor consumo di carburante."
   },
   {
     "Id": "interu46",
-    "Title": "Unità di controllo 1"
+    "Title": "Unità di controllo 1",
+    "Description": "Permette ai cuscinetti di ruotare in sequenza. È perfetta per costruire creazioni che si trasformano. Deve essere collegata ai cuscinetti e si attiva collegandola a un attivatore o a un sedile di guida."
   },
   {
     "Id": "interu47",
-    "Title": "Unità di controllo 2"
+    "Title": "Unità di controllo 2",
+    "Description": "Permette ai cuscinetti di ruotare in sequenza. È perfetta per costruire creazioni che si trasformano. Deve essere collegata ai cuscinetti e si attiva collegandola a un attivatore o a un sedile di guida."
   },
   {
     "Id": "interu48",
-    "Title": "Unità di controllo 3"
+    "Title": "Unità di controllo 3",
+    "Description": "Permette ai cuscinetti di ruotare in sequenza. È perfetta per costruire creazioni che si trasformano. Deve essere collegata ai cuscinetti e si attiva collegandola a un attivatore o a un sedile di guida."
   },
   {
     "Id": "interu49",
-    "Title": "Unità di controllo 4"
+    "Title": "Unità di controllo 4",
+    "Description": "Permette ai cuscinetti di ruotare in sequenza. È perfetta per costruire creazioni che si trasformano. Deve essere collegata ai cuscinetti e si attiva collegandola a un attivatore o a un sedile di guida."
   },
   {
     "Id": "interu50",
-    "Title": "Unità di controllo 5"
+    "Title": "Unità di controllo 5",
+    "Description": "Permette ai cuscinetti di ruotare in sequenza. È perfetta per costruire creazioni che si trasformano. Deve essere collegata ai cuscinetti e si attiva collegandola a un attivatore o a un sedile di guida."
   },
   {
     "Id": "interu51",
-    "Title": "Sensore 1"
+    "Title": "Sensore 1",
+    "Description": "Rilevamento, attivazione! Il sensore si attiva quando rileva un tipo di superficie qualsiasi che entra nel suo campo visivo e ha una portata di dieci blocchi. Può attivare un motore, un propulsore, un’unità di controllo e altro."
   },
   {
     "Id": "interu52",
-    "Title": "Sensore 2"
+    "Title": "Sensore 2",
+    "Description": "Rilevamento, attivazione! Il sensore si attiva quando rileva un tipo di superficie qualsiasi che entra nel suo campo visivo e ha una portata di dieci blocchi. Può attivare un motore, un propulsore, un’unità di controllo e altro."
   },
   {
     "Id": "interu53",
-    "Title": "Sensore 3"
+    "Title": "Sensore 3",
+    "Description": "Rilevamento, attivazione! Il sensore si attiva quando rileva un tipo di superficie qualsiasi che entra nel suo campo visivo e ha una portata di dieci blocchi. Può attivare un motore, un propulsore, un’unità di controllo e altro."
   },
   {
     "Id": "interu54",
-    "Title": "Sensore 4"
+    "Title": "Sensore 4",
+    "Description": "Rilevamento, attivazione! Il sensore si attiva quando rileva un tipo di superficie qualsiasi che entra nel suo campo visivo e ha una portata di dieci blocchi. Può attivare un motore, un propulsore, un’unità di controllo e altro."
   },
   {
     "Id": "interu55",
-    "Title": "Sensore 5"
+    "Title": "Sensore 5",
+    "Description": "Rilevamento, attivazione! Il sensore si attiva quando rileva un tipo di superficie qualsiasi che entra nel suo campo visivo e ha una portata di dieci blocchi. Può attivare un motore, un propulsore, un’unità di controllo e altro."
   },
   {
     "Id": "interu56",
-    "Title": "Pistone 1"
+    "Title": "Pistone 1",
+    "Description": "Si allunga e si ritrae! Collegalo a un attivatore per attivarlo. Il pistone può essere collegato a un’unità di controllo per farlo allungare e ritrarre in sequenza. È perfetto per realizzare creazioni impressionanti."
   },
   {
     "Id": "interu57",
-    "Title": "Pistone 2"
+    "Title": "Pistone 2",
+    "Description": "Si allunga e si ritrae! Collegalo a un attivatore per attivarlo. Il pistone può essere collegato a un’unità di controllo per farlo allungare e ritrarre in sequenza. È perfetto per realizzare creazioni impressionanti."
   },
   {
     "Id": "interu58",
-    "Title": "Pistone 3"
+    "Title": "Pistone 3",
+    "Description": "Si allunga e si ritrae! Collegalo a un attivatore per attivarlo. Il pistone può essere collegato a un’unità di controllo per farlo allungare e ritrarre in sequenza. È perfetto per realizzare creazioni impressionanti."
   },
   {
     "Id": "interu59",
-    "Title": "Pistone 4"
+    "Title": "Pistone 4",
+    "Description": "Si allunga e si ritrae! Collegalo a un attivatore per attivarlo. Il pistone può essere collegato a un’unità di controllo per farlo allungare e ritrarre in sequenza. È perfetto per realizzare creazioni impressionanti."
   },
   {
     "Id": "interu60",
-    "Title": "Pistone 5"
+    "Title": "Pistone 5",
+    "Description": "Si allunga e si ritrae! Collegalo a un attivatore per attivarlo. Il pistone può essere collegato a un’unità di controllo per farlo allungare e ritrarre in sequenza. È perfetto per realizzare creazioni impressionanti."
   }
 ]

@@ -1,242 +1,302 @@
 [
   {
     "Id": "interu1",
-    "Title": "Suspensão Desportiva 1"
+    "Title": "Suspensão Desportiva 1",
+    "Description": "Adiciona absorção de choque e concede estabilidade. Ótimo para evitar que veículos capotem facilmente. A suspensão é pequena, mas fornece uma boa aderência."
   },
   {
     "Id": "interu2",
-    "Title": "Suspensão Desportiva 2"
+    "Title": "Suspensão Desportiva 2",
+    "Description": "Adiciona absorção de choque e concede estabilidade. Ótimo para evitar que veículos capotem facilmente. A suspensão é pequena, mas fornece uma boa aderência."
   },
   {
     "Id": "interu3",
-    "Title": "Suspensão Desportiva 3"
+    "Title": "Suspensão Desportiva 3",
+    "Description": "Adiciona absorção de choque e concede estabilidade. Ótimo para evitar que veículos capotem facilmente. A suspensão é pequena, mas fornece uma boa aderência."
   },
   {
     "Id": "interu4",
-    "Title": "Suspensão Desportiva 4"
+    "Title": "Suspensão Desportiva 4",
+    "Description": "Adiciona absorção de choque e concede estabilidade. Ótimo para evitar que veículos capotem facilmente. A suspensão é pequena, mas fornece uma boa aderência."
   },
   {
     "Id": "interu5",
-    "Title": "Suspensão Desportiva 5"
+    "Title": "Suspensão Desportiva 5",
+    "Description": "Adiciona absorção de choque e concede estabilidade. Ótimo para evitar que veículos capotem facilmente. A suspensão é pequena, mas fornece uma boa aderência."
   },
   {
     "Id": "interu6",
-    "Title": "Suspensão Off-road 1"
+    "Title": "Suspensão Off-road 1",
+    "Description": "Adiciona absorção de choque e concede estabilidade. Ótimo para evitar que veículos capotem facilmente. A suspensão tem uma aderência incrível, o que a torna ideal para veículos off-road."
   },
   {
     "Id": "interu7",
-    "Title": "Suspensão Off-road 2"
+    "Title": "Suspensão Off-road 2",
+    "Description": "Adiciona absorção de choque e concede estabilidade. Ótimo para evitar que veículos capotem facilmente. A suspensão tem uma aderência incrível, o que a torna ideal para veículos off-road."
   },
   {
     "Id": "interu8",
-    "Title": "Suspensão Off-road 3"
+    "Title": "Suspensão Off-road 3",
+    "Description": "Adiciona absorção de choque e concede estabilidade. Ótimo para evitar que veículos capotem facilmente. A suspensão tem uma aderência incrível, o que a torna ideal para veículos off-road."
   },
   {
     "Id": "interu9",
-    "Title": "Suspensão Off-road 4"
+    "Title": "Suspensão Off-road 4",
+    "Description": "Adiciona absorção de choque e concede estabilidade. Ótimo para evitar que veículos capotem facilmente. A suspensão tem uma aderência incrível, o que a torna ideal para veículos off-road."
   },
   {
     "Id": "interu10",
-    "Title": "Suspensão Off-road 5"
+    "Title": "Suspensão Off-road 5",
+    "Description": "Adiciona absorção de choque e concede estabilidade. Ótimo para evitar que veículos capotem facilmente. A suspensão tem uma aderência incrível, o que a torna ideal para veículos off-road."
   },
   {
     "Id": "interu11",
-    "Title": "Banco de Motorista 1"
+    "Title": "Banco de Motorista 1",
+    "Description": "Faz os rolamentos girarem para a esquerda e para a direita. Pode ser conectado a um motor para controlar a direção da viagem. Além disso, é possível conectar a acionadores que podem ser ativados a partir do banco. O Banco de Motorista de Nível 5 libera ajustes de direção ao apertar (E) em rolamentos ligados com o conector."
   },
   {
     "Id": "interu12",
-    "Title": "Banco de Motorista 2"
+    "Title": "Banco de Motorista 2",
+    "Description": "Faz os rolamentos girarem para a esquerda e para a direita. Pode ser conectado a um motor para controlar a direção da viagem. Além disso, é possível conectar a acionadores que podem ser ativados a partir do banco. O Banco de Motorista de Nível 5 libera ajustes de direção ao apertar (E) em rolamentos ligados com o conector."
   },
   {
     "Id": "interu13",
-    "Title": "Banco de Motorista 3"
+    "Title": "Banco de Motorista 3",
+    "Description": "Faz os rolamentos girarem para a esquerda e para a direita. Pode ser conectado a um motor para controlar a direção da viagem. Além disso, é possível conectar a acionadores que podem ser ativados a partir do banco. O Banco de Motorista de Nível 5 libera ajustes de direção ao apertar (E) em rolamentos ligados com o conector."
   },
   {
     "Id": "interu14",
-    "Title": "Banco de Motorista 4"
+    "Title": "Banco de Motorista 4",
+    "Description": "Faz os rolamentos girarem para a esquerda e para a direita. Pode ser conectado a um motor para controlar a direção da viagem. Além disso, é possível conectar a acionadores que podem ser ativados a partir do banco. O Banco de Motorista de Nível 5 libera ajustes de direção ao apertar (E) em rolamentos ligados com o conector."
   },
   {
     "Id": "interu15",
-    "Title": "Banco de Motorista 5"
+    "Title": "Banco de Motorista 5",
+    "Description": "Faz os rolamentos girarem para a esquerda e para a direita. Pode ser conectado a um motor para controlar a direção da viagem. Além disso, é possível conectar a acionadores que podem ser ativados a partir do banco. O Banco de Motorista de Nível 5 libera ajustes de direção ao apertar (E) em rolamentos ligados com o conector."
   },
   {
     "Id": "interu16",
-    "Title": "Assento de Motorista 1"
+    "Title": "Assento de Motorista 1",
+    "Description": "Faz os rolamentos girarem para a esquerda e para a direita. Pode ser conectado a um motor para controlar a direção da viagem. Além disso, é possível conectar a acionadores que podem ser ativados a partir do assento. O Assento de Motorista de Nível 5 libera ajustes de direção ao apertar (E) em rolamentos ligados com o conector."
   },
   {
     "Id": "interu17",
-    "Title": "Assento de Motorista 2"
+    "Title": "Assento de Motorista 2",
+    "Description": "Faz os rolamentos girarem para a esquerda e para a direita. Pode ser conectado a um motor para controlar a direção da viagem. Além disso, é possível conectar a acionadores que podem ser ativados a partir do assento. O Assento de Motorista de Nível 5 libera ajustes de direção ao apertar (E) em rolamentos ligados com o conector."
   },
   {
     "Id": "interu18",
-    "Title": "Assento de Motorista 3"
+    "Title": "Assento de Motorista 3",
+    "Description": "Faz os rolamentos girarem para a esquerda e para a direita. Pode ser conectado a um motor para controlar a direção da viagem. Além disso, é possível conectar a acionadores que podem ser ativados a partir do assento. O Assento de Motorista de Nível 5 libera ajustes de direção ao apertar (E) em rolamentos ligados com o conector."
   },
   {
     "Id": "interu19",
-    "Title": "Assento de Motorista 4"
+    "Title": "Assento de Motorista 4",
+    "Description": "Faz os rolamentos girarem para a esquerda e para a direita. Pode ser conectado a um motor para controlar a direção da viagem. Além disso, é possível conectar a acionadores que podem ser ativados a partir do assento. O Assento de Motorista de Nível 5 libera ajustes de direção ao apertar (E) em rolamentos ligados com o conector."
   },
   {
     "Id": "interu20",
-    "Title": "Assento de Motorista 5"
+    "Title": "Assento de Motorista 5",
+    "Description": "Faz os rolamentos girarem para a esquerda e para a direita. Pode ser conectado a um motor para controlar a direção da viagem. Além disso, é possível conectar a acionadores que podem ser ativados a partir do assento. O Assento de Motorista de Nível 5 libera ajustes de direção ao apertar (E) em rolamentos ligados com o conector."
   },
   {
     "Id": "interu21",
-    "Title": "Banco 1"
+    "Title": "Banco 1",
+    "Description": "Usado para não precisar ficar de pé. Sente-se e relaxe ou então coloque no seu veículo para dar carona aos seus amigos. Pode ser conectado a acionadores que são capazes de ativar outras peças interativas a partir do banco."
   },
   {
     "Id": "interu22",
-    "Title": "Banco 2"
+    "Title": "Banco 2",
+    "Description": "Usado para não precisar ficar de pé. Sente-se e relaxe ou então coloque no seu veículo para dar carona aos seus amigos. Pode ser conectado a acionadores que são capazes de ativar outras peças interativas a partir do banco."
   },
   {
     "Id": "interu23",
-    "Title": "Banco 3"
+    "Title": "Banco 3",
+    "Description": "Usado para não precisar ficar de pé. Sente-se e relaxe ou então coloque no seu veículo para dar carona aos seus amigos. Pode ser conectado a acionadores que são capazes de ativar outras peças interativas a partir do banco."
   },
   {
     "Id": "interu24",
-    "Title": "Banco 4"
+    "Title": "Banco 4",
+    "Description": "Usado para não precisar ficar de pé. Sente-se e relaxe ou então coloque no seu veículo para dar carona aos seus amigos. Pode ser conectado a acionadores que são capazes de ativar outras peças interativas a partir do banco."
   },
   {
     "Id": "interu25",
-    "Title": "Banco 5"
+    "Title": "Banco 5",
+    "Description": "Usado para não precisar ficar de pé. Sente-se e relaxe ou então coloque no seu veículo para dar carona aos seus amigos. Pode ser conectado a acionadores que são capazes de ativar outras peças interativas a partir do banco."
   },
   {
     "Id": "interu26",
-    "Title": "Assento 1"
+    "Title": "Assento 1",
+    "Description": "Usado para não precisar ficar de pé. Sente-se e relaxe ou então coloque no seu veículo para dar carona aos seus amigos. Pode ser conectado a acionadores que são capazes de ativar outras peças interativas a partir do assento."
   },
   {
     "Id": "interu27",
-    "Title": "Assento 2"
+    "Title": "Assento 2",
+    "Description": "Usado para não precisar ficar de pé. Sente-se e relaxe ou então coloque no seu veículo para dar carona aos seus amigos. Pode ser conectado a acionadores que são capazes de ativar outras peças interativas a partir do assento."
   },
   {
     "Id": "interu28",
-    "Title": "Assento 3"
+    "Title": "Assento 3",
+    "Description": "Usado para não precisar ficar de pé. Sente-se e relaxe ou então coloque no seu veículo para dar carona aos seus amigos. Pode ser conectado a acionadores que são capazes de ativar outras peças interativas a partir do assento."
   },
   {
     "Id": "interu29",
-    "Title": "Assento 4"
+    "Title": "Assento 4",
+    "Description": "Usado para não precisar ficar de pé. Sente-se e relaxe ou então coloque no seu veículo para dar carona aos seus amigos. Pode ser conectado a acionadores que são capazes de ativar outras peças interativas a partir do assento."
   },
   {
     "Id": "interu30",
-    "Title": "Assento 5"
+    "Title": "Assento 5",
+    "Description": "Usado para não precisar ficar de pé. Sente-se e relaxe ou então coloque no seu veículo para dar carona aos seus amigos. Pode ser conectado a acionadores que são capazes de ativar outras peças interativas a partir do assento."
   },
   {
     "Id": "interu31",
-    "Title": "Motor de Combustão 1"
+    "Title": "Motor de Combustão 1",
+    "Description": "Um motor com velocidade fixa e potência ajustável, ideal para alimentar veículos. Pode ser conectado a um banco de motorista ou a um acionador. Melhore para mais pontos de conexão e menor consumo de gasolina."
   },
   {
     "Id": "interu32",
-    "Title": "Motor de Combustão 2"
+    "Title": "Motor de Combustão 2",
+    "Description": "Um motor com velocidade fixa e potência ajustável, ideal para alimentar veículos. Pode ser conectado a um banco de motorista ou a um acionador. Melhore para mais pontos de conexão e menor consumo de gasolina."
   },
   {
     "Id": "interu33",
-    "Title": "Motor de Combustão 3"
+    "Title": "Motor de Combustão 3",
+    "Description": "Um motor com velocidade fixa e potência ajustável, ideal para alimentar veículos. Pode ser conectado a um banco de motorista ou a um acionador. Melhore para mais pontos de conexão e menor consumo de gasolina."
   },
   {
     "Id": "interu34",
-    "Title": "Motor de Combustão 4"
+    "Title": "Motor de Combustão 4",
+    "Description": "Um motor com velocidade fixa e potência ajustável, ideal para alimentar veículos. Pode ser conectado a um banco de motorista ou a um acionador. Melhore para mais pontos de conexão e menor consumo de gasolina."
   },
   {
     "Id": "interu35",
-    "Title": "Motor de Combustão 5"
+    "Title": "Motor de Combustão 5",
+    "Description": "Um motor com velocidade fixa e potência ajustável, ideal para alimentar veículos. Pode ser conectado a um banco de motorista ou a um acionador. Melhore para mais pontos de conexão e menor consumo de gasolina."
   },
   {
     "Id": "interu36",
-    "Title": "Motor Elétrico 1"
+    "Title": "Motor Elétrico 1",
+    "Description": "Alimenta os rolamentos. Um motor com potência fixa e velocidade ajustável. Um motor fraco com velocidade ajustável. Pode ser conectado a um banco de motorista ou a um acionador. Melhore para mais pontos de conexão e menor consumo de bateria."
   },
   {
     "Id": "interu37",
-    "Title": "Motor Elétrico 2"
+    "Title": "Motor Elétrico 2",
+    "Description": "Alimenta os rolamentos. Um motor com potência fixa e velocidade ajustável. Um motor fraco com velocidade ajustável. Pode ser conectado a um banco de motorista ou a um acionador. Melhore para mais pontos de conexão e menor consumo de bateria."
   },
   {
     "Id": "interu38",
-    "Title": "Motor Elétrico 3"
+    "Title": "Motor Elétrico 3",
+    "Description": "Alimenta os rolamentos. Um motor com potência fixa e velocidade ajustável. Um motor fraco com velocidade ajustável. Pode ser conectado a um banco de motorista ou a um acionador. Melhore para mais pontos de conexão e menor consumo de bateria."
   },
   {
     "Id": "interu39",
-    "Title": "Motor Elétrico 4"
+    "Title": "Motor Elétrico 4",
+    "Description": "Alimenta os rolamentos. Um motor com potência fixa e velocidade ajustável. Um motor fraco com velocidade ajustável. Pode ser conectado a um banco de motorista ou a um acionador. Melhore para mais pontos de conexão e menor consumo de bateria."
   },
   {
     "Id": "interu40",
-    "Title": "Motor Elétrico 5"
+    "Title": "Motor Elétrico 5",
+    "Description": "Alimenta os rolamentos. Um motor com potência fixa e velocidade ajustável. Um motor fraco com velocidade ajustável. Pode ser conectado a um banco de motorista ou a um acionador. Melhore para mais pontos de conexão e menor consumo de bateria."
   },
   {
     "Id": "interu41",
-    "Title": "Propulsor 1"
+    "Title": "Propulsor 1",
+    "Description": "Ter alguns deles podem fazer as coisas voarem. Precisa estar conectado a um acionador ou ao banco de motorista para ser ativado. Melhore para um menor consumo de gasolina."
   },
   {
     "Id": "interu42",
-    "Title": "Propulsor 2"
+    "Title": "Propulsor 2",
+    "Description": "Ter alguns deles podem fazer as coisas voarem. Precisa estar conectado a um acionador ou ao banco de motorista para ser ativado. Melhore para um menor consumo de gasolina."
   },
   {
     "Id": "interu43",
-    "Title": "Propulsor 3"
+    "Title": "Propulsor 3",
+    "Description": "Ter alguns deles podem fazer as coisas voarem. Precisa estar conectado a um acionador ou ao banco de motorista para ser ativado. Melhore para um menor consumo de gasolina."
   },
   {
     "Id": "interu44",
-    "Title": "Propulsor 4"
+    "Title": "Propulsor 4",
+    "Description": "Ter alguns deles podem fazer as coisas voarem. Precisa estar conectado a um acionador ou ao banco de motorista para ser ativado. Melhore para um menor consumo de gasolina."
   },
   {
     "Id": "interu45",
-    "Title": "Propulsor 5"
+    "Title": "Propulsor 5",
+    "Description": "Ter alguns deles podem fazer as coisas voarem. Precisa estar conectado a um acionador ou ao banco de motorista para ser ativado. Melhore para um menor consumo de gasolina."
   },
   {
     "Id": "interu46",
-    "Title": "Controlador 1"
+    "Title": "Controlador 1",
+    "Description": "Permite que os rolamentos girem em sequência. É perfeito para construir criações conversíveis. Precisa estar conectado a rolamentos. Ativado ao conectar o controlador a um acionador ou banco de motorista."
   },
   {
     "Id": "interu47",
-    "Title": "Controlador 2"
+    "Title": "Controlador 2",
+    "Description": "Permite que os rolamentos girem em sequência. É perfeito para construir criações conversíveis. Precisa estar conectado a rolamentos. Ativado ao conectar o controlador a um acionador ou banco de motorista."
   },
   {
     "Id": "interu48",
-    "Title": "Controlador 3"
+    "Title": "Controlador 3",
+    "Description": "Permite que os rolamentos girem em sequência. É perfeito para construir criações conversíveis. Precisa estar conectado a rolamentos. Ativado ao conectar o controlador a um acionador ou banco de motorista."
   },
   {
     "Id": "interu49",
-    "Title": "Controlador 4"
+    "Title": "Controlador 4",
+    "Description": "Permite que os rolamentos girem em sequência. É perfeito para construir criações conversíveis. Precisa estar conectado a rolamentos. Ativado ao conectar o controlador a um acionador ou banco de motorista."
   },
   {
     "Id": "interu50",
-    "Title": "Controlador 5"
+    "Title": "Controlador 5",
+    "Description": "Permite que os rolamentos girem em sequência. É perfeito para construir criações conversíveis. Precisa estar conectado a rolamentos. Ativado ao conectar o controlador a um acionador ou banco de motorista."
   },
   {
     "Id": "interu51",
-    "Title": "Sensor 1"
+    "Title": "Sensor 1",
+    "Description": "Detectou algo? Hora de ativar! O sensor é ativado ao detectar qualquer tipo de superfície que esteja no campo de visão dele. Tem um alcance de dez blocos. Ele pode ativar um motor, um propulsor, o controlador e muito mais."
   },
   {
     "Id": "interu52",
-    "Title": "Sensor 2"
+    "Title": "Sensor 2",
+    "Description": "Detectou algo? Hora de ativar! O sensor é ativado ao detectar qualquer tipo de superfície que esteja no campo de visão dele. Tem um alcance de dez blocos. Ele pode ativar um motor, um propulsor, o controlador e muito mais."
   },
   {
     "Id": "interu53",
-    "Title": "Sensor 3"
+    "Title": "Sensor 3",
+    "Description": "Detectou algo? Hora de ativar! O sensor é ativado ao detectar qualquer tipo de superfície que esteja no campo de visão dele. Tem um alcance de dez blocos. Ele pode ativar um motor, um propulsor, o controlador e muito mais."
   },
   {
     "Id": "interu54",
-    "Title": "Sensor 4"
+    "Title": "Sensor 4",
+    "Description": "Detectou algo? Hora de ativar! O sensor é ativado ao detectar qualquer tipo de superfície que esteja no campo de visão dele. Tem um alcance de dez blocos. Ele pode ativar um motor, um propulsor, o controlador e muito mais."
   },
   {
     "Id": "interu55",
-    "Title": "Sensor 5"
+    "Title": "Sensor 5",
+    "Description": "Detectou algo? Hora de ativar! O sensor é ativado ao detectar qualquer tipo de superfície que esteja no campo de visão dele. Tem um alcance de dez blocos. Ele pode ativar um motor, um propulsor, o controlador e muito mais."
   },
   {
     "Id": "interu56",
-    "Title": "Pistão 1"
+    "Title": "Pistão 1",
+    "Description": "Expande e contrai! Conecte a um acionador para ativar. O pistão também pode ser conectado a um controlador para expandir e contrair em uma sequência. É perfeito para fazer criações incríveis."
   },
   {
     "Id": "interu57",
-    "Title": "Pistão 2"
+    "Title": "Pistão 2",
+    "Description": "Expande e contrai! Conecte a um acionador para ativar. O pistão também pode ser conectado a um controlador para expandir e contrair em uma sequência. É perfeito para fazer criações incríveis."
   },
   {
     "Id": "interu58",
-    "Title": "Pistão 3"
+    "Title": "Pistão 3",
+    "Description": "Expande e contrai! Conecte a um acionador para ativar. O pistão também pode ser conectado a um controlador para expandir e contrair em uma sequência. É perfeito para fazer criações incríveis."
   },
   {
     "Id": "interu59",
-    "Title": "Pistão 4"
+    "Title": "Pistão 4",
+    "Description": "Expande e contrai! Conecte a um acionador para ativar. O pistão também pode ser conectado a um controlador para expandir e contrair em uma sequência. É perfeito para fazer criações incríveis."
   },
   {
     "Id": "interu60",
-    "Title": "Pistão 5"
+    "Title": "Pistão 5",
+    "Description": "Expande e contrai! Conecte a um acionador para ativar. O pistão também pode ser conectado a um controlador para expandir e contrair em uma sequência. É perfeito para fazer criações incríveis."
   }
 ]

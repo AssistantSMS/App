@@ -1,23 +1,28 @@
 [
   {
     "Id": "consu1",
-    "Title": "Engrais"
+    "Title": "Engrais",
+    "Description": "Fait pousser les plantes plus rapidement."
   },
   {
     "Id": "consu2",
-    "Title": "Sunshake"
+    "Title": "Sunshake",
+    "Description": "Les mécanos adorent boire un bon sunshake lorsque la soif leur vient."
   },
   {
     "Id": "consu3",
-    "Title": "Burger pizza"
+    "Title": "Burger pizza",
+    "Description": "Le plat préféré des mécanos. Remplit tous vos compteurs au max."
   },
   {
     "Id": "consu4",
-    "Title": "Burger végé"
+    "Title": "Burger végé",
+    "Description": "Une alternative végétarienne. Remplit tous vos compteurs au max."
   },
   {
     "Id": "consu5",
-    "Title": "Baguette de la renaissance"
+    "Title": "Baguette de la renaissance",
+    "Description": "Donnez-la à vos amis morts au combat pour les remettre sur pied."
   },
   {
     "Id": "consu6",
@@ -25,6 +30,7 @@
   },
   {
     "Id": "consu7",
-    "Title": "Sac de terre"
+    "Title": "Sac de terre",
+    "Description": "À utiliser au sol pour y placer vos graines."
   }
 ]

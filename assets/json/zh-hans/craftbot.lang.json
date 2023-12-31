@@ -1,6 +1,7 @@
 [
   {
     "Id": "craftb1",
-    "Title": "Craftbot"
+    "Title": "Craftbot",
+    "Description": "The Craftbot will help you craft everything from new blocks to useful interactive parts. A mechanics best friend."
   }
 ]

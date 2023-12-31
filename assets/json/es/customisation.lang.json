@@ -176,121 +176,126 @@
   },
   {
     "Id": "custTorM15",
-    "Title": "Bearing T-Shirt",
+    "Title": "Stuntman Jacket",
     "Description": "Torso"
   },
   {
     "Id": "custTorM16",
-    "Title": "Seat T-Shirt",
+    "Title": "Bearing T-Shirt",
     "Description": "Torso"
   },
   {
     "Id": "custTorM17",
-    "Title": "Scrap Muffin T-Shirt",
+    "Title": "Seat T-Shirt",
     "Description": "Torso"
   },
   {
     "Id": "custTorM18",
-    "Title": "Control Freak T-Shirt",
+    "Title": "Scrap Muffin T-Shirt",
     "Description": "Torso"
   },
   {
     "Id": "custTorM19",
-    "Title": "Need Lift T-Shirt",
+    "Title": "Control Freak T-Shirt",
     "Description": "Torso"
   },
   {
     "Id": "custTorM20",
-    "Title": "Axolot T-Shirt",
+    "Title": "Need Lift T-Shirt",
     "Description": "Torso"
   },
   {
     "Id": "custTorM21",
-    "Title": "Sensitive T-Shirt",
+    "Title": "Axolot T-Shirt",
     "Description": "Torso"
   },
   {
     "Id": "custTorM22",
-    "Title": "Totebot Moon T-Shirt",
+    "Title": "Sensitive T-Shirt",
     "Description": "Torso"
   },
   {
     "Id": "custTorM23",
-    "Title": "Team Tomato T-Shirt",
+    "Title": "Totebot Moon T-Shirt",
     "Description": "Torso"
   },
   {
     "Id": "custTorM24",
-    "Title": "Team Banana T-Shirt",
+    "Title": "Team Tomato T-Shirt",
     "Description": "Torso"
   },
   {
     "Id": "custTorM25",
-    "Title": "Team Broccoli T-Shirt",
+    "Title": "Team Banana T-Shirt",
     "Description": "Torso"
   },
   {
     "Id": "custTorM26",
-    "Title": "Team Blueberry T-Shirt",
+    "Title": "Team Broccoli T-Shirt",
     "Description": "Torso"
   },
   {
     "Id": "custTorM27",
-    "Title": "Connections T-Shirt",
+    "Title": "Team Blueberry T-Shirt",
     "Description": "Torso"
   },
   {
     "Id": "custTorM28",
-    "Title": "Playing Wrong T-Shirt",
+    "Title": "Connections T-Shirt",
     "Description": "Torso"
   },
   {
     "Id": "custTorM29",
-    "Title": "Quack T-Shirt",
+    "Title": "Playing Wrong T-Shirt",
     "Description": "Torso"
   },
   {
     "Id": "custTorM30",
-    "Title": "Company T-Shirt",
+    "Title": "Quack T-Shirt",
     "Description": "Torso"
   },
   {
     "Id": "custTorM31",
-    "Title": "Totem T-Shirt",
+    "Title": "Company T-Shirt",
     "Description": "Torso"
   },
   {
     "Id": "custTorM32",
-    "Title": "Totebot Pattern T-Shirt",
+    "Title": "Totem T-Shirt",
     "Description": "Torso"
   },
   {
     "Id": "custTorM33",
-    "Title": "Logical T-Shirt",
+    "Title": "Totebot Pattern T-Shirt",
     "Description": "Torso"
   },
   {
     "Id": "custTorM34",
-    "Title": "Woc Love T-Shirt",
+    "Title": "Logical T-Shirt",
     "Description": "Torso"
   },
   {
     "Id": "custTorM35",
-    "Title": "Pizza Burger T-Shirt",
+    "Title": "Woc Love T-Shirt",
     "Description": "Torso"
   },
   {
     "Id": "custTorM36",
-    "Title": "Carrot Pattern T-Shirt",
+    "Title": "Pizza Burger T-Shirt",
     "Description": "Torso"
   },
   {
     "Id": "custTorM37",
-    "Title": "Corn Pattern T-Shirt",
+    "Title": "Carrot Pattern T-Shirt",
     "Description": "Torso"
   },
   {
     "Id": "custTorM38",
+    "Title": "Corn Pattern T-Shirt",
+    "Description": "Torso"
+  },
+  {
+    "Id": "custTorM39",
     "Title": "Gas T-Shirt",
     "Description": "Torso"
   },
@@ -360,6 +365,11 @@
     "Description": "Gloves"
   },
   {
+    "Id": "custGloM15",
+    "Title": "Stuntman Gloves",
+    "Description": "Gloves"
+  },
+  {
     "Id": "custShoM2",
     "Title": "Mechanic Shoes",
     "Description": "Shoes"
@@ -425,6 +435,11 @@
     "Description": "Shoes"
   },
   {
+    "Id": "custShoM15",
+    "Title": "Stuntman Shoes",
+    "Description": "Shoes"
+  },
+  {
     "Id": "custLegM2",
     "Title": "Mechanic Pants",
     "Description": "Legs"
@@ -487,6 +502,11 @@
   {
     "Id": "custLegM14",
     "Title": "Technician Pants",
+    "Description": "Legs"
+  },
+  {
+    "Id": "custLegM15",
+    "Title": "Stuntman Pants",
     "Description": "Legs"
   },
   {
@@ -815,6 +835,11 @@
     "Description": "Hats"
   },
   {
+    "Id": "custHatM12",
+    "Title": "Stuntman Helmet",
+    "Description": "Hats"
+  },
+  {
     "Id": "custBacM1",
     "Title": "Mechanic Backpack",
     "Description": "Backpack"
@@ -867,6 +892,11 @@
   {
     "Id": "custBacM11",
     "Title": "Technician Backpack",
+    "Description": "Backpack"
+  },
+  {
+    "Id": "custBacM12",
+    "Title": "Stuntman Backpack",
     "Description": "Backpack"
   }
 ]

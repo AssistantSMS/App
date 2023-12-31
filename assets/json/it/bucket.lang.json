@@ -1,14 +1,17 @@
 [
   {
     "Id": "bckt1",
-    "Title": "Secchio d’acqua"
+    "Title": "Secchio d’acqua",
+    "Description": "Riempilo d’acqua per annaffiare le tue piante."
   },
   {
     "Id": "bckt2",
-    "Title": "Secchio d’acqua"
+    "Title": "Secchio d’acqua",
+    "Description": "Secchio pieno d’acqua."
   },
   {
     "Id": "bckt3",
-    "Title": "Secchio chimico"
+    "Title": "Secchio chimico",
+    "Description": "Secchio pieno di rifiuti chimici."
   }
 ]

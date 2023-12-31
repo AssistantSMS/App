@@ -1,14 +1,17 @@
 [
   {
     "Id": "out1",
-    "Title": "Skrzynia z odzieżą (pospolita)"
+    "Title": "Skrzynia z odzieżą (pospolita)",
+    "Description": "Użyj Ciuchbota do wykonania nowych ubrań."
   },
   {
     "Id": "out2",
-    "Title": "Skrzynia z odzieżą (rzadka)"
+    "Title": "Skrzynia z odzieżą (rzadka)",
+    "Description": "Użyj Ciuchbota do wykonania nowych ubrań."
   },
   {
     "Id": "out3",
-    "Title": "Skrzynia z odzieżą (epicka)"
+    "Title": "Skrzynia z odzieżą (epicka)",
+    "Description": "Użyj Ciuchbota do wykonania nowych ubrań."
   }
 ]

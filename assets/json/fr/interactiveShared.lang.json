@@ -1,14 +1,17 @@
 [
   {
     "Id": "inters1",
-    "Title": "Grand coffre"
+    "Title": "Grand coffre",
+    "Description": "Idéal pour ranger plein d'objets. Peut aussi fonctionner avec une pompe aspirante."
   },
   {
     "Id": "inters2",
-    "Title": "Raffinebot"
+    "Title": "Raffinebot",
+    "Description": "Le Raffinebot vous aide à raffiner les rondins que vous collectez. Mettez-les à la main ou placez un collecteur de ressources rempli de rondins à côté."
   },
   {
     "Id": "inters3",
-    "Title": "Collecteur de ressources"
+    "Title": "Collecteur de ressources",
+    "Description": "L'outil parfait pour collecter et empiler les rondins. Lorsqu'il est plein, placez-le près d'un Raffinebot pour transformer les rondins en blocs."
   }
 ]

@@ -1,7 +1,8 @@
 [
   {
     "Id": "intera1",
-    "Title": "Frigo"
+    "Title": "Frigo",
+    "Description": "Conserve votre nourriture au frais."
   },
   {
     "Id": "intera2",
@@ -13,15 +14,18 @@
   },
   {
     "Id": "intera4",
-    "Title": "Coffre"
+    "Title": "Coffre",
+    "Description": "Un coffre classique pour ranger vos objets."
   },
   {
     "Id": "intera5",
-    "Title": "Protecteur : anti-destruction"
+    "Title": "Protecteur : anti-destruction",
+    "Description": "Vous aide à protéger votre création des dégâts. Connectez-le à un conteneur à batteries."
   },
   {
     "Id": "intera6",
-    "Title": "Codeur : anti-connexion"
+    "Title": "Codeur : anti-connexion",
+    "Description": "Cache les connexions de vos créations aux yeux des autres mécanos. Connectez-le à un conteneur à batteries."
   },
   {
     "Id": "intera7",
@@ -29,130 +33,286 @@
   },
   {
     "Id": "intera8",
-    "Title": "Tenuebot"
+    "Title": "Tenuebot",
+    "Description": "Utilisez le Tenuebot afin de créer des tenues pour votre mécano. Ajoutez vos boîtes à vêtements et la quantité requise de coton. Vous pouvez également personnaliser votre look grâce à la garde-robe bleue."
   },
   {
     "Id": "intera9",
-    "Title": "Lance-patates montable"
+    "Title": "Lance-patates montable",
+    "Description": "Pour tirer, connectez-le à un conteneur à munitions avec un déclencheur."
   },
   {
     "Id": "intera10",
-    "Title": "Lit de réapparition"
+    "Title": "Lit de réapparition",
+    "Description": "Faites la sieste dans ce lit confortable. Votre mécano y réapparaîtra après un K.-O."
   },
   {
     "Id": "intera11",
-    "Title": "Palier"
+    "Title": "",
+    "Description": ""
   },
   {
     "Id": "intera12",
-    "Title": "Suspension sport"
+    "Title": "Palier",
+    "Description": "Tout ce que vous placez sur un palier peut tourner. Les paliers peuvent aussi être connectés à un moteur ou au siège conducteur pour être contrôlés de diverses manières."
   },
   {
     "Id": "intera13",
-    "Title": "Suspension hors route"
+    "Title": "Suspension sport",
+    "Description": "Ajoute un amortissement et de la stabilité. Parfait pour aider les véhicules à ne pas se renverser trop facilement. Cette suspension est petite, mais elle a un amortissement plus ferme."
   },
   {
     "Id": "intera14",
-    "Title": "Siège conducteur"
+    "Title": "Suspension hors route",
+    "Description": "Ajoute un amortissement et de la stabilité. Parfait pour aider les véhicules à ne pas se renverser trop facilement. Cette suspension à une grosse capacité d'amortissement, elle est idéale pour les véhicules tout-terrain."
   },
   {
     "Id": "intera15",
-    "Title": "Siège"
+    "Title": "Siège conducteur",
+    "Description": "Fait tourner les paliers vers la gauche ou la droite. Peut être connecté à un moteur pour contrôler la direction de déplacement. Peut aussi être connecté à des déclencheurs pouvant être activés depuis le siège."
   },
   {
     "Id": "intera16",
-    "Title": "Selle conducteur"
+    "Title": "Siège",
+    "Description": "Pour ceux qui n'aiment pas rester debout. Asseyez-vous et détendez-vous, ou ajoutez-le à votre véhicule pour emmener vos amis avec vous. Peut être connecté à des déclencheurs qui peuvent activer d'autres pièces interactives depuis le siège."
   },
   {
     "Id": "intera17",
-    "Title": "Selle"
+    "Title": "Selle conducteur",
+    "Description": "Fait tourner les paliers vers la gauche ou la droite. Peut être connectée à un moteur pour contrôler la direction de déplacement. Peut aussi être connectée à des déclencheurs pouvant être activés depuis la selle."
   },
   {
     "Id": "intera18",
-    "Title": "Toilettes"
+    "Title": "Selle",
+    "Description": "Pour ceux qui n'aiment pas rester debout. Asseyez-vous et détendez-vous, ou ajoutez-la à votre véhicule pour emmener vos amis avec vous. Peut être connectée à des déclencheurs qui peuvent activer d'autres pièces interactives depuis la selle."
   },
   {
     "Id": "intera19",
-    "Title": "Moteur à essence"
+    "Title": "Toilettes",
+    "Description": "À utiliser pour ne pas rester debout. Asseyez-vous et détendez-vous, ou ajoutez-les à votre véhicule pour que vos amis vous accompagnent. Vous pouvez les connecter à des déclencheurs qui activeront d'autres pièces interactives des toilettes. N'oubliez pas de tirer la chasse !"
   },
   {
     "Id": "intera20",
-    "Title": "Moteur électrique"
+    "Title": "Moteur à essence",
+    "Description": "Un moteur avec une vitesse fixe et une puissance ajustable, idéal pour alimenter des véhicules. Il peut être connecté à un siège conducteur ou à des déclencheurs."
   },
   {
     "Id": "intera21",
-    "Title": "Propulseur"
+    "Title": "Moteur électrique",
+    "Description": "Alimente les paliers. Un moteur avec une puissance fixe et une vitesse ajustable. Un moteur lent avec beaucoup de force. Peut être connecté à un siège conducteur ou à des déclencheurs."
   },
   {
     "Id": "intera22",
-    "Title": "Contrôleur"
+    "Title": "Propulseur",
+    "Description": "Peut faire voler des choses. Doit être connecté à un déclencheur ou à un siège conducteur pour s'activer."
   },
   {
     "Id": "intera23",
-    "Title": "Interrupteur"
+    "Title": "Contrôleur",
+    "Description": "Permet aux paliers de tourner en séquence. Parfait pour la construction de créations transformables. Doit être connecté à des paliers. Activé en connectant un déclencheur ou un siège conducteur au contrôleur."
   },
   {
     "Id": "intera24",
-    "Title": "Bouton"
+    "Title": "Interrupteur",
+    "Description": "Vous pouvez l'actionner de manière illimitée et à la demande. L'interrupteur active ce à quoi il est relié, ce qui le rend indispensable pour allumer ou éteindre des choses d'une simple pression. Il peut activer un moteur, un propulseur, le contrôleur et plus encore."
   },
   {
     "Id": "intera25",
-    "Title": "Capteur"
+    "Title": "Bouton",
+    "Description": "Il active des choses. Le bouton reste actif tant qu'il est maintenu enfoncé."
   },
   {
     "Id": "intera26",
-    "Title": "Radio"
+    "Title": "Capteur",
+    "Description": "Il détecte, il s'active ! Le capteur s'active lorsqu'il détecte n'importe quel type de surface dans son champ de vision, il possède une portée de 10 blocs. Il peut activer un moteur, un propulseur, un contrôleur et bien plus encore."
   },
   {
     "Id": "intera27",
-    "Title": "Klaxon"
+    "Title": "Radio",
+    "Description": "Écoutez tous les titres, toute la journée. Ces horribles robots les ont détournées et diffusent maintenant de la musique classique qui correspond à leurs étranges goûts musicaux. Activez-la en interagissant avec\n ou en la connectant à un déclencheur."
   },
   {
     "Id": "intera28",
-    "Title": "Fonction logique"
+    "Title": "Klaxon",
+    "Description": "Ajoutez-le à votre véhicule ou utilisez-le en tant que sonnette. Klaxonnez vos amis pour éviter les accidents. Choisissez le ton et connectez-le à un déclencheur pour l'activer."
   },
   {
     "Id": "intera29",
-    "Title": "Minuteur"
+    "Title": "Fonction logique",
+    "Description": "La fonction logique est un bloc très puissant qui vous permet de construire des fonctions logiques de base. Appuyez sur E sur le bloc, et votre mécano pourra choisir entre différentes sortes de fonctions logiques. La fonction logique peut être connectée à d'autres fonctions logiques, à des déclencheurs, des minuteurs, et bien d'autres. Idéale pour les créations avancées."
   },
   {
     "Id": "intera30",
-    "Title": "Tête de totebot : basse"
+    "Title": "Minuteur",
+    "Description": "Le minuteur vous permet de retarder l'interaction entre deux pièces interactives. Par exemple, entre un interrupteur et un contrôleur. Il s'associe à merveille avec les fonctions logiques."
   },
   {
     "Id": "intera31",
-    "Title": "Tête de totebot : percussions"
+    "Title": "Tête de totebot : basse",
+    "Description": "Cette tête de robot est cassée. Mais le générateur sonore à l'intérieur semble fonctionner. Les mécanos inventifs trouveront sûrement un moyen de faire de la musique avec."
   },
   {
     "Id": "intera32",
-    "Title": "Tête de totebot : voix de synthèse"
+    "Title": "Tête de totebot : percussions",
+    "Description": "Cette tête de robot est cassée. Mais le générateur sonore à l'intérieur semble fonctionner. Les mécanos inventifs trouveront sûrement un moyen de faire de la musique avec."
   },
   {
     "Id": "intera33",
-    "Title": "Tête de totebot : bip"
+    "Title": "Tête de totebot : voix de synthèse",
+    "Description": "Cette tête de robot est cassée. Mais le générateur sonore à l'intérieur semble fonctionner. Les mécanos inventifs trouveront sûrement un moyen de faire de la musique avec."
   },
   {
     "Id": "intera34",
-    "Title": "Baignoire"
+    "Title": "Tête de totebot : bip",
+    "Description": "Cette tête de robot est cassée. Mais le générateur sonore à l'intérieur semble fonctionner. Les mécanos inventifs trouveront sûrement un moyen de faire de la musique avec."
   },
   {
     "Id": "intera35",
-    "Title": "Piston"
+    "Title": "Baignoire",
+    "Description": "À utiliser pour la détente ultime. Détendez-vous ou ajoutez-la à votre véhicule pour rester propre sur la route. Vous pouvez la connecter à des déclencheurs qui activeront d'autres pièces interactives de la baignoire."
   },
   {
     "Id": "intera36",
-    "Title": "Support de requin Raft"
+    "Title": "Piston",
+    "Description": "S'étend et se contracte ! Connectez-le à un déclencheur pour l'activer. Le piston peut aussi être connecté à un contrôleur dans une séquence. Idéal pour les créations impressionnantes."
   },
   {
     "Id": "intera37",
-    "Title": "Patator montable"
+    "Title": "Support de requin Raft",
+    "Description": "Un requin en plastique issu du jeu de survie Raft. Des articulations mécaniques se trouvent à l'intérieur. Il mord peut-être ?"
   },
   {
     "Id": "intera38",
-    "Title": "Petite bonbonne explosive"
+    "Title": "Patator montable",
+    "Description": "Ce lanceur de patates montable est parfait pour protéger vos créations.\n Connectez-le à un déclencheur connecté à un siège pour tirer en restant assis."
   },
   {
     "Id": "intera39",
-    "Title": "Grande bonbonne explosive"
+    "Title": "Petite bonbonne explosive",
+    "Description": "Une bonbonne hautement explosive en cas de fortes collisions ou avec des lances-patates\nCette bonbonne a un petit rayon d'explosion."
+  },
+  {
+    "Id": "intera40",
+    "Title": "Grande bonbonne explosive",
+    "Description": "Une bonbonne hautement explosive en cas de fortes collisions ou avec des lances-patates\nCette bonbonne a un grand rayon d'explosion."
+  },
+  {
+    "Id": "intera41",
+    "Title": "Coffre défi",
+    "Description": "Remplissez-le avec les objets permettant aux joueurs de faire des constructions pour votre défi."
+  },
+  {
+    "Id": "intera42",
+    "Title": "Point de départ",
+    "Description": "Lorsqu'ils jouent au défi, les joueurs commenceront ici."
+  },
+  {
+    "Id": "intera43",
+    "Title": "Générateur de balles",
+    "Description": "Génère une balle lorsque le défi commence. Reliez-le à un déclencheur pour contrôler la génération. Si la balle tombe, une nouvelle apparaîtra."
+  },
+  {
+    "Id": "intera44",
+    "Title": "Générateur de bonbonnes explosives",
+    "Description": "Génère une bonbonne explosive lorsque le défi commence. Reliez-le à un déclencheur pour contrôler la génération. Si la bonbonne est détruite, une nouvelle apparaîtra."
+  },
+  {
+    "Id": "intera45",
+    "Title": "Plateforme d'objectif",
+    "Description": "Amenez-y votre création pour remporter le défi. Connectez une entrée pour établir une condition de victoire. Connectez des sorties pour déclencher des fêtes."
+  },
+  {
+    "Id": "intera46",
+    "Title": "Plateforme de construction",
+    "Description": "Tant que le défi n'a pas commencé, les joueurs peuvent poser le cric et construire. Tant que le défi n'a pas commencé, les joueurs peuvent y construire leurs créations."
+  },
+  {
+    "Id": "intera47",
+    "Title": "Balle",
+    "Description": "Elle est sphérique !"
+  },
+  {
+    "Id": "intera48",
+    "Title": "Prise à balle",
+    "Description": "Placez une balle de couleur correspondante dans la prise pour l'activer."
+  },
+  {
+    "Id": "intera49",
+    "Title": "Grand piston",
+    "Description": "Un long et puissant piston qui, pendant les défis, permet de déplacer les grandes portes et les plateformes."
+  },
+  {
+    "Id": "intera50",
+    "Title": "Grand capteur",
+    "Description": "Capte les créations et les joueurs qui se trouvent devant. Possède une portée de 64 blocs. Est capable de capter à travers les murs."
+  },
+  {
+    "Id": "intera51",
+    "Title": "Bloc lumière marche/arrêt",
+    "Description": "Transmet la logique du défi aux joueurs."
+  },
+  {
+    "Id": "intera52",
+    "Title": "Bloc lumière à flèches",
+    "Description": "Connectez-en en série pour éclairer un chemin."
+  },
+  {
+    "Id": "intera53",
+    "Title": "Démarreur de défi",
+    "Description": "Connectez-le à un déclencheur afin d'établir des conditions de démarrage personnalisées pour le défi. Si le démarreur de défi est utilisé, vous pouvez créer des défis qui se remportent sans achever de construction. Doit être connecté à un déclencheur pour commencer le défi."
+  },
+  {
+    "Id": "intera54",
+    "Title": "Goal Block",
+    "Description": "This block will finish a challenge when triggered. It's useful if you want your challenge to end with a switch, sensor or button activation."
+  },
+  {
+    "Id": "intera55",
+    "Title": "Robot-fête",
+    "Description": "Connectez-le à un déclencheur pour activer le début de la fête !"
+  },
+  {
+    "Id": "intera56",
+    "Title": "Support de robot-fête"
+  },
+  {
+    "Id": "intera57",
+    "Title": "Cube son de confirmation",
+    "Description": "Il émet un son lorsqu'il est déclenché."
+  },
+  {
+    "Id": "intera58",
+    "Title": "Structure 1 du générateur de balles",
+    "Description": "Une structure avec une flèche qui s'éclaire lorsqu'elle est déclenchée."
+  },
+  {
+    "Id": "intera59",
+    "Title": "Structure 2 du générateur de balles",
+    "Description": "Une structure avec une flèche qui s'éclaire lorsqu'elle est déclenchée."
+  },
+  {
+    "Id": "intera60",
+    "Title": "Carte informatique",
+    "Description": "Fournit une vue d'ensemble du défi."
+  },
+  {
+    "Id": "intera61",
+    "Title": "Robot-observateur",
+    "Description": "Prend des notes lorsque les joueurs construisent quelque chose."
+  },
+  {
+    "Id": "intera62",
+    "Title": "Public pop-up",
+    "Description": "Il vous aime !\nLa pièce parfaite pour terminer un défi."
+  },
+  {
+    "Id": "intera63",
+    "Title": "Character Spawner",
+    "Description": "The Character Spawner lets you spawn characters from Survival mode in your challenges. Connect it to a trigger or the Challenge starter to spawn the selected character."
+  },
+  {
+    "Id": "intera64",
+    "Title": "Small Goal Platform",
+    "Description": "Bringing your creation over this Goal Platform wins the challenge. Connect an input to set a win condition. Connect outputs to trigger celebration events."
   }
 ]

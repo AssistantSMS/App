@@ -4,7 +4,7 @@ import 'package:flutter_redux/flutter_redux.dart';
 
 import '../components/bottomNavbar.dart';
 import '../components/dialogs/prettyDialog.dart';
-import '../components/tilePresenters/settingTilePresenter.dart';
+import '../components/tilePresenters/setting_tile_presenter.dart';
 import '../constants/AnalyticsEvent.dart';
 import '../constants/AppImage.dart';
 import '../state/modules/base/appState.dart';
@@ -60,6 +60,13 @@ class SettingsPage extends StatelessWidget {
           viewModel.changeLanguage(locale);
         }
       },
+    ));
+
+    widgets.add(patreonCodeSettingTilePresenter(
+      localCtx,
+      getTranslations().fromKey(LocaleKey.patreonAccess),
+      viewModel.isPatron,
+      onChange: viewModel.setIsPatron,
     ));
 
     widgets.add(

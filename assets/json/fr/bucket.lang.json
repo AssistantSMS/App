@@ -1,14 +1,17 @@
 [
   {
     "Id": "bckt1",
-    "Title": "Seau d'eau"
+    "Title": "Seau d'eau",
+    "Description": "Remplissez-le d'eau pour arroser vos plantes."
   },
   {
     "Id": "bckt2",
-    "Title": "Seau d'eau"
+    "Title": "Seau d'eau",
+    "Description": "Un sceau rempli d'eau."
   },
   {
     "Id": "bckt3",
-    "Title": "Seau chimique"
+    "Title": "Seau chimique",
+    "Description": "Un sceau rempli de déchets chimiques."
   }
 ]

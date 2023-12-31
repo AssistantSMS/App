@@ -1,19 +1,23 @@
 [
   {
     "Id": "consshare1",
-    "Title": "Benzyna"
+    "Title": "Benzyna",
+    "Description": "Używana do zasilania silników spalinowych i rakietowych."
   },
   {
     "Id": "consshare2",
-    "Title": "Akumulator"
+    "Title": "Akumulator",
+    "Description": "Używany do zasilania elektrycznych części"
   },
   {
     "Id": "consshare3",
-    "Title": "Woda"
+    "Title": "Woda",
+    "Description": "Świetna do podlewania roślin, niestety nie nadaje się do picia."
   },
   {
     "Id": "consshare4",
-    "Title": "Kartofel"
+    "Title": "Kartofel",
+    "Description": "Mączny kartofel. Można wykorzystać jako amunicję do zwykłego i montowanego działka na kartofle."
   },
   {
     "Id": "consshare5",
@@ -21,10 +25,12 @@
   },
   {
     "Id": "consshare6",
-    "Title": "Nabój do malowania"
+    "Title": "Nabój do malowania",
+    "Description": "Naładuj narzędzie do malowania i pokoloruj swoje konstrukcje."
   },
   {
     "Id": "consshare7",
-    "Title": "Świetlik"
+    "Title": "Świetlik",
+    "Description": "Rzucaj nimi w nocy lub w ciemnych miejscach, aby rozświetlić otoczenie."
   }
 ]

@@ -177,6 +177,7 @@
   },
   {
     "Id": "ware45",
-    "Title": "Interrupteur principal"
+    "Title": "Interrupteur principal",
+    "Description": "Vous pouvez l'actionner de manière illimitée et à la demande. L'interrupteur active ce à quoi il est relié, ce qui le rend indispensable pour allumer ou éteindre des choses d'une simple pression. Il peut activer un moteur, un propulseur, le contrôleur et plus encore."
   }
 ]

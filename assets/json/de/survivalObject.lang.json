@@ -1,7 +1,8 @@
 [
   {
     "Id": "surv1",
-    "Title": "Lagerhaus-Schlüsselkarte"
+    "Title": "Lagerhaus-Schlüsselkarte",
+    "Description": "Damit kannst du den Lagerhauslift aktivieren."
   },
   {
     "Id": "surv2",
@@ -37,7 +38,8 @@
   },
   {
     "Id": "surv22",
-    "Title": "Master-Batterie"
+    "Title": "Master-Batterie",
+    "Description": "Versorgt große Raumschiffe oder Stationen mit Energie."
   },
   {
     "Id": "surv25",

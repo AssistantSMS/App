@@ -41,34 +41,42 @@
   },
   {
     "Id": "plant11",
-    "Title": "Banana"
+    "Title": "Banana",
+    "Description": "Una banana matura."
   },
   {
     "Id": "plant12",
-    "Title": "Mirtillo"
+    "Title": "Mirtillo",
+    "Description": "Un dolcissimo mirtillo."
   },
   {
     "Id": "plant13",
-    "Title": "Arancia"
+    "Title": "Arancia",
+    "Description": "Un agrume bello succoso."
   },
   {
     "Id": "plant14",
-    "Title": "Ananas"
+    "Title": "Ananas",
+    "Description": "Uno squisito ananas."
   },
   {
     "Id": "plant15",
-    "Title": "Carota"
+    "Title": "Carota",
+    "Description": "Una nutriente carota."
   },
   {
     "Id": "plant16",
-    "Title": "Barbabietola"
+    "Title": "Barbabietola",
+    "Description": "Una salutare barbabietola."
   },
   {
     "Id": "plant17",
-    "Title": "Pomodoro"
+    "Title": "Pomodoro",
+    "Description": "Un pomodoro polposo."
   },
   {
     "Id": "plant18",
-    "Title": "Broccolo"
+    "Title": "Broccolo",
+    "Description": "Bello e nutriente."
   }
 ]

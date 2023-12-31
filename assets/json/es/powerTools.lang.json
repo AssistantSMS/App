@@ -1,10 +1,12 @@
 [
   {
     "Id": "powertool1",
-    "Title": "Sierra"
+    "Title": "Sierra",
+    "Description": "Corta los árboles más rápido con la sierra. Pónsela a un cojinete que esté conectado a un motor y dirígela hacia un árbol."
   },
   {
     "Id": "powertool2",
-    "Title": "Perforadora"
+    "Title": "Perforadora",
+    "Description": "Usa la perforadora para minar rocas y obtener piedra y metal. Pónsela a un cojinete que esté conectado a un motor y dirígela hacia un cuadrado de roca."
   }
 ]

@@ -1,14 +1,17 @@
 [
   {
     "Id": "inters1",
-    "Title": "Duża skrzynia"
+    "Title": "Duża skrzynia",
+    "Description": "Świetna do przechowywania wielu przedmiotów. Może być także używana z pompą próżniową."
   },
   {
     "Id": "inters2",
-    "Title": "Rafinobot"
+    "Title": "Rafinobot",
+    "Description": "Rafinobot może ci pomóc rafinować zebrane kłody. Wkładaj je ręcznie lub umieszczaj w kolektorze zasobów ustawionym obok Rafinobota."
   },
   {
     "Id": "inters3",
-    "Title": "Kolektor zasobów"
+    "Title": "Kolektor zasobów",
+    "Description": "Idealny do zbierania i przechowywania kłód. Kiedy się zapełni, umieść go obok Rafinobota, aby zamienić kłody w bloki."
   }
 ]

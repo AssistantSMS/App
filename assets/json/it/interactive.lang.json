@@ -1,7 +1,8 @@
 [
   {
     "Id": "intera1",
-    "Title": "Frigorifero"
+    "Title": "Frigorifero",
+    "Description": "Mantiene il cibo al fresco."
   },
   {
     "Id": "intera2",
@@ -13,15 +14,18 @@
   },
   {
     "Id": "intera4",
-    "Title": "Cassa"
+    "Title": "Cassa",
+    "Description": "Una semplice cassa dove conservare gli oggetti."
   },
   {
     "Id": "intera5",
-    "Title": "Protettore: Antidistruzione"
+    "Title": "Protettore: Antidistruzione",
+    "Description": "Aiuta a proteggere la tua creazione dai danni. Collegalo a un alloggiamento per batterie."
   },
   {
     "Id": "intera6",
-    "Title": "Codificatore: Anticollegamento"
+    "Title": "Codificatore: Anticollegamento",
+    "Description": "Nasconde i collegamenti delle tue creazioni agli altri meccanici. Collegalo a un alloggiamento per batterie."
   },
   {
     "Id": "intera7",
@@ -29,130 +33,286 @@
   },
   {
     "Id": "intera8",
-    "Title": "Robosarto"
+    "Title": "Robosarto",
+    "Description": "Usa il Robosarto per confezionare nuovi vestiti per il tuo meccanico. Ti basta aggiungere le scatole di vestiti e la giusta quantità di cotone. Puoi anche personalizzare il tuo aspetto utilizzando l’armadio blu."
   },
   {
     "Id": "intera9",
-    "Title": "Sparapatate montabile"
+    "Title": "Sparapatate montabile",
+    "Description": "Collegalo a un contenitore di munizioni con un attivatore per sparare."
   },
   {
     "Id": "intera10",
-    "Title": "Letto di rigenerazione"
+    "Title": "Letto di rigenerazione",
+    "Description": "Schiaccia un piacevolissimo pisolino in questo comodo letto per rigenerarti al suo interno quando il tuo meccanico viene messo KO."
   },
   {
     "Id": "intera11",
-    "Title": "Cuscinetti"
+    "Title": "",
+    "Description": ""
   },
   {
     "Id": "intera12",
-    "Title": "Sospensioni Sportive"
+    "Title": "Cuscinetti",
+    "Description": "Tutto ciò che viene collegato ai cuscinetti ruoterà. Inoltre, è possibile collegare i cuscinetti a un motore o a un sedile di guida per controllarli in vari modi."
   },
   {
     "Id": "intera13",
-    "Title": "Sospensioni Fuoristrada"
+    "Title": "Sospensioni Sportive",
+    "Description": "Aggiungono stabilità. Perfette per impedire ai veicoli di capovolgersi facilmente. Queste sospensioni sono piccole, ma stabili."
   },
   {
     "Id": "intera14",
-    "Title": "Sedile di Guida"
+    "Title": "Sospensioni Fuoristrada",
+    "Description": "Aggiungono stabilità. Perfette per impedire ai veicoli di capovolgersi facilmente. Queste sospensioni sono molto morbide, ideali per il fuoristrada."
   },
   {
     "Id": "intera15",
-    "Title": "Sedile"
+    "Title": "Sedile di Guida",
+    "Description": "Fa girare i cuscinetti a destra o a sinistra. Può essere collegato a un motore per controllare la direzioone di guida. Può anche essere collegato ad attivatori che possono essere manovrati dal sedile."
   },
   {
     "Id": "intera16",
-    "Title": "Sellino di Guida"
+    "Title": "Sedile",
+    "Description": "Usalo per non stare in piedi. Siediti e rilassati oppure aggiungilo al tuo veicolo così potrai far salire i tuoi amici. Può essere collegato ad attivatori per interagire con altre parti del sedile."
   },
   {
     "Id": "intera17",
-    "Title": "Sellino"
+    "Title": "Sellino di Guida",
+    "Description": "Fa girare a destra e a sinistra i cuscinetti. Può essere collegato a un motore per controllare la direzione di guida. Può anche essere collegato a degli attivatori da comandare dal sellino."
   },
   {
     "Id": "intera18",
-    "Title": "Gabinetto"
+    "Title": "Sellino",
+    "Description": "Usalo per non stare in piedi. Siediti e rilassati oppure aggiungilo al tuo veicolo così potrai far salire i tuoi amici. Può essere collegato ad attivatori che possono attivare altre parti interattive dal sellino."
   },
   {
     "Id": "intera19",
-    "Title": "Motore a Gas"
+    "Title": "Gabinetto",
+    "Description": "Si usa per non dover stare in piedi. Siediti pure e rilassati, oppure aggiungilo al tuo veicolo in modo che i tuoi amici possano accompagnarti. Può essere collegato agli attivatori che possono attivare altre parti interattive dal gabinetto. Non dimenticarti di tirare lo sciacquone!"
   },
   {
     "Id": "intera20",
-    "Title": "Motore Elettrico"
+    "Title": "Motore a Gas",
+    "Description": "Un motore dalla velocità fissa e la potenza regolabile, ideale per veicoli. Può essere collegato al sedile di guida o ad un attivatore."
   },
   {
     "Id": "intera21",
-    "Title": "Propulsore"
+    "Title": "Motore Elettrico",
+    "Description": "Dona potenza ai cuscinetti. Un motore dalla velocità fissa e la potenza regolabile, lento e con molta trazione. Può essere collegato al sedile di guida o ad un attivatore."
   },
   {
     "Id": "intera22",
-    "Title": "Unità di controllo"
+    "Title": "Propulsore",
+    "Description": "Se ne metti abbastanza puoi volare. Deve essere collegato ad un attivatore o al sedile di guida per funzionare."
   },
   {
     "Id": "intera23",
-    "Title": "Interruttore"
+    "Title": "Unità di controllo",
+    "Description": "Permette ai cuscinetti di ruotare in sequenza. Perfetta per creazioni che si trasformano. Deve essere collegata ai cuscinetti. Per farla funzionare deve essere collegata ad un attivatore o al sedile di guida."
   },
   {
     "Id": "intera24",
-    "Title": "Pulsante"
+    "Title": "Interruttore",
+    "Description": "Commutazione illimitata su richiesta. L’interruttore attiva qualsiasi oggetto a cui sia collegato, il che lo rende indispensabile per accendere o spegnere qualsiasi cosa con un solo tocco. Può attivare un motore, un propulsore, un’unità di controllo e altro."
   },
   {
     "Id": "intera25",
-    "Title": "Sensore"
+    "Title": "Pulsante",
+    "Description": "Attiva cose varie, finché rimane premuto."
   },
   {
     "Id": "intera26",
-    "Title": "Radio"
+    "Title": "Sensore",
+    "Description": "Se rileva, attiva! Il sensore attiva quando rileva qualsiasi cosa, e ha una portata di dieci blocchi. Può attivare motori, propulsori, unità di controllo e altro."
   },
   {
     "Id": "intera27",
-    "Title": "Trombetta"
+    "Title": "Radio",
+    "Description": "Tutte le hit, a ciclo continuo. Quei terribili robot hanno monopolizzato la radio e ora trasmettono canzoni scelte in base ai loro gusti alquanto inconsueti in fatto di musica. Attivala interagendoci\no collegandola a un attivatore."
   },
   {
     "Id": "intera28",
-    "Title": "Porta logica"
+    "Title": "Trombetta",
+    "Description": "Aggiungila al tuo veicolo o utilizzala come campanello per porta. Premila per farti sentire dai tuoi amici ed evitare incidenti. Impostane il tono e collegala a un attivatore per attivarla."
   },
   {
     "Id": "intera29",
-    "Title": "Timer"
+    "Title": "Porta logica",
+    "Description": "La porta logica è un potente blocco che ti permette di creare funzioni logiche base. Premendo E sul blocco, il meccanico può scegliere tra diverse tipologie di porta logica. È possibile collegarla ad altre porte logiche, attivatori, timer e molto altro ed è l’ideale per realizzare creazioni avanzate."
   },
   {
     "Id": "intera30",
-    "Title": "Testa Robotrasportatore: Basso"
+    "Title": "Timer",
+    "Description": "Il timer consente di ritardare l’interazione tra due parti interattive come, ad esempio, tra un interruttore e un’unità di controllo. Si abbina perfettamente con le porte logiche."
   },
   {
     "Id": "intera31",
-    "Title": "Testa Robotrasportatore: Percussione"
+    "Title": "Testa Robotrasportatore: Basso",
+    "Description": "La testa di questo robot è rotta, ma il generatore di suoni all’interno sembra ancora funzionante. I meccanici creativi probabilmente troveranno un modo per usarla e creare musica."
   },
   {
     "Id": "intera32",
-    "Title": "Testa Robotrasportatore: Voce sintetizzata"
+    "Title": "Testa Robotrasportatore: Percussione",
+    "Description": "La testa di questo robot è rotta, ma il generatore di suoni all’interno sembra ancora funzionante. I meccanici creativi probabilmente troveranno un modo per usarla e creare musica."
   },
   {
     "Id": "intera33",
-    "Title": "Testa Robotrasportatore: Bip"
+    "Title": "Testa Robotrasportatore: Voce sintetizzata",
+    "Description": "La testa di questo robot è rotta, ma il generatore di suoni all’interno sembra ancora funzionante. I meccanici creativi probabilmente troveranno un modo per usarla e creare musica."
   },
   {
     "Id": "intera34",
-    "Title": "Vasca da bagno"
+    "Title": "Testa Robotrasportatore: Bip",
+    "Description": "La testa di questo robot è rotta, ma il generatore di suoni all’interno sembra ancora funzionante. I meccanici creativi probabilmente troveranno un modo per usarla e creare musica."
   },
   {
     "Id": "intera35",
-    "Title": "Pistone"
+    "Title": "Vasca da bagno",
+    "Description": "La si usa per il massimo del relax. Adagiati e rilassati, oppure aggiungila al tuo veicolo per mantenere quella freschezza e quel senso di pulizia anche mentre viaggi. Può essere collegata agli attivatori che possono a loro volta attivare altre parti interattive dalla vasca da bagno."
   },
   {
     "Id": "intera36",
-    "Title": "Montatura squalo di Raft"
+    "Title": "Pistone",
+    "Description": "Si estende e si contrae! Collegalo a un innesco per attivarlo. Puoi anche collegare il pistone a un regolatore per farlo estendere e contrarre in sequenza. Ideale per la crazione di oggetti straordinari."
   },
   {
     "Id": "intera37",
-    "Title": "Spara-patate assemblabile"
+    "Title": "Montatura squalo di Raft",
+    "Description": "Una montatura in plastica dello squalo preso dal gioco di sopravvivenza Raft. Sembra che al suo interno ci siano giunti meccanici. Chissà se morde?"
   },
   {
     "Id": "intera38",
-    "Title": "Piccolo barattolo di esplosivo"
+    "Title": "Spara-patate assemblabile",
+    "Description": "La spara-patate assemblabile è ideale per proteggere le tue creazioni.\nCollegala a un innesco, connesso a sua volta a una sedia per sparare da seduto."
   },
   {
     "Id": "intera39",
-    "Title": "Grosso barattolo di esplosivo"
+    "Title": "Piccolo barattolo di esplosivo",
+    "Description": "Un barattolo altamente esplosivo che può essere detonato in seguito a forti impatti o con lo sparapatate.\nIl raggio esplosivo di questo barattolo è limitato."
+  },
+  {
+    "Id": "intera40",
+    "Title": "Grosso barattolo di esplosivo",
+    "Description": "Un barattolo altamente esplosivo che può essere detonato in seguito a forti impatti o con lo sparapatate.\nIl raggio esplosivo di questo barattolo è ampio."
+  },
+  {
+    "Id": "intera41",
+    "Title": "Cassa della sfida",
+    "Description": "Riempila con gli oggetti che vuoi far utilizzare al giocatore durante la sfida."
+  },
+  {
+    "Id": "intera42",
+    "Title": "Inizio giocatori",
+    "Description": "I giocatori inizieranno su questi durante la sfida."
+  },
+  {
+    "Id": "intera43",
+    "Title": "Generatore di palla",
+    "Description": "Genera una palla quando inizia la sfida. Collegalo a un attivatore per controllare la generazione. Se la palla cade dal bordo, ne verrà generata una nuova."
+  },
+  {
+    "Id": "intera44",
+    "Title": "Generatore di barattolo esplosivo",
+    "Description": "Genera un barattolo esplosivo quando inizia la sfida. Collegalo a un attivatore per controllare la generazione. Se il barattolo si distrugge, ne verrà generato uno nuovo."
+  },
+  {
+    "Id": "intera45",
+    "Title": "Piattaforma meta",
+    "Description": "Portando qui la tua creazione vincerai la sfida. Collega un input per configurare una condizione di vittoria. Collega gli output per attivare degli eventi di festeggiamento."
+  },
+  {
+    "Id": "intera46",
+    "Title": "Piattaforma di costruzione",
+    "Description": "Finché la sfida non inizia, il giocatore può mettere giù la piattaforma e costruire lì le proprie creazioni libere."
+  },
+  {
+    "Id": "intera47",
+    "Title": "Palla",
+    "Description": "È sferica!"
+  },
+  {
+    "Id": "intera48",
+    "Title": "Incavatura per palla",
+    "Description": "Fai entrare una palla del colore corrispondente nell’incavatura per attivare."
+  },
+  {
+    "Id": "intera49",
+    "Title": "Pistone grande",
+    "Description": "Un pistone considerevolmente lungo e potente, utile per spostare porte di grandi dimensioni e piattaforme durante le sfide."
+  },
+  {
+    "Id": "intera50",
+    "Title": "Sensore grande",
+    "Description": "Avverte le creazioni e i giocatori che vi si trovano davanti. Possiede una portata di 64 blocchi e la sua capacità di percezione supera le pareti."
+  },
+  {
+    "Id": "intera51",
+    "Title": "Blocco di luce acceso/spento",
+    "Description": "Utilizzato per comunicare la logica della sfida al giocatore."
+  },
+  {
+    "Id": "intera52",
+    "Title": "Blocco di luce a freccia",
+    "Description": "Collega in serie per illuminare un percorso."
+  },
+  {
+    "Id": "intera53",
+    "Title": "Avviatore di sfida",
+    "Description": "Collegalo a un attivatore per configurare le condizioni di avvio personalizzate della sfida. L’avviatore di sfida permette di creare sfide che non richiedono una creazione per raggiungere la meta. Deve essere collegato a un attivatore per poter iniziare la sfida."
+  },
+  {
+    "Id": "intera54",
+    "Title": "Goal Block",
+    "Description": "This block will finish a challenge when triggered. It's useful if you want your challenge to end with a switch, sensor or button activation."
+  },
+  {
+    "Id": "intera55",
+    "Title": "Robofestaiolo",
+    "Description": "Collegalo a un attivatore e attivalo per dare il via al festeggiamento!"
+  },
+  {
+    "Id": "intera56",
+    "Title": "Pedana di Robofestaiolo"
+  },
+  {
+    "Id": "intera57",
+    "Title": "Cubo a conferma sonora",
+    "Description": "Emette un suono quando viene attivato."
+  },
+  {
+    "Id": "intera58",
+    "Title": "Telaio di generatore di palla uno",
+    "Description": "Un telaio dotato di una freccia che si accende quando viene attivato."
+  },
+  {
+    "Id": "intera59",
+    "Title": "Telaio di generatore di palla due",
+    "Description": "Un telaio dotato di una freccia che si accende quando viene attivato."
+  },
+  {
+    "Id": "intera60",
+    "Title": "Computer con mappa",
+    "Description": "Fornisce una panoramica della sfida."
+  },
+  {
+    "Id": "intera61",
+    "Title": "Robosservatore",
+    "Description": "Prendi appunti ogni volta che il giocatore costruisce qualcosa."
+  },
+  {
+    "Id": "intera62",
+    "Title": "Pubblico a comparsa",
+    "Description": "Ti adora!\nPerfetto per festeggiare il completamento di una sfida."
+  },
+  {
+    "Id": "intera63",
+    "Title": "Character Spawner",
+    "Description": "The Character Spawner lets you spawn characters from Survival mode in your challenges. Connect it to a trigger or the Challenge starter to spawn the selected character."
+  },
+  {
+    "Id": "intera64",
+    "Title": "Small Goal Platform",
+    "Description": "Bringing your creation over this Goal Platform wins the challenge. Connect an input to set a win condition. Connect outputs to trigger celebration events."
   }
 ]

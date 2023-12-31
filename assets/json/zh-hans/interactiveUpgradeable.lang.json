@@ -1,242 +1,302 @@
 [
   {
     "Id": "interu1",
-    "Title": "Sport Suspension 1"
+    "Title": "Sport Suspension 1",
+    "Description": "Adds shock absorption and provides stability. Great for vehicles to prevent them from easily flipping over. This suspension is small, but has a firmer bounce."
   },
   {
     "Id": "interu2",
-    "Title": "Sport Suspension 2"
+    "Title": "Sport Suspension 2",
+    "Description": "Adds shock absorption and provides stability. Great for vehicles to prevent them from easily flipping over. This suspension is small, but has a firmer bounce."
   },
   {
     "Id": "interu3",
-    "Title": "Sport Suspension 3"
+    "Title": "Sport Suspension 3",
+    "Description": "Adds shock absorption and provides stability. Great for vehicles to prevent them from easily flipping over. This suspension is small, but has a firmer bounce."
   },
   {
     "Id": "interu4",
-    "Title": "Sport Suspension 4"
+    "Title": "Sport Suspension 4",
+    "Description": "Adds shock absorption and provides stability. Great for vehicles to prevent them from easily flipping over. This suspension is small, but has a firmer bounce."
   },
   {
     "Id": "interu5",
-    "Title": "Sport Suspension 5"
+    "Title": "Sport Suspension 5",
+    "Description": "Adds shock absorption and provides stability. Great for vehicles to prevent them from easily flipping over. This suspension is small, but has a firmer bounce."
   },
   {
     "Id": "interu6",
-    "Title": "Off-Road Suspension 1"
+    "Title": "Off-Road Suspension 1",
+    "Description": "Adds shock absorption and provides stability. Great for vehicles to prevent them from easily flipping over. This suspension has a lot of bounce, making it ideal for off-road vehicles."
   },
   {
     "Id": "interu7",
-    "Title": "Off-Road Suspension 2"
+    "Title": "Off-Road Suspension 2",
+    "Description": "Adds shock absorption and provides stability. Great for vehicles to prevent them from easily flipping over. This suspension has a lot of bounce, making it ideal for off-road vehicles."
   },
   {
     "Id": "interu8",
-    "Title": "Off-Road Suspension 3"
+    "Title": "Off-Road Suspension 3",
+    "Description": "Adds shock absorption and provides stability. Great for vehicles to prevent them from easily flipping over. This suspension has a lot of bounce, making it ideal for off-road vehicles."
   },
   {
     "Id": "interu9",
-    "Title": "Off-Road Suspension 4"
+    "Title": "Off-Road Suspension 4",
+    "Description": "Adds shock absorption and provides stability. Great for vehicles to prevent them from easily flipping over. This suspension has a lot of bounce, making it ideal for off-road vehicles."
   },
   {
     "Id": "interu10",
-    "Title": "Off-Road Suspension 5"
+    "Title": "Off-Road Suspension 5",
+    "Description": "Adds shock absorption and provides stability. Great for vehicles to prevent them from easily flipping over. This suspension has a lot of bounce, making it ideal for off-road vehicles."
   },
   {
     "Id": "interu11",
-    "Title": "Driver's Seat 1"
+    "Title": "Driver's Seat 1",
+    "Description": "Makes bearings turn left and right. Can be connected to an engine to control the direction of travel. Can also be connected to triggers that can be activated from the seat. Lvl 5 Driver's Seat unlocks steering settings by pressing (E) on connected bearings with the Connect Tool."
   },
   {
     "Id": "interu12",
-    "Title": "Driver's Seat 2"
+    "Title": "Driver's Seat 2",
+    "Description": "Makes bearings turn left and right. Can be connected to an engine to control the direction of travel. Can also be connected to triggers that can be activated from the seat. Lvl 5 Driver's Seat unlocks steering settings by pressing (E) on connected bearings with the Connect Tool."
   },
   {
     "Id": "interu13",
-    "Title": "Driver's Seat 3"
+    "Title": "Driver's Seat 3",
+    "Description": "Makes bearings turn left and right. Can be connected to an engine to control the direction of travel. Can also be connected to triggers that can be activated from the seat. Lvl 5 Driver's Seat unlocks steering settings by pressing (E) on connected bearings with the Connect Tool."
   },
   {
     "Id": "interu14",
-    "Title": "Driver's Seat 4"
+    "Title": "Driver's Seat 4",
+    "Description": "Makes bearings turn left and right. Can be connected to an engine to control the direction of travel. Can also be connected to triggers that can be activated from the seat. Lvl 5 Driver's Seat unlocks steering settings by pressing (E) on connected bearings with the Connect Tool."
   },
   {
     "Id": "interu15",
-    "Title": "Driver's Seat 5"
+    "Title": "Driver's Seat 5",
+    "Description": "Makes bearings turn left and right. Can be connected to an engine to control the direction of travel. Can also be connected to triggers that can be activated from the seat. Lvl 5 Driver's Seat unlocks steering settings by pressing (E) on connected bearings with the Connect Tool."
   },
   {
     "Id": "interu16",
-    "Title": "Driver's Saddle 1"
+    "Title": "Driver's Saddle 1",
+    "Description": "Makes bearings turn left and right. Can be connected to an engine to control the direction of travel. Can also be connected to triggers that can be activated from the saddle. Lvl 5 Driver's Saddle unlocks steering settings by pressing (E) on connected bearings with the Connect Tool."
   },
   {
     "Id": "interu17",
-    "Title": "Driver's Saddle 2"
+    "Title": "Driver's Saddle 2",
+    "Description": "Makes bearings turn left and right. Can be connected to an engine to control the direction of travel. Can also be connected to triggers that can be activated from the saddle. Lvl 5 Driver's Saddle unlocks steering settings by pressing (E) on connected bearings with the Connect Tool."
   },
   {
     "Id": "interu18",
-    "Title": "Driver's Saddle 3"
+    "Title": "Driver's Saddle 3",
+    "Description": "Makes bearings turn left and right. Can be connected to an engine to control the direction of travel. Can also be connected to triggers that can be activated from the saddle. Lvl 5 Driver's Saddle unlocks steering settings by pressing (E) on connected bearings with the Connect Tool."
   },
   {
     "Id": "interu19",
-    "Title": "Driver's Saddle 4"
+    "Title": "Driver's Saddle 4",
+    "Description": "Makes bearings turn left and right. Can be connected to an engine to control the direction of travel. Can also be connected to triggers that can be activated from the saddle. Lvl 5 Driver's Saddle unlocks steering settings by pressing (E) on connected bearings with the Connect Tool."
   },
   {
     "Id": "interu20",
-    "Title": "Driver's Saddle 5"
+    "Title": "Driver's Saddle 5",
+    "Description": "Makes bearings turn left and right. Can be connected to an engine to control the direction of travel. Can also be connected to triggers that can be activated from the saddle. Lvl 5 Driver's Saddle unlocks steering settings by pressing (E) on connected bearings with the Connect Tool."
   },
   {
     "Id": "interu21",
-    "Title": "Seat 1"
+    "Title": "Seat 1",
+    "Description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. Can be connected to triggers which can activate other interactive parts from the seat."
   },
   {
     "Id": "interu22",
-    "Title": "Seat 2"
+    "Title": "Seat 2",
+    "Description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. Can be connected to triggers which can activate other interactive parts from the seat."
   },
   {
     "Id": "interu23",
-    "Title": "Seat 3"
+    "Title": "Seat 3",
+    "Description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. Can be connected to triggers which can activate other interactive parts from the seat."
   },
   {
     "Id": "interu24",
-    "Title": "Seat 4"
+    "Title": "Seat 4",
+    "Description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. Can be connected to triggers which can activate other interactive parts from the seat."
   },
   {
     "Id": "interu25",
-    "Title": "Seat 5"
+    "Title": "Seat 5",
+    "Description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. Can be connected to triggers which can activate other interactive parts from the seat."
   },
   {
     "Id": "interu26",
-    "Title": "Saddle 1"
+    "Title": "Saddle 1",
+    "Description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. Can be connected to triggers which can activate other interactive parts from the saddle."
   },
   {
     "Id": "interu27",
-    "Title": "Saddle 2"
+    "Title": "Saddle 2",
+    "Description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. Can be connected to triggers which can activate other interactive parts from the saddle."
   },
   {
     "Id": "interu28",
-    "Title": "Saddle 3"
+    "Title": "Saddle 3",
+    "Description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. Can be connected to triggers which can activate other interactive parts from the saddle."
   },
   {
     "Id": "interu29",
-    "Title": "Saddle 4"
+    "Title": "Saddle 4",
+    "Description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. Can be connected to triggers which can activate other interactive parts from the saddle."
   },
   {
     "Id": "interu30",
-    "Title": "Saddle 5"
+    "Title": "Saddle 5",
+    "Description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. Can be connected to triggers which can activate other interactive parts from the saddle."
   },
   {
     "Id": "interu31",
-    "Title": "Gas Engine 1"
+    "Title": "Gas Engine 1",
+    "Description": "An engine with fixed speed and adjustable power, ideally suited to powering vehicles. Can be connected to a driver's seat or trigger. Upgrade for more connection points and less gas consumption."
   },
   {
     "Id": "interu32",
-    "Title": "Gas Engine 2"
+    "Title": "Gas Engine 2",
+    "Description": "An engine with fixed speed and adjustable power, ideally suited to powering vehicles. Can be connected to a driver's seat or trigger. Upgrade for more connection points and less gas consumption."
   },
   {
     "Id": "interu33",
-    "Title": "Gas Engine 3"
+    "Title": "Gas Engine 3",
+    "Description": "An engine with fixed speed and adjustable power, ideally suited to powering vehicles. Can be connected to a driver's seat or trigger. Upgrade for more connection points and less gas consumption."
   },
   {
     "Id": "interu34",
-    "Title": "Gas Engine 4"
+    "Title": "Gas Engine 4",
+    "Description": "An engine with fixed speed and adjustable power, ideally suited to powering vehicles. Can be connected to a driver's seat or trigger. Upgrade for more connection points and less gas consumption."
   },
   {
     "Id": "interu35",
-    "Title": "Gas Engine 5"
+    "Title": "Gas Engine 5",
+    "Description": "An engine with fixed speed and adjustable power, ideally suited to powering vehicles. Can be connected to a driver's seat or trigger. Upgrade for more connection points and less gas consumption."
   },
   {
     "Id": "interu36",
-    "Title": "Electric Engine 1"
+    "Title": "Electric Engine 1",
+    "Description": "Powers bearings. An engine with fixed power and adjustable speed. A weak engine with an adjustable speed. Can be connected to a driver's seat or triggers. Upgrade for more connection points and less battery consumption."
   },
   {
     "Id": "interu37",
-    "Title": "Electric Engine 2"
+    "Title": "Electric Engine 2",
+    "Description": "Powers bearings. An engine with fixed power and adjustable speed. A weak engine with an adjustable speed. Can be connected to a driver's seat or triggers. Upgrade for more connection points and less battery consumption."
   },
   {
     "Id": "interu38",
-    "Title": "Electric Engine 3"
+    "Title": "Electric Engine 3",
+    "Description": "Powers bearings. An engine with fixed power and adjustable speed. A weak engine with an adjustable speed. Can be connected to a driver's seat or triggers. Upgrade for more connection points and less battery consumption."
   },
   {
     "Id": "interu39",
-    "Title": "Electric Engine 4"
+    "Title": "Electric Engine 4",
+    "Description": "Powers bearings. An engine with fixed power and adjustable speed. A weak engine with an adjustable speed. Can be connected to a driver's seat or triggers. Upgrade for more connection points and less battery consumption."
   },
   {
     "Id": "interu40",
-    "Title": "Electric Engine 5"
+    "Title": "Electric Engine 5",
+    "Description": "Powers bearings. An engine with fixed power and adjustable speed. A weak engine with an adjustable speed. Can be connected to a driver's seat or triggers. Upgrade for more connection points and less battery consumption."
   },
   {
     "Id": "interu41",
-    "Title": "Thruster 1"
+    "Title": "Thruster 1",
+    "Description": "Enough of these can make things fly. Needs to be connected to a trigger or the driver's seat in order to activate. Upgrade for less gas consumption."
   },
   {
     "Id": "interu42",
-    "Title": "Thruster 2"
+    "Title": "Thruster 2",
+    "Description": "Enough of these can make things fly. Needs to be connected to a trigger or the driver's seat in order to activate. Upgrade for less gas consumption."
   },
   {
     "Id": "interu43",
-    "Title": "Thruster 3"
+    "Title": "Thruster 3",
+    "Description": "Enough of these can make things fly. Needs to be connected to a trigger or the driver's seat in order to activate. Upgrade for less gas consumption."
   },
   {
     "Id": "interu44",
-    "Title": "Thruster 4"
+    "Title": "Thruster 4",
+    "Description": "Enough of these can make things fly. Needs to be connected to a trigger or the driver's seat in order to activate. Upgrade for less gas consumption."
   },
   {
     "Id": "interu45",
-    "Title": "Thruster 5"
+    "Title": "Thruster 5",
+    "Description": "Enough of these can make things fly. Needs to be connected to a trigger or the driver's seat in order to activate. Upgrade for less gas consumption."
   },
   {
     "Id": "interu46",
-    "Title": "Controller 1"
+    "Title": "Controller 1",
+    "Description": "Allows bearings to rotate in sequence. Perfect for building transforming creations. Needs to be connected to bearings. Activated by connecting a trigger or driver's seat to the controller."
   },
   {
     "Id": "interu47",
-    "Title": "Controller 2"
+    "Title": "Controller 2",
+    "Description": "Allows bearings to rotate in sequence. Perfect for building transforming creations. Needs to be connected to bearings. Activated by connecting a trigger or driver's seat to the controller."
   },
   {
     "Id": "interu48",
-    "Title": "Controller 3"
+    "Title": "Controller 3",
+    "Description": "Allows bearings to rotate in sequence. Perfect for building transforming creations. Needs to be connected to bearings. Activated by connecting a trigger or driver's seat to the controller."
   },
   {
     "Id": "interu49",
-    "Title": "Controller 4"
+    "Title": "Controller 4",
+    "Description": "Allows bearings to rotate in sequence. Perfect for building transforming creations. Needs to be connected to bearings. Activated by connecting a trigger or driver's seat to the controller."
   },
   {
     "Id": "interu50",
-    "Title": "Controller 5"
+    "Title": "Controller 5",
+    "Description": "Allows bearings to rotate in sequence. Perfect for building transforming creations. Needs to be connected to bearings. Activated by connecting a trigger or driver's seat to the controller."
   },
   {
     "Id": "interu51",
-    "Title": "Sensor 1"
+    "Title": "Sensor 1",
+    "Description": "It detects, it activates! The sensor activates when detecting any kind of surface that comes into its view, and has a reach of ten blocks. It can activate an engine, a thruster, the controller and more."
   },
   {
     "Id": "interu52",
-    "Title": "Sensor 2"
+    "Title": "Sensor 2",
+    "Description": "It detects, it activates! The sensor activates when detecting any kind of surface that comes into its view, and has a reach of ten blocks. It can activate an engine, a thruster, the controller and more."
   },
   {
     "Id": "interu53",
-    "Title": "Sensor 3"
+    "Title": "Sensor 3",
+    "Description": "It detects, it activates! The sensor activates when detecting any kind of surface that comes into its view, and has a reach of ten blocks. It can activate an engine, a thruster, the controller and more."
   },
   {
     "Id": "interu54",
-    "Title": "Sensor 4"
+    "Title": "Sensor 4",
+    "Description": "It detects, it activates! The sensor activates when detecting any kind of surface that comes into its view, and has a reach of ten blocks. It can activate an engine, a thruster, the controller and more."
   },
   {
     "Id": "interu55",
-    "Title": "Sensor 5"
+    "Title": "Sensor 5",
+    "Description": "It detects, it activates! The sensor activates when detecting any kind of surface that comes into its view, and has a reach of ten blocks. It can activate an engine, a thruster, the controller and more."
   },
   {
     "Id": "interu56",
-    "Title": "Piston 1"
+    "Title": "Piston 1",
+    "Description": "Extends and contracts! Connect it to a trigger to activate. The piston can also be connected to a controller to make it extend and contract in a sequence. Perfect for creating impressive creations."
   },
   {
     "Id": "interu57",
-    "Title": "Piston 2"
+    "Title": "Piston 2",
+    "Description": "Extends and contracts! Connect it to a trigger to activate. The piston can also be connected to a controller to make it extend and contract in a sequence. Perfect for creating impressive creations."
   },
   {
     "Id": "interu58",
-    "Title": "Piston 3"
+    "Title": "Piston 3",
+    "Description": "Extends and contracts! Connect it to a trigger to activate. The piston can also be connected to a controller to make it extend and contract in a sequence. Perfect for creating impressive creations."
   },
   {
     "Id": "interu59",
-    "Title": "Piston 4"
+    "Title": "Piston 4",
+    "Description": "Extends and contracts! Connect it to a trigger to activate. The piston can also be connected to a controller to make it extend and contract in a sequence. Perfect for creating impressive creations."
   },
   {
     "Id": "interu60",
-    "Title": "Piston 5"
+    "Title": "Piston 5",
+    "Description": "Extends and contracts! Connect it to a trigger to activate. The piston can also be connected to a controller to make it extend and contract in a sequence. Perfect for creating impressive creations."
   }
 ]

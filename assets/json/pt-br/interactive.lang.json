@@ -1,7 +1,8 @@
 [
   {
     "Id": "intera1",
-    "Title": "Geladeira"
+    "Title": "Geladeira",
+    "Description": "Mantém seus alimentos frescos."
   },
   {
     "Id": "intera2",
@@ -13,15 +14,18 @@
   },
   {
     "Id": "intera4",
-    "Title": "Baú"
+    "Title": "Baú",
+    "Description": "Um baú simples para armazenar seus itens."
   },
   {
     "Id": "intera5",
-    "Title": "Protetor: Antidestruição"
+    "Title": "Protetor: Antidestruição",
+    "Description": "Ajuda a proteger suas criações de dano. Conecte a uma caixa de bateria."
   },
   {
     "Id": "intera6",
-    "Title": "Codificador: Anticonexão"
+    "Title": "Codificador: Anticonexão",
+    "Description": "Oculta dos outros mecanistas as conexões nas suas criações. Conecte a uma caixa de bateria."
   },
   {
     "Id": "intera7",
@@ -29,130 +33,286 @@
   },
   {
     "Id": "intera8",
-    "Title": "Robô Tecelão"
+    "Title": "Robô Tecelão",
+    "Description": "Use o Robô Tecelão para fazer novas roupas para seu mecanista. É só colocar as Caixas de Traje e a quantidade certa de algodão. Você também pode personalizar seu estilo ao usar o armário azul."
   },
   {
     "Id": "intera9",
-    "Title": "Batatarma Portátil"
+    "Title": "Batatarma Portátil",
+    "Description": "Conecte a uma caixa de munição com um acionador para disparar."
   },
   {
     "Id": "intera10",
-    "Title": "Leito de Ressurgimento"
+    "Title": "Leito de Ressurgimento",
+    "Description": "Tire uma soneca gostosa nesta cama confortável para ressurgir nela após seu mecanista apagar."
   },
   {
     "Id": "intera11",
-    "Title": "Rolamento"
+    "Title": "",
+    "Description": ""
   },
   {
     "Id": "intera12",
-    "Title": "Suspensão Esporte"
+    "Title": "Rolamento",
+    "Description": "Tudo que você posicionar no rolamento irá girar. Rolamentos também podem ser conectados a um motor ou ao banco de motorista para serem controlados de jeitos diferentes."
   },
   {
     "Id": "intera13",
-    "Title": "Suspensão Off-Road"
+    "Title": "Suspensão Esporte",
+    "Description": "Estabiliza e faz quicar. Ótima para impedir veículos de capotarem facilmente. Esta suspensão é pequena, mas quica menos."
   },
   {
     "Id": "intera14",
-    "Title": "Assento do Operador"
+    "Title": "Suspensão Off-Road",
+    "Description": "Estabiliza e faz quicar. Ótima para impedir veículos de capotarem facilmente. Esta suspensão quica bastante, o que a torna ideal para veículos off-road."
   },
   {
     "Id": "intera15",
-    "Title": "Assento"
+    "Title": "Assento do Operador",
+    "Description": "Faz rolamentos girarem para a esquerda e para a direita. Pode ser conectado a um motor para controlar a direção do deslocamento. Também pode ser conectado a acionadores que podem ser ativados do assento."
   },
   {
     "Id": "intera16",
-    "Title": "Sela do Operador"
+    "Title": "Assento",
+    "Description": "Usado para não ter que ficar de pé. Sente-se e relaxe ou adicione-o a um veículo para que seus amigos possam ir com você. Pode ser conectado a acionadores, permitindo que outras peças interativas sejam ativadas dele."
   },
   {
     "Id": "intera17",
-    "Title": "Sela"
+    "Title": "Sela do Operador",
+    "Description": "Faz rolamentos girarem para a esquerda e para a direita. Pode ser conectado a um motor para controlar a direção do deslocamento. Também pode ser conectado a acionadores que podem ser ativados do assento."
   },
   {
     "Id": "intera18",
-    "Title": "Sanitário"
+    "Title": "Sela",
+    "Description": "Usada para não ter que ficar de pé. Sente-se e relaxe ou adicione-a a um veículo para que seus amigos possam ir com você. Pode ser conectado a acionadores, permitindo que outras peças interativas sejam ativadas dele."
   },
   {
     "Id": "intera19",
-    "Title": "Motor a Combustão"
+    "Title": "Sanitário",
+    "Description": "Usado para não precisar ficar de pé. Sente-se e relaxe ou então coloque no seu veículo para dar carona aos seus amigos. Pode ser conectado a acionadores que são capazes de ativar outras peças interativas a partir do sanitário. Não se esqueça de dar a descarga!"
   },
   {
     "Id": "intera20",
-    "Title": "Motor Elétrico"
+    "Title": "Motor a Combustão",
+    "Description": "Um motor com velocidade fixa e potência ajustável, ideal para mover veículos. Pode ser conectado a um assento de operador ou a acionadores."
   },
   {
     "Id": "intera21",
-    "Title": "Propulsor"
+    "Title": "Motor Elétrico",
+    "Description": "Ativa rolamentos. Um motor com potência fixa e velocidade ajustável. Um motor lento com muita força. Pode ser conectado a um assento de operador ou a acionadores."
   },
   {
     "Id": "intera22",
-    "Title": "Controlador"
+    "Title": "Propulsor",
+    "Description": "Tenha o suficiente destes e as coisas saem voando. Precisa ser conectado a um acionador ou ao assento do operador para ser ativado."
   },
   {
     "Id": "intera23",
-    "Title": "Interruptor"
+    "Title": "Controlador",
+    "Description": "Permite que rolamentos girem em sequência. Perfeito para construir criações que se transformam. Precisa ser conectado a rolamentos. Pode ser ativado quando conectado a um acionador ou assento de operador."
   },
   {
     "Id": "intera24",
-    "Title": "Botão"
+    "Title": "Interruptor",
+    "Description": "Alterne sem moderação. O interruptor ativa o que estiver conectado a ele, tornando-se indispensável para ligar e desligar as coisas ao usar uma única vez. Ele pode ativar um motor, um propulsor, o controlador e muito mais."
   },
   {
     "Id": "intera25",
-    "Title": "Sensor"
+    "Title": "Botão",
+    "Description": "Ativa coisas. O botão ativa enquanto for pressionado."
   },
   {
     "Id": "intera26",
-    "Title": "Rádio"
+    "Title": "Sensor",
+    "Description": "Ele detecta, ele ativa! O sensor se ativa quando detecta qualquer superfície que entre em seu campo de visão em um raio de dez blocos. Ele pode ativar um motor, um propulsor, o controlador e mais."
   },
   {
     "Id": "intera27",
-    "Title": "Buzina"
+    "Title": "Rádio",
+    "Description": "As melhores músicas sem interrupções. Os terríveis robôs tomaram o controle e estão transmitindo seleções clássicas do gosto musical excêntrico deles. Ative ao interagir com ele\nou ao conectar a um acionador."
   },
   {
     "Id": "intera28",
-    "Title": "Porta Lógica"
+    "Title": "Buzina",
+    "Description": "Adicione ao seu veículo ou use como campainha. Buzine para seus amigos a fim de evitar acidentes. Escolha a afinação e conecte a um acionador para ativar."
   },
   {
     "Id": "intera29",
-    "Title": "Temporizador"
+    "Title": "Porta Lógica",
+    "Description": "A porta lógica é um bloco poderoso que permite construir funções lógicas básicas. Ao apertar E no bloco, o mecanista poderá escolher entre diferentes tipos de portas lógicas. A porta lógica pode ser conectada a outras portas lógicas, acionadores, temporizadores e muito mais. É ótima para fazer criações avançadas."
   },
   {
     "Id": "intera30",
-    "Title": "Cabeça de Robô Cargueiro: Baixo"
+    "Title": "Temporizador",
+    "Description": "O temporizador permite atrasar a interação entre duas peças interativas. Por exemplo, um interruptor e um controlador. Funciona que é uma beleza com portas lógicas."
   },
   {
     "Id": "intera31",
-    "Title": "Cabeça de Robô Cargueiro: Percussão"
+    "Title": "Cabeça de Robô Cargueiro: Baixo",
+    "Description": "A cabeça deste robô está quebrada. No entanto, o gerador de sons nela parece estar funcional. Mecanistas criativos provavelmente serão capazes de achar um modo de fazer música."
   },
   {
     "Id": "intera32",
-    "Title": "Cabeça de Robô Cargueiro: Voz Sintetizada"
+    "Title": "Cabeça de Robô Cargueiro: Percussão",
+    "Description": "A cabeça deste robô está quebrada. No entanto, o gerador de sons nela parece estar funcional. Mecanistas criativos provavelmente serão capazes de achar um modo de fazer música."
   },
   {
     "Id": "intera33",
-    "Title": "Cabeça de Robô Cargueiro: Sinal Sonoro"
+    "Title": "Cabeça de Robô Cargueiro: Voz Sintetizada",
+    "Description": "A cabeça deste robô está quebrada. No entanto, o gerador de sons nela parece estar funcional. Mecanistas criativos provavelmente serão capazes de achar um modo de fazer música."
   },
   {
     "Id": "intera34",
-    "Title": "Banheira"
+    "Title": "Cabeça de Robô Cargueiro: Sinal Sonoro",
+    "Description": "A cabeça deste robô está quebrada. No entanto, o gerador de sons nela parece estar funcional. Mecanistas criativos provavelmente serão capazes de achar um modo de fazer música."
   },
   {
     "Id": "intera35",
-    "Title": "Pistão"
+    "Title": "Banheira",
+    "Description": "Usada para relaxar o máximo. Sente-se e relaxe ou então coloque no seu veículo para ficar sempre limpinho durante a viagem. Pode ser conectado a acionadores que são capazes de ativar outras peças interativas a partir da banheira."
   },
   {
     "Id": "intera36",
-    "Title": "Tubarão na Jangada"
+    "Title": "Pistão",
+    "Description": "Vai pra frente e pra trás! Conecte-o a um gatilho para ativar. O pistão também pode ser conectado a um controlador para fazê-lo se estender e se retrair em uma sequência. Perfeito para criar obras impressionantes."
   },
   {
     "Id": "intera37",
-    "Title": "Lança-batata Montado"
+    "Title": "Tubarão na Jangada",
+    "Description": "Um ornamento de tubarão de plástico do jogo de sobrevivência Raft. Parece que dispõe de algumas junções mecânicas. Será que ele morde?"
   },
   {
     "Id": "intera38",
-    "Title": "Botijão Explosivo Pequeno"
+    "Title": "Lança-batata Montado",
+    "Description": "O lança-batata montado é ótimo para proteger suas criações.\nConecte-o a um gatilho conectado a um assento para atirar enquanto dirige."
   },
   {
     "Id": "intera39",
-    "Title": "Botijão Explosivo Grande"
+    "Title": "Botijão Explosivo Pequeno",
+    "Description": "Um botijão altamente explosivo que pode ser detonado por colisões fortes ou por Batatarmas.\nEste botijão tem um curto alcance de explosão."
+  },
+  {
+    "Id": "intera40",
+    "Title": "Botijão Explosivo Grande",
+    "Description": "Um botijão altamente explosivo que pode ser detonado por colisões fortes ou por Batatarmas.\nEste botijão tem um grande alcance de explosão."
+  },
+  {
+    "Id": "intera41",
+    "Title": "Baú de Desafio",
+    "Description": "Encha com itens que quer que o jogador construa no seu desafio."
+  },
+  {
+    "Id": "intera42",
+    "Title": "Ponto Inicial",
+    "Description": "Os jogadores iniciarão aqui ao jogar o desafio."
+  },
+  {
+    "Id": "intera43",
+    "Title": "Gerador de Bolas",
+    "Description": "Gera uma bola quando o desafio iniciar. Conecte a um acionador para controlar o gerador. Um novo surgirá se a bola cair da extremidade."
+  },
+  {
+    "Id": "intera44",
+    "Title": "Gerador de Botijão Explosivo",
+    "Description": "Gera um botijão explosivo quando o desafio iniciar. Conecte a um acionador para controlar o gerador. Um novo surgirá se o botijão for destruído."
+  },
+  {
+    "Id": "intera45",
+    "Title": "Plataforma de Objetivo",
+    "Description": "Traga sua criação até aqui para vencer o desafio. Conecte uma entrada para definir a condição de vitória. Conecte saídas para acionar os eventos de comemoração."
+  },
+  {
+    "Id": "intera46",
+    "Title": "Plataforma de Construção",
+    "Description": "Enquanto o desafio não iniciar, o jogador poderá colocar o ascensor aqui e construir. Desde que o desafio não tenha iniciado, o jogador poderá construir a criação dele aqui."
+  },
+  {
+    "Id": "intera47",
+    "Title": "Bola",
+    "Description": "É redonda!"
+  },
+  {
+    "Id": "intera48",
+    "Title": "Soquete de Bola",
+    "Description": "Traga até o soquete uma bola de cor correspondente para ativar."
+  },
+  {
+    "Id": "intera49",
+    "Title": "Pistão Grande",
+    "Description": "Um pistão bem longo e poderoso para mover grandes portas e plataformas nos desafios."
+  },
+  {
+    "Id": "intera50",
+    "Title": "Sensor Grande",
+    "Description": "Detecta criações e jogadores diante dele. Tem um alcance de 64 blocos. Detecta através de paredes."
+  },
+  {
+    "Id": "intera51",
+    "Title": "Ligar/Desligar Bloco de Iluminação",
+    "Description": "Usado para comunicar a lógica de desafio ao jogador."
+  },
+  {
+    "Id": "intera52",
+    "Title": "Bloco de Luz de Seta",
+    "Description": "Conecte em série para iluminar um caminho."
+  },
+  {
+    "Id": "intera53",
+    "Title": "Iniciador de Desafio",
+    "Description": "Conecte a um acionador para definir condições de início personalizadas para um desafio. O iniciador de desafio permite criar desafios que não precisam de uma criação para acionar o objetivo. É necessário conectar a um acionador para iniciar o desafio."
+  },
+  {
+    "Id": "intera54",
+    "Title": "Goal Block",
+    "Description": "This block will finish a challenge when triggered. It's useful if you want your challenge to end with a switch, sensor or button activation."
+  },
+  {
+    "Id": "intera55",
+    "Title": "Robô Festivo",
+    "Description": "Conecte a um acionador para ativar e começar a comemorar!"
+  },
+  {
+    "Id": "intera56",
+    "Title": "Ponto de Comemoração"
+  },
+  {
+    "Id": "intera57",
+    "Title": "Cubo de Áudio de Confirmação",
+    "Description": "Emite um som ao ser acionado."
+  },
+  {
+    "Id": "intera58",
+    "Title": "Armação 1 de Gerador de Bolas",
+    "Description": "Uma armação com uma seta que acende ao ser acionada."
+  },
+  {
+    "Id": "intera59",
+    "Title": "Armação 2 de Gerador de Bolas",
+    "Description": "Uma armação com uma seta que acende ao ser acionada."
+  },
+  {
+    "Id": "intera60",
+    "Title": "Computador de Navegação",
+    "Description": "Fornece uma visão geral do desafio."
+  },
+  {
+    "Id": "intera61",
+    "Title": "Robô Observador",
+    "Description": "Faz anotações sempre que o jogador constrói alguma coisa."
+  },
+  {
+    "Id": "intera62",
+    "Title": "Caixa de Audiência",
+    "Description": "O povo te ama!\nÉ perfeito para comemorar o término de um desafio."
+  },
+  {
+    "Id": "intera63",
+    "Title": "Character Spawner",
+    "Description": "The Character Spawner lets you spawn characters from Survival mode in your challenges. Connect it to a trigger or the Challenge starter to spawn the selected character."
+  },
+  {
+    "Id": "intera64",
+    "Title": "Small Goal Platform",
+    "Description": "Bringing your creation over this Goal Platform wins the challenge. Connect an input to set a win condition. Connect outputs to trigger celebration events."
   }
 ]

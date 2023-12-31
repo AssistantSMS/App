@@ -1,7 +1,8 @@
 [
   {
     "Id": "surv1",
-    "Title": "Llave de almacén"
+    "Title": "Llave de almacén",
+    "Description": "Se usa para activar un elevador del almacén."
   },
   {
     "Id": "surv2",
@@ -37,7 +38,8 @@
   },
   {
     "Id": "surv22",
-    "Title": "Batería general"
+    "Title": "Batería general",
+    "Description": "Se usa para alimentar naves espaciales o estaciones grandes."
   },
   {
     "Id": "surv25",

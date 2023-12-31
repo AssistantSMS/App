@@ -54,7 +54,7 @@
   "searchItems": "Rechercher des articles",
   "other": "Autre",
   "craftedUsing": "Élément(s) de fabrication",
-  "noItems": "Pas d'items",
+  "noItems": "Pas d'objet",
   "close": "Fermer",
   "apply": "Appliquer",
   "edit": "Modifier",
@@ -100,11 +100,12 @@
   "pendingAppStoreRelease": "En attente de l'approbation de l'App Store",
   "appVersion": "Version de l'appli: {0}",
   "gameVersion": "Version de Jeu: {0}",
+  "patreonAccess": "Accès Patreon",
   "assistantApps": "AssistantApps",
   "japanese": "Japon",
   "korean": "Coréen ",
   "chinese": "Chinois",
-  "fairUseDisclaimer": "Fair Use Disclaimer: This app contains copyrighted material the use of which has not been specifically authorized by the copyright owner, Axolot Games AB. I am making the content of the game available in order to improve the the player's experience when playing Scrap Mechanic. I believe this constitutes a 'fair use' of any such copyrighted material as provided for in section 107 of the US Copyright Law.\n\rAny of the trademarks or similar rights that are mentioned or used in any page are the property of their respective owners. Unless otherwise stated, Assistant For Scrap Mechanic is neither endorsed nor affiliated with any of the holders of any such rights, and as such cannot grant any rights to use any otherwise protected materials. \r\nCopyright 2020, Assistant for Scrap Mechanic",
+  "fairUseDisclaimer": "Fair Use Disclaimer : Cette application contient du matériel protégé par des droits d'auteur dont l'utilisation n'a pas été spécifiquement autorisée par le propriétaire des droits d'auteur, Axolot Games AB. Je mets à disposition le contenu du jeu afin d'améliorer l'expérience des joueurs de Scrap Mechanic. Je pense qu'il s'agit d'une 'utilisation équitable' de tout matériel protégé par des droits d'auteur, conformément à l'article 107 de la loi américaine sur les droits d'auteur. Toutes les marques ou droits similaires mentionnés ou utilisés dans une page sont la propriété de leurs détenteurs respectifs. Sauf indication contraire, Assistant For Scrap Mechanic n'est ni soutenu ni affilié à l'un des détenteurs de ces droits, et ne peut donc accorder aucun droit d'utilisation d'un matériel autrement protégé. Copyright 2020, Assistant for Scrap Mechanic",
   "craftBot": "Robot fabricateur",
   "cookingBot": "Robot cuisinier ",
   "refiner": "Raffinerie ",
@@ -171,5 +172,5 @@
   "foundIn": "Trouvé dans",
   "home": "Foyer ",
   "creative": "Créatif ",
-  "hashCode": "EA08D9665B415C98B36D45A6A2B18432"
+  "hashCode": "E5E87EC322538442FD37309A82B67F84"
 }

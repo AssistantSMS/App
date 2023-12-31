@@ -1,30 +1,37 @@
 [
   {
     "Id": "char1",
-    "Title": "Capsula Robotrasportatore Verde"
+    "Title": "Capsula Robotrasportatore Verde",
+    "Description": "Spara o colpisci la capsula per liberare un robot molto arrabbiato. Vernicia i robot con colori differenti, così si metteranno gli uni contro gli altri loro anziché inseguire te."
   },
   {
     "Id": "char2",
-    "Title": "Capsula Robofienaiolo"
+    "Title": "Capsula Robofienaiolo",
+    "Description": "Spara o colpisci la capsula per liberare un robot molto arrabbiato. Vernicia i robot con colori differenti, così si metteranno gli uni contro gli altri loro anziché inseguire te."
   },
   {
     "Id": "char3",
-    "Title": "Capsula Robonastratore"
+    "Title": "Capsula Robonastratore",
+    "Description": "Spara o colpisci la capsula per liberare un robot molto arrabbiato. Vernicia i robot con colori differenti, così si metteranno gli uni contro gli altri loro anziché inseguire te."
   },
   {
     "Id": "char4",
-    "Title": "Capsula Robonastratore Rosso"
+    "Title": "Capsula Robonastratore Rosso",
+    "Description": "Spara o colpisci la capsula per liberare un robot molto arrabbiato. Vernicia i robot con colori differenti, così si metteranno gli uni contro gli altri loro anziché inseguire te."
   },
   {
     "Id": "char5",
-    "Title": "Capsula Robofattore"
+    "Title": "Capsula Robofattore",
+    "Description": "Spara o colpisci la capsula per liberare un robot molto arrabbiato. Vernicia i robot con colori differenti, così si metteranno gli uni contro gli altri loro anziché inseguire te."
   },
   {
     "Id": "char6",
-    "Title": "Capsula Glowb"
+    "Title": "Capsula Glowb",
+    "Description": "Spara o colpisci la capsula per liberare un Glowb alleato."
   },
   {
     "Id": "char7",
-    "Title": "Capsula Woc"
+    "Title": "Capsula Woc",
+    "Description": "Spara o colpisci la capsula per liberare una Woc alleata."
   }
 ]

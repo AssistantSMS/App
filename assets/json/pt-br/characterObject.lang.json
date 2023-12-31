@@ -1,30 +1,37 @@
 [
   {
     "Id": "char1",
-    "Title": "Cápsula de Robô Transportador Verde"
+    "Title": "Cápsula de Robô Transportador Verde",
+    "Description": "Dispare ou acerte a cápsula para liberar um robô bastante raivoso. Pinte os robôs de cores diferentes para que eles se voltem uns contra os outros, ao invés de virem atrás de você."
   },
   {
     "Id": "char2",
-    "Title": "Cápsula de Robô Forquilhador"
+    "Title": "Cápsula de Robô Forquilhador",
+    "Description": "Dispare ou acerte a cápsula para liberar um robô bastante raivoso. Pinte os robôs de cores diferentes para que eles se voltem uns contra os outros, ao invés de virem atrás de você."
   },
   {
     "Id": "char3",
-    "Title": "Cápsula de Robô Empacotador"
+    "Title": "Cápsula de Robô Empacotador",
+    "Description": "Dispare ou acerte a cápsula para liberar um robô bastante raivoso. Pinte os robôs de cores diferentes para que eles se voltem uns contra os outros, ao invés de virem atrás de você."
   },
   {
     "Id": "char4",
-    "Title": "Cápsula de Robô Empacotador Vermelho"
+    "Title": "Cápsula de Robô Empacotador Vermelho",
+    "Description": "Dispare ou acerte a cápsula para liberar um robô bastante raivoso. Pinte os robôs de cores diferentes para que eles se voltem uns contra os outros, ao invés de virem atrás de você."
   },
   {
     "Id": "char5",
-    "Title": "Cápsula de Robô Agricultor"
+    "Title": "Cápsula de Robô Agricultor",
+    "Description": "Dispare ou acerte a cápsula para liberar um robô bastante raivoso. Pinte os robôs de cores diferentes para que eles se voltem uns contra os outros, ao invés de virem atrás de você."
   },
   {
     "Id": "char6",
-    "Title": "Cápsula de Glowb"
+    "Title": "Cápsula de Glowb",
+    "Description": "Dispare ou acerte a cápsula para liberar um glowb amigável."
   },
   {
     "Id": "char7",
-    "Title": "Cápsula de Woc"
+    "Title": "Cápsula de Woc",
+    "Description": "Dispare ou acerte a cápsula para liberar uma woc amigável."
   }
 ]

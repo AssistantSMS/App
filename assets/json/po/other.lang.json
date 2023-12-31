@@ -1,47 +1,58 @@
 [
   {
     "Id": "other1",
-    "Title": "Łącznik"
+    "Title": "Łącznik",
+    "Description": "Najlepszy przyjaciel każdego mechanika! Użyj go, by połączyć ze sobą poszczególne części interaktywne. Na przykład silnik spalinowy z łożyskiem czy silnik rakietowy z fotelem kierowcy."
   },
   {
     "Id": "other2",
-    "Title": "Malowanie"
+    "Title": "Malowanie",
+    "Description": "Użyj farby, aby nadać swoim konstrukcjom wyjątkowy wygląd i tworzyć własne dzieła sztuki. Aby malować, wciśnij lewy przycisk myszy. Aby usunąć farbę – prawy. Wciśnij „Q”, aby otworzyć paletę kolorów. Aby pomalować większą powierzchnię, przytrzymaj i przeciągnij lewy przycisk myszy."
   },
   {
     "Id": "other3",
-    "Title": "Spawarka"
+    "Title": "Spawarka",
+    "Description": "Zespawaj swoje konstrukcje!\nWybierz spawarkę, kliknij lewym przyciskiem myszy dowolną swobodną konstrukcję, a następnie ponownie kliknij tym samym przyciskiem powierzchnię innej konstrukcji, by zespawać je ze sobą. Możesz też zespawać ze sobą części znajdujące się na podnośniku. Przytrzymaj lewy przycisk myszy na pierwszej części i przeciągnij w kierunku części, do której chcesz ją przyspawać."
   },
   {
     "Id": "other4",
-    "Title": "Beacon"
+    "Title": "Beacon",
+    "Description": "Emits a tracking signal that can be toggled in the Logbook."
   },
   {
     "Id": "other5",
-    "Title": "Pompa próżniowa"
+    "Title": "Pompa próżniowa",
+    "Description": "Pompa próżniowa ma wiele zastosowań, gdy połączy się ją z włącznikiem. Odessij wodę i przelej ją do zbiornika. Podnieś rośliny i umieść je w skrzyni. Możesz nawet strzelać i umieszczać przedmioty ze skrzyni."
   },
   {
     "Id": "other6",
-    "Title": "Rura ssąca"
+    "Title": "Rura ssąca",
+    "Description": "Wykorzystaj w połączeniu z pompą próżniową, aby przenosić przedmioty przez rurę."
   },
   {
     "Id": "other7",
-    "Title": "Narożnik rury ssącej"
+    "Title": "Narożnik rury ssącej",
+    "Description": "Wykorzystaj w połączeniu z pompą próżniową, aby przenosić przedmioty przez rurę."
   },
   {
     "Id": "other8",
-    "Title": "Zbiornik z benzyną"
+    "Title": "Zbiornik z benzyną",
+    "Description": "Pozwala przechowywać więcej benzyny i doprowadzać ją do silników spalinowych i innych części interaktywnych, które wymagają benzyny po podłączeniu."
   },
   {
     "Id": "other9",
-    "Title": "Pojemnik na akumulatory"
+    "Title": "Pojemnik na akumulatory",
+    "Description": "Pozwala przechowywać więcej akumulatorów i doprowadzać je do silników elektrycznych i innych części interaktywnych, które wymagają akumulatora po podłączeniu."
   },
   {
     "Id": "other10",
-    "Title": "Zbiornik z wodą"
+    "Title": "Zbiornik z wodą",
+    "Description": "Połącz go z pompą próżniową znajdującą się pod wodą, aby napełnić zbiornik wodą."
   },
   {
     "Id": "other11",
-    "Title": "Działko wodne"
+    "Title": "Działko wodne",
+    "Description": "Połącz je ze zbiornikiem na wodę z włącznikiem, aby bardziej efektywnie podlewać rośliny."
   },
   {
     "Id": "other12",
@@ -77,34 +88,42 @@
   },
   {
     "Id": "other20",
-    "Title": "Kukbot"
+    "Title": "Kukbot",
+    "Description": "Gotuje pyszne jedzenie, które napełni twój pasek zdrowia lub przywróci do życia znajomych."
   },
   {
     "Id": "other21",
-    "Title": "Pojemnik na ziemniaczaną amunicję"
+    "Title": "Pojemnik na ziemniaczaną amunicję",
+    "Description": "Połącz go z montowanym działkiem na kartofle za pomocą włącznika, aby strzelać ziemniaczaną amunicją."
   },
   {
     "Id": "other22",
-    "Title": "Działko na kartofle"
+    "Title": "Działko na kartofle",
+    "Description": "Działko na kartofle, pozwala wykonać jeden strzał."
   },
   {
     "Id": "other23",
-    "Title": "Strzelba na kartofle"
+    "Title": "Strzelba na kartofle",
+    "Description": "Wyrzuca rozproszony ładunek gorących frytek."
   },
   {
     "Id": "other24",
-    "Title": "Karabin kartoflany"
+    "Title": "Karabin kartoflany",
+    "Description": "Strzela z dużą szybkością kartoflami. Wykorzystuje znaczną ilość amunicji kartoflanej."
   },
   {
     "Id": "other25",
-    "Title": "Młot"
+    "Title": "Młot",
+    "Description": "Młotem można dowolnie przesuwać niezakotwiczone elementy – wystarczy w nie uderzyć."
   },
   {
     "Id": "other26",
-    "Title": "Podnośnik"
+    "Title": "Podnośnik",
+    "Description": "Budując na podnośniku, stworzysz konstrukcję, która nie będzie przytwierdzona do podłoża. Możesz go podnieść lub opuścić. Służy również do podnoszenia konstrukcji, które się przewróciły."
   },
   {
     "Id": "other27",
-    "Title": "Podręcznik"
+    "Title": "Podręcznik",
+    "Description": "Zawiera informacje, dzięki którym dowiesz się, jak budować nawet najbardziej skomplikowane konstrukcje i zostać prawdziwym mistrzem inżynierii Scrap Mechanic!"
   }
 ]

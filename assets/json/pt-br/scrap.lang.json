@@ -1,18 +1,22 @@
 [
   {
     "Id": "scrap1",
-    "Title": "Banco de Motorista Sucateado"
+    "Title": "Banco de Motorista Sucateado",
+    "Description": "Faz os rolamentos girarem para a esquerda e para a direita. Pode ser conectado a um motor para controlar a direção da viagem. Além disso, é possível conectar a acionadores que podem ser ativados a partir do banco. Este banco de motorista não pode ser melhorado."
   },
   {
     "Id": "scrap2",
-    "Title": "Banco Sucateado"
+    "Title": "Banco Sucateado",
+    "Description": "Usado para não precisar ficar de pé. Sente-se e relaxe ou então coloque no seu veículo para dar carona aos seus amigos. Este banco não pode ser melhorado."
   },
   {
     "Id": "scrap3",
-    "Title": "Roda Sucateada"
+    "Title": "Roda Sucateada",
+    "Description": "Não desce redondo."
   },
   {
     "Id": "scrap4",
-    "Title": "Motor de Combustão Sucateado"
+    "Title": "Motor de Combustão Sucateado",
+    "Description": "Um motor com velocidade variável e potência ajustável, ideal para alimentar veículos. Pode ser conectado a um banco de motorista ou a um acionador. Este motor não pode ser melhorado."
   }
 ]

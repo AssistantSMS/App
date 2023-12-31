@@ -58,8 +58,8 @@
   "close": "Chiudi",
   "apply": "Applica",
   "edit": "Modifica",
-  "delete": "Cancella",
-  "deleteAll": "Cancella tutto",
+  "delete": "Elimina ",
+  "deleteAll": "Elimina tutto",
   "cart": "Carrello",
   "quantity": "Quantità",
   "unknown": "Sconosciuto",
@@ -100,6 +100,7 @@
   "pendingAppStoreRelease": "In attesa di approvazione dell'App Store",
   "appVersion": "Versione App: {0}",
   "gameVersion": "Versione di gioco: {0}",
+  "patreonAccess": "Accesso Patreon",
   "assistantApps": "AssistantApps",
   "japanese": "Giapponese",
   "korean": "Korean",
@@ -139,7 +140,7 @@
   "ok": "Ok",
   "cancel": "Cancel",
   "translation": "Translation",
-  "translationIssue": "Please note that Scrap mechanic is not completely translated for the language you have selected. There will be items that are not translated into {0}.",
+  "translationIssue": "Please note that {1} is not completely translated for the language you have selected. There will be items that are not translated into {0}.",
   "addPlantPlot": "Add plant plot",
   "getXByTradingY": "Get {0} at the {1} in exchange for:",
   "gearCount": "Number of gears",
@@ -171,5 +172,5 @@
   "foundIn": "Found in",
   "home": "Home",
   "creative": "Creative",
-  "hashCode": "0FD8CC015AC3E4B55B86F3C687629D46"
+  "hashCode": "DBDEED5ACDDE469D3B5FA82ADC3EB5B7"
 }

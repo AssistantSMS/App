@@ -41,34 +41,42 @@
   },
   {
     "Id": "plant11",
-    "Title": "Банан"
+    "Title": "Банан",
+    "Description": "Свежий банан."
   },
   {
     "Id": "plant12",
-    "Title": "Черника"
+    "Title": "Черника",
+    "Description": "Сладкая черника"
   },
   {
     "Id": "plant13",
-    "Title": "Апельсин"
+    "Title": "Апельсин",
+    "Description": "Сочный апельсин"
   },
   {
     "Id": "plant14",
-    "Title": "Ананас"
+    "Title": "Ананас",
+    "Description": "Сочный ананас."
   },
   {
     "Id": "plant15",
-    "Title": "Морковь"
+    "Title": "Морковь",
+    "Description": "Питательная морковка."
   },
   {
     "Id": "plant16",
-    "Title": "Свекла"
+    "Title": "Свекла",
+    "Description": "Питательная свекла."
   },
   {
     "Id": "plant17",
-    "Title": "Помидор"
+    "Title": "Помидор",
+    "Description": "Сочный помидор"
   },
   {
     "Id": "plant18",
-    "Title": "Брокколи"
+    "Title": "Брокколи",
+    "Description": "Питательная брокколи."
   }
 ]

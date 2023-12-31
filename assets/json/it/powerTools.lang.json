@@ -1,10 +1,12 @@
 [
   {
     "Id": "powertool1",
-    "Title": "Sega circolare"
+    "Title": "Sega circolare",
+    "Description": "La sega circolare consente di abbattere più velocemente gli alberi. Posizionala su un cuscinetto collegato a un motore e avvicinala a un albero."
   },
   {
     "Id": "powertool2",
-    "Title": "Trapano"
+    "Title": "Trapano",
+    "Description": "Usa il trapano per estrarre pietra e metallo dalle rocce quadrate. Posizionalo su un cuscinetto collegato a un motore e avvicinalo a una roccia quadrata."
   }
 ]

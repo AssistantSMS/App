@@ -1,6 +1,7 @@
 [
   {
     "Id": "comp1",
-    "Title": "Zestaw komponentów"
+    "Title": "Zestaw komponentów",
+    "Description": "Używany do ulepszania części interaktywnych i odblokowywania botów w stacji mechanicznej."
   }
 ]

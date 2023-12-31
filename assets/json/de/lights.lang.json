@@ -25,10 +25,12 @@
   },
   {
     "Id": "light7",
-    "Title": "Frontscheinwerfer"
+    "Title": "Frontscheinwerfer",
+    "Description": "Sorgt für bessere Sicht! Verbinde ihn mit einem Auslöser, um ihn ein- und auszuschalten. Einstellbare Reichweite."
   },
   {
     "Id": "light8",
-    "Title": "Lagerhausscheinwerfer"
+    "Title": "Lagerhausscheinwerfer",
+    "Description": "Sorgt für bessere Sicht! Verbinde ihn mit einem Auslöser, um ihn ein- und auszuschalten. Einstellbare Reichweite."
   }
 ]

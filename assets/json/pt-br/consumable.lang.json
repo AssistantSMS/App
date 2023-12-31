@@ -1,23 +1,28 @@
 [
   {
     "Id": "consu1",
-    "Title": "Fertilizante"
+    "Title": "Fertilizante",
+    "Description": "Faz as plantas crescerem mais rápido."
   },
   {
     "Id": "consu2",
-    "Title": "Sunshake"
+    "Title": "Sunshake",
+    "Description": "Mecanistas adoram um Sunshake geladinho quando têm sede."
   },
   {
     "Id": "consu3",
-    "Title": "Hambúrguer de Pizza"
+    "Title": "Hambúrguer de Pizza",
+    "Description": "A comida favorita de mecanistas. Enche todos os medidores ao máximo."
   },
   {
     "Id": "consu4",
-    "Title": "Hambúrguer Vegetariano"
+    "Title": "Hambúrguer Vegetariano",
+    "Description": "Uma opção vegetariana. Enche todos os medidores ao máximo."
   },
   {
     "Id": "consu5",
-    "Title": "Baguete da Ressurreição"
+    "Title": "Baguete da Ressurreição",
+    "Description": "Alimente seus amigos abatidos para que eles fiquem de pé e voltem à ação."
   },
   {
     "Id": "consu6",
@@ -25,6 +30,7 @@
   },
   {
     "Id": "consu7",
-    "Title": "Saco de Terra"
+    "Title": "Saco de Terra",
+    "Description": "Use no solo para colocar suas sementes."
   }
 ]

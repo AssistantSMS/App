@@ -41,34 +41,42 @@
   },
   {
     "Id": "plant11",
-    "Title": "Banane"
+    "Title": "Banane",
+    "Description": "Eine frische Banane."
   },
   {
     "Id": "plant12",
-    "Title": "Blaubeere"
+    "Title": "Blaubeere",
+    "Description": "Eine süße Blaubeere."
   },
   {
     "Id": "plant13",
-    "Title": "Orange"
+    "Title": "Orange",
+    "Description": "Eine saftige Orange."
   },
   {
     "Id": "plant14",
-    "Title": "Ananas"
+    "Title": "Ananas",
+    "Description": "Eine saftige Ananas."
   },
   {
     "Id": "plant15",
-    "Title": "Karotte"
+    "Title": "Karotte",
+    "Description": "Eine vitaminreiche Karotte."
   },
   {
     "Id": "plant16",
-    "Title": "Rote Beete"
+    "Title": "Rote Beete",
+    "Description": "Eine vitaminreiche Rote Beete."
   },
   {
     "Id": "plant17",
-    "Title": "Tomate"
+    "Title": "Tomate",
+    "Description": "Eine saftige Tomate."
   },
   {
     "Id": "plant18",
-    "Title": "Brokkoli"
+    "Title": "Brokkoli",
+    "Description": "Ein vitaminreicher Brokkoli."
   }
 ]

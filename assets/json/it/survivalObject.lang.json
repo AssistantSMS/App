@@ -1,7 +1,8 @@
 [
   {
     "Id": "surv1",
-    "Title": "Chiave elettronica di magazzino"
+    "Title": "Chiave elettronica di magazzino",
+    "Description": "Utilizzata per attivare un ascensore del magazzino."
   },
   {
     "Id": "surv2",
@@ -37,7 +38,8 @@
   },
   {
     "Id": "surv22",
-    "Title": "Batteria principale"
+    "Title": "Batteria principale",
+    "Description": "Utilizzata per fornire energia su astronavi o stazioni di grandi dimensioni."
   },
   {
     "Id": "surv25",

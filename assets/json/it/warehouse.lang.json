@@ -177,6 +177,7 @@
   },
   {
     "Id": "ware45",
-    "Title": "Interruttore principale"
+    "Title": "Interruttore principale",
+    "Description": "Commutazione illimitata su richiesta. L’interruttore attiva qualsiasi oggetto a cui sia collegato, il che lo rende indispensabile per accendere o spegnere qualsiasi cosa con un solo tocco. Può attivare un motore, un propulsore, un’unità di controllo e altro."
   }
 ]

@@ -1,23 +1,28 @@
 [
   {
     "Id": "consu1",
-    "Title": "Fertilizante"
+    "Title": "Fertilizante",
+    "Description": "Hace que las plantas crezcan más rápido."
   },
   {
     "Id": "consu2",
-    "Title": "Sunshake"
+    "Title": "Sunshake",
+    "Description": "A los maquinistas les encanta un sunshake bien frío cuando tienen sed."
   },
   {
     "Id": "consu3",
-    "Title": "Hamburguesa de pizza"
+    "Title": "Hamburguesa de pizza",
+    "Description": "La comida favorita de los maquinistas. Llena al máximo todos tus medidores."
   },
   {
     "Id": "consu4",
-    "Title": "Hamburguesa vegetal"
+    "Title": "Hamburguesa vegetal",
+    "Description": "Una alternativa vegetariana. Llena al máximo todos tus medidores."
   },
   {
     "Id": "consu5",
-    "Title": "Baguete de resurrección"
+    "Title": "Baguete de resurrección",
+    "Description": "Alimenta a tus amigos caídos para que se pongan en pie y vuelvan al tajo."
   },
   {
     "Id": "consu6",
@@ -25,6 +30,7 @@
   },
   {
     "Id": "consu7",
-    "Title": "Saco de tierra"
+    "Title": "Saco de tierra",
+    "Description": "Úsalos para sembrar semillas en el suelo."
   }
 ]

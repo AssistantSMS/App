@@ -1,19 +1,23 @@
 [
   {
     "Id": "consshare1",
-    "Title": "Carburante"
+    "Title": "Carburante",
+    "Description": "Usato per alimentario i motori a benzina e i propulsori."
   },
   {
     "Id": "consshare2",
-    "Title": "Batteria"
+    "Title": "Batteria",
+    "Description": "Si usa per alimentare le componenti elettriche."
   },
   {
     "Id": "consshare3",
-    "Title": "Acqua"
+    "Title": "Acqua",
+    "Description": "Si usa per annaffiare le piante, ma sfortunatamente non è potabile."
   },
   {
     "Id": "consshare4",
-    "Title": "Patata"
+    "Title": "Patata",
+    "Description": "Un tubero amidaceo. Può essere anche usata come proiettile per sparapatate e per sparapatate montabili."
   },
   {
     "Id": "consshare5",
@@ -21,10 +25,12 @@
   },
   {
     "Id": "consshare6",
-    "Title": "Munizioni per pennello"
+    "Title": "Munizioni per pennello",
+    "Description": "Carica il tuo pennello e dona un po’ di brio alle tue creazioni."
   },
   {
     "Id": "consshare7",
-    "Title": "Barre fluorescenti"
+    "Title": "Barre fluorescenti",
+    "Description": "Lanciale di notte o in qualche luogo scuro per fare un po’ di luce."
   }
 ]

@@ -1,6 +1,7 @@
 [
   {
     "Id": "comp1",
-    "Title": "Kit de componentes"
+    "Title": "Kit de componentes",
+    "Description": "Úsalo para mejorar las piezas interactivas y desbloquear bots en la estación mecánica."
   }
 ]

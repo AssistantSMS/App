@@ -1,18 +1,22 @@
 [
   {
     "Id": "scrap1",
-    "Title": "Sedile di guida di scarto"
+    "Title": "Sedile di guida di scarto",
+    "Description": "Permette ai cuscinetti di girare lateralmente. Può essere collegata a un motore per controllare la direzione di guida. Può anche essere collegato agli attivatori che possono essere attivati dal sedile stesso. Questo sedile di guida non può essere migliorato."
   },
   {
     "Id": "scrap2",
-    "Title": "Sedile di scarto"
+    "Title": "Sedile di scarto",
+    "Description": "Si usa per non dover stare in piedi. Siediti pure e rilassati, oppure aggiungila al tuo veicolo in modo che i tuoi amici possano accompagnarti. Questo sedile non può essere migliorato."
   },
   {
     "Id": "scrap3",
-    "Title": "Ruota di scarto"
+    "Title": "Ruota di scarto",
+    "Description": "Non è perfettamente tonda."
   },
   {
     "Id": "scrap4",
-    "Title": "Motori a benzina di scarto"
+    "Title": "Motori a benzina di scarto",
+    "Description": "Un motore a velocità irregolare con potenza regolabile, idealmente adatto per alimentare i veicoli. Può essere collegato a un sedile di guida o a un attivatore. Questo motore non può essere migliorato."
   }
 ]

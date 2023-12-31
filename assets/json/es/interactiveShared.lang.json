@@ -1,14 +1,17 @@
 [
   {
     "Id": "inters1",
-    "Title": "Cofre grande"
+    "Title": "Cofre grande",
+    "Description": "Ideal para guardar muchos objetos. También se puede usar con una bomba de vacío."
   },
   {
     "Id": "inters2",
-    "Title": "Procesabot"
+    "Title": "Procesabot",
+    "Description": "Deja que el procesabot te ayude a procesar todas las barras que hayas recogido. Pónselos dentro a mano o con un recogedor de recursos que tenga barras a su lado."
   },
   {
     "Id": "inters3",
-    "Title": "Recogedor de recursos"
+    "Title": "Recogedor de recursos",
+    "Description": "Perfecto para recoger y almacenar barras. Cuando esté lleno, ponlo junto a un procesabot para convertir las barras en bloques."
   }
 ]

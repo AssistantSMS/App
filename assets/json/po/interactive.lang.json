@@ -1,7 +1,8 @@
 [
   {
     "Id": "intera1",
-    "Title": "Lodówka"
+    "Title": "Lodówka",
+    "Description": "Utrzymuje jedzenie w świeżości."
   },
   {
     "Id": "intera2",
@@ -13,15 +14,18 @@
   },
   {
     "Id": "intera4",
-    "Title": "Skrzynia"
+    "Title": "Skrzynia",
+    "Description": "Prosta skrzynia do przechowywania przedmiotów."
   },
   {
     "Id": "intera5",
-    "Title": "Protektor: Ochrona przed zniszczeniami"
+    "Title": "Protektor: Ochrona przed zniszczeniami",
+    "Description": "Pozwala chronić twoje dzieła przed obrażeniami. Połącz z pojemnikiem na akumulatory."
   },
   {
     "Id": "intera6",
-    "Title": "Szyfrator: Ochrona połączeń"
+    "Title": "Szyfrator: Ochrona połączeń",
+    "Description": "Ukrywa połączenia w twoich dziełach, strzegąc ich przed innymi mechanikami. Połącz z pojemnikiem na akumulatory."
   },
   {
     "Id": "intera7",
@@ -29,130 +33,286 @@
   },
   {
     "Id": "intera8",
-    "Title": "Ciuchbot"
+    "Title": "Ciuchbot",
+    "Description": "Użyj Ciuchbota do wykonania nowych ubrań dla swojego mechanika. Po prostu dodaj skrzynie z odzieżą i odpowiednią ilość bawełny. Możesz także personalizować swój wygląd za pomocą niebieskiej szafy."
   },
   {
     "Id": "intera9",
-    "Title": "Montowane działko na kartofle"
+    "Title": "Montowane działko na kartofle",
+    "Description": "Połącz ze zbiornikiem na amunicję z włącznikiem, aby strzelać."
   },
   {
     "Id": "intera10",
-    "Title": "Łóżko odrodzenia"
+    "Title": "Łóżko odrodzenia",
+    "Description": "Czas na drzemkę w wygodnym łóżku! Gdy mechanik zostanie znokautowany, odrodzi się w tym miejscu."
   },
   {
     "Id": "intera11",
-    "Title": "Łożysko"
+    "Title": "",
+    "Description": ""
   },
   {
     "Id": "intera12",
-    "Title": "Zawieszenie sportowe"
+    "Title": "Łożysko",
+    "Description": "Wszystko, co znajdzie się na łożysku, zacznie się obracać. Łożyska można łączyć z silnikiem lub fotelem kierowcy, aby sterować nimi na różne sposoby."
   },
   {
     "Id": "intera13",
-    "Title": "Zawieszenie terenowe"
+    "Title": "Zawieszenie sportowe",
+    "Description": "Sprężystość przy zachowaniu stabilności. Dzięki niemu budowane pojazdy będą mniej podatne na wywracanie się. Nieduże, nieco sztywniejsze zawieszenie."
   },
   {
     "Id": "intera14",
-    "Title": "Fotel kierowcy"
+    "Title": "Zawieszenie terenowe",
+    "Description": "Sprężystość przy zachowaniu stabilności. Dzięki niemu budowane pojazdy będą mniej podatne na wywracanie się. Zawieszenie bardzo miękkie, idealne dla pojazdów terenowych."
   },
   {
     "Id": "intera15",
-    "Title": "Fotel"
+    "Title": "Fotel kierowcy",
+    "Description": "Odpowiada za obrót łożysk w prawo i w lewo. Podłączony do silnika umożliwia sterowanie kierunkiem jazdy. Może być połączony z włącznikami uruchamianymi z fotela."
   },
   {
     "Id": "intera16",
-    "Title": "Siedzenie kierowcy"
+    "Title": "Fotel",
+    "Description": "Przydatny, kiedy nogi chcą odpocząć. Usiądź i odpoczywaj albo zamontuj go w swoim pojeździe, by zachęcić przyjaciół do wspólnej przejażdżki. Może być połączony z włącznikiem, który uruchamia pozostałe interaktywne części fotela."
   },
   {
     "Id": "intera17",
-    "Title": "Siedzenie"
+    "Title": "Siedzenie kierowcy",
+    "Description": "Odpowiada za obrót łożysk w prawo i w lewo. Podłączone do silnika umożliwia sterowanie kierunkiem jazdy. Może być połączone z włącznikami uruchamianymi z siedzenia."
   },
   {
     "Id": "intera18",
-    "Title": "Toaleta"
+    "Title": "Siedzenie",
+    "Description": "Przydatne, kiedy nogi chcą odpocząć. Usiądź i odpoczywaj, albo zamontuj je w swoim pojeździe, by zachęcić przyjaciół do wspólnej przejażdżki. Może być połączone z włącznikiem, który uruchamia pozostałe interaktywne części siedzenia."
   },
   {
     "Id": "intera19",
-    "Title": "Silnik spalinowy"
+    "Title": "Toaleta",
+    "Description": "Przydatna, kiedy nogi chcą odpocząć. Usiądź i odpoczywaj albo zamontuj go w swoim pojeździe, by zachęcić przyjaciół do wspólnej przejażdżki. Może być połączona z włącznikiem, który uruchamia pozostałe interaktywne części toalety. Nie zapomnij spuścić wody!"
   },
   {
     "Id": "intera20",
-    "Title": "Silnik elektryczny"
+    "Title": "Silnik spalinowy",
+    "Description": "Silnik pracujący ze stałą prędkością i regulowaną mocą. Idealnie nadaje się do napędzania pojazdów. Może być połączony z fotelem kierowcy lub włącznikiem."
   },
   {
     "Id": "intera21",
-    "Title": "Silnik rakietowy"
+    "Title": "Silnik elektryczny",
+    "Description": "Napędza łożyska. Silnik pracujący ze stałą mocą i regulowaną prędkością. Działa powoli, ale jest bardzo mocny. Może być połączony z fotelem kierowcy lub włącznikiem."
   },
   {
     "Id": "intera22",
-    "Title": "Programator"
+    "Title": "Silnik rakietowy",
+    "Description": "Wystarczająca liczba silników sprawi, że pojazd wzbije się w powietrze. Aby uruchomić silnik, należy połączyć go z włącznikiem lub fotelem kierowcy."
   },
   {
     "Id": "intera23",
-    "Title": "Przełącznik"
+    "Title": "Programator",
+    "Description": "Umożliwia sekwencyjne obracanie się łożysk. Idealny do budowania ruchomych konstrukcji. Wymaga połączenia z łożyskami. Można go uruchomić, łącząc z fotelem kierowcy lub włącznikiem."
   },
   {
     "Id": "intera24",
-    "Title": "Przycisk"
+    "Title": "Przełącznik",
+    "Description": "Przełączaj do woli. Przełącznik uruchamia wszystko, co się z nim połączy. Niezastąpiony we włączaniu i wyłączaniu jednym przyciśnięciem. Może uruchomić wszystkie rodzaje silników, programator i inne elementy."
   },
   {
     "Id": "intera25",
-    "Title": "Czujnik"
+    "Title": "Przycisk",
+    "Description": "Uruchamia różne elementy. Pozostają one włączone tak długo, jak długo wciśnięty jest przycisk."
   },
   {
     "Id": "intera26",
-    "Title": "Radio"
+    "Title": "Czujnik",
+    "Description": "Wykrywa i uruchamia. Czujnik uruchamia połączone elementy, kiedy w jego zasięgu pojawi się jakiś obiekt. Jego zasięg równa się dziesięciu blokom. Może uruchomić wszystkie rodzaje silników, programator i inne elementy."
   },
   {
     "Id": "intera27",
-    "Title": "Trąbka"
+    "Title": "Radio",
+    "Description": "Same hity, na okrągło. Te wredne boty przejęły radio i teraz prezentują w nim swój nietypowy gust muzyczny. Można je uruchomić poprzez interakcję\nlub poprzez łączenie ich z włącznikiem."
   },
   {
     "Id": "intera28",
-    "Title": "Bramka logiczna"
+    "Title": "Trąbka",
+    "Description": "Dodaj ją do pojazdu lub używaj jako dzwonka do drzwi. Zatrąb na przyjaciół, by uniknąć wypadku. Ustaw skalę dźwięku i uruchom trąbkę, łącząc ją z włącznikiem."
   },
   {
     "Id": "intera29",
-    "Title": "Timer"
+    "Title": "Bramka logiczna",
+    "Description": "Bramka logiczna to potężny blok, który pozwala tworzyć podstawowe funkcje logiczne. Wciskając „E” na bloku, można wybrać spośród kilku rodzajów bramek logicznych. Bramki logiczne można łączyć między sobą oraz z włącznikami, timerami i innymi elementami. Idealne do tworzenia skomplikowanych konstrukcji."
   },
   {
     "Id": "intera30",
-    "Title": "Głowa Totebota: Basy"
+    "Title": "Timer",
+    "Description": "Timer umożliwia opóźnienie interakcji zachodzącej pomiędzy dwoma częściami interaktywnymi. Na przykład pomiędzy przełącznikiem a programatorem. Świetnie współdziała z bramkami logicznymi."
   },
   {
     "Id": "intera31",
-    "Title": "Głowa Totebota: Perkusja"
+    "Title": "Głowa Totebota: Basy",
+    "Description": "Głowa tego robota jest uszkodzona. Jednak generator dźwięków wciąż działa. Kreatywny mechanik z pewnością znajdzie sposób, by wydobyć z niej muzykę."
   },
   {
     "Id": "intera32",
-    "Title": "Głowa Totebota: Syntezator mowy"
+    "Title": "Głowa Totebota: Perkusja",
+    "Description": "Głowa tego robota jest uszkodzona. Jednak generator dźwięków wciąż działa. Kreatywny mechanik z pewnością znajdzie sposób, by wydobyć z niej muzykę."
   },
   {
     "Id": "intera33",
-    "Title": "Głowa Totebota: Pisk"
+    "Title": "Głowa Totebota: Syntezator mowy",
+    "Description": "Ta głowa robota jest zepsuta. Jednak generator dźwięków wciąż działa. Kreatywny mechanik z pewnością znajdzie sposób, by wydobyć z niej muzykę."
   },
   {
     "Id": "intera34",
-    "Title": "Wanna"
+    "Title": "Głowa Totebota: Pisk",
+    "Description": "Ta głowa robota jest zepsuta. Jednak generator dźwięków wciąż działa. Kreatywny mechanik z pewnością znajdzie sposób, by wydobyć z niej muzykę."
   },
   {
     "Id": "intera35",
-    "Title": "Tłok"
+    "Title": "Wanna",
+    "Description": "Zapewnia maksymalne odprężenie. Usiądź i zrelaksuj się albo dodaj ją do swojego pojazdu, aby móc zachować czystość i higienę w trasie. Można połączyć ją z włącznikiem, który uruchamia pozostałe interaktywne części wanny."
   },
   {
     "Id": "intera36",
-    "Title": "Rekin z gry Raft"
+    "Title": "Tłok",
+    "Description": "Wysuwa się i chowa! Aby aktywować, połącz z włącznikiem. Tłok można połączyć z programatorem, dzięki czemu jego wysuwanie się i chowanie będą się sekwencyjnie powtarzać. Idealny do budowania spektakularnych konstrukcji."
   },
   {
     "Id": "intera37",
-    "Title": "Montowalny miotacz pyr"
+    "Title": "Rekin z gry Raft",
+    "Description": "Plastikowy rekin z gry survivalowej Raft. Wygląda na to, że ma mechaniczne stawy. Może potrafi ugryźć?"
   },
   {
     "Id": "intera38",
-    "Title": "Mały wybuchowy kanister"
+    "Title": "Montowalny miotacz pyr",
+    "Description": "Miotacz pyr czyli broń ciskająca ziemniakami to wspaniały sposób na zapewnienie ochrony swoim konstrukcjom.\nPołącz go z włącznikiem połączonym z fotelem i strzelaj siedząc."
   },
   {
     "Id": "intera39",
-    "Title": "Duży wybuchowy kanister"
+    "Title": "Mały wybuchowy kanister",
+    "Description": "Niezwykle wybuchowy kanister, który można zdetonować poprzez silne zderzenie lub za pomocą działka na kartofle\nTen kanister ma niewielkie pole rażenia."
+  },
+  {
+    "Id": "intera40",
+    "Title": "Duży wybuchowy kanister",
+    "Description": "Niezwykle wybuchowy kanister, który można zdetonować poprzez silne zderzenie lub za pomocą działka na kartofle\nTen kanister ma duże pole rażenia."
+  },
+  {
+    "Id": "intera41",
+    "Title": "Skrzynia – wyzwanie",
+    "Description": "Umieść w niej przedmioty, za pomocą których gracz będzie mógł budować w twoim wyzwaniu."
+  },
+  {
+    "Id": "intera42",
+    "Title": "Punkt startowy gracza",
+    "Description": "Gracze będą rozpoczynać tu, grając w wyzwanie."
+  },
+  {
+    "Id": "intera43",
+    "Title": "Generator kuli",
+    "Description": "Tworzy kulę, gdy rozpoczyna się wyzwanie. Połącz z włącznikiem, aby kontrolować odradzanie kuli. Nowa kula powstaje, gdy poprzednia spadnie z krawędzi."
+  },
+  {
+    "Id": "intera44",
+    "Title": "Generator wybuchowego kanistra",
+    "Description": "Tworzy wybuchowy kanister, gdy rozpoczyna się wyzwanie. Połącz z włącznikiem, aby kontrolować odradzanie kanistra. Nowy kanister powstaje, gdy poprzedni zostanie zniszczony."
+  },
+  {
+    "Id": "intera45",
+    "Title": "Platforma docelowa",
+    "Description": "Doprowadź tutaj swoją konstrukcję, aby wygrać wyzwanie. Podłącz wkład, aby ustalić warunki wygranej. Podłącz produkcję, aby uruchomić celebrację."
+  },
+  {
+    "Id": "intera46",
+    "Title": "Platforma budowlana",
+    "Description": "Dopóki nie zacznie się wyzwanie, gracz może umieścić tu podnośnik i budować. Swobodne konstrukcje na platformie budowlanej pozwalają na budowanie na nich."
+  },
+  {
+    "Id": "intera47",
+    "Title": "Kula",
+    "Description": "Jest kulista!"
+  },
+  {
+    "Id": "intera48",
+    "Title": "Gniazdo kuli",
+    "Description": "Umieść kulę w gnieździe o tym samym kolorze, aby ją aktywować."
+  },
+  {
+    "Id": "intera49",
+    "Title": "Wielki tłok",
+    "Description": "Bardzo długi i potężny tłok przydatny do przenoszenia dużych drzwi i platform w wyzwaniach."
+  },
+  {
+    "Id": "intera50",
+    "Title": "Wielki czujnik",
+    "Description": "Wykrywa znajdujące się przed nim konstrukcje i graczy. Zasięg 64 bloków. Działa przez ściany."
+  },
+  {
+    "Id": "intera51",
+    "Title": "Blok z włącznikiem światła",
+    "Description": "Służy do przekazywania graczowi logiki wyzwania."
+  },
+  {
+    "Id": "intera52",
+    "Title": "Blok ze świecącymi strzałkami",
+    "Description": "Połącz je w ciąg, aby utworzyć podświetloną ścieżkę."
+  },
+  {
+    "Id": "intera53",
+    "Title": "Starter wyzwania",
+    "Description": "Połącz z włącznikiem, aby ustalić niestandardowe warunki rozpoczęcia wyzwania. W przypadku użycia startera wyzwania jedynie gracz musi osiągnąć cel."
+  },
+  {
+    "Id": "intera54",
+    "Title": "Goal Block",
+    "Description": "This block will finish a challenge when triggered. It's useful if you want your challenge to end with a switch, sensor or button activation."
+  },
+  {
+    "Id": "intera55",
+    "Title": "Celebrobot",
+    "Description": "Połącz z włącznikiem i aktywuj, aby rozpocząć celebrację!"
+  },
+  {
+    "Id": "intera56",
+    "Title": "Podstawa celebrobota"
+  },
+  {
+    "Id": "intera57",
+    "Title": "Głośnik potwierdzający",
+    "Description": "Po uruchomieniu odtwarza dźwięk."
+  },
+  {
+    "Id": "intera58",
+    "Title": "Ramka 1 generatora kuli",
+    "Description": "Ramka ze strzałką, która świeci się po uruchomieniu."
+  },
+  {
+    "Id": "intera59",
+    "Title": "Ramka 2 generatora kuli",
+    "Description": "Ramka ze strzałką, która świeci się po uruchomieniu."
+  },
+  {
+    "Id": "intera60",
+    "Title": "Komputer z mapą",
+    "Description": "Przedstawia zarys wyzwania."
+  },
+  {
+    "Id": "intera61",
+    "Title": "Obserwobot",
+    "Description": "Notuje wszystko, co zbuduje gracz."
+  },
+  {
+    "Id": "intera62",
+    "Title": "Wysuwana publiczność",
+    "Description": "Uwielbiają cię!\nIdealna do celebracji ukończonego wyzwania."
+  },
+  {
+    "Id": "intera63",
+    "Title": "Character Spawner",
+    "Description": "The Character Spawner lets you spawn characters from Survival mode in your challenges. Connect it to a trigger or the Challenge starter to spawn the selected character."
+  },
+  {
+    "Id": "intera64",
+    "Title": "Small Goal Platform",
+    "Description": "Bringing your creation over this Goal Platform wins the challenge. Connect an input to set a win condition. Connect outputs to trigger celebration events."
   }
 ]

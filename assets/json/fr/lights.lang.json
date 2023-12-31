@@ -25,10 +25,12 @@
   },
   {
     "Id": "light7",
-    "Title": "Phare"
+    "Title": "Phare",
+    "Description": "Que la visibilité soit ! Connectez-le à un déclencheur pour l'allumer ou l'éteindre. Portée du faisceau ajustable."
   },
   {
     "Id": "light8",
-    "Title": "Projecteur d'entrepôt"
+    "Title": "Projecteur d'entrepôt",
+    "Description": "Que la visibilité soit ! Connectez-le à un déclencheur pour l'allumer ou l'éteindre. Portée du faisceau ajustable."
   }
 ]

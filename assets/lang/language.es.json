@@ -62,7 +62,7 @@
   "deleteAll": "Borrar todo",
   "cart": "Carrito",
   "quantity": "Cantidad",
-  "unknown": "No sé",
+  "unknown": "Desconocido",
   "settings": "Ajustes",
   "language": "Lenguaje",
   "darkModeEnabled": "Modo oscuro",
@@ -79,7 +79,7 @@
   "russian": "Ruso",
   "spanish": "Español",
   "general": "General",
-  "whatIsNew": "Qué hay de nuevo",
+  "whatIsNew": "Novedades",
   "yes": "Sí",
   "no": "No",
   "current": "Actual",
@@ -91,7 +91,7 @@
   "legal": "Legal",
   "flatList": "Lista",
   "tree": "Árbol",
-  "patrons": "Patrons",
+  "patrons": "Patrones",
   "joinPatreon": "Únete a Patreon",
   "failedLatestDisplayingOld": "No se pudo recuperar la última información, actualmente se muestran datos antiguos",
   "owned": "Adquirido",
@@ -100,6 +100,7 @@
   "pendingAppStoreRelease": "Pendiente de aprobación de la App Store",
   "appVersion": "Version de la aplicación: {0}",
   "gameVersion": "Versión del juego: {0}",
+  "patreonAccess": "Acceso a Patreon",
   "assistantApps": "AssistantApps",
   "japanese": "Japonés",
   "korean": "Coreano",
@@ -171,5 +172,5 @@
   "foundIn": "Encontrado en",
   "home": "Inicio",
   "creative": "Creativo",
-  "hashCode": "455D0F0AC528A30ED22A1DEE7AE0FA08"
+  "hashCode": "363BC4E54E78140DC5737BE13B5097C9"
 }

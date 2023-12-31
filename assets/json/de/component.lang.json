@@ -1,6 +1,7 @@
 [
   {
     "Id": "comp1",
-    "Title": "Komponenten-Bausatz"
+    "Title": "Komponenten-Bausatz",
+    "Description": "Rüste damit interaktive Teile hoch und schalte Bots in der Mechaniker-Station frei."
   }
 ]

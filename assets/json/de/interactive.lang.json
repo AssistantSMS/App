@@ -1,7 +1,8 @@
 [
   {
     "Id": "intera1",
-    "Title": "Kühlschrank"
+    "Title": "Kühlschrank",
+    "Description": "Hält dein Essen frisch."
   },
   {
     "Id": "intera2",
@@ -13,15 +14,18 @@
   },
   {
     "Id": "intera4",
-    "Title": "Truhe"
+    "Title": "Truhe",
+    "Description": "Eine einfache Truhe zum Aufbewahren deiner Gegenstände."
   },
   {
     "Id": "intera5",
-    "Title": "Schützer: Anti-Zerstörung"
+    "Title": "Schützer: Anti-Zerstörung",
+    "Description": "Hilft dir, deine Konstruktion vor Schaden zu schützen. Verbinde ihn mit einem Batteriebehälter."
   },
   {
     "Id": "intera6",
-    "Title": "Kodiergerät: Anti-Verbindung"
+    "Title": "Kodiergerät: Anti-Verbindung",
+    "Description": "Verstecke die Verbindungspunkte auf deinen Konstruktionen vor anderen Mechanikern. Verbinde sie mit einem Batteriebehälter."
   },
   {
     "Id": "intera7",
@@ -29,130 +33,286 @@
   },
   {
     "Id": "intera8",
-    "Title": "Kleiderbot"
+    "Title": "Kleiderbot",
+    "Description": "Verwende den Kleiderbot, um neue Kleider für deinen Mechaniker herzustellen. Füg einfach deine Kleiderkisten und die richtige Menge Baumwolle hinzu. Mit dem blauen Kleiderschrank kannst du ebenfalls deinen Look anpassen."
   },
   {
     "Id": "intera9",
-    "Title": "Montierbare Knollenkanone"
+    "Title": "Montierbare Knollenkanone",
+    "Description": "Verbinde sie mit einem Munitionsbehälter mit Auslöser, um zu schießen."
   },
   {
     "Id": "intera10",
-    "Title": "Respawn-Bett"
+    "Title": "Respawn-Bett",
+    "Description": "Ein Nickerchen in diesem gemütlichen Bett lässt dich respawnen, wenn dein Mechaniker k.o. geschlagen wurde."
   },
   {
     "Id": "intera11",
-    "Title": "Lager"
+    "Title": "",
+    "Description": ""
   },
   {
     "Id": "intera12",
-    "Title": "Sportaufhängung"
+    "Title": "Lager",
+    "Description": "Alles, was du auf dem Lager platzierst, wird sich drehen. Lager können auch mit einem Motor oder dem Fahrersitz verbunden werden. So können sie auf verschiedene Weisen kontrolliert werden."
   },
   {
     "Id": "intera13",
-    "Title": "Off-Road-Aufhängung"
+    "Title": "Sportaufhängung",
+    "Description": "Für eine gute Federung und mehr Stabilität. Hervorragend für Fahrzeuge geeignet, wenn diese nicht so leicht umstürzen dürfen. Diese Aufhängung ist klein, aber besser gefedert."
   },
   {
     "Id": "intera14",
-    "Title": "Fahrersitz"
+    "Title": "Off-Road-Aufhängung",
+    "Description": "Für eine gute Federung und mehr Stabilität. Hervorragend für Fahrzeuge geeignet, wenn diese nicht so leicht umstürzen dürfen. Diese Aufhängung verfügt über eine sehr gute Federung und eignet sich bestens für Off-Road-Fahrzeuge."
   },
   {
     "Id": "intera15",
-    "Title": "Sitz"
+    "Title": "Fahrersitz",
+    "Description": "Lässt Lager nach links und rechts rotieren. Kann mit einem Motor verbunden werden, um die Fahrtrichtung zu bestimmen. Kann zudem mit Auslösern verbunden werden, die vom Sitz aus aktiviert werden können."
   },
   {
     "Id": "intera16",
-    "Title": "Fahrersattel"
+    "Title": "Sitz",
+    "Description": "So musst man nicht stehen. Nimm Platz und entspanne dich. Oder füge ihn zu deinem Fahrzeug hinzu, um Freunde mitzunehmen. Kann mit Auslösern verbunden werden, die andere interaktive Teile vom Sitz aus aktivieren können."
   },
   {
     "Id": "intera17",
-    "Title": "Sattel"
+    "Title": "Fahrersattel",
+    "Description": "Lässt Lager nach links und rechts rotieren. Kann mit einem Motor verbunden werden, um die Fahrtrichtung zu bestimmen. Kann auch mit Auslösern verbunden werden, die vom Sattel aus aktiviert werden können."
   },
   {
     "Id": "intera18",
-    "Title": "Toilette"
+    "Title": "Sattel",
+    "Description": "So musst man nicht stehen. Nimm Platz und entspanne dich. Ode füge ihn zu deinem Fahrzeug hinzu, um Freunde mitzunehmen. Kann mit Auslösern verbunden werden, die andere interaktive Teile vom Sattel aus aktivieren können."
   },
   {
     "Id": "intera19",
-    "Title": "Gasmotor"
+    "Title": "Toilette",
+    "Description": "Damit du nicht stehen musst. Setz dich und entspann dich. Oder bau sie in dein Fahrzeug ein, damit deine Freunde mitkommen können. Kann mit Auslösern verbunden werden, die andere interaktive Bauteile von der Toilette aus aktivieren können. Vergiss nicht zu spülen!"
   },
   {
     "Id": "intera20",
-    "Title": "Elektromotor"
+    "Title": "Gasmotor",
+    "Description": "Ein Motor mit voreingestellter Drehzahl und einstellbarer Leistung. Ideal, um Fahrzeuge anzutreiben. Kann mit einem Fahrersitz oder Auslösern verbunden werden."
   },
   {
     "Id": "intera21",
-    "Title": "Schubdüse"
+    "Title": "Elektromotor",
+    "Description": "Treibt Lager an. Ein Motor mit fester Leistung und einstellbarer Geschwindigkeit. Ein langsamer Motor mit viel Power. Kann mit einem Fahrersitz oder Auslösern verbunden werden."
   },
   {
     "Id": "intera22",
-    "Title": "Steuereinheit"
+    "Title": "Schubdüse",
+    "Description": "Lässt deine Konstruktion fliegen, wenn genügend vorhanden sind. Muss mit einem Auslöser oder dem Fahrersitz verbunden sein, um aktiviert werden zu können."
   },
   {
     "Id": "intera23",
-    "Title": "Schalter"
+    "Title": "Steuereinheit",
+    "Description": "Ermöglicht es, dass sich die Lager der Reihe nach drehen. Perfekt für den Bau wandelbarer Konstruktionen. Muss mit Lagern verbunden werden. Wird durch die Verbindung mit einem Auslöser oder mit einem Fahrersitz aktiviert."
   },
   {
     "Id": "intera24",
-    "Title": "Knopf"
+    "Title": "Schalter",
+    "Description": "Unbegrenztes Schalten nach Bedarf. Der Schalter aktiviert alles, womit er verbunden ist. So kannst du Sachen mit Leichtigkeit auf einmal an- und abschalten. Er kann einen Motor, eine Schubdüse, die Steuereinheit und noch viel mehr aktivieren."
   },
   {
     "Id": "intera25",
-    "Title": "Sensor"
+    "Title": "Knopf",
+    "Description": "Aktiviert Sachen. Der Knopf ist aktiv, solange er gedrückt bleibt."
   },
   {
     "Id": "intera26",
-    "Title": "Radio"
+    "Title": "Sensor",
+    "Description": "Ortet und aktiviert! Der Sensor wird aktiviert, sobald eine beliebige Oberfläche in seine Reichweite kommt. Er kann zehn Blöcke weit erfassen. Kann einen Motor, eine Schubdüse, die Steuereinheit und mehr aktivieren."
   },
   {
     "Id": "intera27",
-    "Title": "Hupe"
+    "Title": "Radio",
+    "Description": "Jederzeit die größten Hits. Diese wilden Bots haben das Radio besetzt und übertragen nun aus ihrem höchst ungewöhnlichen Musikgeschmack einige Klassiker. Aktiviere es durch eine Interaktion\noder indem du es mit einem Auslöser verbindest."
   },
   {
     "Id": "intera28",
-    "Title": "Logikgatter"
+    "Title": "Hupe",
+    "Description": "Kommt an deinem Fahrzeug oder als Türklingel zum Einsatz. Hupe deine Freunde an, um Unfälle zu vermeiden. Stell die Tonhöhe ein und verbinde sie mit einem Auslöser, um sie zu aktivieren."
   },
   {
     "Id": "intera29",
-    "Title": "Timer"
+    "Title": "Logikgatter",
+    "Description": "Das Logikgatter ist ein leistungsstarker Block, mit dem du physische Formen programmieren kannst. Drücke E auf dem Block, damit der Mechaniker aus verschiedenen Logikgattertypen auswählen kann. Das Logikgatter kann mit andern Logikgattern, Auslösern, Timern und mehr verbunden werden. Eignet sich super, um Profi-Konstruktionen zu bauen."
   },
   {
     "Id": "intera30",
-    "Title": "Musikbot-Kopf: Bass"
+    "Title": "Timer",
+    "Description": "Mit dem Timer kannst du das Zusammenspiel zweier interaktiver Teile verzögern. Zum Beispiel zwischen einem Schalter und einer Steuereinheit. Passt gut zu Logikgattern."
   },
   {
     "Id": "intera31",
-    "Title": "Musikbot-Kopf: Schlaginstrument"
+    "Title": "Musikbot-Kopf: Bass",
+    "Description": "Der Kopf dieses Roboters ist kaputt. Doch der Tonerzeuger im Kopf scheint noch in Ordnung zu sein. Ein kreativer Mechaniker findet bestimmt einen Weg, um damit Musik zu machen."
   },
   {
     "Id": "intera32",
-    "Title": "Musikbot-Kopf: Synthesizer-Stimme"
+    "Title": "Musikbot-Kopf: Schlaginstrument",
+    "Description": "Der Kopf dieses Roboters ist kaputt. Doch der Tonerzeuger im Kopf scheint noch in Ordnung zu sein. Ein kreativer Mechaniker findet bestimmt einen Weg, um damit Musik zu machen."
   },
   {
     "Id": "intera33",
-    "Title": "Musikbot-Kopf: Biep"
+    "Title": "Musikbot-Kopf: Synthesizer-Stimme",
+    "Description": "Der Kopf dieses Roboters ist kaputt. Doch der Tonerzeuger im Kopf scheint noch in Ordnung zu sein. Ein kreativer Mechaniker findet bestimmt einen Weg, um damit Musik zu machen."
   },
   {
     "Id": "intera34",
-    "Title": "Badewanne"
+    "Title": "Musikbot-Kopf: Biep",
+    "Description": "Der Kopf dieses Roboters ist kaputt. Doch der Tonerzeuger im Kopf scheint noch in Ordnung zu sein. Ein kreativer Mechaniker findet bestimmt einen Weg, um damit Musik zu machen."
   },
   {
     "Id": "intera35",
-    "Title": "Kolben"
+    "Title": "Badewanne",
+    "Description": "Für ultimative Entspannung. Setz dich rein und entspann dich. Oder bau sie in dein Fahrzeug ein, damit du unterwegs hübsch sauber bleibst. Kann mit Auslösern verbunden werden, die andere interaktive Bauteile von der Badewanne aus aktivieren können."
   },
   {
     "Id": "intera36",
-    "Title": "Raft-Haiaufsatz"
+    "Title": "Kolben",
+    "Description": "Fährt aus und wieder ein! Verbinde ihn zum Aktivieren mit einem Auslöser. Der Kolben kann auch mit einer Steuerung verbunden werden, damit er in einer Sequenz ein- und ausfahren kann. Perfekt geeignet, um beeindruckende Kreationen zu kreieren."
   },
   {
     "Id": "intera37",
-    "Title": "Montierbare Kartoffelkanone"
+    "Title": "Raft-Haiaufsatz",
+    "Description": "Ein Plastik-Haiaufsatz aus dem Überlebensspiel Raft. Im Inneren befinden sich offenbar einige mechanische Verbindungselemente. Vielleicht beißt er?"
   },
   {
     "Id": "intera38",
-    "Title": "Kleiner explosiver Kanister"
+    "Title": "Montierbare Kartoffelkanone",
+    "Description": "Diese Kartoffel schießende, montierbare Kanone ist hervorragend zum Schutz deiner Kreationen geeignet.\nVerbinde sie mit einem Auslöser, der wiederum mit einem Sitz verbunden ist, um beim Sitzen schießen zu können."
   },
   {
     "Id": "intera39",
-    "Title": "Großer explosiver Kanister"
+    "Title": "Kleiner explosiver Kanister",
+    "Description": "Ein hochexplosiver Kanister, der durch starke Zusammenstöße oder die Knollenkanone zur Explosion gebracht werden kann.\nMit kleinem Explosionsradius."
+  },
+  {
+    "Id": "intera40",
+    "Title": "Großer explosiver Kanister",
+    "Description": "Ein hochexplosiver Kanister, der durch starke Zusammenstöße oder die Knollenkanone zur Explosion gebracht werden kann.\nMit großem Explosionsradius."
+  },
+  {
+    "Id": "intera41",
+    "Title": "Herausforderungstruhe",
+    "Description": "Füll sie mit den Gegenständen, die der Spieler in deiner Herausforderung verwenden soll."
+  },
+  {
+    "Id": "intera42",
+    "Title": "Spieler-Startpunkt",
+    "Description": "Spieler starten hier, wenn sie deine Herausforderung spielen."
+  },
+  {
+    "Id": "intera43",
+    "Title": "Ball-Spawner",
+    "Description": "Erschafft einen Ball, wenn die Herausforderung beginnt. Verbinde ihn mit einem Auslöser, um das Spawnen zu kontrollieren. Ein neuer Ball taucht auf, wenn der andere über den Rand rollt."
+  },
+  {
+    "Id": "intera44",
+    "Title": "Spawner für explosive Kanister",
+    "Description": "Erschafft einen explosiven Kanister, wenn die Herausforderung beginnt. Verbinde ihn mit einem Auslöser, um das Spawnen zu kontrollieren. Ein neuer Kanister taucht auf, wenn der andere zerstört wird."
+  },
+  {
+    "Id": "intera45",
+    "Title": "Zielplattform",
+    "Description": "Wenn du deine Konstruktion hierher bringst, gewinnst du die Herausforderung. Verbinde einen Eingang, um die Bedingung für das Gewinnen festzulegen. Verbinde Ausgänge, um Jubelereignisse auszulösen."
+  },
+  {
+    "Id": "intera46",
+    "Title": "Bauplattform",
+    "Description": "Solange die Herausforderung noch nicht gestartet ist, kann der Spieler hier die Hebevorrichtung absetzen und bauen. Solange die Herausforderung noch nicht begonnen hat, können Spieler hier ihre Konstruktionen bauen."
+  },
+  {
+    "Id": "intera47",
+    "Title": "Ball",
+    "Description": "Es ist rund!"
+  },
+  {
+    "Id": "intera48",
+    "Title": "Ballmulde",
+    "Description": "Leg einen Ball derselben Farbe in die Mulde, um diese zu aktivieren."
+  },
+  {
+    "Id": "intera49",
+    "Title": "Großer Kolben",
+    "Description": "Mit diesem langen und leistungsstarken Kolben kannst du große Türen und Plattformen in Herausforderungen bewegen."
+  },
+  {
+    "Id": "intera50",
+    "Title": "Großer Sensor",
+    "Description": "Erfasst Konstruktionen und Spieler vor ihnen. Reichweite: 64 Blocks. Erfassung durch Wände hindurch."
+  },
+  {
+    "Id": "intera51",
+    "Title": "Lichtblock an/aus",
+    "Description": "Kommuniziert die Logik der Herausforderung an den Spieler."
+  },
+  {
+    "Id": "intera52",
+    "Title": "Pfeil-Lichtblock",
+    "Description": "Verbinde mehrere davon, um einen Pfad anzuzeigen."
+  },
+  {
+    "Id": "intera53",
+    "Title": "Herausforderungsstarter",
+    "Description": "Durch eine Verbindung mit einem Auslöser kannst du maßgeschneiderte Startbedingungen festlegen. Wenn du einen Herausforderungsstarter verwendest, muss nur der Spieler das Ziel erreichen."
+  },
+  {
+    "Id": "intera54",
+    "Title": "Goal Block",
+    "Description": "This block will finish a challenge when triggered. It's useful if you want your challenge to end with a switch, sensor or button activation."
+  },
+  {
+    "Id": "intera55",
+    "Title": "Jubel-Bot",
+    "Description": "Verbinde ihn mit einem Auslöser und aktiviere so die Siegesfeier!"
+  },
+  {
+    "Id": "intera56",
+    "Title": "Fuß für Jubel-Bot"
+  },
+  {
+    "Id": "intera57",
+    "Title": "Bestätigungston-Würfel",
+    "Description": "Erzeugt einen Ton, wenn er ausgelöst wird."
+  },
+  {
+    "Id": "intera58",
+    "Title": "Ball-Spawner (Rahmen Eins)",
+    "Description": "Ein Rahmen mit einem Pfeil, der beim Auslösen aufleuchtet."
+  },
+  {
+    "Id": "intera59",
+    "Title": "Ball-Spawner (Rahmen Zwei)",
+    "Description": "Ein Rahmen mit einem Pfeil, der beim Auslösen aufleuchtet."
+  },
+  {
+    "Id": "intera60",
+    "Title": "Kartencomputer",
+    "Description": "Zeigt eine Übersicht der Herausforderung."
+  },
+  {
+    "Id": "intera61",
+    "Title": "Beobachter-Bot",
+    "Description": "Macht sich immer dann Notizen, wenn der Spieler etwas baut."
+  },
+  {
+    "Id": "intera62",
+    "Title": "Pop-up-Publikum",
+    "Description": "Sie lieben dich!\nPerfekt geeignet, um den Abschluss einer Herausforderung zu feiern."
+  },
+  {
+    "Id": "intera63",
+    "Title": "Character Spawner",
+    "Description": "The Character Spawner lets you spawn characters from Survival mode in your challenges. Connect it to a trigger or the Challenge starter to spawn the selected character."
+  },
+  {
+    "Id": "intera64",
+    "Title": "Small Goal Platform",
+    "Description": "Bringing your creation over this Goal Platform wins the challenge. Connect an input to set a win condition. Connect outputs to trigger celebration events."
   }
 ]

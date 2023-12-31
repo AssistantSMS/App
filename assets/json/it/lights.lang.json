@@ -25,10 +25,12 @@
   },
   {
     "Id": "light7",
-    "Title": "Faro"
+    "Title": "Faro",
+    "Description": "E luce fu! Collegalo a un attivatore per accenderlo e spegnerlo. Portata del fascio di luce regolabile."
   },
   {
     "Id": "light8",
-    "Title": "Riflettore di magazzino"
+    "Title": "Riflettore di magazzino",
+    "Description": "E luce fu! Collegalo a un attivatore per accenderlo e spegnerlo. Portata del fascio di luce regolabile."
   }
 ]

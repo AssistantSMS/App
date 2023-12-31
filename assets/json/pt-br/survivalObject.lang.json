@@ -1,7 +1,8 @@
 [
   {
     "Id": "surv1",
-    "Title": "Cartão de Acesso de Armazém"
+    "Title": "Cartão de Acesso de Armazém",
+    "Description": "Usada para ativar um elevador de armazém."
   },
   {
     "Id": "surv2",
@@ -37,7 +38,8 @@
   },
   {
     "Id": "surv22",
-    "Title": "Bateria Principal"
+    "Title": "Bateria Principal",
+    "Description": "Usada para alimentar grandes naves ou estações."
   },
   {
     "Id": "surv25",

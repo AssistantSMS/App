@@ -1,47 +1,58 @@
 [
   {
     "Id": "other1",
-    "Title": "Connect Tool"
+    "Title": "Connect Tool",
+    "Description": "Every mechanic's favorite tool. Connects interactive parts together, for example: a gas engine to bearings or a thruster to a driver's seat."
   },
   {
     "Id": "other2",
-    "Title": "Paint Tool"
+    "Title": "Paint Tool",
+    "Description": "Paint any part or block to personalize your creations or even make beautiful art! Paint using the left mouse button and delete with the right. Press 'Q' to open the color selector. Simply hold down left mouse button and drag if you want to paint larger surfaces."
   },
   {
     "Id": "other3",
-    "Title": "Weld Tool"
+    "Title": "Weld Tool",
+    "Description": "Weld your creations together! Select the Weld Tool and left-click on a loose creation, then left-click on a surface of another creation to weld them together. You can also join touching parts on the lift. Hold the left mouse button on the first part and drag to the part you wish to weld together."
   },
   {
     "Id": "other4",
-    "Title": "Beacon"
+    "Title": "Beacon",
+    "Description": "Emits a tracking signal that can be toggled in the Logbook."
   },
   {
     "Id": "other5",
-    "Title": "Vacuum Pump"
+    "Title": "Vacuum Pump",
+    "Description": "The Vaccum Pump has many uses when connected to a trigger. Suck up water in to a water container. Pick up plants in to a chest. It can even shoot and place items from a chest."
   },
   {
     "Id": "other6",
-    "Title": "Vacuum Pipe"
+    "Title": "Vacuum Pipe",
+    "Description": "Use it with the Vacuum Pump to make items travel through pipes."
   },
   {
     "Id": "other7",
-    "Title": "Vacuum Pipe Corner"
+    "Title": "Vacuum Pipe Corner",
+    "Description": "Use it with the Vacuum Pump to make items travel through pipes."
   },
   {
     "Id": "other8",
-    "Title": "Gas Container"
+    "Title": "Gas Container",
+    "Description": "Can stores more gas and loads gas in to Gas Engines and other interactive parts that require Gas when connected."
   },
   {
     "Id": "other9",
-    "Title": "Battery Container"
+    "Title": "Battery Container",
+    "Description": "Can Store more batteries and loads batteries in to Electric Engines and other interactive parts that require batteries when connected."
   },
   {
     "Id": "other10",
-    "Title": "Water Container"
+    "Title": "Water Container",
+    "Description": "Connect it to a Vacuum Pump that is under water to fil the Water Container with water."
   },
   {
     "Id": "other11",
-    "Title": "Water Cannon"
+    "Title": "Water Cannon",
+    "Description": "Connect it to a Water container with a trigger to water your plants more efficiently."
   },
   {
     "Id": "other12",
@@ -77,34 +88,42 @@
   },
   {
     "Id": "other20",
-    "Title": "Cookbot"
+    "Title": "Cookbot",
+    "Description": "Cooks delicious food that will fill up your health bar or revive fallen friends."
   },
   {
     "Id": "other21",
-    "Title": "Potato Ammo Container"
+    "Title": "Potato Ammo Container",
+    "Description": "Connect it to a Mountable Spud Gun with a trigger to shoot potato ammo."
   },
   {
     "Id": "other22",
-    "Title": "Spud Gun"
+    "Title": "Spud Gun",
+    "Description": "Spud Gun with single potato shot."
   },
   {
     "Id": "other23",
-    "Title": "Spud Shotgun"
+    "Title": "Spud Shotgun",
+    "Description": "Shoots sizzling hot fries in a spread."
   },
   {
     "Id": "other24",
-    "Title": "Spudling Gun"
+    "Title": "Spudling Gun",
+    "Description": "Shoots potatoes in a rapid fire. Uses a lot of potato ammo."
   },
   {
     "Id": "other25",
-    "Title": "Sledgehammer"
+    "Title": "Sledgehammer",
+    "Description": "This mighty sledgehammer will let you push loose items around by hitting them."
   },
   {
     "Id": "other26",
-    "Title": "Lift"
+    "Title": "Lift",
+    "Description": "Build on the lift to create freely movable constructions that won't be fixed to the ground. Can be elevated and lowered as well as lift creations that have flipped over."
   },
   {
     "Id": "other27",
-    "Title": "Handbook"
+    "Title": "Handbook",
+    "Description": "Contains all the information you need to learn how to build amazing machines and become a true Scrap Mechanic."
   }
 ]

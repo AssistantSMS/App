@@ -1,14 +1,17 @@
 [
   {
     "Id": "out1",
-    "Title": "Kleiderschachtel (gewöhnlich)"
+    "Title": "Kleiderschachtel (gewöhnlich)",
+    "Description": "Verwende den Kleiderbot, um neue Kleider für deinen Mechaniker herzustellen."
   },
   {
     "Id": "out2",
-    "Title": "Kleiderschachtel (selten)"
+    "Title": "Kleiderschachtel (selten)",
+    "Description": "Verwende den Kleiderbot, um neue Kleider für deinen Mechaniker herzustellen."
   },
   {
     "Id": "out3",
-    "Title": "Kleiderschachtel (episch)"
+    "Title": "Kleiderschachtel (episch)",
+    "Description": "Verwende den Kleiderbot, um neue Kleider für deinen Mechaniker herzustellen."
   }
 ]

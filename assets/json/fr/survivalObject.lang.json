@@ -1,7 +1,8 @@
 [
   {
     "Id": "surv1",
-    "Title": "Clé d'entrepôt"
+    "Title": "Clé d'entrepôt",
+    "Description": "Permet d'activer un ascenseur d'entrepôt."
   },
   {
     "Id": "surv2",
@@ -37,7 +38,8 @@
   },
   {
     "Id": "surv22",
-    "Title": "Batterie principale"
+    "Title": "Batterie principale",
+    "Description": "Alimente les grands vaisseaux spatiaux ou les stations."
   },
   {
     "Id": "surv25",

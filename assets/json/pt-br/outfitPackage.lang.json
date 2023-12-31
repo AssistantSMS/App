@@ -1,14 +1,17 @@
 [
   {
     "Id": "out1",
-    "Title": "Caixa de Traje (Comum)"
+    "Title": "Caixa de Traje (Comum)",
+    "Description": "Use em um Robô Tecelão para fazer novas roupas."
   },
   {
     "Id": "out2",
-    "Title": "Caixa de Traje (Rara)"
+    "Title": "Caixa de Traje (Rara)",
+    "Description": "Use em um Robô Tecelão para fazer novas roupas."
   },
   {
     "Id": "out3",
-    "Title": "Caixa de Traje (Épica)"
+    "Title": "Caixa de Traje (Épica)",
+    "Description": "Use em um Robô Tecelão para fazer novas roupas."
   }
 ]

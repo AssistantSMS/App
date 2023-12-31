@@ -1,7 +1,8 @@
 [
   {
     "Id": "surv1",
-    "Title": "Warehouse Key"
+    "Title": "Warehouse Key",
+    "Description": "Used to activate a Warehouse elevator."
   },
   {
     "Id": "surv2",
@@ -37,7 +38,8 @@
   },
   {
     "Id": "surv22",
-    "Title": "Master Battery"
+    "Title": "Master Battery",
+    "Description": "Used to power on large spaceships or stations."
   },
   {
     "Id": "surv25",

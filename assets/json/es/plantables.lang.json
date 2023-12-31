@@ -41,34 +41,42 @@
   },
   {
     "Id": "plant11",
-    "Title": "Plátano"
+    "Title": "Plátano",
+    "Description": "Un plátano fresco."
   },
   {
     "Id": "plant12",
-    "Title": "Arándano"
+    "Title": "Arándano",
+    "Description": "Un dulce arándano."
   },
   {
     "Id": "plant13",
-    "Title": "Naranja"
+    "Title": "Naranja",
+    "Description": "Una jugosa naranja."
   },
   {
     "Id": "plant14",
-    "Title": "Piña"
+    "Title": "Piña",
+    "Description": "Una jugosa piña."
   },
   {
     "Id": "plant15",
-    "Title": "Zanahoria"
+    "Title": "Zanahoria",
+    "Description": "Una nutritiva zanahoria."
   },
   {
     "Id": "plant16",
-    "Title": "Remolacha"
+    "Title": "Remolacha",
+    "Description": "Una nutritiva remolacha."
   },
   {
     "Id": "plant17",
-    "Title": "Tomate"
+    "Title": "Tomate",
+    "Description": "Un jugoso tomate."
   },
   {
     "Id": "plant18",
-    "Title": "Brócoli"
+    "Title": "Brócoli",
+    "Description": "Un nutritivo brócoli."
   }
 ]

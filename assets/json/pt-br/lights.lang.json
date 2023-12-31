@@ -25,10 +25,12 @@
   },
   {
     "Id": "light7",
-    "Title": "Farol"
+    "Title": "Farol",
+    "Description": "Faça-se a visibilidade! Conecte a um acionador para ligar e desligar. Alcance de luz ajustável."
   },
   {
     "Id": "light8",
-    "Title": "Holofote de Armazém"
+    "Title": "Holofote de Armazém",
+    "Description": "Faça-se a visibilidade! Conecte a um acionador para ligar e desligar. Alcance de luz ajustável."
   }
 ]

@@ -25,3 +25,8 @@ class SetLastPlatformIndex extends PersistToStorage {
 }
 
 class ToggleIntroComplete extends PersistToStorage {}
+
+class SetIsPatron extends PersistToStorage {
+  final bool newIsPatron;
+  SetIsPatron(this.newIsPatron);
+}

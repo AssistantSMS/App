@@ -1,14 +1,17 @@
 [
   {
     "Id": "bckt1",
-    "Title": "Balde de Água"
+    "Title": "Balde de Água",
+    "Description": "Encha-o com água para regar suas plantas."
   },
   {
     "Id": "bckt2",
-    "Title": "Balde de Água"
+    "Title": "Balde de Água",
+    "Description": "Balde com água."
   },
   {
     "Id": "bckt3",
-    "Title": "Balde Químico"
+    "Title": "Balde Químico",
+    "Description": "Balde com resíduos químicos."
   }
 ]

@@ -177,6 +177,7 @@
   },
   {
     "Id": "ware45",
-    "Title": "Interruptor general"
+    "Title": "Interruptor general",
+    "Description": "Para activar o desactivar cosas. El interruptor activa cualquier cosa a la que esté conectado, lo cual lo hace indispensable cuando quieres activar y desactivar cosas con un simple toque. Puede desactivar motores, controladores, propulsores, etc."
   }
 ]

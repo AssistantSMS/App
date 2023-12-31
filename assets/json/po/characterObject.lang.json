@@ -1,30 +1,37 @@
 [
   {
     "Id": "char1",
-    "Title": "Zielona kapsuła Totebota"
+    "Title": "Zielona kapsuła Totebota",
+    "Description": "Uderz kapsułę lub strzel do niej, by wypuścić bardzo wściekłego bota. Pomaluj boty na różne kolory – będą one atakować siebie nawzajem, zostawiając ciebie w spokoju."
   },
   {
     "Id": "char2",
-    "Title": "Kapsuła Haybota"
+    "Title": "Kapsuła Haybota",
+    "Description": "Uderz kapsułę lub strzel do niej, by wypuścić bardzo wściekłego bota. Pomaluj boty na różne kolory – będą one atakować siebie nawzajem, zostawiając ciebie w spokoju."
   },
   {
     "Id": "char3",
-    "Title": "Kapsuła Tapebota"
+    "Title": "Kapsuła Tapebota",
+    "Description": "Uderz kapsułę lub strzel do niej, by wypuścić bardzo wściekłego bota. Pomaluj boty na różne kolory – będą one atakować siebie nawzajem, zostawiając ciebie w spokoju."
   },
   {
     "Id": "char4",
-    "Title": "Czerwona kapsuła Tapebota"
+    "Title": "Czerwona kapsuła Tapebota",
+    "Description": "Uderz kapsułę lub strzel do niej, by wypuścić bardzo wściekłego bota. Pomaluj boty na różne kolory – będą one atakować siebie nawzajem, zostawiając ciebie w spokoju."
   },
   {
     "Id": "char5",
-    "Title": "Kapsuła Farmbota"
+    "Title": "Kapsuła Farmbota",
+    "Description": "Uderz kapsułę lub strzel do niej, by wypuścić bardzo wściekłego bota. Pomaluj boty na różne kolory – będą one atakować siebie nawzajem, zostawiając ciebie w spokoju."
   },
   {
     "Id": "char6",
-    "Title": "Kapsuła świetlika"
+    "Title": "Kapsuła świetlika",
+    "Description": "Uderz kapsułę lub strzel do niej, by wypuścić przyjaznego świetlika."
   },
   {
     "Id": "char7",
-    "Title": "Kapsuła aworka"
+    "Title": "Kapsuła aworka",
+    "Description": "Uderz kapsułę lub strzel do niej, by wypuścić przyjaznego aworka."
   }
 ]

@@ -1,14 +1,17 @@
 [
   {
     "Id": "bckt1",
-    "Title": "Cubo de agua"
+    "Title": "Cubo de agua",
+    "Description": "Llénalo de agua para regar las plantas."
   },
   {
     "Id": "bckt2",
-    "Title": "Cubo de agua"
+    "Title": "Cubo de agua",
+    "Description": "Un cubo con agua."
   },
   {
     "Id": "bckt3",
-    "Title": "Cubo de químicos"
+    "Title": "Cubo de químicos",
+    "Description": "Un cubo con desechos químicos."
   }
 ]

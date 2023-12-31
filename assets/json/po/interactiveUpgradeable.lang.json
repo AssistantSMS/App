@@ -1,242 +1,302 @@
 [
   {
     "Id": "interu1",
-    "Title": "Zawieszenie sportowe 1"
+    "Title": "Zawieszenie sportowe 1",
+    "Description": "Dodaje amortyzację wstrząsów i zapewnia stabilność. Dzięki niemu budowane pojazdy będą mniej podatne na wywracanie się. Nieduże, nieco sztywniejsze zawieszenie."
   },
   {
     "Id": "interu2",
-    "Title": "Zawieszenie sportowe 2"
+    "Title": "Zawieszenie sportowe 2",
+    "Description": "Dodaje amortyzację wstrząsów i zapewnia stabilność. Dzięki niemu budowane pojazdy będą mniej podatne na wywracanie się. Nieduże, nieco sztywniejsze zawieszenie."
   },
   {
     "Id": "interu3",
-    "Title": "Zawieszenie sportowe 3"
+    "Title": "Zawieszenie sportowe 3",
+    "Description": "Dodaje amortyzację wstrząsów i zapewnia stabilność. Dzięki niemu budowane pojazdy będą mniej podatne na wywracanie się. Nieduże, nieco sztywniejsze zawieszenie."
   },
   {
     "Id": "interu4",
-    "Title": "Zawieszenie sportowe 4"
+    "Title": "Zawieszenie sportowe 4",
+    "Description": "Dodaje amortyzację wstrząsów i zapewnia stabilność. Dzięki niemu budowane pojazdy będą mniej podatne na wywracanie się. Nieduże, nieco sztywniejsze zawieszenie."
   },
   {
     "Id": "interu5",
-    "Title": "Zawieszenie sportowe 5"
+    "Title": "Zawieszenie sportowe 5",
+    "Description": "Dodaje amortyzację wstrząsów i zapewnia stabilność. Dzięki niemu budowane pojazdy będą mniej podatne na wywracanie się. Nieduże, nieco sztywniejsze zawieszenie."
   },
   {
     "Id": "interu6",
-    "Title": "Zawieszenie terenowe 1"
+    "Title": "Zawieszenie terenowe 1",
+    "Description": "Dodaje amortyzację wstrząsów i zapewnia stabilność. Dzięki niemu budowane pojazdy będą mniej podatne na wywracanie się. Zawieszenie bardzo miękkie, idealne dla pojazdów terenowych."
   },
   {
     "Id": "interu7",
-    "Title": "Zawieszenie terenowe 2"
+    "Title": "Zawieszenie terenowe 2",
+    "Description": "Dodaje amortyzację wstrząsów i zapewnia stabilność. Dzięki niemu budowane pojazdy będą mniej podatne na wywracanie się. Zawieszenie bardzo miękkie, idealne dla pojazdów terenowych."
   },
   {
     "Id": "interu8",
-    "Title": "Zawieszenie terenowe 3"
+    "Title": "Zawieszenie terenowe 3",
+    "Description": "Dodaje amortyzację wstrząsów i zapewnia stabilność. Dzięki niemu budowane pojazdy będą mniej podatne na wywracanie się. Zawieszenie bardzo miękkie, idealne dla pojazdów terenowych."
   },
   {
     "Id": "interu9",
-    "Title": "Zawieszenie terenowe 4"
+    "Title": "Zawieszenie terenowe 4",
+    "Description": "Dodaje amortyzację wstrząsów i zapewnia stabilność. Dzięki niemu budowane pojazdy będą mniej podatne na wywracanie się. Zawieszenie bardzo miękkie, idealne dla pojazdów terenowych."
   },
   {
     "Id": "interu10",
-    "Title": "Zawieszenie terenowe 5"
+    "Title": "Zawieszenie terenowe 5",
+    "Description": "Dodaje amortyzację wstrząsów i zapewnia stabilność. Dzięki niemu budowane pojazdy będą mniej podatne na wywracanie się. Zawieszenie bardzo miękkie, idealne dla pojazdów terenowych."
   },
   {
     "Id": "interu11",
-    "Title": "Fotel kierowcy 1"
+    "Title": "Fotel kierowcy 1",
+    "Description": "Odpowiada za obrót łożysk w prawo i w lewo. Podłączony do silnika umożliwia sterowanie kierunkiem jazdy. Może być połączony z włącznikami uruchamianymi z fotela. Fotel kierowcy poz. 5 odblokowuje ustawienia sterowania poprzez wciskanie (E) podłączonych łożysk za pomocą łącznika."
   },
   {
     "Id": "interu12",
-    "Title": "Fotel kierowcy 2"
+    "Title": "Fotel kierowcy 2",
+    "Description": "Odpowiada za obrót łożysk w prawo i w lewo. Podłączony do silnika umożliwia sterowanie kierunkiem jazdy. Może być połączony z włącznikami uruchamianymi z fotela. Fotel kierowcy poz. 5 odblokowuje ustawienia sterowania poprzez wciskanie (E) podłączonych łożysk za pomocą łącznika."
   },
   {
     "Id": "interu13",
-    "Title": "Fotel kierowcy 3"
+    "Title": "Fotel kierowcy 3",
+    "Description": "Odpowiada za obrót łożysk w prawo i w lewo. Podłączony do silnika umożliwia sterowanie kierunkiem jazdy. Może być połączony z włącznikami uruchamianymi z fotela. Fotel kierowcy poz. 5 odblokowuje ustawienia sterowania poprzez wciskanie (E) podłączonych łożysk za pomocą łącznika."
   },
   {
     "Id": "interu14",
-    "Title": "Fotel kierowcy 4"
+    "Title": "Fotel kierowcy 4",
+    "Description": "Odpowiada za obrót łożysk w prawo i w lewo. Podłączony do silnika umożliwia sterowanie kierunkiem jazdy. Może być połączony z włącznikami uruchamianymi z fotela. Fotel kierowcy poz. 5 odblokowuje ustawienia sterowania poprzez wciskanie (E) podłączonych łożysk za pomocą łącznika."
   },
   {
     "Id": "interu15",
-    "Title": "Fotel kierowcy 5"
+    "Title": "Fotel kierowcy 5",
+    "Description": "Odpowiada za obrót łożysk w prawo i w lewo. Podłączony do silnika umożliwia sterowanie kierunkiem jazdy. Może być połączony z włącznikami uruchamianymi z fotela. Fotel kierowcy poz. 5 odblokowuje ustawienia sterowania poprzez wciskanie (E) podłączonych łożysk za pomocą łącznika."
   },
   {
     "Id": "interu16",
-    "Title": "Siedzenie kierowcy 1"
+    "Title": "Siedzenie kierowcy 1",
+    "Description": "Odpowiada za obrót łożysk w prawo i w lewo. Podłączony do silnika umożliwia sterowanie kierunkiem jazdy. Może być połączone z włącznikami uruchamianymi z siedzenia. Siedzenie kierowcy poz. 5 odblokowuje ustawienia sterowania poprzez wciskanie (E) podłączonych łożysk za pomocą łącznika."
   },
   {
     "Id": "interu17",
-    "Title": "Siedzenie kierowcy 2"
+    "Title": "Siedzenie kierowcy 2",
+    "Description": "Odpowiada za obrót łożysk w prawo i w lewo. Podłączone do silnika umożliwia sterowanie kierunkiem jazdy. Może być połączone z włącznikami uruchamianymi z siedzenia. Siedzenie kierowcy poz. 5 odblokowuje ustawienia sterowania poprzez wciskanie (E) podłączonych łożysk za pomocą łącznika."
   },
   {
     "Id": "interu18",
-    "Title": "Siedzenie kierowcy 3"
+    "Title": "Siedzenie kierowcy 3",
+    "Description": "Odpowiada za obrót łożysk w prawo i w lewo. Podłączone do silnika umożliwia sterowanie kierunkiem jazdy. Może być połączone z włącznikami uruchamianymi z siedzenia. Siedzenie kierowcy poz. 5 odblokowuje ustawienia sterowania poprzez wciskanie (E) podłączonych łożysk za pomocą łącznika."
   },
   {
     "Id": "interu19",
-    "Title": "Siedzenie kierowcy 4"
+    "Title": "Siedzenie kierowcy 4",
+    "Description": "Odpowiada za obrót łożysk w prawo i w lewo. Podłączone do silnika umożliwia sterowanie kierunkiem jazdy. Może być połączone z włącznikami uruchamianymi z siedzenia. Siedzenie kierowcy poz. 5 odblokowuje ustawienia sterowania poprzez wciskanie (E) podłączonych łożysk za pomocą łącznika."
   },
   {
     "Id": "interu20",
-    "Title": "Siedzenie kierowcy 5"
+    "Title": "Siedzenie kierowcy 5",
+    "Description": "Odpowiada za obrót łożysk w prawo i w lewo. Podłączone do silnika umożliwia sterowanie kierunkiem jazdy. Może być połączone z włącznikami uruchamianymi z siedzenia. Siedzenie kierowcy poz. 5 odblokowuje ustawienia sterowania poprzez wciskanie (E) podłączonych łożysk za pomocą łącznika."
   },
   {
     "Id": "interu21",
-    "Title": "Fotel 1"
+    "Title": "Fotel 1",
+    "Description": "Przydatny, kiedy nogi chcą odpocząć. Usiądź i odpoczywaj albo zamontuj go w swoim pojeździe, by zachęcić przyjaciół do wspólnej przejażdżki. Może być połączony z włącznikiem, który uruchamia pozostałe interaktywne części fotela."
   },
   {
     "Id": "interu22",
-    "Title": "Fotel 2"
+    "Title": "Fotel 2",
+    "Description": "Przydatny, kiedy nogi chcą odpocząć. Usiądź i odpoczywaj albo zamontuj go w swoim pojeździe, by zachęcić przyjaciół do wspólnej przejażdżki. Może być połączony z włącznikiem, który uruchamia pozostałe interaktywne części fotela."
   },
   {
     "Id": "interu23",
-    "Title": "Fotel 3"
+    "Title": "Fotel 3",
+    "Description": "Przydatny, kiedy nogi chcą odpocząć. Usiądź i odpoczywaj albo zamontuj go w swoim pojeździe, by zachęcić przyjaciół do wspólnej przejażdżki. Może być połączony z włącznikiem, który uruchamia pozostałe interaktywne części fotela."
   },
   {
     "Id": "interu24",
-    "Title": "Fotel 4"
+    "Title": "Fotel 4",
+    "Description": "Przydatny, kiedy nogi chcą odpocząć. Usiądź i odpoczywaj albo zamontuj go w swoim pojeździe, by zachęcić przyjaciół do wspólnej przejażdżki. Może być połączony z włącznikiem, który uruchamia pozostałe interaktywne części fotela."
   },
   {
     "Id": "interu25",
-    "Title": "Fotel 5"
+    "Title": "Fotel 5",
+    "Description": "Przydatny, kiedy nogi chcą odpocząć. Usiądź i odpoczywaj albo zamontuj go w swoim pojeździe, by zachęcić przyjaciół do wspólnej przejażdżki. Może być połączony z włącznikiem, który uruchamia pozostałe interaktywne części fotela."
   },
   {
     "Id": "interu26",
-    "Title": "Siedzenie 1"
+    "Title": "Siedzenie 1",
+    "Description": "Przydatne, kiedy nogi chcą odpocząć. Usiądź i odpoczywaj albo zamontuj je w swoim pojeździe, by zachęcić przyjaciół do wspólnej przejażdżki. Może być połączone z włącznikiem, który uruchamia pozostałe interaktywne części siedzenia."
   },
   {
     "Id": "interu27",
-    "Title": "Siedzenie 2"
+    "Title": "Siedzenie 2",
+    "Description": "Przydatne, kiedy nogi chcą odpocząć. Usiądź i odpoczywaj albo zamontuj je w swoim pojeździe, by zachęcić przyjaciół do wspólnej przejażdżki. Może być połączone z włącznikiem, który uruchamia pozostałe interaktywne części siedzenia."
   },
   {
     "Id": "interu28",
-    "Title": "Siedzenie 3"
+    "Title": "Siedzenie 3",
+    "Description": "Przydatne, kiedy nogi chcą odpocząć. Usiądź i odpoczywaj albo zamontuj je w swoim pojeździe, by zachęcić przyjaciół do wspólnej przejażdżki. Może być połączone z włącznikiem, który uruchamia pozostałe interaktywne części siedzenia."
   },
   {
     "Id": "interu29",
-    "Title": "Siedzenie 4"
+    "Title": "Siedzenie 4",
+    "Description": "Przydatne, kiedy nogi chcą odpocząć. Usiądź i odpoczywaj albo zamontuj je w swoim pojeździe, by zachęcić przyjaciół do wspólnej przejażdżki. Może być połączone z włącznikiem, który uruchamia pozostałe interaktywne części siedzenia."
   },
   {
     "Id": "interu30",
-    "Title": "Siedzenie 5"
+    "Title": "Siedzenie 5",
+    "Description": "Przydatne, kiedy nogi chcą odpocząć. Usiądź i odpoczywaj albo zamontuj je w swoim pojeździe, by zachęcić przyjaciół do wspólnej przejażdżki. Może być połączone z włącznikiem, który uruchamia pozostałe interaktywne części siedzenia."
   },
   {
     "Id": "interu31",
-    "Title": "Silnik spalinowy 1"
+    "Title": "Silnik spalinowy 1",
+    "Description": "Silnik pracujący ze stałą prędkością i regulowaną mocą. Idealnie nadaje się do napędzania pojazdów. Może być połączony z fotelem kierowcy lub włącznikiem. Ulepszenie pozwala zwiększyć liczbę punktów połączenia i zmniejszyć zużycie paliwa."
   },
   {
     "Id": "interu32",
-    "Title": "Silnik spalinowy 2"
+    "Title": "Silnik spalinowy 2",
+    "Description": "Silnik pracujący ze stałą prędkością i regulowaną mocą. Idealnie nadaje się do napędzania pojazdów. Może być połączony z fotelem kierowcy lub włącznikiem. Ulepszenie pozwala zwiększyć liczbę punktów połączenia i zmniejszyć zużycie paliwa."
   },
   {
     "Id": "interu33",
-    "Title": "Silnik spalinowy 3"
+    "Title": "Silnik spalinowy 3",
+    "Description": "Silnik pracujący ze stałą prędkością i regulowaną mocą. Idealnie nadaje się do napędzania pojazdów. Może być połączony z fotelem kierowcy lub włącznikiem. Ulepszenie pozwala zwiększyć liczbę punktów połączenia i zmniejszyć zużycie paliwa."
   },
   {
     "Id": "interu34",
-    "Title": "Silnik spalinowy 4"
+    "Title": "Silnik spalinowy 4",
+    "Description": "Silnik pracujący ze stałą prędkością i regulowaną mocą. Idealnie nadaje się do napędzania pojazdów. Może być połączony z fotelem kierowcy lub włącznikiem. Ulepszenie pozwala zwiększyć liczbę punktów połączenia i zmniejszyć zużycie paliwa."
   },
   {
     "Id": "interu35",
-    "Title": "Silnik spalinowy 5"
+    "Title": "Silnik spalinowy 5",
+    "Description": "Silnik pracujący ze stałą prędkością i regulowaną mocą. Idealnie nadaje się do napędzania pojazdów. Może być połączony z fotelem kierowcy lub włącznikiem. Ulepszenie pozwala zwiększyć liczbę punktów połączenia i zmniejszyć zużycie paliwa."
   },
   {
     "Id": "interu36",
-    "Title": "Silnik elektryczny 1"
+    "Title": "Silnik elektryczny 1",
+    "Description": "Napędza łożyska. Silnik pracujący ze stałą mocą i regulowaną prędkością. Słaby silnik pozwalający dostosować prędkość. Może być połączony z fotelem kierowcy lub włącznikiem. Ulepszenie pozwala zwiększyć liczbę punktów połączenia i zmniejszyć zużycie akumulatora."
   },
   {
     "Id": "interu37",
-    "Title": "Silnik elektryczny 2"
+    "Title": "Silnik elektryczny 2",
+    "Description": "Napędza łożyska. Silnik pracujący ze stałą mocą i regulowaną prędkością. Słaby silnik pozwalający dostosować prędkość. Może być połączony z fotelem kierowcy lub włącznikiem. Ulepszenie pozwala zwiększyć liczbę punktów połączenia i zmniejszyć zużycie akumulatora."
   },
   {
     "Id": "interu38",
-    "Title": "Silnik elektryczny 3"
+    "Title": "Silnik elektryczny 3",
+    "Description": "Napędza łożyska. Silnik pracujący ze stałą mocą i regulowaną prędkością. Słaby silnik pozwalający dostosować prędkość. Może być połączony z fotelem kierowcy lub włącznikiem. Ulepszenie pozwala zwiększyć liczbę punktów połączenia i zmniejszyć zużycie akumulatora."
   },
   {
     "Id": "interu39",
-    "Title": "Silnik elektryczny 4"
+    "Title": "Silnik elektryczny 4",
+    "Description": "Napędza łożyska. Silnik pracujący ze stałą mocą i regulowaną prędkością. Słaby silnik pozwalający dostosować prędkość. Może być połączony z fotelem kierowcy lub włącznikiem. Ulepszenie pozwala zwiększyć liczbę punktów połączenia i zmniejszyć zużycie akumulatora."
   },
   {
     "Id": "interu40",
-    "Title": "Silnik elektryczny 5"
+    "Title": "Silnik elektryczny 5",
+    "Description": "Napędza łożyska. Silnik pracujący ze stałą mocą i regulowaną prędkością. Słaby silnik pozwalający dostosować prędkość. Może być połączony z fotelem kierowcy lub włącznikiem. Ulepszenie pozwala zwiększyć liczbę punktów połączenia i zmniejszyć zużycie akumulatora."
   },
   {
     "Id": "interu41",
-    "Title": "Silnik rakietowy 1"
+    "Title": "Silnik rakietowy 1",
+    "Description": "Wystarczająca liczba silników sprawi, że pojazd wzbije się w powietrze. Aby uruchomić silnik, należy połączyć go z włącznikiem lub fotelem kierowcy. Ulepszenie pozwala zmniejszyć zużycie paliwa."
   },
   {
     "Id": "interu42",
-    "Title": "Silnik rakietowy 2"
+    "Title": "Silnik rakietowy 2",
+    "Description": "Wystarczająca liczba silników sprawi, że pojazd wzbije się w powietrze. Aby uruchomić silnik, należy połączyć go z włącznikiem lub fotelem kierowcy. Ulepszenie pozwala zmniejszyć zużycie paliwa."
   },
   {
     "Id": "interu43",
-    "Title": "Silnik rakietowy 3"
+    "Title": "Silnik rakietowy 3",
+    "Description": "Wystarczająca liczba silników sprawi, że pojazd wzbije się w powietrze. Aby uruchomić silnik, należy połączyć go z włącznikiem lub fotelem kierowcy. Ulepszenie pozwala zmniejszyć zużycie paliwa."
   },
   {
     "Id": "interu44",
-    "Title": "Silnik rakietowy 4"
+    "Title": "Silnik rakietowy 4",
+    "Description": "Wystarczająca liczba silników sprawi, że pojazd wzbije się w powietrze. Aby uruchomić silnik, należy połączyć go z włącznikiem lub fotelem kierowcy. Ulepszenie pozwala zmniejszyć zużycie paliwa."
   },
   {
     "Id": "interu45",
-    "Title": "Silnik rakietowy 5"
+    "Title": "Silnik rakietowy 5",
+    "Description": "Wystarczająca liczba silników sprawi, że pojazd wzbije się w powietrze. Aby uruchomić silnik, należy połączyć go z włącznikiem lub fotelem kierowcy. Ulepszenie pozwala zmniejszyć zużycie paliwa."
   },
   {
     "Id": "interu46",
-    "Title": "Programator 1"
+    "Title": "Programator 1",
+    "Description": "Umożliwia sekwencyjne obracanie się łożysk. Idealny do budowania ruchomych konstrukcji. Wymaga połączenia z łożyskami. Można go uruchomić, łącząc z fotelem kierowcy lub włącznikiem."
   },
   {
     "Id": "interu47",
-    "Title": "Programator 2"
+    "Title": "Programator 2",
+    "Description": "Umożliwia sekwencyjne obracanie się łożysk. Idealny do budowania ruchomych konstrukcji. Wymaga połączenia z łożyskami. Można go uruchomić, łącząc z fotelem kierowcy lub włącznikiem."
   },
   {
     "Id": "interu48",
-    "Title": "Programator 3"
+    "Title": "Programator 3",
+    "Description": "Umożliwia sekwencyjne obracanie się łożysk. Idealny do budowania ruchomych konstrukcji. Wymaga połączenia z łożyskami. Można go uruchomić, łącząc z fotelem kierowcy lub włącznikiem."
   },
   {
     "Id": "interu49",
-    "Title": "Programator 4"
+    "Title": "Programator 4",
+    "Description": "Umożliwia sekwencyjne obracanie się łożysk. Idealny do budowania ruchomych konstrukcji. Wymaga połączenia z łożyskami. Można go uruchomić, łącząc z fotelem kierowcy lub włącznikiem."
   },
   {
     "Id": "interu50",
-    "Title": "Programator 5"
+    "Title": "Programator 5",
+    "Description": "Umożliwia sekwencyjne obracanie się łożysk. Idealny do budowania ruchomych konstrukcji. Wymaga połączenia z łożyskami. Można go uruchomić, łącząc z fotelem kierowcy lub włącznikiem."
   },
   {
     "Id": "interu51",
-    "Title": "Czujnik 1"
+    "Title": "Czujnik 1",
+    "Description": "Wykrywa i uruchamia! Czujnik uruchamia połączone elementy, kiedy w jego zasięgu pojawi się jakiś obiekt. Jego zasięg równa się dziesięciu blokom. Może uruchomić wszystkie rodzaje silników, programator i inne elementy."
   },
   {
     "Id": "interu52",
-    "Title": "Czujnik 2"
+    "Title": "Czujnik 2",
+    "Description": "Wykrywa i uruchamia! Czujnik uruchamia połączone elementy, kiedy w jego zasięgu pojawi się jakiś obiekt. Jego zasięg równa się dziesięciu blokom. Może uruchomić wszystkie rodzaje silników, programator i inne elementy."
   },
   {
     "Id": "interu53",
-    "Title": "Czujnik 3"
+    "Title": "Czujnik 3",
+    "Description": "Wykrywa i uruchamia! Czujnik uruchamia połączone elementy, kiedy w jego zasięgu pojawi się jakiś obiekt. Jego zasięg równa się dziesięciu blokom. Może uruchomić wszystkie rodzaje silników, programator i inne elementy."
   },
   {
     "Id": "interu54",
-    "Title": "Czujnik 4"
+    "Title": "Czujnik 4",
+    "Description": "Wykrywa i uruchamia! Czujnik uruchamia połączone elementy, kiedy w jego zasięgu pojawi się jakiś obiekt. Jego zasięg równa się dziesięciu blokom. Może uruchomić wszystkie rodzaje silników, programator i inne elementy."
   },
   {
     "Id": "interu55",
-    "Title": "Czujnik 5"
+    "Title": "Czujnik 5",
+    "Description": "Wykrywa i uruchamia! Czujnik uruchamia połączone elementy, kiedy w jego zasięgu pojawi się jakiś obiekt. Jego zasięg równa się dziesięciu blokom. Może uruchomić wszystkie rodzaje silników, programator i inne elementy."
   },
   {
     "Id": "interu56",
-    "Title": "Tłok 1"
+    "Title": "Tłok 1",
+    "Description": "Wydłuża się i skraca! Połącz go z włącznikiem, aby uruchomić. Można także połączyć tłok z programatorem, aby wydłużał się i skracał sekwencyjnie. Idealny do tworzenia imponujących konstrukcji."
   },
   {
     "Id": "interu57",
-    "Title": "Tłok 2"
+    "Title": "Tłok 2",
+    "Description": "Wydłuża się i skraca! Połącz go z włącznikiem, aby uruchomić. Można także połączyć tłok z programatorem, aby wydłużał się i skracał sekwencyjnie. Idealny do tworzenia imponujących konstrukcji."
   },
   {
     "Id": "interu58",
-    "Title": "Tłok 3"
+    "Title": "Tłok 3",
+    "Description": "Wydłuża się i skraca! Połącz go z włącznikiem, aby uruchomić. Można także połączyć tłok z programatorem, aby wydłużał się i skracał sekwencyjnie. Idealny do tworzenia imponujących konstrukcji."
   },
   {
     "Id": "interu59",
-    "Title": "Tłok 4"
+    "Title": "Tłok 4",
+    "Description": "Wydłuża się i skraca! Połącz go z włącznikiem, aby uruchomić. Można także połączyć tłok z programatorem, aby wydłużał się i skracał sekwencyjnie. Idealny do tworzenia imponujących konstrukcji."
   },
   {
     "Id": "interu60",
-    "Title": "Tłok 5"
+    "Title": "Tłok 5",
+    "Description": "Wydłuża się i skraca! Połącz go z włącznikiem, aby uruchomić. Można także połączyć tłok z programatorem, aby wydłużał się i skracał sekwencyjnie. Idealny do tworzenia imponujących konstrukcji."
   }
 ]

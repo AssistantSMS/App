@@ -1,23 +1,28 @@
 [
   {
     "Id": "consu1",
-    "Title": "Nawóz"
+    "Title": "Nawóz",
+    "Description": "Sprawia, że rośliny rosną szybciej"
   },
   {
     "Id": "consu2",
-    "Title": "Sunshake"
+    "Title": "Sunshake",
+    "Description": "Spragnieni mechanicy uwielbiają zimny Sunshake"
   },
   {
     "Id": "consu3",
-    "Title": "Pizzoburger"
+    "Title": "Pizzoburger",
+    "Description": "Ulubione jedzenie mechaników. Maksymalnie podnosi wszystkie twoje wskaźniki."
   },
   {
     "Id": "consu4",
-    "Title": "Wegeburger"
+    "Title": "Wegeburger",
+    "Description": "Wegetariańska alternatywa Maksymalnie podnosi wszystkie twoje wskaźniki."
   },
   {
     "Id": "consu5",
-    "Title": "Ożywcza bagietka"
+    "Title": "Ożywcza bagietka",
+    "Description": "Nakarm pokonanych znajomych, by postawić ich na nogi i przywrócić do gry."
   },
   {
     "Id": "consu6",
@@ -25,6 +30,7 @@
   },
   {
     "Id": "consu7",
-    "Title": "Worek ziemi"
+    "Title": "Worek ziemi",
+    "Description": "Użyj ziemi, by zasadzić w niej nasiona."
   }
 ]

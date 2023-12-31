@@ -112,19 +112,26 @@ class _AppShellWidget extends State<AdaptiveAppShell>
       ),
     );
 
-    if (!isWindows) return matApp;
+    if (isDesktop) {
+      return MaterialApp(
+        theme: theme,
+        darkTheme: darkTheme,
+        debugShowCheckedModeBanner: false,
+        home: Scaffold(
+          appBar: WindowTitleBar(
+            title: 'Assistant for Scrap Mechanic',
+            iconPath: AppImage.assistantSMSWindowIcon,
+          ),
+          body: matApp,
+        ),
+      );
+    }
 
     return MaterialApp(
       theme: theme,
       darkTheme: darkTheme,
       debugShowCheckedModeBanner: false,
-      home: Scaffold(
-        appBar: WindowTitleBar(
-          title: 'Assistant for Scrap Mechanic',
-          iconPath: AppImage.assistantSMSWindowIcon,
-        ),
-        body: matApp,
-      ),
+      home: Scaffold(body: matApp),
     );
   }
 }

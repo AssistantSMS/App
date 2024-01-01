@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "Assistant for Scrap Mechanic"
-#define MyAppVersion "1.11.0"
+#define MyAppVersion "1.11.1"
 #define MyAppPublisher "AssistantApps"
 #define MyAppURL "https://scrapassistant.com/"
 #define MyAppExeName "assistantsms_app.exe"

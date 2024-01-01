@@ -15,6 +15,7 @@ class AppImage {
   static const String chestGold = base + 'chestGold.png';
   static const String upgradeButton = base + 'upgradeButton.png';
   static const String componentKit = base + 'componentKit.png';
+  static const String successForm = base + 'successForm.png';
 
   static const String whatIsNew = drawerFolder + 'whatIsNew.png';
   static const String twitter = drawerFolder + 'twitter.png';

@@ -89,6 +89,7 @@
   "privacyPolicy": "Política de privacidad",
   "termsAndConditions": "Términos y Condiciones",
   "legal": "Legal",
+  "thankYou": "¡Gracias!",
   "flatList": "Lista",
   "tree": "Árbol",
   "patrons": "Patrones",
@@ -172,5 +173,5 @@
   "foundIn": "Encontrado en",
   "home": "Inicio",
   "creative": "Creativo",
-  "hashCode": "363BC4E54E78140DC5737BE13B5097C9"
+  "hashCode": "BD07752DBFE217DF3991FFB60B947FB8"
 }

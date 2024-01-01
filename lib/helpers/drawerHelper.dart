@@ -73,7 +73,9 @@ List<Widget> getDrawerItems(context) {
     context,
     image: const CorrectlySizedImageFromIcon(icon: Icons.email),
     key: LocaleKey.feedback,
-    navigateToExternal: SMSExternalUrls.kurtLourensEmail,
+    onTap: (tapCtx) {
+      FeedbackWrapper.of(tapCtx).show();
+    },
   ));
 
   widgets.add(customDivider());
@@ -83,7 +85,7 @@ List<Widget> getDrawerItems(context) {
     context,
     image: const ListTileImage(partialPath: AppImage.assistantApps),
     key: LocaleKey.assistantApps,
-    onTap: () {
+    onTap: (_) {
       adaptiveBottomModalSheet(
         context,
         hasRoundedCorners: true,
@@ -99,13 +101,13 @@ List<Widget> getDrawerItems(context) {
 }
 
 Widget _drawerItem(
-  context, {
+  BuildContext context, {
   required Widget image,
   required LocaleKey key,
   Widget Function(BuildContext)? navigateTo,
   String? navigateToNamed,
   String? navigateToExternal,
-  void Function()? onTap,
+  void Function(BuildContext)? onTap,
 }) {
   return ListTile(
     key: Key('$image-${key.toString()}'),
@@ -127,7 +129,7 @@ Widget _drawerItem(
       } else if (navigateToExternal != null) {
         launchExternalURL(navigateToExternal);
       } else if (onTap != null) {
-        onTap();
+        onTap(context);
       }
     },
   );

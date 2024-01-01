@@ -1,7 +1,7 @@
 name: scrapmechanic_kurtlourens_com
 description: A companion app for Scrap Mechanic.
 publish_to: 'none'
-version: 1.11.0+55 # dart scripts\version_num_script.dart
+version: 1.11.1+56 # dart scripts\version_num_script.dart
 
 environment:
   sdk: '>=3.2.0 <4.0.0'
@@ -62,7 +62,7 @@ flutter_icons: ## flutter pub run flutter_launcher_icons:main
 msix_config: # https://pub.dev/documentation/msix/latest/
   display_name: Assistant for Scrap Mechanic
   publisher_display_name: AssistantApps
-  msix_version: 1.11.0.0
+  msix_version: 1.11.1.0
   identity_name:
   publisher: 
   logo_path: './assets/images/fullSizeIcon.png'

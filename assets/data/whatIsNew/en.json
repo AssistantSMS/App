@@ -1,5 +1,19 @@
 [
   {
+    "guid": "dfca2a34-9b20-4170-b8be-062eb965d441",
+    "appGuid": "dfe0dbc7-8df4-47fb-a5a5-49af1937c4e2",
+    "markdown": "- 🌐 Updated translations\n- 👽 Update dependencies\n-  ♻ Major refactor, upgrade to new AssistantApps library\n- 📱 More support for various screen sizes",
+    "buildName": "1.11.0",
+    "buildNumber": 55,
+    "platforms": [
+      0,
+      1,
+      2,
+      5
+    ],
+    "activeDate": "2024-01-05T00:20:00Z"
+  },
+  {
     "guid": "3a97995f-e1ae-4369-9c2a-2c7af3355763",
     "appGuid": "dfe0dbc7-8df4-47fb-a5a5-49af1937c4e2",
     "markdown": "- Fix creative item banners\n- Added items from challenge mode\n- Display if item is from creative or challenge mode \n\n_Submitted to App Stores 2022-07-20_\n\n",

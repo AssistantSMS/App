@@ -21,10 +21,10 @@ class AnalyticsService implements IAnalyticsService {
       try {
         analytics?.logEvent(name: key);
       } catch (ex) {
-        getLog().e("[Analytics]: $key----");
+        getLog().e("[Analytics]: $key ----");
       }
     } else {
-      getLog().v("[Analytics]: $key----");
+      getLog().v("[Analytics]: $key ----");
     }
   }
 }

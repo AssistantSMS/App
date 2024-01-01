@@ -100,6 +100,7 @@ class _AppShellWidget extends State<AdaptiveAppShell>
         buildCommit: appsCommit,
         currentLang: introViewModel.currentLanguage,
         isPatron: introViewModel.isPatron,
+        successImageOnFormComplete: AppImage.successForm,
       ),
       child: MaterialApp(
         title: 'Assistant for Scrap Mechanic',
